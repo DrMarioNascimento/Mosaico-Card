@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MOSAICO CARTA</title>
+  <meta name="description" content="Quatro fragmentos. Uma carta. A verdade só aparece inteira.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <section class="scene active" id="open">
+    <div class="wrap">
+      <div class="mosaic-mark" aria-hidden="true">
+        <span></span><span></span><span></span><span></span>
+      </div>
+      <p class="kicker">Jogo isolado</p>
+      <h1>MOSAICO<br>CARTA</h1>
+      <p class="lede">Quatro fragmentos. Uma carta. Nada entra no mosaico pela metade.</p>
+      <div class="actions">
+        <button id="go-rule" type="button">Abrir a apresentação</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="rule">
+    <div class="wrap">
+      <p class="kicker">A regra inteira</p>
+      <h2>O fato cabe na carta.<br>A interpretação, não.</h2>
+      <p class="lede">Você recebe pedaços. Só quando os quatro encaixam a carta existe. Aí você decide o que ela prova — e o que ela ainda não prova.</p>
+      <div class="actions">
+        <button id="go-deal" type="button">Receber os fragmentos</button>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="deal">
+    <div class="wrap card-stage">
+      <div>
+        <p class="kicker">O segundo envelope</p>
+        <h2>Monte a carta</h2>
+        <p class="note" id="hint"></p>
+        <div class="hand" id="hand"></div>
+      </div>
+      <div class="board" id="board" aria-label="Carta em montagem">
+        <div class="slots">
+          <div class="slot" data-index="0"></div>
+          <div class="slot" data-index="1"></div>
+          <div class="slot" data-index="2"></div>
+          <div class="slot" data-index="3"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="scene" id="judge">
+    <div class="wrap">
+      <p class="kicker">Depois do lacre</p>
+      <h2>O que esta carta permite concluir?</h2>
+      <p class="lede">A carta agora está inteira. Escolha a leitura que os quatro fragmentos sustentam.</p>
+      <div class="choices">
+        <button class="choice" type="button" data-answer="over">Alguém assinou agora e saiu pela porta da frente.</button>
+        <button class="choice" type="button" data-answer="fact">Havia uma instrução, um relógio parado, tinta recente e um envelope vazio.</button>
+        <button class="choice" type="button" data-answer="theft">O envelope vazio prova que o conteúdo foi roubado.</button>
+      </div>
+      <div class="reveal" id="verdict" hidden></div>
+      <div class="actions" style="margin-top:22px">
+        <button class="ghost" id="again" type="button">Montar de novo</button>
+      </div>
+    </div>
+  </section>
+
+  <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
+  <script src="game.js"></script>
+</body>
+</html>
