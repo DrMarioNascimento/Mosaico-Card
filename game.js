@@ -5,6 +5,7 @@ const MOEDAS = 12;
 const ORDEM = ["voce", "nara", "ivo"];
 const TURNO_S = 45;
 const TOAST_MS = 5200;
+const OVELHA_SRC = "ovelha.svg?v=foto";
 
 const CASOS = window.MC_CASOS || {};
 let casoId = "ovelha";
@@ -69,7 +70,7 @@ function revelarCompra(id, jogadorId, depois) {
   const msg = $("#flip-msg");
   const inner = $("#flip-inner");
   if (!stage || !front) { if (depois) depois(); return; }
-  front.innerHTML = "<small>" + p.marca + "</small><img class='ovelha-art' alt='' src='ovelha.svg'><p>" + p.texto + "</p>";
+  front.innerHTML = "<small>" + p.marca + "</small><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p>" + p.texto + "</p>";
   if (jogadorId === "voce") msg.textContent = "Voc\u00ea achou uma ovelha perdida, vale 4 den\u00e1rios de recompensa";
   else msg.textContent = NOMES[jogadorId] + " achou uma ovelha perdida!";
   if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
@@ -350,7 +351,7 @@ function render() {
   $("#hand").innerHTML = state.mao.length
     ? state.mao.map((id) => {
         const p = peca(id);
-        var art = eOvelha(id) ? "<img class='tile-art' alt='' src='ovelha.svg'>" : ((p.figura && FIGURAS[p.figura]) ? "<img class='tile-art' alt='' src='" + FIGURAS[p.figura] + "'>" : "");
+        var art = eOvelha(id) ? "<img class='tile-art' alt='' src='" + OVELHA_SRC + "'>" : ((p.figura && FIGURAS[p.figura]) ? "<img class='tile-art' alt='' src='" + FIGURAS[p.figura] + "'>" : "");
         return "<div class='tile'>" + art + "<small>" + p.marca + "</small><p>" + p.texto + "</p></div>";
       }).join("")
     : "<p class='log'>Nenhuma pista na mao.</p>";
