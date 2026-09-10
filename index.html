@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Mosaico Card — O Mercado. Jogo de cartas e pistas. Quatro verbos, doze moedas, três voltas.">
+  <meta name="description" content="Mosaico Card — O Mercado. Jogo de cartas e pistas.">
   <title>Mosaico Card — O Mercado</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,6 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="media.css">
+  <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css">
 </head>
 <body>
@@ -97,11 +98,12 @@
     </div>
   </section>
   <div id="coin-fly" class="coin-fly" hidden aria-hidden="true">
-    <i class="ghost g1"></i>
-    <i class="ghost g2"></i>
-    <i class="ghost g3"></i>
-    <i class="face"></i>
+    <div class="spin">
+      <i class="face a"></i>
+      <i class="face b"></i>
+    </div>
   </div>
+  <div id="coin-trail" aria-hidden="true"></div>
   <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
   <script src="assets.js"></script>
   <script src="game.js"></script>
