@@ -1,4 +1,4 @@
-const TESTE = true;
+const TESTE = false;
 const PRECO = { nova: 4, captura: 2, arriscar: 3 };
 const VOLTAS = 3;
 const MOEDAS = 12;
@@ -6,34 +6,28 @@ const ORDEM = ["voce", "nara", "ivo"];
 const TURNO_S = 45;
 const TOAST_MS = 5200;
 
-const PECAS = {
-  F1: { id: "F1", marca: "Porta", texto: "Nao use a porta da frente." },
-  F2: { id: "F2", marca: "Relogio", texto: "O relogio da sala marca 21h14 — parado." },
-  F3: { id: "F3", marca: "Tinta", texto: "A tinta da assinatura ainda manchava o dedo." },
-  F4: { id: "F4", marca: "Envelope", texto: "Havia um segundo envelope. Estava vazio." },
-  F5: { id: "F5", marca: "Mesa", texto: "Tres copos usados. Um lugar sem marca." },
-  F6: { id: "F6", marca: "Chave", texto: "A chave dos fundos estava do lado de dentro." },
-  F7: { id: "F7", marca: "Chegada", texto: "Ninguem viu o envelope chegar." },
-  F8: { id: "F8", marca: "Livro", texto: "A assinatura nao coincide com o livro de visitas." },
-  F9: { id: "F9", marca: "Ovelha", texto: "Você achou uma ovelha perdida, vale 4 denários de recompensa", figura: "ovelha" }
-};
+const CASOS = window.MC_CASOS || {};
+let casoId = "ovelha";
+let PECAS = {};
+let CAMPOS = [];
+
+function carregarCaso(id) {
+  const c = CASOS[id] || CASOS.ovelha;
+  casoId = c.id;
+  PECAS = c.pecas;
+  CAMPOS = c.campos;
+  const titulo = document.getElementById("caso-titulo");
+  if (titulo) titulo.textContent = c.titulo;
+  return c;
+}
+carregarCaso(casoId);
 
 const FIGURAS = window.MC_ASSETS || {};
-const CAMPOS = [
-  { id: "quem", rotulo: "Quem deixou a carta?", resposta: "nao-se-sabe", opcoes: [
-    { id: "anfitriao", txt: "O anfitriao" }, { id: "convidado", txt: "Um convidado" }, { id: "nao-se-sabe", txt: "Os fatos nao identificam quem" }
-  ]},
-  { id: "vazio", rotulo: "O envelope vazio prova o que?", resposta: "ausencia", opcoes: [
-    { id: "furto", txt: "Que o conteudo foi roubado" }, { id: "ausencia", txt: "Que nao havia conteudo ali" }, { id: "recusa", txt: "Que alguem recusou a carta" }
-  ]},
-  { id: "tinta", rotulo: "A tinta recente prova o que?", resposta: "recente", opcoes: [
-    { id: "recente", txt: "Que a assinatura e recente" }, { id: "quem", txt: "Quem assinou" }, { id: "fuga", txt: "Que houve fuga pela frente" }
-  ]}
-];
 const NOMES = { voce: "Você", nara: "Nara", ivo: "Ivo" };
 const state = {
   moedas: MOEDAS, mao: [], monte: [], balaio: [], rivais: { nara: [], ivo: [] },
-  travados: {}, vez: 0, voltasFeitas: { voce: 0, nara: 0, ivo: 0 }, verbo: null, log: ""
+  travados: {}, vez: 0, voltasFeitas: { voce: 0, nara: 0, ivo: 0 }, verbo: null, log: "",
+  pagas: {}
 };
 let timerId = null;
 let timerLeft = TURNO_S;
@@ -55,6 +49,14 @@ function quem() { return ORDEM[state.vez % ORDEM.length]; }
 function suaVez() { return quem() === "voce"; }
 function acabou() { return ORDEM.every((id) => state.voltasFeitas[id] >= VOLTAS); }
 function say(msg) { state.log = msg; }
+
+function pagarRecompensa(id) {
+  const p = peca(id);
+  if (!p || !p.recompensa || state.pagas[id]) return;
+  state.pagas[id] = true;
+  state.moedas += p.recompensa;
+  say((state.log ? state.log + " · " : "") + "Recompensa: +" + p.recompensa + " denários.");
+}
 
 function paintTimer() {
   const el = $("#tempo");
@@ -166,6 +168,7 @@ function playCoinIntro() {
 }
 
 function startDeal() {
+  carregarCaso(casoId);
   const baralho = shuffle(Object.keys(PECAS));
   state.moedas = MOEDAS;
   state.mao = baralho.slice(0, 2);
@@ -173,9 +176,11 @@ function startDeal() {
   state.monte = baralho.slice(6);
   state.balaio = [];
   state.travados = {};
+  state.pagas = {};
   state.vez = 0;
   state.voltasFeitas = { voce: 0, nara: 0, ivo: 0 };
   state.verbo = null;
+  state.mao.forEach(pagarRecompensa);
   say("A vez é sua. O cronômetro corre acima dos verbos.");
   render();
   show("deal");
@@ -201,7 +206,8 @@ function comprar() {
   const id = state.monte.shift();
   state.moedas -= PRECO.nova;
   state.mao.push(id);
-  say("Voce comprou " + peca(id).marca + " · -4.");
+  pagarRecompensa(id);
+  say((state.log ? state.log + " · " : "") + "Você comprou " + peca(id).marca + " · -4.");
   passarVez();
 }
 function capturar(quemId, pecaId) {
@@ -211,14 +217,15 @@ function capturar(quemId, pecaId) {
   state.rivais[quemId] = mao.filter((id) => id !== pecaId);
   state.moedas -= PRECO.captura;
   state.mao.push(pecaId);
-  say("Voce capturou " + peca(pecaId).marca + " de " + NOMES[quemId] + " · -2.");
+  pagarRecompensa(pecaId);
+  say("Você capturou " + peca(pecaId).marca + " de " + NOMES[quemId] + " · -2.");
   passarVez();
 }
 function consignar(pecaId) {
   if (!state.mao.includes(pecaId)) return;
   state.mao = state.mao.filter((id) => id !== pecaId);
   state.balaio.push({ id: pecaId, dono: "voce" });
-  say("Voce consignou " + peca(pecaId).marca + " no balaio.");
+  say("Você consignou " + peca(pecaId).marca + " no balaio.");
   passarVez();
 }
 function arriscar(campoId, valor) {
@@ -291,13 +298,14 @@ function htmlPainel() {
 }
 function fechar() {
   stopTimer();
-  let txt = "<p class='lede'>Voce sai com " + state.mao.length + " pistas e " + state.moedas + " moedas.</p><div class='reveal'>";
-  CAMPOS.forEach((c) => {
-    const t = state.travados[c.id];
-    const certa = c.opcoes.find((o) => o.id === c.resposta).txt;
-    if (!t) txt += "<p><b>" + c.rotulo + "</b> ficou aberto. Os fatos sustentam: " + certa + ".</p>";
-    else if (t.ok) txt += "<p><b>" + c.rotulo + "</b> voce travou certo.</p>";
-    else txt += "<p><b>" + c.rotulo + "</b> ficou preso a leitura errada. Os fatos sustentam: " + certa + ".</p>";
+  const c = CASOS[casoId];
+  let txt = "<p class='lede'>" + (c ? c.titulo + " · " + c.fonte + ". " : "") + "Você sai com " + state.mao.length + " pistas e " + state.moedas + " denários.</p><div class='reveal'>";
+  CAMPOS.forEach((campo) => {
+    const t = state.travados[campo.id];
+    const certa = campo.opcoes.find((o) => o.id === campo.resposta).txt;
+    if (!t) txt += "<p><b>" + campo.rotulo + "</b> ficou aberto. Os fatos sustentam: " + certa + ".</p>";
+    else if (t.ok) txt += "<p><b>" + campo.rotulo + "</b> você travou certo.</p>";
+    else txt += "<p><b>" + campo.rotulo + "</b> ficou preso à leitura errada. Os fatos sustentam: " + certa + ".</p>";
   });
   txt += "</div>";
   $("#score").innerHTML = txt;
@@ -342,10 +350,25 @@ function render() {
     btn.addEventListener("click", function () { arriscar(btn.dataset.campo, btn.dataset.valor); });
   });
 }
+function pintarCasos() {
+  const box = $("#casos");
+  if (!box) return;
+  box.innerHTML = Object.keys(CASOS).map((id) => {
+    const c = CASOS[id];
+    return "<button class='caso-btn' type='button' data-caso='" + id + "'><small>" + c.fonte + "</small>" + c.titulo + "</button>";
+  }).join("");
+  box.querySelectorAll("[data-caso]").forEach((btn) => {
+    btn.addEventListener("click", function () {
+      carregarCaso(btn.dataset.caso);
+      show("rule");
+    });
+  });
+}
 document.addEventListener("DOMContentLoaded", function () {
+  pintarCasos();
   $("#go-rule").addEventListener("click", function () { show("rule"); });
   $("#go-deal").addEventListener("click", startDeal);
-  $("#again").addEventListener("click", startDeal);
+  $("#again").addEventListener("click", function () { show("open"); pintarCasos(); });
   document.querySelectorAll("#verbos button").forEach((btn) => {
     btn.addEventListener("click", function () { abrirVerbo(btn.dataset.verbo); });
   });
