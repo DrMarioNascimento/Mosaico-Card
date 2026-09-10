@@ -27,11 +27,12 @@ const NOMES = { voce: "Você", nara: "Nara", ivo: "Ivo" };
 const state = {
   moedas: MOEDAS, mao: [], monte: [], balaio: [], rivais: { nara: [], ivo: [] },
   travados: {}, vez: 0, voltasFeitas: { voce: 0, nara: 0, ivo: 0 }, verbo: null, log: "",
-  pagas: {}
+  pagas: {}, pistasAbertas: true
 };
 let timerId = null;
 let timerLeft = TURNO_S;
 let toastTimer = null;
+let flipTimer = null;
 const $ = (sel) => document.querySelector(sel);
 function show(id) {
   document.querySelectorAll(".scene").forEach((el) => el.classList.toggle("active", el.id === id));
@@ -49,6 +50,10 @@ function quem() { return ORDEM[state.vez % ORDEM.length]; }
 function suaVez() { return quem() === "voce"; }
 function acabou() { return ORDEM.every((id) => state.voltasFeitas[id] >= VOLTAS); }
 function say(msg) { state.log = msg; }
+function eOvelha(id) {
+  const p = peca(id);
+  return !!(p && ((p.id === "F4" && casoId === "ovelha") || /ovelha/i.test(p.marca || "") || /ovelha perdida/i.test(p.texto || "")));
+}
 
 function pagarRecompensa(id) {
   const p = peca(id);
@@ -56,6 +61,39 @@ function pagarRecompensa(id) {
   state.pagas[id] = true;
   state.moedas += p.recompensa;
   say((state.log ? state.log + " · " : "") + "Recompensa: +" + p.recompensa + " denários.");
+}
+
+function revelarCompra(id, jogadorId, depois) {
+  if (!eOvelha(id)) {
+    if (depois) depois();
+    return;
+  }
+  const p = peca(id);
+  const stage = $("#flip-stage");
+  const front = $("#flip-front");
+  const msg = $("#flip-msg");
+  const inner = $("#flip-inner");
+  if (!stage || !front) {
+    if (depois) depois();
+    return;
+  }
+  front.innerHTML = "<small>" + p.marca + "</small><div class='ovelha-mark' aria-hidden='true'>🐑</div><p>" + p.texto + "</p>";
+  if (jogadorId === "voce") {
+    msg.textContent = "Você achou uma ovelha perdida, vale 4 denários de recompensa";
+  } else {
+    msg.textContent = NOMES[jogadorId] + " achou uma ovelha perdida!";
+  }
+  if (inner) {
+    inner.style.animation = "none";
+    void inner.offsetWidth;
+    inner.style.animation = "";
+  }
+  stage.hidden = false;
+  if (flipTimer) clearTimeout(flipTimer);
+  flipTimer = setTimeout(function () {
+    stage.hidden = true;
+    if (depois) depois();
+  }, 3200);
 }
 
 function paintTimer() {
@@ -167,21 +205,26 @@ function playCoinIntro() {
   }, 2480);
 }
 
+function idOvelha() {
+  return Object.keys(PECAS).find((id) => eOvelha(id));
+}
+
 function startDeal() {
   carregarCaso(casoId);
-  const baralho = shuffle(Object.keys(PECAS));
+  const ovelha = idOvelha();
+  const outros = shuffle(Object.keys(PECAS).filter((id) => id !== ovelha));
   state.moedas = MOEDAS;
-  state.mao = baralho.slice(0, 2);
-  state.rivais = { nara: baralho.slice(2, 4), ivo: baralho.slice(4, 6) };
-  state.monte = baralho.slice(6);
+  state.mao = outros.slice(0, 2);
+  state.rivais = { nara: outros.slice(2, 4), ivo: outros.slice(4, 6) };
+  state.monte = ovelha ? [ovelha].concat(outros.slice(6)) : outros.slice(6);
   state.balaio = [];
   state.travados = {};
   state.pagas = {};
   state.vez = 0;
   state.voltasFeitas = { voce: 0, nara: 0, ivo: 0 };
   state.verbo = null;
-  state.mao.forEach(pagarRecompensa);
-  say("A vez é sua. O cronômetro corre acima dos verbos.");
+  state.pistasAbertas = true;
+  say("A vez é sua. O cronômetro corre acima dos verbos. A ovelha está no monte.");
   render();
   show("deal");
   startTimer();
@@ -206,9 +249,13 @@ function comprar() {
   const id = state.monte.shift();
   state.moedas -= PRECO.nova;
   state.mao.push(id);
-  pagarRecompensa(id);
-  say((state.log ? state.log + " · " : "") + "Você comprou " + peca(id).marca + " · -4.");
-  passarVez();
+  revelarCompra(id, "voce", function () {
+    pagarRecompensa(id);
+    say((state.log ? state.log + " · " : "") + "Você comprou " + peca(id).marca + " · -4.");
+    passarVez();
+    render();
+  });
+  render();
 }
 function capturar(quemId, pecaId) {
   if (state.moedas < PRECO.captura) return say("Sem 2 moedas para capturar.");
@@ -241,15 +288,22 @@ function jogarRival() {
   const id = quem();
   if (id === "voce" || acabou()) return;
   const mao = state.rivais[id];
+  if (state.monte.length && (eOvelha(state.monte[0]) || Math.random() < 0.6)) {
+    const nova = state.monte.shift();
+    mao.push(nova);
+    revelarCompra(nova, id, function () {
+      say(NOMES[id] + " comprou uma pista do monte.");
+      passarVez();
+      render();
+    });
+    render();
+    return;
+  }
   if (state.balaio.length && Math.random() < 0.45) {
     const item = state.balaio.shift();
     mao.push(item.id);
     if (item.dono === "voce") state.moedas += 2;
     say(NOMES[id] + " levou " + peca(item.id).marca + " do balaio." + (item.dono === "voce" ? " Voce recebe 2." : ""));
-  } else if (state.monte.length && Math.random() < 0.6) {
-    const nova = state.monte.shift();
-    mao.push(nova);
-    say(NOMES[id] + " comprou uma pista do monte.");
   } else if (mao.length) {
     const pecaId = mao[0];
     state.rivais[id] = mao.filter((x) => x !== pecaId);
@@ -311,6 +365,16 @@ function fechar() {
   $("#score").innerHTML = txt;
   show("judge");
 }
+function pintarLeque() {
+  const box = $("#leque");
+  if (!box) return;
+  const n = Math.min(7, state.monte.length);
+  const mid = (n - 1) / 2;
+  box.innerHTML = Array.from({ length: n }, (_, i) => {
+    const rot = ((i - mid) * 8).toFixed(1);
+    return "<i class='carta-costa' style='transform:rotate(" + rot + "deg)'></i>";
+  }).join("");
+}
 function render() {
   const atual = quem();
   const vezEl = $("#vez");
@@ -323,6 +387,10 @@ function render() {
   }
   $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + " · " + state.voltasFeitas[id] + "/" + VOLTAS + "</li>").join("");
   $("#log").textContent = state.log;
+  const box = $("#pistas-box");
+  const chev = $("#pistas-chev");
+  if (box) box.classList.toggle("fechado", !state.pistasAbertas);
+  if (chev) chev.textContent = state.pistasAbertas ? "FECHAR ▾" : "ABRIR ▸";
   $("#hand").innerHTML = state.mao.length
     ? state.mao.map((id) => {
         const p = peca(id);
@@ -330,6 +398,7 @@ function render() {
         return "<div class='tile'>" + art + "<small>" + p.marca + "</small><p>" + p.texto + "</p></div>";
       }).join("")
     : "<p class='log'>Nenhuma pista na mao.</p>";
+  pintarLeque();
   document.querySelectorAll("#verbos button").forEach((btn) => {
     btn.classList.toggle("ligado", state.verbo === btn.dataset.verbo);
     btn.disabled = !suaVez();
@@ -372,6 +441,13 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("#verbos button").forEach((btn) => {
     btn.addEventListener("click", function () { abrirVerbo(btn.dataset.verbo); });
   });
+  const toggle = $("#pistas-toggle");
+  if (toggle) {
+    toggle.addEventListener("click", function () {
+      state.pistasAbertas = !state.pistasAbertas;
+      render();
+    });
+  }
   const salaBtn = $("#btn-sala");
   const salaPanel = $("#sala-panel");
   const salaFechar = $("#sala-fechar");
