@@ -48,7 +48,7 @@
         <li><b>Comprar · 4</b> Pista nova do monte.</li>
         <li><b>Consignar no balaio</b> Só recebe 2 se alguém levar.</li>
       </ul>
-      <p class="lede">Doze moedas. Três voltas. Ordem: você, Nara, Ivo. Cronômetro desligado neste build.</p>
+      <p class="lede">Doze denários de prata. Três voltas. Ordem: você, Nara, Ivo. O cronômetro da jogada corre no tabuleiro.</p>
       <div class="actions">
         <button id="go-deal" type="button">Começar</button>
       </div>
@@ -61,11 +61,7 @@
           <div class="mc-outer"><div class="mc-inner">MC</div></div>
           <span class="mark-name">Mosaico Card</span>
         </div>
-        <div class="scene-copy">
-          <small>O segundo envelope</small>
-          <strong id="vez">Vez de você</strong>
-        </div>
-        <div class="purse" id="purse"></div>
+        <p class="scene-title">O segundo envelope</p>
       </header>
       <ol class="ordem" id="ordem"></ol>
       <p class="log" id="log"></p>
@@ -73,6 +69,24 @@
         <p class="kicker">Suas pistas</p>
         <div class="hand" id="hand"></div>
       </section>
+      <div class="status-grid" id="status-grid">
+        <div class="status-cell" id="cell-vez">
+          <small>Vez</small>
+          <strong id="vez">Você</strong>
+        </div>
+        <div class="status-cell" id="cell-tempo">
+          <small>Tempo da jogada</small>
+          <strong id="tempo">0:45</strong>
+        </div>
+        <div class="status-cell cell-sala">
+          <small>Sala</small>
+          <button type="button" id="btn-sala" class="sala-btn">Mestre</button>
+        </div>
+        <div class="status-cell cell-saldo">
+          <small>Saldo</small>
+          <div class="purse" id="purse"></div>
+        </div>
+      </div>
       <div class="verbos" id="verbos">
         <button type="button" data-verbo="arriscar">Arriscar</button>
         <button type="button" data-verbo="capturar">Capturar</button>
@@ -105,6 +119,15 @@
     </div>
   </div>
   <div id="coin-trail" aria-hidden="true"></div>
+  <div id="bag-toast" class="bag-toast" hidden>
+    <small>Bolsa da partida</small>
+    <p>Você tem 12 denários de prata na sua bolsa para a partida</p>
+  </div>
+  <aside id="sala-panel" class="sala-panel" hidden>
+    <p class="kicker">Mestre de sala</p>
+    <p>Espaço reservado ao mestre da sala: convite da mesa, ordem dos jogadores e encerramento.</p>
+    <button type="button" id="sala-fechar" class="ghost slim">Fechar</button>
+  </aside>
   <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
   <script src="assets.js"></script>
   <script src="game.js"></script>
