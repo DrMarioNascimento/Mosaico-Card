@@ -58,12 +58,13 @@ function dropStamp(x, y, i) {
   s.className = "coin-stamp" + (i % 2 ? " b" : "");
   s.style.left = x + "px";
   s.style.top = y + "px";
-  s.style.setProperty("--rot", ((i * 23) % 50 - 25) + "deg");
-  s.style.width = (26 + (i % 3) * 4) + "px";
-  s.style.height = s.style.width;
+  s.style.setProperty("--rot", ((i * 17) % 46 - 23) + "deg");
+  const size = Math.max(16, 34 - i * 1.1);
+  s.style.width = size + "px";
+  s.style.height = size + "px";
   trail.appendChild(s);
-  setTimeout(function () { s.classList.add("fade"); }, 520 + i * 40);
-  setTimeout(function () { s.remove(); }, 1500 + i * 40);
+  setTimeout(function () { s.classList.add("fade"); }, 700 + i * 28);
+  setTimeout(function () { s.remove(); }, 1700 + i * 28);
 }
 
 function playCoinIntro() {
@@ -81,25 +82,37 @@ function playCoinIntro() {
   fly.style.setProperty("--end", Math.max(22, box.width) + "px");
   void fly.offsetWidth;
   fly.classList.add("rise");
+
   setTimeout(function () {
     fly.classList.remove("rise");
+    void fly.offsetWidth;
     fly.classList.add("home");
-    const x0 = window.innerWidth / 2;
-    const y0 = window.innerHeight * 0.44;
-    const x1 = box.left + box.width / 2;
-    const y1 = box.top + box.height / 2;
-    for (let i = 0; i < 9; i += 1) {
-      const t = (i + 1) / 10;
-      setTimeout(function () {
-        dropStamp(x0 + (x1 - x0) * t, y0 + (y1 - y0) * t, i);
-      }, t * 820);
+    let n = 0;
+    let lastX = null;
+    let lastY = null;
+    const started = performance.now();
+    function sample() {
+      const now = performance.now() - started;
+      const r = fly.getBoundingClientRect();
+      const x = r.left + r.width / 2;
+      const y = r.top + r.height / 2;
+      const moved = lastX === null || Math.hypot(x - lastX, y - lastY) > 18;
+      if (moved && n < 16) {
+        dropStamp(x, y, n);
+        lastX = x;
+        lastY = y;
+        n += 1;
+      }
+      if (now < 860 && n < 16) requestAnimationFrame(sample);
     }
+    requestAnimationFrame(sample);
   }, 1550);
+
   setTimeout(function () {
     fly.hidden = true;
     fly.classList.remove("home", "rise");
     dest.classList.add("on");
-  }, 2450);
+  }, 2480);
 }
 
 function startDeal() {
