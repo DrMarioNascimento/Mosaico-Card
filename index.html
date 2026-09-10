@@ -4,7 +4,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>MOSAICO CARTA — O Mercado</title>
-  <meta name="description" content="Comprar. Capturar. Arriscar. A carta só vale o que você pagou para ter.">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,9 +13,9 @@
 <body>
   <section class="scene active" id="open">
     <div class="wrap">
-      <p class="kicker">Jogo isolado · a banca</p>
+      <p class="kicker">Jogo isolado · teste</p>
       <h1>O MERCADO</h1>
-      <p class="lede">Não se monta a carta no ar. Compra-se o que ninguém viu, captura-se o que está na mão alheia, arrisca-se uma resposta antes da hora.</p>
+      <p class="lede">Cada personagem tem a sua vez. Neste teste o cronômetro está desligado.</p>
       <div class="actions">
         <button id="go-rule" type="button">Como se joga</button>
       </div>
@@ -24,17 +23,17 @@
   </section>
   <section class="scene" id="rule">
     <div class="wrap">
-      <p class="kicker">Três verbos · três ações</p>
-      <h2>A carteira decide o dossiê.</h2>
+      <p class="kicker">A vez · as pistas · os quatro botões</p>
+      <h2>Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
       <ul class="verbs">
-        <li><b>Comprar · 4</b> Uma peça nova do monte. Ninguém a tinha.</li>
-        <li><b>Capturar · 2</b> Tira a peça de outro dossiê. Ela muda de mão. Não se clona.</li>
-        <li><b>Arriscar · 3</b> Trava um campo agora. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
-        <li><b>Consignar</b> Põe no balaio. Só recebe 2 se alguém levar. Se ninguém levar, perdeu a peça e a moeda.</li>
+        <li><b>Arriscar · 3</b> Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
+        <li><b>Capturar · 2</b> Tira a pista de outro dossiê. Ela muda de mão.</li>
+        <li><b>Comprar · 4</b> Pista nova do monte.</li>
+        <li><b>Consignar no balaio</b> Só recebe 2 se alguém levar.</li>
       </ul>
-      <p class="lede">Doze moedas. Três ações. Depois a mesa pergunta o que os fatos permitem concluir.</p>
+      <p class="lede">Doze moedas. Três voltas. Ordem: você, Nara, Ivo.</p>
       <div class="actions">
-        <button id="go-deal" type="button">Sentar na banca</button>
+        <button id="go-deal" type="button">Começar o teste</button>
       </div>
     </div>
   </section>
@@ -42,23 +41,24 @@
     <div class="wrap market">
       <header class="bar">
         <div>
-          <p class="kicker">O segundo envelope</p>
-          <h2>O que o envelope vazio prova?</h2>
+          <p class="kicker">O segundo envelope · teste sem cronômetro</p>
+          <h2 id="vez">Vez de você</h2>
         </div>
         <div class="purse" id="purse"></div>
       </header>
-      <p class="note" id="hint"></p>
+      <ol class="ordem" id="ordem"></ol>
       <p class="log" id="log"></p>
-      <div class="stalls">
-        <article class="stall" id="stall-monte"></article>
-        <article class="stall" id="stall-balaio"></article>
-        <article class="stall" id="stall-rivais"></article>
-      </div>
-      <div class="hand-block">
-        <p class="kicker">Seu dossiê</p>
+      <section class="pistas-box">
+        <p class="kicker">Suas pistas</p>
         <div class="hand" id="hand"></div>
+      </section>
+      <div class="verbos" id="verbos">
+        <button type="button" data-verbo="arriscar">Arriscar</button>
+        <button type="button" data-verbo="capturar">Capturar</button>
+        <button type="button" data-verbo="comprar">Comprar</button>
+        <button type="button" data-verbo="consignar">Consignar no balaio</button>
       </div>
-      <div class="risk-block" id="risk"></div>
+      <div class="painel" id="painel" hidden></div>
     </div>
   </section>
   <section class="scene" id="judge">
@@ -67,7 +67,7 @@
       <h2>O que você conseguiu sustentar?</h2>
       <div id="score"></div>
       <div class="actions" style="margin-top:22px">
-        <button class="ghost" id="again" type="button">Abrir outra banca</button>
+        <button class="ghost" id="again" type="button">Outro teste</button>
       </div>
     </div>
   </section>
