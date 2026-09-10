@@ -1,36 +1,31 @@
-# MOSAICO CARTA
+# MOSAICO CARTA — O Mercado
 
-Jogo isolado. Não depende do Dragon, da mesa, do Firebase nem dos casos anteriores.
+Jogo isolado. O centro não é montar a carta: é a banca.
 
-> Quatro fragmentos. Uma carta. A verdade só aparece inteira.
+> Comprar. Capturar. Arriscar.
 
 ## O que este protótipo é
 
-Uma apresentação jogável da carta:
+Uma mesa curta do mercado de pistas, sem Firebase, sem telão e sem os casos do Dragon.
 
-1. abertura com o mosaico de quatro pedras
-2. a regra em uma frase
-3. montagem dos quatro fragmentos
-4. lacre
-5. julgamento: fato × interpretação
+- **Comprar · 4** — peça nova do monte
+- **Capturar · 2** — tira a peça de outro dossiê; não clona
+- **Arriscar · 3** — trava um campo; acerto devolve a moeda; erro prende a resposta
+- **Consignar** — peça no balaio; crédito só se alguém levar
 
-O primeiro caso, **O Segundo Envelope**, existe só aqui.
+Doze moedas. Três ações. Dois rivais na mesa. Caso próprio: **O Segundo Envelope**.
 
-## O que foi herdado — e o que não foi
+## O que não veio
 
-Herdado, só o princípio: um fato nasce partido; a carta só vale inteira; fato não é interpretação.
+Não veio a montagem 2×2 da carta. Não veio a Casa da Costa, o Carro-Forte, o QR nem o Mestre.
 
-Não veio a mesa multiplayer, o telão, o mercado, as lanternas, a Casa da Costa nem o Carro-Forte.
+Os preços e o teto de ações seguem o Captura consolidado no Dragon (mercado da Casa / noite do Carro-Forte).
 
 ## Abrir
 
-Abra `index.html` no navegador.
+`index.html` no navegador.
 
-Para publicar no GitHub Pages: Settings → Pages → Deploy from branch `main` `/`.
-
-Endereço esperado:
-
-https://drmarionascimento.github.io/Mosaico-Card/
+Pages, quando ligado: https://drmarionascimento.github.io/Mosaico-Card/
 
 ## Autoria
 
