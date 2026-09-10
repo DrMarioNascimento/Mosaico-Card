@@ -12,8 +12,11 @@ const PECAS = {
   F5: { id: "F5", marca: "Mesa", texto: "Tres copos usados. Um lugar sem marca." },
   F6: { id: "F6", marca: "Chave", texto: "A chave dos fundos estava do lado de dentro." },
   F7: { id: "F7", marca: "Chegada", texto: "Ninguem viu o envelope chegar." },
-  F8: { id: "F8", marca: "Livro", texto: "A assinatura nao coincide com o livro de visitas." }
+  F8: { id: "F8", marca: "Livro", texto: "A assinatura nao coincide com o livro de visitas." },
+  F9: { id: "F9", marca: "Ovelha", texto: "Uma ovelha marcada. Nao era de ninguem da casa.", figura: "ovelha" }
 };
+
+const FIGURAS = window.MC_ASSETS || {};
 
 const CAMPOS = [
   {
@@ -98,7 +101,7 @@ function startDeal() {
   state.vez = 0;
   state.voltasFeitas = { voce: 0, nara: 0, ivo: 0 };
   state.verbo = null;
-  say("Teste: a vez passa sem cronometro. Embaixo estao as suas pistas e os quatro verbos.");
+  say("A vez passa sem cronometro. Embaixo estao as suas pistas e os quatro verbos.");
   render();
   show("deal");
 }
@@ -246,9 +249,11 @@ function render() {
   const atual = quem();
   $("#vez").textContent = "Vez de " + NOMES[atual].toLowerCase();
   $("#purse").innerHTML =
-    "<span>" + state.moedas + " moedas</span>" +
-    "<span>" + state.voltasFeitas.voce + "/" + VOLTAS + " voltas</span>" +
-    "<span>sem cronometro</span>";
+    "<div class='stash'>" +
+      "<div class='stash-art' aria-hidden='true'><i class='wallet'></i><i class='coin'></i></div>" +
+      "<b>" + state.moedas + "</b>" +
+    "</div>" +
+    "<span>" + state.voltasFeitas.voce + "/" + VOLTAS + "</span>";
   $("#ordem").innerHTML = ORDEM.map((id) =>
     "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + "</li>"
   ).join("");
@@ -256,7 +261,10 @@ function render() {
   $("#hand").innerHTML = state.mao.length
     ? state.mao.map((id) => {
         const p = peca(id);
-        return "<div class='tile'><small>" + p.marca + "</small><p>" + p.texto + "</p></div>";
+        var art = (p.figura && FIGURAS[p.figura])
+          ? "<img class='tile-art' alt='' src='" + FIGURAS[p.figura] + "'>"
+          : "";
+        return "<div class='tile'>" + art + "<small>" + p.marca + "</small><p>" + p.texto + "</p></div>";
       }).join("")
     : "<p class='log'>Nenhuma pista na mao.</p>";
   document.querySelectorAll("#verbos button").forEach((btn) => {
