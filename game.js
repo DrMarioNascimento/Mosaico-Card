@@ -310,7 +310,7 @@ function render() {
   const purse = $("#purse");
   if (purse) {
     purse.innerHTML =
-      "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='wallet'></i><i class='coin'></i></div><b>" +
+      "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin'></i></div><b>" +
       state.moedas + "</b></div>";
   }
   $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + " · " + state.voltasFeitas[id] + "/" + VOLTAS + "</li>").join("");
