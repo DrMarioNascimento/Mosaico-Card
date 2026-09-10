@@ -2,20 +2,26 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
   <title>MOSAICO CARTA — O Mercado</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Outfit:wght@400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <section class="scene active" id="open">
     <div class="wrap">
-      <p class="kicker">Jogo isolado · teste</p>
+      <header class="mobile-topbar">
+        <div class="brand">
+          <small>Mosaico Carta</small>
+          <strong>O Mercado</strong>
+        </div>
+      </header>
+      <p class="kicker">Jogo de cartas e pistas</p>
       <h1>O MERCADO</h1>
-      <p class="lede">Cada personagem tem a sua vez. Neste teste o cronômetro está desligado.</p>
+      <p class="lede">Cada personagem tem a sua vez. Quatro verbos. Doze moedas. O fato cabe na carta; a interpretação, não.</p>
       <div class="actions">
         <button id="go-rule" type="button">Como se joga</button>
       </div>
@@ -23,6 +29,12 @@
   </section>
   <section class="scene" id="rule">
     <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand">
+          <small>Mosaico Carta</small>
+          <strong>A regra</strong>
+        </div>
+      </header>
       <p class="kicker">A vez · as pistas · os quatro botões</p>
       <h2>Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
       <ul class="verbs">
@@ -33,16 +45,16 @@
       </ul>
       <p class="lede">Doze moedas. Três voltas. Ordem: você, Nara, Ivo.</p>
       <div class="actions">
-        <button id="go-deal" type="button">Começar o teste</button>
+        <button id="go-deal" type="button">Começar</button>
       </div>
     </div>
   </section>
   <section class="scene" id="deal">
     <div class="wrap market">
-      <header class="bar">
-        <div>
-          <p class="kicker">O segundo envelope · teste sem cronômetro</p>
-          <h2 id="vez">Vez de você</h2>
+      <header class="mobile-topbar">
+        <div class="brand">
+          <small>O segundo envelope</small>
+          <strong id="vez">Vez de você</strong>
         </div>
         <div class="purse" id="purse"></div>
       </header>
@@ -63,11 +75,16 @@
   </section>
   <section class="scene" id="judge">
     <div class="wrap">
-      <p class="kicker">A banca fechou</p>
+      <header class="mobile-topbar">
+        <div class="brand">
+          <small>A banca fechou</small>
+          <strong>Leitura</strong>
+        </div>
+      </header>
       <h2>O que você conseguiu sustentar?</h2>
       <div id="score"></div>
       <div class="actions" style="margin-top:22px">
-        <button class="ghost" id="again" type="button">Outro teste</button>
+        <button class="ghost" id="again" type="button">Jogar de novo</button>
       </div>
     </div>
   </section>
