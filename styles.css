@@ -151,10 +151,11 @@ body {
 }
 .stash-art .coin {
   position: absolute;
-  left: 66%;
-  top: 22%;
-  width: 23px;
-  height: 23px;
+  left: 68%;
+  top: auto;
+  bottom: 1px;
+  width: 25px;
+  height: 25px;
   display: block;
   border-radius: 50%;
   background: radial-gradient(circle at 32% 28%, #f4efe3, #c4b48a 52%, #7a6a48);
@@ -169,6 +170,16 @@ body {
   height: auto;
   margin: 0 0 8px;
   filter: drop-shadow(0 4px 8px #0006);
+}
+.casos { display: grid; gap: 10px; margin: 0 0 18px; }
+.caso-btn { text-align: left; }
+.caso-btn small {
+  display: block;
+  letter-spacing: .16em;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: var(--accent);
+  font-weight: 800;
 }
 .kicker {
   letter-spacing: .22em;
