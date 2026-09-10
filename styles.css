@@ -131,8 +131,8 @@ body {
 .stash { display: flex; align-items: center; gap: 8px; }
 .stash-art {
   position: relative;
-  width: 86px;
-  height: 56px;
+  width: 96px;
+  height: 60px;
   flex: 0 0 auto;
   overflow: visible;
 }
@@ -141,8 +141,8 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 86px;
-  height: 54px;
+  width: 96px;
+  height: 58px;
   display: block;
   background: url("bolsa.svg") center / contain no-repeat;
   border-radius: 0;
@@ -151,10 +151,10 @@ body {
 }
 .stash-art .coin {
   position: absolute;
-  left: 61%;
-  top: 26%;
-  width: 18px;
-  height: 18px;
+  left: 71%;
+  top: 29%;
+  width: 15px;
+  height: 15px;
   display: block;
   border-radius: 50%;
   background: radial-gradient(circle at 32% 28%, #f4efe3, #c4b48a 52%, #7a6a48);
