@@ -9,11 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=bib1">
-  <link rel="stylesheet" href="mc-mark.css?v=bib1">
+  <link rel="stylesheet" href="styles.css?v=bib2">
+  <link rel="stylesheet" href="mc-mark.css?v=bib2">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css">
+  <link rel="stylesheet" href="cards.css?v=bib2">
 </head>
 <body>
   <section class="scene active" id="open">
@@ -67,8 +68,15 @@
       </header>
       <ol class="ordem" id="ordem"></ol>
       <p class="log" id="log"></p>
-      <section class="pistas-box">
-        <p class="kicker">Suas pistas</p>
+      <section class="pistas-box" id="pistas-box">
+        <div class="leque-wrap">
+          <small>Monte</small>
+          <div class="leque" id="leque"></div>
+        </div>
+        <button type="button" class="pistas-toggle" id="pistas-toggle">
+          <span class="kicker" style="margin:0">Suas pistas</span>
+          <span class="chev" id="pistas-chev">FECHAR ▾</span>
+        </button>
         <div class="hand" id="hand"></div>
       </section>
       <div class="status-grid" id="status-grid">
@@ -114,6 +122,15 @@
       </div>
     </div>
   </section>
+  <div id="flip-stage" class="flip-stage" hidden>
+    <div class="flip-card">
+      <div class="flip-inner" id="flip-inner">
+        <div class="flip-back"></div>
+        <div class="flip-front" id="flip-front"></div>
+      </div>
+    </div>
+    <p class="flip-msg" id="flip-msg"></p>
+  </div>
   <div id="coin-fly" class="coin-fly" hidden aria-hidden="true">
     <div class="spin">
       <i class="face a"></i>
@@ -132,7 +149,7 @@
   </aside>
   <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
   <script src="assets.js"></script>
-  <script src="cases.js?v=bib1"></script>
-  <script src="game.js?v=bib1"></script>
+  <script src="cases.js?v=bib2"></script>
+  <script src="game.js?v=bib2"></script>
 </body>
 </html>
