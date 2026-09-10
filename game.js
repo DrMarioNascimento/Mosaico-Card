@@ -90,6 +90,28 @@ function acabou() {
 
 function say(msg) { state.log = msg; }
 
+function playCoinIntro() {
+  const fly = $("#coin-fly");
+  const dest = document.querySelector(".stash-art .coin");
+  if (!fly || !dest) return;
+  dest.classList.remove("on");
+  fly.hidden = false;
+  fly.classList.remove("go");
+  const box = dest.getBoundingClientRect();
+  fly.style.setProperty("--tx", (box.left + box.width / 2) + "px");
+  fly.style.setProperty("--ty", (box.top + box.height / 2) + "px");
+  fly.style.setProperty("--end", box.width + "px");
+  void fly.offsetWidth;
+  fly.classList.add("go");
+  const done = function () {
+    fly.hidden = true;
+    fly.classList.remove("go");
+    dest.classList.add("on");
+  };
+  fly.addEventListener("animationend", done, { once: true });
+  setTimeout(done, 1900);
+}
+
 function startDeal() {
   const baralho = shuffle(Object.keys(PECAS));
   state.moedas = MOEDAS;
@@ -104,6 +126,7 @@ function startDeal() {
   say("A vez passa sem cronometro. Embaixo estao as suas pistas e os quatro verbos.");
   render();
   show("deal");
+  requestAnimationFrame(playCoinIntro);
 }
 
 function passarVez() {
