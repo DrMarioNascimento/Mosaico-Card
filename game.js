@@ -3,6 +3,8 @@ const PRECO = { nova: 4, captura: 2, arriscar: 3 };
 const VOLTAS = 3;
 const MOEDAS = 12;
 const ORDEM = ["voce", "nara", "ivo"];
+const TURNO_S = 45;
+const TOAST_MS = 5200;
 
 const PECAS = {
   F1: { id: "F1", marca: "Porta", texto: "Nao use a porta da frente." },
@@ -28,11 +30,14 @@ const CAMPOS = [
     { id: "recente", txt: "Que a assinatura e recente" }, { id: "quem", txt: "Quem assinou" }, { id: "fuga", txt: "Que houve fuga pela frente" }
   ]}
 ];
-const NOMES = { voce: "Voce", nara: "Nara", ivo: "Ivo" };
+const NOMES = { voce: "Você", nara: "Nara", ivo: "Ivo" };
 const state = {
   moedas: MOEDAS, mao: [], monte: [], balaio: [], rivais: { nara: [], ivo: [] },
   travados: {}, vez: 0, voltasFeitas: { voce: 0, nara: 0, ivo: 0 }, verbo: null, log: ""
 };
+let timerId = null;
+let timerLeft = TURNO_S;
+let toastTimer = null;
 const $ = (sel) => document.querySelector(sel);
 function show(id) {
   document.querySelectorAll(".scene").forEach((el) => el.classList.toggle("active", el.id === id));
@@ -50,6 +55,51 @@ function quem() { return ORDEM[state.vez % ORDEM.length]; }
 function suaVez() { return quem() === "voce"; }
 function acabou() { return ORDEM.every((id) => state.voltasFeitas[id] >= VOLTAS); }
 function say(msg) { state.log = msg; }
+
+function paintTimer() {
+  const el = $("#tempo");
+  const cell = $("#cell-tempo");
+  if (!el) return;
+  const m = Math.floor(timerLeft / 60);
+  const s = String(timerLeft % 60).padStart(2, "0");
+  el.textContent = m + ":" + s;
+  if (cell) cell.classList.toggle("urgente", timerLeft <= 10);
+}
+function stopTimer() {
+  if (timerId) clearInterval(timerId);
+  timerId = null;
+}
+function startTimer() {
+  stopTimer();
+  timerLeft = TURNO_S;
+  paintTimer();
+  timerId = setInterval(function () {
+    timerLeft = Math.max(0, timerLeft - 1);
+    paintTimer();
+    if (timerLeft === 0) {
+      stopTimer();
+      if (suaVez()) say("O tempo da jogada acabou. Escolha um verbo ou a vez segue no próximo lance.");
+      render();
+    }
+  }, 1000);
+}
+
+function showBagToast() {
+  const el = $("#bag-toast");
+  if (!el) return;
+  if (toastTimer) clearTimeout(toastTimer);
+  el.hidden = false;
+  el.classList.remove("out");
+  el.classList.add("in");
+  toastTimer = setTimeout(function () {
+    el.classList.remove("in");
+    el.classList.add("out");
+    setTimeout(function () {
+      el.hidden = true;
+      el.classList.remove("out");
+    }, 450);
+  }, TOAST_MS);
+}
 
 function dropStamp(x, y, i) {
   const trail = $("#coin-trail");
@@ -126,20 +176,23 @@ function startDeal() {
   state.vez = 0;
   state.voltasFeitas = { voce: 0, nara: 0, ivo: 0 };
   state.verbo = null;
-  say("A vez passa sem cronometro. Embaixo estao as suas pistas e os quatro verbos.");
+  say("A vez é sua. O cronômetro corre acima dos verbos.");
   render();
   show("deal");
+  startTimer();
+  showBagToast();
   requestAnimationFrame(playCoinIntro);
 }
 
 function passarVez() {
   state.voltasFeitas[quem()] += 1;
   state.verbo = null;
-  if (acabou()) { render(); setTimeout(fechar, 600); return; }
+  if (acabou()) { stopTimer(); render(); setTimeout(fechar, 600); return; }
   state.vez += 1;
   while (state.voltasFeitas[quem()] >= VOLTAS) state.vez += 1;
   state.log = (state.log ? state.log + " · " : "") + "Vez de " + NOMES[quem()].toLowerCase() + ".";
   render();
+  startTimer();
   if (!suaVez()) setTimeout(jogarRival, 700);
 }
 function comprar() {
@@ -237,6 +290,7 @@ function htmlPainel() {
   return "";
 }
 function fechar() {
+  stopTimer();
   let txt = "<p class='lede'>Voce sai com " + state.mao.length + " pistas e " + state.moedas + " moedas.</p><div class='reveal'>";
   CAMPOS.forEach((c) => {
     const t = state.travados[c.id];
@@ -251,11 +305,15 @@ function fechar() {
 }
 function render() {
   const atual = quem();
-  $("#vez").textContent = "Vez de " + NOMES[atual].toLowerCase();
-  $("#purse").innerHTML =
-    "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='wallet'></i><i class='coin'></i></div><b>" +
-    state.moedas + "</b></div><span>" + state.voltasFeitas.voce + "/" + VOLTAS + "</span>";
-  $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + "</li>").join("");
+  const vezEl = $("#vez");
+  if (vezEl) vezEl.textContent = NOMES[atual];
+  const purse = $("#purse");
+  if (purse) {
+    purse.innerHTML =
+      "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='wallet'></i><i class='coin'></i></div><b>" +
+      state.moedas + "</b></div>";
+  }
+  $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + " · " + state.voltasFeitas[id] + "/" + VOLTAS + "</li>").join("");
   $("#log").textContent = state.log;
   $("#hand").innerHTML = state.mao.length
     ? state.mao.map((id) => {
@@ -291,4 +349,15 @@ document.addEventListener("DOMContentLoaded", function () {
   document.querySelectorAll("#verbos button").forEach((btn) => {
     btn.addEventListener("click", function () { abrirVerbo(btn.dataset.verbo); });
   });
+  const salaBtn = $("#btn-sala");
+  const salaPanel = $("#sala-panel");
+  const salaFechar = $("#sala-fechar");
+  if (salaBtn && salaPanel) {
+    salaBtn.addEventListener("click", function () {
+      salaPanel.hidden = !salaPanel.hidden;
+    });
+  }
+  if (salaFechar && salaPanel) {
+    salaFechar.addEventListener("click", function () { salaPanel.hidden = true; });
+  }
 });
