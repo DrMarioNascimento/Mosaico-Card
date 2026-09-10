@@ -151,10 +151,10 @@ body {
 }
 .stash-art .coin {
   position: absolute;
-  left: 71%;
-  top: 29%;
-  width: 15px;
-  height: 15px;
+  left: 66%;
+  top: 22%;
+  width: 23px;
+  height: 23px;
   display: block;
   border-radius: 50%;
   background: radial-gradient(circle at 32% 28%, #f4efe3, #c4b48a 52%, #7a6a48);

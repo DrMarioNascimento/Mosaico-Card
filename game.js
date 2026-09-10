@@ -15,7 +15,7 @@ const PECAS = {
   F6: { id: "F6", marca: "Chave", texto: "A chave dos fundos estava do lado de dentro." },
   F7: { id: "F7", marca: "Chegada", texto: "Ninguem viu o envelope chegar." },
   F8: { id: "F8", marca: "Livro", texto: "A assinatura nao coincide com o livro de visitas." },
-  F9: { id: "F9", marca: "Ovelha", texto: "Uma ovelha marcada. Nao era de ninguem da casa.", figura: "ovelha" }
+  F9: { id: "F9", marca: "Ovelha", texto: "Você achou uma ovelha perdida, vale 4 denários de recompensa", figura: "ovelha" }
 };
 
 const FIGURAS = window.MC_ASSETS || {};
