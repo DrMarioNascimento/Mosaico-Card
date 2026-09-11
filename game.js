@@ -392,7 +392,7 @@
     if (!eOvelha(id)) { if (depois) depois(); return; }
     const item = peca(id), stage = $("#flip-stage"), front = $("#flip-front"), msg = $("#flip-msg"), inner = $("#flip-inner");
     if (!stage || !front) { if (depois) depois(); return; }
-    front.innerHTML = "<small>" + esc(item.marca) + "</small><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p>" + esc(item.texto) + "</p>";
+    front.innerHTML = "<div class='ovelha-chamada'><span>Você encontrou</span><strong>OVELHA PERDIDA</strong></div><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p class='ovelha-valor'>Vale 6 denários</p>";
     msg.textContent = jogador === idJogadorLocal() ? "Você achou a ovelha. Recebe 6 denários e a carta sai do jogo." : (NOMES[jogador] || "Alguém") + " achou a ovelha.";
     if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
     stage.hidden = false;
