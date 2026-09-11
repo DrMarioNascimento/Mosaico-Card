@@ -139,6 +139,7 @@ function playCoinIntro() {
   const dest = document.querySelector(".stash-art .coin");
   const trail = $("#coin-trail");
   if (!fly || !dest) return;
+  document.body.classList.add("coin-intro-lock");
   dest.classList.remove("on");
   if (trail) trail.innerHTML = "";
   fly.hidden = false;
@@ -170,6 +171,7 @@ function playCoinIntro() {
     fly.hidden = true;
     fly.classList.remove("home", "rise");
     dest.classList.add("on");
+    document.body.classList.remove("coin-intro-lock");
   }, 2480);
 }
 function idOvelha() { return Object.keys(PECAS).find((id) => eOvelha(id)); }
@@ -191,9 +193,10 @@ function startDeal() {
   say("A vez \u00e9 sua. O cron\u00f4metro corre acima dos verbos. A ovelha est\u00e1 no monte.");
   render();
   show("deal");
+  window.scrollTo(0, 0);
   startTimer();
   showBagToast();
-  requestAnimationFrame(playCoinIntro);
+  requestAnimationFrame(function () { requestAnimationFrame(playCoinIntro); });
 }
 function passarVez() {
   state.voltasFeitas[quem()] += 1;

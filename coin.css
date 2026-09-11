@@ -45,18 +45,19 @@
   animation: coin-tilt .85s linear forwards;
 }
 @keyframes coin-rise {
-  0%   { top: 78%; width: 22px; height: 22px; filter: blur(4px) brightness(.55); }
-  55%  { top: 46%; width: 176px; height: 176px; filter: blur(0) brightness(1); }
-  100% { top: 44%; width: 168px; height: 168px; filter: none; }
+  0%   { top: 70%; width: 22px; height: 22px; filter: blur(4px) brightness(.55); }
+  55%  { top: 43%; width: 138px; height: 138px; filter: blur(0) brightness(1); }
+  100% { top: 41%; width: 132px; height: 132px; filter: none; }
 }
 @keyframes coin-flip {
   from { transform: rotateY(0deg); }
   to   { transform: rotateY(1080deg); }
 }
 @keyframes coin-home {
-  from { left: 50%; top: 44%; width: 168px; height: 168px; }
+  from { left: 50%; top: 41%; width: 132px; height: 132px; }
   to   { left: var(--tx); top: var(--ty); width: var(--end); height: var(--end); }
 }
+.coin-intro-lock { overflow:hidden; }
 @keyframes coin-tilt {
   from { transform: rotateY(1080deg) rotate(0deg); }
   to   { transform: rotateY(1260deg) rotate(40deg); }

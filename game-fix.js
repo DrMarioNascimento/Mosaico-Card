@@ -82,9 +82,10 @@
       : nOvelhas() + " ovelha(s) no monte, no meio das pistas."));
     render();
     show("deal");
+    window.scrollTo(0, 0);
     startTimer();
     showBagToast();
-    requestAnimationFrame(playCoinIntro);
+    requestAnimationFrame(function () { requestAnimationFrame(playCoinIntro); });
     var coin = document.querySelector(".stash-art .coin");
     if (coin) coin.classList.add("on");
     if (window.MC_GAME && window.MC_GAME.publicarEstado) window.MC_GAME.publicarEstado("deal");

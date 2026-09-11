@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="mc-mark.css?v=3d1">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
-  <link rel="stylesheet" href="coin.css?v=on">
+  <link rel="stylesheet" href="coin.css?v=central1">
   <link rel="stylesheet" href="cards.css?v=mesa3d2">
   <link rel="stylesheet" href="sala.css?v=ident1">
 </head>
@@ -153,6 +153,17 @@
         <ol class="ordem" id="ordem"></ol>
       </details>
       <p class="log" id="log"></p>
+      <div class="status-grid" id="status-grid">
+        <div class="status-cell cell-saldo">
+          <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
+          <div class="purse" id="purse"></div>
+        </div>
+        <div class="status-cell" id="cell-tempo">
+          <small>Tempo da jogada</small>
+          <strong id="tempo">0:45</strong>
+          <span class="vez-inline">Vez: <b id="vez">Você</b></span>
+        </div>
+      </div>
       <section class="monte-box" id="monte-box">
         <div class="leque-wrap">
           <div class="area-heading"><span>Coletivo</span><strong>Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
@@ -166,17 +177,6 @@
         </button>
         <div class="hand" id="hand"></div>
       </section>
-      <div class="status-grid" id="status-grid">
-        <div class="status-cell cell-saldo">
-          <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
-          <div class="purse" id="purse"></div>
-        </div>
-        <div class="status-cell" id="cell-tempo">
-          <small>Tempo da jogada</small>
-          <strong id="tempo">0:45</strong>
-          <span class="vez-inline">Vez: <b id="vez">Você</b></span>
-        </div>
-      </div>
       <div class="verbos" id="verbos">
         <button type="button" data-verbo="arriscar">Arriscar</button>
         <button type="button" data-verbo="capturar">Capturar</button>
@@ -278,9 +278,9 @@
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>
-  <script src="game.js?v=mesa3d2"></script>
+  <script src="game.js?v=central1"></script>
   <script src="game-sala.js?v=sala3"></script>
   <script src="game-ovelha6.js?v=mesa3d2"></script>
-  <script src="game-fix.js?v=2"></script>
+  <script src="game-fix.js?v=central1"></script>
 </body>
 </html>
