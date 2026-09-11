@@ -13,9 +13,9 @@
   <link rel="stylesheet" href="mc-mark.css?v=foto">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
-  <link rel="stylesheet" href="coin.css">
+  <link rel="stylesheet" href="coin.css?v=on">
   <link rel="stylesheet" href="cards.css?v=foto-real">
-  <link rel="stylesheet" href="sala.css?v=sala2">
+  <link rel="stylesheet" href="sala.css?v=sala4">
 </head>
 <body>
   <section class="scene active" id="open">
@@ -28,7 +28,7 @@
       </header>
       <p class="kicker">Casos da Bíblia</p>
       <h1>O MERCADO</h1>
-      <p class="lede">Escolha o caso. Depois escolha a porta: abrir a mesa, entrar, telão ou ensaio neste aparelho.</p>
+      <p class="lede">A mesa escolhe o caso na lista. Depois abre a porta: mesa, entrada, telão ou ensaio.</p>
       <div class="casos" id="casos"></div>
       <div class="portas">
         <button type="button" id="btn-abrir-mesa">Abrir uma mesa</button>
@@ -104,7 +104,7 @@
       <h2>Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
       <ul class="verbs">
         <li><b>Arriscar · 3</b> Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
-        <li><b>Capturar · 2</b> Tira a pista de outro dossiê. Ela muda de mão. A ovelha não pode ser capturada.</li>
+        <li><b>Capturar · 2</b> Tira a pista de outro dossiê. A ovelha não pode ser capturada.</li>
         <li><b>Comprar · 4</b> Pista nova do monte. A ovelha não cobra e paga 6.</li>
         <li><b>Consignar no balaio</b> Só recebe 2 se alguém levar.</li>
       </ul>
@@ -225,11 +225,12 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="firebase.js?v=sala2"></script>
-  <script src="sala.js?v=sala2"></script>
+  <script src="sala.js?v=sala3"></script>
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="game.js?v=ovelha6"></script>
   <script src="game-sala.js?v=sala2"></script>
   <script src="game-ovelha6.js?v=1"></script>
+  <script src="game-fix.js?v=1"></script>
 </body>
 </html>
