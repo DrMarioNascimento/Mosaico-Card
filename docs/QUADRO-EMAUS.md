@@ -30,4 +30,6 @@ Esses itens continuam abertos na V2 e exigem validação de jogo; não foram pre
 
 ## Separação de modos
 
-O botão **Caso da ovelha** continua como demonstração da animação e da recompensa. Ele não define as quantidades nem as regras do quadro Emaús. O motor seleciona regras declarativamente pelo `modo` do caso.
+O botão **Caso da ovelha** continua como demonstração da animação e da recompensa. Nas partidas econômicas, o mesmo elemento funciona como bônus embaralhado: uma ovelha para 1–2 jogadores, duas para 3–4 e três para 5–6. Essa escala existia no código, mas não aparece numericamente nas consolidações consultadas.
+
+O quadro Emaús V2 é explicitamente sem moeda e sem captura. Por isso, a ovelha que paga denários não foi inserida nele: adaptar esse bônus a um quadro sem economia continua sendo uma decisão de design aberta.

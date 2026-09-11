@@ -15,7 +15,7 @@ A identidade visual foi preservada: fundo petróleo mais claro, cartas marfim co
 | Cronômetros divergentes | Snapshot compartilha `turnoTerminaEm`. |
 | Sobrescrita concorrente | Publicação usa transação e `turnoId` crescente. |
 | Cascata de patches | Regras especiais foram absorvidas; dois arquivos de patch foram removidos. |
-| Ovelha misturada aos casos | Isolada como demonstração e garantida apenas nesse modo. |
+| Ovelha previsível | Primeira compra garantida apenas na demonstração; nas partidas econômicas, bônus embaralhado conforme o número de jogadores. |
 
 ## Jogabilidade do quadro Emaús
 
@@ -54,6 +54,7 @@ O código não atribui custo, pontuação, duração ou limite de rodadas ao qua
 3. Composição final do poço: manter os 19 fragmentos ou selecionar subconjuntos por quantidade de jogadores.
 4. Forma da revelação coletiva no telão.
 5. Destino dos demais protótipos de casos ainda presentes no banco, mas não oferecidos na abertura.
+6. Adaptação — ou exclusão definitiva — do bônus da ovelha em quadros sem economia, como Emaús.
 
 ## Próxima sequência recomendada
 

@@ -39,5 +39,9 @@
     return { aplicado: true, ok };
   }
 
-  return { modoDoCaso, criarEstadoJogadores, campoDisponivel, aplicarResposta };
+  function quantidadeBonus(numeroJogadores) {
+    return Math.max(1, Math.ceil(Number(numeroJogadores || 1) / 2));
+  }
+
+  return { modoDoCaso, criarEstadoJogadores, campoDisponivel, aplicarResposta, quantidadeBonus };
 });

@@ -19,4 +19,6 @@ assert.equal(regras.campoDisponivel(estado, "bia", "C1"), false);
 assert.equal(estado.saldosPorJogador.ana, 12);
 assert.equal(estado.saldosPorJogador.bia, 12);
 
+assert.deepEqual([1, 2, 3, 4, 5, 6].map(regras.quantidadeBonus), [1, 1, 2, 2, 3, 3]);
+
 console.log("ok regras híbridas");

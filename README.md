@@ -24,7 +24,9 @@ O quadro trabalha **QUANDO + O QUÊ**, não a identidade do terceiro caminhante.
 
 ### Caso da ovelha · demonstração
 
-Protótipo mantido separadamente para demonstrar a carta especial e sua animação. A primeira compra é a ovelha: não cobra, concede seis denários, permanece 5,5 segundos na revelação e sai do jogo. Essa regra não é aplicada aos outros quadros.
+Protótipo mantido separadamente para demonstrar a carta especial e sua animação. Na demonstração, a primeira compra é a ovelha: não cobra, concede seis denários, permanece 5,5 segundos na revelação e sai do jogo.
+
+Nas partidas econômicas normais, a ovelha é um bônus/curinga embaralhado aleatoriamente no monte: uma para 1–2 jogadores, duas para 3–4 e três para 5–6. Apenas a posição garantida da demonstração não é repetida. O quadro Emaús permanece sem o bônus monetário porque sua V2 é explicitamente sem economia.
 
 ## Mesa e interface
 
