@@ -11,14 +11,25 @@ assert.match(html, /class="pistas-box"/);
 assert.match(html, /<small>Tempo:<\/small><strong id="tempo">/);
 assert.match(html, /Vez: <b id="vez">/);
 assert.match(html, /<footer class="credit">M&amp;O<\/footer>/);
+assert.match(html, /case-ovelha\.js/);
+assert.match(html, /cases-nt\.js/);
+assert.match(html, /bank-runtime\.js/);
+assert.doesNotMatch(html, /cases-mais\.js|cases-emaus\.js|cases\.js\?v=/);
+assert.match(html, /id="fechamento"/);
+assert.match(html, /id="podio"/);
+assert.match(html, /id="telao-pergunta"/);
 
 assert.match(game, /function idJogadorLocal/);
-assert.match(game, /!suaVez\(\)&&!jogoOnline\(\)/);
+assert.match(game, /function autoridadeRelogio/);
 assert.match(game, /saldosPorJogador/);
 assert.match(game, /resolvidosGlobais/);
 assert.match(game, /errosPorJogador/);
 assert.match(game, /turnoTerminaEm/);
-assert.match(game, /width:"24px",height:"24px"/);
+assert.match(game, /fechamentoTerminaEm/);
+assert.match(game, /function renderApuracao/);
+assert.match(game, /function renderPodio/);
+assert.match(game, /calcularTempoTotal/);
+assert.match(game, /width: "24px", height: "24px"/);
 assert.doesNotMatch(game, /vale 4 den/);
 
 assert.match(css, /\.verbos button\.ligado/);

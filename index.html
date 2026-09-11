@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="description" content="Mosaico Card — O Mercado. Jogo de cartas e pistas.">
-  <title>Mosaico Card — O Mercado</title>
+  <meta name="description" content="Mosaico Card — Mercado de Pistas. Casos da Bíblia em um jogo de cartas e dedução.">
+  <title>Mosaico Card — Mercado de Pistas</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,14 +27,12 @@
         </div>
       </header>
       <p class="kicker">Casos da Bíblia</p>
-      <h1>O MERCADO</h1>
-      <p class="lede">Escolha entre a demonstração da carta da ovelha e o primeiro quadro consolidado do mosaico-quiz.</p>
-      <div class="casos" id="casos"></div>
+      <h1>O MERCADO<br>DE PISTAS</h1>
+      <p class="lede">Uma mesa colaborativa de pistas, decisões e perspectivas. A pauta é sorteada somente quando a partida começa.</p>
       <div class="portas">
-        <button type="button" id="btn-abrir-mesa">Abrir uma mesa</button>
+        <button type="button" id="btn-abrir-mesa">Criar uma sala</button>
         <button type="button" id="btn-ir-entrar" class="ghost">Entrar em uma mesa</button>
-        <button type="button" id="btn-ir-telao" class="ghost">Telão</button>
-        <button type="button" id="go-rule" class="ghost">Ensaio neste aparelho</button>
+        <button type="button" id="go-rule" class="ghost">Demonstração da ovelha</button>
       </div>
     </div>
   </section>
@@ -69,6 +67,28 @@
       </div>
     </div>
   </section>
+  <section class="scene" id="assistencia">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker">Sua experiência na mesa</p>
+      <h2>Como você prefere organizar as pistas?</h2>
+      <p class="lede">A camada muda apenas a ajuda visual. Fatos, tempo, alternativas, custos e pontuação continuam iguais para todos.</p>
+      <div class="assistencia-opcoes" role="group" aria-label="Camada de assistência">
+        <button type="button" class="assistencia-op on" data-assistencia="livre" aria-pressed="true"><b>Livre</b><span>Somente pistas e ações essenciais.</span></button>
+        <button type="button" class="assistencia-op" data-assistencia="assistida" aria-pressed="false"><b>Assistida</b><span>Organização e lembretes discretos.</span></button>
+        <button type="button" class="assistencia-op" data-assistencia="guiada" aria-pressed="false"><b>Guiada</b><span>Relações e passos mais estruturados.</span></button>
+      </div>
+      <p class="sala-nota">Essa escolha é particular: os outros jogadores não veem a sua camada.</p>
+      <div class="actions ident-actions">
+        <button type="button" id="btn-confirmar-assistencia" class="btn-go">Estou pronto</button>
+      </div>
+    </div>
+  </section>
   <section class="scene" id="telao">
     <div class="wrap">
       <header class="mobile-topbar">
@@ -77,19 +97,22 @@
           <span class="mark-name">Telão</span>
         </div>
       </header>
-      <div class="telao-view">
+      <div class="telao-view" aria-live="polite">
         <p class="kicker">Display da mesa</p>
         <p class="codigo-grande" id="telao-codigo">—</p>
-        <p class="lede" id="telao-msg">Digite o código que o mestre gerou.</p>
-        <ol id="telao-lista" class="sala-lista"></ol>
-        <p id="telao-vez" class="log"></p>
-        <label class="sala-field" for="telao-cod">Código
-          <input id="telao-cod" class="codigo" maxlength="6" autocapitalize="characters" placeholder="ABC123">
-        </label>
-        <div class="actions">
-          <button type="button" id="btn-ligar-telao">Ligar telão</button>
-          <button type="button" id="btn-telao-voltar" class="ghost">← Voltar</button>
+        <p class="lede" id="telao-msg">Aguardando o Mestre abrir a partida.</p>
+        <section class="telao-pauta" aria-labelledby="telao-pergunta">
+          <p class="kicker">Pauta da mesa</p>
+          <h2 id="telao-pergunta">A pergunta será revelada no início.</h2>
+          <div class="telao-campos" id="telao-campos">
+            <p>Os campos ativos aparecerão aqui.</p>
+          </div>
+        </section>
+        <div class="telao-status">
+          <p><small>Tempo</small><strong id="telao-tempo">—</strong></p>
+          <p><small>Vez</small><strong id="telao-vez">—</strong></p>
         </div>
+        <ol id="telao-lista" class="sala-lista"></ol>
       </div>
     </div>
   </section>
@@ -109,11 +132,29 @@
         <p class="lede" id="lobby-nota">Aponte a câmera para o QR ou informe o código.</p>
       </div>
       <ol id="lobby-lista" class="sala-lista"></ol>
+      <p class="lobby-prontidao" id="lobby-prontidao" aria-live="polite">Preparando os participantes…</p>
       <div class="actions">
         <button type="button" id="btn-iniciar-partida" class="btn-go">Iniciar partida</button>
+        <button type="button" id="btn-abrir-telao" class="ghost" hidden>Abrir telão</button>
         <p id="lobby-espera" class="log" hidden>Aguardando o Mestre iniciar a partida…</p>
         <button type="button" id="btn-lobby-voltar" class="ghost">← Encerrar / sair</button>
       </div>
+    </div>
+  </section>
+  <section class="scene" id="fechamento">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker">Último fechamento</p>
+      <h2>Um minuto para sustentar os campos abertos</h2>
+      <p class="lede">Agora as respostas não custam denários. As escolhas são privadas e serão avaliadas juntas ao final do tempo.</p>
+      <div class="fechamento-tempo"><small>Tempo restante</small><strong id="fechamento-tempo">1:00</strong></div>
+      <div class="fechamento-campos" id="fechamento-campos"></div>
+      <p class="log" id="fechamento-status"></p>
     </div>
   </section>
   <section class="scene" id="rule">
@@ -195,9 +236,23 @@
           <span class="mark-name">Mosaico Card</span>
         </div>
       </header>
-      <p class="kicker">A banca fechou</p>
-      <h2>O que você conseguiu sustentar?</h2>
+      <p class="kicker">Apuração</p>
+      <h2>Sua pontuação se forma por partes</h2>
+      <div class="score-progress" id="score-progress" aria-live="polite">
+        <div class="score-step"><span>Campos · primeiro terço</span><strong id="score-t1">—</strong></div>
+        <div class="score-step"><span>Campos · segundo terço</span><strong id="score-t2">—</strong></div>
+        <div class="score-step"><span>Campos · terceiro terço</span><strong id="score-t3">—</strong></div>
+        <div class="score-step"><span>Fechamento final</span><strong id="score-final">—</strong></div>
+        <div class="score-step"><span>Denários restantes</span><strong id="score-residual">—</strong></div>
+        <div class="score-total"><span>Total</span><strong id="score-total">—</strong></div>
+      </div>
       <div id="score"></div>
+      <section class="podio" id="podio" hidden aria-labelledby="podio-titulo">
+        <p class="kicker">Classificação final</p>
+        <h2 id="podio-titulo">O pódio da mesa</h2>
+        <div class="podio-top3" id="podio-top3"></div>
+        <ol class="ranking-final" id="ranking-final"></ol>
+      </section>
       <div class="actions" style="margin-top:22px">
         <button class="ghost" id="again" type="button">Jogar de novo</button>
       </div>
@@ -225,18 +280,29 @@
   </div>
   <div id="modal-mestre" class="modal-fundo" hidden>
     <div class="modal-sala" role="dialog" aria-labelledby="mestre-titulo">
-      <p class="kicker">Área do mestre</p>
-      <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como as rodadas devem avançar?</h2>
-      <p class="log">Escolha o quadro desta mesa.</p>
-      <div class="formas caso-mesa-opcoes" role="group" aria-label="Quadro da mesa">
-        <button type="button" class="caso-mesa-op on" data-caso-mesa="ovelha" aria-pressed="true"><b>Demonstração</b><span>Caso da ovelha</span></button>
-        <button type="button" class="caso-mesa-op" data-caso-mesa="emaus" aria-pressed="false"><b>Mosaico-quiz</b><span>Quando os olhos abrem</span></button>
-      </div>
-      <button type="button" class="ritmo-op on" data-ritmo="automatico"><b>Automaticamente · recomendado</b><span>O jogo avança quando todos terminam a jogada.</span></button>
-      <button type="button" class="ritmo-op" data-ritmo="conduzido"><b>Com minha liberação</b><span>A sala avisa quando for hora de avançar.</span></button>
+      <p class="kicker">Etapa 1 de 2 · configuração da sala</p>
+      <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como será esta partida?</h2>
+      <p class="log">A sala será criada agora. Enquanto os participantes entram pelo QR, você escolhe sua assistência como jogador.</p>
+      <fieldset class="config-grupo">
+        <legend>Tempo por jogada</legend>
+        <div class="config-opcoes" role="group" aria-label="Tempo por jogada">
+          <button type="button" class="tempo-op" data-tempo="30" aria-pressed="false"><b>30 s</b><span>Mais pressão</span></button>
+          <button type="button" class="tempo-op on" data-tempo="45" aria-pressed="true"><b>45 s</b><span>Equilibrado</span></button>
+          <button type="button" class="tempo-op" data-tempo="60" aria-pressed="false"><b>60 s</b><span>Mais tempo</span></button>
+        </div>
+      </fieldset>
+      <fieldset class="config-grupo">
+        <legend>Duração da partida</legend>
+        <div class="config-opcoes" role="group" aria-label="Duração da partida">
+          <button type="button" class="duracao-op" data-duracao="curta" aria-pressed="false"><b>Curta</b><span>Uma ovelha a menos</span></button>
+          <button type="button" class="duracao-op on" data-duracao="padrao" aria-pressed="true"><b>Padrão</b><span>Ritmo recomendado</span></button>
+          <button type="button" class="duracao-op" data-duracao="longa" aria-pressed="false"><b>Longa</b><span>Uma ovelha a mais</span></button>
+        </div>
+      </fieldset>
+      <label class="telao-toggle" for="usa-telao"><span><b>Usar telão</b><small>Mostra o estado coletivo em outra tela.</small></span><input id="usa-telao" type="checkbox" role="switch"></label>
       <p id="mestre-status" class="log"></p>
       <div class="actions">
-        <button type="button" id="btn-abrir-com-mesa" class="btn-go">Abrir mesa</button>
+        <button type="button" id="btn-abrir-com-mesa" class="btn-go">Criar sala e continuar</button>
         <button type="button" id="btn-cancelar-mestre" class="ghost">Cancelar</button>
       </div>
     </div>
@@ -264,6 +330,12 @@
       <details class="sala-sec">
         <summary>Controle partida</summary>
         <p id="sala-controle" class="log"></p>
+        <div class="controle-mestre" id="controle-mestre">
+          <button type="button" id="btn-pausar-partida">Pausar</button>
+          <button type="button" id="btn-adicionar-tempo">+ tempo</button>
+          <button type="button" id="btn-passar-vez">Passar vez</button>
+          <button type="button" id="btn-encerrar-fase" class="danger">Encerrar fase</button>
+        </div>
       </details>
       <details class="sala-sec">
         <summary>Encerrar sala</summary>
@@ -280,13 +352,12 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
-  <script src="sala.js?v=hud1linha"></script>
-  <script src="assets.js"></script>
-  <script src="cases.js?v=biblia6"></script>
-  <script src="cases-mais.js?v=1"></script>
-  <script src="cases-emaus.js?v=2"></script>
-  <script src="game-core.js?v=2"></script>
-  <script src="game.js?v=core2"></script>
-  <script src="game-sala.js?v=core2"></script>
+  <script src="sala.js?v=fluxo2"></script>
+  <script src="case-ovelha.js?v=demo6"></script>
+  <script src="cases-nt.js?v=banco145"></script>
+  <script src="bank-runtime.js?v=saco1"></script>
+  <script src="game-core.js?v=regras3"></script>
+  <script src="game.js?v=partida3"></script>
+  <script src="game-sala.js?v=partida3"></script>
 </body>
 </html>

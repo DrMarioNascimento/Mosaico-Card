@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "check": "node --check game-core.js && node --check cases-emaus.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js",
-    "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs && node tests/regras.mjs"
+    "check": "node --check game-core.js && node --check case-ovelha.js && node --check cases-nt.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js",
+    "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs && node tests/regras.mjs && node tests/banco.mjs && node tests/sorteio.mjs"
   }
 }
