@@ -499,7 +499,7 @@
     const salaBtn = $("#btn-sala");
     const flutuante = $("#btn-mestre-flutuante");
     const salaFechar = $("#sala-fechar");
-    if (salaBtn) salaBtn.addEventListener("click", togglePainel);
+    if (salaBtn) salaBtn.addEventListener("click", function (e) { e.preventDefault(); e.stopPropagation(); abrirPainel(); pintarPainel(); });
     if (flutuante) flutuante.addEventListener("click", togglePainel);
     if (salaFechar) salaFechar.addEventListener("click", fecharPainel);
     const painel = $("#sala-panel");

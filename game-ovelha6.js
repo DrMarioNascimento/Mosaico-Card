@@ -13,7 +13,7 @@
     const v = state.verbo;
     if (v === "comprar") {
       if (!state.monte.length) return "<p>O monte esta vazio.</p>";
-      return "<p>Comprar uma pista lacrada custa 4. Se for a ovelha, a compra não cobra e você ganha 6. Ela não pode ser capturada.</p><button class='slim' type='button' data-act='comprar-ok'>Comprar agora</button>";
+      return "<p>Toque em uma carta do leque. A pista custa 4; se encontrar a ovelha, a compra não cobra, rende 6 e sai do jogo.</p>";
     }
     if (v === "capturar") {
       const euAgora = (window.MC_SALA && window.MC_SALA.online && window.MC_SALA.uid) ? window.MC_SALA.uid : "voce";

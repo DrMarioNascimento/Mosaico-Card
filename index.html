@@ -9,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=mesa3d1">
-  <link rel="stylesheet" href="mc-mark.css?v=foto">
+  <link rel="stylesheet" href="styles.css?v=mesa3d2">
+  <link rel="stylesheet" href="mc-mark.css?v=3d1">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css?v=on">
-  <link rel="stylesheet" href="cards.css?v=mesa3d1">
+  <link rel="stylesheet" href="cards.css?v=mesa3d2">
   <link rel="stylesheet" href="sala.css?v=ident1">
 </head>
 <body>
@@ -153,13 +153,15 @@
         <ol class="ordem" id="ordem"></ol>
       </details>
       <p class="log" id="log"></p>
-      <section class="pistas-box" id="pistas-box">
+      <section class="monte-box" id="monte-box">
         <div class="leque-wrap">
-          <small>Monte</small>
+          <div class="area-heading"><span>Coletivo</span><strong>Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
           <div class="leque" id="leque"></div>
         </div>
+      </section>
+      <section class="pistas-box" id="pistas-box">
         <button type="button" class="pistas-toggle" id="pistas-toggle">
-          <span class="kicker" style="margin:0">Suas pistas</span>
+          <span><small>Particular</small><b>Suas pistas</b></span>
           <span class="chev" id="pistas-chev">FECHAR ▾</span>
         </button>
         <div class="hand" id="hand"></div>
@@ -178,7 +180,7 @@
           <button type="button" id="btn-sala" class="sala-btn" hidden>Mestre</button>
         </div>
         <div class="status-cell cell-saldo">
-          <small>Saldo</small>
+          <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
           <div class="purse" id="purse"></div>
         </div>
       </div>
@@ -273,7 +275,7 @@
       <p id="sala-status" class="log">Conectando Firebase…</p>
     </div>
   </aside>
-  <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
+  <footer class="credit">M&amp;O</footer>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
@@ -283,9 +285,9 @@
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>
-  <script src="game.js?v=ovelha6"></script>
+  <script src="game.js?v=mesa3d2"></script>
   <script src="game-sala.js?v=sala3"></script>
-  <script src="game-ovelha6.js?v=1"></script>
+  <script src="game-ovelha6.js?v=mesa3d2"></script>
   <script src="game-fix.js?v=2"></script>
 </body>
 </html>

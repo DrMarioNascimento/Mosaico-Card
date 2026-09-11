@@ -206,12 +206,13 @@ function passarVez() {
   startTimer();
   if (!suaVez()) setTimeout(jogarRival, 700);
 }
-function comprar() {
+function comprar(indice) {
   if (!state.monte.length) return say("O monte acabou.");
-  const id = state.monte[0];
+  const pos = Math.max(0, Math.min(Number.isInteger(indice) ? indice : 0, state.monte.length - 1));
+  const id = state.monte[pos];
   const achou = eOvelha(id);
   if (!achou && state.moedas < PRECO.nova) return say("Sem 4 moedas para comprar.");
-  state.monte.shift();
+  state.monte.splice(pos, 1);
   if (!achou) state.moedas -= PRECO.nova;
   if (!achou) state.mao.push(id);
   revelarCompra(id, "voce", function () {
@@ -288,7 +289,7 @@ function htmlPainel() {
   if (!v || !suaVez()) return "";
   if (v === "comprar") {
     if (!state.monte.length) return "<p>O monte esta vazio.</p>";
-    return "<p>Comprar uma pista lacrada custa 4. Se for a ovelha, a compra n\u00e3o cobra e voc\u00ea ganha 4.</p><button class='slim' type='button' data-act='comprar-ok'>Comprar agora</button>";
+    return "<p>Toque em uma carta do leque. A pista custa 4; se encontrar a ovelha, a compra não cobra e você recebe 6.</p>";
   }
   if (v === "capturar") {
     const alvos = ORDEM.filter((id) => id !== "voce" && state.rivais[id].length);
@@ -338,8 +339,12 @@ function pintarLeque() {
   const mid = (n - 1) / 2;
   box.innerHTML = Array.from({ length: n }, (_, i) => {
     const rot = ((i - mid) * 8).toFixed(1);
-    return "<i class='carta-costa' style='transform:rotate(" + rot + "deg)'></i>";
+    return "<button type='button' class='carta-costa' data-monte-index='" + i + "' aria-label='Comprar carta " + (i + 1) + "' style='--rot:" + rot + "deg;transform:rotate(" + rot + "deg)'></button>";
   }).join("");
+  box.querySelectorAll("[data-monte-index]").forEach((carta) => {
+    carta.disabled = !suaVez() || state.verbo !== "comprar";
+    carta.addEventListener("click", function () { comprar(Number(carta.dataset.monteIndex)); });
+  });
 }
 function render() {
   const atual = quem();
@@ -349,8 +354,10 @@ function render() {
   if (jogadorDaVez) jogadorDaVez.textContent = "Vez: " + NOMES[atual];
   const purse = $("#purse");
   if (purse) {
-    purse.innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin'></i></div><b>" + state.moedas + "</b></div>";
+    purse.innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin'></i></div></div>";
   }
+  const saldoNumero = $("#saldo-numero");
+  if (saldoNumero) saldoNumero.textContent = state.moedas;
   $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'><span>" + NOMES[id] + "</span>" + (id === atual ? "<small>DA VEZ</small>" : "") + "</li>").join("");
   $("#log").textContent = state.log;
   const box = $("#pistas-box");
@@ -365,6 +372,10 @@ function render() {
       }).join("")
     : "<p class='log'>Nenhuma pista na mao.</p>";
   pintarLeque();
+  const monteBox = $("#monte-box");
+  if (monteBox) monteBox.classList.toggle("compra-ativa", suaVez() && state.verbo === "comprar");
+  const monteAjuda = $("#monte-ajuda");
+  if (monteAjuda) monteAjuda.textContent = !state.monte.length ? "Monte vazio" : (state.verbo === "comprar" && suaVez() ? "Toque em uma carta" : "Escolha Comprar para retirar uma carta");
   document.querySelectorAll("#verbos button").forEach((btn) => {
     btn.classList.toggle("ligado", state.verbo === btn.dataset.verbo);
     btn.disabled = !suaVez();
@@ -373,8 +384,6 @@ function render() {
   const html = htmlPainel();
   painel.hidden = !html;
   painel.innerHTML = html;
-  var comprarBtn = painel.querySelector("[data-act='comprar-ok']");
-  if (comprarBtn) comprarBtn.addEventListener("click", comprar);
   painel.querySelectorAll("[data-act='capturar-ok']").forEach((btn) => {
     btn.addEventListener("click", function () { capturar(btn.dataset.quem, btn.dataset.id); });
   });

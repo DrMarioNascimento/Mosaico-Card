@@ -317,6 +317,12 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   width: 100%;
 }
 .cell-saldo .purse { margin: 0; }
+.saldo-head { display:flex; align-items:baseline; gap:8px; }
+.saldo-head strong { font-size:18px; color:#fff; line-height:1; }
+.cell-saldo .stash-art { width:82px; height:48px; }
+.cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:82px; height:48px; }
+.cell-saldo .stash-art .coin { width:22px; height:22px; }
+.status-cell[hidden] { display:none !important; }
 .jogadores-bar {
   background: linear-gradient(180deg, #183c4b, #0d2631);
   border: 1px solid #477080;
@@ -344,13 +350,19 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   color: #f1f8fc;
 }
 .log { margin: 0; color: var(--muted); min-height: 1.4em; }
-.pistas-box {
+.pistas-box, .monte-box {
   background: linear-gradient(180deg, #163644, #102833);
   border: 1px solid #3d6474;
   border-radius: 14px;
   padding: 14px;
   box-shadow: inset 0 1px 0 #d9f3ff22, 0 8px 18px #0005;
 }
+.monte-box { border-color:#9a7540; background:linear-gradient(180deg,#213b42,#112b34); padding:12px 14px 8px; }
+.pistas-box { border-color:#4f8192; }
+.area-heading { display:grid; grid-template-columns:auto 1fr; align-items:baseline; gap:4px 9px; }
+.area-heading span, .pistas-toggle small { color:#d7a24a; font-size:9px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
+.area-heading strong, .pistas-toggle b { color:#f1f8fc; font-size:13px; letter-spacing:.12em; text-transform:uppercase; }
+.area-heading small { grid-column:1 / -1; color:var(--muted); font-size:11px; }
 .hand { display: grid; gap: 8px; }
 @media (min-width: 640px) { .hand { grid-template-columns: 1fr 1fr; } }
 .tile {
@@ -378,7 +390,8 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
 .verbos button small { font-size:10px; opacity:.78; margin-top:2px; }
 .verbos button[data-verbo="arriscar"] { background:linear-gradient(#a06176,#743c52 48%,#452334); }
 .verbos button[data-verbo="capturar"] { background:linear-gradient(#6f9db7,#416f89 48%,#25485d); }
-.verbos button[data-verbo="comprar"] { border-color:#c79a4c; }
+.verbos button[data-verbo="comprar"] { background:linear-gradient(#55a997,#287568 48%,#16493f); border-color:#72c6b3; }
+.verbos button[data-verbo="consignar"] { background:linear-gradient(#b78a48,#815d2b 48%,#4f3618); border-color:#d7a24a; }
 .verbos button.ligado {
   background: linear-gradient(var(--btn-ok-top), var(--btn-ok-mid) 48%, var(--btn-ok-bot));
 }
