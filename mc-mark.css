@@ -4,10 +4,10 @@
   display: grid;
   place-items: center;
   padding: 3px;
-  border: 1.5px solid var(--accent);
-  background: #07151c;
+  border: 1.5px solid #e0b36d;
+  background: linear-gradient(145deg, #d5b18a, #a67c55 55%, #6f4d32);
   border-radius:5px;
-  box-shadow:inset 0 1px 0 #d9f3ff55,inset 0 -3px 4px #0009,0 3px 0 #041017,0 6px 10px #0007;
+  box-shadow:inset 0 2px 1px #fff8,inset 0 -3px 5px #3b251799,0 3px 0 #51351f,0 6px 10px #0007;
   flex: 0 0 auto;
 }
 .mc-inner {
@@ -15,8 +15,8 @@
   height: 100%;
   display: grid;
   place-items: center;
-  background: linear-gradient(#1a3a48, #102833);
-  box-shadow: inset 0 0 0 1px #4aa8a0;
+  background: linear-gradient(145deg, #c9a47c, #9a704b 58%, #65462f);
+  box-shadow: inset 0 0 0 1px #efd09e, inset 1px 1px 2px #fff6, inset -2px -2px 4px #3b251777;
   color: var(--accent);
   font-family: "Cinzel Decorative", Cinzel, serif;
   font-weight: 900;
@@ -25,5 +25,5 @@
   line-height: 1;
   padding: 1px 0 0;
   border-radius:2px;
-  text-shadow:0 1px 0 #001b1b,0 0 7px #65d5cc55;
+  text-shadow:0 2px 1px #17372f,0 0 2px #071b18,0 0 7px #65d5cc77;
 }
