@@ -9,12 +9,12 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=bolsa5">
+  <link rel="stylesheet" href="styles.css?v=mesa3d1">
   <link rel="stylesheet" href="mc-mark.css?v=foto">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css?v=on">
-  <link rel="stylesheet" href="cards.css?v=foto-real">
+  <link rel="stylesheet" href="cards.css?v=mesa3d1">
   <link rel="stylesheet" href="sala.css?v=ident1">
 </head>
 <body>
@@ -148,7 +148,10 @@
         <p class="scene-title" id="caso-titulo">Caso</p>
         <span class="deal-balance" aria-hidden="true"></span>
       </header>
-      <ol class="ordem" id="ordem"></ol>
+      <details class="jogadores-bar" id="jogadores-bar">
+        <summary><span>Jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
+        <ol class="ordem" id="ordem"></ol>
+      </details>
       <p class="log" id="log"></p>
       <section class="pistas-box" id="pistas-box">
         <div class="leque-wrap">
@@ -183,7 +186,7 @@
         <button type="button" data-verbo="arriscar">Arriscar</button>
         <button type="button" data-verbo="capturar">Capturar</button>
         <button type="button" data-verbo="comprar">Comprar</button>
-        <button type="button" data-verbo="consignar">Consignar no balaio</button>
+        <button type="button" data-verbo="consignar"><span>Consignar</span><small>no balaio</small></button>
       </div>
       <div class="painel" id="painel" hidden></div>
     </div>

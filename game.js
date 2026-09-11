@@ -76,7 +76,7 @@ function revelarCompra(id, jogadorId, depois) {
   if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
   stage.hidden = false;
   if (flipTimer) clearTimeout(flipTimer);
-  flipTimer = setTimeout(function () { stage.hidden = true; if (depois) depois(); }, 3200);
+  flipTimer = setTimeout(function () { stage.hidden = true; if (depois) depois(); }, 5500);
 }
 function paintTimer() {
   const el = $("#tempo");
@@ -85,7 +85,11 @@ function paintTimer() {
   const m = Math.floor(timerLeft / 60);
   const s = String(timerLeft % 60).padStart(2, "0");
   el.textContent = m + ":" + s;
-  if (cell) cell.classList.toggle("urgente", timerLeft <= 10);
+  if (cell) {
+    cell.classList.toggle("minha-vez", suaVez());
+    cell.classList.toggle("vez-alheia", !suaVez());
+    cell.classList.toggle("urgente", suaVez() && timerLeft <= 10);
+  }
 }
 function stopTimer() { if (timerId) clearInterval(timerId); timerId = null; }
 function startTimer() {
@@ -209,10 +213,10 @@ function comprar() {
   if (!achou && state.moedas < PRECO.nova) return say("Sem 4 moedas para comprar.");
   state.monte.shift();
   if (!achou) state.moedas -= PRECO.nova;
-  state.mao.push(id);
+  if (!achou) state.mao.push(id);
   revelarCompra(id, "voce", function () {
     pagarRecompensa(id);
-    if (achou) say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea achou a ovelha. A compra n\u00e3o cobra. +4.");
+    if (achou) say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea achou a ovelha. A compra n\u00e3o cobra. +6. A carta saiu do jogo.");
     else say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea comprou " + peca(id).marca + " \u00b7 -4.");
     passarVez();
     render();
@@ -252,7 +256,7 @@ function jogarRival() {
   const mao = state.rivais[id];
   if (state.monte.length && (eOvelha(state.monte[0]) || Math.random() < 0.6)) {
     const nova = state.monte.shift();
-    mao.push(nova);
+    if (!eOvelha(nova)) mao.push(nova);
     revelarCompra(nova, id, function () {
       say(NOMES[id] + " comprou uma pista do monte.");
       passarVez();
@@ -341,11 +345,13 @@ function render() {
   const atual = quem();
   const vezEl = $("#vez");
   if (vezEl) vezEl.textContent = NOMES[atual];
+  const jogadorDaVez = $("#jogador-da-vez");
+  if (jogadorDaVez) jogadorDaVez.textContent = "Vez: " + NOMES[atual];
   const purse = $("#purse");
   if (purse) {
     purse.innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin'></i></div><b>" + state.moedas + "</b></div>";
   }
-  $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'>" + NOMES[id] + " \u00b7 " + state.voltasFeitas[id] + "/" + VOLTAS + "</li>").join("");
+  $("#ordem").innerHTML = ORDEM.map((id) => "<li class='" + (id === atual ? "agora" : "") + "'><span>" + NOMES[id] + "</span>" + (id === atual ? "<small>DA VEZ</small>" : "") + "</li>").join("");
   $("#log").textContent = state.log;
   const box = $("#pistas-box");
   const chev = $("#pistas-chev");

@@ -45,7 +45,7 @@
         if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
         stage.hidden = false;
         if (window.flipTimer) clearTimeout(window.flipTimer);
-        window.flipTimer = setTimeout(function () { stage.hidden = true; if (depois) depois(); }, 3200);
+        window.flipTimer = setTimeout(function () { stage.hidden = true; if (depois) depois(); }, 5500);
         return;
       }
     }
