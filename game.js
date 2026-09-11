@@ -123,16 +123,16 @@ function dropStamp(x, y, i) {
   const trail = $("#coin-trail");
   if (!trail) return;
   const s = document.createElement("i");
-  s.className = "coin-stamp" + (i % 2 ? " b" : "");
+  s.className = "coin-stamp";
   s.style.left = x + "px";
   s.style.top = y + "px";
-  s.style.setProperty("--rot", ((i * 17) % 46 - 23) + "deg");
-  const size = Math.max(16, 34 - i * 1.1);
+  s.style.setProperty("--rot", "8deg");
+  const size = 24;
   s.style.width = size + "px";
   s.style.height = size + "px";
   trail.appendChild(s);
-  setTimeout(function () { s.classList.add("fade"); }, 700 + i * 28);
-  setTimeout(function () { s.remove(); }, 1700 + i * 28);
+  setTimeout(function () { s.classList.add("fade"); }, 900);
+  setTimeout(function () { s.remove(); }, 2050);
 }
 function playCoinIntro() {
   const fly = $("#coin-fly");
@@ -155,15 +155,24 @@ function playCoinIntro() {
     void fly.offsetWidth;
     fly.classList.add("home");
     let n = 0, lastX = null, lastY = null;
+    const spacing = 20;
     const started = performance.now();
     function sample() {
       const now = performance.now() - started;
       const r = fly.getBoundingClientRect();
       const x = r.left + r.width / 2;
       const y = r.top + r.height / 2;
-      const moved = lastX === null || Math.hypot(x - lastX, y - lastY) > 18;
-      if (moved && n < 16) { dropStamp(x, y, n); lastX = x; lastY = y; n += 1; }
-      if (now < 860 && n < 16) requestAnimationFrame(sample);
+      if (lastX === null) { dropStamp(x, y, n); lastX = x; lastY = y; n += 1; }
+      let dist = Math.hypot(x - lastX, y - lastY);
+      while (dist >= spacing && n < 32) {
+        const ratio = spacing / dist;
+        lastX += (x - lastX) * ratio;
+        lastY += (y - lastY) * ratio;
+        dropStamp(lastX, lastY, n);
+        n += 1;
+        dist = Math.hypot(x - lastX, y - lastY);
+      }
+      if (now < 860 && n < 32) requestAnimationFrame(sample);
     }
     requestAnimationFrame(sample);
   }, 1550);

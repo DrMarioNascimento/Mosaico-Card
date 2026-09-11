@@ -271,6 +271,7 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   gap: 8px;
   align-items: stretch;
 }
+.control-dock { display:grid; gap:7px; }
 .status-cell {
   background: linear-gradient(180deg, #1a3c4a, #102833);
   border: 1px solid #3d6474;
@@ -336,8 +337,8 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
 .cell-saldo .purse { grid-column:1; grid-row:1 / 3; }
 .saldo-head { display:flex; align-items:baseline; gap:8px; }
 .saldo-head strong { font-size:18px; color:#fff; line-height:1; }
-.cell-saldo .stash-art { width:92px; height:52px; }
-.cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:92px; height:52px; }
+.cell-saldo .stash-art { width:72px; height:40px; }
+.cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:72px; height:40px; }
 .cell-saldo .stash-art .coin { width:22px; height:22px; }
 .status-cell[hidden] { display:none !important; }
 .jogadores-bar {
@@ -410,7 +411,10 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
 .verbos button[data-verbo="comprar"] { background:linear-gradient(#55a997,#287568 48%,#16493f); border-color:#72c6b3; }
 .verbos button[data-verbo="consignar"] { background:linear-gradient(#b78a48,#815d2b 48%,#4f3618); border-color:#d7a24a; }
 .verbos button.ligado {
-  background: linear-gradient(var(--btn-ok-top), var(--btn-ok-mid) 48%, var(--btn-ok-bot));
+  border-color:#ff5b73;
+  outline:1px solid #ff5b73;
+  box-shadow:inset 0 2px 1px #fff6,inset 0 -3px 4px #350811aa,0 3px 0 #641525,0 0 12px #ff405dcc,0 0 24px #ff405d66;
+  filter:brightness(1.08);
 }
 .painel {
   background: linear-gradient(180deg, #163644, #102833);
@@ -528,9 +532,16 @@ footer.credit {
   .scene-title { justify-self: center; }
 }
 @media (max-width: 430px) {
+  .market { padding-bottom:166px; }
   .pistas-box, .painel, .verbs li, .reveal { border-radius: 14px; }
-  .verbos { grid-template-columns: 1fr 1fr; gap:8px; position:sticky; bottom:max(8px, env(safe-area-inset-bottom)); z-index:35; padding:8px; margin:0 -2px; border-radius:14px; background:#081b24e8; backdrop-filter:blur(8px); box-shadow:0 -8px 20px #0007; }
-  .verbos button { min-height:44px; font-size:13px; box-shadow:inset 0 2px 1px #d9f3ff55,inset 0 -2px 3px #071a27aa,0 3px 0 var(--shadow-deep),0 5px 6px #0007; }
+  .control-dock { position:fixed; left:50%; bottom:max(6px, env(safe-area-inset-bottom)); transform:translateX(-50%); width:min(720px, calc(100% - 20px)); z-index:35; gap:6px; padding:7px; margin:0; border:1px solid #426a79; border-radius:14px; background:#081b24f2; backdrop-filter:blur(9px); box-shadow:0 -8px 20px #0007; }
+  .control-dock .status-grid { gap:6px; }
+  .control-dock .status-cell { min-height:44px; height:44px; padding:4px 8px; border-radius:10px; }
+  .control-dock .cell-saldo { grid-template-columns:72px 1fr; column-gap:3px; }
+  .control-dock .saldo-head strong { font-size:17px; }
+  .control-dock #cell-tempo strong { font-size:14px; }
+  .control-dock .verbos { grid-template-columns:1fr 1fr; gap:6px; position:static; padding:0; margin:0; background:none; backdrop-filter:none; box-shadow:none; }
+  .control-dock .verbos button { min-height:44px; height:44px; padding:4px 8px; font-size:13px; box-shadow:inset 0 1px 1px #d9f3ff55,inset 0 -2px 3px #071a27aa,0 2px 0 var(--shadow-deep),0 4px 5px #0007; }
   .mark-name { font-size: 13px; }
   .scene-title { font-size: 11px; letter-spacing: .12em; }
 }

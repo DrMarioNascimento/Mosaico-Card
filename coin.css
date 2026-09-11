@@ -71,7 +71,7 @@
   background: var(--coin-a) center/cover no-repeat;
   pointer-events: none;
   z-index: 70;
-  opacity: .92;
+  opacity: .82;
   filter: drop-shadow(0 2px 4px #0008);
   animation: stamp-settle .35s ease-out both;
 }
@@ -80,11 +80,11 @@
   animation: stamp-fade .9s ease-in forwards;
 }
 @keyframes stamp-settle {
-  from { transform: scale(1.35) rotate(-18deg); opacity: .3; }
-  to   { transform: scale(1) rotate(var(--rot, 12deg)); opacity: .88; }
+  from { transform: scale(.92) rotate(var(--rot, 8deg)); opacity: .45; }
+  to   { transform: scale(1) rotate(var(--rot, 8deg)); opacity: .82; }
 }
 @keyframes stamp-fade {
-  to { opacity: 0; transform: scale(.7); }
+  to { opacity: 0; transform: scale(.88) rotate(var(--rot, 8deg)); }
 }
 @media (prefers-reduced-motion: reduce) {
   .coin-fly, .coin-stamp { display: none !important; }
