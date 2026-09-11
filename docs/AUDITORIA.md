@@ -1,87 +1,73 @@
 # Auditoria do Mosaico Card
 
-Atualizada em 11 de setembro de 2026.
+Atualizada em 11 de setembro de 2026 após a incorporação do Quadro Emaús V2.
 
 ## Síntese
 
-O projeto já possui identidade consistente: petróleo, cartas marfim com profundidade, controles físicos, moeda como recompensa visual e separação entre monte coletivo e pistas particulares. O fluxo por código/QR e o console inferior formam uma boa base para testes com grupos.
+A identidade visual foi preservada: fundo petróleo mais claro, cartas marfim com profundidade, áreas coletivas e particulares distintas e console inferior compacto. A principal mudança desta rodada foi estrutural: o projeto agora distingue o mosaico-quiz sem economia da demonstração econômica da ovelha.
 
-A prioridade seguinte não é acrescentar efeitos, mas tornar o estado multiplayer autoritativo e previsível antes de ampliar casos ou pontuação.
+## Implementado nesta revisão
 
-## Pontos fortes
+| Prioridade anterior | Situação atual |
+| --- | --- |
+| Saldo compartilhado | Substituído por `saldosPorJogador`. |
+| Resposta travada única | Dividida em acertos globais e erros por jogador. |
+| Cronômetros divergentes | Snapshot compartilha `turnoTerminaEm`. |
+| Sobrescrita concorrente | Publicação usa transação e `turnoId` crescente. |
+| Cascata de patches | Regras especiais foram absorvidas; dois arquivos de patch foram removidos. |
+| Ovelha misturada aos casos | Isolada como demonstração e garantida apenas nesse modo. |
 
-- Hierarquia entre ambiente, cartas, áreas coletivas e particulares.
-- Quatro ações com cores próprias e um padrão único de seleção.
-- Console inferior compacto e sempre disponível no celular.
-- Monte em leque com compra direta por toque.
-- Feedback pela moeda, rastro e carta especial.
-- Identificação sem conta Google e QR gerado localmente.
-- Alvos de toque preservados em 44 px.
+## Jogabilidade do quadro Emaús
 
-## Riscos de jogabilidade
+O fluxo implementado respeita a pergunta-mãe e evita revelar a identidade antes do fechamento. Cada participante começa com dois fragmentos; em sua vez, compra do poço ou lê uma peça própria. O formulário apresenta quatro campos fechados.
 
-### P0 — antes de uma partida real avaliativa
+A regra de tentativa é híbrida:
 
-1. **Saldo compartilhado como valor único.** O snapshot transmite `moedas` como um número, embora cada jogador deva administrar seu saldo. Uma ação publicada por outro aparelho pode substituir o valor local.
-2. **Respostas travadas como estado único.** `travados` é global, mas a regra diz que uma resposta errada fecha o campo “para você”. É necessário decidir se o julgamento é individual ou coletivo.
-3. **Cronômetro sem prazo autoritativo.** O snapshot não grava o horário final do turno; aparelhos podem exibir tempos diferentes.
-4. **Concorrência de ações.** A publicação atualiza diretamente o documento. Ações quase simultâneas podem se sobrescrever; devem ser validadas por transação e identificador do turno.
+1. Se a resposta estiver correta, o campo fica resolvido para toda a mesa.
+2. Se estiver incorreta, o campo some apenas para quem fez aquela tentativa.
+3. Outro participante ainda pode responder o mesmo campo.
+4. Um acerto posterior fecha o campo globalmente, inclusive para quem já havia errado.
 
-### P1 — clareza das regras
+O código não atribui custo, pontuação, duração ou limite de rodadas ao quadro porque a consolidação mantém essas decisões abertas.
 
-5. **Ovelha previsível.** A primeira ovelha ocupa a posição inicial do array, mas o monte permite escolher qualquer carta. É preciso optar entre sorteio real e primeira compra garantida.
-6. **Fim do cronômetro.** Ao chegar a zero, o relógio para, mas a vez não muda automaticamente. Definir encerramento automático, tolerância do Mestre ou confirmação.
-7. **Balaio pouco visível.** Falta uma presença coletiva permanente mostrando quantidade, itens e pagamentos.
-8. **Fechamento limitado.** O final ainda não compara evidências, interpretações e decisões dos participantes.
+## Estética e hierarquia
 
-## Riscos técnicos
+- Fundo e caixas continuam em tons de petróleo, com contraste maior nas cartas.
+- Pista-caso usa o acabamento marfim/dourado principal.
+- Pista-dúvida recebe profundidade vinho discreta.
+- Pista-cenário recebe profundidade verde-acinzentada.
+- A diferenciação está na borda e na sombra, sem transformar os tipos em um código cromático excessivamente literal.
+- No mosaico-quiz, a bolsa é substituída pelo progresso dos quatro campos; o mesmo espaço do console é preservado.
 
-- `game-sala.js`, `game-ovelha6.js` e `game-fix.js` sobrescrevem funções do motor em cascata.
-- A ordem dos scripts funciona como dependência implícita.
-- Estado e renderização dependem de variáveis globais.
-- Os testes são principalmente estruturais e não simulam dois clientes concorrentes.
-- As regras de produção do Firestore devem ser auditadas contra `salas/{codigo}`.
+## Riscos remanescentes
 
-## Refatoração recomendada
+### P0 — antes de teste com grupo
 
-```mermaid
-flowchart TD
-    A["Regras puras"] --> B["Estado da partida"]
-    B --> C["Renderização"]
-    B --> D["Adaptador local"]
-    B --> E["Adaptador Firestore"]
-    E --> F["Mestre, jogadores e telão"]
-```
+1. **Regras do Firestore:** confirmar que apenas participantes da sala podem gravar e que o Mestre controla início e encerramento.
+2. **Teste com vários aparelhos:** validar perda de conexão, retorno à sala e duas ações enviadas quase ao mesmo tempo.
+3. **Privacidade das mãos:** hoje o documento da sala contém todas as mãos; a interface mostra somente a mão local, mas as regras do cliente não tornam os dados secretos para alguém que inspecione o Firestore.
 
-1. Criar `game-core.js` com ações puras.
-2. Modelar `saldosPorJogador`, `travadosPorJogador`, `maosPorJogador` e `turnoId`.
-3. Separar adaptadores local e Firestore; somente transação válida muda o turno.
-4. Gravar `turnoTerminaEm` com timestamp do servidor.
-5. Converter a ovelha em regra declarativa, sem sobrescrever funções.
-6. Absorver `game-fix.js` no núcleo e removê-lo.
+### P1 — decisões de design ainda abertas
 
-## Recomendações estéticas
+1. Pontuação e eventual valor diferente entre os quatro campos.
+2. Duração, ritmo e condição de encerramento quando a mesa não resolve todos os campos.
+3. Composição final do poço: manter os 19 fragmentos ou selecionar subconjuntos por quantidade de jogadores.
+4. Forma da revelação coletiva no telão.
+5. Destino dos demais protótipos de casos ainda presentes no banco, mas não oferecidos na abertura.
 
-1. Preservar o petróleo claro e as cartas marfim: é a assinatura mais forte.
-2. Manter vermelho para seleção e urgência com intensidades distintas: contorno estável no botão e pulsação apenas no cronômetro.
-3. Dar ao balaio uma pequena área coletiva no vocabulário visual do monte.
-4. Mostrar instruções contextuais curtas no console para evitar painéis altos.
-5. Testar em 320–430 px e com texto do iOS em 125% e 150%.
-
-## Sequência sugerida
+## Próxima sequência recomendada
 
 | Ordem | Entrega | Motivo |
 | ---: | --- | --- |
-| 1 | Estado individual por jogador | Evita saldo e respostas incorretos. |
-| 2 | Turno e cronômetro autoritativos | Garante a mesma partida em todos os aparelhos. |
-| 3 | Transações e regras do Firestore | Evita ações simultâneas e sobrescritas. |
-| 4 | Núcleo único de regras | Elimina a cascata de sobrescritas. |
-| 5 | Balaio e fechamento comparativo | Melhora compreensão e valor pedagógico. |
-| 6 | Testes com vários clientes | Valida o fluxo real antes de ampliar casos. |
+| 1 | Teste presencial com 3, 4 e 6 pessoas | Mede compreensão, duração e densidade do poço. |
+| 2 | Regras de segurança do Firestore | Protege autoria das ações e mãos privadas. |
+| 3 | Reconexão e recuperação de sessão | Evita perda da partida no celular. |
+| 4 | Revelação no telão | Fecha o arco pedagógico coletivamente. |
+| 5 | Decisão de pontuação e ritmo | Só deve ser parametrizada após observar as mesas. |
 
 ## About sugerido para o GitHub
 
-**Descrição:** Jogo digital de cartas, pistas e decisões do projeto MOSAICO — fatos parciais, interpretações e mesa multiplayer.
+**Descrição:** Jogo digital de fragmentos, pistas e decisões do projeto MOSAICO — fatos parciais, interpretações e mesa multiplayer.
 
 **Website:** https://drmarionascimento.github.io/Mosaico-Card/
 

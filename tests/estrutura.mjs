@@ -13,9 +13,12 @@ assert.match(html, /Vez: <b id="vez">/);
 assert.match(html, /<footer class="credit">M&amp;O<\/footer>/);
 
 assert.match(game, /function idJogadorLocal/);
-assert.match(game, /if \(!suaVez\(\) && !jogoOnline\(\)\)/);
-assert.match(game, /dono: idJogadorLocal\(\)/);
-assert.match(game, /const size = 24/);
+assert.match(game, /!suaVez\(\)&&!jogoOnline\(\)/);
+assert.match(game, /saldosPorJogador/);
+assert.match(game, /resolvidosGlobais/);
+assert.match(game, /errosPorJogador/);
+assert.match(game, /turnoTerminaEm/);
+assert.match(game, /width:"24px",height:"24px"/);
 assert.doesNotMatch(game, /vale 4 den/);
 
 assert.match(css, /\.verbos button\.ligado/);

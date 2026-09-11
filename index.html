@@ -28,7 +28,7 @@
       </header>
       <p class="kicker">Casos da Bíblia</p>
       <h1>O MERCADO</h1>
-      <p class="lede">Este botão é o caso da ovelha: a primeira compra do monte é ela. Os outros casos a mesa usa sem lista.</p>
+      <p class="lede">Escolha entre a demonstração da carta da ovelha e o primeiro quadro consolidado do mosaico-quiz.</p>
       <div class="casos" id="casos"></div>
       <div class="portas">
         <button type="button" id="btn-abrir-mesa">Abrir uma mesa</button>
@@ -124,15 +124,15 @@
           <span class="mark-name">Mosaico Card</span>
         </div>
       </header>
-      <p class="kicker">A vez · as pistas · os quatro botões</p>
-      <h2>Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
-      <ul class="verbs">
+      <p class="kicker" id="rule-kicker">A vez · as pistas · os quatro botões</p>
+      <h2 id="rule-title">Na sua vez, você vê as suas pistas e escolhe um verbo.</h2>
+      <ul class="verbs" id="rule-verbs">
         <li><b>Arriscar · 3</b> Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você.</li>
         <li><b>Capturar · 2</b> Tira a pista de outro dossiê. A ovelha não pode ser capturada.</li>
         <li><b>Comprar · 4</b> Pista nova do monte. A ovelha não cobra e paga 6.</li>
         <li><b>Consignar no balaio</b> Só recebe 2 se alguém levar.</li>
       </ul>
-      <p class="lede">Doze denários de prata. Três voltas. O cronômetro da jogada corre no tabuleiro.</p>
+      <p class="lede" id="rule-lede">Doze denários de prata. Três voltas. O cronômetro da jogada corre no tabuleiro.</p>
       <div class="actions">
         <button id="go-deal" type="button">Começar este caso</button>
       </div>
@@ -155,7 +155,7 @@
       <p class="log" id="log"></p>
       <section class="monte-box" id="monte-box">
         <div class="leque-wrap">
-          <div class="area-heading"><span>Coletivo</span><strong>Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
+          <div class="area-heading"><span>Coletivo</span><strong id="monte-titulo">Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
           <div class="leque" id="leque"></div>
         </div>
       </section>
@@ -227,6 +227,11 @@
     <div class="modal-sala" role="dialog" aria-labelledby="mestre-titulo">
       <p class="kicker">Área do mestre</p>
       <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como as rodadas devem avançar?</h2>
+      <p class="log">Escolha o quadro desta mesa.</p>
+      <div class="formas caso-mesa-opcoes" role="group" aria-label="Quadro da mesa">
+        <button type="button" class="caso-mesa-op on" data-caso-mesa="ovelha" aria-pressed="true"><b>Demonstração</b><span>Caso da ovelha</span></button>
+        <button type="button" class="caso-mesa-op" data-caso-mesa="emaus" aria-pressed="false"><b>Mosaico-quiz</b><span>Quando os olhos abrem</span></button>
+      </div>
       <button type="button" class="ritmo-op on" data-ritmo="automatico"><b>Automaticamente · recomendado</b><span>O jogo avança quando todos terminam a jogada.</span></button>
       <button type="button" class="ritmo-op" data-ritmo="conduzido"><b>Com minha liberação</b><span>A sala avisa quando for hora de avançar.</span></button>
       <p id="mestre-status" class="log"></p>
@@ -279,9 +284,9 @@
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>
-  <script src="game.js?v=audit1"></script>
-  <script src="game-sala.js?v=audit1"></script>
-  <script src="game-ovelha6.js?v=audit1"></script>
-  <script src="game-fix.js?v=audit1"></script>
+  <script src="cases-emaus.js?v=2"></script>
+  <script src="game-core.js?v=2"></script>
+  <script src="game.js?v=core2"></script>
+  <script src="game-sala.js?v=core2"></script>
 </body>
 </html>

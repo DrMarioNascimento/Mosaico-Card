@@ -342,6 +342,19 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
 .cell-saldo .stash-art { width:72px; height:40px; }
 .cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:72px; height:40px; }
 .cell-saldo .stash-art .coin { width:22px; height:22px; }
+.cell-saldo.modo-quiz { grid-template-columns:42px 1fr; }
+.quiz-mark {
+  width:38px;
+  height:38px;
+  display:grid;
+  place-items:center;
+  border-radius:10px;
+  color:#725426;
+  font-weight:900;
+  background:linear-gradient(145deg,#fff9eb,var(--paper) 65%,#d8c9aa);
+  border:1px solid var(--gold);
+  box-shadow:inset 1px 1px 0 #fff9,0 3px 0 #725936,0 6px 10px #0007;
+}
 .status-cell[hidden] { display:none !important; }
 .jogadores-bar {
   background: linear-gradient(180deg, #183c4b, #0d2631);
@@ -406,6 +419,9 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   font-weight: 800;
 }
 .tile p { margin: 6px 0 0; color: #28251f; }
+.tile.tipo-duvida { border-color:#a97483; box-shadow:inset 2px 2px 0 #fff9,inset -3px -4px 7px #6d573033,0 4px 0 #744457,0 10px 18px #0008; }
+.tile.tipo-cenario { border-color:#6d9a9a; box-shadow:inset 2px 2px 0 #fff9,inset -3px -4px 7px #355c5733,0 4px 0 #426c68,0 10px 18px #0008; }
+.campo-resposta { display:grid; gap:7px; margin-top:8px; padding-top:8px; border-top:1px solid #3d6474; }
 .verbos { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
 .verbos button { min-height: 46px; padding:7px 10px; font-size:14px; display:flex; flex-direction:column; align-items:center; justify-content:center; line-height:1.05; }
 .verbos button small { font-size:10px; opacity:.78; margin-top:2px; }

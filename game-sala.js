@@ -1,61 +1,42 @@
 (function () {
-  function eu() {
-    return idJogadorLocal();
-  }
-  suaVez = function () { return quem() === eu(); };
-  const _passar = passarVez;
-  passarVez = function () {
-    _passar();
-    if (window.MC_GAME && window.MC_GAME.publicarEstado) window.MC_GAME.publicarEstado("deal");
-  };
-  const _start = startDeal;
-  startDeal = function () {
-    if (window.MC_SALA && window.MC_SALA.online && window.MC_SALA.jogadores && window.MC_SALA.jogadores.length) {
-      ORDEM.length = 0;
-      window.MC_SALA.jogadores.forEach(function (j) {
-        ORDEM.push(j.id);
-        NOMES[j.id] = j.nome || "Jogador";
-      });
-    }
-    _start();
-  };
   function snapshotEstado() {
-    const maoPor = Object.assign({}, state.rivais);
-    maoPor[eu()] = state.mao.slice();
     return {
-      moedas: state.moedas,
-      monte: state.monte,
-      balaio: state.balaio,
-      travados: state.travados,
-      pagas: state.pagas,
+      monte: state.monte.slice(),
+      balaio: state.balaio.slice(),
+      maosPorJogador: JSON.parse(JSON.stringify(state.maosPorJogador)),
+      saldosPorJogador: Object.assign({}, state.saldosPorJogador),
+      resolvidosGlobais: JSON.parse(JSON.stringify(state.resolvidosGlobais)),
+      errosPorJogador: JSON.parse(JSON.stringify(state.errosPorJogador)),
+      pagas: Object.assign({}, state.pagas),
       vez: state.vez,
-      voltasFeitas: state.voltasFeitas,
-      log: state.log,
-      maoPor: maoPor,
-      rivais: state.rivais
+      voltasFeitas: Object.assign({}, state.voltasFeitas),
+      turnoId: state.turnoId,
+      turnoTerminaEm: state.turnoTerminaEm,
+      log: state.log
     };
   }
+
   function aplicarSnap(s) {
-    if (!s) return;
-    state.monte = s.monte || state.monte;
+    if (!s || (typeof s.turnoId === "number" && s.turnoId < state.turnoId)) return;
+    state.monte = s.monte || [];
     state.balaio = s.balaio || [];
-    state.travados = s.travados || {};
+    state.maosPorJogador = s.maosPorJogador || {};
+    state.saldosPorJogador = s.saldosPorJogador || {};
+    state.resolvidosGlobais = s.resolvidosGlobais || {};
+    state.errosPorJogador = s.errosPorJogador || {};
     state.pagas = s.pagas || {};
-    state.vez = s.vez || 0;
-    if (s.voltasFeitas) state.voltasFeitas = s.voltasFeitas;
-    state.log = s.log || state.log;
-    if (s.maoPor) {
-      state.mao = s.maoPor[eu()] || [];
-      state.rivais = {};
-      ORDEM.forEach(function (id) {
-        if (id !== eu()) state.rivais[id] = s.maoPor[id] || [];
-      });
-    }
-    if (typeof s.moedas === "number") state.moedas = s.moedas;
+    state.vez = Number(s.vez || 0);
+    state.voltasFeitas = s.voltasFeitas || {};
+    state.turnoId = Number(s.turnoId || 0);
+    state.turnoTerminaEm = s.turnoTerminaEm || null;
+    state.log = s.log || "";
+    startTimer(state.turnoTerminaEm);
     render();
   }
+
   window.MC_GAME = {
     casoId: function () { return casoId; },
+    selecionarCaso: carregarCaso,
     startDeal: startDeal,
     publicarEstado: function (fase) {
       if (!(window.MC_SALA && window.MC_SALA.online && window.MC_SALA.publicar)) return;
@@ -73,6 +54,7 @@
         show("deal");
         if (window.MC_SALA && typeof window.MC_SALA.pintar === "function") window.MC_SALA.pintar();
       }
-    }
+    },
+    snapshotEstado: snapshotEstado
   };
 })();

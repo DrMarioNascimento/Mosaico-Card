@@ -1,75 +1,80 @@
 # Mosaico Card — O Mercado
 
-Jogo digital de cartas, pistas e decisões. Cada participante recebe fatos parciais, administra denários e decide até onde as evidências permitem concluir.
+Jogo digital de cartas, fragmentos e decisões. O MOSAICO explora a distância entre aquilo que parece ter acontecido e aquilo que os fatos permitem concluir.
 
 > O fato cabe na carta; a interpretação, não.
 
 **Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
 
-## Estado atual
+## Modos disponíveis
+
+### Quando os olhos abrem · mosaico-quiz
+
+Primeiro quadro implementado a partir da consolidação **MOSAICO — Quadro Emaús V2**, com fonte canônica em Lucas 24,13–35.
+
+- Mesa de 3 a 6 participantes.
+- Dois fragmentos mudos por participante; o restante forma o poço virado.
+- Na rodada, a pessoa compra um fragmento ou lê em voz alta um que já possui.
+- Quatro campos de resposta fechada, sem texto livre.
+- Acerto fecha o campo para todos; erro fecha o campo somente para quem respondeu.
+- Sem moedas, captura, ranking ou cronômetro nesta versão.
+- “Emaús”, “Jesus” e “Lucas 24” não aparecem nos fragmentos; a identificação chega apenas na revelação.
+
+O quadro trabalha **QUANDO + O QUÊ**, não a identidade do terceiro caminhante. Os fragmentos são marcados visualmente como pista-caso, pista-dúvida ou pista-cenário.
+
+### Caso da ovelha · demonstração
+
+Protótipo mantido separadamente para demonstrar a carta especial e sua animação. A primeira compra é a ovelha: não cobra, concede seis denários, permanece 5,5 segundos na revelação e sai do jogo. Essa regra não é aplicada aos outros quadros.
+
+## Mesa e interface
 
 - Interface mobile first em HTML, CSS e JavaScript, sem etapa de compilação.
-- Mesa compartilhada por código de seis caracteres e QR Code.
-- Entrada anônima pelo Firebase Authentication e sincronização pelo Cloud Firestore.
-- Modos Mestre, participante, telão e ensaio local.
-- Console inferior com saldo, cronômetro, jogador da vez e quatro ações.
-- Monte coletivo em leque; a compra é feita tocando em uma carta.
-- Pistas particulares e lista de jogadores recolhíveis em acordeão.
-- Carta especial da ovelha com animação, recompensa e saída imediata do jogo.
+- Sala por código de seis caracteres e QR Code, com Mestre, participantes e telão.
+- Monte ou poço coletivo em leque; compra feita tocando diretamente numa carta.
+- Pistas particulares e relação de jogadores em áreas recolhíveis.
+- Console inferior alinhado, com estado da partida, vez e ações contextuais.
+- Cartas marfim com profundidade e diferenciação discreta por tipo de fragmento.
+- Seleção de ação com glow vermelho; urgência animada reservada ao cronômetro do modo econômico.
 
-## Como jogar
+## Estado multiplayer
 
-Cada participante começa com duas pistas e 12 denários. A partida tem três voltas. Na sua vez, escolha uma ação:
+O snapshot compartilhado usa:
 
-| Ação | Custo | Resultado |
-| --- | ---: | --- |
-| Arriscar | 3 se errar | Trava uma resposta. No acerto, a moeda não é gasta. |
-| Capturar | 2 | Transfere uma pista capturável de outro participante. |
-| Comprar | 4 | Ativa o monte; toque em uma carta do leque. |
-| Consignar | — | Envia uma pista ao balaio; o dono recebe 2 se alguém a levar. |
+- `maosPorJogador` e `saldosPorJogador`;
+- `resolvidosGlobais` para acertos;
+- `errosPorJogador` para bloqueios individuais;
+- `turnoId` para rejeitar publicação atrasada;
+- `turnoTerminaEm` para todos exibirem o mesmo prazo no modo econômico.
 
-O botão selecionado recebe um glow vermelho. O cronômetro fica branco na vez dos demais, vermelho na própria vez e ganha glow nos dez segundos finais.
-
-### Carta da ovelha
-
-A quantidade de ovelhas cresce conforme o número de jogadores. Quando encontrada, a carta não cobra a compra, concede seis denários, permanece 5,5 segundos na animação, não entra na mão e não pode ser capturada.
-
-## Abrir uma mesa
-
-1. Selecione **Abrir uma mesa** e escolha o ritmo.
-2. Informe nome e forma de tratamento.
-3. Compartilhe o QR Code ou o código da sala.
-4. Aguarde os participantes e toque em **Iniciar partida**.
-5. Durante a partida, o Mestre acessa código, QR, participantes e controles pelo botão **Sala**.
-
-Para testar sem Firebase ou outros aparelhos, use **Ensaio neste aparelho**.
+As publicações de turno são feitas em transação no Firestore. Uma atualização com `turnoId` antigo ou repetido não substitui o estado mais novo.
 
 ## Estrutura
 
 | Arquivo | Responsabilidade |
 | --- | --- |
 | `index.html` | Cenas, HUD, modais e carregamento dos módulos. |
-| `game.js` | Estado local, ações, turno, cronômetro e renderização. |
-| `game-sala.js` | Adaptação do motor ao estado compartilhado. |
-| `game-ovelha6.js` | Regras especiais e proteção da ovelha. |
-| `game-fix.js` | Distribuição dinâmica e compatibilidade atual. |
-| `sala.js` | Lobby, Mestre, participantes, telão e sincronização. |
-| `firebase.js` | Firebase e autenticação anônima. |
-| `cases*.js` | Banco de 12 casos, fatos e perguntas. |
+| `game-core.js` | Regras puras de modo, jogadores e fechamento híbrido. |
+| `game.js` | Estado, ações, turnos, cronômetro e renderização. |
+| `game-sala.js` | Serialização e adaptação do motor à sala compartilhada. |
+| `sala.js` | Lobby, Mestre, participantes, telão e transações Firestore. |
+| `cases-emaus.js` | Quadro consolidado “Quando os olhos abrem”. |
+| `cases*.js` | Casos e protótipos de conteúdo. |
 | Módulos CSS | Identidade visual, cartas, moeda e responsividade. |
+
+Os antigos `game-fix.js` e `game-ovelha6.js` foram absorvidos pelo motor e removidos; a ordem de carregamento já não altera regras por sobrescrita.
 
 ## Desenvolvimento e testes
 
-Não há dependências de execução. Sirva a pasta por HTTP ou abra `index.html` para o ensaio local.
+Sirva a pasta por HTTP ou use **Ensaio neste aparelho**.
 
 ```bash
 npm test
 ```
 
-Os testes verificam QR, identificação, estrutura do HUD e invariantes das regras principais. O GitHub executa a validação a cada push ou pull request.
+Os testes verificam sintaxe, QR, identificação, estrutura do HUD e a regra de que o erro é individual enquanto o acerto é global. O GitHub executa a validação a cada push ou pull request.
 
-## Auditoria e próximos passos
+## Decisões ainda abertas
 
-O relatório técnico de jogabilidade, estética, arquitetura e prioridades está em [`docs/AUDITORIA.md`](docs/AUDITORIA.md).
+O documento de Emaús não fecha pontuação, duração, ritmo quantitativo nem composição final do poço. Por isso, a implementação não cria números provisórios para essas decisões. Veja [`docs/QUADRO-EMAUS.md`](docs/QUADRO-EMAUS.md) e [`docs/AUDITORIA.md`](docs/AUDITORIA.md).
 
 Criação: **M&O**.

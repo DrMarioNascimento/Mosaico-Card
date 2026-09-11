@@ -386,6 +386,11 @@
   }
   function iniciarPartida() {
     if (!souMestre()) return;
+    const quadro = window.MC_GAME ? window.MC_GAME.casoId() : "ovelha";
+    if (quadro === "emaus" && (sala.jogadores.length < 3 || sala.jogadores.length > 6)) {
+      setStatus("#sala-status", "O quadro Quando os olhos abrem requer de 3 a 6 participantes.");
+      return;
+    }
     if (typeof startDeal === "function") startDeal();
     sala.fase = "deal";
     pintar();
@@ -420,7 +425,18 @@
   }
   sala.publicar = function (payload) {
     if (!sala.codigo || !window.MC_FB.ready || sala.telao) return;
-    refSala(sala.codigo).set(payload, { merge: true }).catch(function () {});
+    const ref = refSala(sala.codigo);
+    return window.MC_FB.db.runTransaction(function (tx) {
+      return tx.get(ref).then(function (snap) {
+        const atual = snap.exists && snap.data().snap;
+        const atualId = atual && typeof atual.turnoId === "number" ? atual.turnoId : -1;
+        const novoId = payload.snap && typeof payload.snap.turnoId === "number" ? payload.snap.turnoId : atualId + 1;
+        if (novoId <= atualId) return;
+        tx.set(ref, payload, { merge: true });
+      });
+    }).catch(function () {
+      setStatus("#sala-status", "A ação chegou depois de outra jogada e não substituiu o turno atual.");
+    });
   };
   sala.pintar = pintar;
   sala.show = show;
@@ -453,6 +469,12 @@
       abrir.addEventListener("click", function () {
         modal.hidden = false;
         setStatus("#mestre-status", "");
+        const atual = window.MC_GAME ? window.MC_GAME.casoId() : "ovelha";
+        document.querySelectorAll("[data-caso-mesa]").forEach(function (b) {
+          const on = b.dataset.casoMesa === atual;
+          b.classList.toggle("on", on);
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
       });
     }
     const cancel = $("#btn-cancelar-mestre");
@@ -464,6 +486,16 @@
       btn.addEventListener("click", function () {
         sala.ritmo = btn.dataset.ritmo;
         document.querySelectorAll("[data-ritmo]").forEach(function (b) { b.classList.toggle("on", b === btn); });
+      });
+    });
+    document.querySelectorAll("[data-caso-mesa]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        document.querySelectorAll("[data-caso-mesa]").forEach(function (b) {
+          const on = b === btn;
+          b.classList.toggle("on", on);
+          b.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+        if (window.MC_GAME && window.MC_GAME.selecionarCaso) window.MC_GAME.selecionarCaso(btn.dataset.casoMesa);
       });
     });
     const abrirOk = $("#btn-abrir-com-mesa");
