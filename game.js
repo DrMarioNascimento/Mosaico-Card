@@ -408,9 +408,4 @@ document.addEventListener("DOMContentLoaded", function () {
       render();
     });
   }
-  const salaBtn = $("#btn-sala");
-  const salaPanel = $("#sala-panel");
-  const salaFechar = $("#sala-fechar");
-  if (salaBtn && salaPanel) salaBtn.addEventListener("click", function () { salaPanel.hidden = !salaPanel.hidden; });
-  if (salaFechar && salaPanel) salaFechar.addEventListener("click", function () { salaPanel.hidden = true; });
 });
