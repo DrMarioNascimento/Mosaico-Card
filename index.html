@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=foto-real">
+  <link rel="stylesheet" href="styles.css?v=sala1">
   <link rel="stylesheet" href="mc-mark.css?v=foto">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
@@ -144,12 +144,29 @@
   </div>
   <aside id="sala-panel" class="sala-panel" hidden>
     <p class="kicker">Mestre de sala</p>
-    <p>Espaço reservado ao mestre da sala: convite da mesa, ordem dos jogadores e encerramento. Firebase entra no playtest.</p>
+    <p id="sala-status">Conectando Firebase…</p>
+    <p>Código da mesa: <b id="sala-codigo-view">—</b></p>
+    <label class="sala-field">Seu nome
+      <input id="sala-nome" type="text" maxlength="18" placeholder="Nome na mesa" autocomplete="nickname">
+    </label>
+    <label class="sala-field">Código
+      <input id="sala-codigo" type="text" maxlength="6" placeholder="AB12" autocomplete="off">
+    </label>
+    <div class="actions">
+      <button type="button" id="sala-criar">Criar sala</button>
+      <button type="button" id="sala-entrar" class="ghost">Entrar</button>
+    </div>
+    <ol id="sala-lista" class="sala-lista"></ol>
     <button type="button" id="sala-fechar" class="ghost slim">Fechar</button>
   </aside>
   <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+  <script src="firebase.js?v=sala1"></script>
+  <script src="sala.js?v=sala1"></script>
   <script src="assets.js"></script>
   <script src="cases.js?v=foto"></script>
-  <script src="game.js?v=foto-real"></script>
+  <script src="game.js?v=sala1"></script>
 </body>
 </html>
