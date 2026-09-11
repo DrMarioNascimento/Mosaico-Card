@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css?v=on">
   <link rel="stylesheet" href="cards.css?v=foto-real">
-  <link rel="stylesheet" href="sala.css?v=sala6">
+  <link rel="stylesheet" href="sala.css?v=ident1">
 </head>
 <body>
   <section class="scene active" id="open">
@@ -38,7 +38,7 @@
       </div>
     </div>
   </section>
-  <section class="scene" id="entrar">
+  <section class="scene" id="entrar" data-modo="convidado">
     <div class="wrap">
       <header class="mobile-topbar">
         <div class="brand-lockup">
@@ -46,24 +46,25 @@
           <span class="mark-name">Mosaico Card</span>
         </div>
       </header>
-      <p class="kicker">Entrar</p>
-      <h2>Quem chega agora?</h2>
-      <p class="lede">O fato cabe na carta. Você chega com um nome e um código.</p>
+      <p class="kicker" id="entrar-kicker">Entrar</p>
+      <h2 id="entrar-titulo">Quem chega agora?</h2>
+      <p class="lede" id="entrar-lede">O fato cabe na carta. Você chega com um nome e um código.</p>
+      <p id="entrar-aviso" class="sala-nota" hidden>Na partida você joga normalmente. Código e QR ficam no botão Mestre para quem ainda chega.</p>
       <p id="entrar-status" class="log"></p>
-        <label class="sala-field" for="cod">Código da mesa
+      <label class="sala-field" id="campo-cod" for="cod">Código da mesa
         <input id="cod" class="codigo" maxlength="6" autocapitalize="characters" autocomplete="off" placeholder="ABC123">
       </label>
       <label class="sala-field" for="nome">Seu nome
         <input id="nome" class="sala-input" maxlength="18" autocomplete="nickname" placeholder="Como a mesa te chama">
       </label>
-      <p class="kicker">Como quer que o Mosaico te chame?</p>
-      <div class="formas">
-        <button type="button" class="forma-op" data-forma="m"><b>👨</b><span>Bem-vindo</span></button>
-        <button type="button" class="forma-op" data-forma="f"><b>👩</b><span>Bem-vinda</span></button>
-        <button type="button" class="forma-op on" data-forma="n"><b>👥</b><span>Tanto faz</span></button>
+      <p class="kicker" id="formas-kicker">Como quer que o Mosaico te chame?</p>
+      <div class="formas" role="group" aria-label="Forma de tratamento">
+        <button type="button" class="forma-op" data-forma="m" aria-pressed="false"><b>👨</b><span>Bem-vindo</span></button>
+        <button type="button" class="forma-op" data-forma="f" aria-pressed="false"><b>👩</b><span>Bem-vinda</span></button>
+        <button type="button" class="forma-op on" data-forma="n" aria-pressed="true"><b>👥</b><span>Tanto faz</span></button>
       </div>
-      <div class="actions">
-        <button type="button" id="btn-entrar-mesa">Entrar</button>
+      <div class="actions ident-actions">
+        <button type="button" id="btn-entrar-mesa" class="btn-go">Entrar</button>
         <button type="button" id="btn-voltar-open" class="ghost">← Voltar</button>
       </div>
     </div>
@@ -109,7 +110,7 @@
       </div>
       <ol id="lobby-lista" class="sala-lista"></ol>
       <div class="actions">
-        <button type="button" id="btn-iniciar-partida">Iniciar partida</button>
+        <button type="button" id="btn-iniciar-partida" class="btn-go">Iniciar partida</button>
         <p id="lobby-espera" class="log" hidden>Aguardando o Mestre iniciar a partida…</p>
         <button type="button" id="btn-lobby-voltar" class="ghost">← Encerrar / sair</button>
       </div>
@@ -231,7 +232,7 @@
       <button type="button" class="ritmo-op" data-ritmo="conduzido"><b>Com minha liberação</b><span>A sala avisa quando for hora de avançar.</span></button>
       <p id="mestre-status" class="log"></p>
       <div class="actions">
-        <button type="button" id="btn-abrir-com-mesa">Abrir mesa</button>
+        <button type="button" id="btn-abrir-com-mesa" class="btn-go">Abrir mesa</button>
         <button type="button" id="btn-cancelar-mestre" class="ghost">Cancelar</button>
       </div>
     </div>
@@ -275,7 +276,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
-  <script src="sala.js?v=sala6"></script>
+  <script src="sala.js?v=ident1"></script>
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>
