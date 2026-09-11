@@ -14,7 +14,12 @@
   window.MC_SALA = sala;
 
   function $(sel) { return document.querySelector(sel); }
+  function fecharModal() {
+    const modal = $("#modal-mestre");
+    if (modal) modal.hidden = true;
+  }
   function show(id) {
+    fecharModal();
     document.querySelectorAll(".scene").forEach(function (el) {
       el.classList.toggle("active", el.id === id);
     });
@@ -109,7 +114,7 @@
       sala.mestre = window.MC_FB.uid;
       sala.online = true;
       ouvir(cod);
-      $("#modal-mestre").hidden = true;
+      fecharModal();
       pintar();
       show("rule");
     }).catch(function (e) {
@@ -179,10 +184,13 @@
     const irEntrar = $("#btn-ir-entrar");
     const irTelao = $("#btn-ir-telao");
     const modal = $("#modal-mestre");
+    fecharModal();
     if (abrir && modal) abrir.addEventListener("click", function () { modal.hidden = false; });
     const cancel = $("#btn-cancelar-mestre");
-    if (cancel && modal) cancel.addEventListener("click", function () { modal.hidden = true; });
-    if (modal) modal.addEventListener("click", function (e) { if (e.target === modal) modal.hidden = true; });
+    if (cancel) cancel.addEventListener("click", fecharModal);
+    if (modal) modal.addEventListener("click", function (e) { if (e.target === modal) fecharModal(); });
+    const goRule = $("#go-rule");
+    if (goRule) goRule.addEventListener("click", fecharModal);
     document.querySelectorAll("[data-ritmo]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         sala.ritmo = btn.dataset.ritmo;
