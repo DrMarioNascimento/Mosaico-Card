@@ -28,6 +28,11 @@ input.codigo { text-transform:uppercase; letter-spacing:.28em; font-size:22px; t
   position:fixed; inset:0; z-index:140; background:#061823cc;
   display:flex; align-items:flex-end; justify-content:center; padding:16px;
 }
+.modal-fundo[hidden],
+#modal-mestre[hidden],
+.sala-panel[hidden] {
+  display:none !important;
+}
 .modal-sala {
   width:min(440px,100%);
   background:linear-gradient(180deg,#163644,#102833);
