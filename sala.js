@@ -162,7 +162,7 @@
     }
     const btnSala = $("#btn-sala");
     if (btnSala) {
-      btnSala.textContent = "Mestre";
+      btnSala.textContent = "Sala";
       btnSala.hidden = !(master && cenaAtiva() === "deal");
       const cell = btnSala.closest(".cell-sala");
       if (cell) cell.hidden = btnSala.hidden;

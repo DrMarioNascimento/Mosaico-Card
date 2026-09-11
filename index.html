@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=mesa3d3">
+  <link rel="stylesheet" href="styles.css?v=hud1linha">
   <link rel="stylesheet" href="mc-mark.css?v=3d1">
   <link rel="stylesheet" href="media.css">
   <link rel="stylesheet" href="faces.css">
@@ -146,7 +146,7 @@
           <span class="mark-name">Mosaico Card</span>
         </div>
         <p class="scene-title" id="caso-titulo">Caso</p>
-        <span class="deal-balance" aria-hidden="true"></span>
+        <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
       </header>
       <details class="jogadores-bar" id="jogadores-bar">
         <summary><span>Jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
@@ -167,21 +167,14 @@
         <div class="hand" id="hand"></div>
       </section>
       <div class="status-grid" id="status-grid">
-        <div class="status-cell" id="cell-vez">
-          <small>Vez</small>
-          <strong id="vez">Você</strong>
+        <div class="status-cell cell-saldo">
+          <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
+          <div class="purse" id="purse"></div>
         </div>
         <div class="status-cell" id="cell-tempo">
           <small>Tempo da jogada</small>
           <strong id="tempo">0:45</strong>
-        </div>
-        <div class="status-cell cell-sala">
-          <small>Sala</small>
-          <button type="button" id="btn-sala" class="sala-btn" hidden>Mestre</button>
-        </div>
-        <div class="status-cell cell-saldo">
-          <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
-          <div class="purse" id="purse"></div>
+          <span class="vez-inline">Vez: <b id="vez">Você</b></span>
         </div>
       </div>
       <div class="verbos" id="verbos">
@@ -281,7 +274,7 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
-  <script src="sala.js?v=ident1"></script>
+  <script src="sala.js?v=hud1linha"></script>
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>

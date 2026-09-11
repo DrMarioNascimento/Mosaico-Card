@@ -267,7 +267,7 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
 }
 .status-grid {
   display: grid;
-  grid-template-columns: 1.1fr 1.2fr auto 1.15fr;
+  grid-template-columns: minmax(0,1.2fr) minmax(0,1fr);
   gap: 8px;
   align-items: stretch;
 }
@@ -297,6 +297,8 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   font-weight: 800;
   line-height: 1.15;
 }
+.vez-inline { color:var(--muted); font-size:11px; font-weight:700; line-height:1.1; }
+.vez-inline b { color:#fff; font-size:12px; }
 .status-cell.cell-tempo strong, #cell-tempo strong { color: #fff; }
 #cell-tempo.minha-vez strong { color: #ff667a; }
 #cell-tempo.urgente {
@@ -318,11 +320,24 @@ button:focus-visible { outline: 3px solid #bce9f6; outline-offset: 4px; }
   font-size: 13px;
   width: 100%;
 }
+.deal-sala {
+  grid-column:3;
+  min-width:72px;
+  width:auto;
+  min-height:36px;
+  height:36px;
+  padding:5px 10px;
+  font-size:12px;
+}
+.deal-sala[hidden] { display:none !important; }
 .cell-saldo .purse { margin: 0; }
+.cell-saldo { display:grid; grid-template-columns:auto 1fr; grid-template-rows:auto 1fr; align-items:center; column-gap:6px; padding:7px 10px; }
+.cell-saldo .saldo-head { grid-column:2; grid-row:1 / 3; flex-direction:column; align-items:flex-start; gap:3px; }
+.cell-saldo .purse { grid-column:1; grid-row:1 / 3; }
 .saldo-head { display:flex; align-items:baseline; gap:8px; }
 .saldo-head strong { font-size:18px; color:#fff; line-height:1; }
-.cell-saldo .stash-art { width:82px; height:48px; }
-.cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:82px; height:48px; }
+.cell-saldo .stash-art { width:92px; height:52px; }
+.cell-saldo .stash-art .bag, .cell-saldo .stash-art .wallet { width:92px; height:52px; }
 .cell-saldo .stash-art .coin { width:22px; height:22px; }
 .status-cell[hidden] { display:none !important; }
 .jogadores-bar {
@@ -506,7 +521,7 @@ footer.credit {
   button { font-size: 16px; }
 }
 @media (max-width: 640px) {
-  .status-grid { grid-template-columns: 1fr 1fr; }
+  .status-grid { grid-template-columns: minmax(0,1.15fr) minmax(0,.85fr); }
   .deal-bar {
     grid-template-columns: auto 1fr;
   }
