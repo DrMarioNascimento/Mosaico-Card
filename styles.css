@@ -144,7 +144,7 @@ body {
   width: 96px;
   height: 58px;
   display: block;
-  background: url("bolsa.svg?v=hud5") center / contain no-repeat;
+  background: transparent url("bolsa.svg?v=hud5") center / contain no-repeat;
   border-radius: 0;
   filter: drop-shadow(0 2px 3px #0008);
   z-index: 1;
