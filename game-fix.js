@@ -9,22 +9,23 @@
   };
   Object.keys(window.MC_CASOS || {}).forEach(function (id) {
     var pecas = window.MC_CASOS[id].pecas;
-    if (!pecas.OV) pecas.OV = OV;
+    var ja = Object.keys(pecas).some(function (k) {
+      var p = pecas[k];
+      return p.figura === "ovelha" || /ovelha/i.test(p.marca || "") || /ovelha perdida/i.test(p.texto || "");
+    });
+    if (!ja) pecas.OV = OV;
     Object.keys(pecas).forEach(function (k) {
-      if (pecas[k].figura === "ovelha" || pecas[k].id === "F4" && id === "ovelha") {
+      if (pecas[k].figura === "ovelha" || /ovelha/i.test(pecas[k].marca || "")) {
         pecas[k].recompensa = 6;
         pecas[k].protegida = true;
       }
     });
   });
-  if (typeof PECAS !== "undefined" && PECAS && !PECAS.OV) PECAS.OV = OV;
 
   var _eOvelha = eOvelha;
   eOvelha = function (id) {
-    if (id === "OV" || id === "F4") {
-      var p = peca(id);
-      if (p && (p.figura === "ovelha" || p.protegida || /ovelha/i.test(p.marca || ""))) return true;
-    }
+    var p = peca(id);
+    if (p && (id === "OV" || p.figura === "ovelha" || p.protegida && /ovelha/i.test(p.marca || ""))) return true;
     return _eOvelha(id);
   };
 
@@ -48,9 +49,6 @@
     _render();
     var coin = document.querySelector(".stash-art .coin");
     if (coin) coin.classList.add("on");
-    ORDEM.forEach(function (id) {
-      if (typeof state.voltasFeitas[id] !== "number") state.voltasFeitas[id] = 0;
-    });
   };
 
   var _pintar = pintarCasos;
@@ -62,4 +60,5 @@
       btn.classList.toggle("ligado", btn.dataset.caso === casoId);
     });
   };
+  if (document.readyState !== "loading") pintarCasos();
 })();
