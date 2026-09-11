@@ -71,7 +71,7 @@ function revelarCompra(id, jogadorId, depois) {
   const inner = $("#flip-inner");
   if (!stage || !front) { if (depois) depois(); return; }
   front.innerHTML = "<small>" + p.marca + "</small><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p>" + p.texto + "</p>";
-  if (jogadorId === "voce") msg.textContent = "Voc\u00ea achou uma ovelha perdida, vale 4 den\u00e1rios de recompensa";
+  if (jogadorId === "voce") msg.textContent = "Voc\u00ea achou uma ovelha perdida. A compra n\u00e3o cobra e vale 4 den\u00e1rios de recompensa";
   else msg.textContent = NOMES[jogadorId] + " achou uma ovelha perdida!";
   if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
   stage.hidden = false;
@@ -203,14 +203,17 @@ function passarVez() {
   if (!suaVez()) setTimeout(jogarRival, 700);
 }
 function comprar() {
-  if (state.moedas < PRECO.nova) return say("Sem 4 moedas para comprar.");
   if (!state.monte.length) return say("O monte acabou.");
-  const id = state.monte.shift();
-  state.moedas -= PRECO.nova;
+  const id = state.monte[0];
+  const achou = eOvelha(id);
+  if (!achou && state.moedas < PRECO.nova) return say("Sem 4 moedas para comprar.");
+  state.monte.shift();
+  if (!achou) state.moedas -= PRECO.nova;
   state.mao.push(id);
   revelarCompra(id, "voce", function () {
     pagarRecompensa(id);
-    say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea comprou " + peca(id).marca + " \u00b7 -4.");
+    if (achou) say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea achou a ovelha. A compra n\u00e3o cobra. +4.");
+    else say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea comprou " + peca(id).marca + " \u00b7 -4.");
     passarVez();
     render();
   });
@@ -281,7 +284,7 @@ function htmlPainel() {
   if (!v || !suaVez()) return "";
   if (v === "comprar") {
     if (!state.monte.length) return "<p>O monte esta vazio.</p>";
-    return "<p>Comprar uma pista lacrada custa 4. Ha " + state.monte.length + " no monte.</p><button class='slim' type='button' data-act='comprar-ok'>Comprar agora</button>";
+    return "<p>Comprar uma pista lacrada custa 4. Se for a ovelha, a compra n\u00e3o cobra e voc\u00ea ganha 4.</p><button class='slim' type='button' data-act='comprar-ok'>Comprar agora</button>";
   }
   if (v === "capturar") {
     const alvos = ORDEM.filter((id) => id !== "voce" && state.rivais[id].length);
