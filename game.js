@@ -47,8 +47,10 @@ function shuffle(list) {
   return copy;
 }
 function peca(id) { return PECAS[id]; }
+function jogoOnline() { return !!(window.MC_SALA && window.MC_SALA.online); }
+function idJogadorLocal() { return jogoOnline() && window.MC_SALA.uid ? window.MC_SALA.uid : "voce"; }
 function quem() { return ORDEM[state.vez % ORDEM.length]; }
-function suaVez() { return quem() === "voce"; }
+function suaVez() { return quem() === idJogadorLocal(); }
 function acabou() { return ORDEM.every((id) => state.voltasFeitas[id] >= VOLTAS); }
 function say(msg) { state.log = msg; }
 function eOvelha(id) {
@@ -71,7 +73,7 @@ function revelarCompra(id, jogadorId, depois) {
   const inner = $("#flip-inner");
   if (!stage || !front) { if (depois) depois(); return; }
   front.innerHTML = "<small>" + p.marca + "</small><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p>" + p.texto + "</p>";
-  if (jogadorId === "voce") msg.textContent = "Voc\u00ea achou uma ovelha perdida. A compra n\u00e3o cobra e vale 4 den\u00e1rios de recompensa";
+  if (jogadorId === idJogadorLocal()) msg.textContent = "Voc\u00ea achou uma ovelha perdida. A compra n\u00e3o cobra e vale 6 den\u00e1rios de recompensa";
   else msg.textContent = NOMES[jogadorId] + " achou uma ovelha perdida!";
   if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
   stage.hidden = false;
@@ -216,7 +218,7 @@ function passarVez() {
   state.log = (state.log ? state.log + " \u00b7 " : "") + "Vez de " + NOMES[quem()].toLowerCase() + ".";
   render();
   startTimer();
-  if (!suaVez()) setTimeout(jogarRival, 700);
+  if (!suaVez() && !jogoOnline()) setTimeout(jogarRival, 700);
 }
 function comprar(indice) {
   if (!state.monte.length) return say("O monte acabou.");
@@ -227,7 +229,7 @@ function comprar(indice) {
   state.monte.splice(pos, 1);
   if (!achou) state.moedas -= PRECO.nova;
   if (!achou) state.mao.push(id);
-  revelarCompra(id, "voce", function () {
+  revelarCompra(id, idJogadorLocal(), function () {
     pagarRecompensa(id);
     if (achou) say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea achou a ovelha. A compra n\u00e3o cobra. +6. A carta saiu do jogo.");
     else say((state.log ? state.log + " \u00b7 " : "") + "Voc\u00ea comprou " + peca(id).marca + " \u00b7 -4.");
@@ -250,7 +252,7 @@ function capturar(quemId, pecaId) {
 function consignar(pecaId) {
   if (!state.mao.includes(pecaId)) return;
   state.mao = state.mao.filter((id) => id !== pecaId);
-  state.balaio.push({ id: pecaId, dono: "voce" });
+  state.balaio.push({ id: pecaId, dono: idJogadorLocal() });
   say("Voc\u00ea consignou " + peca(pecaId).marca + " no balaio.");
   passarVez();
 }
@@ -264,6 +266,7 @@ function arriscar(campoId, valor) {
   passarVez();
 }
 function jogarRival() {
+  if (jogoOnline()) return;
   const id = quem();
   if (id === "voce" || acabou()) return;
   const mao = state.rivais[id];
@@ -281,8 +284,8 @@ function jogarRival() {
   if (state.balaio.length && Math.random() < 0.45) {
     const item = state.balaio.shift();
     mao.push(item.id);
-    if (item.dono === "voce") state.moedas += 2;
-    say(NOMES[id] + " levou " + peca(item.id).marca + " do balaio." + (item.dono === "voce" ? " Voce recebe 2." : ""));
+    if (item.dono === idJogadorLocal()) state.moedas += 2;
+    say(NOMES[id] + " levou " + peca(item.id).marca + " do balaio." + (item.dono === idJogadorLocal() ? " Voce recebe 2." : ""));
   } else if (mao.length) {
     const pecaId = mao[0];
     state.rivais[id] = mao.filter((x) => x !== pecaId);

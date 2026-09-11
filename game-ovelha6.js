@@ -16,7 +16,7 @@
       return "<p>Toque em uma carta do leque. A pista custa 4; se encontrar a ovelha, a compra não cobra, rende 6 e sai do jogo.</p>";
     }
     if (v === "capturar") {
-      const euAgora = (window.MC_SALA && window.MC_SALA.online && window.MC_SALA.uid) ? window.MC_SALA.uid : "voce";
+      const euAgora = idJogadorLocal();
       const alvos = ORDEM.filter((id) => id !== euAgora && state.rivais[id] && state.rivais[id].length);
       if (!alvos.length) return "<p>Ninguem tem pista a vista para capturar.</p>";
       const chips = alvos.map((id) =>
@@ -39,7 +39,7 @@
       const inner = document.querySelector("#flip-inner");
       if (stage && front) {
         front.innerHTML = "<small>" + p.marca + "</small><img class='ovelha-art' alt='Ovelha perdida' src='" + OVELHA_SRC + "'><p>" + p.texto + "</p>";
-        msg.textContent = jogadorId === "voce" || (window.MC_SALA && jogadorId === window.MC_SALA.uid)
+        msg.textContent = jogadorId === idJogadorLocal()
           ? "Você achou uma ovelha perdida. A compra não cobra e vale 6 denários. Não pode ser capturada"
           : (NOMES[jogadorId] || "Alguém") + " achou uma ovelha perdida!";
         if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }

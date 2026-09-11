@@ -1,8 +1,7 @@
 (function () {
   function eu() {
-    return (window.MC_SALA && window.MC_SALA.online && window.MC_SALA.uid) ? window.MC_SALA.uid : "voce";
+    return idJogadorLocal();
   }
-  const _suaVez = suaVez;
   suaVez = function () { return quem() === eu(); };
   const _passar = passarVez;
   passarVez = function () {

@@ -1,0 +1,9 @@
+{
+  "name": "mosaico-card",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "check": "node --check game.js && node --check game-sala.js && node --check game-ovelha6.js && node --check game-fix.js && node --check sala.js && node --check firebase.js",
+    "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs"
+  }
+}

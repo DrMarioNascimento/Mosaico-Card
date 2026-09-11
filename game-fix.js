@@ -7,7 +7,7 @@
     return 1 + Math.floor((n - 1) / 2);
   }
   function euAgora() {
-    return (window.MC_SALA && window.MC_SALA.online && window.MC_SALA.uid) ? window.MC_SALA.uid : "voce";
+    return idJogadorLocal();
   }
   function pecasFato() {
     return Object.keys(PECAS).filter(function (id) {
@@ -90,6 +90,7 @@
     if (coin) coin.classList.add("on");
     if (window.MC_GAME && window.MC_GAME.publicarEstado) window.MC_GAME.publicarEstado("deal");
   };
+  if (window.MC_GAME) window.MC_GAME.startDeal = startDeal;
 
   var _render = render;
   render = function () {

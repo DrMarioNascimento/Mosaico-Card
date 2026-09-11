@@ -1,34 +1,75 @@
 # Mosaico Card — O Mercado
 
-Jogo de cartas e pistas. Nada de AR, sensor ou festa multiplayer: só o envelope, as cartas e as doze moedas.
+Jogo digital de cartas, pistas e decisões. Cada participante recebe fatos parciais, administra denários e decide até onde as evidências permitem concluir.
 
-**Demo:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
+> O fato cabe na carta; a interpretação, não.
 
-## About
+**Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
 
-Mosaico Card nasceu como uma das ideias do projeto Mosaico (A Verdade Fracionada). A carta pegou. Saiu sozinha.
+## Estado atual
 
-Cada personagem joga na sua vez. Vê as próprias pistas. Escolhe um verbo. O fato cabe na carta; a interpretação, não.
+- Interface mobile first em HTML, CSS e JavaScript, sem etapa de compilação.
+- Mesa compartilhada por código de seis caracteres e QR Code.
+- Entrada anônima pelo Firebase Authentication e sincronização pelo Cloud Firestore.
+- Modos Mestre, participante, telão e ensaio local.
+- Console inferior com saldo, cronômetro, jogador da vez e quatro ações.
+- Monte coletivo em leque; a compra é feita tocando em uma carta.
+- Pistas particulares e lista de jogadores recolhíveis em acordeão.
+- Carta especial da ovelha com animação, recompensa e saída imediata do jogo.
 
-Visual alinhado aos simuladores de Fisiologia Interativa: fundo petróleo, acento `#65d5cc`, botões em relevo, mobile first.
+## Como jogar
 
-Autores: Mário César Nascimento e Osana Melo Nascimento.
+Cada participante começa com duas pistas e 12 denários. A partida tem três voltas. Na sua vez, escolha uma ação:
 
-## Como se joga
+| Ação | Custo | Resultado |
+| --- | ---: | --- |
+| Arriscar | 3 se errar | Trava uma resposta. No acerto, a moeda não é gasta. |
+| Capturar | 2 | Transfere uma pista capturável de outro participante. |
+| Comprar | 4 | Ativa o monte; toque em uma carta do leque. |
+| Consignar | — | Envia uma pista ao balaio; o dono recebe 2 se alguém a levar. |
 
-Ordem: você → Nara → Ivo. Três voltas cada. Doze moedas.
+O botão selecionado recebe um glow vermelho. O cronômetro fica branco na vez dos demais, vermelho na própria vez e ganha glow nos dez segundos finais.
 
-Na sua vez as pistas ficam em cima e os quatro botões embaixo.
+### Carta da ovelha
 
-| Verbo | Custo | O que faz |
-| --- | --- | --- |
-| Arriscar | 3 | Trava um campo. Acertou, a moeda volta. Errou, o campo fecha errado para você. |
-| Capturar | 2 | Tira a pista de outro dossiê. Ela muda de mão. |
-| Comprar | 4 | Pista nova do monte. |
-| Consignar no balaio | — | Só recebe 2 se alguém levar. |
+A quantidade de ovelhas cresce conforme o número de jogadores. Quando encontrada, a carta não cobra a compra, concede seis denários, permanece 5,5 segundos na animação, não entra na mão e não pode ser capturada.
 
-O cronômetro por vez existe na regra; neste build está desligado.
+## Abrir uma mesa
 
-## Abrir
+1. Selecione **Abrir uma mesa** e escolha o ritmo.
+2. Informe nome e forma de tratamento.
+3. Compartilhe o QR Code ou o código da sala.
+4. Aguarde os participantes e toque em **Iniciar partida**.
+5. Durante a partida, o Mestre acessa código, QR, participantes e controles pelo botão **Sala**.
 
-Abra `index.html` ou a página do GitHub Pages.
+Para testar sem Firebase ou outros aparelhos, use **Ensaio neste aparelho**.
+
+## Estrutura
+
+| Arquivo | Responsabilidade |
+| --- | --- |
+| `index.html` | Cenas, HUD, modais e carregamento dos módulos. |
+| `game.js` | Estado local, ações, turno, cronômetro e renderização. |
+| `game-sala.js` | Adaptação do motor ao estado compartilhado. |
+| `game-ovelha6.js` | Regras especiais e proteção da ovelha. |
+| `game-fix.js` | Distribuição dinâmica e compatibilidade atual. |
+| `sala.js` | Lobby, Mestre, participantes, telão e sincronização. |
+| `firebase.js` | Firebase e autenticação anônima. |
+| `cases*.js` | Banco de 12 casos, fatos e perguntas. |
+| Módulos CSS | Identidade visual, cartas, moeda e responsividade. |
+
+## Desenvolvimento e testes
+
+Não há dependências de execução. Sirva a pasta por HTTP ou abra `index.html` para o ensaio local.
+
+```bash
+npm test
+```
+
+Os testes verificam QR, identificação, estrutura do HUD e invariantes das regras principais. O GitHub executa a validação a cada push ou pull request.
+
+## Auditoria e próximos passos
+
+O relatório técnico de jogabilidade, estética, arquitetura e prioridades está em [`docs/AUDITORIA.md`](docs/AUDITORIA.md).
+
+Criação: **M&O**.
