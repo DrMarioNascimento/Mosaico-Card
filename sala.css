@@ -48,7 +48,9 @@ input.codigo { text-transform:uppercase; letter-spacing:.28em; font-size:22px; t
   font-size:clamp(36px,12vw,72px); letter-spacing:.18em; font-weight:800; color:#ffc46b;
   text-align:center; margin:12px 0;
 }
-.sala-lista { margin:12px 0; padding:0 0 0 18px; color:#f1f8fc; }
+.sala-lista { margin:12px 0; padding:6px; list-style:none; color:#f1f8fc; background:#03080d; border:1px solid rgba(20,36,48,.95); border-left:4px solid #6aa8ca; border-radius:10px; }
+.sala-lista li { padding:10px 12px; border-bottom:1px solid rgba(45,63,72,.7); display:flex; justify-content:space-between; gap:10px; }
+.sala-lista li:last-child { border-bottom:0; }
 .sala-lista small { color:var(--accent); letter-spacing:.12em; text-transform:uppercase; font-size:10px; }
 .sala-qr-wrap { text-align:center; }
 .sala-qr {
@@ -82,11 +84,13 @@ button.danger {
 .mestre-float[hidden] { display:none !important; }
 .sala-panel {
   position:fixed;
-  inset:0;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
   z-index:170;
   width:auto;
-  right:auto;
-  bottom:auto;
+  max-width:none;
   background:rgba(0,0,0,.72);
   display:flex;
   align-items:flex-start;

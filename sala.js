@@ -74,10 +74,10 @@
       el.innerHTML = "<li>Aguardando jogadores…</li>";
       return;
     }
-    el.innerHTML = jogadores.map(function (j, i) {
+    el.innerHTML = jogadores.map(function (j) {
       const f = FORMAS[j.forma] || FORMAS.n;
       const tag = j.id === sala.mestre ? "Mestre" : "Jogador";
-      return "<li>" + (i + 1) + ". " + f.emoji + " " + esc(j.nome || "Jogador") + " <small>" + tag + "</small></li>";
+      return "<li><span>" + f.emoji + " " + esc(j.nome || "Jogador") + "</span><small>" + tag + "</small></li>";
     }).join("");
   }
   function abrirPainel() {
