@@ -1,75 +1,80 @@
 # Auditoria do Mosaico Card
 
-Atualizada em 11 de setembro de 2026 após a incorporação do Quadro Emaús V2.
+Atualizada em 11 de setembro de 2026 após a consolidação operacional e a importação do Banco NT de 145 pautas.
 
-## Síntese
+## Situação geral
 
-A identidade visual foi preservada: fundo petróleo mais claro, cartas marfim com profundidade, áreas coletivas e particulares distintas e console inferior compacto. A principal mudança desta rodada foi estrutural: o projeto agora distingue o mosaico-quiz sem economia da demonstração econômica da ovelha.
+| Área | Estado | Observação |
+| --- | --- | --- |
+| Fluxo da sala | Implementado | Configuração vem antes da identidade e da assistência do Mestre. |
+| Mestre como jogador | Implementado | Participa da ordem, possui mão, saldo, assistência e pontuação. |
+| Assistência individual | Parcial | Escolha e persistência local implementadas; auxílios específicos por pauta ainda precisam ser redigidos. |
+| Telão opcional | Implementado | Acompanha pergunta, campos, vez, tempo e participantes. |
+| Turno compartilhado | Implementado | 30/45/60 s, autoridade do Mestre e passagem automática no zero. |
+| Tempo total | Implementado | Usa ciclos completos e encerra ao fim do ciclo corrente. |
+| Fechamento final | Implementado | Janela gratuita de 60 s e apuração simultânea. |
+| Pontuação e pódio | Implementado | Ledger por parcelas, residual, desempates, ranking e top 3. |
+| Banco NT | Importado, bloqueado | 145 pautas presentes; nenhuma está liberada para jogar. |
+| Demonstração da ovelha | Implementada e isolada | Não participa do catálogo ou do saco NT. |
 
-## Implementado nesta revisão
+## Bloqueio editorial P0
 
-| Prioridade anterior | Situação atual |
-| --- | --- |
-| Saldo compartilhado | Substituído por `saldosPorJogador`. |
-| Resposta travada única | Dividida em acertos globais e erros por jogador. |
-| Cronômetros divergentes | Snapshot compartilha `turnoTerminaEm`. |
-| Sobrescrita concorrente | Publicação usa transação e `turnoId` crescente. |
-| Cascata de patches | Regras especiais foram absorvidas; dois arquivos de patch foram removidos. |
-| Ovelha previsível | Primeira compra garantida apenas na demonstração; nas partidas econômicas, bônus embaralhado conforme o número de jogadores. |
+O banco contém metadados e quatro campos por pauta, mas ainda não contém tudo o que o motor necessita para jogar com segurança:
 
-## Jogabilidade do quadro Emaús
+1. baralho de fragmentos de cada pauta;
+2. indicação explícita do campo focal;
+3. chave da alternativa correta validada para todos os campos;
+4. correções das alternativas ausentes ou repetidas registradas em [`BANCO-NT-145.md`](BANCO-NT-145.md).
 
-O fluxo implementado respeita a pergunta-mãe e evita revelar a identidade antes do fechamento. Cada participante começa com dois fragmentos; em sua vez, compra do poço ou lê uma peça própria. O formulário apresenta quatro campos fechados.
+Por isso, `cases-nt.js` registra `playableCases: 0`, e `bank-runtime.js` recusa o início de uma pauta canônica. Esse comportamento deve permanecer até a validação editorial.
 
-A regra de tentativa é híbrida:
+## Pontos de atenção técnicos
 
-1. Se a resposta estiver correta, o campo fica resolvido para toda a mesa.
-2. Se estiver incorreta, o campo some apenas para quem fez aquela tentativa.
-3. Outro participante ainda pode responder o mesmo campo.
-4. Um acerto posterior fecha o campo globalmente, inclusive para quem já havia errado.
+### Segurança e privacidade do Firestore
 
-O código não atribui custo, pontuação, duração ou limite de rodadas ao quadro porque a consolidação mantém essas decisões abertas.
+O snapshot da sala ainda reúne mãos, saldos, erros e ledger no mesmo documento. A interface filtra o que mostra, mas um participante capaz de inspecionar diretamente o documento pode enxergar dados privados. As respostas do fechamento também ficam reunidas na sala antes da apuração.
 
-## Estética e hierarquia
+Antes do teste externo, é necessário separar dados públicos e privados ou impor uma camada confiável de servidor, além de revisar as regras do Firestore para garantir que:
 
-- Fundo e caixas continuam em tons de petróleo, com contraste maior nas cartas.
-- Pista-caso usa o acabamento marfim/dourado principal.
-- Pista-dúvida recebe profundidade vinho discreta.
-- Pista-cenário recebe profundidade verde-acinzentada.
-- A diferenciação está na borda e na sombra, sem transformar os tipos em um código cromático excessivamente literal.
-- No mosaico-quiz, a bolsa é substituída pelo progresso dos quatro campos; o mesmo espaço do console é preservado.
+- somente participantes possam escrever na sala;
+- somente o jogador da vez possa publicar sua ação normal;
+- somente o Mestre possa mudar fase e controlar relógios;
+- um cliente não possa alterar mão, saldo ou pontuação de outro jogador;
+- respostas finais não possam ser lidas pelos adversários antes da apuração.
 
-## Riscos remanescentes
+### Reconexão e concorrência
 
-### P0 — antes de teste com grupo
+As transações e o `turnoId` protegem contra parte das publicações atrasadas, mas ainda é necessário validar em vários aparelhos:
 
-1. **Regras do Firestore:** confirmar que apenas participantes da sala podem gravar e que o Mestre controla início e encerramento.
-2. **Teste com vários aparelhos:** validar perda de conexão, retorno à sala e duas ações enviadas quase ao mesmo tempo.
-3. **Privacidade das mãos:** hoje o documento da sala contém todas as mãos; a interface mostra somente a mão local, mas as regras do cliente não tornam os dados secretos para alguém que inspecione o Firestore.
+- reconexão após suspensão do navegador no iPhone;
+- duas ações enviadas quase simultaneamente;
+- expiração do relógio enquanto uma ação está em trânsito;
+- troca de Mestre se o aparelho que criou a sala sair;
+- retorno correto às fases de fechamento e apuração.
 
-### P1 — decisões de design ainda abertas
+### Camadas de assistência
 
-1. Pontuação e eventual valor diferente entre os quatro campos.
-2. Duração, ritmo e condição de encerramento quando a mesa não resolve todos os campos.
-3. Composição final do poço: manter os 19 fragmentos ou selecionar subconjuntos por quantidade de jogadores.
-4. Forma da revelação coletiva no telão.
-5. Destino dos demais protótipos de casos ainda presentes no banco, mas não oferecidos na abertura.
-6. Adaptação — ou exclusão definitiva — do bônus da ovelha em quadros sem economia, como Emaús.
+Livre, Assistida e Guiada já fazem parte do cadastro individual e não são expostas aos demais jogadores. Entretanto, o banco ainda não fornece textos e relações graduadas para que cada camada produza uma experiência realmente diferente. Até essa autoria existir, as três escolhas compartilham essencialmente o mesmo conteúdo de jogo.
 
-## Próxima sequência recomendada
+### Duração curta, padrão e longa
 
-| Ordem | Entrega | Motivo |
+A escolha altera a quantidade de ovelhas e os ciclos da partida. Curta reduz um ciclo, com mínimo de três, e uma ovelha, com mínimo de uma. Longa acrescenta um ciclo, com teto de cinco, e uma ovelha, com teto de quatro. A suíte automática cobre esses limites.
+
+## Validação antes de liberar o banco
+
+| Ordem | Entrega | Critério de aceite |
 | ---: | --- | --- |
-| 1 | Teste presencial com 3, 4 e 6 pessoas | Mede compreensão, duração e densidade do poço. |
-| 2 | Regras de segurança do Firestore | Protege autoria das ações e mãos privadas. |
-| 3 | Reconexão e recuperação de sessão | Evita perda da partida no celular. |
-| 4 | Revelação no telão | Fecha o arco pedagógico coletivamente. |
-| 5 | Decisão de pontuação e ritmo | Só deve ser parametrizada após observar as mesas. |
+| 1 | Completar conteúdo | Baralho, campo focal e quatro gabaritos explícitos em cada pauta. |
+| 2 | Reimportar | Resumo estrutural continua em 145 pautas e 580 campos. |
+| 3 | Liberar por lote | Somente pautas editorialmente validadas recebem `playable: true`. |
+| 4 | Segurança | Mãos e respostas finais não ficam acessíveis aos adversários. |
+| 5 | Teste presencial | Mesas de 3–5, 6–8 e 9–12 validam 60/45/30 s. |
+| 6 | Telão e reconexão | Entrada, retomada, fechamento, apuração e pódio funcionam em aparelhos reais. |
 
-## About sugerido para o GitHub
+## Verificação automática
 
-**Descrição:** Jogo digital de fragmentos, pistas e decisões do projeto MOSAICO — fatos parciais, interpretações e mesa multiplayer.
+```bash
+npm test
+```
 
-**Website:** https://drmarionascimento.github.io/Mosaico-Card/
-
-**Topics:** `mosaico`, `card-game`, `multiplayer`, `firebase`, `firestore`, `javascript`, `mobile-first`, `serious-game`, `educational-game`.
+A automação cobre sintaxe e contratos centrais. Ela não substitui teste de segurança das regras do Firestore, teste de rede real nem validação editorial e bíblica das pautas.

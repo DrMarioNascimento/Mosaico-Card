@@ -3,7 +3,7 @@
 .coin-fly {
   position: fixed;
   left: 50%;
-  top: 52%;
+  top: var(--origin-y, 52%);
   width: 36px;
   height: 36px;
   transform: translate(-50%, -50%);
@@ -45,16 +45,16 @@
   animation: coin-tilt .85s linear forwards;
 }
 @keyframes coin-rise {
-  0%   { top: 70%; width: 22px; height: 22px; filter: blur(4px) brightness(.55); }
-  55%  { top: 43%; width: 138px; height: 138px; filter: blur(0) brightness(1); }
-  100% { top: 41%; width: 132px; height: 132px; filter: none; }
+  0%   { top: var(--origin-y, 52%); width: 22px; height: 22px; filter: blur(4px) brightness(.55); }
+  55%  { top: calc(var(--origin-y, 52%) - 34px); width: calc(var(--coin-size, 132px) * 1.045); height: calc(var(--coin-size, 132px) * 1.045); filter: blur(0) brightness(1); }
+  100% { top: calc(var(--origin-y, 52%) - 30px); width: var(--coin-size, 132px); height: var(--coin-size, 132px); filter: none; }
 }
 @keyframes coin-flip {
   from { transform: rotateY(0deg); }
   to   { transform: rotateY(1080deg); }
 }
 @keyframes coin-home {
-  from { left: 50%; top: 41%; width: 132px; height: 132px; }
+  from { left: 50%; top: calc(var(--origin-y, 52%) - 30px); width: var(--coin-size, 132px); height: var(--coin-size, 132px); }
   to   { left: var(--tx); top: var(--ty); width: var(--end); height: var(--end); }
 }
 .coin-intro-lock { overflow:hidden; }
@@ -76,9 +76,7 @@
   animation: stamp-settle .35s ease-out both;
 }
 .coin-stamp.b { background-image: var(--coin-b); }
-.coin-stamp.fade {
-  animation: stamp-fade .9s ease-in forwards;
-}
+#coin-trail.fade .coin-stamp { animation: stamp-fade .9s ease-in forwards; }
 @keyframes stamp-settle {
   from { transform: scale(.92) rotate(var(--rot, 8deg)); opacity: .45; }
   to   { transform: scale(1) rotate(var(--rot, 8deg)); opacity: .82; }
