@@ -1,4 +1,4 @@
-.stash-art .coin { opacity: 0; }
+.stash-art .coin { opacity: 1; }
 .stash-art .coin.on { opacity: 1; }
 .coin-fly {
   position: fixed;
