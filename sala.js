@@ -276,10 +276,6 @@
     return (($("#nome") && $("#nome").value) || "").trim();
   }
   function seguirParaIdentidadeMestre() {
-    if (!window.MC_FB.ready) {
-      setStatus("#mestre-status", window.MC_FB.err || "Firebase ainda conectando.");
-      return;
-    }
     fecharModal();
     mostrarIdentidade(true);
   }
