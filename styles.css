@@ -1,8 +1,8 @@
 /* Padrão visual dos simuladores de Fisiologia Interativa */
 html { color-scheme: dark; }
 :root {
-  --bg: #0b202b;
-  --bg-2: #214252;
+  --bg: #12313f;
+  --bg-2: #315c6d;
   --ink: #dcebf3;
   --muted: #aec6d5;
   --accent: #65d5cc;
@@ -31,8 +31,10 @@ body {
   font-family: Inter, "Segoe UI", system-ui, sans-serif;
   color: var(--ink);
   background:
-    radial-gradient(ellipse at 0 0, var(--bg-2), transparent 70%),
+    radial-gradient(ellipse at 0 0, var(--bg-2), transparent 68%),
+    linear-gradient(180deg, #173b49 0%, var(--bg) 58%, #102b37 100%),
     var(--bg);
+  background-attachment: fixed;
   -webkit-text-size-adjust: 100%;
 }
 .scene {
