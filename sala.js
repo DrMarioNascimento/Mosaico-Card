@@ -17,7 +17,8 @@
     unsub: null,
     online: false,
     telao: false,
-    painelAberto: false
+    painelAberto: false,
+    comoMestre: false
   };
   window.MC_SALA = sala;
 
@@ -218,6 +219,75 @@
     const el = $(sel);
     if (el) el.textContent = msg;
   }
+  function textosIdentidade(comoMestre) {
+    if (comoMestre) {
+      return {
+        kicker: "Área do mestre",
+        titulo: "Sua mesa está aberta",
+        lede: "Escolha o nome que a mesa vai ver nesta partida. Não precisa ser o seu.",
+        aviso: "Na partida você joga normalmente. Código e QR ficam no botão Mestre para quem ainda chega.",
+        cta: "Entrar"
+      };
+    }
+    return {
+      kicker: "Entrar",
+      titulo: "Quem chega agora?",
+      lede: "O fato cabe na carta. Você chega com um nome e um código.",
+      aviso: "",
+      cta: "Entrar"
+    };
+  }
+  function pintarFormas() {
+    document.querySelectorAll("[data-forma]").forEach(function (b) {
+      const on = b.dataset.forma === sala.forma;
+      b.classList.toggle("on", on);
+      b.setAttribute("aria-pressed", on ? "true" : "false");
+    });
+  }
+  function mostrarIdentidade(comoMestre) {
+    sala.comoMestre = !!comoMestre;
+    const t = textosIdentidade(sala.comoMestre);
+    const scene = $("#entrar");
+    const kicker = $("#entrar-kicker");
+    const titulo = $("#entrar-titulo");
+    const lede = $("#entrar-lede");
+    const aviso = $("#entrar-aviso");
+    const campoCod = $("#campo-cod");
+    const cta = $("#btn-entrar-mesa");
+    if (scene) scene.setAttribute("data-modo", sala.comoMestre ? "mestre" : "convidado");
+    if (kicker) kicker.textContent = t.kicker;
+    if (titulo) titulo.textContent = t.titulo;
+    if (lede) lede.textContent = t.lede;
+    if (aviso) {
+      aviso.textContent = t.aviso;
+      aviso.hidden = !t.aviso;
+    }
+    if (campoCod) campoCod.hidden = sala.comoMestre;
+    if (cta) cta.textContent = t.cta;
+    setStatus("#entrar-status", "");
+    pintarFormas();
+    show("entrar");
+    setTimeout(function () {
+      const nome = $("#nome");
+      if (nome) nome.focus();
+    }, 20);
+  }
+  function nomeInformado() {
+    return (($("#nome") && $("#nome").value) || "").trim();
+  }
+  function seguirParaIdentidadeMestre() {
+    if (!window.MC_FB.ready) {
+      setStatus("#mestre-status", window.MC_FB.err || "Firebase ainda conectando.");
+      return;
+    }
+    fecharModal();
+    mostrarIdentidade(true);
+  }
+  function confirmarIdentidade() {
+    if (sala.comoMestre) criarMesa();
+    else entrarNaMesa();
+  }
+  sala.textosIdentidade = textosIdentidade;
   function resetarSala(msg) {
     if (sala.unsub) { sala.unsub(); sala.unsub = null; }
     sala.codigo = null;
@@ -226,6 +296,7 @@
     sala.fase = "lobby";
     sala.jogadores = [];
     sala.painelAberto = false;
+    sala.comoMestre = false;
     fecharPainel();
     if (msg) setStatus("#entrar-status", msg);
     show("open");
@@ -238,10 +309,16 @@
   }
   function criarMesa() {
     if (!window.MC_FB.ready) {
-      setStatus("#mestre-status", window.MC_FB.err || "Firebase ainda conectando.");
+      const msg = window.MC_FB.err || "Firebase ainda conectando.";
+      setStatus("#mestre-status", msg);
+      setStatus("#entrar-status", msg);
       return;
     }
-    const nome = "Mestre";
+    const nome = nomeInformado();
+    if (!nome) {
+      setStatus("#entrar-status", "Digite o nome que a mesa vai ver.");
+      return;
+    }
     const cod = codigoNovo();
     const eu = { id: window.MC_FB.uid, nome: nome, forma: sala.forma };
     refSala(cod).set({
@@ -266,7 +343,9 @@
       ouvir(cod);
       aposAbrirOuEntrar();
     }).catch(function (e) {
-      setStatus("#mestre-status", "Não abriu a mesa. Ligue Authentication anônimo e o Firestore. " + (e.code || ""));
+      const msg = "Não abriu a mesa. Ligue Authentication anônimo e o Firestore. " + (e.code || "");
+      setStatus("#mestre-status", msg);
+      setStatus("#entrar-status", msg);
     });
   }
   function entrarNaMesa() {
@@ -363,6 +442,17 @@
     const modal = $("#modal-mestre");
     fecharModal();
     fecharPainel();
+    pintarFormas();
+    ["#nome", "#cod"].forEach(function (sel) {
+      const el = $(sel);
+      if (!el) return;
+      el.addEventListener("keydown", function (e) {
+        if (e.key === "Enter") {
+          e.preventDefault();
+          confirmarIdentidade();
+        }
+      });
+    });
     if (abrir && modal) {
       abrir.addEventListener("click", function () {
         modal.hidden = false;
@@ -381,11 +471,14 @@
       });
     });
     const abrirOk = $("#btn-abrir-com-mesa");
-    if (abrirOk) abrirOk.addEventListener("click", criarMesa);
-    if (irEntrar) irEntrar.addEventListener("click", function () { show("entrar"); });
+    if (abrirOk) abrirOk.addEventListener("click", seguirParaIdentidadeMestre);
+    if (irEntrar) irEntrar.addEventListener("click", function () { mostrarIdentidade(false); });
     if (irTelao) irTelao.addEventListener("click", function () { show("telao"); });
     const voltar = $("#btn-voltar-open");
-    if (voltar) voltar.addEventListener("click", function () { show("open"); });
+    if (voltar) voltar.addEventListener("click", function () {
+      sala.comoMestre = false;
+      show("open");
+    });
     const lobbyVoltar = $("#btn-lobby-voltar");
     if (lobbyVoltar) lobbyVoltar.addEventListener("click", function () {
       if (souMestre()) encerrarSala();
@@ -394,7 +487,7 @@
     const tVoltar = $("#btn-telao-voltar");
     if (tVoltar) tVoltar.addEventListener("click", function () { sala.telao = false; show("open"); });
     const entrarBtn = $("#btn-entrar-mesa");
-    if (entrarBtn) entrarBtn.addEventListener("click", entrarNaMesa);
+    if (entrarBtn) entrarBtn.addEventListener("click", confirmarIdentidade);
     const ligar = $("#btn-ligar-telao");
     if (ligar) ligar.addEventListener("click", ligarTelao);
     const iniciar = $("#btn-iniciar-partida");
@@ -404,7 +497,7 @@
     document.querySelectorAll("[data-forma]").forEach(function (btn) {
       btn.addEventListener("click", function () {
         sala.forma = btn.dataset.forma;
-        document.querySelectorAll("[data-forma]").forEach(function (b) { b.classList.toggle("on", b === btn); });
+        pintarFormas();
       });
     });
     const salaBtn = $("#btn-sala");
@@ -428,7 +521,7 @@
       }
     } else if (q.get("sala") && $("#cod")) {
       $("#cod").value = q.get("sala");
-      show("entrar");
+      mostrarIdentidade(false);
     }
     pintar();
   });
