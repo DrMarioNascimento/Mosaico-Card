@@ -69,9 +69,10 @@
       }
       (data.jogadores || []).forEach(function (j) { NOMES[j.id] = j.nome || "Jogador"; });
       if (data.casoId) carregarCaso(data.casoId);
-      if (data.fase === "deal" && data.snap) {
+      if ((data.fase === "deal" || data.fase === "jogo") && data.snap) {
         aplicarSnap(data.snap);
         show("deal");
+        if (window.MC_SALA && typeof window.MC_SALA.pintar === "function") window.MC_SALA.pintar();
       }
     }
   };

@@ -15,7 +15,7 @@
   <link rel="stylesheet" href="faces.css">
   <link rel="stylesheet" href="coin.css?v=on">
   <link rel="stylesheet" href="cards.css?v=foto-real">
-  <link rel="stylesheet" href="sala.css?v=sala4">
+  <link rel="stylesheet" href="sala.css?v=sala5">
 </head>
 <body>
   <section class="scene active" id="open">
@@ -50,8 +50,8 @@
       <h2>Quem chega agora?</h2>
       <p class="lede">O fato cabe na carta. Você chega com um nome e um código.</p>
       <p id="entrar-status" class="log"></p>
-      <label class="sala-field" for="cod">Código da mesa
-        <input id="cod" class="codigo" maxlength="6" autocapitalize="characters" autocomplete="off" placeholder="AB12">
+        <label class="sala-field" for="cod">Código da mesa
+        <input id="cod" class="codigo" maxlength="6" autocapitalize="characters" autocomplete="off" placeholder="ABC123">
       </label>
       <label class="sala-field" for="nome">Seu nome
         <input id="nome" class="sala-input" maxlength="18" autocomplete="nickname" placeholder="Como a mesa te chama">
@@ -83,12 +83,35 @@
         <ol id="telao-lista" class="sala-lista"></ol>
         <p id="telao-vez" class="log"></p>
         <label class="sala-field" for="telao-cod">Código
-          <input id="telao-cod" class="codigo" maxlength="6" autocapitalize="characters" placeholder="AB12">
+          <input id="telao-cod" class="codigo" maxlength="6" autocapitalize="characters" placeholder="ABC123">
         </label>
         <div class="actions">
           <button type="button" id="btn-ligar-telao">Ligar telão</button>
           <button type="button" id="btn-telao-voltar" class="ghost">← Voltar</button>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="scene" id="lobby">
+    <div class="wrap">
+      <header class="mobile-topbar">
+        <div class="brand-lockup">
+          <div class="mc-outer"><div class="mc-inner">MC</div></div>
+          <span class="mark-name">Mosaico Card</span>
+        </div>
+      </header>
+      <p class="kicker" id="lobby-kicker">Sala</p>
+      <h2 id="lobby-titulo">Sala aberta</h2>
+      <p class="codigo-grande" id="lobby-codigo">—</p>
+      <div id="lobby-qr-wrap" class="sala-qr-wrap">
+        <div class="sala-qr" id="lobby-qr"></div>
+        <p class="lede" id="lobby-nota">Aponte a câmera para o QR ou informe o código.</p>
+      </div>
+      <ol id="lobby-lista" class="sala-lista"></ol>
+      <div class="actions">
+        <button type="button" id="btn-iniciar-partida">Iniciar partida</button>
+        <p id="lobby-espera" class="log" hidden>Aguardando o Mestre iniciar a partida…</p>
+        <button type="button" id="btn-lobby-voltar" class="ghost">← Encerrar / sair</button>
       </div>
     </div>
   </section>
@@ -148,7 +171,7 @@
         </div>
         <div class="status-cell cell-sala">
           <small>Sala</small>
-          <button type="button" id="btn-sala" class="sala-btn">Mestre</button>
+          <button type="button" id="btn-sala" class="sala-btn" hidden>Mestre</button>
         </div>
         <div class="status-cell cell-saldo">
           <small>Saldo</small>
@@ -213,24 +236,51 @@
       </div>
     </div>
   </div>
+  <button type="button" id="btn-mestre-flutuante" class="mestre-float" hidden>Mestre</button>
   <aside id="sala-panel" class="sala-panel" hidden>
-    <p class="kicker">Mestre de sala</p>
-    <p id="sala-status">Conectando Firebase…</p>
-    <p>Código da mesa: <b id="sala-codigo-view">—</b></p>
-    <ol id="sala-lista" class="sala-lista"></ol>
-    <button type="button" id="sala-fechar" class="ghost slim">Fechar</button>
+    <div class="sala-card">
+      <div class="sala-head">
+        <div>
+          <p class="kicker">Mestre · Mosaico Card</p>
+          <h2>Sala</h2>
+          <p id="sala-ritmo-nota" class="log"></p>
+        </div>
+        <button type="button" id="sala-fechar" class="ghost slim">Fechar</button>
+      </div>
+      <details class="sala-sec" open>
+        <summary>Código e QR</summary>
+        <p class="sala-codigo-grande" id="sala-codigo-view">—</p>
+        <div class="sala-qr" id="sala-qr"></div>
+      </details>
+      <details class="sala-sec">
+        <summary>Participantes · <span id="sala-n">0</span></summary>
+        <ol id="sala-lista" class="sala-lista"></ol>
+      </details>
+      <details class="sala-sec">
+        <summary>Controle partida</summary>
+        <p id="sala-controle" class="log"></p>
+      </details>
+      <details class="sala-sec">
+        <summary>Encerrar sala</summary>
+        <div class="actions">
+          <button type="button" id="btn-encerrar-sala" class="danger">Encerrar sala</button>
+        </div>
+      </details>
+      <p id="sala-status" class="log">Conectando Firebase…</p>
+    </div>
   </aside>
   <footer class="credit">Mário César Nascimento · Osana Melo Nascimento</footer>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
+  <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
-  <script src="sala.js?v=sala3"></script>
+  <script src="sala.js?v=sala5"></script>
   <script src="assets.js"></script>
   <script src="cases.js?v=biblia6"></script>
   <script src="cases-mais.js?v=1"></script>
   <script src="game.js?v=ovelha6"></script>
-  <script src="game-sala.js?v=sala2"></script>
+  <script src="game-sala.js?v=sala3"></script>
   <script src="game-ovelha6.js?v=1"></script>
   <script src="game-fix.js?v=2"></script>
 </body>
