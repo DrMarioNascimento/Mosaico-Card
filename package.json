@@ -3,7 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "check": "node --check game-core.js && node --check case-ovelha.js && node --check cases-nt.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js",
+    "generate:bank": "node tools/generate-nt-bank.mjs",
+    "validate:bank": "node tools/validate-nt-bank.mjs",
+    "audit:clues": "node tools/audit-nt-clues.mjs",
+    "check": "node --check game-core.js && node --check case-ovelha.js && node --check cases-nt.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js && node --check tools/generate-nt-bank.mjs && node --check tools/validate-nt-bank.mjs && node --check tools/audit-nt-clues.mjs",
     "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs && node tests/regras.mjs && node tests/banco.mjs && node tests/sorteio.mjs"
   }
 }

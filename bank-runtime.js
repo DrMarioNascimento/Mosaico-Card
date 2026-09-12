@@ -9,7 +9,7 @@
       return caso && caso.status && caso.status.playable === true;
     });
   }
-  function chaveSaco() { return "mc:nt:saco:v" + bank.schemaVersion; }
+  function chaveSaco() { return "mc:banco:saco:" + bank.namespace + ":" + bank.catalogVersion + ":v" + bank.schemaVersion; }
   function lerSaco() {
     try {
       const value = JSON.parse(localStorage.getItem(chaveSaco()) || "null");
@@ -33,7 +33,7 @@
     const aptos = elegiveis();
     if (!aptos.length) {
       return {
-        erro: "Os 145 casos substituíram o catálogo antigo, mas ainda aguardam baralho, campo focal e gabaritos validados.",
+        erro: "O novo banco NT/NAA ainda não possui pautas elegíveis; consulte o relatório de progresso editorial.",
         pendentes: bank.summary.cases
       };
     }

@@ -43,3 +43,9 @@ assert.match(css, /#entrar\[data-modo="mestre"\] #campo-cod/);
 assert.match(css, /assistencia-opcoes/);
 
 console.log("ok fluxo e identidade");
+
+// Partidas canônicas publicam identidade e recusam pauta desconhecida antes do snapshot.
+const gameSala = readFileSync(new URL("../game-sala.js", import.meta.url), "utf8");
+assert.match(gameSala, /bankIdentity: e\.state\.demo \? null : identidadeBanco\(\)/);
+assert.match(gameSala, /identidadeBancoCompativel\(window\.MC_NT_BANK, data\)/);
+assert.match(gameSala, /if \(data\.pautaId && !casoDoBanco\(data\.pautaId\)\) return/);

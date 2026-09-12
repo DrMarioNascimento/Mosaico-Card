@@ -96,7 +96,8 @@
         id: card.id || "F" + String(i + 1).padStart(2, "0"),
         marca: card.marca || card.title || "Fragmento",
         texto: card.texto || card.text || "",
-        tipo: card.tipo || "pista"
+        tipo: card.tipo || "pista",
+        importance: card.importance || "contextual"
       };
     });
     const camposOrigem = origem.fields || [];
@@ -190,14 +191,11 @@
     const ids = Object.keys(PECAS);
     const especial = state.demo ? ids.find(eOvelha) : null;
     const bonus = adicionarOvelhasBonus();
-    const comuns = shuffle(ids.filter(function (id) { return id !== especial && !bonus.includes(id); }));
-    let cursor = 0;
-    ORDEM.forEach(function (id) {
-      state.maosPorJogador[id] = comuns.slice(cursor, cursor + 2);
-      cursor += 2;
-    });
-    const resto = comuns.slice(cursor);
-    state.monte = state.demo && especial ? [especial].concat(resto) : shuffle(resto.concat(bonus));
+    const comuns = ids.filter(function (id) { return id !== especial && !bonus.includes(id); });
+    const essenciais = comuns.filter(function (id) { return peca(id).importance === "essential"; });
+    const distribuicao = REGRAS.distribuirPistas(comuns, essenciais, ORDEM, shuffle);
+    state.maosPorJogador = distribuicao.maosPorJogador;
+    state.monte = state.demo && especial ? [especial].concat(distribuicao.monte) : shuffle(distribuicao.monte.concat(bonus));
     return bonus.length;
   }
   function limparEstadoPartida() {
@@ -703,7 +701,7 @@
     $("#rule-kicker").textContent = "Demonstração · carta da ovelha";
     $("#rule-title").textContent = "Uma demonstração isolada da compra e da animação da carta especial.";
     $("#rule-verbs").innerHTML = "<li><b>Comprar · 4</b> Toque diretamente numa carta do leque.</li><li><b>Ovelha</b> A compra não cobra e entrega 6 denários.</li><li><b>Animação</b> A carta aparece e depois sai do jogo.</li><li><b>Partida normal</b> A ovelha será embaralhada aleatoriamente.</li>";
-    $("#rule-lede").textContent = "Este caso não participa do sorteio das 145 pautas.";
+    $("#rule-lede").textContent = "Esta demonstração não participa do sorteio do novo banco NT/NAA.";
   }
   function renderTelao(data) {
     const snap = (data && data.snap) || state;

@@ -1,6 +1,6 @@
 # Auditoria do Mosaico Card
 
-Atualizada em 11 de setembro de 2026 após a consolidação operacional e a importação do Banco NT de 145 pautas.
+Atualizada em 12 de setembro de 2026 após o descarte editorial do catálogo antigo e a criação da fundação NT/NAA v2.
 
 ## Situação geral
 
@@ -14,19 +14,12 @@ Atualizada em 11 de setembro de 2026 após a consolidação operacional e a impo
 | Tempo total | Implementado | Usa ciclos completos e encerra ao fim do ciclo corrente. |
 | Fechamento final | Implementado | Janela gratuita de 60 s e apuração simultânea. |
 | Pontuação e pódio | Implementado | Ledger por parcelas, residual, desempates, ranking e top 3. |
-| Banco NT | Importado, bloqueado | 145 pautas presentes; nenhuma está liberada para jogar. |
+| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 60 pautas e 1.404 pistas; 51 elegíveis e 9 bloqueadas por baralho, ambiguidade ou sobreposição paralela. |
 | Demonstração da ovelha | Implementada e isolada | Não participa do catálogo ou do saco NT. |
 
 ## Bloqueio editorial P0
 
-O banco contém metadados e quatro campos por pauta, mas ainda não contém tudo o que o motor necessita para jogar com segurança:
-
-1. baralho de fragmentos de cada pauta;
-2. indicação explícita do campo focal;
-3. chave da alternativa correta validada para todos os campos;
-4. correções das alternativas ausentes ou repetidas registradas em [`BANCO-NT-145.md`](BANCO-NT-145.md).
-
-Por isso, `cases-nt.js` registra `playableCases: 0`, e `bank-runtime.js` recusa o início de uma pauta canônica. Esse comportamento deve permanecer até a validação editorial.
+O bloqueio HTTP anterior foi superado no checkpoint 002, conforme evidências no documento mestre. Vinte recortes de João foram consultados e autorados; doze estão elegíveis e oito permanecem bloqueados por capacidade de baralho. Os 27 livros receberam decisões por recorte. A estrutura libera somente após três aprovações, ausência de ambiguidades e capacidade para duas cartas por participante em mesa de doze.
 
 ## Pontos de atenção técnicos
 
@@ -60,16 +53,16 @@ Livre, Assistida e Guiada já fazem parte do cadastro individual e não são exp
 
 A escolha altera a quantidade de ovelhas e os ciclos da partida. Curta reduz um ciclo, com mínimo de três, e uma ovelha, com mínimo de uma. Longa acrescenta um ciclo, com teto de cinco, e uma ovelha, com teto de quatro. A suíte automática cobre esses limites.
 
-## Validação antes de liberar o banco
+## Validação antes de liberar pautas
 
 | Ordem | Entrega | Critério de aceite |
 | ---: | --- | --- |
-| 1 | Completar conteúdo | Baralho, campo focal e quatro gabaritos explícitos em cada pauta. |
-| 2 | Reimportar | Resumo estrutural continua em 145 pautas e 580 campos. |
-| 3 | Liberar por lote | Somente pautas editorialmente validadas recebem `playable: true`. |
-| 4 | Segurança | Mãos e respostas finais não ficam acessíveis aos adversários. |
-| 5 | Teste presencial | Mesas de 2–5, 6–8 e 9–12 validam 60/45/30 s. |
-| 6 | Telão e reconexão | Entrada, retomada, fechamento, apuração e pódio funcionam em aparelhos reais. |
+| 1 | Acesso NAA | Trechos efetivamente consultados, com fonte e data. |
+| 2 | Levantamento | Recortes e exclusões registrados por livro, sem meta numérica. |
+| 3 | Lote autorado | Pergunta, C1–C4, focal, pistas e revelação completos. |
+| 4 | Validar e gerar | Validação estrutural aprovada e saída reproduzível. |
+| 5 | Liberar | Aprovações bíblica/editorial e zero ambiguidades. |
+| 6 | Distribuição | Mesas de 2–12 sem concentração das essenciais. |
 
 ## Verificação automática
 

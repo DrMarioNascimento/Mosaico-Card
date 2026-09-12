@@ -4,33 +4,18 @@ import { createContext, runInContext } from "node:vm";
 
 const catalogSource = readFileSync(new URL("../cases-nt.js", import.meta.url), "utf8");
 const runtimeSource = readFileSync(new URL("../bank-runtime.js", import.meta.url), "utf8");
-const storage = new Map();
-const context = createContext({
-  window: {},
-  globalThis: {},
-  localStorage: {
-    getItem: key => storage.get(key) ?? null,
-    setItem: (key, value) => storage.set(key, value)
-  },
-  Math,
-  JSON
-});
-context.globalThis = context;
-context.window = context;
-runInContext(catalogSource, context);
-runInContext(runtimeSource, context);
-
+const storage = new Map([["mc:nt:saco:v1", JSON.stringify({ ids: ["nt-001"], ultimo: "nt-052" })]]);
+const context = createContext({ window: {}, globalThis: {}, localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) }, Math, JSON });
+context.globalThis = context; context.window = context;
+runInContext(catalogSource, context); runInContext(runtimeSource, context);
 const bank = context.MC_NT_BANK;
-assert.equal(typeof bank.sortear, "function");
-assert.equal(bank.elegiveis().length, 0);
-assert.match(bank.sortear().erro, /aguardam baralho/);
-
-bank.byId["nt-001"].status.playable = true;
-bank.byId["nt-002"].status.playable = true;
-const primeiro = bank.sortear();
-const segundo = bank.sortear();
-assert.notEqual(primeiro.id, segundo.id, "o saco não repete antes de esgotar");
-const terceiro = bank.sortear();
-assert.notEqual(terceiro.id, segundo.id, "a recomposição evita repetição imediata");
-
-console.log("ok saco de pautas");
+const eligible = bank.elegiveis();
+assert.equal(eligible.length, bank.summary.playableCases);
+assert.ok(eligible.length > 0, "o lote validado deve estar disponível");
+const cycle = Array.from({ length: eligible.length }, () => bank.sortear().id);
+assert.equal(new Set(cycle).size, eligible.length, "não repete antes de esgotar");
+const next = bank.sortear().id;
+assert.notEqual(next, cycle.at(-1), "não repete ao recompor");
+assert.ok([...storage.keys()].some(key => key.includes(bank.namespace) && key.includes(bank.catalogVersion)));
+assert.ok(storage.has("mc:nt:saco:v1"), "estado legado fica intocado e não é reutilizado");
+console.log("ok saco versionado do novo banco");

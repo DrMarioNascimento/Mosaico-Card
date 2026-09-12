@@ -26,6 +26,13 @@
     return Math.round((Number(valor) + Number.EPSILON) * 10) / 10;
   }
 
+  function identidadeBancoCompativel(bank, data) {
+    if (!data || !data.pautaId) return true;
+    const recebida = data.bankIdentity || {};
+    const atual = bank || {};
+    return recebida.namespace === atual.namespace && recebida.catalogVersion === atual.catalogVersion && recebida.schemaVersion === atual.schemaVersion;
+  }
+
   function modoDoCaso(caso) {
     return caso && caso.modo === "quiz" ? "quiz" : "economico";
   }
@@ -95,6 +102,21 @@
       voltasFeitas[id] = 0;
     });
     return { saldosPorJogador, errosPorJogador, maosPorJogador, voltasFeitas };
+  }
+
+  function distribuirPistas(ids, essenciais, jogadores, embaralhar) {
+    const ordem = Array.isArray(jogadores) ? jogadores.slice() : [];
+    if (ordem.length < 2 || ordem.length > 12) throw new RangeError("A distribuição exige entre 2 e 12 jogadores.");
+    const shuffle = typeof embaralhar === "function" ? embaralhar : function (items) { return items.slice(); };
+    const essenciaisSet = new Set(essenciais || []);
+    const prioritarias = shuffle(ids.filter(function (id) { return essenciaisSet.has(id); }));
+    const demais = shuffle(ids.filter(function (id) { return !essenciaisSet.has(id); }));
+    const maos = Object.fromEntries(ordem.map(function (id) { return [id, []]; }));
+    let cursor = 0;
+    while (prioritarias.length && cursor < ordem.length) maos[ordem[cursor++]].push(prioritarias.shift());
+    const fila = prioritarias.concat(demais);
+    ordem.forEach(function (id) { while (maos[id].length < 2 && fila.length) maos[id].push(fila.shift()); });
+    return { maosPorJogador: maos, monte: fila };
   }
 
   function campoDisponivel(state, jogadorId, campoId) {
@@ -305,10 +327,12 @@
   return {
     TEMPOS_TURNO,
     DURACOES,
+    identidadeBancoCompativel,
     modoDoCaso,
     tempoRecomendado,
     validarConfiguracao,
     criarEstadoJogadores,
+    distribuirPistas,
     campoDisponivel,
     aplicarResposta,
     quantidadeBonus,

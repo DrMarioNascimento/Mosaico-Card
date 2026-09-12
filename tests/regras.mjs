@@ -4,6 +4,17 @@ import assert from "node:assert/strict";
 const require = createRequire(import.meta.url);
 const regras = require("../game-core.js");
 
+// Distribuição de 2–12: duas cartas por pessoa, poço preservado e essenciais espalhadas.
+for (let quantidade = 2; quantidade <= 12; quantidade += 1) {
+  const jogadores = Array.from({ length: quantidade }, (_, index) => `j${index}`);
+  const ids = Array.from({ length: 25 }, (_, index) => `P${index + 1}`);
+  const essenciais = ids.slice(0, 12);
+  const distribuicao = regras.distribuirPistas(ids, essenciais, jogadores, items => items.slice());
+  assert.ok(jogadores.every(id => distribuicao.maosPorJogador[id].length === 2));
+  assert.equal(jogadores.reduce((total, id) => total + distribuicao.maosPorJogador[id].length, 0) + distribuicao.monte.length, 25);
+  if (quantidade === 2) assert.ok(jogadores.every(id => distribuicao.maosPorJogador[id].some(card => essenciais.includes(card))));
+}
+
 // Acerto global e erro individual.
 const estado = regras.criarEstadoJogadores(["ana", "bia"], 12);
 Object.assign(estado, { resolvidosGlobais: {} });
@@ -169,3 +180,10 @@ assert.deepEqual(ranking.map(item => item.jogadorId), ["a", "e", "c", "b", "d"])
 assert.equal(regras.quantidadeQueimados({ C1: {}, C3: {} }), 2);
 
 console.log("ok regras consolidadas");
+
+// Identidade de partidas: snapshots canônicos só atravessam catálogo idêntico.
+const identidade = { namespace: "mosaico-nt-naa-v2", catalogVersion: "atual", schemaVersion: 2 };
+assert.equal(regras.identidadeBancoCompativel(identidade, { pautaId: null }), true);
+assert.equal(regras.identidadeBancoCompativel(identidade, { pautaId: "nt-052" }), false);
+assert.equal(regras.identidadeBancoCompativel(identidade, { pautaId: "nt2-caso", bankIdentity: identidade }), true);
+assert.equal(regras.identidadeBancoCompativel(identidade, { pautaId: "nt2-caso", bankIdentity: { ...identidade, catalogVersion: "antiga" } }), false);
