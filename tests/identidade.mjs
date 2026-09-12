@@ -27,8 +27,11 @@ assert.match(js, /j\.pronto = true/);
 assert.match(js, /localStorage\.setItem/);
 assert.match(js, /data\.fase !== "lobby"/);
 assert.match(js, /runTransaction/);
-assert.match(js, /sala\.jogadores\.length < 3/);
-assert.match(js, /sala\.jogadores\.length > 12/);
+assert.match(js, /function impedimentoInicio/);
+assert.match(js, /if \(n < 2\)/);
+assert.match(js, /if \(n > 12\)/);
+assert.match(js, /iniciar\.disabled = false/);
+assert.match(js, /setAttribute\("aria-disabled"/);
 
 const posConfig = js.indexOf("function criarSalaConfigurada");
 const posIdentidade = js.indexOf("function confirmarIdentidade");

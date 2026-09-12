@@ -71,6 +71,17 @@
   }
   function pronto(j) { return j && j.pronto === true; }
   function todosProntos() { return sala.jogadores.length > 0 && sala.jogadores.every(pronto); }
+  function impedimentoInicio() {
+    const n = sala.jogadores.length;
+    if (n < 2) return "Aguardando mais " + (2 - n) + ((2 - n) === 1 ? " participante." : " participantes.");
+    if (n > 12) return "A sala aceita no máximo 12 participantes.";
+    const pendentes = sala.jogadores.filter(function (j) { return !pronto(j); });
+    if (pendentes.length) {
+      const nomes = pendentes.map(function (j) { return j.nome || "Participante"; }).join(", ");
+      return "Ainda " + (pendentes.length === 1 ? "falta confirmar: " : "faltam confirmar: ") + nomes + ".";
+    }
+    return "";
+  }
   function armazenamentoAssistencia() { return "mc:assistencia:" + (sala.codigo || "local") + ":" + (sala.uid || "anon"); }
 
   function pintarLista(el, jogadores) {
@@ -97,24 +108,24 @@
     if ($("#btn-lobby-voltar")) $("#btn-lobby-voltar").textContent = master ? "← Encerrar sala" : "← Sair";
     if ($("#lobby-nota")) {
       const n = sala.jogadores.length;
-      const recomendado = window.MC_RULES && n >= 3 && n <= 12 ? window.MC_RULES.tempoRecomendado(n) : null;
+      const recomendado = window.MC_RULES && n >= 2 && n <= 12 ? window.MC_RULES.tempoRecomendado(n) : null;
       const tempo = recomendado ? " Tempo escolhido: " + sala.config.tempoPorJogada + " s; sugestão para " + n + ": " + recomendado + " s." : "";
       $("#lobby-nota").textContent = master
         ? "A sala já está aberta. Enquanto as pessoas entram, todos escolhem sua experiência individual." + tempo
         : "Escolha sua experiência e aguarde o Mestre iniciar." + tempo;
     }
     pintarLista($("#lobby-lista"), sala.jogadores);
-    const faltam = sala.jogadores.filter(function (j) { return !pronto(j); }).length;
+    const impedimento = impedimentoInicio();
     if ($("#lobby-prontidao")) {
-      $("#lobby-prontidao").textContent = faltam
-        ? faltam + (faltam === 1 ? " participante ainda está se preparando." : " participantes ainda estão se preparando.")
-        : sala.jogadores.length + (sala.jogadores.length === 1 ? " participante pronto." : " participantes prontos.");
+      $("#lobby-prontidao").textContent = impedimento ||
+        sala.jogadores.length + (sala.jogadores.length === 1 ? " participante pronto." : " participantes prontos.");
     }
     const iniciar = $("#btn-iniciar-partida");
     if (iniciar) {
       iniciar.hidden = !master;
-      iniciar.disabled = !todosProntos() || sala.jogadores.length < 3 || sala.jogadores.length > 12;
-      iniciar.title = iniciar.disabled ? "A partida requer de 3 a 12 participantes, todos prontos." : "";
+      iniciar.disabled = false;
+      iniciar.setAttribute("aria-disabled", impedimento ? "true" : "false");
+      iniciar.title = impedimento;
     }
     if ($("#lobby-espera")) $("#lobby-espera").hidden = master;
     if ($("#btn-abrir-telao")) $("#btn-abrir-telao").hidden = !(master && sala.config.telao);
@@ -352,8 +363,9 @@
   }
   function iniciarPartida() {
     if (!souMestre()) return;
-    if (!todosProntos() || sala.jogadores.length < 3 || sala.jogadores.length > 12) {
-      setStatus("#lobby-prontidao", "A partida requer de 3 a 12 participantes, todos prontos.");
+    const impedimento = impedimentoInicio();
+    if (impedimento) {
+      setStatus("#lobby-prontidao", impedimento);
       return;
     }
     const sorteio = escolherPauta();

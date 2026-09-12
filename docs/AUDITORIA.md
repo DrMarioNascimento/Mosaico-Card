@@ -68,7 +68,7 @@ A escolha altera a quantidade de ovelhas e os ciclos da partida. Curta reduz um 
 | 2 | Reimportar | Resumo estrutural continua em 145 pautas e 580 campos. |
 | 3 | Liberar por lote | Somente pautas editorialmente validadas recebem `playable: true`. |
 | 4 | Segurança | Mãos e respostas finais não ficam acessíveis aos adversários. |
-| 5 | Teste presencial | Mesas de 3–5, 6–8 e 9–12 validam 60/45/30 s. |
+| 5 | Teste presencial | Mesas de 2–5, 6–8 e 9–12 validam 60/45/30 s. |
 | 6 | Telão e reconexão | Entrada, retomada, fechamento, apuração e pódio funcionam em aparelhos reais. |
 
 ## Verificação automática

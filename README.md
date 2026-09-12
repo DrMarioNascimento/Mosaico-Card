@@ -20,10 +20,10 @@ O único caso independente do catálogo é **A ovelha perdida**, preservado em `
 2. A sala é aberta e o QR Code fica disponível imediatamente.
 3. O Mestre informa sua identidade e escolhe sua camada de assistência, pois também participa como jogador.
 4. Cada participante entra e escolhe individualmente **Livre, Assistida ou Guiada**.
-5. O início só é liberado com 3 a 12 participantes e todos marcados como prontos.
+5. O início só é liberado com 2 a 12 participantes e todos marcados como prontos. Mesas com 3 ou mais pessoas continuam recomendadas para ampliar a diversidade de perspectivas.
 6. A pauta é sorteada apenas no início da partida.
 
-O tempo sugerido pelo sistema depende do tamanho da mesa: 60 s para 3–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre pode escolher outro dos três valores, mas não informar um prazo livre.
+O tempo sugerido pelo sistema depende do tamanho da mesa: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre pode escolher outro dos três valores, mas não informar um prazo livre.
 
 A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pontuação. A seleção já integra o fluxo e é preservada localmente; a diferenciação detalhada do conteúdo das três camadas ainda depende da redação dos auxílios de cada pauta.
 
@@ -57,7 +57,7 @@ Nas partidas normais, a ovelha é um bônus embaralhado no monte. Concede 6 den�
 
 | Jogadores | Padrão | Curta | Longa |
 | --- | ---: | ---: | ---: |
-| 3–5 | 1 | 1 | 2 |
+| 2–5 | 1 | 1 | 2 |
 | 6–8 | 2 | 1 | 3 |
 | 9–12 | 3 | 2 | 4 |
 

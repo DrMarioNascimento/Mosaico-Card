@@ -14,7 +14,7 @@ Fluxo obrigatório:
 4. Enquanto os convidados entram, o Mestre define nome, marcador e sua própria assistência.
 5. Cada convidado informa identidade e escolhe sua assistência.
 6. Todos passam ao estado `pronto`.
-7. Com 3 a 12 jogadores prontos, o Mestre inicia a partida.
+7. Com 2 a 12 jogadores prontos, o Mestre inicia a partida. Três ou mais são recomendados para ampliar a diversidade de perspectivas, mas não constituem bloqueio técnico.
 8. O sistema sorteia a pauta somente nesse momento.
 
 ## 2. Configuração coletiva
@@ -25,7 +25,7 @@ O Mestre escolhe um dos três valores fechados: **30, 45 ou 60 segundos**.
 
 | Jogadores | Sugestão automática |
 | --- | ---: |
-| 3–5 | 60 s |
+| 2–5 | 60 s |
 | 6–8 | 45 s |
 | 9–12 | 30 s |
 
@@ -180,7 +180,7 @@ Em uma partida normal, as ovelhas são embaralhadas aleatoriamente no monte:
 
 | Jogadores | Quantidade padrão |
 | --- | ---: |
-| 3–5 | 1 |
+| 2–5 | 1 |
 | 6–8 | 2 |
 | 9–12 | 3 |
 

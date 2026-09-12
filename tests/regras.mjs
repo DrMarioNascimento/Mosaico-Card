@@ -22,7 +22,7 @@ assert.equal(estado.saldosPorJogador.ana, 12);
 assert.equal(estado.saldosPorJogador.bia, 12);
 
 // Configuração: recomendação e seleção limitada a 30/45/60.
-assert.deepEqual([3, 5, 6, 8, 9, 12].map(regras.tempoRecomendado), [60, 60, 45, 45, 30, 30]);
+assert.deepEqual([2, 3, 5, 6, 8, 9, 12].map(regras.tempoRecomendado), [60, 60, 60, 45, 45, 30, 30]);
 assert.deepEqual(regras.TEMPOS_TURNO, [30, 45, 60]);
 let config = regras.validarConfiguracao({ numeroJogadores: 7, duracao: "longa", telao: true });
 assert.equal(config.valida, true);
@@ -37,19 +37,22 @@ config = regras.validarConfiguracao({ numeroJogadores: 7, turnoSegundos: 60, cam
 assert.equal(config.valida, true);
 assert.equal(config.config.turnoSegundos, 60);
 assert.equal(regras.validarConfiguracao({ numeroJogadores: 7, turnoSegundos: 50 }).valida, false);
-assert.equal(regras.validarConfiguracao({ numeroJogadores: 2 }).valida, false);
+assert.equal(regras.validarConfiguracao({ numeroJogadores: 2 }).valida, true);
+assert.equal(regras.validarConfiguracao({ numeroJogadores: 1 }).valida, false);
 assert.throws(() => regras.tempoRecomendado(13), RangeError);
 
 // Ovelhas por faixa e ajuste da duração.
-assert.deepEqual([3, 5, 6, 8, 9, 12].map(n => regras.quantidadeBonus(n)), [1, 1, 2, 2, 3, 3]);
+assert.deepEqual([2, 3, 5, 6, 8, 9, 12].map(n => regras.quantidadeBonus(n)), [1, 1, 1, 2, 2, 3, 3]);
+assert.equal(regras.quantidadeBonus(2, "curta"), 1);
 assert.equal(regras.quantidadeBonus(3, "curta"), 1);
 assert.equal(regras.quantidadeBonus(8, "curta"), 1);
 assert.equal(regras.quantidadeBonus(5, "longa"), 2);
 assert.equal(regras.quantidadeBonus(12, "longa"), 4);
-assert.throws(() => regras.quantidadeBonus(2), RangeError);
+assert.throws(() => regras.quantidadeBonus(1), RangeError);
 
 // Ciclos completos e tempo total.
 assert.equal(regras.calcularCiclos(4, 3), 4);
+assert.equal(regras.calcularCiclos(4, 2), 4);
 assert.equal(regras.calcularCiclos(9, 3), 5);
 assert.equal(regras.calcularCiclos(4, 12), 3);
 assert.equal(regras.calcularCiclos(4, 3, "curta"), 3);
@@ -59,6 +62,7 @@ assert.equal(regras.calcularCiclos(9, 3, "longa"), 5);
 assert.equal(regras.calcularCiclos(4, 12, "curta"), 3);
 assert.equal(regras.calcularCiclos(4, 12, "longa"), 4);
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60), { ciclos: 4, segundos: 720 });
+assert.deepEqual(regras.calcularTempoTotal(4, 2, 60), { ciclos: 4, segundos: 480 });
 assert.deepEqual(regras.calcularTempoTotal(9, 12, 30), { ciclos: 3, segundos: 1080 });
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60, "curta"), { ciclos: 3, segundos: 540 });
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60, "longa"), { ciclos: 5, segundos: 900 });

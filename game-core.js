@@ -32,8 +32,8 @@
 
   function tempoRecomendado(numeroJogadores) {
     const n = inteiro(numeroJogadores);
-    if (n === null || n < 3 || n > 12) {
-      throw new RangeError("A mesa deve ter entre 3 e 12 jogadores.");
+    if (n === null || n < 2 || n > 12) {
+      throw new RangeError("A mesa deve ter entre 2 e 12 jogadores.");
     }
     if (n <= 5) return 60;
     if (n <= 8) return 45;
@@ -44,8 +44,8 @@
     const origem = config || {};
     const erros = [];
     const numeroJogadores = inteiro(origem.numeroJogadores);
-    if (numeroJogadores === null || numeroJogadores < 3 || numeroJogadores > 12) {
-      erros.push("numeroJogadores deve ser um inteiro entre 3 e 12");
+    if (numeroJogadores === null || numeroJogadores < 2 || numeroJogadores > 12) {
+      erros.push("numeroJogadores deve ser um inteiro entre 2 e 12");
     }
 
     let recomendado = null;
@@ -117,8 +117,8 @@
 
   function quantidadeBonus(numeroJogadores, duracao) {
     const n = inteiro(numeroJogadores);
-    if (n === null || n < 3 || n > 12) {
-      throw new RangeError("A quantidade de ovelhas exige entre 3 e 12 jogadores.");
+    if (n === null || n < 2 || n > 12) {
+      throw new RangeError("A quantidade de ovelhas exige entre 2 e 12 jogadores.");
     }
     const modoDuracao = duracao || "padrao";
     if (!DURACOES.includes(modoDuracao)) {
