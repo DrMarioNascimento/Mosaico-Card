@@ -65,3 +65,7 @@ Mt 1.18-25, 3.13-17 e 4.1-11 originaram três pautas de nove fatos. As exclusõe
 ## Auditoria individual — checkpoint 035
 
 Mt 15.21-28 originou `nt2-mateus-mulher-cananeia`, com sete fatos e capacidade 2–3.
+
+## Auditoria individual — checkpoint 036
+
+Mt 21.1-11 e Mt 28.1-10 foram relidos na NAA e comparados com os relatos paralelos. Originaram `nt2-mateus-entrada-jerusalem` (11 pistas) e `nt2-mateus-mulheres-ressurreicao` (13 pistas), sem importar detalhes dos demais Evangelhos. As pendências solicitadas de Mateus estão encerradas; isso não declara completo o banco NT.

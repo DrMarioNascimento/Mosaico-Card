@@ -372,3 +372,13 @@ Mt 1.18-25; 3.13-17; 4.1-11; Mc 1.16-20; 1.21-28; e 3.1-6 foram relidos na NAA e
 ## Checkpoint 035 — terceiro lote da auditoria individual
 
 Após consulta NAA de Mt 15; Mc 2,6–8,12; e Lc 10,13–15,17, onze pautas foram incorporadas com sete fatos cada e capacidade 2–3. O inventário passa a 99 pautas e 1.854 pistas: 55 pautas chegam a 12 jogadores, 26 a seis, sete a quatro e onze a três. O auditor não deixou par semântico pendente. A auditoria continua porque o documento individual ainda contém candidatos explícitos.
+
+## Checkpoint 036 — pendências finais dos Evangelhos auditadas
+
+O trabalho partiu exatamente de `471bc4c8affd1f6657b98d5dc12a4dc6c53d5582`, com 99 pautas elegíveis e 1.854 pistas; a branch não continha avanço posterior. Em 12/09/2026, as páginas NAA identificadas de Mt 20–21,28; Mc 10–11,16; Lc 18–19,22–24; Jo 20 e At 1 foram obtidas em `bible.com/pt/bible/1840` com HTTP 200 e relidas nos recortes pertinentes. A comparação documental não importou detalhes entre relatos.
+
+Um único lote de cinco pautas encerrou somente as pendências solicitadas dos Evangelhos: `nt2-mateus-entrada-jerusalem` (11 pistas), `nt2-mateus-mulheres-ressurreicao` (13), `nt2-marcos-bartimeu` (7), `nt2-lucas-mesa-servico-pedro` (14) e `nt2-lucas-aparicao-ascensao` (17). Em Bartimeu, apenas recuperação e seguimento, comuns a Mc 10.52, Mt 20.34 e Lc 18.43, receberam referências múltiplas; nome, filiação, capa e posição na saída de Jericó permaneceram próprios de Marcos. Mt 21 e Mt 28 mantêm a redação de Mateus; Lc 22 separa a fala ao grupo da advertência pessoal a Simão; Lc 24 não recebe detalhes dos demais finais.
+
+- **Inventário após o lote:** 104 pautas, 1.916 pistas; todas elegíveis em alguma mesa. Cinquenta e cinco chegam a 12 jogadores; uma a oito; 28 a seis; uma a cinco; sete a quatro; e doze a três.
+- **Limite desta rodada:** a auditoria de Atos, Romanos–Judas e Apocalipse permanece expressamente pendente para outra rodada. Este checkpoint não declara o banco completo.
+- **Publicação:** não realizada; não houve merge, deploy nem alteração de credenciais ou Firebase.

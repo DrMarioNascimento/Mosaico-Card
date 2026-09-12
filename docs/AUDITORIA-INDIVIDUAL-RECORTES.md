@@ -109,3 +109,15 @@ Os seis recortes prioritários estão concluídos em pautas. Os demais deixaram 
 ## Checkpoint 035 — terceiro lote autorado
 
 Após consulta efetiva à NAA, onze pautas de sete pistas foram incorporadas para mesas de 2–3. Mt 15.21–28 e Mc 7.24–30 foram comparados como relatos paralelos e consolidados em `nt2-mateus-mulher-cananeia`; fatos específicos de cada redação não foram tratados como equivalentes, e o resultado compartilhado registra ambas as referências. Os demais resultados individuais constam na tabela. A auditoria permanece em andamento nos candidatos ainda marcados como candidatos.
+
+## Checkpoint 036 — lote limitado aos cinco recortes dos Evangelhos
+
+| Recorte | Consulta e comparação | Resultado individual |
+| --- | --- | --- |
+| Mt 21.1-11 | Mt 20–21, Mc 11 e Lc 19, NAA, HTTP 200 | `nt2-mateus-entrada-jerusalem`, 11 pistas; detalhes de Mateus mantidos sem harmonização. |
+| Mt 28.1-10 | Mt 28, Mc 16, Lc 24 e Jo 20, NAA, HTTP 200 | `nt2-mateus-mulheres-ressurreicao`, 13 pistas; nomes, ações e Galileia sustentados por Mateus. |
+| Mc 10.46-52 | Mc 10, Mt 20 e Lc 18, NAA, HTTP 200 | `nt2-marcos-bartimeu`, 7 pistas; somente recuperação/seguimento comuns têm referências múltiplas. |
+| Lc 22.24-38 | Lc 22, NAA, HTTP 200 | `nt2-lucas-mesa-servico-pedro`, 14 pistas; destinatário coletivo e Simão permanecem separados. |
+| Lc 24.36-53 | Lc 24, Mt 28, Jo 20 e At 1, NAA, HTTP 200 | `nt2-lucas-aparicao-ascensao`, 17 pistas; peixe, início em Jerusalém e Betânia permanecem próprios de Lucas. |
+
+O lote acrescentou cinco pautas e 62 pistas, elevando o inventário de 99/1.854 para 104/1.916. Permanecem para outra rodada todos os candidatos ainda enumerados de **Atos, Romanos–Judas e Apocalipse**. Nenhum deles foi auditado ou descartado neste checkpoint, e o banco não é declarado completo.

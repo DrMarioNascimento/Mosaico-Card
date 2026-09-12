@@ -40,3 +40,7 @@ Mc 1.16-20, 1.21-28 e 3.1-6 originaram três pautas de nove fatos. As exclusões
 ## Auditoria individual — checkpoint 035
 
 Mc 2.13-17; 6.7-13; 7.31-37; 8.22-26; e 12.41-44 originaram cinco pautas de sete fatos, capacidade 2–3. Mc 7.24-30 foi comparado e consolidado com Mt 15.21-28 em `nt2-mateus-mulher-cananeia`, sem equiparar designações exclusivas.
+
+## Auditoria individual — checkpoint 036
+
+Mc 10.46-52 foi relido na NAA e comparado com Mt 20.29-34 e Lc 18.35-43. `nt2-marcos-bartimeu` tem sete pistas: nome, filiação, capa e saída de Jericó permanecem próprios de Marcos; somente recuperação e seguimento compartilhados têm referências múltiplas. Mc 16.9-20 continua excluído por decisão do usuário.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-035",
+  "catalogVersion": "2026.09-batch-036",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 99,
-    "fields": 396,
-    "editoriallyEligibleCases": 99,
-    "playableCases": 99,
+    "cases": 104,
+    "fields": 416,
+    "editoriallyEligibleCases": 104,
+    "playableCases": 104,
     "max12Cases": 55
   },
   "order": [
@@ -115,7 +115,12 @@
     "nt2-lucas-mulher-encurvada",
     "nt2-lucas-hidropico",
     "nt2-lucas-moeda-perdida",
-    "nt2-lucas-dez-leprosos"
+    "nt2-lucas-dez-leprosos",
+    "nt2-mateus-entrada-jerusalem",
+    "nt2-mateus-mulheres-ressurreicao",
+    "nt2-marcos-bartimeu",
+    "nt2-lucas-mesa-servico-pedro",
+    "nt2-lucas-aparicao-ascensao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -67803,6 +67808,2637 @@
             "passage": "17.11-19",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-entrada-jerusalem": {
+      "id": "nt2-mateus-entrada-jerusalem",
+      "kind": "canonical-case",
+      "title": "A entrada em Jerusalém segundo Mateus",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 21.1-11",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais preparação, lugar, montaria e reação identificam a entrada em Jerusalém?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A jumenta com o jumentinho é o detalhe material próprio da redação de Mateus que melhor distingue a pauta sem importar paralelos.",
+      "editorial": {
+        "hinge": "Os campos preservam detalhes expressos por Mateus; a comparação com Mc 11.1-11, Lc 19.28-40 e Jo 12.12-19 não transfere animais, falas ou reações entre relatos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quais animais foram trazidos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Uma jumenta e um jumentinho"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Dois cavalos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Um camelo e sua cria"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um único boi"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Uma jumenta e um jumentinho",
+          "enderecoNAA": "Mateus 21.2,7",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.2,7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos discípulos Jesus enviou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Dois"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Doze"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Dois",
+          "enderecoNAA": "Mateus 21.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De onde partiram as instruções",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Betfagé, junto ao monte das Oliveiras"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Betânia, junto ao Jordão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cafarnaum, junto ao mar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Jericó, junto ao deserto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Betfagé, junto ao monte das Oliveiras",
+          "enderecoNAA": "Mateus 21.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como a cidade reagiu à entrada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ficou alvoroçada"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Permaneceu em silêncio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Fechou os portões"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Saiu para o deserto"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ficou alvoroçada",
+          "enderecoNAA": "Mateus 21.10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus enviou dois discípulos quando se aproximavam de Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus enviou dois discípulos quando se aproximavam de Jerusalém."
+          },
+          {
+            "id": "P02",
+            "text": "As instruções foram dadas ao chegarem a Betfagé, junto ao monte das Oliveiras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As instruções foram dadas ao chegarem a Betfagé, junto ao monte das Oliveiras."
+          },
+          {
+            "id": "P03",
+            "text": "Na aldeia diante deles havia uma jumenta presa e um jumentinho com ela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Na aldeia diante deles havia uma jumenta presa e um jumentinho com ela."
+          },
+          {
+            "id": "P04",
+            "text": "A resposta prevista era que o Senhor precisava dos animais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A resposta prevista era que o Senhor precisava dos animais."
+          },
+          {
+            "id": "P05",
+            "text": "Os discípulos fizeram como Jesus havia ordenado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os discípulos fizeram como Jesus havia ordenado."
+          },
+          {
+            "id": "P06",
+            "text": "Eles trouxeram a jumenta e o jumentinho e puseram capas sobre os animais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles trouxeram a jumenta e o jumentinho e puseram capas sobre os animais."
+          },
+          {
+            "id": "P07",
+            "text": "A maior parte da multidão estendeu capas no caminho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A maior parte da multidão estendeu capas no caminho."
+          },
+          {
+            "id": "P08",
+            "text": "Outros cortavam ramos de árvores e os espalhavam pelo caminho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Outros cortavam ramos de árvores e os espalhavam pelo caminho."
+          },
+          {
+            "id": "P09",
+            "text": "Multidões à frente e atrás clamavam “Hosana ao Filho de Davi”.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Multidões à frente e atrás clamavam “Hosana ao Filho de Davi”."
+          },
+          {
+            "id": "P10",
+            "text": "A entrada de Jesus deixou toda a cidade alvoroçada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A entrada de Jesus deixou toda a cidade alvoroçada."
+          },
+          {
+            "id": "P11",
+            "text": "As multidões o identificaram como o profeta Jesus, de Nazaré da Galileia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As multidões o identificaram como o profeta Jesus, de Nazaré da Galileia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 21 narra instruções dadas a dois discípulos em Betfagé, a vinda da jumenta e do jumentinho, a acolhida das multidões e o alvoroço de Jerusalém.",
+        "hinge": "Os campos preservam detalhes expressos por Mateus; a comparação com Mc 11.1-11, Lc 19.28-40 e Jo 12.12-19 não transfere animais, falas ou reações entre relatos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-mulheres-ressurreicao": {
+      "id": "nt2-mateus-mulheres-ressurreicao",
+      "kind": "canonical-case",
+      "title": "As mulheres encontram o Ressuscitado em Mateus",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 28.1-10",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais visitantes, momento, anúncio e destino aparecem junto ao túmulo em Mateus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "As duas visitantes nomeadas enquadram toda a sequência do túmulo ao encontro com Jesus.",
+      "editorial": {
+        "hinge": "A pauta usa somente fatos de Mt 28.1-10; os relatos de Mc 16, Lc 24 e Jo 20 foram comparados, mas seus nomes e ações particulares não foram harmonizados."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem foi ver o túmulo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Maria Madalena e a outra Maria"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Maria Madalena e Salomé"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Joana e Isabel"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Marta e Maria"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Maria Madalena e a outra Maria",
+          "enderecoNAA": "Mateus 28.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quando elas foram",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Ao amanhecer do primeiro dia da semana"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ao meio-dia do sábado"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Na noite do segundo dia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Na manhã da sexta-feira"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Ao amanhecer do primeiro dia da semana",
+          "enderecoNAA": "Mateus 28.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem anunciou que Jesus havia ressuscitado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um anjo do Senhor"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um dos guardas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "José de Arimateia"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Simão Pedro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um anjo do Senhor",
+          "enderecoNAA": "Mateus 28.2,5-6",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.2,5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde os discípulos deveriam ver Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Na Galileia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Em Jericó"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Em Samaria"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Em Cafarnaum"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Na Galileia",
+          "enderecoNAA": "Mateus 28.7,10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.7,10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Maria Madalena e a outra Maria foram ver o túmulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Maria Madalena e a outra Maria foram ver o túmulo."
+          },
+          {
+            "id": "P02",
+            "text": "A visita ocorreu ao amanhecer do primeiro dia da semana.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A visita ocorreu ao amanhecer do primeiro dia da semana."
+          },
+          {
+            "id": "P03",
+            "text": "Houve um grande terremoto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Houve um grande terremoto."
+          },
+          {
+            "id": "P04",
+            "text": "Um anjo do Senhor desceu do céu, removeu a pedra e sentou-se sobre ela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um anjo do Senhor desceu do céu, removeu a pedra e sentou-se sobre ela."
+          },
+          {
+            "id": "P05",
+            "text": "O aspecto do anjo era como um relâmpago, e sua roupa era branca como a neve.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O aspecto do anjo era como um relâmpago, e sua roupa era branca como a neve."
+          },
+          {
+            "id": "P06",
+            "text": "Os guardas tremeram de medo e ficaram como mortos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os guardas tremeram de medo e ficaram como mortos."
+          },
+          {
+            "id": "P07",
+            "text": "O anjo sabia que as mulheres procuravam Jesus, o crucificado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O anjo sabia que as mulheres procuravam Jesus, o crucificado."
+          },
+          {
+            "id": "P08",
+            "text": "O mensageiro afirmou que Jesus havia ressuscitado e mostrou o lugar onde ele estivera.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O mensageiro afirmou que Jesus havia ressuscitado e mostrou o lugar onde ele estivera."
+          },
+          {
+            "id": "P09",
+            "text": "As mulheres deveriam avisar aos discípulos que Jesus iria adiante deles para a Galileia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As mulheres deveriam avisar aos discípulos que Jesus iria adiante deles para a Galileia."
+          },
+          {
+            "id": "P10",
+            "text": "Elas deixaram depressa o túmulo, com medo e grande alegria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Elas deixaram depressa o túmulo, com medo e grande alegria."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus encontrou as mulheres e as saudou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus encontrou as mulheres e as saudou."
+          },
+          {
+            "id": "P12",
+            "text": "Elas abraçaram os pés de Jesus e o adoraram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Elas abraçaram os pés de Jesus e o adoraram."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus repetiu que seus irmãos deveriam ir para a Galileia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus repetiu que seus irmãos deveriam ir para a Galileia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 28 apresenta Maria Madalena e a outra Maria no túmulo, o anúncio do anjo, a incumbência referente à Galileia e o encontro das mulheres com Jesus.",
+        "hinge": "A pauta usa somente fatos de Mt 28.1-10; os relatos de Mc 16, Lc 24 e Jo 20 foram comparados, mas seus nomes e ações particulares não foram harmonizados.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-bartimeu": {
+      "id": "nt2-marcos-bartimeu",
+      "kind": "canonical-case",
+      "title": "Bartimeu à saída de Jericó",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 10.46-52",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.46-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoa, lugar, gesto e pedido distinguem o cego que chamou Jesus em Marcos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Marcos nomeia Bartimeu e explica sua filiação, identificação que distingue o recorte dos relatos paralelos.",
+      "editorial": {
+        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram comparados: somente a recuperação e o seguimento compartilhados recebem referências múltiplas; nome, filiação, saída de Jericó e capa permanecem fatos próprios de Marcos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem estava à beira do caminho",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Bartimeu, filho de Timeu"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jairo, chefe da sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Zaqueu, chefe dos publicanos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Simão, o leproso"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Bartimeu, filho de Timeu",
+          "enderecoNAA": "Marcos 10.46",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde Jesus estava quando o homem gritou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Saindo de Jericó"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entrando em Jerusalém"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cruzando o mar da Galileia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Chegando a Nazaré"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Saindo de Jericó",
+          "enderecoNAA": "Marcos 10.46",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o cego lançou para o lado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A capa"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O bordão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "As sandálias"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Uma moeda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A capa",
+          "enderecoNAA": "Marcos 10.50",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.50",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ele pediu a Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que pudesse ver de novo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que recebesse pão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que seu filho fosse curado"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que pudesse caminhar"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que pudesse ver de novo",
+          "enderecoNAA": "Marcos 10.51",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Marcos identifica o cego mendigo como Bartimeu, filho de Timeu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Marcos identifica o cego mendigo como Bartimeu, filho de Timeu."
+          },
+          {
+            "id": "P02",
+            "text": "Ele estava sentado à beira do caminho quando Jesus saía de Jericó.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele estava sentado à beira do caminho quando Jesus saía de Jericó."
+          },
+          {
+            "id": "P03",
+            "text": "Ao ouvir que era Jesus, o Nazareno, começou a pedir compaixão ao Filho de Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao ouvir que era Jesus, o Nazareno, começou a pedir compaixão ao Filho de Davi."
+          },
+          {
+            "id": "P04",
+            "text": "Mesmo repreendido por muitos, gritava cada vez mais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Mesmo repreendido por muitos, gritava cada vez mais."
+          },
+          {
+            "id": "P05",
+            "text": "Ao ser chamado, lançou a capa para o lado, levantou-se de um salto e foi até Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.49-50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao ser chamado, lançou a capa para o lado, levantou-se de um salto e foi até Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Diante da pergunta de Jesus, pediu que pudesse ver de novo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Diante da pergunta de Jesus, pediu que pudesse ver de novo."
+          },
+          {
+            "id": "P07",
+            "text": "Recuperou a vista e seguiu Jesus estrada afora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "parallel",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.52",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-12"
+              },
+              {
+                "book": "Mateus",
+                "passage": "20.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-12"
+              },
+              {
+                "book": "Lucas",
+                "passage": "18.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Recuperou a vista e seguiu Jesus estrada afora."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 10 nomeia Bartimeu, situa-o à saída de Jericó, registra o gesto com a capa, seu pedido para ver de novo e o seguimento após recuperar a visão.",
+        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram comparados: somente a recuperação e o seguimento compartilhados recebem referências múltiplas; nome, filiação, saída de Jericó e capa permanecem fatos próprios de Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.46-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-mesa-servico-pedro": {
+      "id": "nt2-lucas-mesa-servico-pedro",
+      "kind": "canonical-case",
+      "title": "Serviço e advertências depois da ceia",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 22.24-38",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "22.24-38",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais disputa, exemplo, advertência a Simão e instrução aparecem à mesa em Lucas?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A advertência pessoal a Simão, acompanhada da oração de Jesus e da previsão das negações, organiza o trecho sem confundir os destinatários das demais falas.",
+      "editorial": {
+        "hinge": "A pauta temática mantém explícitos os destinatários: o grupo participa da discussão e recebe instruções; Simão recebe a advertência pessoal. Não se cria ligação causal entre essas falas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por quem Jesus disse ter orado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Simão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Tiago"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Tomé"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Simão",
+          "enderecoNAA": "Lucas 22.31-32",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "22.31-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Sobre o que surgiu discussão entre os discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Qual deles parecia ser o maior"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Quem guardaria o dinheiro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Onde celebrariam a Páscoa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Quando voltariam à Galileia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Qual deles parecia ser o maior",
+          "enderecoNAA": "Lucas 22.24",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "22.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como Jesus se apresentou entre eles",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Como quem serve"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Como um rei dos gentios"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Como quem recebe tributo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Como um juiz sentado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Como quem serve",
+          "enderecoNAA": "Lucas 22.27",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "22.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que quem não tivesse espada deveria fazer",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vender a capa e comprar uma"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Esperar no templo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pedir uma aos sacerdotes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Deixar a cidade imediatamente"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vender a capa e comprar uma",
+          "enderecoNAA": "Lucas 22.36",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "22.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Surgiu entre os discípulos uma discussão sobre qual deles parecia ser o maior.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Surgiu entre os discípulos uma discussão sobre qual deles parecia ser o maior."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus contrastou os reis e benfeitores dos gentios com a conduta dos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.25-26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus contrastou os reis e benfeitores dos gentios com a conduta dos discípulos."
+          },
+          {
+            "id": "P03",
+            "text": "O maior deveria ser como o menor, e quem dirige, como quem serve.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O maior deveria ser como o menor, e quem dirige, como quem serve."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus declarou estar entre eles como quem serve.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus declarou estar entre eles como quem serve."
+          },
+          {
+            "id": "P05",
+            "text": "Os discípulos haviam permanecido com Jesus em suas provações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os discípulos haviam permanecido com Jesus em suas provações."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus lhes conferiu um reino, assim como o Pai lhe havia conferido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus lhes conferiu um reino, assim como o Pai lhe havia conferido."
+          },
+          {
+            "id": "P07",
+            "text": "Ele falou de comer, beber e sentar-se em tronos para julgar as doze tribos de Israel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele falou de comer, beber e sentar-se em tronos para julgar as doze tribos de Israel."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus avisou Simão de que Satanás havia reclamado os discípulos para peneirá-los como trigo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus avisou Simão de que Satanás havia reclamado os discípulos para peneirá-los como trigo."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus disse ter orado por Simão para que a fé dele não desfalecesse.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus disse ter orado por Simão para que a fé dele não desfalecesse."
+          },
+          {
+            "id": "P10",
+            "text": "Depois de se converter, Simão deveria fortalecer os irmãos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois de se converter, Simão deveria fortalecer os irmãos."
+          },
+          {
+            "id": "P11",
+            "text": "Antes que o galo cantasse naquele dia, Pedro negaria três vezes que conhecia Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Antes que o galo cantasse naquele dia, Pedro negaria três vezes que conhecia Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus instruiu quem tivesse bolsa e alforje a levá-los.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus instruiu quem tivesse bolsa e alforje a levá-los."
+          },
+          {
+            "id": "P13",
+            "text": "Quem não tivesse espada deveria vender a capa e comprar uma.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Quem não tivesse espada deveria vender a capa e comprar uma."
+          },
+          {
+            "id": "P14",
+            "text": "Ao mostrarem duas espadas, Jesus respondeu: “Basta!”.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "22.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao mostrarem duas espadas, Jesus respondeu: “Basta!”."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 22 reúne, no diálogo após a ceia, o ensino sobre serviço, a promessa aos que permaneceram com Jesus, a advertência dirigida a Simão e instruções dadas aos discípulos.",
+        "hinge": "A pauta temática mantém explícitos os destinatários: o grupo participa da discussão e recebe instruções; Simão recebe a advertência pessoal. Não se cria ligação causal entre essas falas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "22.24-38",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-aparicao-ascensao": {
+      "id": "nt2-lucas-aparicao-ascensao",
+      "kind": "canonical-case",
+      "title": "A aparição e a ascensão em Lucas",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 24.36-53",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "24.36-53",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais reação, prova, anúncio e lugar marcam a aparição final narrada por Lucas?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O peixe assado comido diante dos discípulos é a ação concreta usada no próprio relato durante a demonstração corporal de Jesus.",
+      "editorial": {
+        "hinge": "A pauta preserva a sequência e os detalhes exclusivos de Lc 24.36-53; Mt 28, Jo 20 e At 1 foram comparados sem transferir suas formulações, locais ou cronologia para Lucas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus comeu diante deles",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um pedaço de peixe assado"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pão com mel"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um cordeiro assado"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Figos secos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um pedaço de peixe assado",
+          "enderecoNAA": "Lucas 24.42-43",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "24.42-43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os discípulos pensaram estar vendo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um espírito"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um anjo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "João Batista"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um profeta antigo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um espírito",
+          "enderecoNAA": "Lucas 24.37",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "24.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde a pregação deveria começar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Em Jerusalém"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Na Galileia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Em Samaria"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Em Roma"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Em Jerusalém",
+          "enderecoNAA": "Lucas 24.47",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "24.47",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Até onde Jesus os levou antes de ser elevado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Betânia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Emaús"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Jericó"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Belém"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Betânia",
+          "enderecoNAA": "Lucas 24.50-51",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "24.50-51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus apareceu no meio dos que conversavam e lhes desejou paz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus apareceu no meio dos que conversavam e lhes desejou paz."
+          },
+          {
+            "id": "P02",
+            "text": "Assustados e com medo, eles pensaram estar vendo um espírito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Assustados e com medo, eles pensaram estar vendo um espírito."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus perguntou por que estavam assustados e por que tinham dúvidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus perguntou por que estavam assustados e por que tinham dúvidas."
+          },
+          {
+            "id": "P04",
+            "text": "Ele mostrou as mãos e os pés e os convidou a tocá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.39-40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele mostrou as mãos e os pés e os convidou a tocá-lo."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus afirmou que um espírito não tem carne nem ossos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus afirmou que um espírito não tem carne nem ossos."
+          },
+          {
+            "id": "P06",
+            "text": "Como ainda estavam admirados, Jesus perguntou se havia algo para comer.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Como ainda estavam admirados, Jesus perguntou se havia algo para comer."
+          },
+          {
+            "id": "P07",
+            "text": "Apresentaram a Jesus um pedaço de peixe assado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Apresentaram a Jesus um pedaço de peixe assado."
+          },
+          {
+            "id": "P08",
+            "text": "Ele comeu o peixe na presença deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele comeu o peixe na presença deles."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus mencionou o que estava escrito a seu respeito na Lei de Moisés, nos Profetas e nos Salmos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus mencionou o que estava escrito a seu respeito na Lei de Moisés, nos Profetas e nos Salmos."
+          },
+          {
+            "id": "P10",
+            "text": "Ele abriu o entendimento deles para compreenderem as Escrituras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele abriu o entendimento deles para compreenderem as Escrituras."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus declarou que o Cristo tinha de sofrer e ressuscitar no terceiro dia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus declarou que o Cristo tinha de sofrer e ressuscitar no terceiro dia."
+          },
+          {
+            "id": "P12",
+            "text": "O arrependimento para remissão de pecados deveria ser pregado a todas as nações, começando em Jerusalém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O arrependimento para remissão de pecados deveria ser pregado a todas as nações, começando em Jerusalém."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus chamou os ouvintes de testemunhas dessas coisas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus chamou os ouvintes de testemunhas dessas coisas."
+          },
+          {
+            "id": "P14",
+            "text": "Eles deveriam permanecer na cidade até serem revestidos do poder vindo do alto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles deveriam permanecer na cidade até serem revestidos do poder vindo do alto."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus os levou para fora, até Betânia, ergueu as mãos e os abençoou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus os levou para fora, até Betânia, ergueu as mãos e os abençoou."
+          },
+          {
+            "id": "P16",
+            "text": "Enquanto os abençoava, Jesus foi elevado para o céu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Enquanto os abençoava, Jesus foi elevado para o céu."
+          },
+          {
+            "id": "P17",
+            "text": "Eles voltaram para Jerusalém cheios de alegria e permaneciam no templo louvando a Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "24.52-53",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles voltaram para Jerusalém cheios de alegria e permaneciam no templo louvando a Deus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 24 relata a aparição corporal de Jesus, o peixe comido diante dos discípulos, a abertura das Escrituras, a missão iniciada em Jerusalém e a elevação após conduzi-los até Betânia.",
+        "hinge": "A pauta preserva a sequência e os detalhes exclusivos de Lc 24.36-53; Mt 28, Jo 20 e At 1 foram comparados sem transferir suas formulações, locais ou cronologia para Lucas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "24.36-53",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
             "checkedAt": "2026-09-12"
           }
         ]
