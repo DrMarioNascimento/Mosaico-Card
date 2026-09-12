@@ -250,6 +250,9 @@
       $("#entrar-aviso").textContent = comoMestre ? "O QR já está ativo para quem está chegando." : "";
     }
     if ($("#campo-cod")) $("#campo-cod").hidden = comoMestre;
+    if (!comoMestre && sala.codigoConvite && $("#entrar-lede")) {
+      $("#entrar-lede").textContent = "Você chegou pelo convite da sala " + sala.codigoConvite + ". Informe seu nome para continuar.";
+    }
     setStatus("#entrar-status", "");
     show("entrar");
     setTimeout(function () { if ($("#nome")) $("#nome").focus(); }, 20);
@@ -309,6 +312,14 @@
     });
   }
   async function confirmarIdentidade() {
+    if (sala.demonstracao) {
+      const nomeDemo = ($("#nome").value || "").trim();
+      if (!nomeDemo) { setStatus("#entrar-status", "Digite o nome que a mesa vai ver."); return; }
+      sala.nome = nomeDemo;
+      sala.identidadePendente = false;
+      show("assistencia");
+      return;
+    }
     if (!window.MC_FB.ready) { setStatus("#entrar-status", window.MC_FB.err || "Firebase ainda conectando."); return; }
     const nome = (($("#nome") && $("#nome").value) || "").trim();
     if (!nome) { setStatus("#entrar-status", "Digite o nome que a mesa vai ver."); return; }
@@ -349,6 +360,11 @@
     const selecionada = document.querySelector("[data-assistencia].on");
     sala.assistencia = selecionada ? selecionada.dataset.assistencia : "livre";
     try { localStorage.setItem(armazenamentoAssistencia(), sala.assistencia); } catch (_) { /* sessão atual */ }
+    if (sala.demonstracao) {
+      $("#demo-player-name").textContent = sala.nome;
+      show("demo-lobby");
+      return;
+    }
     try {
       await atualizarJogador(function (j) { j.pronto = true; return j; });
       show("lobby");
@@ -421,6 +437,23 @@
   sala.souMestre = souMestre;
   sala.pintar = pintar;
   sala.show = show;
+  sala.abrirDemonstracao = function () {
+    sala.demonstracao = true;
+    sala.comoMestre = false;
+    sala.online = false;
+    sala.codigoConvite = "DEMO";
+    show("welcome");
+    window.scrollTo(0, 0);
+  };
+  sala.continuarConvite = function () {
+    if (!sala.codigoConvite) return;
+    if ($("#cod")) $("#cod").value = sala.codigoConvite;
+    prepararIdentidade(false);
+    if (sala.demonstracao) {
+      $("#campo-cod").hidden = true;
+      $("#entrar-lede").textContent = "Você chegou à mesa de demonstração. Informe seu nome para continuar.";
+    }
+  };
   sala.togglePainel = togglePainel;
 
   document.addEventListener("mc-fb-ready", function () { sala.uid = window.MC_FB && window.MC_FB.uid; pintar(); });
@@ -433,7 +466,7 @@
     $("#modal-mestre")?.addEventListener("click", function (e) { if (e.target === $("#modal-mestre")) fecharModal(); });
     $("#btn-abrir-com-mesa")?.addEventListener("click", criarSalaConfigurada);
     $("#btn-ir-entrar")?.addEventListener("click", function () { prepararIdentidade(false); });
-    $("#btn-voltar-open")?.addEventListener("click", function () { if (sala.comoMestre && sala.codigo) show("lobby"); else show("open"); });
+    $("#btn-voltar-open")?.addEventListener("click", function () { if (sala.comoMestre && sala.codigo) show("lobby"); else if (sala.codigoConvite) show("how-to-play"); else show("open"); });
     $("#btn-entrar-mesa")?.addEventListener("click", confirmarIdentidade);
     $("#btn-confirmar-assistencia")?.addEventListener("click", confirmarAssistencia);
     $("#btn-iniciar-partida")?.addEventListener("click", iniciarPartida);
@@ -464,7 +497,11 @@
     });
     const q = new URLSearchParams(location.search);
     if (q.get("telao") && q.get("sala")) ligarTelao(q.get("sala").toUpperCase());
-    else if (q.get("sala")) { if ($("#cod")) $("#cod").value = q.get("sala").toUpperCase(); prepararIdentidade(false); }
+    else if (q.get("sala")) {
+      sala.codigoConvite = q.get("sala").trim().toUpperCase();
+      if ($("#cod")) $("#cod").value = sala.codigoConvite;
+      show("welcome");
+    }
     pintar();
   });
 })();

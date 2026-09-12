@@ -222,6 +222,7 @@
     state.config = { tempoPorJogada: 45, duracao: "padrao", telao: false };
     carregarCaso("ovelha");
     prepararJogadores(null, true);
+    if (window.MC_SALA && window.MC_SALA.nome) NOMES.voce = window.MC_SALA.nome;
     distribuir();
     const agora = Date.now();
     state.partidaIniciaEm = agora;
@@ -232,7 +233,7 @@
     window.scrollTo(0, 0);
     startTimer();
     render();
-    showBagToast();
+
     requestAnimationFrame(function () { requestAnimationFrame(playCoinIntro); });
   }
   function iniciarPartida(caso, config, jogadores) {
@@ -257,7 +258,7 @@
     window.scrollTo(0, 0);
     startTimer();
     render();
-    showBagToast();
+
     requestAnimationFrame(function () { requestAnimationFrame(playCoinIntro); });
     publicarEstado("deal", true);
   }
@@ -337,60 +338,59 @@
     Object.assign(mark.style, { left: x + "px", top: y + "px", width: "24px", height: "24px" });
     trail.appendChild(mark);
   }
+  let coinIntroTimers = [];
   function playCoinIntro() {
-    const fly = $("#coin-fly");
+    coinIntroTimers.forEach(clearTimeout);
+    coinIntroTimers = [];
+    const fly = $("#coin-fly"), toast = $("#bag-toast"), trail = $("#coin-trail");
     const dest = document.querySelector(".stash-art .coin");
-    const trail = $("#coin-trail");
-    if (!fly || !dest) return;
-    document.body.classList.add("coin-intro-lock");
-    dest.classList.remove("on");
-    if (trail) { trail.innerHTML = ""; trail.classList.remove("fade"); }
+    if (!fly || !toast || !dest) { showBagToast(); return; }
+    const later = function (fn, delay) { coinIntroTimers.push(setTimeout(fn, delay)); };
+    fly.hidden = true;
+    fly.classList.remove("rise", "home", "summon", "hovering");
+    if (trail) trail.replaceChildren();
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { showBagToast(); return; }
+    toast.hidden = false;
+    toast.classList.remove("in", "out");
+    toast.style.visibility = "hidden";
+    const card = toast.getBoundingClientRect();
+    const size = Math.min(94, document.documentElement.clientWidth * .22);
+    fly.style.setProperty("--coin-size", size + "px");
+    fly.style.setProperty("--impact-y", card.top + card.height / 2 + "px");
+    fly.style.setProperty("--hover-y", card.bottom + size * .3 + "px");
     fly.hidden = false;
-    fly.classList.remove("rise", "home");
-    const viewportW = document.documentElement.clientWidth;
-    const viewportH = document.documentElement.clientHeight;
-    const dockTop = document.querySelector(".control-dock")?.getBoundingClientRect().top || viewportH;
-    const diameter = Math.min(132, Math.max(92, Math.min(viewportW * 0.28, (dockTop - 90) * 0.36)));
-    fly.style.setProperty("--coin-size", diameter + "px");
-    fly.style.setProperty("--origin-y", Math.max(105, Math.min(dockTop - diameter - 30, viewportH * 0.45)) + "px");
-    const box = dest.getBoundingClientRect();
-    fly.style.setProperty("--tx", box.left + box.width / 2 + "px");
-    fly.style.setProperty("--ty", box.top + box.height / 2 + "px");
-    fly.style.setProperty("--end", Math.max(22, box.width) + "px");
     void fly.offsetWidth;
-    fly.classList.add("rise");
-    setTimeout(function () {
-      fly.classList.remove("rise");
-      void fly.offsetWidth;
-      fly.classList.add("home");
-      let lastX = null, lastY = null, marcas = 0;
-      const spacing = 20;
-      const started = performance.now();
-      function sample() {
-        const r = fly.getBoundingClientRect();
-        const x = r.left + r.width / 2, y = r.top + r.height / 2;
-        if (lastX === null) { dropStamp(x, y); lastX = x; lastY = y; marcas += 1; }
-        let dist = Math.hypot(x - lastX, y - lastY);
-        while (dist >= spacing && marcas < 40) {
-          const ratio = spacing / dist;
-          lastX += (x - lastX) * ratio;
-          lastY += (y - lastY) * ratio;
-          dropStamp(lastX, lastY);
-          marcas += 1;
-          dist = Math.hypot(x - lastX, y - lastY);
-        }
-        if (performance.now() - started < 900 && marcas < 40) requestAnimationFrame(sample);
-        else if (trail) trail.classList.add("fade");
+    fly.classList.add("summon");
+    later(function () {
+      toast.style.visibility = "";
+      showBagToast();
+      if (trail) for (let i = 0; i < 22; i++) {
+        const dust = document.createElement("i");
+        dust.className = "coin-dust";
+        const angle = Math.PI * 2 * i / 22;
+        dust.style.cssText = "left:50%;top:" + (card.top + card.height / 2) + "px;--dx:" + Math.cos(angle) * (55 + i % 4 * 17) + "px;--dy:" + Math.sin(angle) * (40 + i % 5 * 13) + "px;";
+        trail.appendChild(dust);
       }
-      requestAnimationFrame(sample);
-    }, 1550);
-    setTimeout(function () {
+    }, 850);
+    later(function () { fly.classList.remove("summon"); fly.classList.add("hovering"); }, 1450);
+    later(function () {
+      const box = document.querySelector(".stash-art .coin").getBoundingClientRect();
+      fly.style.setProperty("--tx", box.left + box.width / 2 + "px");
+      fly.style.setProperty("--ty", box.top + box.height / 2 + "px");
+      fly.style.setProperty("--end", Math.max(22, box.width) + "px");
+      fly.classList.remove("hovering");
+      fly.classList.add("home");
+    }, 850 + TOAST_MS);
+    later(function () {
       fly.hidden = true;
-      fly.classList.remove("home", "rise");
-      dest.classList.add("on");
-      document.body.classList.remove("coin-intro-lock");
-      if (trail) setTimeout(function () { trail.innerHTML = ""; trail.classList.remove("fade"); }, 900);
-    }, 2480);
+      fly.classList.remove("home");
+      const target = document.querySelector(".stash-art .coin");
+      if (target) {
+        target.classList.add("received");
+        later(function () { target.classList.remove("received"); }, 700);
+      }
+      if (trail) trail.replaceChildren();
+    }, 850 + TOAST_MS + 850);
   }
   function revelarCompra(id, jogador, depois) {
     if (!eOvelha(id)) { if (depois) depois(); return; }
@@ -781,9 +781,16 @@
 
   carregarCaso("ovelha");
   document.addEventListener("DOMContentLoaded", function () {
-    $("#go-rule")?.addEventListener("click", function () { carregarCaso("ovelha"); show("rule"); });
+    $("#go-rule")?.addEventListener("click", function () { window.MC_SALA.abrirDemonstracao(); });
+    $("#demo-ready")?.addEventListener("click", iniciarDemo);
     $("#go-deal")?.addEventListener("click", iniciarDemo);
-    $("#again")?.addEventListener("click", function () { show("open"); });
+    $("#again")?.addEventListener("click", function () {
+      if (window.MC_SALA && window.MC_SALA.demonstracao) {
+        window.MC_SALA.demonstracao = false;
+        window.MC_SALA.codigoConvite = null;
+      }
+      show("open");
+    });
     document.querySelectorAll("#verbos button").forEach(function (btn) { btn.addEventListener("click", function () { abrirVerbo(btn.dataset.verbo); }); });
     $("#pistas-toggle")?.addEventListener("click", function () { state.pistasAbertas = !state.pistasAbertas; render(); });
   });

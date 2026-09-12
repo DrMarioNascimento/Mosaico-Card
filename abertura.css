@@ -30,9 +30,9 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
 }
 @keyframes welcome-float {
   0%, 100% { translate: 0 0; }
-  25% { translate: 2px -1px; }
-  50% { translate: 0 -3px; }
-  75% { translate: -2px -1px; }
+  25% { translate: 6px -4px; }
+  50% { translate: 0 -10px; }
+  75% { translate: -6px -4px; }
 }
 #welcome-start {
   display: inline-flex; align-items: center; justify-content: center; gap: 20px;
@@ -100,6 +100,15 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
   box-shadow: inset 0 1px 0 #ffffff18, inset 0 -2px 0 #0003, 0 5px 0 #08222b, 0 12px 22px #04171f55;
 }
 #judge .score-step { background: linear-gradient(160deg, #ffffff06, #00000012); box-shadow: inset 0 1px 0 #ffffff0a; }
+.bag-toast {
+  background: linear-gradient(145deg, #fff8e6, #eddbb4 65%, #d4b77d);
+  border: 2px solid #b99151;
+  box-shadow: inset 0 2px 0 #fffdf3, inset 0 -4px 0 #a9824544, 0 6px 0 #79572e, 0 18px 38px #0008;
+  padding: 20px 22px 24px;
+}
+.bag-toast small { color: #72532a; }
+.bag-toast p { color: #372918; font-weight: 700; }
+.bag-toast p strong { display: block; font-size: 30px; margin: 7px 0; color: #654519; }
 #judge .score-total { box-shadow: inset 0 2px 0 #a6f5da22, inset 0 -3px 5px #001d2455; }
 #judge .revelacao-campo, #judge .podio-top3 > * {
   background: linear-gradient(145deg, #214350, #0e2732);

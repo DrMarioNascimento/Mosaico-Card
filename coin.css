@@ -41,6 +41,21 @@
 .coin-fly.home {
   animation: coin-home .85s cubic-bezier(.22,.8,.2,1) forwards;
 }
+.coin-fly.summon { animation: coin-summon 1.45s ease-in-out forwards; }
+.coin-fly.summon .spin { animation: coin-flip 1.45s ease-out; }
+.coin-fly.hovering { top: var(--hover-y); width: var(--coin-size); height: var(--coin-size); }
+.coin-fly.hovering .spin { animation: coin-flip 6s linear infinite; }
+@keyframes coin-summon {
+  0% { left: 12%; top: 6%; width: 12px; height: 12px; opacity: 0; filter: blur(3px); }
+  20% { opacity: 1; }
+  58% { left: 50%; top: var(--impact-y); width: var(--coin-size); height: var(--coin-size); filter: blur(0); }
+  66% { left: 50%; top: calc(var(--impact-y) - 12px); width: var(--coin-size); height: var(--coin-size); }
+  100% { left: 50%; top: var(--hover-y); width: var(--coin-size); height: var(--coin-size); }
+}
+.coin-dust { position: fixed; z-index: 95; width: 5px; height: 5px; border-radius: 50%; background: #ffe5a0; box-shadow: 0 0 7px #ffbe40; pointer-events: none; animation: coin-dust-out 1.1s ease-out forwards; }
+@keyframes coin-dust-out { from { opacity: 1; transform: translate(0,0) scale(1.5); } to { opacity: 0; transform: translate(var(--dx),var(--dy)) scale(.1); } }
+.stash-art .coin.received { animation: purse-receive .7s ease-out; }
+@keyframes purse-receive { 40% { filter: drop-shadow(0 0 14px #ffcf65); transform: scale(1.12); } }
 .coin-fly.home .spin {
   animation: coin-tilt .85s linear forwards;
 }
@@ -54,7 +69,7 @@
   to   { transform: rotateY(1080deg); }
 }
 @keyframes coin-home {
-  from { left: 50%; top: calc(var(--origin-y, 52%) - 30px); width: var(--coin-size, 132px); height: var(--coin-size, 132px); }
+  from { left: 50%; top: var(--hover-y); width: var(--coin-size, 132px); height: var(--coin-size, 132px); }
   to   { left: var(--tx); top: var(--ty); width: var(--end); height: var(--end); }
 }
 .coin-intro-lock { overflow:hidden; }
