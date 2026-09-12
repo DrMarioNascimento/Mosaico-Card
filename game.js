@@ -4,7 +4,7 @@
   const PRECO = Object.freeze({ nova: 4, captura: 2, arriscar: 3 });
   const MOEDAS_INICIAIS = 12;
   const FINAL_SEGUNDOS = 60;
-  const TOAST_MS = 5200;
+  const TOAST_MS = 8000;
   const OVELHA_SRC = "ovelha.svg?v=foto-real";
   const REGRAS = window.MC_RULES;
   const DEMOS = window.MC_CASOS || {};

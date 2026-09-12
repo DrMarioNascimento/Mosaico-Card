@@ -28,7 +28,12 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
   position: absolute; top: 16%; left: 31%; width: 38%; height: auto;
   animation: welcome-float 5s ease-in-out infinite;
 }
-@keyframes welcome-float { 0%, 100% { translate: 0 0; } 50% { translate: 0 -3px; } }
+@keyframes welcome-float {
+  0%, 100% { translate: 0 0; }
+  25% { translate: 2px -1px; }
+  50% { translate: 0 -3px; }
+  75% { translate: -2px -1px; }
+}
 #welcome-start {
   display: inline-flex; align-items: center; justify-content: center; gap: 20px;
   min-height: 56px; padding: 16px 28px; border: 1px solid var(--accent); border-radius: 12px;
