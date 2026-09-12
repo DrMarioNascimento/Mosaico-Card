@@ -38,7 +38,7 @@ A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pont
 - Somente campos fechados e denários restantes entram no resultado.
 - A pontuação é revelada em parcelas e termina com ranking completo e pódio.
 
-Nas pautas atuais de quatro campos, os valores-base são `8 / 5 / 3 / 2`. O momento do fechamento aplica `1,3` no primeiro terço, `1,1` no segundo e `1,0` no terceiro e no fechamento final. O saldo residual vale `INT(denários / 4)`.
+Nas pautas atuais de quatro campos, os valores-base são `8 / 5 / 3 / 2`. O momento do fechamento aplica `1,3` no primeiro terço, `1,1` no segundo e `1,0` no terceiro e no fechamento final. O saldo residual vale `denários × 0,35, preservando as frações`.
 
 Os critérios de desempate, nesta ordem, são: maior total, menos campos queimados, mais denários e fechamento mais cedo do campo focal.
 

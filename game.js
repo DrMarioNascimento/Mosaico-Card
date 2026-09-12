@@ -140,6 +140,10 @@
     PECAS = Object.assign({}, c.pecas || {});
     CAMPOS = (c.campos || []).slice();
     if ($("#caso-titulo")) $("#caso-titulo").textContent = c.titulo || "Caso";
+    if ($("#mesa-question")) {
+      $("#mesa-question").textContent = c.pergunta || c.lede || "";
+      $("#mesa-question").hidden = !$("#mesa-question").textContent;
+    }
     atualizarRegra();
     return c;
   }
@@ -554,7 +558,7 @@
       });
     }));
   }
-  function numero(valor) { return Number(valor || 0).toFixed(1).replace(".", ","); }
+  function numero(valor) { return Number(valor || 0).toLocaleString("pt-BR", { minimumFractionDigits: 1, maximumFractionDigits: 2 }); }
   function renderRevelacaoCanonica() {
     const fonte = $("#revelacao-fonte"), campos = $("#revelacao-campos"), dente = $("#revelacao-dente");
     if (!fonte || !campos || !dente) return;
@@ -580,14 +584,24 @@
     apuracaoTimers = [];
     const jogador = idJogadorLocal();
     const resultado = state.ranking.find(function (r) { return r.jogadorId === jogador; }) || REGRAS.calcularPontuacaoFinal(jogador, state.ledger, saldo(jogador));
-    const passos = [
-      ["#score-t1", resultado.parcelas.primeiroTerco],
-      ["#score-t2", resultado.parcelas.segundoTerco],
-      ["#score-t3", resultado.parcelas.terceiroTerco],
-      ["#score-final", resultado.parcelas.fechamentoFinal],
+    const camposPontuados = CAMPOS.slice().sort(function (a, b) {
+      return Number(b.id === CASO.focalFieldId) - Number(a.id === CASO.focalFieldId);
+    }).map(function (item) {
+      return { campo: item, evento: state.ledger.find(function (evento) {
+        return evento.jogadorId === jogador && evento.campoId === item.id;
+      }) };
+    });
+    if ($("#score-questions")) $("#score-questions").innerHTML = camposPontuados.map(function (item, index) {
+      const principal = item.campo.id === CASO.focalFieldId || (!CASO.focalFieldId && index === 0);
+      const bonus = item.evento && item.evento.multiplicador > 1 ? "<small class='score-multiplier'>(x" + numero(item.evento.multiplicador) + ")</small>" : "";
+      return "<div class='score-step score-question'><div><span>" + (principal ? "Questão principal" : "Questão " + (index + 1)) + "</span><p>" + esc(item.campo.rotulo) + "</p></div><div class='score-question-value'><strong id='score-question-" + index + "'>—</strong>" + bonus + "</div></div>";
+    }).join("");
+    const passos = camposPontuados.map(function (item, index) {
+      return ["#score-question-" + index, item.evento ? item.evento.pontos : 0];
+    }).concat([
       ["#score-residual", resultado.residual],
       ["#score-total", resultado.total]
-    ];
+    ]);
     passos.forEach(function (passo) { if ($(passo[0])) $(passo[0]).textContent = "—"; });
     passos.forEach(function (passo, index) {
       apuracaoTimers.push(setTimeout(function () {

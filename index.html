@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="coin.css?v=rastro2">
   <link rel="stylesheet" href="cards.css?v=mesa3d3">
   <link rel="stylesheet" href="sala.css?v=ident1">
-  <link rel="stylesheet" href="abertura.css?v=1">
+  <link rel="stylesheet" href="abertura.css?v=2">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -64,13 +64,13 @@
       </ol>
       <section class="how-bonus" aria-labelledby="how-bonus-title">
         <h2 id="how-bonus-title">Acertar mais cedo vale mais.</h2>
-        <p>O bônus depende de quanto tempo da partida já passou, antes do fechamento. Uma resposta que vale <b>8 pontos</b>, por exemplo:</p>
-        <div class="how-score-grid">
-          <div><span>Primeiro terço</span><strong>10,4 <small>pontos</small></strong><b>+30%</b></div>
-          <div><span>Segundo terço</span><strong>8,8 <small>pontos</small></strong><b>+10%</b></div>
-          <div><span>Último terço</span><strong>8 <small>pontos</small></strong><b>Valor normal</b></div>
-        </div>
-        <p class="how-note">É o tempo total da partida, e não o tempo da sua vez. O bônus vem do acerto.</p>
+        <p>Quanto antes você acertar, mais pontos pode conquistar. Use as pistas para decidir quando já vale a pena responder.</p>
+      </section>
+      <section class="how-time" aria-labelledby="how-time-title">
+        <h2 id="how-time-title">O tempo também faz parte do desafio.</h2>
+        <p><b>Tempo da mão (sua vez):</b> o Mestre escolhe 30, 45 ou 60 segundos por jogada. Faça sua ação dentro desse prazo. Ao concluir a ação ou quando o relógio zerar, a vez passa ao próximo jogador.</p>
+        <p><b>Tempo da partida:</b> o Mestre escolhe Curta, Padrão ou Longa. A duração é calculada conforme o número de jogadores, as perguntas e o tempo por jogada. Por isso, não existe um tempo único para todas as mesas.</p>
+        <p>Quando o tempo total termina, a mesa conclui a volta em andamento e entra no fechamento de 60 segundos.</p>
       </section>
       <section class="how-risk" aria-labelledby="how-risk-title">
         <h2 id="how-risk-title">Vale arriscar agora?</h2>
@@ -81,9 +81,9 @@
       <section class="how-end" aria-labelledby="how-end-title">
         <h2 id="how-end-title">Uma última chance</h2>
         <p>No fechamento, você tem <b>60 segundos</b> para responder às perguntas ainda disponíveis para você, sem gastar denários e sem bônus de tempo.</p>
-        <p>Ao final, cada grupo de <b>4 denários restantes vale 1 ponto extra</b>. A soma dos acertos e desses pontos define o resultado.</p>
+        <p>Ao final, cada <b>denário restante vale 0,35 ponto extra</b>, contando as frações. A soma dos acertos e desses pontos define o resultado.</p>
       </section>
-      <button type="button" id="how-back">Entendi! Voltar ao início →</button>
+      <button type="button" id="how-back">Entendi</button>
     </div>
   </section>
   <section class="scene" id="entrar" data-modo="convidado">
@@ -236,9 +236,10 @@
           <div class="mc-outer"><div class="mc-inner">MC</div></div>
           <span class="mark-name">Mosaico Card</span>
         </div>
-        <p class="scene-title" id="caso-titulo">Caso</p>
+        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Como jogar" aria-haspopup="dialog" title="Como jogar">ℹ️</button></div>
         <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
       </header>
+      <p class="mesa-question" id="mesa-question" hidden></p>
       <details class="jogadores-bar" id="jogadores-bar">
         <summary><span>Jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
         <ol class="ordem" id="ordem"></ol>
@@ -296,11 +297,8 @@
         <div class="revelacao-dente" id="revelacao-dente" hidden></div>
       </section>
       <div class="score-progress" id="score-progress" aria-live="polite">
-        <div class="score-step"><span>Campos · primeiro terço</span><strong id="score-t1">—</strong></div>
-        <div class="score-step"><span>Campos · segundo terço</span><strong id="score-t2">—</strong></div>
-        <div class="score-step"><span>Campos · terceiro terço</span><strong id="score-t3">—</strong></div>
-        <div class="score-step"><span>Fechamento final</span><strong id="score-final">—</strong></div>
-        <div class="score-step"><span>Denários restantes</span><strong id="score-residual">—</strong></div>
+        <div id="score-questions"></div>
+        <div class="score-step"><span>Denários restantes</span><div class="score-question-value" title="Cada denário restante vale 0,35 ponto; frações são mantidas"><strong id="score-residual">—</strong><small class="score-multiplier">(x0,35)</small></div></div>
         <div class="score-total"><span>Total</span><strong id="score-total">—</strong></div>
       </div>
       <div id="score"></div>
@@ -410,12 +408,12 @@
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
   <script src="sala.js?v=fluxo3"></script>
-  <script src="abertura.js?v=1"></script>
+  <script src="abertura.js?v=2"></script>
   <script src="case-ovelha.js?v=demo6"></script>
   <script src="cases-nt.js?v=banco145"></script>
   <script src="bank-runtime.js?v=saco1"></script>
-  <script src="game-core.js?v=regras4"></script>
-  <script src="game.js?v=partida5"></script>
+  <script src="game-core.js?v=regras5"></script>
+  <script src="game.js?v=partida6"></script>
   <script src="game-sala.js?v=partida3"></script>
 </body>
 </html>

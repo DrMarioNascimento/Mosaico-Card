@@ -225,7 +225,7 @@
   function pontosResiduais(denarios) {
     const valor = Number(denarios);
     if (!Number.isFinite(valor)) throw new RangeError("Denários inválidos.");
-    return Math.floor(Math.max(0, valor) / 4);
+    return Math.round(Math.max(0, valor) * 35) / 100;
   }
 
   function calcularPontuacaoFinal(jogadorId, ledger, denarios) {
@@ -247,7 +247,7 @@
       pontosCampos,
       denarios: Number(denarios),
       residual,
-      total: arredondarUmaCasa(pontosCampos + residual)
+      total: Math.round((pontosCampos + residual + Number.EPSILON) * 100) / 100
     };
   }
 

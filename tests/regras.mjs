@@ -87,7 +87,7 @@ assert.equal(regras.tercoDoTempo(95, 0, 90), 3);
 assert.equal(regras.tercoDoTempo(95, 0, 90, "final"), "final");
 assert.deepEqual([1, 2, 3, "final"].map(regras.multiplicadorDoTerco), [1.3, 1.1, 1, 1]);
 
-// Ledger, soma por parcelas e residual INT(R/4), sem arredondar cada campo.
+// Ledger, soma por parcelas e residual R * 0,35, sem arredondar cada campo.
 let ledger = [];
 const evento1 = regras.criarEventoPontuacao({
   campoId: "C1", jogadorId: "ana", valorBase: 8,
@@ -108,9 +108,9 @@ ledger = regras.adicionarEventoPontuacao(ledger, regras.criarEventoPontuacao({
   campoId: "C4", jogadorId: "ana", valorBase: 2,
   instante: 100, inicioPartida: 0, fimPartida: 90, fase: "final"
 }));
-assert.equal(regras.pontosResiduais(3), 0);
-assert.equal(regras.pontosResiduais(4), 1);
-assert.equal(regras.pontosResiduais(15), 3);
+assert.equal(regras.pontosResiduais(3), 1.05);
+assert.equal(regras.pontosResiduais(4), 1.4);
+assert.equal(regras.pontosResiduais(15), 5.25);
 const finalAna = regras.calcularPontuacaoFinal("ana", ledger, 8);
 assert.deepEqual(finalAna.parcelas, {
   primeiroTerco: 10.4,
@@ -119,8 +119,11 @@ assert.deepEqual(finalAna.parcelas, {
   fechamentoFinal: 2
 });
 assert.equal(finalAna.pontosCampos, 20.9);
-assert.equal(finalAna.residual, 2);
-assert.equal(finalAna.total, 22.9);
+assert.equal(finalAna.residual, 2.8);
+assert.equal(finalAna.total, 23.7);
+assert.equal(regras.calcularPontuacaoFinal("ana", ledger, 3).total, 21.95);
+assert.equal(regras.pontosResiduais(11), 3.85);
+assert.equal(regras.pontosResiduais(0), 0);
 assert.throws(() => regras.adicionarEventoPontuacao(ledger, evento1), /já pontuou/);
 
 // Fase final: campo globalmente fechado e cicatriz individual não entram;
