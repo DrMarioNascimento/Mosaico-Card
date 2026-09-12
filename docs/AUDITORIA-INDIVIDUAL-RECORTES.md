@@ -128,3 +128,9 @@ O lote acrescentou cinco pautas e 62 pistas, elevando o inventário de 99/1.854 
 Em 12/09/2026, as páginas NAA de Atos 4, 5, 7, 9 e 12 em `bible.com/pt/bible/1840` foram obtidas separadamente, todas com HTTP 200, e os cinco recortes foram relidos. Cada um recebeu decisão individual: At 4.23-31 (9 pistas), At 5.17-42 (25), At 7.54-60 (9), At 9.32-43 (17) e At 12.20-23 (7) foram autorados. A pauta de Eneias e Tabita é temática, mas mantém cidade, pessoa e ação de cada episódio explicitamente atribuídas.
 
 A rodada acrescentou cinco pautas e 67 pistas: o inventário passa de 104/1.916 para 109/1.983. Os outros candidatos de Atos e todos os candidatos de Romanos–Judas e Apocalipse permanecem para rodadas posteriores. O banco não é declarado completo.
+
+## Checkpoint 038 — nova base necessária antes do próximo lote
+
+Antes de qualquer edição bíblica, o diff contra o checkpoint 037 (`a4acf82b488115a423f168d98bad1fc5251a4afd`) foi medido em zero. Porém, o diff cumulativo da branch disponível contra a base original desta sequência (`471bc4c8affd1f6657b98d5dc12a4dc6c53d5582`) já contém 14 arquivos, 10.257 inserções, 36 exclusões e 374.944 bytes. `cases-nt.js` e `data/nt-bank.json` respondem por 10.167 dessas inserções. Esse volume já reproduz o risco de limite que motivou as rodadas incrementais.
+
+Por isso, conforme a instrução desta rodada, **At 13.4-12, At 14.8-20, At 16.6-15, At 18.1-17 e At 19.11-20 não foram consultados, decididos nem autorados**. É necessária uma nova base que já contenha integralmente o checkpoint 037 antes de ampliar o banco. Permanecem igualmente para rodadas futuras At 21/23, Romanos–Judas e Apocalipse. O inventário fica inalterado em 109 pautas elegíveis e 1.983 pistas, incluindo a correção documental de Bartimeu; o banco não é declarado completo.

@@ -395,3 +395,9 @@ A revisão solicitada de Bartimeu concluiu que cura e seguimento genéricos não
 - **Preservação:** os 104 IDs do checkpoint 036 mantêm ordem e conteúdo, salvo a correção explicitamente justificada de Bartimeu.
 - **Pendências:** os demais recortes de Atos e os candidatos de Romanos–Judas e Apocalipse ficam para rodadas posteriores. O banco não é declarado completo.
 - **Operação:** sem merge, deploy, publicação ou alteração de credenciais/Firebase.
+
+## Checkpoint 038 — contenção do diff antes do segundo lote de Atos
+
+A medição obrigatória foi feita antes de editar fonte, catálogo ou conteúdo bíblico. O checkpoint 037 estava limpo e confirmou 109 IDs únicos, 109 pautas elegíveis e 1.983 pistas. Embora o diff novo contra `a4acf82b488115a423f168d98bad1fc5251a4afd` fosse zero, o acumulado contra `471bc4c8affd1f6657b98d5dc12a4dc6c53d5582` já somava 10.257 inserções, 36 exclusões e 374.944 bytes em 14 arquivos, incluindo 10.167 inserções nos dois artefatos do banco.
+
+Para não recriar o erro de tamanho, esta rodada registra somente a necessidade operacional de iniciar o próximo lote sobre uma base que já incorpore o checkpoint 037. Não houve consulta NAA nem decisão editorial sobre At 13.4-12, 14.8-20, 16.6-15, 18.1-17 ou 19.11-20; nenhuma pauta ou pista foi acrescentada. At 21/23, Romanos–Judas e Apocalipse também permanecem pendentes. Não houve merge, deploy, publicação nem alteração de credenciais/Firebase.
