@@ -555,6 +555,26 @@
     }));
   }
   function numero(valor) { return Number(valor || 0).toFixed(1).replace(".", ","); }
+  function renderRevelacaoCanonica() {
+    const fonte = $("#revelacao-fonte"), campos = $("#revelacao-campos"), dente = $("#revelacao-dente");
+    if (!fonte || !campos || !dente) return;
+    const referencia = (CASO && CASO.fonteRevelacao) || (CASO && CASO.fonte) || "Referência não informada";
+    fonte.textContent = ((CASO && CASO.titulo) ? CASO.titulo + " · " : "") + referencia;
+    campos.innerHTML = (CAMPOS || []).map(function (item, index) {
+      const correta = (item.opcoes || []).find(function (op) { return op.id === item.resposta; });
+      const resposta = item.respostaCanonica || (correta && correta.txt) || "Resposta em validação";
+      const endereco = item.enderecoNAA || referencia;
+      return "<article class='revelacao-campo'>" +
+        "<small>Campo " + (index + 1) + "</small>" +
+        "<h3>" + esc(item.rotulo || "Conclusão") + "</h3>" +
+        "<p>" + esc(resposta) + "</p>" +
+        "<cite>" + esc(endereco) + "</cite>" +
+      "</article>";
+    }).join("");
+    const sintese = CASO && CASO.editorial && CASO.editorial.hinge;
+    dente.hidden = !sintese;
+    dente.innerHTML = sintese ? "<small>Síntese do caso</small><p>" + esc(sintese) + "</p>" : "";
+  }
   function renderApuracao() {
     apuracaoTimers.forEach(clearTimeout);
     apuracaoTimers = [];
@@ -578,6 +598,7 @@
     if ($("#score")) {
       $("#score").innerHTML = "<p class='lede'>" + esc((CASO && CASO.fonteRevelacao) || "Partida encerrada") + "</p>";
     }
+    renderRevelacaoCanonica();
   }
   function renderPodio() {
     const podio = $("#podio");
