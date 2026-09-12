@@ -25,7 +25,7 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
 .welcome-art { position: relative; width: min(570px, 100%); aspect-ratio: 1.25; margin: 4px auto -10px; pointer-events: none; }
 .welcome-bible { position: absolute; bottom: 0; left: 0; width: 100%; height: auto; }
 .welcome-piece {
-  position: absolute; top: 0; left: 31%; width: 38%; height: auto;
+  position: absolute; top: 10%; left: 31%; width: 38%; height: auto;
   rotate: 90deg;
   animation: welcome-float 5s ease-in-out infinite;
 }
