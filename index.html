@@ -16,9 +16,24 @@
   <link rel="stylesheet" href="coin.css?v=rastro2">
   <link rel="stylesheet" href="cards.css?v=mesa3d3">
   <link rel="stylesheet" href="sala.css?v=ident1">
+  <link rel="stylesheet" href="abertura.css?v=1">
 </head>
 <body>
-  <section class="scene active" id="open">
+  <section class="scene active" id="welcome" aria-labelledby="welcome-title">
+    <div class="welcome-content">
+      <header class="welcome-brand">
+        <p>MOSAICO CARD</p>
+        <span>A verdade é um fragmento.</span>
+      </header>
+      <h1 id="welcome-title">Você conhece a Bíblia.<br><span>Mas consegue reconhecer<br class="welcome-break"> a história pelas pistas?</span></h1>
+      <div class="welcome-art" role="img" aria-label="Uma peça dourada de quebra-cabeça flutua sobre uma Bíblia aberta.">
+        <img class="welcome-bible" src="assets/abertura/biblia-aberta-v1.png" width="1536" height="1024" alt="" fetchpriority="high" draggable="false">
+        <img class="welcome-piece" src="assets/abertura/peca-dourada-v1.png" width="1280" height="1280" alt="" draggable="false">
+      </div>
+      <button type="button" id="welcome-start">Teste seu conhecimento! <span aria-hidden="true">→</span></button>
+    </div>
+  </section>
+  <section class="scene" id="open">
     <div class="wrap">
       <header class="mobile-topbar">
         <div class="brand-lockup">
@@ -360,6 +375,7 @@
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=sala2"></script>
   <script src="sala.js?v=fluxo3"></script>
+  <script src="abertura.js?v=1"></script>
   <script src="case-ovelha.js?v=demo6"></script>
   <script src="cases-nt.js?v=banco145"></script>
   <script src="bank-runtime.js?v=saco1"></script>

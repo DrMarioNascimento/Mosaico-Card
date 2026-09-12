@@ -1,0 +1,55 @@
+/* Abertura isolada: as imagens e o movimento pertencem apenas a esta cena. */
+body:has(#welcome.active) { padding: 0; background: #080f18; }
+#welcome {
+  background: radial-gradient(ellipse at 50% 58%, #263020 0%, #111b20 35%, #080f18 75%);
+  padding: max(28px, env(safe-area-inset-top)) 22px max(32px, env(safe-area-inset-bottom));
+  text-align: center;
+  align-items: center;
+}
+.welcome-content { width: min(720px, 100%); margin: auto; }
+.welcome-brand p {
+  margin: 0 0 8px;
+  color: #ecd397;
+  font: 900 clamp(23px, 4vw, 32px)/1.2 "Cinzel Decorative", Georgia, serif;
+  letter-spacing: .1em;
+}
+.welcome-brand span { color: #c1b8a5; font: italic 16px/1.5 Georgia, serif; }
+#welcome-title {
+  margin: 28px 0 0;
+  color: #fff6e5;
+  font: 600 clamp(25px, 4vw, 35px)/1.32 Georgia, serif;
+  text-wrap: balance;
+  letter-spacing: 0;
+}
+#welcome-title span { color: #d6d8dc; font-weight: 400; }
+.welcome-art { position: relative; width: min(570px, 100%); aspect-ratio: 1.25; margin: 4px auto -10px; pointer-events: none; }
+.welcome-bible { position: absolute; bottom: 0; left: 0; width: 100%; height: auto; }
+.welcome-piece {
+  position: absolute; top: 0; left: 31%; width: 38%; height: auto;
+  animation: welcome-float 5s ease-in-out infinite;
+}
+@keyframes welcome-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-3px); } }
+#welcome-start {
+  display: inline-flex; align-items: center; justify-content: center; gap: 20px;
+  min-height: 56px; padding: 16px 28px; border: 1px solid #f0d394; border-radius: 12px;
+  background: linear-gradient(180deg, #e7c779, #c4963e);
+  box-shadow: 0 4px 0 #73541d, 0 10px 28px #0005;
+  color: #211806; font: 800 16px/1.3 Inter, sans-serif;
+  text-transform: none; letter-spacing: 0; cursor: pointer;
+}
+#welcome-start:hover { background: #eed393; }
+#welcome-start:focus-visible { outline: 3px solid #fff7d8; outline-offset: 6px; }
+#welcome-start:active { translate: 0 2px; }
+#welcome.active ~ .credit { display: none; }
+@media (max-width: 480px) {
+  #welcome { padding-left: 16px; padding-right: 16px; }
+  #welcome-title { margin-top: 26px; font-size: 26px; }
+  .welcome-brand p { font-size: 24px; }
+  .welcome-art { margin-top: 14px; margin-bottom: 10px; }
+  #welcome-start { width: min(330px, 100%); }
+}
+@media (max-height: 740px) and (min-width: 700px) {
+  .welcome-art { width: 420px; }
+  #welcome-title { margin-top: 18px; font-size: 28px; }
+}
+@media (prefers-reduced-motion: reduce) { .welcome-piece { animation: none; } }
