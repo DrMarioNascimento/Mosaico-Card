@@ -58,3 +58,30 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
   #welcome-title { margin-top: 18px; font-size: 28px; }
 }
 @media (prefers-reduced-motion: reduce) { .welcome-piece { animation: none; } }
+
+#how-to-play { padding-top: 36px; }
+.how-wrap { max-width: 760px; }
+#how-title { font-size: clamp(27px, 5vw, 40px); line-height: 1.15; text-transform: none; }
+.how-wrap p { line-height: 1.65; }
+.how-steps { list-style: none; counter-reset: step; padding: 0; margin: 28px 0; }
+.how-steps li { counter-increment: step; position: relative; padding: 0 0 14px 46px; }
+.how-steps li::before { content: counter(step); position: absolute; left: 0; top: 0; width: 30px; height: 30px; display: grid; place-items: center; border: 1px solid var(--accent); border-radius: 50%; color: var(--accent); font-weight: 800; }
+.how-steps strong { color: var(--accent); font-size: 18px; }
+.how-steps p { margin: 6px 0 0; }
+.how-bonus, .how-risk, .how-end { padding: 22px; margin: 18px 0; border: 1px solid #65d5cc45; border-radius: 18px; background: #0a252dc9; }
+.how-bonus { background: linear-gradient(135deg, #174f43, #102f36); border-color: #65d5cc88; }
+.how-wrap h2 { font-size: 22px; line-height: 1.25; margin: 0 0 12px; color: var(--accent); text-transform: none; }
+.how-score-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 20px 0; }
+.how-score-grid > div { display: flex; flex-direction: column; gap: 10px; padding: 18px 8px; text-align: center; background: #081e2780; border-radius: 12px; }
+.how-score-grid span, .how-score-grid b { font-size: 13px; }
+.how-score-grid strong { font-size: 27px; color: #effff8; }
+.how-score-grid small { display: block; font-size: 12px; font-weight: 400; }
+.how-score-grid b { color: var(--accent); }
+.how-note { color: var(--muted); font-size: 13px; margin-bottom: 0; }
+#how-back { width: 100%; margin: 8px 0 20px; background: linear-gradient(var(--btn-ok-top), var(--btn-ok-mid), var(--btn-ok-bot)); }
+@media (max-width: 480px) {
+  .how-bonus, .how-risk, .how-end { padding: 17px; }
+  .how-score-grid { gap: 6px; }
+  .how-score-grid span { font-size: 11px; }
+  .how-score-grid strong { font-size: 24px; }
+}

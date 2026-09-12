@@ -47,8 +47,43 @@
       <div class="portas">
         <button type="button" id="btn-abrir-mesa">Criar uma sala</button>
         <button type="button" id="btn-ir-entrar" class="ghost">Entrar em uma mesa</button>
+        <button type="button" id="go-how" class="ghost">Como jogar</button>
         <button type="button" id="go-rule" class="ghost">Demonstração da ovelha</button>
       </div>
+    </div>
+  </section>
+  <section class="scene" id="how-to-play" aria-labelledby="how-title">
+    <div class="wrap how-wrap">
+      <p class="kicker">Mosaico Card · Como jogar</p>
+      <h1 id="how-title" tabindex="-1">Cada pista aproxima você da resposta.</h1>
+      <p class="lede">Seu objetivo é conseguir pistas, conectar os detalhes e responder às perguntas sobre a história bíblica. Vence quem somar mais pontos.</p>
+      <ol class="how-steps">
+        <li><strong>Conheça o desafio</strong><p>Uma história é sorteada para a mesa. Leia as perguntas e examine suas pistas: cada detalhe pode ajudar a encontrar uma resposta.</p></li>
+        <li><strong>Busque novas pistas</strong><p>Você começa com 12 denários. Na sua vez, pode comprar uma pista do monte por 4 denários ou capturar uma pista permitida de outro jogador por 2. Também pode consignar uma pista no balaio.</p></li>
+        <li><strong>Conecte os detalhes e arrisque</strong><p>Quando acreditar que já sabe, use <b>Arriscar</b> e escolha uma resposta. Cada ação encerra sua vez, então decida entre buscar mais pistas e responder.</p></li>
+      </ol>
+      <section class="how-bonus" aria-labelledby="how-bonus-title">
+        <h2 id="how-bonus-title">Acertar mais cedo vale mais.</h2>
+        <p>O bônus depende de quanto tempo da partida já passou, antes do fechamento. Uma resposta que vale <b>8 pontos</b>, por exemplo:</p>
+        <div class="how-score-grid">
+          <div><span>Primeiro terço</span><strong>10,4 <small>pontos</small></strong><b>+30%</b></div>
+          <div><span>Segundo terço</span><strong>8,8 <small>pontos</small></strong><b>+10%</b></div>
+          <div><span>Último terço</span><strong>8 <small>pontos</small></strong><b>Valor normal</b></div>
+        </div>
+        <p class="how-note">É o tempo total da partida, e não o tempo da sua vez. O bônus vem do acerto.</p>
+      </section>
+      <section class="how-risk" aria-labelledby="how-risk-title">
+        <h2 id="how-risk-title">Vale arriscar agora?</h2>
+        <p>Você precisa ter pelo menos <b>3 denários</b> para arriscar.</p>
+        <p><b>Se acertar:</b> ganha os pontos, mantém seus denários e aquela pergunta fecha para todos.</p>
+        <p><b>Se errar:</b> perde 3 denários e não poderá responder àquela pergunta novamente, nem no fechamento. Os outros continuam podendo tentar.</p>
+      </section>
+      <section class="how-end" aria-labelledby="how-end-title">
+        <h2 id="how-end-title">Uma última chance</h2>
+        <p>No fechamento, você tem <b>60 segundos</b> para responder às perguntas ainda disponíveis para você, sem gastar denários e sem bônus de tempo.</p>
+        <p>Ao final, cada grupo de <b>4 denários restantes vale 1 ponto extra</b>. A soma dos acertos e desses pontos define o resultado.</p>
+      </section>
+      <button type="button" id="how-back">Entendi! Voltar ao início →</button>
     </div>
   </section>
   <section class="scene" id="entrar" data-modo="convidado">
