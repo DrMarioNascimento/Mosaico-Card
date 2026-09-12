@@ -20,6 +20,9 @@ assert.equal(curtasJoao.length, 8, "as oito pautas curtas de João entram em mes
 assert.equal(limitadasASeis.length, 26, "pautas de 13 cartas usam capacidade seis");
 const limitadasAQuatro = bank.elegiveis(4).filter(id => bank.byId[id].deck.maxPlayers === 4);
 assert.equal(limitadasAQuatro.length, 7, "pautas de nove cartas usam capacidade quatro");
+const limitadasATres = bank.elegiveis(3).filter(id => bank.byId[id].deck.maxPlayers === 3);
+assert.equal(limitadasATres.length, 11, "pautas de sete cartas usam capacidade três");
+assert.ok(limitadasATres.every(id => !bank.elegiveis(4).includes(id)));
 assert.ok(limitadasAQuatro.every(id => !bank.elegiveis(5).includes(id)));
 assert.ok(limitadasASeis.every(id => !eligible7.includes(id)), "pautas limitadas a seis ficam fora a partir de sete");
 assert.ok(bank.elegiveis(12).every(id => bank.byId[id].deck.maxPlayers === 12));

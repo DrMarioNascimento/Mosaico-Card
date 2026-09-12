@@ -52,3 +52,8 @@ Os 24 capítulos e os pré-candidatos receberam decisão. Lucas passa a **analis
 ## Auditoria individual — checkpoint 034
 
 Lc 2.41-52 nt2-lucas-jesus-doze-anos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.
+
+
+## Auditoria individual — checkpoint 035
+
+Lc 10.38-42; 13.10-17; 14.1-6; 15.8-10; e 17.11-19 originaram cinco pautas de sete fatos, capacidade 2–3.

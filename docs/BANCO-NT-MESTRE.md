@@ -368,3 +368,7 @@ Lc 2.41-52; At 1.15-26; 3.1-10; 6.1-7; 20.7-12; e 3Jo foram baixados com HTTP 20
 ## Checkpoint 034 — segundo lote da auditoria individual
 
 Mt 1.18-25; 3.13-17; 4.1-11; Mc 1.16-20; 1.21-28; e 3.1-6 foram relidos na NAA e autorados com nove fatos cada, capacidade 2–4. A execução não foi encerrada após o primeiro lote. O inventário chega a 88 pautas e 1.777 pistas; 55 pautas chegam a 12 jogadores, 26 a seis e sete a quatro. Os candidatos restantes continuam explicitamente enumerados, portanto a auditoria individual não é declarada concluída.
+
+## Checkpoint 035 — terceiro lote da auditoria individual
+
+Após consulta NAA de Mt 15; Mc 2,6–8,12; e Lc 10,13–15,17, onze pautas foram incorporadas com sete fatos cada e capacidade 2–3. O inventário passa a 99 pautas e 1.854 pistas: 55 pautas chegam a 12 jogadores, 26 a seis, sete a quatro e onze a três. O auditor não deixou par semântico pendente. A auditoria continua porque o documento individual ainda contém candidatos explícitos.

@@ -1,32 +1,28 @@
 # Relatório de cobertura e integração — banco NT/NAA v2
 
-## Checkpoint 034 — auditoria individual em andamento
+## Checkpoint 035 — auditoria individual em andamento
 
-A autorização de pautas temáticas e capacidade variável revelou que o relatório anterior ainda continha exclusões agrupadas e genéricas. Elas foram formalmente reabertas. Este checkpoint não declara a reavaliação concluída: registra os recortes efetivamente relidos, as pautas criadas e candidatos concretos restantes.
+A auditoria das antigas exclusões genéricas continua aberta. Este checkpoint acrescenta um terceiro lote efetivamente lido e autorado, mas não declara conclusão enquanto `AUDITORIA-INDIVIDUAL-RECORTES.md` ainda listar candidatos.
 
-## Trabalho efetivamente executado
+## Avanço do lote
 
-Foram obtidas com HTTP 200 123 páginas distintas da NAA em `bible.com/pt/bible/1840`, cobrindo os capítulos afetados identificados nas fichas. Seis recortes prioritários foram relidos verso a verso e originaram pautas de 13 pistas: Lc 2.41-52; At 1.15-26; 3.1-10; 6.1-7; 20.7-12; e 3Jo 1-15.
+Foram consultadas na NAA identificada as páginas de Mt 15; Mc 2, 6, 7, 8 e 12; e Lc 10, 13, 14, 15 e 17. Onze pautas de sete fatos, capacidade 2–3, foram incorporadas: mulher cananeia (consolidada com o paralelo da mulher siro-fenícia); chamado de Levi; envio dos Doze; surdo de Decápolis; cego de Betsaida; oferta da viúva; Marta/Maria; mulher encurvada; homem com hidropisia; moeda perdida; dez leprosos.
 
-A execução prosseguiu por um segundo lote: Mt 1.18-25; 3.13-17; 4.1-11; Mc 1.16-20; 1.21-28; e 3.1-6 originaram seis pautas de nove pistas. Nenhum desses recortes foi novamente submetido à meta de 25. As alternativas incorretas existem somente como opções; pistas, gabaritos e referências permanecem factuais.
-
-O inventário individual registra campos e fatos candidatos concretos para todos os demais recortes afetados. As antigas frases “não tem quatro campos” ou “distratores inseguros” deixaram de ser conclusão suficiente: diversos recortes estão agora corretamente marcados como candidatos para autoria subsequente.
+As pautas conservam C1–C4, quatro alternativas por campo, gabaritos/referências NAA, focal explícito, pistas classificadas e revelação. Nenhuma foi ampliada até 13 ou 25 fatos; sete cartas distribuem duas para cada pessoa numa mesa de três e preservam uma no poço.
 
 ## Inventário atual
 
-- 88 pautas e 1.777 pistas factuais;
-- 88 pautas estrutural, bíblica e editorialmente elegíveis;
-- 55 pautas compatíveis com 2–12 participantes;
-- 26 pautas compatíveis com 2–6;
-- 7 pautas compatíveis com 2–4;
-- nenhuma pauta bloqueada.
+- 99 pautas e 1.854 pistas factuais;
+- 99 pautas elegíveis;
+- 55 compatíveis com 2–12 participantes;
+- 26 compatíveis com 2–6;
+- 7 compatíveis com 2–4;
+- 11 compatíveis com 2–3.
 
-## Auditoria e pendências
+## Auditoria e restante
 
-O auditor não encontrou duplicatas textuais exatas nem pares semânticos pendentes. Na pauta de 3 João, uma formulação que repetia a apresentação do “presbítero” em 2 João foi substituída pela oração concreta pela saúde de Gaio.
+O auditor não encontrou duplicatas textuais exatas nem pares semânticos pendentes. A comparação de Mt 15.21–28 com Mc 7.24–30 identificou relatos paralelos e os consolidou em `nt2-mateus-mulher-cananeia`. Somente o resultado compartilhado recebeu referências múltiplas; as designações próprias de cada documento não foram artificialmente equiparadas.
 
-Permanecem candidatos autoráveis, com campos/fatos já enumerados, recortes de Mateus, Marcos, Lucas, Atos, Romanos–Judas e Apocalipse. O restante preciso está em `AUDITORIA-INDIVIDUAL-RECORTES.md`; não há uma nova ambiguidade global, mas cada autoria ainda requer conferência fina de alternativas, referências e paralelos.
+Ainda restam candidatos individualizados em Mateus 21 e 28; Marcos 10; Lucas 22 e 24; diversos recortes de Atos; Romanos–Judas; e Apocalipse. Campos e fatos candidatos estão registrados no inventário, portanto o trabalho não é apresentado como encerrado.
 
-Continuam preservados Mc 16.9-20 fora, a questão de 1Pe 3.19 fora, 1Pe 4.6 fora, ressalvas textuais, interpretações comunitárias aprovadas e separação de viagens incertas entre Atos/cartas. Capacidade variável, duas cartas por pessoa, poço, focal 8/5/3/2, revelação e isolamento de estados permanecem no motor.
-
-Não houve merge, deploy nem alteração de produção. Testes estruturais continuam separados da revisão bíblica/editorial do agente.
+Permanecem todas as decisões anteriores: capacidade variável, conjuntos temáticos, duas cartas e poço, Mc 16.9-20 fora, questão de 1Pe 3.19 fora, 1Pe 4.6 fora, ressalvas e interpretações aprovadas. Não houve merge, deploy ou alteração de produção.

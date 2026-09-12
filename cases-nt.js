@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-034",
+  "catalogVersion": "2026.09-batch-035",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 88,
-    "fields": 352,
-    "editoriallyEligibleCases": 88,
-    "playableCases": 88,
+    "cases": 99,
+    "fields": 396,
+    "editoriallyEligibleCases": 99,
+    "playableCases": 99,
     "max12Cases": 55
   },
   "order": [
@@ -104,7 +104,18 @@
     "nt2-mateus-tentacoes",
     "nt2-marcos-chamado-pescadores",
     "nt2-marcos-sinagoga-cafarnaum",
-    "nt2-marcos-mao-ressequida"
+    "nt2-marcos-mao-ressequida",
+    "nt2-mateus-mulher-cananeia",
+    "nt2-marcos-levi",
+    "nt2-marcos-envio-doze",
+    "nt2-marcos-surdo-decapolis",
+    "nt2-marcos-cego-betsaida",
+    "nt2-marcos-oferta-viuva",
+    "nt2-lucas-marta-maria",
+    "nt2-lucas-mulher-encurvada",
+    "nt2-lucas-hidropico",
+    "nt2-lucas-moeda-perdida",
+    "nt2-lucas-dez-leprosos"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -60841,7 +60852,7 @@
         ]
       },
       "prompt": {
-        "question": "Quais pessoas, mensagem, nome e ação aparecem no sonho_STA?"
+        "question": "Quais pessoas, mensagem, nome e ação aparecem no sonho?"
       },
       "focalFieldId": "C1",
       "focalJustification": "José é o agente que recebe a mensagem e age ao despertar.",
@@ -63440,6 +63451,4358 @@
             "passage": "3.1-6",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-mulher-cananeia": {
+      "id": "nt2-mateus-mulher-cananeia",
+      "kind": "canonical-case",
+      "title": "A mulher cananeia",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 15.21-28; Marcos 7.24-30",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.21-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Marcos",
+            "passage": "7.24-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoa, região, pedido e resposta aparecem no encontro?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A mulher cananeia é a pessoa explicitamente identificada em torno do pedido.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem pediu ajuda",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma mulher cananeia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma mulher samaritana"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma viúva de Naim"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Maria Madalena"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma mulher cananeia",
+          "enderecoNAA": "Mateus 15.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Em que região Jesus entrou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tiro e Sidom"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Judeia e Samaria"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Lida e Jope"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Betânia e Jericó"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tiro e Sidom",
+          "enderecoNAA": "Mateus 15.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por quem ela pediu",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Por sua filha"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Por seu filho"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Por seu marido"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Por seu irmão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Por sua filha",
+          "enderecoNAA": "Mateus 15.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Jesus qualificou a fé dela",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Grande"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Pequena"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Inexistente"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Oculta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Grande",
+          "enderecoNAA": "Mateus 15.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus retirou-se para a região de Tiro e Sidom.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus retirou-se para a região de Tiro e Sidom."
+          },
+          {
+            "id": "P02",
+            "text": "Uma mulher cananeia saiu daquela região.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma mulher cananeia saiu daquela região."
+          },
+          {
+            "id": "P03",
+            "text": "Ela pediu misericórdia por sua filha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela pediu misericórdia por sua filha."
+          },
+          {
+            "id": "P04",
+            "text": "Os discípulos pediram que Jesus a mandasse embora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os discípulos pediram que Jesus a mandasse embora."
+          },
+          {
+            "id": "P05",
+            "text": "A mulher aproximou-se e o adorou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher aproximou-se e o adorou."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus declarou que a fé dela era grande.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus declarou que a fé dela era grande."
+          },
+          {
+            "id": "P07",
+            "text": "A filha foi curada naquele momento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-12"
+              },
+              {
+                "book": "Marcos",
+                "passage": "7.29-30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A filha foi curada naquele momento."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 15 e Marcos 7 relatam o pedido da mulher pela filha; cada documento preserva sua própria designação da mulher, e ambos registram o desfecho favorável.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.21-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Marcos",
+            "passage": "7.24-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-levi": {
+      "id": "nt2-marcos-levi",
+      "kind": "canonical-case",
+      "title": "O chamado de Levi",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 2.13-17",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoa, lugar de trabalho, refeição e crítica aparecem no chamado de Levi?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Levi liga o chamado à refeição posterior.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem estava sentado na coletoria",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Levi, filho de Alfeu"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Zaqueu"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Bartimeu"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Jairo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Levi, filho de Alfeu",
+          "enderecoNAA": "Marcos 2.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde ele estava",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Na coletoria"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Na sinagoga"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Num barco"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Na coletoria",
+          "enderecoNAA": "Marcos 2.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Levi fez ao ser chamado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Levantou-se e seguiu Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Foi consultar Herodes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Voltou a pescar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediu um sinal"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Levantou-se e seguiu Jesus",
+          "enderecoNAA": "Marcos 2.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem criticou a refeição",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Escribas dos fariseus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Saduceus"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Romanos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Samaritanos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Escribas dos fariseus",
+          "enderecoNAA": "Marcos 2.16",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus ensinava uma multidão junto ao mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus ensinava uma multidão junto ao mar."
+          },
+          {
+            "id": "P02",
+            "text": "Levi, filho de Alfeu, estava sentado na coletoria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Levi, filho de Alfeu, estava sentado na coletoria."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus disse a Levi que o seguisse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus disse a Levi que o seguisse."
+          },
+          {
+            "id": "P04",
+            "text": "Levi levantou-se e o seguiu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Levi levantou-se e o seguiu."
+          },
+          {
+            "id": "P05",
+            "text": "Publicanos e pecadores estavam à mesa com Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Publicanos e pecadores estavam à mesa com Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Escribas dos fariseus questionaram os discípulos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Escribas dos fariseus questionaram os discípulos."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus comparou sua missão à necessidade de médico pelos doentes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus comparou sua missão à necessidade de médico pelos doentes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 2 liga o chamado de Levi à refeição e à pergunta dos escribas.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-envio-doze": {
+      "id": "nt2-marcos-envio-doze",
+      "kind": "canonical-case",
+      "title": "O envio dos Doze em Marcos",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 6.7-13",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.7-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais número, modo, objeto permitido e procedimento aparecem no envio?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O envio dos Doze organiza as instruções explícitas.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem foi chamado e enviado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os Doze"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os setenta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os escribas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os sacerdotes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os Doze",
+          "enderecoNAA": "Marcos 6.7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como foram enviados",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "De dois em dois"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Individualmente"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Em grupos de sete"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Todos juntos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "De dois em dois",
+          "enderecoNAA": "Marcos 6.7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual objeto foi permitido",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um bordão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma bolsa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dinheiro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um bordão",
+          "enderecoNAA": "Marcos 6.8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que fariam onde não fossem recebidos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Sacudiriam o pó dos pés"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Chamariam fogo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Voltariam a Cafarnaum"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Escolheriam outro apóstolo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Sacudiriam o pó dos pés",
+          "enderecoNAA": "Marcos 6.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chamou os Doze.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus chamou os Doze."
+          },
+          {
+            "id": "P02",
+            "text": "Ele começou a enviá-los de dois em dois.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele começou a enviá-los de dois em dois."
+          },
+          {
+            "id": "P03",
+            "text": "Deu-lhes autoridade sobre espíritos imundos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deu-lhes autoridade sobre espíritos imundos."
+          },
+          {
+            "id": "P04",
+            "text": "Ordenou que levassem apenas um bordão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ordenou que levassem apenas um bordão."
+          },
+          {
+            "id": "P05",
+            "text": "Não deveriam levar pão, sacola ou dinheiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Não deveriam levar pão, sacola ou dinheiro."
+          },
+          {
+            "id": "P06",
+            "text": "Onde não fossem recebidos, sacudiriam o pó dos pés.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Onde não fossem recebidos, sacudiriam o pó dos pés."
+          },
+          {
+            "id": "P07",
+            "text": "Eles pregaram arrependimento e curaram enfermos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.12-13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles pregaram arrependimento e curaram enfermos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 6 registra o envio dos Doze de dois em dois e as instruções para a missão.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.7-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-surdo-decapolis": {
+      "id": "nt2-marcos-surdo-decapolis",
+      "kind": "canonical-case",
+      "title": "O surdo na região de Decápolis",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 7.31-37",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.31-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais região, condição, ações e ordem aparecem na cura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A condição dupla do homem identifica o episódio.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual era a condição do homem",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Surdo e com dificuldade de falar"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Cego de nascença"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Coxo de nascença"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Coberto de lepra"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Surdo e com dificuldade de falar",
+          "enderecoNAA": "Marcos 7.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Por qual região Jesus passou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Decápolis"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Samaria"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Judeia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Idumeia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Decápolis",
+          "enderecoNAA": "Marcos 7.31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Jesus colocou nos ouvidos dele",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os dedos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Óleo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Água"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um pano"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os dedos",
+          "enderecoNAA": "Marcos 7.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual ordem foi dada após a cura",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que não contassem a ninguém"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que fossem aos sacerdotes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que deixassem a cidade"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que recolhessem cestos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que não contassem a ninguém",
+          "enderecoNAA": "Marcos 7.36",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus passou pela região de Sidom e Decápolis.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus passou pela região de Sidom e Decápolis."
+          },
+          {
+            "id": "P02",
+            "text": "Trouxeram-lhe um surdo com dificuldade de falar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Trouxeram-lhe um surdo com dificuldade de falar."
+          },
+          {
+            "id": "P03",
+            "text": "Pediram que impusesse a mão sobre ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pediram que impusesse a mão sobre ele."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus o tirou da multidão em particular.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus o tirou da multidão em particular."
+          },
+          {
+            "id": "P05",
+            "text": "Colocou os dedos nos ouvidos do homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Colocou os dedos nos ouvidos do homem."
+          },
+          {
+            "id": "P06",
+            "text": "Os ouvidos se abriram e a língua se soltou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os ouvidos se abriram e a língua se soltou."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus ordenou que não contassem a ninguém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus ordenou que não contassem a ninguém."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 7 descreve ações concretas na cura de um surdo com dificuldade de falar.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.31-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-cego-betsaida": {
+      "id": "nt2-marcos-cego-betsaida",
+      "kind": "canonical-case",
+      "title": "O cego de Betsaida",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.22-26",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.22-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais lugar, pessoa, etapas e encerramento aparecem na cura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Betsaida e a cura em etapas distinguem o relato.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde chegaram",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Betsaida"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Betânia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Belém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Cesareia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Betsaida",
+          "enderecoNAA": "Marcos 8.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem foi levado a Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um cego"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um surdo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um leproso"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um paralítico"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um cego",
+          "enderecoNAA": "Marcos 8.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que ele viu após a primeira etapa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Pessoas como árvores andando"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma multidão sentada"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Anjos no céu"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Barcos no mar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Pessoas como árvores andando",
+          "enderecoNAA": "Marcos 8.24",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Para onde Jesus mandou o homem",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para casa"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para o templo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para os sacerdotes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para Jerusalém"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para casa",
+          "enderecoNAA": "Marcos 8.26",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos chegaram a Betsaida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus e os discípulos chegaram a Betsaida."
+          },
+          {
+            "id": "P02",
+            "text": "Levaram um cego a Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Levaram um cego a Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus conduziu o homem para fora da aldeia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus conduziu o homem para fora da aldeia."
+          },
+          {
+            "id": "P04",
+            "text": "Após a primeira imposição, o homem via pessoas como árvores andando.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Após a primeira imposição, o homem via pessoas como árvores andando."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus colocou novamente as mãos sobre os olhos dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus colocou novamente as mãos sobre os olhos dele."
+          },
+          {
+            "id": "P06",
+            "text": "O homem passou a ver claramente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O homem passou a ver claramente."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus o mandou para casa e não para a aldeia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus o mandou para casa e não para a aldeia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8 narra a cura em etapas de um cego conduzido para fora de Betsaida.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.22-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-oferta-viuva": {
+      "id": "nt2-marcos-oferta-viuva",
+      "kind": "canonical-case",
+      "title": "A oferta da viúva",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 12.41-44",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.41-44",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais lugar, pessoas, quantidade e avaliação aparecem nas ofertas?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A comparação feita por Jesus entre as ofertas organiza o recorte.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde Jesus estava sentado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Diante do gazofilácio"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "No pórtico de Salomão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Numa sinagoga"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Num barco"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Diante do gazofilácio",
+          "enderecoNAA": "Marcos 12.41",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem depositava grandes quantias",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Muitos ricos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os sacerdotes pobres"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os romanos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Muitos ricos",
+          "enderecoNAA": "Marcos 12.41",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quantas pequenas moedas a viúva colocou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Duas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Doze"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Duas",
+          "enderecoNAA": "Marcos 12.42",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Jesus avaliou a oferta dela",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Maior que a dos demais"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Igual à dos ricos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Insuficiente"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Destinada a ser devolvida"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Maior que a dos demais",
+          "enderecoNAA": "Marcos 12.43",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus estava sentado diante do gazofilácio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus estava sentado diante do gazofilácio."
+          },
+          {
+            "id": "P02",
+            "text": "Ele observava como o povo depositava dinheiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele observava como o povo depositava dinheiro."
+          },
+          {
+            "id": "P03",
+            "text": "Muitos ricos depositavam grandes quantias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos ricos depositavam grandes quantias."
+          },
+          {
+            "id": "P04",
+            "text": "Uma viúva pobre colocou duas pequenas moedas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma viúva pobre colocou duas pequenas moedas."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus chamou os discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus chamou os discípulos."
+          },
+          {
+            "id": "P06",
+            "text": "Declarou que a viúva ofertou mais que os outros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Declarou que a viúva ofertou mais que os outros."
+          },
+          {
+            "id": "P07",
+            "text": "Ela deu tudo o que possuía para viver.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela deu tudo o que possuía para viver."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 12 registra duas pequenas moedas e a avaliação de Jesus sobre a oferta da viúva.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.41-44",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-marta-maria": {
+      "id": "nt2-lucas-marta-maria",
+      "kind": "canonical-case",
+      "title": "Marta e Maria em casa",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 10.38-42",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "10.38-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais anfitriã, irmã, posição e escolha aparecem na visita?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Marta recebe Jesus e o contraste com Maria estrutura o relato.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem recebeu Jesus em casa",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Marta"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Maria Madalena"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Joana"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Isabel"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Marta",
+          "enderecoNAA": "Lucas 10.38",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "10.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem se sentou aos pés do Senhor",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Maria"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Marta"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ana"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Salomé"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Maria",
+          "enderecoNAA": "Lucas 10.39",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "10.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Com o que Marta estava ocupada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Muito serviço"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma viagem"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma pescaria"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Uma venda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Muito serviço",
+          "enderecoNAA": "Lucas 10.40",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "10.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Maria havia escolhido",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A boa parte"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A tarefa maior"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A viagem mais curta"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O primeiro lugar à mesa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A boa parte",
+          "enderecoNAA": "Lucas 10.42",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "10.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos seguiam viagem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus e os discípulos seguiam viagem."
+          },
+          {
+            "id": "P02",
+            "text": "Marta recebeu Jesus em sua casa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Marta recebeu Jesus em sua casa."
+          },
+          {
+            "id": "P03",
+            "text": "Maria era irmã de Marta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Maria era irmã de Marta."
+          },
+          {
+            "id": "P04",
+            "text": "Maria ficou sentada aos pés do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Maria ficou sentada aos pés do Senhor."
+          },
+          {
+            "id": "P05",
+            "text": "Ela ouvia os ensinamentos de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela ouvia os ensinamentos de Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Marta estava ocupada com muito serviço.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Marta estava ocupada com muito serviço."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus declarou que Maria escolhera a boa parte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "10.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus declarou que Maria escolhera a boa parte."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 10 contrasta Marta ocupada com o serviço e Maria ouvindo aos pés do Senhor.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "10.38-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-mulher-encurvada": {
+      "id": "nt2-lucas-mulher-encurvada",
+      "kind": "canonical-case",
+      "title": "A mulher encurvada no sábado",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 13.10-17",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "13.10-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais dia, pessoa, duração e reação aparecem na cura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A duração explicitamente declarada distingue a mulher e o conflito.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que dia Jesus ensinava",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No sábado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "No primeiro dia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Na Páscoa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Em Pentecostes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No sábado",
+          "enderecoNAA": "Lucas 13.10",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde ensinava",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Numa sinagoga"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "No templo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Numa casa"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "À beira do mar"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Numa sinagoga",
+          "enderecoNAA": "Lucas 13.10",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Havia quantos anos a mulher sofria",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Dezoito"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Oito"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quarenta"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Dezoito",
+          "enderecoNAA": "Lucas 13.11",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem ficou indignado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O chefe da sinagoga"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um centurião"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O governador"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Um discípulo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O chefe da sinagoga",
+          "enderecoNAA": "Lucas 13.14",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus ensinava numa sinagoga no sábado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus ensinava numa sinagoga no sábado."
+          },
+          {
+            "id": "P02",
+            "text": "Uma mulher estava encurvada havia dezoito anos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma mulher estava encurvada havia dezoito anos."
+          },
+          {
+            "id": "P03",
+            "text": "Ela não conseguia se endireitar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela não conseguia se endireitar."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus a chamou e declarou-a livre da enfermidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus a chamou e declarou-a livre da enfermidade."
+          },
+          {
+            "id": "P05",
+            "text": "Impôs as mãos e ela se endireitou imediatamente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Impôs as mãos e ela se endireitou imediatamente."
+          },
+          {
+            "id": "P06",
+            "text": "A mulher glorificava a Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher glorificava a Deus."
+          },
+          {
+            "id": "P07",
+            "text": "O chefe da sinagoga ficou indignado por causa do sábado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "13.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O chefe da sinagoga ficou indignado por causa do sábado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 13 relata a cura de uma mulher encurvada havia dezoito anos e a reação do chefe da sinagoga.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "13.10-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-hidropico": {
+      "id": "nt2-lucas-hidropico",
+      "kind": "canonical-case",
+      "title": "O homem com hidropisia",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 14.1-6",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "14.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais dia, casa, pessoa e reação aparecem na cura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A casa do fariseu situa a pergunta e a cura.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que dia ocorreu",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No sábado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "No primeiro dia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Na Páscoa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No dia da preparação"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No sábado",
+          "enderecoNAA": "Lucas 14.1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Na casa de quem Jesus entrou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "De um líder dos fariseus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "De um centurião"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "De um publicano"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De um sacerdote em Jerusalém"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "De um líder dos fariseus",
+          "enderecoNAA": "Lucas 14.1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem estava diante de Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um homem com hidropisia"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um cego"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma viúva"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um menino"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um homem com hidropisia",
+          "enderecoNAA": "Lucas 14.2",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "14.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como os intérpretes e fariseus responderam à pergunta",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ficaram em silêncio"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Aprovaram em voz alta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Saíram correndo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Chamaram soldados"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ficaram em silêncio",
+          "enderecoNAA": "Lucas 14.4",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "14.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus entrou na casa de um líder dos fariseus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus entrou na casa de um líder dos fariseus."
+          },
+          {
+            "id": "P02",
+            "text": "Era sábado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Era sábado."
+          },
+          {
+            "id": "P03",
+            "text": "As pessoas o observavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As pessoas o observavam."
+          },
+          {
+            "id": "P04",
+            "text": "Um homem com hidropisia estava diante dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um homem com hidropisia estava diante dele."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus perguntou se era lícito curar no sábado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus perguntou se era lícito curar no sábado."
+          },
+          {
+            "id": "P06",
+            "text": "Eles ficaram em silêncio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles ficaram em silêncio."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus curou o homem e o despediu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus curou o homem e o despediu."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 14 situa uma cura no sábado na casa de um líder dos fariseus e registra o silêncio dos presentes.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "14.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-moeda-perdida": {
+      "id": "nt2-lucas-moeda-perdida",
+      "kind": "canonical-case",
+      "title": "A moeda perdida",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 15.8-10",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "15.8-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoa, quantidade, busca e reação aparecem na parábola?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A mulher e a moeda perdida organizam as ações narradas.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem conduz a busca na parábola",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma mulher"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um pastor"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um pai"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um comerciante"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma mulher",
+          "enderecoNAA": "Lucas 15.8",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "15.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quantas moedas ela possuía",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Dez"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cinco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Doze"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Cem"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Dez",
+          "enderecoNAA": "Lucas 15.8",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "15.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que ela acendeu para procurar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Uma lamparina"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma fogueira"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma tocha do templo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Uma vela do altar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Uma lamparina",
+          "enderecoNAA": "Lucas 15.8",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "15.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem foi chamado após encontrar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Amigas e vizinhas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sacerdotes e escribas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pastores e magos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Soldados e cobradores"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Amigas e vizinhas",
+          "enderecoNAA": "Lucas 15.9",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "15.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mulher possuía dez moedas de prata.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher possuía dez moedas de prata."
+          },
+          {
+            "id": "P02",
+            "text": "Uma das moedas se perdeu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma das moedas se perdeu."
+          },
+          {
+            "id": "P03",
+            "text": "Ela acendeu uma lamparina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela acendeu uma lamparina."
+          },
+          {
+            "id": "P04",
+            "text": "Também varreu a casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Também varreu a casa."
+          },
+          {
+            "id": "P05",
+            "text": "Procurou cuidadosamente até encontrar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Procurou cuidadosamente até encontrar."
+          },
+          {
+            "id": "P06",
+            "text": "Depois chamou amigas e vizinhas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois chamou amigas e vizinhas."
+          },
+          {
+            "id": "P07",
+            "text": "Convidou-as a alegrar-se porque achou a moeda.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "15.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Convidou-as a alegrar-se porque achou a moeda."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 15 narra a procura cuidadosa de uma entre dez moedas e a alegria após encontrá-la.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "15.8-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-lucas-dez-leprosos": {
+      "id": "nt2-lucas-dez-leprosos",
+      "kind": "canonical-case",
+      "title": "Os dez leprosos",
+      "canon": {
+        "book": "Lucas",
+        "referenceNAA": "Lucas 17.11-19",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "17.11-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais número, destino, pessoa que voltou e atitude aparecem na cura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O contraste entre dez purificados e um que voltou estrutura o relato.",
+      "editorial": {
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos homens encontraram Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Dez"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sete"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Quatro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Dez",
+          "enderecoNAA": "Lucas 17.12",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "17.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "A quem Jesus mandou que se mostrassem",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Aos sacerdotes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Aos fariseus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Aos discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Aos romanos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Aos sacerdotes",
+          "enderecoNAA": "Lucas 17.14",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "17.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual era a origem do homem que voltou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Samaritano"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Galileu"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Judeu"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Romano"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Samaritano",
+          "enderecoNAA": "Lucas 17.16",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "17.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ele fez aos pés de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Agradeceu"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Pediu dinheiro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Dormiu"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entregou uma carta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Agradeceu",
+          "enderecoNAA": "Lucas 17.16",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "17.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus seguia para Jerusalém entre Samaria e Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus seguia para Jerusalém entre Samaria e Galileia."
+          },
+          {
+            "id": "P02",
+            "text": "Dez leprosos o encontraram ao entrar numa aldeia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Dez leprosos o encontraram ao entrar numa aldeia."
+          },
+          {
+            "id": "P03",
+            "text": "Eles ficaram à distância e pediram misericórdia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.12-13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles ficaram à distância e pediram misericórdia."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus mandou que se mostrassem aos sacerdotes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Jesus mandou que se mostrassem aos sacerdotes."
+          },
+          {
+            "id": "P05",
+            "text": "Enquanto iam, foram purificados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Enquanto iam, foram purificados."
+          },
+          {
+            "id": "P06",
+            "text": "Um deles voltou glorificando a Deus e agradeceu aos pés de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um deles voltou glorificando a Deus e agradeceu aos pés de Jesus."
+          },
+          {
+            "id": "P07",
+            "text": "O homem que voltou era samaritano.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Lucas",
+                "passage": "17.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O homem que voltou era samaritano."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Lucas 17 relata dez homens purificados e destaca o samaritano que voltou para agradecer.",
+        "hinge": "Pauta curta com fatos explícitos da NAA; opções incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "17.11-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

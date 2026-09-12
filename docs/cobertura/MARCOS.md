@@ -35,3 +35,8 @@ Os 16 capítulos e os 17 pré-candidatos receberam decisão. Marcos passa a **an
 ## Auditoria individual — checkpoint 034
 
 Mc 1.16-20, 1.21-28 e 3.1-6 originaram três pautas de nove fatos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.
+
+
+## Auditoria individual — checkpoint 035
+
+Mc 2.13-17; 6.7-13; 7.31-37; 8.22-26; e 12.41-44 originaram cinco pautas de sete fatos, capacidade 2–3. Mc 7.24-30 foi comparado e consolidado com Mt 15.21-28 em `nt2-mateus-mulher-cananeia`, sem equiparar designações exclusivas.

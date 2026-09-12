@@ -60,3 +60,8 @@ Os 28 capítulos possuem agora resultado por faixa e os candidatos identificados
 ## Auditoria individual — checkpoint 034
 
 Mt 1.18-25, 3.13-17 e 4.1-11 originaram três pautas de nove fatos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.
+
+
+## Auditoria individual — checkpoint 035
+
+Mt 15.21-28 originou `nt2-mateus-mulher-cananeia`, com sete fatos e capacidade 2–3.

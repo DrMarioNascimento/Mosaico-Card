@@ -24,24 +24,24 @@ Esses seis resultados corrigem as justificativas genéricas anteriores. Nenhuma 
 | Mt 1.18-25 | José; Maria; anjo em sonho; nome Jesus; concepção pelo Espírito; ação de receber Maria | `nt2-mateus-jose-sonho`, 9 pistas, capacidade 2–4. |
 | Mt 3.13-17 | Jesus; João; Jordão; batismo; céus; Espírito como pomba; voz | `nt2-mateus-batismo`, 9 pistas, capacidade 2–4. |
 | Mt 4.1-11 | Espírito; deserto; quarenta dias/noites; tentador; três desafios; anjos | `nt2-mateus-tentacoes`, 9 pistas, capacidade 2–4. |
-| Mt 15.21-28 | região de Tiro/Sidom; mulher cananeia; filha; discípulos; migalhas; cura | Candidato factual novo, distinto de outros encontros. |
+| Mt 15.21-28 | região de Tiro/Sidom; mulher cananeia; filha; discípulos; migalhas; cura | `nt2-mateus-mulher-cananeia` — 7 pistas, 2–3; paralelo comparado com Mc 7.24-30. |
 | Mt 21.1-11 | Betfagé; monte das Oliveiras; dois discípulos; jumenta/jumentinho; mantos/ramos; Jerusalém | Candidato factual; paralelo requer consolidação documental antes da autoria. |
 | Mt 28.1-10 | duas Marias; primeiro dia; terremoto; anjo; pedra; Galileia; encontro com Jesus | Candidato factual; paralelo requer referências separadas, sem harmonização. |
 | Mc 1.16-20 | mar da Galileia; Simão/André; redes; Tiago/João; Zebedeu; barco | `nt2-marcos-chamado-pescadores`, 9 pistas, capacidade 2–4. |
 | Mc 1.21-28 | Cafarnaum; sábado; sinagoga; espírito impuro; ordem; reação | `nt2-marcos-sinagoga-cafarnaum`, 9 pistas, capacidade 2–4. |
-| Mc 2.13-17 | mar; Levi; coletoria; refeição; publicanos/pecadores; escribas | Candidato factual reduzido. |
+| Mc 2.13-17 | mar; Levi; coletoria; refeição; publicanos/pecadores; escribas | `nt2-marcos-levi` — 7 pistas, 2–3. |
 | Mc 3.1-6 | sinagoga; mão ressequida; sábado; centro; restauração; fariseus/herodianos | `nt2-marcos-mao-ressequida`, 9 pistas, capacidade 2–4. |
-| Mc 6.7-13 | Doze; dois a dois; autoridade; bordão; sandálias; casa; pó | Candidato temático de instruções com capacidade reduzida. |
-| Mc 7.24-30 | Tiro; mulher siro-fenícia; filha; mesa/migalhas; resposta; libertação | Candidato factual próprio; não é descartado por tema de cura. |
-| Mc 7.31-37 | Decápolis; surdo com dificuldade de fala; dedos; saliva; ordem; reação | Candidato factual reduzido. |
-| Mc 8.22-26 | Betsaida; cego; aldeia; saliva; árvores/homens; segunda imposição | Candidato factual reduzido. |
+| Mc 6.7-13 | Doze; dois a dois; autoridade; bordão; sandálias; casa; pó | `nt2-marcos-envio-doze` — 7 pistas, 2–3. |
+| Mc 7.24-30 | Tiro; mulher siro-fenícia; filha; mesa/migalhas; resposta; libertação | Consolidado em `nt2-mateus-mulher-cananeia`; paralelo Mt 15.21-28/Mc 7.24-30, preservando designações próprias. |
+| Mc 7.31-37 | Decápolis; surdo com dificuldade de fala; dedos; saliva; ordem; reação | `nt2-marcos-surdo-decapolis` — 7 pistas, 2–3. |
+| Mc 8.22-26 | Betsaida; cego; aldeia; saliva; árvores/homens; segunda imposição | `nt2-marcos-cego-betsaida` — 7 pistas, 2–3. |
 | Mc 10.46-52 | Jericó; Bartimeu; manto; chamado; pedido; recuperação/seguimento | Candidato; comparação necessária com Mt 20 sem presumir equivalência de detalhes. |
-| Mc 12.41-44 | tesouro; ricos; viúva pobre; duas moedas; pobreza; tudo o que possuía | Candidato factual reduzido. |
-| Lc 10.38-42 | aldeia; Marta; Maria; pés; serviço; escolha | Candidato factual de capacidade mínima, não mais excluído por tamanho. |
-| Lc 13.10-17 | sábado; sinagoga; mulher; dezoito anos; imposição de mãos; chefe; reação | Candidato factual reduzido. |
-| Lc 14.1-6 | sábado; casa de fariseu; hidrópico; cura; pergunta; silêncio | Candidato factual reduzido. |
-| Lc 15.8-10 | mulher; dez moedas; uma perdida; lâmpada; varrer; achar; alegria | Candidato factual de capacidade mínima; parábola tratada pelo que narra. |
-| Lc 17.11-19 | caminho a Jerusalém; Samaria/Galileia; dez leprosos; sacerdotes; samaritano; gratidão | Candidato factual próprio; nenhum paralelo foi identificado no catálogo. |
+| Mc 12.41-44 | tesouro; ricos; viúva pobre; duas moedas; pobreza; tudo o que possuía | `nt2-marcos-oferta-viuva` — 7 pistas, 2–3. |
+| Lc 10.38-42 | aldeia; Marta; Maria; pés; serviço; escolha | `nt2-lucas-marta-maria` — 7 pistas, 2–3. |
+| Lc 13.10-17 | sábado; sinagoga; mulher; dezoito anos; imposição de mãos; chefe; reação | `nt2-lucas-mulher-encurvada` — 7 pistas, 2–3. |
+| Lc 14.1-6 | sábado; casa de fariseu; hidrópico; cura; pergunta; silêncio | `nt2-lucas-hidropico` — 7 pistas, 2–3. |
+| Lc 15.8-10 | mulher; dez moedas; uma perdida; lâmpada; varrer; achar; alegria | `nt2-lucas-moeda-perdida` — 7 pistas, 2–3. |
+| Lc 17.11-19 | caminho a Jerusalém; Samaria/Galileia; dez leprosos; sacerdotes; samaritano; gratidão | `nt2-lucas-dez-leprosos` — 7 pistas, 2–3. |
 | Lc 22.24-38 | disputa; maior/menor; mesa; doze tronos; Simão; negações; bolsa/alforje/espada | Candidato temático permitido; requer separar falas por destinatário na autoria. |
 | Lc 24.36-53 | Jerusalém; discípulos; mãos/pés; peixe; Escrituras; Betânia; ascensão | Candidato factual; comparação com finais não autoriza transferência de detalhes. |
 | At 4.23-31 | companheiros; oração; lugar reunido; tremor; Espírito; ousadia | Candidato temático reduzido. |
@@ -105,3 +105,7 @@ Esses seis resultados corrigem as justificativas genéricas anteriores. Nenhuma 
 ## Estado da auditoria
 
 Os seis recortes prioritários estão concluídos em pautas. Os demais deixaram de ser “descartes”: onde há campos e fatos concretos, estão marcados como candidatos para autoria em lotes subsequentes; somente dois impedimentos mínimos explícitos permanecem registrados nesta tabela. Isso corrige o fechamento prematuro anterior e mantém visível o trabalho editorial ainda executável.
+
+## Checkpoint 035 — terceiro lote autorado
+
+Após consulta efetiva à NAA, onze pautas de sete pistas foram incorporadas para mesas de 2–3. Mt 15.21–28 e Mc 7.24–30 foram comparados como relatos paralelos e consolidados em `nt2-mateus-mulher-cananeia`; fatos específicos de cada redação não foram tratados como equivalentes, e o resultado compartilhado registra ambas as referências. Os demais resultados individuais constam na tabela. A auditoria permanece em andamento nos candidatos ainda marcados como candidatos.
