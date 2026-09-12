@@ -8,11 +8,9 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 ## Estado atual
 
-A arquitetura consolidada de sala, turnos, cronômetros, pontuação e apuração está implementada. O catálogo antigo foi substituído pelo **Banco NT de 145 pautas** importado da planilha `MOSAICO_NT_Banco_145.xlsx`.
+A arquitetura da partida permanece implementada. O catálogo editorial anterior foi descartado e `cases-nt.js` agora é a saída reproduzível do novo banco **NT/NAA v2**. Não existe meta numérica: o total será consequência do levantamento dos 27 livros e dos critérios de dedução. João foi analisado por recorte; Mateus e Marcos foram analisados por recorte; Lucas foi analisado por recorte e Atos foi analisado por recorte e Romanos foi analisado. O banco tem 99 pautas autoradas e editorialmente elegíveis: 55 comportam 2–12 participantes, 26 pautas comportam 2–6, sete comportam 2–4 e onze pautas de sete pistas comportam 2–3. A seleção considera o tamanho real da mesa, sempre com duas cartas por pessoa e ao menos uma no poço; não houve inflação de conteúdo.
 
-As pautas NT ainda não são liberadas para uma partida: todas estão marcadas como `playable: false` porque faltam baralho, indicação do campo focal e gabaritos explicitamente validados. O bloqueio é intencional e impede que uma inferência automática transforme conteúdo editorial incompleto em regra de jogo.
-
-O único caso independente do catálogo é **A ovelha perdida**, preservado em `case-ovelha.js` somente como demonstração da carta especial e de sua animação. Ele não participa do sorteio das 145 pautas.
+A demonstração independente **A ovelha perdida** continua em `case-ovelha.js`; não pertence ao catálogo nem ao sorteio e não determina qualquer ID novo. O documento mestre e o checkpoint estão em [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md), e a cobertura está em [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md).
 
 ## Fluxo da sala
 
@@ -63,11 +61,7 @@ Nas partidas normais, a ovelha é um bônus embaralhado no monte. Concede 6 den�
 
 ## Banco NT e sorteio
 
-`cases-nt.js` contém 145 pautas e 580 campos, exatamente quatro por pauta. “Faixa 4–9” indica quantas naturezas de incógnita o recorte suporta; não representa a quantidade de campos da partida.
-
-O sorteio usa um saco persistido no navegador: não repete pauta elegível até esgotar o saco e evita repetição imediata quando ele é recomposto. Apenas casos com `status.playable === true` entram no sorteio. Enquanto nenhum caso estiver validado, a interface informa o bloqueio editorial em vez de voltar aos casos antigos.
-
-Detalhes e pendências: [`docs/BANCO-NT-145.md`](docs/BANCO-NT-145.md).
+A fonte editável versionada é `data/nt-bank.json`, validada por `tools/validate-nt-bank.mjs` e gerada por `tools/generate-nt-bank.mjs`. Somente pautas aprovadas estrutural, bíblica e editorialmente, sem ambiguidades, entram no saco. A chave persistida incorpora namespace, versão do catálogo e versão do esquema, impedindo que o saco legado contamine os novos IDs `nt2-*`.
 
 ## Arquitetura
 
@@ -81,20 +75,21 @@ Detalhes e pendências: [`docs/BANCO-NT-145.md`](docs/BANCO-NT-145.md).
 | `cases-nt.js` | Catálogo NT gerado mecanicamente; não deve ser editado à mão. |
 | `bank-runtime.js` | Elegibilidade e saco de sorteio das pautas. |
 | `case-ovelha.js` | Demonstração isolada da carta da ovelha. |
-| `tools/import-nt-bank.mjs` | Importador e validador estrutural da planilha NT. |
+| `data/nt-bank.json` | Fonte editorial editável do novo banco. |
+| `tools/validate-nt-bank.mjs` | Validador estrutural e de elegibilidade. |
+| `tools/generate-nt-bank.mjs` | Gerador determinístico de `cases-nt.js`. |
 
 O Mestre é a autoridade dos relógios e das mudanças de fase. As publicações usam transação no Firestore e `turnoId` crescente para rejeitar ações atrasadas ou repetidas.
 
-## Importação do banco
-
-Use caminhos explícitos para a planilha e para o arquivo gerado:
+## Geração do banco
 
 ```bash
-node tools/import-nt-bank.mjs /caminho/MOSAICO_NT_Banco_145.xlsx cases-nt.js
+npm run validate:bank
+npm run generate:bank
 npm test
 ```
 
-O importador exige o módulo `@oai/artifact-tool`, valida 145 IDs sequenciais, 580 linhas de campos, quatro campos `C1–C4` por pauta, coerência entre as abas `Banco` e `Campos` e isolamento da demonstração da ovelha.
+O importador da planilha antiga falha deliberadamente para impedir reintrodução acidental do conteúdo descartado. Validação estrutural não declara fidelidade bíblica.
 
 ## Desenvolvimento e testes
 
@@ -109,7 +104,8 @@ A suíte executa verificação de sintaxe e contratos de identidade, QR/sala, es
 ## Documentação
 
 - [`docs/CONSOLIDACAO-OPERACIONAL.md`](docs/CONSOLIDACAO-OPERACIONAL.md): contrato Mestre–jogador–telão e regras da partida.
-- [`docs/BANCO-NT-145.md`](docs/BANCO-NT-145.md): interpretação da planilha, importação e bloqueios editoriais.
+- [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md): mandato, contrato, fontes e checkpoints.
+- [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md): matriz dos 27 livros.
 - [`docs/AUDITORIA.md`](docs/AUDITORIA.md): estado técnico e riscos que ainda exigem validação.
 
 ## About sugerido para o GitHub

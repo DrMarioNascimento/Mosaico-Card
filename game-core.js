@@ -26,6 +26,25 @@
     return Math.round((Number(valor) + Number.EPSILON) * 10) / 10;
   }
 
+  function identidadeBancoCompativel(bank, data) {
+    if (!data || !data.pautaId) return true;
+    const recebida = data.bankIdentity || {};
+    const atual = bank || {};
+    return recebida.namespace === atual.namespace && recebida.catalogVersion === atual.catalogVersion && recebida.schemaVersion === atual.schemaVersion;
+  }
+
+  function maxJogadoresCaso(caso) {
+    const informado = inteiro(caso && caso.deck && caso.deck.maxPlayers);
+    if (informado !== null) return limitar(informado, 0, 12);
+    const cartas = caso && caso.deck && Array.isArray(caso.deck.cards) ? caso.deck.cards.length : 0;
+    return limitar(Math.floor((cartas - 1) / 2), 0, 12);
+  }
+
+  function casoCompativelComMesa(caso, numeroJogadores) {
+    const quantidade = inteiro(numeroJogadores);
+    return Boolean(caso && caso.status && caso.status.playable === true && quantidade !== null && quantidade >= 2 && quantidade <= maxJogadoresCaso(caso));
+  }
+
   function modoDoCaso(caso) {
     return caso && caso.modo === "quiz" ? "quiz" : "economico";
   }
@@ -95,6 +114,22 @@
       voltasFeitas[id] = 0;
     });
     return { saldosPorJogador, errosPorJogador, maosPorJogador, voltasFeitas };
+  }
+
+  function distribuirPistas(ids, essenciais, jogadores, embaralhar) {
+    const ordem = Array.isArray(jogadores) ? jogadores.slice() : [];
+    if (ordem.length < 2 || ordem.length > 12) throw new RangeError("A distribuição exige entre 2 e 12 jogadores.");
+    if (!Array.isArray(ids) || ids.length < ordem.length * 2 + 1) throw new RangeError("O baralho deve fornecer duas cartas por jogador e ao menos uma carta no poço.");
+    const shuffle = typeof embaralhar === "function" ? embaralhar : function (items) { return items.slice(); };
+    const essenciaisSet = new Set(essenciais || []);
+    const prioritarias = shuffle(ids.filter(function (id) { return essenciaisSet.has(id); }));
+    const demais = shuffle(ids.filter(function (id) { return !essenciaisSet.has(id); }));
+    const maos = Object.fromEntries(ordem.map(function (id) { return [id, []]; }));
+    let cursor = 0;
+    while (prioritarias.length && cursor < ordem.length) maos[ordem[cursor++]].push(prioritarias.shift());
+    const fila = prioritarias.concat(demais);
+    ordem.forEach(function (id) { while (maos[id].length < 2 && fila.length) maos[id].push(fila.shift()); });
+    return { maosPorJogador: maos, monte: fila };
   }
 
   function campoDisponivel(state, jogadorId, campoId) {
@@ -305,10 +340,14 @@
   return {
     TEMPOS_TURNO,
     DURACOES,
+    identidadeBancoCompativel,
+    maxJogadoresCaso,
+    casoCompativelComMesa,
     modoDoCaso,
     tempoRecomendado,
     validarConfiguracao,
     criarEstadoJogadores,
+    distribuirPistas,
     campoDisponivel,
     aplicarResposta,
     quantidadeBonus,

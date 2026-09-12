@@ -359,7 +359,7 @@
 
   function escolherPauta() {
     if (!window.MC_NT_BANK || typeof window.MC_NT_BANK.sortear !== "function") return { erro: "O banco NT ainda não foi carregado." };
-    return window.MC_NT_BANK.sortear();
+    return window.MC_NT_BANK.sortear(sala.jogadores.length);
   }
   function iniciarPartida() {
     if (!souMestre()) return;

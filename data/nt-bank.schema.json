@@ -1,0 +1,98 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mosaico.invalid/schemas/nt-bank-v2.json",
+  "title": "Banco bíblico MOSAICO NT/NAA v2",
+  "type": "object",
+  "required": ["schemaVersion", "catalogVersion", "namespace", "edition", "scope", "cases"],
+  "properties": {
+    "schemaVersion": { "const": 2 },
+    "catalogVersion": { "type": "string", "minLength": 1 },
+    "namespace": { "const": "mosaico-nt-naa-v2" },
+    "edition": { "const": "Nova Almeida Atualizada (NAA)" },
+    "scope": { "const": "Novo Testamento (27 livros)" },
+    "cases": { "type": "array", "items": { "$ref": "#/$defs/case" } }
+  },
+  "additionalProperties": false,
+  "$defs": {
+    "reference": {
+      "type": "object",
+      "required": ["book", "passage", "edition", "sourceId", "checkedAt"],
+      "properties": {
+        "book": { "type": "string", "minLength": 1 },
+        "passage": { "type": "string", "minLength": 1 },
+        "edition": { "const": "NAA" },
+        "sourceId": { "type": "string", "minLength": 1 },
+        "checkedAt": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    },
+    "option": {
+      "type": "object",
+      "required": ["id", "text"],
+      "properties": { "id": { "type": "string" }, "text": { "type": "string", "minLength": 1 } },
+      "additionalProperties": false
+    },
+    "field": {
+      "type": "object",
+      "required": ["id", "label", "options", "answerId", "answerReferences"],
+      "properties": {
+        "id": { "enum": ["C1", "C2", "C3", "C4"] },
+        "label": { "type": "string", "minLength": 1 },
+        "options": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "$ref": "#/$defs/option" } },
+        "answerId": { "type": "string", "minLength": 1 },
+        "answerReferences": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/reference" } }
+      },
+      "additionalProperties": false
+    },
+    "card": {
+      "type": "object",
+      "required": ["id", "text", "importance", "relatedFields", "recommendedMoment", "narrativeFunction", "earlyRevealRisk", "twoPlayerSuitable", "documentScope", "references"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 },
+        "text": { "type": "string", "minLength": 1 },
+        "importance": { "enum": ["essential", "relevant", "contextual"] },
+        "relatedFields": { "type": "array", "minItems": 1, "items": { "enum": ["C1", "C2", "C3", "C4"] }, "uniqueItems": true },
+        "recommendedMoment": { "enum": ["early", "middle", "late", "any"] },
+        "narrativeFunction": { "type": "string", "minLength": 1 },
+        "earlyRevealRisk": { "enum": ["low", "medium", "high"] },
+        "twoPlayerSuitable": { "type": "boolean" },
+        "specialExpensive": { "type": "boolean" },
+        "documentScope": { "enum": ["single", "parallel", "complementary"] },
+        "references": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/reference" } }
+      },
+      "additionalProperties": false
+    },
+    "case": {
+      "type": "object",
+      "required": ["id", "title", "generalReferences", "question", "natures", "focalFieldId", "focalJustification", "fields", "cards", "reveal", "review"],
+      "properties": {
+        "id": { "type": "string", "pattern": "^nt2-[a-z0-9]+(?:-[a-z0-9]+)*$" },
+        "title": { "type": "string", "minLength": 1 },
+        "generalReferences": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/reference" } },
+        "question": { "type": "string", "minLength": 1 },
+        "natures": {
+          "type": "object", "required": ["supported", "unsupported"],
+          "properties": { "supported": { "type": "array", "minItems": 4, "maxItems": 9 }, "unsupported": { "type": "array" } },
+          "additionalProperties": false
+        },
+        "focalFieldId": { "enum": ["C1", "C2", "C3", "C4"] },
+        "focalJustification": { "type": "string", "minLength": 1 },
+        "fields": { "type": "array", "minItems": 4, "maxItems": 4, "items": { "$ref": "#/$defs/field" } },
+        "cards": { "type": "array", "minItems": 5, "items": { "$ref": "#/$defs/card" } },
+        "reveal": {
+          "type": "object", "required": ["canonicalSummary", "hinge", "references"],
+          "properties": { "canonicalSummary": { "type": "string", "minLength": 1 }, "hinge": { "type": "string", "minLength": 1 }, "references": { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/reference" } } },
+          "additionalProperties": false
+        },
+        "review": {
+          "type": "object", "required": ["structural", "biblical", "editorial", "ambiguities"],
+          "properties": {
+            "structural": { "enum": ["pending", "approved", "blocked"] }, "biblical": { "enum": ["pending", "approved", "blocked"] }, "editorial": { "enum": ["pending", "approved", "blocked"] },
+            "ambiguities": { "type": "array", "items": { "type": "string" } }
+          }, "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}
