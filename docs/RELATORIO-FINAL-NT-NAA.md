@@ -1,54 +1,36 @@
 # Relatório de cobertura e integração — banco NT/NAA v2
 
-## Estado após decisões do usuário
+## Estado do checkpoint 032
 
-Os 27 livros possuem ficha e decisão por recorte/faixa. Isso representa a primeira varredura documental e a reavaliação dos recortes explicitamente autorizados; não é meta numérica, promessa de exaustividade ou autorização de publicação. As decisões do usuário estão separadas da revisão bíblica/editorial feita pelo agente.
+Os 27 livros possuem ficha e decisão por recorte/faixa. A autorização de pautas temáticas/listas e a capacidade variável foram aplicadas sem meta numérica, sem inflação de pistas e sem alterar as exclusões textuais expressas. A matriz é uma varredura documental, não alegação de que nenhuma pauta futura possa surgir.
 
-## Inventário verificável do checkpoint 027
+## Inventário verificável
 
-- 63 pautas autoradas e 1.480 pistas factuais;
-- 62 pautas editorialmente elegíveis e jogáveis em alguma mesa;
-- 54 pautas compatíveis com 2–12 participantes;
-- 8 pautas curtas de João, com 13 pistas, compatíveis somente com 2–6 participantes;
-- Hebreus 11 é a única pauta bloqueada editorialmente, apesar de 25 pistas, por ausência de dente dedutivo comum;
-- três novas pautas de Apocalipse, todas com 25 pistas: trono/Cordeiro, mulher/dragão e Nova Jerusalém;
-- uma pista contextual acrescentada à pauta de Filipe e o oficial etíope, com a ressalva textual de At 8.37.
+- 76 pautas autoradas e 1.645 pistas factuais;
+- 76 pautas estrutural, bíblica e editorialmente elegíveis;
+- 55 pautas compatíveis com 2–12 participantes;
+- 20 pautas com 13 pistas, compatíveis com 2–6;
+- 1 pauta com nove pistas, compatível com 2–4;
+- nenhuma pauta editorialmente bloqueada neste checkpoint.
 
-## Recortes decididos pelo usuário e efetivamente reavaliados
+Hebreus 11 foi liberado após conferência: seus quatro campos são associações explicitamente declaradas no próprio capítulo, e nenhum detalhe foi completado pelo Antigo Testamento. A autorização do usuário removeu corretamente o antigo bloqueio por perguntas independentes.
 
-Todos os recortes liberados receberam leitura e resultado individual em `REAVALIACAO-RECORTES-AUTORIZADOS.md`. Mc 16.9-20, 1Pe 3.19 e 1Pe 4.6 ficaram expressamente fora nos limites decididos. Jo 8.1-11, 2Jo, 1Pe 5.13 e 1Jo 5.16-17 foram reavaliados sem autoria: respectivamente por insuficiência de baralho/unidade ou por permanecerem blocos argumentativos/conclusivos sem quatro campos dedutivos. Isso não é bloqueio automático por gênero.
+## Reavaliação global
 
-Ap 2–22 foi reavaliado com conteúdo explícito e explicações internas. Ap 4–5, 12 e 21–22 sustentaram novas pautas. Os demais grupos foram preservados documentalmente, mas não transformados em pautas-lista ou cenas artificialmente combinadas. Nenhuma identidade histórica, instituição atual, data, localização presente ou sistema cronológico foi introduzido.
+Foram novamente obtidas com HTTP 200 e conferidas 124 páginas identificadas como NAA em `bible.com/pt/bible/1840`, abrangendo os recortes marcados nas fichas por lista, conjunto temático, falta de dente ou antiga capacidade universal. O inventário individual completo está em `REAVALIACAO-PAUTAS-TEMATICAS.md`.
 
-## Proveniência e ressalvas
+Foram criadas treze pautas: saudações de Romanos; dons/corpo e testemunhas da ressurreição em 1 Coríntios; carne/Espírito em Gálatas; armadura em Efésios; lideranças em 1 Timóteo; exortações em 1 Tessalonicenses; língua/sabedoria em Tiago; selos, bestas, taças e mil anos/juízo em Apocalipse; e verdade/hospitalidade em 2 João. As pautas têm de nove a treze fatos e capacidade calculada, sem preenchimento até 25.
 
-Nesta execução, páginas identificadas como NAA de Jo 8, At 8, 1Pe 3–5, 1Jo 5, 2Jo e Ap 2–22 foram obtidas de `https://www.bible.com/pt/bible/1840/` com HTTP 200 e consultadas. At 8.37 aparece no banco somente com a observação NAA de que o trecho está em manuscritos mais recentes. Jo 7.53–8.11 recebeu a mesma ressalva na decisão de não autoria. Não foram reproduzidos trechos extensos da tradução.
+Os demais recortes receberam impedimento ainda vigente e específico: paralelo já consolidado, menos de quatro campos e cinco fatos independentes, alternativas biblicamente inseguras, correspondência documental incerta ou exclusão expressa. Nenhum permanece fora apenas por ser lista, reunir episódios diferentes, ter perguntas independentes ou não oferecer ligação causal única.
 
-A interpretação comunitária da “senhora eleita” e de “aquela que se encontra na Babilônia” está atribuída à decisão do usuário. Ela não é apresentada como identificação lexical explícita; Babilônia não recebeu localização geográfica. Gabaritos e pistas não são marcados como revisados pelo usuário.
+## Decisões preservadas
 
-## Auditoria editorial
+Mc 16.9-20, a questão de 1Pe 3.19 e 1Pe 4.6 continuam fora. At 8.37 e Jo 8.1-11 conservam ressalva textual. As interpretações comunitárias de 2Jo 1 e 1Pe 5.13 continuam atribuídas ao usuário, não ao léxico do texto; Babilônia não recebeu localização. 1Jo 5.16-17 não identifica qual pecado leva à morte. Atos e cartas paulinas não tiveram viagens incertas combinadas. Símbolos de Apocalipse não receberam identidades históricas, instituições atuais, datas ou cronologias externas.
 
-A auditoria não encontrou duplicatas textuais exatas. Os novos alertas semânticos foram examinados: os lados opostos da guerra em Ap 12 e os portões/fundamentos da cidade em Ap 21 são fatos distintos, com justificativas versionadas. As três pautas novas têm unidade comum e não são quatro perguntas independentes de lista.
+## Auditoria e integração
 
-As oito pautas curtas entram somente no sorteio de mesas com 2–6 participantes; Hebreus 11 permanece fora de todo sorteio. Nenhuma pauta curta foi completada por paráfrase ou fragmentação. A regra continua exigindo duas cartas por pessoa e poço, agora com capacidade própria por pauta. A consolidação Mateus/João já realizada permanece inalterada. Atos e cartas paulinas conservam seus documentos separados sempre que uma correspondência de viagem ou acontecimento não é textual e segura.
+A auditoria não encontrou duplicatas textuais exatas nem pares semânticos pendentes. Um par redundante sobre a oposição carne/Espírito foi substituído por um fato distinto de Gl 5.18. Os pares mantidos — qualificações de funções diferentes e destinos numerados das taças — possuem justificativa versionada.
 
-## Pendências após o lote
+O gerador publica elegibilidade editorial separada de `minPlayers`/`maxPlayers`. Seleção, sorteio, saco persistido, início e retomada compartilhada usam a quantidade real da mesa. A distribuição exige duas cartas por pessoa e pelo menos uma no poço; testes cobrem cada pauta em toda sua faixa, as fronteiras de capacidade e mesas de 12. Namespace, versão do catálogo e esquema continuam isolando estados antigos, e o saco também é particionado por quantidade de participantes.
 
-### Trabalho editorial automaticamente executável
-
-Não resta recorte recém-autorizado sem resultado. Futuras pautas poderão surgir de novo levantamento, mas isso não é pendência deste lote nem justificativa para afirmar exaustividade.
-
-### Capacidade e bloqueio remanescente
-
-- oito pautas de João: liberadas para 2–6 e impedidas para 7–12;
-- Hebreus 11: permanece bloqueado editorialmente, aguardando avaliação do usuário.
-
-### Decisões exclusivas do usuário
-
-As decisões solicitadas foram aplicadas. Não surgiu nova ambiguidade que exija decisão exclusiva do usuário neste checkpoint.
-
-## Integração e entrega
-
-A validação estrutural verifica IDs, quatro campos e alternativas, gabaritos, focal e ordem 8/5/3/2, referências, cartas, revisão, elegibilidade editorial e capacidade. A suíte percorre cada pauta nas mesas compatíveis, testa a fronteira 6/7 das oito pautas curtas e mantém a cobertura das mesas de 12, sempre com duas cartas por participante e poço, além de conferir a revelação final. O auditor semântico permanece auxiliar e não é usado como prova de fidelidade bíblica.
-
-O saco também é particionado pela quantidade real da mesa; partidas compartilhadas usam namespace, versão do catálogo e esquema, e sua retomada valida a capacidade; snapshots incompatíveis ou com pauta desconhecida são rejeitados. A demonstração da ovelha continua isolada. Este checkpoint não realiza merge, deploy ou alteração de produção.
+Testes estruturais e de integração não são apresentados como prova de fidelidade bíblica; a revisão bíblica/editorial do agente e a proveniência NAA permanecem registradas na fonte. Não houve merge, deploy nem alteração de produção.

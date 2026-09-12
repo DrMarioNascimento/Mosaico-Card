@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-029",
+  "catalogVersion": "2026.09-batch-032",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 63,
-    "fields": 252,
-    "editoriallyEligibleCases": 62,
-    "playableCases": 62,
-    "max12Cases": 54
+    "cases": 76,
+    "fields": 304,
+    "editoriallyEligibleCases": 76,
+    "playableCases": 76,
+    "max12Cases": 55
   },
   "order": [
     "nt2-joao-cana",
@@ -79,7 +79,20 @@
     "nt2-apocalipse-visao-inicial",
     "nt2-apocalipse-trono-cordeiro",
     "nt2-apocalipse-mulher-dragao",
-    "nt2-apocalipse-nova-jerusalem"
+    "nt2-apocalipse-nova-jerusalem",
+    "nt2-romanos-saudacoes",
+    "nt2-1corintios-dons-corpo",
+    "nt2-1corintios-testemunhas-ressurreicao",
+    "nt2-galatas-carne-espirito",
+    "nt2-efesios-armadura",
+    "nt2-1timoteo-liderancas",
+    "nt2-1tessalonicenses-exortacoes",
+    "nt2-tiago-lingua-sabedoria",
+    "nt2-apocalipse-selos",
+    "nt2-apocalipse-duas-bestas",
+    "nt2-apocalipse-tacas",
+    "nt2-apocalipse-mil-anos-juizo",
+    "nt2-2joao-verdade-hospitalidade"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -46547,7 +46560,7 @@
       "focalFieldId": "C2",
       "focalJustification": "A construção da arca ancora a enumeração em agente e ação explicitamente associados no texto do NT.",
       "editorial": {
-        "hinge": "Inventário bíblico fiel, porém bloqueado: os quatro campos formam perguntas independentes de lista, sem um único dente dedutivo."
+        "hinge": "Pauta temática autorizada: Hebreus 11 associa explicitamente cada pessoa à ação ou ao resultado usado nos quatro campos, sem completar informações pelo Antigo Testamento."
       },
       "fields": [
         {
@@ -46700,7 +46713,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -47309,7 +47322,7 @@
       },
       "reveal": {
         "canonicalSummary": "Hebreus 11 enumera pessoas, ações e resultados associados à fé, incluindo Abel, Noé, Jericó e Raabe.",
-        "hinge": "Inventário bíblico fiel, porém bloqueado: os quatro campos formam perguntas independentes de lista, sem um único dente dedutivo.",
+        "hinge": "Pauta temática autorizada: Hebreus 11 associa explicitamente cada pessoa à ação ou ao resultado usado nos quatro campos, sem completar informações pelo Antigo Testamento.",
         "references": [
           {
             "book": "Hebreus",
@@ -47323,19 +47336,17 @@
       "review": {
         "structural": "approved",
         "biblical": "approved",
-        "editorial": "blocked",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
         "biblical": "approved",
-        "editorial": "blocked",
-        "editoriallyEligible": false,
-        "playable": false
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "editorial:blocked"
-      ]
+      "pendingIssues": []
     },
     "nt2-apocalipse-visao-inicial": {
       "id": "nt2-apocalipse-visao-inicial",
@@ -50654,6 +50665,6893 @@
             "passage": "22.1-5",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-saudacoes": {
+      "id": "nt2-romanos-saudacoes",
+      "kind": "canonical-case",
+      "title": "Pessoas nas saudações de Romanos",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 16.1-23",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "16.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais associações entre pessoas e descrições aparecem nas saudações finais?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A recomendação de Febe abre e organiza o conjunto de pessoas nomeadas.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem servia à igreja de Cencreia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Febe"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Maria"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Júlia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Pérside"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Febe",
+          "enderecoNAA": "Romanos 16.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "16.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem escreveu materialmente a carta e saudou os leitores",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tércio"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Gaio"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Timóteo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Quarto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tércio",
+          "enderecoNAA": "Romanos 16.22",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "16.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem era tesoureiro da cidade",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Erasto"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Urbano"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Hermes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Herodião"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Erasto",
+          "enderecoNAA": "Romanos 16.23",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "16.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem foi chamado primeiro fruto da fé na Ásia",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Epêneto"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Amplíato"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Estáquis"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Apeles"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Epêneto",
+          "enderecoNAA": "Romanos 16.5",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "16.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Febe servia à igreja de Cencreia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Febe servia à igreja de Cencreia."
+          },
+          {
+            "id": "P02",
+            "text": "Os destinatários deveriam receber Febe no Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os destinatários deveriam receber Febe no Senhor."
+          },
+          {
+            "id": "P03",
+            "text": "Febe havia sido protetora de muitos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Febe havia sido protetora de muitos."
+          },
+          {
+            "id": "P04",
+            "text": "Priscila e Áquila eram cooperadores de Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Priscila e Áquila eram cooperadores de Paulo."
+          },
+          {
+            "id": "P05",
+            "text": "Uma igreja se reunia na casa de Priscila e Áquila.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma igreja se reunia na casa de Priscila e Áquila."
+          },
+          {
+            "id": "P06",
+            "text": "Epêneto foi chamado primeiro fruto da fé em Cristo na Ásia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Epêneto foi chamado primeiro fruto da fé em Cristo na Ásia."
+          },
+          {
+            "id": "P07",
+            "text": "Maria havia trabalhado muito pelos destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Maria havia trabalhado muito pelos destinatários."
+          },
+          {
+            "id": "P08",
+            "text": "Andrônico e Júnias foram chamados companheiros de prisão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Andrônico e Júnias foram chamados companheiros de prisão."
+          },
+          {
+            "id": "P09",
+            "text": "Tércio declarou ter escrito a carta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Tércio declarou ter escrito a carta."
+          },
+          {
+            "id": "P10",
+            "text": "Gaio era hospedeiro de Paulo e de toda a igreja.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gaio era hospedeiro de Paulo e de toda a igreja."
+          },
+          {
+            "id": "P11",
+            "text": "Erasto era tesoureiro da cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Erasto era tesoureiro da cidade."
+          },
+          {
+            "id": "P12",
+            "text": "Quarto foi chamado irmão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Quarto foi chamado irmão."
+          },
+          {
+            "id": "P13",
+            "text": "Timóteo foi chamado cooperador de Paulo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Timóteo foi chamado cooperador de Paulo."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "16.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Pessoas nas saudações de Romanos: Romanos 16.1-23 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1corintios-dons-corpo": {
+      "id": "nt2-1corintios-dons-corpo",
+      "kind": "canonical-case",
+      "title": "Dons e membros do corpo",
+      "canon": {
+        "book": "1 Coríntios",
+        "referenceNAA": "1 Coríntios 12.4-31",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "12.4-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais itens o capítulo associa à diversidade de dons e à unidade do corpo?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A declaração de que os destinatários são o corpo de Cristo enquadra as listas.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que os destinatários são coletivamente",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Corpo de Cristo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um único membro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Templo em Jerusalém"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Conselho de mestres"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Corpo de Cristo",
+          "enderecoNAA": "1 Coríntios 12.27",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "12.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que permanece o mesmo apesar da diversidade de dons",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Espírito"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os serviços"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os membros"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "As realizações"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Espírito",
+          "enderecoNAA": "1 Coríntios 12.4",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "12.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual dom é associado à compreensão de línguas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Interpretação de línguas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Palavra da sabedoria"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Fé"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Dons de curar"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Interpretação de línguas",
+          "enderecoNAA": "1 Coríntios 12.10",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "12.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem dispôs os membros no corpo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Paulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os apóstolos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A igreja"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Deus",
+          "enderecoNAA": "1 Coríntios 12.18",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "12.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os dons são diversos, mas o Espírito é o mesmo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os dons são diversos, mas o Espírito é o mesmo."
+          },
+          {
+            "id": "P02",
+            "text": "Há diversidade nos serviços, mas o Senhor é o mesmo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Há diversidade nos serviços, mas o Senhor é o mesmo."
+          },
+          {
+            "id": "P03",
+            "text": "A manifestação do Espírito visa a um fim proveitoso.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A manifestação do Espírito visa a um fim proveitoso."
+          },
+          {
+            "id": "P04",
+            "text": "O capítulo menciona palavra da sabedoria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O capítulo menciona palavra da sabedoria."
+          },
+          {
+            "id": "P05",
+            "text": "Também menciona palavra do conhecimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Também menciona palavra do conhecimento."
+          },
+          {
+            "id": "P06",
+            "text": "Fé e dons de curar aparecem entre os dons.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Fé e dons de curar aparecem entre os dons."
+          },
+          {
+            "id": "P07",
+            "text": "Profecia e discernimento de espíritos são mencionados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Profecia e discernimento de espíritos são mencionados."
+          },
+          {
+            "id": "P08",
+            "text": "Variedade e interpretação de línguas aparecem juntas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Variedade e interpretação de línguas aparecem juntas."
+          },
+          {
+            "id": "P09",
+            "text": "Um só Espírito distribui conforme quer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um só Espírito distribui conforme quer."
+          },
+          {
+            "id": "P10",
+            "text": "O corpo tem muitos membros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.12-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O corpo tem muitos membros."
+          },
+          {
+            "id": "P11",
+            "text": "Deus dispôs cada membro como quis.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deus dispôs cada membro como quis."
+          },
+          {
+            "id": "P12",
+            "text": "Os membros mais fracos são necessários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os membros mais fracos são necessários."
+          },
+          {
+            "id": "P13",
+            "text": "Os destinatários são o corpo de Cristo e membros individualmente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "12.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os destinatários são o corpo de Cristo e membros individualmente."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "12.4-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Dons e membros do corpo: 1 Coríntios 12.4-31 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1corintios-testemunhas-ressurreicao": {
+      "id": "nt2-1corintios-testemunhas-ressurreicao",
+      "kind": "canonical-case",
+      "title": "Testemunhas mencionadas da ressurreição",
+      "canon": {
+        "book": "1 Coríntios",
+        "referenceNAA": "1 Coríntios 15.1-11",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "15.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoas, grupos e acontecimentos são enumerados no resumo recebido por Paulo?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A sequência de aparições é o eixo factual declarado pelo próprio trecho.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "A quantos irmãos apareceu de uma só vez",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Mais de quinhentos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Setenta"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Cento e vinte"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Mais de quinhentos",
+          "enderecoNAA": "1 Coríntios 15.6",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "15.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A quem Cristo apareceu primeiro na sequência",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cefas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Tiago"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Paulo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Mais de quinhentos irmãos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cefas",
+          "enderecoNAA": "1 Coríntios 15.5",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "15.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem aparece depois no versículo 7",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Tiago"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Cefas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Barnabé"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Timóteo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Tiago",
+          "enderecoNAA": "1 Coríntios 15.7",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "15.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem se apresenta como o último a vê-lo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Paulo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Apolo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Silas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sóstenes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Paulo",
+          "enderecoNAA": "1 Coríntios 15.8",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "15.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo lembrava o evangelho anunciado aos coríntios.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo lembrava o evangelho anunciado aos coríntios."
+          },
+          {
+            "id": "P02",
+            "text": "Ele entregou o que também havia recebido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele entregou o que também havia recebido."
+          },
+          {
+            "id": "P03",
+            "text": "Cristo morreu pelos pecados segundo as Escrituras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cristo morreu pelos pecados segundo as Escrituras."
+          },
+          {
+            "id": "P04",
+            "text": "Cristo foi sepultado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cristo foi sepultado."
+          },
+          {
+            "id": "P05",
+            "text": "Cristo ressuscitou ao terceiro dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cristo ressuscitou ao terceiro dia."
+          },
+          {
+            "id": "P06",
+            "text": "A sequência menciona uma aparição a Cefas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A sequência menciona uma aparição a Cefas."
+          },
+          {
+            "id": "P07",
+            "text": "Depois, menciona aparição aos doze.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois, menciona aparição aos doze."
+          },
+          {
+            "id": "P08",
+            "text": "Mais de quinhentos irmãos o viram de uma só vez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Mais de quinhentos irmãos o viram de uma só vez."
+          },
+          {
+            "id": "P09",
+            "text": "A maioria desses irmãos ainda vivia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A maioria desses irmãos ainda vivia."
+          },
+          {
+            "id": "P10",
+            "text": "Alguns deles já haviam morrido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Alguns deles já haviam morrido."
+          },
+          {
+            "id": "P11",
+            "text": "Tiago aparece na sequência.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Tiago aparece na sequência."
+          },
+          {
+            "id": "P12",
+            "text": "Todos os apóstolos também são mencionados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Todos os apóstolos também são mencionados."
+          },
+          {
+            "id": "P13",
+            "text": "Paulo se apresenta como o último a vê-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Coríntios",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo se apresenta como o último a vê-lo."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "15.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Testemunhas mencionadas da ressurreição: 1 Coríntios 15.1-11 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-galatas-carne-espirito": {
+      "id": "nt2-galatas-carne-espirito",
+      "kind": "canonical-case",
+      "title": "Obras da carne e fruto do Espírito",
+      "canon": {
+        "book": "Gálatas",
+        "referenceNAA": "Gálatas 5.16-26",
+        "references": [
+          {
+            "book": "Gálatas",
+            "passage": "5.16-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais contrastes e itens Paulo apresenta ao tratar de carne e Espírito?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O contraste entre obras e fruto organiza os quatro agrupamentos factuais.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como carne e Espírito são descritos entre si",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Opostos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Idênticos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Independentes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Alternados"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Opostos",
+          "enderecoNAA": "Gálatas 5.17",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "5.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual destes aparece entre as obras da carne",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Idolatria"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Bondade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Fidelidade"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Domínio próprio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Idolatria",
+          "enderecoNAA": "Gálatas 5.19-21",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "5.19-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual destes aparece no fruto do Espírito",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Benignidade"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Facções"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ciúmes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Feitiçarias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Benignidade",
+          "enderecoNAA": "Gálatas 5.22",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "5.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os que pertencem a Cristo crucificaram",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A carne com paixões e desejos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O fruto do Espírito"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A liberdade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A esperança da justiça"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A carne com paixões e desejos",
+          "enderecoNAA": "Gálatas 5.24",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "5.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo manda viver no Espírito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo manda viver no Espírito."
+          },
+          {
+            "id": "P02",
+            "text": "A carne luta contra o Espírito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A carne luta contra o Espírito."
+          },
+          {
+            "id": "P03",
+            "text": "Os guiados pelo Espírito não estão debaixo da lei.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os guiados pelo Espírito não estão debaixo da lei."
+          },
+          {
+            "id": "P04",
+            "text": "Imoralidade sexual aparece entre as obras da carne.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Imoralidade sexual aparece entre as obras da carne."
+          },
+          {
+            "id": "P05",
+            "text": "Idolatria e feitiçarias são enumeradas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Idolatria e feitiçarias são enumeradas."
+          },
+          {
+            "id": "P06",
+            "text": "Ciúmes, discórdias e divisões aparecem na lista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ciúmes, discórdias e divisões aparecem na lista."
+          },
+          {
+            "id": "P07",
+            "text": "Bebedeiras e orgias também são mencionadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Bebedeiras e orgias também são mencionadas."
+          },
+          {
+            "id": "P08",
+            "text": "Amor e alegria aparecem no fruto do Espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Amor e alegria aparecem no fruto do Espírito."
+          },
+          {
+            "id": "P09",
+            "text": "Paz e longanimidade aparecem no fruto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paz e longanimidade aparecem no fruto."
+          },
+          {
+            "id": "P10",
+            "text": "Benignidade, bondade e fidelidade são enumeradas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Benignidade, bondade e fidelidade são enumeradas."
+          },
+          {
+            "id": "P11",
+            "text": "Mansidão e domínio próprio completam a lista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Mansidão e domínio próprio completam a lista."
+          },
+          {
+            "id": "P12",
+            "text": "Os que são de Cristo crucificaram a carne com paixões e desejos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os que são de Cristo crucificaram a carne com paixões e desejos."
+          },
+          {
+            "id": "P13",
+            "text": "Quem vive no Espírito é chamado a andar no Espírito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "5.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Quem vive no Espírito é chamado a andar no Espírito."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Gálatas",
+            "passage": "5.16-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Obras da carne e fruto do Espírito: Gálatas 5.16-26 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-armadura": {
+      "id": "nt2-efesios-armadura",
+      "kind": "canonical-case",
+      "title": "A armadura de Deus",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 6.10-20",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "6.10-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais peças, associações e finalidades compõem a metáfora da armadura?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A ordem de vestir toda a armadura enquadra cada associação explicitada no recorte.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Com o que se relaciona a couraça",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Justiça"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Fé"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Salvação"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Verdade"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Justiça",
+          "enderecoNAA": "Efésios 6.14",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "6.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Com o que se relaciona o escudo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Fé"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Paz"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Palavra de Deus"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Justiça"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Fé",
+          "enderecoNAA": "Efésios 6.16",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "6.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Com o que se relaciona o capacete",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Salvação"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Verdade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Oração"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Evangelho da paz"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Salvação",
+          "enderecoNAA": "Efésios 6.17",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "6.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que é chamado espada do Espírito",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A palavra de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A fé"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A justiça"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A perseverança"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A palavra de Deus",
+          "enderecoNAA": "Efésios 6.17",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "6.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os destinatários deveriam fortalecer-se no Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os destinatários deveriam fortalecer-se no Senhor."
+          },
+          {
+            "id": "P02",
+            "text": "A armadura inteira permitiria firmeza contra ciladas do diabo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A armadura inteira permitiria firmeza contra ciladas do diabo."
+          },
+          {
+            "id": "P03",
+            "text": "A luta não é contra sangue e carne.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A luta não é contra sangue e carne."
+          },
+          {
+            "id": "P04",
+            "text": "A armadura permitiria resistir no dia mau.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A armadura permitiria resistir no dia mau."
+          },
+          {
+            "id": "P05",
+            "text": "A verdade aparece como cinturão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A verdade aparece como cinturão."
+          },
+          {
+            "id": "P06",
+            "text": "A justiça aparece como couraça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A justiça aparece como couraça."
+          },
+          {
+            "id": "P07",
+            "text": "O evangelho da paz é associado aos pés calçados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O evangelho da paz é associado aos pés calçados."
+          },
+          {
+            "id": "P08",
+            "text": "A fé aparece como escudo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A fé aparece como escudo."
+          },
+          {
+            "id": "P09",
+            "text": "O escudo apaga dardos inflamados do Maligno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O escudo apaga dardos inflamados do Maligno."
+          },
+          {
+            "id": "P10",
+            "text": "A salvação aparece como capacete.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A salvação aparece como capacete."
+          },
+          {
+            "id": "P11",
+            "text": "A palavra de Deus é a espada do Espírito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A palavra de Deus é a espada do Espírito."
+          },
+          {
+            "id": "P12",
+            "text": "O texto manda orar em todo tempo no Espírito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto manda orar em todo tempo no Espírito."
+          },
+          {
+            "id": "P13",
+            "text": "Paulo pede oração por ousadia ao anunciar o evangelho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "6.19-20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo pede oração por ousadia ao anunciar o evangelho."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "6.10-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "A armadura de Deus: Efésios 6.10-20 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1timoteo-liderancas": {
+      "id": "nt2-1timoteo-liderancas",
+      "kind": "canonical-case",
+      "title": "Qualificações de serviço em 1 Timóteo",
+      "canon": {
+        "book": "1 Timóteo",
+        "referenceNAA": "1 Timóteo 3.1-15",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "3.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais qualificações e responsabilidades o capítulo atribui aos grupos mencionados?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A função de cuidar da igreja organiza a comparação temática das qualificações.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem deve ser apto para ensinar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O bispo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O recém-convertido"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os filhos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os de fora"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O bispo",
+          "enderecoNAA": "1 Timóteo 3.2",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem deve ser primeiramente experimentado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os diáconos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os visitantes"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os filhos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os de fora"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os diáconos",
+          "enderecoNAA": "1 Timóteo 3.10",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "3.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual qualidade é exigida das mulheres mencionadas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fiéis em tudo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Recém-convertidas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ricas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Mestras de todos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fiéis em tudo",
+          "enderecoNAA": "1 Timóteo 3.11",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "3.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que é chamado coluna e fundamento da verdade",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A igreja do Deus vivo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A casa particular"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O episcopado"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O diaconato"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A igreja do Deus vivo",
+          "enderecoNAA": "1 Timóteo 3.15",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "3.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Desejar o episcopado é desejar excelente obra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Desejar o episcopado é desejar excelente obra."
+          },
+          {
+            "id": "P02",
+            "text": "O bispo deve ser irrepreensível.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O bispo deve ser irrepreensível."
+          },
+          {
+            "id": "P03",
+            "text": "O bispo deve ser hospitaleiro e apto para ensinar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O bispo deve ser hospitaleiro e apto para ensinar."
+          },
+          {
+            "id": "P04",
+            "text": "Ele não deve ser violento nem avarento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele não deve ser violento nem avarento."
+          },
+          {
+            "id": "P05",
+            "text": "Deve governar bem a própria casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.4-5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deve governar bem a própria casa."
+          },
+          {
+            "id": "P06",
+            "text": "Não deve ser recém-convertido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Não deve ser recém-convertido."
+          },
+          {
+            "id": "P07",
+            "text": "Deve ter bom testemunho dos de fora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deve ter bom testemunho dos de fora."
+          },
+          {
+            "id": "P08",
+            "text": "Diáconos devem ser respeitáveis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Diáconos devem ser respeitáveis."
+          },
+          {
+            "id": "P09",
+            "text": "Devem conservar o mistério da fé com consciência limpa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Devem conservar o mistério da fé com consciência limpa."
+          },
+          {
+            "id": "P10",
+            "text": "Devem ser primeiramente experimentados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Devem ser primeiramente experimentados."
+          },
+          {
+            "id": "P11",
+            "text": "As mulheres mencionadas devem ser moderadas e fiéis em tudo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As mulheres mencionadas devem ser moderadas e fiéis em tudo."
+          },
+          {
+            "id": "P12",
+            "text": "O diácono deve governar bem filhos e casa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O diácono deve governar bem filhos e casa."
+          },
+          {
+            "id": "P13",
+            "text": "A casa de Deus é identificada como igreja do Deus vivo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Timóteo",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A casa de Deus é identificada como igreja do Deus vivo."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "3.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Qualificações de serviço em 1 Timóteo: 1 Timóteo 3.1-15 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1tessalonicenses-exortacoes": {
+      "id": "nt2-1tessalonicenses-exortacoes",
+      "kind": "canonical-case",
+      "title": "Exortações finais aos tessalonicenses",
+      "canon": {
+        "book": "1 Tessalonicenses",
+        "referenceNAA": "1 Tessalonicenses 5.12-28",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "5.12-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoas, ações e critérios aparecem nas exortações finais?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A sequência explícita de ações permite uma pauta temática sem criar ligação causal.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que deve ser retido após examinar tudo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O que é bom"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Toda profecia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Toda forma de mal"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A ira"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O que é bom",
+          "enderecoNAA": "1 Tessalonicenses 5.21",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "5.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem deve ser consolado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os desanimados"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os desordenados"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os que presidem"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os ricos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os desanimados",
+          "enderecoNAA": "1 Tessalonicenses 5.14",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "5.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem deve ser admoestado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os que vivem de forma desordenada"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os fracos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os desanimados"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Todos os irmãos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os que vivem de forma desordenada",
+          "enderecoNAA": "1 Tessalonicenses 5.14",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "5.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Com que gesto todos os irmãos deveriam ser saudados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Beijo santo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Imposição de mãos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Carta particular"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Refeição ritual"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Beijo santo",
+          "enderecoNAA": "1 Tessalonicenses 5.26",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "5.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os que trabalham e presidem devem ser apreciados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os que trabalham e presidem devem ser apreciados."
+          },
+          {
+            "id": "P02",
+            "text": "A consideração por eles deve incluir amor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A consideração por eles deve incluir amor."
+          },
+          {
+            "id": "P03",
+            "text": "Os desordenados devem ser admoestados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os desordenados devem ser admoestados."
+          },
+          {
+            "id": "P04",
+            "text": "Os desanimados devem ser consolados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os desanimados devem ser consolados."
+          },
+          {
+            "id": "P05",
+            "text": "Os fracos devem ser amparados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os fracos devem ser amparados."
+          },
+          {
+            "id": "P06",
+            "text": "A paciência deve alcançar todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A paciência deve alcançar todos."
+          },
+          {
+            "id": "P07",
+            "text": "Não se deve retribuir mal por mal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Não se deve retribuir mal por mal."
+          },
+          {
+            "id": "P08",
+            "text": "O texto manda estar sempre alegre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto manda estar sempre alegre."
+          },
+          {
+            "id": "P09",
+            "text": "O texto manda orar sem cessar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto manda orar sem cessar."
+          },
+          {
+            "id": "P10",
+            "text": "O texto manda dar graças em tudo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto manda dar graças em tudo."
+          },
+          {
+            "id": "P11",
+            "text": "Todas as coisas devem ser examinadas e o bem retido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Todas as coisas devem ser examinadas e o bem retido."
+          },
+          {
+            "id": "P12",
+            "text": "Deve-se evitar toda forma de mal.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deve-se evitar toda forma de mal."
+          },
+          {
+            "id": "P13",
+            "text": "Todos os irmãos deveriam ser saudados com beijo santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "5.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Todos os irmãos deveriam ser saudados com beijo santo."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "5.12-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Exortações finais aos tessalonicenses: 1 Tessalonicenses 5.12-28 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tiago-lingua-sabedoria": {
+      "id": "nt2-tiago-lingua-sabedoria",
+      "kind": "canonical-case",
+      "title": "Língua e sabedoria em Tiago",
+      "canon": {
+        "book": "Tiago",
+        "referenceNAA": "Tiago 3.1-18",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "3.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais comparações e características Tiago reúne ao tratar da fala e da sabedoria?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "As comparações explícitas da língua constituem o eixo temático do capítulo.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que dirige o navio",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um pequeno leme"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um freio"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma grande vela"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma âncora"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um pequeno leme",
+          "enderecoNAA": "Tiago 3.4",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "3.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que dirige o corpo do cavalo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O freio"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O leme"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A fagulha"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A fonte"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O freio",
+          "enderecoNAA": "Tiago 3.3",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "3.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A que a língua é diretamente comparada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A fogo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A água doce"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A figueira"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ao vento"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A fogo",
+          "enderecoNAA": "Tiago 3.5-6",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "3.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual qualidade pertence à sabedoria do alto",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Pacífica"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Animal"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Terrena"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Demoníaca"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Pacífica",
+          "enderecoNAA": "Tiago 3.17",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "3.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Muitos não deveriam tornar-se mestres.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos não deveriam tornar-se mestres."
+          },
+          {
+            "id": "P02",
+            "text": "Um freio na boca dirige o corpo dos cavalos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um freio na boca dirige o corpo dos cavalos."
+          },
+          {
+            "id": "P03",
+            "text": "Navios grandes são dirigidos por pequeno leme.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Navios grandes são dirigidos por pequeno leme."
+          },
+          {
+            "id": "P04",
+            "text": "Uma fagulha pode incendiar uma grande floresta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma fagulha pode incendiar uma grande floresta."
+          },
+          {
+            "id": "P05",
+            "text": "A língua é chamada fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A língua é chamada fogo."
+          },
+          {
+            "id": "P06",
+            "text": "Ela é descrita como mundo de maldade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela é descrita como mundo de maldade."
+          },
+          {
+            "id": "P07",
+            "text": "Animais têm sido domados pelo gênero humano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Animais têm sido domados pelo gênero humano."
+          },
+          {
+            "id": "P08",
+            "text": "A língua é descrita como mal incontido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A língua é descrita como mal incontido."
+          },
+          {
+            "id": "P09",
+            "text": "Com a língua se bendiz e se amaldiçoa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.9-10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Com a língua se bendiz e se amaldiçoa."
+          },
+          {
+            "id": "P10",
+            "text": "Uma fonte não deve dar água doce e amarga.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma fonte não deve dar água doce e amarga."
+          },
+          {
+            "id": "P11",
+            "text": "A sabedoria terrena é chamada animal e demoníaca.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A sabedoria terrena é chamada animal e demoníaca."
+          },
+          {
+            "id": "P12",
+            "text": "A sabedoria do alto é pura e pacífica.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A sabedoria do alto é pura e pacífica."
+          },
+          {
+            "id": "P13",
+            "text": "Ela também é cheia de misericórdia e bons frutos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela também é cheia de misericórdia e bons frutos."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "3.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Língua e sabedoria em Tiago: Tiago 3.1-18 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-selos": {
+      "id": "nt2-apocalipse-selos",
+      "kind": "canonical-case",
+      "title": "Os seis primeiros selos",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 6.1-17",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "6.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais cores, objetos, nomes e acontecimentos aparecem na abertura dos seis selos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A ordem numerada dos selos enquadra as associações explícitas da visão.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde estavam as almas vistas no quinto selo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Debaixo do altar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sobre o mar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Diante das portas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Na grande cidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Debaixo do altar",
+          "enderecoNAA": "Apocalipse 6.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "6.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual era a cor do primeiro cavalo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Branco"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Vermelho"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Preto"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Amarelo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Branco",
+          "enderecoNAA": "Apocalipse 6.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "6.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o cavaleiro do terceiro cavalo levava",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma balança"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um arco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma grande espada"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma coroa"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma balança",
+          "enderecoNAA": "Apocalipse 6.5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "6.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual era o nome do cavaleiro do quarto cavalo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Morte"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Fome"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Guerra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Abismo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Morte",
+          "enderecoNAA": "Apocalipse 6.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "6.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Cordeiro abriu o primeiro selo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Cordeiro abriu o primeiro selo."
+          },
+          {
+            "id": "P02",
+            "text": "O primeiro cavalo era branco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O primeiro cavalo era branco."
+          },
+          {
+            "id": "P03",
+            "text": "Seu cavaleiro tinha um arco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Seu cavaleiro tinha um arco."
+          },
+          {
+            "id": "P04",
+            "text": "Uma coroa foi dada ao primeiro cavaleiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma coroa foi dada ao primeiro cavaleiro."
+          },
+          {
+            "id": "P05",
+            "text": "O segundo cavalo era vermelho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.3-4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O segundo cavalo era vermelho."
+          },
+          {
+            "id": "P06",
+            "text": "Uma grande espada foi dada ao segundo cavaleiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma grande espada foi dada ao segundo cavaleiro."
+          },
+          {
+            "id": "P07",
+            "text": "O terceiro cavalo era preto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O terceiro cavalo era preto."
+          },
+          {
+            "id": "P08",
+            "text": "Seu cavaleiro carregava uma balança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Seu cavaleiro carregava uma balança."
+          },
+          {
+            "id": "P09",
+            "text": "O quarto cavalo era amarelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O quarto cavalo era amarelo."
+          },
+          {
+            "id": "P10",
+            "text": "O quarto cavaleiro se chamava Morte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O quarto cavaleiro se chamava Morte."
+          },
+          {
+            "id": "P11",
+            "text": "O inferno seguia esse cavaleiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O inferno seguia esse cavaleiro."
+          },
+          {
+            "id": "P12",
+            "text": "No quinto selo havia almas debaixo do altar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "No quinto selo havia almas debaixo do altar."
+          },
+          {
+            "id": "P13",
+            "text": "No sexto selo ocorreu um grande terremoto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "6.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "No sexto selo ocorreu um grande terremoto."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "6.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Os seis primeiros selos: Apocalipse 6.1-17 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-duas-bestas": {
+      "id": "nt2-apocalipse-duas-bestas",
+      "kind": "canonical-case",
+      "title": "As duas bestas e o número",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 13.1-18",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "13.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais origens, características, ações e número são dados às duas bestas?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O próprio capítulo fornece o número e distingue as duas bestas por origem e ação.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual número é declarado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Seiscentos e sessenta e seis"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Setecentos e setenta e sete"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cento e quarenta e quatro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Mil duzentos e sessenta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Seiscentos e sessenta e seis",
+          "enderecoNAA": "Apocalipse 13.18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "13.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "De onde emergiu a primeira besta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Do mar"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Da terra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Do abismo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Do céu"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Do mar",
+          "enderecoNAA": "Apocalipse 13.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De onde emergiu a outra besta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Da terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Do mar"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Do céu"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Do rio Eufrates"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Da terra",
+          "enderecoNAA": "Apocalipse 13.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde a marca seria colocada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Na mão direita ou na testa"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Nos pés ou nas costas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "No peito ou na boca"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Nos olhos ou nos ouvidos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Na mão direita ou na testa",
+          "enderecoNAA": "Apocalipse 13.16",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "13.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A primeira besta emergiu do mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A primeira besta emergiu do mar."
+          },
+          {
+            "id": "P02",
+            "text": "Ela tinha dez chifres e sete cabeças.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela tinha dez chifres e sete cabeças."
+          },
+          {
+            "id": "P03",
+            "text": "O dragão deu poder, trono e autoridade à besta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O dragão deu poder, trono e autoridade à besta."
+          },
+          {
+            "id": "P04",
+            "text": "Uma ferida mortal de uma cabeça foi curada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma ferida mortal de uma cabeça foi curada."
+          },
+          {
+            "id": "P05",
+            "text": "A primeira besta recebeu autoridade por quarenta e dois meses.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A primeira besta recebeu autoridade por quarenta e dois meses."
+          },
+          {
+            "id": "P06",
+            "text": "A outra besta emergiu da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A outra besta emergiu da terra."
+          },
+          {
+            "id": "P07",
+            "text": "Ela tinha dois chifres semelhantes aos de cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela tinha dois chifres semelhantes aos de cordeiro."
+          },
+          {
+            "id": "P08",
+            "text": "Ela falava como dragão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela falava como dragão."
+          },
+          {
+            "id": "P09",
+            "text": "A outra besta fazia grandes sinais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A outra besta fazia grandes sinais."
+          },
+          {
+            "id": "P10",
+            "text": "Ela mandou fazer uma imagem da primeira besta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela mandou fazer uma imagem da primeira besta."
+          },
+          {
+            "id": "P11",
+            "text": "A marca foi posta na mão direita ou na testa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A marca foi posta na mão direita ou na testa."
+          },
+          {
+            "id": "P12",
+            "text": "Comprar ou vender foi condicionado à marca, nome ou número.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Comprar ou vender foi condicionado à marca, nome ou número."
+          },
+          {
+            "id": "P13",
+            "text": "O número declarado é seiscentos e sessenta e seis.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "13.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O número declarado é seiscentos e sessenta e seis."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "13.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "As duas bestas e o número: Apocalipse 13.1-18 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-tacas": {
+      "id": "nt2-apocalipse-tacas",
+      "kind": "canonical-case",
+      "title": "As sete taças",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 16.1-21",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "16.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais lugares e efeitos aparecem na sequência das sete taças?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "As taças são numeradas e seus destinos são declarados no próprio texto.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde foi derramada a primeira taça",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sobre a terra"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "No mar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Nos rios"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No ar"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sobre a terra",
+          "enderecoNAA": "Apocalipse 16.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "16.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde foi derramada a segunda taça",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No mar"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "No sol"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No trono da besta"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "No Eufrates"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No mar",
+          "enderecoNAA": "Apocalipse 16.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "16.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Sobre o que foi derramada a quinta taça",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O trono da besta"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os rios"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O sol"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O ar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O trono da besta",
+          "enderecoNAA": "Apocalipse 16.10",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "16.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde foi derramada a sétima taça",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "No ar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Na terra"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "No mar"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "No santuário"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "No ar",
+          "enderecoNAA": "Apocalipse 16.17",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "16.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A primeira taça foi derramada sobre a terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A primeira taça foi derramada sobre a terra."
+          },
+          {
+            "id": "P02",
+            "text": "Úlceras atingiram os que tinham a marca da besta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Úlceras atingiram os que tinham a marca da besta."
+          },
+          {
+            "id": "P03",
+            "text": "A segunda taça foi derramada no mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A segunda taça foi derramada no mar."
+          },
+          {
+            "id": "P04",
+            "text": "O mar se tornou como sangue de morto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O mar se tornou como sangue de morto."
+          },
+          {
+            "id": "P05",
+            "text": "A terceira taça atingiu rios e fontes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A terceira taça atingiu rios e fontes."
+          },
+          {
+            "id": "P06",
+            "text": "A quarta taça foi derramada sobre o sol.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A quarta taça foi derramada sobre o sol."
+          },
+          {
+            "id": "P07",
+            "text": "A quinta taça foi derramada sobre o trono da besta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A quinta taça foi derramada sobre o trono da besta."
+          },
+          {
+            "id": "P08",
+            "text": "O reino da besta ficou em trevas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O reino da besta ficou em trevas."
+          },
+          {
+            "id": "P09",
+            "text": "A sexta taça foi derramada sobre o Eufrates.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A sexta taça foi derramada sobre o Eufrates."
+          },
+          {
+            "id": "P10",
+            "text": "As águas do Eufrates secaram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As águas do Eufrates secaram."
+          },
+          {
+            "id": "P11",
+            "text": "A sétima taça foi derramada no ar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A sétima taça foi derramada no ar."
+          },
+          {
+            "id": "P12",
+            "text": "Três espíritos imundos semelhantes a rãs saíram das bocas do dragão, da besta e do falso profeta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Três espíritos imundos semelhantes a rãs saíram das bocas do dragão, da besta e do falso profeta."
+          },
+          {
+            "id": "P13",
+            "text": "Os reis foram ajuntados no lugar chamado Armagedom.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "16.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os reis foram ajuntados no lugar chamado Armagedom."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "16.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "As sete taças: Apocalipse 15.5–16.21 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-mil-anos-juizo": {
+      "id": "nt2-apocalipse-mil-anos-juizo",
+      "kind": "canonical-case",
+      "title": "Mil anos e o grande trono branco",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 20.1-15",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "20.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais agentes, períodos, lugares e livros aparecem na sequência de Apocalipse 20?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O período declarado e a sequência de prisão, soltura e juízo organizam o conjunto.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Por quanto tempo o dragão foi preso",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Mil anos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Quarenta e dois meses"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sete anos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mil duzentos e sessenta dias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Mil anos",
+          "enderecoNAA": "Apocalipse 20.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "20.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem segurou e prendeu o dragão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um anjo que desceu do céu"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Miguel"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um dos anciãos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um anjo que desceu do céu",
+          "enderecoNAA": "Apocalipse 20.1-2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "20.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde o dragão foi lançado inicialmente",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "No abismo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "No lago de fogo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "No mar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Na grande cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "No abismo",
+          "enderecoNAA": "Apocalipse 20.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "20.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual outro livro foi aberto no juízo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Livro da Vida"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O livro dos sete selos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O livrinho"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O livro de Moisés"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Livro da Vida",
+          "enderecoNAA": "Apocalipse 20.12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "20.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um anjo desceu do céu com a chave do abismo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um anjo desceu do céu com a chave do abismo."
+          },
+          {
+            "id": "P02",
+            "text": "O anjo também carregava uma grande corrente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O anjo também carregava uma grande corrente."
+          },
+          {
+            "id": "P03",
+            "text": "Ele segurou o dragão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele segurou o dragão."
+          },
+          {
+            "id": "P04",
+            "text": "O texto identifica o dragão como diabo e Satanás.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto identifica o dragão como diabo e Satanás."
+          },
+          {
+            "id": "P05",
+            "text": "O dragão foi preso por mil anos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O dragão foi preso por mil anos."
+          },
+          {
+            "id": "P06",
+            "text": "Ele foi lançado no abismo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele foi lançado no abismo."
+          },
+          {
+            "id": "P07",
+            "text": "O abismo foi fechado e selado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O abismo foi fechado e selado."
+          },
+          {
+            "id": "P08",
+            "text": "Depois dos mil anos ele seria solto por pouco tempo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois dos mil anos ele seria solto por pouco tempo."
+          },
+          {
+            "id": "P09",
+            "text": "Satanás seria solto ao se completarem os mil anos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Satanás seria solto ao se completarem os mil anos."
+          },
+          {
+            "id": "P10",
+            "text": "Ele saiu para enganar as nações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele saiu para enganar as nações."
+          },
+          {
+            "id": "P11",
+            "text": "João viu um grande trono branco.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "João viu um grande trono branco."
+          },
+          {
+            "id": "P12",
+            "text": "Livros foram abertos diante dos mortos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Livros foram abertos diante dos mortos."
+          },
+          {
+            "id": "P13",
+            "text": "Também foi aberto o Livro da Vida.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar itens explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "20.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Também foi aberto o Livro da Vida."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: as respostas são itens explicitamente associados no próprio recorte NAA, sem exigir ligação causal entre elas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "20.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ],
+        "canonicalSummary": "Mil anos e o grande trono branco: Apocalipse 20.1-15 reúne os itens explícitos usados nos quatro campos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2joao-verdade-hospitalidade": {
+      "id": "nt2-2joao-verdade-hospitalidade",
+      "kind": "canonical-case",
+      "title": "Verdade, enganadores e visita em 2 João",
+      "canon": {
+        "book": "2 João",
+        "referenceNAA": "2 João 1-13",
+        "references": [
+          {
+            "book": "2 João",
+            "passage": "1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoas, ensinos e planos aparecem na carta à comunidade chamada senhora eleita?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo textual do conjunto temático.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada, limitada às associações declaradas na NAA."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem escreve a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O presbítero"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Paulo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Tiago"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Demétrio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O presbítero",
+          "enderecoNAA": "2 João 1",
+          "answerReferences": [
+            {
+              "book": "2 João",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como a destinatária é chamada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Senhora eleita"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Irmã de Gaio"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Serva de Cencreia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Profetisa de Tiatira"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Senhora eleita",
+          "enderecoNAA": "2 João 1",
+          "answerReferences": [
+            {
+              "book": "2 João",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem não deve ser recebido em casa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Quem não leva a doutrina de Cristo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Todo estrangeiro"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Quem pede ajuda"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os filhos da irmã"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Quem não leva a doutrina de Cristo",
+          "enderecoNAA": "2 João 9-10",
+          "answerReferences": [
+            {
+              "book": "2 João",
+              "passage": "9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o autor esperava conversar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Pessoalmente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Por outra carta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Por um mensageiro anônimo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Por uma profecia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Pessoalmente",
+          "enderecoNAA": "2 João 12",
+          "answerReferences": [
+            {
+              "book": "2 João",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O remetente se apresenta como presbítero.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O remetente se apresenta como presbítero."
+          },
+          {
+            "id": "P02",
+            "text": "A destinatária é chamada senhora eleita.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A destinatária é chamada senhora eleita."
+          },
+          {
+            "id": "P03",
+            "text": "A carta afirma que a verdade permanece no grupo indicado por “nós” e estará com ele para sempre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A carta afirma que a verdade permanece no grupo indicado por “nós” e estará com ele para sempre."
+          },
+          {
+            "id": "P04",
+            "text": "Alguns filhos foram encontrados andando na verdade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Alguns filhos foram encontrados andando na verdade."
+          },
+          {
+            "id": "P05",
+            "text": "O mandamento de amor não era apresentado como novo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O mandamento de amor não era apresentado como novo."
+          },
+          {
+            "id": "P06",
+            "text": "Muitos enganadores não confessavam Jesus Cristo vindo em carne.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos enganadores não confessavam Jesus Cristo vindo em carne."
+          },
+          {
+            "id": "P07",
+            "text": "Quem não leva a doutrina não deve ser recebido em casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "9-10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Quem não leva a doutrina não deve ser recebido em casa."
+          },
+          {
+            "id": "P08",
+            "text": "O autor preferiu não escrever tudo com papel e tinta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O autor preferiu não escrever tudo com papel e tinta."
+          },
+          {
+            "id": "P09",
+            "text": "Ele esperava visitar e conversar pessoalmente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Associar fatos explícitos do conjunto temático",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 João",
+                "passage": "12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele esperava visitar e conversar pessoalmente."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 João relaciona o presbítero, a comunidade interpretada como senhora eleita, os enganadores e a visita esperada.",
+        "hinge": "Pauta temática autorizada, limitada às associações declaradas na NAA.",
+        "references": [
+          {
+            "book": "2 João",
+            "passage": "1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

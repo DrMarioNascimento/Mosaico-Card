@@ -20,3 +20,8 @@ Gl 1.1-24 originou pauta autobiográfica com 25 fatos. A comparação com At 9.1
 | Gl 6 | Exortações e conclusão autógrafa; fatos epistolares são insuficientes para quatro campos e 25 pistas próprias. |
 
 Gálatas passa a **analisado nesta rodada**, com uma pauta autorada e a cronologia de Gl 2 explicitamente bloqueada.
+
+
+## Reavaliação temática — checkpoint 032
+
+Gl 5.16-26 originou pauta temática sobre as listas explicitamente contrastadas; uma redundância recíproca foi retirada na auditoria.

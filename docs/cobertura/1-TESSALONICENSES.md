@@ -18,3 +18,8 @@ Em 12/09/2026, as cinco páginas `https://www.bibliaonline.com.br/naa/1ts/1` a `
 | 1Ts 5 | Vigilância e exortações; lista não tratada como episódio. |
 
 1 Tessalonicenses passa a **analisado nesta rodada**, com uma pauta autorada.
+
+
+## Reavaliação temática — checkpoint 032
+
+1Ts 5.12-28 originou pauta temática de exortações com capacidade 2–6.

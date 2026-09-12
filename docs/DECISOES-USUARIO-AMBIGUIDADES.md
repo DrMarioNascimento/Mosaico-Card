@@ -22,3 +22,7 @@ O usuário decidiu somente os limites interpretativos acima. A atribuição `bib
 ## Decisão posterior — capacidade variável por pauta
 
 Em 12/09/2026, o usuário revogou a exigência universal de 25 cartas/12 participantes por pauta e autorizou as oito pautas de João com 13 pistas para mesas compatíveis. A regra econômica não muda: cada participante recebe duas cartas e deve restar ao menos uma no poço. A capacidade passa a ser `min(12, floor((cartas - 1) / 2))`; portanto, 13 cartas permitem de 2 a 6 participantes, nunca de 7 a 12. A decisão altera capacidade operacional, não a revisão bíblica previamente registrada. Hebreus 11 permanece bloqueado editorialmente.
+
+## Decisão posterior — pautas temáticas e listas
+
+Em 12/09/2026, o usuário autorizou pautas temáticas e listas que reúnam fatos de episódios ou blocos diferentes, desde que sejam coerentes, não contraditórias e sustentadas pela NAA. Ausência de ligação causal, de uma única dedução ou presença de quatro perguntas independentes deixa de ser motivo de bloqueio. Hebreus 11 deve ser liberado após conferência dos demais critérios. Todos os recortes anteriormente recusados **apenas** por lista, conjunto temático, falta de dente comum ou pela antiga capacidade universal de 25 cartas devem ser reavaliados; capacidade variável continua vigente. Permanecem fora Mc 16.9-20, a questão de 1Pe 3.19 e 1Pe 4.6, além dos limites interpretativos já aprovados.

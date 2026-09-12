@@ -14,7 +14,7 @@ Atualizada em 12 de setembro de 2026 após o descarte editorial do catálogo ant
 | Tempo total | Implementado | Usa ciclos completos e encerra ao fim do ciclo corrente. |
 | Fechamento final | Implementado | Janela gratuita de 60 s e apuração simultânea. |
 | Pontuação e pódio | Implementado | Ledger por parcelas, residual, desempates, ranking e top 3. |
-| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 63 pautas e 1.480 pistas; 62 editorialmente elegíveis (54 para até 12 e 8 para até 6) e 1 bloqueada editorialmente. |
+| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 76 pautas e 1.645 pistas; todas editorialmente elegíveis (55 para até 12, 20 para até 6 e 1 para até 4). |
 | Demonstração da ovelha | Implementada e isolada | Não participa do catálogo ou do saco NT. |
 
 ## Bloqueio editorial P0

@@ -12,3 +12,8 @@ Em 12/09/2026, as cinco páginas `https://www.bibliaonline.com.br/naa/tg/1` a `/
 | Tg 5.13-20 | Oração, enfermos, Elias e restauração; recorte curto e alusivo, sem completar Elias a partir do AT. |
 
 Tiago passa a **analisado nesta rodada**, sem pauta autorada. A decisão decorre da estrutura de cada recorte, não de exclusão do gênero sapiencial.
+
+
+## Reavaliação temática — checkpoint 032
+
+Tg 3.1-18 originou pauta temática sobre comparações da língua e características da sabedoria.

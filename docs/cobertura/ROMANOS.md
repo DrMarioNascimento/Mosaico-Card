@@ -28,3 +28,8 @@ Rm 15.14-33 originou a pauta “Os planos de Paulo aos romanos”, com 25 fatos 
 | Rm 16 | Saudações avaliadas; não infladas em cartas de nomes. Rm 16.24 permanece bloqueado por estar colcheteado. |
 
 Com decisões registradas para todas as faixas, Romanos passa a **analisado nesta rodada**, com uma pauta autorada. Isso não torna exclusões permanentes nem equivale a parecer humano.
+
+
+## Reavaliação temática — checkpoint 032
+
+Rm 16.1-23 originou `nt2-romanos-saudacoes` após a autorização temática; Rm 16.24 continuou fora da pauta por sua ressalva textual.

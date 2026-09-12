@@ -30,3 +30,8 @@ As páginas restantes de 1Co 2–10 e 12–15 foram baixadas entre 09:33:51Z e 0
 | 1Co 16 | Autorado e comparado com Rm 15 e 2Co 8–9. |
 
 1 Coríntios passa a **analisado nesta rodada**, com uma pauta autorada e motivos específicos por faixa.
+
+
+## Reavaliação temática — checkpoint 032
+
+1Co 12.4-31 e 15.1-11 originaram pautas temáticas próprias após a revogação do veto a listas; nenhuma afirmação foi completada por paralelos ou pelo AT.

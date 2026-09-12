@@ -347,3 +347,16 @@ Seleção e sorteio recebem o tamanho real da mesa. O saco persistido ganhou par
 
 - **Inventário:** 63 pautas e 1.480 pistas; 62 editorialmente elegíveis/jogáveis em alguma mesa, das quais 54 chegam a 12 participantes; 1 bloqueada editorialmente.
 - **Conteúdo:** nenhuma pista foi acrescentada às oito pautas curtas; decisões bíblicas anteriores foram preservadas.
+
+## Checkpoint 030 — decisão temática recebida
+
+Foi registrada antes da implementação a autorização para pautas de listas/conjuntos temáticos e a revogação do bloqueio por ausência de dente único. Hebreus 11 será conferido e os recortes afetados serão inventariados; a decisão não dispensa NAA consultada, coerência, C1–C4, alternativas, referências, focal, proveniência nem capacidade variável. Exclusões textuais expressas permanecem intactas.
+
+## Checkpoint 031–032 — inventário global e lotes temáticos
+
+Foram obtidas novamente 124 páginas NAA identificadas dos recortes afetados e cada exclusão baseada nos critérios revogados recebeu resultado em `docs/REAVALIACAO-PAUTAS-TEMATICAS.md`. Doze pautas temáticas foram autoradas no lote 031; no lote 032, 2 João recebeu pauta de nove fatos, sem transformar a interpretação comunitária em gabarito lexical. Hebreus 11 foi conferido e liberado sem importar fatos do AT.
+
+O auditor apontou redações paralelas próprias de listas. A duplicação recíproca sobre carne/Espírito foi corrigida por um fato distinto de Gl 5.18. Qualificações paralelas de bispo/diácono e destinos distintos das taças foram mantidos com justificativas versionadas. Não há par semântico pendente.
+
+- **Inventário:** 76 pautas, 1.645 pistas; todas editorialmente elegíveis. Cinquenta e cinco chegam a 12 participantes, vinte a 6 e uma a 4.
+- **Pendências:** nenhum recorte permanece recusado apenas por ser lista, conjunto temático, perguntas independentes, falta de dente causal ou antiga meta de 25. Impedimentos restantes estão individualizados no inventário.

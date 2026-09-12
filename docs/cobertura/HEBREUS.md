@@ -20,3 +20,8 @@ Hb 1–10 e 12–13 foram acessados, não lidos por recorte. Hebreus está **em 
 | Hb 13.20-25 | Bênção, Timóteo libertado e saudações; conclusão curta, não anexada a outro tema. |
 
 Hb 11 sustentou pauta com 25 fatos e quatro campos porque o próprio capítulo associa explicitamente agentes, ações e resultados. As pistas limitam-se ao que Hebreus diz. Hebreus passa a **analisado nesta rodada**, com uma pauta autorada.
+
+
+## Reavaliação temática — checkpoint 032
+
+Hb 11 foi liberado após a decisão do usuário: associações independentes são permitidas e todos os fatos permanecem restritos ao capítulo, sem complementação pelo AT.

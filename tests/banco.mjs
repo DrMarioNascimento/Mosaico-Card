@@ -10,13 +10,23 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 62);
-assert.equal(catalog.summary.max12Cases, 54);
+assert.equal(catalog.summary.editoriallyEligibleCases, 76);
+assert.equal(catalog.summary.max12Cases, 55);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
-assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].status.playable, false, "lista sem dente dedutivo permanece bloqueada");
-assert.ok(catalog.byId["nt2-hebreus-testemunhos-fe"].pendingIssues.includes("editorial:blocked"));
+assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].status.playable, true, "pauta temática de Hebreus 11 foi liberada");
+assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].deck.maxPlayers, 12);
+assert.ok(catalog.byId["nt2-hebreus-testemunhos-fe"].deck.cards.every(card => card.references.every(reference => reference.book === "Hebreus")), "Hebreus 11 não importa fatos do AT");
+assert.equal(catalog.byId["nt2-2joao-verdade-hospitalidade"].deck.maxPlayers, 4);
+const tematicasNovas = [
+  "nt2-romanos-saudacoes", "nt2-1corintios-dons-corpo", "nt2-1corintios-testemunhas-ressurreicao",
+  "nt2-galatas-carne-espirito", "nt2-efesios-armadura", "nt2-1timoteo-liderancas",
+  "nt2-1tessalonicenses-exortacoes", "nt2-tiago-lingua-sabedoria", "nt2-apocalipse-selos",
+  "nt2-apocalipse-duas-bestas", "nt2-apocalipse-tacas", "nt2-apocalipse-mil-anos-juizo"
+];
+assert.ok(tematicasNovas.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
+
 assert.ok(catalog.byId["nt2-apocalipse-trono-cordeiro"].status.playable);
 assert.ok(catalog.byId["nt2-apocalipse-mulher-dragao"].status.playable);
 assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].status.playable);

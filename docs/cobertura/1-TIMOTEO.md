@@ -17,3 +17,8 @@ Em 12/09/2026, as seis páginas `https://www.bibliaonline.com.br/naa/1tm/1` a `/
 | 1Tm 6 | Servos, contentamento, combate e ricos; exortações independentes não combinadas. |
 
 A delimitação de 1Tm 1.3-20 foi concluída sem pauta: juntar nomes disciplinares, passado de Paulo e missão de Timóteo produziria um recorte heterogêneo. 1 Timóteo passa a **analisado nesta rodada**.
+
+
+## Reavaliação temática — checkpoint 032
+
+1Tm 3.1-15 originou pauta temática de qualificações por grupo; listas deixaram de ser veto editorial.

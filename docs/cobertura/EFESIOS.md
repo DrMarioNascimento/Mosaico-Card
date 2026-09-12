@@ -18,3 +18,8 @@ Ef 1–5 foram acessados, não revisados por recorte. Efésios está **em andame
 | Ef 6.21-24 | Tíquico, finalidade do envio e bênção são fatos válidos, mas insuficientes isoladamente. |
 
 Efésios passa a **analisado nesta rodada**, sem pauta autorada. A decisão sobre a armadura é insuficiência do contrato do jogo, não exclusão automática de metáforas.
+
+
+## Reavaliação temática — checkpoint 032
+
+Ef 6.10-20 originou pauta temática de 13 fatos, preservando cada associação da metáfora sem importar conteúdo das citações do AT.
