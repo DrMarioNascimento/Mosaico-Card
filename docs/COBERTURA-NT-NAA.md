@@ -4,9 +4,9 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Analisado — auditoria individual em curso | 21 + faixas restantes | 12 próprios + 3 consolidados | alimentação consolidada com João |
-| Marcos | Analisado — auditoria individual em curso | 17 | 10 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
-| Lucas | Analisado — auditoria individual em curso | 22 + faixas restantes | 14 autorados | curtos/poéticos/paralelos documentados |
+| Mateus | Analisado — pendências solicitadas encerradas no checkpoint 036 | 21 + faixas restantes | 14 próprios + 3 consolidados | alimentação consolidada com João |
+| Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
+| Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — auditoria individual em curso | 26 + faixas restantes | 14 autorados | 16 bloqueados por insuficiência/delimitação |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |

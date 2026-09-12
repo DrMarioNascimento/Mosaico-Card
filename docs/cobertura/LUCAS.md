@@ -57,3 +57,7 @@ Lc 2.41-52 nt2-lucas-jesus-doze-anos. As exclusões genéricas anteriores ficam 
 ## Auditoria individual — checkpoint 035
 
 Lc 10.38-42; 13.10-17; 14.1-6; 15.8-10; e 17.11-19 originaram cinco pautas de sete fatos, capacidade 2–3.
+
+## Auditoria individual — checkpoint 036
+
+Lc 22.24-38 e Lc 24.36-53 foram relidos na NAA. Originaram `nt2-lucas-mesa-servico-pedro` (14 pistas), com destinatários separados, e `nt2-lucas-aparicao-ascensao` (17 pistas), sem transferir detalhes de outros finais. As pendências solicitadas de Lucas estão encerradas; Atos, Romanos–Judas e Apocalipse ficam para outra rodada.

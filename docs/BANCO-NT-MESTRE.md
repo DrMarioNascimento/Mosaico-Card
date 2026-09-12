@@ -372,3 +372,32 @@ Mt 1.18-25; 3.13-17; 4.1-11; Mc 1.16-20; 1.21-28; e 3.1-6 foram relidos na NAA e
 ## Checkpoint 035 — terceiro lote da auditoria individual
 
 Após consulta NAA de Mt 15; Mc 2,6–8,12; e Lc 10,13–15,17, onze pautas foram incorporadas com sete fatos cada e capacidade 2–3. O inventário passa a 99 pautas e 1.854 pistas: 55 pautas chegam a 12 jogadores, 26 a seis, sete a quatro e onze a três. O auditor não deixou par semântico pendente. A auditoria continua porque o documento individual ainda contém candidatos explícitos.
+
+## Checkpoint 036 — pendências finais dos Evangelhos auditadas
+
+O trabalho partiu exatamente de `471bc4c8affd1f6657b98d5dc12a4dc6c53d5582`, com 99 pautas elegíveis e 1.854 pistas; a branch não continha avanço posterior. Em 12/09/2026, as páginas NAA identificadas de Mt 20–21,28; Mc 10–11,16; Lc 18–19,22–24; Jo 20 e At 1 foram obtidas em `bible.com/pt/bible/1840` com HTTP 200 e relidas nos recortes pertinentes. A comparação documental não importou detalhes entre relatos.
+
+Um único lote de cinco pautas encerrou somente as pendências solicitadas dos Evangelhos: `nt2-mateus-entrada-jerusalem` (11 pistas), `nt2-mateus-mulheres-ressurreicao` (13), `nt2-marcos-bartimeu` (7), `nt2-lucas-mesa-servico-pedro` (14) e `nt2-lucas-aparicao-ascensao` (17). Em Bartimeu, apenas recuperação e seguimento, comuns a Mc 10.52, Mt 20.34 e Lc 18.43, receberam referências múltiplas; nome, filiação, capa e posição na saída de Jericó permaneceram próprios de Marcos. Mt 21 e Mt 28 mantêm a redação de Mateus; Lc 22 separa a fala ao grupo da advertência pessoal a Simão; Lc 24 não recebe detalhes dos demais finais.
+
+- **Inventário após o lote:** 104 pautas, 1.916 pistas; todas elegíveis em alguma mesa. Cinquenta e cinco chegam a 12 jogadores; uma a oito; 28 a seis; uma a cinco; sete a quatro; e doze a três.
+- **Limite desta rodada:** a auditoria de Atos, Romanos–Judas e Apocalipse permanece expressamente pendente para outra rodada. Este checkpoint não declara o banco completo.
+- **Publicação:** não realizada; não houve merge, deploy nem alteração de credenciais ou Firebase.
+
+## Checkpoint 037 — primeiro lote incremental de Atos
+
+A PR 8 informou `a89795cebb8c179780aec8dd8f5475284ea81321` como head remoto do checkpoint 036; a árvore local disponível correspondia ao mesmo inventário preservado de 104 pautas e 1.916 pistas, embora o objeto remoto não estivesse presente no clone sem remote configurado. Antes da autoria, validação estrutural e contagem independente confirmaram os 104 IDs únicos. A comparação mecanizada após a edição confirmou que seus conteúdos permaneceram idênticos, exceto pela correção documental delimitada de Bartimeu descrita abaixo.
+
+As páginas NAA de Atos 4, 5, 7, 9 e 12 foram obtidas em 12/09/2026 de `bible.com/pt/bible/1840`, todas com HTTP 200. Um lote de cinco pautas foi autorado: `nt2-atos-oracao-ousadia` (9 pistas), `nt2-atos-apostolos-sinedrio` (25), `nt2-atos-morte-estevao` (9), `nt2-atos-eneias-tabita` (17) e `nt2-atos-herodes-tiro-sidom` (7). Cada recorte recebeu decisão própria; a combinação temática autorizada de Eneias/Tabita mantém os dois episódios e suas cidades explicitamente separados.
+
+A revisão solicitada de Bartimeu concluiu que cura e seguimento genéricos não demonstram por si sós identidade episódica entre Mc 10.46-52, Mt 20.29-34 e Lc 18.35-43. Por isso, `nt2-marcos-bartimeu:P07` e o hinge agora ficam exclusivamente em Marcos; a pauta não foi bloqueada nem alterada em seus demais fatos.
+
+- **Inventário:** 109 pautas elegíveis, 1.983 pistas; 56 chegam a 12 jogadores, duas a oito, 28 a seis, uma a cinco, nove a quatro e treze a três.
+- **Preservação:** os 104 IDs do checkpoint 036 mantêm ordem e conteúdo, salvo a correção explicitamente justificada de Bartimeu.
+- **Pendências:** os demais recortes de Atos e os candidatos de Romanos–Judas e Apocalipse ficam para rodadas posteriores. O banco não é declarado completo.
+- **Operação:** sem merge, deploy, publicação ou alteração de credenciais/Firebase.
+
+## Checkpoint 038 — contenção do diff antes do segundo lote de Atos
+
+A medição obrigatória foi feita antes de editar fonte, catálogo ou conteúdo bíblico. O checkpoint 037 estava limpo e confirmou 109 IDs únicos, 109 pautas elegíveis e 1.983 pistas. Embora o diff novo contra `a4acf82b488115a423f168d98bad1fc5251a4afd` fosse zero, o acumulado contra `471bc4c8affd1f6657b98d5dc12a4dc6c53d5582` já somava 10.257 inserções, 36 exclusões e 374.944 bytes em 14 arquivos, incluindo 10.167 inserções nos dois artefatos do banco.
+
+Para não recriar o erro de tamanho, esta rodada registra somente a necessidade operacional de iniciar o próximo lote sobre uma base que já incorpore o checkpoint 037. Não houve consulta NAA nem decisão editorial sobre At 13.4-12, 14.8-20, 16.6-15, 18.1-17 ou 19.11-20; nenhuma pauta ou pista foi acrescentada. At 21/23, Romanos–Judas e Apocalipse também permanecem pendentes. Não houve merge, deploy, publicação nem alteração de credenciais/Firebase.
