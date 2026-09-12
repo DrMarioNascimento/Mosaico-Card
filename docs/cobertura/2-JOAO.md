@@ -1,3 +1,5 @@
 # Levantamento por recorte — 2 João
 
-A única página NAA foi baixada e lida integralmente em 12/09/2026 no lote entre 11:48:55Z e 11:49:04Z. A identidade da “senhora eleita” não é explicitada e fica bloqueada para o usuário. Amor, enganadores, hospitalidade e plano de visita são fatos/instruções válidos, porém treze versículos não sustentam 25 pistas distintas sem inflação. 2 João passa a **analisado nesta rodada**, sem pauta.
+A carta NAA foi lida integralmente em 12/09/2026. Por decisão editorial do usuário, “senhora eleita” é interpretada como Igreja no sentido de comunidade cristã, sem restringi-la a uma igreja local. O texto não explicita lexicalmente essa identificação, portanto ela permanece registrada como interpretação aprovada pelo usuário, não como revisão bíblica de uma resposta.
+
+Amor, enganadores, hospitalidade e plano de visita são informações válidas, mas os treze versículos não sustentam 25 pistas distintas e quatro campos com dente comum sem atomização. 2 João está **analisado**, sem pauta e sem ambiguidade ainda reservada ao usuário.

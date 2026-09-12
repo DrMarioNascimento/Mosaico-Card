@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-024",
+  "catalogVersion": "2026.09-batch-027",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,9 +10,9 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 60,
-    "fields": 240,
-    "playableCases": 51
+    "cases": 63,
+    "fields": 252,
+    "playableCases": 54
   },
   "order": [
     "nt2-joao-cana",
@@ -74,7 +74,10 @@
     "nt2-1tessalonicenses-timoteo",
     "nt2-2timoteo-pedidos-finais",
     "nt2-hebreus-testemunhos-fe",
-    "nt2-apocalipse-visao-inicial"
+    "nt2-apocalipse-visao-inicial",
+    "nt2-apocalipse-trono-cordeiro",
+    "nt2-apocalipse-mulher-dragao",
+    "nt2-apocalipse-nova-jerusalem"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -33157,13 +33160,20 @@
       "title": "Filipe e o oficial etíope",
       "canon": {
         "book": "Atos",
-        "referenceNAA": "Atos 8.26-40",
+        "referenceNAA": "Atos 8.26-40; Atos 8.26-40",
         "references": [
           {
             "book": "Atos",
             "passage": "8.26-40",
             "edition": "NAA",
             "sourceId": "https://www.bibliaonline.com.br/naa/atos/8",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Atos",
+            "passage": "8.26-40",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.8.NAA",
             "checkedAt": "2026-09-12"
           }
         ]
@@ -33189,7 +33199,7 @@
       "focalFieldId": "C1",
       "focalJustification": "O agente focal conecta a sequência e distingue o recorte.",
       "editorial": {
-        "hinge": "A solução usa apenas fatos explícitos no recorte consultado."
+        "hinge": "A solução usa fatos explícitos do recorte; Atos 8.37 não sustenta nenhum gabarito e aparece somente com a nota de que o trecho se encontra em manuscritos mais recentes."
       },
       "fields": [
         {
@@ -33943,12 +33953,37 @@
               }
             ],
             "texto": "Filipe reapareceu em Azoto e evangelizou até Cesareia."
+          },
+          {
+            "id": "P26",
+            "text": "Em trecho que a NAA assinala como presente apenas em manuscritos mais recentes, o oficial declara crer que Jesus Cristo é o Filho de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar a declaração permitida sem ocultar sua ressalva textual",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "8.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.8.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em trecho que a NAA assinala como presente apenas em manuscritos mais recentes, o oficial declara crer que Jesus Cristo é o Filho de Deus."
           }
         ]
       },
       "reveal": {
-        "canonicalSummary": "Atos 8.26-40 sustenta os quatro campos e as pistas.",
-        "hinge": "A solução usa apenas fatos explícitos no recorte consultado.",
+        "canonicalSummary": "Atos 8.26-40 relata o encontro de Filipe com o oficial etíope, sua leitura, o anúncio de Jesus e o batismo; a declaração de 8.37 é mantida com a ressalva textual da NAA.",
+        "hinge": "A solução usa fatos explícitos do recorte; Atos 8.37 não sustenta nenhum gabarito e aparece somente com a nota de que o trecho se encontra em manuscritos mais recentes.",
         "references": [
           {
             "book": "Atos",
@@ -47943,6 +47978,2508 @@
             "passage": "1.1-20",
             "edition": "NAA",
             "sourceId": "https://www.bibliaonline.com.br/naa/ap/1",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-trono-cordeiro": {
+      "id": "nt2-apocalipse-trono-cordeiro",
+      "kind": "canonical-case",
+      "title": "O trono, o livro e o Cordeiro",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 4.1–5.14; Apocalipse 5.1-14",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "4.1–5.14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Apocalipse",
+            "passage": "5.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Que conjunto recompõe a visão do trono e a abertura do livro?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A ação de tomar o livro une o cenário do trono à identificação textual do Cordeiro.",
+      "editorial": {
+        "hinge": "A passagem conecta o cenário, o problema do livro fechado, o anúncio do ancião e a ação do Cordeiro sem lhe atribuir identidade histórica externa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem tomou o livro",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Cordeiro"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O anjo forte"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Um dos anciãos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Cordeiro",
+          "enderecoNAA": "Apocalipse 5.6-7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "5.6-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos anciãos cercavam o trono",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Vinte e quatro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sete"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Quatro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Vinte e quatro",
+          "enderecoNAA": "Apocalipse 4.4",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quantos selos fechavam o livro",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Sete"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Vinte e quatro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Sete",
+          "enderecoNAA": "Apocalipse 5.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "5.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem anunciou que alguém havia vencido",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um dos anciãos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um dos quatro seres"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um dos anjos das igrejas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um dos anciãos",
+          "enderecoNAA": "Apocalipse 5.5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "5.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Uma porta estava aberta no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma porta estava aberta no céu."
+          },
+          {
+            "id": "P02",
+            "text": "A voz ouvida era semelhante a uma trombeta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A voz ouvida era semelhante a uma trombeta."
+          },
+          {
+            "id": "P03",
+            "text": "Havia um trono armado no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Havia um trono armado no céu."
+          },
+          {
+            "id": "P04",
+            "text": "Vinte e quatro tronos cercavam o trono principal.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Vinte e quatro tronos cercavam o trono principal."
+          },
+          {
+            "id": "P05",
+            "text": "Vinte e quatro anciãos estavam vestidos de branco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Vinte e quatro anciãos estavam vestidos de branco."
+          },
+          {
+            "id": "P06",
+            "text": "Eles usavam coroas de ouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles usavam coroas de ouro."
+          },
+          {
+            "id": "P07",
+            "text": "Do trono saíam relâmpagos, vozes e trovões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Do trono saíam relâmpagos, vozes e trovões."
+          },
+          {
+            "id": "P08",
+            "text": "Sete tochas ardiam diante do trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sete tochas ardiam diante do trono."
+          },
+          {
+            "id": "P09",
+            "text": "O texto explica as tochas como os sete espíritos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto explica as tochas como os sete espíritos de Deus."
+          },
+          {
+            "id": "P10",
+            "text": "Quatro seres viventes estavam junto ao trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Quatro seres viventes estavam junto ao trono."
+          },
+          {
+            "id": "P11",
+            "text": "Cada ser vivente tinha seis asas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cada ser vivente tinha seis asas."
+          },
+          {
+            "id": "P12",
+            "text": "Os anciãos depositavam suas coroas diante do trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "4.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os anciãos depositavam suas coroas diante do trono."
+          },
+          {
+            "id": "P13",
+            "text": "O livro estava na mão direita de quem ocupava o trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O livro estava na mão direita de quem ocupava o trono."
+          },
+          {
+            "id": "P14",
+            "text": "O livro estava escrito por dentro e por fora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O livro estava escrito por dentro e por fora."
+          },
+          {
+            "id": "P15",
+            "text": "Sete selos fechavam o livro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sete selos fechavam o livro."
+          },
+          {
+            "id": "P16",
+            "text": "Um anjo forte perguntou quem era digno de abrir o livro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um anjo forte perguntou quem era digno de abrir o livro."
+          },
+          {
+            "id": "P17",
+            "text": "João chorava porque ninguém digno havia sido encontrado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "João chorava porque ninguém digno havia sido encontrado."
+          },
+          {
+            "id": "P18",
+            "text": "Um dos anciãos mandou João não chorar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um dos anciãos mandou João não chorar."
+          },
+          {
+            "id": "P19",
+            "text": "O ancião anunciou a vitória do Leão da tribo de Judá.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O ancião anunciou a vitória do Leão da tribo de Judá."
+          },
+          {
+            "id": "P20",
+            "text": "O vencedor também foi chamado Raiz de Davi.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O vencedor também foi chamado Raiz de Davi."
+          },
+          {
+            "id": "P21",
+            "text": "João viu um Cordeiro em pé.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "João viu um Cordeiro em pé."
+          },
+          {
+            "id": "P22",
+            "text": "O Cordeiro parecia ter sido morto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Cordeiro parecia ter sido morto."
+          },
+          {
+            "id": "P23",
+            "text": "O Cordeiro tinha sete chifres.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Cordeiro tinha sete chifres."
+          },
+          {
+            "id": "P24",
+            "text": "O Cordeiro tomou o livro da mão direita daquele que estava no trono.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Cordeiro tomou o livro da mão direita daquele que estava no trono."
+          },
+          {
+            "id": "P25",
+            "text": "Seres viventes e anciãos se prostraram quando o livro foi tomado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Seres viventes e anciãos se prostraram quando o livro foi tomado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Apocalipse 4–5 apresenta o trono, vinte e quatro anciãos, um livro selado e o Cordeiro que o toma.",
+        "hinge": "A passagem conecta o cenário, o problema do livro fechado, o anúncio do ancião e a ação do Cordeiro sem lhe atribuir identidade histórica externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "4.1–5.14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Apocalipse",
+            "passage": "5.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-mulher-dragao": {
+      "id": "nt2-apocalipse-mulher-dragao",
+      "kind": "canonical-case",
+      "title": "A mulher e o dragão",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 12.1-18",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "12.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Que conjunto recompõe os sinais e o conflito descritos no céu?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O próprio capítulo identifica explicitamente o dragão, oferecendo o dente sem interpretação externa da mulher.",
+      "editorial": {
+        "hinge": "A identificação interna do dragão liga os sinais e o conflito; a pauta não define externamente a mulher nem converte a sequência em cronologia histórica."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o texto identifica o grande dragão",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Diabo e Satanás"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Miguel"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Abadom e Apoliom"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A primeira besta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Diabo e Satanás",
+          "enderecoNAA": "Apocalipse 12.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "12.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantas estrelas havia na coroa da mulher",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Sete"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Dez"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Vinte e quatro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Doze",
+          "enderecoNAA": "Apocalipse 12.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem liderou os anjos contra o dragão",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Miguel"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Gabriel"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um dos anciãos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Miguel",
+          "enderecoNAA": "Apocalipse 12.7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "12.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para onde a mulher fugiu",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Para o deserto"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Para uma ilha"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Para a grande cidade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Para o mar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Para o deserto",
+          "enderecoNAA": "Apocalipse 12.6",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "12.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um grande sinal foi visto no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um grande sinal foi visto no céu."
+          },
+          {
+            "id": "P02",
+            "text": "A mulher estava vestida do sol.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher estava vestida do sol."
+          },
+          {
+            "id": "P03",
+            "text": "A lua estava debaixo dos pés dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A lua estava debaixo dos pés dela."
+          },
+          {
+            "id": "P04",
+            "text": "A coroa da mulher tinha doze estrelas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A coroa da mulher tinha doze estrelas."
+          },
+          {
+            "id": "P05",
+            "text": "A mulher estava grávida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher estava grávida."
+          },
+          {
+            "id": "P06",
+            "text": "Outro sinal mostrou um grande dragão vermelho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Outro sinal mostrou um grande dragão vermelho."
+          },
+          {
+            "id": "P07",
+            "text": "O dragão tinha sete cabeças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O dragão tinha sete cabeças."
+          },
+          {
+            "id": "P08",
+            "text": "Ele tinha dez chifres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele tinha dez chifres."
+          },
+          {
+            "id": "P09",
+            "text": "Sete diademas estavam sobre suas cabeças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sete diademas estavam sobre suas cabeças."
+          },
+          {
+            "id": "P10",
+            "text": "Sua cauda lançou parte das estrelas para a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sua cauda lançou parte das estrelas para a terra."
+          },
+          {
+            "id": "P11",
+            "text": "O dragão aguardava para devorar o filho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O dragão aguardava para devorar o filho."
+          },
+          {
+            "id": "P12",
+            "text": "O filho foi arrebatado para junto de Deus e do trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O filho foi arrebatado para junto de Deus e do trono."
+          },
+          {
+            "id": "P13",
+            "text": "A mulher fugiu para o deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A mulher fugiu para o deserto."
+          },
+          {
+            "id": "P14",
+            "text": "Deus havia preparado um lugar para ela ali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deus havia preparado um lugar para ela ali."
+          },
+          {
+            "id": "P15",
+            "text": "O sustento nesse lugar duraria mil duzentos e sessenta dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O sustento nesse lugar duraria mil duzentos e sessenta dias."
+          },
+          {
+            "id": "P16",
+            "text": "Houve guerra no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Houve guerra no céu."
+          },
+          {
+            "id": "P17",
+            "text": "Miguel e seus anjos lutaram contra o dragão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Miguel e seus anjos lutaram contra o dragão."
+          },
+          {
+            "id": "P18",
+            "text": "O dragão e seus anjos também lutaram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O dragão e seus anjos também lutaram."
+          },
+          {
+            "id": "P19",
+            "text": "O grupo do dragão não venceu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O grupo do dragão não venceu."
+          },
+          {
+            "id": "P20",
+            "text": "O grande dragão foi expulso do céu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O grande dragão foi expulso do céu."
+          },
+          {
+            "id": "P21",
+            "text": "O texto chama o dragão de antiga serpente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto chama o dragão de antiga serpente."
+          },
+          {
+            "id": "P22",
+            "text": "O texto o chama de diabo e Satanás.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O texto o chama de diabo e Satanás."
+          },
+          {
+            "id": "P23",
+            "text": "Os anjos do dragão foram lançados com ele à terra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os anjos do dragão foram lançados com ele à terra."
+          },
+          {
+            "id": "P24",
+            "text": "Após ser lançado à terra, o dragão perseguiu a mulher.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Após ser lançado à terra, o dragão perseguiu a mulher."
+          },
+          {
+            "id": "P25",
+            "text": "A terra abriu a boca e engoliu o rio lançado pelo dragão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "12.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A terra abriu a boca e engoliu o rio lançado pelo dragão."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Apocalipse 12 descreve a mulher, o filho, a guerra dirigida por Miguel e o dragão que o próprio texto chama de diabo e Satanás.",
+        "hinge": "A identificação interna do dragão liga os sinais e o conflito; a pauta não define externamente a mulher nem converte a sequência em cronologia histórica.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "12.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-nova-jerusalem": {
+      "id": "nt2-apocalipse-nova-jerusalem",
+      "kind": "canonical-case",
+      "title": "A Nova Jerusalém",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 21.1–22.5; Apocalipse 22.1-5",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "21.1–22.5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Apocalipse",
+            "passage": "22.1-5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Que conjunto recompõe a origem, a forma e o centro da cidade mostrada a João?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O nome e a procedência da cidade são declarados no texto e organizam todas as demais descrições.",
+      "editorial": {
+        "hinge": "O nome, a procedência e os elementos medidos formam uma descrição interna coerente, sem localizar a cidade no presente nem impor literalidade às medidas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual cidade João viu descendo do céu",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A Nova Jerusalém"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Babilônia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Éfeso"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A grande cidade onde estavam as testemunhas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A Nova Jerusalém",
+          "enderecoNAA": "Apocalipse 21.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "21.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem mostrou a cidade a João",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um dos sete anjos das taças"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um dos vinte e quatro anciãos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Miguel"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O anjo forte do livro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um dos sete anjos das taças",
+          "enderecoNAA": "Apocalipse 21.9-10",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "21.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quantos portões havia na muralha",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Doze"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Sete"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Vinte e quatro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Doze",
+          "enderecoNAA": "Apocalipse 21.12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "21.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que serve de santuário na cidade",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Deus Todo-Poderoso e o Cordeiro"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um templo de ouro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os doze fundamentos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A árvore da vida"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Deus Todo-Poderoso e o Cordeiro",
+          "enderecoNAA": "Apocalipse 21.22",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "21.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "cards": [
+          {
+            "id": "P01",
+            "text": "João viu novo céu e nova terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "João viu novo céu e nova terra."
+          },
+          {
+            "id": "P02",
+            "text": "A primeira terra e o primeiro céu haviam passado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A primeira terra e o primeiro céu haviam passado."
+          },
+          {
+            "id": "P03",
+            "text": "A cidade santa foi chamada Nova Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A cidade santa foi chamada Nova Jerusalém."
+          },
+          {
+            "id": "P04",
+            "text": "Ela descia do céu, da parte de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ela descia do céu, da parte de Deus."
+          },
+          {
+            "id": "P05",
+            "text": "A cidade estava preparada como noiva enfeitada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A cidade estava preparada como noiva enfeitada."
+          },
+          {
+            "id": "P06",
+            "text": "Uma voz anunciou o tabernáculo de Deus com os seres humanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma voz anunciou o tabernáculo de Deus com os seres humanos."
+          },
+          {
+            "id": "P07",
+            "text": "A morte não existirá mais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A morte não existirá mais."
+          },
+          {
+            "id": "P08",
+            "text": "Um dos sete anjos das taças falou com João.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um dos sete anjos das taças falou com João."
+          },
+          {
+            "id": "P09",
+            "text": "O anjo levou João, no Espírito, a uma montanha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O anjo levou João, no Espírito, a uma montanha."
+          },
+          {
+            "id": "P10",
+            "text": "De lá ele mostrou a cidade santa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "De lá ele mostrou a cidade santa."
+          },
+          {
+            "id": "P11",
+            "text": "A cidade tinha uma muralha grande e alta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A cidade tinha uma muralha grande e alta."
+          },
+          {
+            "id": "P12",
+            "text": "A muralha tinha doze portões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A muralha tinha doze portões."
+          },
+          {
+            "id": "P13",
+            "text": "Doze anjos estavam junto aos portões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Doze anjos estavam junto aos portões."
+          },
+          {
+            "id": "P14",
+            "text": "Os nomes das doze tribos estavam escritos nos portões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os nomes das doze tribos estavam escritos nos portões."
+          },
+          {
+            "id": "P15",
+            "text": "Havia três portões em cada direção.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Havia três portões em cada direção."
+          },
+          {
+            "id": "P16",
+            "text": "A muralha tinha doze fundamentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A muralha tinha doze fundamentos."
+          },
+          {
+            "id": "P17",
+            "text": "Os fundamentos traziam os nomes dos doze apóstolos do Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os fundamentos traziam os nomes dos doze apóstolos do Cordeiro."
+          },
+          {
+            "id": "P18",
+            "text": "Uma vara de ouro foi usada para medir a cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Uma vara de ouro foi usada para medir a cidade."
+          },
+          {
+            "id": "P19",
+            "text": "Comprimento, largura e altura eram iguais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Comprimento, largura e altura eram iguais."
+          },
+          {
+            "id": "P20",
+            "text": "Cada portão era feito de uma só pérola.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cada portão era feito de uma só pérola."
+          },
+          {
+            "id": "P21",
+            "text": "Nenhum santuário foi visto na cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Nenhum santuário foi visto na cidade."
+          },
+          {
+            "id": "P22",
+            "text": "O Senhor Deus Todo-Poderoso e o Cordeiro são o seu santuário.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Senhor Deus Todo-Poderoso e o Cordeiro são o seu santuário."
+          },
+          {
+            "id": "P23",
+            "text": "A glória de Deus ilumina a cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A glória de Deus ilumina a cidade."
+          },
+          {
+            "id": "P24",
+            "text": "O Cordeiro é a lâmpada da cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Cordeiro é a lâmpada da cidade."
+          },
+          {
+            "id": "P25",
+            "text": "O rio da água da vida sai do trono de Deus e do Cordeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Relacionar personagens, cenário, ação e explicação interna da visão",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "22.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O rio da água da vida sai do trono de Deus e do Cordeiro."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Apocalipse 21–22 nomeia a Nova Jerusalém, declara sua origem celeste, descreve sua muralha e apresenta Deus e o Cordeiro como seu santuário.",
+        "hinge": "O nome, a procedência e os elementos medidos formam uma descrição interna coerente, sem localizar a cidade no presente nem impor literalidade às medidas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "21.1–22.5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+            "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Apocalipse",
+            "passage": "22.1-5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

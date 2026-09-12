@@ -14,7 +14,7 @@ At 2.1-13 e 5.1-11 foram lidos integralmente e originaram as pautas de Pentecost
 
 ## Lote Atos 02 — consultas retomadas e decisões
 
-At 8.26-40, 12.1-19 e 16.16-40 foram novamente baixados e conferidos na NAA neste ambiente. Originaram as pautas de Filipe com o oficial etíope, libertação de Pedro e prisão de Paulo/Silas, todas com 25 fatos distintos. At 8.37, exibido entre colchetes na fonte consultada, foi excluído integralmente de perguntas, respostas e pistas e fica reservado ao usuário.
+At 8.26-40, 12.1-19 e 16.16-40 foram novamente baixados e conferidos na NAA neste ambiente. Originaram as pautas de Filipe com o oficial etíope, libertação de Pedro e prisão de Paulo/Silas, todas com 25 fatos distintos. At 8.37, assinalado pela NAA como presente apenas em manuscritos mais recentes, foi posteriormente permitido pelo usuário. Na reavaliação, entrou como uma pista contextual com a ressalva textual explícita; não determina gabarito.
 
 | Recortes restantes | Decisão atual |
 | --- | --- |

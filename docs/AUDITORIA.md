@@ -14,12 +14,12 @@ Atualizada em 12 de setembro de 2026 após o descarte editorial do catálogo ant
 | Tempo total | Implementado | Usa ciclos completos e encerra ao fim do ciclo corrente. |
 | Fechamento final | Implementado | Janela gratuita de 60 s e apuração simultânea. |
 | Pontuação e pódio | Implementado | Ledger por parcelas, residual, desempates, ranking e top 3. |
-| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 60 pautas e 1.404 pistas; 51 elegíveis e 9 bloqueadas por baralho, ambiguidade ou sobreposição paralela. |
+| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 63 pautas e 1.480 pistas; 54 elegíveis e 9 bloqueadas por capacidade ou qualidade dedutiva. |
 | Demonstração da ovelha | Implementada e isolada | Não participa do catálogo ou do saco NT. |
 
 ## Bloqueio editorial P0
 
-O bloqueio HTTP anterior foi superado no checkpoint 002, conforme evidências no documento mestre. Vinte recortes de João foram consultados e autorados; doze estão elegíveis e oito permanecem bloqueados por capacidade de baralho. Os 27 livros receberam decisões por recorte. A estrutura libera somente após três aprovações, ausência de ambiguidades e capacidade para duas cartas por participante em mesa de doze.
+O bloqueio HTTP anterior foi superado no checkpoint 002, conforme evidências no documento mestre. Vinte recortes de João foram consultados e autorados; doze estão elegíveis e oito permanecem bloqueados por capacidade de baralho. Os 27 livros receberam decisões por recorte, e os recortes autorizados pelo usuário foram reavaliados no checkpoint 027. A estrutura libera somente após três aprovações, ausência de ambiguidades e capacidade para duas cartas por participante em mesa de doze.
 
 ## Pontos de atenção técnicos
 

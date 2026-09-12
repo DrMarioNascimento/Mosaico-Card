@@ -5,7 +5,7 @@
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
 | Mateus | Analisado — varredura por faixas | 21 + faixas restantes | 8 próprios + 3 consolidados | alimentação consolidada com João |
-| Marcos | Analisado — decisões por recorte | 17 | 1 próprio + 3 consolidados | curtos bloqueados; Mc 16.9-20 em avaliação textual |
+| Marcos | Analisado — decisões por recorte | 17 | 1 próprio + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — varredura por faixas | 22 + faixas restantes | 8 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 baralhos curtos bloqueados |
 | Atos | Analisado — decisões por recorte e faixas | 26 + faixas restantes | 10 autorados | 16 bloqueados por insuficiência/delimitação |
@@ -24,13 +24,13 @@
 | Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
 | Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 bloqueado | lista sem dente dedutivo; AT não importado |
 | Tiago | Analisado — decisões por recorte | capítulos 1–5 | 0 | exemplos/metáforas não inflados |
-| 1 Pedro | Analisado — decisões por recorte | capítulos 1–5 | 0 | 1Pe 3 e “Babilônia” bloqueados |
+| 1 Pedro | Analisado — decisões por recorte | capítulos 1–5 | 0 | 1Pe 3.19 e 4.6 fora; 5.13 interpretado sem geografia |
 | 2 Pedro | Analisado — decisões por recorte | capítulos 1–3 | 0 | alusões não completadas |
-| 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 bloqueado |
-| 2 João | Analisado — carta integral | 1 carta | 0 | “senhora eleita” bloqueada; insuficiente |
+| 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 mantido sem identificar o pecado |
+| 2 João | Analisado — carta integral | 1 carta | 0 | interpretação comunitária registrada; insuficiente |
 | 3 João | Analisado — carta integral | 1 carta | 0 | insuficiente sem atomização |
 | Judas | Analisado — carta integral | 1 carta | 0 | alusões não completadas |
-| Apocalipse | Analisado — decisões por faixa | capítulos 1–22 | 1 autorado | símbolos não explicados permanecem bloqueados |
+| Apocalipse | Analisado — recortes reavaliados | capítulos 1–22 | 4 autorados | demais recortes sem dente/unidade; sem identidades externas |
 
 ## Critério de atualização
 

@@ -1,22 +1,24 @@
 # Levantamento por recorte — Apocalipse
 
-Em 12/09/2026, as 22 páginas `https://www.bibliaonline.com.br/naa/ap/1` a `/22` foram baixadas no lote de 9,040 s entre 11:48:55Z e 11:49:04Z e identificadas como NAA.
+Em 12/09/2026, os 22 capítulos NAA foram consultados e receberam decisão por faixa. Ap 1 originou `nt2-apocalipse-visao-inicial`. As decisões interpretativas posteriores do usuário permitiram nova avaliação do conteúdo explícito, sem identidades históricas, datas, instituições atuais, geografia presente ou sistemas cronológicos externos.
 
-Ap 1, 4–5, 12 e 21–22 foram lidos integralmente. Ap 1.1-20 originou pauta com 25 fatos: João, Patmos, sete igrejas e candelabros, limitando respostas aos símbolos que o próprio capítulo explica. Ap 4–5, 12 e 21–22 permanecem candidatos/revisão porque números e símbolos explícitos não autorizam identificação interpretativa de mulher, dragão, seres, cidade ou cronologia além do texto.
+## Reavaliação após decisão do usuário
 
-Ap 2–3, 6–11 e 13–20 foram acessados, mas ainda não lidos por recorte. Apocalipse está **em andamento**; o levantamento dos 27 livros ainda não está concluído.
+As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por recorte. Símbolos não foram rejeitados por gênero: descrições, ações, sequências e explicações internas foram consideradas fatos válidos.
 
-## Decisões dos capítulos restantes
-
-| Recorte | Decisão editorial desta rodada |
+| Recorte | Resultado |
 | --- | --- |
-| Ap 2–3 | Sete cartas avaliadas separadamente; nomes como Jezabel, nicolaítas e “sinagoga de Satanás” não receberam identificação histórica externa. |
-| Ap 6–8 | Selos e quatro primeiras trombetas têm sequência explícita, mas cavaleiros e números não receberam cronologia ou identidade além do texto. |
-| Ap 9–11 | Abadom/Apoliom é nomeado pelo texto; as duas testemunhas, a grande cidade e períodos não foram identificados externamente. |
-| Ap 13–14 | Bestas, marca, número 666, cento e quarenta e quatro mil e colheitas permanecem como símbolos/visões; nenhuma pessoa ou calendário foi atribuído. |
-| Ap 15–16 | Sete taças e seus efeitos foram avaliados como sequência visionária; Armagedom não foi expandido além do nome dado. |
-| Ap 17–18 | O anjo fornece explicações internas para águas, cabeças, chifres e mulher; elas foram registradas como explicações do texto, sem identificar cidade ou reis históricos. |
-| Ap 19–20 | Bodas, cavaleiro, besta, mil anos e juízo foram preservados como visão; sistemas cronológicos concorrentes não foram resolvidos. |
-| Ap 21–22 | Cidade, medidas, rio e árvore foram avaliados; descrições simbólicas não foram transformadas em geografia presente. |
+| Ap 2–3 | Sete mensagens preservadas; sem pauta por formar listas independentes sem dente comum. |
+| Ap 4–5 | `nt2-apocalipse-trono-cordeiro`, 25 pistas, elegível. |
+| Ap 6 | Cavaleiros preservados; sem pauta por estrutura de lista sem dedução comum suficiente. |
+| Ap 7; 14 | 144 mil preservados sem decidir literalidade; cenas não fundidas por identidade inferida. |
+| Ap 8–11 | Trombetas e duas testemunhas preservadas; sem identidades externas; amplitude sem unidade segura. |
+| Ap 12 | `nt2-apocalipse-mulher-dragao`, 25 pistas, elegível; somente o dragão recebe a identificação interna de 12.9. |
+| Ap 13 | Besta e 666 preservados; nenhuma identidade atual; sem pauta por grade de atributos/números sem dente. |
+| Ap 15–16 | Taças preservadas em sequência; sem pauta-lista ou cronologia externa. |
+| Ap 17–18 | Explicações internas preservadas; sem cidade/instituição histórica; sem pauta por alternância de explicação e lamento. |
+| Ap 19 | Bodas e cavaleiro preservados como cenas distintas, não fundidas artificialmente. |
+| Ap 20 | Mil anos e juízo preservados como sequência textual, sem sistema cronológico; sem pauta dedutiva sustentável. |
+| Ap 21–22 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
 
-Somente Ap 1 originou pauta nesta rodada. Os demais recortes têm muitos fatos explícitos, mas seus quatro gabaritos tenderiam a exigir interpretação simbólica ou a converter séries em questionário de números. Apocalipse passa a **analisado nesta rodada**. A cobertura dos 27 livros foi alcançada no sentido documental definido pela matriz, sem eliminar pendências editoriais ou decisões exclusivas do usuário.
+Apocalipse permanece **analisado** com quatro pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.

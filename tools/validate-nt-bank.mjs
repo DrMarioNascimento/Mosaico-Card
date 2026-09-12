@@ -51,7 +51,7 @@ export function validateBank(bank) {
       checkRefs(field.answerReferences, `${fieldAt}.answerReferences`);
     });
     const cards = entry.cards || [];
-    if (cards.length < 13 || !unique(cards.map(card => card.id))) add(at, "baralho requer ao menos 13 IDs únicos (uma carta para 12 e poço), sem duplicação artificial");
+    if (cards.length < 13 || !unique(cards.map(card => card.id))) add(at, "fonte editorial requer ao menos 13 IDs únicos; elegibilidade 2–12 exige 25 cartas (duas por jogador e poço), sem duplicação artificial");
     cards.forEach(card => {
       const cardAt = `${at}.cards.${card.id || "?"}`;
       if (!text(card.text) || !["essential", "relevant", "contextual"].includes(card.importance)) add(cardAt, "texto e importância válidos são obrigatórios");

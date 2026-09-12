@@ -8,7 +8,7 @@ Marcos está **em triagem**, não analisado: nenhum gabarito, alternativa ou pis
 
 Mc 1.16-20; 1.21-28; 2.1-12; 2.13-17; 3.1-6; 4.35-41; 5.1-20; 5.21-43; 6.7--29; 7.24-30; 7.31-37; 8.22-26; 10.46-52; 12.41-44; 14.43-52; 15.42-47; 16.1-8.
 
-Os 17 itens são pré-candidatos, não meta. Mc 16.9-20 fica desde já **bloqueado para avaliação textual pelo usuário** antes de qualquer autoria.
+Os 17 itens são pré-candidatos, não meta. Mc 16.9-20 fica **fora do banco**, por decisão expressa do usuário; não será usado em pauta, pista ou referência.
 
 ## Lote Marcos 01 — autoria efetiva
 
@@ -27,7 +27,7 @@ Mc 5.1-20 foi lido integralmente e originou `nt2-marcos-gerasenos`, com quatro c
 | Mc 7.24-30; 7.31-37; 8.22-26; 10.46-52; 12.41-44 | Bloqueados: recortes curtos; paralelos aguardam consolidação quando existente. |
 | Mc 14.43-52 | Referências comuns incorporadas à prisão; o jovem que foge nu permanece detalhe exclusivo de Marcos, fora dos gabaritos. |
 | Mc 15.42-47 | Autoria consolidada com Mt 27.57-66 e Jo 19.38-42. |
-| Mc 16.1-8 | Pendente de comparação com os demais relatos da ressurreição. |
-| Mc 16.9-20 | Bloqueado para avaliação textual pelo usuário; colchetes observados na fonte NAA consultada. |
+| Mc 16.1-8 | Comparado aos demais relatos: não originou pauta separada por recorte curto e sobreposição temática; fatos próprios não foram projetados sobre João, nem diferenças foram harmonizadas. |
+| Mc 16.9-20 | Fora do banco por decisão expressa do usuário; colchetes observados na fonte NAA consultada. |
 
-Os 16 capítulos e os 17 pré-candidatos receberam decisão. Marcos passa a **analisado nesta rodada**: uma pauta própria, três novas pautas consolidadas e três incorporações de referências a pautas existentes; os recortes curtos/textualmente sensíveis continuam bloqueados.
+Os 16 capítulos e os 17 pré-candidatos receberam decisão. Marcos passa a **analisado nesta rodada**: uma pauta própria, três novas pautas consolidadas e três incorporações de referências a pautas existentes; os recortes curtos permanecem bloqueados por capacidade, e Mc 16.9-20 está fora por decisão expressa.

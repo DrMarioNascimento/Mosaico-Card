@@ -320,3 +320,17 @@ Além do saco versionado, partidas compartilhadas agora carregam namespace, vers
 - **Trabalho editorial automaticamente resolvível:** nenhum restante com a evidência atual.
 - **Decisões do usuário:** somente ambiguidades textuais/interpretativas listadas no relatório; nenhuma bloqueia o catálogo elegível.
 - **Publicação:** não realizada; nenhuma credencial ou dado de produção foi alterado.
+
+## Checkpoint 026 — decisões do usuário recebidas
+
+As decisões sobre Mc 16.9-20, Jo 8.1-11, At 8.37, 2Jo 1, 1Pe 3.19; 4.6; 5.13, 1Jo 5.16-17, Ap 2–22 e separação documental de Atos/cartas foram registradas em `docs/DECISOES-USUARIO-AMBIGUIDADES.md`. Elas removem bloqueios de interpretação específicos, mas não aprovam automaticamente pauta, gabarito ou pista. A reavaliação textual NAA e editorial fica para o lote seguinte.
+
+## Checkpoint 027 — reavaliação autorizada e autoria de Apocalipse
+
+As fontes NAA identificadas de Jo 8, At 8, 1Pe 3–5, 1Jo 5, 2Jo e Ap 2–22 foram consultadas novamente. Cada recorte autorizado recebeu resultado em `docs/REAVALIACAO-RECORTES-AUTORIZADOS.md`. As decisões do usuário foram tratadas como limites editoriais, não como revisão de gabaritos ou elegibilidade automática.
+
+Foram autoradas `nt2-apocalipse-trono-cordeiro` (Ap 4–5), `nt2-apocalipse-mulher-dragao` (Ap 12) e `nt2-apocalipse-nova-jerusalem` (Ap 21–22), todas com 25 fatos distintos e somente identificações internas. `nt2-atos-filipe-eunuco` recebeu uma pista contextual de At 8.37 com a ressalva textual NAA e sem alterar gabarito. Os demais recortes permitidos foram excluídos da autoria por motivos individualizados de capacidade ou unidade dedutiva; Mc 16.9-20, 1Pe 3.19 e 1Pe 4.6 ficaram fora conforme decisão expressa.
+
+- **Inventário:** 63 pautas, 1.480 pistas; 54 elegíveis e 9 bloqueadas. Não é meta.
+- **Auditoria:** nenhum par semântico fica sem resolução documentada; testes estruturais continuam separados da revisão bíblica/editorial do agente.
+- **Pendências:** oito pautas curtas de João e Hebreus 11 continuam bloqueados por qualidade. Não surgiu nova decisão exclusiva do usuário.

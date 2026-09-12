@@ -15,6 +15,12 @@ assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
 assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].status.playable, false, "lista sem dente dedutivo permanece bloqueada");
 assert.ok(catalog.byId["nt2-hebreus-testemunhos-fe"].pendingIssues.includes("editorial:blocked"));
+assert.ok(catalog.byId["nt2-apocalipse-trono-cordeiro"].status.playable);
+assert.ok(catalog.byId["nt2-apocalipse-mulher-dragao"].status.playable);
+assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].status.playable);
+const pistaAt837 = catalog.byId["nt2-atos-filipe-eunuco"].deck.cards.find(card => card.references.some(reference => reference.passage === "8.37"));
+assert.match(pistaAt837.text, /manuscritos mais recentes/, "At 8.37 exige ressalva textual explícita");
+assert.equal(catalog.byId["nt2-atos-filipe-eunuco"].fields.some(field => field.answerReferences.some(reference => reference.passage === "8.37")), false, "a variante não determina gabarito");
 assert.equal(catalog.order.some(id => /^nt-\d{3}$/.test(id)), false, "IDs descartados não voltam ao catálogo");
 catalog.order.forEach(id => {
   const entry = catalog.byId[id];
