@@ -32,3 +32,7 @@ At 9.1-19, 10.1-48, 19.23-41, 27.1-44 e 28.1-10 foram lidos integralmente na NAA
 A varredura além da lista preliminar foi registrada por faixas: At 1–4 (formação da comunidade, curas e discursos), 5–8 (conflitos, Estêvão e missão de Filipe), 9–12 (Saulo, Pedro e Cornélio), 13–18 (viagens, discursos e conflitos), 19–23 (Éfeso, despedida e prisões) e 24–28 (defesas, viagem e Malta). Em cada faixa, narrativas curtas e discursos foram avaliados individualmente; não foram excluídos por gênero. Os não autorados permanecem bloqueados por insuficiência de fatos úteis, dependência de delimitação ou risco de converter proposições interpretativas em alternativas falsas.
 
 Os 26 pré-candidatos iniciais agora têm decisão: dez autorados e dezesseis bloqueados conforme a tabela do lote anterior. A varredura por faixas não acrescentou recorte sustentável sem sobrepor os dez já escolhidos. Atos passa a **analisado nesta rodada**, sem transformar exclusões em decisões permanentes e sem afirmar exaustão editorial futura.
+
+## Auditoria individual — checkpoint 034
+
+At 1.15-26, 3.1-10, 6.1-7 e 20.7-12 originaram quatro pautas. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.

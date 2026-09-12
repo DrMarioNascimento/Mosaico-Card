@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-032",
+  "catalogVersion": "2026.09-batch-034",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -52557,6 +52557,5234 @@
             "passage": "1-13",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-lucas-jesus-doze-anos",
+      "title": "Jesus aos doze anos em Jerusalém",
+      "generalReferences": [
+        {
+          "book": "Lucas",
+          "passage": "2.41-52",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais idade, lugar, intervalo e ação recompõem a procura pelo menino Jesus?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O templo é o local que resolve a procura e organiza o episódio.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quantos anos Jesus tinha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Doze"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Oito"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Trinta"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Quarenta"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "2.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Onde seus pais o encontraram",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "No templo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Em Nazaré"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Na hospedaria"
+            },
+            {
+              "id": "C2-O4",
+              "text": "No caminho para a Galileia"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Depois de quanto tempo o encontraram",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Três dias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Um dia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Sete dias"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Quarenta dias"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que ele fazia entre os doutores",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Ouvia e fazia perguntas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Lia uma carta"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Distribuía pão"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Escrevia no chão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os pais de Jesus iam anualmente a Jerusalém para a Páscoa.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Jesus tinha doze anos nessa viagem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Ele ficou em Jerusalém quando a comitiva regressou.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Os pais não perceberam que ele havia ficado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Eles viajaram um dia supondo que estivesse com os companheiros.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Procuraram-no entre parentes e conhecidos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Voltaram a Jerusalém quando não o encontraram.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Três dias depois o acharam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Jesus estava no templo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Ele estava sentado entre os doutores.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Ele os ouvia e lhes fazia perguntas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Os ouvintes se admiravam de sua inteligência e respostas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.47",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Jesus voltou com os pais para Nazaré.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Lucas",
+              "passage": "2.51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Lucas 2 relata a viagem pascal, a procura e o encontro de Jesus, aos doze anos, entre os doutores no templo.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "Lucas",
+            "passage": "2.41-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-atos-escolha-matias",
+      "title": "A escolha de Matias",
+      "generalReferences": [
+        {
+          "book": "Atos",
+          "passage": "1.15-26",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais grupo, candidatos, procedimento e resultado aparecem na substituição de Judas?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O resultado do sorteio identifica o escolhido e conclui o processo.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem se levantou no meio dos irmãos",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Pedro"
+            },
+            {
+              "id": "C1-O2",
+              "text": "João"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Matias"
+            },
+            {
+              "id": "C1-O4",
+              "text": "José Barsabás"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "1.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Aproximadamente quantas pessoas formavam o grupo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Cento e vinte"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Doze"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Setenta"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Quinhentas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "1.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quais dois homens foram propostos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "José Barsabás e Matias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pedro e João"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Estêvão e Filipe"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Áquila e Priscila"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Sobre quem caiu a sorte",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Matias"
+            },
+            {
+              "id": "C4-O2",
+              "text": "José Barsabás"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pedro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Judas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "1.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Pedro se levantou no meio dos irmãos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O grupo tinha aproximadamente cento e vinte pessoas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Judas havia sido guia dos que prenderam Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O substituto deveria ter acompanhado o grupo durante o ministério de Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O período começava no batismo de João.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O período terminava com a elevação de Jesus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O escolhido seria testemunha da ressurreição.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "José chamado Barsabás foi proposto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "José também era conhecido como Justo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Matias foi o outro proposto.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O grupo orou ao Senhor que conhece os corações.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Foi realizado um sorteio.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A sorte caiu sobre Matias, acrescentado aos onze.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "1.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Atos 1 apresenta Pedro, cerca de cento e vinte irmãos, dois candidatos e o sorteio que acrescentou Matias aos onze.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "1.15-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-atos-coxo-porta-formosa",
+      "title": "O homem junto à Porta Formosa",
+      "generalReferences": [
+        {
+          "book": "Atos",
+          "passage": "3.1-10",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pessoas, lugar, pedido e resultado aparecem na cura junto ao templo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A Porta Formosa situa o encontro e distingue o episódio.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem se dirigia ao templo",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Pedro e João"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Paulo e Silas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Filipe e Estêvão"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Barnabé e Marcos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como se chamava a porta",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Formosa"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dourada"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Oriental"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Das Ovelhas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que o homem pedia",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Esmolas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Alimento"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Uma carta"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A cura de um filho"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "3.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Em nome de quem Pedro mandou que ele andasse",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Jesus Cristo, o Nazareno"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Moisés"
+            },
+            {
+              "id": "C4-O3",
+              "text": "João Batista"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Abraão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Pedro e João iam ao templo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Era a hora da oração das três da tarde.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O homem era coxo de nascença.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Ele era levado diariamente à porta do templo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A porta era chamada Formosa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Ali ele pedia esmolas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Pedro afirmou não possuir prata nem ouro.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Pedro ordenou que andasse em nome de Jesus Cristo, o Nazareno.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Pedro o segurou pela mão direita.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Pés e tornozelos se firmaram imediatamente.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O homem entrou no templo andando e saltando.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Ele louvava a Deus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "O povo o reconheceu e ficou admirado.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "3.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Atos 3 relata Pedro e João, o homem que pedia esmolas na Porta Formosa e sua entrada no templo andando e louvando.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "3.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-atos-sete-distribuicao",
+      "title": "Os sete e a distribuição diária",
+      "generalReferences": [
+        {
+          "book": "Atos",
+          "passage": "6.1-7",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais problema, número, qualificações e procedimento aparecem na escolha dos sete?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O problema da distribuição diária explica a escolha e enquadra os demais campos.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem apresentou a reclamação",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Os helenistas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Os sacerdotes"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Os romanos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Os saduceus"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "6.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quantos homens deveriam ser escolhidos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sete"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Doze"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Três"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Setenta"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Qual requisito era pedido",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Boa reputação, Espírito e sabedoria"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Riqueza e cidadania"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Idade de sessenta anos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Conhecimento de línguas estrangeiras"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que os apóstolos fizeram ao apresentá-los",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Oraram e impuseram as mãos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Realizaram um sorteio"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Enviaram-nos a Antioquia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Deram-lhes cartas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "6.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O número de discípulos estava aumentando.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Helenistas murmuraram contra hebreus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Viúvas dos helenistas eram esquecidas na distribuição diária.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Os Doze convocaram a comunidade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Eles não consideraram correto abandonar a palavra para servir mesas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A comunidade deveria escolher sete homens.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Os escolhidos deveriam ter boa reputação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Também deveriam ser cheios do Espírito e de sabedoria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Estêvão e Filipe estavam entre os escolhidos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Nicolau era prosélito de Antioquia.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Os escolhidos foram apresentados aos apóstolos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Os apóstolos oraram e impuseram as mãos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A palavra crescia e os discípulos aumentavam em Jerusalém.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "6.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Atos 6 relaciona a reclamação sobre a distribuição, a escolha de sete homens e a oração com imposição de mãos.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "6.1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-atos-eutico",
+      "title": "Êutico em Trôade",
+      "generalReferences": [
+        {
+          "book": "Atos",
+          "passage": "20.7-12",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais dia, lugar, pessoa e desfecho recompõem o episódio de Êutico?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O jovem nominalmente identificado liga a reunião, a queda e o consolo final.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Em qual dia o grupo se reuniu",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "No primeiro dia da semana"
+            },
+            {
+              "id": "C1-O2",
+              "text": "No sábado"
+            },
+            {
+              "id": "C1-O3",
+              "text": "No dia de Pentecostes"
+            },
+            {
+              "id": "C1-O4",
+              "text": "No primeiro dia do mês"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Até quando Paulo prolongou inicialmente a mensagem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Até a meia-noite"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Até o meio-dia"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Até a terceira hora"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Até o pôr do sol"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Qual era o nome do jovem",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Êutico"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Trófimo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Timóteo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Sópatro"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "De qual andar ele caiu",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Do terceiro andar"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Do segundo andar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Do primeiro andar"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Do terraço térreo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "A reunião ocorreu no primeiro dia da semana.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O grupo se reuniu para partir o pão.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Paulo pretendia viajar no dia seguinte.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A mensagem foi prolongada até a meia-noite.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Havia muitas lâmpadas no cenáculo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O jovem se chamava Êutico.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Ele estava sentado numa janela.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Adormeceu durante a mensagem prolongada.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Êutico caiu do terceiro andar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Quando o levantaram, estava morto.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Paulo desceu, inclinou-se e o abraçou.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Paulo voltou, partiu o pão e falou até o amanhecer.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "O rapaz foi conduzido vivo, trazendo grande consolo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Atos",
+              "passage": "20.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Atos 20 situa a reunião em Trôade, a queda de Êutico durante a mensagem e o consolo quando foi conduzido vivo.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "20.7-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-3joao-gaio-diotrefes-demetrio",
+      "title": "Gaio, Diótrefes e Demétrio",
+      "generalReferences": [
+        {
+          "book": "3 João",
+          "passage": "1-15",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pessoas e condutas o presbítero associa na terceira carta de João?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Gaio é o destinatário em torno do qual os testemunhos e contrastes são apresentados.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "A quem a carta é dirigida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Gaio"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Diótrefes"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Demétrio"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Tércio"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "3 João",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem gostava de exercer a primazia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Diótrefes"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Gaio"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Demétrio"
+            },
+            {
+              "id": "C2-O4",
+              "text": "O presbítero"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "3 João",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "De quem todos davam bom testemunho",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Demétrio"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Diótrefes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Gaio"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Um irmão anônimo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "3 João",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como o autor esperava conversar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pessoalmente"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Por nova carta"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Por um mensageiro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Em assembleia pública"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "3 João",
+              "passage": "14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O remetente orou para que Gaio tivesse boa saúde e que tudo lhe corresse bem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "A carta é dirigida ao amado Gaio.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Irmãos testemunharam que Gaio vivia na verdade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Gaio agia fielmente pelos irmãos estrangeiros.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Esses irmãos testemunharam seu amor diante da igreja.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Diótrefes gostava de exercer a primazia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Ele não acolhia o remetente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Também não recebia os irmãos e impedia quem queria recebê-los.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Diótrefes expulsava pessoas da igreja.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Todos davam bom testemunho de Demétrio.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A própria verdade testemunhava a favor de Demétrio.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "O autor não quis escrever muitas coisas com tinta e pena.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Ele esperava ver Gaio em breve e conversar pessoalmente.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir as associações factuais declaradas no recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "3 João",
+              "passage": "14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "3 João contrasta a fidelidade de Gaio, a conduta de Diótrefes, o testemunho de Demétrio e o plano de visita do presbítero.",
+        "hinge": "Os quatro campos e as pistas usam somente informações explícitas desta passagem NAA.",
+        "references": [
+          {
+            "book": "3 João",
+            "passage": "1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-mateus-jose-sonho",
+      "title": "José e o anúncio em sonho",
+      "generalReferences": [
+        {
+          "book": "Mateus",
+          "passage": "1.18-25",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pessoas, mensagem, nome e ação aparecem no sonho_STA?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "José é o agente que recebe a mensagem e age ao despertar.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem recebeu a mensagem em sonho",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "José"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Zacarias"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Simeão"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Herodes"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como o mensageiro se dirigiu a ele",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Filho de Davi"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Filho de Arão"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Mestre de Israel"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Centurião"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Qual nome deveria ser dado ao menino",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "text": "João"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Emanuel como nome imposto por José"
+            },
+            {
+              "id": "C3-O4",
+              "text": "José"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que José fez ao despertar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Recebeu Maria como esposa"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Foi para Jerusalém"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Chamou os magos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Consultou Herodes"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Maria estava prometida em casamento a José.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Antes de viverem juntos, ela ficou grávida pelo Espírito Santo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "José era justo e não queria expô-la à desonra.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Um anjo do Senhor apareceu a José em sonho.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O mensageiro o chamou filho de Davi.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "José não deveria temer receber Maria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O menino deveria receber o nome Jesus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Ao despertar, José fez como o anjo ordenou.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "José recebeu Maria como esposa.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "1.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Mateus 1 relata a mensagem recebida por José em sonho, o nome Jesus e a obediência de José.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "1.18-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-mateus-batismo",
+      "title": "O batismo de Jesus em Mateus",
+      "generalReferences": [
+        {
+          "book": "Mateus",
+          "passage": "3.13-17",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pessoas, lugar, manifestação e voz aparecem no batismo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Jesus é o centro explícito da chegada, do batismo e da declaração celeste.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem veio para ser batizado",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Jesus"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Pedro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "João"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Um fariseu"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem realizou o batismo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "João"
+            },
+            {
+              "id": "C2-O2",
+              "text": "André"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tiago"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Filipe"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.13-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "De onde Jesus veio",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Da Galileia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Da Judeia"
+            },
+            {
+              "id": "C3-O3",
+              "text": "De Samaria"
+            },
+            {
+              "id": "C3-O4",
+              "text": "De Roma"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como o Espírito foi visto descendo",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Como pomba"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Como fogo"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Como vento"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Como nuvem"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus veio da Galileia ao Jordão.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1",
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele procurou João para ser batizado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "João inicialmente tentou dissuadi-lo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "João declarou que precisava ser batizado por Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Jesus respondeu que convinha cumprir toda a justiça.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "João concordou.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Depois do batismo, Jesus saiu da água.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O Espírito de Deus desceu como pomba.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Uma voz dos céus chamou Jesus de Filho amado.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "3.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Mateus 3 situa Jesus, João e o Jordão e relata a descida do Espírito e a voz dos céus.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "3.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-mateus-tentacoes",
+      "title": "As tentações no deserto",
+      "generalReferences": [
+        {
+          "book": "Mateus",
+          "passage": "4.1-11",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais cenário, agente, propostas e encerramento aparecem nas tentações?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O tentador e as respostas de Jesus organizam a sequência sem completar as citações pelo AT.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem conduziu Jesus ao deserto",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "O Espírito"
+            },
+            {
+              "id": "C1-O2",
+              "text": "João"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Pedro"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Um anjo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem apresentou as tentações",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "O diabo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Herodes"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Um fariseu"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Um sacerdote"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Para onde o diabo levou Jesus na segunda cena",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "À cidade santa"
+            },
+            {
+              "id": "C3-O2",
+              "text": "A Nazaré"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ao Jordão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A Betânia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem serviu Jesus ao final",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Anjos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Discípulos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Sacerdotes"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pastores"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O Espírito conduziu Jesus ao deserto.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O objetivo declarado era que fosse tentado pelo diabo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Jesus jejuou quarenta dias e quarenta noites.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O tentador propôs transformar pedras em pães.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O diabo levou Jesus à cidade santa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Ali o colocou sobre a parte mais alta do templo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Depois o levou a um monte muito alto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Jesus ordenou que Satanás se retirasse.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O diabo o deixou e anjos passaram a servi-lo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Mateus 4 apresenta o deserto, três propostas do tentador, as respostas de Jesus e o serviço dos anjos.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "4.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-marcos-chamado-pescadores",
+      "title": "O chamado junto ao mar",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "1.16-20",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pares, atividade e resposta aparecem no chamado junto ao mar da Galileia?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O chamado de dois pares é narrado em uma sequência curta e explícita.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem lançava redes no mar",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Simão e André"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Tiago e João"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Filipe e Natanael"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Pedro e Mateus"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem estava no barco consertando redes",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Tiago e João"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Simão e André"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tomé e Bartolomeu"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Judas e Mateus"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Qual era a profissão de Simão e André",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pescadores"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Cobradores de impostos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Carpinteiros"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pastores"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem ficou no barco com os empregados",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Zebedeu"
+            },
+            {
+              "id": "C4-O2",
+              "text": "José"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Alfeu"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bartimeu"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus caminhava junto ao mar da Galileia.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Simão e André lançavam redes no mar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Eles eram pescadores.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Jesus os chamou para segui-lo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Eles deixaram imediatamente as redes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Tiago e João estavam num barco.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Eles consertavam as redes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Jesus também os chamou imediatamente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Eles deixaram Zebedeu no barco com os empregados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 1 narra o chamado de Simão e André e, depois, de Tiago e João junto ao mar.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.16-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-marcos-sinagoga-cafarnaum",
+      "title": "O homem na sinagoga de Cafarnaum",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "1.21-28",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais lugar, dia, conflito e reação aparecem na sinagoga?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A sinagoga de Cafarnaum situa o ensino e a expulsão do espírito.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Em que cidade ocorreu o episódio",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cafarnaum"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Nazaré"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Jericó"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Jope"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Em qual dia Jesus ensinava",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "No sábado"
+            },
+            {
+              "id": "C2-O2",
+              "text": "No primeiro dia da semana"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Na Páscoa"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Em Pentecostes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quem estava na sinagoga",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Um homem com espírito impuro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Um coxo de nascença"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Um centurião"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Uma viúva"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que o espírito fez ao sair",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Gritou e agitou o homem"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Derrubou o teto"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Apagou as lâmpadas"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Fugiu para o mar"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus e os discípulos entraram em Cafarnaum.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "No sábado, Jesus ensinou na sinagoga.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "As pessoas se admiravam de seu ensino.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Ele ensinava como quem tem autoridade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Havia um homem possuído por espírito impuro.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O espírito chamou Jesus de Nazareno.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Jesus ordenou que o espírito se calasse e saísse.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O espírito agitou o homem e saiu gritando.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A notícia se espalhou pela região da Galileia.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "1.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 1 relata o ensino de Jesus e a expulsão de um espírito impuro na sinagoga de Cafarnaum.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.21-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-marcos-mao-ressequida",
+      "title": "A mão restaurada no sábado",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "3.1-6",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+          "checkedAt": "2026-09-12"
+        }
+      ],
+      "question": "Quais pessoa, lugar, ordem e reação aparecem na cura da mão?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O homem com a mão ressequida é o foco comum da observação, pergunta e cura.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Onde Jesus entrou",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Na sinagoga"
+            },
+            {
+              "id": "C1-O2",
+              "text": "No templo de Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Numa casa em Jope"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Num barco"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem estava ali",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Um homem com a mão ressequida"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Um menino doente"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Uma mulher samaritana"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Um oficial romano"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que Jesus mandou o homem fazer",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Vir para o meio"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Sair da cidade"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Lavar-se no tanque"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Subir ao telhado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Com quem os fariseus conspiraram",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Com os herodianos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Com os saduceus"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Com os discípulos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Com os samaritanos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus entrou novamente na sinagoga.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ali havia um homem com a mão ressequida.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Observavam Jesus para acusá-lo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A questão era se ele curaria no sábado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Jesus mandou o homem vir para o meio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Jesus perguntou sobre fazer bem ou mal no sábado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Os presentes ficaram em silêncio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O homem estendeu a mão e ela foi restaurada.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Os fariseus saíram e conspiraram com os herodianos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Reconstruir fatos explícitos do recorte",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 3 relata a observação, a ordem de vir ao meio, a restauração da mão e a conspiração posterior.",
+        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

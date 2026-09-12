@@ -31,3 +31,7 @@ Mc 5.1-20 foi lido integralmente e originou `nt2-marcos-gerasenos`, com quatro c
 | Mc 16.9-20 | Fora do banco por decisão expressa do usuário; colchetes observados na fonte NAA consultada. |
 
 Os 16 capítulos e os 17 pré-candidatos receberam decisão. Marcos passa a **analisado nesta rodada**: uma pauta própria, três novas pautas consolidadas e três incorporações de referências a pautas existentes; os recortes curtos permanecem bloqueados por capacidade, e Mc 16.9-20 está fora por decisão expressa.
+
+## Auditoria individual — checkpoint 034
+
+Mc 1.16-20, 1.21-28 e 3.1-6 originaram três pautas de nove fatos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.

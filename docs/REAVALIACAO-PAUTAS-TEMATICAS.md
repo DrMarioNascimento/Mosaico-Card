@@ -2,7 +2,7 @@
 
 ## Método e fonte
 
-Em 12/09/2026 foram novamente obtidas com HTTP 200 e conferidas 124 páginas identificadas como NAA em `bible.com/pt/bible/1840`, cobrindo todos os capítulos apontados pelas fichas como recusados por “lista”, “blocos distintos”, “falta de dente” ou antiga capacidade universal. A decisão nova removeu esses motivos, mas preservou: fatos distintos, ao menos cinco cartas (duas para cada um de dois participantes e uma no poço), quatro campos com alternativas biblicamente seguras, coerência temática, proveniência e bloqueios textuais expressos.
+Em 12/09/2026 foram novamente obtidas com HTTP 200 e conferidas 123 páginas identificadas como NAA em `bible.com/pt/bible/1840`, cobrindo todos os capítulos apontados pelas fichas como recusados por “lista”, “blocos distintos”, “falta de dente” ou antiga capacidade universal. A decisão nova removeu esses motivos, mas preservou: fatos distintos, ao menos cinco cartas (duas para cada um de dois participantes e uma no poço), quatro campos com alternativas biblicamente seguras, coerência temática, proveniência e bloqueios textuais expressos.
 
 ## Pautas criadas ou liberadas
 
@@ -27,18 +27,22 @@ Em 12/09/2026 foram novamente obtidas com HTTP 200 e conferidas 124 páginas ide
 
 | Livro/recorte | Resultado individual após capacidade variável |
 | --- | --- |
-| Mt 1.18-25; 3.13-17; 4.1-11 | Não autorados: as alternativas para quatro campos exigiriam dividir falas/citações em unidades equivalentes ou formular distratores teológicos; capacidade menor não remove esse risco. |
+| Mt 1.18-25; 3.13-17; 4.1-11 | Auditoria individual supersede a exclusão: três pautas de nove fatos foram autoradas no lote 034. |
 | Mt 8.5-13; 8.23-27; 9.1-8; 20.29-34 | Episódios paralelos já representados/consolidados no catálogo; não se criou segunda pauta do mesmo acontecimento. |
 | Mt 15.21-28; 21.1-11; 28.1-10 | Não autorados: depois de retirar citações/paralelos, não restam quatro campos temáticos com alternativas seguras e cinco pistas independentes. |
 | Mt 27.57-66 | Já consolidado na pauta de sepultamento com Marcos e João. |
-| Mc 1.16-20; 1.21-28; 2.13-17; 3.1-6; 6.7-13 | Não autorados: os recortes curtos não sustentam simultaneamente quatro campos e cinco unidades factuais não equivalentes após a reconferência. |
+| Mc 1.16-20; 1.21-28; 3.1-6 | Auditoria individual supersede a exclusão: três pautas de nove fatos foram autoradas no lote 034. |
+| Mc 2.13-17; 6.7-13 | Reabertos como candidatos concretos; ver auditoria individual. |
 | Mc 7.24-30; 7.31-37; 8.22-26; 10.46-52; 12.41-44 | Não autorados pela mesma insuficiência mínima ou por episódio paralelo já coberto; nenhuma fala foi fragmentada. |
 | Mc 16.1-8 | Comparado aos relatos já cobertos; não duplicado. Mc 16.9-20 permanece expressamente fora. |
-| Lc 2.41-52; 10.38-42; 13.10-17; 14.1-6; 15.8-10; 17.11-19 | Reavaliados sem a meta de 25: permanecem sem quatro campos e cinco pistas independentes depois de retirar repetições, ou sobrepõem episódio já coberto. |
+| Lc 2.41-52 | Auditoria individual supersede a exclusão: pauta de 13 fatos autorada no lote 033. |
+| Lc 10.38-42; 13.10-17; 14.1-6; 15.8-10; 17.11-19 | Reabertos como candidatos concretos; ver auditoria individual. |
 | Lc 22.24-38 | A permissão temática removeu “bloco misto” como veto, mas as unidades têm destinatários e ações diferentes e as alternativas seguras não cobrem quatro campos sem transformar ensino em falso fato; não autorado. |
 | Lc 24.36-53 | Comparado aos demais finais; não foi harmonizado nem duplicado. |
-| At 1.15-26; 3.1-10; 4.23-31; 5.17-42; 6.1-7; 7.54-60 | Reavaliados: alguns já têm episódios paralelos/temas cobertos; os demais não mantêm quatro campos e cinco pistas sem atomizar discurso ou oração. |
-| At 9.32-43; 12.20-23; 13.4-12; 14.8-20; 16.6-15; 18.1-17; 19.11-20; 20.7-12; 21.7-14; 23.12-35 | Capacidade antiga foi removida, mas os recortes continuam falhando em quatro campos seguros ou sobrepõem eixos já autorados em Atos; não foram combinados com viagens incertas das cartas. |
+| At 1.15-26; 3.1-10; 6.1-7 | Auditoria individual supersede as exclusões: três pautas de 13 fatos foram autoradas no lote 033. |
+| At 4.23-31; 5.17-42; 7.54-60 | Reabertos como candidatos concretos; ver auditoria individual. |
+| At 20.7-12 | Auditoria individual supersede a exclusão: pauta de 13 fatos autorada no lote 033. |
+| At 9.32-43; 12.20-23; 13.4-12; 14.8-20; 16.6-15; 18.1-17; 19.11-20; 21.7-14; 23.12-35 | Reabertos como candidatos concretos; não foram combinados com viagens incertas das cartas. |
 
 ## Cartas e conjuntos temáticos restantes
 
@@ -61,11 +65,11 @@ Em 12/09/2026 foram novamente obtidas com HTTP 200 e conferidas 124 páginas ide
 | 2Pe 1.1-15 | A lista de virtudes é explícita, mas o bloco de despedida não produz quatro campos com alternativas seguras sem completar alusões; não autorado. |
 | 1Jo 1–5 | Testes e contrastes permanecem sem pauta porque distratores alterariam proposições doutrinárias. 1Jo 5.16-17 mantém apenas o afirmado, sem identificar o pecado. |
 | 2Jo | Reavaliada e autorada como pauta temática de nove fatos, sem usar a interpretação comunitária como gabarito textual. |
-| 3Jo | A antiga meta de 25 foi retirada; os três núcleos oferecem fatos, mas não quatro campos com alternativas seguras sem transformar avaliações pessoais em categorias falsas. |
+| 3Jo | Auditoria individual supersede a exclusão: pauta de 13 fatos autorada no lote 033. |
 | Jd | Alusões não são completadas externamente; sem quatro campos seguros na própria carta. |
 | Ap 2–3 | As listas são agora permitidas, mas cada carta contém destinatário, avaliação, advertência e promessa próprios; uma pauta conjunta exigiria alternativas cruzadas que ocultariam a quem cada fala é dirigida. Mantido sem pauta. |
 | Ap 7 e 14; 8–11; 17–19 | A falta de dente deixou de ser veto. Permanecem sem pauta por correspondência incerta entre cenas/grupos ou por necessidade de identidades não explicitadas. As duas testemunhas não são identificadas externamente e os 144 mil não recebem decisão de literalidade. |
 
 ## Fechamento
 
-Todos os recortes encontrados nas fichas com os critérios revogados receberam um resultado acima. “Não autorado” só permanece por impedimento ainda vigente: duplicação/paralelo já consolidado, menos de quatro campos e cinco fatos independentes, alternativas biblicamente inseguras, correspondência incerta ou exclusão expressa. Não ficou recorte bloqueado apenas por ser lista, por reunir episódios diferentes ou por não ter ligação causal única.
+Esta primeira consolidação foi supersedida pela auditoria individual do checkpoint 033: justificativas agrupadas foram reabertas e seis recortes prioritários, antes recusados genericamente, foram autorados. O inventário corrente e os candidatos concretos restantes estão em `AUDITORIA-INDIVIDUAL-RECORTES.md`; não se considera mais encerrado o trabalho editorial desses grupos.

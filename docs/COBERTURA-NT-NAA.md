@@ -4,11 +4,11 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Analisado — varredura por faixas | 21 + faixas restantes | 8 próprios + 3 consolidados | alimentação consolidada com João |
-| Marcos | Analisado — decisões por recorte | 17 | 1 próprio + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
-| Lucas | Analisado — varredura por faixas | 22 + faixas restantes | 8 autorados | curtos/poéticos/paralelos documentados |
+| Mateus | Analisado — auditoria individual em curso | 21 + faixas restantes | 11 próprios + 3 consolidados | alimentação consolidada com João |
+| Marcos | Analisado — auditoria individual em curso | 17 | 4 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
+| Lucas | Analisado — auditoria individual em curso | 22 + faixas restantes | 9 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
-| Atos | Analisado — decisões por recorte e faixas | 26 + faixas restantes | 10 autorados | 16 bloqueados por insuficiência/delimitação |
+| Atos | Analisado — auditoria individual em curso | 26 + faixas restantes | 14 autorados | 16 bloqueados por insuficiência/delimitação |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
 | 1 Coríntios | Analisado — decisões por faixa | capítulos 1–16 | 3 autorados | motivos específicos por faixa |
 | 2 Coríntios | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado | coleta consolidada; 2Co 12 ambíguo |
@@ -28,7 +28,7 @@
 | 2 Pedro | Analisado — decisões por recorte | capítulos 1–3 | 0 | alusões não completadas |
 | 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 mantido sem identificar o pecado |
 | 2 João | Analisado — carta integral | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
-| 3 João | Analisado — carta integral | 1 carta | 0 | insuficiente sem atomização |
+| 3 João | Analisado — carta integral reavaliada | 1 carta | 1 autorado | pauta factual 2–6 |
 | Judas | Analisado — carta integral | 1 carta | 0 | alusões não completadas |
 | Apocalipse | Analisado — recortes reavaliados | capítulos 1–22 | 8 autorados | demais recortes sem dente/unidade; sem identidades externas |
 

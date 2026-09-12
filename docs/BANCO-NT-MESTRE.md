@@ -354,9 +354,17 @@ Foi registrada antes da implementação a autorização para pautas de listas/co
 
 ## Checkpoint 031–032 — inventário global e lotes temáticos
 
-Foram obtidas novamente 124 páginas NAA identificadas dos recortes afetados e cada exclusão baseada nos critérios revogados recebeu resultado em `docs/REAVALIACAO-PAUTAS-TEMATICAS.md`. Doze pautas temáticas foram autoradas no lote 031; no lote 032, 2 João recebeu pauta de nove fatos, sem transformar a interpretação comunitária em gabarito lexical. Hebreus 11 foi conferido e liberado sem importar fatos do AT.
+Foram obtidas novamente 123 páginas NAA identificadas dos recortes afetados e cada exclusão baseada nos critérios revogados recebeu resultado em `docs/REAVALIACAO-PAUTAS-TEMATICAS.md`. Doze pautas temáticas foram autoradas no lote 031; no lote 032, 2 João recebeu pauta de nove fatos, sem transformar a interpretação comunitária em gabarito lexical. Hebreus 11 foi conferido e liberado sem importar fatos do AT.
 
 O auditor apontou redações paralelas próprias de listas. A duplicação recíproca sobre carne/Espírito foi corrigida por um fato distinto de Gl 5.18. Qualificações paralelas de bispo/diácono e destinos distintos das taças foram mantidos com justificativas versionadas. Não há par semântico pendente.
 
 - **Inventário:** 76 pautas, 1.645 pistas; todas editorialmente elegíveis. Cinquenta e cinco chegam a 12 participantes, vinte a 6 e uma a 4.
 - **Pendências:** nenhum recorte permanece recusado apenas por ser lista, conjunto temático, perguntas independentes, falta de dente causal ou antiga meta de 25. Impedimentos restantes estão individualizados no inventário.
+
+## Checkpoint 033 — seis exclusões genéricas corrigidas
+
+Lc 2.41-52; At 1.15-26; 3.1-10; 6.1-7; 20.7-12; e 3Jo foram baixados com HTTP 200, relidos verso a verso na NAA e autorados com 13 fatos cada. A auditoria demonstrou que as justificativas agrupadas anteriores não eram suficientes. O arquivo `docs/AUDITORIA-INDIVIDUAL-RECORTES.md` registra campos e fatos concretos dos demais itens e reabre os que têm autoria possível.
+
+## Checkpoint 034 — segundo lote da auditoria individual
+
+Mt 1.18-25; 3.13-17; 4.1-11; Mc 1.16-20; 1.21-28; e 3.1-6 foram relidos na NAA e autorados com nove fatos cada, capacidade 2–4. A execução não foi encerrada após o primeiro lote. O inventário chega a 88 pautas e 1.777 pistas; 55 pautas chegam a 12 jogadores, 26 a seis e sete a quatro. Os candidatos restantes continuam explicitamente enumerados, portanto a auditoria individual não é declarada concluída.

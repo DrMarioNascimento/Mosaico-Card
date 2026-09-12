@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 76);
+assert.equal(catalog.summary.editoriallyEligibleCases, 88);
 assert.equal(catalog.summary.max12Cases, 55);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -26,6 +26,10 @@ const tematicasNovas = [
   "nt2-apocalipse-duas-bestas", "nt2-apocalipse-tacas", "nt2-apocalipse-mil-anos-juizo"
 ];
 assert.ok(tematicasNovas.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
+const auditadasTreze = ["nt2-lucas-jesus-doze-anos", "nt2-atos-escolha-matias", "nt2-atos-coxo-porta-formosa", "nt2-atos-sete-distribuicao", "nt2-atos-eutico", "nt2-3joao-gaio-diotrefes-demetrio"];
+assert.ok(auditadasTreze.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
+const auditadasNove = ["nt2-mateus-jose-sonho", "nt2-mateus-batismo", "nt2-mateus-tentacoes", "nt2-marcos-chamado-pescadores", "nt2-marcos-sinagoga-cafarnaum", "nt2-marcos-mao-ressequida"];
+assert.ok(auditadasNove.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 4));
 
 assert.ok(catalog.byId["nt2-apocalipse-trono-cordeiro"].status.playable);
 assert.ok(catalog.byId["nt2-apocalipse-mulher-dragao"].status.playable);

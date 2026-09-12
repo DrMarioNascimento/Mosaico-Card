@@ -48,3 +48,7 @@ Quatro dos sete recortes sustentáveis foram autorados: apresentação (Lc 2.22-
 | Lc 22–24 | Emaús autorado; diálogos curtos e finais paralelos documentados como bloqueios. |
 
 Os 24 capítulos e os pré-candidatos receberam decisão. Lucas passa a **analisado nesta rodada**, com oito pautas próprias; bloqueios podem ser retomados após comparação documental legítima.
+
+## Auditoria individual — checkpoint 034
+
+Lc 2.41-52 nt2-lucas-jesus-doze-anos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.

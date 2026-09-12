@@ -56,3 +56,7 @@ Mt 26.17-30, 26.36-46 e 27.11-26 foram lidos integralmente e convertidos em paut
 | Mt 26–28 | Ceia, Getsêmani e Pilatos autorados; prisão/crucificação consolidadas; sepultamento consolidado com Marcos e João; ressurreição curta aguarda paralelos. |
 
 Os 28 capítulos possuem agora resultado por faixa e os candidatos identificados possuem decisão. Mateus passa a **analisado nesta rodada**, com nove pautas próprias e três pautas documentais consolidadas. Casos bloqueados podem voltar após comparação legítima, sem que isso invalide a cobertura registrada.
+
+## Auditoria individual — checkpoint 034
+
+Mt 1.18-25, 3.13-17 e 4.1-11 originaram três pautas de nove fatos. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.
