@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-036",
+  "catalogVersion": "2026.09-batch-037",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 104,
-    "fields": 416,
-    "editoriallyEligibleCases": 104,
-    "playableCases": 104,
-    "max12Cases": 55
+    "cases": 109,
+    "fields": 436,
+    "editoriallyEligibleCases": 109,
+    "playableCases": 109,
+    "max12Cases": 56
   },
   "order": [
     "nt2-joao-cana",
@@ -120,7 +120,12 @@
     "nt2-mateus-mulheres-ressurreicao",
     "nt2-marcos-bartimeu",
     "nt2-lucas-mesa-servico-pedro",
-    "nt2-lucas-aparicao-ascensao"
+    "nt2-lucas-aparicao-ascensao",
+    "nt2-atos-oracao-ousadia",
+    "nt2-atos-apostolos-sinedrio",
+    "nt2-atos-morte-estevao",
+    "nt2-atos-eneias-tabita",
+    "nt2-atos-herodes-tiro-sidom"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -68893,7 +68898,7 @@
       "focalFieldId": "C1",
       "focalJustification": "Marcos nomeia Bartimeu e explica sua filiação, identificação que distingue o recorte dos relatos paralelos.",
       "editorial": {
-        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram comparados: somente a recuperação e o seguimento compartilhados recebem referências múltiplas; nome, filiação, saída de Jericó e capa permanecem fatos próprios de Marcos."
+        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram consultados, mas a semelhança genérica de cura e seguimento não basta para afirmar identidade episódica. Esta pauta e todas as suas pistas permanecem isoladas em Marcos."
       },
       "fields": [
         {
@@ -69206,27 +69211,13 @@
             "earlyRevealRisk": "low",
             "twoPlayerSuitable": true,
             "specialExpensive": false,
-            "documentScope": "parallel",
+            "documentScope": "single",
             "references": [
               {
                 "book": "Marcos",
                 "passage": "10.52",
                 "edition": "NAA",
                 "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
-                "checkedAt": "2026-09-12"
-              },
-              {
-                "book": "Mateus",
-                "passage": "20.34",
-                "edition": "NAA",
-                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
-                "checkedAt": "2026-09-12"
-              },
-              {
-                "book": "Lucas",
-                "passage": "18.43",
-                "edition": "NAA",
-                "sourceId": "https://www.bible.com/pt/bible/1840/LUK.18.NAA",
                 "checkedAt": "2026-09-12"
               }
             ],
@@ -69236,7 +69227,7 @@
       },
       "reveal": {
         "canonicalSummary": "Marcos 10 nomeia Bartimeu, situa-o à saída de Jericó, registra o gesto com a capa, seu pedido para ver de novo e o seguimento após recuperar a visão.",
-        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram comparados: somente a recuperação e o seguimento compartilhados recebem referências múltiplas; nome, filiação, saída de Jericó e capa permanecem fatos próprios de Marcos.",
+        "hinge": "Mt 20.29-34 e Lc 18.35-43 foram consultados, mas a semelhança genérica de cura e seguimento não basta para afirmar identidade episódica. Esta pauta e todas as suas pistas permanecem isoladas em Marcos.",
         "references": [
           {
             "book": "Marcos",
@@ -70439,6 +70430,2743 @@
             "passage": "24.36-53",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-oracao-ousadia": {
+      "id": "nt2-atos-oracao-ousadia",
+      "kind": "canonical-case",
+      "title": "A oração por ousadia",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 4.23-31",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "4.23-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais relato, pedido, sinal e resultado aparecem na oração dos irmãos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O anúncio ousado após a oração é o resultado narrativo que articula pedido, sinal e ação da comunidade.",
+      "editorial": {
+        "hinge": "O recorte forma uma pauta temática própria: relato, oração, pedido e resultado permanecem na sequência explícita de At 4.23-31."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como anunciaram a palavra depois disso",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Com ousadia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Em segredo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Somente por cartas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Apenas no templo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Com ousadia",
+          "enderecoNAA": "Atos 4.31",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "4.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem contou aos irmãos o que havia ocorrido",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pedro e João"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Barnabé e Saulo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Filipe e Estêvão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Tiago e Judas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Pedro e João",
+          "enderecoNAA": "Atos 4.23",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "4.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que os irmãos pediram aos servos de Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que anunciassem a palavra com ousadia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que deixassem Jerusalém"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que pedissem proteção a Herodes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que cessassem os sinais"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Que anunciassem a palavra com ousadia",
+          "enderecoNAA": "Atos 4.29",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "4.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que aconteceu ao lugar após a oração",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Tremeu"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ficou às escuras"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Encheu-se de fumaça"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Foi inundado"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Tremeu",
+          "enderecoNAA": "Atos 4.31",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "4.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Pedro e João, depois de soltos, procuraram os irmãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro e João, depois de soltos, procuraram os irmãos."
+          },
+          {
+            "id": "P02",
+            "text": "Eles contaram o que os principais sacerdotes e os anciãos lhes haviam falado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles contaram o que os principais sacerdotes e os anciãos lhes haviam falado."
+          },
+          {
+            "id": "P03",
+            "text": "Os ouvintes levantaram unanimemente a voz a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os ouvintes levantaram unanimemente a voz a Deus."
+          },
+          {
+            "id": "P04",
+            "text": "A oração chamou Deus de Soberano Senhor e criador do céu, da terra e do mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A oração chamou Deus de Soberano Senhor e criador do céu, da terra e do mar."
+          },
+          {
+            "id": "P05",
+            "text": "Herodes, Pôncio Pilatos, gentios e gente de Israel foram mencionados na oração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Herodes, Pôncio Pilatos, gentios e gente de Israel foram mencionados na oração."
+          },
+          {
+            "id": "P06",
+            "text": "Eles pediram que Deus considerasse as ameaças e concedesse ousadia aos servos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles pediram que Deus considerasse as ameaças e concedesse ousadia aos servos."
+          },
+          {
+            "id": "P07",
+            "text": "A oração também mencionou curas, sinais e prodígios pelo nome de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A oração também mencionou curas, sinais e prodígios pelo nome de Jesus."
+          },
+          {
+            "id": "P08",
+            "text": "Depois da oração, o lugar da reunião tremeu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois da oração, o lugar da reunião tremeu."
+          },
+          {
+            "id": "P09",
+            "text": "Todos ficaram cheios do Espírito Santo e anunciaram a palavra com ousadia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "4.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Todos ficaram cheios do Espírito Santo e anunciaram a palavra com ousadia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Atos 4 relata Pedro e João voltando aos irmãos, a oração comunitária diante das ameaças, o tremor do lugar e o anúncio ousado da palavra.",
+        "hinge": "O recorte forma uma pauta temática própria: relato, oração, pedido e resultado permanecem na sequência explícita de At 4.23-31.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "4.23-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-apostolos-sinedrio": {
+      "id": "nt2-atos-apostolos-sinedrio",
+      "kind": "canonical-case",
+      "title": "Os apóstolos diante do Sinédrio",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 5.17-42",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "5.17-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais grupo, libertação, conselheiro e desfecho marcam a prisão dos apóstolos?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "Gamaliel é o agente que altera o rumo da deliberação do Sinédrio e distingue o centro decisório do episódio.",
+      "editorial": {
+        "hinge": "A pauta acompanha a sequência narrativa e atribui cada fala ao agente nomeado, sem transformar o discurso apostólico ou o conselho de Gamaliel em inferência externa."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual mestre da lei aconselhou o Sinédrio",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Gamaliel"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Teudas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Judas, o galileu"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Blasto"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Gamaliel",
+          "enderecoNAA": "Atos 5.34-39",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "5.34-39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual grupo acompanhava o sumo sacerdote",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O partido dos saduceus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os estoicos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os samaritanos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os herodianos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O partido dos saduceus",
+          "enderecoNAA": "Atos 5.17",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "5.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem abriu as portas da prisão à noite",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um anjo do Senhor"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Gamaliel"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O capitão do templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um guarda convertido"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um anjo do Senhor",
+          "enderecoNAA": "Atos 5.19",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "5.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que fizeram aos apóstolos antes de soltá-los",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Açoitaram-nos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Exilaram-nos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cobraram uma multa"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entregaram-nos a Herodes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Açoitaram-nos",
+          "enderecoNAA": "Atos 5.40",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "5.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O sumo sacerdote e o partido dos saduceus ficaram com muita inveja.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O sumo sacerdote e o partido dos saduceus ficaram com muita inveja."
+          },
+          {
+            "id": "P02",
+            "text": "Os apóstolos foram recolhidos à prisão pública.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os apóstolos foram recolhidos à prisão pública."
+          },
+          {
+            "id": "P03",
+            "text": "Durante a noite, um anjo do Senhor abriu as portas da prisão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Durante a noite, um anjo do Senhor abriu as portas da prisão."
+          },
+          {
+            "id": "P04",
+            "text": "O anjo ordenou que fossem ao templo anunciar ao povo as palavras desta Vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O anjo ordenou que fossem ao templo anunciar ao povo as palavras desta Vida."
+          },
+          {
+            "id": "P05",
+            "text": "Ao amanhecer, os apóstolos entraram no templo e ensinavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao amanhecer, os apóstolos entraram no templo e ensinavam."
+          },
+          {
+            "id": "P06",
+            "text": "O sumo sacerdote convocou o Sinédrio e o conselho dos anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O sumo sacerdote convocou o Sinédrio e o conselho dos anciãos."
+          },
+          {
+            "id": "P07",
+            "text": "Os guardas acharam a prisão fechada e as sentinelas nos postos, mas ninguém dentro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.22-23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os guardas acharam a prisão fechada e as sentinelas nos postos, mas ninguém dentro."
+          },
+          {
+            "id": "P08",
+            "text": "O capitão do templo e os principais sacerdotes ficaram perplexos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O capitão do templo e os principais sacerdotes ficaram perplexos."
+          },
+          {
+            "id": "P09",
+            "text": "Alguém informou que os presos estavam ensinando no templo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Alguém informou que os presos estavam ensinando no templo."
+          },
+          {
+            "id": "P10",
+            "text": "Os guardas os trouxeram sem violência por temerem o povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os guardas os trouxeram sem violência por temerem o povo."
+          },
+          {
+            "id": "P11",
+            "text": "Os apóstolos foram apresentados ao Sinédrio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os apóstolos foram apresentados ao Sinédrio."
+          },
+          {
+            "id": "P12",
+            "text": "O sumo sacerdote disse que eles haviam enchido Jerusalém com sua doutrina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O sumo sacerdote disse que eles haviam enchido Jerusalém com sua doutrina."
+          },
+          {
+            "id": "P13",
+            "text": "Pedro e os apóstolos afirmaram ser mais importante obedecer a Deus do que aos homens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro e os apóstolos afirmaram ser mais importante obedecer a Deus do que aos homens."
+          },
+          {
+            "id": "P14",
+            "text": "Eles se apresentaram, com o Espírito Santo, como testemunhas dos fatos anunciados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.30-32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles se apresentaram, com o Espírito Santo, como testemunhas dos fatos anunciados."
+          },
+          {
+            "id": "P15",
+            "text": "Os ouvintes se enfureceram e queriam matá-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os ouvintes se enfureceram e queriam matá-los."
+          },
+          {
+            "id": "P16",
+            "text": "Gamaliel era fariseu, mestre da lei e respeitado pelo povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gamaliel era fariseu, mestre da lei e respeitado pelo povo."
+          },
+          {
+            "id": "P17",
+            "text": "Gamaliel mandou retirar os apóstolos por um momento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gamaliel mandou retirar os apóstolos por um momento."
+          },
+          {
+            "id": "P18",
+            "text": "Ele recordou Teudas e cerca de quatrocentos seguidores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele recordou Teudas e cerca de quatrocentos seguidores."
+          },
+          {
+            "id": "P19",
+            "text": "Ele também recordou Judas, o galileu, nos dias do recenseamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele também recordou Judas, o galileu, nos dias do recenseamento."
+          },
+          {
+            "id": "P20",
+            "text": "Gamaliel aconselhou que deixassem aqueles homens ir embora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gamaliel aconselhou que deixassem aqueles homens ir embora."
+          },
+          {
+            "id": "P21",
+            "text": "O conselho distinguiu uma obra de origem humana de uma obra vinda de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.38-39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O conselho distinguiu uma obra de origem humana de uma obra vinda de Deus."
+          },
+          {
+            "id": "P22",
+            "text": "Os membros do Sinédrio concordaram com Gamaliel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os membros do Sinédrio concordaram com Gamaliel."
+          },
+          {
+            "id": "P23",
+            "text": "Os apóstolos foram açoitados e proibidos de falar no nome de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os apóstolos foram açoitados e proibidos de falar no nome de Jesus."
+          },
+          {
+            "id": "P24",
+            "text": "Eles saíram alegres por terem sido considerados dignos de sofrer afrontas pelo Nome.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles saíram alegres por terem sido considerados dignos de sofrer afrontas pelo Nome."
+          },
+          {
+            "id": "P25",
+            "text": "Todos os dias, no templo e de casa em casa, continuavam ensinando e pregando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "5.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Todos os dias, no templo e de casa em casa, continuavam ensinando e pregando."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Atos 5 narra a prisão dos apóstolos, a libertação pelo anjo, o novo comparecimento ao Sinédrio, o conselho de Gamaliel e a continuidade do ensino após os açoites.",
+        "hinge": "A pauta acompanha a sequência narrativa e atribui cada fala ao agente nomeado, sem transformar o discurso apostólico ou o conselho de Gamaliel em inferência externa.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "5.17-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-morte-estevao": {
+      "id": "nt2-atos-morte-estevao",
+      "kind": "canonical-case",
+      "title": "A morte de Estêvão",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 7.54-60",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "7.54-60",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais visão, testemunha, oração e morte aparecem no fim do relato de Estêvão?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Estêvão é o sujeito explícito da visão, das duas orações e da morte, reunindo os fatos do recorte.",
+      "editorial": {
+        "hinge": "O discurso anterior não é necessário: os quatro campos e as pistas procedem somente dos fatos narrados em At 7.54-60."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem viu a glória de Deus e Jesus à direita de Deus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Estêvão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Saulo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Filipe"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Gamaliel"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Estêvão",
+          "enderecoNAA": "Atos 7.55",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "7.55",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Aos pés de quem as testemunhas deixaram as capas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "De um jovem chamado Saulo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "De Pedro"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Do sumo sacerdote"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De Barnabé"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "De um jovem chamado Saulo",
+          "enderecoNAA": "Atos 7.58",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "7.58",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Estêvão pediu primeiro durante o apedrejamento",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Que Jesus recebesse seu espírito"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Que viesse fogo do céu"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Que os discípulos fugissem"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Que Saulo fosse preso"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Que Jesus recebesse seu espírito",
+          "enderecoNAA": "Atos 7.59",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "7.59",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Estêvão morreu",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Depois de pedir que o pecado não fosse atribuído aos agressores"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Enquanto tentava deixar a cidade"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Depois de responder ao Sinédrio por escrito"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ao ser levado de volta à prisão"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Depois de pedir que o pecado não fosse atribuído aos agressores",
+          "enderecoNAA": "Atos 7.60",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "7.60",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estêvão estava cheio do Espírito Santo e fitou os olhos no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Estêvão estava cheio do Espírito Santo e fitou os olhos no céu."
+          },
+          {
+            "id": "P02",
+            "text": "Ele viu a glória de Deus e Jesus à direita de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele viu a glória de Deus e Jesus à direita de Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Estêvão declarou ver os céus abertos e o Filho do Homem em pé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Estêvão declarou ver os céus abertos e o Filho do Homem em pé."
+          },
+          {
+            "id": "P04",
+            "text": "Os ouvintes taparam os ouvidos e avançaram juntos contra ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.57",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os ouvintes taparam os ouvidos e avançaram juntos contra ele."
+          },
+          {
+            "id": "P05",
+            "text": "Eles o expulsaram da cidade e o apedrejaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles o expulsaram da cidade e o apedrejaram."
+          },
+          {
+            "id": "P06",
+            "text": "As testemunhas deixaram as capas aos pés do jovem Saulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As testemunhas deixaram as capas aos pés do jovem Saulo."
+          },
+          {
+            "id": "P07",
+            "text": "Durante o apedrejamento, Estêvão pediu que Jesus recebesse seu espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.59",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Durante o apedrejamento, Estêvão pediu que Jesus recebesse seu espírito."
+          },
+          {
+            "id": "P08",
+            "text": "Ajoelhado, pediu que o Senhor não lhes atribuísse aquele pecado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.60",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ajoelhado, pediu que o Senhor não lhes atribuísse aquele pecado."
+          },
+          {
+            "id": "P09",
+            "text": "Estêvão morreu depois de pronunciar esse pedido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "7.60",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Estêvão morreu depois de pronunciar esse pedido."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Atos 7 encerra o relato de Estêvão com sua visão, o apedrejamento fora da cidade, a presença do jovem Saulo e duas orações antes da morte.",
+        "hinge": "O discurso anterior não é necessário: os quatro campos e as pistas procedem somente dos fatos narrados em At 7.54-60.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "7.54-60",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-eneias-tabita": {
+      "id": "nt2-atos-eneias-tabita",
+      "kind": "canonical-case",
+      "title": "Eneias e Tabita",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 9.32-43",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "9.32-43",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pessoas, cidades, duração e ações aparecem nas visitas de Pedro a Lida e Jope?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "Os oito anos de Eneias na cama são o dado quantitativo explícito que ancora um dos dois episódios e ajuda a distinguir seus protagonistas.",
+      "editorial": {
+        "hinge": "A pauta temática reúne dois episódios distintos porque ambos pertencem à sequência explícita das visitas de Pedro; cada pista conserva pessoa, cidade e origem próprias."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Havia quanto tempo Eneias jazia de cama",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Oito anos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Três dias"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Doze anos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quarenta dias"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Oito anos",
+          "enderecoNAA": "Atos 9.33",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "9.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem Pedro encontrou em Lida",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Eneias"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Tabita"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Simão, o curtidor"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Cornélio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Eneias",
+          "enderecoNAA": "Atos 9.32-33",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "9.32-33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual discípula de Jope também era chamada Dorcas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tabita"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Lídia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Priscila"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Safira"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tabita",
+          "enderecoNAA": "Atos 9.36",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "9.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde colocaram o corpo de Tabita",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Num quarto do andar superior"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Numa prisão pública"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Junto à porta da cidade"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Numa sinagoga"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Num quarto do andar superior",
+          "enderecoNAA": "Atos 9.37",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "9.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Pedro visitou os santos que moravam em Lida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro visitou os santos que moravam em Lida."
+          },
+          {
+            "id": "P02",
+            "text": "Em Lida, encontrou Eneias, que era paralítico.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em Lida, encontrou Eneias, que era paralítico."
+          },
+          {
+            "id": "P03",
+            "text": "Eneias jazia de cama havia oito anos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eneias jazia de cama havia oito anos."
+          },
+          {
+            "id": "P04",
+            "text": "Pedro declarou que Jesus Cristo curava Eneias e mandou que arrumasse a cama.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro declarou que Jesus Cristo curava Eneias e mandou que arrumasse a cama."
+          },
+          {
+            "id": "P05",
+            "text": "Eneias se levantou imediatamente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eneias se levantou imediatamente."
+          },
+          {
+            "id": "P06",
+            "text": "Habitantes de Lida e Sarom viram Eneias e se converteram ao Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Habitantes de Lida e Sarom viram Eneias e se converteram ao Senhor."
+          },
+          {
+            "id": "P07",
+            "text": "Em Jope havia uma discípula chamada Tabita, nome traduzido como Dorcas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em Jope havia uma discípula chamada Tabita, nome traduzido como Dorcas."
+          },
+          {
+            "id": "P08",
+            "text": "Tabita era notável pelas boas obras e esmolas que fazia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Tabita era notável pelas boas obras e esmolas que fazia."
+          },
+          {
+            "id": "P09",
+            "text": "Depois que Tabita morreu, seu corpo foi lavado e posto num quarto superior.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois que Tabita morreu, seu corpo foi lavado e posto num quarto superior."
+          },
+          {
+            "id": "P10",
+            "text": "Dois homens foram enviados de Jope para pedir que Pedro não demorasse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Dois homens foram enviados de Jope para pedir que Pedro não demorasse."
+          },
+          {
+            "id": "P11",
+            "text": "As viúvas mostraram túnicas e vestidos feitos por Dorcas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As viúvas mostraram túnicas e vestidos feitos por Dorcas."
+          },
+          {
+            "id": "P12",
+            "text": "Pedro mandou todos saírem, ajoelhou-se e orou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro mandou todos saírem, ajoelhou-se e orou."
+          },
+          {
+            "id": "P13",
+            "text": "Ao ouvir “Tabita, levante-se”, ela abriu os olhos e sentou-se.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao ouvir “Tabita, levante-se”, ela abriu os olhos e sentou-se."
+          },
+          {
+            "id": "P14",
+            "text": "Pedro deu-lhe a mão e a ajudou a ficar em pé.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro deu-lhe a mão e a ajudou a ficar em pé."
+          },
+          {
+            "id": "P15",
+            "text": "Pedro apresentou Tabita viva aos santos e às viúvas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro apresentou Tabita viva aos santos e às viúvas."
+          },
+          {
+            "id": "P16",
+            "text": "O acontecimento ficou conhecido em Jope, e muitos creram no Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O acontecimento ficou conhecido em Jope, e muitos creram no Senhor."
+          },
+          {
+            "id": "P17",
+            "text": "Pedro permaneceu em Jope na casa de Simão, um curtidor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "9.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Pedro permaneceu em Jope na casa de Simão, um curtidor."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Atos 9 reúne duas visitas de Pedro: Eneias é curado em Lida após oito anos na cama, e Tabita é apresentada viva em Jope depois da oração de Pedro.",
+        "hinge": "A pauta temática reúne dois episódios distintos porque ambos pertencem à sequência explícita das visitas de Pedro; cada pista conserva pessoa, cidade e origem próprias.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "9.32-43",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-herodes-tiro-sidom": {
+      "id": "nt2-atos-herodes-tiro-sidom",
+      "kind": "canonical-case",
+      "title": "Herodes e os moradores de Tiro e Sidom",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 12.20-23",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "12.20-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais conflito, intermediário, aclamação e desfecho aparecem no relato sobre Herodes?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A morte de Herodes por não dar glória a Deus é o desfecho causal explicitamente fornecido pelo narrador.",
+      "editorial": {
+        "hinge": "Os sete fatos procedem exclusivamente de At 12.20-23; a causa do desfecho é a explicação expressa pelo narrador, não uma inferência histórica."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Por que o anjo feriu Herodes",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Porque ele não deu glória a Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Porque recusou alimentos a Jerusalém"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Porque soltou um prisioneiro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Porque deixou o trono vazio"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Porque ele não deu glória a Deus",
+          "enderecoNAA": "Atos 12.23",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "12.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Com quais moradores Herodes tinha séria divergência",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os de Tiro e Sidom"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os de Lida e Sarom"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os de Atenas e Corinto"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os de Malta e Roma"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os de Tiro e Sidom",
+          "enderecoNAA": "Atos 12.20",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "12.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De quem eles obtiveram apoio",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Blasto, assessor do rei"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Gamaliel, mestre da lei"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Simão, o curtidor"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Félix, o governador"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Blasto, assessor do rei",
+          "enderecoNAA": "Atos 12.20",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "12.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o povo gritou sobre a fala de Herodes",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "“É voz de um deus, e não de um homem!”"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "“É voz de um profeta!”"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "“É voz do rei de Israel!”"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "“É voz de um anjo!”"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "“É voz de um deus, e não de um homem!”",
+          "enderecoNAA": "Atos 12.22",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "12.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Herodes tinha séria divergência com os moradores de Tiro e Sidom.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Herodes tinha séria divergência com os moradores de Tiro e Sidom."
+          },
+          {
+            "id": "P02",
+            "text": "Os moradores procuraram Herodes de comum acordo e obtiveram apoio de Blasto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os moradores procuraram Herodes de comum acordo e obtiveram apoio de Blasto."
+          },
+          {
+            "id": "P03",
+            "text": "Eles pediram paz porque sua terra recebia alimentos do país do rei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles pediram paz porque sua terra recebia alimentos do país do rei."
+          },
+          {
+            "id": "P04",
+            "text": "No dia designado, Herodes vestiu traje real, sentou-se no trono e discursou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "No dia designado, Herodes vestiu traje real, sentou-se no trono e discursou."
+          },
+          {
+            "id": "P05",
+            "text": "O povo chamou a fala de Herodes de voz de um deus, não de um homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O povo chamou a fala de Herodes de voz de um deus, não de um homem."
+          },
+          {
+            "id": "P06",
+            "text": "Um anjo do Senhor feriu Herodes porque ele não deu glória a Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Um anjo do Senhor feriu Herodes porque ele não deu glória a Deus."
+          },
+          {
+            "id": "P07",
+            "text": "Herodes morreu comido de vermes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "12.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Herodes morreu comido de vermes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Atos 12 relata a busca de paz pelos moradores de Tiro e Sidom, o apoio de Blasto, a aclamação do discurso de Herodes e sua morte após não dar glória a Deus.",
+        "hinge": "Os sete fatos procedem exclusivamente de At 12.20-23; a causa do desfecho é a explicação expressa pelo narrador, não uma inferência histórica.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "12.20-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

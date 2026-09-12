@@ -19,11 +19,11 @@ const curtasJoao = limitadasASeis.filter(id => bank.byId[id].canon.book === "Jo�
 assert.equal(curtasJoao.length, 8, "as oito pautas curtas de João entram em mesas de até seis");
 assert.equal(limitadasASeis.length, 28, "pautas com 13 ou 14 cartas usam capacidade seis");
 assert.equal(bank.elegiveis(5).filter(id => bank.byId[id].deck.maxPlayers === 5).length, 1, "pauta de onze cartas usa capacidade cinco");
-assert.equal(bank.elegiveis(8).filter(id => bank.byId[id].deck.maxPlayers === 8).length, 1, "pauta de dezessete cartas usa capacidade oito");
+assert.equal(bank.elegiveis(8).filter(id => bank.byId[id].deck.maxPlayers === 8).length, 2, "pautas de dezessete cartas usam capacidade oito");
 const limitadasAQuatro = bank.elegiveis(4).filter(id => bank.byId[id].deck.maxPlayers === 4);
-assert.equal(limitadasAQuatro.length, 7, "pautas de nove cartas usam capacidade quatro");
+assert.equal(limitadasAQuatro.length, 9, "pautas de nove cartas usam capacidade quatro");
 const limitadasATres = bank.elegiveis(3).filter(id => bank.byId[id].deck.maxPlayers === 3);
-assert.equal(limitadasATres.length, 12, "pautas de sete cartas usam capacidade três");
+assert.equal(limitadasATres.length, 13, "pautas de sete cartas usam capacidade três");
 assert.ok(limitadasATres.every(id => !bank.elegiveis(4).includes(id)));
 assert.ok(limitadasAQuatro.every(id => !bank.elegiveis(5).includes(id)));
 assert.ok(limitadasASeis.every(id => !eligible7.includes(id)), "pautas limitadas a seis ficam fora a partir de sete");

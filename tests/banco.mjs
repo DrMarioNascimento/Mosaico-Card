@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 104);
-assert.equal(catalog.summary.max12Cases, 55);
+assert.equal(catalog.summary.editoriallyEligibleCases, 109);
+assert.equal(catalog.summary.max12Cases, 56);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -34,6 +34,9 @@ const auditoriaEvangelhosFinal = ["nt2-mateus-entrada-jerusalem", "nt2-mateus-mu
 assert.ok(auditoriaEvangelhosFinal.every(id => catalog.byId[id].status.playable));
 assert.equal(catalog.byId["nt2-marcos-bartimeu"].deck.maxPlayers, 3);
 assert.equal(catalog.byId["nt2-lucas-aparicao-ascensao"].deck.maxPlayers, 8);
+const auditoriaAtos037 = ["nt2-atos-oracao-ousadia", "nt2-atos-apostolos-sinedrio", "nt2-atos-morte-estevao", "nt2-atos-eneias-tabita", "nt2-atos-herodes-tiro-sidom"];
+assert.ok(auditoriaAtos037.every(id => catalog.byId[id].status.playable));
+assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));
 

@@ -44,11 +44,11 @@ Esses seis resultados corrigem as justificativas genéricas anteriores. Nenhuma 
 | Lc 17.11-19 | caminho a Jerusalém; Samaria/Galileia; dez leprosos; sacerdotes; samaritano; gratidão | `nt2-lucas-dez-leprosos` — 7 pistas, 2–3. |
 | Lc 22.24-38 | disputa; maior/menor; mesa; doze tronos; Simão; negações; bolsa/alforje/espada | Candidato temático permitido; requer separar falas por destinatário na autoria. |
 | Lc 24.36-53 | Jerusalém; discípulos; mãos/pés; peixe; Escrituras; Betânia; ascensão | Candidato factual; comparação com finais não autoriza transferência de detalhes. |
-| At 4.23-31 | companheiros; oração; lugar reunido; tremor; Espírito; ousadia | Candidato temático reduzido. |
-| At 5.17-42 | sumo sacerdote/saduceus; prisão; anjo; templo; Sinédrio; Gamaliel; açoites | Candidato factual, não mera “mistura de discurso”. |
-| At 7.54-60 | Estêvão; visão; pedras; Saulo; oração; morte | Candidato factual reduzido; discurso anterior não é necessário. |
-| At 9.32-43 | Lida/Jope; Eneias/Tabita; oito anos; cama; roupas; quarto alto; ressurreição | Dois episódios distintos podem formar pauta temática autorizada; candidato. |
-| At 12.20-23 | Herodes; Tiro/Sidom; Blasto; discurso; voz de deus; anjo; vermes | Candidato factual reduzido. |
+| At 4.23-31 | companheiros; oração; lugar reunido; tremor; Espírito; ousadia | `nt2-atos-oracao-ousadia`, 9 pistas, capacidade 2–4. |
+| At 5.17-42 | sumo sacerdote/saduceus; prisão; anjo; templo; Sinédrio; Gamaliel; açoites | `nt2-atos-apostolos-sinedrio`, 25 pistas, capacidade 2–12. |
+| At 7.54-60 | Estêvão; visão; pedras; Saulo; oração; morte | `nt2-atos-morte-estevao`, 9 pistas, capacidade 2–4; discurso anterior não usado. |
+| At 9.32-43 | Lida/Jope; Eneias/Tabita; oito anos; cama; roupas; quarto alto; ressurreição | `nt2-atos-eneias-tabita`, 17 pistas, capacidade 2–8; origens explícitas preservadas. |
+| At 12.20-23 | Herodes; Tiro/Sidom; Blasto; discurso; voz de deus; anjo; vermes | `nt2-atos-herodes-tiro-sidom`, 7 pistas, capacidade 2–3. |
 | At 13.4-12 | Chipre; Salamina/Pafos; Barjesus/Elimas; Sérgio Paulo; cegueira; fé | Candidato factual reduzido. |
 | At 14.8-20 | Listra; homem sem uso dos pés; Hermes/Zeus; Barnabé/Paulo; pedras; cidade | Candidato factual reduzido. |
 | At 16.6-15 | Frígia/Galácia; Mísia/Trôade; visão macedônia; Filipos; Lídia; rio; batismo | Candidato factual, sem alinhar automaticamente com cartas. |
@@ -121,3 +121,10 @@ Após consulta efetiva à NAA, onze pautas de sete pistas foram incorporadas par
 | Lc 24.36-53 | Lc 24, Mt 28, Jo 20 e At 1, NAA, HTTP 200 | `nt2-lucas-aparicao-ascensao`, 17 pistas; peixe, início em Jerusalém e Betânia permanecem próprios de Lucas. |
 
 O lote acrescentou cinco pautas e 62 pistas, elevando o inventário de 99/1.854 para 104/1.916. Permanecem para outra rodada todos os candidatos ainda enumerados de **Atos, Romanos–Judas e Apocalipse**. Nenhum deles foi auditado ou descartado neste checkpoint, e o banco não é declarado completo.
+
+
+## Checkpoint 037 — cinco recortes de Atos
+
+Em 12/09/2026, as páginas NAA de Atos 4, 5, 7, 9 e 12 em `bible.com/pt/bible/1840` foram obtidas separadamente, todas com HTTP 200, e os cinco recortes foram relidos. Cada um recebeu decisão individual: At 4.23-31 (9 pistas), At 5.17-42 (25), At 7.54-60 (9), At 9.32-43 (17) e At 12.20-23 (7) foram autorados. A pauta de Eneias e Tabita é temática, mas mantém cidade, pessoa e ação de cada episódio explicitamente atribuídas.
+
+A rodada acrescentou cinco pautas e 67 pistas: o inventário passa de 104/1.916 para 109/1.983. Os outros candidatos de Atos e todos os candidatos de Romanos–Judas e Apocalipse permanecem para rodadas posteriores. O banco não é declarado completo.

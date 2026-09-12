@@ -382,3 +382,16 @@ Um único lote de cinco pautas encerrou somente as pendências solicitadas dos E
 - **Inventário após o lote:** 104 pautas, 1.916 pistas; todas elegíveis em alguma mesa. Cinquenta e cinco chegam a 12 jogadores; uma a oito; 28 a seis; uma a cinco; sete a quatro; e doze a três.
 - **Limite desta rodada:** a auditoria de Atos, Romanos–Judas e Apocalipse permanece expressamente pendente para outra rodada. Este checkpoint não declara o banco completo.
 - **Publicação:** não realizada; não houve merge, deploy nem alteração de credenciais ou Firebase.
+
+## Checkpoint 037 — primeiro lote incremental de Atos
+
+A PR 8 informou `a89795cebb8c179780aec8dd8f5475284ea81321` como head remoto do checkpoint 036; a árvore local disponível correspondia ao mesmo inventário preservado de 104 pautas e 1.916 pistas, embora o objeto remoto não estivesse presente no clone sem remote configurado. Antes da autoria, validação estrutural e contagem independente confirmaram os 104 IDs únicos. A comparação mecanizada após a edição confirmou que seus conteúdos permaneceram idênticos, exceto pela correção documental delimitada de Bartimeu descrita abaixo.
+
+As páginas NAA de Atos 4, 5, 7, 9 e 12 foram obtidas em 12/09/2026 de `bible.com/pt/bible/1840`, todas com HTTP 200. Um lote de cinco pautas foi autorado: `nt2-atos-oracao-ousadia` (9 pistas), `nt2-atos-apostolos-sinedrio` (25), `nt2-atos-morte-estevao` (9), `nt2-atos-eneias-tabita` (17) e `nt2-atos-herodes-tiro-sidom` (7). Cada recorte recebeu decisão própria; a combinação temática autorizada de Eneias/Tabita mantém os dois episódios e suas cidades explicitamente separados.
+
+A revisão solicitada de Bartimeu concluiu que cura e seguimento genéricos não demonstram por si sós identidade episódica entre Mc 10.46-52, Mt 20.29-34 e Lc 18.35-43. Por isso, `nt2-marcos-bartimeu:P07` e o hinge agora ficam exclusivamente em Marcos; a pauta não foi bloqueada nem alterada em seus demais fatos.
+
+- **Inventário:** 109 pautas elegíveis, 1.983 pistas; 56 chegam a 12 jogadores, duas a oito, 28 a seis, uma a cinco, nove a quatro e treze a três.
+- **Preservação:** os 104 IDs do checkpoint 036 mantêm ordem e conteúdo, salvo a correção explicitamente justificada de Bartimeu.
+- **Pendências:** os demais recortes de Atos e os candidatos de Romanos–Judas e Apocalipse ficam para rodadas posteriores. O banco não é declarado completo.
+- **Operação:** sem merge, deploy, publicação ou alteração de credenciais/Firebase.
