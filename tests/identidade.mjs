@@ -49,3 +49,5 @@ const gameSala = readFileSync(new URL("../game-sala.js", import.meta.url), "utf8
 assert.match(gameSala, /bankIdentity: e\.state\.demo \? null : identidadeBanco\(\)/);
 assert.match(gameSala, /identidadeBancoCompativel\(window\.MC_NT_BANK, data\)/);
 assert.match(gameSala, /if \(data\.pautaId && !casoDoBanco\(data\.pautaId\)\) return/);
+assert.match(gameSala, /casoCompativelComMesa\(casoDoBanco\(data\.pautaId\)/);
+assert.match(js, /sortear\(sala\.jogadores\.length\)/);

@@ -14,6 +14,14 @@ for (let quantidade = 2; quantidade <= 12; quantidade += 1) {
   assert.equal(jogadores.reduce((total, id) => total + distribuicao.maosPorJogador[id].length, 0) + distribuicao.monte.length, 25);
   if (quantidade === 2) assert.ok(jogadores.every(id => distribuicao.maosPorJogador[id].some(card => essenciais.includes(card))));
 }
+const casoCurto = { status: { playable: true }, deck: { cards: Array(13), maxPlayers: 6 } };
+assert.equal(regras.maxJogadoresCaso(casoCurto), 6);
+assert.equal(regras.casoCompativelComMesa(casoCurto, 6), true);
+assert.equal(regras.casoCompativelComMesa(casoCurto, 7), false);
+assert.throws(() => regras.distribuirPistas(Array.from({ length: 13 }, (_, i) => `P${i}`), [], Array.from({ length: 7 }, (_, i) => `j${i}`)), /duas cartas por jogador/);
+const distribuicaoCurta = regras.distribuirPistas(Array.from({ length: 13 }, (_, i) => `P${i}`), [], Array.from({ length: 6 }, (_, i) => `j${i}`), items => items.slice());
+assert.ok(Object.values(distribuicaoCurta.maosPorJogador).every(mao => mao.length === 2));
+assert.equal(distribuicaoCurta.monte.length, 1);
 
 // Acerto global e erro individual.
 const estado = regras.criarEstadoJogadores(["ana", "bia"], 12);

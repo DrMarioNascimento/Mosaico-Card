@@ -32,3 +32,7 @@ Os 20 recortes aprovados são os IDs `nt2-joao-*` da fonte estruturada. Cada pau
 ## Estado do livro
 
 Os 21 capítulos foram consultados e os recortes acima receberam decisão. Para esta rodada, o **levantamento de João está analisado**: 20 candidatos aprovados, um recorte bloqueado e os demais excluídos ou reservados com motivo. “Analisado” não significa que toda exclusão seja permanente nem que todo caso aprovado seja elegível tecnicamente: baralhos com menos de 25 pistas continuam bloqueados para preservar o motor de duas cartas por participante e poço em mesas de 12.
+
+## Capacidade variável — checkpoint 029
+
+As oito pautas com 13 pistas foram liberadas sem acrescentar fatos: são editorialmente elegíveis e compatíveis apenas com 2–6 participantes. As doze pautas com pelo menos 25 pistas continuam compatíveis com 2–12. O sorteio filtra pela mesa real e mantém duas cartas por pessoa e poço.

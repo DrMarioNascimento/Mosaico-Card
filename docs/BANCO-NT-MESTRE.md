@@ -334,3 +334,16 @@ Foram autoradas `nt2-apocalipse-trono-cordeiro` (Ap 4–5), `nt2-apocalipse-mulh
 - **Inventário:** 63 pautas, 1.480 pistas; 54 elegíveis e 9 bloqueadas. Não é meta.
 - **Auditoria:** nenhum par semântico fica sem resolução documentada; testes estruturais continuam separados da revisão bíblica/editorial do agente.
 - **Pendências:** oito pautas curtas de João e Hebreus 11 continuam bloqueados por qualidade. Não surgiu nova decisão exclusiva do usuário.
+
+## Checkpoint 028 — decisão de capacidade variável recebida
+
+Foi registrada a autorização para liberar as oito pautas curtas de João somente em mesas compatíveis, sem acrescentar pistas. A elegibilidade editorial será separada da capacidade calculada; seleção, saco, início e retomada deverão considerar a quantidade real de participantes. Hebreus 11 permanece bloqueado editorialmente e não será alterado neste lote.
+
+## Checkpoint 029 — capacidade aplicada ao catálogo e ao runtime
+
+A elegibilidade editorial foi separada da capacidade operacional. Para cada pauta, `maxPlayers = min(12, floor((cartas - 1) / 2))`; `minPlayers` permanece 2. As oito pautas de João com 13 pistas estão editorialmente elegíveis e jogáveis somente de 2 a 6. As outras 54 pautas elegíveis comportam 12; Hebreus 11 continua bloqueado editorialmente, embora tenha capacidade física.
+
+Seleção e sorteio recebem o tamanho real da mesa. O saco persistido ganhou partição por quantidade de participantes e remove IDs incompatíveis. Início local e retomada compartilhada recusam uma pauta acima de sua capacidade. A distribuição agora falha explicitamente antes de produzir mãos incompletas se não puder entregar duas cartas por pessoa e preservar ao menos uma no poço.
+
+- **Inventário:** 63 pautas e 1.480 pistas; 62 editorialmente elegíveis/jogáveis em alguma mesa, das quais 54 chegam a 12 participantes; 1 bloqueada editorialmente.
+- **Conteúdo:** nenhuma pista foi acrescentada às oito pautas curtas; decisões bíblicas anteriores foram preservadas.

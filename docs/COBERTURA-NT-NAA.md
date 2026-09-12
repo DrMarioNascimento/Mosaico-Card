@@ -7,7 +7,7 @@
 | Mateus | Analisado — varredura por faixas | 21 + faixas restantes | 8 próprios + 3 consolidados | alimentação consolidada com João |
 | Marcos | Analisado — decisões por recorte | 17 | 1 próprio + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — varredura por faixas | 22 + faixas restantes | 8 autorados | curtos/poéticos/paralelos documentados |
-| João | Analisado — ver ficha por recorte | 20 | 20 | 8 baralhos curtos bloqueados |
+| João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — decisões por recorte e faixas | 26 + faixas restantes | 10 autorados | 16 bloqueados por insuficiência/delimitação |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 1 autorado | argumentos/listas insuficientes; Rm 16.24 bloqueado |
 | 1 Coríntios | Analisado — decisões por faixa | capítulos 1–16 | 1 autorado | motivos específicos por faixa |

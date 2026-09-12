@@ -29,3 +29,7 @@ Em 12/09/2026, as páginas NAA identificadas de Jo 8, At 8, 1Pe 3–5, 1Jo 5, 2J
 ## Resultado do lote
 
 Foram criadas três pautas de Apocalipse e atualizada uma pauta de Atos. As demais permissões tiveram resultado individual, não rejeição automática por gênero ou símbolo. As exclusões expressas não foram propagadas ao capítulo inteiro. Não surgiu nova dúvida que exija decisão do usuário; permanecer sem pauta, nos itens acima, é decisão editorial por insuficiência/unidade, não bloqueio interpretativo.
+
+## Decisão superveniente sobre as oito pautas curtas
+
+O resultado de insuficiência para uma mesa universal de 12 foi superado pela decisão de capacidade variável do checkpoint 029. As oito pautas de João com 13 pistas não receberam conteúdo novo: conservam a revisão bíblica/editorial anterior e passam a ser selecionáveis apenas para 2–6 participantes. Para 7–12, são incompatíveis e não entram na seleção nem no saco. Esta alteração não muda os resultados interpretativos dos recortes deste documento.

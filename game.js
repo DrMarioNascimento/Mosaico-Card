@@ -230,8 +230,9 @@
     requestAnimationFrame(function () { requestAnimationFrame(playCoinIntro); });
   }
   function iniciarPartida(caso, config, jogadores) {
-    if (!caso || !caso.status || caso.status.playable !== true) {
-      throw new Error("A pauta ainda não possui baralho, campo focal e gabarito validados.");
+    const quantidade = Array.isArray(jogadores) ? jogadores.length : 0;
+    if (!REGRAS.casoCompativelComMesa(caso, quantidade)) {
+      throw new Error("A pauta não está validada ou não comporta esta quantidade de participantes com duas cartas e poço.");
     }
     limparEstadoPartida();
     state.demo = false;

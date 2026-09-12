@@ -33,6 +33,18 @@
     return recebida.namespace === atual.namespace && recebida.catalogVersion === atual.catalogVersion && recebida.schemaVersion === atual.schemaVersion;
   }
 
+  function maxJogadoresCaso(caso) {
+    const informado = inteiro(caso && caso.deck && caso.deck.maxPlayers);
+    if (informado !== null) return limitar(informado, 0, 12);
+    const cartas = caso && caso.deck && Array.isArray(caso.deck.cards) ? caso.deck.cards.length : 0;
+    return limitar(Math.floor((cartas - 1) / 2), 0, 12);
+  }
+
+  function casoCompativelComMesa(caso, numeroJogadores) {
+    const quantidade = inteiro(numeroJogadores);
+    return Boolean(caso && caso.status && caso.status.playable === true && quantidade !== null && quantidade >= 2 && quantidade <= maxJogadoresCaso(caso));
+  }
+
   function modoDoCaso(caso) {
     return caso && caso.modo === "quiz" ? "quiz" : "economico";
   }
@@ -107,6 +119,7 @@
   function distribuirPistas(ids, essenciais, jogadores, embaralhar) {
     const ordem = Array.isArray(jogadores) ? jogadores.slice() : [];
     if (ordem.length < 2 || ordem.length > 12) throw new RangeError("A distribuição exige entre 2 e 12 jogadores.");
+    if (!Array.isArray(ids) || ids.length < ordem.length * 2 + 1) throw new RangeError("O baralho deve fornecer duas cartas por jogador e ao menos uma carta no poço.");
     const shuffle = typeof embaralhar === "function" ? embaralhar : function (items) { return items.slice(); };
     const essenciaisSet = new Set(essenciais || []);
     const prioritarias = shuffle(ids.filter(function (id) { return essenciaisSet.has(id); }));
@@ -328,6 +341,8 @@
     TEMPOS_TURNO,
     DURACOES,
     identidadeBancoCompativel,
+    maxJogadoresCaso,
+    casoCompativelComMesa,
     modoDoCaso,
     tempoRecomendado,
     validarConfiguracao,

@@ -51,7 +51,7 @@ export function validateBank(bank) {
       checkRefs(field.answerReferences, `${fieldAt}.answerReferences`);
     });
     const cards = entry.cards || [];
-    if (cards.length < 13 || !unique(cards.map(card => card.id))) add(at, "fonte editorial requer ao menos 13 IDs únicos; elegibilidade 2–12 exige 25 cartas (duas por jogador e poço), sem duplicação artificial");
+    if (cards.length < 5 || !unique(cards.map(card => card.id))) add(at, "baralho requer IDs únicos e capacidade mínima para duas pessoas (duas cartas por pessoa e poço), sem duplicação artificial");
     cards.forEach(card => {
       const cardAt = `${at}.cards.${card.id || "?"}`;
       if (!text(card.text) || !["essential", "relevant", "contextual"].includes(card.importance)) add(cardAt, "texto e importância válidos são obrigatórios");
@@ -69,9 +69,10 @@ export function validateBank(bank) {
     const reviews = entry.review || {};
     if (!["pending", "approved", "blocked"].includes(reviews.structural) || !["pending", "approved", "blocked"].includes(reviews.biblical) || !["pending", "approved", "blocked"].includes(reviews.editorial) || !Array.isArray(reviews.ambiguities)) add(at, "estados de revisão e ambiguidades devem ser explícitos");
     if (!text(entry.reveal?.canonicalSummary) || !text(entry.reveal?.hinge)) add(at, "síntese canônica e dente são obrigatórios na revelação");
-    const deckSupportsAllTables = cards.length >= 25;
-    const eligible = deckSupportsAllTables && reviews.structural === "approved" && reviews.biblical === "approved" && reviews.editorial === "approved" && Array.isArray(reviews.ambiguities) && reviews.ambiguities.length === 0;
-    entry.__derived = { playable: eligible, fieldOrder: [entry.focalFieldId, ...FIELD_IDS.filter(id => id !== entry.focalFieldId)], points: POINTS, blockers: deckSupportsAllTables ? [] : ["deck-insufficient-for-12-players"] };
+    const maxPlayers = Math.min(12, Math.floor((cards.length - 1) / 2));
+    const editoriallyEligible = reviews.structural === "approved" && reviews.biblical === "approved" && reviews.editorial === "approved" && Array.isArray(reviews.ambiguities) && reviews.ambiguities.length === 0;
+    const playable = editoriallyEligible && maxPlayers >= 2;
+    entry.__derived = { playable, editoriallyEligible, minPlayers: 2, maxPlayers, fieldOrder: [entry.focalFieldId, ...FIELD_IDS.filter(id => id !== entry.focalFieldId)], points: POINTS, blockers: maxPlayers >= 2 ? [] : ["deck-insufficient-for-two-players-and-pool"] };
     checkRefs(entry.reveal?.references, `${at}.reveal.references`);
   });
   return errors;

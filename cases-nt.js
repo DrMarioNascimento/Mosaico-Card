@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-027",
+  "catalogVersion": "2026.09-batch-029",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -12,7 +12,9 @@
   "summary": {
     "cases": 63,
     "fields": 252,
-    "playableCases": 54
+    "editoriallyEligibleCases": 62,
+    "playableCases": 62,
+    "max12Cases": 54
   },
   "order": [
     "nt2-joao-cana",
@@ -272,6 +274,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -900,6 +904,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -1096,6 +1101,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -1724,6 +1731,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -1920,6 +1928,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -2548,6 +2558,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -2744,6 +2755,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -3370,6 +3383,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -3566,6 +3580,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -4193,6 +4209,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -4396,6 +4413,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -5072,6 +5091,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -5268,6 +5288,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -5894,6 +5916,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -6090,6 +6113,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -6716,6 +6741,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -6912,6 +6938,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -7538,6 +7566,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -7734,6 +7763,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -8360,6 +8391,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -8555,7 +8587,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -8894,11 +8928,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-oficial": {
       "id": "nt2-joao-oficial",
@@ -9091,7 +9124,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -9430,11 +9465,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-sobre-mar": {
       "id": "nt2-joao-sobre-mar",
@@ -9627,7 +9661,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -9966,11 +10002,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-tabernaculos": {
       "id": "nt2-joao-tabernaculos",
@@ -10163,7 +10198,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -10503,11 +10540,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-bom-pastor": {
       "id": "nt2-joao-bom-pastor",
@@ -10700,7 +10736,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -11039,11 +11077,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-betania-perfume": {
       "id": "nt2-joao-betania-perfume",
@@ -11236,7 +11273,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -11576,11 +11615,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-jardim": {
       "id": "nt2-joao-jardim",
@@ -11788,6 +11826,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -12547,6 +12587,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -12750,6 +12791,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -13439,6 +13482,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -13634,7 +13678,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -13973,11 +14019,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-joao-rede": {
       "id": "nt2-joao-rede",
@@ -14170,7 +14215,9 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
         "cards": [
           {
             "id": "P01",
@@ -14509,11 +14556,10 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
-        "playable": false
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "deck-insufficient-for-12-players"
-      ]
+      "pendingIssues": []
     },
     "nt2-mateus-magos": {
       "id": "nt2-mateus-magos",
@@ -14707,6 +14753,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -15333,6 +15381,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -15564,6 +15613,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -16274,6 +16325,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -16477,6 +16529,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -17180,6 +17234,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -17376,6 +17431,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -18002,6 +18059,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -18198,6 +18256,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -18824,6 +18884,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -19020,6 +19081,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -19646,6 +19709,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -19842,6 +19906,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -20468,6 +20534,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -20664,6 +20731,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -21290,6 +21359,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -21486,6 +21556,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -22112,6 +22184,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -22322,6 +22395,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -23039,6 +23114,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -23256,6 +23332,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -23966,6 +24044,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -24218,6 +24297,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -24928,6 +25009,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -25124,6 +25206,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -25751,6 +25835,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -25947,6 +26032,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -26573,6 +26660,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -26769,6 +26857,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -27395,6 +27485,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -27591,6 +27682,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -28217,6 +28310,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -28413,6 +28507,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -29040,6 +29136,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -29236,6 +29333,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -29862,6 +29961,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -30058,6 +30158,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -30684,6 +30786,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -30880,6 +30983,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -31506,6 +31611,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -31702,6 +31808,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -32328,6 +32436,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -32524,6 +32633,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -33150,6 +33261,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -33353,6 +33465,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -34004,6 +34118,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -34200,6 +34315,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -34826,6 +34943,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -35022,6 +35140,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -35648,6 +35768,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -35844,6 +35965,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -36475,6 +36598,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -36671,6 +36795,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -37297,6 +37423,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -37493,6 +37620,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -38121,6 +38250,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -38317,6 +38447,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -38943,6 +39075,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -39139,6 +39272,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -39765,6 +39900,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -39961,6 +40097,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -40588,6 +40726,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -40784,6 +40923,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -41411,6 +41552,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -41607,6 +41749,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -42233,6 +42377,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -42429,6 +42574,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -43055,6 +43202,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -43251,6 +43399,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -43877,6 +44027,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -44073,6 +44224,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -44700,6 +44853,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -44896,6 +45050,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -45523,6 +45679,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -45719,6 +45876,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -46345,6 +46504,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -46540,7 +46700,9 @@
         }
       ],
       "deck": {
-        "status": "ready",
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -47168,6 +47330,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "blocked",
+        "editoriallyEligible": false,
         "playable": false
       },
       "pendingIssues": [
@@ -47366,6 +47529,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -47992,6 +48157,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -48195,6 +48361,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -48830,6 +48998,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -49026,6 +49195,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -49656,6 +49827,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []
@@ -49859,6 +50031,8 @@
       ],
       "deck": {
         "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
         "cards": [
           {
             "id": "P01",
@@ -50494,6 +50668,7 @@
         "structural": "approved",
         "biblical": "approved",
         "editorial": "approved",
+        "editoriallyEligible": true,
         "playable": true
       },
       "pendingIssues": []

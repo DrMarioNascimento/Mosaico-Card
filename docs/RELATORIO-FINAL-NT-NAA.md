@@ -7,9 +7,10 @@ Os 27 livros possuem ficha e decisão por recorte/faixa. Isso representa a prime
 ## Inventário verificável do checkpoint 027
 
 - 63 pautas autoradas e 1.480 pistas factuais;
-- 54 pautas elegíveis;
-- 8 pautas curtas de João bloqueadas por terem somente 13 pistas;
-- Hebreus 11 bloqueado apesar de 25 pistas, por ausência de dente dedutivo comum;
+- 62 pautas editorialmente elegíveis e jogáveis em alguma mesa;
+- 54 pautas compatíveis com 2–12 participantes;
+- 8 pautas curtas de João, com 13 pistas, compatíveis somente com 2–6 participantes;
+- Hebreus 11 é a única pauta bloqueada editorialmente, apesar de 25 pistas, por ausência de dente dedutivo comum;
 - três novas pautas de Apocalipse, todas com 25 pistas: trono/Cordeiro, mulher/dragão e Nova Jerusalém;
 - uma pista contextual acrescentada à pauta de Filipe e o oficial etíope, com a ressalva textual de At 8.37.
 
@@ -29,7 +30,7 @@ A interpretação comunitária da “senhora eleita” e de “aquela que se enc
 
 A auditoria não encontrou duplicatas textuais exatas. Os novos alertas semânticos foram examinados: os lados opostos da guerra em Ap 12 e os portões/fundamentos da cidade em Ap 21 são fatos distintos, com justificativas versionadas. As três pautas novas têm unidade comum e não são quatro perguntas independentes de lista.
 
-Os oito baralhos curtos e Hebreus 11 permanecem fora do sorteio. Nenhum deles foi completado por paráfrase, fragmentação ou mudança das regras. A consolidação Mateus/João já realizada permanece inalterada. Atos e cartas paulinas conservam seus documentos separados sempre que uma correspondência de viagem ou acontecimento não é textual e segura.
+As oito pautas curtas entram somente no sorteio de mesas com 2–6 participantes; Hebreus 11 permanece fora de todo sorteio. Nenhuma pauta curta foi completada por paráfrase ou fragmentação. A regra continua exigindo duas cartas por pessoa e poço, agora com capacidade própria por pauta. A consolidação Mateus/João já realizada permanece inalterada. Atos e cartas paulinas conservam seus documentos separados sempre que uma correspondência de viagem ou acontecimento não é textual e segura.
 
 ## Pendências após o lote
 
@@ -37,10 +38,10 @@ Os oito baralhos curtos e Hebreus 11 permanecem fora do sorteio. Nenhum deles fo
 
 Não resta recorte recém-autorizado sem resultado. Futuras pautas poderão surgir de novo levantamento, mas isso não é pendência deste lote nem justificativa para afirmar exaustividade.
 
-### Casos bloqueados por qualidade
+### Capacidade e bloqueio remanescente
 
-- oito pautas de João: capacidade factual insuficiente para mesas de 12;
-- Hebreus 11: estrutura de listas sem dente dedutivo comum.
+- oito pautas de João: liberadas para 2–6 e impedidas para 7–12;
+- Hebreus 11: permanece bloqueado editorialmente, aguardando avaliação do usuário.
 
 ### Decisões exclusivas do usuário
 
@@ -48,6 +49,6 @@ As decisões solicitadas foram aplicadas. Não surgiu nova ambiguidade que exija
 
 ## Integração e entrega
 
-A validação estrutural verifica IDs, quatro campos e alternativas, gabaritos, focal e ordem 8/5/3/2, referências, cartas, revisões e elegibilidade. A suíte percorre todas as pautas elegíveis em mesas de 2–12, com duas cartas por participante e poço, e confere revelação final. O auditor semântico permanece auxiliar e não é usado como prova de fidelidade bíblica.
+A validação estrutural verifica IDs, quatro campos e alternativas, gabaritos, focal e ordem 8/5/3/2, referências, cartas, revisão, elegibilidade editorial e capacidade. A suíte percorre cada pauta nas mesas compatíveis, testa a fronteira 6/7 das oito pautas curtas e mantém a cobertura das mesas de 12, sempre com duas cartas por participante e poço, além de conferir a revelação final. O auditor semântico permanece auxiliar e não é usado como prova de fidelidade bíblica.
 
-Saco e partidas compartilhadas usam namespace, versão do catálogo e esquema; snapshots incompatíveis ou com pauta desconhecida são rejeitados. A demonstração da ovelha continua isolada. Este checkpoint não realiza merge, deploy ou alteração de produção.
+O saco também é particionado pela quantidade real da mesa; partidas compartilhadas usam namespace, versão do catálogo e esquema, e sua retomada valida a capacidade; snapshots incompatíveis ou com pauta desconhecida são rejeitados. A demonstração da ovelha continua isolada. Este checkpoint não realiza merge, deploy ou alteração de produção.

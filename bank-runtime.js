@@ -3,23 +3,26 @@
   const bank = window.MC_NT_BANK;
   if (!bank) return;
 
-  function elegiveis() {
+  function elegiveis(numeroJogadores) {
     return bank.order.filter(function (id) {
       const caso = bank.byId[id];
-      return caso && caso.status && caso.status.playable === true;
+      if (!(caso && caso.status && caso.status.playable === true)) return false;
+      if (numeroJogadores == null) return true;
+      const quantidade = Number(numeroJogadores);
+      return Number.isInteger(quantidade) && quantidade >= 2 && quantidade <= caso.deck.maxPlayers;
     });
   }
-  function chaveSaco() { return "mc:banco:saco:" + bank.namespace + ":" + bank.catalogVersion + ":v" + bank.schemaVersion; }
-  function lerSaco() {
+  function chaveSaco(numeroJogadores) { return "mc:banco:saco:" + bank.namespace + ":" + bank.catalogVersion + ":v" + bank.schemaVersion + ":j" + (numeroJogadores == null ? "all" : numeroJogadores); }
+  function lerSaco(numeroJogadores) {
     try {
-      const value = JSON.parse(localStorage.getItem(chaveSaco()) || "null");
+      const value = JSON.parse(localStorage.getItem(chaveSaco(numeroJogadores)) || "null");
       return value && Array.isArray(value.ids) ? value : { ids: [], ultimo: null };
     } catch (_) {
       return { ids: [], ultimo: null };
     }
   }
-  function salvarSaco(value) {
-    try { localStorage.setItem(chaveSaco(), JSON.stringify(value)); } catch (_) { /* sessão sem persistência */ }
+  function salvarSaco(value, numeroJogadores) {
+    try { localStorage.setItem(chaveSaco(numeroJogadores), JSON.stringify(value)); } catch (_) { /* sessão sem persistência */ }
   }
   function embaralhar(ids) {
     const result = ids.slice();
@@ -29,15 +32,15 @@
     }
     return result;
   }
-  bank.sortear = function () {
-    const aptos = elegiveis();
+  bank.sortear = function (numeroJogadores) {
+    const aptos = elegiveis(numeroJogadores);
     if (!aptos.length) {
       return {
-        erro: "O novo banco NT/NAA ainda não possui pautas elegíveis; consulte o relatório de progresso editorial.",
+        erro: "O banco NT/NAA não possui pauta editorialmente elegível e compatível com esta quantidade de participantes.",
         pendentes: bank.summary.cases
       };
     }
-    let saco = lerSaco();
+    let saco = lerSaco(numeroJogadores);
     saco.ids = saco.ids.filter(function (id) { return aptos.includes(id); });
     if (!saco.ids.length) {
       saco.ids = embaralhar(aptos);
@@ -47,7 +50,7 @@
     }
     const id = saco.ids.shift();
     saco.ultimo = id;
-    salvarSaco(saco);
+    salvarSaco(saco, numeroJogadores);
     return { id: id, caso: bank.byId[id], restantes: saco.ids.length };
   };
   bank.elegiveis = elegiveis;

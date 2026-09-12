@@ -18,3 +18,7 @@ Registro versionado em 12/09/2026. Estas decisões substituem os bloqueios corre
 ## Escopo da aprovação
 
 O usuário decidiu somente os limites interpretativos acima. A atribuição `biblical: approved` ou `editorial: approved`, quando ocorrer, continuará sendo resultado da revisão do agente com fonte NAA identificada; nenhuma pista ou resposta será descrita como “revisada pelo usuário”. Dúvidas novas e independentes permanecem bloqueadas sem interromper os demais recortes.
+
+## Decisão posterior — capacidade variável por pauta
+
+Em 12/09/2026, o usuário revogou a exigência universal de 25 cartas/12 participantes por pauta e autorizou as oito pautas de João com 13 pistas para mesas compatíveis. A regra econômica não muda: cada participante recebe duas cartas e deve restar ao menos uma no poço. A capacidade passa a ser `min(12, floor((cartas - 1) / 2))`; portanto, 13 cartas permitem de 2 a 6 participantes, nunca de 7 a 12. A decisão altera capacidade operacional, não a revisão bíblica previamente registrada. Hebreus 11 permanece bloqueado editorialmente.

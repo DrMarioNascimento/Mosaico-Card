@@ -10,6 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
+assert.equal(catalog.summary.editoriallyEligibleCases, 62);
+assert.equal(catalog.summary.max12Cases, 54);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -18,21 +20,27 @@ assert.ok(catalog.byId["nt2-hebreus-testemunhos-fe"].pendingIssues.includes("edi
 assert.ok(catalog.byId["nt2-apocalipse-trono-cordeiro"].status.playable);
 assert.ok(catalog.byId["nt2-apocalipse-mulher-dragao"].status.playable);
 assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].status.playable);
+const curtasJoao = catalog.order.map(id => catalog.byId[id]).filter(entry => entry.canon.book === "João" && entry.deck.cards.length === 13);
+assert.equal(curtasJoao.length, 8);
+assert.ok(curtasJoao.every(entry => entry.status.editoriallyEligible && entry.status.playable && entry.deck.maxPlayers === 6));
 const pistaAt837 = catalog.byId["nt2-atos-filipe-eunuco"].deck.cards.find(card => card.references.some(reference => reference.passage === "8.37"));
 assert.match(pistaAt837.text, /manuscritos mais recentes/, "At 8.37 exige ressalva textual explícita");
 assert.equal(catalog.byId["nt2-atos-filipe-eunuco"].fields.some(field => field.answerReferences.some(reference => reference.passage === "8.37")), false, "a variante não determina gabarito");
 assert.equal(catalog.order.some(id => /^nt-\d{3}$/.test(id)), false, "IDs descartados não voltam ao catálogo");
 catalog.order.forEach(id => {
   const entry = catalog.byId[id];
-  const expectedPlayable = entry.deck.cards.length >= 25 && entry.review.structural === "approved" && entry.review.biblical === "approved" && entry.review.editorial === "approved" && entry.review.ambiguities.length === 0;
+  const expectedEditorial = entry.review.structural === "approved" && entry.review.biblical === "approved" && entry.review.editorial === "approved" && entry.review.ambiguities.length === 0;
+  const expectedMaxPlayers = Math.min(12, Math.floor((entry.deck.cards.length - 1) / 2));
+  const expectedPlayable = expectedEditorial && expectedMaxPlayers >= 2;
+  assert.equal(entry.status.editoriallyEligible, expectedEditorial);
   assert.equal(entry.status.playable, expectedPlayable);
-  assert.equal(entry.deck.status, entry.deck.cards.length >= 25 ? "ready" : "blocked");
+  assert.equal(entry.deck.maxPlayers, expectedMaxPlayers);
+  assert.equal(entry.deck.status, expectedPlayable ? "ready" : "blocked");
   assert.equal(entry.fields.length, 4);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
   assert.ok(entry.fields.every(field => field.respostaCanonica && field.enderecoNAA && field.answerReferences.length));
   assert.ok(entry.reveal.canonicalSummary && entry.reveal.hinge && entry.reveal.references.length);
-  assert.ok(entry.deck.cards.length >= 13);
-  if (entry.deck.cards.length < 25) assert.ok(entry.pendingIssues.includes("deck-insufficient-for-12-players"));
+  assert.ok(entry.deck.cards.length >= 5);
 });
 
 const ref = { book: "Mateus", passage: "1.1", edition: "NAA", sourceId: "fonte-identificada", checkedAt: "2026-09-12" };
@@ -51,8 +59,12 @@ assert.deepEqual(derived.cases[0].__derived.points, [8, 5, 3, 2]);
 const shortDeck = structuredClone(valid);
 shortDeck.cases[0].cards = shortDeck.cases[0].cards.slice(0, 13);
 assert.deepEqual(validateBank(shortDeck), []);
-assert.equal(shortDeck.cases[0].__derived.playable, false);
-assert.deepEqual(shortDeck.cases[0].__derived.blockers, ["deck-insufficient-for-12-players"]);
+assert.equal(shortDeck.cases[0].__derived.playable, true);
+assert.equal(shortDeck.cases[0].__derived.maxPlayers, 6);
+assert.deepEqual(shortDeck.cases[0].__derived.blockers, []);
+const tooShort = structuredClone(valid);
+tooShort.cases[0].cards = tooShort.cases[0].cards.slice(0, 4);
+assert.ok(validateBank(tooShort).some(error => error.includes("capacidade mínima")));
 
 const duplicate = structuredClone(valid);
 duplicate.cases[0].fields[0].options[1].text = duplicate.cases[0].fields[0].options[0].text;
@@ -73,12 +85,16 @@ for (const id of catalog.order.filter(caseId => catalog.byId[caseId].status.play
   const entry = catalog.byId[id];
   assert.equal(entry.fields.length, 4);
   assert.ok(entry.reveal.canonicalSummary && entry.reveal.hinge && entry.reveal.references.length);
-  for (let quantidade = 2; quantidade <= 12; quantidade += 1) {
+  for (let quantidade = 2; quantidade <= entry.deck.maxPlayers; quantidade += 1) {
     const jogadores = Array.from({ length: quantidade }, (_, index) => `j${index}`);
     const ids = entry.deck.cards.map(card => card.id);
     const essenciais = entry.deck.cards.filter(card => card.importance === "essential").map(card => card.id);
     const distribuicao = regras.distribuirPistas(ids, essenciais, jogadores, items => items.slice());
     assert.ok(jogadores.every(jogador => distribuicao.maosPorJogador[jogador].length === 2), `${id}: mão inválida para ${quantidade}`);
     assert.equal(distribuicao.monte.length, ids.length - quantidade * 2, `${id}: poço inválido para ${quantidade}`);
+  }
+  if (entry.deck.maxPlayers < 12) {
+    const jogadores = Array.from({ length: entry.deck.maxPlayers + 1 }, (_, index) => `j${index}`);
+    assert.throws(() => regras.distribuirPistas(entry.deck.cards.map(card => card.id), [], jogadores, items => items.slice()), /duas cartas por jogador/);
   }
 }

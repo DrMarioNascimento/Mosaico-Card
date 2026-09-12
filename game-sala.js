@@ -96,6 +96,7 @@
     receberSala: function (data, opcoes) {
       if (!data || !identidadeCompativel(data)) return;
       if (data.pautaId && !casoDoBanco(data.pautaId)) return;
+      if (data.pautaId && window.MC_RULES && !window.MC_RULES.casoCompativelComMesa(casoDoBanco(data.pautaId), (data.jogadores || data.ordem || []).length)) return;
       if (engine() && engine().configurarJogadores) engine().configurarJogadores(data.jogadores || [], data.ordem || []);
       if (data.pautaId) {
         const caso = casoDoBanco(data.pautaId);
