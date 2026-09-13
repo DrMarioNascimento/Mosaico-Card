@@ -130,3 +130,9 @@ Judas foi delimitado em três blocos coerentes: 1-7 (18 pistas), 8-16 (20) e 17-
 A consulta NAA de Ap 2 retornou HTTP 200 em 13/09/2026. A comparação individual confirmou que as pautas anteriores não cobriam as quatro cartas. Éfeso (18 pistas), Esmirna (14), Pérgamo (18) e Tiatira (22) foram autoradas separadamente, levando o inventário de 179/3.336 para **183 pautas, 732 campos e 3.408 pistas**, com preservação integral dos 179 objetos anteriores.
 
 Jezabel e nicolaítas permanecem somente como apresentados no texto; não foram acrescentadas identidades históricas ou atuais, igrejas atuais, calendários ou alegorias. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes para nova base; o banco não está completo.**
+
+## Checkpoint 059 — Apocalipse 3 por carta
+
+A página NAA identificada de Ap 3 retornou HTTP 200 em 13/09/2026. A leitura e autoria exclusivas das cartas a Sardes, Filadélfia e Laodiceia acrescentaram três pautas e 58 pistas, elevando o inventário de 183/3.408 para **186 pautas, 744 campos e 3.466 pistas**. Os 183 objetos anteriores foram preservados mecanicamente.
+
+Descrições, ordens, advertências, conselhos e promessas permanecem internos às cartas; não se acrescentaram identidades históricas, igrejas atuais, calendários, localizações presentes ou alegorias. **Os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**

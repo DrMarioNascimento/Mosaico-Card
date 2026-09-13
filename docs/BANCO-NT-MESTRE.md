@@ -606,3 +606,13 @@ A rodada partiu de `3b4c52f`, com **179 pautas e 3.336 pistas**. Em 13/09/2026, 
 As quatro cartas sustentaram quatro pautas, sem ampliar o lote: 18, 14, 18 e 22 pistas, respectivamente. O inventário passa a **183 pautas, 732 campos e 3.408 pistas**. Os 179 objetos e as 3.336 pistas anteriores permanecem serializadamente idênticos. Todas as novas pautas têm C1–C4, quatro alternativas, gabaritos, foco justificado, metadados, revelação, pontuação 8/5/3/2 e capacidades derivadas de 8, 6, 8 e 10.
 
 Perguntas e paráfrases são atributivas. Jezabel e nicolaítas ficam limitados às apresentações internas de Ap 2, sem identidades históricas ou atuais, calendários, igrejas atuais ou alegorias acrescentadas. **Apocalipse 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.** Não houve main, merge, deploy ou publicação.
+
+## Checkpoint 059 — três cartas de Apocalipse 3
+
+A rodada continuou exatamente do commit `9109cb9f58b4e9ce95b8bc959a3a6f8ed660a364`, com **183 pautas, 732 campos e 3.408 pistas**. A página identificada como Nova Almeida Atualizada de Apocalipse 3 em `bible.com/pt/bible/1840` foi obtida com HTTP 200 em 13/09/2026. A leitura, comparação e decisão editorial ficaram limitadas às cartas a Sardes (3.1-6), Filadélfia (3.7-13) e Laodiceia (3.14-22).
+
+Foram acrescentadas exatamente três pautas e 58 pistas: Sardes com 18, Filadélfia com 20 e Laodiceia com 20. O inventário passa a **186 pautas, 744 campos e 3.466 pistas**. Os 183 objetos e as 3.408 pistas anteriores permaneceram integralmente idênticos. Cada nova pauta tem C1–C4, quatro alternativas distintas, gabaritos explícitos, foco justificado, metadados completos, revelação e pontuação gerada 8/5/3/2; suas capacidades são, respectivamente, 2–8, 2–9 e 2–9, pela fórmula `min(12, floor((cartas - 1) / 2))`.
+
+Descrições, avaliações, ordens, advertências, conselhos e promessas foram mantidos como afirmações internas e atributivas. Não foram acrescentadas identidades históricas, igrejas atuais, calendários, localizações presentes ou alegorias. A repetição da fórmula final entre as cartas foi mantida e documentada como conclusão explícita de recortes e destinatários distintos; a auditoria não deixou pares pendentes. Não surgiu ambiguidade real nova para o usuário.
+
+**Os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem para etapas posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

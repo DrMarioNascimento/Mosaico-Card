@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-058",
+  "catalogVersion": "2026-09-13-checkpoint-059",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 183,
-    "fields": 732,
-    "editoriallyEligibleCases": 183,
-    "playableCases": 183,
+    "cases": 186,
+    "fields": 744,
+    "editoriallyEligibleCases": 186,
+    "playableCases": 186,
     "max12Cases": 67
   },
   "order": [
@@ -199,7 +199,10 @@
     "nt2-apocalipse-efeso-obras-primeiro-amor",
     "nt2-apocalipse-esmirna-tribulacao-fidelidade",
     "nt2-apocalipse-pergamo-nome-doutrinas-promessa",
-    "nt2-apocalipse-tiatira-obras-jezabel-conservar"
+    "nt2-apocalipse-tiatira-obras-jezabel-conservar",
+    "nt2-apocalipse-sardes-vigiar-vestes-livro",
+    "nt2-apocalipse-filadelfia-porta-coroa-coluna",
+    "nt2-apocalipse-laodiceia-mornida-conselho-trono"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -124119,6 +124122,2073 @@
             "passage": "2.18-29",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-sardes-vigiar-vestes-livro": {
+      "id": "nt2-apocalipse-sardes-vigiar-vestes-livro",
+      "kind": "canonical-case",
+      "title": "Sardes: vigilância, vestes brancas e Livro da Vida",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 3.1-6",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Sardes, que avaliação é feita, quais ordens são dadas e o que é prometido ao vencedor?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A fama de estar viva contrastada com a declaração de morte fundamenta as ordens de vigiar, fortalecer e arrepender-se.",
+      "editorial": {
+        "hinge": "Vida, morte, vestes e Livro da Vida permanecem como avaliações e promessas internas da carta, sem equivalência histórica ou alegórica externa."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que avaliação é feita da condição da igreja",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tinha fama de estar viva, mas estava morta"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Era pobre, mas foi declarada rica"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Tinha pouca força e não negara o nome"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Era morna e se considerava rica"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tinha fama de estar viva, mas estava morta",
+          "enderecoNAA": "Apocalipse 3.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Aquele que tem os sete espíritos de Deus e as sete estrelas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O santo e verdadeiro que tem a chave de Davi"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O Amém e testemunha fiel e verdadeira"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O Filho de Deus com olhos como chama"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Aquele que tem os sete espíritos de Deus e as sete estrelas",
+          "enderecoNAA": "Apocalipse 3.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem acompanha o chamado à vigilância",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fortalecer o restante que estava para morrer"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Abandonar as poucas pessoas de vestes limpas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Fechar a porta que havia sido aberta"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Comprar ouro e colírio refinados"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fortalecer o restante que estava para morrer",
+          "enderecoNAA": "Apocalipse 3.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que é prometido ao vencedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vestes brancas, nome preservado no Livro da Vida e confessado diante do Pai"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Uma coluna com três nomes gravados"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Um lugar no trono após comprar ouro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Autoridade sobre as nações e a estrela da manhã"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vestes brancas, nome preservado no Livro da Vida e confessado diante do Pai",
+          "enderecoNAA": "Apocalipse 3.5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Sardes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": 1,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Sardes."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala tem os sete espíritos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala tem os sete espíritos de Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também tem as sete estrelas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também tem as sete estrelas."
+          },
+          {
+            "id": "P04",
+            "text": "A avaliação da mensagem parte das realizações atribuídas a Sardes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A avaliação da mensagem parte das realizações atribuídas a Sardes."
+          },
+          {
+            "id": "P05",
+            "text": "A igreja tinha fama de estar viva.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja tinha fama de estar viva."
+          },
+          {
+            "id": "P06",
+            "text": "Apesar dessa fama, ela é declarada morta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Apesar dessa fama, ela é declarada morta."
+          },
+          {
+            "id": "P07",
+            "text": "A carta ordena que a igreja fique vigiando.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta ordena que a igreja fique vigiando."
+          },
+          {
+            "id": "P08",
+            "text": "Ela deveria fortalecer o restante que estava para morrer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela deveria fortalecer o restante que estava para morrer."
+          },
+          {
+            "id": "P09",
+            "text": "Suas obras não foram consideradas íntegras diante de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas obras não foram consideradas íntegras diante de Deus."
+          },
+          {
+            "id": "P10",
+            "text": "A igreja deveria lembrar-se do que recebeu e ouviu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja deveria lembrar-se do que recebeu e ouviu."
+          },
+          {
+            "id": "P11",
+            "text": "Também deveria guardar o que recebeu e arrepender-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deveria guardar o que recebeu e arrepender-se."
+          },
+          {
+            "id": "P12",
+            "text": "Sem vigilância, a vinda seria como a de um ladrão, em hora desconhecida pela igreja.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem vigilância, a vinda seria como a de um ladrão, em hora desconhecida pela igreja."
+          },
+          {
+            "id": "P13",
+            "text": "Poucas pessoas em Sardes não haviam contaminado as vestes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Poucas pessoas em Sardes não haviam contaminado as vestes."
+          },
+          {
+            "id": "P14",
+            "text": "Essas pessoas andariam com aquele que fala, vestidas de branco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essas pessoas andariam com aquele que fala, vestidas de branco."
+          },
+          {
+            "id": "P15",
+            "text": "O vencedor seria igualmente vestido de branco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vencedor seria igualmente vestido de branco."
+          },
+          {
+            "id": "P16",
+            "text": "O nome do vencedor não seria apagado do Livro da Vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O nome do vencedor não seria apagado do Livro da Vida."
+          },
+          {
+            "id": "P17",
+            "text": "Esse nome seria confessado diante do Pai e dos anjos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse nome seria confessado diante do Pai e dos anjos."
+          },
+          {
+            "id": "P18",
+            "text": "A fórmula final de Sardes convoca quem tem ouvidos a escutar o Espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fórmula final de Sardes convoca quem tem ouvidos a escutar o Espírito."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Sardes contrapõe fama e morte, ordena vigilância, fortalecimento, memória, guarda e arrependimento, reconhece poucas vestes não contaminadas e promete ao vencedor vestes brancas e nome preservado.",
+        "hinge": "Vida, morte, vestes e Livro da Vida permanecem como avaliações e promessas internas da carta, sem equivalência histórica ou alegórica externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-filadelfia-porta-coroa-coluna": {
+      "id": "nt2-apocalipse-filadelfia-porta-coroa-coluna",
+      "kind": "canonical-case",
+      "title": "Filadélfia: porta aberta, perseverança e coluna",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 3.7-13",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.7-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Filadélfia, como aquele que fala se apresenta, o que reconhece e quais ordens e promessas dirige à igreja?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A porta aberta que ninguém pode fechar articula a avaliação da pouca força com a fidelidade da igreja à palavra e ao nome.",
+      "editorial": {
+        "hinge": "Porta, chave, coroa, coluna e nomes são mantidos como descrições e promessas da própria carta, sem identidade histórica, igreja atual, calendário ou localização acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que foi colocado diante da igreja",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma porta aberta que ninguém pode fechar"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um trono que ninguém poderia ocupar"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um livro que ninguém poderia ler"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um candelabro prestes a ser retirado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma porta aberta que ninguém pode fechar",
+          "enderecoNAA": "Apocalipse 3.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O santo e verdadeiro, que tem a chave de Davi"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Aquele que tem sete espíritos e estrelas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O Amém, princípio da criação de Deus"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O primeiro e o último que tornou a viver"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O santo e verdadeiro, que tem a chave de Davi",
+          "enderecoNAA": "Apocalipse 3.7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem acompanha o anúncio da vinda",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Conservar o que tinha para que ninguém tomasse sua coroa"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Comprar vestes para esconder a nudez"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Fortalecer obras declaradas íntegras"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Abandonar a palavra por ter pouca força"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Conservar o que tinha para que ninguém tomasse sua coroa",
+          "enderecoNAA": "Apocalipse 3.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o vencedor é descrito na promessa",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Coluna no santuário de Deus, com nomes gravados e sem sair dali"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Árvore plantada fora do paraíso"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pedra escondida sem qualquer nome"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Estrela que governa por dez dias"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Coluna no santuário de Deus, com nomes gravados e sem sair dali",
+          "enderecoNAA": "Apocalipse 3.12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Filadélfia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": 1,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Filadélfia."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala é chamado santo e verdadeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala é chamado santo e verdadeiro."
+          },
+          {
+            "id": "P03",
+            "text": "Ele tem a chave de Davi.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele tem a chave de Davi."
+          },
+          {
+            "id": "P04",
+            "text": "Quando ele abre, ninguém fecha; quando fecha, ninguém abre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando ele abre, ninguém fecha; quando fecha, ninguém abre."
+          },
+          {
+            "id": "P05",
+            "text": "A mensagem afirma conhecer as realizações de Filadélfia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem afirma conhecer as realizações de Filadélfia."
+          },
+          {
+            "id": "P06",
+            "text": "Foi posta diante dela uma porta aberta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi posta diante dela uma porta aberta."
+          },
+          {
+            "id": "P07",
+            "text": "Ninguém poderia fechar essa porta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém poderia fechar essa porta."
+          },
+          {
+            "id": "P08",
+            "text": "A igreja tinha pouca força.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja tinha pouca força."
+          },
+          {
+            "id": "P09",
+            "text": "Mesmo assim, guardou a palavra recebida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo assim, guardou a palavra recebida."
+          },
+          {
+            "id": "P10",
+            "text": "Ela não negou o nome daquele que fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela não negou o nome daquele que fala."
+          },
+          {
+            "id": "P11",
+            "text": "Alguns que se declaravam judeus são acusados de mentir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns que se declaravam judeus são acusados de mentir."
+          },
+          {
+            "id": "P12",
+            "text": "A carta diz que eles reconheceriam o amor dirigido à igreja.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta diz que eles reconheceriam o amor dirigido à igreja."
+          },
+          {
+            "id": "P13",
+            "text": "A igreja havia guardado a palavra da perseverança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja havia guardado a palavra da perseverança."
+          },
+          {
+            "id": "P14",
+            "text": "Por isso, receberia proteção na hora de provação anunciada ao mundo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por isso, receberia proteção na hora de provação anunciada ao mundo."
+          },
+          {
+            "id": "P15",
+            "text": "A vinda é anunciada sem demora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vinda é anunciada sem demora."
+          },
+          {
+            "id": "P16",
+            "text": "A igreja deveria conservar o que tinha para que ninguém tomasse sua coroa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja deveria conservar o que tinha para que ninguém tomasse sua coroa."
+          },
+          {
+            "id": "P17",
+            "text": "O vencedor seria feito coluna no santuário de Deus e dali não sairia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vencedor seria feito coluna no santuário de Deus e dali não sairia."
+          },
+          {
+            "id": "P18",
+            "text": "Sobre ele seriam gravados o nome de Deus, o da nova Jerusalém e o novo nome daquele que fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sobre ele seriam gravados o nome de Deus, o da nova Jerusalém e o novo nome daquele que fala."
+          },
+          {
+            "id": "P19",
+            "text": "A nova Jerusalém é descrita como descendo do céu, da parte de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A nova Jerusalém é descrita como descendo do céu, da parte de Deus."
+          },
+          {
+            "id": "P20",
+            "text": "A fórmula final de Filadélfia convoca quem tem ouvidos a escutar o Espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fórmula final de Filadélfia convoca quem tem ouvidos a escutar o Espírito."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Filadélfia apresenta o santo e verdadeiro com a chave de Davi, reconhece pouca força e fidelidade, põe uma porta aberta diante da igreja, manda conservar o que ela tem e promete fazer do vencedor uma coluna com nomes gravados.",
+        "hinge": "Porta, chave, coroa, coluna e nomes são mantidos como descrições e promessas da própria carta, sem identidade histórica, igreja atual, calendário ou localização acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.7-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-laodiceia-mornida-conselho-trono": {
+      "id": "nt2-apocalipse-laodiceia-mornida-conselho-trono",
+      "kind": "canonical-case",
+      "title": "Laodiceia: mornidão, conselho e trono",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 3.14-22",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.14-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Laodiceia, como ela é avaliada, que conselho recebe e quais convite e promessa encerram a mensagem?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A mornidão e o contraste entre autossuficiência declarada e necessidade percebida pela carta fundamentam o conselho e o chamado ao arrependimento.",
+      "editorial": {
+        "hinge": "Temperatura, riqueza, nudez, colírio, porta e trono permanecem como avaliações, conselhos e promessas internas, sem alegoria, instituição atual ou aplicação histórica acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como as obras da igreja são avaliadas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Nem frias nem quentes, mas mornas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Íntegras diante de Deus e plenamente vivas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Fracas, porém fiéis à palavra"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Crescentes em amor e serviço"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Nem frias nem quentes, mas mornas",
+          "enderecoNAA": "Apocalipse 3.15-16",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Amém, a testemunha fiel e verdadeira, o princípio da criação de Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O santo que tem a chave de Davi"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Aquele que tem sete espíritos e estrelas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O vencedor vestido de branco"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Amém, a testemunha fiel e verdadeira, o princípio da criação de Deus",
+          "enderecoNAA": "Apocalipse 3.14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que conselho é dado à igreja",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Comprar daquele que fala ouro refinado, vestes brancas e colírio"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Buscar uma chave, uma coroa e uma coluna"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Guardar dez dias de prisão e pobreza"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Retirar o candelabro e abandonar as primeiras obras"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Comprar daquele que fala ouro refinado, vestes brancas e colírio",
+          "enderecoNAA": "Apocalipse 3.18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que é prometido ao vencedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Sentar-se com aquele que fala em seu trono"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ter o nome ocultado dos anjos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Receber apenas uma porta fechada"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Andar fora do santuário sem vestes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Sentar-se com aquele que fala em seu trono",
+          "enderecoNAA": "Apocalipse 3.21",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "3.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Laodiceia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": 1,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Laodiceia."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala se identifica como o Amém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala se identifica como o Amém."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também é a testemunha fiel e verdadeira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também é a testemunha fiel e verdadeira."
+          },
+          {
+            "id": "P04",
+            "text": "A carta o chama de princípio da criação de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta o chama de princípio da criação de Deus."
+          },
+          {
+            "id": "P05",
+            "text": "A avaliação de Laodiceia começa pelas realizações conhecidas por quem fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A avaliação de Laodiceia começa pelas realizações conhecidas por quem fala."
+          },
+          {
+            "id": "P06",
+            "text": "A igreja não era fria nem quente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja não era fria nem quente."
+          },
+          {
+            "id": "P07",
+            "text": "A carta desejava que ela fosse fria ou quente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta desejava que ela fosse fria ou quente."
+          },
+          {
+            "id": "P08",
+            "text": "Por ser morna, estava a ponto de ser vomitada da boca daquele que fala.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por ser morna, estava a ponto de ser vomitada da boca daquele que fala."
+          },
+          {
+            "id": "P09",
+            "text": "A igreja dizia ser rica e não precisar de nada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja dizia ser rica e não precisar de nada."
+          },
+          {
+            "id": "P10",
+            "text": "A avaliação da carta a chama de infeliz, miserável, pobre, cega e nua.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A avaliação da carta a chama de infeliz, miserável, pobre, cega e nua."
+          },
+          {
+            "id": "P11",
+            "text": "O conselho inclui comprar ouro refinado pelo fogo para ser de fato rica.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O conselho inclui comprar ouro refinado pelo fogo para ser de fato rica."
+          },
+          {
+            "id": "P12",
+            "text": "Também inclui vestes brancas para cobrir a vergonha da nudez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também inclui vestes brancas para cobrir a vergonha da nudez."
+          },
+          {
+            "id": "P13",
+            "text": "Colírio para ungir os olhos e poder ver completa o conselho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Colírio para ungir os olhos e poder ver completa o conselho."
+          },
+          {
+            "id": "P14",
+            "text": "Aquele que fala repreende e disciplina os que ama.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aquele que fala repreende e disciplina os que ama."
+          },
+          {
+            "id": "P15",
+            "text": "A igreja é chamada a ser zelosa e a se arrepender.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja é chamada a ser zelosa e a se arrepender."
+          },
+          {
+            "id": "P16",
+            "text": "Aquele que fala está à porta e bate.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aquele que fala está à porta e bate."
+          },
+          {
+            "id": "P17",
+            "text": "Se alguém ouvir e abrir, ele entrará e ambos cearão juntos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Se alguém ouvir e abrir, ele entrará e ambos cearão juntos."
+          },
+          {
+            "id": "P18",
+            "text": "Ao vencedor é prometido sentar-se com aquele que fala em seu trono.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao vencedor é prometido sentar-se com aquele que fala em seu trono."
+          },
+          {
+            "id": "P19",
+            "text": "A promessa compara essa vitória à daquele que se sentou com o Pai no trono dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa compara essa vitória à daquele que se sentou com o Pai no trono dele."
+          },
+          {
+            "id": "P20",
+            "text": "A fórmula final de Laodiceia convoca quem tem ouvidos a escutar o Espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 3",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fórmula final de Laodiceia convoca quem tem ouvidos a escutar o Espírito."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Laodiceia censura a mornidão e a autossuficiência, aconselha ouro, vestes e colírio, liga repreensão ao amor, chama ao zelo e ao arrependimento, apresenta o convite à porta e promete ao vencedor lugar no trono.",
+        "hinge": "Temperatura, riqueza, nudez, colírio, porta e trono permanecem como avaliações, conselhos e promessas internas, sem alegoria, instituição atual ou aplicação histórica acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "3.14-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

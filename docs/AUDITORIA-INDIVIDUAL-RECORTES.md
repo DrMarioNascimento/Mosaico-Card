@@ -363,3 +363,13 @@ O lote acrescenta somente as três pautas de Judas e encerra a auditoria/autoria
 | Tiatira, Ap 2.18-29 | NAA, HTTP 200; identificação interna, obras, Jezabel conforme apresentada, advertências, ordem aos demais e promessas. | `nt2-apocalipse-tiatira-obras-jezabel-conservar`, 22 pistas, capacidade 2–10. |
 
 A decisão agrupada anterior de ausência de pauta para Ap 2–3 fica supersedida apenas para estas quatro cartas de Ap 2. Não houve duplicação dos oito casos anteriores de Apocalipse nem nova ambiguidade real. Nicolaítas e Jezabel não receberam identidade externa. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**
+
+## Checkpoint 059 — decisões individuais em Apocalipse 3
+
+| Recorte | Consulta e comparação | Resultado individual |
+| --- | --- | --- |
+| Ap 3.1-6 | NAA, HTTP 200; fama e condição, ordens de vigiar/fortalecer, poucas pessoas e promessas conferidas somente na carta. | `nt2-apocalipse-sardes-vigiar-vestes-livro`, 18 pistas, capacidade 2–8. |
+| Ap 3.7-13 | NAA, HTTP 200; chave, porta, pouca força, perseverança, coroa e coluna mantidas como descrições e promessas internas. | `nt2-apocalipse-filadelfia-porta-coroa-coluna`, 20 pistas, capacidade 2–9. |
+| Ap 3.14-22 | NAA, HTTP 200; mornidão, autodescrição, conselho, disciplina, porta e trono mantidos como avaliações, ações e promessas internas. | `nt2-apocalipse-laodiceia-mornida-conselho-trono`, 20 pistas, capacidade 2–9. |
+
+A comparação não encontrou cobertura anterior desses recortes, e as 183 pautas anteriores permaneceram idênticas. A fórmula “ouça o que o Espírito diz às igrejas” pertence explicitamente a cada carta; sua repetição documental foi resolvida na auditoria sem fundir destinatários. Não surgiu ambiguidade real nova. Os demais recortes de Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.

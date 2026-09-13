@@ -200,3 +200,9 @@ As perguntas são atributivas e as referências são exatas. A decisão comunit�
 Após consulta efetiva da página NAA e comparação com a cobertura existente, as cartas a Éfeso, Esmirna, Pérgamo e Tiatira originaram quatro pautas independentes com 72 pistas. O catálogo passa de 179/3.336 para **183 pautas, 732 campos e 3.408 pistas**; os 179 objetos anteriores foram preservados integralmente.
 
 Descrições, ações, advertências, promessas e identificações são internas e atributivas. Jezabel e nicolaítas não foram ligados a identidades históricas, atuais ou alegóricas. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 059 — três cartas de Apocalipse 3
+
+A consulta efetiva da página NAA de Ap 3 e a comparação contra as 183 pautas anteriores sustentaram três pautas independentes: Sardes, 3.1-6, com 18 pistas; Filadélfia, 3.7-13, com 20; e Laodiceia, 3.14-22, com 20. O catálogo passa de 183/3.408 para **186 pautas, 744 campos e 3.466 pistas**, preservando integralmente os objetos anteriores.
+
+As formulações são atributivas e as imagens permanecem descrições, avaliações, ações, conselhos, advertências ou promessas internas. Nenhuma identidade histórica, igreja atual, calendário ou alegoria foi acrescentada, e nenhuma ambiguidade real nova foi encontrada. **Os demais recortes de Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
