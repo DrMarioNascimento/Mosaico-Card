@@ -352,3 +352,14 @@ Os quatro blocos esgotam o lote autorizado sem ampliar seu escopo. Não surgiu a
 | Jd 17-25 | Palavra dos apóstolos; perseverança; cuidado diferenciado; doxologia. | `nt2-judas-memoria-perseveranca-doxologia`, 20 pistas, capacidade 2–9. |
 
 O lote acrescenta somente as três pautas de Judas e encerra a auditoria/autoria solicitada de 2 João, 3 João e Judas. Não surgiu ambiguidade real nova. Moisés, Miguel e Enoque não receberam informações externas nem identidades atuais. **Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 058 — quatro cartas de Apocalipse 2
+
+| Carta | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| Éfeso, Ap 2.1-7 | NAA, HTTP 200; identificação interna, obras, prova, perseverança, primeiro amor, arrependimento e promessa da árvore da vida. | `nt2-apocalipse-efeso-obras-primeiro-amor`, 18 pistas, capacidade 2–8. |
+| Esmirna, Ap 2.8-11 | NAA, HTTP 200; identificação interna, tribulação, pobreza/riqueza, sofrimento, fidelidade, coroa e segunda morte. | `nt2-apocalipse-esmirna-tribulacao-fidelidade`, 14 pistas, capacidade 2–6. |
+| Pérgamo, Ap 2.12-17 | NAA, HTTP 200; espada, nome e fé conservados, Antipas, ensinos censurados, arrependimento, maná e pedrinha. | `nt2-apocalipse-pergamo-nome-doutrinas-promessa`, 18 pistas, capacidade 2–8. |
+| Tiatira, Ap 2.18-29 | NAA, HTTP 200; identificação interna, obras, Jezabel conforme apresentada, advertências, ordem aos demais e promessas. | `nt2-apocalipse-tiatira-obras-jezabel-conservar`, 22 pistas, capacidade 2–10. |
+
+A decisão agrupada anterior de ausência de pauta para Ap 2–3 fica supersedida apenas para estas quatro cartas de Ap 2. Não houve duplicação dos oito casos anteriores de Apocalipse nem nova ambiguidade real. Nicolaítas e Jezabel não receberam identidade externa. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**

@@ -30,7 +30,7 @@
 | 2 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
 | 3 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | pauta factual 2–6 |
 | Judas | Auditoria/autoria encerrada — checkpoint 057 | 1 carta em 3 blocos | 3 autorados | alusões não completadas |
-| Apocalipse | Analisado — recortes reavaliados | capítulos 1–22 | 8 autorados | demais recortes sem dente/unidade; sem identidades externas |
+| Apocalipse | Em autoria — checkpoint 058 | capítulos 1–22; Ap 2 autorado por carta | 12 autorados | Ap 3 e demais recortes pendentes nesta sequência; sem identidades externas |
 
 ## Critério de atualização
 
@@ -124,3 +124,9 @@ A consulta e leitura exclusivas das páginas NAA de 1Jo 4–5 acrescentaram quat
 A consulta efetiva e individual das três páginas NAA retornou HTTP 200 em 13/09/2026. A comparação com a cobertura existente confirmou que `nt2-2joao-verdade-hospitalidade` (9 pistas) e `nt2-3joao-gaio-diotrefes-demetrio` (13 pistas) já cobrem os fatos aproveitáveis dessas cartas; nenhum fato ou recorte foi duplicado. Em 2 João, “senhora eleita” permanece designação textual, e Igreja/comunidade cristã permanece interpretação aprovada, sem identidade lexical explícita, necessidade de comunidade local ou uso como novo gabarito.
 
 Judas foi delimitado em três blocos coerentes: 1-7 (18 pistas), 8-16 (20) e 17-25 (20). Moisés, Miguel e Enoque aparecem apenas no que Judas declara; notas, narrativas externas, identidades atuais e calendários não foram importados. O inventário passa a **179 pautas, 716 campos e 3.336 pistas**, com preservação integral dos 176 objetos e das 3.278 pistas anteriores. **Apocalipse e a auditoria global dos 27 livros permanecem para etapas posteriores; o banco não está completo.**
+
+## Checkpoint 058 — Apocalipse 2 por carta
+
+A consulta NAA de Ap 2 retornou HTTP 200 em 13/09/2026. A comparação individual confirmou que as pautas anteriores não cobriam as quatro cartas. Éfeso (18 pistas), Esmirna (14), Pérgamo (18) e Tiatira (22) foram autoradas separadamente, levando o inventário de 179/3.336 para **183 pautas, 732 campos e 3.408 pistas**, com preservação integral dos 179 objetos anteriores.
+
+Jezabel e nicolaítas permanecem somente como apresentados no texto; não foram acrescentadas identidades históricas ou atuais, igrejas atuais, calendários ou alegorias. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes para nova base; o banco não está completo.**

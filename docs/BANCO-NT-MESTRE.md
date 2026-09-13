@@ -598,3 +598,11 @@ A base `8200c202dfdea872e38e85561db3dafe627a2dc0` foi confirmada com **176 pauta
 Judas sustentou três blocos: 1-7 com 18 pistas, 8-16 com 20 e 17-25 com 20. O catálogo passa a **179 pautas, 716 campos e 3.336 pistas**. As 176 pautas e 3.278 pistas anteriores permanecem serializadamente idênticas. As novas pautas mantêm C1–C4, quatro alternativas, gabaritos, focal justificado, metadados, revelação e 8/5/3/2; as capacidades são 8, 9 e 9, derivadas por `min(12, floor((cartas - 1) / 2))`.
 
 Em 2 João, a senhora eleita conserva a interpretação aprovada de Igreja/comunidade cristã sem ser apresentada como identidade textual explícita ou necessariamente local. Em Judas, nenhuma nota ou fonte externa completa Moisés, Miguel, Enoque, alusões ou identidades atuais. **Apocalipse e a auditoria global dos 27 livros ficam para depois; o banco não está completo.** Não houve main, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 058 — cartas de Apocalipse 2
+
+A rodada partiu de `3b4c52f`, com **179 pautas e 3.336 pistas**. Em 13/09/2026, a página de Apocalipse 2 identificada como NAA em `bible.com/pt/bible/1840` foi obtida com HTTP 200 e as cartas a Éfeso, Esmirna, Pérgamo e Tiatira foram lidas e comparadas individualmente com os casos existentes. Nenhum recorte anterior foi duplicado.
+
+As quatro cartas sustentaram quatro pautas, sem ampliar o lote: 18, 14, 18 e 22 pistas, respectivamente. O inventário passa a **183 pautas, 732 campos e 3.408 pistas**. Os 179 objetos e as 3.336 pistas anteriores permanecem serializadamente idênticos. Todas as novas pautas têm C1–C4, quatro alternativas, gabaritos, foco justificado, metadados, revelação, pontuação 8/5/3/2 e capacidades derivadas de 8, 6, 8 e 10.
+
+Perguntas e paráfrases são atributivas. Jezabel e nicolaítas ficam limitados às apresentações internas de Ap 2, sem identidades históricas ou atuais, calendários, igrejas atuais ou alegorias acrescentadas. **Apocalipse 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.** Não houve main, merge, deploy ou publicação.

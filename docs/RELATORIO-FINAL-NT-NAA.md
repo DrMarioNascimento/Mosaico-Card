@@ -194,3 +194,9 @@ C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e
 As três cartas foram consultadas novamente na NAA com HTTP 200. A auditoria comparativa encerrou 2 João e 3 João sem duplicar suas pautas existentes. Judas originou três pautas documentais — 1-7, 8-16 e 17-25 — com 58 pistas, elevando o inventário de 176/3.278 para **179 pautas, 716 campos e 3.336 pistas**. Os 176 objetos anteriores permaneceram integralmente idênticos.
 
 As perguntas são atributivas e as referências são exatas. A decisão comunitária sobre “senhora eleita” continua interpretativa, não lexical nem necessariamente local. Moisés, Miguel e Enoque permanecem limitados ao que Judas declara, sem notas, narrativas externas, identidades atuais ou calendários. **Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 058 — quatro cartas de Apocalipse 2
+
+Após consulta efetiva da página NAA e comparação com a cobertura existente, as cartas a Éfeso, Esmirna, Pérgamo e Tiatira originaram quatro pautas independentes com 72 pistas. O catálogo passa de 179/3.336 para **183 pautas, 732 campos e 3.408 pistas**; os 179 objetos anteriores foram preservados integralmente.
+
+Descrições, ações, advertências, promessas e identificações são internas e atributivas. Jezabel e nicolaítas não foram ligados a identidades históricas, atuais ou alegóricas. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**

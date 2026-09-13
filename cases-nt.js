@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-057",
+  "catalogVersion": "2026-09-13-checkpoint-058",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 179,
-    "fields": 716,
-    "editoriallyEligibleCases": 179,
-    "playableCases": 179,
+    "cases": 183,
+    "fields": 732,
+    "editoriallyEligibleCases": 183,
+    "playableCases": 183,
     "max12Cases": 67
   },
   "order": [
@@ -195,7 +195,11 @@
     "nt2-1joao-confianca-oracao-pecado-conhecimento",
     "nt2-judas-chamado-fe-exemplos",
     "nt2-judas-falsos-mestres-contrastes",
-    "nt2-judas-memoria-perseveranca-doxologia"
+    "nt2-judas-memoria-perseveranca-doxologia",
+    "nt2-apocalipse-efeso-obras-primeiro-amor",
+    "nt2-apocalipse-esmirna-tribulacao-fidelidade",
+    "nt2-apocalipse-pergamo-nome-doutrinas-promessa",
+    "nt2-apocalipse-tiatira-obras-jezabel-conservar"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -121487,6 +121491,2634 @@
             "passage": "17-25",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-efeso-obras-primeiro-amor": {
+      "id": "nt2-apocalipse-efeso-obras-primeiro-amor",
+      "kind": "canonical-case",
+      "title": "Éfeso: perseverança, primeiro amor e árvore da vida",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 2.1-7",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Éfeso, quais obras são reconhecidas, qual falta exige arrependimento e que promessa é feita ao vencedor?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O abandono do primeiro amor é a falta central que explica as ordens de lembrar, arrepender-se e retomar as primeiras obras.",
+      "editorial": {
+        "hinge": "Os nicolaítas aparecem apenas por suas obras conforme a carta; nenhuma identidade histórica, atual ou alegórica é acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que havia contra a igreja",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ela havia abandonado o primeiro amor"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ela havia negado o nome recebido"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ela tolerava a mulher chamada Jezabel"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ela temia a tribulação de dez dias"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ela havia abandonado o primeiro amor",
+          "enderecoNAA": "Apocalipse 2.4",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Aquele que conserva as sete estrelas e anda entre os sete candelabros de ouro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Aquele que abre o livro de sete selos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O anjo que mede a cidade"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A testemunha chamada Antipas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Aquele que conserva as sete estrelas e anda entre os sete candelabros de ouro",
+          "enderecoNAA": "Apocalipse 2.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a igreja fez com os que se declaravam apóstolos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pôs esses homens à prova e descobriu que eram mentirosos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Recebeu todos sem avaliação"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Entregou-lhes a direção da igreja"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pediu que partissem para Esmirna"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pôs esses homens à prova e descobriu que eram mentirosos",
+          "enderecoNAA": "Apocalipse 2.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que será dado ao vencedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O direito de se alimentar da árvore da vida no paraíso de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Uma pedra com o nome de Antipas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Uma coroa entregue pelos nicolaítas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O conhecimento de um calendário oculto"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O direito de se alimentar da árvore da vida no paraíso de Deus",
+          "enderecoNAA": "Apocalipse 2.7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Éfeso.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Éfeso."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala conserva sete estrelas na mão direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala conserva sete estrelas na mão direita."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também anda no meio dos sete candelabros de ouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também anda no meio dos sete candelabros de ouro."
+          },
+          {
+            "id": "P04",
+            "text": "As obras da igreja eram conhecidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras da igreja eram conhecidas."
+          },
+          {
+            "id": "P05",
+            "text": "Seu esforço e sua perseverança são reconhecidos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu esforço e sua perseverança são reconhecidos."
+          },
+          {
+            "id": "P06",
+            "text": "A igreja não suportava os maus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja não suportava os maus."
+          },
+          {
+            "id": "P07",
+            "text": "Ela pôs à prova homens que se declaravam apóstolos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela pôs à prova homens que se declaravam apóstolos."
+          },
+          {
+            "id": "P08",
+            "text": "A prova revelou que esses homens eram mentirosos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A prova revelou que esses homens eram mentirosos."
+          },
+          {
+            "id": "P09",
+            "text": "A igreja havia suportado provas por causa do nome daquele que fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja havia suportado provas por causa do nome daquele que fala."
+          },
+          {
+            "id": "P10",
+            "text": "Ela perseverou sem esmorecer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela perseverou sem esmorecer."
+          },
+          {
+            "id": "P11",
+            "text": "A acusação é ter abandonado o primeiro amor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A acusação é ter abandonado o primeiro amor."
+          },
+          {
+            "id": "P12",
+            "text": "A igreja deveria lembrar-se de onde caiu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja deveria lembrar-se de onde caiu."
+          },
+          {
+            "id": "P13",
+            "text": "Ela recebe as ordens de se arrepender e praticar novamente as primeiras obras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela recebe as ordens de se arrepender e praticar novamente as primeiras obras."
+          },
+          {
+            "id": "P14",
+            "text": "Sem arrependimento, seu candelabro seria retirado do lugar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem arrependimento, seu candelabro seria retirado do lugar."
+          },
+          {
+            "id": "P15",
+            "text": "A igreja tinha a seu favor odiar as obras dos nicolaítas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja tinha a seu favor odiar as obras dos nicolaítas."
+          },
+          {
+            "id": "P16",
+            "text": "A exortação manda ouvir o que o Espírito diz às igrejas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A exortação manda ouvir o que o Espírito diz às igrejas."
+          },
+          {
+            "id": "P17",
+            "text": "Ao vencedor é prometido o direito de comer da árvore da vida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao vencedor é prometido o direito de comer da árvore da vida."
+          },
+          {
+            "id": "P18",
+            "text": "A árvore é localizada pelo texto no paraíso de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore é localizada pelo texto no paraíso de Deus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Éfeso reconhece obras, esforço, prova e perseverança, repreende o abandono do primeiro amor, ordena arrependimento e promete ao vencedor a árvore da vida.",
+        "hinge": "Os nicolaítas aparecem apenas por suas obras conforme a carta; nenhuma identidade histórica, atual ou alegórica é acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-esmirna-tribulacao-fidelidade": {
+      "id": "nt2-apocalipse-esmirna-tribulacao-fidelidade",
+      "kind": "canonical-case",
+      "title": "Esmirna: tribulação, fidelidade e coroa da vida",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 2.8-11",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.8-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Esmirna, como aquele que fala se apresenta, o que conhece e quais ordens e promessas dirige à igreja?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A ordem de fidelidade até a morte responde diretamente ao sofrimento anunciado e conduz à promessa da coroa da vida.",
+      "editorial": {
+        "hinge": "Os dez dias, a sinagoga de Satanás e a segunda morte permanecem descrições internas da carta, sem cronologia, equivalência histórica ou identidade atual."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem acompanha a promessa da coroa da vida",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ser fiel até a morte"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Abandonar a cidade antes da prisão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Responder à blasfêmia com outra acusação"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Determinar quando terminariam os últimos tempos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ser fiel até a morte",
+          "enderecoNAA": "Apocalipse 2.10",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como aquele que fala se apresenta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O primeiro e o último, que esteve morto e tornou a viver"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O que conserva sete estrelas e anda entre candelabros"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O Filho de Deus com pés como bronze"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O que tem a espada afiada de dois gumes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O primeiro e o último, que esteve morto e tornou a viver",
+          "enderecoNAA": "Apocalipse 2.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como a carta contrasta pobreza e condição da igreja",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Ela era pobre, mas é declarada rica"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ela era rica e não sofria tribulação"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ela perdera sua riqueza por abandonar o amor"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ela deveria esconder seus bens por dez dias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Ela era pobre, mas é declarada rica",
+          "enderecoNAA": "Apocalipse 2.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que não acontecerá ao vencedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ele não sofrerá o dano da segunda morte"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ele não passará por qualquer prova"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Ele não ouvirá o que o Espírito diz"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ele não receberá a coroa da vida"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ele não sofrerá o dano da segunda morte",
+          "enderecoNAA": "Apocalipse 2.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Esmirna.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Esmirna."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala se identifica como o primeiro e o último.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala se identifica como o primeiro e o último."
+          },
+          {
+            "id": "P03",
+            "text": "Ele esteve morto e tornou a viver.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele esteve morto e tornou a viver."
+          },
+          {
+            "id": "P04",
+            "text": "A tribulação da igreja era conhecida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A tribulação da igreja era conhecida."
+          },
+          {
+            "id": "P05",
+            "text": "Sua pobreza também era conhecida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua pobreza também era conhecida."
+          },
+          {
+            "id": "P06",
+            "text": "Apesar da pobreza, a igreja é declarada rica.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Apesar da pobreza, a igreja é declarada rica."
+          },
+          {
+            "id": "P07",
+            "text": "A carta menciona a blasfêmia de pessoas que se declaravam judeus e não eram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta menciona a blasfêmia de pessoas que se declaravam judeus e não eram."
+          },
+          {
+            "id": "P08",
+            "text": "Essas pessoas são designadas no próprio texto como sinagoga de Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essas pessoas são designadas no próprio texto como sinagoga de Satanás."
+          },
+          {
+            "id": "P09",
+            "text": "A igreja recebe a ordem de não temer o sofrimento futuro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja recebe a ordem de não temer o sofrimento futuro."
+          },
+          {
+            "id": "P10",
+            "text": "O diabo lançaria alguns deles na prisão para que fossem provados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O diabo lançaria alguns deles na prisão para que fossem provados."
+          },
+          {
+            "id": "P11",
+            "text": "A carta anuncia uma tribulação de dez dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta anuncia uma tribulação de dez dias."
+          },
+          {
+            "id": "P12",
+            "text": "A ordem é permanecer fiel até a morte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem é permanecer fiel até a morte."
+          },
+          {
+            "id": "P13",
+            "text": "A fidelidade é ligada à promessa da coroa da vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fidelidade é ligada à promessa da coroa da vida."
+          },
+          {
+            "id": "P14",
+            "text": "O vencedor não sofrerá o dano da segunda morte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vencedor não sofrerá o dano da segunda morte."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Esmirna reconhece tribulação e pobreza, anuncia prisão e prova, ordena ausência de medo e fidelidade até a morte e promete a coroa da vida.",
+        "hinge": "Os dez dias, a sinagoga de Satanás e a segunda morte permanecem descrições internas da carta, sem cronologia, equivalência histórica ou identidade atual.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.8-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-pergamo-nome-doutrinas-promessa": {
+      "id": "nt2-apocalipse-pergamo-nome-doutrinas-promessa",
+      "kind": "canonical-case",
+      "title": "Pérgamo: nome conservado, doutrinas e nova identificação",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 2.12-17",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.12-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Pérgamo, o que é elogiado, quais ensinos são censurados, que advertência é feita e o que recebe o vencedor?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A conservação do nome e da fé, mesmo diante da morte de Antipas, constitui o reconhecimento principal antes da censura aos ensinos tolerados.",
+      "editorial": {
+        "hinge": "Antipas, Balaão e os nicolaítas são apresentados somente pelas relações declaradas nesta carta; nenhuma identidade, reconstrução histórica ou alegoria adicional é adotada."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a igreja conservou mesmo nos dias de Antipas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O nome daquele que fala e a fé nele"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A doutrina dos nicolaítas e a de Balaão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A identidade secreta de todos os habitantes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O maná visível diante da cidade"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O nome daquele que fala e a fé nele",
+          "enderecoNAA": "Apocalipse 2.13",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Aquele que tem a espada afiada de dois gumes"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Aquele que esteve morto por dez dias"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O que guarda a árvore do paraíso"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O anjo que recebeu a pedrinha branca"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Aquele que tem a espada afiada de dois gumes",
+          "enderecoNAA": "Apocalipse 2.12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem segue a censura aos ensinos presentes na igreja",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Arrependa-se!"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Fuja para a igreja em Éfeso"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Escolha um novo nome para Antipas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Marque uma data para a vinda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Arrependa-se!",
+          "enderecoNAA": "Apocalipse 2.16",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que acompanha o maná escondido na promessa ao vencedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Uma pedrinha branca com um novo nome conhecido por quem o recebe"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Uma espada entregue aos seguidores de Balaão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Um candelabro retirado do seu lugar"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Uma coroa conhecida por toda a cidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Uma pedrinha branca com um novo nome conhecido por quem o recebe",
+          "enderecoNAA": "Apocalipse 2.17",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Pérgamo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Pérgamo."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala tem a espada afiada de dois gumes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala tem a espada afiada de dois gumes."
+          },
+          {
+            "id": "P03",
+            "text": "O lugar onde a igreja morava era conhecido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O lugar onde a igreja morava era conhecido."
+          },
+          {
+            "id": "P04",
+            "text": "A carta descreve esse lugar como onde estava o trono de Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta descreve esse lugar como onde estava o trono de Satanás."
+          },
+          {
+            "id": "P05",
+            "text": "A igreja conservava o nome daquele que fala.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja conservava o nome daquele que fala."
+          },
+          {
+            "id": "P06",
+            "text": "Ela não negou a fé que tinha nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela não negou a fé que tinha nele."
+          },
+          {
+            "id": "P07",
+            "text": "Antipas é chamado de testemunha fiel daquele que fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Antipas é chamado de testemunha fiel daquele que fala."
+          },
+          {
+            "id": "P08",
+            "text": "Antipas foi morto na cidade da igreja.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Antipas foi morto na cidade da igreja."
+          },
+          {
+            "id": "P09",
+            "text": "Havia no meio da igreja pessoas que sustentavam a doutrina de Balaão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Havia no meio da igreja pessoas que sustentavam a doutrina de Balaão."
+          },
+          {
+            "id": "P10",
+            "text": "Conforme a própria carta, Balaão ensinava Balaque a armar ciladas aos filhos de Israel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Conforme a própria carta, Balaão ensinava Balaque a armar ciladas aos filhos de Israel."
+          },
+          {
+            "id": "P11",
+            "text": "A cilada é ligada a comer coisas sacrificadas aos ídolos e praticar prostituição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A cilada é ligada a comer coisas sacrificadas aos ídolos e praticar prostituição."
+          },
+          {
+            "id": "P12",
+            "text": "Também havia pessoas que seguiam a doutrina dos nicolaítas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também havia pessoas que seguiam a doutrina dos nicolaítas."
+          },
+          {
+            "id": "P13",
+            "text": "A igreja recebe a ordem de se arrepender.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja recebe a ordem de se arrepender."
+          },
+          {
+            "id": "P14",
+            "text": "Sem arrependimento, aquele que fala iria até ela sem demora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem arrependimento, aquele que fala iria até ela sem demora."
+          },
+          {
+            "id": "P15",
+            "text": "Ele lutaria contra os que sustentavam esses ensinos com a espada de sua boca.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele lutaria contra os que sustentavam esses ensinos com a espada de sua boca."
+          },
+          {
+            "id": "P16",
+            "text": "Ao vencedor é prometido o maná escondido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao vencedor é prometido o maná escondido."
+          },
+          {
+            "id": "P17",
+            "text": "Ele também receberá uma pedrinha branca com um novo nome escrito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também receberá uma pedrinha branca com um novo nome escrito."
+          },
+          {
+            "id": "P18",
+            "text": "Somente quem recebe a pedrinha conhece esse novo nome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Somente quem recebe a pedrinha conhece esse novo nome."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Pérgamo elogia a conservação do nome e da fé, censura doutrinas toleradas, ordena arrependimento e promete maná escondido e uma pedrinha com novo nome.",
+        "hinge": "Antipas, Balaão e os nicolaítas são apresentados somente pelas relações declaradas nesta carta; nenhuma identidade, reconstrução histórica ou alegoria adicional é adotada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.12-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-tiatira-obras-jezabel-conservar": {
+      "id": "nt2-apocalipse-tiatira-obras-jezabel-conservar",
+      "kind": "canonical-case",
+      "title": "Tiatira: obras crescentes, Jezabel e perseverança",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 2.18-29",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.18-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a carta à igreja em Tiatira, quais qualidades são reconhecidas, o que é censurado, que ordem recebem os demais e o que se promete ao vencedor?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A tolerância do ensino e da sedução atribuídos no texto à mulher chamada Jezabel é a censura que organiza as advertências e distingue os demais de Tiatira.",
+      "editorial": {
+        "hinge": "Jezabel e as chamadas coisas profundas de Satanás permanecem exatamente como apresentadas no texto, sem identificação histórica, igreja atual, calendário ou alegoria externa."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a igreja tolerava",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que a mulher chamada Jezabel ensinasse e seduzisse os servos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que Antipas conservasse o nome recebido"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que os pobres fossem chamados ricos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que todos rejeitassem as coisas profundas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Que a mulher chamada Jezabel ensinasse e seduzisse os servos",
+          "enderecoNAA": "Apocalipse 2.20",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como se identifica aquele que dita a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Filho de Deus, com olhos como chama de fogo e pés semelhantes ao bronze polido"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O primeiro e o último com uma coroa"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O anjo de Éfeso com sete candelabros"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Antipas com uma espada de dois gumes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Filho de Deus, com olhos como chama de fogo e pés semelhantes ao bronze polido",
+          "enderecoNAA": "Apocalipse 2.18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem é dada aos demais de Tiatira",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Conservar o que têm até que aquele que fala venha"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Receber uma nova carga imediatamente"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Seguir a doutrina atribuída a Jezabel"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Definir quando ocorreria a vinda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Conservar o que têm até que aquele que fala venha",
+          "enderecoNAA": "Apocalipse 2.24-25",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.24-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que é prometido ao vencedor que guardar as obras até o fim",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Autoridade sobre as nações e a estrela da manhã"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A retirada de seu candelabro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A prisão durante dez dias"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A identidade histórica de Jezabel"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Autoridade sobre as nações e a estrela da manhã",
+          "enderecoNAA": "Apocalipse 2.26-28",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "2.26-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mensagem é dirigida ao anjo da igreja em Tiatira.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem é dirigida ao anjo da igreja em Tiatira."
+          },
+          {
+            "id": "P02",
+            "text": "Quem fala se identifica como o Filho de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem fala se identifica como o Filho de Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Seus olhos são descritos como chama de fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seus olhos são descritos como chama de fogo."
+          },
+          {
+            "id": "P04",
+            "text": "Seus pés são semelhantes ao bronze polido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seus pés são semelhantes ao bronze polido."
+          },
+          {
+            "id": "P05",
+            "text": "As obras, o amor, a fé, o serviço e a perseverança da igreja eram conhecidos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras, o amor, a fé, o serviço e a perseverança da igreja eram conhecidos."
+          },
+          {
+            "id": "P06",
+            "text": "As últimas obras eram mais numerosas do que as primeiras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As últimas obras eram mais numerosas do que as primeiras."
+          },
+          {
+            "id": "P07",
+            "text": "A censura é a tolerância da mulher chamada Jezabel.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A censura é a tolerância da mulher chamada Jezabel."
+          },
+          {
+            "id": "P08",
+            "text": "Ela se declarava profetisa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela se declarava profetisa."
+          },
+          {
+            "id": "P09",
+            "text": "A carta atribui a ela ensino e sedução dos servos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta atribui a ela ensino e sedução dos servos."
+          },
+          {
+            "id": "P10",
+            "text": "Essa sedução é ligada a prostituição e comida sacrificada aos ídolos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa sedução é ligada a prostituição e comida sacrificada aos ídolos."
+          },
+          {
+            "id": "P11",
+            "text": "Foi dado a ela tempo para se arrepender.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi dado a ela tempo para se arrepender."
+          },
+          {
+            "id": "P12",
+            "text": "A carta afirma que ela não queria se arrepender de sua imoralidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta afirma que ela não queria se arrepender de sua imoralidade."
+          },
+          {
+            "id": "P13",
+            "text": "Grande tribulação é advertida aos que adulteravam com ela, caso não se arrependessem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Grande tribulação é advertida aos que adulteravam com ela, caso não se arrependessem."
+          },
+          {
+            "id": "P14",
+            "text": "Todas as igrejas saberiam que aquele que fala sonda mentes e corações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todas as igrejas saberiam que aquele que fala sonda mentes e corações."
+          },
+          {
+            "id": "P15",
+            "text": "Ele declara que retribuirá a cada um segundo suas obras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declara que retribuirá a cada um segundo suas obras."
+          },
+          {
+            "id": "P16",
+            "text": "Os demais de Tiatira não seguiam a doutrina censurada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os demais de Tiatira não seguiam a doutrina censurada."
+          },
+          {
+            "id": "P17",
+            "text": "Eles não haviam conhecido o que outros chamavam de coisas profundas de Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles não haviam conhecido o que outros chamavam de coisas profundas de Satanás."
+          },
+          {
+            "id": "P18",
+            "text": "Nenhuma outra carga seria colocada sobre esses demais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nenhuma outra carga seria colocada sobre esses demais."
+          },
+          {
+            "id": "P19",
+            "text": "Eles deveriam conservar o que tinham até a vinda daquele que fala.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deveriam conservar o que tinham até a vinda daquele que fala."
+          },
+          {
+            "id": "P20",
+            "text": "A promessa se dirige ao vencedor que guardar as obras até o fim.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa se dirige ao vencedor que guardar as obras até o fim."
+          },
+          {
+            "id": "P21",
+            "text": "Ao vencedor é prometida autoridade sobre as nações.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao vencedor é prometida autoridade sobre as nações."
+          },
+          {
+            "id": "P22",
+            "text": "A estrela da manhã também lhe será dada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a esta carta em Apocalipse 2",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "2.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A estrela da manhã também lhe será dada."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A carta a Tiatira reconhece obras crescentes, censura a tolerância da mulher chamada Jezabel, adverte sobre arrependimento, manda os demais conservarem o que têm e promete autoridade e a estrela da manhã.",
+        "hinge": "Jezabel e as chamadas coisas profundas de Satanás permanecem exatamente como apresentadas no texto, sem identificação histórica, igreja atual, calendário ou alegoria externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "2.18-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
