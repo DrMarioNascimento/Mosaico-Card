@@ -234,3 +234,9 @@ A comparação confirmou pautas anteriores para Mt 8.23-27, 9.1-8 e 9.18-26. **M
 A reconsulta efetiva das páginas NAA Bible.com 1840 de Mt 8–9 ficou somente nos quatro recortes pendentes. Centurião/servo, dois cegos/casa, mudo/reações e multidões/seara acrescentaram quatro pautas/49 pistas aos 259 objetos preservados serialmente. O banco passa a **263 pautas/1.052 campos/5.099 pistas**, e Mateus a **79 pautas/1.501 pistas que citam o livro**; capacidades novas 9, 5, 3 e 4.
 
 Com o inventário do checkpoint 081, não resta recorte conhecido na fila vigente de Mt 8–9, sem declaração de exaustividade futura. Mt 14–17 e 26–28 permanecem posteriores; Mt 23.14 e dúvidas de 1Co seguem preservados. Testes não tornam Mateus nem o banco completos.
+
+## Checkpoint 083 — inventário de Mateus 14–15
+
+A consulta efetiva exclusiva das páginas NAA Bible.com 1840 de Mt 14–15 (HTTP 200; 96.213 e 97.113 bytes) foi acompanhada de leitura verso a verso e comparação dos **263 objetos/5.099 pistas**. Quatro lacunas sustentadas foram autoradas: Genesaré/curas (10 pistas; capacidade 4), tradição/boca/coração (26; 12), curas no monte (18; 8) e alimentação dos quatro mil (26; 12). Mt 14.1-33 e 15.21-28 permaneceram cobertos por quatro pautas anteriores, sem alteração ou duplicação.
+
+Os 263 objetos anteriores permaneceram serialmente idênticos e na mesma ordem; somente quatro foram anexados. O catálogo passa a **267 pautas/1.068 campos/5.179 pistas**, todas elegíveis, e Mateus a **83 pautas/1.581 pistas que citam o livro**. O auditor não encontrou duplicata exata; quatro alertas novos foram resolvidos por comparação concreta de cenas e documentos. Mt 14–15 fica decidido no inventário vigente, mas **Mt 16–17 e 26–28 permanecem listados por recorte, sem fechamento por limite**. Mt 23.14, dúvidas de 1Co e decisões anteriores foram preservados; testes não declaram o banco completo.

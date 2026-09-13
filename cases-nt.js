@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-080-mateus-1-4",
+  "catalogVersion": "checkpoint-083-mateus-14-15",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 263,
-    "fields": 1052,
-    "editoriallyEligibleCases": 263,
-    "playableCases": 263,
-    "max12Cases": 91
+    "cases": 267,
+    "fields": 1068,
+    "editoriallyEligibleCases": 267,
+    "playableCases": 267,
+    "max12Cases": 93
   },
   "order": [
     "nt2-joao-cana",
@@ -279,7 +279,11 @@
     "nt2-mateus-centuriao-servo",
     "nt2-mateus-dois-cegos-casa",
     "nt2-mateus-mudo-reacoes",
-    "nt2-mateus-multidoes-seara"
+    "nt2-mateus-multidoes-seara",
+    "nt2-mateus-genesare-curas",
+    "nt2-mateus-tradicao-coracao",
+    "nt2-mateus-monte-multidoes-curas",
+    "nt2-mateus-quatro-mil"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -182842,6 +182846,2828 @@
             "passage": "9.35-38",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-genesare-curas": {
+      "id": "nt2-mateus-genesare-curas",
+      "kind": "canonical-case",
+      "title": "Reconhecimento e curas em Genesaré",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 14.34-36",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "14.34-36",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Aonde chegaram, como os moradores reagiram e o que ocorreu aos enfermos que tocaram na roupa de Jesus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A breve transição é mantida como unidade própria de Mateus; não se presume identidade de ocasião nem se importam pormenores do paralelo indicado pela página."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Terra alcançada após a travessia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Genesaré"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Magadã"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Jericó"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Belém"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Genesaré",
+          "enderecoNAA": "Mateus 14.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "14.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que fizeram ao reconhecer Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Avisaram toda a região e trouxeram os enfermos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mandaram a multidão embora"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Fecharam as casas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Levaram Jesus a Jerusalém"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Avisaram toda a região e trouxeram os enfermos",
+          "enderecoNAA": "Mateus 14.35",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "14.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os enfermos pediam",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Tocar ao menos na borda da roupa de Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Receber sete pães"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Entrar no barco"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Subir sozinhos ao monte"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Tocar ao menos na borda da roupa de Jesus",
+          "enderecoNAA": "Mateus 14.36",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "14.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resultado para os que tocaram",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Todos ficaram curados"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente um foi curado"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foram enviados para outra cidade"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Continuaram esperando"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Todos ficaram curados",
+          "enderecoNAA": "Mateus 14.36",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "14.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A travessia terminou do outro lado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A travessia terminou do outro lado."
+          },
+          {
+            "id": "P02",
+            "text": "A terra alcançada era Genesaré.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terra alcançada era Genesaré."
+          },
+          {
+            "id": "P03",
+            "text": "Pessoas daquela terra reconheceram Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pessoas daquela terra reconheceram Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "Elas mandaram avisar todos os arredores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas mandaram avisar todos os arredores."
+          },
+          {
+            "id": "P05",
+            "text": "Os moradores trouxeram enfermos a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os moradores trouxeram enfermos a Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Foram trazidos todos os enfermos mencionados no relato.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram trazidos todos os enfermos mencionados no relato."
+          },
+          {
+            "id": "P07",
+            "text": "Os enfermos faziam um pedido a Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os enfermos faziam um pedido a Jesus."
+          },
+          {
+            "id": "P08",
+            "text": "Pediam permissão para tocar em sua roupa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pediam permissão para tocar em sua roupa."
+          },
+          {
+            "id": "P09",
+            "text": "A borda da roupa era o ponto que pediam tocar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A borda da roupa era o ponto que pediam tocar."
+          },
+          {
+            "id": "P10",
+            "text": "Mateus diz que todos os que tocaram ficaram curados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus diz que todos os que tocaram ficaram curados."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 14.34-36 registra a chegada a Genesaré, o reconhecimento de Jesus, a mobilização da região e a cura dos enfermos que tocaram na borda de sua roupa.",
+        "hinge": "A breve transição é mantida como unidade própria de Mateus; não se presume identidade de ocasião nem se importam pormenores do paralelo indicado pela página.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "14.34-36",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-tradicao-coracao": {
+      "id": "nt2-mateus-tradicao-coracao",
+      "kind": "canonical-case",
+      "title": "Tradição, boca e coração",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 15.1-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.1-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Quem questionou Jesus, que contraste ele apresentou e como explicou o que contamina a pessoa?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Perguntas, censuras, citação e explicação permanecem atribuídas aos falantes no texto; nenhuma fonte do Antigo Testamento nem desenvolvimento do paralelo é importado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem veio de Jerusalém questionar Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Alguns fariseus e escribas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Saduceus e herodianos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Publicanos e soldados"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sacerdotes e pastores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Alguns fariseus e escribas",
+          "enderecoNAA": "Mateus 15.1-2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Prática dos discípulos questionada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Comer sem lavar as mãos segundo a tradição"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Colher espigas no sábado"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Entrar no templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Jejuar três dias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Comer sem lavar as mãos segundo a tradição",
+          "enderecoNAA": "Mateus 15.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Jesus disse que contamina a pessoa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O que sai da boca"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O que entra pela boca"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A poeira do caminho"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O contato com a multidão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O que sai da boca",
+          "enderecoNAA": "Mateus 15.10-11",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Origem indicada para o que sai da boca",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O coração"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O estômago"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "As mãos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A tradição dos anciãos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O coração",
+          "enderecoNAA": "Mateus 15.17-20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.17-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Alguns fariseus e escribas aproximaram-se de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns fariseus e escribas aproximaram-se de Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Eles tinham vindo de Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles tinham vindo de Jerusalém."
+          },
+          {
+            "id": "P03",
+            "text": "A pergunta tratava da tradição dos anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta tratava da tradição dos anciãos."
+          },
+          {
+            "id": "P04",
+            "text": "Os questionadores apontaram que os discípulos não lavavam as mãos ao comer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os questionadores apontaram que os discípulos não lavavam as mãos ao comer."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus respondeu com outra pergunta sobre mandamento e tradição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu com outra pergunta sobre mandamento e tradição."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus atribuiu a Deus a ordem de honrar pai e mãe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a Deus a ordem de honrar pai e mãe."
+          },
+          {
+            "id": "P07",
+            "text": "Ele também mencionou a punição de quem maldissesse pai ou mãe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também mencionou a punição de quem maldissesse pai ou mãe."
+          },
+          {
+            "id": "P08",
+            "text": "A resposta descreveu uma ajuda aos pais declarada oferta ao Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta descreveu uma ajuda aos pais declarada oferta ao Senhor."
+          },
+          {
+            "id": "P09",
+            "text": "Segundo Jesus, essa prática dispensava a honra devida aos pais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.5-6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, essa prática dispensava a honra devida aos pais."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus afirmou que a tradição deles invalidava a palavra de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que a tradição deles invalidava a palavra de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Ele chamou os interlocutores de hipócritas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele chamou os interlocutores de hipócritas."
+          },
+          {
+            "id": "P12",
+            "text": "A profecia citada falava de honra com os lábios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.7-8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A profecia citada falava de honra com os lábios."
+          },
+          {
+            "id": "P13",
+            "text": "Na citação, o coração do povo estava longe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na citação, o coração do povo estava longe."
+          },
+          {
+            "id": "P14",
+            "text": "A citação descrevia culto inútil e doutrinas humanas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A citação descrevia culto inútil e doutrinas humanas."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus convocou a multidão a escutar e entender.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus convocou a multidão a escutar e entender."
+          },
+          {
+            "id": "P16",
+            "text": "Ele negou que o que entra pela boca contamine a pessoa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele negou que o que entra pela boca contamine a pessoa."
+          },
+          {
+            "id": "P17",
+            "text": "Ele afirmou que o que sai da boca contamina a pessoa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que o que sai da boca contamina a pessoa."
+          },
+          {
+            "id": "P18",
+            "text": "Os discípulos relataram que os fariseus ficaram escandalizados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos relataram que os fariseus ficaram escandalizados."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus comparou a planta não plantada pelo Pai a algo que será arrancado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou a planta não plantada pelo Pai a algo que será arrancado."
+          },
+          {
+            "id": "P20",
+            "text": "Ele chamou os fariseus de cegos que guiam cegos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele chamou os fariseus de cegos que guiam cegos."
+          },
+          {
+            "id": "P21",
+            "text": "Na comparação, ambos os cegos cairiam num buraco.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, ambos os cegos cairiam num buraco."
+          },
+          {
+            "id": "P22",
+            "text": "Pedro pediu que Jesus explicasse a parábola.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro pediu que Jesus explicasse a parábola."
+          },
+          {
+            "id": "P23",
+            "text": "Jesus relacionou o que entra pela boca ao estômago e à eliminação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.16-17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus relacionou o que entra pela boca ao estômago e à eliminação."
+          },
+          {
+            "id": "P24",
+            "text": "Ele disse que o que sai da boca vem do coração.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que o que sai da boca vem do coração."
+          },
+          {
+            "id": "P25",
+            "text": "A lista procedente do coração inclui maus pensamentos e atos maus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista procedente do coração inclui maus pensamentos e atos maus."
+          },
+          {
+            "id": "P26",
+            "text": "A conclusão repetiu que comer sem lavar as mãos não contamina.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão repetiu que comer sem lavar as mãos não contamina."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 15.1-20 registra a controvérsia sobre tradição e mãos, a resposta relativa aos pais e a explicação de Jesus sobre boca, coração e contaminação.",
+        "hinge": "Perguntas, censuras, citação e explicação permanecem atribuídas aos falantes no texto; nenhuma fonte do Antigo Testamento nem desenvolvimento do paralelo é importado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.1-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-monte-multidoes-curas": {
+      "id": "nt2-mateus-monte-multidoes-curas",
+      "kind": "canonical-case",
+      "title": "As multidões e as curas junto ao monte",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 15.29-31",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.29-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus se assentou, quem foi levado até ele e como o povo reagiu às curas?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A enumeração e seus resultados são preservados como relato próprio de Mateus, sem fundir pessoas ou ocasião com outras cenas de cura."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar junto ao qual Jesus chegou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O mar da Galileia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O rio Jordão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A cidade de Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A terra de Genesaré"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O mar da Galileia",
+          "enderecoNAA": "Mateus 15.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde Jesus se assentou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No monte"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Num barco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Numa sinagoga"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "À beira do caminho"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No monte",
+          "enderecoNAA": "Mateus 15.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem as multidões trouxeram",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Coxos, cegos, aleijados, mudos e muitos outros"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente crianças"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas escribas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pescadores com redes"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Coxos, cegos, aleijados, mudos e muitos outros",
+          "enderecoNAA": "Mateus 15.30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Reação do povo ao que viu",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ficou maravilhado e glorificou o Deus de Israel"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Fugiu para as cidades"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pediu um sinal do céu"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entrou no barco"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ficou maravilhado e glorificou o Deus de Israel",
+          "enderecoNAA": "Mateus 15.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus saiu da região anterior.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus saiu da região anterior."
+          },
+          {
+            "id": "P02",
+            "text": "Ele foi para junto do mar da Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele foi para junto do mar da Galileia."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus subiu ao monte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus subiu ao monte."
+          },
+          {
+            "id": "P04",
+            "text": "Ele se assentou ali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se assentou ali."
+          },
+          {
+            "id": "P05",
+            "text": "Muitas multidões vieram até Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitas multidões vieram até Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Elas trouxeram coxos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas trouxeram coxos."
+          },
+          {
+            "id": "P07",
+            "text": "Também trouxeram cegos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também trouxeram cegos."
+          },
+          {
+            "id": "P08",
+            "text": "Aleijados estavam entre os levados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aleijados estavam entre os levados."
+          },
+          {
+            "id": "P09",
+            "text": "Mudos também foram levados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mudos também foram levados."
+          },
+          {
+            "id": "P10",
+            "text": "Mateus acrescenta muitos outros aos grupos citados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus acrescenta muitos outros aos grupos citados."
+          },
+          {
+            "id": "P11",
+            "text": "Os enfermos foram deixados junto aos pés de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os enfermos foram deixados junto aos pés de Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus os curou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os curou."
+          },
+          {
+            "id": "P13",
+            "text": "O povo viu mudos falando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O povo viu mudos falando."
+          },
+          {
+            "id": "P14",
+            "text": "Viu aleijados recuperando a saúde.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Viu aleijados recuperando a saúde."
+          },
+          {
+            "id": "P15",
+            "text": "Viu coxos andando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Viu coxos andando."
+          },
+          {
+            "id": "P16",
+            "text": "Viu cegos enxergando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Viu cegos enxergando."
+          },
+          {
+            "id": "P17",
+            "text": "O povo ficou maravilhado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O povo ficou maravilhado."
+          },
+          {
+            "id": "P18",
+            "text": "A reação terminou em glorificação ao Deus de Israel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reação terminou em glorificação ao Deus de Israel."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 15.29-31 registra Jesus junto ao mar da Galileia e no monte, as multidões levando diferentes enfermos, as curas e a glorificação do Deus de Israel.",
+        "hinge": "A enumeração e seus resultados são preservados como relato próprio de Mateus, sem fundir pessoas ou ocasião com outras cenas de cura.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.29-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-quatro-mil": {
+      "id": "nt2-mateus-quatro-mil",
+      "kind": "canonical-case",
+      "title": "A alimentação dos quatro mil",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 15.32-39",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.32-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que necessidade Jesus apresentou, quais recursos foram usados e como terminou a alimentação dos quatro mil?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Esta é a segunda alimentação nomeada na própria página e mantém números, sequência e destino próprios; não se transfere nenhum detalhe da alimentação anterior nem do paralelo indicado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Motivo declarado por Jesus para não despedir o povo em jejum",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Poderiam desfalecer pelo caminho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O barco já havia partido"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Era proibido comprar pão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A noite já havia terminado"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Poderiam desfalecer pelo caminho",
+          "enderecoNAA": "Mateus 15.32",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Recursos informados pelos discípulos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Sete pães e alguns peixinhos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cinco pães e dois peixes"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Doze pães e um peixe"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Sete cestos vazios"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Sete pães e alguns peixinhos",
+          "enderecoNAA": "Mateus 15.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quantidade recolhida depois que todos comeram",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Sete cestos cheios de pedaços"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Doze cestos cheios"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Dois barcos de peixes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Nenhuma sobra"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Sete cestos cheios de pedaços",
+          "enderecoNAA": "Mateus 15.37",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Destino de Jesus depois de despedir as multidões",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O território de Magadã"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A terra de Genesaré"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A cidade de Belém"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O monte das Oliveiras"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O território de Magadã",
+          "enderecoNAA": "Mateus 15.39",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "15.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chamou os discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou os discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Ele declarou sentir compaixão daquela gente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou sentir compaixão daquela gente."
+          },
+          {
+            "id": "P03",
+            "text": "A gente estava com Jesus havia três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A gente estava com Jesus havia três dias."
+          },
+          {
+            "id": "P04",
+            "text": "Segundo Jesus, não tinham o que comer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, não tinham o que comer."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus não queria mandá-los para casa em jejum.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus não queria mandá-los para casa em jejum."
+          },
+          {
+            "id": "P06",
+            "text": "Ele apontou o risco de desfalecerem pelo caminho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele apontou o risco de desfalecerem pelo caminho."
+          },
+          {
+            "id": "P07",
+            "text": "Os discípulos perguntaram onde obter pão no deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos perguntaram onde obter pão no deserto."
+          },
+          {
+            "id": "P08",
+            "text": "A pergunta tratava de saciar uma multidão grande.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta tratava de saciar uma multidão grande."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus perguntou quantos pães eles tinham.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou quantos pães eles tinham."
+          },
+          {
+            "id": "P10",
+            "text": "A resposta foi sete pães.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta foi sete pães."
+          },
+          {
+            "id": "P11",
+            "text": "Os discípulos também mencionaram alguns peixinhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos também mencionaram alguns peixinhos."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus mandou o povo assentar-se no chão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou o povo assentar-se no chão."
+          },
+          {
+            "id": "P13",
+            "text": "Ele pegou os sete pães e os peixes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pegou os sete pães e os peixes."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus deu graças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deu graças."
+          },
+          {
+            "id": "P15",
+            "text": "Depois, partiu os alimentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois, partiu os alimentos."
+          },
+          {
+            "id": "P16",
+            "text": "Ele deu os alimentos aos discípulos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele deu os alimentos aos discípulos."
+          },
+          {
+            "id": "P17",
+            "text": "Os discípulos os distribuíram ao povo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos os distribuíram ao povo."
+          },
+          {
+            "id": "P18",
+            "text": "Todos comeram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos comeram."
+          },
+          {
+            "id": "P19",
+            "text": "Todos ficaram satisfeitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos ficaram satisfeitos."
+          },
+          {
+            "id": "P20",
+            "text": "Foram recolhidos pedaços que sobraram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram recolhidos pedaços que sobraram."
+          },
+          {
+            "id": "P21",
+            "text": "As sobras encheram sete cestos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As sobras encheram sete cestos."
+          },
+          {
+            "id": "P22",
+            "text": "Mateus conta quatro mil homens entre os que comeram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus conta quatro mil homens entre os que comeram."
+          },
+          {
+            "id": "P23",
+            "text": "Mulheres e crianças não estão incluídas nesse número.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mulheres e crianças não estão incluídas nesse número."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus despediu as multidões.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus despediu as multidões."
+          },
+          {
+            "id": "P25",
+            "text": "Depois entrou no barco.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois entrou no barco."
+          },
+          {
+            "id": "P26",
+            "text": "Ele foi para o território de Magadã.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele foi para o território de Magadã."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 15.32-39 relata a compaixão de Jesus após três dias, sete pães e alguns peixes, a distribuição, sete cestos de sobras, quatro mil homens e a ida a Magadã.",
+        "hinge": "Esta é a segunda alimentação nomeada na própria página e mantém números, sequência e destino próprios; não se transfere nenhum detalhe da alimentação anterior nem do paralelo indicado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "15.32-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

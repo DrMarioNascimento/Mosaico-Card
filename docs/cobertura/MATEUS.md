@@ -417,3 +417,20 @@ Em 13/09/2026, somente as páginas efetivas `https://www.bible.com/pt/bible/1840
 Foram anexadas exatamente **quatro pautas/49 pistas**, sem meta, com capacidades 9, 5, 3 e 4 pela fórmula `min(12, floor((pistas - 1) / 2))`. O mínimo de cinco foi respeitado sem piso de 25/12 e sem multiplicar fatos. Cada pauta tem quatro campos independentes, quatro alternativas distintas por campo, gabaritos, focal e pesos gerados 8/5/3/2, referências e proveniência NAA, metadados e revelação atributiva.
 
 A auditoria de similaridade sinalizou os pedidos de compaixão de Mt 9.27 e 20.30; ambos foram mantidos com resolução explícita porque pertencem a cenas distintas no próprio documento e a semelhança do clamor não prova identidade. Os 259 objetos anteriores permaneceram na mesma ordem e serializaram identicamente por `JSON.stringify`; somente quatro foram anexados. O banco passa a **263 pautas/1.052 campos/5.099 pistas**, todas elegíveis, e Mateus a **79 pautas/1.501 pistas que citam o livro**. Não resta recorte conhecido na fila específica de Mt 8–9 após combinar esta matriz com o checkpoint 081, mas isso não declara exaustividade futura de Mateus nem banco completo. Mt 14–17 e 26–28 continuam posteriores; Mt 23.14, dúvidas de 1Co e exclusões definitivas permanecem intactas.
+
+## Inventário individual de Mateus 14–15 — checkpoint 083
+
+Em 13/09/2026, somente as páginas `https://www.bible.com/pt/bible/1840/MAT.14.NAA` e `/MAT.15.NAA` foram obtidas separadamente (HTTP 200; 96.213 e 97.113 bytes) e lidas verso a verso. A comparação prévia abrangeu os **263 objetos/5.099 pistas**, incluindo perguntas, campos, referências e paralelos. Mt 14.1-12, 14.13-21 e 14.22-33 já estavam representados; Mt 15.21-28 continua coberto por `nt2-mateus-mulher-cananeia`, sem alteração ou duplicação.
+
+| Unidade lida | Matriz concreta e comparação | Decisão |
+| --- | --- | --- |
+| Mt 14.1-12 | Herodes/causa da prisão/pedido/desfecho; comparada à pauta da morte de João | **Coberta** por `nt2-mateus-joao-prisao`; nenhuma nova pauta. |
+| Mt 14.13-21 | lugar/recursos/distribuição/sobras; comparada à pauta documental da primeira alimentação | **Coberta** por `nt2-joao-paes`, cuja referência paralela de Mateus já preserva o componente. |
+| Mt 14.22-33 | barco/oração/Pedro/cessação do vento; comparação integral da pauta existente | **Coberta** por `nt2-mateus-pedro-aguas`. |
+| Mt 14.34-36 | Genesaré/reconhecimento/mobilização/toque e cura; 10 fatos | **Autorada** em `nt2-mateus-genesare-curas`, capacidade 4; a transição curta não foi descartada nem fundida ao paralelo. |
+| Mt 15.1-20 | questionadores/mãos/tradição/contaminação e coração; 26 fatos | **Autorada** em `nt2-mateus-tradicao-coracao`, capacidade 12; falas e citação permanecem atribuídas, sem importar o AT. |
+| Mt 15.21-28 | região/mulher/pedido/respostas/cura; comparação integral da pauta existente | **Coberta** por `nt2-mateus-mulher-cananeia`; o objeto e seus paralelos foram preservados. |
+| Mt 15.29-31 | mar/monte/grupos curados/reação; 18 fatos | **Autorada** em `nt2-mateus-monte-multidoes-curas`, capacidade 8; não se presume identidade com outras reuniões de enfermos. |
+| Mt 15.32-39 | três dias/recursos/distribuição/sobras/contagem/Magadã; 26 fatos | **Autorada** em `nt2-mateus-quatro-mil`, capacidade 12; a segunda alimentação permanece distinta da primeira e de paralelos, sem transferência de detalhes. |
+
+As quatro pautas somam **80 pistas** e elevam o banco a **267 pautas/1.068 campos/5.179 pistas**, todas elegíveis; Mateus passa a **83 pautas/1.581 pistas que citam o livro**. Os 263 objetos anteriores permaneceram na mesma ordem e serializaram byte a byte por `JSON.stringify`. As quatro semelhanças novas apontadas pelo auditor foram comparadas e resolvidas como fatos de cenas distintas, sem presumir identidade. Mt 14–15 fica individualmente decidido neste inventário; **Mt 16–17 e 26–28 permanecem por recorte, sem fechamento por limite**. Mt 23.14, dúvidas de 1Co e decisões anteriores continuam intactas, e o banco não é declarado completo.
