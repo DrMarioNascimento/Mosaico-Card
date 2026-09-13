@@ -634,3 +634,7 @@ A conferência documental final da ficha encontrou decisão individual vigente p
 ## Checkpoint 089 — inventário integral de Mc 1–2, lote limitado
 
 As páginas NAA Bible.com 1840 de Mc 1–2 retornaram HTTP 200 (99.112 e 95.905 bytes), foram lidas verso a verso e comparadas aos 282 objetos/5.459 pistas. A matriz integral na ficha de Marcos registra decisão para cada unidade: quatro pautas existentes cobrem Mc 1.16-28 e 2.1-17; quatro novas cobrem Mc 1.1-15 e 1.29-45 com 18, 18, 24 e 20 pistas; Mc 2.18-22 e 2.23-28 têm matrizes concretas sustentadas, mas permanecem para o próximo lote pelo teto autorizado de quatro novas pautas. O banco passa a **286/5.539**, preservando serializadamente os 282 objetos anteriores. Mc 1–2 não está fechado neste checkpoint.
+
+## Checkpoint 090 — duas pendências de Marcos 2
+
+A reconsulta NAA 1840 ficou exclusivamente em Mc 2.18-22 e 2.23-28. As matrizes concretas registradas na ficha de Marcos sustentaram `nt2-marcos-jejum-remendo-odres` (14 pistas; capacidade 6) e `nt2-marcos-espigas-sabado-davi` (13; capacidade 6), sem importar costumes, conteúdo de 1Sm ou detalhes de paralelos. Os 286 objetos anteriores permaneceram serializadamente idênticos e dois objetos foram anexados, resultando em **288 pautas/5.566 pistas**. Não resta pendência conhecida de Mc 1–2 no inventário atual; Mc 3–4 é somente o próximo plano, não foi autorado.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-089-marcos-1-2",
+  "catalogVersion": "checkpoint-090-marcos-2",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 286,
-    "fields": 1144,
-    "editoriallyEligibleCases": 286,
-    "playableCases": 286,
+    "cases": 288,
+    "fields": 1152,
+    "editoriallyEligibleCases": 288,
+    "playableCases": 288,
     "max12Cases": 96
   },
   "order": [
@@ -302,7 +302,9 @@
     "nt2-marcos-joao-deserto-batismo",
     "nt2-marcos-batismo-deserto-anuncio-galileia",
     "nt2-marcos-casa-madrugada-pregacao",
-    "nt2-marcos-leproso-divulgacao"
+    "nt2-marcos-leproso-divulgacao",
+    "nt2-marcos-jejum-remendo-odres",
+    "nt2-marcos-espigas-sabado-davi"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -198622,6 +198624,1104 @@
             "passage": "1.40-45",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-jejum-remendo-odres": {
+      "id": "nt2-marcos-jejum-remendo-odres",
+      "kind": "canonical-case",
+      "title": "O jejum, o remendo e os odres",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 2.18-22",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.18-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem jejuava, como Jesus respondeu sobre seus discípulos e quais efeitos atribuiu ao remendo e ao vinho novos?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A resposta sobre o noivo resolve a pergunta inicial e situa o jejum futuro; as duas comparações seguintes preservam seus objetos e efeitos próprios sem explicação externa.",
+      "editorial": {
+        "hinge": "Noivo, remendo, vinho e odres permanecem comparações atribuídas a Jesus em Marcos; não recebem identificação doutrinária, costumes externos nem formulações dos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Resposta sobre o jejum enquanto o noivo está presente",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os convidados não podem jejuar enquanto têm o noivo com eles"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Todos devem jejuar durante a festa"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Somente o noivo deve jejuar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os convidados devem deixar a festa imediatamente"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os convidados não podem jejuar enquanto têm o noivo com eles",
+          "enderecoNAA": "Marcos 2.19-20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.19-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Grupos cujos discípulos estavam jejuando",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os discípulos de João e os fariseus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos de Jesus e os publicanos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os sacerdotes e os pescadores"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os herodianos e os escribas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os discípulos de João e os fariseus",
+          "enderecoNAA": "Marcos 2.18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Efeito atribuído ao remendo de pano novo em roupa velha",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O remendo repuxa a roupa e o rasgo fica maior"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A roupa fica inteiramente nova"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O remendo desaparece sem deixar marca"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O tecido velho transforma-se em couro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O remendo repuxa a roupa e o rasgo fica maior",
+          "enderecoNAA": "Marcos 2.21",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Efeito atribuído ao vinho novo em odres velhos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O vinho rompe os odres, e vinho e odres se perdem"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O vinho envelhece sem afetar os odres"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os odres tornam-se novos ao receber o vinho"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O vinho é convertido em água"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O vinho rompe os odres, e vinho e odres se perdem",
+          "enderecoNAA": "Marcos 2.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os discípulos de João estavam jejuando.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos de João estavam jejuando."
+          },
+          {
+            "id": "P02",
+            "text": "Os fariseus também estavam jejuando.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus também estavam jejuando."
+          },
+          {
+            "id": "P03",
+            "text": "Pessoas perguntaram a Jesus sobre a diferença entre esses grupos e os discípulos dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pessoas perguntaram a Jesus sobre a diferença entre esses grupos e os discípulos dele."
+          },
+          {
+            "id": "P04",
+            "text": "A pergunta observava que os discípulos de Jesus não jejuavam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta observava que os discípulos de Jesus não jejuavam."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus respondeu com a figura dos convidados para o casamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu com a figura dos convidados para o casamento."
+          },
+          {
+            "id": "P06",
+            "text": "Ele situou o noivo junto desses convidados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele situou o noivo junto desses convidados."
+          },
+          {
+            "id": "P07",
+            "text": "Enquanto têm o noivo consigo, os convidados não podem jejuar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Enquanto têm o noivo consigo, os convidados não podem jejuar."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus anunciou dias em que o noivo lhes seria tirado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou dias em que o noivo lhes seria tirado."
+          },
+          {
+            "id": "P09",
+            "text": "Ele afirmou que jejuariam naquele dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que jejuariam naquele dia."
+          },
+          {
+            "id": "P10",
+            "text": "Ninguém costura remendo de pano novo em roupa velha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém costura remendo de pano novo em roupa velha."
+          },
+          {
+            "id": "P11",
+            "text": "O remendo novo repuxa a roupa velha.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O remendo novo repuxa a roupa velha."
+          },
+          {
+            "id": "P12",
+            "text": "Nessa comparação, o rasgo fica maior.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa comparação, o rasgo fica maior."
+          },
+          {
+            "id": "P13",
+            "text": "Ninguém põe vinho novo em odres velhos; o vinho romperá os odres.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém põe vinho novo em odres velhos; o vinho romperá os odres."
+          },
+          {
+            "id": "P14",
+            "text": "Na comparação, tanto o vinho quanto os odres se perdem, e vinho novo deve ir em odres novos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, tanto o vinho quanto os odres se perdem, e vinho novo deve ir em odres novos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 2.18-22 registra a pergunta sobre o jejum, a resposta de Jesus com o noivo e os convidados, e as comparações do remendo de pano novo e do vinho novo em odres.",
+        "hinge": "Noivo, remendo, vinho e odres permanecem comparações atribuídas a Jesus em Marcos; não recebem identificação doutrinária, costumes externos nem formulações dos paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.18-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-espigas-sabado-davi": {
+      "id": "nt2-marcos-espigas-sabado-davi",
+      "kind": "canonical-case",
+      "title": "As espigas, Davi e o sábado",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 2.23-28",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.23-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que os discípulos fizeram no sábado, qual objeção surgiu, que episódio Jesus mencionou e quais conclusões declarou?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "As duas conclusões finais fornecem o eixo explícito da resposta de Jesus; ação, objeção e episódio mencionado reconstroem o argumento sem completar a narrativa de Davi por fonte externa.",
+      "editorial": {
+        "hinge": "Necessidade, Abiatar, pães e licitude permanecem elementos da pergunta e resposta em Marcos; 1 Samuel e os relatos sinóticos paralelos não são usados para completar ou corrigir a unidade."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Conclusões declaradas por Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O sábado foi feito para o homem, e o Filho do Homem é senhor também do sábado"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O homem foi feito somente para colher espigas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os pães da proposição pertenciam aos fariseus"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A seara era senhora do sábado"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O sábado foi feito para o homem, e o Filho do Homem é senhor também do sábado",
+          "enderecoNAA": "Marcos 2.27-28",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.27-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Ação dos discípulos ao passar pelas searas",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Começaram a colher espigas pelo caminho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Prepararam vinho em odres novos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Armaram redes junto ao mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Recolheram moedas na coletoria"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Começaram a colher espigas pelo caminho",
+          "enderecoNAA": "Marcos 2.23",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Objeção apresentada pelos fariseus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Faziam no sábado o que não era lícito"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entravam numa casa sem convite"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Deixavam de pagar um imposto"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Falavam durante uma refeição"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Faziam no sábado o que não era lícito",
+          "enderecoNAA": "Marcos 2.24",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Episódio mencionado por Jesus em resposta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Davi entrou na Casa de Deus e comeu os pães da proposição"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Moisés recebeu água de uma rocha"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Elias atravessou o Jordão com Eliseu"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Isaías entrou no palácio de um rei"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Davi entrou na Casa de Deus e comeu os pães da proposição",
+          "enderecoNAA": "Marcos 2.25-26",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "2.25-26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus passou pelas searas num sábado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus passou pelas searas num sábado."
+          },
+          {
+            "id": "P02",
+            "text": "Os discípulos caminhavam com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos caminhavam com ele."
+          },
+          {
+            "id": "P03",
+            "text": "Pelo caminho, eles começaram a colher espigas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pelo caminho, eles começaram a colher espigas."
+          },
+          {
+            "id": "P04",
+            "text": "Os fariseus chamaram a atenção de Jesus para a ação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus chamaram a atenção de Jesus para a ação."
+          },
+          {
+            "id": "P05",
+            "text": "Eles qualificaram a ação como não lícita no sábado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles qualificaram a ação como não lícita no sábado."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus respondeu perguntando se nunca haviam lido o que Davi fez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu perguntando se nunca haviam lido o que Davi fez."
+          },
+          {
+            "id": "P07",
+            "text": "Davi estava em necessidade e teve fome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Davi estava em necessidade e teve fome."
+          },
+          {
+            "id": "P08",
+            "text": "Os companheiros de Davi também são incluídos na pergunta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os companheiros de Davi também são incluídos na pergunta."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus situou o episódio no tempo de Abiatar, sumo sacerdote.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus situou o episódio no tempo de Abiatar, sumo sacerdote."
+          },
+          {
+            "id": "P10",
+            "text": "Davi entrou na Casa de Deus e comeu os pães da proposição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Davi entrou na Casa de Deus e comeu os pães da proposição."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus afirmou que somente aos sacerdotes era lícito comer esses pães e que Davi também os deu aos companheiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que somente aos sacerdotes era lícito comer esses pães e que Davi também os deu aos companheiros."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus declarou que o sábado foi estabelecido por causa do homem, e não o homem por causa do sábado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que o sábado foi estabelecido por causa do homem, e não o homem por causa do sábado."
+          },
+          {
+            "id": "P13",
+            "text": "Ele concluiu que o Filho do Homem é senhor também do sábado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "2.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele concluiu que o Filho do Homem é senhor também do sábado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 2.23-28 narra a colheita de espigas no sábado, a objeção dos fariseus e a resposta de Jesus mediante o episódio atribuído a Davi e duas conclusões sobre o sábado.",
+        "hinge": "Necessidade, Abiatar, pães e licitude permanecem elementos da pergunta e resposta em Marcos; 1 Samuel e os relatos sinóticos paralelos não são usados para completar ou corrigir a unidade.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "2.23-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

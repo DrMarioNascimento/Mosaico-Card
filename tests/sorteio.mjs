@@ -17,7 +17,7 @@ const eligible7 = bank.elegiveis(7);
 const limitadasASeis = eligible6.filter(id => bank.byId[id].deck.maxPlayers === 6);
 const curtasJoao = limitadasASeis.filter(id => bank.byId[id].canon.book === "João");
 assert.equal(curtasJoao.length, 8, "as oito pautas curtas de João entram em mesas de até seis");
-assert.equal(limitadasASeis.length, 37, "pautas com 13 ou 14 cartas usam capacidade seis");
+assert.equal(limitadasASeis.length, 39, "pautas com 13 ou 14 cartas usam capacidade seis");
 assert.equal(bank.elegiveis(2).filter(id => bank.byId[id].deck.maxPlayers === 2).length, 1, "pautas de cinco ou seis cartas usam capacidade dois");
 assert.equal(bank.elegiveis(5).filter(id => bank.byId[id].deck.maxPlayers === 5).length, 5, "pautas de onze ou doze cartas usam capacidade cinco");
 assert.equal(bank.elegiveis(7).filter(id => bank.byId[id].deck.maxPlayers === 7).length, 20, "pautas de quinze ou dezesseis cartas usam capacidade sete");

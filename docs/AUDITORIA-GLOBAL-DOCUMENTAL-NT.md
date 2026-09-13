@@ -98,3 +98,7 @@ A auditoria global passou a **282 pautas/5.459 pistas**. Duas pautas novas somam
 ## Checkpoint 089 — abertura limitada da reauditoria de Marcos
 
 A reauditoria consultou exclusivamente Mc 1–2 na NAA 1840 e substituiu decisões agregadas antigas por inventário individual integral na ficha de Marcos. Quatro pautas/80 pistas foram anexadas aos 282 objetos preservados; duas unidades sustentadas de Mc 2 ficaram explicitamente pendentes apenas pelo limite do lote. Assim, o catálogo chega a **286 pautas/5.539 pistas**, mas Mc 1–2, Marcos e o banco permanecem abertos. Mc 16.9-20, pendências textuais de Mateus e dúvidas de 1Co não foram alterados.
+
+## Checkpoint 090 — conclusão da fila vigente de Mc 1–2
+
+A consulta exclusiva de Mc 2.18-28 na NAA 1840 resolveu as duas pendências concretas do checkpoint 089 com duas pautas/27 pistas e capacidade 6 em ambas. A comparação manteve Marcos e Mateus como documentos próprios e não incorporou conteúdo do AT. O catálogo passa de **286/5.539 para 288/5.566**, preservando serializadamente os 286 objetos anteriores. Mc 1–2 não conserva remanescente conhecido, mas Marcos e o banco não são declarados completos; Mc 3–4 fica apenas planejado.

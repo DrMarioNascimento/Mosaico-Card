@@ -10,8 +10,19 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 286);
+assert.equal(catalog.summary.editoriallyEligibleCases, 288);
 assert.equal(catalog.summary.max12Cases, 96);
+const marcos2Checkpoint090 = {
+  "nt2-marcos-jejum-remendo-odres": 6,
+  "nt2-marcos-espigas-sabado-davi": 6
+};
+for (const [id, maxPlayers] of Object.entries(marcos2Checkpoint090)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.2.NAA"))), `${id} mantém a proveniência exclusiva de Mc 2`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 const marcos1Checkpoint089 = {
   "nt2-marcos-joao-deserto-batismo": 8,
   "nt2-marcos-batismo-deserto-anuncio-galileia": 8,

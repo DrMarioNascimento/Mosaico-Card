@@ -291,3 +291,7 @@ A conferência documental final da ficha encontrou decisão individual vigente p
 ## Checkpoint 089 — Mc 1–2
 
 Consulta NAA 1840 e inventário integral de Mc 1–2: Mc 1.1-15 e 1.29-45 geraram quatro pautas/80 pistas; Mc 1.16-28 e 2.1-17 foram confirmados em quatro pautas anteriores sem alteração. Mc 2.18-22 e 2.23-28 são sustentados e ficaram pendentes somente pelo limite de quatro novas pautas. Total: **286 pautas, 1.144 campos e 5.539 pistas**; não há fechamento de Mc 1–2, Marcos ou banco.
+
+## Checkpoint 090 — pendências de Mc 2.18-28
+
+A consulta efetiva exclusiva de Mc 2.18-28 na NAA 1840 acrescentou duas pautas/27 pistas, ambas com capacidade 6, aos 286 objetos preservados. O total passa a **288 pautas, 1.152 campos e 5.566 pistas**. Não resta recorte conhecido pendente em Mc 1–2 no inventário vigente; Mc 3–4 está apenas planejado, sem autoria neste checkpoint, e o banco não é declarado completo.

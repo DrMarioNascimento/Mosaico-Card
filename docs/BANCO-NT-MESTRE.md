@@ -841,3 +841,7 @@ A conferência documental final da ficha encontrou decisão individual vigente p
 ## Checkpoint 089 — inventário integral limitado de Marcos 1–2
 
 As páginas NAA Bible.com 1840 de Mc 1–2 foram efetivamente consultadas em 13/09/2026 (HTTP 200; 99.112 e 95.905 bytes), lidas verso a verso e comparadas aos 282 objetos/5.459 pistas. Quatro pautas de Mc 1 acrescentam 80 pistas; quatro unidades já cobertas permaneceram sem alteração. O inventário concreto demonstra que Mc 2.18-22 e 2.23-28 são sustentados, mas a autoria fica para lote posterior pelo limite autorizado de quatro novas pautas. O catálogo passa a **286 pautas/1.144 campos/5.539 pistas**, com os 282 objetos anteriores serializadamente idênticos. Mc 1–2 não está fechado; Mc 16.9-20 permanece excluído definitivamente, e Mt 17.21, 23.14 e dúvidas de 1Co continuam pendentes.
+
+## Checkpoint 090 — conclusão das duas pendências de Marcos 2
+
+A página NAA Bible.com 1840 de Mc 2 foi reconsultada em 13/09/2026 (HTTP 200; 95.905 bytes), exclusivamente nos recortes 2.18-22 e 2.23-28. Duas matrizes concretas sustentaram pautas de 14 e 13 pistas, ambas com capacidade 6, sem conteúdo externo do AT nem identidade presumida com paralelos. Os 286 objetos anteriores permaneceram serializadamente idênticos; o catálogo chega a **288 pautas/1.152 campos/5.566 pistas**. Não há remanescente conhecido de Mc 1–2 no inventário atual, mas isso não fecha Marcos nem o banco. Mc 3–4 é o próximo plano e não foi consultado ou autorado; Mc 16.9-20, Mt 17.21, Mt 23.14 e dúvidas de 1Co preservam suas decisões.
