@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 194);
-assert.equal(catalog.summary.max12Cases, 70);
+assert.equal(catalog.summary.editoriallyEligibleCases, 198);
+assert.equal(catalog.summary.max12Cases, 72);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -293,6 +293,19 @@ for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocali
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 11`);
 }
 assert.match(catalog.byId["nt2-apocalipse-medicao-duas-testemunhas"].reveal.hinge, /não lhes atribui nomes.*identidades externas/, "as duas testemunhas permanecem sem identificação externa");
+const auditoriaApocalipse063 = {
+  "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil": [9, /^(?:14\.[1-5])(?:\D|$)/],
+  "nt2-apocalipse-tres-anjos-perseveranca": [12, /^(?:14\.(?:[6-9]|1[0-3]))(?:\D|$)/],
+  "nt2-apocalipse-colheita-lagar": [11, /^(?:14\.(?:1[4-9]|20))(?:\D|$)/],
+  "nt2-apocalipse-mar-cantico-anjos-tacas": [12, /^(?:15\.[1-8])(?:\D|$)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse063)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao recorte de Apocalipse 14–15`);
+}
+assert.match(catalog.byId["nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil"].reveal.hinge, /não se escolhe a literalidade.*nem se equipara.*Apocalipse 7/, "os cento e quarenta e quatro mil não recebem literalidade nem harmonização com Ap 7");
+assert.equal(catalog.byId["nt2-apocalipse-tacas"].deck.maxPlayers, 6, "a pauta existente encerra Apocalipse 16 sem expansão artificial");
 for (const id of ["nt2-apocalipse-mulher-dragao", "nt2-apocalipse-duas-bestas"]) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:12|13)\./.test(ref.passage))), `${id} mantém exclusivamente as identificações internas de seu capítulo`);
 }

@@ -407,3 +407,15 @@ O lote encerra com quatro pautas, sem forçar uma quinta. Os 188 objetos e as 3.
 | Ap 13.1-18 | Cobertura encerrada em `nt2-apocalipse-duas-bestas`, já existente com 13 pistas. | Os campos e as pistas distinguem origens, ações, marca e número; bestas e 666 não recebem identidade atual ou interpretação externa. |
 
 Somente duas pautas foram acrescentadas, sem forçar uma terceira. Os 192 objetos e as 3.598 pistas anteriores permaneceram integralmente idênticos, inclusive as pautas auditadas de Ap 12 e 13. Não surgiu ambiguidade real nova. **Ap 14–22 e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**
+
+## Checkpoint 063 — decisões individuais em Apocalipse 14–16
+
+| Recorte | Decisão | Motivo |
+| --- | --- | --- |
+| Ap 14.1-5 | `nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil`, 19 pistas, capacidade 2–9. | Monte, nomes na testa, som, cântico e qualificações do grupo sustentam a cena; o número não recebe decisão de literalidade nem harmonização com Ap 7. |
+| Ap 14.6-13 | `nt2-apocalipse-tres-anjos-perseveranca`, 25 pistas, capacidade 2–12. | Os três anúncios, a perseverança e a bem-aventurança formam uma sequência explícita; Babilônia, besta e marca não recebem identidades externas. |
+| Ap 14.14-20 | `nt2-apocalipse-colheita-lagar`, 24 pistas, capacidade 2–11. | Nuvem, foices, ordens, colheita, videira e lagar sustentam um bloco próprio sem calendário ou alegoria acrescentada. |
+| Ap 15.1-8 | `nt2-apocalipse-mar-cantico-anjos-tacas`, 25 pistas, capacidade 2–12. | Vencedores, cânticos, abertura do santuário, saída dos anjos, entrega das taças e fumaça compõem a preparação explícita. |
+| Ap 16.1-21 | Cobertura encerrada em `nt2-apocalipse-tacas`, 13 pistas, capacidade 2–6; objeto preservado. | A pauta existente distingue os destinos das sete taças e inclui reações e conclusão suficientes, sem cronologia externa; duplicá-la não acrescentaria recorte independente. |
+
+Os quatro blocos novos esgotam o limite autorizado sem divisão artificial. Dois pares sobre anjos que saem do santuário/altar em Ap 14 foram mantidos mediante resolução individual porque têm origens, atributos, destinatários e ordens distintos. Não restou par pendente nem surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global permanecem pendentes; o banco não está completo.**

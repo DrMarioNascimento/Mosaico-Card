@@ -642,3 +642,11 @@ A rodada partiu de `b40222e`, com **192 pautas, 768 campos e 3.598 pistas**. Em 
 Ap 11 originou somente duas pautas, sem forçar uma terceira: 11.1-14, com 30 pistas, e 11.15-19, com 18. O inventário passa a **194 pautas, 776 campos e 3.646 pistas**. C1–C4, quatro alternativas, gabaritos, foco, pontuação 8/5/3/2, metadados, revelação e capacidade `min(12, floor((cartas - 1) / 2))` foram preservados. A comparação mecanizada confirmou os 192 objetos e as 3.598 pistas anteriores integralmente idênticos.
 
 As duas testemunhas não receberam nomes ou identidades externas. A mulher, o dragão, as bestas, a marca e o 666 permanecem somente nas descrições e identificações internas de Ap 12–13, sem instituições atuais, calendários ou interpretações externas. Não surgiu ambiguidade real nova. **Ap 14–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 063 — lote exclusivo de Apocalipse 14–15 e auditoria de 16
+
+A rodada partiu de `ea71f1b65fcd6ac836314ea7f9709323efff2b38`, com **194 pautas, 776 campos e 3.646 pistas**. Em 13/09/2026, exclusivamente as páginas de Ap 14, 15 e 16 identificadas como NAA em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da decisão editorial.
+
+Foram acrescentadas quatro pautas e 93 pistas: Ap 14.1-5 (19), Ap 14.6-13 (25), Ap 14.14-20 (24) e Ap 15.1-8 (25). O catálogo passa a **198 pautas, 792 campos e 3.739 pistas**. A pauta existente `nt2-apocalipse-tacas` encerra Ap 16 com fundamentação e permaneceu integralmente inalterada. A comparação serializada confirmou a preservação dos 194 objetos e das 3.646 pistas anteriores.
+
+Cento e quarenta e quatro mil, Cordeiro, cântico, anjos, ceifa, lagar, flagelos e taças permanecem descrições, falas, ações ou identificações internas. Não se decidiu literalidade do número, não se harmonizou Ap 14 com Ap 7 e não se acrescentaram identidades externas, calendários ou alegorias. C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e capacidade `min(12, floor((cartas-1)/2))` foram preservados. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros ficam para depois; o banco não está completo.** Não houve `main`, merge, deploy, publicação, Firebase ou credenciais.

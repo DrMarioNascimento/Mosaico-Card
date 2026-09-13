@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-062",
+  "catalogVersion": "2026-09-13-checkpoint-063",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 194,
-    "fields": 776,
-    "editoriallyEligibleCases": 194,
-    "playableCases": 194,
-    "max12Cases": 70
+    "cases": 198,
+    "fields": 792,
+    "editoriallyEligibleCases": 198,
+    "playableCases": 198,
+    "max12Cases": 72
   },
   "order": [
     "nt2-joao-cana",
@@ -210,7 +210,11 @@
     "nt2-apocalipse-sexta-trombeta-eufrates",
     "nt2-apocalipse-anjo-livrinho",
     "nt2-apocalipse-medicao-duas-testemunhas",
-    "nt2-apocalipse-setima-trombeta-reino-santuario"
+    "nt2-apocalipse-setima-trombeta-reino-santuario",
+    "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil",
+    "nt2-apocalipse-tres-anjos-perseveranca",
+    "nt2-apocalipse-colheita-lagar",
+    "nt2-apocalipse-mar-cantico-anjos-tacas"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -132317,6 +132321,3138 @@
             "passage": "11.15-19",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil": {
+      "id": "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil",
+      "kind": "canonical-case",
+      "title": "O Cordeiro e os cento e quarenta e quatro mil",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 14.1-5",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.1-5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão de Apocalipse 14.1-5, onde estão o Cordeiro e os cento e quarenta e quatro mil, o que trazem na testa e como o cântico e o grupo são descritos?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A aprendizagem exclusiva do cântico distingue o grupo dentro da própria cena, sem decidir a literalidade do número nem harmonizá-lo com Apocalipse 7.",
+      "editorial": {
+        "hinge": "Número, nomes, cântico e qualificações permanecem identificações internas da visão; não se escolhe a literalidade dos cento e quarenta e quatro mil nem se equipara este grupo ao de Apocalipse 7."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem podia aprender o cântico novo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os cento e quarenta e quatro mil"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente os vinte e quatro anciãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Todos os habitantes da terra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os sete anjos dos flagelos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os cento e quarenta e quatro mil",
+          "enderecoNAA": "Apocalipse 14.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde o Cordeiro estava em pé",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sobre o monte Sião"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Diante do altar de ouro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "À margem do Eufrates"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No meio da grande cidade"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sobre o monte Sião",
+          "enderecoNAA": "Apocalipse 14.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que estava escrito na testa do grupo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O nome do Cordeiro e o de seu Pai"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O número de uma besta"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma palavra que ninguém conhecia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os nomes das doze tribos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O nome do Cordeiro e o de seu Pai",
+          "enderecoNAA": "Apocalipse 14.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem o grupo seguia",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao Cordeiro por onde quer que fosse"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ao anjo que voava pelo céu"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Aos quatro seres viventes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Aos reis vindos do Oriente"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao Cordeiro por onde quer que fosse",
+          "enderecoNAA": "Apocalipse 14.4",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Cordeiro é visto em pé sobre o monte Sião.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Cordeiro é visto em pé sobre o monte Sião."
+          },
+          {
+            "id": "P02",
+            "text": "Com ele estão cento e quarenta e quatro mil.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com ele estão cento e quarenta e quatro mil."
+          },
+          {
+            "id": "P03",
+            "text": "O grupo traz na testa o nome do Cordeiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grupo traz na testa o nome do Cordeiro."
+          },
+          {
+            "id": "P04",
+            "text": "Também traz o nome do Pai do Cordeiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também traz o nome do Pai do Cordeiro."
+          },
+          {
+            "id": "P05",
+            "text": "Uma voz é ouvida do céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz é ouvida do céu."
+          },
+          {
+            "id": "P06",
+            "text": "O som é comparado ao de muitas águas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O som é comparado ao de muitas águas."
+          },
+          {
+            "id": "P07",
+            "text": "O som também é comparado a forte trovão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O som também é comparado a forte trovão."
+          },
+          {
+            "id": "P08",
+            "text": "A voz ainda se assemelha a harpistas tocando.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz ainda se assemelha a harpistas tocando."
+          },
+          {
+            "id": "P09",
+            "text": "Um cântico novo é entoado diante do trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um cântico novo é entoado diante do trono."
+          },
+          {
+            "id": "P10",
+            "text": "O cântico também ocorre diante dos quatro seres viventes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cântico também ocorre diante dos quatro seres viventes."
+          },
+          {
+            "id": "P11",
+            "text": "Os anciãos estão diante dos cantores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anciãos estão diante dos cantores."
+          },
+          {
+            "id": "P12",
+            "text": "Somente o grupo comprado da terra podia aprender o cântico.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Somente o grupo comprado da terra podia aprender o cântico."
+          },
+          {
+            "id": "P13",
+            "text": "O grupo é descrito como não maculado com mulheres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grupo é descrito como não maculado com mulheres."
+          },
+          {
+            "id": "P14",
+            "text": "O texto os descreve como virgens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto os descreve como virgens."
+          },
+          {
+            "id": "P15",
+            "text": "Eles seguem o Cordeiro por onde ele vai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles seguem o Cordeiro por onde ele vai."
+          },
+          {
+            "id": "P16",
+            "text": "Foram comprados dentre os seres humanos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram comprados dentre os seres humanos."
+          },
+          {
+            "id": "P17",
+            "text": "São chamados primícias para Deus e para o Cordeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "São chamados primícias para Deus e para o Cordeiro."
+          },
+          {
+            "id": "P18",
+            "text": "Não se achou mentira na boca deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não se achou mentira na boca deles."
+          },
+          {
+            "id": "P19",
+            "text": "O grupo é descrito como sem mácula.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grupo é descrito como sem mácula."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "O Cordeiro aparece no monte Sião com cento e quarenta e quatro mil identificados pelos nomes na testa; eles aprendem o cântico novo e recebem descrições próprias nos versículos 4–5.",
+        "hinge": "Número, nomes, cântico e qualificações permanecem identificações internas da visão; não se escolhe a literalidade dos cento e quarenta e quatro mil nem se equipara este grupo ao de Apocalipse 7.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.1-5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-tres-anjos-perseveranca": {
+      "id": "nt2-apocalipse-tres-anjos-perseveranca",
+      "kind": "canonical-case",
+      "title": "Os três anjos e a perseverança",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 14.6-13",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.6-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Apocalipse 14.6-13, que anúncios fazem os três anjos, como os santos são descritos e que bem-aventurança a voz manda registrar?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A sucessão explicitamente numerada dos mensageiros organiza os anúncios sem atribuir identidade histórica à Babilônia, à besta ou à marca.",
+      "editorial": {
+        "hinge": "Os anúncios são reproduzidos atributivamente. Babilônia, besta, imagem e marca não recebem identidade externa, data, instituição atual ou sistema interpretativo."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que anúncio é atribuído ao segundo anjo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A queda da grande Babilônia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A abertura do santuário"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A secagem do Eufrates"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A chegada da nova cidade"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A queda da grande Babilônia",
+          "enderecoNAA": "Apocalipse 14.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o primeiro anjo tinha para anunciar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um evangelho eterno"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma chave do abismo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um livrinho aberto"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sete taças de ouro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um evangelho eterno",
+          "enderecoNAA": "Apocalipse 14.6",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como os santos são caracterizados",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Guardam os mandamentos de Deus e a fé em Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Recebem diademas sobre sete cabeças"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Contam o número dos cavaleiros"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Medem o altar e os adoradores"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Guardam os mandamentos de Deus e a fé em Jesus",
+          "enderecoNAA": "Apocalipse 14.12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem é declarado bem-aventurado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Os que morrem no Senhor desde então"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os reis reunidos para a batalha"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os que recebem a marca na mão"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os habitantes que adoram a imagem"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Os que morrem no Senhor desde então",
+          "enderecoNAA": "Apocalipse 14.13",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Outro anjo é visto voando pelo meio do céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo é visto voando pelo meio do céu."
+          },
+          {
+            "id": "P02",
+            "text": "Ele tem um evangelho eterno para anunciar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele tem um evangelho eterno para anunciar."
+          },
+          {
+            "id": "P03",
+            "text": "O anúncio se dirige aos habitantes da terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio se dirige aos habitantes da terra."
+          },
+          {
+            "id": "P04",
+            "text": "Nações, tribos, línguas e povos integram os destinatários.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nações, tribos, línguas e povos integram os destinatários."
+          },
+          {
+            "id": "P05",
+            "text": "O primeiro anjo fala com voz forte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O primeiro anjo fala com voz forte."
+          },
+          {
+            "id": "P06",
+            "text": "Ele ordena temer a Deus e dar-lhe glória.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele ordena temer a Deus e dar-lhe glória."
+          },
+          {
+            "id": "P07",
+            "text": "A razão anunciada é a chegada da hora do julgamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão anunciada é a chegada da hora do julgamento."
+          },
+          {
+            "id": "P08",
+            "text": "A adoração é dirigida ao Criador do céu, terra, mar e fontes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A adoração é dirigida ao Criador do céu, terra, mar e fontes."
+          },
+          {
+            "id": "P09",
+            "text": "Um segundo anjo vem em seguida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um segundo anjo vem em seguida."
+          },
+          {
+            "id": "P10",
+            "text": "Ele anuncia a queda da grande Babilônia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anuncia a queda da grande Babilônia."
+          },
+          {
+            "id": "P11",
+            "text": "O anúncio liga Babilônia ao vinho oferecido às nações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio liga Babilônia ao vinho oferecido às nações."
+          },
+          {
+            "id": "P12",
+            "text": "Um terceiro anjo segue os anteriores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um terceiro anjo segue os anteriores."
+          },
+          {
+            "id": "P13",
+            "text": "Ele adverte quem adora a besta e sua imagem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele adverte quem adora a besta e sua imagem."
+          },
+          {
+            "id": "P14",
+            "text": "A advertência inclui receber a marca na testa ou na mão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A advertência inclui receber a marca na testa ou na mão."
+          },
+          {
+            "id": "P15",
+            "text": "O anunciado beberá do vinho da ira de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anunciado beberá do vinho da ira de Deus."
+          },
+          {
+            "id": "P16",
+            "text": "O vinho é descrito como preparado sem mistura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vinho é descrito como preparado sem mistura."
+          },
+          {
+            "id": "P17",
+            "text": "O tormento é situado diante dos santos anjos e do Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O tormento é situado diante dos santos anjos e do Cordeiro."
+          },
+          {
+            "id": "P18",
+            "text": "Os adoradores da besta são descritos sem descanso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os adoradores da besta são descritos sem descanso."
+          },
+          {
+            "id": "P19",
+            "text": "A perseverança é atribuída aos santos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A perseverança é atribuída aos santos."
+          },
+          {
+            "id": "P20",
+            "text": "Eles guardam os mandamentos de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles guardam os mandamentos de Deus."
+          },
+          {
+            "id": "P21",
+            "text": "Eles conservam a fé em Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles conservam a fé em Jesus."
+          },
+          {
+            "id": "P22",
+            "text": "Uma voz do céu manda escrever.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz do céu manda escrever."
+          },
+          {
+            "id": "P23",
+            "text": "A bem-aventurança recai sobre os mortos que morrem no Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A bem-aventurança recai sobre os mortos que morrem no Senhor."
+          },
+          {
+            "id": "P24",
+            "text": "O Espírito afirma que descansam de suas fadigas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito afirma que descansam de suas fadigas."
+          },
+          {
+            "id": "P25",
+            "text": "As obras deles os acompanham.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras deles os acompanham."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Três anjos anunciam evangelho, julgamento, queda e advertência; o recorte destaca a perseverança dos santos e registra a bem-aventurança dos que morrem no Senhor.",
+        "hinge": "Os anúncios são reproduzidos atributivamente. Babilônia, besta, imagem e marca não recebem identidade externa, data, instituição atual ou sistema interpretativo.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.6-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-colheita-lagar": {
+      "id": "nt2-apocalipse-colheita-lagar",
+      "kind": "canonical-case",
+      "title": "A colheita e o lagar",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 14.14-20",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.14-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão de Apocalipse 14.14-20, quem aparece sobre a nuvem, que ordens de colheita são dadas e o que acontece aos cachos reunidos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O destino dos cachos no grande lagar encerra a sequência visual sem converter a ceifa em calendário ou acrescentar uma chave alegórica.",
+      "editorial": {
+        "hinge": "Foice, colheita, videira, lagar e medidas permanecem ações e descrições internas; não se fixa calendário, identidade histórica ou alegoria adicional para a ceifa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde foram lançados os cachos reunidos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "No grande lagar da ira de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "No santuário aberto"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "No lago de vidro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "No poço do abismo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "No grande lagar da ira de Deus",
+          "enderecoNAA": "Apocalipse 14.19",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o personagem sobre a nuvem tinha na mão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma foice afiada"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma espada de dois gumes"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma vara de medir"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma taça de ouro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma foice afiada",
+          "enderecoNAA": "Apocalipse 14.14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De onde saiu o anjo que pediu a primeira colheita",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Do santuário"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Do abismo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Do mar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Do rio Eufrates"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Do santuário",
+          "enderecoNAA": "Apocalipse 14.15",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Sobre o que o personagem passou sua foice",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Sobre a terra"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Sobre o mar de vidro"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Sobre o monte Sião"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Sobre a grande cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Sobre a terra",
+          "enderecoNAA": "Apocalipse 14.16",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "14.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Uma nuvem branca aparece na visão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma nuvem branca aparece na visão."
+          },
+          {
+            "id": "P02",
+            "text": "Sobre ela está sentado alguém semelhante a filho de homem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sobre ela está sentado alguém semelhante a filho de homem."
+          },
+          {
+            "id": "P03",
+            "text": "Ele tem uma coroa de ouro na cabeça.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele tem uma coroa de ouro na cabeça."
+          },
+          {
+            "id": "P04",
+            "text": "Uma foice afiada está em sua mão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma foice afiada está em sua mão."
+          },
+          {
+            "id": "P05",
+            "text": "Outro anjo sai do santuário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo sai do santuário."
+          },
+          {
+            "id": "P06",
+            "text": "Ele clama com voz forte ao que está sobre a nuvem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele clama com voz forte ao que está sobre a nuvem."
+          },
+          {
+            "id": "P07",
+            "text": "A ordem é pegar a foice e começar a colher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem é pegar a foice e começar a colher."
+          },
+          {
+            "id": "P08",
+            "text": "A ordem declara chegada a hora da colheita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem declara chegada a hora da colheita."
+          },
+          {
+            "id": "P09",
+            "text": "Os campos da terra são declarados maduros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os campos da terra são declarados maduros."
+          },
+          {
+            "id": "P10",
+            "text": "O personagem passa a foice sobre a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O personagem passa a foice sobre a terra."
+          },
+          {
+            "id": "P11",
+            "text": "A colheita é então realizada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A colheita é então realizada."
+          },
+          {
+            "id": "P12",
+            "text": "Outro anjo sai do santuário no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo sai do santuário no céu."
+          },
+          {
+            "id": "P13",
+            "text": "Esse anjo também possui uma foice afiada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse anjo também possui uma foice afiada."
+          },
+          {
+            "id": "P14",
+            "text": "Ainda outro anjo sai do altar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ainda outro anjo sai do altar."
+          },
+          {
+            "id": "P15",
+            "text": "Ele é descrito com autoridade sobre o fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele é descrito com autoridade sobre o fogo."
+          },
+          {
+            "id": "P16",
+            "text": "Ele clama ao anjo que tem a foice afiada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele clama ao anjo que tem a foice afiada."
+          },
+          {
+            "id": "P17",
+            "text": "A ordem é ajuntar os cachos da videira da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem é ajuntar os cachos da videira da terra."
+          },
+          {
+            "id": "P18",
+            "text": "As uvas são declaradas maduras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As uvas são declaradas maduras."
+          },
+          {
+            "id": "P19",
+            "text": "O anjo passa sua foice na terra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo passa sua foice na terra."
+          },
+          {
+            "id": "P20",
+            "text": "Os cachos da videira são reunidos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os cachos da videira são reunidos."
+          },
+          {
+            "id": "P21",
+            "text": "Eles são lançados no grande lagar da ira de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles são lançados no grande lagar da ira de Deus."
+          },
+          {
+            "id": "P22",
+            "text": "O lagar é pisado fora da cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O lagar é pisado fora da cidade."
+          },
+          {
+            "id": "P23",
+            "text": "Sangue corre do lagar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sangue corre do lagar."
+          },
+          {
+            "id": "P24",
+            "text": "A extensão desse fluxo é descrita na própria visão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 14",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A extensão desse fluxo é descrita na própria visão."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A visão apresenta duas ações de foice: a colheita da terra e a reunião das uvas, que são lançadas no grande lagar da ira de Deus e pisadas fora da cidade.",
+        "hinge": "Foice, colheita, videira, lagar e medidas permanecem ações e descrições internas; não se fixa calendário, identidade histórica ou alegoria adicional para a ceifa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "14.14-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-mar-cantico-anjos-tacas": {
+      "id": "nt2-apocalipse-mar-cantico-anjos-tacas",
+      "kind": "canonical-case",
+      "title": "O mar, o cântico e os anjos com taças",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 15.1-8",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "15.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão de Apocalipse 15, como aparecem os vencedores e os sete anjos, o que é entoado e o que ocorre no santuário?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O impedimento de entrada no santuário até o cumprimento dos flagelos conecta a preparação da cena às taças sem impor cronologia externa.",
+      "editorial": {
+        "hinge": "Cântico, Cordeiro, anjos, flagelos e taças são mantidos como identificações e ações internas. A cena não recebe calendário, equivalência histórica ou alegoria externa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Até quando ninguém podia entrar no santuário",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Até se cumprirem os sete flagelos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Até terminar o cântico novo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Até o mar de vidro desaparecer"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Até a abertura do sexto selo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Até se cumprirem os sete flagelos",
+          "enderecoNAA": "Apocalipse 15.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "15.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Junto de que estavam os vencedores",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "De um mar como de vidro misturado com fogo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Do rio Eufrates já seco"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Do altar fora da cidade"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Da muralha da grande cidade"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "De um mar como de vidro misturado com fogo",
+          "enderecoNAA": "Apocalipse 15.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "15.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que cânticos eles entoavam",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O de Moisés e o do Cordeiro"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O dos vinte e quatro anciãos e o dos trovões"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O de Davi e o dos profetas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O dos reis e o dos mercadores"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O de Moisés e o do Cordeiro",
+          "enderecoNAA": "Apocalipse 15.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "15.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem entregou as sete taças aos anjos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um dos quatro seres viventes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um dos vinte e quatro anciãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O anjo das águas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A voz saída do altar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um dos quatro seres viventes",
+          "enderecoNAA": "Apocalipse 15.7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "15.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Outro sinal grande e maravilhoso é visto no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro sinal grande e maravilhoso é visto no céu."
+          },
+          {
+            "id": "P02",
+            "text": "Sete anjos aparecem com os sete últimos flagelos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sete anjos aparecem com os sete últimos flagelos."
+          },
+          {
+            "id": "P03",
+            "text": "Com esses flagelos é declarada consumada a ira de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com esses flagelos é declarada consumada a ira de Deus."
+          },
+          {
+            "id": "P04",
+            "text": "A visão mostra algo semelhante a um mar de vidro misturado com fogo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A visão mostra algo semelhante a um mar de vidro misturado com fogo."
+          },
+          {
+            "id": "P05",
+            "text": "Junto ao mar estão os que venceram a besta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Junto ao mar estão os que venceram a besta."
+          },
+          {
+            "id": "P06",
+            "text": "A vitória também é relacionada à imagem da besta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vitória também é relacionada à imagem da besta."
+          },
+          {
+            "id": "P07",
+            "text": "O número do nome da besta integra aquilo que venceram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O número do nome da besta integra aquilo que venceram."
+          },
+          {
+            "id": "P08",
+            "text": "Eles permanecem em pé junto ao mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles permanecem em pé junto ao mar."
+          },
+          {
+            "id": "P09",
+            "text": "Têm harpas dadas por Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Têm harpas dadas por Deus."
+          },
+          {
+            "id": "P10",
+            "text": "Eles entoam o cântico de Moisés, servo de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles entoam o cântico de Moisés, servo de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Também entoam o cântico do Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também entoam o cântico do Cordeiro."
+          },
+          {
+            "id": "P12",
+            "text": "As obras de Deus são chamadas grandes e admiráveis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras de Deus são chamadas grandes e admiráveis."
+          },
+          {
+            "id": "P13",
+            "text": "Os caminhos de Deus são chamados justos e verdadeiros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os caminhos de Deus são chamados justos e verdadeiros."
+          },
+          {
+            "id": "P14",
+            "text": "O Senhor é chamado Rei das nações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Senhor é chamado Rei das nações."
+          },
+          {
+            "id": "P15",
+            "text": "O cântico afirma que somente o Senhor é santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cântico afirma que somente o Senhor é santo."
+          },
+          {
+            "id": "P16",
+            "text": "As nações são anunciadas vindo e se prostrando diante dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As nações são anunciadas vindo e se prostrando diante dele."
+          },
+          {
+            "id": "P17",
+            "text": "A manifestação dos atos de justiça fundamenta esse anúncio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A manifestação dos atos de justiça fundamenta esse anúncio."
+          },
+          {
+            "id": "P18",
+            "text": "O santuário do tabernáculo do testemunho se abre no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O santuário do tabernáculo do testemunho se abre no céu."
+          },
+          {
+            "id": "P19",
+            "text": "Os sete anjos saem do santuário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os sete anjos saem do santuário."
+          },
+          {
+            "id": "P20",
+            "text": "Eles vestem linho puro e resplandecente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles vestem linho puro e resplandecente."
+          },
+          {
+            "id": "P21",
+            "text": "Cintos de ouro os cingem à altura do peito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cintos de ouro os cingem à altura do peito."
+          },
+          {
+            "id": "P22",
+            "text": "Um dos quatro seres viventes entrega sete taças de ouro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um dos quatro seres viventes entrega sete taças de ouro."
+          },
+          {
+            "id": "P23",
+            "text": "As taças estão cheias da ira de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As taças estão cheias da ira de Deus."
+          },
+          {
+            "id": "P24",
+            "text": "O santuário se enche de fumaça da glória e do poder de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O santuário se enche de fumaça da glória e do poder de Deus."
+          },
+          {
+            "id": "P25",
+            "text": "Ninguém podia entrar até se cumprirem os sete flagelos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou sequência interna de Apocalipse 15",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém podia entrar até se cumprirem os sete flagelos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Vencedores junto ao mar semelhante a vidro entoam os cânticos de Moisés e do Cordeiro; sete anjos saem do santuário, recebem taças e o recinto se enche de fumaça.",
+        "hinge": "Cântico, Cordeiro, anjos, flagelos e taças são mantidos como identificações e ações internas. A cena não recebe calendário, equivalência histórica ou alegoria externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "15.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

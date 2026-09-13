@@ -154,3 +154,9 @@ As imagens foram mantidas como descrições, ações, comparações, identifica�
 As três páginas NAA retornaram HTTP 200 em 13/09/2026. Ap 11.1-14 e 11.15-19 originaram duas pautas com 48 pistas. A leitura completa dos capítulos e a comparação encerraram Ap 12 e 13 nas pautas existentes, sem alteração nem duplicação. O inventário passa de 192/3.598 para **194 pautas, 776 campos e 3.646 pistas**, preservando integralmente os 192 objetos anteriores.
 
 As duas testemunhas não receberam identidades externas; mulher, dragão, bestas, marca e 666 permanecem restritos às descrições e identificações internas dos capítulos. **Ap 14–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.**
+
+## Checkpoint 063 — auditoria/autoria de Apocalipse 14–16
+
+As páginas NAA de Ap 14–16 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. Ap 14 originou três pautas, com 19, 25 e 24 pistas; Ap 15 originou uma pauta com 25. A comparação encerrou Ap 16 na pauta existente `nt2-apocalipse-tacas`, preservada sem alteração ou duplicação. O inventário passa de 194/3.646 para **198 pautas, 792 campos e 3.739 pistas**, com os 194 objetos anteriores serializadamente idênticos.
+
+As capacidades novas são 9, 12, 11 e 12. O número dos cento e quarenta e quatro mil não recebeu decisão de literalidade nem harmonização com Ap 7. Cordeiro, cânticos, anjos, ceifa, lagar, flagelos e taças ficaram restritos às descrições, falas, ações e identificações internas. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**

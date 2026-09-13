@@ -224,3 +224,9 @@ As formulações são atributivas e limitadas a descrições, ações, comparaç
 A consulta efetiva das páginas NAA de Ap 11–13 sustentou duas pautas novas para Ap 11, com 30 e 18 pistas, e confirmou que a cobertura do capítulo 12 pode ser encerrada por `nt2-apocalipse-mulher-dragao` e a do capítulo 13 por `nt2-apocalipse-duas-bestas`. Nenhuma pauta foi duplicada e os objetos existentes não foram alterados. O catálogo passa de 192/3.598 para **194 pautas, 776 campos e 3.646 pistas**.
 
 As duas testemunhas permanecem sem identidades externas; mulher, dragão, bestas, marca e 666 ficam restritos às descrições e identificações internas. Não foram acrescentados instituições atuais, calendários ou interpretações externas. **Ap 14–22 e a auditoria global permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 063 — Apocalipse 14–15 e auditoria de 16
+
+A consulta efetiva das páginas NAA de Ap 14–16 sustentou quatro pautas novas: três blocos em Ap 14 e um bloco em Ap 15, somando 93 pistas. A leitura e comparação de Ap 16 confirmaram cobertura suficiente por `nt2-apocalipse-tacas`, que não foi alterada nem duplicada. O catálogo passa de 194/3.646 para **198 pautas, 792 campos e 3.739 pistas**.
+
+Os 194 objetos anteriores permaneceram idênticos. A auditoria automatizada registra zero duplicatas exatas e zero pares sem resolução após fundamentar dois paralelos internos da sequência de anjos em Ap 14. O número dos cento e quarenta e quatro mil permanece sem definição de literalidade e sem harmonização com Ap 7; Cordeiro, cânticos, anjos, ceifa, lagar e taças não receberam identidade externa, calendário ou alegoria acrescentada. **Ap 17–22 e a auditoria global dos 27 livros permanecem posteriores; este relatório não declara o banco completo.**
