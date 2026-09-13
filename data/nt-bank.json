@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-065-apocalipse-19",
+  "catalogVersion": "checkpoint-066-apocalipse-22-auditoria-global",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -127910,6 +127910,924 @@
             "passage": "19.11-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-apocalipse-palavras-convite-testemunho-final",
+      "title": "Palavras, convite e testemunho final",
+      "generalReferences": [
+        {
+          "book": "Apocalipse",
+          "passage": "22.6-21",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo o encerramento de Apocalipse, o que o anjo ordena sobre as palavras do livro, que advertência acompanha a profecia e como o testemunho termina?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "As duas ordens do anjo a João — adorar a Deus e não selar a profecia — articulam a guarda das palavras, as advertências e o testemunho final.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem é chamado bem-aventurado em 22.7",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Quem guarda as palavras da profecia deste livro"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Quem acrescenta explicações ao livro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Quem conhece o conteúdo dos sete trovões"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Quem calcula quando ocorrerão essas coisas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que o anjo ordenou a João",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Adorar a Deus e não selar as palavras da profecia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Adorar o anjo e esconder o livro"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Medir novamente a cidade e o santuário"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Escrever o conteúdo selado dos trovões"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que consequência é associada a acrescentar palavras",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Deus acrescentará os flagelos escritos neste livro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "A cidade receberá outro fundamento"
+            },
+            {
+              "id": "C3-O3",
+              "text": "O anjo acrescentará um novo selo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A árvore produzirá mais um fruto"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como responde a voz após a promessa de vinda sem demora",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Amém! Vem, Senhor Jesus!"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Aleluia! Caiu a grande cidade!"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Até quando não julgas nosso sangue?"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Digno és de abrir o livro!"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O anjo qualificou as palavras como fiéis e verdadeiras.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O Senhor é apresentado como o Deus dos espíritos dos profetas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O Senhor enviou o seu anjo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O envio mostra aos servos as coisas que devem acontecer.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "É chamado bem-aventurado quem guarda as palavras da profecia do livro.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "João se identifica como aquele que ouviu e viu essas coisas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Depois de ouvir e ver, João se prostrou aos pés do anjo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "A intenção declarada de João era adorar o anjo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O anjo impediu João de fazer isso.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "O anjo se apresentou como conservo de João, dos profetas e dos que guardam as palavras do livro.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A ordem dada a João foi adorar a Deus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "O anjo ordenou que as palavras da profecia não fossem seladas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A proximidade do tempo foi apresentada como motivo para não selar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "O texto põe em paralelo a continuidade do injusto, do imundo, do justo e do santo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "A vinda sem demora é anunciada com uma recompensa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A recompensa é dada a cada um segundo as suas obras.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Aquele que fala se apresenta como Alfa e Ômega.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Ele também se apresenta como Primeiro e Último, Princípio e Fim.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Os que lavam as vestes são chamados bem-aventurados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Eles recebem direito à árvore da vida e entrada na cidade pelos portões.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "Uma lista de grupos que ficam fora termina com quem ama e pratica a mentira.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P22",
+          "text": "Jesus declara que enviou seu anjo para testemunhar essas coisas às igrejas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P23",
+          "text": "Jesus se apresenta como Raiz e Geração de Davi.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P24",
+          "text": "Jesus também se apresenta como a brilhante Estrela da Manhã.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P25",
+          "text": "O Espírito e a noiva dizem: “Vem”.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P26",
+          "text": "Quem tem sede é chamado a vir.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P27",
+          "text": "Quem quiser pode receber gratuitamente a água da vida.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P28",
+          "text": "Acrescentar às palavras da profecia traz os flagelos escritos no livro.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P29",
+          "text": "Tirar das palavras da profecia traz perda da parte na árvore da vida, na cidade santa e nas coisas escritas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P30",
+          "text": "Aquele que testemunha essas coisas afirma que vem sem demora.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P31",
+          "text": "A resposta registrada é: “Amém! Vem, Senhor Jesus!”",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P32",
+          "text": "A bênção final deseja a graça do Senhor Jesus a todos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com fala atribuída, ordem, advertência ou sequência interna de Apocalipse 22.6-21",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "22.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "O anjo confirma as palavras, impede a adoração e manda não selar a profecia; Jesus envia seu anjo, o Espírito e a noiva convidam, advertências protegem as palavras do livro e a resposta final pede a vinda do Senhor Jesus.",
+        "hinge": "Cada fala e ordem permanece atribuída ao agente indicado em Apocalipse 22.6-21. “Em breve”, “tempo próximo” e “sem demora” não são convertidos em calendário, e nenhuma identidade histórica ou interpretação externa é acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "22.6-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

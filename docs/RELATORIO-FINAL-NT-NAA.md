@@ -240,3 +240,7 @@ A auditoria automatizada registra zero duplicatas exatas e zero pares sem resolu
 ## Incremento do checkpoint 065 — Apocalipse 19 e auditoria de 20–22
 
 A consulta NAA efetiva acrescentou duas pautas de Ap 19 e 61 pistas, levando o inventário a **204 pautas, 816 campos e 3.905 pistas**. A comparação canônica preservou os 202 objetos anteriores. As pautas existentes de Ap 20.1-15 e Ap 21.1–22.5 foram auditadas e mantidas; o rótulo amplo de cobertura de Ap 21–22 foi corrigido, pois Ap 22.6-21 continua sem pauta. Não surgiram ambiguidades reais novas. O resultado não constitui conclusão do banco: a auditoria global dos 27 livros, inclusive lacunas e exclusões genéricas, permanece obrigatória.
+
+## Incremento do checkpoint 066 — Apocalipse 22.6-21 e inventário global
+
+Uma pauta de 32 pistas para Ap 22.6-21 leva o inventário a **205 pautas, 820 campos e 3.937 pistas**, sem modificar os 204 objetos anteriores. O cruzamento documental dos 27 livros está em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md` e registra livro, recorte, motivo, evidência e status, além de lotes pequenos sugeridos. Foram distinguidas as dúvidas do usuário em 1Co 11.2-16 e 14.34-36 das reconsultas que podem avançar independentemente. A existência de testes aprovados ou de um estado histórico “analisado” não autoriza declarar o banco completo; múltiplos recortes ainda requerem consulta NAA individual.

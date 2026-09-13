@@ -25,9 +25,9 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | Ap 19 | `nt2-apocalipse-bodas-cordeiro-louvor` e `nt2-apocalipse-cavaleiro-besta-ceia`; cenas distintas, não fundidas artificialmente. |
 | Ap 20 | `nt2-apocalipse-mil-anos-juizo`, capacidade 2–6, sem escolher sistema cronológico. |
 | Ap 21.1–22.5 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
-| Ap 22.6-21 | Sem pauta; pendência delimitada para a auditoria global obrigatória. |
+| Ap 22.6-21 | `nt2-apocalipse-palavras-convite-testemunho-final`, 32 pistas, capacidade 2–12; falas e ordens atribuídas internamente, sem calendário. |
 
-Apocalipse permanece **em autoria** com trinta e três pautas autoradas; Ap 22.6-21 ainda não tem pauta. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
+Apocalipse possui trinta e quatro pautas autoradas; nenhum recorte específico permanece pendente na ficha, sem que isso prove exaustividade ou complete o banco. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
 
 ## Apocalipse 2 por carta — checkpoint 058
 
@@ -82,3 +82,9 @@ As páginas identificadas como NAA de Ap 19, 20, 21 e 22 foram obtidas individua
 A auditoria individual confirmou `nt2-apocalipse-mil-anos-juizo` como cobertura de Ap 20.1-15, com 13 pistas e capacidade 2–6, sem transformar os mil anos em sistema cronológico. Confirmou também que `nt2-apocalipse-nova-jerusalem`, com 25 pistas e capacidade 2–12, cobre precisamente Ap 21.1–22.5: origem, medidas, materiais, luz, rio, árvore e trono permanecem descrições internas, sem geografia atual ou literalidade imposta. A designação anterior “Ap 21–22” era ampla demais: Ap 22.6-21 não integra as referências nem as pistas desse objeto e fica registrado como recorte terminal não autorado, a ser confrontado na auditoria global obrigatória, sem alterar artificialmente a pauta existente.
 
 Nenhuma identidade histórica externa, instituição atual, localização presente, calendário ou alegoria foi acrescentada às bodas, ao cavaleiro, aos mil anos, ao juízo ou à Nova Jerusalém. Não surgiu ambiguidade real nova para o usuário. **Esta etapa não declara Apocalipse nem o banco completos: a auditoria global dos 27 livros é obrigatória antes de qualquer conclusão e deverá verificar também Ap 22.6-21 e exclusões genéricas.**
+
+## Apocalipse 22.6-21 — checkpoint 066
+
+A página identificada como NAA de Ap 22 foi novamente obtida com HTTP 200 em 13/09/2026 e o recorte 22.6-21 foi lido integralmente. A comparação com as 204 pautas anteriores confirmou que `nt2-apocalipse-nova-jerusalem` termina em 22.5 e não cobre ordens, convites, advertências e testemunho final. Uma única pauta, `nt2-apocalipse-palavras-convite-testemunho-final`, reúne 32 pistas e capacidade 2–12; não se forçou uma segunda pauta.
+
+As falas foram mantidas com seus agentes textuais. “Em breve”, “tempo próximo” e “sem demora” não foram convertidos em data ou calendário. A auditoria global documental registra que Ap 1.1–22.21 não possui lacuna específica conhecida nas fichas e no banco, mas isso não prova exaustividade editorial nem completa o banco do Novo Testamento.

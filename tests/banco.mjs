@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 204);
-assert.equal(catalog.summary.max12Cases, 77);
+assert.equal(catalog.summary.editoriallyEligibleCases, 205);
+assert.equal(catalog.summary.max12Cases, 78);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -330,6 +330,12 @@ for (const [id, passagePattern] of Object.entries(auditoriaApocalipse065)) {
 }
 assert.ok(catalog.byId["nt2-apocalipse-mil-anos-juizo"].deck.cards.every(card => card.references.every(ref => /^(?:20\.)/.test(ref.passage))), "pauta dos mil anos permanece limitada a Ap 20");
 assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].deck.cards.every(card => card.references.every(ref => /^(?:21\.|22\.[1-5](?:\D|$))/.test(ref.passage))), "Nova Jerusalém permanece limitada a Ap 21.1–22.5");
+const apocalipseFinal = catalog.byId["nt2-apocalipse-palavras-convite-testemunho-final"];
+assert.equal(apocalipseFinal.status.playable, true);
+assert.equal(apocalipseFinal.deck.maxPlayers, 12);
+assert.equal(apocalipseFinal.deck.cards.length, 32);
+assert.ok(apocalipseFinal.deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:22\.(?:[6-9]|1[0-9]|2[01]))(?:\D|$)/.test(ref.passage))), "encerramento permanece limitado a Ap 22.6-21");
+assert.match(apocalipseFinal.reveal.hinge, /não são convertidos em calendário/);
 for (const id of ["nt2-apocalipse-mulher-dragao", "nt2-apocalipse-duas-bestas"]) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:12|13)\./.test(ref.passage))), `${id} mantém exclusivamente as identificações internas de seu capítulo`);
 }

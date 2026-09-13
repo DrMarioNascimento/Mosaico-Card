@@ -440,3 +440,11 @@ O limite de quatro pautas foi atingido por quatro unidades documentais completas
 | Ap 20.1-15 | Pauta existente `nt2-apocalipse-mil-anos-juizo`, 13 pistas, capacidade 2–6, confirmada sem alteração. | Prisão, soltura, confronto e juízo seguem a ordem documental; “mil anos” não foi convertido em sistema cronológico. |
 | Ap 21.1–22.5 | Pauta existente `nt2-apocalipse-nova-jerusalem`, 25 pistas, capacidade 2–12, confirmada sem alteração. | Cidade, medidas, materiais, luz, rio, árvore e trono são descrições explícitas, sem geografia atual nem decisão externa de literalidade. |
 | Ap 22.6-21 | Não autorado neste lote; pendência delimitada para a auditoria global. | O encerramento do livro não integra as referências ou pistas da pauta da Nova Jerusalém; não se ampliou a cobertura por rótulo genérico. |
+
+## Apocalipse 22.6-21 — checkpoint 066
+
+| Recorte | Consulta e comparação | Resultado individual |
+| --- | --- | --- |
+| Ap 22.6-21 | NAA, HTTP 200; ordens do anjo, bem-aventuranças, convite, advertências sobre o livro, testemunho e bênção final comparados com as 204 pautas anteriores. | `nt2-apocalipse-palavras-convite-testemunho-final`, 32 pistas, capacidade 2–12. |
+
+A pauta atribui cada fala ao agente indicado no recorte e não transforma proximidade ou vinda sem demora em calendário. Nenhuma segunda pauta foi forçada. A auditoria documental global está registrada em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`; ela encontrou pendências reais em outros livros e, portanto, este resultado não declara o banco completo.

@@ -172,3 +172,7 @@ As explicações internas do anjo em Ap 17 foram preservadas sem complementaçã
 Ap 19–22 retornaram HTTP 200 na fonte NAA identificada em 13/09/2026 e foram lidos integralmente. A comparação preservou byte a byte, em sua serialização canônica, os 202 objetos anteriores e acrescentou somente duas pautas de Ap 19: 19.1-10 (29 pistas) e 19.11-21 (32), totalizando **204 pautas, 816 campos e 3.905 pistas**.
 
 A revisão individual confirmou Ap 20.1-15 na pauta existente de 13 pistas e Ap 21.1–22.5 na pauta existente de 25 pistas, sem identidades ou cronologias externas. Ap 22.6-21 não está coberto por esta última; a antiga abreviação “Ap 21–22” foi delimitada e o recorte terminal segue para a auditoria global dos 27 livros. Não se declara o banco completo.
+
+## Checkpoint 066 — Apocalipse 22.6-21 e auditoria dos 27 livros
+
+A consulta efetiva de Ap 22.6-21 sustentou uma pauta de 32 pistas. O inventário passa a **205 pautas, 820 campos e 3.937 pistas**, preservando os 204 objetos anteriores. A auditoria global documental posterior, detalhada em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`, confrontou banco e registros livro a livro e converteu exclusões genéricas incompatíveis com as regras atuais em pendências acionáveis. “Analisado”, download integral ou faixa agregada não são usados como equivalentes de conferência individual. A auditoria não declara o banco completo e lista as consultas NAA ainda necessárias.
