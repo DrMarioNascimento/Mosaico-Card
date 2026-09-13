@@ -8,7 +8,7 @@
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
-| Atos | Analisado — auditoria individual em curso | 26 + faixas restantes | 14 autorados | 16 bloqueados por insuficiência/delimitação |
+| Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
 | 1 Coríntios | Analisado — decisões por faixa | capítulos 1–16 | 3 autorados | motivos específicos por faixa |
 | 2 Coríntios | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado | coleta consolidada; 2Co 12 ambíguo |
@@ -35,3 +35,12 @@
 ## Critério de atualização
 
 Cada recorte examinado deve registrar referência, resultado (candidato/excluído), justificativa e fonte NAA consultada. Livros só passam a “analisado” quando seus recortes definidos no levantamento tiverem resultado registrado; a existência de um candidato não completa o livro.
+
+## Checkpoint 039 — segundo lote incremental de Atos
+
+A base de 109 pautas/1.983 pistas foi preservada integralmente. Após consulta HTTP 200 e leitura na NAA de Atos 13, 14, 16, 18 e 19, os cinco recortes autorizados produziram 80 pistas em cinco pautas. Atos passa a 19 pautas autoradas na auditoria acumulada. At 21/23, Romanos–Judas e Apocalipse permanecem pendentes; o banco não está completo.
+
+
+## Checkpoint 040 — fechamento da lista auditada de Atos
+
+At 21.7-14 e 23.12-35 foram relidos na NAA e originaram duas pautas com 34 pistas. O inventário passa de 114/2.063 para 116/2.097, preservando mecanicamente os 114 objetos anteriores. A próxima base deve tratar Romanos–Judas e Apocalipse; o banco não está completo.

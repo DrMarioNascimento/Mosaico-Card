@@ -134,3 +134,25 @@ A rodada acrescentou cinco pautas e 67 pistas: o inventário passa de 104/1.916 
 Antes de qualquer edição bíblica, o diff contra o checkpoint 037 (`a4acf82b488115a423f168d98bad1fc5251a4afd`) foi medido em zero. Porém, o diff cumulativo da branch disponível contra a base original desta sequência (`471bc4c8affd1f6657b98d5dc12a4dc6c53d5582`) já contém 14 arquivos, 10.257 inserções, 36 exclusões e 374.944 bytes. `cases-nt.js` e `data/nt-bank.json` respondem por 10.167 dessas inserções. Esse volume já reproduz o risco de limite que motivou as rodadas incrementais.
 
 Por isso, conforme a instrução desta rodada, **At 13.4-12, At 14.8-20, At 16.6-15, At 18.1-17 e At 19.11-20 não foram consultados, decididos nem autorados**. É necessária uma nova base que já contenha integralmente o checkpoint 037 antes de ampliar o banco. Permanecem igualmente para rodadas futuras At 21/23, Romanos–Judas e Apocalipse. O inventário fica inalterado em 109 pautas elegíveis e 1.983 pistas, incluindo a correção documental de Bartimeu; o banco não é declarado completo.
+
+
+## Checkpoint 039 — segundo lote incremental de Atos
+
+| Recorte | Consulta NAA e decisão individual | Resultado |
+| --- | --- | --- |
+| At 13.4-12 | Atos 13, NAA, HTTP 200; percurso em Chipre, oposição de Elimas e reação do procônsul conferidos sem combinar viagens. | `nt2-atos-chipre-elimas`, 14 pistas, capacidade 2–6. |
+| At 14.8-20 | Atos 14, NAA, HTTP 200; cura, tentativa de sacrifício, protesto e apedrejamento mantidos na sequência de Listra. | `nt2-atos-listra-paulo-barnabe`, 16 pistas, capacidade 2–7. |
+| At 16.6-15 | Atos 16, NAA, HTTP 200; impedimentos, visão, deslocamento e acolhimento de Lídia preservados sem cronologia epistolar. | `nt2-atos-visao-lidia`, 15 pistas, capacidade 2–7. |
+| At 18.1-17 | Atos 18, NAA, HTTP 200; trabalho, ensino, visão e tribunal tratados como fatos próprios do relato. | `nt2-atos-paulo-corinto`, 18 pistas, capacidade 2–8. |
+| At 19.11-20 | Atos 19, NAA, HTTP 200; milagres, filhos de Ceva, fuga e queima de livros registrados sem identidade externa. | `nt2-atos-efeso-ceva`, 17 pistas, capacidade 2–8. |
+
+A rodada autorizada encerra nesses cinco recortes. At 21.7-14 e 23.12-35, Romanos–Judas e Apocalipse continuam pendentes; nenhuma ausência foi convertida em exclusão genérica e o banco não é declarado completo.
+
+## Checkpoint 040 — dois recortes finais deste lote de Atos
+
+| Recorte | Consulta NAA e decisão individual | Resultado |
+| --- | --- | --- |
+| At 21.7-14 | Atos 21, NAA, HTTP 200; Ptolemaida, casa de Filipe, sinal de Ágabo e resposta de Paulo conferidos sem recorrer a cronologia epistolar. | `nt2-atos-agabo-jerusalem`, 10 pistas, capacidade 2–4. |
+| At 23.12-35 | Atos 23, NAA, HTTP 200; conspiração, aviso do sobrinho, escolta, carta e custódia distinguidos dentro do próprio relato. | `nt2-atos-conspiracao-transferencia`, 24 pistas, capacidade 2–11. |
+
+A rodada encerra nos dois recortes autorizados, sem forçar uma terceira pauta. Romanos–Judas e Apocalipse permanecem enumerados para a próxima base; o banco não é declarado completo.
