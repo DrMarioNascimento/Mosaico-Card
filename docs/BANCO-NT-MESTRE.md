@@ -580,3 +580,13 @@ Quatro blocos coerentes foram incorporados, sem forçar uma quinta pauta: 1Jo 1 
 As perguntas e pistas atribuem as afirmações à carta. Em 1Jo 2.18-29, “anticristo” foi delimitado somente pelas descrições internas do recorte; nenhuma pessoa, instituição, época ou identidade externa foi acrescentada. Não surgiram ambiguidades bíblicas reais neste lote. Os dois novos pares lexicais apontados pelo auditor foram mantidos com resolução individual: 1Jo 1.8/1.10 distingue duas alegações e duas consequências; 1Jo 2.23 preserva os lados opostos do contraste entre negar e confessar o Filho.
 
 A capacidade continua derivada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por participante e ao menos uma no poço. **1Jo 4–5, os demais recortes de João, Judas, Apocalipse e a auditoria global permanecem para lotes posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 056 — lote exclusivo de 1 João 4–5
+
+A rodada continuou do commit `dd88ebe`, com **172 pautas, 688 campos e 3.190 pistas**. Antes da edição, a regeneração do catálogo foi comparada byte a byte com `cases-nt.js` e resultou idêntica; os hashes SHA-256 da base foram registrados durante a execução. Em 13/09/2026, exclusivamente as páginas de 1Jo 4 e 1Jo 5 identificadas como Nova Almeida Atualizada em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria.
+
+Quatro blocos coerentes foram incorporados: 1Jo 4.1-6 (19 pistas), 1Jo 4.7-21 (26), 1Jo 5.1-12 (22) e 1Jo 5.13-21 (21). O catálogo passa a **176 pautas, 704 campos e 3.278 pistas**. A comparação serializada confirmou que os 172 objetos e as 3.190 pistas anteriores permaneceram integralmente idênticos.
+
+As perguntas e pistas são atributivas. Espíritos, falsos profetas e espírito do anticristo ficaram limitados às descrições internas de 1Jo 4, sem identidades externas ou harmonização. Em 1Jo 5.16-17 foram mantidas somente as afirmações de que há pecado que leva à morte, há pecado que não leva à morte e toda injustiça é pecado; nenhuma identidade foi atribuída ao pecado que leva à morte.
+
+A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por participante e ao menos uma no poço. **Os demais recortes de João, Judas, Apocalipse e a auditoria global permanecem para uma nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy ou publicação.

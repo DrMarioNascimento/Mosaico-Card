@@ -178,3 +178,13 @@ Foram incorporadas quatro pautas e 100 pistas: 1Jo 1 com 22, 1Jo 2.1-17 e 2.18-2
 C1–C4, quatro alternativas distintas, gabaritos, focal, metadados, revelação e pontuação 8/5/3/2 foram preservados. A capacidade segue `min(12, floor((cartas - 1) / 2))`, duas cartas por jogador e ao menos uma no poço. Não houve identificação externa dos anticristos nem harmonização com outros documentos; não surgiu nova ambiguidade real a encaminhar ao usuário.
 
 **1Jo 4–5, demais João, Judas, Apocalipse e auditoria global ficam para etapas posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 056 — lote limitado a 1 João 4–5
+
+A base `dd88ebe`, com **172 pautas e 3.190 pistas**, foi confirmada antes da edição. A regeneração prévia foi byte a byte idêntica ao artefato versionado. Em etapa bíblica separada, as páginas NAA de 1Jo 4 e 5 em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e somente esses capítulos foram lidos e autorados.
+
+Foram incorporadas quatro pautas e 88 pistas: 1Jo 4.1-6 com 19, 4.7-21 com 26, 5.1-12 com 22 e 5.13-21 com 21. O catálogo passa a **176 pautas, 704 campos e 3.278 pistas**: 67 comportam até 12 participantes, seis até 11, nove até 10, oito até 9, quinze até 8, onze até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3. A comparação mecanizada confirmou os 172 objetos anteriores integralmente inalterados.
+
+C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e capacidade por mesa foram preservados. Não houve identidade externa para espíritos ou anticristos, harmonização ou identificação do pecado que leva à morte em 1Jo 5.16-17.
+
+**Demais João, Judas, Apocalipse e auditoria global ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy ou publicação.

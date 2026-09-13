@@ -329,3 +329,14 @@ O lote encerra com duas pautas, sem forçar uma terceira. Os 166 objetos e as 3.
 | 1Jo 3 | NAA, HTTP 200; filiação, justiça, amor concreto, confiança, mandamento e Espírito mantidos como relações internas do capítulo. | `nt2-1joao-filhos-amor-confianca`, 28 pistas, capacidade 2–12. |
 
 O lote encerra nesses quatro blocos, sem forçar o limite de cinco. Não foi encontrada ambiguidade real que exigisse nova decisão do usuário. **1Jo 4–5, demais João, Judas, Apocalipse e auditoria global continuam pendentes; o banco não está completo.**
+
+## Checkpoint 056 — decisões individuais em 1 João 4–5
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Jo 4.1-6 | NAA, HTTP 200; prova dos espíritos, confissão sobre Jesus, falsos profetas, vitória e escuta delimitados sem identidades externas. | `nt2-1joao-provar-espiritos-verdade-erro`, 19 pistas, capacidade 2–9. |
+| 1Jo 4.7-21 | NAA, HTTP 200; iniciativa amorosa de Deus, envio do Filho, permanência, confiança, medo e amor ao irmão mantidos no argumento. | `nt2-1joao-amor-permanencia-confianca`, 26 pistas, capacidade 2–12. |
+| 1Jo 5.1-12 | NAA, HTTP 200; fé, mandamentos, vitória, Espírito/água/sangue, testemunho e vida no Filho sem harmonização externa. | `nt2-1joao-fe-testemunho-vida`, 22 pistas, capacidade 2–10. |
+| 1Jo 5.13-21 | NAA, HTTP 200; vida eterna, oração, pecado, certezas finais e ídolos; 5.16-17 não recebeu identificação do pecado que leva à morte. | `nt2-1joao-confianca-oracao-pecado-conhecimento`, 21 pistas, capacidade 2–10. |
+
+Os quatro blocos esgotam o lote autorizado sem ampliar seu escopo. Não surgiu ambiguidade real nova. Os pares lexicais sinalizados preservam contrastes explícitos e receberam resoluções individuais. **Demais João, Judas, Apocalipse e auditoria global continuam pendentes; o banco não está completo.**

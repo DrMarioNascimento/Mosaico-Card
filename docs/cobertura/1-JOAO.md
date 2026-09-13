@@ -18,3 +18,9 @@ A avaliação antiga de insuficiência global fica parcialmente superada após n
 | 1Jo 3 | `nt2-1joao-filhos-amor-confianca`, 28 pistas. |
 
 Os capítulos 4–5 não foram reconsultados nem autorados neste lote e permanecem pendentes. A decisão vigente de 1Jo 5.16-17 continua intacta: uma futura pauta poderá registrar somente as afirmações textuais, sem identificar o pecado que leva à morte. Portanto 1 João está **em andamento**, não completo.
+
+## Fechamento da autoria autorizada — checkpoint 056
+
+As páginas NAA de 1Jo 4 e 5 foram consultadas individualmente com HTTP 200 em 13/09/2026. Quatro blocos foram autorados: 4.1-6, 4.7-21, 5.1-12 e 5.13-21, totalizando 88 pistas. Espíritos e anticristo permanecem descrições internas da carta, sem identidades externas.
+
+Em 5.16-17, a pauta registra somente as três afirmações autorizadas: há pecado que leva à morte, há pecado que não leva à morte e toda injustiça é pecado. O pecado que leva à morte não foi identificado. Com as decisões dos checkpoints 055–056, 1 João passa a **analisado nesta sequência**, sem declarar completo o banco do Novo Testamento.

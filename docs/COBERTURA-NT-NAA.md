@@ -112,3 +112,9 @@ Os 166 objetos anteriores permaneceram mecanicamente idênticos. Em 1Pe 5.13, a 
 A leitura exclusiva das páginas NAA de 1Jo 1–3 acrescentou quatro pautas e 100 pistas: uma para o capítulo 1, duas para os blocos 2.1-17 e 2.18-29, e uma para o capítulo 3. Os anticristos são descritos apenas pelos critérios internos de 1Jo 2, sem identidades externas. A base anterior de 168 pautas/3.090 pistas foi preservada mecanicamente, e o inventário passa a **172 pautas, 688 campos e 3.190 pistas**.
 
 **1Jo 4–5, demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 056 — 1 João 4–5
+
+A consulta e leitura exclusivas das páginas NAA de 1Jo 4–5 acrescentaram quatro pautas e 88 pistas: 4.1-6, 4.7-21, 5.1-12 e 5.13-21. Os 172 objetos e as 3.190 pistas anteriores foram preservados mecanicamente. O inventário chega a **176 pautas, 704 campos e 3.278 pistas**.
+
+1Jo 5.16-17 permanece textual, sem identificar o pecado que leva à morte; os espíritos e o espírito do anticristo não receberam identidades externas. **Demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**
