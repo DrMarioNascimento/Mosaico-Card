@@ -486,4 +486,20 @@ As páginas NAA Bible.com 1840 de Mt 10 e 11 retornaram HTTP 200 e foram efetiva
 | Mt 11.1-19 | `nt2-mateus-joao-obras-testemunho-geracao`, 25 pistas, capacidade 2–12. |
 | Mt 11.20-30 | `nt2-mateus-cidades-revelacao-descanso`, 25 pistas, capacidade 2–12. |
 
-Os 213 objetos anteriores foram preservados na mesma ordem e serializaram identicamente; três objetos foram somente anexados. O banco passa de **213 pautas/4.104 pistas para 216/4.184**. Mt 10–11 fica sem remanescente no inventário vigente; **Mt 12–13 permanece para o próximo lote**, e testes ou downloads não são usados para declarar a faixa completa.
+Os 213 objetos anteriores foram preservados na mesma ordem e serializaram identicamente; três objetos foram somente anexados. O banco passa de **213 pautas/4.104 pistas para 216/4.184**. A conclusão sobre Mt 10.1-15 é reaberta no checkpoint 070 após comparação dos fatos exclusivos; **Mt 12–13 permanece para o próximo lote**, e testes ou downloads não são usados para declarar a faixa completa.
+
+## Checkpoint 070 — decisões individuais em Mateus 12–13
+
+As páginas NAA Bible.com 1840 de Mt 12 e 13 retornaram HTTP 200 e foram efetivamente lidas verso a verso em 13/09/2026. A comparação prévia abrangeu 216 objetos/4.184 pistas e identificou o paralelo existente da mão ressequida antes da autoria.
+
+| Recorte | Resultado individual |
+| --- | --- |
+| Mt 12.1-8,15-21 | `nt2-mateus-sabado-servo-esperanca`, 24 pistas, capacidade 2–11. |
+| Mt 12.9-14 | Parcial: núcleo coberto por `nt2-marcos-mao-ressequida`; pergunta da ovelha, valor do homem e fazer o bem são exclusivos e permanecem para lote posterior. |
+| Mt 12.22-50 | `nt2-mateus-cura-acusacao-sinal-familia`, 35 pistas, capacidade 2–12. |
+| Mt 13.1-23 | `nt2-mateus-semeador-explicacao`, 27 pistas, capacidade 2–12. |
+| Mt 13.24-50 | `nt2-mateus-joio-comparacoes-rede`, 38 pistas, capacidade 2–12. |
+| Mt 13.51-52 | Lido e pendente como fecho curto atributivo. |
+| Mt 13.53-58 | Lido e pendente pelo limite do lote; exige comparação paralela antes de autoria. |
+
+Os 216 objetos anteriores permaneceram na mesma ordem e serializaram identicamente; quatro objetos foram anexados. O banco passa a **220 pautas/4.308 pistas**. A revisão adicional de Mt 10.1-15 mostrou fatos exclusivos de Mateus não cobertos pela pauta de Marcos; o recorte passa de exclusão a pendência específica posterior, sem autoria nem harmonização nesta rodada.

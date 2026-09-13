@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 5–11 inventariado nos lotes recentes — checkpoint 069 | Próxima faixa pendente: Mt 12–13; depois 18–20 e 21–25 | 25 próprios + 3 consolidados; 31 pautas citam o livro | Mt 10–11 sem remanescente no inventário vigente; a faixa Mt 10–13 não está completa |
+| Mateus | Mt 5–13 inventariado nos lotes recentes — checkpoint 070 | Pendentes: exclusivos de Mt 10.1-15; 12.9-14; 13.51-58; depois 18–20 e 21–25 | 29 próprios + 3 consolidados; 35 pautas citam o livro | Quatro pautas novas em Mt 12–13; paralelos não fecham fatos exclusivos automaticamente |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -188,3 +188,7 @@ Quatro pautas e 82 pistas cobrem somente as unidades que ainda constavam como n�
 ## Checkpoint 069 — Mateus 10–11
 
 As páginas NAA Bible.com 1840 de Mt 10–11 foram efetivamente obtidas e lidas. Três pautas/80 pistas foram anexadas após comparação com os 213 objetos anteriores, que permaneceram serializados identicamente. O inventário passa a **216 pautas/4.184 pistas**; 31 pautas citam Mateus e suas cartas somam 583 pistas. Mt 12–13 permanece como próximo recorte, sem declaração de faixa completa por download ou testes.
+
+## Checkpoint 070 — Mateus 12–13
+
+A consulta efetiva das páginas NAA de Mt 12–13 sustentou quatro pautas e 124 pistas, levando o banco de **216/4.184 para 220/4.308** e Mateus a **35 pautas/707 pistas**. Os 216 objetos anteriores foram preservados serialmente. Mt 12.9-14 e 13.51-58 permanecem específicos; a revisão adicional também reabriu Mt 10.1-15 quanto a fatos exclusivos não cobertos por Marcos. Nenhum teste ou download foi usado para declarar a faixa completa.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-069-mateus-10-11",
+  "catalogVersion": "checkpoint-070-mateus-12-13",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 216,
-    "fields": 864,
-    "editoriallyEligibleCases": 216,
-    "playableCases": 216,
-    "max12Cases": 83
+    "cases": 220,
+    "fields": 880,
+    "editoriallyEligibleCases": 220,
+    "playableCases": 220,
+    "max12Cases": 86
   },
   "order": [
     "nt2-joao-cana",
@@ -232,7 +232,11 @@
     "nt2-mateus-julgamento-regra-alegacoes-reacao",
     "nt2-mateus-envio-perseguicao-coragem-recepcao",
     "nt2-mateus-joao-obras-testemunho-geracao",
-    "nt2-mateus-cidades-revelacao-descanso"
+    "nt2-mateus-cidades-revelacao-descanso",
+    "nt2-mateus-sabado-servo-esperanca",
+    "nt2-mateus-cura-acusacao-sinal-familia",
+    "nt2-mateus-semeador-explicacao",
+    "nt2-mateus-joio-comparacoes-rede"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -150205,6 +150209,3882 @@
             "passage": "11.20-30",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.11.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-sabado-servo-esperanca": {
+      "id": "nt2-mateus-sabado-servo-esperanca",
+      "kind": "canonical-case",
+      "title": "O sábado e o servo anunciado",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 12.1-8,15-21",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "12.1-8,15-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Mateus, que ações e declarações ligam a controvérsia nas searas ao retrato do servo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A ação dos discípulos no sábado abre o confronto e distingue o recorte antes das respostas de Jesus e do cumprimento anunciado por Mateus.",
+      "editorial": {
+        "hinge": "As referências a Davi, Lei e Isaías são usadas somente como afirmações presentes em Mateus; nenhum dado é completado pelo Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os discípulos fizeram com fome",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Colheram espigas e comeram"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Entraram no templo e gritaram"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Tiraram uma ovelha da cova"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Pediram um sinal aos fariseus"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Colheram espigas e comeram",
+          "enderecoNAA": "Mateus 12.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como o Filho do Homem é apresentado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Senhor do sábado"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Sacerdote no templo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Companheiro de Davi"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Governante das cidades"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Senhor do sábado",
+          "enderecoNAA": "Mateus 12.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Jesus fez ao saber da conspiração",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Afastou-se dali"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Convocou os fariseus"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Foi ao palácio real"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediu publicidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Afastou-se dali",
+          "enderecoNAA": "Mateus 12.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Em quem os gentios colocariam a esperança",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "No nome do servo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Nos sacerdotes do templo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Nos companheiros de Davi"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Nas multidões curadas"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "No nome do servo",
+          "enderecoNAA": "Mateus 12.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Num sábado, Jesus passou pelas searas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Num sábado, Jesus passou pelas searas."
+          },
+          {
+            "id": "P02",
+            "text": "Os discípulos estavam com fome.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos estavam com fome."
+          },
+          {
+            "id": "P03",
+            "text": "Eles começaram a colher espigas e a comer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles começaram a colher espigas e a comer."
+          },
+          {
+            "id": "P04",
+            "text": "Os fariseus acusaram os discípulos de fazer no sábado o que consideravam ilícito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus acusaram os discípulos de fazer no sábado o que consideravam ilícito."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus recordou o que Davi e seus companheiros fizeram quando tiveram fome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus recordou o que Davi e seus companheiros fizeram quando tiveram fome."
+          },
+          {
+            "id": "P06",
+            "text": "Davi entrou na Casa de Deus e eles comeram os pães da proposição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Davi entrou na Casa de Deus e eles comeram os pães da proposição."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus mencionou sacerdotes que atuam no templo aos sábados e ficam sem culpa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mencionou sacerdotes que atuam no templo aos sábados e ficam sem culpa."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus declarou que ali estava alguém maior do que o templo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que ali estava alguém maior do que o templo."
+          },
+          {
+            "id": "P09",
+            "text": "Ele relacionou misericórdia, e não sacrifício, à condenação de inocentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele relacionou misericórdia, e não sacrifício, à condenação de inocentes."
+          },
+          {
+            "id": "P10",
+            "text": "O Filho do Homem é chamado senhor do sábado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem é chamado senhor do sábado."
+          },
+          {
+            "id": "P11",
+            "text": "Ao saber da conspiração, Jesus se afastou dali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao saber da conspiração, Jesus se afastou dali."
+          },
+          {
+            "id": "P12",
+            "text": "Muitos o seguiram e ele curou todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos o seguiram e ele curou todos."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus advertiu os curados a não lhe darem publicidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus advertiu os curados a não lhe darem publicidade."
+          },
+          {
+            "id": "P14",
+            "text": "Mateus apresenta essa sequência como cumprimento do que foi dito por Isaías.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus apresenta essa sequência como cumprimento do que foi dito por Isaías."
+          },
+          {
+            "id": "P15",
+            "text": "O trecho chama o servo de escolhido e amado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O trecho chama o servo de escolhido e amado."
+          },
+          {
+            "id": "P16",
+            "text": "A alma daquele que fala é descrita como agradada no servo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A alma daquele que fala é descrita como agradada no servo."
+          },
+          {
+            "id": "P17",
+            "text": "O Espírito seria posto sobre o servo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito seria posto sobre o servo."
+          },
+          {
+            "id": "P18",
+            "text": "O servo anunciaria juízo aos gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo anunciaria juízo aos gentios."
+          },
+          {
+            "id": "P19",
+            "text": "Ele não entraria em discussões nem gritaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele não entraria em discussões nem gritaria."
+          },
+          {
+            "id": "P20",
+            "text": "Sua voz não seria ouvida nas praças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua voz não seria ouvida nas praças."
+          },
+          {
+            "id": "P21",
+            "text": "A cana quebrada não seria esmagada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A cana quebrada não seria esmagada."
+          },
+          {
+            "id": "P22",
+            "text": "O pavio que fumega não seria apagado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pavio que fumega não seria apagado."
+          },
+          {
+            "id": "P23",
+            "text": "O juízo seria conduzido à vitória.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O juízo seria conduzido à vitória."
+          },
+          {
+            "id": "P24",
+            "text": "Os gentios colocariam esperança no nome do servo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os gentios colocariam esperança no nome do servo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Discípulos colhem espigas no sábado, Jesus responde com exemplos e autoridade, afasta-se após uma conspiração e Mateus apresenta o retrato do servo.",
+        "hinge": "As referências a Davi, Lei e Isaías são usadas somente como afirmações presentes em Mateus; nenhum dado é completado pelo Antigo Testamento.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "12.1-8,15-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-cura-acusacao-sinal-familia": {
+      "id": "nt2-mateus-cura-acusacao-sinal-familia",
+      "kind": "canonical-case",
+      "title": "Cura, acusações, sinal e família",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 12.22-50",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "12.22-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais fatos e respostas Mateus reúne após a cura do homem cego e mudo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A cura que permite ao homem falar e ver provoca as reações divergentes e organiza os ensinos, pedidos e relações seguintes.",
+      "editorial": {
+        "hinge": "Acusações permanecem acusações, hipóteses e comparações permanecem como tais, e Jonas, ninivitas, Salomão e a rainha não recebem detalhes externos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Condição do homem levado a Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Endemoniado, cego e mudo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Surdo e com a mão ressequida"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Coxo e coberto de lepra"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Cego e junto ao caminho"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Endemoniado, cego e mudo",
+          "enderecoNAA": "Mateus 12.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Poder alegado pelos fariseus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O de Belzebu"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O de Salomão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O de Jonas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O dos filhos deles"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O de Belzebu",
+          "enderecoNAA": "Mateus 12.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Sinal que Jesus disse que seria dado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O do profeta Jonas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O da rainha do Sul"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O de uma árvore boa"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O de sete espíritos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O do profeta Jonas",
+          "enderecoNAA": "Mateus 12.39",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem Jesus apontou como sua família",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Quem faz a vontade de seu Pai celeste"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Quem pede um sinal"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Quem condena os ninivitas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quem permanece fora da casa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Quem faz a vontade de seu Pai celeste",
+          "enderecoNAA": "Mateus 12.49-50",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "12.49-50",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Levaram a Jesus um homem endemoniado, cego e mudo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Levaram a Jesus um homem endemoniado, cego e mudo."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus curou o homem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curou o homem."
+          },
+          {
+            "id": "P03",
+            "text": "Depois da cura, o homem passou a falar e a ver.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da cura, o homem passou a falar e a ver."
+          },
+          {
+            "id": "P04",
+            "text": "A multidão admirada perguntou se Jesus seria o Filho de Davi.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão admirada perguntou se Jesus seria o Filho de Davi."
+          },
+          {
+            "id": "P05",
+            "text": "Os fariseus atribuíram a expulsão de demônios ao poder de Belzebu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus atribuíram a expulsão de demônios ao poder de Belzebu."
+          },
+          {
+            "id": "P06",
+            "text": "Eles chamaram Belzebu de maioral dos demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles chamaram Belzebu de maioral dos demônios."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus conhecia o que os fariseus pensavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus conhecia o que os fariseus pensavam."
+          },
+          {
+            "id": "P08",
+            "text": "Ele afirmou que um reino dividido contra si fica deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que um reino dividido contra si fica deserto."
+          },
+          {
+            "id": "P09",
+            "text": "Também afirmou que cidade ou casa dividida contra si não subsiste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também afirmou que cidade ou casa dividida contra si não subsiste."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus perguntou como subsistiria o reino de Satanás se Satanás expulsasse Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou como subsistiria o reino de Satanás se Satanás expulsasse Satanás."
+          },
+          {
+            "id": "P11",
+            "text": "Ele perguntou por quem os filhos dos acusadores expulsavam demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou por quem os filhos dos acusadores expulsavam demônios."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus afirmou que expulsar demônios pelo Espírito de Deus indicava a chegada do Reino de Deus sobre eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que expulsar demônios pelo Espírito de Deus indicava a chegada do Reino de Deus sobre eles."
+          },
+          {
+            "id": "P13",
+            "text": "Na comparação da casa, o valente precisa primeiro ser amarrado para que seus bens sejam roubados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação da casa, o valente precisa primeiro ser amarrado para que seus bens sejam roubados."
+          },
+          {
+            "id": "P14",
+            "text": "Quem não está com Jesus é apresentado como contrário a ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem não está com Jesus é apresentado como contrário a ele."
+          },
+          {
+            "id": "P15",
+            "text": "Quem não ajunta com Jesus é apresentado como alguém que espalha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem não ajunta com Jesus é apresentado como alguém que espalha."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus distingue a blasfêmia contra o Espírito dos pecados e blasfêmias que seriam perdoados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.31-32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus distingue a blasfêmia contra o Espírito dos pecados e blasfêmias que seriam perdoados."
+          },
+          {
+            "id": "P17",
+            "text": "A árvore é conhecida pelo fruto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore é conhecida pelo fruto."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus relaciona a fala da boca ao conteúdo do coração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus relaciona a fala da boca ao conteúdo do coração."
+          },
+          {
+            "id": "P19",
+            "text": "A pessoa boa tira coisas boas de um tesouro bom, e a má tira coisas más de um tesouro mau.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa boa tira coisas boas de um tesouro bom, e a má tira coisas más de um tesouro mau."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus anuncia prestação de contas por toda palavra inútil no Dia do Juízo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.36-37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anuncia prestação de contas por toda palavra inútil no Dia do Juízo."
+          },
+          {
+            "id": "P21",
+            "text": "Alguns escribas e fariseus pediram que Jesus fizesse um sinal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns escribas e fariseus pediram que Jesus fizesse um sinal."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus classificou como perversa e adúltera a geração que pedia sinal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus classificou como perversa e adúltera a geração que pedia sinal."
+          },
+          {
+            "id": "P23",
+            "text": "Ele disse que seria dado somente o sinal do profeta Jonas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que seria dado somente o sinal do profeta Jonas."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus comparou os três dias e três noites de Jonas no grande peixe ao período do Filho do Homem no coração da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou os três dias e três noites de Jonas no grande peixe ao período do Filho do Homem no coração da terra."
+          },
+          {
+            "id": "P25",
+            "text": "Ninivitas são apresentados como testemunhas de condenação por terem se arrependido com a pregação de Jonas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninivitas são apresentados como testemunhas de condenação por terem se arrependido com a pregação de Jonas."
+          },
+          {
+            "id": "P26",
+            "text": "Jesus declarou que ali estava alguém maior do que Jonas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que ali estava alguém maior do que Jonas."
+          },
+          {
+            "id": "P27",
+            "text": "A rainha do Sul é apresentada como alguém que veio dos confins da terra para ouvir a sabedoria de Salomão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A rainha do Sul é apresentada como alguém que veio dos confins da terra para ouvir a sabedoria de Salomão."
+          },
+          {
+            "id": "P28",
+            "text": "Jesus declarou que ali estava alguém maior do que Salomão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que ali estava alguém maior do que Salomão."
+          },
+          {
+            "id": "P29",
+            "text": "Na descrição, um espírito imundo sai, procura repouso em lugares áridos e não encontra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na descrição, um espírito imundo sai, procura repouso em lugares áridos e não encontra."
+          },
+          {
+            "id": "P30",
+            "text": "Ao voltar, encontra sua casa vazia, varrida e arrumada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao voltar, encontra sua casa vazia, varrida e arrumada."
+          },
+          {
+            "id": "P31",
+            "text": "Ele leva outros sete espíritos piores, e o estado final da pessoa se torna pior que o primeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele leva outros sete espíritos piores, e o estado final da pessoa se torna pior que o primeiro."
+          },
+          {
+            "id": "P32",
+            "text": "A mãe e os irmãos de Jesus estavam fora, procurando falar com ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.46-47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mãe e os irmãos de Jesus estavam fora, procurando falar com ele."
+          },
+          {
+            "id": "P33",
+            "text": "Jesus perguntou quem eram sua mãe e seus irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou quem eram sua mãe e seus irmãos."
+          },
+          {
+            "id": "P34",
+            "text": "Ele estendeu a mão para os discípulos e os apontou como sua mãe e seus irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele estendeu a mão para os discípulos e os apontou como sua mãe e seus irmãos."
+          },
+          {
+            "id": "P35",
+            "text": "Jesus chamou de irmão, irmã e mãe aquele que faz a vontade de seu Pai celeste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "12.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou de irmão, irmã e mãe aquele que faz a vontade de seu Pai celeste."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Uma cura provoca admiração e acusação; Jesus responde sobre divisão, palavras e sinal, descreve o retorno do espírito e aponta quem chama de família.",
+        "hinge": "Acusações permanecem acusações, hipóteses e comparações permanecem como tais, e Jonas, ninivitas, Salomão e a rainha não recebem detalhes externos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "12.22-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-semeador-explicacao": {
+      "id": "nt2-mateus-semeador-explicacao",
+      "kind": "canonical-case",
+      "title": "O semeador e a explicação",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 13.1-23",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "13.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Mateus, como a parábola do semeador é narrada e explicada por Jesus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Os quatro destinos da semente formam o eixo observável que a explicação de Jesus retoma sem exigir interpretação externa.",
+      "editorial": {
+        "hinge": "Somente as correspondências que Jesus explicita em Mateus são usadas; a profecia citada e os paralelos não são completados por outros documentos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde caiu a semente comida pelas aves",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "À beira do caminho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Em boa terra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Entre espinhos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No celeiro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "À beira do caminho",
+          "enderecoNAA": "Mateus 13.4",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que ocorreu com a semente no solo rochoso",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Secou por não ter raiz"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Foi sufocada pelas riquezas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Produziu cem por um"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Foi arrebatada pelo Maligno"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Secou por não ter raiz",
+          "enderecoNAA": "Mateus 13.5-6",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que sufoca a palavra no caso dos espinhos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Preocupações do mundo e fascinação das riquezas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Aves e falta de compreensão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Sol e falta de raiz"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Colheita e ceifeiros"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Preocupações do mundo e fascinação das riquezas",
+          "enderecoNAA": "Mateus 13.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que caracteriza a boa terra na explicação",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ouvir e compreender a palavra"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ouvir e logo se escandalizar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Fechar olhos e ouvidos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Receber com alegria por pouco tempo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ouvir e compreender a palavra",
+          "enderecoNAA": "Mateus 13.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus saiu de casa e se assentou à beira-mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus saiu de casa e se assentou à beira-mar."
+          },
+          {
+            "id": "P02",
+            "text": "Grandes multidões se reuniram ao redor dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Grandes multidões se reuniram ao redor dele."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus entrou num barco e se assentou, enquanto a multidão ficou na praia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus entrou num barco e se assentou, enquanto a multidão ficou na praia."
+          },
+          {
+            "id": "P04",
+            "text": "Ele falou muitas coisas por parábolas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele falou muitas coisas por parábolas."
+          },
+          {
+            "id": "P05",
+            "text": "O semeador saiu para semear.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O semeador saiu para semear."
+          },
+          {
+            "id": "P06",
+            "text": "A semente à beira do caminho foi comida pelas aves.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente à beira do caminho foi comida pelas aves."
+          },
+          {
+            "id": "P07",
+            "text": "A semente em solo rochoso nasceu logo porque a terra era pouca.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente em solo rochoso nasceu logo porque a terra era pouca."
+          },
+          {
+            "id": "P08",
+            "text": "O sol a queimou e ela secou porque não tinha raiz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sol a queimou e ela secou porque não tinha raiz."
+          },
+          {
+            "id": "P09",
+            "text": "A semente entre espinhos foi sufocada quando eles cresceram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente entre espinhos foi sufocada quando eles cresceram."
+          },
+          {
+            "id": "P10",
+            "text": "A semente em boa terra produziu a cem, sessenta e trinta por um.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente em boa terra produziu a cem, sessenta e trinta por um."
+          },
+          {
+            "id": "P11",
+            "text": "Os discípulos perguntaram por que Jesus falava às multidões por parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos perguntaram por que Jesus falava às multidões por parábolas."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus disse que aos discípulos era dado conhecer os mistérios do Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que aos discípulos era dado conhecer os mistérios do Reino dos Céus."
+          },
+          {
+            "id": "P13",
+            "text": "Ele disse que isso não era concedido aos demais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que isso não era concedido aos demais."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus explicou que falava por parábolas porque eles viam sem ver e ouviam sem ouvir ou entender.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus explicou que falava por parábolas porque eles viam sem ver e ouviam sem ouvir ou entender."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus chamou felizes os olhos dos discípulos porque viam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou felizes os olhos dos discípulos porque viam."
+          },
+          {
+            "id": "P16",
+            "text": "Também chamou felizes seus ouvidos porque ouviam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também chamou felizes seus ouvidos porque ouviam."
+          },
+          {
+            "id": "P17",
+            "text": "Muitos profetas e justos desejaram ver e ouvir o que os discípulos presenciavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos profetas e justos desejaram ver e ouvir o que os discípulos presenciavam."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus identificou a semente à beira do caminho com quem ouve a palavra do Reino e não entende.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus identificou a semente à beira do caminho com quem ouve a palavra do Reino e não entende."
+          },
+          {
+            "id": "P19",
+            "text": "Nesse caso, o Maligno arrebata o que foi semeado no coração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nesse caso, o Maligno arrebata o que foi semeado no coração."
+          },
+          {
+            "id": "P20",
+            "text": "O solo rochoso representa quem ouve a palavra e logo a recebe com alegria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O solo rochoso representa quem ouve a palavra e logo a recebe com alegria."
+          },
+          {
+            "id": "P21",
+            "text": "Essa pessoa não tem raiz em si e é de pouca duração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa pessoa não tem raiz em si e é de pouca duração."
+          },
+          {
+            "id": "P22",
+            "text": "Angústia ou perseguição por causa da palavra leva essa pessoa a se escandalizar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Angústia ou perseguição por causa da palavra leva essa pessoa a se escandalizar."
+          },
+          {
+            "id": "P23",
+            "text": "Os espinhos representam quem ouve a palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os espinhos representam quem ouve a palavra."
+          },
+          {
+            "id": "P24",
+            "text": "Preocupações do mundo e fascinação das riquezas sufocam a palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Preocupações do mundo e fascinação das riquezas sufocam a palavra."
+          },
+          {
+            "id": "P25",
+            "text": "Nesse caso, a palavra fica infrutífera.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nesse caso, a palavra fica infrutífera."
+          },
+          {
+            "id": "P26",
+            "text": "A boa terra representa quem ouve e compreende a palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A boa terra representa quem ouve e compreende a palavra."
+          },
+          {
+            "id": "P27",
+            "text": "Essa pessoa frutifica e produz a cem, sessenta e trinta por um.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa pessoa frutifica e produz a cem, sessenta e trinta por um."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus narra quatro destinos da semente, responde aos discípulos sobre parábolas e fornece a explicação de cada terreno.",
+        "hinge": "Somente as correspondências que Jesus explicita em Mateus são usadas; a profecia citada e os paralelos não são completados por outros documentos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "13.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-joio-comparacoes-rede": {
+      "id": "nt2-mateus-joio-comparacoes-rede",
+      "kind": "canonical-case",
+      "title": "Joio, comparações do Reino e rede",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 13.24-50",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "13.24-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais elementos e explicações aparecem nas comparações do Reino reunidas por Mateus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A boa semente e o joio abrem uma série de comparações cujo conteúdo e explicações internas distinguem os quatro campos.",
+      "editorial": {
+        "hinge": "As identificações são limitadas às explicações dadas por Jesus em Mateus; imagens não explicadas não recebem equivalências externas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem semeou o joio",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O inimigo do dono"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os servos do dono"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os ceifeiros"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os pescadores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O inimigo do dono",
+          "enderecoNAA": "Mateus 13.25,28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.25,28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem são os ceifeiros na explicação",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os anjos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os filhos do Reino"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os filhos do Maligno"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os escribas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os anjos",
+          "enderecoNAA": "Mateus 13.39",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o homem fez ao achar o tesouro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Vendeu tudo e comprou o campo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Misturou fermento na farinha"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Plantou o tesouro no campo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Guardou peixes em cestos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Vendeu tudo e comprou o campo",
+          "enderecoNAA": "Mateus 13.44",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que os pescadores fizeram com os peixes ruins",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Jogaram-nos fora"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Guardaram-nos nos cestos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Venderam-nos por uma pérola"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Misturaram-nos ao trigo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Jogaram-nos fora",
+          "enderecoNAA": "Mateus 13.48",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.48",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Reino dos Céus é comparado a um homem que semeou boa semente em seu campo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino dos Céus é comparado a um homem que semeou boa semente em seu campo."
+          },
+          {
+            "id": "P02",
+            "text": "Enquanto todos dormiam, o inimigo semeou joio no meio do trigo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Enquanto todos dormiam, o inimigo semeou joio no meio do trigo."
+          },
+          {
+            "id": "P03",
+            "text": "O inimigo foi embora depois de semear.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O inimigo foi embora depois de semear."
+          },
+          {
+            "id": "P04",
+            "text": "O joio apareceu quando as plantas cresceram e produziram fruto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O joio apareceu quando as plantas cresceram e produziram fruto."
+          },
+          {
+            "id": "P05",
+            "text": "Os servos perguntaram ao dono de onde vinha o joio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os servos perguntaram ao dono de onde vinha o joio."
+          },
+          {
+            "id": "P06",
+            "text": "O dono respondeu que um inimigo havia feito aquilo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono respondeu que um inimigo havia feito aquilo."
+          },
+          {
+            "id": "P07",
+            "text": "Os servos perguntaram se deveriam arrancar o joio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os servos perguntaram se deveriam arrancar o joio."
+          },
+          {
+            "id": "P08",
+            "text": "O dono proibiu a retirada para evitar que o trigo fosse arrancado junto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono proibiu a retirada para evitar que o trigo fosse arrancado junto."
+          },
+          {
+            "id": "P09",
+            "text": "Joio e trigo deveriam crescer juntos até a colheita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Joio e trigo deveriam crescer juntos até a colheita."
+          },
+          {
+            "id": "P10",
+            "text": "Na colheita, o joio seria reunido em feixes para ser queimado e o trigo recolhido ao celeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na colheita, o joio seria reunido em feixes para ser queimado e o trigo recolhido ao celeiro."
+          },
+          {
+            "id": "P11",
+            "text": "O Reino é comparado a um grão de mostarda plantado por um homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino é comparado a um grão de mostarda plantado por um homem."
+          },
+          {
+            "id": "P12",
+            "text": "A semente pequena cresce e se torna maior do que as hortaliças, chegando a árvore.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente pequena cresce e se torna maior do que as hortaliças, chegando a árvore."
+          },
+          {
+            "id": "P13",
+            "text": "As aves vêm se aninhar nos ramos dessa árvore.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As aves vêm se aninhar nos ramos dessa árvore."
+          },
+          {
+            "id": "P14",
+            "text": "O Reino também é comparado ao fermento misturado por uma mulher em três medidas de farinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino também é comparado ao fermento misturado por uma mulher em três medidas de farinha."
+          },
+          {
+            "id": "P15",
+            "text": "O fermento permanece na comparação até toda a massa ficar levedada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fermento permanece na comparação até toda a massa ficar levedada."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus dizia essas coisas às multidões por parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus dizia essas coisas às multidões por parábolas."
+          },
+          {
+            "id": "P17",
+            "text": "Depois de despedir as multidões, Jesus entrou em casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de despedir as multidões, Jesus entrou em casa."
+          },
+          {
+            "id": "P18",
+            "text": "Os discípulos pediram explicação da parábola do joio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos pediram explicação da parábola do joio."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus identificou o semeador da boa semente como o Filho do Homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus identificou o semeador da boa semente como o Filho do Homem."
+          },
+          {
+            "id": "P20",
+            "text": "O campo é identificado como o mundo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O campo é identificado como o mundo."
+          },
+          {
+            "id": "P21",
+            "text": "A boa semente é identificada como os filhos do Reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A boa semente é identificada como os filhos do Reino."
+          },
+          {
+            "id": "P22",
+            "text": "O joio é identificado como os filhos do Maligno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O joio é identificado como os filhos do Maligno."
+          },
+          {
+            "id": "P23",
+            "text": "O inimigo é identificado como o diabo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O inimigo é identificado como o diabo."
+          },
+          {
+            "id": "P24",
+            "text": "A colheita é identificada como o fim dos tempos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A colheita é identificada como o fim dos tempos."
+          },
+          {
+            "id": "P25",
+            "text": "Os ceifeiros são identificados como os anjos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ceifeiros são identificados como os anjos."
+          },
+          {
+            "id": "P26",
+            "text": "O Filho do Homem enviará seus anjos para retirar de seu Reino tropeços e praticantes do mal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem enviará seus anjos para retirar de seu Reino tropeços e praticantes do mal."
+          },
+          {
+            "id": "P27",
+            "text": "A explicação menciona fornalha acesa, choro e ranger de dentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A explicação menciona fornalha acesa, choro e ranger de dentes."
+          },
+          {
+            "id": "P28",
+            "text": "Os justos resplandecerão como o sol no Reino de seu Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os justos resplandecerão como o sol no Reino de seu Pai."
+          },
+          {
+            "id": "P29",
+            "text": "O Reino é comparado a um tesouro escondido que um homem achou e tornou a esconder.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino é comparado a um tesouro escondido que um homem achou e tornou a esconder."
+          },
+          {
+            "id": "P30",
+            "text": "Com alegria, o homem vendeu tudo e comprou o campo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com alegria, o homem vendeu tudo e comprou o campo."
+          },
+          {
+            "id": "P31",
+            "text": "Um negociante que procura boas pérolas encontrou uma de grande valor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.45-46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um negociante que procura boas pérolas encontrou uma de grande valor."
+          },
+          {
+            "id": "P32",
+            "text": "Ele vendeu tudo o que tinha e comprou a pérola.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele vendeu tudo o que tinha e comprou a pérola."
+          },
+          {
+            "id": "P33",
+            "text": "O Reino é comparado a uma rede lançada ao mar que apanhou peixes de toda espécie.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino é comparado a uma rede lançada ao mar que apanhou peixes de toda espécie."
+          },
+          {
+            "id": "P34",
+            "text": "Quando a rede ficou cheia, os pescadores a arrastaram para a praia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando a rede ficou cheia, os pescadores a arrastaram para a praia."
+          },
+          {
+            "id": "P35",
+            "text": "Os pescadores guardaram os peixes bons em cestos e jogaram fora os ruins.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os pescadores guardaram os peixes bons em cestos e jogaram fora os ruins."
+          },
+          {
+            "id": "P36",
+            "text": "Jesus comparou essa separação à saída dos anjos no fim dos tempos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou essa separação à saída dos anjos no fim dos tempos."
+          },
+          {
+            "id": "P37",
+            "text": "Os anjos separarão os maus dentre os justos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anjos separarão os maus dentre os justos."
+          },
+          {
+            "id": "P38",
+            "text": "Os maus serão lançados na fornalha acesa, onde haverá choro e ranger de dentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao texto de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "13.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os maus serão lançados na fornalha acesa, onde haverá choro e ranger de dentes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus narra o joio, o grão, o fermento, o tesouro, a pérola e a rede, e fornece explicações para o joio e a separação final.",
+        "hinge": "As identificações são limitadas às explicações dadas por Jesus em Mateus; imagens não explicadas não recebem equivalências externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "13.24-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -147,4 +147,33 @@ Em 13/09/2026, as páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.10.
 | Mt 11.25-27 — graças e revelação | **Autorada** na mesma pauta, atributivamente, sem exposição teológica ou apoio externo. |
 | Mt 11.28-30 — convite, jugo e descanso | **Autorada** na mesma pauta; convite e descrições permanecem falas de Jesus. |
 
-O lote acrescenta exatamente três pautas e 80 pistas: advertências/prioridades/recepção (30; capacidade 12), pergunta de João/testemunho/geração (25; capacidade 12) e cidades/revelação/descanso (25; capacidade 12). **Não resta unidade pendente no inventário vigente de Mt 10–11**, sem que isso declare exaustividade futura ou a faixa Mt 10–13 completa. O próximo lote de Mateus é **Mt 12–13**, ainda pendente de nova consulta e inventário individual. Nenhum outro capítulo ou livro foi aberto nesta rodada.
+O lote acrescenta exatamente três pautas e 80 pistas: advertências/prioridades/recepção (30; capacidade 12), pergunta de João/testemunho/geração (25; capacidade 12) e cidades/revelação/descanso (25; capacidade 12). **A decisão então registrada para Mt 10.1-15 exigia comparação adicional, realizada no checkpoint 070**, sem que isso declare exaustividade futura ou a faixa Mt 10–13 completa. O próximo lote de Mateus é **Mt 12–13**, ainda pendente de nova consulta e inventário individual. Nenhum outro capítulo ou livro foi aberto nesta rodada.
+
+## Inventário individual de Mateus 12–13 — checkpoint 070
+
+Em 13/09/2026, as páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.12.NAA` e `/MAT.13.NAA` foram obtidas separadamente (HTTP 200; 100.504 e 101.102 bytes transferidos) e lidas verso a verso. Antes da autoria, os **216 IDs/4.184 pistas** foram comparados por referências, perguntas e conteúdo. Não havia referência geral a Mt 12–13, mas a busca por paralelos encontrou `nt2-marcos-mao-ressequida` para a cura de Mt 12.9-14. As antigas exclusões agregadas por discurso, parábola, ensino ou 25 cartas foram reavaliadas sob perguntas atributivas, listas e capacidade variável.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 12.1-8 — espigas no sábado | **Autorada** em `nt2-mateus-sabado-servo-esperanca`; os exemplos citados ficam somente como afirmações de Mateus, sem completar o AT. |
+| Mt 12.9-14 — mão ressequida no sábado | **Parcial / pendência específica posterior.** `nt2-marcos-mao-ressequida` já cobre sinagoga, homem, ordem para estender a mão, restauração e conspiração. Mt 12 acrescenta a pergunta sobre a ovelha, o valor do homem e a licitude de fazer o bem; esses fatos exclusivos não foram harmonizados nem autorados nesta rodada e devem ser reavaliados depois. |
+| Mt 12.15-21 — afastamento e servo anunciado | **Autorada** em `nt2-mateus-sabado-servo-esperanca`; o cumprimento é atribuído por Mateus e não ampliado por Isaías. |
+| Mt 12.22-37 — cura, acusação, divisão, fruto e palavras | **Autorada** em `nt2-mateus-cura-acusacao-sinal-familia`; acusações e hipóteses permanecem marcadas como tais. |
+| Mt 12.38-42 — pedido e sinal de Jonas | **Autorada** na mesma pauta; nenhum detalhe de Jonas, ninivitas, Salomão ou rainha foi importado do AT. |
+| Mt 12.43-45 — retorno do espírito | **Autorada** na mesma pauta como descrição de Jesus, sem sistema interpretativo externo. |
+| Mt 12.46-50 — mãe, irmãos e vontade do Pai | **Autorada** na mesma pauta; gesto, pergunta e relação declarada são preservados. |
+| Mt 13.1-9 — narrativa do semeador | **Autorada** em `nt2-mateus-semeador-explicacao`. |
+| Mt 13.10-17 — motivo e recepção das parábolas | **Autorada** na mesma pauta, atributivamente; a citação não foi completada por Isaías. |
+| Mt 13.18-23 — explicação do semeador | **Autorada** na mesma pauta somente com as correspondências explicadas por Jesus. |
+| Mt 13.24-30 — narrativa do joio | **Autorada** em `nt2-mateus-joio-comparacoes-rede`. |
+| Mt 13.31-35 — mostarda, fermento e modo de falar | **Autorada** na mesma pauta; imagens sem explicação interna não recebem equivalência. |
+| Mt 13.36-43 — explicação do joio | **Autorada** na mesma pauta com as identidades explicitadas por Jesus. |
+| Mt 13.44-50 — tesouro, pérola e rede | **Autorada** na mesma pauta; somente a rede recebe a explicação final presente no recorte. |
+| Mt 13.51-52 — compreensão e escriba instruído | **Lida, não autorada neste lote.** Fecho curto com resposta dos discípulos e comparação de coisas novas e velhas; permanece pendência específica, sem interpretação externa. |
+| Mt 13.53-58 — ensino em sua terra | **Lida, não autorada neste lote.** Sabedoria, família, escândalo, provérbio e poucos milagres sustentam candidato factual, mas ficaram fora pelo limite de quatro pautas; comparar o paralelo antes de futura autoria. |
+
+Foram anexadas exatamente quatro pautas e 124 pistas: sábado/servo (24; capacidade 11), cura/acusação/sinal/família (35; capacidade 12), semeador (27; capacidade 12) e joio/comparações/rede (38; capacidade 12). **Mt 12–13 não é declarado integralmente encerrado**: permanecem Mt 12.9-14 quanto aos fatos exclusivos de Mateus e Mt 13.51-52/53-58. A próxima faixa ainda não inventariada de Mateus é Mt 18–20; as pendências acima devem permanecer listadas para lote posterior. Nenhum outro capítulo ou livro foi aberto.
+
+### Verificação documental adicional de Mt 10.1-15
+
+A comparação solicitada com `nt2-marcos-envio-doze` foi refeita campo a campo. A pauta de Marcos cobre: chamada dos Doze, envio, autoridade sobre espíritos imundos, restrições de provisões, permanência em uma casa, resposta à não recepção com pó sacudido, pregação e curas. Mateus 10 compartilha chamada, autoridade, provisões, permanência, recusa, pregação e curas, mas conserva fatos aproveitáveis não cobertos: nomes e relações dos doze (10.2-4), destino preferencial às ovelhas perdidas de Israel e exclusão de caminhos/cidades (10.5-6), formulação do anúncio sobre o Reino (10.7), ressuscitar mortos/purificar leprosos/dar de graça (10.8), metais especificados (10.9), saudação e paz da casa (10.12-13) e comparação de juízo com Sodoma e Gomorra (10.15). Diferenças documentais de bordão/sandálias não serão harmonizadas. Portanto, a exclusão genérica anterior **não fecha Mt 10.1-15**: o recorte fica como **pendência específica posterior**, sem autoria nesta rodada.

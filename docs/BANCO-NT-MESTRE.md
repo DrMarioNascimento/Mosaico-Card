@@ -691,8 +691,18 @@ Sobre o checkpoint 067 (`fe765b4`), somente os remanescentes já individualizado
 
 Somente Mateus 10 e 11 foram trabalhados sobre o checkpoint 068. As duas páginas NAA Bible.com 1840 retornaram HTTP 200, foram lidas verso a verso e tiveram cada unidade inventariada. A comparação prévia com os 213 objetos/4.104 pistas não encontrou referência geral anterior aos capítulos nem ID/pergunta equivalente. As antigas exclusões agregadas por discurso, ensino ou 25 cartas foram reavaliadas segundo perguntas atributivas, listas coerentes e capacidade variável.
 
-Três pautas sustentadas foram anexadas: Mt 10.16-42 (30 pistas), Mt 11.1-19 (25) e Mt 11.20-30 (25). Mt 10.1-15 foi excluído especificamente de nova autoria após a comparação com `nt2-marcos-envio-doze`, que já representa o mesmo envio paralelo. Todas têm quatro campos, quatro alternativas por campo, gabaritos e proveniência NAA; focal explícito e ordem 8/5/3/2; metadados completos; revelação sem transformar hipóteses, acusações ou imagens em fatos externos. As 80 pistas permitem capacidade 12 pela fórmula vigente, sem que 12 ou 25 tenham sido usados como meta.
+Três pautas sustentadas foram anexadas: Mt 10.16-42 (30 pistas), Mt 11.1-19 (25) e Mt 11.20-30 (25). Mt 10.1-15 foi deixado sem nova autoria diante de `nt2-marcos-envio-doze`; a comparação detalhada dos fatos exclusivos, registrada no checkpoint 070, reabre uma pendência específica. Todas têm quatro campos, quatro alternativas por campo, gabaritos e proveniência NAA; focal explícito e ordem 8/5/3/2; metadados completos; revelação sem transformar hipóteses, acusações ou imagens em fatos externos. As 80 pistas permitem capacidade 12 pela fórmula vigente, sem que 12 ou 25 tenham sido usados como meta.
 
 - **Antes/depois:** 213 pautas/4.104 pistas → 216/4.184; os 213 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
-- **Limite:** Mt 10–11 recebeu decisão para cada unidade inventariada, mas Mt 10–13 não está completo. Mt 12–13 é o próximo recorte; Mt 18–20 e 21–25 continuam posteriores.
+- **Limite:** Mt 10–11 recebeu decisão inicial para cada unidade inventariada, mas Mt 10.1-15 é reaberto no checkpoint 070 e Mt 10–13 não está completo. Mt 12–13 é o próximo recorte; Mt 18–20 e 21–25 continuam posteriores.
 - **Preservação:** dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, isolamento, sorteio e partidas não foram alterados. Não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 070 — Mateus 12–13
+
+Somente as páginas NAA Bible.com 1840 de Mateus 12 e 13 foram abertas para nova autoria. Ambas retornaram HTTP 200, foram lidas verso a verso e tiveram as unidades inventariadas. Quatro pautas sustentadas adicionaram 124 pistas: Mt 12.1-8,15-21 (24), Mt 12.22-50 (35), Mt 13.1-23 (27) e Mt 13.24-50 (38). Capacidade deriva de `min(12, floor((pistas-1)/2))`: respectivamente 11, 12, 12 e 12, sem usar 25 pistas ou 12 pessoas como piso/meta.
+
+Mt 12.9-14 foi comparado com a pauta existente da mão ressequida em Marcos; o núcleo paralelo não foi duplicado, e fatos exclusivos de Mateus ficaram pendentes. Mt 13.51-52 e 13.53-58 foram lidos e permanecem como recortes específicos para lote posterior. A verificação documental adicional de Mt 10.1-15 confirmou que Marcos cobre o núcleo do envio, mas não nomes/relações, destino próprio de Mateus, formulação do anúncio, ordens adicionais, metais, saudação/paz e comparação de juízo; por isso Mt 10.1-15 fica pendente, sem autoria ou harmonização neste lote.
+
+- **Antes/depois:** 216 pautas/4.184 pistas → 220/4.308; os 216 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
+- **Limite:** Mt 12–13 não foi chamado completo; restam Mt 12.9-14 (exclusivos) e Mt 13.51-58. A próxima faixa não inventariada é Mt 18–20.
+- **Preservação:** dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, isolamento, sorteio e partidas foram preservados. Não houve merge, deploy, publicação, Firebase ou credenciais.
