@@ -17,3 +17,7 @@ Tiago passa a **analisado nesta rodada**, sem pauta autorada. A decisão decorre
 ## Reavaliação temática — checkpoint 032
 
 Tg 3.1-18 originou pauta temática sobre comparações da língua e características da sabedoria.
+
+## Autoria incremental — checkpoint 051
+
+Tg 1, Tg 2 e Tg 5 foram relidos nas páginas NAA identificadas, com HTTP 200 em 13/09/2026. Tg 1 originou `nt2-tiago-provacoes-sabedoria-pratica` (25 pistas), Tg 2 originou `nt2-tiago-parcialidade-fe-obras` (24) e Tg 5.1-12 originou `nt2-tiago-ricos-paciencia-palavra` (23). Abraão, Raabe e Jó ficam limitados às afirmações da carta; Tg 5.13-20 não integra a terceira pauta.

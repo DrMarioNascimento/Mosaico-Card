@@ -138,3 +138,11 @@ Em 13/09/2026, exclusivamente as páginas NAA de 2Tm 3, 2Tm 4, Tt 1 e Tt 3 ident
 - **Preservação:** os 152 objetos e as 2.733 pistas anteriores permaneceram integralmente idênticos.
 - **Limites:** perguntas e pistas são atributivas; nomes, lugares, manifestação, Dia, Escrituras e citações não receberam reconstruções externas. As dúvidas de 1Co 11.2-16 e 14.34-36 seguem isoladas.
 - **Pendências:** cartas gerais e Apocalipse ficam para nova base; o banco **não** está completo. Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 051 — lote limitado a Hb 13.1-19 e Tiago
+
+A rodada partiu de `869fd005716a37812e95001ee02e9a7a55eb5ed3`, com **156 pautas e 2.804 pistas**. As páginas NAA de Hb 13, Tg 1, Tg 2 e Tg 5 retornaram HTTP 200 em 13/09/2026, e somente Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12 foram lidos e autorados.
+
+Foram incorporadas quatro pautas e 95 pistas, elevando o catálogo a **160 pautas, 640 campos e 2.899 pistas**. Todas são elegíveis em alguma mesa e mantêm capacidade derivada por `min(12, floor((cartas-1)/2))`, com duas cartas por participante e ao menos uma no poço. A comparação mecanizada confirmou que os 156 objetos anteriores permaneceram integralmente idênticos.
+
+As perguntas e pistas atribuem as afirmações às próprias cartas; alusões não receberam complementação externa. **Pedro, João, Judas, Apocalipse e a auditoria global de cobertura permanecem pendentes; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

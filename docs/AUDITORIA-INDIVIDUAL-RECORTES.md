@@ -274,3 +274,14 @@ O limite de cinco encerra o lote. Nenhuma nota cruzada completa as citações, e
 | Tt 3 | NAA, HTTP 200; conduta, misericórdia, boas obras, divisões e instruções finais tratadas sem itinerário externo. | `nt2-tito-conduta-graca-instrucoes`, 19 pistas, capacidade 2–9. |
 
 O lote encerra com quatro pautas, sem forçar uma quinta. 2Tm 4.9-22 não foi duplicado nem fundido ao bloco 4.1-8. Cartas gerais e Apocalipse permanecem para nova base, e o banco não está completo.
+
+## Checkpoint 051 — decisões individuais em Hebreus e Tiago
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| Hb 13.1-19 | NAA, HTTP 200; hospitalidade, solidariedade, fidelidade, líderes e oração tratados como exortações atribuídas ao recorte. | `nt2-hebreus-hospitalidade-fidelidade-oracao`, 23 pistas, capacidade 2–11. |
+| Tg 1 | NAA, HTTP 200; provações, sabedoria, tentação e prática da palavra preservadas como relações internas. | `nt2-tiago-provacoes-sabedoria-pratica`, 25 pistas, capacidade 2–12. |
+| Tg 2 | NAA, HTTP 200; parcialidade e fé/obras mantidas no argumento; Abraão e Raabe não foram completados pelo AT. | `nt2-tiago-parcialidade-fe-obras`, 24 pistas, capacidade 2–11. |
+| Tg 5.1-12 | NAA, HTTP 200; ricos, salário retido, paciência, profetas, Jó e palavra responsável delimitados antes de 5.13. | `nt2-tiago-ricos-paciencia-palavra`, 23 pistas, capacidade 2–11. |
+
+O lote encerra nesses quatro recortes, sem forçar uma quinta pauta. Pedro, João, Judas, Apocalipse e a auditoria global de cobertura permanecem pendentes; o banco não está completo.

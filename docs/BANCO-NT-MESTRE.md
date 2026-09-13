@@ -526,3 +526,14 @@ Em 13/09/2026, exclusivamente as páginas NAA de 2Tm 3, 2Tm 4, Tt 1 e Tt 3 ident
 - **Preservação:** os 152 objetos e as 2.733 pistas anteriores permaneceram integralmente idênticos.
 - **Limites:** perguntas e pistas são atributivas; nomes, lugares, manifestação, Dia, Escrituras e citações não receberam reconstruções externas. As dúvidas de 1Co 11.2-16 e 14.34-36 seguem isoladas.
 - **Pendências:** cartas gerais e Apocalipse ficam para nova base; o banco **não** está completo. Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 051 — Hebreus 13.1-19 e Tiago 1, 2 e 5.1-12
+
+A base `869fd005716a37812e95001ee02e9a7a55eb5ed3` foi confirmada com **156 pautas, 624 campos e 2.804 pistas**. Em 13/09/2026, exclusivamente as páginas identificadas como Nova Almeida Atualizada de Hebreus 13 e Tiago 1, 2 e 5 em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200. A leitura e autoria ficaram limitadas a Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12.
+
+Foram acrescentadas quatro pautas e 95 pistas: Hb 13.1-19 com 23, Tg 1 com 25, Tg 2 com 24 e Tg 5.1-12 com 23. Listas e perguntas independentes foram mantidas como afirmações atributivas. Abraão, Raabe e Jó aparecem somente conforme Tiago os menciona; nenhum detalhe foi completado pelo Antigo Testamento.
+
+- **Inventário:** 160 pautas elegíveis, 640 campos e 2.899 pistas; 58 comportam até 12 participantes, seis até 11, seis até 10, seis até 9, quinze até 8, nove até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+- **Preservação:** a comparação mecanizada confirmou igualdade integral dos 156 objetos e das 2.804 pistas anteriores.
+- **Contrato:** C1–C4, alternativas distintas, gabaritos, focal justificado, metadados, revelação e pontuação 8/5/3/2 foram preservados; a capacidade segue `min(12, floor((cartas-1)/2))`.
+- **Pendências:** 1–2 Pedro, 1–3 João, Judas, Apocalipse e a auditoria global de cobertura ficam para etapas posteriores; o banco **não** está completo. As decisões e dúvidas vigentes permanecem inalteradas.

@@ -25,3 +25,7 @@ Hb 11 sustentou pauta com 25 fatos e quatro campos porque o próprio capítulo a
 ## Reavaliação temática — checkpoint 032
 
 Hb 11 foi liberado após a decisão do usuário: associações independentes são permitidas e todos os fatos permanecem restritos ao capítulo, sem complementação pelo AT.
+
+## Autoria incremental — checkpoint 051
+
+Hb 13.1-19 foi relido na página NAA identificada, com HTTP 200 em 13/09/2026, e originou `nt2-hebreus-hospitalidade-fidelidade-oracao` (23 pistas; capacidade 2–11). Hospitalidade, presos, casamento, contentamento, líderes, louvor, partilha e pedido de oração permanecem afirmações independentes do próprio recorte; não foi reconstruído o itinerário do autor.

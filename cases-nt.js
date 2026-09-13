@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-050",
+  "catalogVersion": "2026-09-13-checkpoint-051",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 156,
-    "fields": 624,
-    "editoriallyEligibleCases": 156,
-    "playableCases": 156,
-    "max12Cases": 57
+    "cases": 160,
+    "fields": 640,
+    "editoriallyEligibleCases": 160,
+    "playableCases": 160,
+    "max12Cases": 58
   },
   "order": [
     "nt2-joao-cana",
@@ -172,7 +172,11 @@
     "nt2-2timoteo-ultimos-dias-escrituras",
     "nt2-2timoteo-pregar-combater-coroa",
     "nt2-tito-presbiteros-ensino-repreensao",
-    "nt2-tito-conduta-graca-instrucoes"
+    "nt2-tito-conduta-graca-instrucoes",
+    "nt2-hebreus-hospitalidade-fidelidade-oracao",
+    "nt2-tiago-provacoes-sabedoria-pratica",
+    "nt2-tiago-parcialidade-fe-obras",
+    "nt2-tiago-ricos-paciencia-palavra"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -103513,6 +103517,3186 @@
             "passage": "3.1-15",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-hebreus-hospitalidade-fidelidade-oracao": {
+      "id": "nt2-hebreus-hospitalidade-fidelidade-oracao",
+      "kind": "canonical-case",
+      "title": "Hospitalidade, fidelidade e pedido de oração",
+      "canon": {
+        "book": "Hebreus",
+        "referenceNAA": "Hebreus 13.1-19",
+        "references": [
+          {
+            "book": "Hebreus",
+            "passage": "13.1-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Hebreus 13.1-19, que conjunto reúne hospitalidade, conduta, liderança e o pedido final do autor?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A instrução sobre hospitalidade abre a série concreta de deveres e distingue o bloco antes das exortações sobre dinheiro, líderes e oração.",
+      "editorial": {
+        "hinge": "O pedido para ser restituído depressa aos destinatários identifica o encerramento do recorte sem reconstruir local, data ou itinerário."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que prática deveria continuar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O amor fraternal e a hospitalidade"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A busca de uma cidade permanente"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A oferta repetida de animais"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A discussão sobre genealogias"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O amor fraternal e a hospitalidade",
+          "enderecoNAA": "Hebreus 13.1-2",
+          "answerReferences": [
+            {
+              "book": "Hebreus",
+              "passage": "13.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como presos e maltratados deveriam ser lembrados",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Como se os destinatários estivessem presos e sofressem com eles"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Como pessoas sem vínculo com a comunidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Somente por meio de ofertas anuais"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Apenas quando fossem líderes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Como se os destinatários estivessem presos e sofressem com eles",
+          "enderecoNAA": "Hebreus 13.3",
+          "answerReferences": [
+            {
+              "book": "Hebreus",
+              "passage": "13.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que contraste orienta a relação com dinheiro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Vida sem avareza e contentamento com o que se tem"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Acúmulo de bens como garantia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Venda obrigatória de toda posse"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Busca de riqueza por hospitalidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Vida sem avareza e contentamento com o que se tem",
+          "enderecoNAA": "Hebreus 13.5-6",
+          "answerReferences": [
+            {
+              "book": "Hebreus",
+              "passage": "13.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que o autor pede ao final do recorte",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que orem por ele e por seu rápido retorno"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que escolham um novo sumo sacerdote"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que viajem para fora do acampamento"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que enviem Timóteo imediatamente"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que orem por ele e por seu rápido retorno",
+          "enderecoNAA": "Hebreus 13.18-19",
+          "answerReferences": [
+            {
+              "book": "Hebreus",
+              "passage": "13.18-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O amor fraternal deveria permanecer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor fraternal deveria permanecer."
+          },
+          {
+            "id": "P02",
+            "text": "A hospitalidade não deveria ser esquecida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A hospitalidade não deveria ser esquecida."
+          },
+          {
+            "id": "P03",
+            "text": "Por meio dela, alguns hospedaram anjos sem saber.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por meio dela, alguns hospedaram anjos sem saber."
+          },
+          {
+            "id": "P04",
+            "text": "Os presos deveriam ser lembrados como se os leitores estivessem presos com eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os presos deveriam ser lembrados como se os leitores estivessem presos com eles."
+          },
+          {
+            "id": "P05",
+            "text": "Os maltratados deveriam ser lembrados por quem também vive no corpo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os maltratados deveriam ser lembrados por quem também vive no corpo."
+          },
+          {
+            "id": "P06",
+            "text": "O casamento deveria ser honrado por todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O casamento deveria ser honrado por todos."
+          },
+          {
+            "id": "P07",
+            "text": "O leito conjugal deveria ser conservado sem mácula.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O leito conjugal deveria ser conservado sem mácula."
+          },
+          {
+            "id": "P08",
+            "text": "A vida deveria ficar livre da avareza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida deveria ficar livre da avareza."
+          },
+          {
+            "id": "P09",
+            "text": "Os leitores deveriam contentar-se com o que possuíam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam contentar-se com o que possuíam."
+          },
+          {
+            "id": "P10",
+            "text": "A promessa citada afirma que Deus não deixaria nem abandonaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa citada afirma que Deus não deixaria nem abandonaria."
+          },
+          {
+            "id": "P11",
+            "text": "Essa confiança permite declarar que o Senhor é auxílio e afastar o medo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa confiança permite declarar que o Senhor é auxílio e afastar o medo."
+          },
+          {
+            "id": "P12",
+            "text": "Os líderes que anunciaram a palavra deveriam ser lembrados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes que anunciaram a palavra deveriam ser lembrados."
+          },
+          {
+            "id": "P13",
+            "text": "O resultado da vida desses líderes deveria ser considerado e sua fé imitada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O resultado da vida desses líderes deveria ser considerado e sua fé imitada."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus Cristo é declarado o mesmo ontem, hoje e para sempre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus Cristo é declarado o mesmo ontem, hoje e para sempre."
+          },
+          {
+            "id": "P15",
+            "text": "Ensinos diversos e estranhos não deveriam levar os leitores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ensinos diversos e estranhos não deveriam levar os leitores."
+          },
+          {
+            "id": "P16",
+            "text": "O coração deveria ser fortalecido pela graça, não por alimentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O coração deveria ser fortalecido pela graça, não por alimentos."
+          },
+          {
+            "id": "P17",
+            "text": "Os leitores são exortados a sair até Jesus, fora do acampamento, levando sua desonra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores são exortados a sair até Jesus, fora do acampamento, levando sua desonra."
+          },
+          {
+            "id": "P18",
+            "text": "Eles não têm aqui cidade permanente, mas buscam a futura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles não têm aqui cidade permanente, mas buscam a futura."
+          },
+          {
+            "id": "P19",
+            "text": "O sacrifício de louvor é associado ao fruto de lábios que confessam o nome de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sacrifício de louvor é associado ao fruto de lábios que confessam o nome de Jesus."
+          },
+          {
+            "id": "P20",
+            "text": "Fazer o bem e repartir com outros não deveria ser esquecido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fazer o bem e repartir com outros não deveria ser esquecido."
+          },
+          {
+            "id": "P21",
+            "text": "Os líderes velam pelas almas e prestarão contas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes velam pelas almas e prestarão contas."
+          },
+          {
+            "id": "P22",
+            "text": "O autor pede oração, afirmando consciência limpa e desejo de conduta correta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor pede oração, afirmando consciência limpa e desejo de conduta correta."
+          },
+          {
+            "id": "P23",
+            "text": "Ele insiste nesse pedido para ser restituído mais depressa aos destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Hebreus",
+                "passage": "13.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele insiste nesse pedido para ser restituído mais depressa aos destinatários."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Hebreus 13.1-19 encadeia amor fraternal, hospitalidade, solidariedade, fidelidade, contentamento, atenção aos líderes, louvor, partilha e oração.",
+        "hinge": "O pedido para ser restituído depressa aos destinatários identifica o encerramento do recorte sem reconstruir local, data ou itinerário.",
+        "references": [
+          {
+            "book": "Hebreus",
+            "passage": "13.1-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tiago-provacoes-sabedoria-pratica": {
+      "id": "nt2-tiago-provacoes-sabedoria-pratica",
+      "kind": "canonical-case",
+      "title": "Provações, sabedoria e prática da palavra",
+      "canon": {
+        "book": "Tiago",
+        "referenceNAA": "Tiago 1.1-27",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "1.1-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Tiago 1, que conjunto relaciona provações, origem da tentação, escuta e prática da palavra?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O efeito atribuído à provação da fé fornece o vínculo textual inicial que orienta as demais instruções do capítulo.",
+      "editorial": {
+        "hinge": "O contraste entre o espelho esquecido e a lei praticada conecta escuta e ação sem transformar a comparação em acontecimento histórico."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que a provação da fé produz",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Perseverança"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Riqueza duradoura"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Parcialidade"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Domínio da língua"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Perseverança",
+          "enderecoNAA": "Tiago 1.2-4",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "1.2-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como pedir sabedoria a Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Com fé, sem duvidar"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Com ira e discussão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Somente depois de enriquecer"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Por meio de juramento"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Com fé, sem duvidar",
+          "enderecoNAA": "Tiago 1.5-8",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "1.5-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "De onde procede a tentação descrita",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Do desejo de cada pessoa, que a atrai e seduz"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "De Deus, que tenta cada pessoa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Da lei perfeita da liberdade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dos órfãos e das viúvas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Do desejo de cada pessoa, que a atrai e seduz",
+          "enderecoNAA": "Tiago 1.13-15",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "1.13-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que postura diante da palavra é ordenada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ser praticante, não apenas ouvinte"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ouvir e logo esquecer"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Falar depressa e ouvir devagar"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Trocar a prática pela aparência religiosa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ser praticante, não apenas ouvinte",
+          "enderecoNAA": "Tiago 1.19-25",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "1.19-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Tiago se apresenta como servo de Deus e do Senhor Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago se apresenta como servo de Deus e do Senhor Jesus Cristo."
+          },
+          {
+            "id": "P02",
+            "text": "A saudação é dirigida às doze tribos na Diáspora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A saudação é dirigida às doze tribos na Diáspora."
+          },
+          {
+            "id": "P03",
+            "text": "Passar por várias provações deveria ser considerado motivo de grande alegria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Passar por várias provações deveria ser considerado motivo de grande alegria."
+          },
+          {
+            "id": "P04",
+            "text": "A provação da fé produz perseverança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A provação da fé produz perseverança."
+          },
+          {
+            "id": "P05",
+            "text": "A ação completa da perseverança conduz à integridade, sem falta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ação completa da perseverança conduz à integridade, sem falta."
+          },
+          {
+            "id": "P06",
+            "text": "Quem necessita de sabedoria deveria pedi-la a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem necessita de sabedoria deveria pedi-la a Deus."
+          },
+          {
+            "id": "P07",
+            "text": "Deus é descrito como aquele que dá generosamente e sem reprovar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus é descrito como aquele que dá generosamente e sem reprovar."
+          },
+          {
+            "id": "P08",
+            "text": "O pedido de sabedoria deve ser feito com fé, sem duvidar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido de sabedoria deve ser feito com fé, sem duvidar."
+          },
+          {
+            "id": "P09",
+            "text": "Quem duvida é comparado à onda do mar agitada pelo vento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem duvida é comparado à onda do mar agitada pelo vento."
+          },
+          {
+            "id": "P10",
+            "text": "A pessoa indecisa é chamada inconstante em todos os caminhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.7-8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa indecisa é chamada inconstante em todos os caminhos."
+          },
+          {
+            "id": "P11",
+            "text": "O irmão humilde deveria gloriar-se em sua exaltação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O irmão humilde deveria gloriar-se em sua exaltação."
+          },
+          {
+            "id": "P12",
+            "text": "O rico é comparado à flor que passa e murcha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.10-11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rico é comparado à flor que passa e murcha."
+          },
+          {
+            "id": "P13",
+            "text": "Quem suporta a provação receberá a coroa da vida depois de aprovado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem suporta a provação receberá a coroa da vida depois de aprovado."
+          },
+          {
+            "id": "P14",
+            "text": "Deus não é tentado pelo mal e não tenta ninguém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus não é tentado pelo mal e não tenta ninguém."
+          },
+          {
+            "id": "P15",
+            "text": "Cada pessoa é tentada quando atraída e seduzida pelo próprio desejo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada pessoa é tentada quando atraída e seduzida pelo próprio desejo."
+          },
+          {
+            "id": "P16",
+            "text": "O desejo concebido dá à luz o pecado, e o pecado consumado gera morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O desejo concebido dá à luz o pecado, e o pecado consumado gera morte."
+          },
+          {
+            "id": "P17",
+            "text": "Toda boa dádiva e todo dom perfeito são atribuídos ao Pai das luzes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda boa dádiva e todo dom perfeito são atribuídos ao Pai das luzes."
+          },
+          {
+            "id": "P18",
+            "text": "Cada pessoa deveria ser pronta para ouvir, tardia para falar e tardia para irar-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada pessoa deveria ser pronta para ouvir, tardia para falar e tardia para irar-se."
+          },
+          {
+            "id": "P19",
+            "text": "A ira humana não produz a justiça de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ira humana não produz a justiça de Deus."
+          },
+          {
+            "id": "P20",
+            "text": "A palavra implantada deveria ser acolhida com mansidão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra implantada deveria ser acolhida com mansidão."
+          },
+          {
+            "id": "P21",
+            "text": "Os leitores deveriam ser praticantes da palavra, não somente ouvintes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam ser praticantes da palavra, não somente ouvintes."
+          },
+          {
+            "id": "P22",
+            "text": "O ouvinte não praticante é comparado a quem olha o rosto no espelho e logo o esquece.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.23-24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ouvinte não praticante é comparado a quem olha o rosto no espelho e logo o esquece."
+          },
+          {
+            "id": "P23",
+            "text": "Quem persevera na lei perfeita da liberdade e pratica será feliz no que realizar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem persevera na lei perfeita da liberdade e pratica será feliz no que realizar."
+          },
+          {
+            "id": "P24",
+            "text": "A religião de quem não refreia a língua é chamada vã.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A religião de quem não refreia a língua é chamada vã."
+          },
+          {
+            "id": "P25",
+            "text": "A religião pura inclui visitar órfãos e viúvas em suas aflições e guardar-se do mundo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "1.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A religião pura inclui visitar órfãos e viúvas em suas aflições e guardar-se do mundo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Tiago 1 atribui perseverança às provações, orienta o pedido de sabedoria, localiza a tentação no desejo e exige prática coerente da palavra.",
+        "hinge": "O contraste entre o espelho esquecido e a lei praticada conecta escuta e ação sem transformar a comparação em acontecimento histórico.",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "1.1-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tiago-parcialidade-fe-obras": {
+      "id": "nt2-tiago-parcialidade-fe-obras",
+      "kind": "canonical-case",
+      "title": "Parcialidade, misericórdia e fé com obras",
+      "canon": {
+        "book": "Tiago",
+        "referenceNAA": "Tiago 2.1-26",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "2.1-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Tiago 2, que conjunto reúne a censura à parcialidade e o argumento sobre fé e obras?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A cena do rico e do pobre torna concreta a parcialidade censurada e fornece o contraste mais reconhecível do capítulo.",
+      "editorial": {
+        "hinge": "Abraão e Raabe aparecem somente conforme as afirmações de Tiago; nenhum detalhe de suas narrativas foi completado pelo Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que distinção a assembleia é advertida a não fazer",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Favorecer quem usa roupa luxuosa e rebaixar o pobre"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Preferir quem pratica misericórdia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Honrar igualmente rico e pobre"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Escolher mestres entre os visitantes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Favorecer quem usa roupa luxuosa e rebaixar o pobre",
+          "enderecoNAA": "Tiago 2.1-4",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "2.1-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que mandamento é chamado lei régia",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Amar o próximo como a si mesmo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Não jurar pelo céu"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pedir sabedoria sem duvidar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Confessar pecados uns aos outros"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Amar o próximo como a si mesmo",
+          "enderecoNAA": "Tiago 2.8",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "2.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que relação o texto estabelece entre misericórdia e juízo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A misericórdia triunfa sobre o juízo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O juízo dispensa misericórdia para todos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A riqueza triunfa sobre o juízo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A parcialidade cumpre a misericórdia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A misericórdia triunfa sobre o juízo",
+          "enderecoNAA": "Tiago 2.12-13",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "2.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como é descrita a fé sem obras",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Morta e sem proveito"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Perfeita e completa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Rica e honrada"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Oculta, mas suficiente"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Morta e sem proveito",
+          "enderecoNAA": "Tiago 2.14-17,26",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "2.14-17,26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A fé em Jesus Cristo, Senhor da glória, não deveria ser mantida com parcialidade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fé em Jesus Cristo, Senhor da glória, não deveria ser mantida com parcialidade."
+          },
+          {
+            "id": "P02",
+            "text": "O exemplo põe na reunião uma pessoa com anel de ouro e roupa luxuosa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O exemplo põe na reunião uma pessoa com anel de ouro e roupa luxuosa."
+          },
+          {
+            "id": "P03",
+            "text": "Também entra uma pessoa pobre com roupa suja.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também entra uma pessoa pobre com roupa suja."
+          },
+          {
+            "id": "P04",
+            "text": "Dar lugar de honra ao bem vestido e rebaixar o pobre é apresentado como distinção indevida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.3-4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dar lugar de honra ao bem vestido e rebaixar o pobre é apresentado como distinção indevida."
+          },
+          {
+            "id": "P05",
+            "text": "Quem faz essa distinção é descrito como juiz guiado por critérios maus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem faz essa distinção é descrito como juiz guiado por critérios maus."
+          },
+          {
+            "id": "P06",
+            "text": "Deus escolheu pobres aos olhos do mundo para serem ricos em fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus escolheu pobres aos olhos do mundo para serem ricos em fé."
+          },
+          {
+            "id": "P07",
+            "text": "Os herdeiros do Reino são associados à promessa feita aos que amam a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os herdeiros do Reino são associados à promessa feita aos que amam a Deus."
+          },
+          {
+            "id": "P08",
+            "text": "O texto acusa os destinatários de desonrar o pobre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto acusa os destinatários de desonrar o pobre."
+          },
+          {
+            "id": "P09",
+            "text": "Os ricos são descritos no argumento como opressores que arrastavam os leitores aos tribunais.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ricos são descritos no argumento como opressores que arrastavam os leitores aos tribunais."
+          },
+          {
+            "id": "P10",
+            "text": "Amar o próximo como a si mesmo é chamado lei régia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Amar o próximo como a si mesmo é chamado lei régia."
+          },
+          {
+            "id": "P11",
+            "text": "Praticar parcialidade é cometer pecado e ser condenado pela lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Praticar parcialidade é cometer pecado e ser condenado pela lei."
+          },
+          {
+            "id": "P12",
+            "text": "Tropeçar em um só ponto torna a pessoa culpada de toda a lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.10-11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tropeçar em um só ponto torna a pessoa culpada de toda a lei."
+          },
+          {
+            "id": "P13",
+            "text": "Os leitores deveriam falar e agir como quem será julgado pela lei da liberdade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam falar e agir como quem será julgado pela lei da liberdade."
+          },
+          {
+            "id": "P14",
+            "text": "O juízo sem misericórdia é anunciado para quem não exerceu misericórdia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O juízo sem misericórdia é anunciado para quem não exerceu misericórdia."
+          },
+          {
+            "id": "P15",
+            "text": "A misericórdia é declarada triunfante sobre o juízo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A misericórdia é declarada triunfante sobre o juízo."
+          },
+          {
+            "id": "P16",
+            "text": "Dizer que tem fé sem possuir obras é apresentado como sem proveito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dizer que tem fé sem possuir obras é apresentado como sem proveito."
+          },
+          {
+            "id": "P17",
+            "text": "Desejar paz e alimento a irmãos necessitados sem suprir o corpo é apresentado como inútil.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desejar paz e alimento a irmãos necessitados sem suprir o corpo é apresentado como inútil."
+          },
+          {
+            "id": "P18",
+            "text": "A fé, se não tiver obras, é chamada morta em si mesma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fé, se não tiver obras, é chamada morta em si mesma."
+          },
+          {
+            "id": "P19",
+            "text": "O interlocutor é desafiado a mostrar fé sem obras, enquanto o autor a mostraria pelas obras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O interlocutor é desafiado a mostrar fé sem obras, enquanto o autor a mostraria pelas obras."
+          },
+          {
+            "id": "P20",
+            "text": "Os demônios também creem que Deus é um e tremem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os demônios também creem que Deus é um e tremem."
+          },
+          {
+            "id": "P21",
+            "text": "Abraão é citado como justificado por obras ao oferecer Isaque sobre o altar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Abraão é citado como justificado por obras ao oferecer Isaque sobre o altar."
+          },
+          {
+            "id": "P22",
+            "text": "No argumento, a fé cooperou com as obras e foi aperfeiçoada por elas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No argumento, a fé cooperou com as obras e foi aperfeiçoada por elas."
+          },
+          {
+            "id": "P23",
+            "text": "Raabe é citada por acolher os mensageiros e fazê-los partir por outro caminho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Raabe é citada por acolher os mensageiros e fazê-los partir por outro caminho."
+          },
+          {
+            "id": "P24",
+            "text": "Assim como o corpo sem espírito está morto, a fé sem obras é declarada morta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Assim como o corpo sem espírito está morto, a fé sem obras é declarada morta."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Tiago 2 reprova distinções entre rico e pobre, chama o amor ao próximo de lei régia e argumenta que uma fé sem obras é morta.",
+        "hinge": "Abraão e Raabe aparecem somente conforme as afirmações de Tiago; nenhum detalhe de suas narrativas foi completado pelo Antigo Testamento.",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "2.1-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tiago-ricos-paciencia-palavra": {
+      "id": "nt2-tiago-ricos-paciencia-palavra",
+      "kind": "canonical-case",
+      "title": "Ricos advertidos, paciência e palavra responsável",
+      "canon": {
+        "book": "Tiago",
+        "referenceNAA": "Tiago 5.1-12",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "5.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Tiago 5.1-12, que conjunto relaciona a advertência aos ricos, a paciência e a proibição de jurar?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O clamor do salário retido é a acusação factual mais específica do recorte e ancora as advertências e exortações seguintes.",
+      "editorial": {
+        "hinge": "A perseverança de Jó é apenas a associação expressa por Tiago 5.11; o banco não acrescenta eventos ou explicações do Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que acusação é feita contra os ricos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O salário retido dos trabalhadores clama"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Eles acolheram os trabalhadores com igualdade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Eles repartiram todas as colheitas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Eles aguardaram pacientemente a chuva"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O salário retido dos trabalhadores clama",
+          "enderecoNAA": "Tiago 5.1-6",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "5.1-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que exemplo ilustra a espera paciente",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O lavrador que aguarda o precioso fruto da terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O comerciante que planeja outra cidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O rico que acumula roupas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O juiz que fica diante da porta"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O lavrador que aguarda o precioso fruto da terra",
+          "enderecoNAA": "Tiago 5.7-8",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "5.7-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem é apresentado como exemplo de sofrimento e paciência",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os profetas que falaram em nome do Senhor"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os ricos que retiveram salários"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os comerciantes que fizeram planos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os juízes que favoreceram o rico"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os profetas que falaram em nome do Senhor",
+          "enderecoNAA": "Tiago 5.10-11",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "5.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como deve ser a resposta em lugar de juramento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O sim deve ser sim, e o não, não"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Toda resposta deve invocar o céu"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A resposta deve depender da terra"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O silêncio deve substituir sim e não"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O sim deve ser sim, e o não, não",
+          "enderecoNAA": "Tiago 5.12",
+          "answerReferences": [
+            {
+              "book": "Tiago",
+              "passage": "5.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os ricos são chamados a chorar por causa das desgraças que lhes sobreviriam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ricos são chamados a chorar por causa das desgraças que lhes sobreviriam."
+          },
+          {
+            "id": "P02",
+            "text": "As riquezas são descritas como apodrecidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As riquezas são descritas como apodrecidas."
+          },
+          {
+            "id": "P03",
+            "text": "As roupas são descritas como comidas por traças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As roupas são descritas como comidas por traças."
+          },
+          {
+            "id": "P04",
+            "text": "O ouro e a prata corroídos testemunhariam contra seus donos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ouro e a prata corroídos testemunhariam contra seus donos."
+          },
+          {
+            "id": "P05",
+            "text": "O acúmulo de tesouros é situado nos últimos dias pelo próprio texto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O acúmulo de tesouros é situado nos últimos dias pelo próprio texto."
+          },
+          {
+            "id": "P06",
+            "text": "O salário retido dos trabalhadores que ceifaram os campos clama.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O salário retido dos trabalhadores que ceifaram os campos clama."
+          },
+          {
+            "id": "P07",
+            "text": "Os clamores dos ceifeiros chegaram aos ouvidos do Senhor dos Exércitos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os clamores dos ceifeiros chegaram aos ouvidos do Senhor dos Exércitos."
+          },
+          {
+            "id": "P08",
+            "text": "Os ricos são acusados de viver em luxo e prazeres sobre a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ricos são acusados de viver em luxo e prazeres sobre a terra."
+          },
+          {
+            "id": "P09",
+            "text": "Eles são acusados de condenar e matar o justo, que não lhes resiste.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles são acusados de condenar e matar o justo, que não lhes resiste."
+          },
+          {
+            "id": "P10",
+            "text": "Os irmãos deveriam ser pacientes até a vinda do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos deveriam ser pacientes até a vinda do Senhor."
+          },
+          {
+            "id": "P11",
+            "text": "O lavrador aguarda o precioso fruto da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O lavrador aguarda o precioso fruto da terra."
+          },
+          {
+            "id": "P12",
+            "text": "A espera do lavrador inclui as primeiras e as últimas chuvas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A espera do lavrador inclui as primeiras e as últimas chuvas."
+          },
+          {
+            "id": "P13",
+            "text": "Os leitores deveriam fortalecer o coração porque a vinda do Senhor estava próxima.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam fortalecer o coração porque a vinda do Senhor estava próxima."
+          },
+          {
+            "id": "P14",
+            "text": "Os irmãos não deveriam queixar-se uns dos outros para não serem julgados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos não deveriam queixar-se uns dos outros para não serem julgados."
+          },
+          {
+            "id": "P15",
+            "text": "O Juiz é apresentado como estando às portas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Juiz é apresentado como estando às portas."
+          },
+          {
+            "id": "P16",
+            "text": "Os profetas que falaram em nome do Senhor são dados como exemplo de sofrimento e paciência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os profetas que falaram em nome do Senhor são dados como exemplo de sofrimento e paciência."
+          },
+          {
+            "id": "P17",
+            "text": "Os que perseveraram são chamados felizes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que perseveraram são chamados felizes."
+          },
+          {
+            "id": "P18",
+            "text": "A perseverança de Jó é mencionada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A perseverança de Jó é mencionada."
+          },
+          {
+            "id": "P19",
+            "text": "O fim dado pelo Senhor é associado à sua compaixão e misericórdia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fim dado pelo Senhor é associado à sua compaixão e misericórdia."
+          },
+          {
+            "id": "P20",
+            "text": "Acima de tudo, os irmãos não deveriam jurar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Acima de tudo, os irmãos não deveriam jurar."
+          },
+          {
+            "id": "P21",
+            "text": "O texto menciona especificamente juramentos pelo céu, pela terra ou por outra coisa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto menciona especificamente juramentos pelo céu, pela terra ou por outra coisa."
+          },
+          {
+            "id": "P22",
+            "text": "O sim deveria ser sim, e o não deveria ser não.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sim deveria ser sim, e o não deveria ser não."
+          },
+          {
+            "id": "P23",
+            "text": "Essa orientação é dada para que não caíssem em condenação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tiago",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa orientação é dada para que não caíssem em condenação."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Tiago 5.1-12 denuncia riqueza injusta e salários retidos, recomenda paciência à semelhança do lavrador e dos profetas e exige palavra sem juramentos.",
+        "hinge": "A perseverança de Jó é apenas a associação expressa por Tiago 5.11; o banco não acrescenta eventos ou explicações do Antigo Testamento.",
+        "references": [
+          {
+            "book": "Tiago",
+            "passage": "5.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

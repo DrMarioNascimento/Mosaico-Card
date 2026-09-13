@@ -78,3 +78,9 @@ A base de 147 pautas/2.652 pistas foi preservada mecanicamente. Após consulta H
 ## Checkpoint 050 — 2 Timóteo 3–4.8 e Tito 1,3
 
 A base de 152 pautas/2.733 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 2Tm 3, 2Tm 4.1-8, Tt 1 e Tt 3, quatro blocos coerentes acrescentaram 71 pistas, levando o inventário a **156 pautas, 624 campos e 2.804 pistas**. Nenhum itinerário, identidade, cronologia ou nota cruzada foi importado. Cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.
+
+## Checkpoint 051 — Hebreus 13 e Tiago
+
+Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12 foram relidos nas páginas NAA identificadas, com decisão individual e autoria. O lote acrescenta quatro pautas e 95 pistas ao inventário anterior de 156/2.804, totalizando **160 pautas, 640 campos e 2.899 pistas**. As alusões a Abraão, Raabe e Jó ficam restritas ao que Tiago afirma. Tg 5.13-20 não foi anexado ao bloco autorizado.
+
+**Pedro, João, Judas, Apocalipse e a auditoria global de cobertura continuam pendentes; o banco não está completo.**
