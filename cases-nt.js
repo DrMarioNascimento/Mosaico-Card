@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-037",
+  "catalogVersion": "2026.09-batch-041",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 116,
-    "fields": 464,
-    "editoriallyEligibleCases": 116,
-    "playableCases": 116,
-    "max12Cases": 56
+    "cases": 120,
+    "fields": 480,
+    "editoriallyEligibleCases": 120,
+    "playableCases": 120,
+    "max12Cases": 57
   },
   "order": [
     "nt2-joao-cana",
@@ -132,7 +132,11 @@
     "nt2-atos-paulo-corinto",
     "nt2-atos-efeso-ceva",
     "nt2-atos-agabo-jerusalem",
-    "nt2-atos-conspiracao-transferencia"
+    "nt2-atos-conspiracao-transferencia",
+    "nt2-romanos-abertura-visita",
+    "nt2-romanos-pecado-graca-servico",
+    "nt2-romanos-lei-pecado-conflito",
+    "nt2-romanos-espirito-adocao-esperanca"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -77493,6 +77497,2754 @@
             "checkedAt": "2026-09-13"
           }
         ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-abertura-visita": {
+      "id": "nt2-romanos-abertura-visita",
+      "kind": "canonical-case",
+      "title": "A abertura e o desejo de visita em Romanos",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 1.1-15",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "1.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a abertura de Romanos, que conjunto reúne chamado, destinatários, desejo e obrigação declarados por Paulo?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O propósito declarado para a visita distingue o desejo pastoral de uma simples informação de viagem.",
+      "editorial": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para que Paulo desejava repartir algum dom espiritual",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Para que os destinatários fossem fortalecidos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Para que partissem imediatamente da cidade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Para que recolhessem uma oferta para ele"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Para que escolhessem um novo apóstolo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Para que os destinatários fossem fortalecidos",
+          "enderecoNAA": "Romanos 1.11",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "1.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como Paulo se apresenta no início da carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Servo de Cristo Jesus e chamado para ser apóstolo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Governador da Judeia e mestre da lei"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Profeta de Jerusalém e sacerdote"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Escriba de Roma e mensageiro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Servo de Cristo Jesus e chamado para ser apóstolo",
+          "enderecoNAA": "Romanos 1.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "A quem a saudação é dirigida",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A todos os amados de Deus que estão em Roma"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Somente aos líderes que estavam em Jerusalém"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Aos irmãos residentes em Filipos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Aos santos reunidos em Corinto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A todos os amados de Deus que estão em Roma",
+          "enderecoNAA": "Romanos 1.7",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "1.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem Paulo se declarou devedor",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A gregos e bárbaros, sábios e insensatos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A judeus e samaritanos, sacerdotes e levitas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A romanos e espanhóis, ricos e pobres"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A governantes e soldados, livres e presos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A gregos e bárbaros, sábios e insensatos",
+          "enderecoNAA": "Romanos 1.14",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "1.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo se apresenta como servo de Cristo Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se apresenta como servo de Cristo Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Ele afirma ter sido chamado para ser apóstolo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirma ter sido chamado para ser apóstolo."
+          },
+          {
+            "id": "P03",
+            "text": "Paulo diz ter sido separado para o evangelho de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo diz ter sido separado para o evangelho de Deus."
+          },
+          {
+            "id": "P04",
+            "text": "Os destinatários também foram chamados para pertencer a Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários também foram chamados para pertencer a Jesus Cristo."
+          },
+          {
+            "id": "P05",
+            "text": "A carta se dirige aos amados de Deus que estão em Roma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta se dirige aos amados de Deus que estão em Roma."
+          },
+          {
+            "id": "P06",
+            "text": "Esses destinatários são chamados para ser santos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esses destinatários são chamados para ser santos."
+          },
+          {
+            "id": "P07",
+            "text": "Paulo dá graças porque a fé deles era proclamada no mundo inteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo dá graças porque a fé deles era proclamada no mundo inteiro."
+          },
+          {
+            "id": "P08",
+            "text": "Ele afirma que nunca deixava de mencioná-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirma que nunca deixava de mencioná-los."
+          },
+          {
+            "id": "P09",
+            "text": "Em suas orações, pedia uma oportunidade de visitá-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em suas orações, pedia uma oportunidade de visitá-los."
+          },
+          {
+            "id": "P10",
+            "text": "Paulo desejava muito vê-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo desejava muito vê-los."
+          },
+          {
+            "id": "P11",
+            "text": "Ele pretendia repartir algum dom espiritual para fortalecê-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pretendia repartir algum dom espiritual para fortalecê-los."
+          },
+          {
+            "id": "P12",
+            "text": "Paulo explica que haveria consolo mútuo pela fé deles e pela sua.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo explica que haveria consolo mútuo pela fé deles e pela sua."
+          },
+          {
+            "id": "P13",
+            "text": "Ele já havia se proposto muitas vezes a visitá-los, mas fora impedido até então.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele já havia se proposto muitas vezes a visitá-los, mas fora impedido até então."
+          },
+          {
+            "id": "P14",
+            "text": "Paulo se declara devedor a gregos e bárbaros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se declara devedor a gregos e bárbaros."
+          },
+          {
+            "id": "P15",
+            "text": "Sua obrigação declarada abrangia sábios e insensatos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua obrigação declarada abrangia sábios e insensatos."
+          },
+          {
+            "id": "P16",
+            "text": "Ele estava pronto a anunciar o evangelho também aos que estavam em Roma.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele estava pronto a anunciar o evangelho também aos que estavam em Roma."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "1.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 1.1-15 apresenta Paulo, identifica os destinatários em Roma e declara tanto o propósito da visita desejada quanto a abrangência de sua obrigação."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-pecado-graca-servico": {
+      "id": "nt2-romanos-pecado-graca-servico",
+      "kind": "canonical-case",
+      "title": "Morte ao pecado e serviço em Romanos 6",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 6.1-23",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "6.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 6, que conjunto expressa as respostas do argumento sobre batismo, oferta dos membros, serviço e resultado?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A associação do batismo à morte de Cristo inicia e organiza as consequências desenvolvidas no capítulo.",
+      "editorial": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que foram batizados os batizados em Cristo Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Na morte de Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Na sabedoria dos gregos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Na lei conjugal"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Na circuncisão dos gentios"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Na morte de Cristo",
+          "enderecoNAA": "Romanos 6.3",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como os membros devem ser oferecidos a Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Como instrumentos de justiça"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Como garantias de prosperidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Como sinais de autoridade civil"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Como provas de ascendência"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Como instrumentos de justiça",
+          "enderecoNAA": "Romanos 6.13",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "6.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "De que os destinatários foram feitos servos após serem libertados do pecado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Da justiça"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Do medo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Da tradição humana"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Da morte"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Da justiça",
+          "enderecoNAA": "Romanos 6.18",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "6.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual dom gratuito de Deus o texto contrapõe ao salário do pecado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A vida eterna em Cristo Jesus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A ausência de toda aflição"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O domínio político das nações"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A riqueza concedida nesta vida"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A vida eterna em Cristo Jesus",
+          "enderecoNAA": "Romanos 6.23",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "6.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O argumento rejeita continuar no pecado para que a graça aumente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.1-2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O argumento rejeita continuar no pecado para que a graça aumente."
+          },
+          {
+            "id": "P02",
+            "text": "Os batizados em Cristo Jesus foram batizados na morte dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os batizados em Cristo Jesus foram batizados na morte dele."
+          },
+          {
+            "id": "P03",
+            "text": "O batismo é associado ao sepultamento com Cristo na morte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O batismo é associado ao sepultamento com Cristo na morte."
+          },
+          {
+            "id": "P04",
+            "text": "O propósito expresso é andar em novidade de vida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito expresso é andar em novidade de vida."
+          },
+          {
+            "id": "P05",
+            "text": "A velha natureza é apresentada como crucificada com Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A velha natureza é apresentada como crucificada com Cristo."
+          },
+          {
+            "id": "P06",
+            "text": "Aqueles que morreram com Cristo creem que também viverão com ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aqueles que morreram com Cristo creem que também viverão com ele."
+          },
+          {
+            "id": "P07",
+            "text": "Os destinatários devem considerar-se mortos para o pecado e vivos para Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários devem considerar-se mortos para o pecado e vivos para Deus."
+          },
+          {
+            "id": "P08",
+            "text": "O pecado não deve reinar no corpo mortal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pecado não deve reinar no corpo mortal."
+          },
+          {
+            "id": "P09",
+            "text": "Os membros não devem ser oferecidos ao pecado como instrumentos de injustiça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os membros não devem ser oferecidos ao pecado como instrumentos de injustiça."
+          },
+          {
+            "id": "P10",
+            "text": "Eles devem ser oferecidos a Deus como instrumentos de justiça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles devem ser oferecidos a Deus como instrumentos de justiça."
+          },
+          {
+            "id": "P11",
+            "text": "O texto afirma que o pecado não terá domínio sobre eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto afirma que o pecado não terá domínio sobre eles."
+          },
+          {
+            "id": "P12",
+            "text": "A obediência é apresentada como conduzindo à justiça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A obediência é apresentada como conduzindo à justiça."
+          },
+          {
+            "id": "P13",
+            "text": "Os antigos escravos do pecado obedeceram de coração à forma de doutrina recebida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os antigos escravos do pecado obedeceram de coração à forma de doutrina recebida."
+          },
+          {
+            "id": "P14",
+            "text": "Libertados do pecado, eles foram feitos servos da justiça.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Libertados do pecado, eles foram feitos servos da justiça."
+          },
+          {
+            "id": "P15",
+            "text": "Como servos de Deus, o fruto mencionado é para a santificação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Como servos de Deus, o fruto mencionado é para a santificação."
+          },
+          {
+            "id": "P16",
+            "text": "O fim associado a esse fruto é a vida eterna.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fim associado a esse fruto é a vida eterna."
+          },
+          {
+            "id": "P17",
+            "text": "O salário do pecado é identificado como morte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O salário do pecado é identificado como morte."
+          },
+          {
+            "id": "P18",
+            "text": "O dom gratuito de Deus é identificado como vida eterna em Cristo Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "6.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dom gratuito de Deus é identificado como vida eterna em Cristo Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "6.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 6 nega que a graça autorize o pecado e articula morte com Cristo, oferta dos membros à justiça, mudança de serviço e vida eterna como dom."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-lei-pecado-conflito": {
+      "id": "nt2-romanos-lei-pecado-conflito",
+      "kind": "canonical-case",
+      "title": "Lei, pecado e conflito em Romanos 7",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 7.1-25",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "7.1-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 7, que conjunto identifica a analogia, a avaliação da lei, o conflito descrito e o livramento agradecido?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A avaliação explícita da lei impede que o argumento seja resumido como se a lei fosse identificada com o pecado.",
+      "editorial": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como o texto qualifica a lei e o mandamento",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A lei é santa, e o mandamento é santo, justo e bom"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A lei é pecado, e o mandamento é injusto"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A lei é inútil, e o mandamento é dispensável"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A lei é secreta, e o mandamento é incerto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A lei é santa, e o mandamento é santo, justo e bom",
+          "enderecoNAA": "Romanos 7.12",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "7.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Até quando a mulher casada está ligada pela lei ao marido",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Enquanto ele vive"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Até que ela mude de cidade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Somente durante um ano"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Enquanto não tiver filhos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Enquanto ele vive",
+          "enderecoNAA": "Romanos 7.2",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "7.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o autor diz fazer em vez do bem que quer",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O mal que não quer"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A obra que planejou"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O sinal que prometeu"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O julgamento que recebeu"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O mal que não quer",
+          "enderecoNAA": "Romanos 7.19",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "7.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Por quem ele agradece após perguntar sobre o livramento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Por Jesus Cristo, nosso Senhor"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Por um governante romano"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Por um mensageiro desconhecido"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Por sua própria força"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Por Jesus Cristo, nosso Senhor",
+          "enderecoNAA": "Romanos 7.24-25",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "7.24-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A lei tem domínio sobre uma pessoa apenas enquanto ela vive.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lei tem domínio sobre uma pessoa apenas enquanto ela vive."
+          },
+          {
+            "id": "P02",
+            "text": "A mulher casada está ligada pela lei ao marido enquanto ele vive.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher casada está ligada pela lei ao marido enquanto ele vive."
+          },
+          {
+            "id": "P03",
+            "text": "Com a morte do marido, ela fica livre da lei conjugal.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com a morte do marido, ela fica livre da lei conjugal."
+          },
+          {
+            "id": "P04",
+            "text": "Os irmãos são descritos como mortos para a lei por meio do corpo de Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos são descritos como mortos para a lei por meio do corpo de Cristo."
+          },
+          {
+            "id": "P05",
+            "text": "O propósito declarado é que pertençam àquele que ressuscitou e frutifiquem para Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito declarado é que pertençam àquele que ressuscitou e frutifiquem para Deus."
+          },
+          {
+            "id": "P06",
+            "text": "O serviço é descrito segundo a maneira nova do Espírito, não a antiga da letra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O serviço é descrito segundo a maneira nova do Espírito, não a antiga da letra."
+          },
+          {
+            "id": "P07",
+            "text": "A pergunta se a lei é pecado recebe resposta negativa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta se a lei é pecado recebe resposta negativa."
+          },
+          {
+            "id": "P08",
+            "text": "O autor diz que conheceu o pecado por meio da lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor diz que conheceu o pecado por meio da lei."
+          },
+          {
+            "id": "P09",
+            "text": "O pecado aproveitou a ocasião do mandamento para enganar e matar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pecado aproveitou a ocasião do mandamento para enganar e matar."
+          },
+          {
+            "id": "P10",
+            "text": "A lei é chamada santa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lei é chamada santa."
+          },
+          {
+            "id": "P11",
+            "text": "O mandamento é chamado santo, justo e bom.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mandamento é chamado santo, justo e bom."
+          },
+          {
+            "id": "P12",
+            "text": "O autor afirma fazer o que detesta, não o que prefere.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor afirma fazer o que detesta, não o que prefere."
+          },
+          {
+            "id": "P13",
+            "text": "Ele diz que o querer o bem estava nele, mas não o realizar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele diz que o querer o bem estava nele, mas não o realizar."
+          },
+          {
+            "id": "P14",
+            "text": "Ele afirma praticar o mal que não queria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirma praticar o mal que não queria."
+          },
+          {
+            "id": "P15",
+            "text": "Segundo o homem interior, ele tinha prazer na lei de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo o homem interior, ele tinha prazer na lei de Deus."
+          },
+          {
+            "id": "P16",
+            "text": "Outra lei nos membros é descrita guerreando contra a lei da mente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra lei nos membros é descrita guerreando contra a lei da mente."
+          },
+          {
+            "id": "P17",
+            "text": "O autor pergunta quem o livrará do corpo daquela morte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor pergunta quem o livrará do corpo daquela morte."
+          },
+          {
+            "id": "P18",
+            "text": "A resposta de gratidão é dirigida a Deus por Jesus Cristo, nosso Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "7.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta de gratidão é dirigida a Deus por Jesus Cristo, nosso Senhor."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "7.1-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 7 usa a analogia conjugal, distingue a lei do pecado, descreve o conflito entre querer e agir e encerra a pergunta de livramento com gratidão por Jesus Cristo."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-espirito-adocao-esperanca": {
+      "id": "nt2-romanos-espirito-adocao-esperanca",
+      "kind": "canonical-case",
+      "title": "Espírito, adoção e esperança em Romanos 8",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 8.1-39",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "8.1-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 8, que conjunto reúne ausência de condenação, filiação, auxílio na fraqueza e inseparabilidade declaradas no capítulo?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A conclusão sobre aquilo que não pode separar do amor de Deus integra sem confundir as afirmações anteriores sobre Espírito, adoção e esperança.",
+      "editorial": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que pode separar do amor de Deus em Cristo Jesus, segundo a conclusão",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Nenhuma outra criatura"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A tribulação isoladamente"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "As coisas do presente"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A altura e a profundidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Nenhuma outra criatura",
+          "enderecoNAA": "Romanos 8.38-39",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "8.38-39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para quem o texto declara não haver condenação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Para os que estão em Cristo Jesus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Para os que nunca enfrentam sofrimento"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Para os que conhecem todas as respostas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Para os que pertencem a uma só nação"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Para os que estão em Cristo Jesus",
+          "enderecoNAA": "Romanos 8.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "8.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem são chamados filhos de Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Todos os guiados pelo Espírito de Deus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Todos os governantes das nações"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Somente os que não sentem fraqueza"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Somente os que veem o que esperam"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Todos os guiados pelo Espírito de Deus",
+          "enderecoNAA": "Romanos 8.14",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "8.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como o Espírito ajuda na fraqueza mencionada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Intercedendo com gemidos inexprimíveis"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Eliminando imediatamente todo sofrimento"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Revelando uma cronologia dos acontecimentos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dispensando os santos de orar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Intercedendo com gemidos inexprimíveis",
+          "enderecoNAA": "Romanos 8.26",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "8.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Não existe condenação para os que estão em Cristo Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não existe condenação para os que estão em Cristo Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "A lei do Espírito da vida libertou da lei do pecado e da morte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lei do Espírito da vida libertou da lei do pecado e da morte."
+          },
+          {
+            "id": "P03",
+            "text": "Deus enviou seu próprio Filho em semelhança de carne pecaminosa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus enviou seu próprio Filho em semelhança de carne pecaminosa."
+          },
+          {
+            "id": "P04",
+            "text": "A inclinação do Espírito é apresentada como vida e paz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A inclinação do Espírito é apresentada como vida e paz."
+          },
+          {
+            "id": "P05",
+            "text": "Pertencer a Cristo é relacionado a ter o Espírito de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pertencer a Cristo é relacionado a ter o Espírito de Cristo."
+          },
+          {
+            "id": "P06",
+            "text": "O Espírito daquele que ressuscitou Jesus é apresentado como vivificando o corpo mortal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito daquele que ressuscitou Jesus é apresentado como vivificando o corpo mortal."
+          },
+          {
+            "id": "P07",
+            "text": "Mortificar pelo Espírito os feitos do corpo é associado a viver.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mortificar pelo Espírito os feitos do corpo é associado a viver."
+          },
+          {
+            "id": "P08",
+            "text": "Os guiados pelo Espírito de Deus são chamados filhos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os guiados pelo Espírito de Deus são chamados filhos de Deus."
+          },
+          {
+            "id": "P09",
+            "text": "O Espírito recebido é de adoção, não de escravidão para o medo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito recebido é de adoção, não de escravidão para o medo."
+          },
+          {
+            "id": "P10",
+            "text": "O próprio Espírito confirma ao nosso espírito que somos filhos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio Espírito confirma ao nosso espírito que somos filhos de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Os filhos são apresentados também como herdeiros de Deus e coerdeiros com Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os filhos são apresentados também como herdeiros de Deus e coerdeiros com Cristo."
+          },
+          {
+            "id": "P12",
+            "text": "Os sofrimentos presentes são considerados incomparáveis com a glória a ser revelada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os sofrimentos presentes são considerados incomparáveis com a glória a ser revelada."
+          },
+          {
+            "id": "P13",
+            "text": "Toda a criação é descrita gemendo e suportando angústias até agora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a criação é descrita gemendo e suportando angústias até agora."
+          },
+          {
+            "id": "P14",
+            "text": "Os que têm as primícias do Espírito aguardam a redenção do corpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que têm as primícias do Espírito aguardam a redenção do corpo."
+          },
+          {
+            "id": "P15",
+            "text": "Aquilo que ainda não se vê é aguardado com paciência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aquilo que ainda não se vê é aguardado com paciência."
+          },
+          {
+            "id": "P16",
+            "text": "O Espírito ajuda em nossa fraqueza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito ajuda em nossa fraqueza."
+          },
+          {
+            "id": "P17",
+            "text": "A fraqueza inclui não sabermos orar como convém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fraqueza inclui não sabermos orar como convém."
+          },
+          {
+            "id": "P18",
+            "text": "O próprio Espírito intercede com gemidos inexprimíveis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio Espírito intercede com gemidos inexprimíveis."
+          },
+          {
+            "id": "P19",
+            "text": "O Espírito intercede pelos santos de acordo com a vontade de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito intercede pelos santos de acordo com a vontade de Deus."
+          },
+          {
+            "id": "P20",
+            "text": "Todas as coisas cooperam para o bem dos que amam a Deus e são chamados segundo seu propósito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todas as coisas cooperam para o bem dos que amam a Deus e são chamados segundo seu propósito."
+          },
+          {
+            "id": "P21",
+            "text": "O argumento pergunta quem será contra nós se Deus é por nós.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O argumento pergunta quem será contra nós se Deus é por nós."
+          },
+          {
+            "id": "P22",
+            "text": "Cristo Jesus é apresentado como morto, ressuscitado e intercessor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo Jesus é apresentado como morto, ressuscitado e intercessor."
+          },
+          {
+            "id": "P23",
+            "text": "Tribulação, angústia e perseguição aparecem entre as possibilidades examinadas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tribulação, angústia e perseguição aparecem entre as possibilidades examinadas."
+          },
+          {
+            "id": "P24",
+            "text": "Em todas essas coisas, o texto chama os destinatários de mais que vencedores por meio daquele que os amou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em todas essas coisas, o texto chama os destinatários de mais que vencedores por meio daquele que os amou."
+          },
+          {
+            "id": "P25",
+            "text": "Nem qualquer outra criatura pode separar do amor de Deus em Cristo Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente afirmações explícitas do argumento de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "8.38-39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nem qualquer outra criatura pode separar do amor de Deus em Cristo Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Os quatro campos perguntam somente o que o texto afirma dentro deste argumento, sem converter as alternativas em teses verdadeiras nem recorrer a outro documento.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "8.1-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 8 articula vida no Espírito, adoção, esperança em meio ao sofrimento, intercessão e a conclusão de que criatura alguma separa do amor de Deus em Cristo Jesus."
       },
       "review": {
         "structural": "approved",

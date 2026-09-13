@@ -156,3 +156,16 @@ A rodada autorizada encerra nesses cinco recortes. At 21.7-14 e 23.12-35, Romano
 | At 23.12-35 | Atos 23, NAA, HTTP 200; conspiração, aviso do sobrinho, escolta, carta e custódia distinguidos dentro do próprio relato. | `nt2-atos-conspiracao-transferencia`, 24 pistas, capacidade 2–11. |
 
 A rodada encerra nos dois recortes autorizados, sem forçar uma terceira pauta. Romanos–Judas e Apocalipse permanecem enumerados para a próxima base; o banco não é declarado completo.
+
+## Checkpoint 041 — primeiro lote de Romanos
+
+Em 13/09/2026, as quatro páginas NAA identificadas de Romanos 1, 6, 7 e 8 em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200. A leitura e a decisão editorial abaixo ocorreram antes e separadamente dos validadores e testes do repositório.
+
+| Recorte | Delimitação individual conferida | Resultado |
+| --- | --- | --- |
+| Rm 1.1-15 | Apresentação de Paulo; destinatários em Roma; desejo, propósito e impedimento da visita; obrigação declarada a gregos/bárbaros e sábios/insensatos. | `nt2-romanos-abertura-visita`, 16 pistas, capacidade 2–7. |
+| Rm 6 | Batismo na morte de Cristo; oferta dos membros; mudança de serviço; fruto, fim e dom. As perguntas registram o que o argumento afirma, sem transformar distratores em teses. | `nt2-romanos-pecado-graca-servico`, 18 pistas, capacidade 2–8. |
+| Rm 7 | Analogia conjugal; avaliação da lei e do mandamento; conflito entre querer e agir; pergunta e gratidão finais. O argumento não foi fundido com Rm 6 ou Rm 8. | `nt2-romanos-lei-pecado-conflito`, 18 pistas, capacidade 2–8. |
+| Rm 8 | Ausência de condenação; vida e filiação no Espírito; esperança e intercessão; conclusão sobre o amor de Deus. Citação e alusões não foram completadas com o AT. | `nt2-romanos-espirito-adocao-esperanca`, 25 pistas, capacidade 2–12. |
+
+O lote autorizado termina nessas quatro pautas, sem forçar a quantidade máxima de cinco. Rm 12–15, Coríntios, as demais cartas e Apocalipse continuam pendentes e enumerados; nenhuma ausência foi convertida em descarte genérico, e o banco não é declarado completo.

@@ -40,3 +40,13 @@ A base de 114 pautas/2.063 pistas do commit `4ef45e4` foi confirmada antes da ed
 Foram acrescentadas `nt2-atos-agabo-jerusalem`, com 10 pistas, e `nt2-atos-conspiracao-transferencia`, com 24. O catálogo passa a **116 pautas, 464 campos e 2.097 pistas**, todas elegíveis em alguma mesa. A comparação mecanizada preservou integralmente os 114 objetos anteriores. A capacidade continua derivada de `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço.
 
 O diff editorial desta rodada contém somente as duas pautas autorizadas, suas 34 pistas, o catálogo regenerado e os registros documentais correspondentes. Romanos–Judas e Apocalipse permanecem para a próxima base; o banco não está completo. Não houve merge, deploy ou publicação.
+
+## Checkpoint 041 — primeiro lote limitado de Romanos
+
+A base `ee86a1912b2cbcf310f4574158e0a2dd5e4f3d1a` foi confirmada, antes de qualquer edição, com **116 pautas elegíveis e 2.097 pistas**. Em etapa bíblica separada dos testes, as páginas NAA de Romanos 1, 6, 7 e 8 em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e foram lidas somente nos recortes autorizados.
+
+Quatro pautas foram incorporadas: Rm 1.1-15 com 16 pistas, Rm 6 com 18, Rm 7 com 18 e Rm 8 com 25. O limite de cinco não foi tratado como meta. Os argumentos de Rm 6–8 foram delimitados separadamente; campos e pistas permanecem atributivos ao texto, sem importar fatos do AT ou harmonizar cartas, viagens e cronologias.
+
+O inventário passa a **120 pautas, 480 campos e 2.174 pistas**, todas elegíveis em alguma mesa. A capacidade continua calculada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada confirmou os 116 objetos anteriores integralmente inalterados; o auditor encontrou zero duplicatas exatas e nenhum par semântico pendente.
+
+**Rm 12–15, os candidatos restantes de Coríntios e das demais cartas, e Apocalipse permanecem pendentes. O banco não está completo.** As decisões textuais e interpretativas anteriores seguem preservadas. Não houve merge, deploy, publicação, Firebase ou credenciais.
