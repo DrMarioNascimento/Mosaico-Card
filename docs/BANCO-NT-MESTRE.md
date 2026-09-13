@@ -480,3 +480,13 @@ A base `884606496aeb54a9c0f71de5172445f286a4b7a0` foi confirmada limpa com 134 p
 - **Preservação:** os 134 objetos anteriores permanecem idênticos; nenhuma correção retroativa foi necessária.
 - **Delimitação:** capítulos separados, perguntas atributivas e nenhuma tese, alusão, viagem ou carta completada por fonte externa.
 - **Pendências:** Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse continuam para próximas bases; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem isoladas.
+
+## Checkpoint 047 — Efésios 4–5 e Colossenses 3–4
+
+A base `425da6439e88be3a743e83e0aea255add97236c3` foi confirmada com **138 pautas, 552 campos e 2.514 pistas**. Em 13/09/2026, exclusivamente as páginas de Efésios 4–5 e Colossenses 3–4 identificadas como NAA em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria. O limite de cinco não foi tratado como meta: os quatro capítulos sustentaram quatro pautas independentes.
+
+- **Inventário:** 142 pautas elegíveis, 568 campos e 2.593 pistas; 57 comportam até 12 participantes, três até 11, cinco até 10, cinco até 9, doze até 8, cinco até 7, 31 até 6, uma até 5, dez até 4 e treze até 3.
+- **Preservação:** a comparação mecanizada confirmou igualdade integral dos 138 objetos e das 2.514 pistas anteriores.
+- **Delimitação:** Ef 4, Ef 5, Cl 3 e Cl 4 permanecem pautas documentais separadas; temas semelhantes não foram fundidos. Tíquico, Onésimo, circulação de cartas e algemas em Cl 4 não foram alinhados a viagens, cronologias ou outros documentos.
+- **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; cada pauta tem quatro campos, focal justificado, pontuação derivada 8/5/3/2 e capacidade de 2–9.
+- **Pendências:** Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para as próximas bases desta sequência; o banco não está completo. As decisões textuais e interpretativas vigentes continuam inalteradas.

@@ -13,9 +13,9 @@
 | 1 Coríntios | Analisado — checkpoint 044 | capítulos 1–16 | 10 autorados | dúvidas de 11.2-16 e 14.34-36 isoladas |
 | 2 Coríntios | Analisado — checkpoint 045 | capítulos 1–13 | 4 autorados | coleta consolidada; 2Co 12 ambíguo |
 | Gálatas | Analisado — checkpoint 046 | capítulos 1–6 | 3 autorados | cronologia de Gl 2 bloqueada |
-| Efésios | Em andamento — checkpoint 046 | capítulos 1–3 e 6 | 4 autorados | Ef 4–5 pendentes; armadura não inflada |
+| Efésios | Analisado — checkpoint 047 | capítulos 1–6 | 6 autorados | armadura não inflada; capítulos mantidos independentes |
 | Filipenses | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | demais blocos insuficientes/argumentativos |
-| Colossenses | Analisado — decisões e comparação | capítulos 1–4 | 0 | envio consolidado documentalmente, sem pauta duplicada |
+| Colossenses | Analisado — checkpoint 047 | capítulos 1–4 | 2 autorados | temas não fundidos com Efésios; mensageiros e cartas sem harmonização |
 | 1 Tessalonicenses | Analisado — decisões por recorte | capítulos 1–5 | 2 autorados | paralelo com Atos sem cronologia forçada |
 | 2 Tessalonicenses | Analisado — decisões por recorte | capítulos 1–3 | 0 | 2Ts 2 ambíguo; demais insuficientes |
 | 1 Timóteo | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | delimitação heterogênea recusada |
@@ -60,3 +60,7 @@ A base de 131 pautas/2.381 pistas foi preservada mecanicamente. Após consulta H
 ## Checkpoint 046 — Gl 6 e Ef 1–3
 
 A base de 134 pautas/2.433 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura NAA somente de Gl 6 e Ef 1, 2 e 3, quatro pautas e 81 pistas foram acrescentadas, elevando o inventário a **138 pautas, 552 campos e 2.514 pistas**. Cada capítulo de Efésios permaneceu separado; perguntas e alternativas são atributivas, sem harmonização ou teses externas. Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para próximas bases; o banco não está completo.
+
+## Checkpoint 047 — Efésios 4–5 e Colossenses 3–4
+
+A base de 138 pautas/2.514 pistas foi preservada mecanicamente. A leitura NAA individual dos quatro capítulos autorizados acrescentou quatro pautas e 79 pistas, levando o inventário a **142 pautas, 568 campos e 2.593 pistas**. Efésios e Colossenses ficam analisados nesta rodada, com os recortes tratados independentemente e sem harmonizar Tíquico, Onésimo, viagens ou cartas. Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem pendentes nesta sequência; o banco não está completo.

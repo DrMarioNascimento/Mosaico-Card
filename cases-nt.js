@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-046",
+  "catalogVersion": "2026-09-13-checkpoint-047",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 138,
-    "fields": 552,
-    "editoriallyEligibleCases": 138,
-    "playableCases": 138,
+    "cases": 142,
+    "fields": 568,
+    "editoriallyEligibleCases": 142,
+    "playableCases": 142,
     "max12Cases": 57
   },
   "order": [
@@ -154,7 +154,11 @@
     "nt2-galatas-restauracao-semeadura-gloria",
     "nt2-efesios-bencaos-selo-oracao",
     "nt2-efesios-graca-paz-edificio",
-    "nt2-efesios-misterio-ministerio-oracao"
+    "nt2-efesios-misterio-ministerio-oracao",
+    "nt2-efesios-unidade-maturidade-nova-natureza",
+    "nt2-efesios-luz-sabedoria-relacoes",
+    "nt2-colossenses-alto-nova-natureza-conduta",
+    "nt2-colossenses-oracao-mensageiros-saudacoes"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -92483,6 +92487,2803 @@
             "passage": "3.1-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-unidade-maturidade-nova-natureza": {
+      "id": "nt2-efesios-unidade-maturidade-nova-natureza",
+      "kind": "canonical-case",
+      "title": "Unidade, maturidade e nova natureza em Efésios 4",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 4.1-32",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "4.1-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Efésios 4, qual unidade os destinatários devem preservar, para que foram concedidas funções de serviço, que mudança de natureza aprenderam e que conduta encerra o capítulo?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A finalidade declarada dos dons liga serviço, edificação e maturidade e distingue o eixo do capítulo de uma simples lista de funções.",
+      "editorial": {
+        "hinge": "A pauta atribui cada vínculo ao capítulo e não transforma as funções listadas em cargos definidos por fontes externas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Para que foram concedidas funções de serviço",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Para aperfeiçoar os santos, promover o serviço e edificar o corpo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Para substituir a cooperação de cada parte"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Para manter todos como crianças"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Para distribuir autoridade civil"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Para aperfeiçoar os santos, promover o serviço e edificar o corpo",
+          "enderecoNAA": "Efésios 4.11-16",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "4.11-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual unidade deve ser preservada",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A unidade do Espírito no vínculo da paz"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A uniformidade de todas as funções"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A separação entre os membros do corpo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A autonomia de cada doutrina"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A unidade do Espírito no vínculo da paz",
+          "enderecoNAA": "Efésios 4.1-6",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "4.1-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que mudança os destinatários aprenderam",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Deixar a velha natureza, renovar o entendimento e revestir-se da nova"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Retomar a antiga maneira de viver"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Trocar a verdade por desejos enganosos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Abandonar toda atividade manual"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Deixar a velha natureza, renovar o entendimento e revestir-se da nova",
+          "enderecoNAA": "Efésios 4.20-24",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "4.20-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que conduta encerra o capítulo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Bondade, compaixão e perdão mútuo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Amargura, gritaria e maldade"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Mentira para proteger o próximo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Palavras que não edificam"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Bondade, compaixão e perdão mútuo",
+          "enderecoNAA": "Efésios 4.25-32",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "4.25-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O autor se apresenta como prisioneiro no Senhor e pede vida digna da vocação recebida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor se apresenta como prisioneiro no Senhor e pede vida digna da vocação recebida."
+          },
+          {
+            "id": "P02",
+            "text": "Humildade, mansidão, paciência e suporte em amor acompanham o apelo inicial.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Humildade, mansidão, paciência e suporte em amor acompanham o apelo inicial."
+          },
+          {
+            "id": "P03",
+            "text": "O esforço pedido visa guardar a unidade do Espírito mediante o vínculo da paz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O esforço pedido visa guardar a unidade do Espírito mediante o vínculo da paz."
+          },
+          {
+            "id": "P04",
+            "text": "O capítulo enumera um corpo, um Espírito e uma esperança ligada ao chamado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O capítulo enumera um corpo, um Espírito e uma esperança ligada ao chamado."
+          },
+          {
+            "id": "P05",
+            "text": "Também afirma um Senhor, uma fé e um batismo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também afirma um Senhor, uma fé e um batismo."
+          },
+          {
+            "id": "P06",
+            "text": "Deus é apresentado como Pai de todos, acima de todos, atuante por todos e presente em todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus é apresentado como Pai de todos, acima de todos, atuante por todos e presente em todos."
+          },
+          {
+            "id": "P07",
+            "text": "A graça é concedida individualmente conforme a medida do dom de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A graça é concedida individualmente conforme a medida do dom de Cristo."
+          },
+          {
+            "id": "P08",
+            "text": "Entre as funções concedidas aparecem apóstolos, profetas, evangelistas, pastores e mestres.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Entre as funções concedidas aparecem apóstolos, profetas, evangelistas, pastores e mestres."
+          },
+          {
+            "id": "P09",
+            "text": "O aperfeiçoamento dos santos é relacionado ao desempenho do serviço.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O aperfeiçoamento dos santos é relacionado ao desempenho do serviço."
+          },
+          {
+            "id": "P10",
+            "text": "A finalidade do serviço inclui a edificação do corpo de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade do serviço inclui a edificação do corpo de Cristo."
+          },
+          {
+            "id": "P11",
+            "text": "O alvo inclui unidade da fé, conhecimento do Filho e maturidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O alvo inclui unidade da fé, conhecimento do Filho e maturidade."
+          },
+          {
+            "id": "P12",
+            "text": "A maturidade contrasta com crianças levadas por todo vento de doutrina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A maturidade contrasta com crianças levadas por todo vento de doutrina."
+          },
+          {
+            "id": "P13",
+            "text": "Verdade em amor e crescimento em Cristo aparecem juntos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Verdade em amor e crescimento em Cristo aparecem juntos."
+          },
+          {
+            "id": "P14",
+            "text": "O crescimento do corpo depende da cooperação correspondente de cada parte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O crescimento do corpo depende da cooperação correspondente de cada parte."
+          },
+          {
+            "id": "P15",
+            "text": "A antiga maneira de viver é associada a uma velha natureza corrompida por desejos enganosos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A antiga maneira de viver é associada a uma velha natureza corrompida por desejos enganosos."
+          },
+          {
+            "id": "P16",
+            "text": "A instrução inclui renovação no espírito do entendimento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução inclui renovação no espírito do entendimento."
+          },
+          {
+            "id": "P17",
+            "text": "A nova natureza é descrita como criada segundo Deus em justiça e retidão provenientes da verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A nova natureza é descrita como criada segundo Deus em justiça e retidão provenientes da verdade."
+          },
+          {
+            "id": "P18",
+            "text": "Quem roubava deve trabalhar no que é bom para poder repartir com quem necessita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem roubava deve trabalhar no que é bom para poder repartir com quem necessita."
+          },
+          {
+            "id": "P19",
+            "text": "A fala admitida deve servir à edificação conforme a necessidade e beneficiar quem ouve.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala admitida deve servir à edificação conforme a necessidade e beneficiar quem ouve."
+          },
+          {
+            "id": "P20",
+            "text": "Bondade, compaixão e perdão mútuo são contrapostos à maldade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "4.31-32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Bondade, compaixão e perdão mútuo são contrapostos à maldade."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Efésios 4 parte do chamado à unidade, apresenta funções destinadas ao serviço e à maturidade, contrasta a velha e a nova natureza e aplica essa mudança à fala, ao trabalho e ao perdão.",
+        "hinge": "A pauta atribui cada vínculo ao capítulo e não transforma as funções listadas em cargos definidos por fontes externas.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "4.1-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-luz-sabedoria-relacoes": {
+      "id": "nt2-efesios-luz-sabedoria-relacoes",
+      "kind": "canonical-case",
+      "title": "Luz, sabedoria e relações em Efésios 5",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 5.1-33",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "5.1-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Efésios 5, qual modelo orienta a vida em amor, como os destinatários devem viver como luz e sábios, com que devem ser cheios e a que Paulo aplica o grande mistério?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O contraste explícito entre embriaguez e plenitude do Espírito organiza práticas verificáveis de fala, louvor e gratidão sem exigir definição externa da experiência.",
+      "editorial": {
+        "hinge": "As relações são registradas como comandos e comparações da carta; a pauta não amplia o texto em sistema social nem completa sua citação com outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Com que devem ser cheios",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Com o Espírito"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Com vinho que leva à devassidão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Com palavras vazias"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Com ira contra os desobedientes"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Com o Espírito",
+          "enderecoNAA": "Efésios 5.18-20",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "5.18-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual modelo orienta a vida em amor",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cristo, que amou e se entregou"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "As obras ocultas das trevas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A avareza tratada como virtude"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A linguagem indecente"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cristo, que amou e se entregou",
+          "enderecoNAA": "Efésios 5.1-2",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "5.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como devem viver como luz e sábios",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Discernindo o que agrada ao Senhor e aproveitando o tempo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Participando das obras infrutíferas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ignorando que os dias são maus"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mantendo oculto o que a luz manifesta"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Discernindo o que agrada ao Senhor e aproveitando o tempo",
+          "enderecoNAA": "Efésios 5.8-17",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "5.8-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A que Paulo aplica o grande mistério",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A Cristo e à igreja"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "À identidade de uma carta perdida"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "À data de uma viagem"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Aos nomes dos principados"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A Cristo e à igreja",
+          "enderecoNAA": "Efésios 5.21-33",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "5.21-33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os destinatários são chamados a imitar Deus como filhos amados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários são chamados a imitar Deus como filhos amados."
+          },
+          {
+            "id": "P02",
+            "text": "A vida em amor toma como referência o amor e a entrega de Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida em amor toma como referência o amor e a entrega de Cristo."
+          },
+          {
+            "id": "P03",
+            "text": "A entrega de Cristo é descrita como oferta e sacrifício agradáveis a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A entrega de Cristo é descrita como oferta e sacrifício agradáveis a Deus."
+          },
+          {
+            "id": "P04",
+            "text": "Ação de graças substitui linguagem grosseira, tola ou indecente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ação de graças substitui linguagem grosseira, tola ou indecente."
+          },
+          {
+            "id": "P05",
+            "text": "A avareza é qualificada no capítulo como idolatria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A avareza é qualificada no capítulo como idolatria."
+          },
+          {
+            "id": "P06",
+            "text": "O passado como trevas é contrastado com a condição presente de luz no Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O passado como trevas é contrastado com a condição presente de luz no Senhor."
+          },
+          {
+            "id": "P07",
+            "text": "Bondade, justiça e verdade compõem o fruto da luz mencionado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Bondade, justiça e verdade compõem o fruto da luz mencionado."
+          },
+          {
+            "id": "P08",
+            "text": "Viver como luz inclui procurar aquilo que agrada ao Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Viver como luz inclui procurar aquilo que agrada ao Senhor."
+          },
+          {
+            "id": "P09",
+            "text": "Em vez de cumplicidade com obras infrutíferas, o texto pede que sejam reprovadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em vez de cumplicidade com obras infrutíferas, o texto pede que sejam reprovadas."
+          },
+          {
+            "id": "P10",
+            "text": "A vida cuidadosa é caracterizada como sábia, não tola.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida cuidadosa é caracterizada como sábia, não tola."
+          },
+          {
+            "id": "P11",
+            "text": "O tempo deve ser bem aproveitado porque os dias são maus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O tempo deve ser bem aproveitado porque os dias são maus."
+          },
+          {
+            "id": "P12",
+            "text": "Compreender a vontade do Senhor contrasta com ser insensato.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Compreender a vontade do Senhor contrasta com ser insensato."
+          },
+          {
+            "id": "P13",
+            "text": "Embriagar-se com vinho é contraposto a deixar-se encher do Espírito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Embriagar-se com vinho é contraposto a deixar-se encher do Espírito."
+          },
+          {
+            "id": "P14",
+            "text": "A plenitude é seguida por fala mútua com salmos, hinos e cânticos espirituais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A plenitude é seguida por fala mútua com salmos, hinos e cânticos espirituais."
+          },
+          {
+            "id": "P15",
+            "text": "Cantar e louvar ao Senhor ocorre com o coração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cantar e louvar ao Senhor ocorre com o coração."
+          },
+          {
+            "id": "P16",
+            "text": "Dar graças sempre por tudo a Deus Pai é feito em nome de Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dar graças sempre por tudo a Deus Pai é feito em nome de Jesus Cristo."
+          },
+          {
+            "id": "P17",
+            "text": "A sujeição mútua é colocada sob o temor de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sujeição mútua é colocada sob o temor de Cristo."
+          },
+          {
+            "id": "P18",
+            "text": "O amor pedido aos maridos é comparado ao amor de Cristo pela igreja.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor pedido aos maridos é comparado ao amor de Cristo pela igreja."
+          },
+          {
+            "id": "P19",
+            "text": "Cristo é descrito como quem alimenta e cuida da igreja, seu corpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.29-30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é descrito como quem alimenta e cuida da igreja, seu corpo."
+          },
+          {
+            "id": "P20",
+            "text": "Paulo declara que o grande mistério referido diz respeito a Cristo e à igreja.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "5.31-32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo declara que o grande mistério referido diz respeito a Cristo e à igreja."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Efésios 5 convoca à imitação de Deus e à vida em amor, contrasta luz e trevas, sabedoria e insensatez, vinho e plenitude do Espírito, e conclui aplicando sua linguagem relacional a Cristo e à igreja.",
+        "hinge": "As relações são registradas como comandos e comparações da carta; a pauta não amplia o texto em sistema social nem completa sua citação com outra fonte.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "5.1-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-colossenses-alto-nova-natureza-conduta": {
+      "id": "nt2-colossenses-alto-nova-natureza-conduta",
+      "kind": "canonical-case",
+      "title": "Coisas do alto, nova natureza e conduta em Colossenses 3",
+      "canon": {
+        "book": "Colossenses",
+        "referenceNAA": "Colossenses 3.1-25",
+        "references": [
+          {
+            "book": "Colossenses",
+            "passage": "3.1-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Colossenses 3, onde os destinatários devem concentrar o pensamento, que mudança de natureza fundamenta a nova conduta, o que deve governar a comunidade e a quem o serviço é dirigido?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O contraste entre despir-se da velha natureza e revestir-se da nova explica tanto as listas de abandono quanto as virtudes seguintes sem fundi-las com Efésios.",
+      "editorial": {
+        "hinge": "Os comandos domésticos permanecem declarações internas do capítulo; sem fundi-los com Efésios 5 ou construir uma doutrina externa de relações sociais."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que mudança fundamenta a nova conduta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Despiram-se da velha natureza e revestiram-se da nova"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mantiveram antigas práticas sem renovação"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Substituíram amor por parcialidade"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ocultaram a vida fora de Cristo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Despiram-se da velha natureza e revestiram-se da nova",
+          "enderecoNAA": "Colossenses 3.5-11",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "3.5-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde devem concentrar pensamento e busca",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Nas coisas do alto, onde Cristo está"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente nas coisas da terra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Nas distinções entre grego e judeu"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Na vigilância dos senhores terrenos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Nas coisas do alto, onde Cristo está",
+          "enderecoNAA": "Colossenses 3.1-4",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "3.1-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que deve governar e habitar na comunidade",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A paz de Cristo e a palavra de Cristo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A ira e a linguagem obscena"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A distinção entre escravo e livre"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O desejo de agradar pessoas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A paz de Cristo e a palavra de Cristo",
+          "enderecoNAA": "Colossenses 3.12-17",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "3.12-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem o serviço é dirigido",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A Cristo, o Senhor"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente às pessoas que observam"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "À recompensa concedida por senhores terrenos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A quem age com parcialidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A Cristo, o Senhor",
+          "enderecoNAA": "Colossenses 3.22-25",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "3.22-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A busca é direcionada ao alto, onde Cristo está assentado à direita de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A busca é direcionada ao alto, onde Cristo está assentado à direita de Deus."
+          },
+          {
+            "id": "P02",
+            "text": "O pensamento nas coisas do alto é contraposto ao pensamento nas coisas terrenas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pensamento nas coisas do alto é contraposto ao pensamento nas coisas terrenas."
+          },
+          {
+            "id": "P03",
+            "text": "A vida dos destinatários é descrita como oculta com Cristo em Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida dos destinatários é descrita como oculta com Cristo em Deus."
+          },
+          {
+            "id": "P04",
+            "text": "Quando Cristo se manifestar, eles também serão manifestados com ele em glória.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando Cristo se manifestar, eles também serão manifestados com ele em glória."
+          },
+          {
+            "id": "P05",
+            "text": "A natureza terrena deve ser mortificada, incluindo maus desejos e avareza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A natureza terrena deve ser mortificada, incluindo maus desejos e avareza."
+          },
+          {
+            "id": "P06",
+            "text": "O passado dos destinatários incluía andar nas práticas agora rejeitadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.6-7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O passado dos destinatários incluía andar nas práticas agora rejeitadas."
+          },
+          {
+            "id": "P07",
+            "text": "Ira, maldade, blasfêmia e linguagem obscena integram a lista a abandonar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ira, maldade, blasfêmia e linguagem obscena integram a lista a abandonar."
+          },
+          {
+            "id": "P08",
+            "text": "A proibição da mentira é ligada ao abandono da velha natureza e de suas práticas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A proibição da mentira é ligada ao abandono da velha natureza e de suas práticas."
+          },
+          {
+            "id": "P09",
+            "text": "A nova natureza se renova para conhecimento segundo a imagem de seu criador.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A nova natureza se renova para conhecimento segundo a imagem de seu criador."
+          },
+          {
+            "id": "P10",
+            "text": "Nesse novo âmbito, distinções enumeradas cedem à afirmação de que Cristo é tudo e está em todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nesse novo âmbito, distinções enumeradas cedem à afirmação de que Cristo é tudo e está em todos."
+          },
+          {
+            "id": "P11",
+            "text": "Eleitos, santos e amados devem revestir-se de compaixão, bondade, humildade, mansidão e paciência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eleitos, santos e amados devem revestir-se de compaixão, bondade, humildade, mansidão e paciência."
+          },
+          {
+            "id": "P12",
+            "text": "O perdão mútuo deve seguir o perdão recebido do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O perdão mútuo deve seguir o perdão recebido do Senhor."
+          },
+          {
+            "id": "P13",
+            "text": "O amor é colocado acima das virtudes como vínculo da perfeição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor é colocado acima das virtudes como vínculo da perfeição."
+          },
+          {
+            "id": "P14",
+            "text": "A paz de Cristo deve atuar no coração dos chamados em um só corpo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A paz de Cristo deve atuar no coração dos chamados em um só corpo."
+          },
+          {
+            "id": "P15",
+            "text": "A palavra de Cristo deve habitar ricamente, acompanhada de instrução e conselho mútuos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra de Cristo deve habitar ricamente, acompanhada de instrução e conselho mútuos."
+          },
+          {
+            "id": "P16",
+            "text": "Palavra e ação devem ocorrer em nome do Senhor Jesus, com gratidão a Deus Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Palavra e ação devem ocorrer em nome do Senhor Jesus, com gratidão a Deus Pai."
+          },
+          {
+            "id": "P17",
+            "text": "O trabalho dos servos não deve limitar-se aos momentos em que são observados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O trabalho dos servos não deve limitar-se aos momentos em que são observados."
+          },
+          {
+            "id": "P18",
+            "text": "Toda tarefa deve ser feita de coração, como para o Senhor e não para pessoas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda tarefa deve ser feita de coração, como para o Senhor e não para pessoas."
+          },
+          {
+            "id": "P19",
+            "text": "A recompensa da herança vem do Senhor, segundo a afirmação dirigida aos servos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A recompensa da herança vem do Senhor, segundo a afirmação dirigida aos servos."
+          },
+          {
+            "id": "P20",
+            "text": "A carta identifica Cristo como o Senhor a quem eles estão servindo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "3.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta identifica Cristo como o Senhor a quem eles estão servindo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Colossenses 3 dirige a busca para o alto, contrasta a velha e a nova natureza, reúne paz, palavra, amor e gratidão na vida comum e atribui a Cristo o serviço feito de coração.",
+        "hinge": "Os comandos domésticos permanecem declarações internas do capítulo; sem fundi-los com Efésios 5 ou construir uma doutrina externa de relações sociais.",
+        "references": [
+          {
+            "book": "Colossenses",
+            "passage": "3.1-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-colossenses-oracao-mensageiros-saudacoes": {
+      "id": "nt2-colossenses-oracao-mensageiros-saudacoes",
+      "kind": "canonical-case",
+      "title": "Oração, mensageiros e saudações em Colossenses 4",
+      "canon": {
+        "book": "Colossenses",
+        "referenceNAA": "Colossenses 4.1-18",
+        "references": [
+          {
+            "book": "Colossenses",
+            "passage": "4.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Colossenses 4, pelo que Paulo pede oração, quem informaria os destinatários, como Epafras atua por eles e que instruções acompanham a circulação e o encerramento da carta?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A missão expressamente atribuída a Tíquico e Onésimo delimita um eixo documental próprio, preservado sem identificar suas viagens ou cartas por outras fontes.",
+      "editorial": {
+        "hinge": "Tíquico, Onésimo, a carta de Laodiceia e as algemas ficam estritamente na proveniência de Colossenses; nenhuma viagem, identidade documental ou cronologia é reconstruída."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem informaria os destinatários",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tíquico, acompanhado de Onésimo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Epafras, acompanhado de Arquipo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Lucas, acompanhado de Demas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Marcos, acompanhado de Justo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tíquico, acompanhado de Onésimo",
+          "enderecoNAA": "Colossenses 4.7-9",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "4.7-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Pelo que Paulo pede oração",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Por uma porta à palavra e clareza ao anunciar o mistério de Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Por libertação imediata sem relação com a palavra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Por silêncio diante dos que são de fora"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Por uma carta que substituísse esta"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Por uma porta à palavra e clareza ao anunciar o mistério de Cristo",
+          "enderecoNAA": "Colossenses 4.2-4",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "4.2-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como Epafras atua por eles",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Luta sempre por eles em oração"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Entrega pessoalmente a carta de Laodiceia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Escreve a saudação de próprio punho"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Administra o ministério de Arquipo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Luta sempre por eles em oração",
+          "enderecoNAA": "Colossenses 4.12-13",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "4.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que instruções acompanham carta e encerramento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Trocar leituras com Laodiceia, advertir Arquipo e lembrar as algemas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ocultar a carta de todas as igrejas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Identificar a carta de Laodiceia com Efésios"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Enviar Paulo imediatamente a Hierápolis"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Trocar leituras com Laodiceia, advertir Arquipo e lembrar as algemas",
+          "enderecoNAA": "Colossenses 4.15-18",
+          "answerReferences": [
+            {
+              "book": "Colossenses",
+              "passage": "4.15-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A perseverança em oração deve incluir vigilância e ação de graças.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A perseverança em oração deve incluir vigilância e ação de graças."
+          },
+          {
+            "id": "P02",
+            "text": "Paulo pede que Deus abra uma porta para a palavra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo pede que Deus abra uma porta para a palavra."
+          },
+          {
+            "id": "P03",
+            "text": "A finalidade do pedido é falar do mistério de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade do pedido é falar do mistério de Cristo."
+          },
+          {
+            "id": "P04",
+            "text": "Paulo associa suas algemas ao mistério que anuncia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo associa suas algemas ao mistério que anuncia."
+          },
+          {
+            "id": "P05",
+            "text": "A oração também deve pedir que ele torne o mistério conhecido como lhe cabe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração também deve pedir que ele torne o mistério conhecido como lhe cabe."
+          },
+          {
+            "id": "P06",
+            "text": "Sabedoria com os de fora e bom uso do tempo são recomendados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sabedoria com os de fora e bom uso do tempo são recomendados."
+          },
+          {
+            "id": "P07",
+            "text": "A fala deve ser agradável e temperada com sal, apta a responder a cada pessoa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala deve ser agradável e temperada com sal, apta a responder a cada pessoa."
+          },
+          {
+            "id": "P08",
+            "text": "Tíquico é chamado irmão amado, ministro fiel e conservo no Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tíquico é chamado irmão amado, ministro fiel e conservo no Senhor."
+          },
+          {
+            "id": "P09",
+            "text": "Ele daria aos destinatários informações sobre a situação de Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele daria aos destinatários informações sobre a situação de Paulo."
+          },
+          {
+            "id": "P10",
+            "text": "O envio de Tíquico tem o propósito declarado de informar e animar os corações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O envio de Tíquico tem o propósito declarado de informar e animar os corações."
+          },
+          {
+            "id": "P11",
+            "text": "Onésimo segue com Tíquico e é apresentado como irmão fiel e amado daquela comunidade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Onésimo segue com Tíquico e é apresentado como irmão fiel e amado daquela comunidade."
+          },
+          {
+            "id": "P12",
+            "text": "Os dois contariam o que estava acontecendo no local do remetente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois contariam o que estava acontecendo no local do remetente."
+          },
+          {
+            "id": "P13",
+            "text": "Epafras é identificado como membro da comunidade destinatária e servo de Cristo Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Epafras é identificado como membro da comunidade destinatária e servo de Cristo Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "Sua atuação é descrita como luta constante pelos destinatários em oração.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua atuação é descrita como luta constante pelos destinatários em oração."
+          },
+          {
+            "id": "P15",
+            "text": "A oração de Epafras visa maturidade e convicção plena na vontade de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração de Epafras visa maturidade e convicção plena na vontade de Deus."
+          },
+          {
+            "id": "P16",
+            "text": "Seu empenho também alcança pessoas de Laodiceia e Hierápolis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu empenho também alcança pessoas de Laodiceia e Hierápolis."
+          },
+          {
+            "id": "P17",
+            "text": "A carta deveria ser lida também na igreja dos laodicenses, e outra vinda de Laodiceia seria lida pelos destinatários.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta deveria ser lida também na igreja dos laodicenses, e outra vinda de Laodiceia seria lida pelos destinatários."
+          },
+          {
+            "id": "P18",
+            "text": "Arquipo deveria atentar ao ministério recebido no Senhor e cumprir sua tarefa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Arquipo deveria atentar ao ministério recebido no Senhor e cumprir sua tarefa."
+          },
+          {
+            "id": "P19",
+            "text": "Paulo declara escrever a saudação de próprio punho e pede lembrança de suas algemas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Apoiar a dedução por uma afirmação própria deste capítulo, sem harmonizar documentos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Colossenses",
+                "passage": "4.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo declara escrever a saudação de próprio punho e pede lembrança de suas algemas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Colossenses 4 reúne pedidos de oração e conduta na fala, atribui a Tíquico e Onésimo a comunicação da situação, descreve a oração de Epafras e registra instruções de leitura, ministério e saudação final.",
+        "hinge": "Tíquico, Onésimo, a carta de Laodiceia e as algemas ficam estritamente na proveniência de Colossenses; nenhuma viagem, identidade documental ou cronologia é reconstruída.",
+        "references": [
+          {
+            "book": "Colossenses",
+            "passage": "4.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

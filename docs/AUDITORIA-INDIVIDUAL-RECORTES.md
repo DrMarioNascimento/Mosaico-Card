@@ -226,3 +226,14 @@ O lote autorizado encerra nesses três recortes. As 131 pautas e 2.381 pistas an
 | Ef 3 | NAA, HTTP 200; prisioneiro, mistério, ministério e oração delimitados sem harmonização com Atos. | `nt2-efesios-misterio-ministerio-oracao`, 21 pistas, capacidade 2–10. |
 
 O lote encerra nesses quatro recortes. Os 134 objetos e 2.433 pistas anteriores foram preservados integralmente. Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para próximas bases; o banco não está completo.
+
+## Checkpoint 047 — decisões individuais em Efésios 4–5 e Colossenses 3–4
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| Ef 4 | NAA, HTTP 200; unidade, funções para serviço, maturidade, nova natureza e conduta mantidas como relações internas do capítulo. | `nt2-efesios-unidade-maturidade-nova-natureza`, 20 pistas, capacidade 2–9. |
+| Ef 5 | NAA, HTTP 200; amor, luz, sabedoria, plenitude do Espírito e relações atribuídos à carta, sem completar citação ou sistema social externo. | `nt2-efesios-luz-sabedoria-relacoes`, 20 pistas, capacidade 2–9. |
+| Cl 3 | NAA, HTTP 200; coisas do alto, velha/nova natureza, vida comum e serviço tratados separadamente de Efésios. | `nt2-colossenses-alto-nova-natureza-conduta`, 20 pistas, capacidade 2–9. |
+| Cl 4 | NAA, HTTP 200; oração, mensageiros, Epafras, leitura e encerramento preservados somente em Colossenses. | `nt2-colossenses-oracao-mensageiros-saudacoes`, 19 pistas, capacidade 2–9. |
+
+A rodada encerra nesses quatro recortes, sem forçar uma quinta pauta. Os 138 objetos e 2.514 pistas anteriores foram preservados integralmente. Tíquico, Onésimo e as cartas mencionadas não foram harmonizados com outras viagens ou documentos. Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem pendentes nesta sequência, e o banco não está completo.
