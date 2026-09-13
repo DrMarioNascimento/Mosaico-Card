@@ -94,3 +94,7 @@ A auditoria global passou a **280 pautas/5.424 pistas**. Três pautas novas soma
 ## Delta do checkpoint 088 — Mateus 28
 
 A auditoria global passou a **282 pautas/5.459 pistas**. Duas pautas novas somam 35 pistas; os 280 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`. Mt 28.1-10 permaneceu coberto sem alteração e 28.11-20 recebeu decisão individual. A conferência documental da ficha encontrou decisões para todos os recortes enumerados de Mateus fora das pendências textuais específicas Mt 17.21 e 23.14, que não são exclusões definitivas. O próximo trabalho independente planejado é Mc 1–2, sem autoria de Marcos neste checkpoint. Nenhuma conclusão global foi inferida dos testes.
+
+## Checkpoint 089 — abertura limitada da reauditoria de Marcos
+
+A reauditoria consultou exclusivamente Mc 1–2 na NAA 1840 e substituiu decisões agregadas antigas por inventário individual integral na ficha de Marcos. Quatro pautas/80 pistas foram anexadas aos 282 objetos preservados; duas unidades sustentadas de Mc 2 ficaram explicitamente pendentes apenas pelo limite do lote. Assim, o catálogo chega a **286 pautas/5.539 pistas**, mas Mc 1–2, Marcos e o banco permanecem abertos. Mc 16.9-20, pendências textuais de Mateus e dúvidas de 1Co não foram alterados.

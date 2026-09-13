@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-088-mateus-28",
+  "catalogVersion": "checkpoint-089-marcos-1-2",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 282,
-    "fields": 1128,
-    "editoriallyEligibleCases": 282,
-    "playableCases": 282,
+    "cases": 286,
+    "fields": 1144,
+    "editoriallyEligibleCases": 286,
+    "playableCases": 286,
     "max12Cases": 96
   },
   "order": [
@@ -298,7 +298,11 @@
     "nt2-mateus-soldados-manto-coroa",
     "nt2-mateus-guarda-tumulo",
     "nt2-mateus-guarda-dinheiro-versao",
-    "nt2-mateus-onze-monte-comissao"
+    "nt2-mateus-onze-monte-comissao",
+    "nt2-marcos-joao-deserto-batismo",
+    "nt2-marcos-batismo-deserto-anuncio-galileia",
+    "nt2-marcos-casa-madrugada-pregacao",
+    "nt2-marcos-leproso-divulgacao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -195798,6 +195802,2826 @@
             "passage": "28.16-20",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-joao-deserto-batismo": {
+      "id": "nt2-marcos-joao-deserto-batismo",
+      "kind": "canonical-case",
+      "title": "João no deserto e seu anúncio",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 1.1-8",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde João apareceu, que batismo pregava, como vivia e que contraste anunciou?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O anúncio do batismo futuro distingue a mensagem de João; lugar, prática e modo de vida completam a identificação sem explicar a profecia por fonte externa.",
+      "editorial": {
+        "hinge": "A profecia, a superioridade e os dois batismos permanecem declarações atribuídas pelo texto; nenhuma explicação do Antigo Testamento ou dos paralelos é importada."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Contraste entre os dois batismos no anúncio",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "João batizava com água; o que viria batizaria com o Espírito Santo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "João batizava no mar; o outro, no templo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "João ensinava; o outro permaneceria calado"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "João usava óleo; o outro usaria vinho"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "João batizava com água; o que viria batizaria com o Espírito Santo",
+          "enderecoNAA": "Marcos 1.7-8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.7-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar em que João apareceu",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No deserto"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Em Cafarnaum"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "No templo de Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "À beira do mar da Galileia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No deserto",
+          "enderecoNAA": "Marcos 1.4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Batismo que João pregava",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Batismo de arrependimento para remissão de pecados"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Batismo para receber um cargo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Banho antes de uma refeição"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Batismo restrito aos moradores da Galileia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Batismo de arrependimento para remissão de pecados",
+          "enderecoNAA": "Marcos 1.4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Roupa e alimento de João",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Pelos de camelo, cinto de couro, gafanhotos e mel silvestre"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Manto escarlate, sandálias e peixes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Linho fino, pão e vinho"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Túnica sacerdotal, figos e trigo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Pelos de camelo, cinto de couro, gafanhotos e mel silvestre",
+          "enderecoNAA": "Marcos 1.6",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Marcos apresenta o começo do evangelho de Jesus Cristo, Filho de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Marcos apresenta o começo do evangelho de Jesus Cristo, Filho de Deus."
+          },
+          {
+            "id": "P02",
+            "text": "A profecia é atribuída a Isaías no próprio relato.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.2-3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A profecia é atribuída a Isaías no próprio relato."
+          },
+          {
+            "id": "P03",
+            "text": "Ela fala de um mensageiro enviado adiante para preparar o caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela fala de um mensageiro enviado adiante para preparar o caminho."
+          },
+          {
+            "id": "P04",
+            "text": "Uma voz clama no deserto para preparar o caminho do Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz clama no deserto para preparar o caminho do Senhor."
+          },
+          {
+            "id": "P05",
+            "text": "João Batista apareceu no deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João Batista apareceu no deserto."
+          },
+          {
+            "id": "P06",
+            "text": "Ele pregava um batismo ligado ao arrependimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pregava um batismo ligado ao arrependimento."
+          },
+          {
+            "id": "P07",
+            "text": "Esse batismo era apresentado para remissão de pecados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse batismo era apresentado para remissão de pecados."
+          },
+          {
+            "id": "P08",
+            "text": "Pessoas da região da Judeia iam até João.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pessoas da região da Judeia iam até João."
+          },
+          {
+            "id": "P09",
+            "text": "Moradores de Jerusalém também iam até ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Moradores de Jerusalém também iam até ele."
+          },
+          {
+            "id": "P10",
+            "text": "As pessoas confessavam seus pecados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As pessoas confessavam seus pecados."
+          },
+          {
+            "id": "P11",
+            "text": "João as batizava no rio Jordão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João as batizava no rio Jordão."
+          },
+          {
+            "id": "P12",
+            "text": "A roupa de João era feita de pelos de camelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A roupa de João era feita de pelos de camelo."
+          },
+          {
+            "id": "P13",
+            "text": "Ele usava um cinto de couro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele usava um cinto de couro."
+          },
+          {
+            "id": "P14",
+            "text": "João comia gafanhotos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João comia gafanhotos."
+          },
+          {
+            "id": "P15",
+            "text": "Mel silvestre também fazia parte de sua alimentação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mel silvestre também fazia parte de sua alimentação."
+          },
+          {
+            "id": "P16",
+            "text": "João anunciava alguém mais poderoso que viria depois dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João anunciava alguém mais poderoso que viria depois dele."
+          },
+          {
+            "id": "P17",
+            "text": "Ele se declarou indigno de se curvar para desamarrar as correias das sandálias desse que viria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se declarou indigno de se curvar para desamarrar as correias das sandálias desse que viria."
+          },
+          {
+            "id": "P18",
+            "text": "João contrastou seu batismo com água com o batismo futuro com o Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João contrastou seu batismo com água com o batismo futuro com o Espírito Santo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 1.1-8 situa João no deserto, descreve sua pregação, os que iam ao Jordão, sua roupa e alimento, e atribui a ele o anúncio daquele que viria depois.",
+        "hinge": "A profecia, a superioridade e os dois batismos permanecem declarações atribuídas pelo texto; nenhuma explicação do Antigo Testamento ou dos paralelos é importada.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-batismo-deserto-anuncio-galileia": {
+      "id": "nt2-marcos-batismo-deserto-anuncio-galileia",
+      "kind": "canonical-case",
+      "title": "Do batismo ao anúncio na Galileia",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 1.9-15",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.9-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "De onde Jesus veio, o que ocorreu no batismo, como Marcos resume o deserto e o que Jesus anunciou na Galileia?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A cena ao sair da água reúne visão e voz explicitamente atribuídas; origem, período no deserto e anúncio posterior delimitam a sequência própria de Marcos.",
+      "editorial": {
+        "hinge": "Visão, voz e anúncio permanecem conforme Marcos; o conteúdo detalhado das tentações e explicações de alusões não é trazido de outros documentos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus viu e ouviu ao sair da água",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Céus se abrindo, Espírito como pomba e voz dos céus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Uma escada, anjos e voz da multidão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma estrela, sacerdotes e canto"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma rede cheia e voz vinda do barco"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Céus se abrindo, Espírito como pomba e voz dos céus",
+          "enderecoNAA": "Marcos 1.10-11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Origem e local do batismo de Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Veio de Nazaré da Galileia e foi batizado no Jordão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Veio de Jerusalém e foi batizado no mar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Veio de Betânia e foi batizado numa casa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Veio de Jericó e foi batizado no templo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Veio de Nazaré da Galileia e foi batizado no Jordão",
+          "enderecoNAA": "Marcos 1.9",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resumo do período no deserto",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Quarenta dias, tentado por Satanás, com feras e servido por anjos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Sete dias, interrogado por sacerdotes e servido por pescadores"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Três dias, sozinho numa casa e sem alimento"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quarenta noites, cercado por multidões na cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Quarenta dias, tentado por Satanás, com feras e servido por anjos",
+          "enderecoNAA": "Marcos 1.12-13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Anúncio de Jesus na Galileia",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Tempo cumprido, Reino próximo, arrependimento e fé no evangelho"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Templo concluído, imposto cancelado e retorno a Nazaré"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Colheita encerrada, barcos abandonados e silêncio"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Festa próxima, jejum obrigatório e viagem a Jerusalém"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Tempo cumprido, Reino próximo, arrependimento e fé no evangelho",
+          "enderecoNAA": "Marcos 1.14-15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus veio de Nazaré da Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus veio de Nazaré da Galileia."
+          },
+          {
+            "id": "P02",
+            "text": "João o batizou.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João o batizou."
+          },
+          {
+            "id": "P03",
+            "text": "O batismo ocorreu no rio Jordão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O batismo ocorreu no rio Jordão."
+          },
+          {
+            "id": "P04",
+            "text": "Ao sair da água, Jesus viu os céus se abrindo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao sair da água, Jesus viu os céus se abrindo."
+          },
+          {
+            "id": "P05",
+            "text": "Ele viu o Espírito descendo sobre ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele viu o Espírito descendo sobre ele."
+          },
+          {
+            "id": "P06",
+            "text": "A descida do Espírito foi descrita como a de uma pomba.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A descida do Espírito foi descrita como a de uma pomba."
+          },
+          {
+            "id": "P07",
+            "text": "Uma voz veio dos céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz veio dos céus."
+          },
+          {
+            "id": "P08",
+            "text": "A voz chamou Jesus de Filho amado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz chamou Jesus de Filho amado."
+          },
+          {
+            "id": "P09",
+            "text": "A voz declarou agrado nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz declarou agrado nele."
+          },
+          {
+            "id": "P10",
+            "text": "O Espírito conduziu Jesus ao deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito conduziu Jesus ao deserto."
+          },
+          {
+            "id": "P11",
+            "text": "Ele ficou ali durante quarenta dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele ficou ali durante quarenta dias."
+          },
+          {
+            "id": "P12",
+            "text": "Satanás o tentou nesse período.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Satanás o tentou nesse período."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus estava com as feras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estava com as feras."
+          },
+          {
+            "id": "P14",
+            "text": "Anjos o serviam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Anjos o serviam."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus foi para a Galileia depois da prisão de João.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi para a Galileia depois da prisão de João."
+          },
+          {
+            "id": "P16",
+            "text": "Ali pregava o evangelho de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali pregava o evangelho de Deus."
+          },
+          {
+            "id": "P17",
+            "text": "Ele declarou cumprido o tempo e próximo o Reino de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou cumprido o tempo e próximo o Reino de Deus."
+          },
+          {
+            "id": "P18",
+            "text": "Seu anúncio convocava ao arrependimento e à fé no evangelho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu anúncio convocava ao arrependimento e à fé no evangelho."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 1.9-15 encadeia a vinda de Jesus de Nazaré, seu batismo no Jordão, a visão e a voz, os quarenta dias no deserto e a pregação posterior na Galileia.",
+        "hinge": "Visão, voz e anúncio permanecem conforme Marcos; o conteúdo detalhado das tentações e explicações de alusões não é trazido de outros documentos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.9-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-casa-madrugada-pregacao": {
+      "id": "nt2-marcos-casa-madrugada-pregacao",
+      "kind": "canonical-case",
+      "title": "Da casa de Simão aos povoados vizinhos",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 1.29-39",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.29-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Em que casa Jesus entrou, como a mulher enferma reagiu à cura, quando ele saiu para orar e por que seguiu a outros lugares?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A finalidade declarada para ir aos povoados organiza o deslocamento; casa, reação e oração distinguem as etapas anteriores sem fundir os paralelos.",
+      "editorial": {
+        "hinge": "Os agrupamentos, quantificadores e motivos ficam nos termos de Marcos; detalhes dos relatos paralelos não são usados para completar esta pauta."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Finalidade declarada para ir aos povoados vizinhos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Pregar também ali, pois para isso havia vindo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Encontrar uma casa maior para repousar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Evitar que Simão o procurasse"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Reunir todos à porta de Cafarnaum"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Pregar também ali, pois para isso havia vindo",
+          "enderecoNAA": "Marcos 1.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Casa para a qual foram após a sinagoga",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Casa de Simão e André"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Casa de Levi e Tiago"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Casa de Jairo e sua filha"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Casa de João Batista"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Casa de Simão e André",
+          "enderecoNAA": "Marcos 1.29",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Reação da sogra de Simão após a febre deixá-la",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Passou a servi-los"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Saiu proclamando pela cidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Foi apresentar-se ao sacerdote"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Seguiu para o deserto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Passou a servi-los",
+          "enderecoNAA": "Marcos 1.30-31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.30-31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Momento e lugar da oração de Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De madrugada, ainda escuro, num lugar deserto"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ao meio-dia, na sinagoga"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Depois do pôr do sol, à porta da casa"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "No sábado, dentro de um barco"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De madrugada, ainda escuro, num lugar deserto",
+          "enderecoNAA": "Marcos 1.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os acompanhantes saíram da sinagoga.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus e os acompanhantes saíram da sinagoga."
+          },
+          {
+            "id": "P02",
+            "text": "Tiago e João estavam com eles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago e João estavam com eles."
+          },
+          {
+            "id": "P03",
+            "text": "Foram para a casa de Simão e André.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram para a casa de Simão e André."
+          },
+          {
+            "id": "P04",
+            "text": "A sogra de Simão estava de cama.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sogra de Simão estava de cama."
+          },
+          {
+            "id": "P05",
+            "text": "Ela estava com febre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela estava com febre."
+          },
+          {
+            "id": "P06",
+            "text": "A situação dela foi logo comunicada a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A situação dela foi logo comunicada a Jesus."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus aproximou-se e pegou na mão dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus aproximou-se e pegou na mão dela."
+          },
+          {
+            "id": "P08",
+            "text": "Ele fez com que ela se levantasse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele fez com que ela se levantasse."
+          },
+          {
+            "id": "P09",
+            "text": "A febre deixou a mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A febre deixou a mulher."
+          },
+          {
+            "id": "P10",
+            "text": "Depois disso, ela passou a servi-los.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois disso, ela passou a servi-los."
+          },
+          {
+            "id": "P11",
+            "text": "À tarde, esperaram o pôr do sol antes de trazer pessoas a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À tarde, esperaram o pôr do sol antes de trazer pessoas a Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Foram levados enfermos e endemoniados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram levados enfermos e endemoniados."
+          },
+          {
+            "id": "P13",
+            "text": "Toda a cidade se reuniu à porta da casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a cidade se reuniu à porta da casa."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus curou muitos doentes com enfermidades de vários tipos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curou muitos doentes com enfermidades de vários tipos."
+          },
+          {
+            "id": "P15",
+            "text": "Ele também expulsou muitos demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também expulsou muitos demônios."
+          },
+          {
+            "id": "P16",
+            "text": "Não permitia que os demônios falassem, porque sabiam quem ele era.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não permitia que os demônios falassem, porque sabiam quem ele era."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus se levantou de madrugada, quando ainda estava escuro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus se levantou de madrugada, quando ainda estava escuro."
+          },
+          {
+            "id": "P18",
+            "text": "Ele saiu para um lugar deserto e ali orava.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele saiu para um lugar deserto e ali orava."
+          },
+          {
+            "id": "P19",
+            "text": "Simão e seus companheiros o procuraram por toda parte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simão e seus companheiros o procuraram por toda parte."
+          },
+          {
+            "id": "P20",
+            "text": "Ao encontrá-lo, disseram que todos o procuravam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao encontrá-lo, disseram que todos o procuravam."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus propôs seguir a outros lugares, nos povoados vizinhos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus propôs seguir a outros lugares, nos povoados vizinhos."
+          },
+          {
+            "id": "P22",
+            "text": "Ele declarou que pregaria também nesses lugares.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou que pregaria também nesses lugares."
+          },
+          {
+            "id": "P23",
+            "text": "Jesus disse que havia vindo para essa finalidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que havia vindo para essa finalidade."
+          },
+          {
+            "id": "P24",
+            "text": "Ele percorreu a Galileia, pregando nas sinagogas e expulsando demônios.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele percorreu a Galileia, pregando nas sinagogas e expulsando demônios."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 1.29-39 acompanha Jesus da casa de Simão e André às curas junto à porta, à oração de madrugada e à decisão de pregar nos povoados vizinhos e pela Galileia.",
+        "hinge": "Os agrupamentos, quantificadores e motivos ficam nos termos de Marcos; detalhes dos relatos paralelos não são usados para completar esta pauta.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.29-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-leproso-divulgacao": {
+      "id": "nt2-marcos-leproso-divulgacao",
+      "kind": "canonical-case",
+      "title": "O leproso purificado e a notícia divulgada",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 1.40-45",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.40-45",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Como o homem pediu, o que Jesus fez, quais instruções deu e que consequência veio da divulgação?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "As instruções após a purificação estruturam a tensão com a divulgação; pedido, ação e consequência identificam o relato sem explicar externamente o sacrifício.",
+      "editorial": {
+        "hinge": "O sacrifício é apenas a instrução atribuída a Jesus; seu conteúdo não é preenchido pelo Antigo Testamento, e variantes paralelas não alteram a sequência de Marcos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Instruções dadas depois da purificação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Não contar, apresentar-se ao sacerdote e oferecer o sacrifício ordenado por Moisés"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Voltar à sinagoga e reunir toda a cidade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Seguir Jesus e abandonar imediatamente as redes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ir a Jerusalém e procurar João Batista"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Não contar, apresentar-se ao sacerdote e oferecer o sacrifício ordenado por Moisés",
+          "enderecoNAA": "Marcos 1.43-44",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.43-44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Forma e conteúdo do pedido do leproso",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "De joelhos, afirmou que Jesus podia purificá-lo se quisesse"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "De pé, pediu que Jesus entrasse na cidade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "À mesa, solicitou alimento para a família"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No barco, perguntou sobre uma tempestade"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "De joelhos, afirmou que Jesus podia purificá-lo se quisesse",
+          "enderecoNAA": "Marcos 1.40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Ação e resposta de Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Compadecido, estendeu a mão, tocou nele e afirmou que queria sua limpeza"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Afastou-se, escreveu no chão e permaneceu calado"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Mandou os discípulos levá-lo ao Jordão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pediu que esperasse quarenta dias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Compadecido, estendeu a mão, tocou nele e afirmou que queria sua limpeza",
+          "enderecoNAA": "Marcos 1.41",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Consequência da divulgação feita pelo homem",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Jesus ficou fora, em lugares desertos, e pessoas vinham de toda parte"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Jesus deixou a Galileia sem ser procurado"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os sacerdotes fecharam todas as sinagogas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O homem voltou a adoecer e permaneceu em casa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Jesus ficou fora, em lugares desertos, e pessoas vinham de toda parte",
+          "enderecoNAA": "Marcos 1.45",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "1.45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um leproso aproximou-se de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um leproso aproximou-se de Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "O homem fez o pedido de joelhos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem fez o pedido de joelhos."
+          },
+          {
+            "id": "P03",
+            "text": "Ele condicionou o pedido à vontade de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele condicionou o pedido à vontade de Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "O pedido reconhecia que Jesus podia purificá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido reconhecia que Jesus podia purificá-lo."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus ficou profundamente compadecido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ficou profundamente compadecido."
+          },
+          {
+            "id": "P06",
+            "text": "Ele estendeu a mão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele estendeu a mão."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus tocou no homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus tocou no homem."
+          },
+          {
+            "id": "P08",
+            "text": "Ele afirmou que queria a purificação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que queria a purificação."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus ordenou que o homem ficasse limpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que o homem ficasse limpo."
+          },
+          {
+            "id": "P10",
+            "text": "A lepra desapareceu no mesmo instante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lepra desapareceu no mesmo instante."
+          },
+          {
+            "id": "P11",
+            "text": "O homem ficou limpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem ficou limpo."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus o advertiu severamente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus o advertiu severamente."
+          },
+          {
+            "id": "P13",
+            "text": "Ele logo o despediu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele logo o despediu."
+          },
+          {
+            "id": "P14",
+            "text": "A primeira instrução foi não contar nada a ninguém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A primeira instrução foi não contar nada a ninguém."
+          },
+          {
+            "id": "P15",
+            "text": "O homem deveria apresentar-se ao sacerdote.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem deveria apresentar-se ao sacerdote."
+          },
+          {
+            "id": "P16",
+            "text": "Também deveria oferecer pela purificação o sacrifício ordenado por Moisés.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deveria oferecer pela purificação o sacrifício ordenado por Moisés."
+          },
+          {
+            "id": "P17",
+            "text": "A oferta serviria de testemunho ao povo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oferta serviria de testemunho ao povo."
+          },
+          {
+            "id": "P18",
+            "text": "Ao sair, o homem passou a proclamar e divulgar a notícia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao sair, o homem passou a proclamar e divulgar a notícia."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus já não podia entrar publicamente em nenhuma cidade e permanecia fora, em lugares desertos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus já não podia entrar publicamente em nenhuma cidade e permanecia fora, em lugares desertos."
+          },
+          {
+            "id": "P20",
+            "text": "Pessoas de toda parte vinham ao encontro de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "1.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pessoas de toda parte vinham ao encontro de Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 1.40-45 registra o pedido do leproso, a compaixão, toque e ordem de Jesus, a purificação, as instruções posteriores e os efeitos da divulgação feita pelo homem.",
+        "hinge": "O sacrifício é apenas a instrução atribuída a Jesus; seu conteúdo não é preenchido pelo Antigo Testamento, e variantes paralelas não alteram a sequência de Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "1.40-45",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.1.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
