@@ -295,3 +295,15 @@ O lote encerra nesses quatro recortes, sem forçar uma quinta pauta. Pedro, Joã
 | 1Pe 3.1-17 | NAA, HTTP 200; relações domésticas, unidade, fala e sofrimento delimitados antes de 3.18. | `nt2-1pedro-relacoes-unidade-sofrimento`, 26 pistas, capacidade 2–12. |
 
 1Pe 3.19 permanece integralmente fora, sem interpretação dos espíritos em prisão. 1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.
+
+
+## Checkpoint 053 — decisões individuais em 1 Pedro 4
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Pe 4.1-5 | NAA, HTTP 200; sofrimento na carne, mudança de conduta, reação externa e prestação de contas tratados atributivamente. | `nt2-1pedro-vontade-conduta-julgamento`, 15 pistas, capacidade 2–7. |
+| 1Pe 4.6 | Questão interpretativa excluída por decisão do usuário. | Fora; nenhuma ocorrência em pergunta, campo, alternativa, gabarito, pista ou referência. |
+| 1Pe 4.7-11 | NAA, HTTP 200; oração, amor, hospitalidade, dons, fala e serviço mantidos no bloco. | `nt2-1pedro-amor-hospitalidade-dons`, 16 pistas, capacidade 2–7. |
+| 1Pe 4.12-19 | NAA, HTTP 200; provação, motivos contrastantes de sofrimento e confiança no Criador tratados sem completar alusões externas. | `nt2-1pedro-prova-sofrimento-fiel-criador`, 19 pistas, capacidade 2–9. |
+
+O lote encerra nesses três recortes, sem forçar uma quarta pauta. Os 163 objetos e as 2.979 pistas anteriores foram preservados. 1Pe 5 e os livros seguintes continuam pendentes; o banco não está completo.

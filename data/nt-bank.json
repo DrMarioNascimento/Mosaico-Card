@@ -99148,6 +99148,1702 @@
         "editorial": "approved",
         "ambiguities": []
       }
+    },
+    {
+      "id": "nt2-1pedro-vontade-conduta-julgamento",
+      "title": "Vontade de Deus, mudança de conduta e prestação de contas",
+      "generalReferences": [
+        {
+          "book": "1 Pedro",
+          "passage": "4.1-5",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Pedro 4.1-5, como a carta contrasta a vida restante dos leitores com a conduta passada e a reação de outras pessoas?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A oposição entre paixões humanas e vontade de Deus organiza a mudança de vida descrita no recorte.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Com que pensamento os leitores deveriam se armar",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Com o mesmo pensamento de Cristo, que sofreu na carne"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Com a busca de aprovação social"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Com indiferença ao pecado"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Com especulações sobre os mortos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como deveriam viver o tempo restante na carne",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Segundo a vontade de Deus, não segundo paixões humanas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Repetindo a vontade dos gentios"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Buscando o excesso de devassidão"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Evitando qualquer prestação de contas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como outros reagiam à mudança dos leitores",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Estranhavam a recusa ao mesmo excesso e falavam mal deles"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Celebravam imediatamente a nova conduta"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Permaneciam sem qualquer reação"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Pediam que retomassem apenas as festas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "A quem essas pessoas prestariam contas",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Àquele que está apto a julgar vivos e mortos"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Aos leitores que haviam abandonado tais práticas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "A um governante não identificado no recorte"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Aos participantes das antigas reuniões"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Cristo é apresentado como aquele que sofreu na carne.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Os leitores deveriam armar-se do mesmo pensamento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O sofrimento na carne é associado ao rompimento com o pecado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O tempo restante não deveria ser dirigido por paixões humanas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A vontade de Deus deveria orientar a vida restante.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A conduta passada é descrita como suficiente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Essa conduta passada seguia a vontade dos gentios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O passado incluía práticas libertinas e desejos carnais.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Bebedeiras, orgias e embriaguez aparecem na enumeração.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Idolatrias detestáveis completam a lista da conduta anterior.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Outras pessoas estranhavam que os leitores não se juntassem a elas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "A recusa dizia respeito ao mesmo excesso de devassidão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A reação dessas pessoas incluía falar mal dos leitores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Elas teriam de prestar contas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O juiz mencionado é competente para julgar vivos e mortos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "O recorte atribui aos leitores uma mudança da antiga conduta para uma vida segundo a vontade de Deus, apesar da difamação, e anuncia prestação de contas ao juiz de vivos e mortos.",
+        "hinge": "A pauta termina em 4.5 e não usa nem interpreta a questão excluída de 4.6.",
+        "references": [
+          {
+            "book": "1 Pedro",
+            "passage": "4.1-5",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1pedro-amor-hospitalidade-dons",
+      "title": "Oração, amor, hospitalidade e administração dos dons",
+      "generalReferences": [
+        {
+          "book": "1 Pedro",
+          "passage": "4.7-11",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Pedro 4.7-11, que conduta a carta associa à oração, ao amor e ao serviço dos dons recebidos?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A finalidade de glorificar a Deus reúne fala, serviço e administração da graça no fechamento do bloco.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Que postura é indicada para a oração",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Ser criterioso e sóbrio"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Buscar agitação e excesso"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Dispensar qualquer vigilância"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Calcular uma data para o fim"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que deveria ser mantido acima de tudo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Muito amor mútuo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Competição por maior dom"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Hospitalidade com murmuração"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Silêncio de quem recebeu um dom"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como cada um deveria empregar o dom recebido",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Servindo aos outros como bom administrador da multiforme graça"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Guardando-o para benefício próprio"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Usando-o para estabelecer hierarquias"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Comparando-o com dons de outra carta"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Qual finalidade orienta quem fala e quem serve",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Que Deus seja glorificado em todas as coisas por Jesus Cristo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Que o servidor receba a glória"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Que os dons revelem um calendário"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Que a hospitalidade seja recompensada publicamente"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O fim de todas as coisas é apresentado como próximo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Essa afirmação fundamenta o chamado a uma postura criteriosa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A sobriedade é ligada à capacidade de orar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O amor mútuo recebe prioridade nas instruções.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O amor é descrito como capaz de cobrir muitos pecados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A hospitalidade deveria ser mútua.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A hospitalidade deveria ocorrer sem murmuração.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Cada pessoa é tratada como alguém que recebeu um dom.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O dom deveria ser usado para servir aos outros.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Esse serviço é comparado à boa administração da graça de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A graça administrada é descrita como multiforme.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Quem fala deveria fazê-lo de acordo com os oráculos de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Quem serve deveria depender da força fornecida por Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A finalidade declarada é a glória de Deus em todas as coisas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Essa glorificação ocorre por meio de Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A glória e o domínio são atribuídos a Jesus Cristo para sempre.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "O bloco convoca à sobriedade para oração, amor intenso, hospitalidade sem murmuração e serviço mútuo mediante os dons recebidos, visando à glória de Deus por Jesus Cristo.",
+        "hinge": "O recorte começa em 4.7, depois da questão excluída de 4.6, e conserva apenas as afirmações próprias de 4.7-11.",
+        "references": [
+          {
+            "book": "1 Pedro",
+            "passage": "4.7-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1pedro-prova-sofrimento-fiel-criador",
+      "title": "Provação, sofrimento cristão e confiança no fiel Criador",
+      "generalReferences": [
+        {
+          "book": "1 Pedro",
+          "passage": "4.12-19",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Pedro 4.12-19, como os leitores deveriam compreender a provação e agir ao sofrer segundo a vontade de Deus?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A orientação para não tratar a provação como acontecimento estranho estabelece a leitura do sofrimento desenvolvida em todo o recorte.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Como os leitores deveriam encarar o fogo que os provava",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sem estranhá-lo como se fosse algo extraordinário"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Como prova de abandono definitivo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Como calendário da revelação da glória"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Como punição necessariamente ligada a crime"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Que resposta acompanha a participação nos sofrimentos de Cristo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Alegria agora e exultação na revelação da glória"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Vergonha do nome de cristão"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Retaliação contra os insultos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Indiferença diante da provação"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que contraste a carta faz sobre o motivo do sofrimento",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Não sofrer por crimes ou intromissão, mas não se envergonhar ao sofrer como cristão"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Todo sofrimento tem o mesmo motivo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "O cristão deveria ocultar esse nome"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A intromissão é apresentada como virtude"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que deveriam fazer os que sofrem segundo a vontade de Deus",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Entregar a alma ao fiel Criador enquanto praticam o bem"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Abandonar a prática do bem"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Confiar apenas na aprovação humana"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Identificar externamente os desobedientes"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os destinatários são chamados de amados.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Um fogo no meio deles é descrito como provação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Eles não deveriam considerar essa prova algo extraordinário.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A alternativa proposta é alegrar-se na participação nos sofrimentos de Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Essa alegria é medida pela participação nesses sofrimentos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A revelação da glória é associada a alegria e exultação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Os insultados por causa do nome de Cristo são chamados felizes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O Espírito da glória, identificado como Espírito de Deus, repousa sobre eles.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A carta exclui o assassinato como motivo aceitável de sofrimento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Também exclui roubo e prática do mal.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Meter-se na vida alheia integra a lista de motivos reprovados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Quem sofre como cristão não deveria envergonhar-se.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Em vez disso, deveria glorificar a Deus por esse nome.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "O texto anuncia o tempo de o juízo começar pela casa de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O recorte pergunta pelo fim dos que não obedecem ao evangelho de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Uma citação no próprio texto contrasta o justo salvo com dificuldade, o ímpio e o pecador.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Os que sofrem segundo a vontade de Deus deveriam confiar sua alma ao Criador.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "O Criador é qualificado como fiel.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "A entrega da alma deveria acompanhar a prática do bem.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Pedro",
+              "passage": "4.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "O recorte apresenta a provação sem estranheza, alegria na participação nos sofrimentos de Cristo, rejeição de sofrimento por delitos e confiança ativa no fiel Criador.",
+        "hinge": "A pauta usa apenas 4.12-19, atribui a citação de 4.18 ao próprio texto e não completa alusões com fontes externas.",
+        "references": [
+          {
+            "book": "1 Pedro",
+            "passage": "4.12-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
     }
   ]
 }

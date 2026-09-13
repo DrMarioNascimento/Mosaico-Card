@@ -24,7 +24,7 @@
 | Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
 | Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado/elegível | pauta temática liberada; AT não importado |
 | Tiago | Analisado — decisões por recorte | capítulos 1–5 | 1 autorado | exemplos/metáforas não inflados |
-| 1 Pedro | Analisado — decisões por recorte | capítulos 1–5 | 0 | 1Pe 3.19 e 4.6 fora; 5.13 interpretado sem geografia |
+| 1 Pedro | Em autoria — checkpoint 053 | capítulos 1–5 | 6 autorados | 1Pe 3.19 e 4.6 fora; capítulo 5 pendente; 5.13 interpretado sem geografia |
 | 2 Pedro | Analisado — decisões por recorte | capítulos 1–3 | 0 | alusões não completadas |
 | 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 mantido sem identificar o pecado |
 | 2 João | Analisado — carta integral | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
@@ -90,3 +90,10 @@ Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12 foram relidos nas páginas NAA identificadas,
 As páginas NAA de 1Pe 1, 2 e 3 foram obtidas com HTTP 200 em 13/09/2026 e os recortes 1Pe 1, 1Pe 2 e 1Pe 3.1-17 receberam decisões e pautas próprias. Foram acrescentadas três pautas e 80 pistas, elevando o inventário de 160/2.899 para **163 pautas, 652 campos e 2.979 pistas**. A terceira pauta não ultrapassa 3.17 e não usa a questão de 3.19.
 
 **1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** 1Pe 4.6 continua fora; 1Pe 5.13 permanece comunitário e sem geografia. O banco não está completo.
+
+
+## Checkpoint 053 — somente 1 Pedro 4, exceto 4.6
+
+A base de 163 pautas e 2.979 pistas foi preservada mecanicamente. A página NAA de 1Pe 4 retornou HTTP 200 em 13/09/2026 e a autoria ficou restrita a 4.1-5, 4.7-11 e 4.12-19. Esses três recortes independentes acrescentaram 50 pistas, levando o inventário a **166 pautas, 664 campos e 3.029 pistas**. A questão de 4.6 não aparece em pergunta, campo, alternativa, gabarito, pista ou referência.
+
+**1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** A interpretação comunitária de 1Pe 5.13 segue preservada, sem geografia nem alegação lexical. O banco não está completo.

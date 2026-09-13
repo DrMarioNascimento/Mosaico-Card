@@ -547,3 +547,14 @@ Três blocos coerentes sustentaram três pautas, sem forçar a quarta permitida:
 - **Inventário:** 163 pautas elegíveis, 652 campos e 2.979 pistas; 61 comportam até 12 participantes, seis até 11, seis até 10, seis até 9, quinze até 8, nove até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
 - **Preservação:** comparação mecanizada confirmou igualdade integral dos 160 objetos e das 2.899 pistas anteriores.
 - **Pendências:** 1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global de cobertura ficam para nova base; o banco **não** está completo. 1Pe 4.6 continua fora e 1Pe 5.13 conserva a interpretação comunitária aprovada, sem geografia.
+
+
+## Checkpoint 053 — lote exclusivo de 1 Pedro 4, sem 4.6
+
+A base `bb0ea83c769951eaebf11efb505f3c2e93e4969d` foi confirmada com **163 pautas, 652 campos e 2.979 pistas**. Em 13/09/2026, exclusivamente a página de 1Pe 4 identificada como Nova Almeida Atualizada em `bible.com/pt/bible/1840` foi obtida com HTTP 200 e lida antes da autoria.
+
+Foram acrescentadas três pautas e 50 pistas: 1Pe 4.1-5 com 15, 1Pe 4.7-11 com 16 e 1Pe 4.12-19 com 19. A questão de 4.6 foi integralmente excluída. O inventário passa a **166 pautas elegíveis, 664 campos e 3.029 pistas**; 61 comportam até 12 participantes, seis até 11, seis até 10, sete até 9, quinze até 8, onze até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+
+- **Preservação:** os 163 objetos e as 2.979 pistas anteriores permaneceram mecanicamente idênticos.
+- **Contrato:** as pautas mantêm C1–C4, alternativas e gabaritos explícitos, focal justificado, metadados, revelação e pontuação 8/5/3/2; a capacidade segue `min(12, floor((cartas-1)/2))`.
+- **Pendências:** 1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam para outras bases; o banco **não** está completo. A decisão comunitária de 1Pe 5.13 permanece sem geografia nem alegação lexical.

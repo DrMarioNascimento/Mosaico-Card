@@ -154,3 +154,10 @@ A base `529b518` foi confirmada com **160 pautas e 2.899 pistas**. Em etapa bíb
 Foram incorporadas três pautas e 80 pistas, chegando a **163 pautas, 652 campos e 2.979 pistas**. As três comportam 12 participantes; C1–C4, quatro alternativas, gabaritos, focal, pontuação 8/5/3/2, metadados e revelação permanecem no contrato. Os 160 objetos anteriores foram mecanicamente preservados.
 
 1Pe 3.19 não foi usado nem interpretado. **1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy ou publicação.
+
+
+## Checkpoint 053 — lote exclusivo de 1 Pedro 4
+
+A consulta efetiva e exclusiva da página NAA de 1Pe 4 sustentou três pautas independentes: 4.1-5 (15 pistas), 4.7-11 (16) e 4.12-19 (19). O inventário passa de 163/2.979 para **166 pautas, 664 campos e 3.029 pistas**, preservando integralmente os objetos anteriores. 1Pe 4.6 foi excluído de todos os elementos editoriais e referências.
+
+**1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.**
