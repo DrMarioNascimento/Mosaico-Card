@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 18 inventariado integralmente — checkpoint 072 | Pendentes posteriores: Mt 19–20 e 21–25 | 35 próprios + 4 consolidados; 42 pautas citam o livro | Quatro pautas cobrem Mt 18; 18.8-9 já estava representado por Mt 5.29-30 e não foi duplicado |
+| Mateus | Mt 19–20 inventariado por unidade — checkpoint 073 | Pendente posterior: Mt 21–25 | 39 próprios + 4 consolidados; 46 pautas citam o livro | Quatro pautas novas; crianças e cegos de Jericó têm decisões específicas, sem apagar fatos exclusivos |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -200,3 +200,7 @@ A releitura NAA exclusiva de Mt 10.1-15, 12.9-14 e 13.51-58 resolveu as três pe
 ## Checkpoint 072 — Mateus 18
 
 A leitura integral da página NAA de Mateus 18 e a comparação por campos e pistas produziram quatro pautas, com 12, 10, 13 e 22 pistas. Mt 18.8-9 já estava coberto pela pauta de Mt 5.29-30 e não foi duplicado. O inventário passa de **222/4.347 para 226/4.404**, com os 222 objetos anteriores serializadamente idênticos. A recontagem corrige o subtotal de Mateus anterior de 750 para 749 pistas, pois P03 da mão ressequida cita somente Marcos; o total atual de Mateus é 806. Mateus 18 fica individualmente decidido; Mt 19–20 e os demais recortes permanecem posteriores, sem declaração de banco completo.
+
+## Checkpoint 073 — Mateus 19–20
+
+A leitura efetiva das duas páginas NAA e a comparação por unidade acrescentaram quatro pautas/109 pistas, levando o banco de **226/4.404 para 230/4.513** e Mateus de **42 pautas/806 pistas para 46/915**. Os 226 objetos anteriores permaneceram serializadamente idênticos. Mt 19.13-15 e 20.29-34 receberam motivos específicos; os fatos exclusivos do segundo recorte permanecem inventariados apesar do paralelo com Bartimeu. Mt 21–25 fica para lote posterior, sem declaração de banco completo.

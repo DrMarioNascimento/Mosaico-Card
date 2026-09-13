@@ -207,3 +207,20 @@ Em 13/09/2026, a página efetiva `https://www.bible.com/pt/bible/1840/MAT.18.NAA
 | Mt 18.21-35 — perdão e servo devedor | **Autorada** em `nt2-mateus-servo-divida-perdao`, 22 pistas, capacidade 10. Valores e ações permanecem elementos da parábola; nenhuma conversão monetária foi importada. |
 
 Foram anexadas quatro pautas e 57 pistas, sem meta e sem consolidação de objeto anterior. A recontagem por referência corrige o subtotal documental do checkpoint 071 de 750 para 749 pistas: P03 da mão ressequida descreve observação, presente somente em Marcos, e por isso não conta como pista de Mateus; o subtotal atual é 806. Os **222 objetos anteriores permanecem na mesma ordem e serializam identicamente**. Mateus 18 fica decidido por todas as unidades identificadas; Mt 19–20 e os demais recortes continuam posteriores. Dúvidas de 1Co e exclusões definitivas seguem preservadas, e o banco não é declarado completo.
+
+## Inventário individual de Mateus 19–20 — checkpoint 073
+
+Em 13/09/2026, as páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.19.NAA` e `/MAT.20.NAA` foram obtidas separadamente (HTTP 200; 96.864 e 96.784 bytes transferidos) e lidas verso a verso. Antes da autoria, os **226 objetos/4.404 pistas** foram comparados por referências, campos, perguntas e conteúdo, inclusive com as pautas de Mt 5.27-32, Marcos 10 e Bartimeu. Sem tratar ensino semelhante como a mesma ocasião, quatro unidades coerentes sustentaram pauta própria.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 19.1-2 — deslocamento e curas | **Coberta como moldura** de `nt2-mateus-divorcio-eunucos`; não sustenta pauta independente. |
+| Mt 19.3-12 — pergunta sobre divórcio e eunucos | **Autorada** em `nt2-mateus-divorcio-eunucos` (21 pistas; capacidade 10). Embora Mt 5.31-32 já registre um ensino relacionado, o diálogo, as perguntas e a lista exclusiva foram preservados como unidade própria, sem harmonização com Mc 10. |
+| Mt 19.13-15 — crianças abençoadas | **Não autorada — insuficiência específica.** A unidade tem entrega das crianças, finalidade, repreensão, ordem, afirmação sobre o Reino, imposição de mãos e retirada; esses fatos não chegam a quatro campos independentes e cinco pistas úteis sem atomização. O paralelo não apaga seus fatos; eles ficam inventariados aqui. |
+| Mt 19.16-30 — jovem rico e recompensa | **Autorada** em `nt2-mateus-jovem-rico-recompensa` (30 pistas; capacidade 12). Mandamentos, reação, comparação e promessas são falas atribuídas, sem conclusão externa sobre o indivíduo. |
+| Mt 20.1-16 — trabalhadores da vinha | **Autorada** em `nt2-mateus-trabalhadores-vinha` (28 pistas; capacidade 12). Horários e pagamentos permanecem elementos da parábola; o denário não foi convertido. |
+| Mt 20.17-19 — anúncio no caminho | **Autorada como parte** de `nt2-mateus-calice-servico-resgate`; não foi fundida com narrativas posteriores como se fossem a mesma ocasião. |
+| Mt 20.20-28 — pedido, cálice e serviço | **Autorada** na mesma pauta (30 pistas no total; capacidade 12), mantendo a mãe dos filhos de Zebedeu e a redação própria de Mateus sem importar nomes do paralelo. |
+| Mt 20.29-34 — dois cegos ao sair de Jericó | **Não autorada — paralelo comparado, recorte curto.** `nt2-marcos-bartimeu` cobre o núcleo paralelo, mas os fatos exclusivos de Mateus — dois cegos, forma plural do pedido, toque nos olhos e resposta conjunta — não foram descartados. Isoladamente eles não sustentam quatro campos independentes e ao menos cinco pistas sem repetir o núcleo já coberto; permanecem registrados para eventual consolidação documental futura. |
+
+O lote acrescenta exatamente **quatro pautas/109 pistas**, com capacidades calculadas por `min(12, floor((pistas - 1) / 2))`: 10, 12, 12 e 12. Não há remanescente sem decisão em Mt 19–20 no inventário vigente; crianças e cegos possuem motivos/status específicos, não exclusões definitivas. O próximo recorte de Mateus é **Mt 21–25**, posterior e fora deste lote. Isso não declara Mateus ou o banco completos.

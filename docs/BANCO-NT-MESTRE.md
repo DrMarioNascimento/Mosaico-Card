@@ -724,3 +724,9 @@ Somente a página NAA Bible.com 1840 de Mateus 18 foi consultada, com HTTP 200 e
 - **Antes/depois:** 222 pautas/4.347 pistas → 226/4.404; a recontagem por referência corrige o subtotal histórico de Mateus do checkpoint 071 de 750 para 749 pistas (P03 da mão ressequida é exclusivamente de Marcos), chegando agora a 806; os 222 objetos anteriores permaneceram na mesma ordem e serializaram identicamente, sem consolidação ou correção interna.
 - **Contrato:** quatro campos e quatro alternativas, gabaritos NAA, focal e ordem 8/5/3/2, proveniência, importância separada do risco de revelação, metadados e capacidade variável foram preservados. Parábolas e ensinos são atributivos, sem interpretação externa ou harmonização.
 - **Limite:** todas as unidades de Mt 18 receberam decisão neste inventário; Mt 19–20 e demais recortes ficam posteriores. Dúvidas e exclusões definitivas permanecem intactas; não houve merge, deploy, publicação, Firebase ou credenciais, e testes não declaram o banco completo.
+
+## Checkpoint 073 — inventário de Mateus 19–20
+
+As páginas NAA Bible.com 1840 de Mt 19–20 foram obtidas com HTTP 200 e lidas verso a verso. Quatro unidades sustentadas acrescentaram 109 pistas: diálogo sobre divórcio/eunucos, jovem rico/recompensa, trabalhadores da vinha e cálice/serviço/resgate. O banco passa de **226 pautas/4.404 pistas para 230/4.513**, com preservação serializada dos 226 objetos anteriores.
+
+Crianças (Mt 19.13-15) e cegos ao sair de Jericó (Mt 20.29-34) receberam decisões específicas; no segundo caso, os fatos exclusivos de Mateus permanecem registrados mesmo após comparação com Bartimeu. As capacidades novas são 10, 12, 12 e 12. **Mt 21–25 e os demais recortes globais continuam posteriores; o banco não está completo.**

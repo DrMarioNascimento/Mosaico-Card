@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-072-mateus-18",
+  "catalogVersion": "checkpoint-073-mateus-19-20",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 226,
-    "fields": 904,
-    "editoriallyEligibleCases": 226,
-    "playableCases": 226,
-    "max12Cases": 86
+    "cases": 230,
+    "fields": 920,
+    "editoriallyEligibleCases": 230,
+    "playableCases": 230,
+    "max12Cases": 89
   },
   "order": [
     "nt2-joao-cana",
@@ -242,7 +242,11 @@
     "nt2-mateus-crianca-maior-tropecos",
     "nt2-mateus-pequeninos-ovelha-desgarrada",
     "nt2-mateus-irmao-testemunhas-igreja-acordo",
-    "nt2-mateus-servo-divida-perdao"
+    "nt2-mateus-servo-divida-perdao",
+    "nt2-mateus-divorcio-eunucos",
+    "nt2-mateus-jovem-rico-recompensa",
+    "nt2-mateus-trabalhadores-vinha",
+    "nt2-mateus-calice-servico-resgate"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -157797,6 +157801,3522 @@
             "passage": "18.21-35",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-divorcio-eunucos": {
+      "id": "nt2-mateus-divorcio-eunucos",
+      "kind": "canonical-case",
+      "title": "Perguntas sobre união, divórcio e aptidão",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 19.1-12",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais perguntas, respostas e classificações compõem o diálogo de Mateus 19 sobre união e aptidão?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo distingue diretamente o núcleo da unidade e recebe o maior peso; os demais acrescentam identificação progressiva.",
+      "editorial": {
+        "hinge": "As formulações sensíveis permanecem atribuídas ao diálogo, sem criar regra externa nem harmonizar o paralelo de Marcos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem apresentou a pergunta para testar Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Alguns fariseus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Grandes multidões"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Algumas crianças"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Alguns fariseus",
+          "enderecoNAA": "Mateus 19.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Moisés permitiu segundo a resposta de Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O repúdio por causa da dureza do coração"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A separação determinada pelo Criador"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O impedimento de toda união"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A venda das propriedades"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O repúdio por causa da dureza do coração",
+          "enderecoNAA": "Mateus 19.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem disse que talvez não conviesse casar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os discípulos de Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os fariseus"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "As multidões"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os eunucos de nascença"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os discípulos de Jesus",
+          "enderecoNAA": "Mateus 19.10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quais grupos de eunucos Jesus enumerou",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "De nascença, feitos por homens e por causa do Reino"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Judeus, gentios e samaritanos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Sacerdotes, escribas e fariseus"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Casados, viúvos e solteiros"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "De nascença, feitos por homens e por causa do Reino",
+          "enderecoNAA": "Mateus 19.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus deixou a Galileia e foi ao território da Judeia além do Jordão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deixou a Galileia e foi ao território da Judeia além do Jordão."
+          },
+          {
+            "id": "P02",
+            "text": "Grandes multidões o seguiram e foram curadas ali.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Grandes multidões o seguiram e foram curadas ali."
+          },
+          {
+            "id": "P03",
+            "text": "Alguns fariseus se aproximaram para testar Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns fariseus se aproximaram para testar Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "A pergunta deles tratava de repudiar a mulher por qualquer motivo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta deles tratava de repudiar a mulher por qualquer motivo."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus atribuiu ao Criador a formação de homem e mulher desde o princípio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu ao Criador a formação de homem e mulher desde o princípio."
+          },
+          {
+            "id": "P06",
+            "text": "Ele citou o abandono de pai e mãe e a união com a mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele citou o abandono de pai e mãe e a união com a mulher."
+          },
+          {
+            "id": "P07",
+            "text": "Os dois são apresentados como uma só carne.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.5-6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois são apresentados como uma só carne."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus ordenou que ninguém separasse o que Deus ajuntou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que ninguém separasse o que Deus ajuntou."
+          },
+          {
+            "id": "P09",
+            "text": "Os fariseus lembraram a carta de divórcio atribuída a Moisés.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus lembraram a carta de divórcio atribuída a Moisés."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus relacionou a permissão de Moisés à dureza do coração deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus relacionou a permissão de Moisés à dureza do coração deles."
+          },
+          {
+            "id": "P11",
+            "text": "A resposta afirma que essa situação não existia desde o princípio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta afirma que essa situação não existia desde o princípio."
+          },
+          {
+            "id": "P12",
+            "text": "A exceção mencionada por Jesus envolve relações sexuais ilícitas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A exceção mencionada por Jesus envolve relações sexuais ilícitas."
+          },
+          {
+            "id": "P13",
+            "text": "O novo casamento após o repúdio descrito é chamado de adultério.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O novo casamento após o repúdio descrito é chamado de adultério."
+          },
+          {
+            "id": "P14",
+            "text": "Os discípulos comentaram a situação do homem em relação à mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos comentaram a situação do homem em relação à mulher."
+          },
+          {
+            "id": "P15",
+            "text": "Eles concluíram que, nessa condição, não convinha casar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles concluíram que, nessa condição, não convinha casar."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus disse que nem todos são aptos para aceitar o ensinamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que nem todos são aptos para aceitar o ensinamento."
+          },
+          {
+            "id": "P17",
+            "text": "A aceitação foi limitada àqueles a quem isso é dado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aceitação foi limitada àqueles a quem isso é dado."
+          },
+          {
+            "id": "P18",
+            "text": "A lista começa com eunucos de nascença.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista começa com eunucos de nascença."
+          },
+          {
+            "id": "P19",
+            "text": "Outro grupo foi feito assim por homens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro grupo foi feito assim por homens."
+          },
+          {
+            "id": "P20",
+            "text": "O terceiro grupo se fez assim por causa do Reino dos Céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O terceiro grupo se fez assim por causa do Reino dos Céus."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus encerrou convidando quem fosse apto a aceitar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus encerrou convidando quem fosse apto a aceitar."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 19.1-12 registra o teste dos fariseus, a resposta sobre o princípio, a reação dos discípulos e três classificações de eunucos.",
+        "hinge": "As formulações sensíveis permanecem atribuídas ao diálogo, sem criar regra externa nem harmonizar o paralelo de Marcos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-jovem-rico-recompensa": {
+      "id": "nt2-mateus-jovem-rico-recompensa",
+      "kind": "canonical-case",
+      "title": "O jovem, as propriedades e a recompensa",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 19.16-30",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.16-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais pedidos, reações, comparações e promessas estruturam o encontro com o jovem e a conversa posterior?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo distingue diretamente o núcleo da unidade e recebe o maior peso; os demais acrescentam identificação progressiva.",
+      "editorial": {
+        "hinge": "Mandamentos, comparações e promessas ficam como falas no recorte; nenhuma riqueza ou salvação individual é inferida além delas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o jovem perguntou que deveria fazer",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Algo bom para alcançar a vida eterna"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma viagem para alcançar Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma oferta para entrar no templo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma pergunta para testar os fariseus"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Algo bom para alcançar a vida eterna",
+          "enderecoNAA": "Mateus 19.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus mandou fazer se ele quisesse ser perfeito",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Vender os bens, dar aos pobres e segui-lo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Guardar os bens e contratar trabalhadores"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Deixar somente a casa e os campos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Entregar um denário aos discípulos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Vender os bens, dar aos pobres e segui-lo",
+          "enderecoNAA": "Mateus 19.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por que o jovem saiu triste",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Era dono de muitas propriedades"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Não conhecia os mandamentos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Foi repreendido pela multidão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Não recebeu resposta de Jesus"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Era dono de muitas propriedades",
+          "enderecoNAA": "Mateus 19.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quantos tronos foram mencionados aos seguidores",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Doze"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sete"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Dez"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Cem"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Doze",
+          "enderecoNAA": "Mateus 19.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Alguém se aproximou de Jesus com uma pergunta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguém se aproximou de Jesus com uma pergunta."
+          },
+          {
+            "id": "P02",
+            "text": "Ele chamou Jesus de Mestre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele chamou Jesus de Mestre."
+          },
+          {
+            "id": "P03",
+            "text": "Sua pergunta uniu fazer o bem e alcançar a vida eterna.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua pergunta uniu fazer o bem e alcançar a vida eterna."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus afirmou que só existe um que é bom.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que só existe um que é bom."
+          },
+          {
+            "id": "P05",
+            "text": "Para entrar na vida, Jesus mandou guardar os mandamentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Para entrar na vida, Jesus mandou guardar os mandamentos."
+          },
+          {
+            "id": "P06",
+            "text": "O interlocutor perguntou quais mandamentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O interlocutor perguntou quais mandamentos."
+          },
+          {
+            "id": "P07",
+            "text": "A resposta incluiu não matar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta incluiu não matar."
+          },
+          {
+            "id": "P08",
+            "text": "Também incluiu não cometer adultério.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também incluiu não cometer adultério."
+          },
+          {
+            "id": "P09",
+            "text": "Não furtar e não dar falso testemunho foram citados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não furtar e não dar falso testemunho foram citados."
+          },
+          {
+            "id": "P10",
+            "text": "Honrar pai e mãe apareceu na lista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Honrar pai e mãe apareceu na lista."
+          },
+          {
+            "id": "P11",
+            "text": "Amar o próximo como a si mesmo completou a resposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Amar o próximo como a si mesmo completou a resposta."
+          },
+          {
+            "id": "P12",
+            "text": "O jovem declarou ter observado tudo isso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O jovem declarou ter observado tudo isso."
+          },
+          {
+            "id": "P13",
+            "text": "Ele perguntou o que ainda lhe faltava.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou o que ainda lhe faltava."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus condicionou a nova orientação ao desejo de ser perfeito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus condicionou a nova orientação ao desejo de ser perfeito."
+          },
+          {
+            "id": "P15",
+            "text": "A ordem começou com ir e vender os bens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem começou com ir e vender os bens."
+          },
+          {
+            "id": "P16",
+            "text": "O dinheiro deveria ser dado aos pobres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dinheiro deveria ser dado aos pobres."
+          },
+          {
+            "id": "P17",
+            "text": "A promessa associada era um tesouro nos céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa associada era um tesouro nos céus."
+          },
+          {
+            "id": "P18",
+            "text": "Depois disso, o jovem deveria vir e seguir Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois disso, o jovem deveria vir e seguir Jesus."
+          },
+          {
+            "id": "P19",
+            "text": "Ao ouvir a palavra, o jovem se retirou triste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao ouvir a palavra, o jovem se retirou triste."
+          },
+          {
+            "id": "P20",
+            "text": "Mateus explica que ele possuía muitas propriedades.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus explica que ele possuía muitas propriedades."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus disse que um rico entraria dificilmente no Reino dos Céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que um rico entraria dificilmente no Reino dos Céus."
+          },
+          {
+            "id": "P22",
+            "text": "O camelo e o fundo de uma agulha formaram a comparação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O camelo e o fundo de uma agulha formaram a comparação."
+          },
+          {
+            "id": "P23",
+            "text": "Os discípulos ficaram muito admirados e perguntaram quem poderia ser salvo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos ficaram muito admirados e perguntaram quem poderia ser salvo."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus contrastou a impossibilidade humana com a possibilidade de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou a impossibilidade humana com a possibilidade de Deus."
+          },
+          {
+            "id": "P25",
+            "text": "Pedro declarou que eles haviam deixado tudo e seguido Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro declarou que eles haviam deixado tudo e seguido Jesus."
+          },
+          {
+            "id": "P26",
+            "text": "Na resposta, Jesus falou do Filho do Homem no trono de sua glória.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na resposta, Jesus falou do Filho do Homem no trono de sua glória."
+          },
+          {
+            "id": "P27",
+            "text": "Aos seguidores foram prometidos doze tronos para julgar as doze tribos de Israel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos seguidores foram prometidos doze tronos para julgar as doze tribos de Israel."
+          },
+          {
+            "id": "P28",
+            "text": "Quem deixasse relações ou bens por causa do nome de Jesus receberia muitas vezes mais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem deixasse relações ou bens por causa do nome de Jesus receberia muitas vezes mais."
+          },
+          {
+            "id": "P29",
+            "text": "A mesma fala promete herança da vida eterna.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma fala promete herança da vida eterna."
+          },
+          {
+            "id": "P30",
+            "text": "O encerramento inverte muitos primeiros e últimos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O encerramento inverte muitos primeiros e últimos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 19.16-30 acompanha a pergunta do jovem, a orientação de Jesus, sua retirada e a resposta dada a discípulos e a Pedro.",
+        "hinge": "Mandamentos, comparações e promessas ficam como falas no recorte; nenhuma riqueza ou salvação individual é inferida além delas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.16-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-trabalhadores-vinha": {
+      "id": "nt2-mateus-trabalhadores-vinha",
+      "kind": "canonical-case",
+      "title": "Os trabalhadores e o pagamento da vinha",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 20.1-16",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais horários, acordos, pagamentos e respostas distinguem a parábola dos trabalhadores da vinha?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo distingue diretamente o núcleo da unidade e recebe o maior peso; os demais acrescentam identificação progressiva.",
+      "editorial": {
+        "hinge": "A pauta identifica elementos internos da parábola, sem converter o denário em valor atual nem explicar externamente sua aplicação."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quanto foi combinado com os primeiros trabalhadores",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um denário por dia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Dois denários por hora"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um talento pela colheita"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Doze moedas ao meio-dia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um denário por dia",
+          "enderecoNAA": "Mateus 20.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Por quem o administrador deveria começar o pagamento",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pelos últimos contratados"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pelos primeiros contratados"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pelos que murmuraram"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pelos que estavam na praça"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pelos últimos contratados",
+          "enderecoNAA": "Mateus 20.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quanto receberam os contratados às cinco da tarde",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um denário cada um"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Metade de um denário"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Um talento cada um"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Somente alimento"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um denário cada um",
+          "enderecoNAA": "Mateus 20.9",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o dono respondeu à acusação de injustiça",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Lembrou o acordo e afirmou poder dispor do que era seu"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Prometeu dobrar o salário dos primeiros"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cancelou o pagamento dos últimos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entregou a decisão ao administrador"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Lembrou o acordo e afirmou poder dispor do que era seu",
+          "enderecoNAA": "Mateus 20.13-15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.13-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Reino dos Céus foi comparado a um proprietário de terras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino dos Céus foi comparado a um proprietário de terras."
+          },
+          {
+            "id": "P02",
+            "text": "Ele saiu de madrugada para contratar trabalhadores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele saiu de madrugada para contratar trabalhadores."
+          },
+          {
+            "id": "P03",
+            "text": "O local de trabalho era a vinha do proprietário.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O local de trabalho era a vinha do proprietário."
+          },
+          {
+            "id": "P04",
+            "text": "O acordo inicial foi de um denário por dia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O acordo inicial foi de um denário por dia."
+          },
+          {
+            "id": "P05",
+            "text": "Após o acordo, os trabalhadores foram enviados à vinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Após o acordo, os trabalhadores foram enviados à vinha."
+          },
+          {
+            "id": "P06",
+            "text": "Por volta das nove, o dono viu outros desocupados na praça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por volta das nove, o dono viu outros desocupados na praça."
+          },
+          {
+            "id": "P07",
+            "text": "A eles prometeu pagar o que fosse justo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A eles prometeu pagar o que fosse justo."
+          },
+          {
+            "id": "P08",
+            "text": "O dono voltou a sair perto do meio-dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono voltou a sair perto do meio-dia."
+          },
+          {
+            "id": "P09",
+            "text": "Ele também saiu às três da tarde e fez o mesmo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também saiu às três da tarde e fez o mesmo."
+          },
+          {
+            "id": "P10",
+            "text": "Por volta das cinco, encontrou mais pessoas desocupadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por volta das cinco, encontrou mais pessoas desocupadas."
+          },
+          {
+            "id": "P11",
+            "text": "Elas disseram que ninguém as havia contratado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas disseram que ninguém as havia contratado."
+          },
+          {
+            "id": "P12",
+            "text": "Esses últimos também foram enviados à vinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esses últimos também foram enviados à vinha."
+          },
+          {
+            "id": "P13",
+            "text": "Ao cair da tarde, o dono falou com seu administrador.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao cair da tarde, o dono falou com seu administrador."
+          },
+          {
+            "id": "P14",
+            "text": "O administrador deveria chamar os trabalhadores e pagar o salário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O administrador deveria chamar os trabalhadores e pagar o salário."
+          },
+          {
+            "id": "P15",
+            "text": "A ordem de pagamento avançava dos últimos até os primeiros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem de pagamento avançava dos últimos até os primeiros."
+          },
+          {
+            "id": "P16",
+            "text": "Cada contratado das cinco da tarde recebeu um denário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada contratado das cinco da tarde recebeu um denário."
+          },
+          {
+            "id": "P17",
+            "text": "Os primeiros imaginaram que receberiam mais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os primeiros imaginaram que receberiam mais."
+          },
+          {
+            "id": "P18",
+            "text": "Os primeiros também receberam um denário cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os primeiros também receberam um denário cada."
+          },
+          {
+            "id": "P19",
+            "text": "Depois de receber, eles murmuraram contra o dono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de receber, eles murmuraram contra o dono."
+          },
+          {
+            "id": "P20",
+            "text": "Os murmuradores disseram que os últimos trabalharam uma hora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os murmuradores disseram que os últimos trabalharam uma hora."
+          },
+          {
+            "id": "P21",
+            "text": "Eles contrastaram isso com a fadiga e o calor que suportaram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles contrastaram isso com a fadiga e o calor que suportaram."
+          },
+          {
+            "id": "P22",
+            "text": "O dono chamou um deles de amigo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono chamou um deles de amigo."
+          },
+          {
+            "id": "P23",
+            "text": "Ele negou estar sendo injusto e relembrou o acordo de um denário.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele negou estar sendo injusto e relembrou o acordo de um denário."
+          },
+          {
+            "id": "P24",
+            "text": "Mandou o trabalhador pegar o que era seu e sair.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mandou o trabalhador pegar o que era seu e sair."
+          },
+          {
+            "id": "P25",
+            "text": "O dono declarou querer dar ao último o mesmo que ao primeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono declarou querer dar ao último o mesmo que ao primeiro."
+          },
+          {
+            "id": "P26",
+            "text": "Ele perguntou se não podia fazer o que desejava com o que lhe pertencia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou se não podia fazer o que desejava com o que lhe pertencia."
+          },
+          {
+            "id": "P27",
+            "text": "Também perguntou se a bondade dele provocava inveja.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também perguntou se a bondade dele provocava inveja."
+          },
+          {
+            "id": "P28",
+            "text": "A conclusão apresenta os últimos como primeiros e os primeiros como últimos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão apresenta os últimos como primeiros e os primeiros como últimos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 20.1-16 apresenta contratações em horários diferentes, pagamento iniciado pelos últimos, murmuração e resposta do dono.",
+        "hinge": "A pauta identifica elementos internos da parábola, sem converter o denário em valor atual nem explicar externamente sua aplicação.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-calice-servico-resgate": {
+      "id": "nt2-mateus-calice-servico-resgate",
+      "kind": "canonical-case",
+      "title": "O cálice, os lugares e o serviço",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 20.17-28",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.17-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais anúncio, pedido, reação e contraste compõem a conversa de Jesus com os doze no caminho?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo distingue diretamente o núcleo da unidade e recebe o maior peso; os demais acrescentam identificação progressiva.",
+      "editorial": {
+        "hinge": "Cálice, lugares e resgate permanecem nas falas do texto; não se identificam destinos individuais nem se combina o relato com paralelos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para onde Jesus disse que estavam subindo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jericó"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Além do Jordão"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Jerusalém",
+          "enderecoNAA": "Mateus 20.17-18",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a mãe dos filhos de Zebedeu pediu",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Lugares à direita e à esquerda no reino"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Autoridade sobre os outros dez"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma vinha para seus dois filhos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A libertação dos principais sacerdotes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Lugares à direita e à esquerda no reino",
+          "enderecoNAA": "Mateus 20.20-21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.20-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como os outros dez reagiram",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ficaram indignados com os dois irmãos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Aprovaram o pedido"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Abandonaram o caminho"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediram a mesma coisa às multidões"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ficaram indignados com os dois irmãos",
+          "enderecoNAA": "Mateus 20.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Para que o Filho do Homem veio",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Servir e dar a vida em resgate por muitos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ser servido pelos governadores"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Conceder os dois lugares pedidos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Julgar imediatamente os gentios"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Servir e dar a vida em resgate por muitos",
+          "enderecoNAA": "Mateus 20.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus estava para subir a Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estava para subir a Jerusalém."
+          },
+          {
+            "id": "P02",
+            "text": "Ele chamou os doze discípulos para um lado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele chamou os doze discípulos para um lado."
+          },
+          {
+            "id": "P03",
+            "text": "A fala ocorreu no caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala ocorreu no caminho."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus anunciou que o Filho do Homem seria entregue.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou que o Filho do Homem seria entregue."
+          },
+          {
+            "id": "P05",
+            "text": "Os destinatários da entrega seriam principais sacerdotes e escribas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários da entrega seriam principais sacerdotes e escribas."
+          },
+          {
+            "id": "P06",
+            "text": "Eles o condenariam à morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles o condenariam à morte."
+          },
+          {
+            "id": "P07",
+            "text": "Depois ele seria entregue aos gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois ele seria entregue aos gentios."
+          },
+          {
+            "id": "P08",
+            "text": "Zombaria, açoites e crucificação integraram o anúncio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Zombaria, açoites e crucificação integraram o anúncio."
+          },
+          {
+            "id": "P09",
+            "text": "A ressurreição foi anunciada para o terceiro dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ressurreição foi anunciada para o terceiro dia."
+          },
+          {
+            "id": "P10",
+            "text": "A mulher de Zebedeu se aproximou com os filhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher de Zebedeu se aproximou com os filhos."
+          },
+          {
+            "id": "P11",
+            "text": "Ela adorou Jesus e pediu um favor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela adorou Jesus e pediu um favor."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus perguntou o que ela queria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou o que ela queria."
+          },
+          {
+            "id": "P13",
+            "text": "O pedido dizia respeito a seus dois filhos no reino de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido dizia respeito a seus dois filhos no reino de Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "Um deveria sentar-se à direita e o outro à esquerda.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um deveria sentar-se à direita e o outro à esquerda."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus disse que eles não sabiam o que pediam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que eles não sabiam o que pediam."
+          },
+          {
+            "id": "P16",
+            "text": "Ele perguntou se poderiam beber o cálice que ele beberia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou se poderiam beber o cálice que ele beberia."
+          },
+          {
+            "id": "P17",
+            "text": "Eles responderam que podiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam que podiam."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus afirmou que eles beberiam o cálice dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que eles beberiam o cálice dele."
+          },
+          {
+            "id": "P19",
+            "text": "Conceder os assentos não competia a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Conceder os assentos não competia a Jesus."
+          },
+          {
+            "id": "P20",
+            "text": "Os lugares seriam daqueles para quem o Pai os preparou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lugares seriam daqueles para quem o Pai os preparou."
+          },
+          {
+            "id": "P21",
+            "text": "Os outros dez ouviram o ocorrido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os outros dez ouviram o ocorrido."
+          },
+          {
+            "id": "P22",
+            "text": "Eles ficaram indignados com os dois irmãos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles ficaram indignados com os dois irmãos."
+          },
+          {
+            "id": "P23",
+            "text": "Jesus chamou todos para perto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou todos para perto."
+          },
+          {
+            "id": "P24",
+            "text": "Governadores e maiorais foram descritos exercendo domínio e autoridade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Governadores e maiorais foram descritos exercendo domínio e autoridade."
+          },
+          {
+            "id": "P25",
+            "text": "Jesus disse que entre os discípulos não seria assim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que entre os discípulos não seria assim."
+          },
+          {
+            "id": "P26",
+            "text": "Quem desejasse tornar-se grande deveria servir os outros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem desejasse tornar-se grande deveria servir os outros."
+          },
+          {
+            "id": "P27",
+            "text": "Quem desejasse ser primeiro deveria tornar-se servo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem desejasse ser primeiro deveria tornar-se servo."
+          },
+          {
+            "id": "P28",
+            "text": "O Filho do Homem não veio para ser servido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem não veio para ser servido."
+          },
+          {
+            "id": "P29",
+            "text": "Ele veio para servir.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele veio para servir."
+          },
+          {
+            "id": "P30",
+            "text": "Sua vida seria dada em resgate por muitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua vida seria dada em resgate por muitos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 20.17-28 reúne o anúncio no caminho, o pedido da mãe dos filhos de Zebedeu, a indignação dos dez e o ensino sobre serviço.",
+        "hinge": "Cálice, lugares e resgate permanecem nas falas do texto; não se identificam destinos individuais nem se combina o relato com paralelos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.17-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

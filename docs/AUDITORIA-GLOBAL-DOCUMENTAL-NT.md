@@ -18,7 +18,7 @@ Checkpoint 072, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
-| Mateus | 42 pautas / 806 pistas | Mt 19–20 e 21–25 | O checkpoint 072 inventariou todas as unidades de Mt 18 em quatro pautas; 18.8-9 já estava representado por Mt 5.29-30 e não foi duplicado. | **PENDENTE — próxima faixa.** Mateus 18 está decidido; inventariar Mt 19–20 em lote posterior. |
+| Mateus | 46 pautas / 915 pistas | Mt 21–25 | O checkpoint 073 inventariou individualmente Mt 19–20: quatro unidades viraram pautas; crianças e cegos de Jericó tiveram decisões específicas após comparação. | **EM ANDAMENTO.** Mt 19–20 está decidido nesta rodada; Mt 21–25 permanece posterior. |
 | Marcos | 17 / 194 | Trechos fora da lista inicial, sobretudo Mc 1–4, 6–13 e 14–16.8 não representados por pauta própria/paralela | A ficha decide 17 pré-candidatos e depois chama os 16 capítulos de analisados; não há inventário individual de todos os demais recortes. | **PENDENTE — decisão individual.** Varredura NAA por recorte; **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
@@ -56,7 +56,7 @@ Checkpoint 072, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Lote documental A5 — Mateus 19–20:** Mateus 18 foi inventariado no checkpoint 072; inventariar Mt 19–20 em lote posterior, sempre sem harmonizar paralelos.
+1. **Lote documental A6 — Mateus 21–25:** Mt 19–20 foi inventariado no checkpoint 073; continuar somente em lote posterior, com decisão por unidade e sem harmonizar paralelos.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
