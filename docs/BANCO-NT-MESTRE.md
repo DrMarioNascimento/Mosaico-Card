@@ -437,3 +437,16 @@ Foram acrescentadas quatro pautas, sem forçar uma quinta: `nt2-romanos-abertura
 - **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; a consulta bíblica foi uma etapa distinta da validação e dos testes.
 - **Pendências:** Rm 12–15, os demais candidatos de 1–2 Coríntios e das outras cartas, e Apocalipse permanecem para lotes posteriores. O banco **não** está completo.
 - **Operação:** não houve merge, deploy, publicação nem alteração de credenciais/Firebase.
+
+## Checkpoint 042 — segundo lote limitado de Romanos
+
+A rodada continuou exatamente de `7e11cd28abb57e50575f5409e99a60bc4bb4ef47`, com **120 pautas elegíveis e 2.174 pistas**. Antes da edição, validação, auditoria e contagem independente confirmaram a base. Em 13/09/2026, as páginas identificadas como Nova Almeida Atualizada de Romanos 12, 13, 14 e 15 em `bible.com/pt/bible/1840` foram obtidas separadamente, todas com HTTP 200; a leitura bíblica de Rm 12, Rm 13, Rm 14 e Rm 15.1-13 ocorreu antes e separadamente dos testes.
+
+O lote acrescentou exatamente quatro pautas: `nt2-romanos-corpo-dons-conduta` (21 pistas), `nt2-romanos-autoridades-amor-vigilancia` (18), `nt2-romanos-acolhimento-consciencia-paz` (23) e `nt2-romanos-fortes-acolhimento-esperanca` (14). As perguntas são atributivas ao texto, listas e exortações permanecem itens independentes, e nenhuma alternativa incorreta é afirmada como tese. As citações de Rm 12–15 foram tratadas apenas como afirmações presentes em Romanos, sem completar fatos pelo Antigo Testamento.
+
+- **Inventário:** 124 pautas elegíveis e 2.250 pistas; 57 chegam a 12 participantes, duas a 11, uma a dez, sete a oito, três a sete, 30 a seis, uma a cinco, dez a quatro e treze a três.
+- **Preservação:** comparação mecanizada confirmou igualdade integral dos 120 objetos e das 2.174 pistas anteriores; nenhum ID ou estado de revisão preexistente mudou.
+- **Diff da rodada:** quatro pautas e 76 pistas novas na fonte, catálogo regenerado, testes de inventário/capacidade e registros documentais deste checkpoint.
+- **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução.
+- **Pendências:** Coríntios, as demais cartas e Apocalipse ficam para a próxima base. O banco **não** está completo.
+- **Operação:** não houve uso da `main`, merge, deploy, publicação nem alteração de Firebase ou credenciais.

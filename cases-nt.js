@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-041",
+  "catalogVersion": "2026.09-batch-042",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 120,
-    "fields": 480,
-    "editoriallyEligibleCases": 120,
-    "playableCases": 120,
+    "cases": 124,
+    "fields": 496,
+    "editoriallyEligibleCases": 124,
+    "playableCases": 124,
     "max12Cases": 57
   },
   "order": [
@@ -136,7 +136,11 @@
     "nt2-romanos-abertura-visita",
     "nt2-romanos-pecado-graca-servico",
     "nt2-romanos-lei-pecado-conflito",
-    "nt2-romanos-espirito-adocao-esperanca"
+    "nt2-romanos-espirito-adocao-esperanca",
+    "nt2-romanos-corpo-dons-conduta",
+    "nt2-romanos-autoridades-amor-vigilancia",
+    "nt2-romanos-acolhimento-consciencia-paz",
+    "nt2-romanos-fortes-acolhimento-esperanca"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -80245,6 +80249,2730 @@
           }
         ],
         "canonicalSummary": "Romanos 8 articula vida no Espírito, adoção, esperança em meio ao sofrimento, intercessão e a conclusão de que criatura alguma separa do amor de Deus em Cristo Jesus."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-corpo-dons-conduta": {
+      "id": "nt2-romanos-corpo-dons-conduta",
+      "kind": "canonical-case",
+      "title": "Corpo, dons e conduta em Romanos 12",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 12.1-21",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "12.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 12, que conjunto reúne a oferta pedida, o modo de pensar, o exercício de um dom e a resposta ao mal?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A oferta do corpo como sacrifício vivo abre a sequência e dá contexto às exortações sobre mente, dons e conduta.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como os irmãos devem oferecer o corpo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Como sacrifício vivo, santo e agradável a Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Como garantia de prestígio diante das pessoas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Como instrumento reservado à vingança"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Como pagamento por um dom espiritual"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Como sacrifício vivo, santo e agradável a Deus",
+          "enderecoNAA": "Romanos 12.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como cada pessoa deve pensar a respeito de si",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Com moderação, segundo a medida da fé repartida por Deus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Acima do que convém, segundo seus próprios méritos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sem considerar os demais membros do corpo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De acordo apenas com os padrões deste mundo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Com moderação, segundo a medida da fé repartida por Deus",
+          "enderecoNAA": "Romanos 12.3",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "12.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como deve contribuir aquele que contribui",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Com generosidade"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Com tristeza"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Com ostentação"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Com parcialidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Com generosidade",
+          "enderecoNAA": "Romanos 12.8",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "12.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o texto ordena vencer o mal",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Com o bem"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Com vingança pessoal"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Com indiferença"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Com mal maior"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Com o bem",
+          "enderecoNAA": "Romanos 12.21",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "12.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os irmãos são convidados a oferecer o corpo como sacrifício vivo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos são convidados a oferecer o corpo como sacrifício vivo."
+          },
+          {
+            "id": "P02",
+            "text": "O sacrifício pedido é chamado santo e agradável a Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sacrifício pedido é chamado santo e agradável a Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Essa oferta é identificada como o culto racional deles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa oferta é identificada como o culto racional deles."
+          },
+          {
+            "id": "P04",
+            "text": "Eles não devem viver conforme os padrões deste mundo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles não devem viver conforme os padrões deste mundo."
+          },
+          {
+            "id": "P05",
+            "text": "A transformação é relacionada à renovação da mente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A transformação é relacionada à renovação da mente."
+          },
+          {
+            "id": "P06",
+            "text": "Cada um é orientado a não pensar de si além do que convém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada um é orientado a não pensar de si além do que convém."
+          },
+          {
+            "id": "P07",
+            "text": "O modo de pensar recomendado é moderado, segundo a medida da fé repartida por Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O modo de pensar recomendado é moderado, segundo a medida da fé repartida por Deus."
+          },
+          {
+            "id": "P08",
+            "text": "Um só corpo tem muitos membros, e nem todos têm a mesma função.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um só corpo tem muitos membros, e nem todos têm a mesma função."
+          },
+          {
+            "id": "P09",
+            "text": "Os muitos são descritos como um só corpo em Cristo e membros uns dos outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os muitos são descritos como um só corpo em Cristo e membros uns dos outros."
+          },
+          {
+            "id": "P10",
+            "text": "Os dons são diferentes segundo a graça recebida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dons são diferentes segundo a graça recebida."
+          },
+          {
+            "id": "P11",
+            "text": "Quem ensina deve dedicar-se ao ensino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem ensina deve dedicar-se ao ensino."
+          },
+          {
+            "id": "P12",
+            "text": "Quem contribui é orientado a fazê-lo com generosidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem contribui é orientado a fazê-lo com generosidade."
+          },
+          {
+            "id": "P13",
+            "text": "Quem preside deve fazê-lo com zelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem preside deve fazê-lo com zelo."
+          },
+          {
+            "id": "P14",
+            "text": "Quem exerce misericórdia deve fazê-lo com alegria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem exerce misericórdia deve fazê-lo com alegria."
+          },
+          {
+            "id": "P15",
+            "text": "O amor deve ser sem hipocrisia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor deve ser sem hipocrisia."
+          },
+          {
+            "id": "P16",
+            "text": "A esperança é motivo de alegria, e a tribulação pede paciência.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A esperança é motivo de alegria, e a tribulação pede paciência."
+          },
+          {
+            "id": "P17",
+            "text": "O texto recomenda suprir necessidades dos santos e praticar hospitalidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto recomenda suprir necessidades dos santos e praticar hospitalidade."
+          },
+          {
+            "id": "P18",
+            "text": "Os perseguidores devem ser abençoados, não amaldiçoados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os perseguidores devem ser abençoados, não amaldiçoados."
+          },
+          {
+            "id": "P19",
+            "text": "Se possível e no que depender deles, devem viver em paz com todas as pessoas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Se possível e no que depender deles, devem viver em paz com todas as pessoas."
+          },
+          {
+            "id": "P20",
+            "text": "Os amados são orientados a não fazer justiça com as próprias mãos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os amados são orientados a não fazer justiça com as próprias mãos."
+          },
+          {
+            "id": "P21",
+            "text": "A ordem final é não ser vencido pelo mal, mas vencer o mal com o bem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "12.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem final é não ser vencido pelo mal, mas vencer o mal com o bem."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "12.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 12 reúne a oferta do corpo, renovação e moderação da mente, diversidade no exercício dos dons e exortações de amor, paz e vitória do bem sobre o mal."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-autoridades-amor-vigilancia": {
+      "id": "nt2-romanos-autoridades-amor-vigilancia",
+      "kind": "canonical-case",
+      "title": "Autoridades, amor e vigilância em Romanos 13",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 13.1-14",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "13.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 13, que conjunto identifica a orientação sobre autoridades, a dívida admitida, o cumprimento da lei e a imagem de vigilância?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A afirmação de que o amor cumpre a lei delimita o núcleo que liga a dívida permitida à conduta para com o próximo.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o texto chama de cumprimento da lei",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O amor"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O temor da punição"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O poder da espada"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O pagamento de impostos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O amor",
+          "enderecoNAA": "Romanos 13.10",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A quem todos devem estar sujeitos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Às autoridades superiores"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A qualquer pessoa que exija honra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Somente aos que não cobram impostos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Aos próprios desejos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Às autoridades superiores",
+          "enderecoNAA": "Romanos 13.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual dívida constitui a exceção mencionada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O amor de uns para com os outros"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O imposto devido às autoridades"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O respeito devido a todos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O tributo ainda não pago"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O amor de uns para com os outros",
+          "enderecoNAA": "Romanos 13.8",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "De que os destinatários já devem despertar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Do sono"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Da viagem"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Da perseguição"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Do trabalho"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Do sono",
+          "enderecoNAA": "Romanos 13.11",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Todos são orientados a estar sujeitos às autoridades superiores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos são orientados a estar sujeitos às autoridades superiores."
+          },
+          {
+            "id": "P02",
+            "text": "As autoridades existentes são apresentadas como instituídas por Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As autoridades existentes são apresentadas como instituídas por Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Os magistrados são relacionados ao temor quando se faz o mal, não o bem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os magistrados são relacionados ao temor quando se faz o mal, não o bem."
+          },
+          {
+            "id": "P04",
+            "text": "A autoridade é chamada ministro de Deus para o bem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A autoridade é chamada ministro de Deus para o bem."
+          },
+          {
+            "id": "P05",
+            "text": "A sujeição é requerida tanto por causa da punição quanto por dever de consciência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sujeição é requerida tanto por causa da punição quanto por dever de consciência."
+          },
+          {
+            "id": "P06",
+            "text": "O pagamento de impostos é relacionado ao serviço constante das autoridades.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pagamento de impostos é relacionado ao serviço constante das autoridades."
+          },
+          {
+            "id": "P07",
+            "text": "O texto manda pagar tributo, imposto, respeito e honra a quem forem devidos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto manda pagar tributo, imposto, respeito e honra a quem forem devidos."
+          },
+          {
+            "id": "P08",
+            "text": "A única dívida admitida é o amor de uns para com os outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A única dívida admitida é o amor de uns para com os outros."
+          },
+          {
+            "id": "P09",
+            "text": "Quem ama o próximo é apresentado como alguém que cumpre a lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem ama o próximo é apresentado como alguém que cumpre a lei."
+          },
+          {
+            "id": "P10",
+            "text": "Os mandamentos mencionados são resumidos no amor ao próximo como a si mesmo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mandamentos mencionados são resumidos no amor ao próximo como a si mesmo."
+          },
+          {
+            "id": "P11",
+            "text": "O amor não pratica o mal contra o próximo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor não pratica o mal contra o próximo."
+          },
+          {
+            "id": "P12",
+            "text": "O cumprimento da lei é identificado como o amor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cumprimento da lei é identificado como o amor."
+          },
+          {
+            "id": "P13",
+            "text": "O texto afirma que já é hora de despertar do sono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto afirma que já é hora de despertar do sono."
+          },
+          {
+            "id": "P14",
+            "text": "A noite vai alta e o dia vem chegando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A noite vai alta e o dia vem chegando."
+          },
+          {
+            "id": "P15",
+            "text": "Devem ser deixadas as obras das trevas e vestidas as armas da luz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Devem ser deixadas as obras das trevas e vestidas as armas da luz."
+          },
+          {
+            "id": "P16",
+            "text": "A orientação é viver dignamente, como em pleno dia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação é viver dignamente, como em pleno dia."
+          },
+          {
+            "id": "P17",
+            "text": "Os destinatários devem revestir-se do Senhor Jesus Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários devem revestir-se do Senhor Jesus Cristo."
+          },
+          {
+            "id": "P18",
+            "text": "Eles não devem agir para satisfazer os desejos da carne.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "13.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles não devem agir para satisfazer os desejos da carne."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "13.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 13 trata da sujeição e do que é devido às autoridades, identifica o amor ao próximo como dívida e cumprimento da lei e convoca a uma vida vigilante como em pleno dia."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-acolhimento-consciencia-paz": {
+      "id": "nt2-romanos-acolhimento-consciencia-paz",
+      "kind": "canonical-case",
+      "title": "Acolhimento, consciência e paz em Romanos 14",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 14.1-23",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "14.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 14, que conjunto reúne a orientação sobre o fraco na fé, dias e alimentos, prestação de contas e edificação?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A ordem de acolher sem discutir opiniões estabelece o limite para as diferenças sobre alimentos e dias tratadas no restante do capítulo.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como deve ser acolhido quem é fraco na fé",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sem discutir opiniões"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Para ser imediatamente julgado"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Somente se comer de tudo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Para que abandone toda opinião própria"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sem discutir opiniões",
+          "enderecoNAA": "Romanos 14.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que posição cada um deve ter sobre a importância dos dias",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma opinião bem-definida em sua própria mente"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A opinião imposta pelo irmão que come"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Nenhuma opinião sobre qualquer dia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A decisão pública de desprezar o outro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma opinião bem-definida em sua própria mente",
+          "enderecoNAA": "Romanos 14.5",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "14.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "De quem cada pessoa prestará contas diante de Deus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De si mesma"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Do alimento escolhido pelo irmão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Da consciência de toda a comunidade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dos atos de seu próprio dono terreno"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De si mesma",
+          "enderecoNAA": "Romanos 14.12",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "14.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que coisas devem ser buscadas",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "As que contribuem para a paz e a edificação mútua"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "As que ampliam discussões sobre opiniões"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "As que fazem um irmão tropeçar"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "As que transformam comida em critério do Reino"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "As que contribuem para a paz e a edificação mútua",
+          "enderecoNAA": "Romanos 14.19",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "14.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Quem é fraco na fé deve ser acolhido sem discussão de opiniões.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem é fraco na fé deve ser acolhido sem discussão de opiniões."
+          },
+          {
+            "id": "P02",
+            "text": "Um crê que pode comer de tudo, enquanto o fraco na fé come legumes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um crê que pode comer de tudo, enquanto o fraco na fé come legumes."
+          },
+          {
+            "id": "P03",
+            "text": "Quem come não deve desprezar quem não come.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem come não deve desprezar quem não come."
+          },
+          {
+            "id": "P04",
+            "text": "Quem não come não deve julgar quem come, porque Deus o acolheu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem não come não deve julgar quem come, porque Deus o acolheu."
+          },
+          {
+            "id": "P05",
+            "text": "O texto pergunta quem é a pessoa para julgar o servo alheio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto pergunta quem é a pessoa para julgar o servo alheio."
+          },
+          {
+            "id": "P06",
+            "text": "Alguns consideram certos dias mais importantes, e outros consideram todos iguais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns consideram certos dias mais importantes, e outros consideram todos iguais."
+          },
+          {
+            "id": "P07",
+            "text": "Cada um deve ter opinião bem-definida em sua própria mente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada um deve ter opinião bem-definida em sua própria mente."
+          },
+          {
+            "id": "P08",
+            "text": "Tanto quem come quanto quem não come é descrito dando graças a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tanto quem come quanto quem não come é descrito dando graças a Deus."
+          },
+          {
+            "id": "P09",
+            "text": "Nenhum de nós vive para si mesmo nem morre para si.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nenhum de nós vive para si mesmo nem morre para si."
+          },
+          {
+            "id": "P10",
+            "text": "Quer vivamos, quer morramos, somos do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quer vivamos, quer morramos, somos do Senhor."
+          },
+          {
+            "id": "P11",
+            "text": "Cristo morreu e tornou a viver para ser Senhor de mortos e vivos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo morreu e tornou a viver para ser Senhor de mortos e vivos."
+          },
+          {
+            "id": "P12",
+            "text": "O texto censura tanto julgar quanto desprezar o irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto censura tanto julgar quanto desprezar o irmão."
+          },
+          {
+            "id": "P13",
+            "text": "Todos terão de comparecer diante do tribunal de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos terão de comparecer diante do tribunal de Deus."
+          },
+          {
+            "id": "P14",
+            "text": "Cada um prestará contas de si mesmo diante de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada um prestará contas de si mesmo diante de Deus."
+          },
+          {
+            "id": "P15",
+            "text": "A decisão recomendada é não pôr tropeço ou escândalo diante do irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A decisão recomendada é não pôr tropeço ou escândalo diante do irmão."
+          },
+          {
+            "id": "P16",
+            "text": "Algo é impuro para aquele que o considera impuro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Algo é impuro para aquele que o considera impuro."
+          },
+          {
+            "id": "P17",
+            "text": "Entristecer o irmão por causa de comida é descrito como deixar de andar segundo o amor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Entristecer o irmão por causa de comida é descrito como deixar de andar segundo o amor."
+          },
+          {
+            "id": "P18",
+            "text": "O Reino de Deus não é comida nem bebida.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino de Deus não é comida nem bebida."
+          },
+          {
+            "id": "P19",
+            "text": "O Reino é associado a justiça, paz e alegria no Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino é associado a justiça, paz e alegria no Espírito Santo."
+          },
+          {
+            "id": "P20",
+            "text": "Devem ser buscadas as coisas que contribuem para a paz e a edificação mútua.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Devem ser buscadas as coisas que contribuem para a paz e a edificação mútua."
+          },
+          {
+            "id": "P21",
+            "text": "A obra de Deus não deve ser destruída por causa da comida.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A obra de Deus não deve ser destruída por causa da comida."
+          },
+          {
+            "id": "P22",
+            "text": "É bom evitar aquilo que leve um irmão a tropeçar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "É bom evitar aquilo que leve um irmão a tropeçar."
+          },
+          {
+            "id": "P23",
+            "text": "Tudo o que não provém de fé é chamado pecado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "14.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tudo o que não provém de fé é chamado pecado."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "14.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 14 ordena acolhimento sem disputa, trata diferenças de consciência sobre alimentos e dias, recorda a prestação pessoal de contas e prioriza paz e edificação."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-romanos-fortes-acolhimento-esperanca": {
+      "id": "nt2-romanos-fortes-acolhimento-esperanca",
+      "kind": "canonical-case",
+      "title": "Fortes, acolhimento e esperança em Romanos 15",
+      "canon": {
+        "book": "Romanos",
+        "referenceNAA": "Romanos 15.1-13",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "15.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Romanos 15.1-13, que conjunto identifica a responsabilidade dos fortes, o objetivo para o próximo, o modelo de acolhimento e o pedido final?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A responsabilidade atribuída aos fortes define o destinatário da exortação e evita confundir suporte aos fracos com busca de satisfação própria.",
+      "editorial": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os fortes na fé devem suportar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "As debilidades dos fracos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "As exigências de agradar a si mesmos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A recusa de acolher uns aos outros"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A obrigação de completar narrativas antigas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "As debilidades dos fracos",
+          "enderecoNAA": "Romanos 15.1",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "15.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Em que cada um deve agradar ao próximo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No que é bom para edificação"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Em tudo o que produza divisão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No que dispense paciência"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Em preferências que enfraqueçam a esperança"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No que é bom para edificação",
+          "enderecoNAA": "Romanos 15.2",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "15.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como os destinatários devem acolher uns aos outros",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Como Cristo os acolheu para a glória de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Como adversários em discussão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Somente se tiverem a mesma força"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Segundo a origem de cada pessoa"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Como Cristo os acolheu para a glória de Deus",
+          "enderecoNAA": "Romanos 15.7",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "15.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "De que o Deus da esperança deve enchê-los",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "De toda alegria e paz na fé"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "De superioridade sobre os fracos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "De conhecimento de cronologias externas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "De independência do Espírito Santo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "De toda alegria e paz na fé",
+          "enderecoNAA": "Romanos 15.13",
+          "answerReferences": [
+            {
+              "book": "Romanos",
+              "passage": "15.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os fortes na fé devem suportar as debilidades dos fracos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fortes na fé devem suportar as debilidades dos fracos."
+          },
+          {
+            "id": "P02",
+            "text": "Os fortes não devem agradar a si mesmos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fortes não devem agradar a si mesmos."
+          },
+          {
+            "id": "P03",
+            "text": "Cada um deve agradar ao próximo no que é bom para edificação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada um deve agradar ao próximo no que é bom para edificação."
+          },
+          {
+            "id": "P04",
+            "text": "Cristo é apresentado como alguém que não agradou a si mesmo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é apresentado como alguém que não agradou a si mesmo."
+          },
+          {
+            "id": "P05",
+            "text": "O que foi escrito no passado é apresentado como escrito para ensino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que foi escrito no passado é apresentado como escrito para ensino."
+          },
+          {
+            "id": "P06",
+            "text": "Paciência e consolação das Escrituras são relacionadas à esperança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paciência e consolação das Escrituras são relacionadas à esperança."
+          },
+          {
+            "id": "P07",
+            "text": "O pedido é que Deus conceda o mesmo modo de pensar de uns para com os outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido é que Deus conceda o mesmo modo de pensar de uns para com os outros."
+          },
+          {
+            "id": "P08",
+            "text": "O propósito é glorificar a Deus de modo unânime e a uma só voz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito é glorificar a Deus de modo unânime e a uma só voz."
+          },
+          {
+            "id": "P09",
+            "text": "Os destinatários devem acolher uns aos outros como Cristo os acolheu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários devem acolher uns aos outros como Cristo os acolheu."
+          },
+          {
+            "id": "P10",
+            "text": "O acolhimento de Cristo é relacionado à glória de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O acolhimento de Cristo é relacionado à glória de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Cristo é chamado ministro da circuncisão em prol da verdade de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é chamado ministro da circuncisão em prol da verdade de Deus."
+          },
+          {
+            "id": "P12",
+            "text": "O texto afirma que os gentios glorificam a Deus por sua misericórdia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto afirma que os gentios glorificam a Deus por sua misericórdia."
+          },
+          {
+            "id": "P13",
+            "text": "O Deus da esperança deve enchê-los de toda alegria e paz na fé.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Deus da esperança deve enchê-los de toda alegria e paz na fé."
+          },
+          {
+            "id": "P14",
+            "text": "O resultado pedido é que sejam ricos de esperança no poder do Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Registrar separadamente exortações e afirmações explícitas de Romanos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Romanos",
+                "passage": "15.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O resultado pedido é que sejam ricos de esperança no poder do Espírito Santo."
+          }
+        ]
+      },
+      "reveal": {
+        "hinge": "Pauta temática autorizada: cada campo pergunta o que Romanos afirma no recorte, sem tornar os distratores afirmações verdadeiras nem completar citações com outra fonte.",
+        "references": [
+          {
+            "book": "Romanos",
+            "passage": "15.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Romanos 15.1-13 atribui aos fortes o suporte aos fracos, orienta a edificação do próximo, toma Cristo como modelo de acolhimento e encerra com alegria, paz e esperança pelo Espírito."
       },
       "review": {
         "structural": "approved",

@@ -44,3 +44,14 @@ A autorização posterior para perguntas independentes e conjuntos temáticos ex
 - Rm 8: `nt2-romanos-espirito-adocao-esperanca`, 25 pistas.
 
 Os três argumentos de Rm 6, 7 e 8 permanecem separados. Nenhuma alusão recebeu complemento factual do Antigo Testamento, e nenhuma carta ou viagem foi usada para harmonizar Romanos. Rm 12–15 continua pendente para lote posterior, inclusive qualquer nova delimitação de Rm 15 que não replique a pauta factual já existente de 15.14-33.
+
+## Reavaliação de Rm 12–15.13 — checkpoint 042
+
+Em 13/09/2026, as páginas NAA identificadas de Romanos 12, 13, 14 e 15 foram obtidas separadamente em `bible.com/pt/bible/1840`, todas com HTTP 200. A leitura autorizada produziu quatro pautas independentes:
+
+- Rm 12: `nt2-romanos-corpo-dons-conduta`, 21 pistas;
+- Rm 13: `nt2-romanos-autoridades-amor-vigilancia`, 18 pistas;
+- Rm 14: `nt2-romanos-acolhimento-consciencia-paz`, 23 pistas;
+- Rm 15.1-13: `nt2-romanos-fortes-acolhimento-esperanca`, 14 pistas.
+
+As perguntas registram o que o texto afirma; listas, conjuntos e exortações são independentes, sem dedução causal artificial. As citações não foram completadas pelo Antigo Testamento. Rm 15.14-33 continua representado exclusivamente pela pauta factual anterior, sem duplicação neste lote. Com isso, os recortes de Romanos expressamente autorizados para esta sequência estão registrados, mas o banco geral não está completo.

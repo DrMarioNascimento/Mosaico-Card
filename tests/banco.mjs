@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 120);
+assert.equal(catalog.summary.editoriallyEligibleCases, 124);
 assert.equal(catalog.summary.max12Cases, 57);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -47,6 +47,17 @@ const auditoriaRomanos041 = {
   "nt2-romanos-espirito-adocao-esperanca": 12
 };
 for (const [id, maxPlayers] of Object.entries(auditoriaRomanos041)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Romanos")), `${id} não importa fatos de outro documento`);
+}
+const auditoriaRomanos042 = {
+  "nt2-romanos-corpo-dons-conduta": 10,
+  "nt2-romanos-autoridades-amor-vigilancia": 8,
+  "nt2-romanos-acolhimento-consciencia-paz": 11,
+  "nt2-romanos-fortes-acolhimento-esperanca": 6
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaRomanos042)) {
   assert.equal(catalog.byId[id].status.playable, true);
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Romanos")), `${id} não importa fatos de outro documento`);

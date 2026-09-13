@@ -169,3 +169,16 @@ Em 13/09/2026, as quatro páginas NAA identificadas de Romanos 1, 6, 7 e 8 em `b
 | Rm 8 | Ausência de condenação; vida e filiação no Espírito; esperança e intercessão; conclusão sobre o amor de Deus. Citação e alusões não foram completadas com o AT. | `nt2-romanos-espirito-adocao-esperanca`, 25 pistas, capacidade 2–12. |
 
 O lote autorizado termina nessas quatro pautas, sem forçar a quantidade máxima de cinco. Rm 12–15, Coríntios, as demais cartas e Apocalipse continuam pendentes e enumerados; nenhuma ausência foi convertida em descarte genérico, e o banco não é declarado completo.
+
+## Checkpoint 042 — Rm 12–15.13
+
+Em 13/09/2026, Romanos 12, 13, 14 e 15 foram obtidos individualmente da NAA identificada em `bible.com/pt/bible/1840`, todos com HTTP 200. A consulta e leitura dos quatro recortes precederam e permaneceram distintas da validação automatizada.
+
+| Recorte | Delimitação individual conferida | Resultado |
+| --- | --- | --- |
+| Rm 12 | Oferta do corpo e renovação da mente; membros e dons; amor, paz e resposta ao mal. Cada exortação permanece atribuída ao texto. | `nt2-romanos-corpo-dons-conduta`, 21 pistas, capacidade 2–10. |
+| Rm 13 | Autoridades e valores devidos; amor ao próximo; despertar, luz e conduta. Distratores não são apresentados como normas verdadeiras. | `nt2-romanos-autoridades-amor-vigilancia`, 18 pistas, capacidade 2–8. |
+| Rm 14 | Acolhimento do fraco; alimentos e dias; julgamento e prestação de contas; paz e edificação. Diferenças de consciência não foram convertidas em tese externa. | `nt2-romanos-acolhimento-consciencia-paz`, 23 pistas, capacidade 2–11. |
+| Rm 15.1-13 | Responsabilidade dos fortes; edificação do próximo; acolhimento; alegria, paz e esperança. As citações ficam limitadas ao que Romanos declara. | `nt2-romanos-fortes-acolhimento-esperanca`, 14 pistas, capacidade 2–6. |
+
+O lote autorizado termina nessas quatro pautas. Coríntios, as demais cartas e Apocalipse permanecem pendentes para a próxima base; o banco não é declarado completo.

@@ -50,3 +50,13 @@ Quatro pautas foram incorporadas: Rm 1.1-15 com 16 pistas, Rm 6 com 18, Rm 7 com
 O inventário passa a **120 pautas, 480 campos e 2.174 pistas**, todas elegíveis em alguma mesa. A capacidade continua calculada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada confirmou os 116 objetos anteriores integralmente inalterados; o auditor encontrou zero duplicatas exatas e nenhum par semântico pendente.
 
 **Rm 12–15, os candidatos restantes de Coríntios e das demais cartas, e Apocalipse permanecem pendentes. O banco não está completo.** As decisões textuais e interpretativas anteriores seguem preservadas. Não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 042 — Rm 12–15.13
+
+A base `7e11cd28abb57e50575f5409e99a60bc4bb4ef47` foi confirmada antes da edição com **120 pautas e 2.174 pistas**, todas elegíveis. Em etapa bíblica separada dos testes, Romanos 12, 13, 14 e 15 na NAA identificada em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026; somente Rm 12, Rm 13, Rm 14 e Rm 15.1-13 foram autorados.
+
+Foram incorporadas quatro pautas e 76 pistas: Rm 12 com 21, Rm 13 com 18, Rm 14 com 23 e Rm 15.1-13 com 14. O catálogo passa a **124 pautas, 496 campos e 2.250 pistas**. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, sempre com duas cartas por pessoa e pelo menos uma no poço.
+
+A comparação mecanizada preservou integralmente os 120 objetos e 2.174 pistas anteriores, incluindo IDs e revisões. O auditor encontrou zero duplicatas exatas e nenhum par semântico pendente. O diff desta rodada limita-se às quatro pautas novas, catálogo regenerado, expectativas de inventário/capacidade e registros documentais.
+
+**Coríntios, as demais cartas e Apocalipse permanecem pendentes para a próxima base. O banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
