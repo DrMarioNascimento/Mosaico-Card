@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 142);
+assert.equal(catalog.summary.editoriallyEligibleCases, 147);
 assert.equal(catalog.summary.max12Cases, 57);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -119,6 +119,20 @@ for (const [id, [book, maxPlayers]] of Object.entries(auditoriaEfCl047)) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém proveniência exclusiva no próprio documento`);
 }
 assert.ok(catalog.byId["nt2-colossenses-oracao-mensageiros-saudacoes"].deck.cards.every(card => !card.references.some(ref => ref.book !== "Colossenses")), "Tíquico, Onésimo e as cartas não são harmonizados com outro documento");
+const auditoriaTessalonicenses048 = {
+  "nt2-1tessalonicenses-fe-amor-esperanca-conversao": ["1 Tessalonicenses", 6],
+  "nt2-1tessalonicenses-santificacao-amor-trabalho": ["1 Tessalonicenses", 6],
+  "nt2-1tessalonicenses-esperanca-encontro-consolo": ["1 Tessalonicenses", 4],
+  "nt2-2tessalonicenses-escolha-firmeza-consolo": ["2 Tessalonicenses", 3],
+  "nt2-2tessalonicenses-trabalho-disciplina-saudacao": ["2 Tessalonicenses", 7]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaTessalonicenses048)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém fonte exclusiva na própria carta`);
+}
+assert.ok(catalog.byId["nt2-1tessalonicenses-santificacao-amor-trabalho"].deck.cards.every(card => card.references.every(ref => /^(?:4\.(?:[1-9]|1[0-2]))(?:\D|$)/.test(ref.passage))), "1Ts 4.1-12 permanece no primeiro bloco delimitado");
+assert.ok(catalog.byId["nt2-1tessalonicenses-esperanca-encontro-consolo"].deck.cards.every(card => card.references.every(ref => /^4\.1[3-8](?:\D|$)/.test(ref.passage))), "1Ts 4.13-18 permanece no segundo bloco delimitado");
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

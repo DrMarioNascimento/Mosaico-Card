@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-047",
+  "catalogVersion": "2026-09-13-checkpoint-048",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 142,
-    "fields": 568,
-    "editoriallyEligibleCases": 142,
-    "playableCases": 142,
+    "cases": 147,
+    "fields": 588,
+    "editoriallyEligibleCases": 147,
+    "playableCases": 147,
     "max12Cases": 57
   },
   "order": [
@@ -158,7 +158,12 @@
     "nt2-efesios-unidade-maturidade-nova-natureza",
     "nt2-efesios-luz-sabedoria-relacoes",
     "nt2-colossenses-alto-nova-natureza-conduta",
-    "nt2-colossenses-oracao-mensageiros-saudacoes"
+    "nt2-colossenses-oracao-mensageiros-saudacoes",
+    "nt2-1tessalonicenses-fe-amor-esperanca-conversao",
+    "nt2-1tessalonicenses-santificacao-amor-trabalho",
+    "nt2-1tessalonicenses-esperanca-encontro-consolo",
+    "nt2-2tessalonicenses-escolha-firmeza-consolo",
+    "nt2-2tessalonicenses-trabalho-disciplina-saudacao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -95284,6 +95289,2548 @@
             "passage": "4.1-18",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1tessalonicenses-fe-amor-esperanca-conversao": {
+      "id": "nt2-1tessalonicenses-fe-amor-esperanca-conversao",
+      "kind": "canonical-case",
+      "title": "Fé, amor, esperança e conversão em 1 Tessalonicenses 1",
+      "canon": {
+        "book": "1 Tessalonicenses",
+        "referenceNAA": "1 Tessalonicenses 1.1-10",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "1.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 Tessalonicenses 1, quem envia a carta, o que os remetentes recordam dos destinatários, como o evangelho chegou a eles e que mudança passou a ser divulgada?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O relato divulgado sobre abandono dos ídolos, serviço e espera reúne a resposta dos destinatários sem reconstruir datas ou itinerários.",
+      "editorial": {
+        "hinge": "A pauta permanece na apresentação da própria carta; a repercussão geográfica não serve para montar uma cronologia de viagens."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que mudança as pessoas divulgavam",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Eles deixaram os ídolos para servir ao Deus vivo e aguardar seu Filho"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Eles trocaram a Macedônia pela Acaia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Eles deixaram a esperança por causa dos sofrimentos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Eles passaram a servir aos remetentes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Eles deixaram os ídolos para servir ao Deus vivo e aguardar seu Filho",
+          "enderecoNAA": "1 Tessalonicenses 1.8-10",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "1.8-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem envia a carta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Paulo, Silvano e Timóteo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Paulo, Tito e Lucas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Silvano, Apolo e Cefas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Timóteo, Epafras e Marcos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Paulo, Silvano e Timóteo",
+          "enderecoNAA": "1 Tessalonicenses 1.1",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que os remetentes recordam diante de Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Operosidade da fé, dedicação do amor e firmeza da esperança"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Conhecimento, riqueza e autoridade política"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Jejuns, viagens e coletas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Sinais, cartas e genealogias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Operosidade da fé, dedicação do amor e firmeza da esperança",
+          "enderecoNAA": "1 Tessalonicenses 1.2-3",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "1.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como o evangelho chegou aos destinatários",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Em palavra, poder, Espírito Santo e plena convicção"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente em palavra e sem convicção"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Por uma carta atribuída a desconhecidos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Por cálculo do dia do Senhor"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Em palavra, poder, Espírito Santo e plena convicção",
+          "enderecoNAA": "1 Tessalonicenses 1.4-5",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "1.4-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A abertura nomeia Paulo, Silvano e Timóteo como remetentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A abertura nomeia Paulo, Silvano e Timóteo como remetentes."
+          },
+          {
+            "id": "P02",
+            "text": "A destinatária é a igreja dos tessalonicenses em Deus Pai e no Senhor Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A destinatária é a igreja dos tessalonicenses em Deus Pai e no Senhor Jesus Cristo."
+          },
+          {
+            "id": "P03",
+            "text": "Os remetentes dizem agradecer sempre a Deus por todos nas orações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes dizem agradecer sempre a Deus por todos nas orações."
+          },
+          {
+            "id": "P04",
+            "text": "Diante de Deus, eles recordam a atividade produzida pela fé dos destinatários.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Diante de Deus, eles recordam a atividade produzida pela fé dos destinatários."
+          },
+          {
+            "id": "P05",
+            "text": "A dedicação ligada ao amor e a firmeza ligada à esperança também são lembradas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A dedicação ligada ao amor e a firmeza ligada à esperança também são lembradas."
+          },
+          {
+            "id": "P06",
+            "text": "Os destinatários são chamados irmãos amados por Deus e escolhidos por ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários são chamados irmãos amados por Deus e escolhidos por ele."
+          },
+          {
+            "id": "P07",
+            "text": "O evangelho não chegou apenas como palavra, mas também com poder.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O evangelho não chegou apenas como palavra, mas também com poder."
+          },
+          {
+            "id": "P08",
+            "text": "Espírito Santo e plena convicção integram a descrição de como a mensagem chegou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Espírito Santo e plena convicção integram a descrição de como a mensagem chegou."
+          },
+          {
+            "id": "P09",
+            "text": "Apesar de muitos sofrimentos, a palavra foi recebida com alegria proveniente do Espírito Santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Apesar de muitos sofrimentos, a palavra foi recebida com alegria proveniente do Espírito Santo."
+          },
+          {
+            "id": "P10",
+            "text": "Os destinatários se tornaram modelo para os crentes na Macedônia e na Acaia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários se tornaram modelo para os crentes na Macedônia e na Acaia."
+          },
+          {
+            "id": "P11",
+            "text": "A palavra do Senhor repercutiu a partir deles, assim como sua fé em Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra do Senhor repercutiu a partir deles, assim como sua fé em Deus."
+          },
+          {
+            "id": "P12",
+            "text": "Outras pessoas relatavam que eles haviam deixado os ídolos para servir ao Deus vivo e verdadeiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outras pessoas relatavam que eles haviam deixado os ídolos para servir ao Deus vivo e verdadeiro."
+          },
+          {
+            "id": "P13",
+            "text": "A espera pelo Filho vindo dos céus é ligada a Jesus, ressuscitado por Deus e libertador da ira vindoura.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A espera pelo Filho vindo dos céus é ligada a Jesus, ressuscitado por Deus e libertador da ira vindoura."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 Tessalonicenses 1 apresenta remetentes e destinatários, recorda fé, amor e esperança, descreve a recepção do evangelho e relata a repercussão da conversão e da espera pelo Filho.",
+        "hinge": "A pauta permanece na apresentação da própria carta; a repercussão geográfica não serve para montar uma cronologia de viagens.",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "1.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1tessalonicenses-santificacao-amor-trabalho": {
+      "id": "nt2-1tessalonicenses-santificacao-amor-trabalho",
+      "kind": "canonical-case",
+      "title": "Santificação, amor e trabalho em 1 Tessalonicenses 4.1-12",
+      "canon": {
+        "book": "1 Tessalonicenses",
+        "referenceNAA": "1 Tessalonicenses 4.1-12",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "4.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 Tessalonicenses 4.1-12, em que os destinatários devem continuar progredindo, como a santificação é aplicada, que prática fraterna já exerciam e que modo de vida lhes é recomendado?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A aplicação explícita da santificação ao corpo e ao trato do irmão delimita o centro do bloco sem importar normas externas.",
+      "editorial": {
+        "hinge": "Este bloco termina no versículo 12 e não usa a discussão seguinte sobre os que dormem para completar seu baralho."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como a santificação é aplicada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Abstenção da imoralidade e controle do próprio corpo com honra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Desejos imorais e prejuízo ao irmão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Rejeição de Deus e de seu Espírito"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Impureza como finalidade do chamado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Abstenção da imoralidade e controle do próprio corpo com honra",
+          "enderecoNAA": "1 Tessalonicenses 4.3-8",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.3-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que devem continuar progredindo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Na maneira de viver e agradar a Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Na dependência material dos de fora"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Na curiosidade sobre datas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Na recusa das instruções recebidas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Na maneira de viver e agradar a Deus",
+          "enderecoNAA": "1 Tessalonicenses 4.1-2",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que prática fraterna já exerciam",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Amor aos irmãos em toda a Macedônia"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ofensa contra todos os irmãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Silêncio completo sobre o amor"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Trabalho apenas quando observados"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Amor aos irmãos em toda a Macedônia",
+          "enderecoNAA": "1 Tessalonicenses 4.9-10",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que modo de vida lhes é recomendado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vida tranquila, cuidado do próprio trabalho e atividade das mãos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Intromissão na vida alheia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Abandono de toda ocupação"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Dependência permanente dos de fora"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vida tranquila, cuidado do próprio trabalho e atividade das mãos",
+          "enderecoNAA": "1 Tessalonicenses 4.11-12",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.11-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os destinatários já praticavam o modo de viver aprendido e deveriam avançar ainda mais.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários já praticavam o modo de viver aprendido e deveriam avançar ainda mais."
+          },
+          {
+            "id": "P02",
+            "text": "As instruções mencionadas haviam sido dadas da parte do Senhor Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As instruções mencionadas haviam sido dadas da parte do Senhor Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "A vontade de Deus é identificada no bloco como a santificação dos destinatários.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vontade de Deus é identificada no bloco como a santificação dos destinatários."
+          },
+          {
+            "id": "P04",
+            "text": "A santificação inclui afastar-se da imoralidade sexual.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A santificação inclui afastar-se da imoralidade sexual."
+          },
+          {
+            "id": "P05",
+            "text": "Cada pessoa deve controlar o próprio corpo em santificação e honra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada pessoa deve controlar o próprio corpo em santificação e honra."
+          },
+          {
+            "id": "P06",
+            "text": "Ofender ou defraudar o irmão nessa matéria é proibido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ofender ou defraudar o irmão nessa matéria é proibido."
+          },
+          {
+            "id": "P07",
+            "text": "O chamado de Deus é dirigido à santificação, não à impureza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O chamado de Deus é dirigido à santificação, não à impureza."
+          },
+          {
+            "id": "P08",
+            "text": "Rejeitar essas instruções é descrito como rejeitar a Deus, que dá seu Espírito Santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Rejeitar essas instruções é descrito como rejeitar a Deus, que dá seu Espírito Santo."
+          },
+          {
+            "id": "P09",
+            "text": "Os destinatários são apresentados como ensinados por Deus a amar uns aos outros.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários são apresentados como ensinados por Deus a amar uns aos outros."
+          },
+          {
+            "id": "P10",
+            "text": "Esse amor já alcançava os irmãos por toda a Macedônia, mas ainda deveria crescer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse amor já alcançava os irmãos por toda a Macedônia, mas ainda deveria crescer."
+          },
+          {
+            "id": "P11",
+            "text": "A recomendação combina vida tranquila e cuidado dos próprios assuntos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A recomendação combina vida tranquila e cuidado dos próprios assuntos."
+          },
+          {
+            "id": "P12",
+            "text": "O trabalho com as próprias mãos retoma uma ordem já dada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O trabalho com as próprias mãos retoma uma ordem já dada."
+          },
+          {
+            "id": "P13",
+            "text": "O propósito declarado inclui viver dignamente diante dos de fora e não depender de ninguém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito declarado inclui viver dignamente diante dos de fora e não depender de ninguém."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "O primeiro bloco de 1 Tessalonicenses 4 exorta ao progresso, aplica a santificação ao corpo e ao irmão, reconhece o amor já praticado e recomenda vida tranquila e trabalho próprio.",
+        "hinge": "Este bloco termina no versículo 12 e não usa a discussão seguinte sobre os que dormem para completar seu baralho.",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "4.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1tessalonicenses-esperanca-encontro-consolo": {
+      "id": "nt2-1tessalonicenses-esperanca-encontro-consolo",
+      "kind": "canonical-case",
+      "title": "Esperança, encontro e consolo em 1 Tessalonicenses 4.13-18",
+      "canon": {
+        "book": "1 Tessalonicenses",
+        "referenceNAA": "1 Tessalonicenses 4.13-18",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "4.13-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 Tessalonicenses 4.13-18, sobre quem os destinatários não deveriam permanecer ignorantes, que crença fundamenta a esperança, qual ordem o bloco declara e como essa exposição deve ser usada?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A ordem expressamente declarada entre ressurreição e encontro constitui o eixo dedutivo, sem converter o texto em calendário externo.",
+      "editorial": {
+        "hinge": "A sequência é relatada somente nos termos do bloco; nenhuma data, duração, identidade externa ou sistema cronológico é acrescentado."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual ordem o bloco declara",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os mortos em Cristo ressuscitam primeiro; depois os vivos encontram o Senhor com eles"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os vivos precedem os que dormem"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os mortos permanecem sem ressurreição"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Cada grupo encontra o Senhor separadamente"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os mortos em Cristo ressuscitam primeiro; depois os vivos encontram o Senhor com eles",
+          "enderecoNAA": "1 Tessalonicenses 4.15-17",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.15-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Sobre quem não deveriam permanecer ignorantes",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sobre os que dormem"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Sobre os governantes da Macedônia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sobre os remetentes presos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sobre os que trabalham com as mãos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sobre os que dormem",
+          "enderecoNAA": "1 Tessalonicenses 4.13",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que crença fundamenta a esperança",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Jesus morreu e ressuscitou"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O Dia já chegou secretamente"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os vivos não verão o Senhor"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A tristeza não possui qualquer limite"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Jesus morreu e ressuscitou",
+          "enderecoNAA": "1 Tessalonicenses 4.14",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como a exposição deve ser usada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para consolo mútuo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para definir uma data"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para interromper o amor fraternal"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para abandonar a esperança"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para consolo mútuo",
+          "enderecoNAA": "1 Tessalonicenses 4.18",
+          "answerReferences": [
+            {
+              "book": "1 Tessalonicenses",
+              "passage": "4.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A instrução trata daqueles que são descritos como os que dormem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução trata daqueles que são descritos como os que dormem."
+          },
+          {
+            "id": "P02",
+            "text": "O propósito é evitar tristeza igual à dos que não têm esperança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito é evitar tristeza igual à dos que não têm esperança."
+          },
+          {
+            "id": "P03",
+            "text": "A formulação parte da crença de que Jesus morreu e ressuscitou.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A formulação parte da crença de que Jesus morreu e ressuscitou."
+          },
+          {
+            "id": "P04",
+            "text": "Deus trará com Jesus aqueles que dormem, conforme a afirmação do bloco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus trará com Jesus aqueles que dormem, conforme a afirmação do bloco."
+          },
+          {
+            "id": "P05",
+            "text": "Os vivos que restarem até a vinda não precederão os que dormem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os vivos que restarem até a vinda não precederão os que dormem."
+          },
+          {
+            "id": "P06",
+            "text": "A descida do Senhor é acompanhada por ordem, voz de arcanjo e trombeta de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A descida do Senhor é acompanhada por ordem, voz de arcanjo e trombeta de Deus."
+          },
+          {
+            "id": "P07",
+            "text": "Os mortos em Cristo são apresentados como os primeiros a ressuscitar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mortos em Cristo são apresentados como os primeiros a ressuscitar."
+          },
+          {
+            "id": "P08",
+            "text": "Depois, os vivos restantes são reunidos com eles para encontrar o Senhor nos ares.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois, os vivos restantes são reunidos com eles para encontrar o Senhor nos ares."
+          },
+          {
+            "id": "P09",
+            "text": "A conclusão é permanecer para sempre com o Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão é permanecer para sempre com o Senhor."
+          },
+          {
+            "id": "P10",
+            "text": "Os destinatários devem consolar uns aos outros com essas palavras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Tessalonicenses",
+                "passage": "4.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários devem consolar uns aos outros com essas palavras."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 Tessalonicenses 4.13-18 orienta a tristeza dos destinatários pela morte e ressurreição de Jesus, apresenta a ressurreição dos mortos em Cristo antes do encontro conjunto e conclui com consolo mútuo.",
+        "hinge": "A sequência é relatada somente nos termos do bloco; nenhuma data, duração, identidade externa ou sistema cronológico é acrescentado.",
+        "references": [
+          {
+            "book": "1 Tessalonicenses",
+            "passage": "4.13-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2tessalonicenses-escolha-firmeza-consolo": {
+      "id": "nt2-2tessalonicenses-escolha-firmeza-consolo",
+      "kind": "canonical-case",
+      "title": "Escolha, firmeza e consolo em 2 Tessalonicenses 2.13-17",
+      "canon": {
+        "book": "2 Tessalonicenses",
+        "referenceNAA": "2 Tessalonicenses 2.13-17",
+        "references": [
+          {
+            "book": "2 Tessalonicenses",
+            "passage": "2.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Tessalonicenses 2.13-17, por que os remetentes agradecem, mediante o que ocorreu o chamado, o que os irmãos devem guardar e que fortalecimento é pedido?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O motivo declarado da gratidão reúne escolha, salvação, santificação e fé sem definir externamente expressões do bloco.",
+      "editorial": {
+        "hinge": "A pauta começa no versículo 13: não usa as figuras anteriores do capítulo nem lhes atribui identidade ou calendário."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Por que os remetentes agradecem",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Porque Deus escolheu os irmãos para salvação pela santificação do Espírito e fé na verdade"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Porque os irmãos calcularam o calendário da vinda"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Porque uma carta anônima substituiu o evangelho"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Porque abandonaram toda tradição recebida"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Porque Deus escolheu os irmãos para salvação pela santificação do Espírito e fé na verdade",
+          "enderecoNAA": "2 Tessalonicenses 2.13",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "2.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Mediante o que ocorreu o chamado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Mediante o evangelho anunciado pelos remetentes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mediante sinais usados para enganar"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Mediante tradição não ensinada"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mediante uma cronologia externa"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Mediante o evangelho anunciado pelos remetentes",
+          "enderecoNAA": "2 Tessalonicenses 2.14",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "2.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os irmãos devem guardar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "As tradições ensinadas por palavra ou carta dos remetentes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Qualquer carta que alegue proceder deles"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Somente instruções não escritas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Interpretações sobre o homem da iniquidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "As tradições ensinadas por palavra ou carta dos remetentes",
+          "enderecoNAA": "2 Tessalonicenses 2.15",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "2.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que fortalecimento é pedido",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Consolo do coração e firmeza em toda boa obra e palavra"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Perturbação do pensamento"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Abandono da boa esperança"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Prazer na injustiça"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Consolo do coração e firmeza em toda boa obra e palavra",
+          "enderecoNAA": "2 Tessalonicenses 2.16-17",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "2.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os remetentes dizem que devem sempre agradecer a Deus pelos irmãos amados pelo Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes dizem que devem sempre agradecer a Deus pelos irmãos amados pelo Senhor."
+          },
+          {
+            "id": "P02",
+            "text": "A escolha por Deus é relacionada à salvação no próprio bloco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A escolha por Deus é relacionada à salvação no próprio bloco."
+          },
+          {
+            "id": "P03",
+            "text": "Santificação do Espírito e fé na verdade acompanham a descrição dessa salvação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Santificação do Espírito e fé na verdade acompanham a descrição dessa salvação."
+          },
+          {
+            "id": "P04",
+            "text": "O chamado é atribuído a Deus mediante o evangelho dos remetentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O chamado é atribuído a Deus mediante o evangelho dos remetentes."
+          },
+          {
+            "id": "P05",
+            "text": "Alcançar a glória do Senhor Jesus Cristo é apresentado como finalidade do chamado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alcançar a glória do Senhor Jesus Cristo é apresentado como finalidade do chamado."
+          },
+          {
+            "id": "P06",
+            "text": "Os irmãos recebem a ordem de permanecer firmes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos recebem a ordem de permanecer firmes."
+          },
+          {
+            "id": "P07",
+            "text": "O que deve ser guardado foi ensinado por palavra ou por carta dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que deve ser guardado foi ensinado por palavra ou por carta dos remetentes."
+          },
+          {
+            "id": "P08",
+            "text": "A oração pede coração consolado e fortalecimento em toda boa obra e boa palavra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "2.16-17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração pede coração consolado e fortalecimento em toda boa obra e boa palavra."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 Tessalonicenses 2.13-17 passa da gratidão pela escolha e salvação ao chamado pelo evangelho, à firmeza nas instruções recebidas e à oração por consolo e fortalecimento.",
+        "hinge": "A pauta começa no versículo 13: não usa as figuras anteriores do capítulo nem lhes atribui identidade ou calendário.",
+        "references": [
+          {
+            "book": "2 Tessalonicenses",
+            "passage": "2.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2tessalonicenses-trabalho-disciplina-saudacao": {
+      "id": "nt2-2tessalonicenses-trabalho-disciplina-saudacao",
+      "kind": "canonical-case",
+      "title": "Trabalho, disciplina e saudação em 2 Tessalonicenses 3.6-18",
+      "canon": {
+        "book": "2 Tessalonicenses",
+        "referenceNAA": "2 Tessalonicenses 3.6-18",
+        "references": [
+          {
+            "book": "2 Tessalonicenses",
+            "passage": "3.6-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Tessalonicenses 3.6-18, de quem os irmãos devem se afastar, que exemplo os remetentes deram, como tratar quem não obedece à carta e que sinal Paulo registra no encerramento?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O exemplo de trabalho dos remetentes explica a ordem dirigida à desordem sem transformar o bloco em regra econômica externa.",
+      "editorial": {
+        "hinge": "A carta é tratada apenas como a carta mencionada no bloco; não é alinhada a outra correspondência, viagem ou data."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que exemplo os remetentes deram",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Trabalharam com esforço para não pesar sobre ninguém"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Comeram gratuitamente por falta de direito"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Abandonaram o trabalho para vigiar outros"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Exigiram sustento como prova de autoridade"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Trabalharam com esforço para não pesar sobre ninguém",
+          "enderecoNAA": "2 Tessalonicenses 3.7-10",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "3.7-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "De quem os irmãos devem se afastar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "De quem vive desordenadamente e não segue a tradição recebida"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "De todo aquele que trabalha tranquilamente"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "De quem não se cansa de fazer o bem"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "De qualquer pessoa tratada como irmão"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "De quem vive desordenadamente e não segue a tradição recebida",
+          "enderecoNAA": "2 Tessalonicenses 3.6",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como tratar quem não obedece à carta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Não se associar, mas admoestar como irmão e não como inimigo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Considerar inimigo sem advertência"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ignorar quem é e manter associação normal"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Excluir sem relação com a palavra da carta"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Não se associar, mas admoestar como irmão e não como inimigo",
+          "enderecoNAA": "2 Tessalonicenses 3.14-15",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "3.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que sinal Paulo registra no encerramento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A saudação de próprio punho usada em cada carta"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A assinatura de Silvano em nome de Paulo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Uma data para a vinda do Senhor"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A identificação da carta de Laodiceia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A saudação de próprio punho usada em cada carta",
+          "enderecoNAA": "2 Tessalonicenses 3.16-18",
+          "answerReferences": [
+            {
+              "book": "2 Tessalonicenses",
+              "passage": "3.16-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A ordem de afastamento é dada em nome do Senhor Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem de afastamento é dada em nome do Senhor Jesus Cristo."
+          },
+          {
+            "id": "P02",
+            "text": "O alvo é o irmão que vive de modo desordenado, fora da tradição recebida dos remetentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O alvo é o irmão que vive de modo desordenado, fora da tradição recebida dos remetentes."
+          },
+          {
+            "id": "P03",
+            "text": "Os remetentes afirmam que não viveram desordenadamente entre os destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes afirmam que não viveram desordenadamente entre os destinatários."
+          },
+          {
+            "id": "P04",
+            "text": "Eles dizem não ter comido pão gratuitamente à custa de outras pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles dizem não ter comido pão gratuitamente à custa de outras pessoas."
+          },
+          {
+            "id": "P05",
+            "text": "O trabalho ocorreu com esforço e fadiga, noite e dia, para que não fossem pesados a ninguém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O trabalho ocorreu com esforço e fadiga, noite e dia, para que não fossem pesados a ninguém."
+          },
+          {
+            "id": "P06",
+            "text": "Embora tivessem direito de receber, escolheram apresentar um exemplo a ser imitado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Embora tivessem direito de receber, escolheram apresentar um exemplo a ser imitado."
+          },
+          {
+            "id": "P07",
+            "text": "A ordem dada quando estavam presentes associa recusa de trabalhar à ausência de comida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem dada quando estavam presentes associa recusa de trabalhar à ausência de comida."
+          },
+          {
+            "id": "P08",
+            "text": "O informe recebido descrevia alguns como desordenados, sem trabalho e intrometidos na vida alheia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O informe recebido descrevia alguns como desordenados, sem trabalho e intrometidos na vida alheia."
+          },
+          {
+            "id": "P09",
+            "text": "A essas pessoas é determinado trabalhar tranquilamente e comer o próprio pão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A essas pessoas é determinado trabalhar tranquilamente e comer o próprio pão."
+          },
+          {
+            "id": "P10",
+            "text": "Os demais irmãos não devem se cansar de fazer o bem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os demais irmãos não devem se cansar de fazer o bem."
+          },
+          {
+            "id": "P11",
+            "text": "A desobediência considerada é especificamente à palavra transmitida por aquela carta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A desobediência considerada é especificamente à palavra transmitida por aquela carta."
+          },
+          {
+            "id": "P12",
+            "text": "A orientação é identificar a pessoa e não se associar com ela para que se envergonhe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação é identificar a pessoa e não se associar com ela para que se envergonhe."
+          },
+          {
+            "id": "P13",
+            "text": "Mesmo assim, ela não deve ser tratada como inimiga, mas advertida como irmã.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo assim, ela não deve ser tratada como inimiga, mas advertida como irmã."
+          },
+          {
+            "id": "P14",
+            "text": "A bênção pede paz sempre e de todas as maneiras, além da presença do Senhor com todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A bênção pede paz sempre e de todas as maneiras, além da presença do Senhor com todos."
+          },
+          {
+            "id": "P15",
+            "text": "Paulo identifica sua saudação manuscrita como sinal em cada carta e encerra desejando graça.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação deste bloco, sem calendário ou interpretação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Tessalonicenses",
+                "passage": "3.17-18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo identifica sua saudação manuscrita como sinal em cada carta e encerra desejando graça."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 Tessalonicenses 3.6-18 relaciona afastamento da desordem, exemplo de trabalho, correção sem tratamento de inimigo e a saudação manuscrita de Paulo.",
+        "hinge": "A carta é tratada apenas como a carta mencionada no bloco; não é alinhada a outra correspondência, viagem ou data.",
+        "references": [
+          {
+            "book": "2 Tessalonicenses",
+            "passage": "3.6-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

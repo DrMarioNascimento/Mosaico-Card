@@ -16,8 +16,8 @@
 | Efésios | Analisado — checkpoint 047 | capítulos 1–6 | 6 autorados | armadura não inflada; capítulos mantidos independentes |
 | Filipenses | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | demais blocos insuficientes/argumentativos |
 | Colossenses | Analisado — checkpoint 047 | capítulos 1–4 | 2 autorados | temas não fundidos com Efésios; mensageiros e cartas sem harmonização |
-| 1 Tessalonicenses | Analisado — decisões por recorte | capítulos 1–5 | 2 autorados | paralelo com Atos sem cronologia forçada |
-| 2 Tessalonicenses | Analisado — decisões por recorte | capítulos 1–3 | 0 | 2Ts 2 ambíguo; demais insuficientes |
+| 1 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–5 | 5 autorados | 1Ts 4 em blocos; sem calendário ou cronologia externa |
+| 2 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–3 | 2 autorados | somente 2Ts 2.13-17 usado; figuras anteriores permanecem fora |
 | 1 Timóteo | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | delimitação heterogênea recusada |
 | 2 Timóteo | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | listas/metáforas não infladas |
 | Tito | Analisado — decisões por recorte | capítulos 1–3 | 0 | conclusão factual insuficiente |
@@ -64,3 +64,7 @@ A base de 134 pautas/2.433 pistas foi preservada mecanicamente. Após consulta H
 ## Checkpoint 047 — Efésios 4–5 e Colossenses 3–4
 
 A base de 138 pautas/2.514 pistas foi preservada mecanicamente. A leitura NAA individual dos quatro capítulos autorizados acrescentou quatro pautas e 79 pistas, levando o inventário a **142 pautas, 568 campos e 2.593 pistas**. Efésios e Colossenses ficam analisados nesta rodada, com os recortes tratados independentemente e sem harmonizar Tíquico, Onésimo, viagens ou cartas. Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem pendentes nesta sequência; o banco não está completo.
+
+## Checkpoint 048 — 1–2 Tessalonicenses
+
+A base de 142 pautas/2.593 pistas foi preservada mecanicamente. A leitura NAA dos cinco blocos autorizados acrescentou cinco pautas e 59 pistas, levando o inventário a **147 pautas, 588 campos e 2.652 pistas**. 1Ts 4.1-12 e 4.13-18 permanecem independentes; 2Ts 2.13-17 não importa as figuras anteriores nem calendário externo. Pastorais, cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.

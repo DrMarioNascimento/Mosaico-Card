@@ -490,3 +490,13 @@ A base `425da6439e88be3a743e83e0aea255add97236c3` foi confirmada com **138 pauta
 - **Delimitação:** Ef 4, Ef 5, Cl 3 e Cl 4 permanecem pautas documentais separadas; temas semelhantes não foram fundidos. Tíquico, Onésimo, circulação de cartas e algemas em Cl 4 não foram alinhados a viagens, cronologias ou outros documentos.
 - **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; cada pauta tem quatro campos, focal justificado, pontuação derivada 8/5/3/2 e capacidade de 2–9.
 - **Pendências:** Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para as próximas bases desta sequência; o banco não está completo. As decisões textuais e interpretativas vigentes continuam inalteradas.
+
+## Checkpoint 048 — blocos de 1–2 Tessalonicenses
+
+A base `9b25bdb8465878bb2f86f05f2f203fd633092f74`, correspondente ao conteúdo salvo do checkpoint 047, foi confirmada com **142 pautas, 568 campos e 2.593 pistas**. Em 13/09/2026, somente 1Ts 1, 1Ts 4, 2Ts 2 e 2Ts 3 foram obtidos individualmente da NAA identificada em `bible.com/pt/bible/1840`, todos com HTTP 200. A autoria limitou-se a 1Ts 1, aos blocos separados 1Ts 4.1-12 e 4.13-18, a 2Ts 2.13-17 e a 2Ts 3.6-18.
+
+- **Inventário:** 147 pautas elegíveis, 588 campos e 2.652 pistas; 57 comportam até 12 participantes, três até 11, cinco até 10, cinco até 9, doze até 8, seis até 7, 33 até 6, uma até 5, onze até 4 e quatorze até 3.
+- **Preservação:** a comparação mecanizada confirmou igualdade integral dos 142 objetos e das 2.593 pistas anteriores; nenhuma correção retroativa foi necessária.
+- **Delimitação:** 1Ts 4 permaneceu em duas pautas sem fusão. Perguntas e fatos são atributivos às cartas; não foi criado calendário da vinda, e figuras fora de 2Ts 2.13-17 não foram usadas.
+- **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; as cinco pautas têm C1–C4, gabaritos explícitos, focais justificados e capacidade derivada por mesa.
+- **Pendências:** pastorais, cartas gerais e Apocalipse permanecem para uma nova base; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 e todas as demais decisões vigentes continuam isoladas/preservadas.

@@ -237,3 +237,15 @@ O lote encerra nesses quatro recortes. Os 134 objetos e 2.433 pistas anteriores 
 | Cl 4 | NAA, HTTP 200; oração, mensageiros, Epafras, leitura e encerramento preservados somente em Colossenses. | `nt2-colossenses-oracao-mensageiros-saudacoes`, 19 pistas, capacidade 2–9. |
 
 A rodada encerra nesses quatro recortes, sem forçar uma quinta pauta. Os 138 objetos e 2.514 pistas anteriores foram preservados integralmente. Tíquico, Onésimo e as cartas mencionadas não foram harmonizados com outras viagens ou documentos. Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem pendentes nesta sequência, e o banco não está completo.
+
+## Checkpoint 048 — decisões individuais em 1–2 Tessalonicenses
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Ts 1 | NAA, HTTP 200; remetentes, fé/amor/esperança, recepção do evangelho e conversão atribuídos à abertura. | `nt2-1tessalonicenses-fe-amor-esperanca-conversao`, 13 pistas, capacidade 2–6. |
+| 1Ts 4.1-12 | NAA, HTTP 200; santificação, amor fraternal, vida tranquila e trabalho mantidos antes da mudança temática do versículo 13. | `nt2-1tessalonicenses-santificacao-amor-trabalho`, 13 pistas, capacidade 2–6. |
+| 1Ts 4.13-18 | NAA, HTTP 200; esperança, ordem declarada no encontro e consolo tratados sem calendário externo. | `nt2-1tessalonicenses-esperanca-encontro-consolo`, 10 pistas, capacidade 2–4. |
+| 2Ts 2.13-17 | NAA, HTTP 200; gratidão, chamado, firmeza e oração isolados das figuras anteriores do capítulo. | `nt2-2tessalonicenses-escolha-firmeza-consolo`, 8 pistas, capacidade 2–3. |
+| 2Ts 3.6-18 | NAA, HTTP 200; desordem, exemplo de trabalho, disciplina fraterna e saudação tratados no próprio bloco. | `nt2-2tessalonicenses-trabalho-disciplina-saudacao`, 15 pistas, capacidade 2–7. |
+
+O lote autorizado encerra nessas cinco pautas, sem buscar quantidade adicional. Os 142 objetos e 2.593 pistas anteriores foram preservados integralmente. Nenhuma data da vinda, viagem ou identificação externa de carta foi acrescentada. Pastorais, cartas gerais e Apocalipse ficam para nova base; o banco não está completo.
