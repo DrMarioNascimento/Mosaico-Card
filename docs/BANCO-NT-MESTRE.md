@@ -471,3 +471,12 @@ A base `75f52929d25930ead6507a260a6e105521a635e0` foi confirmada limpa com 131 p
 - **Preservação:** os 131 objetos anteriores permanecem idênticos; nenhuma correção retroativa foi necessária.
 - **Delimitação:** nenhuma carta, visita ou viagem foi harmonizada, e nenhuma alusão foi completada pelo AT.
 - **Pendências:** as demais cartas e Apocalipse continuam para rodadas posteriores; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem isoladas.
+
+## Checkpoint 046 — lote limitado a Gl 6 e Ef 1–3
+
+A base `884606496aeb54a9c0f71de5172445f286a4b7a0` foi confirmada limpa com 134 pautas e 2.433 pistas. Somente Gl 6 e Ef 1, 2 e 3 foram obtidos separadamente da NAA identificada em `bible.com/pt/bible/1840`, todos com HTTP 200 em 13/09/2026, e lidos antes da autoria. Os quatro recortes sustentaram quatro pautas, sem exceder nem usar o limite como meta.
+
+- **Inventário:** 138 pautas elegíveis, 552 campos e 2.514 pistas; 57 comportam até 12 participantes, três até 11, cinco até 10, uma até 9, doze até 8, cinco até 7, 31 até 6, uma até 5, dez até 4 e treze até 3.
+- **Preservação:** os 134 objetos anteriores permanecem idênticos; nenhuma correção retroativa foi necessária.
+- **Delimitação:** capítulos separados, perguntas atributivas e nenhuma tese, alusão, viagem ou carta completada por fonte externa.
+- **Pendências:** Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse continuam para próximas bases; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem isoladas.

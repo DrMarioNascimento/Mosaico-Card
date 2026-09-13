@@ -25,3 +25,7 @@ Gálatas passa a **analisado nesta rodada**, com uma pauta autorada e a cronolog
 ## Reavaliação temática — checkpoint 032
 
 Gl 5.16-26 originou pauta temática sobre as listas explicitamente contrastadas; uma redundância recíproca foi retirada na auditoria.
+
+## Reavaliação autorizada — checkpoint 046
+
+Gálatas 6 foi novamente obtido e lido na NAA identificada em `bible.com/pt/bible/1840`, com HTTP 200 em 13/09/2026. Restauração com brandura, cargas, semeadura e colheita, prática do bem e o contraste final de glória sustentaram `nt2-galatas-restauracao-semeadura-gloria`, com 18 pistas e capacidade 2–8. As notas cruzadas não foram usadas para completar afirmações por outras cartas ou pelo AT.

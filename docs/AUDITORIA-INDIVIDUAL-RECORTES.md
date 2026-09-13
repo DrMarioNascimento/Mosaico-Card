@@ -215,3 +215,14 @@ O lote autorizado encerra com três pautas, sem forçar uma quarta. 2 Coríntios
 | 2Co 13 | NAA, HTTP 200; visita, testemunhas, exame, edificação e bênção mantidos no documento; a alusão de 13.1 não foi completada pelo AT. | `nt2-2corintios-visita-exame-edificacao`, 18 pistas, capacidade 2–8. |
 
 O lote autorizado encerra nesses três recortes. As 131 pautas e 2.381 pistas anteriores foram preservadas integralmente. As demais cartas e Apocalipse permanecem pendentes, e o banco não está completo.
+
+## Checkpoint 046 — Gálatas 6 e Efésios 1–3
+
+| Recorte | Consulta e decisão individual | Resultado |
+| --- | --- | --- |
+| Gl 6 | NAA, HTTP 200; restauração, cargas, semeadura, prática do bem e glória tratados atributivamente, sem completar notas cruzadas. | `nt2-galatas-restauracao-semeadura-gloria`, 18 pistas, capacidade 2–8. |
+| Ef 1 | NAA, HTTP 200; apresentação, bênçãos, selo e oração mantidos no capítulo. | `nt2-efesios-bencaos-selo-oracao`, 20 pistas, capacidade 2–9. |
+| Ef 2 | NAA, HTTP 200; condição passada, graça, união e edifício tratados como afirmações da carta, sem tese externa. | `nt2-efesios-graca-paz-edificio`, 22 pistas, capacidade 2–10. |
+| Ef 3 | NAA, HTTP 200; prisioneiro, mistério, ministério e oração delimitados sem harmonização com Atos. | `nt2-efesios-misterio-ministerio-oracao`, 21 pistas, capacidade 2–10. |
+
+O lote encerra nesses quatro recortes. Os 134 objetos e 2.433 pistas anteriores foram preservados integralmente. Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para próximas bases; o banco não está completo.

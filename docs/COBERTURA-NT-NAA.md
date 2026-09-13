@@ -12,8 +12,8 @@
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
 | 1 Coríntios | Analisado — checkpoint 044 | capítulos 1–16 | 10 autorados | dúvidas de 11.2-16 e 14.34-36 isoladas |
 | 2 Coríntios | Analisado — checkpoint 045 | capítulos 1–13 | 4 autorados | coleta consolidada; 2Co 12 ambíguo |
-| Gálatas | Analisado — decisões por recorte | capítulos 1–6 | 2 autorados | cronologia de Gl 2 bloqueada |
-| Efésios | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | exposição; armadura não inflada; Tíquico insuficiente |
+| Gálatas | Analisado — checkpoint 046 | capítulos 1–6 | 3 autorados | cronologia de Gl 2 bloqueada |
+| Efésios | Em andamento — checkpoint 046 | capítulos 1–3 e 6 | 4 autorados | Ef 4–5 pendentes; armadura não inflada |
 | Filipenses | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | demais blocos insuficientes/argumentativos |
 | Colossenses | Analisado — decisões e comparação | capítulos 1–4 | 0 | envio consolidado documentalmente, sem pauta duplicada |
 | 1 Tessalonicenses | Analisado — decisões por recorte | capítulos 1–5 | 2 autorados | paralelo com Atos sem cronologia forçada |
@@ -56,3 +56,7 @@ A base de 128 pautas/2.323 pistas foi preservada mecanicamente. Três pautas e 5
 ## Checkpoint 045 — lote limitado de 2 Coríntios
 
 A base de 131 pautas/2.381 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura na NAA exclusivamente de 2Co 7, 10 e 13, foram acrescentadas três pautas e 52 pistas, levando o inventário a **134 pautas, 536 campos e 2.433 pistas**. A linha de 2 Coríntios passa a quatro pautas autoradas. As perguntas permanecem atributivas, a alusão de 13.1 não foi completada pelo AT e nenhuma visita ou carta foi harmonizada. As demais cartas e Apocalipse ficam pendentes; o banco não está completo.
+
+## Checkpoint 046 — Gl 6 e Ef 1–3
+
+A base de 134 pautas/2.433 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura NAA somente de Gl 6 e Ef 1, 2 e 3, quatro pautas e 81 pistas foram acrescentadas, elevando o inventário a **138 pautas, 552 campos e 2.514 pistas**. Cada capítulo de Efésios permaneceu separado; perguntas e alternativas são atributivas, sem harmonização ou teses externas. Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para próximas bases; o banco não está completo.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-045",
+  "catalogVersion": "2026-09-13-checkpoint-046",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 134,
-    "fields": 536,
-    "editoriallyEligibleCases": 134,
-    "playableCases": 134,
+    "cases": 138,
+    "fields": 552,
+    "editoriallyEligibleCases": 138,
+    "playableCases": 138,
     "max12Cases": 57
   },
   "order": [
@@ -150,7 +150,11 @@
     "nt2-1corintios-profecia-linguas-edificacao-ordem",
     "nt2-2corintios-tito-tristeza-consolo",
     "nt2-2corintios-autoridade-limites-recomendacao",
-    "nt2-2corintios-visita-exame-edificacao"
+    "nt2-2corintios-visita-exame-edificacao",
+    "nt2-galatas-restauracao-semeadura-gloria",
+    "nt2-efesios-bencaos-selo-oracao",
+    "nt2-efesios-graca-paz-edificio",
+    "nt2-efesios-misterio-ministerio-oracao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -89632,6 +89636,2853 @@
             "passage": "13.1-13",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-galatas-restauracao-semeadura-gloria": {
+      "id": "nt2-galatas-restauracao-semeadura-gloria",
+      "kind": "canonical-case",
+      "title": "Restauração, semeadura e glória em Gálatas 6",
+      "canon": {
+        "book": "Gálatas",
+        "referenceNAA": "Gálatas 6.1-18",
+        "references": [
+          {
+            "book": "Gálatas",
+            "passage": "6.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Gálatas 6, como deve ser restaurada uma pessoa surpreendida em falta, o que cada um colhe, a quem se deve fazer o bem e em que Paulo declara gloriar-se?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A correspondência entre semear e colher estrutura o centro do capítulo e conecta responsabilidade, perseverança e o contraste final de motivos.",
+      "editorial": {
+        "hinge": "As notas cruzadas da página não completam os enunciados por outras cartas ou pelo AT; a pauta apenas atribui ao capítulo seus conselhos, contrastes e despedida."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a pessoa colherá",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Aquilo que semear"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Somente aquilo que outros semearem"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma recompensa sem relação com sua ação"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Necessariamente a aprovação humana"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Aquilo que semear",
+          "enderecoNAA": "Gálatas 6.7-9",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "6.7-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como restaurar quem for surpreendido em falta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Com espírito de brandura"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Com ostentação diante dos demais"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Por comparação com o modo de agir alheio"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Com recusa de levar qualquer carga"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Com espírito de brandura",
+          "enderecoNAA": "Gálatas 6.1-2",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "6.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A quem fazer o bem enquanto houver oportunidade",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A todos, principalmente à família da fé"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente a quem instrui na palavra"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas aos que se gloriam na carne"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Exclusivamente a quem não leva fardos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A todos, principalmente à família da fé",
+          "enderecoNAA": "Gálatas 6.9-10",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "6.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Em que Paulo declara gloriar-se",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Na cruz de nosso Senhor Jesus Cristo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Nas letras grandes que escreveu"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Na carne dos destinatários"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Na circuncisão como distinção decisiva"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Na cruz de nosso Senhor Jesus Cristo",
+          "enderecoNAA": "Gálatas 6.11-15",
+          "answerReferences": [
+            {
+              "book": "Gálatas",
+              "passage": "6.11-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os espirituais devem restaurar com brandura quem for surpreendido em falta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os espirituais devem restaurar com brandura quem for surpreendido em falta."
+          },
+          {
+            "id": "P02",
+            "text": "Cada pessoa deve cuidar para não ser também tentada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada pessoa deve cuidar para não ser também tentada."
+          },
+          {
+            "id": "P03",
+            "text": "Levar as cargas uns dos outros é associado ao cumprimento da lei de Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Levar as cargas uns dos outros é associado ao cumprimento da lei de Cristo."
+          },
+          {
+            "id": "P04",
+            "text": "Quem se julga alguma coisa sem ser nada engana a si mesmo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem se julga alguma coisa sem ser nada engana a si mesmo."
+          },
+          {
+            "id": "P05",
+            "text": "Cada um deve examinar o próprio modo de agir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cada um deve examinar o próprio modo de agir."
+          },
+          {
+            "id": "P06",
+            "text": "O capítulo também afirma que cada um levará o próprio fardo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O capítulo também afirma que cada um levará o próprio fardo."
+          },
+          {
+            "id": "P07",
+            "text": "Quem recebe instrução na palavra deve compartilhar coisas boas com quem instrui.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem recebe instrução na palavra deve compartilhar coisas boas com quem instrui."
+          },
+          {
+            "id": "P08",
+            "text": "Deus não é apresentado como objeto de zombaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus não é apresentado como objeto de zombaria."
+          },
+          {
+            "id": "P09",
+            "text": "A colheita corresponde ao que a pessoa semeia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A colheita corresponde ao que a pessoa semeia."
+          },
+          {
+            "id": "P10",
+            "text": "Semear para a própria carne é ligado a colher corrupção.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Semear para a própria carne é ligado a colher corrupção."
+          },
+          {
+            "id": "P11",
+            "text": "Semear para o Espírito é ligado a colher vida eterna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Semear para o Espírito é ligado a colher vida eterna."
+          },
+          {
+            "id": "P12",
+            "text": "A orientação é não se cansar de fazer o bem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação é não se cansar de fazer o bem."
+          },
+          {
+            "id": "P13",
+            "text": "A colheita virá no tempo certo se não houver desânimo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A colheita virá no tempo certo se não houver desânimo."
+          },
+          {
+            "id": "P14",
+            "text": "O bem deve alcançar todos enquanto houver oportunidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O bem deve alcançar todos enquanto houver oportunidade."
+          },
+          {
+            "id": "P15",
+            "text": "A família da fé recebe destaque nessa prática do bem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A família da fé recebe destaque nessa prática do bem."
+          },
+          {
+            "id": "P16",
+            "text": "Paulo chama atenção para as letras grandes escritas de próprio punho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo chama atenção para as letras grandes escritas de próprio punho."
+          },
+          {
+            "id": "P17",
+            "text": "Ele rejeita gloriar-se, exceto na cruz do Senhor Jesus Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele rejeita gloriar-se, exceto na cruz do Senhor Jesus Cristo."
+          },
+          {
+            "id": "P18",
+            "text": "A conclusão contrasta circuncisão e incircuncisão com ser nova criatura.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Gálatas",
+                "passage": "6.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão contrasta circuncisão e incircuncisão com ser nova criatura."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Gálatas 6 reúne restauração com brandura, responsabilidade pelas cargas e pelo próprio agir, semeadura e colheita, prática perseverante do bem e a declaração de Paulo sobre gloriar-se na cruz.",
+        "hinge": "As notas cruzadas da página não completam os enunciados por outras cartas ou pelo AT; a pauta apenas atribui ao capítulo seus conselhos, contrastes e despedida.",
+        "references": [
+          {
+            "book": "Gálatas",
+            "passage": "6.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-bencaos-selo-oracao": {
+      "id": "nt2-efesios-bencaos-selo-oracao",
+      "kind": "canonical-case",
+      "title": "Bênçãos, selo e oração em Efésios 1",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 1.1-23",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "1.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Efésios 1, como Paulo se apresenta, com que selo os destinatários foram marcados, pelo que ele dá graças e o que pede que seja iluminado?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O selo do Espírito após ouvir e crer distingue os destinatários no fluxo do capítulo e liga bênçãos, herança e a oração de Paulo.",
+      "editorial": {
+        "hinge": "A pauta não transforma as formulações do capítulo em sistema externo nem completa suas notas cruzadas; cada resposta é atribuída diretamente a Efésios 1."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Com que selo os destinatários foram marcados",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Com o Espírito Santo da promessa"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Com a circuncisão feita por mãos humanas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Com cartas graves e fortes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Com a autoridade para destruição"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Com o Espírito Santo da promessa",
+          "enderecoNAA": "Efésios 1.13-14",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "1.13-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como Paulo se apresenta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Apóstolo de Cristo Jesus pela vontade de Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Prisioneiro enviado pela vontade dos santos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Profeta constituído pela recomendação própria"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Mestre escolhido pela igreja de Jerusalém"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Apóstolo de Cristo Jesus pela vontade de Deus",
+          "enderecoNAA": "Efésios 1.1-2",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "1.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que notícias levam Paulo a dar graças",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A fé no Senhor Jesus e o amor por todos os santos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A mudança de cidade e a entrega de uma coleta"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A ausência de tribulações e de oposição"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A preferência por um grupo de apóstolos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A fé no Senhor Jesus e o amor por todos os santos",
+          "enderecoNAA": "Efésios 1.15-16",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "1.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Paulo pede que Deus ilumine",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Os olhos do coração dos destinatários"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "As fronteiras da esfera de ação de outros"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "As letras escritas de próprio punho"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "As obras usadas para alguém se gloriar"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Os olhos do coração dos destinatários",
+          "enderecoNAA": "Efésios 1.17-19",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "1.17-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo se identifica como apóstolo de Cristo Jesus pela vontade de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se identifica como apóstolo de Cristo Jesus pela vontade de Deus."
+          },
+          {
+            "id": "P02",
+            "text": "A carta se dirige aos santos e fiéis em Cristo Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta se dirige aos santos e fiéis em Cristo Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "A saudação deseja graça e paz da parte de Deus Pai e do Senhor Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A saudação deseja graça e paz da parte de Deus Pai e do Senhor Jesus Cristo."
+          },
+          {
+            "id": "P04",
+            "text": "Deus é bendito por bênçãos espirituais nas regiões celestiais em Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus é bendito por bênçãos espirituais nas regiões celestiais em Cristo."
+          },
+          {
+            "id": "P05",
+            "text": "A escolha mencionada é situada antes da fundação do mundo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A escolha mencionada é situada antes da fundação do mundo."
+          },
+          {
+            "id": "P06",
+            "text": "A adoção como filhos é apresentada por meio de Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A adoção como filhos é apresentada por meio de Jesus Cristo."
+          },
+          {
+            "id": "P07",
+            "text": "Redenção e remissão dos pecados são associadas à riqueza da graça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Redenção e remissão dos pecados são associadas à riqueza da graça."
+          },
+          {
+            "id": "P08",
+            "text": "O propósito descrito faz convergir em Cristo as coisas do céu e da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.9-10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito descrito faz convergir em Cristo as coisas do céu e da terra."
+          },
+          {
+            "id": "P09",
+            "text": "Os destinatários ouviram a palavra da verdade, identificada como evangelho da salvação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários ouviram a palavra da verdade, identificada como evangelho da salvação."
+          },
+          {
+            "id": "P10",
+            "text": "Depois de ouvir e crer, eles receberam o selo do Espírito Santo da promessa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de ouvir e crer, eles receberam o selo do Espírito Santo da promessa."
+          },
+          {
+            "id": "P11",
+            "text": "O Espírito é chamado penhor da herança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito é chamado penhor da herança."
+          },
+          {
+            "id": "P12",
+            "text": "Paulo ouviu sobre a fé dos destinatários no Senhor Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo ouviu sobre a fé dos destinatários no Senhor Jesus."
+          },
+          {
+            "id": "P13",
+            "text": "Ele também ouviu sobre o amor deles por todos os santos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também ouviu sobre o amor deles por todos os santos."
+          },
+          {
+            "id": "P14",
+            "text": "Paulo não cessava de agradecer e mencioná-los nas orações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo não cessava de agradecer e mencioná-los nas orações."
+          },
+          {
+            "id": "P15",
+            "text": "Ele pede espírito de sabedoria e revelação no conhecimento de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pede espírito de sabedoria e revelação no conhecimento de Deus."
+          },
+          {
+            "id": "P16",
+            "text": "O pedido inclui iluminação dos olhos do coração.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido inclui iluminação dos olhos do coração."
+          },
+          {
+            "id": "P17",
+            "text": "Esperança da vocação e riqueza da herança nos santos integram aquilo que deveriam conhecer.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esperança da vocação e riqueza da herança nos santos integram aquilo que deveriam conhecer."
+          },
+          {
+            "id": "P18",
+            "text": "A oração também menciona a grandeza do poder sobre os que creem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração também menciona a grandeza do poder sobre os que creem."
+          },
+          {
+            "id": "P19",
+            "text": "Cristo é apresentado acima de principado, potestade, poder e domínio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.20-21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é apresentado acima de principado, potestade, poder e domínio."
+          },
+          {
+            "id": "P20",
+            "text": "A igreja é chamada corpo de Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "1.22-23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A igreja é chamada corpo de Cristo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Efésios 1 apresenta remetente e destinatários, enumera bênçãos em Cristo, registra o selo do Espírito após ouvir e crer e relata a ação de graças e os pedidos de Paulo.",
+        "hinge": "A pauta não transforma as formulações do capítulo em sistema externo nem completa suas notas cruzadas; cada resposta é atribuída diretamente a Efésios 1.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "1.1-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-graca-paz-edificio": {
+      "id": "nt2-efesios-graca-paz-edificio",
+      "kind": "canonical-case",
+      "title": "Graça, paz e edifício em Efésios 2",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 2.1-22",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "2.1-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Efésios 2, em que condição passada os destinatários estavam, como a salvação é descrita, o que Cristo fez dos dois povos e sobre que fundamento o edifício é apresentado?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A descrição da salvação pela graça mediante a fé fornece o eixo explícito que conecta a condição passada, a nova humanidade e a imagem final do edifício.",
+      "editorial": {
+        "hinge": "Os contrastes ficam como declarações da carta; a pauta não constrói uma tese externa sobre povos, lei ou obras e não importa explicações das referências cruzadas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como a salvação é descrita",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pela graça, mediante a fé, como dom de Deus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pelas obras, para que alguém se glorie"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pela separação permanente entre dois povos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pela condição anterior de estrangeiro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pela graça, mediante a fé, como dom de Deus",
+          "enderecoNAA": "Efésios 2.4-10",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "2.4-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que condição passada os destinatários estavam",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Mortos em transgressões e pecados"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Fortes por suas próprias obras"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Concidadãos desde o princípio"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Assentados por mérito próprio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Mortos em transgressões e pecados",
+          "enderecoNAA": "Efésios 2.1-3",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "2.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Cristo fez dos dois povos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fez um só, criando em si uma nova humanidade"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Manteve ambos separados por uma parede"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Deu acesso ao Pai somente aos que estavam perto"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Tornou um povo fundamento do outro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fez um só, criando em si uma nova humanidade",
+          "enderecoNAA": "Efésios 2.13-18",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "2.13-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Sobre que fundamento o edifício é apresentado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Dos apóstolos e profetas, com Cristo como pedra angular"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Das obras usadas para glória pessoal"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Da circuncisão feita por mãos humanas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Dos estrangeiros sem acesso ao Pai"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Dos apóstolos e profetas, com Cristo como pedra angular",
+          "enderecoNAA": "Efésios 2.19-22",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "2.19-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os destinatários são descritos como mortos em transgressões e pecados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários são descritos como mortos em transgressões e pecados."
+          },
+          {
+            "id": "P02",
+            "text": "O modo de vida passado seguia o curso deste mundo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O modo de vida passado seguia o curso deste mundo."
+          },
+          {
+            "id": "P03",
+            "text": "O passado também é associado às inclinações da carne e dos pensamentos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O passado também é associado às inclinações da carne e dos pensamentos."
+          },
+          {
+            "id": "P04",
+            "text": "Deus é descrito como rico em misericórdia e movido por grande amor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus é descrito como rico em misericórdia e movido por grande amor."
+          },
+          {
+            "id": "P05",
+            "text": "Mesmo mortos em transgressões, eles receberam vida juntamente com Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo mortos em transgressões, eles receberam vida juntamente com Cristo."
+          },
+          {
+            "id": "P06",
+            "text": "O texto declara que a salvação é pela graça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto declara que a salvação é pela graça."
+          },
+          {
+            "id": "P07",
+            "text": "Deus os ressuscitou e fez assentar com Cristo nas regiões celestiais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus os ressuscitou e fez assentar com Cristo nas regiões celestiais."
+          },
+          {
+            "id": "P08",
+            "text": "A salvação pela graça ocorre mediante a fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A salvação pela graça ocorre mediante a fé."
+          },
+          {
+            "id": "P09",
+            "text": "Ela não vem dos destinatários e é chamada dom de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela não vem dos destinatários e é chamada dom de Deus."
+          },
+          {
+            "id": "P10",
+            "text": "As obras são excluídas como motivo para alguém se gloriar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras são excluídas como motivo para alguém se gloriar."
+          },
+          {
+            "id": "P11",
+            "text": "Eles são chamados feitura de Deus, criados em Cristo para boas obras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles são chamados feitura de Deus, criados em Cristo para boas obras."
+          },
+          {
+            "id": "P12",
+            "text": "No passado, os gentios estavam sem Cristo e separados da comunidade de Israel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.11-12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No passado, os gentios estavam sem Cristo e separados da comunidade de Israel."
+          },
+          {
+            "id": "P13",
+            "text": "Quem antes estava longe foi aproximado pelo sangue de Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem antes estava longe foi aproximado pelo sangue de Cristo."
+          },
+          {
+            "id": "P14",
+            "text": "Cristo é chamado a paz dos destinatários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é chamado a paz dos destinatários."
+          },
+          {
+            "id": "P15",
+            "text": "Dos dois povos, Cristo fez um só e derrubou a parede de separação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dos dois povos, Cristo fez um só e derrubou a parede de separação."
+          },
+          {
+            "id": "P16",
+            "text": "O propósito declarado é criar dos dois uma nova humanidade, fazendo a paz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O propósito declarado é criar dos dois uma nova humanidade, fazendo a paz."
+          },
+          {
+            "id": "P17",
+            "text": "Ambos são reconciliados em um só corpo com Deus por meio da cruz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ambos são reconciliados em um só corpo com Deus por meio da cruz."
+          },
+          {
+            "id": "P18",
+            "text": "Por meio de Cristo, ambos têm acesso ao Pai em um só Espírito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por meio de Cristo, ambos têm acesso ao Pai em um só Espírito."
+          },
+          {
+            "id": "P19",
+            "text": "Os destinatários já não são estrangeiros, mas concidadãos e membros da família de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários já não são estrangeiros, mas concidadãos e membros da família de Deus."
+          },
+          {
+            "id": "P20",
+            "text": "O fundamento mencionado é o dos apóstolos e profetas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fundamento mencionado é o dos apóstolos e profetas."
+          },
+          {
+            "id": "P21",
+            "text": "Cristo Jesus é apresentado como pedra angular.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo Jesus é apresentado como pedra angular."
+          },
+          {
+            "id": "P22",
+            "text": "O edifício cresce para santuário e os destinatários são edificados juntos como morada de Deus no Espírito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "2.21-22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O edifício cresce para santuário e os destinatários são edificados juntos como morada de Deus no Espírito."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Efésios 2 contrasta morte em transgressões e vida com Cristo, apresenta salvação pela graça mediante a fé, descreve a paz que faz dos dois povos um e conclui com família e edifício de Deus.",
+        "hinge": "Os contrastes ficam como declarações da carta; a pauta não constrói uma tese externa sobre povos, lei ou obras e não importa explicações das referências cruzadas.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "2.1-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-efesios-misterio-ministerio-oracao": {
+      "id": "nt2-efesios-misterio-ministerio-oracao",
+      "kind": "canonical-case",
+      "title": "Mistério, ministério e oração em Efésios 3",
+      "canon": {
+        "book": "Efésios",
+        "referenceNAA": "Efésios 3.1-21",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "3.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Efésios 3, como Paulo se descreve, o que o capítulo chama de mistério, para quem ele recebeu graça de pregar e o que pede em favor dos destinatários?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A definição explícita do mistério no próprio capítulo delimita o núcleo da pauta e organiza o ministério de Paulo e sua oração sem recorrer a explicações externas.",
+      "editorial": {
+        "hinge": "A própria definição de 3.6 governa o campo do mistério; a pauta não harmoniza o aprisionamento ou o ministério com Atos ou outras cartas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o capítulo chama de mistério",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Gentios coerdeiros, do mesmo corpo e coparticipantes da promessa em Cristo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Separação permanente entre gentios e promessa"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Identificação cronológica de uma viagem de Paulo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma lista de nomes não revelada aos destinatários"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Gentios coerdeiros, do mesmo corpo e coparticipantes da promessa em Cristo",
+          "enderecoNAA": "Efésios 3.3-6",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "3.3-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como Paulo se descreve no início",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Prisioneiro de Cristo Jesus por amor dos gentios"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Apóstolo preso por causa de uma coleta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Governante dos principados celestiais"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Estrangeiro sem acesso ao Pai"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Prisioneiro de Cristo Jesus por amor dos gentios",
+          "enderecoNAA": "Efésios 3.1-2",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "3.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para quem Paulo recebeu graça de pregar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Para os gentios"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente para principados e potestades"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Exclusivamente para gerações anteriores"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Apenas para quem já conhecia o mistério"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Para os gentios",
+          "enderecoNAA": "Efésios 3.7-9",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "3.7-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Paulo pede em favor dos destinatários",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Fortalecimento pelo Espírito e habitação de Cristo pela fé"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Desânimo por causa das tribulações dele"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Glória baseada na recomendação própria"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Separação dos demais santos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Fortalecimento pelo Espírito e habitação de Cristo pela fé",
+          "enderecoNAA": "Efésios 3.14-19",
+          "answerReferences": [
+            {
+              "book": "Efésios",
+              "passage": "3.14-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo se apresenta como prisioneiro de Cristo Jesus por amor dos gentios.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se apresenta como prisioneiro de Cristo Jesus por amor dos gentios."
+          },
+          {
+            "id": "P02",
+            "text": "Ele menciona a dispensação da graça de Deus confiada a ele em favor dos destinatários.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele menciona a dispensação da graça de Deus confiada a ele em favor dos destinatários."
+          },
+          {
+            "id": "P03",
+            "text": "O mistério lhe foi dado a conhecer por revelação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mistério lhe foi dado a conhecer por revelação."
+          },
+          {
+            "id": "P04",
+            "text": "A leitura do escrito permitiria entender sua compreensão do mistério de Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A leitura do escrito permitiria entender sua compreensão do mistério de Cristo."
+          },
+          {
+            "id": "P05",
+            "text": "O mistério é dito agora revelado aos santos apóstolos e profetas pelo Espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mistério é dito agora revelado aos santos apóstolos e profetas pelo Espírito."
+          },
+          {
+            "id": "P06",
+            "text": "Os gentios são chamados coerdeiros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os gentios são chamados coerdeiros."
+          },
+          {
+            "id": "P07",
+            "text": "Eles também são chamados membros do mesmo corpo e coparticipantes da promessa em Cristo pelo evangelho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles também são chamados membros do mesmo corpo e coparticipantes da promessa em Cristo pelo evangelho."
+          },
+          {
+            "id": "P08",
+            "text": "Paulo foi constituído ministro do evangelho conforme o dom da graça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo foi constituído ministro do evangelho conforme o dom da graça."
+          },
+          {
+            "id": "P09",
+            "text": "Ele se denomina o menor de todos os santos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se denomina o menor de todos os santos."
+          },
+          {
+            "id": "P10",
+            "text": "A graça recebida incluía pregar aos gentios as riquezas de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A graça recebida incluía pregar aos gentios as riquezas de Cristo."
+          },
+          {
+            "id": "P11",
+            "text": "Seu encargo também incluía manifestar a dispensação do mistério antes oculto em Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu encargo também incluía manifestar a dispensação do mistério antes oculto em Deus."
+          },
+          {
+            "id": "P12",
+            "text": "A sabedoria de Deus deveria tornar-se conhecida, pela igreja, nas regiões celestiais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sabedoria de Deus deveria tornar-se conhecida, pela igreja, nas regiões celestiais."
+          },
+          {
+            "id": "P13",
+            "text": "Em Cristo, o texto afirma ousadia e acesso a Deus com confiança mediante a fé.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em Cristo, o texto afirma ousadia e acesso a Deus com confiança mediante a fé."
+          },
+          {
+            "id": "P14",
+            "text": "Paulo pede que não desanimem por causa das tribulações dele em favor deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo pede que não desanimem por causa das tribulações dele em favor deles."
+          },
+          {
+            "id": "P15",
+            "text": "Ele se põe de joelhos diante do Pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se põe de joelhos diante do Pai."
+          },
+          {
+            "id": "P16",
+            "text": "Pede fortalecimento com poder mediante o Espírito no íntimo de cada um.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pede fortalecimento com poder mediante o Espírito no íntimo de cada um."
+          },
+          {
+            "id": "P17",
+            "text": "Pede que Cristo habite pela fé no coração dos destinatários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pede que Cristo habite pela fé no coração dos destinatários."
+          },
+          {
+            "id": "P18",
+            "text": "Eles deveriam estar enraizados e alicerçados em amor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deveriam estar enraizados e alicerçados em amor."
+          },
+          {
+            "id": "P19",
+            "text": "O pedido envolve compreender dimensões e conhecer o amor de Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.18-19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido envolve compreender dimensões e conhecer o amor de Cristo."
+          },
+          {
+            "id": "P20",
+            "text": "O objetivo expresso é que fiquem cheios de toda a plenitude de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O objetivo expresso é que fiquem cheios de toda a plenitude de Deus."
+          },
+          {
+            "id": "P21",
+            "text": "A conclusão atribui glória a Deus na igreja e em Cristo Jesus por todas as gerações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar o campo por afirmação própria da carta, sem importar tese ou contexto externo",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Efésios",
+                "passage": "3.20-21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão atribui glória a Deus na igreja e em Cristo Jesus por todas as gerações."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Efésios 3 apresenta Paulo como prisioneiro e ministro, define o mistério quanto aos gentios, descreve a finalidade de seu encargo e registra uma oração de fortalecimento, habitação e conhecimento.",
+        "hinge": "A própria definição de 3.6 governa o campo do mistério; a pauta não harmoniza o aprisionamento ou o ministério com Atos ou outras cartas.",
+        "references": [
+          {
+            "book": "Efésios",
+            "passage": "3.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -84,3 +84,11 @@ A base `75f52929d25930ead6507a260a6e105521a635e0`, com **131 pautas, 524 campos 
 Foram incorporadas três pautas e 52 pistas: 2Co 7.2-16 com 16, 2Co 10 com 18 e 2Co 13 com 18. O catálogo passa a **134 pautas, 536 campos e 2.433 pistas**, todas elegíveis em alguma mesa. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e ao menos uma no poço. A comparação mecanizada confirmou que os 131 objetos anteriores permaneceram integralmente inalterados.
 
 As perguntas são atributivas ao texto. A carta citada em 2Co 7 não foi identificada externamente, adversários e viagens de 2Co 10 não foram reconstruídos, e a alusão de 2Co 13.1 não foi completada pelo Antigo Testamento. **As demais cartas e Apocalipse permanecem pendentes; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 046 — Gálatas 6 e Efésios 1–3
+
+A base do commit `884606496aeb54a9c0f71de5172445f286a4b7a0`, com **134 pautas, 536 campos e 2.433 pistas**, foi confirmada antes da edição. Em etapa bíblica separada dos testes, Gl 6 e Ef 1, 2 e 3 na NAA identificada em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e somente esses capítulos foram lidos e autorados.
+
+Foram incorporadas quatro pautas e 81 pistas: Gl 6 com 18, Ef 1 com 20, Ef 2 com 22 e Ef 3 com 21. O catálogo passa a **138 pautas, 552 campos e 2.514 pistas**, todas elegíveis em alguma mesa. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e ao menos uma no poço. A comparação mecanizada confirmou os 134 objetos anteriores integralmente inalterados.
+
+As perguntas são atributivas à carta, as notas cruzadas não foram usadas para completar alusões e nenhum capítulo foi harmonizado com Atos ou outra carta. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem isoladas. **Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse ficam para próximas bases; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

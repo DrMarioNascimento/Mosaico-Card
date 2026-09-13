@@ -23,3 +23,13 @@ Efésios passa a **analisado nesta rodada**, sem pauta autorada. A decisão sobr
 ## Reavaliação temática — checkpoint 032
 
 Ef 6.10-20 originou pauta temática de 13 fatos, preservando cada associação da metáfora sem importar conteúdo das citações do AT.
+
+## Reavaliação autorizada — checkpoint 046
+
+Em 13/09/2026, somente Efésios 1, 2 e 3 foram novamente obtidos e lidos na NAA identificada em `bible.com/pt/bible/1840`, todos com HTTP 200. Os capítulos permaneceram separados e originaram:
+
+- `nt2-efesios-bencaos-selo-oracao`: Ef 1, 20 pistas, capacidade 2–9;
+- `nt2-efesios-graca-paz-edificio`: Ef 2, 22 pistas, capacidade 2–10;
+- `nt2-efesios-misterio-ministerio-oracao`: Ef 3, 21 pistas, capacidade 2–10.
+
+As perguntas atribuem as formulações à carta, sem convertê-las em teses externas. Notas cruzadas não completam os enunciados e o aprisionamento, os povos ou o ministério não foram harmonizados com Atos ou outras cartas. Ef 4–5 permanece para próxima base; a pauta anterior de Ef 6 não foi alterada.

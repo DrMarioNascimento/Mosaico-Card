@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 134);
+assert.equal(catalog.summary.editoriallyEligibleCases, 138);
 assert.equal(catalog.summary.max12Cases, 57);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -96,6 +96,17 @@ for (const [id, maxPlayers] of Object.entries(auditoria2Corintios045)) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "2 Coríntios")), `${id} mantém fonte exclusiva em 2 Coríntios`);
 }
 
+const auditoriaGlEf046 = {
+  "nt2-galatas-restauracao-semeadura-gloria": ["Gálatas", 8],
+  "nt2-efesios-bencaos-selo-oracao": ["Efésios", 9],
+  "nt2-efesios-graca-paz-edificio": ["Efésios", 10],
+  "nt2-efesios-misterio-ministerio-oracao": ["Efésios", 10]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaGlEf046)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém fonte exclusiva no próprio documento`);
+}
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));
