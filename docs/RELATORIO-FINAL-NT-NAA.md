@@ -244,3 +244,7 @@ A consulta NAA efetiva acrescentou duas pautas de Ap 19 e 61 pistas, levando o i
 ## Incremento do checkpoint 066 — Apocalipse 22.6-21 e inventário global
 
 Uma pauta de 32 pistas para Ap 22.6-21 leva o inventário a **205 pautas, 820 campos e 3.937 pistas**, sem modificar os 204 objetos anteriores. O cruzamento documental dos 27 livros está em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md` e registra livro, recorte, motivo, evidência e status, além de lotes pequenos sugeridos. Foram distinguidas as dúvidas do usuário em 1Co 11.2-16 e 14.34-36 das reconsultas que podem avançar independentemente. A existência de testes aprovados ou de um estado histórico “analisado” não autoriza declarar o banco completo; múltiplos recortes ainda requerem consulta NAA individual.
+
+## Incremento do checkpoint 071 — pendências específicas de Mateus 10–13
+
+Somente Mt 10.1-15, Mt 12.9-14 e Mt 13.51-58 foram reconsultados na NAA Bible.com 1840. Duas pautas novas, com 22 e 14 pistas, e três pistas exclusivas consolidadas na pauta paralela da mão ressequida levam o catálogo de **220 pautas/4.308 pistas para 222/4.347**. A consolidação preserva todos os campos e as nove pistas anteriores, atribui fatos comuns às duas fontes e mantém diferenças documentais separadas. Os outros 219 objetos anteriores ficaram idênticos; Mt 18–20 e os demais recortes continuam posteriores. Não houve harmonização, meta numérica nem declaração de banco completo.

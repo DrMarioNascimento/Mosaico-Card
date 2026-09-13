@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 5–13 inventariado nos lotes recentes — checkpoint 070 | Pendentes: exclusivos de Mt 10.1-15; 12.9-14; 13.51-58; depois 18–20 e 21–25 | 29 próprios + 3 consolidados; 35 pautas citam o livro | Quatro pautas novas em Mt 12–13; paralelos não fecham fatos exclusivos automaticamente |
+| Mateus | Pendências específicas de Mt 10–13 resolvidas — checkpoint 071 | Pendentes posteriores: Mt 18–20 e 21–25 | 31 próprios + 4 consolidados; 38 pautas citam o livro | Fatos próprios de Mt 10 e 13 receberam pautas; exclusivos de Mt 12 foram consolidados sem harmonização |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -192,3 +192,7 @@ As páginas NAA Bible.com 1840 de Mt 10–11 foram efetivamente obtidas e lidas.
 ## Checkpoint 070 — Mateus 12–13
 
 A consulta efetiva das páginas NAA de Mt 12–13 sustentou quatro pautas e 124 pistas, levando o banco de **216/4.184 para 220/4.308** e Mateus a **35 pautas/707 pistas**. Os 216 objetos anteriores foram preservados serialmente. Mt 12.9-14 e 13.51-58 permanecem específicos; a revisão adicional também reabriu Mt 10.1-15 quanto a fatos exclusivos não cobertos por Marcos. Nenhum teste ou download foi usado para declarar a faixa completa.
+
+## Checkpoint 071 — pendências específicas de Mateus 10–13
+
+A releitura NAA exclusiva de Mt 10.1-15, 12.9-14 e 13.51-58 resolveu as três pendências: duas pautas novas somam 36 pistas, e a pauta paralela da mão ressequida recebeu três pistas exclusivas de Mateus e proveniência nos três fatos comuns. O inventário passa de **220/4.308 para 222/4.347**. Dos objetos anteriores, 219 permanecem idênticos e um tem somente a consolidação documentada; dois objetos foram anexados. Mt 18–20 e os demais recortes continuam posteriores, e o banco não está completo.

@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 220);
+assert.equal(catalog.summary.editoriallyEligibleCases, 222);
 assert.equal(catalog.summary.max12Cases, 86);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -28,7 +28,7 @@ const tematicasNovas = [
 assert.ok(tematicasNovas.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
 const auditadasTreze = ["nt2-lucas-jesus-doze-anos", "nt2-atos-escolha-matias", "nt2-atos-coxo-porta-formosa", "nt2-atos-sete-distribuicao", "nt2-atos-eutico", "nt2-3joao-gaio-diotrefes-demetrio"];
 assert.ok(auditadasTreze.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
-const auditadasNove = ["nt2-mateus-jose-sonho", "nt2-mateus-batismo", "nt2-mateus-tentacoes", "nt2-marcos-chamado-pescadores", "nt2-marcos-sinagoga-cafarnaum", "nt2-marcos-mao-ressequida"];
+const auditadasNove = ["nt2-mateus-jose-sonho", "nt2-mateus-batismo", "nt2-mateus-tentacoes", "nt2-marcos-chamado-pescadores", "nt2-marcos-sinagoga-cafarnaum"];
 assert.ok(auditadasNove.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 4));
 const auditoriaEvangelhosFinal = ["nt2-mateus-entrada-jerusalem", "nt2-mateus-mulheres-ressurreicao", "nt2-marcos-bartimeu", "nt2-lucas-mesa-servico-pedro", "nt2-lucas-aparicao-ascensao"];
 assert.ok(auditoriaEvangelhosFinal.every(id => catalog.byId[id].status.playable));
@@ -365,6 +365,22 @@ for (const [id, maxPlayers] of Object.entries(auditoriaMateus068)) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita aos remanescentes de Mateus 5–7`);
   assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
+
+const auditoriaMateus071 = {
+  "nt2-mateus-doze-destino-anuncio-acolhida": 10,
+  "nt2-mateus-escriba-rejeicao-nazare": 6
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus071)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus")), `${id} mantém fatos exclusivos em Mateus`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const maoRessequida = catalog.byId["nt2-marcos-mao-ressequida"];
+assert.equal(maoRessequida.deck.maxPlayers, 5);
+assert.equal(maoRessequida.deck.cards.length, 12);
+assert.ok(maoRessequida.deck.cards.slice(9).every(card => card.references.every(ref => ref.book === "Mateus")), "os três fatos consolidados permanecem exclusivos de Mateus");
+assert.ok(maoRessequida.deck.cards.slice(0, 9).filter(card => ["P02", "P04", "P08"].includes(card.id)).every(card => card.references.some(ref => ref.book === "Marcos") && card.references.some(ref => ref.book === "Mateus")), "fatos comuns preservam ambas as proveniências");
 
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

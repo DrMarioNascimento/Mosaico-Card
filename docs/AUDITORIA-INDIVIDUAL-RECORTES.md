@@ -503,3 +503,15 @@ As páginas NAA Bible.com 1840 de Mt 12 e 13 retornaram HTTP 200 e foram efetiva
 | Mt 13.53-58 | Lido e pendente pelo limite do lote; exige comparação paralela antes de autoria. |
 
 Os 216 objetos anteriores permaneceram na mesma ordem e serializaram identicamente; quatro objetos foram anexados. O banco passa a **220 pautas/4.308 pistas**. A revisão adicional de Mt 10.1-15 mostrou fatos exclusivos de Mateus não cobertos pela pauta de Marcos; o recorte passa de exclusão a pendência específica posterior, sem autoria nem harmonização nesta rodada.
+
+## Checkpoint 071 — pendências específicas de Mateus 10–13
+
+As páginas NAA Bible.com 1840 de Mt 10, 12 e 13 retornaram HTTP 200 e somente Mt 10.1-15, Mt 12.9-14 e Mt 13.51-58 foram efetivamente relidos. A comparação prévia abrangeu 220 objetos/4.308 pistas e incluiu as pautas paralelas de Mc 6 e Mc 3, sem usar paralelismo para apagar fatos exclusivos.
+
+| Recorte | Resultado auditado |
+| --- | --- |
+| Mt 10.1-15 | `nt2-mateus-doze-destino-anuncio-acolhida`, 22 pistas, capacidade 2–10; diferenças de Marcos não foram harmonizadas. |
+| Mt 12.9-14 | Consolidado em `nt2-marcos-mao-ressequida`: três fatos comuns receberam proveniência de Mateus e três pistas próprias foram anexadas; todo o conteúdo anterior restante foi preservado. |
+| Mt 13.51-58 | `nt2-mateus-escriba-rejeicao-nazare`, 14 pistas, capacidade 2–6; fecho e rejeição reunidos atributivamente. |
+
+A comparação serializada confirmou **219 dos 220 objetos anteriores integralmente idênticos**. O único diff interno é a consolidação de Mt 12 descrita acima; dois objetos foram anexados. Resultado: **222 pautas/4.347 pistas**, todas elegíveis. As três pendências autorizadas ficam resolvidas; Mt 18–20 e outros recortes não foram lidos nem decididos. O banco não é declarado completo.

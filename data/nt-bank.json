@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-070-mateus-12-13",
+  "catalogVersion": "checkpoint-071-mateus-pendencias-10-13",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -57416,6 +57416,13 @@
           "edition": "NAA",
           "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
           "checkedAt": "2026-09-12"
+        },
+        {
+          "book": "Mateus",
+          "passage": "12.9-14",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+          "checkedAt": "2026-09-13"
         }
       ],
       "question": "Quais pessoa, lugar, ordem e reação aparecem na cura da mão?",
@@ -57466,6 +57473,13 @@
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
               "checkedAt": "2026-09-12"
+            },
+            {
+              "book": "Mateus",
+              "passage": "12.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
             }
           ]
         },
@@ -57498,6 +57512,13 @@
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
               "checkedAt": "2026-09-12"
+            },
+            {
+              "book": "Mateus",
+              "passage": "12.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
             }
           ]
         },
@@ -57602,7 +57623,7 @@
           "earlyRevealRisk": "medium",
           "twoPlayerSuitable": true,
           "specialExpensive": false,
-          "documentScope": "single",
+          "documentScope": "parallel",
           "references": [
             {
               "book": "Marcos",
@@ -57610,6 +57631,13 @@
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
               "checkedAt": "2026-09-12"
+            },
+            {
+              "book": "Mateus",
+              "passage": "12.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
             }
           ]
         },
@@ -57648,7 +57676,7 @@
           "earlyRevealRisk": "medium",
           "twoPlayerSuitable": true,
           "specialExpensive": false,
-          "documentScope": "single",
+          "documentScope": "parallel",
           "references": [
             {
               "book": "Marcos",
@@ -57656,6 +57684,13 @@
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
               "checkedAt": "2026-09-12"
+            },
+            {
+              "book": "Mateus",
+              "passage": "12.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
             }
           ]
         },
@@ -57741,7 +57776,7 @@
           "earlyRevealRisk": "low",
           "twoPlayerSuitable": true,
           "specialExpensive": false,
-          "documentScope": "single",
+          "documentScope": "parallel",
           "references": [
             {
               "book": "Marcos",
@@ -57749,6 +57784,13 @@
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
               "checkedAt": "2026-09-12"
+            },
+            {
+              "book": "Mateus",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
             }
           ]
         },
@@ -57774,11 +57816,80 @@
               "checkedAt": "2026-09-12"
             }
           ]
+        },
+        {
+          "id": "P10",
+          "text": "Jesus evocou uma ovelha que cai numa cova durante o sábado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Preservar comparação exclusiva do relato de Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "complementary",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "12.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Na comparação apresentada, uma pessoa vale mais do que uma ovelha.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Preservar avaliação exclusiva do relato de Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "complementary",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "A conclusão declara lícito fazer o bem nos sábados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Preservar conclusão exclusiva do relato de Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "complementary",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
         }
       ],
       "reveal": {
-        "canonicalSummary": "Marcos 3 relata a observação, a ordem de vir ao meio, a restauração da mão e a conspiração posterior.",
-        "hinge": "Os campos perguntam apenas o que esta passagem NAA afirma; alternativas incorretas não são pistas.",
+        "canonicalSummary": "Marcos 3 registra a ordem de vir ao meio e a conspiração com os herodianos; Mateus 12 preserva, sem substituir essas diferenças, a comparação com uma ovelha, o valor da pessoa e a conclusão sobre fazer o bem no sábado.",
+        "hinge": "Os fatos comuns recebem as duas proveniências; as particularidades de cada documento permanecem atribuídas somente ao respectivo relato.",
         "references": [
           {
             "book": "Marcos",
@@ -57786,6 +57897,13 @@
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
             "checkedAt": "2026-09-12"
+          },
+          {
+            "book": "Mateus",
+            "passage": "12.9-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.12.NAA",
+            "checkedAt": "2026-09-13"
           }
         ]
       },
@@ -140089,6 +140207,1198 @@
           {
             "book": "Mateus",
             "passage": "13.24-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-mateus-doze-destino-anuncio-acolhida",
+      "title": "Os Doze, o destino e a acolhida em Mateus",
+      "generalReferences": [
+        {
+          "book": "Mateus",
+          "passage": "10.1-15",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Quais nomes, destino, anúncio e orientações próprios do envio narrado por Mateus?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O destino indicado aos Doze delimita a missão e organiza as demais instruções próprias deste relato.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "A quem os Doze deveriam procurar de preferência",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "As ovelhas perdidas da casa de Israel"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Os gentios das cidades costeiras"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Os samaritanos nas aldeias"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Os sacerdotes no templo"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "10.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Qual anúncio deveriam fazer pelo caminho",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "O Reino dos Céus está próximo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "O templo seria reconstruído"
+            },
+            {
+              "id": "C2-O3",
+              "text": "João deixaria o cárcere"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sodoma receberia os apóstolos"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "10.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quais metais não deveriam levar nos cintos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ouro, prata e cobre"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ferro, bronze e estanho"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Prata, ferro e chumbo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ouro, bronze e ferro"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "10.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem teria menos rigor no Dia do Juízo",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Sodoma e Gomorra"
+            },
+            {
+              "id": "C4-O2",
+              "text": "A casa digna"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Os samaritanos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Os doze apóstolos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "10.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus conferiu aos doze discípulos autoridade para expulsar espíritos imundos e curar enfermidades.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Simão, chamado Pedro, aparece primeiro na lista e é irmão de André.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Tiago, filho de Zebedeu, e seu irmão João integram a lista.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Mateus é designado como publicano entre os apóstolos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Tiago é identificado como filho de Alfeu, e Simão como Zelote.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.3-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Judas Iscariotes é apontado como aquele que traiu Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O caminho dos gentios não deveria ser tomado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Os enviados não deveriam entrar nas cidades dos samaritanos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A preferência indicada eram as ovelhas perdidas da casa de Israel.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "A proclamação pelo caminho anunciaria a proximidade do Reino dos Céus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Entre as ordens estavam curar enfermos e ressuscitar mortos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Também deveriam purificar leprosos e expulsar demônios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Como haviam recebido gratuitamente, deveriam dar gratuitamente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Ouro, prata e cobre foram excluídos dos cintos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Sacola, segunda túnica, sandálias e bordão também foram excluídos da bagagem.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "O trabalhador foi declarado digno de seu alimento.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Ao chegar a uma cidade ou aldeia, deveriam procurar alguém digno e permanecer ali.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A orientação para entrar numa casa incluía saudá-la.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Numa casa digna, a paz dos enviados viria sobre ela.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Numa casa indigna, essa paz retornaria aos enviados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "A recusa em receber ou ouvir seria seguida pela retirada e pelo pó sacudido dos pés.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P22",
+          "text": "Sodoma e Gomorra terão menos rigor no Dia do Juízo do que aquela cidade.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "10.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Mateus 10.1-15 nomeia os Doze e registra destino, anúncio, ordens, saudação, paz e comparação de juízo próprios desta redação.",
+        "hinge": "A pauta conserva somente fatos expressos por Mateus e não importa nem concilia as instruções diferentes dos relatos paralelos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "10.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-mateus-escriba-rejeicao-nazare",
+      "title": "O escriba instruído e a rejeição na terra de Jesus",
+      "generalReferences": [
+        {
+          "book": "Mateus",
+          "passage": "13.51-58",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Quais resposta, comparação, identificações e reação encerram esta seção de Mateus?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A comparação do escriba instruído liga a resposta dos discípulos ao encerramento das parábolas antes da cena em sua terra.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que os discípulos responderam sobre terem entendido",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sim"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ainda não"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Somente uma parábola"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Perguntaram novamente"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que o pai de família tira do depósito na comparação",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Coisas novas e coisas velhas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Somente boas pérolas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Trigo e joio"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Peixes bons e ruins"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como os moradores identificaram Jesus",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Como filho do carpinteiro"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Como chefe da sinagoga"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Como filho de Zebedeu"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Como publicano"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.55",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Por que Jesus não fez ali muitos milagres",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Por causa da incredulidade deles"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Porque deixou de ensinar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Porque a sinagoga estava vazia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Por causa da falta de enfermos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "13.58",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus perguntou se os discípulos haviam entendido todas aquelas coisas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Os discípulos responderam afirmativamente.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.51",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A comparação trata de um escriba instruído no Reino dos Céus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Esse escriba é comparado a um pai de família.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O pai de família retira de seu depósito coisas novas e velhas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Depois de concluir as parábolas, Jesus partiu dali.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.53",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Em sua própria terra, Jesus ensinava na sinagoga.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.54",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Os ouvintes ficaram admirados com sua sabedoria e seus poderes miraculosos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.54",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Eles o chamaram de filho do carpinteiro e disseram que sua mãe se chamava Maria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.55",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Tiago, José, Simão e Judas foram mencionados como irmãos de Jesus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.55",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "As irmãs dele foram descritas como vivendo entre aquelas pessoas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.56",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Os moradores se escandalizavam por causa de Jesus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.57",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Jesus declarou que um profeta é desprezado em sua terra e em sua casa.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.57",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A incredulidade deles foi dada como motivo para não haver ali muitos milagres.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a resposta com fato exclusivo expresso por Mateus",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Mateus",
+              "passage": "13.58",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Mateus 13.51-58 registra a resposta dos discípulos, a comparação do escriba instruído e a rejeição de Jesus em sua terra.",
+        "hinge": "As identificações e ações permanecem na forma atribuída por Mateus, sem completar parentescos nem conciliar a cena com relatos paralelos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "13.51-58",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
             "checkedAt": "2026-09-13"

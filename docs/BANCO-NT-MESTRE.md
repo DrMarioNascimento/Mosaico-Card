@@ -706,3 +706,13 @@ Mt 12.9-14 foi comparado com a pauta existente da mão ressequida em Marcos; o n
 - **Antes/depois:** 216 pautas/4.184 pistas → 220/4.308; os 216 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
 - **Limite:** Mt 12–13 não foi chamado completo; restam Mt 12.9-14 (exclusivos) e Mt 13.51-58. A próxima faixa não inventariada é Mt 18–20.
 - **Preservação:** dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, isolamento, sorteio e partidas foram preservados. Não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 071 — pendências específicas de Mateus 10–13
+
+Sobre o head da PR 24 (`cd56a2a7a93047fbfbd41e64d4ab140881e38c6a`), somente Mt 10.1-15, os fatos exclusivos de Mt 12.9-14 e Mt 13.51-58 foram reconsultados na NAA Bible.com 1840, todos com HTTP 200. A comparação direta de campos, perguntas, pistas e referências partiu de 220 pautas/4.308 pistas. O lote acrescenta duas pautas, não três: Mt 10.1-15 tem 22 pistas e capacidade 10; Mt 13.51-58 tem 14 e capacidade 6.
+
+Mt 12.9-14 foi consolidado em `nt2-marcos-mao-ressequida` porque seus três fatos exclusivos não justificavam repetir o núcleo paralelo. O objeto recebeu somente a referência geral de Mateus, referências paralelas nos três fatos comuns P02/P04/P08, as pistas P10–P12 sobre ovelha/valor/fazer o bem e uma síntese/dente que separa as redações. Seus quatro campos, alternativas, gabaritos, nove pistas anteriores e demais metadados foram preservados; “novamente”, vir ao meio e herodianos continuam exclusivamente em Marcos.
+
+- **Antes/depois:** 220 pautas/4.308 pistas → 222/4.347; 219 objetos anteriores ficaram serializadamente idênticos, um recebeu a consolidação documental descrita acima e dois foram anexados na cauda.
+- **Contrato:** quatro campos e quatro alternativas, gabaritos e proveniência NAA, focal explícito com ordem 8/5/3/2, importância distinta de risco de revelação e capacidade `min(12, floor((cartas-1)/2))`; não houve piso de 25 nem quantidade forçada.
+- **Limite:** as três pendências específicas ficam resolvidas; Mt 18–20 e todos os demais recortes permanecem posteriores. Dúvidas de 1Co e exclusões definitivas foram preservadas; não houve merge, deploy, publicação, Firebase ou credenciais, e testes não são prova de banco completo.
