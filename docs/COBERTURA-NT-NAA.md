@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 23 inventariado — checkpoint 077 | Pendente posterior: Mt 24–25 | 60 pautas citam o livro / 1.165 pistas | Todas as unidades de Mt 23 têm decisão; Mt 23.14 sinalizado não entrou no banco |
+| Mateus | Mt 24 inventariado — checkpoint 078 | Pendente posterior: Mt 25; pendência textual Mt 23.14 | 64 pautas citam o livro / 1.246 pistas | Mt 24 decidido por unidade; Mt 23.14 não entrou e requer encaminhamento específico |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |

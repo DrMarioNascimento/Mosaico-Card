@@ -294,7 +294,7 @@ Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.23.NAA` foi obti
 | --- | --- |
 | Mt 23.1-12 — obras, títulos, serviço e humildade | **Autorada** em `nt2-mateus-escribas-obras-titulos`, 17 pistas, capacidade 8. Cadeira, fardos, filactérios, franjas e títulos permanecem elementos do discurso de Jesus. O paralelo de serviço já presente em Mt 20 não recebeu harmonização. |
 | Mt 23.13 — fechamento do Reino | **Autorada** como abertura de `nt2-mateus-ais-juramentos`; a ação é denúncia atribuída a Jesus. |
-| Mt 23.14 — texto entre colchetes na NAA consultada | **Não autorada e mantida fora deste banco**, preservando o tratamento editorial definitivo de passagens sinalizadas pela edição. Nenhum fato do verso aparece em pista, campo ou gabarito. |
+| Mt 23.14 — texto entre colchetes na NAA consultada | **Não autorada neste lote; pendência textual.** Nenhum fato do verso aparece em pista, campo ou gabarito. A política vigente não transforma colchetes em exclusão automática: Jo 8.1-11 aguarda avaliação específica e At 8.37 foi admitido com ressalva após autorização; Mt 23.14 requer o mesmo tipo de decisão própria. |
 | Mt 23.15 — prosélito | **Autorada** na pauta dos ais; mar, terra e resultado denunciado ficam atribuídos a Jesus, sem descrição externa do grupo. |
 | Mt 23.16-22 — distinções sobre juramentos | **Autorada** na mesma pauta, que totaliza 15 pistas e capacidade 7. As falas censuradas e as respostas de Jesus são distinguidas; notas e alusões ao AT não foram importadas. |
 | Mt 23.23-24 — dízimo, prioridades e animais | **Autorada** em `nt2-mateus-ais-dizimo-aparencias`; a lista e mosquito/camelo permanecem no discurso. |
@@ -304,4 +304,24 @@ Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.23.NAA` foi obti
 | Mt 23.33-36 — enviados e anúncio | **Autorada** na mesma pauta. Os nomes Abel e Zacarias e os acontecimentos anunciados ficam nos limites da fala registrada por Mateus; nenhuma narrativa do AT foi incorporada. |
 | Mt 23.37-39 — lamento sobre Jerusalém | **Autorada** na mesma pauta, que totaliza 20 pistas e capacidade 9. A imagem da galinha, a recusa, a casa deserta e a declaração final permanecem falas de Jesus, sem harmonização com Lucas nem expansão da citação. |
 
-Foram anexadas **quatro pautas/70 pistas**, com capacidades 8, 7, 8 e 9 pela fórmula `min(12, floor((pistas-1)/2))`; quantidade e capacidade não foram usadas como meta. Os 240 objetos anteriores foram preservados na mesma ordem e serializaram identicamente. Todas as unidades de Mt 23 têm decisão explícita neste inventário, inclusive o verso 14 sinalizado; **Mt 24–25 permanece posterior**. Dúvidas de 1Co e exclusões definitivas continuam intactas, e o banco não é declarado completo.
+Foram anexadas **quatro pautas/70 pistas**, com capacidades 8, 7, 8 e 9 pela fórmula `min(12, floor((pistas-1)/2))`; quantidade e capacidade não foram usadas como meta. Os 240 objetos anteriores foram preservados na mesma ordem e serializaram identicamente. As unidades não sinalizadas de Mt 23 têm decisão explícita; **Mt 23.14 permanece pendência textual específica**, sem bloquear a sequência, e **Mt 24–25 permanece posterior**. Dúvidas de 1Co e exclusões definitivas continuam intactas, e o banco não é declarado completo.
+
+## Inventário individual de Mateus 24 — checkpoint 078
+
+Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.24.NAA` foi obtida (HTTP 200; 359.681 bytes) e lida integralmente, verso a verso. A comparação prévia examinou campos, perguntas, pistas, referências e paralelos nos **244 objetos/4.763 pistas** e não encontrou referência geral a Mt 24. Profecias, imagens e comparações foram tratadas como falas de Jesus registradas por Mateus, sem calendário, identidades históricas, geografia atual, leitura astronômica ou harmonização externa.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 24.1-2 — saída e construções do templo | **Autorada** em `nt2-mateus-templo-sinais-testemunho`; aproximação, pergunta e anúncio ficam na cena de Mateus, sem identificação histórica da derrubada. |
+| Mt 24.3 — perguntas particulares no monte | **Autorada** na mesma pauta; “quando”, “sinal”, “vinda” e “fim” são perguntas dos discípulos, não datas respondidas pelo banco. |
+| Mt 24.4-8 — engano, conflitos, fomes e terremotos | **Autorada** na mesma pauta como advertências e anúncios de Jesus. Nenhum evento moderno foi proposto como cumprimento. |
+| Mt 24.9-14 — oposição, firmeza e testemunho | **Autorada** na mesma pauta, que totaliza 22 pistas e capacidade 10. Ódio, falsos profetas e pregação permanecem prospectivos e atribuídos ao discurso. |
+| Mt 24.15-22 — situação e fuga | **Autorada** em `nt2-mateus-fuga-falsos-cristos`; Daniel é citado somente porque Jesus o menciona, sem importar conteúdo do AT. Judeia, montes, inverno e sábado ficam na formulação textual, sem mapa ou calendário atual. |
+| Mt 24.23-28 — anúncios enganosos e comparações | **Autorada** na mesma pauta, que totaliza 21 pistas e capacidade 10. Deserto, interior da casa, relâmpago, cadáver e abutres não recebem identidades externas. |
+| Mt 24.29-31 — sinais, vinda e reunião | **Autorada** em `nt2-mateus-vinda-anjos-figueira`; corpos celestes, nuvens, trombeta, ventos e extremidades são anúncios do discurso, não previsão datada ou explicação científica. |
+| Mt 24.32-35 — figueira, proximidade e palavras | **Autorada** na mesma pauta, que totaliza 16 pistas e capacidade 7. A comparação fica nos elementos explicados por Jesus; não se identifica geração ou estação com período histórico externo. |
+| Mt 24.36-41 — desconhecimento e dias de Noé | **Autorada** em `nt2-mateus-vigilancia-servos`; a alusão a Noé usa somente os fatos pronunciados no recorte, sem completar Gênesis. Pessoas no campo e moinho permanecem exemplos do discurso. |
+| Mt 24.42-44 — vigiar, ladrão e preparação | **Autorada** na mesma pauta; a imagem do arrombamento não vira cronograma nem descrição de pessoa histórica. |
+| Mt 24.45-51 — servos fiel e mau | **Autorada** na mesma pauta, que totaliza 22 pistas e capacidade 10. A pergunta, as ações hipotéticas e os resultados são componentes da comparação de Jesus, sem generalização externa. |
+
+Foram anexadas **quatro pautas/81 pistas**, com capacidades 10, 10, 7 e 10 pela fórmula `min(12, floor((pistas-1)/2))`; quatro não foi meta e não houve piso de 25 pistas ou 12 participantes. Os 244 objetos anteriores permaneceram na mesma ordem e serializaram identicamente. Não restou unidade de Mt 24 sem decisão neste inventário; **Mt 25 permanece posterior**, e **Mt 23.14 continua pendência textual específica** sem bloquear o avanço. O banco não é declarado completo.

@@ -15,6 +15,10 @@ Registro versionado em 12/09/2026. Estas decisões substituem os bloqueios corre
 | Ap 2–22 | Permitir conteúdo explícito, ações, sequências e explicações internas. | Sem identidades históricas, instituições atuais, datas, localização presente ou sistemas cronológicos externos; 144 mil sem decidir literalidade. |
 | Atos e cartas paulinas | Preservar cada documento. | Não combinar viagens/acontecimentos cuja correspondência seja incerta. |
 
+## Pendência textual posterior — Mateus 23.14
+
+No checkpoint 078, Mt 23.14 permanece **sem decisão do usuário** e fora de campos, gabaritos e pistas. Os colchetes da NAA consultada não bastam para torná-lo exclusão definitiva: a própria política acima registra encaminhamentos específicos e diferentes para Jo 8.1-11 e At 8.37. Uma rodada futura deve obter decisão própria — manter fora ou permitir reavaliação com ressalva textual — sem bloquear Mt 24, Mt 25 ou outros trabalhos independentes.
+
 ## Escopo da aprovação
 
 O usuário decidiu somente os limites interpretativos acima. A atribuição `biblical: approved` ou `editorial: approved`, quando ocorrer, continuará sendo resultado da revisão do agente com fonte NAA identificada; nenhuma pista ou resposta será descrita como “revisada pelo usuário”. Dúvidas novas e independentes permanecem bloqueadas sem interromper os demais recortes.

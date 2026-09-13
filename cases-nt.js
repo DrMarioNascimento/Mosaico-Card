@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-077-mateus-23",
+  "catalogVersion": "checkpoint-078-mateus-24",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 244,
-    "fields": 976,
-    "editoriallyEligibleCases": 244,
-    "playableCases": 244,
+    "cases": 248,
+    "fields": 992,
+    "editoriallyEligibleCases": 248,
+    "playableCases": 248,
     "max12Cases": 91
   },
   "order": [
@@ -260,7 +260,11 @@
     "nt2-mateus-escribas-obras-titulos",
     "nt2-mateus-ais-juramentos",
     "nt2-mateus-ais-dizimo-aparencias",
-    "nt2-mateus-profetas-lamento-jerusalem"
+    "nt2-mateus-profetas-lamento-jerusalem",
+    "nt2-mateus-templo-sinais-testemunho",
+    "nt2-mateus-fuga-falsos-cristos",
+    "nt2-mateus-vinda-anjos-figueira",
+    "nt2-mateus-vigilancia-servos"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -170482,6 +170486,2850 @@
             "passage": "23.29-39",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-templo-sinais-testemunho": {
+      "id": "nt2-mateus-templo-sinais-testemunho",
+      "kind": "canonical-case",
+      "title": "Templo, sinais e testemunho",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 24.1-14",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que observação iniciou o diálogo, o que os discípulos perguntaram e quais advertências e anúncios Jesus apresentou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a situação que inicia esta unidade do discurso; os demais distinguem perguntas, advertências e anúncios atribuídos no texto.",
+      "editorial": {
+        "hinge": "Todos os sinais e resultados permanecem previsões atribuídas a Jesus; a pauta não fixa datas, correspondências históricas ou localização contemporânea."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os discípulos mostraram a Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "As construções do templo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os campos ao redor de Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "As casas no monte"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os barcos junto ao mar"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "As construções do templo",
+          "enderecoNAA": "Mateus 24.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus anunciou sobre aquelas construções",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Não ficaria pedra sobre pedra sem ser derrubada"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Seriam ampliadas pelos discípulos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ficariam ocultas no deserto"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Receberiam todas as nações"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Não ficaria pedra sobre pedra sem ser derrubada",
+          "enderecoNAA": "Mateus 24.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que pedido os discípulos fizeram em particular",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Quando ocorreria e qual seria o sinal da vinda e do fim"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Onde preparariam a refeição"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Quem seria o maior entre eles"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quantos pães deveriam comprar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Quando ocorreria e qual seria o sinal da vinda e do fim",
+          "enderecoNAA": "Mateus 24.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que alcance Jesus atribuiu à pregação do evangelho do Reino",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Todo o mundo, como testemunho a todas as nações"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente o interior do templo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Apenas uma cidade da Judeia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Exclusivamente o monte das Oliveiras"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Todo o mundo, como testemunho a todas as nações",
+          "enderecoNAA": "Mateus 24.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus saiu do templo enquanto caminhava.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus saiu do templo enquanto caminhava."
+          },
+          {
+            "id": "P02",
+            "text": "Os discípulos se aproximaram para lhe mostrar as construções do templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se aproximaram para lhe mostrar as construções do templo."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus perguntou se eles estavam vendo todas aquelas coisas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou se eles estavam vendo todas aquelas coisas."
+          },
+          {
+            "id": "P04",
+            "text": "Ele anunciou que nenhuma pedra ficaria sobre outra sem ser derrubada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou que nenhuma pedra ficaria sobre outra sem ser derrubada."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus estava sentado no monte das Oliveiras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estava sentado no monte das Oliveiras."
+          },
+          {
+            "id": "P06",
+            "text": "Os discípulos falaram com ele em particular.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos falaram com ele em particular."
+          },
+          {
+            "id": "P07",
+            "text": "Eles perguntaram quando aquelas coisas aconteceriam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles perguntaram quando aquelas coisas aconteceriam."
+          },
+          {
+            "id": "P08",
+            "text": "Também perguntaram pelo sinal da vinda de Jesus e do fim dos tempos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também perguntaram pelo sinal da vinda de Jesus e do fim dos tempos."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus os advertiu para que ninguém os enganasse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os advertiu para que ninguém os enganasse."
+          },
+          {
+            "id": "P10",
+            "text": "Ele predisse que muitos viriam em seu nome e se apresentariam como o Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele predisse que muitos viriam em seu nome e se apresentariam como o Cristo."
+          },
+          {
+            "id": "P11",
+            "text": "Segundo Jesus, esses pretendentes enganariam muitas pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, esses pretendentes enganariam muitas pessoas."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus disse que seus ouvintes escutariam sobre guerras e rumores de guerras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que seus ouvintes escutariam sobre guerras e rumores de guerras."
+          },
+          {
+            "id": "P13",
+            "text": "Ele mandou que não se assustassem e afirmou que isso ainda não seria o fim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele mandou que não se assustassem e afirmou que isso ainda não seria o fim."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus anunciou conflitos entre nações e entre reinos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou conflitos entre nações e entre reinos."
+          },
+          {
+            "id": "P15",
+            "text": "Ele mencionou fomes e terremotos em vários lugares.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele mencionou fomes e terremotos em vários lugares."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus classificou essas coisas como princípio das dores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus classificou essas coisas como princípio das dores."
+          },
+          {
+            "id": "P17",
+            "text": "Ele anunciou maus-tratos, mortes e ódio por causa de seu nome.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou maus-tratos, mortes e ódio por causa de seu nome."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus disse que muitos tropeçariam, trairiam e odiariam uns aos outros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que muitos tropeçariam, trairiam e odiariam uns aos outros."
+          },
+          {
+            "id": "P19",
+            "text": "Ele predisse o surgimento de falsos profetas e o engano de muitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele predisse o surgimento de falsos profetas e o engano de muitos."
+          },
+          {
+            "id": "P20",
+            "text": "Segundo Jesus, a multiplicação da maldade esfriaria o amor de muitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, a multiplicação da maldade esfriaria o amor de muitos."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus declarou salvo aquele que permanecesse firme até o fim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou salvo aquele que permanecesse firme até o fim."
+          },
+          {
+            "id": "P22",
+            "text": "Ele anunciou a pregação mundial do evangelho do Reino como testemunho às nações antes do fim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou a pregação mundial do evangelho do Reino como testemunho às nações antes do fim."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 24.1-14 registra a saída do templo, as perguntas particulares dos discípulos e uma sequência de advertências e anúncios de Jesus.",
+        "hinge": "Todos os sinais e resultados permanecem previsões atribuídas a Jesus; a pauta não fixa datas, correspondências históricas ou localização contemporânea.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-fuga-falsos-cristos": {
+      "id": "nt2-mateus-fuga-falsos-cristos",
+      "kind": "canonical-case",
+      "title": "Fuga e falsos cristos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 24.15-28",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.15-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que situação Jesus apresentou, quais instruções de fuga deu e como advertiu contra anúncios de falsos cristos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a situação que inicia esta unidade do discurso; os demais distinguem perguntas, advertências e anúncios atribuídos no texto.",
+      "editorial": {
+        "hinge": "Daniel, lugar santo, tribulação, relâmpago e abutres ficam nos termos do discurso; não são ligados a calendário, personagem histórico, geografia atual ou evento externo."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que Jesus disse que seria visto no lugar santo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O abominável da desolação mencionado por Daniel"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma figueira com folhas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um servo distribuindo sustento"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma trombeta reunindo os escolhidos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O abominável da desolação mencionado por Daniel",
+          "enderecoNAA": "Mateus 24.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Para onde deveriam fugir os que estivessem na Judeia",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Para os montes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Para o interior das casas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Para o terraço do templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Para o campo em busca da capa"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Para os montes",
+          "enderecoNAA": "Mateus 24.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Em que momentos Jesus orientou que a fuga não ocorresse",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "No inverno nem no sábado"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "No verão nem ao meio-dia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Na primavera nem à noite"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Na colheita nem durante um banquete"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "No inverno nem no sábado",
+          "enderecoNAA": "Mateus 24.20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A que Jesus comparou a vinda do Filho do Homem",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao relâmpago que sai do Oriente e brilha até o Ocidente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "À figueira que perde as folhas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Ao ladrão que anuncia a hora"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ao servo que abandona a casa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao relâmpago que sai do Oriente e brilha até o Ocidente",
+          "enderecoNAA": "Mateus 24.27",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus introduziu a situação com uma referência atribuída por ele ao profeta Daniel.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus introduziu a situação com uma referência atribuída por ele ao profeta Daniel."
+          },
+          {
+            "id": "P02",
+            "text": "A fala situa o abominável da desolação no lugar santo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala situa o abominável da desolação no lugar santo."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus acrescenta a orientação para que o leitor entenda.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus acrescenta a orientação para que o leitor entenda."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus mandou os que estivessem na Judeia fugir para os montes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou os que estivessem na Judeia fugir para os montes."
+          },
+          {
+            "id": "P05",
+            "text": "Quem estivesse no terraço não deveria descer para buscar algo em casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem estivesse no terraço não deveria descer para buscar algo em casa."
+          },
+          {
+            "id": "P06",
+            "text": "Quem estivesse no campo não deveria voltar para buscar a capa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem estivesse no campo não deveria voltar para buscar a capa."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus pronunciou um ai sobre grávidas e mulheres que amamentassem naqueles dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus pronunciou um ai sobre grávidas e mulheres que amamentassem naqueles dias."
+          },
+          {
+            "id": "P08",
+            "text": "Ele mandou orar para que a fuga não acontecesse no inverno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele mandou orar para que a fuga não acontecesse no inverno."
+          },
+          {
+            "id": "P09",
+            "text": "A mesma orientação também mencionou o sábado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma orientação também mencionou o sábado."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus anunciou uma tribulação sem precedente no período descrito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou uma tribulação sem precedente no período descrito."
+          },
+          {
+            "id": "P11",
+            "text": "Ele afirmou que, sem abreviação daqueles dias, ninguém seria salvo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que, sem abreviação daqueles dias, ninguém seria salvo."
+          },
+          {
+            "id": "P12",
+            "text": "Segundo Jesus, os dias seriam abreviados por causa dos escolhidos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, os dias seriam abreviados por causa dos escolhidos."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus mandou não acreditar em quem apontasse o Cristo aqui ou ali.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou não acreditar em quem apontasse o Cristo aqui ou ali."
+          },
+          {
+            "id": "P14",
+            "text": "Ele anunciou o surgimento de falsos cristos e falsos profetas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou o surgimento de falsos cristos e falsos profetas."
+          },
+          {
+            "id": "P15",
+            "text": "Segundo o anúncio, eles fariam grandes sinais e prodígios.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo o anúncio, eles fariam grandes sinais e prodígios."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus atribuiu a esses atos a finalidade de enganar, se possível, até os eleitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a esses atos a finalidade de enganar, se possível, até os eleitos."
+          },
+          {
+            "id": "P17",
+            "text": "Ele declarou ter predito essas coisas aos ouvintes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou ter predito essas coisas aos ouvintes."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus mandou não ir ao deserto por causa de um anúncio sobre sua presença.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou não ir ao deserto por causa de um anúncio sobre sua presença."
+          },
+          {
+            "id": "P19",
+            "text": "Ele também mandou não crer num anúncio situado no interior da casa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também mandou não crer num anúncio situado no interior da casa."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus comparou sua vinda ao relâmpago visível do Oriente ao Ocidente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou sua vinda ao relâmpago visível do Oriente ao Ocidente."
+          },
+          {
+            "id": "P21",
+            "text": "A unidade termina com a imagem do cadáver e dos abutres reunidos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A unidade termina com a imagem do cadáver e dos abutres reunidos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 24.15-28 reúne uma situação profética, instruções de fuga e advertências de Jesus contra anúncios enganosos.",
+        "hinge": "Daniel, lugar santo, tribulação, relâmpago e abutres ficam nos termos do discurso; não são ligados a calendário, personagem histórico, geografia atual ou evento externo.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.15-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-vinda-anjos-figueira": {
+      "id": "nt2-mateus-vinda-anjos-figueira",
+      "kind": "canonical-case",
+      "title": "Vinda, anjos e figueira",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 24.29-35",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.29-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que sinais Jesus anunciou, quem reuniria os escolhidos e que aprendizado ligou à figueira?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a situação que inicia esta unidade do discurso; os demais distinguem perguntas, advertências e anúncios atribuídos no texto.",
+      "editorial": {
+        "hinge": "Elementos celestes, nuvens, trombeta e figueira permanecem imagens e anúncios textuais; nenhuma data, identidade histórica ou leitura astronômica é proposta."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que Jesus disse que apareceria no céu",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O sinal do Filho do Homem"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O sinal de Jonas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma escada até o templo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A estrela dos magos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O sinal do Filho do Homem",
+          "enderecoNAA": "Mateus 24.30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem seria enviado com grande som de trombeta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os anjos do Filho do Homem"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os discípulos no monte"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os servos do templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os falsos profetas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os anjos do Filho do Homem",
+          "enderecoNAA": "Mateus 24.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que árvore aparece na parábola ensinada por Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A figueira"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A oliveira"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A videira"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A mostardeira"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A figueira",
+          "enderecoNAA": "Mateus 24.32",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Jesus disse que passaria enquanto suas palavras não passariam",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O céu e a terra"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os quatro ventos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os ramos e folhas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os anjos e escolhidos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O céu e a terra",
+          "enderecoNAA": "Mateus 24.35",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus situou estes anúncios logo depois da tribulação daqueles dias.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus situou estes anúncios logo depois da tribulação daqueles dias."
+          },
+          {
+            "id": "P02",
+            "text": "Ele anunciou que o sol escureceria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou que o sol escureceria."
+          },
+          {
+            "id": "P03",
+            "text": "Segundo Jesus, a lua deixaria de dar sua claridade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, a lua deixaria de dar sua claridade."
+          },
+          {
+            "id": "P04",
+            "text": "Ele falou de estrelas caindo e poderes celestes abalados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele falou de estrelas caindo e poderes celestes abalados."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus anunciou o aparecimento do sinal do Filho do Homem no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou o aparecimento do sinal do Filho do Homem no céu."
+          },
+          {
+            "id": "P06",
+            "text": "Ele disse que todos os povos da terra se lamentariam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que todos os povos da terra se lamentariam."
+          },
+          {
+            "id": "P07",
+            "text": "Segundo Jesus, veriam o Filho do Homem vindo sobre as nuvens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, veriam o Filho do Homem vindo sobre as nuvens."
+          },
+          {
+            "id": "P08",
+            "text": "A vinda foi descrita com poder e grande glória.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vinda foi descrita com poder e grande glória."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus disse que enviaria seus anjos com grande som de trombeta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que enviaria seus anjos com grande som de trombeta."
+          },
+          {
+            "id": "P10",
+            "text": "Os anjos reuniriam os escolhidos dos quatro ventos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anjos reuniriam os escolhidos dos quatro ventos."
+          },
+          {
+            "id": "P11",
+            "text": "A reunião foi descrita de uma extremidade dos céus à outra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reunião foi descrita de uma extremidade dos céus à outra."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus mandou aprender a parábola da figueira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou aprender a parábola da figueira."
+          },
+          {
+            "id": "P13",
+            "text": "Ramos renovados e folhas brotando indicam que o verão está próximo na comparação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ramos renovados e folhas brotando indicam que o verão está próximo na comparação."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus aplicou a comparação à percepção de proximidade quando vissem todas essas coisas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus aplicou a comparação à percepção de proximidade quando vissem todas essas coisas."
+          },
+          {
+            "id": "P15",
+            "text": "Ele afirmou que aquela geração não passaria sem que tudo aquilo acontecesse.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que aquela geração não passaria sem que tudo aquilo acontecesse."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus contrastou a passagem do céu e da terra com a permanência de suas palavras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou a passagem do céu e da terra com a permanência de suas palavras."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 24.29-35 registra sinais anunciados por Jesus, a reunião dos escolhidos pelos anjos e a parábola da figueira.",
+        "hinge": "Elementos celestes, nuvens, trombeta e figueira permanecem imagens e anúncios textuais; nenhuma data, identidade histórica ou leitura astronômica é proposta.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.29-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-vigilancia-servos": {
+      "id": "nt2-mateus-vigilancia-servos",
+      "kind": "canonical-case",
+      "title": "Vigilância e os dois servos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 24.36-51",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.36-51",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem conhece o dia e a hora, que comparações Jesus usou e como distinguiu os dois servos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a situação que inicia esta unidade do discurso; os demais distinguem perguntas, advertências e anúncios atribuídos no texto.",
+      "editorial": {
+        "hinge": "Noé, pessoas no campo e moinho, ladrão e servos pertencem às comparações de Jesus; a pauta não cria cronologia, identidade moderna nem sequência harmonizada."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem Jesus disse conhecer aquele dia e hora",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Somente o Pai"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os anjos dos céus"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O Filho sozinho"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O servo encarregado"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Somente o Pai",
+          "enderecoNAA": "Mateus 24.36",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "A que período Jesus comparou a vinda do Filho do Homem",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Aos dias de Noé"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Aos dias dos sete irmãos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ao reinado de César"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "À colheita da vinha"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Aos dias de Noé",
+          "enderecoNAA": "Mateus 24.37-39",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.37-39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que atitude Jesus ordenou por não saberem o dia",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Vigiar"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Buscar uma capa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Descer do terraço"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Calcular os quatro ventos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Vigiar",
+          "enderecoNAA": "Mateus 24.42",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que tarefa o senhor confiou ao servo fiel e prudente",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Dar sustento aos demais servos no tempo devido"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Guardar o templo sozinho"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Anunciar a hora da chegada"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Reunir os escolhidos dos ventos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Dar sustento aos demais servos no tempo devido",
+          "enderecoNAA": "Mateus 24.45",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "24.45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus disse que ninguém conhece o dia e a hora mencionados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que ninguém conhece o dia e a hora mencionados."
+          },
+          {
+            "id": "P02",
+            "text": "Ele incluiu os anjos dos céus e o Filho entre os que não sabem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele incluiu os anjos dos céus e o Filho entre os que não sabem."
+          },
+          {
+            "id": "P03",
+            "text": "Na fala de Jesus, somente o Pai conhece esse momento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala de Jesus, somente o Pai conhece esse momento."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus comparou sua vinda aos dias de Noé.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou sua vinda aos dias de Noé."
+          },
+          {
+            "id": "P05",
+            "text": "Na comparação, antes do dilúvio as pessoas comiam e bebiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, antes do dilúvio as pessoas comiam e bebiam."
+          },
+          {
+            "id": "P06",
+            "text": "Também se casavam e eram dadas em casamento até Noé entrar na arca.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também se casavam e eram dadas em casamento até Noé entrar na arca."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus disse que não perceberam até o dilúvio chegar e levar todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que não perceberam até o dilúvio chegar e levar todos."
+          },
+          {
+            "id": "P08",
+            "text": "Ele repetiu que assim seria a vinda do Filho do Homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele repetiu que assim seria a vinda do Filho do Homem."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus descreveu dois no campo, um levado e outro deixado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus descreveu dois no campo, um levado e outro deixado."
+          },
+          {
+            "id": "P10",
+            "text": "Ele descreveu duas mulheres no moinho, uma levada e outra deixada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele descreveu duas mulheres no moinho, uma levada e outra deixada."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus mandou vigiar porque os ouvintes não sabiam o dia da vinda do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou vigiar porque os ouvintes não sabiam o dia da vinda do Senhor."
+          },
+          {
+            "id": "P12",
+            "text": "Na comparação, o pai de família vigiaria se soubesse a hora do ladrão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, o pai de família vigiaria se soubesse a hora do ladrão."
+          },
+          {
+            "id": "P13",
+            "text": "A vigilância impediria que a casa fosse arrombada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vigilância impediria que a casa fosse arrombada."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus mandou que seus ouvintes estivessem preparados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou que seus ouvintes estivessem preparados."
+          },
+          {
+            "id": "P15",
+            "text": "Ele afirmou que o Filho do Homem viria numa hora não esperada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que o Filho do Homem viria numa hora não esperada."
+          },
+          {
+            "id": "P16",
+            "text": "O servo fiel e prudente foi encarregado de dar sustento aos demais no tempo devido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo fiel e prudente foi encarregado de dar sustento aos demais no tempo devido."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus chamou feliz o servo encontrado cumprindo essa tarefa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou feliz o servo encontrado cumprindo essa tarefa."
+          },
+          {
+            "id": "P18",
+            "text": "Ele disse que o senhor confiaria todos os bens a esse servo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que o senhor confiaria todos os bens a esse servo."
+          },
+          {
+            "id": "P19",
+            "text": "O servo mau diz consigo que seu senhor demora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo mau diz consigo que seu senhor demora."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus o descreveu espancando companheiros e comendo e bebendo com bêbados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus o descreveu espancando companheiros e comendo e bebendo com bêbados."
+          },
+          {
+            "id": "P21",
+            "text": "O senhor desse servo chegaria em dia e hora desconhecidos por ele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor desse servo chegaria em dia e hora desconhecidos por ele."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus anunciou castigo, condenação com hipócritas, choro e ranger de dentes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída ao discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "24.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou castigo, condenação com hipócritas, choro e ranger de dentes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 24.36-51 atribui a Jesus o desconhecimento do momento pelos demais, comparações de vigilância e destinos contrastantes de dois servos.",
+        "hinge": "Noé, pessoas no campo e moinho, ladrão e servos pertencem às comparações de Jesus; a pauta não cria cronologia, identidade moderna nem sequência harmonizada.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "24.36-51",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
