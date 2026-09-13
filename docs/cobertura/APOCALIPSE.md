@@ -10,9 +10,10 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | --- | --- |
 | Ap 2.1-29 | Quatro cartas autoradas individualmente no checkpoint 058; a exclusão agrupada anterior fica supersedida somente para esses recortes. |
 | Ap 3 | `nt2-apocalipse-sardes-vigiar-vestes-livro`, `nt2-apocalipse-filadelfia-porta-coroa-coluna` e `nt2-apocalipse-laodiceia-mornida-conselho-trono`; três cartas autoradas individualmente. |
-| Ap 4–5 | `nt2-apocalipse-trono-cordeiro`, 25 pistas, elegível. |
-| Ap 6 | `nt2-apocalipse-selos`, pauta temática com capacidade 2–6. |
-| Ap 7; 14 | 144 mil preservados sem decidir literalidade; cenas não fundidas por identidade inferida. |
+| Ap 4–5 | `nt2-apocalipse-trono-cordeiro`, 25 pistas, cobertura confirmada individualmente no checkpoint 060. |
+| Ap 6 | `nt2-apocalipse-selos`, 13 pistas e capacidade 2–6; cobertura confirmada no checkpoint 060. |
+| Ap 7 | `nt2-apocalipse-selados-tribos` e `nt2-apocalipse-grande-multidao-trono`; cenas separadas, sem decidir literalidade nem identidade entre grupos. |
+| Ap 14 | 144 mil preservados sem decidir literalidade nem harmonizar com Ap 7. |
 | Ap 8–11 | Trombetas e duas testemunhas preservadas; sem identidades externas; amplitude sem unidade segura. |
 | Ap 12 | `nt2-apocalipse-mulher-dragao`, 25 pistas, elegível; somente o dragão recebe a identificação interna de 12.9. |
 | Ap 13 | `nt2-apocalipse-duas-bestas`, capacidade 2–6, sem identidade atual. |
@@ -22,7 +23,7 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | Ap 20 | `nt2-apocalipse-mil-anos-juizo`, capacidade 2–6, sem escolher sistema cronológico. |
 | Ap 21–22 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
 
-Apocalipse permanece **em autoria** com quinze pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
+Apocalipse permanece **em autoria** com dezessete pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
 
 ## Apocalipse 2 por carta — checkpoint 058
 
@@ -35,3 +36,11 @@ Descrições, ações, advertências e promessas permanecem atribuídas às pró
 A página identificada como NAA de Apocalipse 3 foi obtida com HTTP 200 em 13/09/2026 e os três recortes foram lidos e comparados com as 183 pautas anteriores. Sardes (3.1-6) sustentou 18 pistas, Filadélfia (3.7-13), 20, e Laodiceia (3.14-22), 20; nenhuma pauta anterior cobria essas cartas e nenhuma quarta pauta foi forçada.
 
 As imagens de vida e morte, vestes, porta, coluna, temperatura, compra, colírio e trono permanecem descrições, avaliações, conselhos ou promessas internas. Não foi atribuída identidade histórica, igreja atual, calendário, localização presente ou alegoria externa. Não surgiu ambiguidade real nova para decisão do usuário. **Ap 4–22 permanecem na sequência editorial registrada e a auditoria global dos 27 livros continua pendente; o banco não está completo.**
+
+## Apocalipse 4–7 — checkpoint 060
+
+As páginas NAA identificadas de Ap 4, 5, 6 e 7 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas antes da decisão. A comparação com as oito pautas antigas de Apocalipse e as sete cartas recém-autoradas confirmou que `nt2-apocalipse-trono-cordeiro` já cobre Ap 4–5 com 25 pistas e que `nt2-apocalipse-selos` já cobre Ap 6 com 13; nenhum segundo caso foi criado para trono, Cordeiro, livro, selos ou cavaleiros.
+
+Ap 7 sustentou duas cenas documentais independentes: 7.1-8 originou `nt2-apocalipse-selados-tribos`, com 16 pistas e capacidade 2–7; 7.9-17 originou `nt2-apocalipse-grande-multidao-trono`, com 20 pistas e capacidade 2–9. O número, as tribos e a grande multidão permanecem descrições internas. Não se decide a literalidade dos cento e quarenta e quatro mil, não se igualam os dois grupos e não se harmoniza nenhum deles com Ap 14.
+
+Não surgiu ambiguidade real nova. **Ap 8–22 permanecem especificamente pendentes nesta sequência, ressalvadas as pautas já existentes de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros fica para depois e o banco não está completo.**

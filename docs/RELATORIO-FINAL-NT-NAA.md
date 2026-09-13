@@ -206,3 +206,9 @@ Descrições, ações, advertências, promessas e identificações são internas
 A consulta efetiva da página NAA de Ap 3 e a comparação contra as 183 pautas anteriores sustentaram três pautas independentes: Sardes, 3.1-6, com 18 pistas; Filadélfia, 3.7-13, com 20; e Laodiceia, 3.14-22, com 20. O catálogo passa de 183/3.408 para **186 pautas, 744 campos e 3.466 pistas**, preservando integralmente os objetos anteriores.
 
 As formulações são atributivas e as imagens permanecem descrições, avaliações, ações, conselhos, advertências ou promessas internas. Nenhuma identidade histórica, igreja atual, calendário ou alegoria foi acrescentada, e nenhuma ambiguidade real nova foi encontrada. **Os demais recortes de Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 060 — Apocalipse 4–7
+
+A consulta efetiva de Ap 4–7 confirmou que as pautas existentes de trono/Cordeiro (Ap 4–5) e selos/cavaleiros (Ap 6) já cobrem seus recortes, sem necessidade de duplicação. Duas pautas próprias foram acrescentadas para Ap 7.1-8 e 7.9-17, com 16 e 20 pistas. O catálogo passa a **188 pautas, 752 campos e 3.502 pistas**, preservando os 186 objetos anteriores.
+
+Número, lista de tribos e grande multidão são mantidos como conteúdo da visão, sem literalidade definida, identidade externa, calendário ou harmonização com Ap 14. **Ap 8–22 e a auditoria global permanecem pendentes nos termos registrados; o banco não está completo.**

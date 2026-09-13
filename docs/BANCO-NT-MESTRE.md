@@ -616,3 +616,13 @@ Foram acrescentadas exatamente três pautas e 58 pistas: Sardes com 18, Filadél
 Descrições, avaliações, ordens, advertências, conselhos e promessas foram mantidos como afirmações internas e atributivas. Não foram acrescentadas identidades históricas, igrejas atuais, calendários, localizações presentes ou alegorias. A repetição da fórmula final entre as cartas foi mantida e documentada como conclusão explícita de recortes e destinatários distintos; a auditoria não deixou pares pendentes. Não surgiu ambiguidade real nova para o usuário.
 
 **Os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem para etapas posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 060 — auditoria/autoria limitada a Apocalipse 4–7
+
+A rodada partiu de `29b75ec`, com **186 pautas, 744 campos e 3.466 pistas**. As páginas identificadas como NAA de Ap 4, 5, 6 e 7 em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas antes da comparação editorial.
+
+Ap 4–5 foi fechado como já coberto por `nt2-apocalipse-trono-cordeiro` (25 pistas) e Ap 6 como já coberto por `nt2-apocalipse-selos` (13 pistas); não foram duplicados trono, Cordeiro, livro, selos ou cavaleiros. Ap 7 sustentou somente duas novas pautas: servos marcados e tribos em 7.1-8 (16 pistas, capacidade 2–7) e grande multidão em 7.9-17 (20 pistas, capacidade 2–9). O inventário passa a **188 pautas, 752 campos e 3.502 pistas**.
+
+Os 186 objetos e as 3.466 pistas anteriores permaneceram integralmente idênticos. C1–C4, quatro alternativas, gabaritos, foco justificado, 8/5/3/2, metadados, revelação, duas cartas por jogador e poço foram preservados. A lista de tribos gerou somente repetições estruturais resolvidas e fundamentadas; não restaram pares pendentes. O número de cento e quarenta e quatro mil e a grande multidão são descrições internas: não se decide literalidade, identidade externa ou equivalência entre grupos e não se harmoniza Ap 7 com Ap 14.
+
+**Ap 8–22 permanecem especificamente pendentes, ressalvados os recortes já autorados de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros continua posterior e o banco não está completo.** Não houve `main`, merge, deploy, publicação, Firebase ou credenciais.

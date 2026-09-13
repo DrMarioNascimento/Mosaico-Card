@@ -373,3 +373,15 @@ A decisão agrupada anterior de ausência de pauta para Ap 2–3 fica supersedid
 | Ap 3.14-22 | NAA, HTTP 200; mornidão, autodescrição, conselho, disciplina, porta e trono mantidos como avaliações, ações e promessas internas. | `nt2-apocalipse-laodiceia-mornida-conselho-trono`, 20 pistas, capacidade 2–9. |
 
 A comparação não encontrou cobertura anterior desses recortes, e as 183 pautas anteriores permaneceram idênticas. A fórmula “ouça o que o Espírito diz às igrejas” pertence explicitamente a cada carta; sua repetição documental foi resolvida na auditoria sem fundir destinatários. Não surgiu ambiguidade real nova. Os demais recortes de Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.
+
+## Checkpoint 060 — decisões individuais em Apocalipse 4–7
+
+| Recorte | Consulta, comparação e decisão | Resultado individual |
+| --- | --- | --- |
+| Ap 4 | NAA, HTTP 200; porta, trono, anciãos, seres viventes e adoração comparados pista a pista com a pauta existente. | Fechado em `nt2-apocalipse-trono-cordeiro`; nenhuma pauta duplicada. |
+| Ap 5 | NAA, HTTP 200; livro, selos, Cordeiro, seres viventes, anciãos e cânticos já integram a mesma pauta existente. | Fechado em `nt2-apocalipse-trono-cordeiro`, 25 pistas no conjunto Ap 4–5. |
+| Ap 6 | NAA, HTTP 200; seis selos, cavaleiros, altar e reação final já estão delimitados na pauta temática existente. | Fechado em `nt2-apocalipse-selos`, 13 pistas, capacidade 2–6. |
+| Ap 7.1-8 | NAA, HTTP 200; anjos, ventos, selo, número ouvido e lista de tribos tratados somente como elementos da visão. | `nt2-apocalipse-selados-tribos`, 16 pistas, capacidade 2–7. |
+| Ap 7.9-17 | NAA, HTTP 200; multidão, adoração, resposta do ancião, serviço e cuidado tratados somente pela identificação interna. | `nt2-apocalipse-grande-multidao-trono`, 20 pistas, capacidade 2–9. |
+
+Nenhuma literalidade foi escolhida para os cento e quarenta e quatro mil; os grupos de Ap 7 não foram igualados entre si nem ao grupo de Ap 14. Não surgiram identidades externas, calendário ou ambiguidade real nova. Ap 8–22 continua pendente nos recortes ainda sem auditoria individual, preservadas as pautas já existentes; o banco não está completo.

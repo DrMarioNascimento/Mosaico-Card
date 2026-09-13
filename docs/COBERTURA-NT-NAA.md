@@ -136,3 +136,9 @@ Jezabel e nicolaítas permanecem somente como apresentados no texto; não foram 
 A página NAA identificada de Ap 3 retornou HTTP 200 em 13/09/2026. A leitura e autoria exclusivas das cartas a Sardes, Filadélfia e Laodiceia acrescentaram três pautas e 58 pistas, elevando o inventário de 183/3.408 para **186 pautas, 744 campos e 3.466 pistas**. Os 183 objetos anteriores foram preservados mecanicamente.
 
 Descrições, ordens, advertências, conselhos e promessas permanecem internos às cartas; não se acrescentaram identidades históricas, igrejas atuais, calendários, localizações presentes ou alegorias. **Os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 060 — auditoria/autoria de Apocalipse 4–7
+
+As quatro páginas NAA retornaram HTTP 200 em 13/09/2026. A leitura e comparação fecharam Ap 4–5 em `nt2-apocalipse-trono-cordeiro` e Ap 6 em `nt2-apocalipse-selos`, sem duplicação. Ap 7.1-8 e 7.9-17 acrescentaram duas pautas e 36 pistas, levando o inventário de 186/3.466 para **188 pautas, 752 campos e 3.502 pistas**, com preservação integral dos 186 objetos anteriores.
+
+Os cento e quarenta e quatro mil, as tribos e a grande multidão permanecem descrições internas; não há decisão de literalidade, identidade externa ou harmonização com Ap 14. **Ap 8–22 segue pendente nos recortes ainda não auditados individualmente, e a auditoria global dos 27 livros fica para depois; o banco não está completo.**

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-059",
+  "catalogVersion": "2026-09-13-checkpoint-060",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 186,
-    "fields": 744,
-    "editoriallyEligibleCases": 186,
-    "playableCases": 186,
+    "cases": 188,
+    "fields": 752,
+    "editoriallyEligibleCases": 188,
+    "playableCases": 188,
     "max12Cases": 67
   },
   "order": [
@@ -202,7 +202,9 @@
     "nt2-apocalipse-tiatira-obras-jezabel-conservar",
     "nt2-apocalipse-sardes-vigiar-vestes-livro",
     "nt2-apocalipse-filadelfia-porta-coroa-coluna",
-    "nt2-apocalipse-laodiceia-mornida-conselho-trono"
+    "nt2-apocalipse-laodiceia-mornida-conselho-trono",
+    "nt2-apocalipse-selados-tribos",
+    "nt2-apocalipse-grande-multidao-trono"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -126189,6 +126191,1320 @@
             "passage": "3.14-22",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-selados-tribos": {
+      "id": "nt2-apocalipse-selados-tribos",
+      "kind": "canonical-case",
+      "title": "Os servos marcados com o selo",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 7.1-8",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "7.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a primeira visão de Apocalipse 7, quem retém os ventos, que ordem é dada e como o grupo marcado é enumerado?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A ordem de não causar dano antes da marcação organiza a ação dos anjos e conduz diretamente à enumeração ouvida pelo vidente.",
+      "editorial": {
+        "hinge": "O número e a lista são relatados como conteúdo da visão; a pauta não decide sua literalidade nem identifica o grupo com Apocalipse 14 ou com qualquer comunidade externa."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem foi dada antes da marcação dos servos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Não danificar terra, mar ou árvores"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Soltar imediatamente os quatro ventos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Abrir o sétimo selo diante das tribos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Reunir as nações no santuário"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Não danificar terra, mar ou árvores",
+          "enderecoNAA": "Apocalipse 7.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem segurava os ventos da terra",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Quatro anjos nos quatro cantos da terra"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Vinte e quatro anciãos diante do altar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Quatro cavaleiros junto ao Cordeiro"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma multidão com ramos de palmeira"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Quatro anjos nos quatro cantos da terra",
+          "enderecoNAA": "Apocalipse 7.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que trazia o anjo que subia do nascente",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O selo do Deus vivo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Uma balança e um denário"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um livro aberto sem selos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma veste e uma coroa brancas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O selo do Deus vivo",
+          "enderecoNAA": "Apocalipse 7.2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que número o vidente ouviu para os marcados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Cento e quarenta e quatro mil, das tribos dos filhos de Israel"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Uma multidão que ninguém podia contar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Vinte e quatro mil de quatro povos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sete mil de uma única tribo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Cento e quarenta e quatro mil, das tribos dos filhos de Israel",
+          "enderecoNAA": "Apocalipse 7.4-8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.4-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Quatro anjos foram vistos nos quatro cantos da terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quatro anjos foram vistos nos quatro cantos da terra."
+          },
+          {
+            "id": "P02",
+            "text": "Eles seguravam os quatro ventos da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles seguravam os quatro ventos da terra."
+          },
+          {
+            "id": "P03",
+            "text": "Nenhum vento deveria soprar sobre terra, mar ou árvore.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nenhum vento deveria soprar sobre terra, mar ou árvore."
+          },
+          {
+            "id": "P04",
+            "text": "Outro anjo subia do nascente do sol.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo subia do nascente do sol."
+          },
+          {
+            "id": "P05",
+            "text": "Esse anjo tinha o selo do Deus vivo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse anjo tinha o selo do Deus vivo."
+          },
+          {
+            "id": "P06",
+            "text": "Ele gritou com voz forte aos quatro anjos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele gritou com voz forte aos quatro anjos."
+          },
+          {
+            "id": "P07",
+            "text": "Os quatro haviam recebido poder para causar dano à terra e ao mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os quatro haviam recebido poder para causar dano à terra e ao mar."
+          },
+          {
+            "id": "P08",
+            "text": "A terra, o mar e as árvores não deveriam ser danificados antes da marcação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terra, o mar e as árvores não deveriam ser danificados antes da marcação."
+          },
+          {
+            "id": "P09",
+            "text": "A marcação com selo ocorreria na testa dos servos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A marcação com selo ocorreria na testa dos servos de Deus."
+          },
+          {
+            "id": "P10",
+            "text": "O vidente ouviu o número dos marcados com selo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente ouviu o número dos marcados com selo."
+          },
+          {
+            "id": "P11",
+            "text": "O número ouvido foi cento e quarenta e quatro mil.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O número ouvido foi cento e quarenta e quatro mil."
+          },
+          {
+            "id": "P12",
+            "text": "O grupo é apresentado como procedente das tribos dos filhos de Israel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grupo é apresentado como procedente das tribos dos filhos de Israel."
+          },
+          {
+            "id": "P13",
+            "text": "Judá, Rúben e Gade aparecem na enumeração com doze mil cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judá, Rúben e Gade aparecem na enumeração com doze mil cada."
+          },
+          {
+            "id": "P14",
+            "text": "Aser, Naftali e Manassés aparecem na enumeração com doze mil cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aser, Naftali e Manassés aparecem na enumeração com doze mil cada."
+          },
+          {
+            "id": "P15",
+            "text": "Simeão, Levi e Issacar aparecem na enumeração com doze mil cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simeão, Levi e Issacar aparecem na enumeração com doze mil cada."
+          },
+          {
+            "id": "P16",
+            "text": "Zebulom, José e Benjamim encerram a enumeração com doze mil cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Zebulom, José e Benjamim encerram a enumeração com doze mil cada."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A visão mostra quatro anjos retendo os ventos, outro anjo com o selo do Deus vivo proibindo dano antes da marcação e o número ouvido de cento e quarenta e quatro mil, enumerado por doze tribos.",
+        "hinge": "O número e a lista são relatados como conteúdo da visão; a pauta não decide sua literalidade nem identifica o grupo com Apocalipse 14 ou com qualquer comunidade externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "7.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-grande-multidao-trono": {
+      "id": "nt2-apocalipse-grande-multidao-trono",
+      "kind": "canonical-case",
+      "title": "A grande multidão diante do trono",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 7.9-17",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "7.9-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a segunda visão de Apocalipse 7, como a grande multidão é descrita, de onde o ancião diz que ela vem e quais cuidados lhe são prometidos?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A identificação dada pelo ancião liga as vestes da multidão à grande tribulação e sustenta sua posição e seu serviço diante do trono.",
+      "editorial": {
+        "hinge": "A multidão recebe somente as identificações internas de Apocalipse 7; não é igualada aos cento e quarenta e quatro mil, ao grupo de Apocalipse 14 ou a qualquer povo ou igreja atual."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De onde o ancião diz que vêm os vestidos de branco",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Da grande tribulação"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Dos quatro cantos com os ventos soltos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Da abertura do livro de sete selos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Da cidade identificada por uma instituição atual"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Da grande tribulação",
+          "enderecoNAA": "Apocalipse 7.13-14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.13-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como a multidão é inicialmente descrita",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Incontável, de todas as nações, tribos, povos e línguas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Numerada por tribos em grupos de doze mil"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Composta somente pelos vinte e quatro anciãos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Formada pelos quatro anjos dos ventos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Incontável, de todas as nações, tribos, povos e línguas",
+          "enderecoNAA": "Apocalipse 7.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que a multidão faz diante do trono",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Adora a Deus de dia e de noite no santuário"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Mede o santuário e fecha sua porta"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Entrega coroas aos quatro cavaleiros"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Conta as tribos para abrir os selos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Adora a Deus de dia e de noite no santuário",
+          "enderecoNAA": "Apocalipse 7.15",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como termina a promessa de cuidado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Cordeiro os apascenta e guia, e Deus enxuga toda lágrima"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O sol aumenta o calor e a sede"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os anjos devolvem os ventos à multidão"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O ancião apaga seus nomes do livro"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Cordeiro os apascenta e guia, e Deus enxuga toda lágrima",
+          "enderecoNAA": "Apocalipse 7.16-17",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "7.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Depois da primeira cena, o vidente observou uma grande multidão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da primeira cena, o vidente observou uma grande multidão."
+          },
+          {
+            "id": "P02",
+            "text": "Ninguém podia contar essa multidão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém podia contar essa multidão."
+          },
+          {
+            "id": "P03",
+            "text": "Ela procedia de todas as nações, tribos, povos e línguas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela procedia de todas as nações, tribos, povos e línguas."
+          },
+          {
+            "id": "P04",
+            "text": "A multidão estava diante do trono e do Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão estava diante do trono e do Cordeiro."
+          },
+          {
+            "id": "P05",
+            "text": "Seus integrantes vestiam roupas brancas e seguravam ramos de palmeira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seus integrantes vestiam roupas brancas e seguravam ramos de palmeira."
+          },
+          {
+            "id": "P06",
+            "text": "Eles atribuíam a salvação a Deus no trono e ao Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles atribuíam a salvação a Deus no trono e ao Cordeiro."
+          },
+          {
+            "id": "P07",
+            "text": "Anjos rodeavam o trono, os anciãos e os quatro seres viventes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Anjos rodeavam o trono, os anciãos e os quatro seres viventes."
+          },
+          {
+            "id": "P08",
+            "text": "Os anjos se prostraram e adoraram a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anjos se prostraram e adoraram a Deus."
+          },
+          {
+            "id": "P09",
+            "text": "O louvor citado reúne glória, sabedoria, gratidão, honra, poder e força.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O louvor citado reúne glória, sabedoria, gratidão, honra, poder e força."
+          },
+          {
+            "id": "P10",
+            "text": "Um ancião perguntou quem eram os vestidos de branco e de onde tinham vindo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um ancião perguntou quem eram os vestidos de branco e de onde tinham vindo."
+          },
+          {
+            "id": "P11",
+            "text": "O vidente respondeu ao ancião que ele sabia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente respondeu ao ancião que ele sabia."
+          },
+          {
+            "id": "P12",
+            "text": "O ancião os identificou como os que vêm da grande tribulação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ancião os identificou como os que vêm da grande tribulação."
+          },
+          {
+            "id": "P13",
+            "text": "Suas vestes foram lavadas e alvejadas no sangue do Cordeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas vestes foram lavadas e alvejadas no sangue do Cordeiro."
+          },
+          {
+            "id": "P14",
+            "text": "Eles permanecem diante do trono de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles permanecem diante do trono de Deus."
+          },
+          {
+            "id": "P15",
+            "text": "Ali adoram a Deus de dia e de noite no santuário.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali adoram a Deus de dia e de noite no santuário."
+          },
+          {
+            "id": "P16",
+            "text": "Aquele que está no trono estenderá seu tabernáculo sobre eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aquele que está no trono estenderá seu tabernáculo sobre eles."
+          },
+          {
+            "id": "P17",
+            "text": "A promessa afirma que não terão mais fome nem sede.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa afirma que não terão mais fome nem sede."
+          },
+          {
+            "id": "P18",
+            "text": "O sol e o calor forte não cairão sobre eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sol e o calor forte não cairão sobre eles."
+          },
+          {
+            "id": "P19",
+            "text": "O Cordeiro no meio do trono os apascentará e guiará às fontes da água da vida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Cordeiro no meio do trono os apascentará e guiará às fontes da água da vida."
+          },
+          {
+            "id": "P20",
+            "text": "Deus enxugará dos olhos deles toda lágrima.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída à visão de Apocalipse 7",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus enxugará dos olhos deles toda lágrima."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A visão apresenta uma multidão incontável e diversa diante do trono e do Cordeiro; o ancião a associa à grande tribulação, e são descritos seu serviço, abrigo, ausência de fome e sede, pastoreio e consolo.",
+        "hinge": "A multidão recebe somente as identificações internas de Apocalipse 7; não é igualada aos cento e quarenta e quatro mil, ao grupo de Apocalipse 14 ou a qualquer povo ou igreja atual.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "7.9-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
