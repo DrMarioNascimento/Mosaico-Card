@@ -25,11 +25,11 @@
 | Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado/elegível | pauta temática liberada; AT não importado |
 | Tiago | Analisado — decisões por recorte | capítulos 1–5 | 1 autorado | exemplos/metáforas não inflados |
 | 1 Pedro | Autoria autorizada encerrada — checkpoint 054 | capítulos 1–5 | 7 autorados | 1Pe 3.19 e 4.6 fora; 5.13 comunitário, sem geografia nem equivalência lexical |
-| 2 Pedro | Em autoria — checkpoint 054 | capítulos 1–3 | 1 autorado | somente 1.1-15 nesta rodada; alusões não completadas |
-| 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 mantido sem identificar o pecado |
-| 2 João | Analisado — carta integral | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
-| 3 João | Analisado — carta integral reavaliada | 1 carta | 1 autorado | pauta factual 2–6 |
-| Judas | Analisado — carta integral | 1 carta | 0 | alusões não completadas |
+| 2 Pedro | Autoria autorizada encerrada — checkpoint 054 | capítulos 1–3 | 1 autorado | somente 1.1-15 nesta rodada; alusões não completadas |
+| 1 João | Autoria autorizada encerrada — checkpoint 056 | capítulos 1–5 | 8 autorados | 1Jo 5.16-17 mantido sem identificar o pecado |
+| 2 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
+| 3 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | pauta factual 2–6 |
+| Judas | Auditoria/autoria encerrada — checkpoint 057 | 1 carta em 3 blocos | 3 autorados | alusões não completadas |
 | Apocalipse | Analisado — recortes reavaliados | capítulos 1–22 | 8 autorados | demais recortes sem dente/unidade; sem identidades externas |
 
 ## Critério de atualização
@@ -118,3 +118,9 @@ A leitura exclusiva das páginas NAA de 1Jo 1–3 acrescentou quatro pautas e 10
 A consulta e leitura exclusivas das páginas NAA de 1Jo 4–5 acrescentaram quatro pautas e 88 pistas: 4.1-6, 4.7-21, 5.1-12 e 5.13-21. Os 172 objetos e as 3.190 pistas anteriores foram preservados mecanicamente. O inventário chega a **176 pautas, 704 campos e 3.278 pistas**.
 
 1Jo 5.16-17 permanece textual, sem identificar o pecado que leva à morte; os espíritos e o espírito do anticristo não receberam identidades externas. **Demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 057 — fechamento individual de 2–3 João e Judas
+
+A consulta efetiva e individual das três páginas NAA retornou HTTP 200 em 13/09/2026. A comparação com a cobertura existente confirmou que `nt2-2joao-verdade-hospitalidade` (9 pistas) e `nt2-3joao-gaio-diotrefes-demetrio` (13 pistas) já cobrem os fatos aproveitáveis dessas cartas; nenhum fato ou recorte foi duplicado. Em 2 João, “senhora eleita” permanece designação textual, e Igreja/comunidade cristã permanece interpretação aprovada, sem identidade lexical explícita, necessidade de comunidade local ou uso como novo gabarito.
+
+Judas foi delimitado em três blocos coerentes: 1-7 (18 pistas), 8-16 (20) e 17-25 (20). Moisés, Miguel e Enoque aparecem apenas no que Judas declara; notas, narrativas externas, identidades atuais e calendários não foram importados. O inventário passa a **179 pautas, 716 campos e 3.336 pistas**, com preservação integral dos 176 objetos e das 3.278 pistas anteriores. **Apocalipse e a auditoria global dos 27 livros permanecem para etapas posteriores; o banco não está completo.**

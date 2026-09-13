@@ -5,3 +5,7 @@ A única página NAA foi baixada e lida integralmente em 12/09/2026 no lote entr
 ## Auditoria individual — checkpoint 034
 
 3Jo 1-15 nt2-3joao-gaio-diotrefes-demetrio. As exclusões genéricas anteriores ficam supersedidas para esses recortes; os demais candidatos estão enumerados em `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`.
+
+## Fechamento de auditoria/autoria — checkpoint 057
+
+A carta foi novamente obtida da NAA com HTTP 200 em 13/09/2026 e comparada integralmente com `nt2-3joao-gaio-diotrefes-demetrio`. As treze pistas já cobrem os núcleos aproveitáveis de Gaio, Diótrefes, Demétrio e da conversa planejada; não se criou pauta, recorte ou fato duplicado. Auditoria/autoria encerrada nesta sequência.

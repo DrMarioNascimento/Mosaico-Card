@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 176);
+assert.equal(catalog.summary.editoriallyEligibleCases, 179);
 assert.equal(catalog.summary.max12Cases, 67);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -226,6 +226,17 @@ for (const [id, maxPlayers] of Object.entries(auditoria1Joao056)) {
 }
 assert.match(catalog.byId["nt2-1joao-provar-espiritos-verdade-erro"].reveal.hinge, /nenhuma identidade pessoal, institucional ou histórica externa/);
 assert.match(catalog.byId["nt2-1joao-confianca-oracao-pecado-conhecimento"].reveal.hinge, /não identifica qual pecado leva à morte/);
+const auditoriaJudas057 = {
+  "nt2-judas-chamado-fe-exemplos": 8,
+  "nt2-judas-falsos-mestres-contrastes": 9,
+  "nt2-judas-memoria-perseveranca-doxologia": 9
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaJudas057)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Judas")), `${id} mantém fonte exclusiva em Judas`);
+}
+assert.match(catalog.byId["nt2-judas-falsos-mestres-contrastes"].reveal.hinge, /não reconstrói episódios/);
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

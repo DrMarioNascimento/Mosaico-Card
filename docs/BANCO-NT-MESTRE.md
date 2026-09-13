@@ -590,3 +590,11 @@ Quatro blocos coerentes foram incorporados: 1Jo 4.1-6 (19 pistas), 1Jo 4.7-21 (2
 As perguntas e pistas são atributivas. Espíritos, falsos profetas e espírito do anticristo ficaram limitados às descrições internas de 1Jo 4, sem identidades externas ou harmonização. Em 1Jo 5.16-17 foram mantidas somente as afirmações de que há pecado que leva à morte, há pecado que não leva à morte e toda injustiça é pecado; nenhuma identidade foi atribuída ao pecado que leva à morte.
 
 A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por participante e ao menos uma no poço. **Os demais recortes de João, Judas, Apocalipse e a auditoria global permanecem para uma nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy ou publicação.
+
+## Checkpoint 057 — fechamento de 2–3 João e autoria de Judas
+
+A base `8200c202dfdea872e38e85561db3dafe627a2dc0` foi confirmada com **176 pautas e 3.278 pistas**. Em 13/09/2026, as páginas de 2 João, 3 João e Judas identificadas como NAA em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da decisão editorial. A comparação de cobertura encerrou 2 João e 3 João sem nova pauta: os fatos aproveitáveis já constavam de seus objetos existentes, que não foram duplicados.
+
+Judas sustentou três blocos: 1-7 com 18 pistas, 8-16 com 20 e 17-25 com 20. O catálogo passa a **179 pautas, 716 campos e 3.336 pistas**. As 176 pautas e 3.278 pistas anteriores permanecem serializadamente idênticas. As novas pautas mantêm C1–C4, quatro alternativas, gabaritos, focal justificado, metadados, revelação e 8/5/3/2; as capacidades são 8, 9 e 9, derivadas por `min(12, floor((cartas - 1) / 2))`.
+
+Em 2 João, a senhora eleita conserva a interpretação aprovada de Igreja/comunidade cristã sem ser apresentada como identidade textual explícita ou necessariamente local. Em Judas, nenhuma nota ou fonte externa completa Moisés, Miguel, Enoque, alusões ou identidades atuais. **Apocalipse e a auditoria global dos 27 livros ficam para depois; o banco não está completo.** Não houve main, merge, deploy, publicação, Firebase ou credenciais.

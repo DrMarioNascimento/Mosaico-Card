@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-056",
+  "catalogVersion": "2026-09-13-checkpoint-057",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -108389,6 +108389,1886 @@
             "passage": "5.13-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/1JN.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-judas-chamado-fe-exemplos",
+      "title": "Chamado, fé recebida e exemplos de juízo",
+      "generalReferences": [
+        {
+          "book": "Judas",
+          "passage": "1-7",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo Judas 1-7, como a carta apresenta remetente e destinatários, explica sua exortação e relembra exemplos de juízo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A infiltração de pessoas ímpias explica textualmente por que a carta troca o tema inicialmente pretendido pela exortação a lutar pela fé.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Como Judas se apresenta",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Servo de Jesus Cristo e irmão de Tiago"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Apóstolo dos gentios e irmão de Paulo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Presbítero e pai de Tiago"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Profeta enviado pela igreja"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Pelo que os destinatários são exortados a lutar",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Pela fé entregue aos santos de uma vez por todas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Por uma revelação mantida em segredo"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Por uma posição entre os mestres"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Por costumes recebidos do Egito"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que certos indivíduos faziam com a graça de Deus",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Transformavam-na em libertinagem"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Guardavam-na somente para os anjos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Usavam-na para promover a paz"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Apresentavam-na como recompensa política"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que aconteceu aos anjos que abandonaram seu próprio lugar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Foram guardados sob trevas para o juízo do grande Dia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Receberam imediatamente um novo estado"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Passaram a conduzir o povo do Egito"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Foram enviados para advertir as cidades"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O remetente se chama Judas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele se apresenta como servo de Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Judas também se apresenta como irmão de Tiago.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Os destinatários são descritos como chamados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Eles são amados em Deus Pai e guardados em Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Judas pretendia escrever sobre a salvação que tinham em comum.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Ele considerou necessário escrever uma exortação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "A exortação manda lutar pela fé.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A fé é descrita como entregue aos santos de uma vez por todas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Certos indivíduos haviam se infiltrado sem serem notados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A carta qualifica esses indivíduos como ímpios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Eles transformavam a graça de Deus em libertinagem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Eles negavam o único Soberano e Senhor, Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Depois de tirar um povo do Egito, Jesus destruiu os que não creram.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Os anjos mencionados não guardaram seu estado original.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Esses anjos abandonaram seu próprio lugar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Eles são guardados sob trevas, em algemas eternas, para o juízo do grande Dia.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Sodoma, Gomorra e cidades vizinhas são apresentadas como exemplo de castigo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Judas 1-7 apresenta o remetente e os chamados, exorta à luta pela fé por causa de infiltrados ímpios e relembra exemplos de juízo.",
+        "hinge": "Os exemplos ficam estritamente como Judas os formula; nenhuma narrativa, cronologia ou identidade é completada por notas ou outras fontes.",
+        "references": [
+          {
+            "book": "Judas",
+            "passage": "1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-judas-falsos-mestres-contrastes",
+      "title": "Falsos mestres, contraste de Miguel e denúncia",
+      "generalReferences": [
+        {
+          "book": "Judas",
+          "passage": "8-16",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo Judas 8-16, como a carta descreve a conduta dos falsos mestres, o contraste com Miguel, suas comparações e o juízo anunciado?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A recusa de Miguel em proferir sentença difamatória fornece o contraste central com aqueles que insultavam o que não entendiam.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Como os sonhadores tratavam autoridade e seres celestiais",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rejeitavam a autoridade e insultavam os gloriosos seres celestiais"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Submetiam toda afirmação aos apóstolos"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Evitavam falar do que não entendiam"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Guardavam silêncio diante de toda autoridade"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que Miguel disse no conflito mencionado pela carta",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "O Senhor repreenda você!"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Eu mesmo pronuncio sua condenação"
+            },
+            {
+              "id": "C2-O3",
+              "text": "O corpo pertence aos anjos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Moisés voltará para julgar você"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "A que os falsos mestres são comparados nas festas de fraternidade",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "A rochas submersas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "A portões bem guardados"
+            },
+            {
+              "id": "C3-O3",
+              "text": "A fontes de água abundante"
+            },
+            {
+              "id": "C3-O4",
+              "text": "A lâmpadas sobre um suporte"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que a profecia reproduzida anuncia que o Senhor fará",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Virá com milhares de seus santos para exercer juízo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Ocultará para sempre todas as obras"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Entregará autoridade aos murmuradores"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Evitará convencer os que falam contra ele"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os homens denunciados são chamados de sonhadores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Eles contaminavam a carne.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Eles rejeitavam a autoridade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Eles insultavam os gloriosos seres celestiais.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A carta chama Miguel de arcanjo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Miguel entrou em conflito com o diabo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A discussão mencionada dizia respeito ao corpo de Moisés.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Miguel não ousou proferir sentença difamatória contra o diabo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Em vez disso, Miguel atribuiu ao Senhor a repreensão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Os denunciados difamavam aquilo que não entendiam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A carta afirma que eles seguiram o caminho de Caim.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Ela também os associa ao erro de Balaão e à revolta de Corá.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Nas festas de fraternidade, eles são comparados a rochas submersas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Eles se banqueteavam sem receio e apascentavam a si mesmos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Também são comparados a nuvens sem água e árvores sem frutos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A carta apresenta Enoque como o sétimo depois de Adão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "A profecia reproduzida anuncia a vinda do Senhor com milhares de seus santos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A finalidade anunciada é exercer juízo e convencer os ímpios de suas obras e palavras.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Os denunciados são descritos como murmuradores e descontentes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Eles adulavam outras pessoas por motivos interesseiros.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Judas 8-16 contrapõe a difamação dos falsos mestres à conduta de Miguel, acumula comparações sobre esses homens e reproduz um anúncio de juízo.",
+        "hinge": "Miguel, Moisés e Enoque aparecem somente nas afirmações internas de Judas; a pauta não adota a nota da página, não reconstrói episódios e não propõe identidades atuais.",
+        "references": [
+          {
+            "book": "Judas",
+            "passage": "8-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-judas-memoria-perseveranca-doxologia",
+      "title": "Memória, perseverança, cuidado e doxologia",
+      "generalReferences": [
+        {
+          "book": "Judas",
+          "passage": "17-25",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo Judas 17-25, do que os amados devem lembrar, como devem perseverar e cuidar de outros, e o que a doxologia declara?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A sequência de edificação, oração, permanência e esperança forma o núcleo positivo pelo qual a carta orienta seus destinatários.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "De quais palavras os amados deveriam se lembrar",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Das palavras anteriormente proferidas pelos apóstolos de Jesus Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Das decisões secretas dos falsos mestres"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Das histórias ampliadas pelas notas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Das palavras de um governante não identificado"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como os amados deveriam se manter no amor de Deus",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Edificando-se na fé, orando no Espírito e esperando a misericórdia de Jesus Cristo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Isolando-se de toda pessoa em dúvida"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Procurando uma data para o juízo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Adotando os instintos dos zombadores"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "20-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como tratar alguns que estavam em dúvida",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ter compaixão deles"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Expulsá-los imediatamente"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ignorá-los até o grande Dia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Entregá-los aos zombadores"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que Deus é poderoso para fazer pelos destinatários",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Evitar que tropecem e apresentá-los irrepreensíveis diante de sua glória"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Revelar a identidade atual dos falsos mestres"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Eliminar a necessidade de perseverança"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Entregar-lhes autoridade sobre os apóstolos"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Judas",
+              "passage": "24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os amados recebem a ordem de lembrar palavras ditas anteriormente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Essas palavras foram proferidas pelos apóstolos de Jesus Cristo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Os apóstolos haviam anunciado zombadores nos últimos tempos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Os zombadores andariam segundo suas paixões ímpias.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A carta diz que essas pessoas promoviam divisões.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Elas seguiam seus próprios instintos e não tinham o Espírito.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Os amados deveriam edificar-se na fé santíssima que tinham.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Eles também deveriam orar no Espírito Santo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A carta manda que se mantenham no amor de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Ao mesmo tempo, deveriam esperar a misericórdia de Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Essa misericórdia é descrita como conduzindo à vida eterna.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "A orientação para alguns que estavam em dúvida era ter compaixão.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Outros deveriam ser salvos, sendo arrebatados do fogo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Quanto a outros, a compaixão deveria vir acompanhada de temor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "A carta manda detestar até a roupa contaminada pela carne.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Deus é apresentado como poderoso para evitar que os destinatários tropecem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Ele pode apresentá-los irrepreensíveis diante de sua glória, com grande alegria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A doxologia chama Deus de único Deus e Salvador.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "A salvação é expressa mediante Jesus Cristo, Senhor dos destinatários.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Glória, majestade, poder e autoridade são atribuídos a Deus por toda a eternidade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Judas",
+              "passage": "25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Judas 17-25 manda lembrar a palavra dos apóstolos, perseverar na fé e no amor de Deus, cuidar de pessoas em situações distintas e louvar o Deus poderoso para guardar.",
+        "hinge": "As perguntas mantêm cada orientação atribuída à carta e não convertem “últimos tempos”, fogo ou grupos de pessoas em calendário ou identidades externas.",
+        "references": [
+          {
+            "book": "Judas",
+            "passage": "17-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

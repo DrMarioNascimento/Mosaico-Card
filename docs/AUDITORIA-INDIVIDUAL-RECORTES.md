@@ -340,3 +340,15 @@ O lote encerra nesses quatro blocos, sem forçar o limite de cinco. Não foi enc
 | 1Jo 5.13-21 | NAA, HTTP 200; vida eterna, oração, pecado, certezas finais e ídolos; 5.16-17 não recebeu identificação do pecado que leva à morte. | `nt2-1joao-confianca-oracao-pecado-conhecimento`, 21 pistas, capacidade 2–10. |
 
 Os quatro blocos esgotam o lote autorizado sem ampliar seu escopo. Não surgiu ambiguidade real nova. Os pares lexicais sinalizados preservam contrastes explícitos e receberam resoluções individuais. **Demais João, Judas, Apocalipse e auditoria global continuam pendentes; o banco não está completo.**
+
+## Checkpoint 057 — 2 João, 3 João e Judas
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 2Jo 1-13 | NAA, HTTP 200; comparação integral com a pauta existente. Presbítero, senhora eleita, verdade, amor, enganadores, hospitalidade e visita já estavam cobertos sem lacuna independente. | Fechamento fundamentado: `nt2-2joao-verdade-hospitalidade`, 9 pistas, capacidade 2–4; nenhuma duplicação. |
+| 3Jo 1-15 | NAA, HTTP 200; comparação integral com a pauta existente. Gaio, Diótrefes, Demétrio e plano de conversa já estavam cobertos sem lacuna independente. | Fechamento fundamentado: `nt2-3joao-gaio-diotrefes-demetrio`, 13 pistas, capacidade 2–6; nenhuma duplicação. |
+| Jd 1-7 | Remetente e destinatários; mudança de propósito da carta; luta pela fé; infiltrados; exemplos de juízo estritamente como citados. | `nt2-judas-chamado-fe-exemplos`, 18 pistas, capacidade 2–8. |
+| Jd 8-16 | Conduta denunciada; contraste de Miguel; comparações; anúncio atribuído a Enoque, sem completar qualquer episódio. | `nt2-judas-falsos-mestres-contrastes`, 20 pistas, capacidade 2–9. |
+| Jd 17-25 | Palavra dos apóstolos; perseverança; cuidado diferenciado; doxologia. | `nt2-judas-memoria-perseveranca-doxologia`, 20 pistas, capacidade 2–9. |
+
+O lote acrescenta somente as três pautas de Judas e encerra a auditoria/autoria solicitada de 2 João, 3 João e Judas. Não surgiu ambiguidade real nova. Moisés, Miguel e Enoque não receberam informações externas nem identidades atuais. **Apocalipse e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**

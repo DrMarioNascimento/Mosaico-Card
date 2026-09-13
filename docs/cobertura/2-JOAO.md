@@ -8,3 +8,7 @@ Amor, enganadores, hospitalidade e plano de visita são informações válidas, 
 ## Reavaliação temática — checkpoint 032
 
 A carta originou `nt2-2joao-verdade-hospitalidade`, com nove fatos e capacidade 2–4. O gabarito usa a designação textual “senhora eleita”; a interpretação comunitária permanece separada como decisão do usuário.
+
+## Fechamento de auditoria/autoria — checkpoint 057
+
+A carta foi novamente obtida da NAA com HTTP 200 em 13/09/2026 e comparada integralmente com `nt2-2joao-verdade-hospitalidade`. Os fatos aproveitáveis já estavam cobertos pelas nove pistas; não se criou pauta, recorte ou fato duplicado. “Senhora eleita” continua sendo a designação textual usada no gabarito. Igreja/comunidade cristã continua interpretação aprovada pelo usuário, sem alegar identidade textual explícita nem limitar a destinatária necessariamente a uma comunidade local. Auditoria/autoria encerrada nesta sequência.
