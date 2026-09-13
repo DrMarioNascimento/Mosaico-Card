@@ -339,7 +339,9 @@
     trail.appendChild(mark);
   }
   let coinIntroTimers = [];
+  let coinTrailFrame = null;
   function playCoinIntro() {
+    cancelAnimationFrame(coinTrailFrame);
     coinIntroTimers.forEach(clearTimeout);
     coinIntroTimers = [];
     const fly = $("#coin-fly"), toast = $("#bag-toast"), trail = $("#coin-trail");
@@ -348,7 +350,7 @@
     const later = function (fn, delay) { coinIntroTimers.push(setTimeout(fn, delay)); };
     fly.hidden = true;
     fly.classList.remove("rise", "home", "summon", "hovering");
-    if (trail) trail.replaceChildren();
+    if (trail) { trail.replaceChildren(); trail.classList.remove("fade"); }
     if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) { showBagToast(); return; }
     toast.hidden = false;
     toast.classList.remove("in", "out");
@@ -380,16 +382,36 @@
       fly.style.setProperty("--end", Math.max(22, box.width) + "px");
       fly.classList.remove("hovering");
       fly.classList.add("home");
+      let last = null, stamps = 0;
+      function drawTrail() {
+        if (fly.hidden || !fly.classList.contains("home")) return;
+        const r = fly.getBoundingClientRect();
+        const point = { x: r.left + r.width / 2, y: r.top + r.height / 2 };
+        if (!last) { last = point; dropStamp(point.x, point.y); stamps++; }
+        let distance = Math.hypot(point.x - last.x, point.y - last.y);
+        while (distance >= 20 && stamps < 50) {
+          last = { x: last.x + (point.x - last.x) * 20 / distance, y: last.y + (point.y - last.y) * 20 / distance };
+          dropStamp(last.x, last.y);
+          stamps++;
+          distance = Math.hypot(point.x - last.x, point.y - last.y);
+        }
+        coinTrailFrame = requestAnimationFrame(drawTrail);
+      }
+      coinTrailFrame = requestAnimationFrame(drawTrail);
     }, 850 + TOAST_MS);
     later(function () {
       fly.hidden = true;
       fly.classList.remove("home");
+      cancelAnimationFrame(coinTrailFrame);
       const target = document.querySelector(".stash-art .coin");
       if (target) {
         target.classList.add("received");
         later(function () { target.classList.remove("received"); }, 700);
       }
-      if (trail) trail.replaceChildren();
+      if (trail) {
+        trail.classList.add("fade");
+        later(function () { trail.replaceChildren(); trail.classList.remove("fade"); }, 900);
+      }
     }, 850 + TOAST_MS + 850);
   }
   function revelarCompra(id, jogador, depois) {
