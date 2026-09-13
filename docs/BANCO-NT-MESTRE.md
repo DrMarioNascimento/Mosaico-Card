@@ -462,3 +462,12 @@ As perguntas atribuem cada afirmação à carta. As alusões de 1Co 9–10 perma
 Em 13/09/2026, as páginas NAA identificadas de 1 Coríntios 11, 13 e 14 em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria. O lote não forçou quatro pautas: produziu três — ceia/reunião/exame em 11.17-34 (18 pistas), características e permanência do amor em 13 (18) e profecia/línguas/ordem em 14.1-33,37-40 (22).
 
 1Co 11.2-16 foi isolado porque transformar cobertura, cabelo, autoridade, anjos e costume em alternativas exigiria interpretações não aprovadas. Do mesmo modo, 1Co 14.34-36 não determina pistas ou gabaritos sobre fala, silêncio e submissão. As partes independentes continuaram atributivamente, sem completar 14.21 pelo Antigo Testamento. O inventário passa de **128 pautas e 2.323 pistas** para **131 pautas e 2.381 pistas**. 2 Coríntios, as demais cartas e Apocalipse permanecem para nova base; o banco não é declarado completo.
+
+## Checkpoint 045 — lote limitado de 2 Coríntios
+
+A base `75f52929d25930ead6507a260a6e105521a635e0` foi confirmada limpa com 131 pautas e 2.381 pistas. As páginas NAA de 2Co 7, 10 e 13 foram obtidas separadamente com HTTP 200 em 13/09/2026 e lidas antes da autoria. Os três recortes sustentaram pautas independentes, sem forçar quantidade adicional: 16 pistas em 2Co 7.2-16 e 18 em cada um de 2Co 10 e 13.
+
+- **Inventário:** 134 pautas elegíveis, 536 campos e 2.433 pistas; 57 comportam até 12 participantes, três até 11, três até 10, onze até 8, cinco até 7, 31 até 6, uma até 5, dez até 4 e treze até 3.
+- **Preservação:** os 131 objetos anteriores permanecem idênticos; nenhuma correção retroativa foi necessária.
+- **Delimitação:** nenhuma carta, visita ou viagem foi harmonizada, e nenhuma alusão foi completada pelo AT.
+- **Pendências:** as demais cartas e Apocalipse continuam para rodadas posteriores; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem isoladas.

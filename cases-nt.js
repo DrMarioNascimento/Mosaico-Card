@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-044",
+  "catalogVersion": "2026-09-13-checkpoint-045",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 131,
-    "fields": 524,
-    "editoriallyEligibleCases": 131,
-    "playableCases": 131,
+    "cases": 134,
+    "fields": 536,
+    "editoriallyEligibleCases": 134,
+    "playableCases": 134,
     "max12Cases": 57
   },
   "order": [
@@ -147,7 +147,10 @@
     "nt2-1corintios-exemplos-mesa-gloria",
     "nt2-1corintios-ceia-reuniao-exame",
     "nt2-1corintios-amor-permanencia",
-    "nt2-1corintios-profecia-linguas-edificacao-ordem"
+    "nt2-1corintios-profecia-linguas-edificacao-ordem",
+    "nt2-2corintios-tito-tristeza-consolo",
+    "nt2-2corintios-autoridade-limites-recomendacao",
+    "nt2-2corintios-visita-exame-edificacao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -87706,6 +87709,1932 @@
           }
         ],
         "canonicalSummary": "1 Coríntios 14 atribui edificação, exortação e consolação à profecia, requer interpretação para línguas na reunião, limita falas sucessivas e conclui com edificação, decência e ordem."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2corintios-tito-tristeza-consolo": {
+      "id": "nt2-2corintios-tito-tristeza-consolo",
+      "kind": "canonical-case",
+      "title": "Tito, tristeza e consolo em 2 Coríntios 7",
+      "canon": {
+        "book": "2 Coríntios",
+        "referenceNAA": "2 Coríntios 7.2-16",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "7.2-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Coríntios 7.2-16, em que situação os remetentes estavam na Macedônia, por meio de quem receberam consolo, que resultado teve a tristeza segundo Deus e o que renovou a alegria ligada a Tito?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A chegada de Tito liga a aflição na Macedônia às notícias da comunidade e organiza os demais campos sobre tristeza, arrependimento e consolo.",
+      "editorial": {
+        "hinge": "A pauta mantém carta, chegada e reação apenas como afirmações de 2 Coríntios 7; não identifica externamente a carta mencionada nem a encaixa em uma cronologia de viagens."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Por meio de quem Deus os consolou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pela chegada de Tito"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pela chegada de Timóteo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Por uma visão durante a noite"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Por uma carta levada por Apolo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pela chegada de Tito",
+          "enderecoNAA": "2 Coríntios 7.6-7",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "7.6-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que situação eles chegaram à Macedônia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sem alívio, com lutas por fora e temores por dentro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Em descanso, sem conflito interno ou externo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Com uma coleta já entregue em Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sob custódia após um naufrágio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sem alívio, com lutas por fora e temores por dentro",
+          "enderecoNAA": "2 Coríntios 7.5",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "7.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que resultado Paulo atribui à tristeza segundo Deus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Arrependimento para a salvação"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Orgulho pela própria recomendação"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Indiferença diante do mal"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Morte produzida pela tristeza do mundo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Arrependimento para a salvação",
+          "enderecoNAA": "2 Coríntios 7.9-11",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "7.9-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que aumentou a alegria relacionada a Tito",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O refrigério que todos deram ao espírito dele"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A ausência de qualquer reação à carta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A decisão de Tito de não visitar a comunidade"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A comparação de Tito consigo mesmo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O refrigério que todos deram ao espírito dele",
+          "enderecoNAA": "2 Coríntios 7.13-16",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "7.13-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Na Macedônia, os remetentes não encontraram alívio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na Macedônia, os remetentes não encontraram alívio."
+          },
+          {
+            "id": "P02",
+            "text": "O quadro reunia conflitos externos e temores internos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O quadro reunia conflitos externos e temores internos."
+          },
+          {
+            "id": "P03",
+            "text": "Deus consolou os abatidos com a chegada de Tito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus consolou os abatidos com a chegada de Tito."
+          },
+          {
+            "id": "P04",
+            "text": "Tito relatou a saudade, o pranto e o zelo da comunidade por Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tito relatou a saudade, o pranto e o zelo da comunidade por Paulo."
+          },
+          {
+            "id": "P05",
+            "text": "A notícia trazida por Tito ampliou a alegria de Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A notícia trazida por Tito ampliou a alegria de Paulo."
+          },
+          {
+            "id": "P06",
+            "text": "A carta havia causado tristeza por um período breve.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta havia causado tristeza por um período breve."
+          },
+          {
+            "id": "P07",
+            "text": "Paulo se alegrou pelo arrependimento, não pela tristeza em si.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se alegrou pelo arrependimento, não pela tristeza em si."
+          },
+          {
+            "id": "P08",
+            "text": "A comunidade foi entristecida segundo Deus sem sofrer dano da parte dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comunidade foi entristecida segundo Deus sem sofrer dano da parte dos remetentes."
+          },
+          {
+            "id": "P09",
+            "text": "A tristeza segundo Deus é ligada a arrependimento para salvação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A tristeza segundo Deus é ligada a arrependimento para salvação."
+          },
+          {
+            "id": "P10",
+            "text": "A tristeza do mundo é ligada à morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A tristeza do mundo é ligada à morte."
+          },
+          {
+            "id": "P11",
+            "text": "O efeito observado incluiu cuidado e defesa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O efeito observado incluiu cuidado e defesa."
+          },
+          {
+            "id": "P12",
+            "text": "Indignação, temor, saudade e zelo também aparecem entre os efeitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Indignação, temor, saudade e zelo também aparecem entre os efeitos."
+          },
+          {
+            "id": "P13",
+            "text": "A carta tornou manifesto, diante de Deus, o cuidado da comunidade pelos remetentes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta tornou manifesto, diante de Deus, o cuidado da comunidade pelos remetentes."
+          },
+          {
+            "id": "P14",
+            "text": "Todos trouxeram refrigério ao espírito de Tito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos trouxeram refrigério ao espírito de Tito."
+          },
+          {
+            "id": "P15",
+            "text": "O elogio feito a Tito sobre a comunidade mostrou-se verdadeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O elogio feito a Tito sobre a comunidade mostrou-se verdadeiro."
+          },
+          {
+            "id": "P16",
+            "text": "Tito recordava a obediência de todos e a maneira como foi recebido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "7.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tito recordava a obediência de todos e a maneira como foi recebido."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em 2 Coríntios 7, Paulo associa a chegada e o relato de Tito ao consolo na Macedônia, distingue dois tipos de tristeza e registra a reação da comunidade que trouxe refrigério a Tito.",
+        "hinge": "A pauta mantém carta, chegada e reação apenas como afirmações de 2 Coríntios 7; não identifica externamente a carta mencionada nem a encaixa em uma cronologia de viagens.",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "7.2-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2corintios-autoridade-limites-recomendacao": {
+      "id": "nt2-2corintios-autoridade-limites-recomendacao",
+      "kind": "canonical-case",
+      "title": "Autoridade, limites e recomendação em 2 Coríntios 10",
+      "canon": {
+        "book": "2 Coríntios",
+        "referenceNAA": "2 Coríntios 10.1-18",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "10.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Coríntios 10, como Paulo descreve as armas de sua luta, para que recebeu autoridade, que contraste alguns faziam entre suas cartas e sua presença e quem é apresentado como aprovado?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A natureza não carnal das armas introduz a defesa de Paulo e distingue o argumento sobre autoridade, presença, limites e aprovação.",
+      "editorial": {
+        "hinge": "A pauta permanece dentro da autodescrição e dos contrastes enunciados no capítulo; não reconstrói adversários, itinerários ou relações com outras cartas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como são descritas as armas da luta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Não carnais e poderosas em Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Materiais e destinadas a impor presença"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Fracas por dependerem das cartas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Limitadas à comparação consigo mesmo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Não carnais e poderosas em Deus",
+          "enderecoNAA": "2 Coríntios 10.3-6",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "10.3-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Para que o Senhor conferiu autoridade",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Para edificação, não para destruição"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Para intimidar exclusivamente por cartas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Para ultrapassar toda esfera de ação"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Para recomendar a si mesmo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Para edificação, não para destruição",
+          "enderecoNAA": "2 Coríntios 10.7-9",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "10.7-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que contraste alguns faziam sobre Paulo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Cartas graves e fortes, presença fraca e palavra desprezível"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Cartas fracas, presença forte e palavra elogiada"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Cartas ausentes, presença desconhecida e palavra secreta"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Cartas breves, presença silenciosa e palavra escrita por outros"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Cartas graves e fortes, presença fraca e palavra desprezível",
+          "enderecoNAA": "2 Coríntios 10.9-11",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "10.9-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem o texto apresenta como aprovado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Aquele a quem o Senhor recomenda"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Quem recomenda a si mesmo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Quem se mede apenas consigo mesmo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quem se gloria no trabalho feito por outros"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Aquele a quem o Senhor recomenda",
+          "enderecoNAA": "2 Coríntios 10.17-18",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "10.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo faz seu pedido apelando à mansidão e à bondade de Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo faz seu pedido apelando à mansidão e à bondade de Cristo."
+          },
+          {
+            "id": "P02",
+            "text": "Ele pede que não o obriguem a agir presencialmente com a firmeza planejada contra certos julgamentos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pede que não o obriguem a agir presencialmente com a firmeza planejada contra certos julgamentos."
+          },
+          {
+            "id": "P03",
+            "text": "Embora vivam na carne, os remetentes não lutam segundo a carne.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Embora vivam na carne, os remetentes não lutam segundo a carne."
+          },
+          {
+            "id": "P04",
+            "text": "As armas são apresentadas como não carnais e poderosas em Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As armas são apresentadas como não carnais e poderosas em Deus."
+          },
+          {
+            "id": "P05",
+            "text": "A ação descrita inclui destruir raciocínios falaciosos e arrogância contra o conhecimento de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.4-5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ação descrita inclui destruir raciocínios falaciosos e arrogância contra o conhecimento de Deus."
+          },
+          {
+            "id": "P06",
+            "text": "Todo pensamento é levado cativo à obediência de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todo pensamento é levado cativo à obediência de Cristo."
+          },
+          {
+            "id": "P07",
+            "text": "A autoridade recebida do Senhor visa edificar, e não destruir a comunidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A autoridade recebida do Senhor visa edificar, e não destruir a comunidade."
+          },
+          {
+            "id": "P08",
+            "text": "Paulo não queria parecer disposto a intimidar por cartas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo não queria parecer disposto a intimidar por cartas."
+          },
+          {
+            "id": "P09",
+            "text": "Alguns qualificavam as cartas como graves e fortes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns qualificavam as cartas como graves e fortes."
+          },
+          {
+            "id": "P10",
+            "text": "Os mesmos críticos chamavam a presença pessoal de fraca e a palavra de desprezível.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mesmos críticos chamavam a presença pessoal de fraca e a palavra de desprezível."
+          },
+          {
+            "id": "P11",
+            "text": "Paulo afirma coerência entre a palavra escrita na ausência e as ações na presença.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo afirma coerência entre a palavra escrita na ausência e as ações na presença."
+          },
+          {
+            "id": "P12",
+            "text": "Os que se medem e se comparam consigo mesmos são descritos como sem entendimento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que se medem e se comparam consigo mesmos são descritos como sem entendimento."
+          },
+          {
+            "id": "P13",
+            "text": "Paulo declara respeitar a esfera de ação demarcada por Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo declara respeitar a esfera de ação demarcada por Deus."
+          },
+          {
+            "id": "P14",
+            "text": "Essa esfera de ação alcançava os destinatários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa esfera de ação alcançava os destinatários."
+          },
+          {
+            "id": "P15",
+            "text": "Os remetentes já haviam chegado até eles com o evangelho de Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes já haviam chegado até eles com o evangelho de Cristo."
+          },
+          {
+            "id": "P16",
+            "text": "A esperança era anunciar o evangelho além das fronteiras dos destinatários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A esperança era anunciar o evangelho além das fronteiras dos destinatários."
+          },
+          {
+            "id": "P17",
+            "text": "Quem se gloria é orientado a gloriar-se no Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem se gloria é orientado a gloriar-se no Senhor."
+          },
+          {
+            "id": "P18",
+            "text": "A aprovação pertence a quem o Senhor recomenda, não a quem recomenda a si mesmo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "10.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aprovação pertence a quem o Senhor recomenda, não a quem recomenda a si mesmo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em 2 Coríntios 10, Paulo contrapõe luta carnal e armas poderosas em Deus, explica a finalidade edificadora de sua autoridade, responde ao contraste entre cartas e presença e remete a aprovação ao Senhor.",
+        "hinge": "A pauta permanece dentro da autodescrição e dos contrastes enunciados no capítulo; não reconstrói adversários, itinerários ou relações com outras cartas.",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "10.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2corintios-visita-exame-edificacao": {
+      "id": "nt2-2corintios-visita-exame-edificacao",
+      "kind": "canonical-case",
+      "title": "Visita, exame e edificação em 2 Coríntios 13",
+      "canon": {
+        "book": "2 Coríntios",
+        "referenceNAA": "2 Coríntios 13.1-13",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "13.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Coríntios 13, qual visita Paulo anuncia, que exame solicita, para que finalidade diz ter recebido autoridade e quais três expressões compõem a bênção final?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O anúncio da terceira visita situa as advertências do capítulo e conduz aos campos sobre testemunhas, autoexame, autoridade e despedida.",
+      "editorial": {
+        "hinge": "A referência a duas ou três testemunhas é registrada como afirmação do capítulo, sem completar a alusão pelo Antigo Testamento; nenhuma cronologia externa de visitas ou cartas é proposta."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual visita Paulo anuncia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A terceira visita aos destinatários"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A primeira visita à Macedônia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A segunda visita de Tito a Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A quarta viagem de Timóteo à Acaia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A terceira visita aos destinatários",
+          "enderecoNAA": "2 Coríntios 13.1-2",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "13.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que exame é solicitado aos destinatários",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Examinar e provar a si mesmos quanto à fé"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Comparar-se entre si para obter aprovação"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Provar somente a autoridade de outros"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Examinar qual viagem ocorreu primeiro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Examinar e provar a si mesmos quanto à fé",
+          "enderecoNAA": "2 Coríntios 13.5-6",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "13.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para que finalidade a autoridade foi dada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Para edificação, não para destruição"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Para recomendar a si mesmo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Para agir contra a verdade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Para evitar escrever durante a ausência"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Para edificação, não para destruição",
+          "enderecoNAA": "2 Coríntios 13.10",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que conjunto aparece na bênção final",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Graça do Senhor Jesus Cristo, amor de Deus e comunhão do Espírito Santo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Fé dos destinatários, viagem de Tito e coleta dos santos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Poder das cartas, força da presença e elogio próprio"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Testemunhas, rigor e destruição da comunidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Graça do Senhor Jesus Cristo, amor de Deus e comunhão do Espírito Santo",
+          "enderecoNAA": "2 Coríntios 13.13",
+          "answerReferences": [
+            {
+              "book": "2 Coríntios",
+              "passage": "13.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo anuncia que irá visitá-los pela terceira vez.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo anuncia que irá visitá-los pela terceira vez."
+          },
+          {
+            "id": "P02",
+            "text": "Toda questão seria decidida pela palavra de duas ou três testemunhas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda questão seria decidida pela palavra de duas ou três testemunhas."
+          },
+          {
+            "id": "P03",
+            "text": "Ausente, Paulo repete uma advertência aos que haviam pecado e aos demais.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ausente, Paulo repete uma advertência aos que haviam pecado e aos demais."
+          },
+          {
+            "id": "P04",
+            "text": "Os destinatários buscavam prova de que Cristo falava em Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários buscavam prova de que Cristo falava em Paulo."
+          },
+          {
+            "id": "P05",
+            "text": "Cristo é descrito como poderoso entre os destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é descrito como poderoso entre os destinatários."
+          },
+          {
+            "id": "P06",
+            "text": "O capítulo contrapõe crucificação em fraqueza e vida pelo poder de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O capítulo contrapõe crucificação em fraqueza e vida pelo poder de Deus."
+          },
+          {
+            "id": "P07",
+            "text": "Os destinatários são orientados a examinar-se quanto à fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários são orientados a examinar-se quanto à fé."
+          },
+          {
+            "id": "P08",
+            "text": "A ordem paralela é que provem a si mesmos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem paralela é que provem a si mesmos."
+          },
+          {
+            "id": "P09",
+            "text": "Paulo espera que reconheçam que os remetentes não foram reprovados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo espera que reconheçam que os remetentes não foram reprovados."
+          },
+          {
+            "id": "P10",
+            "text": "A oração pede que os destinatários não façam mal algum e pratiquem o bem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração pede que os destinatários não façam mal algum e pratiquem o bem."
+          },
+          {
+            "id": "P11",
+            "text": "Os remetentes declaram nada poder contra a verdade, somente a favor dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes declaram nada poder contra a verdade, somente a favor dela."
+          },
+          {
+            "id": "P12",
+            "text": "A oração mencionada visa ao aperfeiçoamento dos destinatários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração mencionada visa ao aperfeiçoamento dos destinatários."
+          },
+          {
+            "id": "P13",
+            "text": "Paulo escreve ausente para não precisar usar rigor quando presente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo escreve ausente para não precisar usar rigor quando presente."
+          },
+          {
+            "id": "P14",
+            "text": "A autoridade dada pelo Senhor é destinada à edificação, não à destruição.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A autoridade dada pelo Senhor é destinada à edificação, não à destruição."
+          },
+          {
+            "id": "P15",
+            "text": "As orientações finais incluem aperfeiçoamento, consolo mútuo, mesmo modo de pensar e paz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As orientações finais incluem aperfeiçoamento, consolo mútuo, mesmo modo de pensar e paz."
+          },
+          {
+            "id": "P16",
+            "text": "Os irmãos deveriam saudar uns aos outros com beijo santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos deveriam saudar uns aos outros com beijo santo."
+          },
+          {
+            "id": "P17",
+            "text": "Todos os santos enviavam saudações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos os santos enviavam saudações."
+          },
+          {
+            "id": "P18",
+            "text": "A bênção reúne a graça do Senhor Jesus Cristo, o amor de Deus e a comunhão do Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a identificação atributiva do campo sem importar contexto de outra carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Coríntios",
+                "passage": "13.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A bênção reúne a graça do Senhor Jesus Cristo, o amor de Deus e a comunhão do Espírito Santo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em 2 Coríntios 13, Paulo anuncia a terceira visita, pede autoexame, explica que escreve ausente para evitar rigor presencial e encerra com orientações, saudações e bênção.",
+        "hinge": "A referência a duas ou três testemunhas é registrada como afirmação do capítulo, sem completar a alusão pelo Antigo Testamento; nenhuma cronologia externa de visitas ou cartas é proposta.",
+        "references": [
+          {
+            "book": "2 Coríntios",
+            "passage": "13.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
       },
       "review": {
         "structural": "approved",

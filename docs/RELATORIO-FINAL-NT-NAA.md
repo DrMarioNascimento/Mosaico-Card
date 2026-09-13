@@ -76,3 +76,11 @@ A base do commit `09a88ecbace0edce31747d451849fcd29608345a`, com **128 pautas el
 Foram incorporadas três pautas, sem forçar uma quarta: 1Co 11.17-34 e 1Co 13 com 18 pistas cada, e 1Co 14.1-33,37-40 com 22. O catálogo passa a **131 pautas, 524 campos e 2.381 pistas**. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada preservou integralmente os 128 objetos e 2.323 pistas anteriores.
 
 Costumes e símbolos de 1Co 11.2-16 e as questões de 1Co 14.34-36 foram isolados, sem campos ou pistas; a citação de 14.21 não foi completada pelo Antigo Testamento. **2 Coríntios, as demais cartas e Apocalipse ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 045 — 2 Coríntios 7, 10 e 13
+
+A base `75f52929d25930ead6507a260a6e105521a635e0`, com **131 pautas, 524 campos e 2.381 pistas**, foi confirmada antes da edição. Em etapa bíblica separada dos testes, as páginas NAA de 2 Coríntios 7, 10 e 13 em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e somente esses capítulos foram lidos e autorados.
+
+Foram incorporadas três pautas e 52 pistas: 2Co 7.2-16 com 16, 2Co 10 com 18 e 2Co 13 com 18. O catálogo passa a **134 pautas, 536 campos e 2.433 pistas**, todas elegíveis em alguma mesa. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e ao menos uma no poço. A comparação mecanizada confirmou que os 131 objetos anteriores permaneceram integralmente inalterados.
+
+As perguntas são atributivas ao texto. A carta citada em 2Co 7 não foi identificada externamente, adversários e viagens de 2Co 10 não foram reconstruídos, e a alusão de 2Co 13.1 não foi completada pelo Antigo Testamento. **As demais cartas e Apocalipse permanecem pendentes; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

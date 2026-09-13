@@ -11,7 +11,7 @@
 | Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
 | 1 Coríntios | Analisado — checkpoint 044 | capítulos 1–16 | 10 autorados | dúvidas de 11.2-16 e 14.34-36 isoladas |
-| 2 Coríntios | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado | coleta consolidada; 2Co 12 ambíguo |
+| 2 Coríntios | Analisado — checkpoint 045 | capítulos 1–13 | 4 autorados | coleta consolidada; 2Co 12 ambíguo |
 | Gálatas | Analisado — decisões por recorte | capítulos 1–6 | 2 autorados | cronologia de Gl 2 bloqueada |
 | Efésios | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | exposição; armadura não inflada; Tíquico insuficiente |
 | Filipenses | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | demais blocos insuficientes/argumentativos |
@@ -52,3 +52,7 @@ A base de 124 pautas e 2.250 pistas foi preservada. A leitura NAA individual dos
 ## Checkpoint 044 — fechamento limitado de 1 Coríntios
 
 A base de 128 pautas/2.323 pistas foi preservada mecanicamente. Três pautas e 58 pistas foram acrescentadas após leitura NAA de 1Co 11, 13 e 14, levando o inventário a 131/2.381. As questões interpretativas de 11.2-16 e 14.34-36 foram isoladas sem impedir a autoria independente dos demais blocos. 2 Coríntios, as outras cartas e Apocalipse permanecem para nova base; o banco não está completo.
+
+## Checkpoint 045 — lote limitado de 2 Coríntios
+
+A base de 131 pautas/2.381 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura na NAA exclusivamente de 2Co 7, 10 e 13, foram acrescentadas três pautas e 52 pistas, levando o inventário a **134 pautas, 536 campos e 2.433 pistas**. A linha de 2 Coríntios passa a quatro pautas autoradas. As perguntas permanecem atributivas, a alusão de 13.1 não foi completada pelo AT e nenhuma visita ou carta foi harmonizada. As demais cartas e Apocalipse ficam pendentes; o banco não está completo.

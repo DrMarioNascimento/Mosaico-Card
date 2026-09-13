@@ -205,3 +205,13 @@ O lote autorizado encerra nesses quatro recortes. 1Co 11, 13 e 14 não foram con
 | 1Co 14.34-36 | Fala, silêncio, submissão e relação com a lei exigem decisões interpretativas não autorizadas. | Isolado; nenhuma afirmação virou campo, alternativa correta ou pista. |
 
 O lote autorizado encerra com três pautas, sem forçar uma quarta. 2 Coríntios e os demais recortes pendentes ficam para nova base; o banco não está completo.
+
+## Checkpoint 045 — decisões individuais em 2 Coríntios 7, 10 e 13
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 2Co 7.2-16 | NAA, HTTP 200; Macedônia, chegada e relato de Tito, tristeza, arrependimento e consolo atribuídos ao capítulo, sem identificar externamente a carta referida. | `nt2-2corintios-tito-tristeza-consolo`, 16 pistas, capacidade 2–7. |
+| 2Co 10 | NAA, HTTP 200; luta, autoridade, cartas/presença, limites e aprovação tratados como contrastes internos, sem reconstruir oponentes ou viagens. | `nt2-2corintios-autoridade-limites-recomendacao`, 18 pistas, capacidade 2–8. |
+| 2Co 13 | NAA, HTTP 200; visita, testemunhas, exame, edificação e bênção mantidos no documento; a alusão de 13.1 não foi completada pelo AT. | `nt2-2corintios-visita-exame-edificacao`, 18 pistas, capacidade 2–8. |
+
+O lote autorizado encerra nesses três recortes. As 131 pautas e 2.381 pistas anteriores foram preservadas integralmente. As demais cartas e Apocalipse permanecem pendentes, e o banco não está completo.
