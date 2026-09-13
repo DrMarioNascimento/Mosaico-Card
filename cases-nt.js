@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-064",
+  "catalogVersion": "checkpoint-065-apocalipse-19",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 202,
-    "fields": 808,
-    "editoriallyEligibleCases": 202,
-    "playableCases": 202,
-    "max12Cases": 75
+    "cases": 204,
+    "fields": 816,
+    "editoriallyEligibleCases": 204,
+    "playableCases": 204,
+    "max12Cases": 77
   },
   "order": [
     "nt2-joao-cana",
@@ -218,7 +218,9 @@
     "nt2-apocalipse-mulher-besta-explicacao",
     "nt2-apocalipse-queda-babilonia-saida-julgamento",
     "nt2-apocalipse-lamentos-reis-mercadores-mar",
-    "nt2-apocalipse-pedra-silencio-sangue"
+    "nt2-apocalipse-pedra-silencio-sangue",
+    "nt2-apocalipse-bodas-cordeiro-louvor",
+    "nt2-apocalipse-cavaleiro-besta-ceia"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -138877,6 +138879,1924 @@
             "passage": "18.21-24",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-bodas-cordeiro-louvor": {
+      "id": "nt2-apocalipse-bodas-cordeiro-louvor",
+      "kind": "canonical-case",
+      "title": "Louvor e bodas do Cordeiro",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 19.1-10",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "19.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Apocalipse 19.1-10, por que a multidão louva, como a noiva se apresenta, quem é chamado bem-aventurado e que ordem o anjo dá a João?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A bem-aventurança identifica a ceia das bodas e articula o anúncio, a preparação da noiva e a ordem final do anjo.",
+      "editorial": {
+        "hinge": "Louvor, bodas, vestes, bem-aventurança e correção de João permanecem na sequência e nas explicações explícitas de Apocalipse 19.1-10, sem alegoria ou identificação histórica acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem é chamado bem-aventurado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os chamados à ceia das bodas do Cordeiro"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os mercadores que enriqueceram"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os reis reunidos para a guerra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os que receberam a marca da besta"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os chamados à ceia das bodas do Cordeiro",
+          "enderecoNAA": "Apocalipse 19.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Por que os juízos de Deus são louvados",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Porque são verdadeiros e justos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Porque permaneciam selados"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Porque pouparam a grande cidade"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Porque encerraram as sete trombetas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Porque são verdadeiros e justos",
+          "enderecoNAA": "Apocalipse 19.1-2",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que foi permitido à noiva vestir",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Linho finíssimo, resplandecente e puro"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Púrpura e escarlate"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sacos de pano escuro"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma couraça de ferro"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Linho finíssimo, resplandecente e puro",
+          "enderecoNAA": "Apocalipse 19.7-8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.7-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que ordem o anjo deu quando João se prostrou",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Adore a Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sele as palavras"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Meça o santuário"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Escreva aos sete trovões"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Adore a Deus",
+          "enderecoNAA": "Apocalipse 19.10",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "João ouviu no céu uma voz comparada à de uma grande multidão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João ouviu no céu uma voz comparada à de uma grande multidão."
+          },
+          {
+            "id": "P02",
+            "text": "A multidão atribuiu salvação, glória e poder a Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão atribuiu salvação, glória e poder a Deus."
+          },
+          {
+            "id": "P03",
+            "text": "Os juízos divinos foram declarados verdadeiros.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os juízos divinos foram declarados verdadeiros."
+          },
+          {
+            "id": "P04",
+            "text": "Os juízos divinos também foram declarados justos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os juízos divinos também foram declarados justos."
+          },
+          {
+            "id": "P05",
+            "text": "A grande prostituta foi julgada por corromper a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A grande prostituta foi julgada por corromper a terra."
+          },
+          {
+            "id": "P06",
+            "text": "O sangue dos servos de Deus foi vingado das mãos dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sangue dos servos de Deus foi vingado das mãos dela."
+          },
+          {
+            "id": "P07",
+            "text": "A aclamação “Aleluia” foi repetida uma segunda vez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aclamação “Aleluia” foi repetida uma segunda vez."
+          },
+          {
+            "id": "P08",
+            "text": "A fumaça dela foi descrita subindo para todo o sempre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fumaça dela foi descrita subindo para todo o sempre."
+          },
+          {
+            "id": "P09",
+            "text": "Vinte e quatro anciãos se prostraram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Vinte e quatro anciãos se prostraram."
+          },
+          {
+            "id": "P10",
+            "text": "Os quatro seres viventes também adoraram a Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os quatro seres viventes também adoraram a Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Uma voz saída do trono convocou os servos a louvar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz saída do trono convocou os servos a louvar."
+          },
+          {
+            "id": "P12",
+            "text": "A convocação incluiu pequenos e grandes que temem a Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A convocação incluiu pequenos e grandes que temem a Deus."
+          },
+          {
+            "id": "P13",
+            "text": "Outra voz foi comparada ao som de muitas águas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra voz foi comparada ao som de muitas águas."
+          },
+          {
+            "id": "P14",
+            "text": "Essa voz também foi comparada a fortes trovões.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa voz também foi comparada a fortes trovões."
+          },
+          {
+            "id": "P15",
+            "text": "O louvor anunciou o reinado do Senhor Todo-Poderoso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O louvor anunciou o reinado do Senhor Todo-Poderoso."
+          },
+          {
+            "id": "P16",
+            "text": "A chegada das bodas do Cordeiro motivou alegria e glória.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A chegada das bodas do Cordeiro motivou alegria e glória."
+          },
+          {
+            "id": "P17",
+            "text": "A noiva já havia se preparado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A noiva já havia se preparado."
+          },
+          {
+            "id": "P18",
+            "text": "Foi permitido à noiva vestir-se de linho finíssimo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi permitido à noiva vestir-se de linho finíssimo."
+          },
+          {
+            "id": "P19",
+            "text": "O linho da noiva é descrito como resplandecente e puro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O linho da noiva é descrito como resplandecente e puro."
+          },
+          {
+            "id": "P20",
+            "text": "O próprio texto explica o linho como os atos de justiça dos santos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio texto explica o linho como os atos de justiça dos santos."
+          },
+          {
+            "id": "P21",
+            "text": "O anjo mandou João escrever uma bem-aventurança.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo mandou João escrever uma bem-aventurança."
+          },
+          {
+            "id": "P22",
+            "text": "A bem-aventurança se dirige aos chamados para uma ceia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A bem-aventurança se dirige aos chamados para uma ceia."
+          },
+          {
+            "id": "P23",
+            "text": "A ceia é identificada como a das bodas do Cordeiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ceia é identificada como a das bodas do Cordeiro."
+          },
+          {
+            "id": "P24",
+            "text": "O anjo afirmou que aquelas palavras são verdadeiras palavras de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo afirmou que aquelas palavras são verdadeiras palavras de Deus."
+          },
+          {
+            "id": "P25",
+            "text": "João se prostrou aos pés do anjo para adorá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João se prostrou aos pés do anjo para adorá-lo."
+          },
+          {
+            "id": "P26",
+            "text": "O anjo impediu a adoração e se apresentou como conservo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo impediu a adoração e se apresentou como conservo."
+          },
+          {
+            "id": "P27",
+            "text": "Ele associou a si mesmo João e os irmãos que guardam o testemunho de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele associou a si mesmo João e os irmãos que guardam o testemunho de Jesus."
+          },
+          {
+            "id": "P28",
+            "text": "A ordem direta foi adorar a Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem direta foi adorar a Deus."
+          },
+          {
+            "id": "P29",
+            "text": "O testemunho de Jesus é identificado como o espírito da profecia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O testemunho de Jesus é identificado como o espírito da profecia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Uma multidão louva os juízos e o reinado de Deus; as bodas chegam, a noiva recebe linho finíssimo, os chamados à ceia são bem-aventurados e o anjo impede que João o adore.",
+        "hinge": "Louvor, bodas, vestes, bem-aventurança e correção de João permanecem na sequência e nas explicações explícitas de Apocalipse 19.1-10, sem alegoria ou identificação histórica acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "19.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-cavaleiro-besta-ceia": {
+      "id": "nt2-apocalipse-cavaleiro-besta-ceia",
+      "kind": "canonical-case",
+      "title": "O cavaleiro e a derrota da besta",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 19.11-21",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "19.11-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Apocalipse 19.11-21, como o cavaleiro é apresentado, quem o segue, para qual ceia as aves são chamadas e qual é o desfecho da besta e do falso profeta?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Os nomes e as ações atribuídos ao cavaleiro organizam a marcha, o confronto e o desfecho da cena.",
+      "editorial": {
+        "hinge": "Nomes, vestes, armas, exércitos, ceia e desfecho permanecem descrições, ações e identificações internas de Apocalipse 19.11-21; nenhuma identidade histórica, instituição atual, geografia presente, cronologia ou alegoria é acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como o cavaleiro do cavalo branco é chamado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Fiel e Verdadeiro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Abadom e Apoliom"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Alfa e Ômega apenas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A estrela da manhã caída"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Fiel e Verdadeiro",
+          "enderecoNAA": "Apocalipse 19.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem seguia o cavaleiro",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os exércitos do céu"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os mercadores do mar"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os vinte e quatro anciãos a pé"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os habitantes da grande cidade"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os exércitos do céu",
+          "enderecoNAA": "Apocalipse 19.14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para qual reunião as aves foram convocadas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A grande ceia de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A ceia das bodas do Cordeiro"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O banquete de Belsazar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A festa dos pães sem fermento"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A grande ceia de Deus",
+          "enderecoNAA": "Apocalipse 19.17-18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde foram lançados a besta e o falso profeta",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "No lago de fogo que queima com enxofre"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "No abismo fechado com selo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "No mar de vidro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Fora da cidade por mil anos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "No lago de fogo que queima com enxofre",
+          "enderecoNAA": "Apocalipse 19.20",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "19.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "João viu o céu aberto e um cavalo branco.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João viu o céu aberto e um cavalo branco."
+          },
+          {
+            "id": "P02",
+            "text": "O cavaleiro recebe o nome Fiel.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cavaleiro recebe o nome Fiel."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também recebe o nome Verdadeiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também recebe o nome Verdadeiro."
+          },
+          {
+            "id": "P04",
+            "text": "O cavaleiro julga com justiça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cavaleiro julga com justiça."
+          },
+          {
+            "id": "P05",
+            "text": "Ele combate com justiça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele combate com justiça."
+          },
+          {
+            "id": "P06",
+            "text": "Seus olhos são comparados a chama de fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seus olhos são comparados a chama de fogo."
+          },
+          {
+            "id": "P07",
+            "text": "Muitos diademas aparecem sobre a cabeça dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos diademas aparecem sobre a cabeça dele."
+          },
+          {
+            "id": "P08",
+            "text": "Ele possui um nome escrito conhecido somente por ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele possui um nome escrito conhecido somente por ele."
+          },
+          {
+            "id": "P09",
+            "text": "Seu manto é descrito como encharcado de sangue.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu manto é descrito como encharcado de sangue."
+          },
+          {
+            "id": "P10",
+            "text": "Outro nome atribuído a ele é Verbo de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro nome atribuído a ele é Verbo de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Exércitos do céu seguiam o cavaleiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Exércitos do céu seguiam o cavaleiro."
+          },
+          {
+            "id": "P12",
+            "text": "Os seguidores também montavam cavalos brancos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os seguidores também montavam cavalos brancos."
+          },
+          {
+            "id": "P13",
+            "text": "Eles vestiam linho finíssimo, branco e puro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles vestiam linho finíssimo, branco e puro."
+          },
+          {
+            "id": "P14",
+            "text": "Uma espada afiada sai da boca do cavaleiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma espada afiada sai da boca do cavaleiro."
+          },
+          {
+            "id": "P15",
+            "text": "A espada é apresentada como instrumento para ferir as nações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A espada é apresentada como instrumento para ferir as nações."
+          },
+          {
+            "id": "P16",
+            "text": "O cavaleiro regerá as nações com cetro de ferro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cavaleiro regerá as nações com cetro de ferro."
+          },
+          {
+            "id": "P17",
+            "text": "Ele pisa o lagar do vinho do furor da ira do Deus Todo-Poderoso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pisa o lagar do vinho do furor da ira do Deus Todo-Poderoso."
+          },
+          {
+            "id": "P18",
+            "text": "No manto e na coxa está escrito um nome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No manto e na coxa está escrito um nome."
+          },
+          {
+            "id": "P19",
+            "text": "O nome escrito é Rei dos reis e Senhor dos senhores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O nome escrito é Rei dos reis e Senhor dos senhores."
+          },
+          {
+            "id": "P20",
+            "text": "Um anjo em pé no sol gritou com voz forte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um anjo em pé no sol gritou com voz forte."
+          },
+          {
+            "id": "P21",
+            "text": "O chamado foi dirigido às aves que voavam pelo meio do céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O chamado foi dirigido às aves que voavam pelo meio do céu."
+          },
+          {
+            "id": "P22",
+            "text": "As aves deveriam reunir-se para a grande ceia de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As aves deveriam reunir-se para a grande ceia de Deus."
+          },
+          {
+            "id": "P23",
+            "text": "Reis, comandantes, poderosos, cavalos e cavaleiros aparecem na enumeração da ceia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Reis, comandantes, poderosos, cavalos e cavaleiros aparecem na enumeração da ceia."
+          },
+          {
+            "id": "P24",
+            "text": "A enumeração também abrange livres, escravos, pequenos e grandes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A enumeração também abrange livres, escravos, pequenos e grandes."
+          },
+          {
+            "id": "P25",
+            "text": "A besta e os reis da terra reuniram seus exércitos para a guerra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta e os reis da terra reuniram seus exércitos para a guerra."
+          },
+          {
+            "id": "P26",
+            "text": "A guerra visava o cavaleiro e o exército dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A guerra visava o cavaleiro e o exército dele."
+          },
+          {
+            "id": "P27",
+            "text": "A besta foi presa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta foi presa."
+          },
+          {
+            "id": "P28",
+            "text": "O falso profeta foi preso com ela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O falso profeta foi preso com ela."
+          },
+          {
+            "id": "P29",
+            "text": "O falso profeta havia seduzido, por sinais, os que receberam a marca e adoraram a imagem da besta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O falso profeta havia seduzido, por sinais, os que receberam a marca e adoraram a imagem da besta."
+          },
+          {
+            "id": "P30",
+            "text": "Besta e falso profeta foram lançados vivos no lago de fogo com enxofre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "high",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Besta e falso profeta foram lançados vivos no lago de fogo com enxofre."
+          },
+          {
+            "id": "P31",
+            "text": "Os restantes foram mortos pela espada saída da boca do cavaleiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os restantes foram mortos pela espada saída da boca do cavaleiro."
+          },
+          {
+            "id": "P32",
+            "text": "As aves se fartaram das carnes dos derrotados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 19",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "19.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As aves se fartaram das carnes dos derrotados."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "O cavaleiro Fiel e Verdadeiro lidera os exércitos do céu; um anjo convoca as aves para a grande ceia de Deus, e a besta e o falso profeta são presos e lançados vivos no lago de fogo.",
+        "hinge": "Nomes, vestes, armas, exércitos, ceia e desfecho permanecem descrições, ações e identificações internas de Apocalipse 19.11-21; nenhuma identidade histórica, instituição atual, geografia presente, cronologia ou alegoria é acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "19.11-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -430,3 +430,13 @@ Os quatro blocos novos esgotam o limite autorizado sem divisão artificial. Dois
 | Ap 18.21-24 | `nt2-apocalipse-pedra-silencio-sangue`, 18 pistas, capacidade 2–8. | O gesto interpretado da pedra, os sons e atividades cessantes e a acusação final sustentam um bloco curto independente. |
 
 O limite de quatro pautas foi atingido por quatro unidades documentais completas, sem subdivisão para elevar contagem. Os 198 objetos anteriores foram preservados. Mulher, Babilônia, besta, reis, mercadores e lamento não receberam identidade histórica, instituição contemporânea, geografia presente, calendário ou alegoria externa. Não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global permanecem pendentes; o banco não está completo.**
+
+## Apocalipse 19–22 — checkpoint 065
+
+| Recorte | Resultado individual | Fundamentação |
+| --- | --- | --- |
+| Ap 19.1-10 | `nt2-apocalipse-bodas-cordeiro-louvor`, 29 pistas, capacidade 2–12. | Louvor, juízos, preparação da noiva, ceia e correção da adoração formam a sequência explícita; nenhuma identidade ou alegoria externa foi adotada. |
+| Ap 19.11-21 | `nt2-apocalipse-cavaleiro-besta-ceia`, 32 pistas, capacidade 2–12. | Nomes, descrição e ações do cavaleiro, seguidores, convocação das aves e destino da besta e do falso profeta permanecem internos à cena. |
+| Ap 20.1-15 | Pauta existente `nt2-apocalipse-mil-anos-juizo`, 13 pistas, capacidade 2–6, confirmada sem alteração. | Prisão, soltura, confronto e juízo seguem a ordem documental; “mil anos” não foi convertido em sistema cronológico. |
+| Ap 21.1–22.5 | Pauta existente `nt2-apocalipse-nova-jerusalem`, 25 pistas, capacidade 2–12, confirmada sem alteração. | Cidade, medidas, materiais, luz, rio, árvore e trono são descrições explícitas, sem geografia atual nem decisão externa de literalidade. |
+| Ap 22.6-21 | Não autorado neste lote; pendência delimitada para a auditoria global. | O encerramento do livro não integra as referências ou pistas da pauta da Nova Jerusalém; não se ampliou a cobertura por rótulo genérico. |

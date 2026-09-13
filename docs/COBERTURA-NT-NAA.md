@@ -166,3 +166,9 @@ As capacidades novas são 9, 12, 11 e 12. O número dos cento e quarenta e quatr
 As páginas NAA de Ap 17–18 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. A comparação com as 198 pautas anteriores confirmou ausência de cobertura. Foram incorporadas quatro pautas com 34, 25, 28 e 18 pistas, elevando o inventário a **202 pautas, 808 campos e 3.844 pistas**; os 198 objetos anteriores permaneceram idênticos.
 
 As explicações internas do anjo em Ap 17 foram preservadas sem complementação histórica. Em Ap 18, anúncio, saída, juízo, mercadorias, lamentos, pedra e silêncios permanecem na descrição e nas falas do capítulo. Não se acrescentaram instituições atuais, geografia presente, calendário ou alegoria, e não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 065 — Apocalipse 19 e conferência de 20–22
+
+Ap 19–22 retornaram HTTP 200 na fonte NAA identificada em 13/09/2026 e foram lidos integralmente. A comparação preservou byte a byte, em sua serialização canônica, os 202 objetos anteriores e acrescentou somente duas pautas de Ap 19: 19.1-10 (29 pistas) e 19.11-21 (32), totalizando **204 pautas, 816 campos e 3.905 pistas**.
+
+A revisão individual confirmou Ap 20.1-15 na pauta existente de 13 pistas e Ap 21.1–22.5 na pauta existente de 25 pistas, sem identidades ou cronologias externas. Ap 22.6-21 não está coberto por esta última; a antiga abreviação “Ap 21–22” foi delimitada e o recorte terminal segue para a auditoria global dos 27 livros. Não se declara o banco completo.

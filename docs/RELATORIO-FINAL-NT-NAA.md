@@ -236,3 +236,7 @@ Os 194 objetos anteriores permaneceram idênticos. A auditoria automatizada regi
 A consulta efetiva das páginas NAA de Ap 17–18 sustentou quatro pautas novas: uma para a visão e explicação do capítulo 17 e três blocos documentais no capítulo 18, totalizando 105 pistas. O catálogo passa de 198/3.739 para **202 pautas, 808 campos e 3.844 pistas**, com preservação serializada dos 198 objetos anteriores.
 
 A auditoria automatizada registra zero duplicatas exatas e zero pares sem resolução após quatro decisões individuais. Mulher, Babilônia, besta, reis, mercadores, mercadorias e lamentos não receberam identidades históricas externas, instituições atuais, geografia presente, calendário ou alegoria. **Ap 19–22 e a auditoria global dos 27 livros permanecem posteriores; este relatório não declara o banco completo.**
+
+## Incremento do checkpoint 065 — Apocalipse 19 e auditoria de 20–22
+
+A consulta NAA efetiva acrescentou duas pautas de Ap 19 e 61 pistas, levando o inventário a **204 pautas, 816 campos e 3.905 pistas**. A comparação canônica preservou os 202 objetos anteriores. As pautas existentes de Ap 20.1-15 e Ap 21.1–22.5 foram auditadas e mantidas; o rótulo amplo de cobertura de Ap 21–22 foi corrigido, pois Ap 22.6-21 continua sem pauta. Não surgiram ambiguidades reais novas. O resultado não constitui conclusão do banco: a auditoria global dos 27 livros, inclusive lacunas e exclusões genéricas, permanece obrigatória.

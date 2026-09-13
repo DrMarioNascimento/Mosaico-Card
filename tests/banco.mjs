@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 202);
-assert.equal(catalog.summary.max12Cases, 75);
+assert.equal(catalog.summary.editoriallyEligibleCases, 204);
+assert.equal(catalog.summary.max12Cases, 77);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -318,6 +318,18 @@ for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocali
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 17–18`);
   assert.match(catalog.byId[id].reveal.hinge, /(?:identifica|históric|instituição|geografia|alegoria)/, `${id} explicita o limite contra identidades externas`);
 }
+const auditoriaApocalipse065 = {
+  "nt2-apocalipse-bodas-cordeiro-louvor": /^(?:19\.(?:[1-9]|10))(?:\D|$)/,
+  "nt2-apocalipse-cavaleiro-besta-ceia": /^(?:19\.(?:1[1-9]|2[01]))(?:\D|$)/
+};
+for (const [id, passagePattern] of Object.entries(auditoriaApocalipse065)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, 12);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 19`);
+  assert.match(catalog.byId[id].reveal.hinge, /(?:históric|geografia|cronologia|alegoria)/, `${id} explicita o limite interpretativo`);
+}
+assert.ok(catalog.byId["nt2-apocalipse-mil-anos-juizo"].deck.cards.every(card => card.references.every(ref => /^(?:20\.)/.test(ref.passage))), "pauta dos mil anos permanece limitada a Ap 20");
+assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].deck.cards.every(card => card.references.every(ref => /^(?:21\.|22\.[1-5](?:\D|$))/.test(ref.passage))), "Nova Jerusalém permanece limitada a Ap 21.1–22.5");
 for (const id of ["nt2-apocalipse-mulher-dragao", "nt2-apocalipse-duas-bestas"]) {
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:12|13)\./.test(ref.passage))), `${id} mantém exclusivamente as identificações internas de seu capítulo`);
 }

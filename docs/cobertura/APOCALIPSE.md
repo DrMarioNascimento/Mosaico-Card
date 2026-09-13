@@ -22,11 +22,12 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | Ap 16 | Cobertura encerrada em `nt2-apocalipse-tacas`, 13 pistas e capacidade 2–6, sem cronologia externa. |
 | Ap 17 | `nt2-apocalipse-mulher-besta-explicacao`, 34 pistas; explicações do anjo mantidas sem identificação histórica externa. |
 | Ap 18 | Três pautas para 18.1-8, 18.9-20 e 18.21-24; queda, lamentos e silêncio mantidos sem instituição ou geografia atual. |
-| Ap 19 | Bodas e cavaleiro preservados como cenas distintas, não fundidas artificialmente. |
+| Ap 19 | `nt2-apocalipse-bodas-cordeiro-louvor` e `nt2-apocalipse-cavaleiro-besta-ceia`; cenas distintas, não fundidas artificialmente. |
 | Ap 20 | `nt2-apocalipse-mil-anos-juizo`, capacidade 2–6, sem escolher sistema cronológico. |
-| Ap 21–22 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
+| Ap 21.1–22.5 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
+| Ap 22.6-21 | Sem pauta; pendência delimitada para a auditoria global obrigatória. |
 
-Apocalipse permanece **em autoria** com trinta e uma pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
+Apocalipse permanece **em autoria** com trinta e três pautas autoradas; Ap 22.6-21 ainda não tem pauta. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
 
 ## Apocalipse 2 por carta — checkpoint 058
 
@@ -73,3 +74,11 @@ A auditoria de Ap 16 conferiu individualmente a voz inicial, as sete taças, seu
 As páginas NAA de Ap 17 e 18 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas integralmente. A comparação com as 198 pautas anteriores não encontrou cobertura desses capítulos. Ap 17 sustentou uma pauta única com 34 pistas, preservando como explicações internas somente as equivalências fornecidas pelo anjo. Ap 18 sustentou três blocos: anúncio da queda e chamado para sair (18.1-8, 25 pistas), lamentos dos reis, mercadores e homens do mar (18.9-20, 28) e gesto da pedra com o silêncio da cidade (18.21-24, 18). Nenhuma quinta pauta foi criada.
 
 Mulher, Babilônia, besta, águas, montes, reis, mercadores, cidade, lamentos e mercadorias permanecem descrições, ações, falas ou identificações internas. Não foram acrescentadas identidades históricas externas, instituições atuais, geografia presente, calendários ou alegorias. Quatro pares apontados pela triagem receberam decisão individual: duas reações paralelas de grupos diferentes, dois grupos da enumeração final, a besta em cenas documentais distintas e o anúncio repetido da queda em Ap 14 e 18. Não restou par pendente nem surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**
+
+## Apocalipse 19 e auditoria de 20–22 — checkpoint 065
+
+As páginas identificadas como NAA de Ap 19, 20, 21 e 22 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas integralmente. A comparação serializada com as 202 pautas anteriores confirmou que Ap 19 ainda não estava coberto e preservou os 202 objetos sem alteração. Bodas e cavaleiro permaneceram cenas distintas: Ap 19.1-10 originou `nt2-apocalipse-bodas-cordeiro-louvor`, com 29 pistas e capacidade 2–12; Ap 19.11-21 originou `nt2-apocalipse-cavaleiro-besta-ceia`, com 32 pistas e capacidade 2–12. Não foi forçada terceira pauta.
+
+A auditoria individual confirmou `nt2-apocalipse-mil-anos-juizo` como cobertura de Ap 20.1-15, com 13 pistas e capacidade 2–6, sem transformar os mil anos em sistema cronológico. Confirmou também que `nt2-apocalipse-nova-jerusalem`, com 25 pistas e capacidade 2–12, cobre precisamente Ap 21.1–22.5: origem, medidas, materiais, luz, rio, árvore e trono permanecem descrições internas, sem geografia atual ou literalidade imposta. A designação anterior “Ap 21–22” era ampla demais: Ap 22.6-21 não integra as referências nem as pistas desse objeto e fica registrado como recorte terminal não autorado, a ser confrontado na auditoria global obrigatória, sem alterar artificialmente a pauta existente.
+
+Nenhuma identidade histórica externa, instituição atual, localização presente, calendário ou alegoria foi acrescentada às bodas, ao cavaleiro, aos mil anos, ao juízo ou à Nova Jerusalém. Não surgiu ambiguidade real nova para o usuário. **Esta etapa não declara Apocalipse nem o banco completos: a auditoria global dos 27 livros é obrigatória antes de qualquer conclusão e deverá verificar também Ap 22.6-21 e exclusões genéricas.**
