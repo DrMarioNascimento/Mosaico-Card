@@ -32,3 +32,11 @@ Foram acrescentadas `nt2-atos-chipre-elimas`, `nt2-atos-listra-paulo-barnabe`, `
 O inventário passa a **114 pautas, 456 campos e 2.063 pistas**, todas editorialmente elegíveis em alguma mesa. A capacidade continua derivada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e ao menos uma no poço. O auditor não deixou duplicata exata nem par de revisão sem resolução.
 
 **At 21/23, Romanos–Judas e Apocalipse permanecem pendentes. O banco não é declarado completo.** As decisões textuais e interpretativas anteriores continuam inalteradas, e não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 040 — Atos 21 e 23
+
+A base de 114 pautas/2.063 pistas do commit `4ef45e4` foi confirmada antes da edição. A consulta bíblica, separada dos testes, obteve HTTP 200 nas páginas NAA de Atos 21 e 23 e se limitou a At 21.7-14 e 23.12-35.
+
+Foram acrescentadas `nt2-atos-agabo-jerusalem`, com 10 pistas, e `nt2-atos-conspiracao-transferencia`, com 24. O catálogo passa a **116 pautas, 464 campos e 2.097 pistas**, todas elegíveis em alguma mesa. A comparação mecanizada preservou integralmente os 114 objetos anteriores. A capacidade continua derivada de `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço.
+
+O diff editorial desta rodada contém somente as duas pautas autorizadas, suas 34 pistas, o catálogo regenerado e os registros documentais correspondentes. Romanos–Judas e Apocalipse permanecem para a próxima base; o banco não está completo. Não houve merge, deploy ou publicação.

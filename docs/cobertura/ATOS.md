@@ -47,3 +47,9 @@ At 4.23-31, 5.17-42, 7.54-60, 9.32-43 e 12.20-23 foram obtidos e relidos na NAA.
 As páginas NAA de Atos 13, 14, 16, 18 e 19 foram obtidas separadamente com HTTP 200 e os recortes At 13.4-12, 14.8-20, 16.6-15, 18.1-17 e 19.11-20 foram relidos. As exclusões anteriores por insuficiência ficam supersedidas para esses cinco recortes: eles originaram, respectivamente, `nt2-atos-chipre-elimas` (14 pistas), `nt2-atos-listra-paulo-barnabe` (16), `nt2-atos-visao-lidia` (15), `nt2-atos-paulo-corinto` (18) e `nt2-atos-efeso-ceva` (17).
 
 Cada pauta conserva seu documento: a ida à Macedônia não foi alinhada a cartas, e a permanência em Corinto não foi usada para construir cronologia epistolar. At 21.7-14 e 23.12-35 permanecem candidatos pendentes para outra rodada.
+
+## Auditoria individual — checkpoint 040
+
+At 21.7-14 e 23.12-35 foram consultados novamente nas páginas NAA de Atos 21 e 23, ambas obtidas com HTTP 200 em 13/09/2026. Originaram `nt2-atos-agabo-jerusalem` (10 pistas, capacidade 2–4) e `nt2-atos-conspiracao-transferencia` (24 pistas, capacidade 2–11). O sinal de Ágabo não recebeu cronologia de cartas, e a transferência de Paulo foi descrita somente conforme o relato e a carta reproduzida em Atos 23.
+
+Com esses dois resultados individuais, não resta recorte de Atos pendente na lista desta auditoria. Isso encerra o lote solicitado, não declara o banco completo e não antecipa os candidatos de Romanos–Judas ou Apocalipse.

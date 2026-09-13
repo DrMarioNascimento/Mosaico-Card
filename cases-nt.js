@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 114,
-    "fields": 456,
-    "editoriallyEligibleCases": 114,
-    "playableCases": 114,
+    "cases": 116,
+    "fields": 464,
+    "editoriallyEligibleCases": 116,
+    "playableCases": 116,
     "max12Cases": 56
   },
   "order": [
@@ -130,7 +130,9 @@
     "nt2-atos-listra-paulo-barnabe",
     "nt2-atos-visao-lidia",
     "nt2-atos-paulo-corinto",
-    "nt2-atos-efeso-ceva"
+    "nt2-atos-efeso-ceva",
+    "nt2-atos-agabo-jerusalem",
+    "nt2-atos-conspiracao-transferencia"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -76222,6 +76224,1273 @@
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
             "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-agabo-jerusalem": {
+      "id": "nt2-atos-agabo-jerusalem",
+      "kind": "canonical-case",
+      "title": "Ágabo e a decisão de Paulo",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 21.7-14",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "21.7-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais percurso, anfitrião, sinal profético e decisão aparecem antes da ida de Paulo a Jerusalém?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A disposição de Paulo de seguir para Jerusalém, apesar dos pedidos, encerra a tensão criada pelo sinal de Ágabo.",
+      "editorial": {
+        "hinge": "Todos os dados vêm de At 21.7-14; o sinal não é combinado com cronologias de cartas nem ampliado além da explicação dada por Ágabo."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Paulo respondeu aos pedidos para não ir a Jerusalém",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Disse estar pronto para prisão e até morte"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Decidiu permanecer em Cesareia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Voltou imediatamente para Tiro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pediu que Ágabo fosse em seu lugar"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Disse estar pronto para prisão e até morte",
+          "enderecoNAA": "Atos 21.12-14",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "21.12-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde o grupo passou um dia com os irmãos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Ptolemaida"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Cesareia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Tiro"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Jerusalém"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Ptolemaida",
+          "enderecoNAA": "Atos 21.7",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "21.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Na casa de quem o grupo ficou em Cesareia",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Filipe, o evangelista"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ágabo, o profeta"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cláudio Lísias"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Félix, o governador"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Filipe, o evangelista",
+          "enderecoNAA": "Atos 21.8",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "21.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Ágabo fez com o cinto de Paulo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Amarrou os próprios pés e mãos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Entregou-o às filhas de Filipe"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Rasgou-o diante dos irmãos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Levou-o de volta à Judeia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Amarrou os próprios pés e mãos",
+          "enderecoNAA": "Atos 21.10-11",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "21.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Concluindo o trajeto iniciado em Tiro, o grupo chegou a Ptolemaida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Concluindo o trajeto iniciado em Tiro, o grupo chegou a Ptolemaida."
+          },
+          {
+            "id": "P02",
+            "text": "Em Ptolemaida, eles saudaram os irmãos e permaneceram um dia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em Ptolemaida, eles saudaram os irmãos e permaneceram um dia."
+          },
+          {
+            "id": "P03",
+            "text": "No dia seguinte, o grupo foi para Cesareia e ficou na casa de Filipe.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No dia seguinte, o grupo foi para Cesareia e ficou na casa de Filipe."
+          },
+          {
+            "id": "P04",
+            "text": "Filipe é identificado como evangelista e integrante dos sete.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Filipe é identificado como evangelista e integrante dos sete."
+          },
+          {
+            "id": "P05",
+            "text": "Filipe tinha quatro filhas solteiras que profetizavam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Filipe tinha quatro filhas solteiras que profetizavam."
+          },
+          {
+            "id": "P06",
+            "text": "Ágabo, profeta vindo da Judeia, chegou depois de alguns dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ágabo, profeta vindo da Judeia, chegou depois de alguns dias."
+          },
+          {
+            "id": "P07",
+            "text": "Ágabo usou o cinto de Paulo para amarrar os próprios pés e mãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ágabo usou o cinto de Paulo para amarrar os próprios pés e mãos."
+          },
+          {
+            "id": "P08",
+            "text": "Ágabo anunciou que os judeus em Jerusalém prenderiam o dono do cinto e o entregariam aos gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ágabo anunciou que os judeus em Jerusalém prenderiam o dono do cinto e o entregariam aos gentios."
+          },
+          {
+            "id": "P09",
+            "text": "Paulo declarou estar pronto para prisão e até morte em Jerusalém pelo nome do Senhor Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.12-13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo declarou estar pronto para prisão e até morte em Jerusalém pelo nome do Senhor Jesus."
+          },
+          {
+            "id": "P10",
+            "text": "Como Paulo não se deixou persuadir, o grupo se conformou à vontade do Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "21.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Como Paulo não se deixou persuadir, o grupo se conformou à vontade do Senhor."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Após passar por Ptolemaida, o grupo ficou com Filipe em Cesareia; Ágabo representou a prisão futura, mas Paulo manteve a decisão de ir a Jerusalém.",
+        "hinge": "Todos os dados vêm de At 21.7-14; o sinal não é combinado com cronologias de cartas nem ampliado além da explicação dada por Ágabo.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "21.7-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-conspiracao-transferencia": {
+      "id": "nt2-atos-conspiracao-transferencia",
+      "kind": "canonical-case",
+      "title": "A conspiração e a transferência de Paulo",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 23.12-35",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "23.12-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais conspiração, aviso, escolta e destino estruturam a transferência de Paulo?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O aviso levado pelo sobrinho ao comandante rompe o plano secreto e provoca todas as medidas de proteção seguintes.",
+      "editorial": {
+        "hinge": "A pauta se limita à narrativa e à carta reproduzida em At 23.12-35, sem reconstruir viagens externas ou validar retrospectivamente a versão de Lísias."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem informou Paulo sobre a trama",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O filho da irmã de Paulo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um dos principais sacerdotes"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O governador Félix"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Sóstenes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O filho da irmã de Paulo",
+          "enderecoNAA": "Atos 23.16",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "23.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos homens participaram da conspiração contra Paulo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Mais de quarenta"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Setenta"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Duzentos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Mais de quarenta",
+          "enderecoNAA": "Atos 23.12-13",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "23.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Para onde o comandante ordenou que Paulo fosse levado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Cesareia"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Antipátride como destino final"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Cilícia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Cesareia",
+          "enderecoNAA": "Atos 23.23-24",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "23.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Onde Félix mandou manter Paulo preso",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "No Pretório de Herodes"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Na fortaleza Antônia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Na casa de Filipe"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "No tribunal de Gálio"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "No Pretório de Herodes",
+          "enderecoNAA": "Atos 23.33-35",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "23.33-35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Mais de quarenta judeus fizeram uma conspiração contra Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.12-13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mais de quarenta judeus fizeram uma conspiração contra Paulo."
+          },
+          {
+            "id": "P02",
+            "text": "Os conspiradores juraram não comer nem beber antes de matar Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.12-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os conspiradores juraram não comer nem beber antes de matar Paulo."
+          },
+          {
+            "id": "P03",
+            "text": "Eles pediram aos sacerdotes e anciãos que usassem o Sinédrio para solicitar a presença de Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.14-15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles pediram aos sacerdotes e anciãos que usassem o Sinédrio para solicitar a presença de Paulo."
+          },
+          {
+            "id": "P04",
+            "text": "A investigação mais cuidadosa seria apenas o pretexto para aproximar Paulo da emboscada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A investigação mais cuidadosa seria apenas o pretexto para aproximar Paulo da emboscada."
+          },
+          {
+            "id": "P05",
+            "text": "O filho da irmã de Paulo ouviu a respeito da trama.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O filho da irmã de Paulo ouviu a respeito da trama."
+          },
+          {
+            "id": "P06",
+            "text": "O rapaz entrou na fortaleza e contou o plano a Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rapaz entrou na fortaleza e contou o plano a Paulo."
+          },
+          {
+            "id": "P07",
+            "text": "Paulo pediu a um centurião que conduzisse o rapaz ao comandante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo pediu a um centurião que conduzisse o rapaz ao comandante."
+          },
+          {
+            "id": "P08",
+            "text": "O comandante levou o rapaz à parte e perguntou o que ele tinha a informar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O comandante levou o rapaz à parte e perguntou o que ele tinha a informar."
+          },
+          {
+            "id": "P09",
+            "text": "O sobrinho explicou tanto o pedido planejado ao Sinédrio quanto a emboscada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.20-21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sobrinho explicou tanto o pedido planejado ao Sinédrio quanto a emboscada."
+          },
+          {
+            "id": "P10",
+            "text": "O comandante mandou o rapaz manter em segredo a informação prestada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O comandante mandou o rapaz manter em segredo a informação prestada."
+          },
+          {
+            "id": "P11",
+            "text": "Dois centuriões receberam a ordem de preparar a transferência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dois centuriões receberam a ordem de preparar a transferência."
+          },
+          {
+            "id": "P12",
+            "text": "A escolta inicial incluía duzentos soldados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A escolta inicial incluía duzentos soldados."
+          },
+          {
+            "id": "P13",
+            "text": "Setenta cavaleiros também foram preparados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Setenta cavaleiros também foram preparados."
+          },
+          {
+            "id": "P14",
+            "text": "A ordem incluiu ainda duzentos lanceiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem incluiu ainda duzentos lanceiros."
+          },
+          {
+            "id": "P15",
+            "text": "A partida para Cesareia foi marcada para as nove horas da noite.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A partida para Cesareia foi marcada para as nove horas da noite."
+          },
+          {
+            "id": "P16",
+            "text": "Animais deveriam transportar Paulo com segurança até o governador Félix.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Animais deveriam transportar Paulo com segurança até o governador Félix."
+          },
+          {
+            "id": "P17",
+            "text": "A carta do comandante identificou remetente e destinatário como Cláudio Lísias e Félix.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.25-26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta do comandante identificou remetente e destinatário como Cláudio Lísias e Félix."
+          },
+          {
+            "id": "P18",
+            "text": "Na carta, Lísias informou que não encontrou acusação que justificasse morte ou prisão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.27-29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na carta, Lísias informou que não encontrou acusação que justificasse morte ou prisão."
+          },
+          {
+            "id": "P19",
+            "text": "A notícia da emboscada foi apresentada como motivo para o envio imediato de Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A notícia da emboscada foi apresentada como motivo para o envio imediato de Paulo."
+          },
+          {
+            "id": "P20",
+            "text": "Durante a noite, os soldados conduziram Paulo até Antipátride.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Durante a noite, os soldados conduziram Paulo até Antipátride."
+          },
+          {
+            "id": "P21",
+            "text": "No dia seguinte, os cavaleiros continuaram com Paulo enquanto os demais voltaram à fortaleza.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No dia seguinte, os cavaleiros continuaram com Paulo enquanto os demais voltaram à fortaleza."
+          },
+          {
+            "id": "P22",
+            "text": "Em Cesareia, os cavaleiros entregaram ao governador a carta e o prisioneiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em Cesareia, os cavaleiros entregaram ao governador a carta e o prisioneiro."
+          },
+          {
+            "id": "P23",
+            "text": "Félix soube que Paulo era da Cilícia e aguardaria a chegada dos acusadores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.34-35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Félix soube que Paulo era da Cilícia e aguardaria a chegada dos acusadores."
+          },
+          {
+            "id": "P24",
+            "text": "Paulo ficou detido no Pretório de Herodes por ordem de Félix.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "23.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo ficou detido no Pretório de Herodes por ordem de Félix."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mais de quarenta homens planejaram matar Paulo; seu sobrinho avisou o comandante, que organizou uma escolta e o enviou a Félix em Cesareia.",
+        "hinge": "A pauta se limita à narrativa e à carta reproduzida em At 23.12-35, sem reconstruir viagens externas ou validar retrospectivamente a versão de Lísias.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "23.12-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+            "checkedAt": "2026-09-13"
           }
         ]
       },

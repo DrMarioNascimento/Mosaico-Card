@@ -413,3 +413,15 @@ Em 12/09/2026, as páginas identificadas como **Nova Almeida Atualizada** de Ato
 - **Auditoria:** zero duplicatas exatas e zero pares semânticos pendentes; os alertas históricos continuam cobertos por resoluções documentadas.
 - **Pendências:** At 21.7-14, At 23.12-35, todos os candidatos ainda enumerados de Romanos–Judas e os de Apocalipse permanecem para rodadas posteriores. O banco **não** está completo.
 - **Operação:** não houve merge, deploy, publicação nem alteração de credenciais ou Firebase.
+
+## Checkpoint 040 — encerramento do lote pequeno de Atos
+
+A rodada partiu do commit `4ef45e4`, confirmado com **114 pautas elegíveis e 2.063 pistas**. Em 13/09/2026, as páginas identificadas como Nova Almeida Atualizada de Atos 21 e 23 em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200 e os dois únicos recortes autorizados foram relidos.
+
+At 21.7-14 originou `nt2-atos-agabo-jerusalem`, com 10 fatos próprios e capacidade de 2–4 participantes. At 23.12-35 originou `nt2-atos-conspiracao-transferencia`, com 24 fatos próprios e capacidade de 2–11. A primeira pauta não completa o sinal de Ágabo por cartas; a segunda distingue conspiração, aviso, escolta e custódia sem validar retrospectivamente cada formulação da carta de Cláudio Lísias.
+
+- **Inventário:** 116 pautas elegíveis e 2.097 pistas; 56 chegam a 12 participantes, uma a 11, quatro a oito, duas a sete, 29 a seis, uma a cinco, dez a quatro e treze a três.
+- **Preservação:** a comparação mecanizada retornou igualdade integral para os 114 objetos anteriores e suas 2.063 pistas; nenhuma correção retroativa foi necessária.
+- **Diff da rodada:** duas pautas e 34 pistas novas na fonte, com regeneração do catálogo e atualização documental deste checkpoint.
+- **Pendências:** os candidatos enumerados de Romanos–Judas e Apocalipse ficam para a próxima base. O banco **não** está completo.
+- **Operação:** não houve merge, deploy, publicação nem alteração de credenciais ou Firebase.

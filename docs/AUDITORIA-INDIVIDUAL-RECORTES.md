@@ -147,3 +147,12 @@ Por isso, conforme a instrução desta rodada, **At 13.4-12, At 14.8-20, At 16.6
 | At 19.11-20 | Atos 19, NAA, HTTP 200; milagres, filhos de Ceva, fuga e queima de livros registrados sem identidade externa. | `nt2-atos-efeso-ceva`, 17 pistas, capacidade 2–8. |
 
 A rodada autorizada encerra nesses cinco recortes. At 21.7-14 e 23.12-35, Romanos–Judas e Apocalipse continuam pendentes; nenhuma ausência foi convertida em exclusão genérica e o banco não é declarado completo.
+
+## Checkpoint 040 — dois recortes finais deste lote de Atos
+
+| Recorte | Consulta NAA e decisão individual | Resultado |
+| --- | --- | --- |
+| At 21.7-14 | Atos 21, NAA, HTTP 200; Ptolemaida, casa de Filipe, sinal de Ágabo e resposta de Paulo conferidos sem recorrer a cronologia epistolar. | `nt2-atos-agabo-jerusalem`, 10 pistas, capacidade 2–4. |
+| At 23.12-35 | Atos 23, NAA, HTTP 200; conspiração, aviso do sobrinho, escolta, carta e custódia distinguidos dentro do próprio relato. | `nt2-atos-conspiracao-transferencia`, 24 pistas, capacidade 2–11. |
+
+A rodada encerra nos dois recortes autorizados, sem forçar uma terceira pauta. Romanos–Judas e Apocalipse permanecem enumerados para a próxima base; o banco não é declarado completo.
