@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 255,
-    "fields": 1020,
-    "editoriallyEligibleCases": 255,
-    "playableCases": 255,
+    "cases": 259,
+    "fields": 1036,
+    "editoriallyEligibleCases": 259,
+    "playableCases": 259,
     "max12Cases": 91
   },
   "order": [
@@ -271,7 +271,11 @@
     "nt2-mateus-genealogia-jesus",
     "nt2-mateus-egito-belem-nazare",
     "nt2-mateus-joao-deserto-batismo",
-    "nt2-mateus-galileia-pescadores-curas"
+    "nt2-mateus-galileia-pescadores-curas",
+    "nt2-mateus-leproso-purificacao",
+    "nt2-mateus-sogra-seguidores",
+    "nt2-mateus-gadarenos-porcos",
+    "nt2-mateus-chamado-mesa-jejum"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -178368,6 +178372,2395 @@
             "passage": "4.12-25",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-leproso-purificacao": {
+      "id": "nt2-mateus-leproso-purificacao",
+      "kind": "canonical-case",
+      "title": "O leproso e a purificação",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 8.1-4",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.1-4",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Como o leproso abordou Jesus, o que ocorreu na purificação e quais instruções recebeu depois?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, ações, respostas e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A oferta e Moisés aparecem apenas na instrução registrada por Mateus; nenhum conteúdo de Levítico ou explicação ritual externa foi acrescentado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o leproso declarou que Jesus poderia fazer se quisesse",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Purificá-lo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Curar seu servo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Acalmar o mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Perdoar uma dívida"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Purificá-lo",
+          "enderecoNAA": "Mateus 8.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como Jesus respondeu ao pedido",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Tocou nele e ordenou que ficasse limpo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mandou-o entrar num barco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Chamou os discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pediu que voltasse no dia seguinte"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Tocou nele e ordenou que ficasse limpo",
+          "enderecoNAA": "Mateus 8.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quando ele ficou limpo da lepra",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "No mesmo instante"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ao cair da tarde"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Depois de sete dias"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quando chegou à cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "No mesmo instante",
+          "enderecoNAA": "Mateus 8.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem Jesus mandou que ele se apresentasse",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao sacerdote"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ao centurião"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Aos escribas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Aos pescadores"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao sacerdote",
+          "enderecoNAA": "Mateus 8.4",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus desceu do monte antes de a abordagem acontecer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus desceu do monte antes de a abordagem acontecer."
+          },
+          {
+            "id": "P02",
+            "text": "Um homem com lepra aproximou-se e adorou Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um homem com lepra aproximou-se e adorou Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "O homem condicionou seu pedido à vontade de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem condicionou seu pedido à vontade de Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "O pedido foi para ser purificado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido foi para ser purificado."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus estendeu a mão e tocou no homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estendeu a mão e tocou no homem."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus afirmou que queria e ordenou que ele ficasse limpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que queria e ordenou que ele ficasse limpo."
+          },
+          {
+            "id": "P07",
+            "text": "A lepra foi removida naquele mesmo instante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lepra foi removida naquele mesmo instante."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus ordenou que o homem não contasse o ocorrido a ninguém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que o homem não contasse o ocorrido a ninguém."
+          },
+          {
+            "id": "P09",
+            "text": "O homem deveria apresentar-se ao sacerdote.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem deveria apresentar-se ao sacerdote."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus também mandou fazer a oferta ordenada por Moisés como testemunho ao povo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus também mandou fazer a oferta ordenada por Moisés como testemunho ao povo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 8.1-4 registra a aproximação de um leproso, o toque e a ordem de Jesus, a purificação imediata e as instruções posteriores.",
+        "hinge": "A oferta e Moisés aparecem apenas na instrução registrada por Mateus; nenhum conteúdo de Levítico ou explicação ritual externa foi acrescentado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.1-4",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-sogra-seguidores": {
+      "id": "nt2-mateus-sogra-seguidores",
+      "kind": "canonical-case",
+      "title": "A sogra de Pedro e os seguidores",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 8.14-22",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.14-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus fez na casa de Pedro, como agiu ao cair da tarde e o que respondeu a dois possíveis seguidores?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, ações, respostas e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A fala atribuída a Isaías e as imagens sobre moradia e sepultamento permanecem dentro do texto de Mateus, sem completar o Antigo Testamento nem impor interpretação externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem Jesus encontrou acamada e com febre",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A sogra de Pedro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A filha de um chefe"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A mãe de Tiago"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma serva do centurião"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A sogra de Pedro",
+          "enderecoNAA": "Mateus 8.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a mulher fez depois que a febre a deixou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Levantou-se e passou a servir Jesus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Voltou para sua cidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Chamou os sacerdotes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Entrou num barco"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Levantou-se e passou a servir Jesus",
+          "enderecoNAA": "Mateus 8.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como Jesus expulsou os espíritos trazidos ao cair da tarde",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Com a palavra"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Com água"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Com óleo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Com uma oferta"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Com a palavra",
+          "enderecoNAA": "Mateus 8.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que ordem encerrou a resposta ao discípulo que queria sepultar o pai",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Seguir Jesus e deixar os mortos sepultarem seus mortos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Voltar depois do sepultamento"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Permanecer naquela casa"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Chamar primeiro o escriba"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Seguir Jesus e deixar os mortos sepultarem seus mortos",
+          "enderecoNAA": "Mateus 8.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chegou à casa de Pedro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chegou à casa de Pedro."
+          },
+          {
+            "id": "P02",
+            "text": "A pessoa acamada era a sogra de Pedro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa acamada era a sogra de Pedro."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus informa que ela estava com febre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus informa que ela estava com febre."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus tomou a mulher pela mão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus tomou a mulher pela mão."
+          },
+          {
+            "id": "P05",
+            "text": "A febre deixou a mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A febre deixou a mulher."
+          },
+          {
+            "id": "P06",
+            "text": "Ela se levantou após a cura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela se levantou após a cura."
+          },
+          {
+            "id": "P07",
+            "text": "Depois de levantar-se, ela passou a servir Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de levantar-se, ela passou a servir Jesus."
+          },
+          {
+            "id": "P08",
+            "text": "Ao cair da tarde, muitos endemoniados foram levados a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao cair da tarde, muitos endemoniados foram levados a Jesus."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus expulsou os espíritos apenas com a palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus expulsou os espíritos apenas com a palavra."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus curou todos os doentes que foram levados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curou todos os doentes que foram levados."
+          },
+          {
+            "id": "P11",
+            "text": "Mateus apresenta essas ações como cumprimento de fala atribuída a Isaías.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus apresenta essas ações como cumprimento de fala atribuída a Isaías."
+          },
+          {
+            "id": "P12",
+            "text": "Ao ver muita gente ao redor, Jesus ordenou a passagem para a outra margem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao ver muita gente ao redor, Jesus ordenou a passagem para a outra margem."
+          },
+          {
+            "id": "P13",
+            "text": "Um escriba declarou que seguiria Jesus aonde ele fosse.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um escriba declarou que seguiria Jesus aonde ele fosse."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus contrapôs tocas de raposas e ninhos de aves à falta de lugar do Filho do Homem para reclinar a cabeça.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrapôs tocas de raposas e ninhos de aves à falta de lugar do Filho do Homem para reclinar a cabeça."
+          },
+          {
+            "id": "P15",
+            "text": "Outro interlocutor é identificado como discípulo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro interlocutor é identificado como discípulo."
+          },
+          {
+            "id": "P16",
+            "text": "Esse discípulo pediu para primeiro sepultar o pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse discípulo pediu para primeiro sepultar o pai."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus ordenou que ele o seguisse e deixasse os mortos sepultarem seus mortos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que ele o seguisse e deixasse os mortos sepultarem seus mortos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 8.14-22 reúne a cura da sogra de Pedro, curas ao cair da tarde e respostas de Jesus a dois interlocutores sobre segui-lo.",
+        "hinge": "A fala atribuída a Isaías e as imagens sobre moradia e sepultamento permanecem dentro do texto de Mateus, sem completar o Antigo Testamento nem impor interpretação externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.14-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-gadarenos-porcos": {
+      "id": "nt2-mateus-gadarenos-porcos",
+      "kind": "canonical-case",
+      "title": "Os gadarenos e a manada",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 8.28-34",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.28-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem encontrou Jesus na terra dos gadarenos, que pedido foi feito e como a manada e a cidade reagiram?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, ações, respostas e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A pauta preserva número, lugar e sequência próprios de Mateus; não identifica os homens com personagens de paralelos nem presume que relatos semelhantes sejam a mesma ocasião."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos endemoniados Mateus apresenta saindo dos túmulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Dois"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Doze"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Dois",
+          "enderecoNAA": "Mateus 8.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Para onde os demônios pediram que Jesus os mandasse",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Para a manada de porcos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Para a cidade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Para o barco"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Para os montes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Para a manada de porcos",
+          "enderecoNAA": "Mateus 8.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que aconteceu com toda a manada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Precipitou-se no mar e morreu nas águas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Foi conduzida à cidade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Permaneceu pastando"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Espalhou-se pelos túmulos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Precipitou-se no mar e morreu nas águas",
+          "enderecoNAA": "Mateus 8.32",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que a cidade pediu a Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que se retirasse da terra deles"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que permanecesse ali"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que entrasse nos túmulos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que chamasse os sacerdotes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que se retirasse da terra deles",
+          "enderecoNAA": "Mateus 8.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "8.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chegou à outra margem, na terra dos gadarenos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chegou à outra margem, na terra dos gadarenos."
+          },
+          {
+            "id": "P02",
+            "text": "Mateus apresenta dois endemoniados indo ao encontro de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus apresenta dois endemoniados indo ao encontro de Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "Eles saíram dentre os túmulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles saíram dentre os túmulos."
+          },
+          {
+            "id": "P04",
+            "text": "A fúria deles impedia a passagem por aquele caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fúria deles impedia a passagem por aquele caminho."
+          },
+          {
+            "id": "P05",
+            "text": "Os dois gritaram e chamaram Jesus de Filho de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois gritaram e chamaram Jesus de Filho de Deus."
+          },
+          {
+            "id": "P06",
+            "text": "A pergunta deles mencionou tormento antes do tempo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta deles mencionou tormento antes do tempo."
+          },
+          {
+            "id": "P07",
+            "text": "Uma grande manada de porcos pastava não longe dali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma grande manada de porcos pastava não longe dali."
+          },
+          {
+            "id": "P08",
+            "text": "Os demônios pediram com insistência para serem mandados à manada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os demônios pediram com insistência para serem mandados à manada."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus respondeu com uma ordem breve para que fossem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu com uma ordem breve para que fossem."
+          },
+          {
+            "id": "P10",
+            "text": "Ao saírem, eles entraram nos porcos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao saírem, eles entraram nos porcos."
+          },
+          {
+            "id": "P11",
+            "text": "Toda a manada se precipitou despenhadeiro abaixo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a manada se precipitou despenhadeiro abaixo."
+          },
+          {
+            "id": "P12",
+            "text": "Os porcos entraram no mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os porcos entraram no mar."
+          },
+          {
+            "id": "P13",
+            "text": "A manada morreu nas águas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A manada morreu nas águas."
+          },
+          {
+            "id": "P14",
+            "text": "Os tratadores fugiram e foram à cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os tratadores fugiram e foram à cidade."
+          },
+          {
+            "id": "P15",
+            "text": "Eles anunciaram o ocorrido, inclusive o que sucedera aos endemoniados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles anunciaram o ocorrido, inclusive o que sucedera aos endemoniados."
+          },
+          {
+            "id": "P16",
+            "text": "Toda a cidade saiu, viu Jesus e insistiu para que ele deixasse a terra deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a cidade saiu, viu Jesus e insistiu para que ele deixasse a terra deles."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 8.28-34 apresenta dois endemoniados na terra dos gadarenos, o pedido relativo à manada, a morte dos porcos e a reação da cidade.",
+        "hinge": "A pauta preserva número, lugar e sequência próprios de Mateus; não identifica os homens com personagens de paralelos nem presume que relatos semelhantes sejam a mesma ocasião.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "8.28-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-chamado-mesa-jejum": {
+      "id": "nt2-mateus-chamado-mesa-jejum",
+      "kind": "canonical-case",
+      "title": "Chamado, mesa e jejum",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 9.9-17",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "9.9-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Como Mateus foi chamado, quem se reuniu à mesa e que respostas Jesus deu sobre companhia e jejum?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, ações, respostas e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "As citações e comparações ficam atribuídas a Jesus no recorte; não se completa Oseias, não se define externamente cada grupo e não se transforma as imagens em alegoria."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde Mateus estava quando Jesus o chamou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sentado na coletoria"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Dentro de uma sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Num barco no mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Na casa de Pedro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sentado na coletoria",
+          "enderecoNAA": "Mateus 9.9",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "9.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem tomou lugar à mesa com Jesus e seus discípulos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Muitos publicanos e pecadores"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Somente os fariseus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Soldados e centuriões"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Sacerdotes e levitas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Muitos publicanos e pecadores",
+          "enderecoNAA": "Mateus 9.10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "9.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A quem Jesus comparou os que precisam de médico",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Aos doentes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Aos convidados"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Aos pescadores"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Aos trabalhadores"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Aos doentes",
+          "enderecoNAA": "Mateus 9.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "9.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que duas imagens materiais Jesus usou ao responder sobre jejum",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Remendo e roupa; vinho e odres"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Semente e solo; trigo e joio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Rede e peixes; lâmpada e cesto"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Talentos e moedas; ovelhas e cabritos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Remendo e roupa; vinho e odres",
+          "enderecoNAA": "Mateus 9.16-17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "9.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Ao sair dali, Jesus viu um homem chamado Mateus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao sair dali, Jesus viu um homem chamado Mateus."
+          },
+          {
+            "id": "P02",
+            "text": "Mateus estava sentado na coletoria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus estava sentado na coletoria."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus disse a Mateus que o seguisse.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse a Mateus que o seguisse."
+          },
+          {
+            "id": "P04",
+            "text": "Mateus se levantou e seguiu Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus se levantou e seguiu Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus esteve à mesa na casa de Mateus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus esteve à mesa na casa de Mateus."
+          },
+          {
+            "id": "P06",
+            "text": "Muitos publicanos e pecadores chegaram à mesa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos publicanos e pecadores chegaram à mesa."
+          },
+          {
+            "id": "P07",
+            "text": "Eles tomaram lugares com Jesus e seus discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles tomaram lugares com Jesus e seus discípulos."
+          },
+          {
+            "id": "P08",
+            "text": "Os fariseus perguntaram aos discípulos por que o Mestre comia com esses grupos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus perguntaram aos discípulos por que o Mestre comia com esses grupos."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus ouviu a pergunta dirigida aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ouviu a pergunta dirigida aos discípulos."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus afirmou que os sãos não precisam de médico.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que os sãos não precisam de médico."
+          },
+          {
+            "id": "P11",
+            "text": "Na comparação de Jesus, os doentes precisam de médico.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação de Jesus, os doentes precisam de médico."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus mandou aprender o significado da preferência por misericórdia, não sacrifício.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou aprender o significado da preferência por misericórdia, não sacrifício."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus declarou que veio chamar pecadores, e não justos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que veio chamar pecadores, e não justos."
+          },
+          {
+            "id": "P14",
+            "text": "Os discípulos de João perguntaram por que eles e os fariseus jejuavam, mas os discípulos de Jesus não.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos de João perguntaram por que eles e os fariseus jejuavam, mas os discípulos de Jesus não."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus comparou sua presença à do noivo com convidados de casamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou sua presença à do noivo com convidados de casamento."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus anunciou dias em que o noivo seria tirado e então haveria jejum.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou dias em que o noivo seria tirado e então haveria jejum."
+          },
+          {
+            "id": "P17",
+            "text": "Um remendo de pano novo em roupa velha aumentaria o rasgo, segundo a comparação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um remendo de pano novo em roupa velha aumentaria o rasgo, segundo a comparação."
+          },
+          {
+            "id": "P18",
+            "text": "Vinho novo em odres velhos romperia os recipientes e derramaria o vinho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Vinho novo em odres velhos romperia os recipientes e derramaria o vinho."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus concluiu a imagem dizendo que vinho novo é posto em odres novos, preservando ambos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus concluiu a imagem dizendo que vinho novo é posto em odres novos, preservando ambos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 9.9-17 registra o chamado de Mateus, a mesa com publicanos e pecadores e respostas de Jesus sobre os doentes, o chamado e o jejum.",
+        "hinge": "As citações e comparações ficam atribuídas a Jesus no recorte; não se completa Oseias, não se define externamente cada grupo e não se transforma as imagens em alegoria.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "9.9-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.9.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -222,3 +222,9 @@ Sem abrir outras páginas ou autorar fora de Mt 25, a revisão documental de Mt 
 A consulta efetiva das páginas NAA Bible.com 1840 de Mt 1–4 ficou restrita a 1.1-17, 2.13-23, 3.1-12 e 4.12-25. Quatro pautas/84 pistas foram anexadas aos 251 objetos preservados serialmente, levando o banco a **255 pautas/1.020 campos/4.988 pistas** e Mateus a **71 pautas/1.390 pistas que citam o livro**. As capacidades são 11, 9, 9 e 10.
 
 Nenhum recorte autorizado ficou sem decisão. A ficha registra a matriz individual e combina-a às decisões anteriores das unidades adjacentes, sem declarar Mateus completo. Mt 8–9, 14–17 e 26–28 permanecem posteriores; Mt 23.14 continua pendência textual específica e dúvidas de 1Co seguem preservadas.
+
+## Checkpoint 081 — lote limitado de Mateus 8–9
+
+A consulta efetiva e leitura verso a verso das páginas NAA Bible.com 1840 de Mt 8–9 acrescentaram quatro pautas/62 pistas aos 255 objetos preservados serialmente. O banco passa a **259 pautas/1.036 campos/5.050 pistas**, e Mateus a **75 pautas/1.452 pistas que citam o livro**. As capacidades novas são 4, 8, 7 e 9, sem piso de 25 pistas ou meta de 12 participantes.
+
+A comparação confirmou pautas anteriores para Mt 8.23-27, 9.1-8 e 9.18-26. **Mt 8–9 permanece em andamento:** Mt 8.5-13, 9.27-31, 9.32-34 e 9.35-38 ficaram individualizados com matrizes na ficha por limite deste lote, não por exclusão ou insuficiência. Mt 14–17 e 26–28 ficam posteriores; Mt 23.14 e as dúvidas de 1Co permanecem preservados. O banco não está completo.
