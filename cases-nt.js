@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-052",
+  "catalogVersion": "2026-09-13-checkpoint-055",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 168,
-    "fields": 672,
-    "editoriallyEligibleCases": 168,
-    "playableCases": 168,
-    "max12Cases": 63
+    "cases": 172,
+    "fields": 688,
+    "editoriallyEligibleCases": 172,
+    "playableCases": 172,
+    "max12Cases": 66
   },
   "order": [
     "nt2-joao-cana",
@@ -184,7 +184,11 @@
     "nt2-1pedro-amor-hospitalidade-dons",
     "nt2-1pedro-prova-sofrimento-fiel-criador",
     "nt2-1pedro-pastoreio-humildade-firmeza-saudacoes",
-    "nt2-2pedro-fe-virtudes-memoria"
+    "nt2-2pedro-fe-virtudes-memoria",
+    "nt2-1joao-testemunho-luz-confissao",
+    "nt2-1joao-advogado-mandamentos-amor-mundo",
+    "nt2-1joao-anticristos-uncao-permanencia",
+    "nt2-1joao-filhos-amor-confianca"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -113089,6 +113093,3312 @@
             "passage": "1.1-15",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1joao-testemunho-luz-confissao": {
+      "id": "nt2-1joao-testemunho-luz-confissao",
+      "kind": "canonical-case",
+      "title": "Testemunho, comunhão, luz e confissão",
+      "canon": {
+        "book": "1 João",
+        "referenceNAA": "1 João 1.1-10",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "1.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 João 1, como a carta liga o testemunho sobre a vida, a comunhão, o andar na luz e a confissão dos pecados?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A mensagem de que Deus é luz organiza os contrastes entre comunhão declarada, conduta, verdade e purificação.",
+      "editorial": {
+        "hinge": "O mesmo anúncio testemunhado conduz da manifestação da vida à comunhão e, pela afirmação de que Deus é luz, aos testes de conduta e confissão."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual mensagem organiza o contraste do capítulo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Deus é luz e nele não há treva nenhuma"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Deus alterna entre luz e trevas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A comunhão dispensa a verdade"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "As trevas purificam do pecado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Deus é luz e nele não há treva nenhuma",
+          "enderecoNAA": "1 João 1.5",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "1.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os remetentes anunciam",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O que ouviram, viram, contemplaram e apalparam a respeito do Verbo da vida"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma tradição que não testemunharam"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma cronologia dos anticristos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma identidade externa para os leitores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O que ouviram, viram, contemplaram e apalparam a respeito do Verbo da vida",
+          "enderecoNAA": "1 João 1.1-3",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "1.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que resulta de andar na luz",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Comunhão mútua e purificação pelo sangue de Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ausência automática de qualquer pecado"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Separação entre os irmãos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Negação da necessidade de confissão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Comunhão mútua e purificação pelo sangue de Jesus",
+          "enderecoNAA": "1 João 1.7",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "1.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que a carta afirma sobre confessar os pecados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Deus é fiel e justo para perdoar e purificar de toda injustiça"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A confissão faz de Deus mentiroso"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A palavra deixa de estar nos confessantes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O perdão depende de negar o pecado"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Deus é fiel e justo para perdoar e purificar de toda injustiça",
+          "enderecoNAA": "1 João 1.9",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "1.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O anúncio trata daquilo que era desde o princípio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio trata daquilo que era desde o princípio."
+          },
+          {
+            "id": "P02",
+            "text": "Os remetentes afirmam ter ouvido aquilo de que falam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os remetentes afirmam ter ouvido aquilo de que falam."
+          },
+          {
+            "id": "P03",
+            "text": "Eles afirmam ter visto com os próprios olhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles afirmam ter visto com os próprios olhos."
+          },
+          {
+            "id": "P04",
+            "text": "Eles também dizem ter contemplado e apalpado com as mãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles também dizem ter contemplado e apalpado com as mãos."
+          },
+          {
+            "id": "P05",
+            "text": "O testemunho é a respeito do Verbo da vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O testemunho é a respeito do Verbo da vida."
+          },
+          {
+            "id": "P06",
+            "text": "A vida se manifestou e foi vista pelos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida se manifestou e foi vista pelos remetentes."
+          },
+          {
+            "id": "P07",
+            "text": "A vida anunciada é chamada eterna e estava com o Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida anunciada é chamada eterna e estava com o Pai."
+          },
+          {
+            "id": "P08",
+            "text": "O anúncio visa incluir os destinatários na comunhão dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio visa incluir os destinatários na comunhão dos remetentes."
+          },
+          {
+            "id": "P09",
+            "text": "A comunhão declarada é com o Pai e com seu Filho, Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comunhão declarada é com o Pai e com seu Filho, Jesus Cristo."
+          },
+          {
+            "id": "P10",
+            "text": "A escrita destas coisas tem por finalidade completar a alegria dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A escrita destas coisas tem por finalidade completar a alegria dos remetentes."
+          },
+          {
+            "id": "P11",
+            "text": "A mensagem ouvida e anunciada declara que Deus é luz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem ouvida e anunciada declara que Deus é luz."
+          },
+          {
+            "id": "P12",
+            "text": "A carta afirma que não há treva nenhuma em Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta afirma que não há treva nenhuma em Deus."
+          },
+          {
+            "id": "P13",
+            "text": "Declarar comunhão enquanto se anda nas trevas é associado à mentira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Declarar comunhão enquanto se anda nas trevas é associado à mentira."
+          },
+          {
+            "id": "P14",
+            "text": "Quem anda nas trevas não pratica a verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem anda nas trevas não pratica a verdade."
+          },
+          {
+            "id": "P15",
+            "text": "Andar na luz é relacionado à comunhão uns com os outros.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Andar na luz é relacionado à comunhão uns com os outros."
+          },
+          {
+            "id": "P16",
+            "text": "O sangue de Jesus, Filho de Deus, é relacionado à purificação de todo pecado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sangue de Jesus, Filho de Deus, é relacionado à purificação de todo pecado."
+          },
+          {
+            "id": "P17",
+            "text": "Alegar não ter pecado é descrito como enganar a si mesmo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alegar não ter pecado é descrito como enganar a si mesmo."
+          },
+          {
+            "id": "P18",
+            "text": "Nessa alegação, a verdade não está em quem fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa alegação, a verdade não está em quem fala."
+          },
+          {
+            "id": "P19",
+            "text": "A confissão dos pecados encontra Deus apresentado como fiel e justo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A confissão dos pecados encontra Deus apresentado como fiel e justo."
+          },
+          {
+            "id": "P20",
+            "text": "Perdão dos pecados e purificação de toda injustiça são ligados à confissão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Perdão dos pecados e purificação de toda injustiça são ligados à confissão."
+          },
+          {
+            "id": "P21",
+            "text": "Alegar não ter cometido pecado faz de Deus mentiroso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alegar não ter cometido pecado faz de Deus mentiroso."
+          },
+          {
+            "id": "P22",
+            "text": "Nessa última alegação, a palavra de Deus não está em quem fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa última alegação, a palavra de Deus não está em quem fala."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 João 1 apresenta um testemunho do que foi ouvido, visto e tocado, anuncia comunhão com o Pai e o Filho e contrasta andar na luz, negação do pecado e confissão.",
+        "hinge": "O mesmo anúncio testemunhado conduz da manifestação da vida à comunhão e, pela afirmação de que Deus é luz, aos testes de conduta e confissão.",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "1.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1joao-advogado-mandamentos-amor-mundo": {
+      "id": "nt2-1joao-advogado-mandamentos-amor-mundo",
+      "kind": "canonical-case",
+      "title": "Advogado, mandamentos, amor fraterno e mundo",
+      "canon": {
+        "book": "1 João",
+        "referenceNAA": "1 João 2.1-17",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "2.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 João 2.1-17, como a carta relaciona o Advogado, o conhecimento de Deus, o amor ao irmão e a oposição entre o Pai e o mundo?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "Guardar mandamentos e palavra é o teste central pelo qual a carta avalia a alegação de conhecer e permanecer em Deus.",
+      "editorial": {
+        "hinge": "O bloco conecta alegações de relação com Deus a critérios atribuídos pela carta: guardar, andar, amar e não orientar o amor ao mundo passageiro."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como se reconhece que alguém conhece a Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pelo guardar de seus mandamentos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pela simples afirmação verbal"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pela idade do leitor"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pelo amor às coisas do mundo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pelo guardar de seus mandamentos",
+          "enderecoNAA": "1 João 2.3-5",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.3-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem a carta apresenta junto ao Pai se alguém pecar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Jesus Cristo, o Justo, como Advogado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um anjo sem nome como juiz"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O autor como mediador"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os pais como defensores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Jesus Cristo, o Justo, como Advogado",
+          "enderecoNAA": "1 João 2.1",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que contraste mostra permanência na luz ou nas trevas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Amar o irmão permanece na luz; odiá-lo permanece nas trevas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Amar o mundo permanece na luz"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Odiar o irmão aperfeiçoa o amor"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Conhecer o Pai torna a conduta irrelevante"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Amar o irmão permanece na luz; odiá-lo permanece nas trevas",
+          "enderecoNAA": "1 João 2.9-11",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.9-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que oposição encerra o bloco",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O mundo e seus desejos passam; quem faz a vontade de Deus permanece"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O mundo permanece e a vontade passa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os desejos do mundo procedem do Pai"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A soberba da vida garante permanência"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O mundo e seus desejos passam; quem faz a vontade de Deus permanece",
+          "enderecoNAA": "1 João 2.15-17",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.15-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A finalidade declarada da escrita é que os destinatários não pequem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade declarada da escrita é que os destinatários não pequem."
+          },
+          {
+            "id": "P02",
+            "text": "Se alguém pecar, a carta afirma haver Advogado junto ao Pai.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Se alguém pecar, a carta afirma haver Advogado junto ao Pai."
+          },
+          {
+            "id": "P03",
+            "text": "O Advogado é identificado como Jesus Cristo, o Justo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Advogado é identificado como Jesus Cristo, o Justo."
+          },
+          {
+            "id": "P04",
+            "text": "Cristo é apresentado como propiciação pelos pecados dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é apresentado como propiciação pelos pecados dos remetentes."
+          },
+          {
+            "id": "P05",
+            "text": "A abrangência também inclui os pecados do mundo inteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A abrangência também inclui os pecados do mundo inteiro."
+          },
+          {
+            "id": "P06",
+            "text": "Guardar os mandamentos é o critério declarado para saber que alguém o conhece.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Guardar os mandamentos é o critério declarado para saber que alguém o conhece."
+          },
+          {
+            "id": "P07",
+            "text": "Quem alega conhecê-lo sem guardar os mandamentos é chamado mentiroso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem alega conhecê-lo sem guardar os mandamentos é chamado mentiroso."
+          },
+          {
+            "id": "P08",
+            "text": "A verdade não está naquele cuja alegação contradiz sua desobediência.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A verdade não está naquele cuja alegação contradiz sua desobediência."
+          },
+          {
+            "id": "P09",
+            "text": "Em quem guarda a palavra, o amor de Deus é apresentado como aperfeiçoado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em quem guarda a palavra, o amor de Deus é apresentado como aperfeiçoado."
+          },
+          {
+            "id": "P10",
+            "text": "Quem diz permanecer nele deve andar como ele andou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem diz permanecer nele deve andar como ele andou."
+          },
+          {
+            "id": "P11",
+            "text": "O mandamento antigo é relacionado à palavra ouvida desde o princípio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mandamento antigo é relacionado à palavra ouvida desde o princípio."
+          },
+          {
+            "id": "P12",
+            "text": "O mandamento também é chamado novo, enquanto as trevas se dissipam e a verdadeira luz brilha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mandamento também é chamado novo, enquanto as trevas se dissipam e a verdadeira luz brilha."
+          },
+          {
+            "id": "P13",
+            "text": "Dizer estar na luz enquanto se odeia o irmão significa ainda estar nas trevas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dizer estar na luz enquanto se odeia o irmão significa ainda estar nas trevas."
+          },
+          {
+            "id": "P14",
+            "text": "Quem ama o irmão permanece na luz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem ama o irmão permanece na luz."
+          },
+          {
+            "id": "P15",
+            "text": "No que ama o irmão, a carta afirma não haver tropeço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No que ama o irmão, a carta afirma não haver tropeço."
+          },
+          {
+            "id": "P16",
+            "text": "Quem odeia o irmão anda nas trevas e não sabe para onde vai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem odeia o irmão anda nas trevas e não sabe para onde vai."
+          },
+          {
+            "id": "P17",
+            "text": "A carta atribui essa desorientação às trevas que cegaram os olhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta atribui essa desorientação às trevas que cegaram os olhos."
+          },
+          {
+            "id": "P18",
+            "text": "Os filhinhos recebem a afirmação de que seus pecados são perdoados por causa do nome de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os filhinhos recebem a afirmação de que seus pecados são perdoados por causa do nome de Jesus."
+          },
+          {
+            "id": "P19",
+            "text": "Os pais são associados ao conhecimento daquele que existe desde o princípio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.13-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os pais são associados ao conhecimento daquele que existe desde o princípio."
+          },
+          {
+            "id": "P20",
+            "text": "Os jovens são chamados fortes, com a palavra de Deus permanecendo neles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os jovens são chamados fortes, com a palavra de Deus permanecendo neles."
+          },
+          {
+            "id": "P21",
+            "text": "Aos jovens também é atribuída vitória sobre o Maligno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.13-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos jovens também é atribuída vitória sobre o Maligno."
+          },
+          {
+            "id": "P22",
+            "text": "A carta ordena não amar o mundo nem as coisas que nele há.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta ordena não amar o mundo nem as coisas que nele há."
+          },
+          {
+            "id": "P23",
+            "text": "Desejos da carne, desejos dos olhos e soberba da vida são atribuídos ao mundo, não ao Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desejos da carne, desejos dos olhos e soberba da vida são atribuídos ao mundo, não ao Pai."
+          },
+          {
+            "id": "P24",
+            "text": "O mundo e seus desejos são apresentados como passageiros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mundo e seus desejos são apresentados como passageiros."
+          },
+          {
+            "id": "P25",
+            "text": "Quem faz a vontade de Deus é apresentado como alguém que permanece para sempre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem faz a vontade de Deus é apresentado como alguém que permanece para sempre."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 João 2.1-17 apresenta Jesus Cristo como Advogado e propiciação, testa o conhecimento pelo guardar dos mandamentos, contrapõe amor e ódio ao irmão e distingue a vontade de Deus dos desejos do mundo.",
+        "hinge": "O bloco conecta alegações de relação com Deus a critérios atribuídos pela carta: guardar, andar, amar e não orientar o amor ao mundo passageiro.",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "2.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1joao-anticristos-uncao-permanencia": {
+      "id": "nt2-1joao-anticristos-uncao-permanencia",
+      "kind": "canonical-case",
+      "title": "Anticristos, unção, verdade e permanência",
+      "canon": {
+        "book": "1 João",
+        "referenceNAA": "1 João 2.18-29",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "2.18-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 João 2.18-29, como a carta descreve os anticristos, a negação sobre Jesus, a unção dos destinatários e o chamado a permanecer?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A identificação textual do anticristo pela negação de Jesus como o Cristo delimita o contraste sem recorrer a pessoas ou instituições externas.",
+      "editorial": {
+        "hinge": "A pauta conserva apenas as identificações internas da carta: saída, negação, tentativa de engano, unção, confissão e permanência, sem atribuir o termo anticristo a identidades externas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem a própria carta chama de anticristo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Quem nega que Jesus é o Cristo e nega o Pai e o Filho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma pessoa histórica nomeada fora da carta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Todo governante de uma época posterior"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Qualquer leitor que faça uma pergunta"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Quem nega que Jesus é o Cristo e nega o Pai e o Filho",
+          "enderecoNAA": "1 João 2.22",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que a saída de alguns do meio da comunidade manifesta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que eles não eram dos que permaneceram"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que todos os destinatários sairiam"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que a verdade procede da mentira"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que a comunidade deveria nomeá-los externamente"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Que eles não eram dos que permaneceram",
+          "enderecoNAA": "1 João 2.19",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que deve permanecer nos destinatários",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Aquilo que ouviram desde o princípio e a unção recebida"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Uma cronologia externa da última hora"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma identidade secreta para cada enganador"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Somente o conhecimento dos pais"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Aquilo que ouviram desde o princípio e a unção recebida",
+          "enderecoNAA": "1 João 2.24-27",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.24-27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Com que finalidade os filhinhos devem permanecer nele",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para ter confiança na manifestação dele e não se afastar envergonhados"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para calcular o dia da vinda"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para negar a promessa da vida eterna"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para dispensar a prática da justiça"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para ter confiança na manifestação dele e não se afastar envergonhados",
+          "enderecoNAA": "1 João 2.28-29",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "2.28-29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A carta chama o momento de última hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta chama o momento de última hora."
+          },
+          {
+            "id": "P02",
+            "text": "Os leitores tinham ouvido que o anticristo vem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores tinham ouvido que o anticristo vem."
+          },
+          {
+            "id": "P03",
+            "text": "A carta afirma que muitos anticristos já haviam surgido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta afirma que muitos anticristos já haviam surgido."
+          },
+          {
+            "id": "P04",
+            "text": "O surgimento de muitos anticristos fundamenta, no texto, o reconhecimento da última hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O surgimento de muitos anticristos fundamenta, no texto, o reconhecimento da última hora."
+          },
+          {
+            "id": "P05",
+            "text": "Alguns saíram do meio da comunidade, mas não eram dos seus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns saíram do meio da comunidade, mas não eram dos seus."
+          },
+          {
+            "id": "P06",
+            "text": "A carta raciocina que, se fossem dos seus, teriam permanecido com eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta raciocina que, se fossem dos seus, teriam permanecido com eles."
+          },
+          {
+            "id": "P07",
+            "text": "A saída tornou manifesto que nenhum deles era dos seus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A saída tornou manifesto que nenhum deles era dos seus."
+          },
+          {
+            "id": "P08",
+            "text": "Os destinatários têm unção procedente do Santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários têm unção procedente do Santo."
+          },
+          {
+            "id": "P09",
+            "text": "A carta atribui conhecimento a todos os destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta atribui conhecimento a todos os destinatários."
+          },
+          {
+            "id": "P10",
+            "text": "Eles recebem a escrita porque conhecem a verdade, não porque a desconhecem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles recebem a escrita porque conhecem a verdade, não porque a desconhecem."
+          },
+          {
+            "id": "P11",
+            "text": "Nenhuma mentira é apresentada como procedente da verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nenhuma mentira é apresentada como procedente da verdade."
+          },
+          {
+            "id": "P12",
+            "text": "O mentiroso é identificado como aquele que nega que Jesus é o Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mentiroso é identificado como aquele que nega que Jesus é o Cristo."
+          },
+          {
+            "id": "P13",
+            "text": "O termo anticristo é aplicado a quem nega o Pai e o Filho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O termo anticristo é aplicado a quem nega o Pai e o Filho."
+          },
+          {
+            "id": "P14",
+            "text": "Quem nega o Filho não tem o Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem nega o Filho não tem o Pai."
+          },
+          {
+            "id": "P15",
+            "text": "Quem confessa o Filho tem igualmente o Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem confessa o Filho tem igualmente o Pai."
+          },
+          {
+            "id": "P16",
+            "text": "A carta ordena que permaneça neles o que ouviram desde o princípio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta ordena que permaneça neles o que ouviram desde o princípio."
+          },
+          {
+            "id": "P17",
+            "text": "Essa permanência é ligada a permanecer no Filho e no Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa permanência é ligada a permanecer no Filho e no Pai."
+          },
+          {
+            "id": "P18",
+            "text": "A promessa feita por ele é identificada como vida eterna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa feita por ele é identificada como vida eterna."
+          },
+          {
+            "id": "P19",
+            "text": "O autor escreve a respeito dos que tentam enganar os destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor escreve a respeito dos que tentam enganar os destinatários."
+          },
+          {
+            "id": "P20",
+            "text": "A unção recebida permanece nos destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A unção recebida permanece nos destinatários."
+          },
+          {
+            "id": "P21",
+            "text": "A unção é descrita como verdadeira e não falsa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A unção é descrita como verdadeira e não falsa."
+          },
+          {
+            "id": "P22",
+            "text": "A instrução transmitida pela unção culmina no chamado a permanecer nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução transmitida pela unção culmina no chamado a permanecer nele."
+          },
+          {
+            "id": "P23",
+            "text": "Permanecer nele visa confiança quando ele se manifestar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Permanecer nele visa confiança quando ele se manifestar."
+          },
+          {
+            "id": "P24",
+            "text": "A alternativa à confiança é ser envergonhado e afastar-se dele em sua vinda.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A alternativa à confiança é ser envergonhado e afastar-se dele em sua vinda."
+          },
+          {
+            "id": "P25",
+            "text": "A prática da justiça é associada a ser nascido de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "2.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A prática da justiça é associada a ser nascido de Deus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 João 2.18-29 fala de muitos anticristos surgidos, define textualmente o anticristo pela negação do Pai e do Filho, afirma a unção dos leitores e ordena permanência no que ouviram e nele.",
+        "hinge": "A pauta conserva apenas as identificações internas da carta: saída, negação, tentativa de engano, unção, confissão e permanência, sem atribuir o termo anticristo a identidades externas.",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "2.18-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1joao-filhos-amor-confianca": {
+      "id": "nt2-1joao-filhos-amor-confianca",
+      "kind": "canonical-case",
+      "title": "Filhos de Deus, amor em ação e confiança",
+      "canon": {
+        "book": "1 João",
+        "referenceNAA": "1 João 3.1-24",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "3.1-24",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 João 3, como a carta relaciona filhos de Deus, prática da justiça, amor pelos irmãos e confiança diante de Deus?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O amor conhecido pela entrega de Cristo e praticado em favor do irmão necessitado une a distinção de filiação à confiança final.",
+      "editorial": {
+        "hinge": "A filiação é tornada reconhecível pelos critérios internos do capítulo, especialmente justiça e amor, e o amor é definido pela entrega de Cristo e pela resposta concreta à necessidade."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como a carta manda amar depois de apontar a entrega de Cristo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De fato e de verdade, inclusive diante da necessidade do irmão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente de palavra e da boca para fora"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Fechando o coração a quem necessita"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Odiando quem pertence ao mundo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De fato e de verdade, inclusive diante da necessidade do irmão",
+          "enderecoNAA": "1 João 3.16-18",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "3.16-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que condição o amor do Pai concede aos destinatários",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Serem chamados e de fato serem filhos de Deus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Serem reconhecidos pelo mundo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Já saberem plenamente o que serão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Não precisarem de esperança"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Serem chamados e de fato serem filhos de Deus",
+          "enderecoNAA": "1 João 3.1-3",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "3.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como os filhos de Deus se tornam manifestos no contraste apresentado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pela prática da justiça e pelo amor ao irmão"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pela identificação externa de grupos históricos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pela ausência de qualquer mandamento"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pelo ódio ao irmão"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pela prática da justiça e pelo amor ao irmão",
+          "enderecoNAA": "1 João 3.7-10",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "3.7-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que mandamento e sinal acompanham a permanência em Deus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Crer no nome do Filho e amar uns aos outros; o Espírito dado atesta a permanência"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Calcular quando Cristo se manifestará"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Negar a necessidade de guardar mandamentos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Buscar reconhecimento do mundo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Crer no nome do Filho e amar uns aos outros; o Espírito dado atesta a permanência",
+          "enderecoNAA": "1 João 3.23-24",
+          "answerReferences": [
+            {
+              "book": "1 João",
+              "passage": "3.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O grande amor concedido pelo Pai chega ao ponto de os destinatários serem chamados filhos de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grande amor concedido pelo Pai chega ao ponto de os destinatários serem chamados filhos de Deus."
+          },
+          {
+            "id": "P02",
+            "text": "A carta reforça que eles de fato são filhos de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta reforça que eles de fato são filhos de Deus."
+          },
+          {
+            "id": "P03",
+            "text": "O mundo não os conhece porque não conheceu a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mundo não os conhece porque não conheceu a Deus."
+          },
+          {
+            "id": "P04",
+            "text": "O que os filhos de Deus haverão de ser ainda não se manifestou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que os filhos de Deus haverão de ser ainda não se manifestou."
+          },
+          {
+            "id": "P05",
+            "text": "Quando ele se manifestar, eles serão semelhantes a ele porque o verão como ele é.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando ele se manifestar, eles serão semelhantes a ele porque o verão como ele é."
+          },
+          {
+            "id": "P06",
+            "text": "Quem tem essa esperança nele purifica a si mesmo, assim como ele é puro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem tem essa esperança nele purifica a si mesmo, assim como ele é puro."
+          },
+          {
+            "id": "P07",
+            "text": "A carta define o pecado, neste argumento, como transgressão da lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta define o pecado, neste argumento, como transgressão da lei."
+          },
+          {
+            "id": "P08",
+            "text": "A manifestação dele é relacionada a tirar os pecados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A manifestação dele é relacionada a tirar os pecados."
+          },
+          {
+            "id": "P09",
+            "text": "A carta afirma que nele não existe pecado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta afirma que nele não existe pecado."
+          },
+          {
+            "id": "P10",
+            "text": "A prática da justiça caracteriza aquele que é justo, assim como ele é justo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A prática da justiça caracteriza aquele que é justo, assim como ele é justo."
+          },
+          {
+            "id": "P11",
+            "text": "A manifestação do Filho de Deus é relacionada à destruição das obras do diabo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A manifestação do Filho de Deus é relacionada à destruição das obras do diabo."
+          },
+          {
+            "id": "P12",
+            "text": "Os filhos de Deus e os filhos do diabo são manifestos no contraste entre justiça e falta de amor ao irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os filhos de Deus e os filhos do diabo são manifestos no contraste entre justiça e falta de amor ao irmão."
+          },
+          {
+            "id": "P13",
+            "text": "A mensagem ouvida desde o princípio é que amemos uns aos outros.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mensagem ouvida desde o princípio é que amemos uns aos outros."
+          },
+          {
+            "id": "P14",
+            "text": "Caim é apresentado como alguém do Maligno que matou o irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Caim é apresentado como alguém do Maligno que matou o irmão."
+          },
+          {
+            "id": "P15",
+            "text": "As obras más de Caim e as justas de seu irmão explicam o homicídio no argumento da carta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As obras más de Caim e as justas de seu irmão explicam o homicídio no argumento da carta."
+          },
+          {
+            "id": "P16",
+            "text": "O amor aos irmãos é o fundamento declarado para saber que se passou da morte para a vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor aos irmãos é o fundamento declarado para saber que se passou da morte para a vida."
+          },
+          {
+            "id": "P17",
+            "text": "Quem não ama permanece na morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem não ama permanece na morte."
+          },
+          {
+            "id": "P18",
+            "text": "O ódio ao irmão é equiparado a homicídio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ódio ao irmão é equiparado a homicídio."
+          },
+          {
+            "id": "P19",
+            "text": "A entrega da vida de Cristo por nós é apresentada como aquilo pelo qual conhecemos o amor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A entrega da vida de Cristo por nós é apresentada como aquilo pelo qual conhecemos o amor."
+          },
+          {
+            "id": "P20",
+            "text": "Dessa entrega decorre o dever de dar a vida pelos irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dessa entrega decorre o dever de dar a vida pelos irmãos."
+          },
+          {
+            "id": "P21",
+            "text": "Fechar o coração ao irmão necessitado é incompatível com a permanência do amor de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fechar o coração ao irmão necessitado é incompatível com a permanência do amor de Deus."
+          },
+          {
+            "id": "P22",
+            "text": "O amor ordenado não deve limitar-se a palavra ou fala, mas ocorrer de fato e de verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amor ordenado não deve limitar-se a palavra ou fala, mas ocorrer de fato e de verdade."
+          },
+          {
+            "id": "P23",
+            "text": "Diante da acusação do coração, Deus é maior que o coração e conhece todas as coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.19-20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Diante da acusação do coração, Deus é maior que o coração e conhece todas as coisas."
+          },
+          {
+            "id": "P24",
+            "text": "Sem acusação do coração, a carta associa confiança diante de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem acusação do coração, a carta associa confiança diante de Deus."
+          },
+          {
+            "id": "P25",
+            "text": "Receber o que se pede é ligado a guardar os mandamentos e fazer o que agrada a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Receber o que se pede é ligado a guardar os mandamentos e fazer o que agrada a Deus."
+          },
+          {
+            "id": "P26",
+            "text": "O mandamento reúne crer no nome de Jesus Cristo e amar uns aos outros.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mandamento reúne crer no nome de Jesus Cristo e amar uns aos outros."
+          },
+          {
+            "id": "P27",
+            "text": "Quem guarda os mandamentos permanece em Deus, e Deus permanece nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem guarda os mandamentos permanece em Deus, e Deus permanece nele."
+          },
+          {
+            "id": "P28",
+            "text": "O Espírito dado é apresentado como sinal pelo qual se conhece a permanência de Deus nos destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 João",
+                "passage": "3.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito dado é apresentado como sinal pelo qual se conhece a permanência de Deus nos destinatários."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 João 3 apresenta os destinatários como filhos de Deus, contrasta prática da justiça e do pecado, ordena amor efetivo pelos irmãos e liga mandamento, confiança e permanência ao Espírito dado.",
+        "hinge": "A filiação é tornada reconhecível pelos critérios internos do capítulo, especialmente justiça e amor, e o amor é definido pela entrega de Cristo e pela resposta concreta à necessidade.",
+        "references": [
+          {
+            "book": "1 João",
+            "passage": "3.1-24",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

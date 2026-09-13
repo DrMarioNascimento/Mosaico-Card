@@ -106,3 +106,9 @@ As páginas NAA de 1Pe 5 e 2Pe 1 retornaram HTTP 200 em 13/09/2026; a leitura e 
 Os 166 objetos anteriores permaneceram mecanicamente idênticos. Em 1Pe 5.13, a remetente da saudação é tratada como Igreja/comunidade cristã por interpretação aprovada, sem geografia e sem equivalência lexical entre Babilônia e Igreja. As exclusões de 1Pe 3.19 e 4.6 continuam intactas.
 
 **João, Judas, Apocalipse e a auditoria global permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 055 — 1 João 1–3
+
+A leitura exclusiva das páginas NAA de 1Jo 1–3 acrescentou quatro pautas e 100 pistas: uma para o capítulo 1, duas para os blocos 2.1-17 e 2.18-29, e uma para o capítulo 3. Os anticristos são descritos apenas pelos critérios internos de 1Jo 2, sem identidades externas. A base anterior de 168 pautas/3.090 pistas foi preservada mecanicamente, e o inventário passa a **172 pautas, 688 campos e 3.190 pistas**.
+
+**1Jo 4–5, demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**

@@ -570,3 +570,13 @@ Duas pautas foram acrescentadas, sem forçar a terceira permitida: `nt2-1pedro-p
 - **Delimitação:** 1Pe 5.13 usa a interpretação aprovada de Igreja/comunidade cristã sem inferência geográfica e sem dizer que Babilônia significa lexicalmente Igreja; 2Pe termina em 1.15. As exclusões de 1Pe 3.19 e 4.6 permanecem.
 - **Contrato:** C1–C4, quatro alternativas, gabaritos, focal, metadados, revelação, 8/5/3/2 e capacidade derivada foram preservados.
 - **Pendências:** João, Judas, Apocalipse e a auditoria global seguem para etapas posteriores; o banco **não** está completo.
+
+## Checkpoint 055 — lote exclusivo de 1 João 1–3
+
+A continuidade partiu de `6e8e2a3cb0240532b947c25cf4e0374cd3c24d21`, com **168 pautas, 672 campos e 3.090 pistas**. Em 13/09/2026, exclusivamente as páginas de 1Jo 1, 1Jo 2 e 1Jo 3 identificadas como Nova Almeida Atualizada em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria.
+
+Quatro blocos coerentes foram incorporados, sem forçar uma quinta pauta: 1Jo 1 (22 pistas), 1Jo 2.1-17 (25), 1Jo 2.18-29 (25) e 1Jo 3 (28). O catálogo chega a **172 pautas, 688 campos e 3.190 pistas**. A comparação mecanizada confirmou que os 168 objetos e as 3.090 pistas anteriores permaneceram integralmente idênticos.
+
+As perguntas e pistas atribuem as afirmações à carta. Em 1Jo 2.18-29, “anticristo” foi delimitado somente pelas descrições internas do recorte; nenhuma pessoa, instituição, época ou identidade externa foi acrescentada. Não surgiram ambiguidades bíblicas reais neste lote. Os dois novos pares lexicais apontados pelo auditor foram mantidos com resolução individual: 1Jo 1.8/1.10 distingue duas alegações e duas consequências; 1Jo 2.23 preserva os lados opostos do contraste entre negar e confessar o Filho.
+
+A capacidade continua derivada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por participante e ao menos uma no poço. **1Jo 4–5, os demais recortes de João, Judas, Apocalipse e a auditoria global permanecem para lotes posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

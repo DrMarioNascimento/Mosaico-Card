@@ -168,3 +168,13 @@ A consulta efetiva e exclusiva da página NAA de 1Pe 4 sustentou três pautas in
 A consulta efetiva das páginas NAA de 1Pe 5 e 2Pe 1 sustentou duas pautas: 1Pe 5 com 32 pistas e 2Pe 1.1-15 com 29. O catálogo passa a **168 pautas, 672 campos e 3.090 pistas**, com os 166 objetos anteriores preservados. A interpretação comunitária de 1Pe 5.13 foi registrada sem geografia nem equivalência lexical; 1Pe 3.19 e 4.6 permanecem excluídos.
 
 **João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.**
+
+## Checkpoint 055 — lote limitado a 1 João 1–3
+
+A base `6e8e2a3cb0240532b947c25cf4e0374cd3c24d21`, com **168 pautas e 3.090 pistas**, foi confirmada antes da edição. Em etapa bíblica separada da automação, 1Jo 1, 2 e 3 na NAA identificada em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e somente esses capítulos foram lidos e autorados.
+
+Foram incorporadas quatro pautas e 100 pistas: 1Jo 1 com 22, 1Jo 2.1-17 e 2.18-29 com 25 cada, e 1Jo 3 com 28. O catálogo passa a **172 pautas, 688 campos e 3.190 pistas**: 66 comportam até 12 participantes, seis até 11, sete até 10, sete até 9, quinze até 8, onze até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3. Todos os 168 objetos anteriores permaneceram mecanicamente idênticos.
+
+C1–C4, quatro alternativas distintas, gabaritos, focal, metadados, revelação e pontuação 8/5/3/2 foram preservados. A capacidade segue `min(12, floor((cartas - 1) / 2))`, duas cartas por jogador e ao menos uma no poço. Não houve identificação externa dos anticristos nem harmonização com outros documentos; não surgiu nova ambiguidade real a encaminhar ao usuário.
+
+**1Jo 4–5, demais João, Judas, Apocalipse e auditoria global ficam para etapas posteriores; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.

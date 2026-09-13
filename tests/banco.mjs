@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 168);
-assert.equal(catalog.summary.max12Cases, 63);
+assert.equal(catalog.summary.editoriallyEligibleCases, 172);
+assert.equal(catalog.summary.max12Cases, 66);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -201,6 +201,18 @@ assert.match(pauta1Pe5.reveal.hinge, /Igreja ou comunidade cristã/);
 assert.match(pauta1Pe5.reveal.hinge, /não localiza Babilônia/);
 assert.match(pauta1Pe5.reveal.hinge, /equivalente lexical/);
 assert.ok(catalog.byId["nt2-2pedro-fe-virtudes-memoria"].deck.cards.every(card => card.references.every(ref => /^(?:1\.(?:[1-9]|1[0-5]))(?:\D|$)/.test(ref.passage))), "2Pe permanece limitado a 1.1-15");
+const auditoria1Joao055 = {
+  "nt2-1joao-testemunho-luz-confissao": 10,
+  "nt2-1joao-advogado-mandamentos-amor-mundo": 12,
+  "nt2-1joao-anticristos-uncao-permanencia": 12,
+  "nt2-1joao-filhos-amor-confianca": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Joao055)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 João")), `${id} mantém fonte exclusiva em 1 João`);
+}
+assert.match(catalog.byId["nt2-1joao-anticristos-uncao-permanencia"].reveal.hinge, /sem atribuir o termo anticristo a identidades externas/);
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

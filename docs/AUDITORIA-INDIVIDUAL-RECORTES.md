@@ -318,3 +318,14 @@ O lote encerra nesses três recortes, sem forçar uma quarta pauta. Os 163 objet
 | 2Pe 1.1-15 | NAA, HTTP 200; apresentação, fé, concessões, qualidades, resultados e memória tratados atributivamente. | `nt2-2pedro-fe-virtudes-memoria`, 29 pistas, capacidade 2–12; 1.16-21 permanece fora desta autoria. |
 
 O lote encerra com duas pautas, sem forçar uma terceira. Os 166 objetos e as 3.029 pistas anteriores foram preservados. João, Judas, Apocalipse e a auditoria global permanecem pendentes; o banco não está completo.
+
+## Checkpoint 055 — decisões individuais em 1 João 1–3
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Jo 1 | NAA, HTTP 200; testemunho sensorial, manifestação da vida, comunhão, luz, trevas, pecado e confissão mantidos no argumento do capítulo. | `nt2-1joao-testemunho-luz-confissao`, 22 pistas, capacidade 2–10. |
+| 1Jo 2.1-17 | NAA, HTTP 200; Advogado/propiciação, mandamentos, amor ao irmão, grupos destinatários e oposição ao mundo ligados somente pelas afirmações da carta. | `nt2-1joao-advogado-mandamentos-amor-mundo`, 25 pistas, capacidade 2–12. |
+| 1Jo 2.18-29 | NAA, HTTP 200; anticristos, saída, negação, unção e permanência delimitados sem identidade externa ou cronologia posterior. | `nt2-1joao-anticristos-uncao-permanencia`, 25 pistas, capacidade 2–12. |
+| 1Jo 3 | NAA, HTTP 200; filiação, justiça, amor concreto, confiança, mandamento e Espírito mantidos como relações internas do capítulo. | `nt2-1joao-filhos-amor-confianca`, 28 pistas, capacidade 2–12. |
+
+O lote encerra nesses quatro blocos, sem forçar o limite de cinco. Não foi encontrada ambiguidade real que exigisse nova decisão do usuário. **1Jo 4–5, demais João, Judas, Apocalipse e auditoria global continuam pendentes; o banco não está completo.**
