@@ -419,3 +419,14 @@ Somente duas pautas foram acrescentadas, sem forçar uma terceira. Os 192 objeto
 | Ap 16.1-21 | Cobertura encerrada em `nt2-apocalipse-tacas`, 13 pistas, capacidade 2–6; objeto preservado. | A pauta existente distingue os destinos das sete taças e inclui reações e conclusão suficientes, sem cronologia externa; duplicá-la não acrescentaria recorte independente. |
 
 Os quatro blocos novos esgotam o limite autorizado sem divisão artificial. Dois pares sobre anjos que saem do santuário/altar em Ap 14 foram mantidos mediante resolução individual porque têm origens, atributos, destinatários e ordens distintos. Não restou par pendente nem surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global permanecem pendentes; o banco não está completo.**
+
+## Checkpoint 064 — decisões individuais em Apocalipse 17–18
+
+| Recorte | Decisão | Motivo |
+| --- | --- | --- |
+| Ap 17.1-18 | `nt2-apocalipse-mulher-besta-explicacao`, 34 pistas, capacidade 2–12. | Mulher, besta, águas, cabeças, chifres e reis formam uma visão seguida de explicações explícitas do anjo; nenhuma equivalência histórica externa foi adotada. |
+| Ap 18.1-8 | `nt2-apocalipse-queda-babilonia-saida-julgamento`, 25 pistas, capacidade 2–12. | Anúncio da queda, chamado celestial para sair, memória das injustiças e retribuição compõem uma unidade discursiva. |
+| Ap 18.9-20 | `nt2-apocalipse-lamentos-reis-mercadores-mar`, 28 pistas, capacidade 2–12. | Três grupos lamentam de longe e o céu recebe a ordem contrastante de se alegrar; a lista de mercadorias permanece somente a enumeração autorizada. |
+| Ap 18.21-24 | `nt2-apocalipse-pedra-silencio-sangue`, 18 pistas, capacidade 2–8. | O gesto interpretado da pedra, os sons e atividades cessantes e a acusação final sustentam um bloco curto independente. |
+
+O limite de quatro pautas foi atingido por quatro unidades documentais completas, sem subdivisão para elevar contagem. Os 198 objetos anteriores foram preservados. Mulher, Babilônia, besta, reis, mercadores e lamento não receberam identidade histórica, instituição contemporânea, geografia presente, calendário ou alegoria externa. Não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global permanecem pendentes; o banco não está completo.**

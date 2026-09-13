@@ -230,3 +230,9 @@ As duas testemunhas permanecem sem identidades externas; mulher, dragão, bestas
 A consulta efetiva das páginas NAA de Ap 14–16 sustentou quatro pautas novas: três blocos em Ap 14 e um bloco em Ap 15, somando 93 pistas. A leitura e comparação de Ap 16 confirmaram cobertura suficiente por `nt2-apocalipse-tacas`, que não foi alterada nem duplicada. O catálogo passa de 194/3.646 para **198 pautas, 792 campos e 3.739 pistas**.
 
 Os 194 objetos anteriores permaneceram idênticos. A auditoria automatizada registra zero duplicatas exatas e zero pares sem resolução após fundamentar dois paralelos internos da sequência de anjos em Ap 14. O número dos cento e quarenta e quatro mil permanece sem definição de literalidade e sem harmonização com Ap 7; Cordeiro, cânticos, anjos, ceifa, lagar e taças não receberam identidade externa, calendário ou alegoria acrescentada. **Ap 17–22 e a auditoria global dos 27 livros permanecem posteriores; este relatório não declara o banco completo.**
+
+## Checkpoint 064 — Apocalipse 17–18
+
+A consulta efetiva das páginas NAA de Ap 17–18 sustentou quatro pautas novas: uma para a visão e explicação do capítulo 17 e três blocos documentais no capítulo 18, totalizando 105 pistas. O catálogo passa de 198/3.739 para **202 pautas, 808 campos e 3.844 pistas**, com preservação serializada dos 198 objetos anteriores.
+
+A auditoria automatizada registra zero duplicatas exatas e zero pares sem resolução após quatro decisões individuais. Mulher, Babilônia, besta, reis, mercadores, mercadorias e lamentos não receberam identidades históricas externas, instituições atuais, geografia presente, calendário ou alegoria. **Ap 19–22 e a auditoria global dos 27 livros permanecem posteriores; este relatório não declara o banco completo.**

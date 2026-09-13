@@ -650,3 +650,11 @@ A rodada partiu de `ea71f1b65fcd6ac836314ea7f9709323efff2b38`, com **194 pautas,
 Foram acrescentadas quatro pautas e 93 pistas: Ap 14.1-5 (19), Ap 14.6-13 (25), Ap 14.14-20 (24) e Ap 15.1-8 (25). O catálogo passa a **198 pautas, 792 campos e 3.739 pistas**. A pauta existente `nt2-apocalipse-tacas` encerra Ap 16 com fundamentação e permaneceu integralmente inalterada. A comparação serializada confirmou a preservação dos 194 objetos e das 3.646 pistas anteriores.
 
 Cento e quarenta e quatro mil, Cordeiro, cântico, anjos, ceifa, lagar, flagelos e taças permanecem descrições, falas, ações ou identificações internas. Não se decidiu literalidade do número, não se harmonizou Ap 14 com Ap 7 e não se acrescentaram identidades externas, calendários ou alegorias. C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e capacidade `min(12, floor((cartas-1)/2))` foram preservados. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros ficam para depois; o banco não está completo.** Não houve `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 064 — lote exclusivo de Apocalipse 17–18
+
+A rodada partiu de `2a5fbcd`, com **198 pautas, 792 campos e 3.739 pistas**. Em 13/09/2026, exclusivamente as páginas NAA de Ap 17 e 18 em `bible.com/pt/bible/1840` foram obtidas com HTTP 200 e lidas integralmente. A comparação não encontrou pauta anterior para esses capítulos.
+
+Foram acrescentadas quatro pautas e 105 pistas: Ap 17.1-18 (34), Ap 18.1-8 (25), Ap 18.9-20 (28) e Ap 18.21-24 (18). O catálogo passa a **202 pautas, 808 campos e 3.844 pistas**. Os 198 objetos e as 3.739 pistas anteriores permaneceram serializadamente idênticos. Mulher, Babilônia, besta, reis, mercadores e lamentos ficaram limitados às descrições, ações, falas e identificações internas; nenhuma identidade histórica externa, instituição atual, geografia atual, calendário ou alegoria foi acrescentada.
+
+C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e capacidade `min(12, floor((cartas-1)/2))` foram preservados. Quatro pares de auditoria receberam fundamentação individual e não restou pendência; não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.** Não houve `main`, merge, deploy ou publicação.

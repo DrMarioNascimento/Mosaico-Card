@@ -91,3 +91,7 @@ A leitura NAA e a comparação individual produziram duas pautas para os blocos 
 ## Checkpoint 063 — verificação de Apocalipse 14–16
 
 A leitura NAA e a comparação individual produziram quatro pautas para Ap 14–15, somando 93 pistas, e encerraram Ap 16 em `nt2-apocalipse-tacas` sem alterar ou duplicar o objeto. O banco passa a **198 pautas e 3.739 pistas**. Os 194 objetos anteriores foram preservados; a auditoria automatizada mantém zero duplicatas exatas e zero pares sem resolução. Literalidade dos cento e quarenta e quatro mil, harmonização com Ap 7, identidades externas, calendários e alegorias acrescentadas ficaram fora. Ap 17–22 e a auditoria global continuam pendentes; o banco não está completo.
+
+## Checkpoint 064 — verificação de Apocalipse 17–18
+
+A leitura NAA e a comparação individual produziram quatro pautas e 105 pistas: Ap 17.1-18, Ap 18.1-8, Ap 18.9-20 e Ap 18.21-24. O banco passa a **202 pautas e 3.844 pistas**, preservando os 198 objetos anteriores. A auditoria automatizada mantém zero duplicatas exatas e zero pares sem resolução. As identificações permanecem internas, sem cidade ou instituição histórica/atual, geografia presente, calendário ou alegoria acrescentada. Ap 19–22 e a auditoria global continuam pendentes; o banco não está completo.

@@ -20,12 +20,13 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | Ap 13 | `nt2-apocalipse-duas-bestas`, capacidade 2–6; cobertura encerrada no checkpoint 062, sem identidade atual ou interpretação externa do 666. |
 | Ap 15 | `nt2-apocalipse-mar-cantico-anjos-tacas`, 25 pistas; cântico, Cordeiro, anjos e taças limitados à cena. |
 | Ap 16 | Cobertura encerrada em `nt2-apocalipse-tacas`, 13 pistas e capacidade 2–6, sem cronologia externa. |
-| Ap 17–18 | Explicações internas preservadas; sem cidade/instituição histórica; sem pauta por alternância de explicação e lamento. |
+| Ap 17 | `nt2-apocalipse-mulher-besta-explicacao`, 34 pistas; explicações do anjo mantidas sem identificação histórica externa. |
+| Ap 18 | Três pautas para 18.1-8, 18.9-20 e 18.21-24; queda, lamentos e silêncio mantidos sem instituição ou geografia atual. |
 | Ap 19 | Bodas e cavaleiro preservados como cenas distintas, não fundidas artificialmente. |
 | Ap 20 | `nt2-apocalipse-mil-anos-juizo`, capacidade 2–6, sem escolher sistema cronológico. |
 | Ap 21–22 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
 
-Apocalipse permanece **em autoria** com vinte e sete pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
+Apocalipse permanece **em autoria** com trinta e uma pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
 
 ## Apocalipse 2 por carta — checkpoint 058
 
@@ -66,3 +67,9 @@ As páginas NAA de Ap 14, 15 e 16 foram obtidas individualmente com HTTP 200 em 
 Ap 14 sustentou três blocos coerentes: 14.1-5, com 19 pistas; 14.6-13, com 25; e 14.14-20, com 24. Ap 15 sustentou uma pauta única com 25 pistas. Não se criou bloco adicional. O número dos cento e quarenta e quatro mil, Cordeiro, cânticos, anjos, ceifa, lagar, flagelos e taças permanecem descrições, falas, ações ou identificações internas. Não se decidiu literalidade, não se harmonizou Ap 14 com Ap 7 e não se acrescentaram identidades externas, calendário ou alegoria.
 
 A auditoria de Ap 16 conferiu individualmente a voz inicial, as sete taças, seus destinos e efeitos, as falas avaliativas e a conclusão do capítulo. Os quatro campos e as 13 pistas existentes cobrem a sequência sem exigir pauta duplicada. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros permanecem para depois; o banco não está completo.**
+
+## Apocalipse 17–18 — checkpoint 064
+
+As páginas NAA de Ap 17 e 18 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas integralmente. A comparação com as 198 pautas anteriores não encontrou cobertura desses capítulos. Ap 17 sustentou uma pauta única com 34 pistas, preservando como explicações internas somente as equivalências fornecidas pelo anjo. Ap 18 sustentou três blocos: anúncio da queda e chamado para sair (18.1-8, 25 pistas), lamentos dos reis, mercadores e homens do mar (18.9-20, 28) e gesto da pedra com o silêncio da cidade (18.21-24, 18). Nenhuma quinta pauta foi criada.
+
+Mulher, Babilônia, besta, águas, montes, reis, mercadores, cidade, lamentos e mercadorias permanecem descrições, ações, falas ou identificações internas. Não foram acrescentadas identidades históricas externas, instituições atuais, geografia presente, calendários ou alegorias. Quatro pares apontados pela triagem receberam decisão individual: duas reações paralelas de grupos diferentes, dois grupos da enumeração final, a besta em cenas documentais distintas e o anúncio repetido da queda em Ap 14 e 18. Não restou par pendente nem surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**

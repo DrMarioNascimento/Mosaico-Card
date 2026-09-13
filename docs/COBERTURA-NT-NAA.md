@@ -160,3 +160,9 @@ As duas testemunhas não receberam identidades externas; mulher, dragão, bestas
 As páginas NAA de Ap 14–16 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. Ap 14 originou três pautas, com 19, 25 e 24 pistas; Ap 15 originou uma pauta com 25. A comparação encerrou Ap 16 na pauta existente `nt2-apocalipse-tacas`, preservada sem alteração ou duplicação. O inventário passa de 194/3.646 para **198 pautas, 792 campos e 3.739 pistas**, com os 194 objetos anteriores serializadamente idênticos.
 
 As capacidades novas são 9, 12, 11 e 12. O número dos cento e quarenta e quatro mil não recebeu decisão de literalidade nem harmonização com Ap 7. Cordeiro, cânticos, anjos, ceifa, lagar, flagelos e taças ficaram restritos às descrições, falas, ações e identificações internas. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 064 — autoria de Apocalipse 17–18
+
+As páginas NAA de Ap 17–18 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. A comparação com as 198 pautas anteriores confirmou ausência de cobertura. Foram incorporadas quatro pautas com 34, 25, 28 e 18 pistas, elevando o inventário a **202 pautas, 808 campos e 3.844 pistas**; os 198 objetos anteriores permaneceram idênticos.
+
+As explicações internas do anjo em Ap 17 foram preservadas sem complementação histórica. Em Ap 18, anúncio, saída, juízo, mercadorias, lamentos, pedra e silêncios permanecem na descrição e nas falas do capítulo. Não se acrescentaram instituições atuais, geografia presente, calendário ou alegoria, e não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**

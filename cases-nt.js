@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-063",
+  "catalogVersion": "2026-09-13-checkpoint-064",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 198,
-    "fields": 792,
-    "editoriallyEligibleCases": 198,
-    "playableCases": 198,
-    "max12Cases": 72
+    "cases": 202,
+    "fields": 808,
+    "editoriallyEligibleCases": 202,
+    "playableCases": 202,
+    "max12Cases": 75
   },
   "order": [
     "nt2-joao-cana",
@@ -214,7 +214,11 @@
     "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil",
     "nt2-apocalipse-tres-anjos-perseveranca",
     "nt2-apocalipse-colheita-lagar",
-    "nt2-apocalipse-mar-cantico-anjos-tacas"
+    "nt2-apocalipse-mar-cantico-anjos-tacas",
+    "nt2-apocalipse-mulher-besta-explicacao",
+    "nt2-apocalipse-queda-babilonia-saida-julgamento",
+    "nt2-apocalipse-lamentos-reis-mercadores-mar",
+    "nt2-apocalipse-pedra-silencio-sangue"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -135453,6 +135457,3426 @@
             "passage": "15.1-8",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-mulher-besta-explicacao": {
+      "id": "nt2-apocalipse-mulher-besta-explicacao",
+      "kind": "canonical-case",
+      "title": "A mulher, a besta e a explicação do anjo",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 17.1-18",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "17.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão e a explicação interna de Apocalipse 17, como a mulher e a besta são apresentadas, o que significam águas, cabeças e chifres e qual desfecho é anunciado?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A identificação final da mulher como a grande cidade que domina sobre os reis conclui a explicação do próprio anjo, sem localizar essa cidade na história ou no presente.",
+      "editorial": {
+        "hinge": "Todas as equivalências usadas são dadas pelo anjo dentro de Apocalipse 17. Mulher, Babilônia, cidade, besta, montes e reis não recebem identificação histórica, instituição atual, geografia presente, calendário ou alegoria externa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o anjo identifica a mulher ao final",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A grande cidade que domina sobre os reis da terra"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A besta que emerge do abismo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O grupo comprado da terra"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A cidade que desce do céu"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A grande cidade que domina sobre os reis da terra",
+          "enderecoNAA": "Apocalipse 17.18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "17.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para onde o anjo transportou o vidente no Espírito",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Para um deserto"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Para o monte Sião"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Para uma ilha desabitada"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Para o rio Eufrates"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Para um deserto",
+          "enderecoNAA": "Apocalipse 17.3",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "17.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o anjo diz que são as muitas águas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Povos, multidões, nações e línguas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Sete montes e sete reis"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os quatro ventos da terra"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os flagelos das sete taças"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Povos, multidões, nações e línguas",
+          "enderecoNAA": "Apocalipse 17.15",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "17.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Contra quem os dez reis lutarão",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Contra o Cordeiro"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Contra os vinte e quatro anciãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Contra o anjo das águas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Contra as duas testemunhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Contra o Cordeiro",
+          "enderecoNAA": "Apocalipse 17.14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "17.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um dos sete anjos das taças vem falar com o vidente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um dos sete anjos das taças vem falar com o vidente."
+          },
+          {
+            "id": "P02",
+            "text": "Ele anuncia que mostrará o julgamento da grande prostituta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anuncia que mostrará o julgamento da grande prostituta."
+          },
+          {
+            "id": "P03",
+            "text": "Ela é apresentada sentada sobre muitas águas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela é apresentada sentada sobre muitas águas."
+          },
+          {
+            "id": "P04",
+            "text": "Os reis da terra são relacionados à prostituição dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os reis da terra são relacionados à prostituição dela."
+          },
+          {
+            "id": "P05",
+            "text": "Os habitantes da terra se embriagam com o vinho descrito no versículo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os habitantes da terra se embriagam com o vinho descrito no versículo."
+          },
+          {
+            "id": "P06",
+            "text": "O anjo transporta o vidente no Espírito a um deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo transporta o vidente no Espírito a um deserto."
+          },
+          {
+            "id": "P07",
+            "text": "Uma mulher é vista montada numa besta escarlate.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma mulher é vista montada numa besta escarlate."
+          },
+          {
+            "id": "P08",
+            "text": "A besta está repleta de nomes de blasfêmia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta está repleta de nomes de blasfêmia."
+          },
+          {
+            "id": "P09",
+            "text": "Ela tem sete cabeças e dez chifres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela tem sete cabeças e dez chifres."
+          },
+          {
+            "id": "P10",
+            "text": "A mulher veste púrpura e escarlate.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher veste púrpura e escarlate."
+          },
+          {
+            "id": "P11",
+            "text": "Ouro, pedras preciosas e pérolas compõem seus enfeites.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ouro, pedras preciosas e pérolas compõem seus enfeites."
+          },
+          {
+            "id": "P12",
+            "text": "Ela segura um cálice de ouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela segura um cálice de ouro."
+          },
+          {
+            "id": "P13",
+            "text": "O cálice é descrito cheio de abominações e imundícias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cálice é descrito cheio de abominações e imundícias."
+          },
+          {
+            "id": "P14",
+            "text": "Um nome misterioso está escrito na testa da mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um nome misterioso está escrito na testa da mulher."
+          },
+          {
+            "id": "P15",
+            "text": "O nome escrito a chama Babilônia, a Grande.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O nome escrito a chama Babilônia, a Grande."
+          },
+          {
+            "id": "P16",
+            "text": "O texto também a chama mãe das prostitutas e das abominações da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto também a chama mãe das prostitutas e das abominações da terra."
+          },
+          {
+            "id": "P17",
+            "text": "A mulher é vista embriagada com o sangue dos santos e das testemunhas de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher é vista embriagada com o sangue dos santos e das testemunhas de Jesus."
+          },
+          {
+            "id": "P18",
+            "text": "O vidente reage com grande espanto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente reage com grande espanto."
+          },
+          {
+            "id": "P19",
+            "text": "O anjo promete explicar o mistério da mulher e da besta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo promete explicar o mistério da mulher e da besta."
+          },
+          {
+            "id": "P20",
+            "text": "A besta é descrita como a que era, não é mais e está para emergir do abismo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta é descrita como a que era, não é mais e está para emergir do abismo."
+          },
+          {
+            "id": "P21",
+            "text": "O destino anunciado para a besta é a destruição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O destino anunciado para a besta é a destruição."
+          },
+          {
+            "id": "P22",
+            "text": "As sete cabeças são explicadas como sete montes e também sete reis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As sete cabeças são explicadas como sete montes e também sete reis."
+          },
+          {
+            "id": "P23",
+            "text": "Cinco desses reis caíram, um existe e outro ainda não chegou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cinco desses reis caíram, um existe e outro ainda não chegou."
+          },
+          {
+            "id": "P24",
+            "text": "A besta é apresentada também como oitavo rei e parte dos sete.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta é apresentada também como oitavo rei e parte dos sete."
+          },
+          {
+            "id": "P25",
+            "text": "Os dez chifres são explicados como dez reis ainda sem reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dez chifres são explicados como dez reis ainda sem reino."
+          },
+          {
+            "id": "P26",
+            "text": "Eles recebem autoridade com a besta durante uma hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles recebem autoridade com a besta durante uma hora."
+          },
+          {
+            "id": "P27",
+            "text": "Os reis têm um mesmo propósito e entregam poder e autoridade à besta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os reis têm um mesmo propósito e entregam poder e autoridade à besta."
+          },
+          {
+            "id": "P28",
+            "text": "Eles lutarão contra o Cordeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles lutarão contra o Cordeiro."
+          },
+          {
+            "id": "P29",
+            "text": "O Cordeiro os vencerá e é chamado Senhor dos senhores e Rei dos reis.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Cordeiro os vencerá e é chamado Senhor dos senhores e Rei dos reis."
+          },
+          {
+            "id": "P30",
+            "text": "Chamados, eleitos e fiéis que estão com o Cordeiro também são declarados vencedores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Chamados, eleitos e fiéis que estão com o Cordeiro também são declarados vencedores."
+          },
+          {
+            "id": "P31",
+            "text": "As águas são explicadas como povos, multidões, nações e línguas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As águas são explicadas como povos, multidões, nações e línguas."
+          },
+          {
+            "id": "P32",
+            "text": "A besta e os dez chifres odiarão e devastarão a prostituta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A besta e os dez chifres odiarão e devastarão a prostituta."
+          },
+          {
+            "id": "P33",
+            "text": "O texto atribui a Deus o propósito realizado pelos reis até se cumprirem suas palavras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto atribui a Deus o propósito realizado pelos reis até se cumprirem suas palavras."
+          },
+          {
+            "id": "P34",
+            "text": "A mulher é identificada internamente como a grande cidade que domina sobre os reis da terra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 17",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "17.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher é identificada internamente como a grande cidade que domina sobre os reis da terra."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Um anjo mostra a mulher sobre a besta e fornece explicações internas para águas, cabeças, chifres, reis e para a própria mulher; o Cordeiro vence os reis associados à besta.",
+        "hinge": "Todas as equivalências usadas são dadas pelo anjo dentro de Apocalipse 17. Mulher, Babilônia, cidade, besta, montes e reis não recebem identificação histórica, instituição atual, geografia presente, calendário ou alegoria externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "17.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-queda-babilonia-saida-julgamento": {
+      "id": "nt2-apocalipse-queda-babilonia-saida-julgamento",
+      "kind": "canonical-case",
+      "title": "A queda anunciada e o chamado para sair",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 18.1-8",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo as vozes ouvidas em Apocalipse 18.1-8, como a queda de Babilônia é anunciada, que ordem é dada ao povo de Deus e que juízo é descrito?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A ordem celestial para o povo sair organiza a resposta exigida pelo próprio recorte, sem identificar externamente Babilônia.",
+      "editorial": {
+        "hinge": "Babilônia permanece a personagem-cidade conforme apresentada no capítulo. Nenhuma cidade histórica ou atual, instituição, mapa, cronologia ou alegoria é acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que ordem a outra voz dirige ao povo de Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que saia dela"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que compre suas mercadorias"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que siga os reis da terra"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que meça a cidade"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Que saia dela",
+          "enderecoNAA": "Apocalipse 18.4",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que iluminou a terra na descida do anjo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A glória do anjo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O fogo do altar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A luz de uma lamparina"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O brilho das pedras preciosas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A glória do anjo",
+          "enderecoNAA": "Apocalipse 18.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Até onde os pecados dela se acumularam",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Até o céu"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Até o monte Sião"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Até o fundo do mar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Até o santuário"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Até o céu",
+          "enderecoNAA": "Apocalipse 18.5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Em quanto tempo os flagelos são anunciados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Em um só dia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Em quarenta e dois meses"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Em mil anos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Em três dias e meio"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Em um só dia",
+          "enderecoNAA": "Apocalipse 18.8",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Outro anjo desce do céu depois dessas coisas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo desce do céu depois dessas coisas."
+          },
+          {
+            "id": "P02",
+            "text": "Ele tem grande autoridade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele tem grande autoridade."
+          },
+          {
+            "id": "P03",
+            "text": "A terra se ilumina com a glória dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terra se ilumina com a glória dele."
+          },
+          {
+            "id": "P04",
+            "text": "O anjo exclama com voz potente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo exclama com voz potente."
+          },
+          {
+            "id": "P05",
+            "text": "Ele anuncia duas vezes a queda da grande Babilônia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anuncia duas vezes a queda da grande Babilônia."
+          },
+          {
+            "id": "P06",
+            "text": "Ela é descrita como morada de demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela é descrita como morada de demônios."
+          },
+          {
+            "id": "P07",
+            "text": "Também é descrita como refúgio de espíritos imundos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também é descrita como refúgio de espíritos imundos."
+          },
+          {
+            "id": "P08",
+            "text": "A descrição inclui esconderijo de aves imundas e detestáveis.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A descrição inclui esconderijo de aves imundas e detestáveis."
+          },
+          {
+            "id": "P09",
+            "text": "As nações beberam do vinho ligado à prostituição dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As nações beberam do vinho ligado à prostituição dela."
+          },
+          {
+            "id": "P10",
+            "text": "Os reis da terra são relacionados à prostituição com ela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os reis da terra são relacionados à prostituição com ela."
+          },
+          {
+            "id": "P11",
+            "text": "Os mercadores da terra enriqueceram por meio da luxúria dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mercadores da terra enriqueceram por meio da luxúria dela."
+          },
+          {
+            "id": "P12",
+            "text": "Outra voz é ouvida do céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra voz é ouvida do céu."
+          },
+          {
+            "id": "P13",
+            "text": "Essa voz manda o povo de Deus sair dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa voz manda o povo de Deus sair dela."
+          },
+          {
+            "id": "P14",
+            "text": "A finalidade é não participar dos pecados dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade é não participar dos pecados dela."
+          },
+          {
+            "id": "P15",
+            "text": "A ordem também visa evitar receber seus flagelos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem também visa evitar receber seus flagelos."
+          },
+          {
+            "id": "P16",
+            "text": "Os pecados dela são descritos como acumulados até o céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os pecados dela são descritos como acumulados até o céu."
+          },
+          {
+            "id": "P17",
+            "text": "Deus se lembra das injustiças praticadas por ela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus se lembra das injustiças praticadas por ela."
+          },
+          {
+            "id": "P18",
+            "text": "A voz ordena retribuição segundo as obras dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz ordena retribuição segundo as obras dela."
+          },
+          {
+            "id": "P19",
+            "text": "O pagamento é formulado em dobro no recorte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pagamento é formulado em dobro no recorte."
+          },
+          {
+            "id": "P20",
+            "text": "Tormento e pranto correspondem à autoglorificação e à luxúria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tormento e pranto correspondem à autoglorificação e à luxúria."
+          },
+          {
+            "id": "P21",
+            "text": "Ela se apresenta em seu pensamento como rainha e não viúva.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela se apresenta em seu pensamento como rainha e não viúva."
+          },
+          {
+            "id": "P22",
+            "text": "Morte, pranto e fome integram os flagelos anunciados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Morte, pranto e fome integram os flagelos anunciados."
+          },
+          {
+            "id": "P23",
+            "text": "Os flagelos são anunciados para um só dia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os flagelos são anunciados para um só dia."
+          },
+          {
+            "id": "P24",
+            "text": "O fogo integra o julgamento descrito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fogo integra o julgamento descrito."
+          },
+          {
+            "id": "P25",
+            "text": "O Senhor Deus que a julga é chamado poderoso.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Senhor Deus que a julga é chamado poderoso."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Um anjo anuncia a queda de Babilônia, outra voz manda o povo de Deus sair dela e o recorte descreve retribuição e flagelos ligados às suas obras.",
+        "hinge": "Babilônia permanece a personagem-cidade conforme apresentada no capítulo. Nenhuma cidade histórica ou atual, instituição, mapa, cronologia ou alegoria é acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-lamentos-reis-mercadores-mar": {
+      "id": "nt2-apocalipse-lamentos-reis-mercadores-mar",
+      "kind": "canonical-case",
+      "title": "Os lamentos dos reis, mercadores e homens do mar",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 18.9-20",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.9-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Apocalipse 18.9-20, quem lamenta a queda da grande cidade, por que esses grupos choram e quem é chamado a se alegrar com o julgamento?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O contraste final entre os lamentos dos beneficiários e o chamado à alegria no céu fornece o eixo explícito do recorte sem localizar a cidade externamente.",
+      "editorial": {
+        "hinge": "Os grupos, mercadorias, distâncias, lamentos e destinatários da alegria permanecem na cena. A cidade e seus agentes econômicos não são equiparados a país, instituição ou sistema atual."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem é chamado a se alegrar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Céus, santos, apóstolos e profetas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Reis, mercadores e marinheiros"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Besta, falso profeta e dragão"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Nações, tribos e línguas"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Céus, santos, apóstolos e profetas",
+          "enderecoNAA": "Apocalipse 18.20",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Por que os reis choram e se lamentam",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Ao verem a fumaça do incêndio dela"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Porque perderam uma batalha contra o Cordeiro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Porque o Eufrates secou"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Porque foram lançados no abismo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Ao verem a fumaça do incêndio dela",
+          "enderecoNAA": "Apocalipse 18.9",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Por que os mercadores choram",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Porque ninguém mais compra suas mercadorias"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Porque suas taças foram tomadas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Porque não aprenderam o cântico"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Porque seus navios chegaram tarde"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Porque ninguém mais compra suas mercadorias",
+          "enderecoNAA": "Apocalipse 18.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que grupo lança pó sobre a cabeça",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os ligados aos navios e ao mar"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os sete anjos dos flagelos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os vinte e quatro anciãos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os reis que entregaram a autoridade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os ligados aos navios e ao mar",
+          "enderecoNAA": "Apocalipse 18.17-19",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.17-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Reis da terra choram e se lamentam por causa da cidade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Reis da terra choram e se lamentam por causa da cidade."
+          },
+          {
+            "id": "P02",
+            "text": "Eles são descritos como participantes de sua prostituição e luxúria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles são descritos como participantes de sua prostituição e luxúria."
+          },
+          {
+            "id": "P03",
+            "text": "A fumaça do incêndio motiva o lamento dos reis.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fumaça do incêndio motiva o lamento dos reis."
+          },
+          {
+            "id": "P04",
+            "text": "Eles permanecem de longe por medo do tormento dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles permanecem de longe por medo do tormento dela."
+          },
+          {
+            "id": "P05",
+            "text": "Os reis chamam Babilônia de grande cidade e cidade poderosa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os reis chamam Babilônia de grande cidade e cidade poderosa."
+          },
+          {
+            "id": "P06",
+            "text": "O juízo é descrito por eles como chegado em uma só hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O juízo é descrito por eles como chegado em uma só hora."
+          },
+          {
+            "id": "P07",
+            "text": "Os mercadores da terra também choram e pranteiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mercadores da terra também choram e pranteiam."
+          },
+          {
+            "id": "P08",
+            "text": "O motivo declarado é que ninguém mais compra suas mercadorias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O motivo declarado é que ninguém mais compra suas mercadorias."
+          },
+          {
+            "id": "P09",
+            "text": "O inventário inclui ouro, prata, pedras preciosas e pérolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O inventário inclui ouro, prata, pedras preciosas e pérolas."
+          },
+          {
+            "id": "P10",
+            "text": "Linho, púrpura, seda e escarlate aparecem na lista de mercadorias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Linho, púrpura, seda e escarlate aparecem na lista de mercadorias."
+          },
+          {
+            "id": "P11",
+            "text": "Madeiras, marfim, bronze, ferro e mármore também são enumerados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Madeiras, marfim, bronze, ferro e mármore também são enumerados."
+          },
+          {
+            "id": "P12",
+            "text": "Especiarias, incenso, perfume e mirra integram o inventário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Especiarias, incenso, perfume e mirra integram o inventário."
+          },
+          {
+            "id": "P13",
+            "text": "Vinho, azeite, farinha e trigo aparecem na lista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Vinho, azeite, farinha e trigo aparecem na lista."
+          },
+          {
+            "id": "P14",
+            "text": "Gado, ovelhas, cavalos e carruagens também são listados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Gado, ovelhas, cavalos e carruagens também são listados."
+          },
+          {
+            "id": "P15",
+            "text": "A enumeração termina incluindo escravos e almas humanas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A enumeração termina incluindo escravos e almas humanas."
+          },
+          {
+            "id": "P16",
+            "text": "O fruto desejado é declarado afastado da cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fruto desejado é declarado afastado da cidade."
+          },
+          {
+            "id": "P17",
+            "text": "O que era delicado e esplêndido é declarado extinto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que era delicado e esplêndido é declarado extinto."
+          },
+          {
+            "id": "P18",
+            "text": "Os mercadores enriquecidos por ela ficam de longe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mercadores enriquecidos por ela ficam de longe."
+          },
+          {
+            "id": "P19",
+            "text": "Eles agem assim por medo do tormento dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles agem assim por medo do tormento dela."
+          },
+          {
+            "id": "P20",
+            "text": "O lamento recorda suas roupas e seus enfeites.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O lamento recorda suas roupas e seus enfeites."
+          },
+          {
+            "id": "P21",
+            "text": "A riqueza é declarada devastada em uma só hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A riqueza é declarada devastada em uma só hora."
+          },
+          {
+            "id": "P22",
+            "text": "Pilotos, viajantes, marinheiros e trabalhadores do mar ficam de longe.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pilotos, viajantes, marinheiros e trabalhadores do mar ficam de longe."
+          },
+          {
+            "id": "P23",
+            "text": "Eles veem a fumaça e perguntam que cidade se compara à grande cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles veem a fumaça e perguntam que cidade se compara à grande cidade."
+          },
+          {
+            "id": "P24",
+            "text": "Os homens do mar lançam pó sobre a cabeça.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os homens do mar lançam pó sobre a cabeça."
+          },
+          {
+            "id": "P25",
+            "text": "Eles relacionam sua riqueza aos recursos da cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles relacionam sua riqueza aos recursos da cidade."
+          },
+          {
+            "id": "P26",
+            "text": "Também declaram a devastação em uma só hora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também declaram a devastação em uma só hora."
+          },
+          {
+            "id": "P27",
+            "text": "Céus, santos, apóstolos e profetas são chamados a se alegrar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Céus, santos, apóstolos e profetas são chamados a se alegrar."
+          },
+          {
+            "id": "P28",
+            "text": "A razão dada é que Deus julgou a causa deles contra a cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão dada é que Deus julgou a causa deles contra a cidade."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Reis, mercadores e pessoas ligadas ao mar lamentam de longe a ruína da grande cidade e a perda de sua riqueza; o céu, os santos, apóstolos e profetas recebem ordem oposta de se alegrar.",
+        "hinge": "Os grupos, mercadorias, distâncias, lamentos e destinatários da alegria permanecem na cena. A cidade e seus agentes econômicos não são equiparados a país, instituição ou sistema atual.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.9-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-pedra-silencio-sangue": {
+      "id": "nt2-apocalipse-pedra-silencio-sangue",
+      "kind": "canonical-case",
+      "title": "A pedra lançada e o silêncio da cidade",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 18.21-24",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.21-24",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a ação e a fala do anjo em Apocalipse 18.21-24, que sinal representa a queda de Babilônia, quais atividades cessam e o que é encontrado nela?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A pedra de moinho lançada ao mar é o gesto interpretado pelo próprio anjo como representação da queda, sem exigir equivalência histórica adicional.",
+      "editorial": {
+        "hinge": "O gesto, os silêncios e a acusação são interpretados somente conforme a fala do anjo. Babilônia não recebe identidade histórica, instituição atual, geografia presente ou alegoria externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o anjo forte lançou no mar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma pedra como grande pedra de moinho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma taça cheia de vinho"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma estrela com a chave do abismo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma foice afiada"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma pedra como grande pedra de moinho",
+          "enderecoNAA": "Apocalipse 18.21",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que sons não seriam mais ouvidos na cidade",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Músicos, flautistas e trombeteiros"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Muitas águas e forte trovão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Reis reunidos para batalha"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Vozes dos quatro seres viventes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Músicos, flautistas e trombeteiros",
+          "enderecoNAA": "Apocalipse 18.22",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que vozes deixariam de ser ouvidas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A voz de noivo e de noiva"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A voz do anjo das águas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A voz dos sete trovões"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A voz das duas testemunhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A voz de noivo e de noiva",
+          "enderecoNAA": "Apocalipse 18.23",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que foi encontrado na cidade",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Sangue de profetas, santos e mortos da terra"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os nomes escritos no Livro da Vida"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "As taças vazias dos sete anjos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "As coroas dos vinte e quatro anciãos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Sangue de profetas, santos e mortos da terra",
+          "enderecoNAA": "Apocalipse 18.24",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "18.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um anjo forte levanta uma pedra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um anjo forte levanta uma pedra."
+          },
+          {
+            "id": "P02",
+            "text": "A pedra é comparada a uma grande pedra de moinho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pedra é comparada a uma grande pedra de moinho."
+          },
+          {
+            "id": "P03",
+            "text": "O anjo lança a pedra no mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo lança a pedra no mar."
+          },
+          {
+            "id": "P04",
+            "text": "O gesto representa a queda impetuosa de Babilônia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O gesto representa a queda impetuosa de Babilônia."
+          },
+          {
+            "id": "P05",
+            "text": "A grande cidade é declarada destinada a não ser mais achada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A grande cidade é declarada destinada a não ser mais achada."
+          },
+          {
+            "id": "P06",
+            "text": "O som de harpistas não seria mais ouvido nela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O som de harpistas não seria mais ouvido nela."
+          },
+          {
+            "id": "P07",
+            "text": "O som de músicos também cessaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O som de músicos também cessaria."
+          },
+          {
+            "id": "P08",
+            "text": "Tocadores de flauta e de trombeta integram o silêncio anunciado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tocadores de flauta e de trombeta integram o silêncio anunciado."
+          },
+          {
+            "id": "P09",
+            "text": "Nenhum artífice seria mais encontrado nela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nenhum artífice seria mais encontrado nela."
+          },
+          {
+            "id": "P10",
+            "text": "O ruído de pedra de moinho também deixaria de ser ouvido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ruído de pedra de moinho também deixaria de ser ouvido."
+          },
+          {
+            "id": "P11",
+            "text": "A luz de lamparina não brilharia mais nela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A luz de lamparina não brilharia mais nela."
+          },
+          {
+            "id": "P12",
+            "text": "A voz de noivo não seria mais ouvida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz de noivo não seria mais ouvida."
+          },
+          {
+            "id": "P13",
+            "text": "A voz de noiva igualmente cessaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz de noiva igualmente cessaria."
+          },
+          {
+            "id": "P14",
+            "text": "Os mercadores dela são chamados grandes da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os mercadores dela são chamados grandes da terra."
+          },
+          {
+            "id": "P15",
+            "text": "A sedução das nações é atribuída à feitiçaria dela.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sedução das nações é atribuída à feitiçaria dela."
+          },
+          {
+            "id": "P16",
+            "text": "Nela foi encontrado sangue de profetas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nela foi encontrado sangue de profetas."
+          },
+          {
+            "id": "P17",
+            "text": "O sangue dos santos também foi encontrado nela.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sangue dos santos também foi encontrado nela."
+          },
+          {
+            "id": "P18",
+            "text": "O versículo inclui todos os mortos sobre a terra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com descrição, ação, fala atribuída ou identificação interna de Apocalipse 18",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "18.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O versículo inclui todos os mortos sobre a terra."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Um anjo lança ao mar uma pedra semelhante a grande pedra de moinho e anuncia a queda de Babilônia; música, ofícios, luz e celebrações cessam, e sangue é encontrado nela.",
+        "hinge": "O gesto, os silêncios e a acusação são interpretados somente conforme a fala do anjo. Babilônia não recebe identidade histórica, instituição atual, geografia presente ou alegoria externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "18.21-24",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
