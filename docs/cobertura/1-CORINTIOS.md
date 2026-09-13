@@ -41,3 +41,9 @@ As páginas restantes de 1Co 2–10 e 12–15 foram baixadas entre 09:33:51Z e 0
 1Co 1.1-17, 1Co 8, 1Co 9 e 1Co 10 foram novamente obtidos e lidos na NAA identificada em `bible.com/pt/bible/1840`, com HTTP 200 em 13/09/2026. Os quatro recortes originaram, respectivamente, pautas de 16, 13, 21 e 23 pistas. Perguntas e pistas registram o que a carta afirma; notas cruzadas e alusões não foram usadas para completar o Antigo Testamento, e nenhuma cronologia externa foi harmonizada.
 
 A decisão antiga de insuficiência para 1Co 1 e 8–10 é substituída por esta reavaliação autorizada, que admite perguntas e conjuntos temáticos independentes sem exigir uma dedução narrativa única. Permanecem pendentes para outro lote 1Co 11, 13 e 14; as pautas anteriores de 1Co 12, 15 e 16 não foram alteradas.
+
+## Fechamento dos recortes autorizados — checkpoint 044
+
+As páginas de 1Co 11, 13 e 14 foram obtidas e lidas na NAA identificada em `bible.com/pt/bible/1840`, com HTTP 200 em 13/09/2026. A autoria separou 11.17-34 do bloco de costumes e símbolos de 11.2-16: somente a ceia originou pauta. 1Co 13 originou uma pauta atributiva sem definir externamente “o completo”. Em 1Co 14, a pauta usa 14.1-33,37-40 para efeitos, interpretação, edificação e ordem, mas não completa a citação de 14.21 pelo AT e não usa 14.34-36 para impor interpretação sobre mulheres, silêncio ou submissão.
+
+Somadas às sete pautas anteriores, 1 Coríntios passa a dez pautas autoradas. As dúvidas reais acima permanecem isoladas, e as pautas anteriores não foram alteradas.

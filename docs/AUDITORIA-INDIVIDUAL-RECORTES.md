@@ -193,3 +193,15 @@ O lote autorizado termina nessas quatro pautas. Coríntios, as demais cartas e A
 | 1Co 10 | NAA, HTTP 200; exemplos e alusões não foram completados pelo AT; consciência e finalidade permanecem atributivas. | `nt2-1corintios-exemplos-mesa-gloria`, 23 pistas, capacidade 2–11. |
 
 O lote autorizado encerra nesses quatro recortes. 1Co 11, 13 e 14 não foram consultados nem decididos nesta rodada; 2 Coríntios e os demais livros pendentes permanecem para bases posteriores. O banco não é declarado completo.
+
+## Checkpoint 044 — decisões individuais em 1 Coríntios 11, 13 e 14
+
+| Recorte | Decisão individual após leitura NAA | Resultado |
+| --- | --- | --- |
+| 1Co 11.2-16 | Cobertura, cabelo, sinal de autoridade, anjos e costume levantam questões interpretativas reais. | Isolado; nenhuma afirmação virou campo, alternativa correta ou pista. |
+| 1Co 11.17-34 | Problemas na reunião, pão/cálice, memória, anúncio, autoexame e espera são afirmações internas suficientes. | `nt2-1corintios-ceia-reuniao-exame`, 18 pistas, capacidade 2–8. |
+| 1Co 13 | Capacidades sem amor, características, incompletude e tríade final são itens atribuíveis ao capítulo. | `nt2-1corintios-amor-permanencia`, 18 pistas, capacidade 2–8; “o completo” não foi definido externamente. |
+| 1Co 14.1-33,37-40 | Efeitos, interpretação, edificação, limites numéricos e ordem são explícitos. | `nt2-1corintios-profecia-linguas-edificacao-ordem`, 22 pistas, capacidade 2–10; 14.21 não foi completado pelo AT. |
+| 1Co 14.34-36 | Fala, silêncio, submissão e relação com a lei exigem decisões interpretativas não autorizadas. | Isolado; nenhuma afirmação virou campo, alternativa correta ou pista. |
+
+O lote autorizado encerra com três pautas, sem forçar uma quarta. 2 Coríntios e os demais recortes pendentes ficam para nova base; o banco não está completo.

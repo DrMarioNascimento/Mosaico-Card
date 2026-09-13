@@ -10,7 +10,7 @@
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
 | Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
-| 1 Coríntios | Em andamento — checkpoint 043 | capítulos 1–10, 12, 15–16 | 7 autorados | 1Co 11, 13 e 14 pendentes |
+| 1 Coríntios | Analisado — checkpoint 044 | capítulos 1–16 | 10 autorados | dúvidas de 11.2-16 e 14.34-36 isoladas |
 | 2 Coríntios | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado | coleta consolidada; 2Co 12 ambíguo |
 | Gálatas | Analisado — decisões por recorte | capítulos 1–6 | 2 autorados | cronologia de Gl 2 bloqueada |
 | Efésios | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | exposição; armadura não inflada; Tíquico insuficiente |
@@ -48,3 +48,7 @@ At 21.7-14 e 23.12-35 foram relidos na NAA e originaram duas pautas com 34 pista
 ## Checkpoint 043 — 1 Coríntios 1, 8, 9 e 10
 
 A base de 124 pautas e 2.250 pistas foi preservada. A leitura NAA individual dos quatro capítulos autorizados acrescentou quatro pautas e 73 pistas, levando o inventário a 128/2.323. A linha de 1 Coríntios passa a somar sete pautas autoradas; 1Co 11, 13 e 14 seguem pendentes, assim como 2 Coríntios e os demais recortes das cartas e de Apocalipse. O banco não está completo.
+
+## Checkpoint 044 — fechamento limitado de 1 Coríntios
+
+A base de 128 pautas/2.323 pistas foi preservada mecanicamente. Três pautas e 58 pistas foram acrescentadas após leitura NAA de 1Co 11, 13 e 14, levando o inventário a 131/2.381. As questões interpretativas de 11.2-16 e 14.34-36 foram isoladas sem impedir a autoria independente dos demais blocos. 2 Coríntios, as outras cartas e Apocalipse permanecem para nova base; o banco não está completo.

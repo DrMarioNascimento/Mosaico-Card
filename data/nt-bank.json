@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-043",
+  "catalogVersion": "2026-09-13-checkpoint-044",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -77670,6 +77670,1891 @@
           }
         ],
         "canonicalSummary": "1 Coríntios 10 chama acontecimentos anteriores de exemplos e advertência, afirma a fidelidade de Deus na tentação, distingue instruções sobre comida e consciência e orienta toda ação para a glória de Deus."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-ceia-reuniao-exame",
+      "title": "Reunião, ceia e exame em 1 Coríntios 11",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "11.17-34",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 11.17-34, que problema ocorria nas reuniões, o que pão e cálice anunciavam, que exame é pedido e como os irmãos deveriam agir ao se reunirem para comer?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O contraste entre reunir-se para pior e a Ceia do Senhor identifica o problema comunitário antes das instruções de memória, exame e espera.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Que problema Paulo atribui às reuniões",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Divisões, fome de uns e embriaguez de outros"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Ausência de qualquer comida ou bebida"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Proibição de reunir-se no mesmo lugar"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Falta de casas em toda a comunidade"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.17-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que comer o pão e beber o cálice anunciava",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "A morte do Senhor até que ele venha"
+            },
+            {
+              "id": "C2-O2",
+              "text": "A superioridade de quem chegava primeiro"
+            },
+            {
+              "id": "C2-O3",
+              "text": "O fim de toda reunião comunitária"
+            },
+            {
+              "id": "C2-O4",
+              "text": "A origem dos costumes de cobertura"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.23-26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que exame o recorte pede antes de comer e beber",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Que cada pessoa examine a si mesma"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Que cada pessoa julgue somente os outros"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Que ninguém discirna o corpo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Que a fome determine quem participa"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.27-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como os irmãos deveriam agir ao se reunirem para comer",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Esperar uns pelos outros"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Tomar antecipadamente a própria ceia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Envergonhar os que nada têm"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Reunir-se com a finalidade de receber juízo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.33-34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Paulo diz não poder elogiar reuniões que resultavam em pior, e não em melhor.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele afirma ter recebido notícia de divisões quando a igreja se reunia.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "No mesmo lugar, a refeição praticada não correspondia à Ceia do Senhor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Cada pessoa tomava antecipadamente a própria ceia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O contraste apresentado é entre uma pessoa com fome e outra embriagada.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Paulo pergunta se eles não tinham casas para comer e beber.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A conduta é descrita como desprezo pela igreja de Deus e vergonha para os que nada tinham.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Paulo atribui ao Senhor o que transmitiu sobre aquela ceia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O pão foi tomado, acompanhado de ação de graças e partido.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "O pão é relacionado ao corpo dado pelos destinatários e à memória de Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Depois da ceia, o cálice é relacionado à nova aliança no sangue de Jesus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Comer o pão e beber o cálice anunciava a morte do Senhor até sua vinda.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Comer ou beber indignamente é relacionado a culpa quanto ao corpo e ao sangue do Senhor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Cada pessoa recebe a orientação de examinar a si mesma antes de comer e beber.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Comer e beber sem discernir o corpo é relacionado a juízo sobre si.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "O recorte contrapõe julgar a si mesmo a ser julgado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Os irmãos recebem a orientação de esperar uns pelos outros quando se reúnem para comer.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Quem tivesse fome deveria comer em casa para que a reunião não resultasse em juízo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "11.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "O bloco de 11.2-16 fica fora desta pauta: costumes, cobertura, cabelo e sinal de autoridade não são interpretados nem convertidos em gabaritos.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "11.17-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 11.17-34 repreende divisões e desigualdade na refeição, relaciona pão e cálice à memória e ao anúncio da morte do Senhor, pede autoexame e orienta espera mútua."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-amor-permanencia",
+      "title": "Amor e permanência em 1 Coríntios 13",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "13.1-13",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 13, o que capacidades sem amor produzem, como o amor é caracterizado, o que é dito sobre conhecimento e profecia e quais três permanecem, com qual deles como maior?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "As características explicitamente atribuídas ao amor distinguem a pauta de uma definição externa ou de aplicações não declaradas pelo capítulo.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que capacidades e entregas sem amor produzem",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Nada tornam a pessoa ou nada lhe aproveitam"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Garantem conhecimento completo imediatamente"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Fazem profecias e línguas permanecerem para sempre"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Tornam dispensáveis fé e esperança"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como o amor é caracterizado no capítulo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Paciente, bondoso e alegre com a verdade"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ciumento, orgulhoso e ressentido"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Voltado aos próprios interesses e à injustiça"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Incapaz de sofrer, crer, esperar ou suportar"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.4-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que o texto afirma sobre conhecimento e profecia agora",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "São incompletos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Já permitem ver tudo face a face"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Jamais passarão"
+            },
+            {
+              "id": "C3-O4",
+              "text": "São maiores do que o amor"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.8-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quais três permanecem e qual é o maior",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Fé, esperança e amor; o maior é o amor"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Profecia, línguas e ciência; a maior é a ciência"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paciência, bondade e fé; a maior é a fé"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mistérios, montes e bens; os maiores são os bens"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Falar línguas sem amor é comparado a metal que apenas produz som.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Profecia, conhecimento de mistérios e grande fé sem amor não fazem a pessoa ser algo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Distribuir bens e entregar o corpo sem amor é apresentado como sem proveito.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O amor é chamado paciente.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O amor é chamado bondoso.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Ciúme, vaidade e orgulho são negados a respeito do amor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O amor não é descrito como inconveniente nem como interessado em si próprio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Irritação e ressentimento do mal são negados a respeito do amor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O amor não se alegra com a injustiça, mas com a verdade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Sofrer, crer, esperar e suportar aparecem em uma série atribuída ao amor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O amor é apresentado como algo que não acaba.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Profecias, línguas e ciência são apresentadas como coisas que cessam ou passam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "O conhecimento e a profecia atuais são chamados incompletos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A chegada do completo é contrastada com o desaparecimento do incompleto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "A passagem da infância à maturidade serve de comparação no argumento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A visão atual é comparada a enxergar de modo obscuro em um espelho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Fé, esperança e amor são os três elementos que o capítulo diz permanecerem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Entre os três elementos finais, o amor é declarado o maior.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "13.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "A pauta cataloga afirmações do capítulo sem fixar o referente de “o completo”, a natureza da visão futura ou uma cronologia doutrinária.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "13.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 13 nega proveito a capacidades sem amor, enumera características do amor, chama conhecimento e profecia atuais de incompletos e conclui com fé, esperança e amor."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-profecia-linguas-edificacao-ordem",
+      "title": "Profecia, línguas, edificação e ordem em 1 Coríntios 14",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "14.1-33,37-40",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 14.1-33,37-40, que efeito é atribuído à profecia, que condição acompanha o falar em línguas na igreja, quais limites organizam as falas e qual orientação encerra o recorte?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "Os limites de dois ou três e a exigência de interpretação tornam a ordem verificável sem decidir debates sobre a natureza contemporânea dos dons.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Que efeito é atribuído a quem profetiza para as pessoas",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Edificação, exortação e consolação"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Mistérios que ninguém entende"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Edificação somente de si mesmo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ausência de instrução aos outros"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.1-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Que condição acompanha o falar em línguas na igreja",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Haver interpretação para edificação; sem intérprete, silêncio público"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Todos falarem simultaneamente sem intérprete"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dez mil palavras substituírem cinco compreensíveis"
+            },
+            {
+              "id": "C2-O4",
+              "text": "A mente permanecer infrutífera como objetivo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.5,13,27-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quais limites são dados para línguas e profetas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Dois ou, no máximo, três, falando sucessivamente"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Todos ao mesmo tempo, sem julgamento"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Cinco para línguas e dez mil para profecia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Um único participante em toda reunião"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.26-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Qual orientação encerra o recorte",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Buscar profetizar, não proibir línguas e fazer tudo com decência e ordem"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Proibir línguas e dispensar edificação"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Buscar confusão como sinal de espiritualidade"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ignorar o que Paulo escreve como mandamento"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.37-40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os destinatários são orientados a seguir o amor e buscar com zelo os dons espirituais.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Entre os dons buscados, o capítulo destaca profetizar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Quem fala em línguas é descrito como falando a Deus e proferindo mistérios pelo Espírito.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Quem profetiza fala às pessoas para edificação, exortação e consolação.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O capítulo contrasta edificação própria por línguas com edificação da igreja por profecia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A interpretação é a condição apresentada para que a fala em línguas resulte em edificação da igreja.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Flauta, harpa e trombeta ilustram a necessidade de sons reconhecíveis.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.7-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Uma palavra incompreensível é comparada a falar ao vento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Quem deseja dons deve procurar progredir para a edificação da igreja.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Quem fala em línguas recebe a orientação de orar para poder interpretar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Paulo contrapõe orar e cantar com o espírito a também fazê-lo com a mente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Na igreja, Paulo prefere poucas palavras compreensíveis que instruam a muitas palavras em línguas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.18-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A reunião pode conter salmo, ensino, revelação, língua e interpretação, todos submetidos à edificação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Para línguas, o limite indicado é dois ou, no máximo, três, sucessivamente.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "A fala em línguas na reunião deve contar com alguém que interprete.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Sem intérprete, a pessoa deve ficar calada na igreja e falar consigo mesma e com Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Para profetas, o limite indicado também é dois ou três, enquanto os demais julgam.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Os participantes devem profetizar sucessivamente, com finalidade de aprendizado e consolação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.30-31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Deus é caracterizado no argumento como Deus de paz, e não de confusão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "O escrito deve ser reconhecido por quem se considera profeta ou espiritual.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "A conclusão une busca zelosa da profecia e ausência de proibição das línguas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P22",
+          "text": "Tudo deve ser feito com decência e ordem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Registrar a afirmação do recorte sem impor interpretação de costume, símbolo ou prática",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "14.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "A pauta não usa a citação de 14.21 para completar o Antigo Testamento e deixa 14.34-36 fora dos gabaritos e pistas, sem impor interpretação sobre fala, silêncio, submissão ou costume.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "14.1-33,37-40",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 14 atribui edificação, exortação e consolação à profecia, requer interpretação para línguas na reunião, limita falas sucessivas e conclui com edificação, decência e ordem."
       },
       "review": {
         "structural": "approved",

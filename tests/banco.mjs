@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 128);
+assert.equal(catalog.summary.editoriallyEligibleCases, 131);
 assert.equal(catalog.summary.max12Cases, 57);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -73,6 +73,18 @@ for (const [id, maxPlayers] of Object.entries(auditoria1Corintios043)) {
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Coríntios")), `${id} não completa alusões nem importa fatos de outro documento`);
 }
+const auditoria1Corintios044 = {
+  "nt2-1corintios-ceia-reuniao-exame": 8,
+  "nt2-1corintios-amor-permanencia": 8,
+  "nt2-1corintios-profecia-linguas-edificacao-ordem": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Corintios044)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Coríntios")), `${id} mantém fonte exclusiva em 1 Coríntios`);
+}
+assert.ok(catalog.byId["nt2-1corintios-ceia-reuniao-exame"].deck.cards.every(card => !card.references.some(ref => /11\.(?:[2-9]|1[0-6])(?:\D|$)/.test(ref.passage))), "costumes de 1Co 11.2-16 ficam fora da pauta da ceia");
+assert.ok(catalog.byId["nt2-1corintios-profecia-linguas-edificacao-ordem"].deck.cards.every(card => !card.references.some(ref => /14\.(?:34|35|36)(?:\D|$)/.test(ref.passage))), "1Co 14.34-36 fica isolado de gabaritos e pistas");
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

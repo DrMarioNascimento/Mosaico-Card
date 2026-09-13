@@ -456,3 +456,9 @@ O lote acrescentou exatamente quatro pautas: `nt2-romanos-corpo-dons-conduta` (2
 Em 13/09/2026, as páginas de 1 Coríntios 1, 8, 9 e 10 identificadas como NAA em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria. O lote acrescentou quatro pautas, sem forçar uma quinta: abertura/divisões/batismos (16 pistas), conhecimento/liberdade/consciência (13), direitos/adaptação/corrida (21) e exemplos/mesa/glória (23).
 
 As perguntas atribuem cada afirmação à carta. As alusões de 1Co 9–10 permanecem somente como afirmações desses capítulos, sem completar narrativas pelo Antigo Testamento; os capítulos não foram fundidos nem alinhados a cronologias externas. O inventário passa de **124 pautas e 2.250 pistas** para **128 pautas e 2.323 pistas**. 1Co 11, 13 e 14, 2 Coríntios e os demais recortes pendentes ficam para lotes posteriores; o banco não é declarado completo.
+
+## Checkpoint 044 — 1 Coríntios 11, 13 e 14
+
+Em 13/09/2026, as páginas NAA identificadas de 1 Coríntios 11, 13 e 14 em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria. O lote não forçou quatro pautas: produziu três — ceia/reunião/exame em 11.17-34 (18 pistas), características e permanência do amor em 13 (18) e profecia/línguas/ordem em 14.1-33,37-40 (22).
+
+1Co 11.2-16 foi isolado porque transformar cobertura, cabelo, autoridade, anjos e costume em alternativas exigiria interpretações não aprovadas. Do mesmo modo, 1Co 14.34-36 não determina pistas ou gabaritos sobre fala, silêncio e submissão. As partes independentes continuaram atributivamente, sem completar 14.21 pelo Antigo Testamento. O inventário passa de **128 pautas e 2.323 pistas** para **131 pautas e 2.381 pistas**. 2 Coríntios, as demais cartas e Apocalipse permanecem para nova base; o banco não é declarado completo.

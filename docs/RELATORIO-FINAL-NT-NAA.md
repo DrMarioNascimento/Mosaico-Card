@@ -68,3 +68,11 @@ A base `bab702264accefcab91597d52e9462203e9c7b26` foi confirmada limpa, com **12
 Foram acrescentadas quatro pautas e 73 pistas: 1Co 1.1-17 com 16, 1Co 8 com 13, 1Co 9 com 21 e 1Co 10 com 23. O inventário passa a **128 pautas, 512 campos e 2.323 pistas**, todas elegíveis em alguma mesa. A capacidade continua derivada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada preservou integralmente os 124 objetos e 2.250 pistas anteriores.
 
 As perguntas são atributivas, as alternativas incorretas não são declaradas como doutrina e as alusões de 1Co 9–10 não foram completadas pelo Antigo Testamento. **1Co 11, 13 e 14, 2 Coríntios e os demais recortes pendentes permanecem para outra rodada; o banco não está completo.** Não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 044 — lote limitado a 1 Coríntios 11, 13 e 14
+
+A base do commit `09a88ecbace0edce31747d451849fcd29608345a`, com **128 pautas elegíveis e 2.323 pistas**, foi confirmada limpa antes da edição. Em etapa bíblica separada dos testes, 1Co 11, 13 e 14 na NAA identificada em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e foram lidos somente dentro do lote autorizado.
+
+Foram incorporadas três pautas, sem forçar uma quarta: 1Co 11.17-34 e 1Co 13 com 18 pistas cada, e 1Co 14.1-33,37-40 com 22. O catálogo passa a **131 pautas, 524 campos e 2.381 pistas**. A capacidade permanece `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada preservou integralmente os 128 objetos e 2.323 pistas anteriores.
+
+Costumes e símbolos de 1Co 11.2-16 e as questões de 1Co 14.34-36 foram isolados, sem campos ou pistas; a citação de 14.21 não foi completada pelo Antigo Testamento. **2 Coríntios, as demais cartas e Apocalipse ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
