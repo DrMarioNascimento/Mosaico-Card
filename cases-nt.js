@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-083-mateus-14-15",
+  "catalogVersion": "checkpoint-084-mateus-16-17",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 267,
-    "fields": 1068,
-    "editoriallyEligibleCases": 267,
-    "playableCases": 267,
-    "max12Cases": 93
+    "cases": 271,
+    "fields": 1084,
+    "editoriallyEligibleCases": 271,
+    "playableCases": 271,
+    "max12Cases": 94
   },
   "order": [
     "nt2-joao-cana",
@@ -283,7 +283,11 @@
     "nt2-mateus-genesare-curas",
     "nt2-mateus-tradicao-coracao",
     "nt2-mateus-monte-multidoes-curas",
-    "nt2-mateus-quatro-mil"
+    "nt2-mateus-quatro-mil",
+    "nt2-mateus-sinal-fermento",
+    "nt2-mateus-confissao-pedro-chaves",
+    "nt2-mateus-morte-seguimento-vinda",
+    "nt2-mateus-menino-fe-mostarda"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -185668,6 +185672,3067 @@
             "passage": "15.32-39",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.15.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-sinal-fermento": {
+      "id": "nt2-mateus-sinal-fermento",
+      "kind": "canonical-case",
+      "title": "O sinal pedido e o fermento explicado",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 16.1-12",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem pediu um sinal, que resposta recebeu e o que os discípulos entenderam sobre o fermento?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Céu, sinal e fermento permanecem imagens e explicações atribuídas no texto; o banco não completa Jonas pelo Antigo Testamento nem harmoniza o paralelo indicado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem pediu a Jesus um sinal vindo do céu",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Fariseus e saduceus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Discípulos e multidões"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Publicanos e soldados"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sacerdotes e pastores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Fariseus e saduceus",
+          "enderecoNAA": "Mateus 16.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Único sinal que Jesus disse que seria dado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O sinal de Jonas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O sinal de Moisés"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma estrela ao meio-dia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Sete pães no céu"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O sinal de Jonas",
+          "enderecoNAA": "Mateus 16.4",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os discípulos esqueceram ao atravessar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Levar pão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Levar redes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Levar moedas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Levar roupas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Levar pão",
+          "enderecoNAA": "Mateus 16.5",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Sentido do fermento finalmente compreendido",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A doutrina dos fariseus e saduceus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O pão recolhido em cestos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A aparência avermelhada do céu"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O sinal pedido pela multidão"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A doutrina dos fariseus e saduceus",
+          "enderecoNAA": "Mateus 16.11-12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.11-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Fariseus e saduceus aproximaram-se de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fariseus e saduceus aproximaram-se de Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Eles pediram que Jesus mostrasse um sinal vindo do céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles pediram que Jesus mostrasse um sinal vindo do céu."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus atribui ao pedido a intenção de tentar Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus atribui ao pedido a intenção de tentar Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus mencionou a leitura do céu avermelhado ao entardecer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mencionou a leitura do céu avermelhado ao entardecer."
+          },
+          {
+            "id": "P05",
+            "text": "Ele também mencionou o céu vermelho sombrio pela manhã.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também mencionou o céu vermelho sombrio pela manhã."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus contrastou a aparência do céu com os sinais dos tempos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.2-3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou a aparência do céu com os sinais dos tempos."
+          },
+          {
+            "id": "P07",
+            "text": "Ele qualificou a geração que pedia um sinal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele qualificou a geração que pedia um sinal."
+          },
+          {
+            "id": "P08",
+            "text": "O sinal de Jonas foi apresentado como a única exceção.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sinal de Jonas foi apresentado como a única exceção."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus deixou os interlocutores e retirou-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deixou os interlocutores e retirou-se."
+          },
+          {
+            "id": "P10",
+            "text": "Os discípulos passaram para a outra margem do lago.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos passaram para a outra margem do lago."
+          },
+          {
+            "id": "P11",
+            "text": "Eles se esqueceram de levar pão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles se esqueceram de levar pão."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus ordenou cuidado com o fermento dos fariseus e saduceus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou cuidado com o fermento dos fariseus e saduceus."
+          },
+          {
+            "id": "P13",
+            "text": "Os discípulos relacionaram inicialmente a fala à falta de pão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos relacionaram inicialmente a fala à falta de pão."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus percebeu a discussão entre eles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus percebeu a discussão entre eles."
+          },
+          {
+            "id": "P15",
+            "text": "Ele os chamou de homens de pequena fé nessa resposta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os chamou de homens de pequena fé nessa resposta."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus recordou os cinco pães para cinco mil homens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus recordou os cinco pães para cinco mil homens."
+          },
+          {
+            "id": "P17",
+            "text": "Também recordou os cestos recolhidos naquela alimentação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também recordou os cestos recolhidos naquela alimentação."
+          },
+          {
+            "id": "P18",
+            "text": "Ele recordou os sete pães para quatro mil.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele recordou os sete pães para quatro mil."
+          },
+          {
+            "id": "P19",
+            "text": "Também perguntou pelos cestos recolhidos nessa segunda alimentação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também perguntou pelos cestos recolhidos nessa segunda alimentação."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus esclareceu que não falava a respeito de pães.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus esclareceu que não falava a respeito de pães."
+          },
+          {
+            "id": "P21",
+            "text": "Os discípulos entenderam que fermento designava a doutrina dos dois grupos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos entenderam que fermento designava a doutrina dos dois grupos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 16.1-12 registra o pedido de sinal, a resposta de Jesus e a travessia em que os discípulos passam da interpretação sobre pão ao entendimento da advertência sobre doutrina.",
+        "hinge": "Céu, sinal e fermento permanecem imagens e explicações atribuídas no texto; o banco não completa Jonas pelo Antigo Testamento nem harmoniza o paralelo indicado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-confissao-pedro-chaves": {
+      "id": "nt2-mateus-confissao-pedro-chaves",
+      "kind": "canonical-case",
+      "title": "A confissão de Pedro e as chaves",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 16.13-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.13-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus interrogou os discípulos, como Pedro respondeu e que declarações e ordem se seguiram?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Pedra, igreja, portas, chaves, ligar e desligar permanecem termos da fala registrada por Mateus; nenhuma identidade institucional, sucessão ou sistema externo é inferido."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Região em que Jesus fez as perguntas",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cesareia de Filipe"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Magadã"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Genesaré"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Belém"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cesareia de Filipe",
+          "enderecoNAA": "Mateus 16.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Resposta de Simão Pedro sobre Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O Cristo, o Filho do Deus vivo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "João Batista ressuscitado"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Jeremias sozinho"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um escriba vindo de Jerusalém"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O Cristo, o Filho do Deus vivo",
+          "enderecoNAA": "Mateus 16.15-16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem Jesus disse ter revelado isso a Pedro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Seu Pai que está nos céus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Carne e sangue"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A multidão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os escribas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Seu Pai que está nos céus",
+          "enderecoNAA": "Mateus 16.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ordem final dada aos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Não dizer a ninguém que ele era o Cristo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Anunciar imediatamente em todas as cidades"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Voltar sozinhos para Jerusalém"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pedir outro sinal do céu"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Não dizer a ninguém que ele era o Cristo",
+          "enderecoNAA": "Mateus 16.20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus foi para a região de Cesareia de Filipe.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi para a região de Cesareia de Filipe."
+          },
+          {
+            "id": "P02",
+            "text": "Ali ele perguntou aos discípulos sobre o Filho do Homem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali ele perguntou aos discípulos sobre o Filho do Homem."
+          },
+          {
+            "id": "P03",
+            "text": "A primeira pergunta tratava do que os outros diziam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A primeira pergunta tratava do que os outros diziam."
+          },
+          {
+            "id": "P04",
+            "text": "Os discípulos mencionaram João Batista entre as respostas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos mencionaram João Batista entre as respostas."
+          },
+          {
+            "id": "P05",
+            "text": "Também mencionaram Elias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também mencionaram Elias."
+          },
+          {
+            "id": "P06",
+            "text": "Jeremias apareceu entre as respostas relatadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jeremias apareceu entre as respostas relatadas."
+          },
+          {
+            "id": "P07",
+            "text": "A lista ainda incluía um dos profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista ainda incluía um dos profetas."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus então perguntou o que os próprios discípulos diziam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus então perguntou o que os próprios discípulos diziam."
+          },
+          {
+            "id": "P09",
+            "text": "Simão Pedro respondeu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simão Pedro respondeu."
+          },
+          {
+            "id": "P10",
+            "text": "Pedro chamou Jesus de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro chamou Jesus de Cristo."
+          },
+          {
+            "id": "P11",
+            "text": "Ele também o chamou de Filho do Deus vivo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também o chamou de Filho do Deus vivo."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus chamou Pedro de bem-aventurado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou Pedro de bem-aventurado."
+          },
+          {
+            "id": "P13",
+            "text": "Na fala, Pedro é chamado Simão Barjonas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala, Pedro é chamado Simão Barjonas."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus negou que carne e sangue tivessem feito a revelação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus negou que carne e sangue tivessem feito a revelação."
+          },
+          {
+            "id": "P15",
+            "text": "Ele atribuiu a revelação ao Pai nos céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele atribuiu a revelação ao Pai nos céus."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus declarou a Simão que ele era Pedro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou a Simão que ele era Pedro."
+          },
+          {
+            "id": "P17",
+            "text": "Na mesma fala, mencionou edificar sua igreja sobre esta pedra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na mesma fala, mencionou edificar sua igreja sobre esta pedra."
+          },
+          {
+            "id": "P18",
+            "text": "Ele disse que as portas do inferno não prevaleceriam contra ela.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que as portas do inferno não prevaleceriam contra ela."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus prometeu dar a Pedro as chaves do Reino dos Céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus prometeu dar a Pedro as chaves do Reino dos Céus."
+          },
+          {
+            "id": "P20",
+            "text": "A fala relacionou ligar na terra e nos céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala relacionou ligar na terra e nos céus."
+          },
+          {
+            "id": "P21",
+            "text": "Também relacionou desligar na terra e nos céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também relacionou desligar na terra e nos céus."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus ordenou silêncio aos discípulos sobre ele ser o Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou silêncio aos discípulos sobre ele ser o Cristo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 16.13-20 apresenta as perguntas em Cesareia de Filipe, as respostas correntes, a confissão de Simão Pedro, as declarações de Jesus e a ordem de silêncio.",
+        "hinge": "Pedra, igreja, portas, chaves, ligar e desligar permanecem termos da fala registrada por Mateus; nenhuma identidade institucional, sucessão ou sistema externo é inferido.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.13-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-morte-seguimento-vinda": {
+      "id": "nt2-mateus-morte-seguimento-vinda",
+      "kind": "canonical-case",
+      "title": "Morte anunciada, seguimento e vinda",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 16.21-28",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.21-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus passou a mostrar, como respondeu a Pedro e que exigências e anúncios dirigiu aos discípulos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Cruz, vida, alma, glória, obras e Reino permanecem perguntas, contrastes e anúncios atribuídos a Jesus; não se fixa cumprimento, cronologia ou interpretação externa para o verso final."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Cidade para a qual Jesus disse ser necessário ir",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Cesareia de Filipe"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Magadã"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Cafarnaum"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Jerusalém",
+          "enderecoNAA": "Mateus 16.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Reação de Pedro ao anúncio",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Chamou Jesus à parte e começou a repreendê-lo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Reuniu a multidão e pediu um sinal"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Entrou no barco em silêncio"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Foi buscar os principais sacerdotes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Chamou Jesus à parte e começou a repreendê-lo",
+          "enderecoNAA": "Mateus 16.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Jesus disse a quem quisesse segui-lo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Negar a si mesmo, tomar sua cruz e segui-lo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Guardar pão para a travessia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Construir três tendas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pagar duas dracmas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Negar a si mesmo, tomar sua cruz e segui-lo",
+          "enderecoNAA": "Mateus 16.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Critério atribuído à retribuição futura",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "As obras de cada um"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A aparência do céu"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A quantidade de pães"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A origem familiar"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "As obras de cada um",
+          "enderecoNAA": "Mateus 16.27",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "16.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Desde aquele tempo, Jesus começou a mostrar algo aos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desde aquele tempo, Jesus começou a mostrar algo aos discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Ele disse ser necessário ir a Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse ser necessário ir a Jerusalém."
+          },
+          {
+            "id": "P03",
+            "text": "O anúncio incluía sofrer muitas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio incluía sofrer muitas coisas."
+          },
+          {
+            "id": "P04",
+            "text": "Anciãos foram citados entre os agentes do sofrimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Anciãos foram citados entre os agentes do sofrimento."
+          },
+          {
+            "id": "P05",
+            "text": "Principais sacerdotes também foram citados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes também foram citados."
+          },
+          {
+            "id": "P06",
+            "text": "Escribas completavam os grupos mencionados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Escribas completavam os grupos mencionados."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus anunciou que seria morto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou que seria morto."
+          },
+          {
+            "id": "P08",
+            "text": "Também anunciou que ressuscitaria no terceiro dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também anunciou que ressuscitaria no terceiro dia."
+          },
+          {
+            "id": "P09",
+            "text": "Pedro chamou Jesus à parte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro chamou Jesus à parte."
+          },
+          {
+            "id": "P10",
+            "text": "Pedro começou a repreendê-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro começou a repreendê-lo."
+          },
+          {
+            "id": "P11",
+            "text": "Na fala, Pedro desejou que aquilo não acontecesse a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala, Pedro desejou que aquilo não acontecesse a Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus mandou Pedro colocar-se atrás dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou Pedro colocar-se atrás dele."
+          },
+          {
+            "id": "P13",
+            "text": "Na resposta, Jesus chamou Pedro de Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na resposta, Jesus chamou Pedro de Satanás."
+          },
+          {
+            "id": "P14",
+            "text": "Ele o qualificou como pedra de tropeço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele o qualificou como pedra de tropeço."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus contrastou coisas de Deus e coisas dos homens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou coisas de Deus e coisas dos homens."
+          },
+          {
+            "id": "P16",
+            "text": "Depois Jesus falou aos discípulos sobre quem quisesse segui-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois Jesus falou aos discípulos sobre quem quisesse segui-lo."
+          },
+          {
+            "id": "P17",
+            "text": "A primeira exigência mencionada foi negar a si mesmo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A primeira exigência mencionada foi negar a si mesmo."
+          },
+          {
+            "id": "P18",
+            "text": "A segunda foi tomar a própria cruz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A segunda foi tomar a própria cruz."
+          },
+          {
+            "id": "P19",
+            "text": "A terceira foi seguir Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terceira foi seguir Jesus."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus contrastou querer salvar a vida e perdê-la.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou querer salvar a vida e perdê-la."
+          },
+          {
+            "id": "P21",
+            "text": "Também falou de perder a vida por causa dele e achá-la.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também falou de perder a vida por causa dele e achá-la."
+          },
+          {
+            "id": "P22",
+            "text": "Ele perguntou pelo proveito de ganhar o mundo e perder a alma.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou pelo proveito de ganhar o mundo e perder a alma."
+          },
+          {
+            "id": "P23",
+            "text": "Outra pergunta tratou do que alguém daria em troca da alma.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra pergunta tratou do que alguém daria em troca da alma."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus anunciou a vinda do Filho do Homem na glória do Pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou a vinda do Filho do Homem na glória do Pai."
+          },
+          {
+            "id": "P25",
+            "text": "Os anjos foram incluídos nesse anúncio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anjos foram incluídos nesse anúncio."
+          },
+          {
+            "id": "P26",
+            "text": "A retribuição foi relacionada às obras de cada um.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A retribuição foi relacionada às obras de cada um."
+          },
+          {
+            "id": "P27",
+            "text": "Jesus declarou que alguns presentes não morreriam antes de ver o Filho do Homem vir em seu Reino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "16.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que alguns presentes não morreriam antes de ver o Filho do Homem vir em seu Reino."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 16.21-28 reúne o anúncio de sofrimento, morte e ressurreição, a reação de Pedro, a resposta de Jesus, as exigências de seguimento e anúncios sobre a vinda e retribuição.",
+        "hinge": "Cruz, vida, alma, glória, obras e Reino permanecem perguntas, contrastes e anúncios atribuídos a Jesus; não se fixa cumprimento, cronologia ou interpretação externa para o verso final.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "16.21-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.16.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-menino-fe-mostarda": {
+      "id": "nt2-mateus-menino-fe-mostarda",
+      "kind": "canonical-case",
+      "title": "O menino curado e a fé como grão de mostarda",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 17.14-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.14-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que problema o pai apresentou, o que Jesus fez pelo menino e como explicou a incapacidade dos discípulos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A condição, o demônio, o monte e o grão de mostarda permanecem nos termos narrativos e na fala de Jesus; o verso 21 entre colchetes não integra campos, pistas ou gabaritos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Condição relatada pelo pai sobre o filho",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Tinha convulsões e sofria muito"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Era cego desde o nascimento"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Tinha a mão ressequida"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Estava preso por Herodes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Tinha convulsões e sofria muito",
+          "enderecoNAA": "Mateus 17.14-15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde o menino caía muitas vezes",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No fogo e na água"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "No mar e no barco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Na estrada e nos campos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Na sinagoga e no templo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No fogo e na água",
+          "enderecoNAA": "Mateus 17.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação de Jesus que precedeu a cura",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Repreendeu o demônio, que saiu do menino"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Mandou o pai procurar os escribas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pediu sete pães aos discípulos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Levou o menino ao alto monte"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Repreendeu o demônio, que saiu do menino",
+          "enderecoNAA": "Mateus 17.18",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Motivo dado à incapacidade dos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A pequenez da fé deles"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A ausência de uma moeda"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A distância de Jerusalém"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A falta de alimento"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A pequenez da fé deles",
+          "enderecoNAA": "Mateus 17.19-20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.19-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os que estavam com ele chegaram junto da multidão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus e os que estavam com ele chegaram junto da multidão."
+          },
+          {
+            "id": "P02",
+            "text": "Um homem aproximou-se de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um homem aproximou-se de Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "O homem se ajoelhou diante dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem se ajoelhou diante dele."
+          },
+          {
+            "id": "P04",
+            "text": "O pai pediu compaixão para seu filho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai pediu compaixão para seu filho."
+          },
+          {
+            "id": "P05",
+            "text": "Ele disse que o filho tinha convulsões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que o filho tinha convulsões."
+          },
+          {
+            "id": "P06",
+            "text": "Também afirmou que o menino sofria muito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também afirmou que o menino sofria muito."
+          },
+          {
+            "id": "P07",
+            "text": "O menino caía muitas vezes no fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O menino caía muitas vezes no fogo."
+          },
+          {
+            "id": "P08",
+            "text": "Outras vezes caía na água.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outras vezes caía na água."
+          },
+          {
+            "id": "P09",
+            "text": "O pai já havia apresentado o filho aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai já havia apresentado o filho aos discípulos."
+          },
+          {
+            "id": "P10",
+            "text": "Segundo o pai, eles não puderam curá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo o pai, eles não puderam curá-lo."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus censurou a geração como incrédula e perversa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus censurou a geração como incrédula e perversa."
+          },
+          {
+            "id": "P12",
+            "text": "Ele mandou que trouxessem o menino até ele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele mandou que trouxessem o menino até ele."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus repreendeu o demônio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus repreendeu o demônio."
+          },
+          {
+            "id": "P14",
+            "text": "O demônio saiu do menino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O demônio saiu do menino."
+          },
+          {
+            "id": "P15",
+            "text": "O menino ficou curado desde aquela hora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O menino ficou curado desde aquela hora."
+          },
+          {
+            "id": "P16",
+            "text": "Os discípulos perguntaram em particular por que não puderam expulsá-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos perguntaram em particular por que não puderam expulsá-lo."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus atribuiu a incapacidade à pequenez da fé deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a incapacidade à pequenez da fé deles."
+          },
+          {
+            "id": "P18",
+            "text": "Ele comparou a fé mencionada a um grão de mostarda.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele comparou a fé mencionada a um grão de mostarda."
+          },
+          {
+            "id": "P19",
+            "text": "Na fala, uma ordem ao monte seria seguida de mudança.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala, uma ordem ao monte seria seguida de mudança."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus concluiu que nada lhes seria impossível.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus concluiu que nada lhes seria impossível."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 17.14-20 relata o pedido de um pai, a incapacidade anterior dos discípulos, a saída do demônio, a cura do menino e a explicação de Jesus sobre a pequenez da fé.",
+        "hinge": "A condição, o demônio, o monte e o grão de mostarda permanecem nos termos narrativos e na fala de Jesus; o verso 21 entre colchetes não integra campos, pistas ou gabaritos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.14-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

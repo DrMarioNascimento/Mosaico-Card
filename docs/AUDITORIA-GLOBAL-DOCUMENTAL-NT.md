@@ -2,7 +2,7 @@
 
 ## Escopo, método e limite da conclusão
 
-Checkpoint 083, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cobertura/`, a matriz `docs/COBERTURA-NT-NAA.md`, os registros de `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`, as decisões vigentes e os **267 objetos/5.179 pistas** realmente serializados em `data/nt-bank.json`. Para cada livro, a contagem abaixo deriva das referências gerais do banco; uma pauta paralela pode contar em mais de um livro, e a contagem de pistas considera somente cartas que citam o livro da linha.
+Checkpoint 084, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cobertura/`, a matriz `docs/COBERTURA-NT-NAA.md`, os registros de `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`, as decisões vigentes e os **271 objetos/5.269 pistas** realmente serializados em `data/nt-bank.json`. Para cada livro, a contagem abaixo deriva das referências gerais do banco; uma pauta paralela pode contar em mais de um livro, e a contagem de pistas considera somente cartas que citam o livro da linha.
 
 “Sem lacuna documental conhecida” significa apenas que a ficha possui decisões individuais posteriores compatíveis com as regras atuais para os recortes que ela enumera. Não prova que todo recorte possível da NAA foi novamente consultado, não converte “analisado” em exaustividade e não declara o banco completo. Onde a ficha usa somente faixas de capítulos, gênero, tamanho, “25 pistas”, unidade narrativa ou risco genérico de alternativas, o resultado é **reconsulta NAA necessária**, ainda que o arquivo histórico chame o livro de analisado.
 
@@ -18,7 +18,7 @@ Checkpoint 083, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
-| Mateus | 83 pautas / 1.581 pistas | Decisão textual de Mt 23.14; inventário individual de Mt 16–17 e 26–28 | O checkpoint 083 decidiu todas as unidades de Mt 14–15, preservando as pautas anteriores e acrescentando quatro lacunas sem harmonizar paralelos. | **EM ANDAMENTO.** Mt 1–4, 8–9 e 14–15 têm matrizes atuais; Mt 16–17, 26–28 e Mt 23.14 permanecem. |
+| Mateus | 87 pautas / 1.671 pistas | Pendências textuais de Mt 17.21 e 23.14; pendências delimitadas de 17.22-27; inventário de Mt 26–28 | O checkpoint 084 decidiu Mt 16 e Mt 17.1-20, preservando a transfiguração existente; três unidades de Mt 17 ficaram em matriz concreta por limite. | **EM ANDAMENTO.** Mt 1–16 e 17.1-20 têm decisões atuais; o restante delimitado de Mt 17, Mt 26–28 e Mt 23.14 permanecem. |
 | Marcos | 17 / 194 | Trechos fora da lista inicial, sobretudo Mc 1–4, 6–13 e 14–16.8 não representados por pauta própria/paralela | A ficha decide 17 pré-candidatos e depois chama os 16 capítulos de analisados; não há inventário individual de todos os demais recortes. | **PENDENTE — decisão individual.** Varredura NAA por recorte; **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
@@ -56,7 +56,7 @@ Checkpoint 083, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Próximo lote de Mateus:** reconsultar Mt 16–17 ou 26–28 por unidade, mantendo cada documento independente. Mt 14–15 está decidido no inventário do checkpoint 083; Mt 23.14 permanece em fila textual própria e não é exclusão definitiva.
+1. **Próximo lote de Mateus:** resolver por leitura Mt 17.22-27 ou iniciar Mt 26–28, mantendo cada documento independente; Mt 17.21 e 23.14 permanecem em filas textuais próprias, sem exclusão automática.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
@@ -69,3 +69,8 @@ Nenhum lote planejado está aprovado por antecipação. Quantidade máxima não 
 ## Delta do checkpoint 083 — Mateus 14–15
 
 A auditoria global passou a **267 pautas/5.179 pistas**. As quatro pautas novas somam 80 pistas; os 263 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`. Mt 14–15 recebeu decisão individual, enquanto Mt 16–17 e 26–28 permanecem para lotes posteriores. Nenhuma conclusão global foi inferida dos testes.
+
+
+## Delta do checkpoint 084 — Mateus 16–17
+
+A auditoria global passou a **271 pautas/5.269 pistas**. Quatro pautas novas somam 90 pistas; os 267 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`. Mt 16 e Mt 17.1-20 receberam decisão, enquanto Mt 17.21-27 e Mt 26–28 permanecem delimitados para trabalhos posteriores. Nenhuma conclusão global foi inferida dos testes.
