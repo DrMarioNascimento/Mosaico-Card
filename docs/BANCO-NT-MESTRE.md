@@ -678,3 +678,11 @@ Foram anexadas quatro pautas sustentadas, sem meta de quantidade: `nt2-mateus-be
 - **Comparação antes/depois:** 205/3.937 → 209/4.022; os 205 objetos anteriores permaneceram na mesma ordem e serializaram identicamente, enquanto quatro objetos foram apenas anexados.
 - **Limite:** Mt 5–7 **não está fechado**. A ficha lista como próximo lote Mt 5.13-20, 5.27-32, 6.19-34 e as porções remanescentes de Mt 7, com motivo individual. Nenhum outro livro foi consultado ou alterado.
 - **Decisões preservadas:** 1Co 11.2-16 e 14.34-36 continuam dúvidas do usuário; exclusões definitivas e isolamento de versões/partidas permanecem intactos. Não houve merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 068 — conclusão documental dos remanescentes de Mateus 5–7
+
+Sobre o checkpoint 067 (`fe765b4`), somente os remanescentes já individualizados de Mt 5–7 foram trabalhados. As três páginas NAA Bible.com 1840 retornaram HTTP 200 e os recortes foram relidos; a comparação abrangeu os 209 objetos e, particularmente, as quatro pautas anteriores, evitando repetir perguntas ou fatos. Quatro pautas foram anexadas: sal/luz/Lei (19 pistas), olhar/tropeço/divórcio (13), tesouros/olhos/senhores/preocupações (29) e julgamento/regra/alegações/reação (21), com capacidades 9, 6, 12 e 10.
+
+- **Antes/depois:** 209 pautas/4.022 pistas → 213/4.104; os 209 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
+- **Cobertura:** todas as porções que permaneciam expressamente não representadas no inventário de Mt 5–7 receberam decisão e cobertura neste lote. Mt 5–7 encerra documentalmente esta sequência; a próxima faixa pendente de Mateus no inventário global é Mt 10–13.
+- **Limites preservados:** encerramento documental não significa exaustividade futura nem banco completo. Nenhum outro livro foi aberto. As dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, sorteio, capacidade, isolamento de versões/partidas, Firebase e credenciais não foram alterados; não houve merge, deploy ou publicação.

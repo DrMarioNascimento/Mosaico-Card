@@ -104,3 +104,25 @@ Em 13/09/2026, as três páginas efetivas `https://www.bible.com/pt/bible/1840/M
 | Mt 7.28-29 — reação final | **Lida, não autorada.** Fecho curto já confirma maravilhamento e autoridade, mas não foi anexado a uma pauta suficiente. |
 
 O lote acrescenta exatamente quatro pautas e 85 pistas: bem-aventuranças (16; capacidade 7), contrastes (22; capacidade 10), práticas em secreto (22; capacidade 10) e escolhas/alertas (25; capacidade 12). **Mateus 5–7 não está fechado**: continuam para o próximo lote, prioritariamente, Mt 5.13-20, 5.27-32, 6.19-34 e 7.1-6/7.12/7.22-23/7.28-29, cada qual com o status e limite acima. Os demais livros não foram abertos nesta rodada.
+
+## Remanescentes de Mateus 5–7 — checkpoint 068
+
+Em 13/09/2026, as páginas efetivas NAA Bible.com 1840 de Mateus 5, 6 e 7 foram novamente obtidas separadamente (HTTP 200; 397.176, 364.097 e 337.884 bytes) e relidas nos recortes remanescentes. A comparação anterior à autoria abrangeu os **209 objetos/4.022 pistas**, em especial as quatro pautas do checkpoint 067. Nenhum fato ou pergunta já usado nessas quatro pautas foi duplicado; unidades antes marcadas como parciais só passam a cobertas quando as porções ausentes aparecem abaixo.
+
+| Unidade remanescente | Decisão individual no checkpoint 068 |
+| --- | --- |
+| Mt 5.13-16 — sal e luz | **Coberta integralmente** em `nt2-mateus-sal-luz-lei`; imagens preservadas como falas de Jesus, sem equivalência externa. |
+| Mt 5.17-20 — Lei e Profetas | **Coberta integralmente** na mesma pauta; cumprir, mandamentos e justiça permanecem formulações atribuídas, sem exposição doutrinária. |
+| Mt 5.27-30 — olhar e tropeço | **Coberta integralmente** em `nt2-mateus-olhar-tropeco-divorcio`; olho e mão são ordens figuradas distintas, não acontecimentos nem instruções ampliadas. |
+| Mt 5.31-32 — divórcio | **Coberta integralmente** na mesma pauta; a exceção fica na redação de Mateus e nenhum paralelo ou regra externa foi importado. |
+| Mt 6.19-21 — tesouros | **Coberta integralmente** em `nt2-mateus-tesouro-olhos-senhores-preocupacoes`. |
+| Mt 6.22-23 — olhos e corpo | **Coberta integralmente** na mesma pauta; luz e trevas continuam imagens textuais. |
+| Mt 6.24 — dois senhores | **Coberta integralmente** na mesma pauta; somente Deus e riquezas são nomeados. |
+| Mt 6.25-34 — preocupações | **Coberta integralmente** na mesma pauta; aves, lírios, Salomão, erva e amanhã permanecem comparações do discurso, sem cronologia externa. |
+| Mt 7.1-5 — julgamento, cisco e trave | **Coberta integralmente** em `nt2-mateus-julgamento-regra-alegacoes-reacao`. |
+| Mt 7.6 — cães, santo, pérolas e porcos | **Coberta integralmente** como advertência textual na mesma pauta, sem identificar externamente seus elementos. |
+| Mt 7.12 — regra de ação | **Coberta agora** na mesma pauta; deixa de ser a porção não representada da unidade 7.7-12. |
+| Mt 7.22-23 — alegações e resposta | **Coberta agora** na mesma pauta; completa a porção antes não usada de 7.21-23, sem tratar alegações como fatos realizados ou aprovação. |
+| Mt 7.28-29 — reação final | **Coberta integralmente** na mesma pauta; a reação pertence ao encerramento de Mateus e não é harmonizada com cenas semelhantes. |
+
+Foram acrescentadas quatro pautas sustentadas, sem forçar a quantidade: sal/luz/Lei (19 pistas; capacidade 9), olhar/tropeço/divórcio (13; capacidade 6), tesouros/olhos/senhores/preocupações (29; capacidade 12) e julgamento/regra/alegações/reação (21; capacidade 10). Com as decisões do checkpoint 067 e a cobertura complementar acima, **não resta leitura nem autoria pendente no inventário individual vigente de Mt 5–7**; essa faixa pode ser marcada como encerrada documentalmente nesta sequência, sem afirmar exaustividade futura nem banco completo. A próxima faixa pendente de Mateus no inventário global é Mt 10–13. Nenhum outro livro ou faixa foi aberto neste lote.

@@ -461,3 +461,16 @@ As páginas NAA Bible.com 1840 de Mateus 5, 6 e 7 retornaram HTTP 200 e foram ef
 | Mt 7.7-27 (uso delimitado no inventário) | `nt2-mateus-escolhas-alertas`, 25 pistas, capacidade 2–12; pedidos, caminhos, frutos e fundamentos mantidos como ensinos e comparações. |
 
 A comparação serializada após a edição confirmou os 205 objetos anteriores, na mesma ordem e com conteúdo byte-equivalente quando cada objeto é serializado por `JSON.stringify`; apenas quatro novos objetos foram anexados e `catalogVersion` avançou. Resultado: **209 pautas/4.022 pistas**, todas elegíveis. Essa verificação estrutural não demonstra conferência bíblica nem banco completo. Mt 5–7 conserva unidades remanescentes individualizadas na ficha de Mateus, e os demais livros permanecem na fila da auditoria global.
+
+## Checkpoint 068 — remanescentes de Mateus 5–7
+
+As páginas NAA Bible.com 1840 de Mt 5–7 retornaram novamente HTTP 200 e os remanescentes inventariados no checkpoint 067 foram efetivamente relidos. A comparação foi feita contra os 209 objetos/4.022 pistas e contra as quatro pautas novas anteriores; uso parcial não foi tratado como fechamento até a cobertura específica deste lote.
+
+| Recortes | Resultado individual |
+| --- | --- |
+| Mt 5.13-20 | `nt2-mateus-sal-luz-lei`, 19 pistas, capacidade 2–9; cobre as duas unidades sem explicar externamente as imagens ou a Lei. |
+| Mt 5.27-32 | `nt2-mateus-olhar-tropeco-divorcio`, 13 pistas, capacidade 2–6; cobre olhar/tropeço e divórcio sem paralelos. |
+| Mt 6.19-34 | `nt2-mateus-tesouro-olhos-senhores-preocupacoes`, 29 pistas, capacidade 2–12; cobre as quatro unidades remanescentes. |
+| Mt 7.1-6,12,22-23,28-29 | `nt2-mateus-julgamento-regra-alegacoes-reacao`, 21 pistas, capacidade 2–10; cobre somente as porções antes não representadas. |
+
+A comparação serializada confirmou os 209 objetos anteriores, na mesma ordem e idênticos quando serializados por `JSON.stringify`; quatro objetos foram anexados. O banco passa de **209/4.022 para 213/4.104**. O inventário vigente de Mt 5–7 não conserva remanescente, mas essa conclusão documental não prova exaustividade futura e os testes não tornam o banco completo.

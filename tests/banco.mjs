@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 209);
-assert.equal(catalog.summary.max12Cases, 79);
+assert.equal(catalog.summary.editoriallyEligibleCases, 213);
+assert.equal(catalog.summary.max12Cases, 80);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -350,6 +350,19 @@ for (const [id, maxPlayers] of Object.entries(auditoriaMateus067)) {
   assert.equal(catalog.byId[id].status.playable, true);
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita a Mateus 5–7`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const auditoriaMateus068 = {
+  "nt2-mateus-sal-luz-lei": 9,
+  "nt2-mateus-olhar-tropeco-divorcio": 6,
+  "nt2-mateus-tesouro-olhos-senhores-preocupacoes": 12,
+  "nt2-mateus-julgamento-regra-alegacoes-reacao": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus068)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita aos remanescentes de Mateus 5–7`);
   assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 

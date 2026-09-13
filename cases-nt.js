@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-067-mateus-5-7",
+  "catalogVersion": "checkpoint-068-mateus-5-7-remanescentes",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 209,
-    "fields": 836,
-    "editoriallyEligibleCases": 209,
-    "playableCases": 209,
-    "max12Cases": 79
+    "cases": 213,
+    "fields": 852,
+    "editoriallyEligibleCases": 213,
+    "playableCases": 213,
+    "max12Cases": 80
   },
   "order": [
     "nt2-joao-cana",
@@ -225,7 +225,11 @@
     "nt2-mateus-bem-aventurancas",
     "nt2-mateus-ensinos-contrastes",
     "nt2-mateus-praticas-secreto",
-    "nt2-mateus-escolhas-alertas"
+    "nt2-mateus-escolhas-alertas",
+    "nt2-mateus-sal-luz-lei",
+    "nt2-mateus-olhar-tropeco-divorcio",
+    "nt2-mateus-tesouro-olhos-senhores-preocupacoes",
+    "nt2-mateus-julgamento-regra-alegacoes-reacao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -144733,6 +144737,2874 @@
           {
             "book": "Mateus",
             "passage": "7.7-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-sal-luz-lei": {
+      "id": "nt2-mateus-sal-luz-lei",
+      "kind": "canonical-case",
+      "title": "Sal, luz e o propósito quanto à Lei",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 5.13-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.13-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Mateus 5.13-20, que imagens, ações e propósito Jesus atribui aos destinatários e a si mesmo?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O propósito declarado por Jesus delimita o campo central sem impor uma explicação externa sobre o cumprimento.",
+      "editorial": {
+        "hinge": "As imagens e declarações permanecem como formulações atribuídas a Jesus; a pauta não define externamente sal, luz, Lei, cumprimento ou justiça."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Para que Jesus diz ter vindo quanto à Lei e aos Profetas",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para cumprir"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para revogar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para esconder"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para reduzir aos menores mandamentos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para cumprir",
+          "enderecoNAA": "Mateus 5.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que acontece com o sal insípido",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "É lançado fora e pisado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "É guardado em um celeiro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "É colocado num cesto"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "É aceso sobre um suporte"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "É lançado fora e pisado",
+          "enderecoNAA": "Mateus 5.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que cidade não pode ser escondida",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A situada no alto de um monte"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A cercada por muros"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A construída junto ao mar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A localizada num vale"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A situada no alto de um monte",
+          "enderecoNAA": "Mateus 5.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde se coloca a lamparina acesa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Num lugar adequado"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Debaixo de um cesto"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Fora da casa"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Sobre a estrada"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Num lugar adequado",
+          "enderecoNAA": "Mateus 5.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chama os destinatários de sal da terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chama os destinatários de sal da terra."
+          },
+          {
+            "id": "P02",
+            "text": "O sal que perde o sabor é apresentado como sem utilidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sal que perde o sabor é apresentado como sem utilidade."
+          },
+          {
+            "id": "P03",
+            "text": "Esse sal é lançado fora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse sal é lançado fora."
+          },
+          {
+            "id": "P04",
+            "text": "O sal lançado fora acaba pisado pelas pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sal lançado fora acaba pisado pelas pessoas."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus chama os destinatários de luz do mundo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chama os destinatários de luz do mundo."
+          },
+          {
+            "id": "P06",
+            "text": "Uma cidade no alto de um monte não pode ser escondida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma cidade no alto de um monte não pode ser escondida."
+          },
+          {
+            "id": "P07",
+            "text": "Uma lamparina não é acesa para ficar debaixo de um cesto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma lamparina não é acesa para ficar debaixo de um cesto."
+          },
+          {
+            "id": "P08",
+            "text": "A lamparina é colocada em posição adequada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lamparina é colocada em posição adequada."
+          },
+          {
+            "id": "P09",
+            "text": "Nessa posição, ela ilumina todos na casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa posição, ela ilumina todos na casa."
+          },
+          {
+            "id": "P10",
+            "text": "A luz dos destinatários deve brilhar diante dos outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A luz dos destinatários deve brilhar diante dos outros."
+          },
+          {
+            "id": "P11",
+            "text": "As boas obras vistas devem levar os outros a glorificar o Pai celestial.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As boas obras vistas devem levar os outros a glorificar o Pai celestial."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus rejeita a ideia de ter vindo revogar a Lei ou os Profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus rejeita a ideia de ter vindo revogar a Lei ou os Profetas."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus declara que veio cumprir.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declara que veio cumprir."
+          },
+          {
+            "id": "P14",
+            "text": "O céu e a terra são mencionados antes da passagem do menor sinal da Lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O céu e a terra são mencionados antes da passagem do menor sinal da Lei."
+          },
+          {
+            "id": "P15",
+            "text": "O limite declarado é que tudo se cumpra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O limite declarado é que tudo se cumpra."
+          },
+          {
+            "id": "P16",
+            "text": "Desrespeitar até um mandamento menor e ensinar isso leva à designação de mínimo no Reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desrespeitar até um mandamento menor e ensinar isso leva à designação de mínimo no Reino."
+          },
+          {
+            "id": "P17",
+            "text": "Observar os mandamentos e ensiná-los leva à designação de grande no Reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Observar os mandamentos e ensiná-los leva à designação de grande no Reino."
+          },
+          {
+            "id": "P18",
+            "text": "A justiça dos destinatários deve exceder em muito a dos escribas e fariseus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A justiça dos destinatários deve exceder em muito a dos escribas e fariseus."
+          },
+          {
+            "id": "P19",
+            "text": "Sem essa justiça excedente, Jesus afirma que eles não entrarão no Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem essa justiça excedente, Jesus afirma que eles não entrarão no Reino dos Céus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus chama os destinatários de sal e luz, descreve a visibilidade das boas obras e declara que veio cumprir, não revogar, a Lei ou os Profetas.",
+        "hinge": "As imagens e declarações permanecem como formulações atribuídas a Jesus; a pauta não define externamente sal, luz, Lei, cumprimento ou justiça.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.13-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-olhar-tropeco-divorcio": {
+      "id": "nt2-mateus-olhar-tropeco-divorcio",
+      "kind": "canonical-case",
+      "title": "Olhar, tropeço e declaração sobre divórcio",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 5.27-32",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.27-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que ações e consequências são enunciadas em Mateus 5.27-32 no ensino sobre olhar, tropeço e divórcio?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A intenção atribuída ao olhar distingue a afirmação inicial do bloco sem exigir interpretação sobre casos não definidos pelo texto.",
+      "editorial": {
+        "hinge": "A linguagem corporal é registrada como ordem figurada dentro do ensino, e a exceção permanece na formulação de Mateus; nenhuma regra externa ou paralelo é acrescentado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que intenção é atribuída ao olhar mencionado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Intenção impura"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Intenção de reconciliação"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Intenção de oferecer ajuda"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Intenção de fazer juramento"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Intenção impura",
+          "enderecoNAA": "Mateus 5.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que fazer com o olho direito que leva a tropeçar",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Arrancá-lo e lançá-lo fora"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cobri-lo com a mão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Lavá-lo diante dos outros"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mantê-lo fechado no quarto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Arrancá-lo e lançá-lo fora",
+          "enderecoNAA": "Mateus 5.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que fazer com a mão direita que leva a tropeçar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Cortá-la e lançá-la fora"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Erguê-la em juramento"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Colocá-la sobre a oferta"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Escondê-la sob a capa"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Cortá-la e lançá-la fora",
+          "enderecoNAA": "Mateus 5.30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que documento o dito anterior mandava dar à mulher repudiada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Carta de divórcio"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Carta de recomendação"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Registro de dívida"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ordem do juiz"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Carta de divórcio",
+          "enderecoNAA": "Mateus 5.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O ensino recorda a proibição de cometer adultério.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ensino recorda a proibição de cometer adultério."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus trata do olhar dirigido a uma mulher com intenção impura.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus trata do olhar dirigido a uma mulher com intenção impura."
+          },
+          {
+            "id": "P03",
+            "text": "Esse olhar é relacionado a adultério já cometido no coração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse olhar é relacionado a adultério já cometido no coração."
+          },
+          {
+            "id": "P04",
+            "text": "O primeiro membro citado como causa de tropeço é o olho direito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O primeiro membro citado como causa de tropeço é o olho direito."
+          },
+          {
+            "id": "P05",
+            "text": "A ordem figurada é arrancar esse olho e lançá-lo fora.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem figurada é arrancar esse olho e lançá-lo fora."
+          },
+          {
+            "id": "P06",
+            "text": "A justificativa compara perder uma parte do corpo com ter o corpo inteiro lançado no inferno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A justificativa compara perder uma parte do corpo com ter o corpo inteiro lançado no inferno."
+          },
+          {
+            "id": "P07",
+            "text": "O segundo membro citado como causa de tropeço é a mão direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O segundo membro citado como causa de tropeço é a mão direita."
+          },
+          {
+            "id": "P08",
+            "text": "A ordem figurada é cortar essa mão e lançá-la fora.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem figurada é cortar essa mão e lançá-la fora."
+          },
+          {
+            "id": "P09",
+            "text": "Novamente se compara perder uma parte com o corpo inteiro ir para o inferno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Novamente se compara perder uma parte com o corpo inteiro ir para o inferno."
+          },
+          {
+            "id": "P10",
+            "text": "O dito recordado manda entregar uma carta de divórcio à mulher repudiada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dito recordado manda entregar uma carta de divórcio à mulher repudiada."
+          },
+          {
+            "id": "P11",
+            "text": "A declaração seguinte apresenta uma exceção formulada como relações sexuais ilícitas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A declaração seguinte apresenta uma exceção formulada como relações sexuais ilícitas."
+          },
+          {
+            "id": "P12",
+            "text": "Fora da exceção indicada, repudiar a mulher é relacionado a expô-la a tornar-se adúltera.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fora da exceção indicada, repudiar a mulher é relacionado a expô-la a tornar-se adúltera."
+          },
+          {
+            "id": "P13",
+            "text": "Casar-se com a mulher repudiada é relacionado a cometer adultério.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Casar-se com a mulher repudiada é relacionado a cometer adultério."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus relaciona o olhar com intenção impura ao coração, usa olho e mão direitos em advertências figuradas sobre tropeço e responde ao dito sobre carta de divórcio.",
+        "hinge": "A linguagem corporal é registrada como ordem figurada dentro do ensino, e a exceção permanece na formulação de Mateus; nenhuma regra externa ou paralelo é acrescentado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.27-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-tesouro-olhos-senhores-preocupacoes": {
+      "id": "nt2-mateus-tesouro-olhos-senhores-preocupacoes",
+      "kind": "canonical-case",
+      "title": "Tesouro, olhos, senhores e preocupações",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 6.19-34",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "6.19-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais contrastes e orientações Mateus 6.19-34 atribui a Jesus sobre tesouros, olhos, senhores e preocupações?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A impossibilidade de servir aos dois senhores nomeados concentra o contraste central sem converter riqueza ou preocupação em interpretação externa.",
+      "editorial": {
+        "hinge": "A pauta conserva imagens, comparações e ordens como ensino atribuído a Jesus, sem definir riqueza, medida de vida, Reino ou justiça por fontes externas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A quais dois senhores não se pode servir",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A Deus e às riquezas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ao corpo e às roupas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Às aves e aos lírios"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ao hoje e ao amanhã"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A Deus e às riquezas",
+          "enderecoNAA": "Mateus 6.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde ajuntar tesouros",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No céu"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Sobre a terra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Em celeiros"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No campo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No céu",
+          "enderecoNAA": "Mateus 6.20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que é chamado de lâmpada do corpo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os olhos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O coração"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "As mãos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "As roupas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os olhos",
+          "enderecoNAA": "Mateus 6.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que buscar em primeiro lugar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Reino de Deus e sua justiça"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Alimento e bebida"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Roupas e glória"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Celeiros e tesouros terrenos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Reino de Deus e sua justiça",
+          "enderecoNAA": "Mateus 6.33",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Tesouros não devem ser acumulados sobre a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tesouros não devem ser acumulados sobre a terra."
+          },
+          {
+            "id": "P02",
+            "text": "Na terra, traça e ferrugem corroem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na terra, traça e ferrugem corroem."
+          },
+          {
+            "id": "P03",
+            "text": "Na terra, ladrões escavam e roubam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na terra, ladrões escavam e roubam."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus orienta a ajuntar tesouros no céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus orienta a ajuntar tesouros no céu."
+          },
+          {
+            "id": "P05",
+            "text": "No céu, os agentes de corrosão mencionados não destroem os tesouros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No céu, os agentes de corrosão mencionados não destroem os tesouros."
+          },
+          {
+            "id": "P06",
+            "text": "No céu, ladrões não escavam nem roubam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No céu, ladrões não escavam nem roubam."
+          },
+          {
+            "id": "P07",
+            "text": "O coração estará onde estiver o tesouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O coração estará onde estiver o tesouro."
+          },
+          {
+            "id": "P08",
+            "text": "Os olhos são chamados de lâmpada do corpo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os olhos são chamados de lâmpada do corpo."
+          },
+          {
+            "id": "P09",
+            "text": "Olhos bons correspondem a um corpo cheio de luz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Olhos bons correspondem a um corpo cheio de luz."
+          },
+          {
+            "id": "P10",
+            "text": "Olhos maus correspondem a um corpo em trevas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Olhos maus correspondem a um corpo em trevas."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus adverte sobre a luz interior que seja trevas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus adverte sobre a luz interior que seja trevas."
+          },
+          {
+            "id": "P12",
+            "text": "Ninguém pode servir a dois senhores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém pode servir a dois senhores."
+          },
+          {
+            "id": "P13",
+            "text": "O contraste inclui odiar um senhor e amar o outro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O contraste inclui odiar um senhor e amar o outro."
+          },
+          {
+            "id": "P14",
+            "text": "Também inclui dedicar-se a um e desprezar o outro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também inclui dedicar-se a um e desprezar o outro."
+          },
+          {
+            "id": "P15",
+            "text": "Os dois senhores nomeados são Deus e as riquezas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois senhores nomeados são Deus e as riquezas."
+          },
+          {
+            "id": "P16",
+            "text": "A vida não deve ser objeto de preocupação quanto a comer ou beber.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vida não deve ser objeto de preocupação quanto a comer ou beber."
+          },
+          {
+            "id": "P17",
+            "text": "O corpo não deve ser objeto de preocupação quanto a vestir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O corpo não deve ser objeto de preocupação quanto a vestir."
+          },
+          {
+            "id": "P18",
+            "text": "As aves não semeiam, não colhem e não ajuntam em celeiros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As aves não semeiam, não colhem e não ajuntam em celeiros."
+          },
+          {
+            "id": "P19",
+            "text": "O Pai celestial sustenta as aves.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai celestial sustenta as aves."
+          },
+          {
+            "id": "P20",
+            "text": "A preocupação não permite acrescentar um côvado ao curso da vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A preocupação não permite acrescentar um côvado ao curso da vida."
+          },
+          {
+            "id": "P21",
+            "text": "Os lírios do campo crescem sem trabalhar nem fiar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lírios do campo crescem sem trabalhar nem fiar."
+          },
+          {
+            "id": "P22",
+            "text": "Nem Salomão em sua glória se vestiu como um dos lírios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nem Salomão em sua glória se vestiu como um dos lírios."
+          },
+          {
+            "id": "P23",
+            "text": "A erva existe hoje e amanhã é lançada no forno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A erva existe hoje e amanhã é lançada no forno."
+          },
+          {
+            "id": "P24",
+            "text": "Os gentios procuram comida, bebida e roupa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.31-32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os gentios procuram comida, bebida e roupa."
+          },
+          {
+            "id": "P25",
+            "text": "O Pai celestial sabe que os destinatários precisam dessas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai celestial sabe que os destinatários precisam dessas coisas."
+          },
+          {
+            "id": "P26",
+            "text": "A prioridade indicada é o Reino de Deus e sua justiça.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A prioridade indicada é o Reino de Deus e sua justiça."
+          },
+          {
+            "id": "P27",
+            "text": "As coisas necessárias serão acrescentadas aos que seguem essa prioridade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As coisas necessárias serão acrescentadas aos que seguem essa prioridade."
+          },
+          {
+            "id": "P28",
+            "text": "O amanhã trará os próprios cuidados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O amanhã trará os próprios cuidados."
+          },
+          {
+            "id": "P29",
+            "text": "Ao dia basta o seu próprio mal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao dia basta o seu próprio mal."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus contrasta tesouros terrenos e celestiais, olhos bons e maus, Deus e riquezas, e orienta a não se preocupar, mas buscar primeiro o Reino de Deus e sua justiça.",
+        "hinge": "A pauta conserva imagens, comparações e ordens como ensino atribuído a Jesus, sem definir riqueza, medida de vida, Reino ou justiça por fontes externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "6.19-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-julgamento-regra-alegacoes-reacao": {
+      "id": "nt2-mateus-julgamento-regra-alegacoes-reacao",
+      "kind": "canonical-case",
+      "title": "Julgamento, regra de ação, alegações e reação",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 7.1-6,12,22-23,28-29",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "7.1-6,12,22-23,28-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que Mateus atribui a Jesus e às multidões nas porções restantes do sermão sobre julgamento, ação, alegações e reação final?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A ordem de retirar primeiro a trave estabelece uma sequência verificável e mantém as imagens dentro da comparação textual.",
+      "editorial": {
+        "hinge": "As unidades independentes são reunidas como porções ainda não representadas do mesmo discurso; alegações não comprovam identidade ou aprovação, e as imagens não recebem interpretação externa."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que retirar primeiro do próprio olho",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A trave"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O cisco"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A pérola"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O fruto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A trave",
+          "enderecoNAA": "Mateus 7.5",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Com que critério alguém será julgado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Com o critério que usou para julgar"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Com a quantidade de alegações"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Com a reação da multidão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Com a posição diante dos escribas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Com o critério que usou para julgar",
+          "enderecoNAA": "Mateus 7.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como agir em relação ao que se deseja receber dos outros",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fazer também a eles"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Medir apenas os irmãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Entregar o santo aos cães"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Repetir as próprias alegações"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fazer também a eles",
+          "enderecoNAA": "Mateus 7.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Jesus ensinava segundo a reação final",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Como quem tem autoridade"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Como os escribas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Como quem buscava ser visto"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Como um falso profeta disfarçado"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Como quem tem autoridade",
+          "enderecoNAA": "Mateus 7.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus orienta os destinatários a não julgar para não serem julgados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus orienta os destinatários a não julgar para não serem julgados."
+          },
+          {
+            "id": "P02",
+            "text": "O critério usado para julgar será aplicado a quem julga.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O critério usado para julgar será aplicado a quem julga."
+          },
+          {
+            "id": "P03",
+            "text": "A medida empregada também será aplicada a quem mede.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A medida empregada também será aplicada a quem mede."
+          },
+          {
+            "id": "P04",
+            "text": "A comparação opõe o cisco no olho do irmão à trave no próprio olho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação opõe o cisco no olho do irmão à trave no próprio olho."
+          },
+          {
+            "id": "P05",
+            "text": "A pessoa com a trave propõe tirar o cisco do irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa com a trave propõe tirar o cisco do irmão."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus manda retirar primeiro a trave do próprio olho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus manda retirar primeiro a trave do próprio olho."
+          },
+          {
+            "id": "P07",
+            "text": "Depois disso, a pessoa verá claramente para retirar o cisco do irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois disso, a pessoa verá claramente para retirar o cisco do irmão."
+          },
+          {
+            "id": "P08",
+            "text": "O que é santo não deve ser dado aos cães.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que é santo não deve ser dado aos cães."
+          },
+          {
+            "id": "P09",
+            "text": "Pérolas não devem ser lançadas diante dos porcos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pérolas não devem ser lançadas diante dos porcos."
+          },
+          {
+            "id": "P10",
+            "text": "A advertência menciona pérolas pisadas e pessoas atacadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A advertência menciona pérolas pisadas e pessoas atacadas."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus manda fazer aos outros aquilo que os destinatários querem receber deles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus manda fazer aos outros aquilo que os destinatários querem receber deles."
+          },
+          {
+            "id": "P12",
+            "text": "Essa orientação é relacionada à Lei e aos Profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa orientação é relacionada à Lei e aos Profetas."
+          },
+          {
+            "id": "P13",
+            "text": "Muitos alegarão ter profetizado em nome de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos alegarão ter profetizado em nome de Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "Também alegarão ter expulsado demônios em seu nome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também alegarão ter expulsado demônios em seu nome."
+          },
+          {
+            "id": "P15",
+            "text": "Outra alegação será a realização de muitos milagres em seu nome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra alegação será a realização de muitos milagres em seu nome."
+          },
+          {
+            "id": "P16",
+            "text": "A resposta anunciada declara que Jesus nunca os conheceu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta anunciada declara que Jesus nunca os conheceu."
+          },
+          {
+            "id": "P17",
+            "text": "A ordem final a esses praticantes do mal é que se afastem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem final a esses praticantes do mal é que se afastem."
+          },
+          {
+            "id": "P18",
+            "text": "As multidões ficaram maravilhadas quando Jesus terminou essas palavras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As multidões ficaram maravilhadas quando Jesus terminou essas palavras."
+          },
+          {
+            "id": "P19",
+            "text": "A reação das multidões é ligada à doutrina de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reação das multidões é ligada à doutrina de Jesus."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus ensinava como quem tem autoridade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ensinava como quem tem autoridade."
+          },
+          {
+            "id": "P21",
+            "text": "Seu modo de ensinar é contrastado com o dos escribas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta por uma afirmação expressamente atribuída ao ensino de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu modo de ensinar é contrastado com o dos escribas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus adverte sobre julgamento, usa cisco e trave para ordenar a correção, formula uma regra de ação, anuncia resposta a alegações e provoca maravilhamento por ensinar com autoridade.",
+        "hinge": "As unidades independentes são reunidas como porções ainda não representadas do mesmo discurso; alegações não comprovam identidade ou aprovação, e as imagens não recebem interpretação externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "7.1-6,12,22-23,28-29",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
             "checkedAt": "2026-09-13"
