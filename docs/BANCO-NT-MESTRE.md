@@ -401,3 +401,15 @@ A revisão solicitada de Bartimeu concluiu que cura e seguimento genéricos não
 A medição obrigatória foi feita antes de editar fonte, catálogo ou conteúdo bíblico. O checkpoint 037 estava limpo e confirmou 109 IDs únicos, 109 pautas elegíveis e 1.983 pistas. Embora o diff novo contra `a4acf82b488115a423f168d98bad1fc5251a4afd` fosse zero, o acumulado contra `471bc4c8affd1f6657b98d5dc12a4dc6c53d5582` já somava 10.257 inserções, 36 exclusões e 374.944 bytes em 14 arquivos, incluindo 10.167 inserções nos dois artefatos do banco.
 
 Para não recriar o erro de tamanho, esta rodada registra somente a necessidade operacional de iniciar o próximo lote sobre uma base que já incorpore o checkpoint 037. Não houve consulta NAA nem decisão editorial sobre At 13.4-12, 14.8-20, 16.6-15, 18.1-17 ou 19.11-20; nenhuma pauta ou pista foi acrescentada. At 21/23, Romanos–Judas e Apocalipse também permanecem pendentes. Não houve merge, deploy, publicação nem alteração de credenciais/Firebase.
+
+
+## Checkpoint 039 — segundo lote incremental de Atos
+
+A base recebida no commit `a0cdf45fa67dac5b2f7ce6cd336ec39bb4fe551d` foi confirmada com **109 pautas elegíveis e 1.983 pistas**. A comparação mecanizada dos primeiros 109 objetos após a autoria retornou igualdade integral com a fonte desse commit; não houve correção retroativa nesta rodada.
+
+Em 12/09/2026, as páginas identificadas como **Nova Almeida Atualizada** de Atos 13, 14, 16, 18 e 19 em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200 e os recortes autorizados foram lidos. Foram autoradas cinco pautas: At 13.4-12 (14 pistas), At 14.8-20 (16), At 16.6-15 (15), At 18.1-17 (18) e At 19.11-20 (17). Cada uma usa quatro campos independentes, alternativas distintas, gabarito explícito, focal justificado e referências específicas; nenhuma viagem foi alinhada automaticamente a uma carta.
+
+- **Inventário:** 114 pautas elegíveis e 2.063 pistas; 56 chegam a 12 participantes, quatro a oito, duas a sete, 29 a seis, uma a cinco, nove a quatro e treze a três.
+- **Auditoria:** zero duplicatas exatas e zero pares semânticos pendentes; os alertas históricos continuam cobertos por resoluções documentadas.
+- **Pendências:** At 21.7-14, At 23.12-35, todos os candidatos ainda enumerados de Romanos–Judas e os de Apocalipse permanecem para rodadas posteriores. O banco **não** está completo.
+- **Operação:** não houve merge, deploy, publicação nem alteração de credenciais ou Firebase.

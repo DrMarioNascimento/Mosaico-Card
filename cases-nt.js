@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 109,
-    "fields": 436,
-    "editoriallyEligibleCases": 109,
-    "playableCases": 109,
+    "cases": 114,
+    "fields": 456,
+    "editoriallyEligibleCases": 114,
+    "playableCases": 114,
     "max12Cases": 56
   },
   "order": [
@@ -125,7 +125,12 @@
     "nt2-atos-apostolos-sinedrio",
     "nt2-atos-morte-estevao",
     "nt2-atos-eneias-tabita",
-    "nt2-atos-herodes-tiro-sidom"
+    "nt2-atos-herodes-tiro-sidom",
+    "nt2-atos-chipre-elimas",
+    "nt2-atos-listra-paulo-barnabe",
+    "nt2-atos-visao-lidia",
+    "nt2-atos-paulo-corinto",
+    "nt2-atos-efeso-ceva"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -73167,6 +73172,3055 @@
             "passage": "12.20-23",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-chipre-elimas": {
+      "id": "nt2-atos-chipre-elimas",
+      "kind": "canonical-case",
+      "title": "A missão em Chipre e Elimas",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 13.4-12",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "13.4-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais lugares, pessoas, oposição e desfecho marcam a missão em Chipre?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A fé do procônsul após ver o ocorrido encerra a oposição de Elimas e dá sentido ao percurso narrado.",
+      "editorial": {
+        "hinge": "Os fatos seguem exclusivamente a sequência de At 13.4-12, sem associá-la a outra viagem ou documento."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como o procônsul reagiu ao que aconteceu",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Creu, admirado com a doutrina do Senhor"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Mandou prender Barnabé e Saulo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Partiu imediatamente para Salamina"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Expulsou João da ilha"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Creu, admirado com a doutrina do Senhor",
+          "enderecoNAA": "Atos 13.12",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "13.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "De onde Barnabé e Saulo navegaram para Chipre",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Selêucia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Salamina"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Pafos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Antioquia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Selêucia",
+          "enderecoNAA": "Atos 13.4",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem desejava ouvir a palavra de Deus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Sérgio Paulo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Barjesus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Barnabé"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Sérgio Paulo",
+          "enderecoNAA": "Atos 13.7",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "13.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Elimas procurava fazer",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Afastar o procônsul da fé"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Guiar Paulo pela mão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Anunciar nas sinagogas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Navegar para Selêucia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Afastar o procônsul da fé",
+          "enderecoNAA": "Atos 13.8",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Espírito Santo enviou Barnabé e Saulo, que chegaram a Selêucia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Espírito Santo enviou Barnabé e Saulo, que chegaram a Selêucia."
+          },
+          {
+            "id": "P02",
+            "text": "De Selêucia, os dois navegaram para Chipre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "De Selêucia, os dois navegaram para Chipre."
+          },
+          {
+            "id": "P03",
+            "text": "Em Salamina, eles anunciaram a palavra de Deus nas sinagogas judaicas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em Salamina, eles anunciaram a palavra de Deus nas sinagogas judaicas."
+          },
+          {
+            "id": "P04",
+            "text": "João os acompanhava como auxiliar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "João os acompanhava como auxiliar."
+          },
+          {
+            "id": "P05",
+            "text": "Após atravessarem a ilha até Pafos, encontraram Barjesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Após atravessarem a ilha até Pafos, encontraram Barjesus."
+          },
+          {
+            "id": "P06",
+            "text": "Barjesus era judeu, praticava magia e se apresentava como falso profeta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Barjesus era judeu, praticava magia e se apresentava como falso profeta."
+          },
+          {
+            "id": "P07",
+            "text": "Sérgio Paulo exercia a função de procônsul e é descrito como inteligente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sérgio Paulo exercia a função de procônsul e é descrito como inteligente."
+          },
+          {
+            "id": "P08",
+            "text": "O procônsul chamou Barnabé e Saulo porque queria ouvir a palavra de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O procônsul chamou Barnabé e Saulo porque queria ouvir a palavra de Deus."
+          },
+          {
+            "id": "P09",
+            "text": "Elimas era a tradução apresentada para o nome do mago.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Elimas era a tradução apresentada para o nome do mago."
+          },
+          {
+            "id": "P10",
+            "text": "Elimas se opôs aos missionários e tentou afastar o procônsul da fé.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Elimas se opôs aos missionários e tentou afastar o procônsul da fé."
+          },
+          {
+            "id": "P11",
+            "text": "Saulo, também chamado Paulo, estava cheio do Espírito Santo ao confrontar Elimas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Saulo, também chamado Paulo, estava cheio do Espírito Santo ao confrontar Elimas."
+          },
+          {
+            "id": "P12",
+            "text": "Paulo anunciou que Elimas ficaria temporariamente sem ver o sol.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo anunciou que Elimas ficaria temporariamente sem ver o sol."
+          },
+          {
+            "id": "P13",
+            "text": "Névoa e escuridão vieram sobre Elimas, que buscou alguém para conduzi-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Névoa e escuridão vieram sobre Elimas, que buscou alguém para conduzi-lo."
+          },
+          {
+            "id": "P14",
+            "text": "Ao ver o acontecimento, o procônsul creu e se admirou com a doutrina do Senhor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "13.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao ver o acontecimento, o procônsul creu e se admirou com a doutrina do Senhor."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Barnabé e Saulo atravessaram Chipre; em Pafos, Elimas tentou afastar Sérgio Paulo da fé, ficou temporariamente cego e o procônsul creu.",
+        "hinge": "Os fatos seguem exclusivamente a sequência de At 13.4-12, sem associá-la a outra viagem ou documento.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "13.4-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-listra-paulo-barnabe": {
+      "id": "nt2-atos-listra-paulo-barnabe",
+      "kind": "canonical-case",
+      "title": "Paulo e Barnabé em Listra",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 14.8-20",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "14.8-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais cura, identificação popular, reação apostólica e violência ocorreram em Listra?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A cura do homem que nunca havia andado desencadeia tanto a tentativa de sacrifício quanto a reação posterior da multidão.",
+      "editorial": {
+        "hinge": "A pauta preserva as mudanças internas do relato de Listra sem completar o episódio por outra fonte."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual era a condição do homem curado em Listra",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Paralítico desde o nascimento, nunca havia andado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Cego havia oito anos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Surdo desde a infância"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Enfermo havia trinta e oito anos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Paralítico desde o nascimento, nunca havia andado",
+          "enderecoNAA": "Atos 14.8-10",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "14.8-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como a multidão chamou Barnabé e Paulo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Barnabé de Júpiter e Paulo de Mercúrio"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Barnabé de Mercúrio e Paulo de Júpiter"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Barnabé de Apolo e Paulo de Zeus"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Barnabé de César e Paulo de Hermes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Barnabé de Júpiter e Paulo de Mercúrio",
+          "enderecoNAA": "Atos 14.11-12",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "14.11-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os apóstolos fizeram ao saber do sacrifício pretendido",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Rasgaram as roupas e correram para a multidão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Aceitaram touros e grinaldas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Saíram escondidos pelos portões"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Foram ao templo oferecer incenso"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Rasgaram as roupas e correram para a multidão",
+          "enderecoNAA": "Atos 14.13-15",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "14.13-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ocorreu depois da chegada de judeus de Antioquia e Icônio",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Paulo foi apedrejado e arrastado para fora da cidade"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Barnabé foi preso pelo sacerdote"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O homem curado foi levado a Derbe"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A multidão destruiu o templo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Paulo foi apedrejado e arrastado para fora da cidade",
+          "enderecoNAA": "Atos 14.19",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "14.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Em Listra, um homem permanecia sentado porque era paralítico desde o nascimento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em Listra, um homem permanecia sentado porque era paralítico desde o nascimento."
+          },
+          {
+            "id": "P02",
+            "text": "O homem de Listra nunca tinha conseguido andar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O homem de Listra nunca tinha conseguido andar."
+          },
+          {
+            "id": "P03",
+            "text": "Ele ouviu Paulo falar, e Paulo percebeu que tinha fé para ser curado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ele ouviu Paulo falar, e Paulo percebeu que tinha fé para ser curado."
+          },
+          {
+            "id": "P04",
+            "text": "Após a ordem de Paulo para ficar de pé, o homem saltou e começou a andar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Após a ordem de Paulo para ficar de pé, o homem saltou e começou a andar."
+          },
+          {
+            "id": "P05",
+            "text": "A multidão afirmou em língua licaônica que deuses haviam descido em forma humana.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A multidão afirmou em língua licaônica que deuses haviam descido em forma humana."
+          },
+          {
+            "id": "P06",
+            "text": "A multidão chamou Barnabé de Júpiter.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A multidão chamou Barnabé de Júpiter."
+          },
+          {
+            "id": "P07",
+            "text": "Paulo foi chamado de Mercúrio porque era o principal porta-voz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo foi chamado de Mercúrio porque era o principal porta-voz."
+          },
+          {
+            "id": "P08",
+            "text": "O sacerdote trouxe touros e grinaldas para os portões a fim de oferecer sacrifício.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O sacerdote trouxe touros e grinaldas para os portões a fim de oferecer sacrifício."
+          },
+          {
+            "id": "P09",
+            "text": "Ao saber da intenção, Barnabé e Paulo rasgaram as próprias roupas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ao saber da intenção, Barnabé e Paulo rasgaram as próprias roupas."
+          },
+          {
+            "id": "P10",
+            "text": "Os apóstolos correram para o meio da multidão e protestaram que também eram humanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.14-15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os apóstolos correram para o meio da multidão e protestaram que também eram humanos."
+          },
+          {
+            "id": "P11",
+            "text": "Eles anunciaram que o povo deveria abandonar coisas vãs e voltar-se ao Deus vivo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles anunciaram que o povo deveria abandonar coisas vãs e voltar-se ao Deus vivo."
+          },
+          {
+            "id": "P12",
+            "text": "Mesmo falando assim, tiveram dificuldade para impedir os sacrifícios.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Mesmo falando assim, tiveram dificuldade para impedir os sacrifícios."
+          },
+          {
+            "id": "P13",
+            "text": "Judeus vindos de Antioquia e Icônio conquistaram a multidão contra Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Judeus vindos de Antioquia e Icônio conquistaram a multidão contra Paulo."
+          },
+          {
+            "id": "P14",
+            "text": "Paulo foi apedrejado e arrastado para fora da cidade, considerado morto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo foi apedrejado e arrastado para fora da cidade, considerado morto."
+          },
+          {
+            "id": "P15",
+            "text": "Cercado pelos discípulos, Paulo se levantou e voltou à cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Cercado pelos discípulos, Paulo se levantou e voltou à cidade."
+          },
+          {
+            "id": "P16",
+            "text": "No dia seguinte, Paulo partiu com Barnabé para Derbe.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "No dia seguinte, Paulo partiu com Barnabé para Derbe."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em Listra, Paulo curou um homem que nunca andara; a multidão tentou honrar os missionários como deuses, depois foi instigada a apedrejar Paulo.",
+        "hinge": "A pauta preserva as mudanças internas do relato de Listra sem completar o episódio por outra fonte.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "14.8-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-visao-lidia": {
+      "id": "nt2-atos-visao-lidia",
+      "kind": "canonical-case",
+      "title": "Da visão macedônica ao acolhimento de Lídia",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 16.6-15",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "16.6-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais impedimentos, visão, destino e acolhimento conduzem o relato até Lídia?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "Filipos é o destino ao qual o grupo chega após a visão e o cenário em que Lídia ouve, é batizada e oferece hospedagem.",
+      "editorial": {
+        "hinge": "A sequência é limitada a At 16.6-15 e não é alinhada a cronologias das cartas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A qual cidade da Macedônia o grupo chegou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Filipos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Corinto"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Listra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pafos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Filipos",
+          "enderecoNAA": "Atos 16.12",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "16.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem impediu a pregação na província da Ásia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Espírito Santo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O procônsul da Acaia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os chefes da sinagoga"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O comandante romano"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Espírito Santo",
+          "enderecoNAA": "Atos 16.6",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "16.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual pedido apareceu na visão de Paulo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que passasse à Macedônia e ajudasse"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que voltasse à província da Ásia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que permanecesse em Trôade"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que navegasse diretamente a Tiatira"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Que passasse à Macedônia e ajudasse",
+          "enderecoNAA": "Atos 16.9",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "16.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem acolheu o grupo depois do batismo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Lídia e sua casa"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um homem da Macedônia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O carcereiro e os guardas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Silas e Timóteo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Lídia e sua casa",
+          "enderecoNAA": "Atos 16.14-15",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "16.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O grupo percorreu a região frígio-gálata.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O grupo percorreu a região frígio-gálata."
+          },
+          {
+            "id": "P02",
+            "text": "O Espírito Santo impediu que pregassem a palavra na província da Ásia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Espírito Santo impediu que pregassem a palavra na província da Ásia."
+          },
+          {
+            "id": "P03",
+            "text": "Perto de Mísia, tentaram entrar na Bitínia, mas o Espírito de Jesus não permitiu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Perto de Mísia, tentaram entrar na Bitínia, mas o Espírito de Jesus não permitiu."
+          },
+          {
+            "id": "P04",
+            "text": "Depois de contornar Mísia, chegaram a Trôade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Depois de contornar Mísia, chegaram a Trôade."
+          },
+          {
+            "id": "P05",
+            "text": "À noite, Paulo viu um homem da Macedônia em pé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "À noite, Paulo viu um homem da Macedônia em pé."
+          },
+          {
+            "id": "P06",
+            "text": "Na visão, o homem pediu que Paulo passasse à Macedônia para ajudá-los.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Na visão, o homem pediu que Paulo passasse à Macedônia para ajudá-los."
+          },
+          {
+            "id": "P07",
+            "text": "O grupo concluiu que Deus o chamava para anunciar o evangelho na Macedônia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O grupo concluiu que Deus o chamava para anunciar o evangelho na Macedônia."
+          },
+          {
+            "id": "P08",
+            "text": "De Trôade, navegaram diretamente a Samotrácia e depois a Neápolis.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "De Trôade, navegaram diretamente a Samotrácia e depois a Neápolis."
+          },
+          {
+            "id": "P09",
+            "text": "Filipos é descrita como cidade macedônica, primeira do distrito e colônia romana.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Filipos é descrita como cidade macedônica, primeira do distrito e colônia romana."
+          },
+          {
+            "id": "P10",
+            "text": "No sábado, o grupo foi à beira do rio, onde supunha haver lugar de oração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "No sábado, o grupo foi à beira do rio, onde supunha haver lugar de oração."
+          },
+          {
+            "id": "P11",
+            "text": "Ali, eles falaram às mulheres que estavam reunidas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Ali, eles falaram às mulheres que estavam reunidas."
+          },
+          {
+            "id": "P12",
+            "text": "Lídia era natural de Tiatira, vendia púrpura e temia a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Lídia era natural de Tiatira, vendia púrpura e temia a Deus."
+          },
+          {
+            "id": "P13",
+            "text": "O Senhor abriu o coração de Lídia para atender ao ensino de Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Senhor abriu o coração de Lídia para atender ao ensino de Paulo."
+          },
+          {
+            "id": "P14",
+            "text": "Lídia e sua casa foram batizadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Lídia e sua casa foram batizadas."
+          },
+          {
+            "id": "P15",
+            "text": "Lídia pediu que o grupo reconhecesse sua fidelidade e ficasse em sua casa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "16.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Lídia pediu que o grupo reconhecesse sua fidelidade e ficasse em sua casa."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Impedidos de entrar em outras regiões, Paulo e seus companheiros seguiram a visão macedônica até Filipos, onde Lídia ouviu, foi batizada com sua casa e os hospedou.",
+        "hinge": "A sequência é limitada a At 16.6-15 e não é alinhada a cronologias das cartas.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "16.6-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-paulo-corinto": {
+      "id": "nt2-atos-paulo-corinto",
+      "kind": "canonical-case",
+      "title": "Paulo em Corinto e o tribunal de Gálio",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 18.1-17",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "18.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais companheiros, trabalho, encorajamento e julgamento aparecem na permanência de Paulo em Corinto?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A recusa de Gálio em julgar a controvérsia determina o encerramento público do conflito no tribunal.",
+      "editorial": {
+        "hinge": "A pauta relata somente At 18.1-17 e não presume correspondência cronológica com cartas paulinas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Gálio tratou a acusação religiosa",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Recusou ser juiz e expulsou os acusadores do tribunal"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Condenou Paulo à prisão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Enviou o caso ao imperador"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ordenou que Paulo deixasse a Acaia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Recusou ser juiz e expulsou os acusadores do tribunal",
+          "enderecoNAA": "Atos 18.14-16",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "18.14-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Com qual casal Paulo morou e trabalhou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Áquila e Priscila"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Silas e Lídia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Crispo e sua mulher"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Tício Justo e sua casa"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Áquila e Priscila",
+          "enderecoNAA": "Atos 18.2-3",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "18.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Qual era o ofício compartilhado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Fazer tendas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Vender púrpura"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Copiar livros"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Trabalhar com prata"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Fazer tendas",
+          "enderecoNAA": "Atos 18.3",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "18.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por quanto tempo Paulo ensinou em Corinto",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um ano e seis meses"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Três meses"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Dois anos completos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Sete semanas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um ano e seis meses",
+          "enderecoNAA": "Atos 18.11",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "18.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo saiu de Atenas e foi para Corinto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo saiu de Atenas e foi para Corinto."
+          },
+          {
+            "id": "P02",
+            "text": "Áquila era judeu natural do Ponto e havia chegado recentemente da Itália.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Áquila era judeu natural do Ponto e havia chegado recentemente da Itália."
+          },
+          {
+            "id": "P03",
+            "text": "Priscila era mulher de Áquila e o acompanhara após a saída dos judeus de Roma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Priscila era mulher de Áquila e o acompanhara após a saída dos judeus de Roma."
+          },
+          {
+            "id": "P04",
+            "text": "Paulo passou a morar e trabalhar com Áquila e Priscila.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo passou a morar e trabalhar com Áquila e Priscila."
+          },
+          {
+            "id": "P05",
+            "text": "O ofício comum dos três era fabricar tendas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O ofício comum dos três era fabricar tendas."
+          },
+          {
+            "id": "P06",
+            "text": "A cada sábado, Paulo argumentava na sinagoga com judeus e gregos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A cada sábado, Paulo argumentava na sinagoga com judeus e gregos."
+          },
+          {
+            "id": "P07",
+            "text": "Com a chegada de Silas e Timóteo, Paulo se dedicou inteiramente à palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Com a chegada de Silas e Timóteo, Paulo se dedicou inteiramente à palavra."
+          },
+          {
+            "id": "P08",
+            "text": "Tício Justo, temente a Deus, morava ao lado da sinagoga.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Tício Justo, temente a Deus, morava ao lado da sinagoga."
+          },
+          {
+            "id": "P09",
+            "text": "Crispo, chefe da sinagoga, creu no Senhor com toda a sua casa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Crispo, chefe da sinagoga, creu no Senhor com toda a sua casa."
+          },
+          {
+            "id": "P10",
+            "text": "Muitos coríntios ouviram, creram e foram batizados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos coríntios ouviram, creram e foram batizados."
+          },
+          {
+            "id": "P11",
+            "text": "Em visão noturna, o Senhor orientou Paulo a falar sem medo nem silêncio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Em visão noturna, o Senhor orientou Paulo a falar sem medo nem silêncio."
+          },
+          {
+            "id": "P12",
+            "text": "O Senhor declarou estar com Paulo e ter muito povo naquela cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O Senhor declarou estar com Paulo e ter muito povo naquela cidade."
+          },
+          {
+            "id": "P13",
+            "text": "Paulo ficou em Corinto por um ano e seis meses, ensinando a palavra de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Paulo ficou em Corinto por um ano e seis meses, ensinando a palavra de Deus."
+          },
+          {
+            "id": "P14",
+            "text": "Durante o proconsulado de Gálio na Acaia, judeus levaram Paulo ao tribunal.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Durante o proconsulado de Gálio na Acaia, judeus levaram Paulo ao tribunal."
+          },
+          {
+            "id": "P15",
+            "text": "Os acusadores alegaram que Paulo persuadia pessoas a adorar contra a lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os acusadores alegaram que Paulo persuadia pessoas a adorar contra a lei."
+          },
+          {
+            "id": "P16",
+            "text": "Gálio classificou a disputa como questão de palavras, nomes e lei dos próprios judeus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.14-15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gálio classificou a disputa como questão de palavras, nomes e lei dos próprios judeus."
+          },
+          {
+            "id": "P17",
+            "text": "Gálio recusou-se a julgar a questão e os expulsou do tribunal.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Gálio recusou-se a julgar a questão e os expulsou do tribunal."
+          },
+          {
+            "id": "P18",
+            "text": "Sóstenes foi espancado diante do tribunal sem que Gálio interviesse.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "18.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Sóstenes foi espancado diante do tribunal sem que Gálio interviesse."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em Corinto, Paulo trabalhou com Áquila e Priscila, ensinou por um ano e meio e foi levado ao tribunal, onde Gálio recusou julgar a disputa.",
+        "hinge": "A pauta relata somente At 18.1-17 e não presume correspondência cronológica com cartas paulinas.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "18.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-atos-efeso-ceva": {
+      "id": "nt2-atos-efeso-ceva",
+      "kind": "canonical-case",
+      "title": "Os filhos de Ceva e os livros em Éfeso",
+      "canon": {
+        "book": "Atos",
+        "referenceNAA": "Atos 19.11-20",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "19.11-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+            "checkedAt": "2026-09-12"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "POR QUÊ",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais milagres, tentativa de exorcismo, derrota e resposta pública ocorreram em Éfeso?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A derrota dos exorcistas torna pública a diferença entre repetir um nome e a atuação narrada por meio de Paulo.",
+      "editorial": {
+        "hinge": "O relato é mantido em seus próprios termos; nenhuma identidade externa é atribuída a Ceva ou aos exorcistas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como o possesso reagiu aos sete filhos de Ceva",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Dominou-os e os fez fugir nus e feridos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Obedeceu e deixou a casa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Queimou os livros deles"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Conduziu-os pela mão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Dominou-os e os fez fugir nus e feridos",
+          "enderecoNAA": "Atos 19.15-16",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "19.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Por meio de quem Deus realizava milagres extraordinários",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Paulo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Ceva"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sóstenes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Áquila"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Paulo",
+          "enderecoNAA": "Atos 19.11",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "19.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem tentou invocar Jesus sobre pessoas com espíritos malignos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Exorcistas judeus ambulantes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os enfermos de Éfeso"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os discípulos da Macedônia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os fabricantes de tendas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Exorcistas judeus ambulantes",
+          "enderecoNAA": "Atos 19.13",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "19.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que muitos antigos praticantes de magia fizeram",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Queimaram publicamente seus livros"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Entregaram seus aventais a Paulo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Saíram de Éfeso para Corinto"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Levaram os livros ao tribunal"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Queimaram publicamente seus livros",
+          "enderecoNAA": "Atos 19.19",
+          "answerReferences": [
+            {
+              "book": "Atos",
+              "passage": "19.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+              "checkedAt": "2026-09-12"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Deus realizava milagres extraordinários pelas mãos de Paulo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Deus realizava milagres extraordinários pelas mãos de Paulo."
+          },
+          {
+            "id": "P02",
+            "text": "Lenços e aventais usados por Paulo eram levados aos enfermos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Lenços e aventais usados por Paulo eram levados aos enfermos."
+          },
+          {
+            "id": "P03",
+            "text": "As enfermidades deixavam as pessoas e espíritos malignos se retiravam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "As enfermidades deixavam as pessoas e espíritos malignos se retiravam."
+          },
+          {
+            "id": "P04",
+            "text": "Exorcistas judeus ambulantes tentaram usar o nome do Senhor Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Exorcistas judeus ambulantes tentaram usar o nome do Senhor Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "Eles se referiam a Jesus como aquele que Paulo pregava.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Eles se referiam a Jesus como aquele que Paulo pregava."
+          },
+          {
+            "id": "P06",
+            "text": "Os praticantes eram sete filhos de Ceva, identificado como judeu e sumo sacerdote.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os praticantes eram sete filhos de Ceva, identificado como judeu e sumo sacerdote."
+          },
+          {
+            "id": "P07",
+            "text": "O espírito maligno afirmou conhecer Jesus e saber quem era Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O espírito maligno afirmou conhecer Jesus e saber quem era Paulo."
+          },
+          {
+            "id": "P08",
+            "text": "O espírito questionou a identidade dos filhos de Ceva.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O espírito questionou a identidade dos filhos de Ceva."
+          },
+          {
+            "id": "P09",
+            "text": "O homem possesso saltou sobre os exorcistas e dominou todos eles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O homem possesso saltou sobre os exorcistas e dominou todos eles."
+          },
+          {
+            "id": "P10",
+            "text": "Os filhos de Ceva fugiram daquela casa nus e feridos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os filhos de Ceva fugiram daquela casa nus e feridos."
+          },
+          {
+            "id": "P11",
+            "text": "O acontecimento se tornou conhecido por judeus e gregos moradores de Éfeso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O acontecimento se tornou conhecido por judeus e gregos moradores de Éfeso."
+          },
+          {
+            "id": "P12",
+            "text": "O temor se espalhou, e o nome do Senhor Jesus foi engrandecido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O temor se espalhou, e o nome do Senhor Jesus foi engrandecido."
+          },
+          {
+            "id": "P13",
+            "text": "Muitos crentes confessaram e tornaram públicas as próprias práticas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos crentes confessaram e tornaram públicas as próprias práticas."
+          },
+          {
+            "id": "P14",
+            "text": "Muitos antigos praticantes de magia reuniram seus livros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Muitos antigos praticantes de magia reuniram seus livros."
+          },
+          {
+            "id": "P15",
+            "text": "Os livros foram queimados diante de todos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "Os livros foram queimados diante de todos."
+          },
+          {
+            "id": "P16",
+            "text": "O valor calculado dos livros chegou a cinquenta mil denários.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "O valor calculado dos livros chegou a cinquenta mil denários."
+          },
+          {
+            "id": "P17",
+            "text": "A palavra do Senhor crescia e prevalecia poderosamente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Atos",
+                "passage": "19.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+                "checkedAt": "2026-09-12"
+              }
+            ],
+            "texto": "A palavra do Senhor crescia e prevalecia poderosamente."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Deus fazia milagres por meio de Paulo; sete filhos de Ceva fracassaram ao tentar empregar o nome de Jesus, e muitos em Éfeso confessaram práticas e queimaram livros de magia.",
+        "hinge": "O relato é mantido em seus próprios termos; nenhuma identidade externa é atribuída a Ceva ou aos exorcistas.",
+        "references": [
+          {
+            "book": "Atos",
+            "passage": "19.11-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
             "checkedAt": "2026-09-12"
           }
         ]

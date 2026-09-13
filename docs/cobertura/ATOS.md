@@ -40,3 +40,10 @@ At 1.15-26, 3.1-10, 6.1-7 e 20.7-12 originaram quatro pautas. As exclusões gen�
 ## Auditoria individual — checkpoint 037
 
 At 4.23-31, 5.17-42, 7.54-60, 9.32-43 e 12.20-23 foram obtidos e relidos na NAA. Originaram, respectivamente, `nt2-atos-oracao-ousadia` (9 pistas), `nt2-atos-apostolos-sinedrio` (25), `nt2-atos-morte-estevao` (9), `nt2-atos-eneias-tabita` (17) e `nt2-atos-herodes-tiro-sidom` (7). A pauta temática de At 9 mantém Eneias/Lida e Tabita/Jope explicitamente separados. Os demais candidatos de Atos permanecem pendentes para outra rodada.
+
+
+## Auditoria individual — checkpoint 039
+
+As páginas NAA de Atos 13, 14, 16, 18 e 19 foram obtidas separadamente com HTTP 200 e os recortes At 13.4-12, 14.8-20, 16.6-15, 18.1-17 e 19.11-20 foram relidos. As exclusões anteriores por insuficiência ficam supersedidas para esses cinco recortes: eles originaram, respectivamente, `nt2-atos-chipre-elimas` (14 pistas), `nt2-atos-listra-paulo-barnabe` (16), `nt2-atos-visao-lidia` (15), `nt2-atos-paulo-corinto` (18) e `nt2-atos-efeso-ceva` (17).
+
+Cada pauta conserva seu documento: a ida à Macedônia não foi alinhada a cartas, e a permanência em Corinto não foi usada para construir cronologia epistolar. At 21.7-14 e 23.12-35 permanecem candidatos pendentes para outra rodada.
