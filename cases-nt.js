@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-093-1corintios-14-35-relatorio-parcial",
+  "catalogVersion": "checkpoint-094-marcos-3-4",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 288,
-    "fields": 1152,
-    "editoriallyEligibleCases": 288,
-    "playableCases": 288,
+    "cases": 292,
+    "fields": 1168,
+    "editoriallyEligibleCases": 292,
+    "playableCases": 292,
     "max12Cases": 96
   },
   "order": [
@@ -304,7 +304,11 @@
     "nt2-marcos-casa-madrugada-pregacao",
     "nt2-marcos-leproso-divulgacao",
     "nt2-marcos-jejum-remendo-odres",
-    "nt2-marcos-espigas-sabado-davi"
+    "nt2-marcos-espigas-sabado-davi",
+    "nt2-marcos-multidao-barquinho-espiritos",
+    "nt2-marcos-doze-monte-nomes",
+    "nt2-marcos-casa-belsebu-divisao",
+    "nt2-marcos-mae-irmaos-vontade-deus"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -199770,6 +199774,2371 @@
             "passage": "2.23-28",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-multidao-barquinho-espiritos": {
+      "id": "nt2-marcos-multidao-barquinho-espiritos",
+      "kind": "canonical-case",
+      "title": "A multidão, o barquinho e os espíritos",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 3.7-12",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.7-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "De onde vinha a multidão, por que Jesus pediu um barquinho, o que faziam os enfermos e como ele reagiu aos espíritos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A advertência contra a publicidade encerra a unidade e distingue a reação de Jesus aos espíritos; origens, barquinho e procura por toque recompõem o cenário.",
+      "editorial": {
+        "hinge": "As origens são uma lista do próprio documento, e a declaração dos espíritos permanece fala atribuída; nenhum paralelo ou dado geográfico externo completa o recorte."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta de Jesus aos espíritos imundos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Advertia severamente que não o expusessem à publicidade"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Mandava que anunciassem em Jerusalém"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pedia que escolhessem os doze"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ordenava que preparassem outro barco"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Advertia severamente que não o expusessem à publicidade",
+          "enderecoNAA": "Marcos 3.11-12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.11-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Origens enumeradas para a multidão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Galileia, Judeia, Jerusalém, Idumeia, além do Jordão e arredores de Tiro e Sidom"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente Nazaré e Belém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Apenas Cafarnaum e Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Roma, Corinto e Éfeso"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Galileia, Judeia, Jerusalém, Idumeia, além do Jordão e arredores de Tiro e Sidom",
+          "enderecoNAA": "Marcos 3.7-8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.7-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Providência pedida aos discípulos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Manter um barquinho pronto para que a multidão não o apertasse"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Distribuir doze cestos à multidão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Fechar a sinagoga antes do sábado"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Preparar uma casa para uma refeição"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Manter um barquinho pronto para que a multidão não o apertasse",
+          "enderecoNAA": "Marcos 3.9",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação dos que tinham enfermidades",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Esforçavam-se para chegar perto e tocar em Jesus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Afastavam-se para não serem vistos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pediam aos escribas uma autorização"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Entravam no barco e atravessavam o mar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Esforçavam-se para chegar perto e tocar em Jesus",
+          "enderecoNAA": "Marcos 3.10",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus retirou-se com os discípulos para o mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus retirou-se com os discípulos para o mar."
+          },
+          {
+            "id": "P02",
+            "text": "Uma grande multidão o seguia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma grande multidão o seguia."
+          },
+          {
+            "id": "P03",
+            "text": "Havia pessoas vindas da Galileia e da Judeia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Havia pessoas vindas da Galileia e da Judeia."
+          },
+          {
+            "id": "P04",
+            "text": "Jerusalém e Idumeia também são enumeradas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jerusalém e Idumeia também são enumeradas."
+          },
+          {
+            "id": "P05",
+            "text": "O outro lado do Jordão aparece entre as origens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O outro lado do Jordão aparece entre as origens."
+          },
+          {
+            "id": "P06",
+            "text": "A lista alcança os arredores de Tiro e Sidom.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista alcança os arredores de Tiro e Sidom."
+          },
+          {
+            "id": "P07",
+            "text": "As pessoas ouviam falar das coisas que Jesus fazia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As pessoas ouviam falar das coisas que Jesus fazia."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus recomendou que os discípulos mantivessem um barquinho pronto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus recomendou que os discípulos mantivessem um barquinho pronto."
+          },
+          {
+            "id": "P09",
+            "text": "A providência respondia ao risco de a multidão apertá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A providência respondia ao risco de a multidão apertá-lo."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus curava muitas pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curava muitas pessoas."
+          },
+          {
+            "id": "P11",
+            "text": "Os enfermos buscavam chegar perto para tocá-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os enfermos buscavam chegar perto para tocá-lo."
+          },
+          {
+            "id": "P12",
+            "text": "Os espíritos imundos prostravam-se quando o viam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os espíritos imundos prostravam-se quando o viam."
+          },
+          {
+            "id": "P13",
+            "text": "Eles gritavam que Jesus era o Filho de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles gritavam que Jesus era o Filho de Deus."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus os advertia severamente contra expô-lo à publicidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os advertia severamente contra expô-lo à publicidade."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 3.7-12 reúne a multidão vinda de diversas regiões, o pedido de um barquinho, a busca dos enfermos por tocar em Jesus e a advertência dirigida aos espíritos imundos.",
+        "hinge": "As origens são uma lista do próprio documento, e a declaração dos espíritos permanece fala atribuída; nenhum paralelo ou dado geográfico externo completa o recorte.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.7-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-doze-monte-nomes": {
+      "id": "nt2-marcos-doze-monte-nomes",
+      "kind": "canonical-case",
+      "title": "Os doze no monte",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 3.13-19",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.13-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus chamou os escolhidos, para quais tarefas designou doze, que sobrenome deu a Tiago e João e quem encerra a lista?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "As finalidades explícitas da designação estruturam a lista; lugar, sobrenome e último nome permitem reconhecer o recorte sem importar funções posteriores.",
+      "editorial": {
+        "hinge": "Nomes, explicações e a traição são apresentados somente como Marcos os atribui; a pauta não completa biografias, cargos ou listas por outros documentos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Finalidades da designação dos doze",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Estar com Jesus, ser enviados a pregar e ter autoridade para expulsar demônios"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cobrar impostos, julgar cidades e guardar o templo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Construir barcos, semear e recolher redes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Permanecer no monte, jejuar e evitar multidões"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Estar com Jesus, ser enviados a pregar e ter autoridade para expulsar demônios",
+          "enderecoNAA": "Marcos 3.14-15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar da convocação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um monte"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A coletoria"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A praia, dentro de um barco"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um monte",
+          "enderecoNAA": "Marcos 3.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Nome dado a Tiago e João",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Boanerges, isto é, filhos do trovão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Cefas, isto é, pedra"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Barnabé, isto é, filho da consolação"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Emanuel, isto é, Deus conosco"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Boanerges, isto é, filhos do trovão",
+          "enderecoNAA": "Marcos 3.17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Último nome e observação da lista",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Judas Iscariotes, que traiu Jesus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Tadeu, que era cobrador de impostos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Simão Pedro, que ficou no barco"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Bartolomeu, que veio de Jerusalém"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Judas Iscariotes, que traiu Jesus",
+          "enderecoNAA": "Marcos 3.19",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus subiu a um monte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus subiu a um monte."
+          },
+          {
+            "id": "P02",
+            "text": "Ele chamou os que quis.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele chamou os que quis."
+          },
+          {
+            "id": "P03",
+            "text": "Os chamados vieram para junto dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os chamados vieram para junto dele."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus designou doze e os chamou de apóstolos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus designou doze e os chamou de apóstolos."
+          },
+          {
+            "id": "P05",
+            "text": "Uma finalidade era estarem com ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma finalidade era estarem com ele."
+          },
+          {
+            "id": "P06",
+            "text": "Outra era enviá-los a pregar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra era enviá-los a pregar."
+          },
+          {
+            "id": "P07",
+            "text": "Eles também exerceriam autoridade para expulsar demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles também exerceriam autoridade para expulsar demônios."
+          },
+          {
+            "id": "P08",
+            "text": "Simão abre a lista e recebe o nome Pedro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simão abre a lista e recebe o nome Pedro."
+          },
+          {
+            "id": "P09",
+            "text": "Tiago é identificado como filho de Zebedeu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago é identificado como filho de Zebedeu."
+          },
+          {
+            "id": "P10",
+            "text": "João é apresentado como irmão de Tiago.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João é apresentado como irmão de Tiago."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus deu a ambos o nome Boanerges.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deu a ambos o nome Boanerges."
+          },
+          {
+            "id": "P12",
+            "text": "O próprio texto explica Boanerges como filhos do trovão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio texto explica Boanerges como filhos do trovão."
+          },
+          {
+            "id": "P13",
+            "text": "André, Filipe e Bartolomeu aparecem na lista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "André, Filipe e Bartolomeu aparecem na lista."
+          },
+          {
+            "id": "P14",
+            "text": "Mateus e Tomé também são enumerados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus e Tomé também são enumerados."
+          },
+          {
+            "id": "P15",
+            "text": "Outro Tiago é identificado como filho de Alfeu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro Tiago é identificado como filho de Alfeu."
+          },
+          {
+            "id": "P16",
+            "text": "Tadeu consta entre os doze.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tadeu consta entre os doze."
+          },
+          {
+            "id": "P17",
+            "text": "Simão é qualificado como o Zelote.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simão é qualificado como o Zelote."
+          },
+          {
+            "id": "P18",
+            "text": "Judas Iscariotes encerra a lista com a observação de que traiu Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas Iscariotes encerra a lista com a observação de que traiu Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 3.13-19 registra a convocação no monte, três finalidades da designação dos doze e a lista que vai de Simão/Pedro a Judas Iscariotes.",
+        "hinge": "Nomes, explicações e a traição são apresentados somente como Marcos os atribui; a pauta não completa biografias, cargos ou listas por outros documentos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.13-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-casa-belsebu-divisao": {
+      "id": "nt2-marcos-casa-belsebu-divisao",
+      "kind": "canonical-case",
+      "title": "A casa cheia e a acusação de Belzebu",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 3.20-30",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.20-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que impediu o grupo de fazer, quais alegações foram apresentadas, com que comparações Jesus respondeu e por que falou do espírito imundo?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "Reino, casa e valente formam a resposta explícita à acusação; a situação doméstica, as alegações e a explicação final preservam quem disse cada afirmação.",
+      "editorial": {
+        "hinge": "As acusações ficam atribuídas aos seus falantes; as comparações e a advertência permanecem declarações de Jesus, sem identificar externamente Belzebu ou ampliar o alcance doutrinário."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Comparações usadas contra a acusação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Reino e casa divididos não subsistem; o valente precisa ser amarrado antes do saque"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Semente sem raiz cresce para sempre; lamparina fica sob a cama"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Barco dividido atravessa o mar; rede vazia alimenta a multidão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Remendo velho melhora pano novo; vinho velho rompe odres novos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Reino e casa divididos não subsistem; o valente precisa ser amarrado antes do saque",
+          "enderecoNAA": "Marcos 3.23-27",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.23-27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Efeito da multidão reunida na casa",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Nem podiam comer"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Não podiam atravessar o Jordão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Não podiam entrar na sinagoga"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Não podiam colher espigas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Nem podiam comer",
+          "enderecoNAA": "Marcos 3.20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Alegações feitas sobre Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Parentes diziam que estava fora de si; escribas diziam que tinha Belzebu e expulsava pelo maioral"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Discípulos diziam que ele dormia; fariseus, que pescava"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Multidão dizia que era escriba; parentes, que cobrava impostos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Herodianos diziam que jejuava; sacerdotes, que semeava"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Parentes diziam que estava fora de si; escribas diziam que tinha Belzebu e expulsava pelo maioral",
+          "enderecoNAA": "Marcos 3.21-22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.21-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Motivo registrado para a advertência sobre blasfêmia",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Diziam que Jesus estava possuído de espírito imundo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Perguntavam por que os discípulos não jejuavam"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Afirmavam que ele curava somente aos sábados"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pediam um sinal vindo do céu"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Diziam que Jesus estava possuído de espírito imundo",
+          "enderecoNAA": "Marcos 3.28-30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.28-30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus foi para casa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi para casa."
+          },
+          {
+            "id": "P02",
+            "text": "Outra vez uma multidão se ajuntou.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra vez uma multidão se ajuntou."
+          },
+          {
+            "id": "P03",
+            "text": "A aglomeração era tal que nem podiam comer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aglomeração era tal que nem podiam comer."
+          },
+          {
+            "id": "P04",
+            "text": "Os parentes saíram para prendê-lo ao ouvir o que ocorria.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os parentes saíram para prendê-lo ao ouvir o que ocorria."
+          },
+          {
+            "id": "P05",
+            "text": "Eles diziam que Jesus estava fora de si.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles diziam que Jesus estava fora de si."
+          },
+          {
+            "id": "P06",
+            "text": "Escribas vieram de Jerusalém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Escribas vieram de Jerusalém."
+          },
+          {
+            "id": "P07",
+            "text": "Eles diziam que Jesus estava possuído de Belzebu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles diziam que Jesus estava possuído de Belzebu."
+          },
+          {
+            "id": "P08",
+            "text": "Também atribuíam as expulsões ao poder do maioral dos demônios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também atribuíam as expulsões ao poder do maioral dos demônios."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus convocou os escribas e respondeu por meio de parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus convocou os escribas e respondeu por meio de parábolas."
+          },
+          {
+            "id": "P10",
+            "text": "Ele perguntou como Satanás poderia expulsar Satanás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou como Satanás poderia expulsar Satanás."
+          },
+          {
+            "id": "P11",
+            "text": "Um reino dividido contra si mesmo não pode subsistir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um reino dividido contra si mesmo não pode subsistir."
+          },
+          {
+            "id": "P12",
+            "text": "Uma casa dividida contra si mesma também não subsiste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma casa dividida contra si mesma também não subsiste."
+          },
+          {
+            "id": "P13",
+            "text": "Satanás dividido contra si mesmo chegaria ao fim.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Satanás dividido contra si mesmo chegaria ao fim."
+          },
+          {
+            "id": "P14",
+            "text": "Para saquear a casa do valente, primeiro é preciso amarrá-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Para saquear a casa do valente, primeiro é preciso amarrá-lo."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus declarou perdão aos filhos dos homens para pecados e blasfêmias proferidas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou perdão aos filhos dos homens para pecados e blasfêmias proferidas."
+          },
+          {
+            "id": "P16",
+            "text": "Ele distinguiu a blasfêmia contra o Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele distinguiu a blasfêmia contra o Espírito Santo."
+          },
+          {
+            "id": "P17",
+            "text": "Essa pessoa é descrita como ré de pecado eterno.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa pessoa é descrita como ré de pecado eterno."
+          },
+          {
+            "id": "P18",
+            "text": "O texto explica que Jesus falou assim porque diziam que tinha espírito imundo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto explica que Jesus falou assim porque diziam que tinha espírito imundo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 3.20-30 relata a casa tomada pela multidão, as alegações dos parentes e escribas, a resposta por comparações e a advertência motivada pela acusação de espírito imundo.",
+        "hinge": "As acusações ficam atribuídas aos seus falantes; as comparações e a advertência permanecem declarações de Jesus, sem identificar externamente Belzebu ou ampliar o alcance doutrinário.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.20-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-mae-irmaos-vontade-deus": {
+      "id": "nt2-marcos-mae-irmaos-vontade-deus",
+      "kind": "canonical-case",
+      "title": "A mãe, os irmãos e a vontade de Deus",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 3.31-35",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.31-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem ficou do lado de fora, como chamou Jesus, quem ele indicou ao olhar ao redor e que vínculo atribuiu a quem faz a vontade de Deus?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A conclusão de Jesus redefine explicitamente os vínculos na resposta; chegada, chamado e gesto visual sustentam a progressão sem negar parentesco literal.",
+      "editorial": {
+        "hinge": "A conclusão é uma declaração relacional de Jesus sobre quem faz a vontade de Deus; não apaga os parentes mencionados nem exige uma identidade institucional externa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Vínculo declarado para quem faz a vontade de Deus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "É irmão, irmã e mãe de Jesus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "É chamado filho do trovão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Passa a integrar necessariamente os doze"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Deve ficar do lado de fora"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "É irmão, irmã e mãe de Jesus",
+          "enderecoNAA": "Marcos 3.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Pessoas que chegaram e permaneceram fora",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A mãe e os irmãos de Jesus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os doze e os escribas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os fariseus e os herodianos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Simão e os filhos de Zebedeu"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A mãe e os irmãos de Jesus",
+          "enderecoNAA": "Marcos 3.31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Modo pelo qual procuraram Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Mandaram chamá-lo enquanto muita gente estava sentada ao redor"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entraram e interromperam a reunião"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Enviaram um barquinho para buscá-lo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pediram aos discípulos que dispersassem todos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Mandaram chamá-lo enquanto muita gente estava sentada ao redor",
+          "enderecoNAA": "Marcos 3.31-32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.31-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Pessoas apontadas por Jesus após sua pergunta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os que estavam sentados ao redor dele"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente os doze no monte"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os escribas vindos de Jerusalém"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os enfermos que tocavam nele"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os que estavam sentados ao redor dele",
+          "enderecoNAA": "Marcos 3.33-34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "3.33-34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A mãe e os irmãos de Jesus chegaram.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mãe e os irmãos de Jesus chegaram."
+          },
+          {
+            "id": "P02",
+            "text": "Eles ficaram do lado de fora.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles ficaram do lado de fora."
+          },
+          {
+            "id": "P03",
+            "text": "De fora, mandaram chamá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "De fora, mandaram chamá-lo."
+          },
+          {
+            "id": "P04",
+            "text": "Muita gente estava sentada ao redor de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muita gente estava sentada ao redor de Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "Informaram-lhe que sua mãe, irmãos e irmãs estavam fora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Informaram-lhe que sua mãe, irmãos e irmãs estavam fora."
+          },
+          {
+            "id": "P06",
+            "text": "Foi dito que eles o procuravam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi dito que eles o procuravam."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus perguntou quem eram sua mãe e seus irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou quem eram sua mãe e seus irmãos."
+          },
+          {
+            "id": "P08",
+            "text": "Ele olhou em volta para os que estavam sentados ao redor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele olhou em volta para os que estavam sentados ao redor."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus os apresentou como sua mãe e seus irmãos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os apresentou como sua mãe e seus irmãos."
+          },
+          {
+            "id": "P10",
+            "text": "Ele afirmou que quem faz a vontade de Deus é seu irmão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que quem faz a vontade de Deus é seu irmão."
+          },
+          {
+            "id": "P11",
+            "text": "A conclusão também inclui irmã e mãe.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "3.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão também inclui irmã e mãe."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 3.31-35 registra a chegada da mãe e dos irmãos, o chamado vindo de fora e a resposta de Jesus ao grupo sentado ao redor.",
+        "hinge": "A conclusão é uma declaração relacional de Jesus sobre quem faz a vontade de Deus; não apaga os parentes mencionados nem exige uma identidade institucional externa.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "3.31-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

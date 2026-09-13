@@ -216,3 +216,9 @@ A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguin
 ## Checkpoint 093 — 1Co 14.35 e fechamento parcial reproduzível
 
 A reconsulta NAA 1840 confirmou o item de 1Co 14.35, que foi excluído editorialmente do jogo por decisão explícita, sem substituição por 14.34/36 e sem alterar a pauta de 14.1-33,37-40. Nenhum objeto ou pista mudou: permanecem **288/5.568**. O relatório parcial reproduzível está em `docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`, com artefato em `data/nt-capacity-report.json` e gerador `tools/report-nt-capacity.mjs`. Ele conta IDs, não histórias, e mantém fatos semânticos/episódios sem contagem quando o modelo não os representa.
+
+## Checkpoint 094 — inventário integral de Marcos 3–4
+
+As páginas NAA Bible.com 1840 de Mc 3–4 (95.002 e 97.761 bytes; HTTP 200) foram efetivamente lidas verso a verso, e cada unidade recebeu matriz concreta na ficha de Marcos. Mc 3.1-6 e 4.35-41 já estavam cobertos por `nt2-marcos-mao-ressequida` e `nt2-tempestade-barco`, sem alteração. Mc 3.7-12, 3.13-19, 3.20-30 e 3.31-35 originaram quatro pautas com 14, 18, 18 e 11 pistas, capacidades 6, 8, 8 e 5. Os 288 objetos anteriores ficaram serializadamente idênticos e apenas quatro foram anexados: **292 pautas/1.168 campos/5.629 pistas**, todas elegíveis.
+
+Mc 4.1-20, 4.21-25, 4.26-29 e 4.30-34 permanecem precisamente registrados como sustentados para continuidade, adiados apenas pelo limite de quatro novas pautas; não foram excluídos por insuficiência. Semelhanças de cura, multidão, monte, mostarda e seguimento não estabeleceram identidade, e referências cruzadas não forneceram fatos. Decisões de Mt 17.21, Mt 23.14, 1Co 11, 1Co 14.35 e Mc 16.9-20 foram preservadas. Marcos e o banco não são declarados completos.

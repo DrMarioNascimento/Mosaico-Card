@@ -19,7 +19,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
 | Mateus | 98 pautas / 1.863 pistas | Nenhuma pendência textual conhecida após as decisões específicas | O checkpoint 092 aplicou Mt 23.14 à pauta existente, com colchetes/nota e separação entre exploração das viúvas e longas orações. | **FILA ORDINÁRIA DECIDIDA.** Sem declaração de completude ou exaustividade futura. |
-| Marcos | 17 / 194 | Trechos fora da lista inicial, sobretudo Mc 1–4, 6–13 e 14–16.8 não representados por pauta própria/paralela | A ficha decide 17 pré-candidatos e depois chama os 16 capítulos de analisados; não há inventário individual de todos os demais recortes. | **PENDENTE — decisão individual.** Varredura NAA por recorte; **Mc 16.9-20 permanece FORA POR DECISÃO**. |
+| Marcos | 27 / 362 | Mc 4.1-34 (quatro unidades sustentadas), além de trechos ainda não individualizados em Mc 5–16.8 | O checkpoint 094 decidiu integralmente Mc 3–4 e registrou os quatro remanescentes de Mc 4 por limite; as demais faixas ainda exigem inventário individual. | **PENDENTE — decisão individual.** Próximo lote: Mc 4.1-34; depois continuar por faixa. **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
 | Atos | 26 / 484 | Faixas narrativas/discursivas não individualizadas além dos 26 candidatos iniciais | A “varredura por faixas” afirma avaliação, mas não fornece recorte/motivo individual para todas as exclusões; discursos foram parcialmente recusados por risco genérico. | **PENDENTE — decisão individual.** Inventariar referências por episódio/discurso e confrontar as 26 pautas antes de novo lote. |
@@ -56,7 +56,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Próximo trabalho independente — Marcos:** lote pequeno de Mc 3–4; consultar a NAA e inventariar unidades antes de qualquer autoria, comparando pautas e paralelos sem harmonizar. Mt 17.21 está resolvido; Mt 23.14 permanece em fila textual própria, sem inclusão ou exclusão automática.
+1. **Próximo trabalho independente — Marcos:** autorar, após reconsulta, as quatro unidades sustentadas de Mc 4.1-34 já matriciadas; depois continuar a individualização das faixas seguintes sem harmonizar paralelos. As decisões de Mt 17.21 e Mt 23.14 estão resolvidas.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
@@ -111,3 +111,7 @@ A decisão explícita sobre Mt 17.21 foi aplicada ao objeto existente `nt2-mateu
 ## Checkpoint 093 — decisão final de 1Co 14.35 e relatório parcial
 
 1Co 14.35 foi reconsultado e excluído editorialmente do jogo, sem perguntas substitutas de 14.34/36 e sem tocar a pauta vigente de 14.1-33,37-40. Os 288 objetos/5.568 pistas ficaram idênticos. O fechamento parcial reproduzível em `docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md` apresenta capacidade real por 2–12 jogadores e explicita que a unidade sem reposição é ID elegível, não história, episódio, perspectiva ou pista. Auditorias marcadas PENDENTE na matriz continuam abertas; 1Co 11 segue pendência estrutural e Mc 3–4 é a próxima tarefa, sem autoria agora.
+
+## Checkpoint 094 — decisão individual de Marcos 3–4
+
+A leitura efetiva das páginas NAA 1840 de Mc 3–4, seguida de matriz por unidade e comparação do banco, acrescentou quatro pautas próprias de Mc 3 com 61 pistas. Mc 3.1-6 e 4.35-41 permaneceram cobertos por IDs existentes; Mc 4.1-20, 4.21-25, 4.26-29 e 4.30-34 estão sustentados e adiados somente pelo limite do lote. O catálogo passa de **288/5.568 para 292/5.629**, preservando serializadamente os 288 objetos anteriores. Marcos passa a 27 pautas/362 pistas que citam o livro, sem equivaler IDs a histórias. A pendência documental global de Marcos continua fora de Mc 3 e inclui os quatro recortes precisos de Mc 4 e as demais faixas ainda não individualizadas; Mc 16.9-20 continua fora por decisão. O banco não está completo.
