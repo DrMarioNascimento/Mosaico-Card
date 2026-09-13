@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-085-mateus-17-22-27",
+  "catalogVersion": "checkpoint-086-mateus-26",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 273,
-    "fields": 1092,
-    "editoriallyEligibleCases": 273,
-    "playableCases": 273,
-    "max12Cases": 94
+    "cases": 277,
+    "fields": 1108,
+    "editoriallyEligibleCases": 277,
+    "playableCases": 277,
+    "max12Cases": 96
   },
   "order": [
     "nt2-joao-cana",
@@ -289,7 +289,11 @@
     "nt2-mateus-morte-seguimento-vinda",
     "nt2-mateus-menino-fe-mostarda",
     "nt2-mateus-entrega-morte-ressurreicao-tristeza",
-    "nt2-mateus-duas-dracmas-peixe-moeda"
+    "nt2-mateus-duas-dracmas-peixe-moeda",
+    "nt2-mateus-plano-uncao-betania",
+    "nt2-mateus-judas-trinta-moedas-ocasiao",
+    "nt2-mateus-pedro-aviso-negacao",
+    "nt2-mateus-sinedrio-negacoes-pedro"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -189767,6 +189771,2812 @@
             "passage": "17.24-27",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-plano-uncao-betania": {
+      "id": "nt2-mateus-plano-uncao-betania",
+      "kind": "canonical-case",
+      "title": "Plano contra Jesus e unção em Betânia",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 26.1-13",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que anúncio Jesus fez, onde os líderes deliberaram e como a mulher, os discípulos e Jesus reagiram ao perfume?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O terceiro campo identifica a ação distintiva da mulher; os demais situam anúncio, deliberação e explicação de Jesus somente dentro da sequência de Mateus.",
+      "editorial": {
+        "hinge": "O plano dos líderes e a cena em Betânia permanecem unidades sucessivas de Mateus; a pauta não identifica a mulher por paralelo nem completa as referências ao sepultamento ou aos pobres pelo Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que a mulher derramou sobre a cabeça de Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Perfume precioso de um frasco de alabastro"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Água trazida numa jarra"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Vinho novo retirado de um cálice"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Azeite levado pelos discípulos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Perfume precioso de um frasco de alabastro",
+          "enderecoNAA": "Mateus 26.6-7",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.6-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Prazo mencionado para a celebração da Páscoa",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Daqui a dois dias"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Depois de seis dias"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ao terceiro dia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Naquela mesma hora"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Daqui a dois dias",
+          "enderecoNAA": "Mateus 26.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Lugar em que os líderes se reuniram",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No palácio do sumo sacerdote Caifás"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Na casa de Simão, o leproso"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No pátio do templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "No monte das Oliveiras"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No palácio do sumo sacerdote Caifás",
+          "enderecoNAA": "Mateus 26.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Finalidade atribuída por Jesus à ação da mulher",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Preparação para o sepultamento dele"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Pagamento aos principais sacerdotes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Preparação da Páscoa"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sinal para prendê-lo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Preparação para o sepultamento dele",
+          "enderecoNAA": "Mateus 26.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus acabou de proferir aquelas palavras e falou aos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus acabou de proferir aquelas palavras e falou aos discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Ele situou a Páscoa dali a dois dias.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele situou a Páscoa dali a dois dias."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus anunciou que o Filho do Homem seria entregue para ser crucificado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou que o Filho do Homem seria entregue para ser crucificado."
+          },
+          {
+            "id": "P04",
+            "text": "Principais sacerdotes e anciãos do povo reuniram-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes e anciãos do povo reuniram-se."
+          },
+          {
+            "id": "P05",
+            "text": "A reunião ocorreu no palácio do sumo sacerdote.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reunião ocorreu no palácio do sumo sacerdote."
+          },
+          {
+            "id": "P06",
+            "text": "O sumo sacerdote era chamado Caifás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sumo sacerdote era chamado Caifás."
+          },
+          {
+            "id": "P07",
+            "text": "Eles deliberaram prender Jesus à traição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deliberaram prender Jesus à traição."
+          },
+          {
+            "id": "P08",
+            "text": "Também deliberaram matá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deliberaram matá-lo."
+          },
+          {
+            "id": "P09",
+            "text": "Decidiram não agir durante a festa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Decidiram não agir durante a festa."
+          },
+          {
+            "id": "P10",
+            "text": "O motivo declarado foi evitar tumulto entre o povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O motivo declarado foi evitar tumulto entre o povo."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus estava em Betânia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estava em Betânia."
+          },
+          {
+            "id": "P12",
+            "text": "Ele estava na casa de Simão, o leproso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele estava na casa de Simão, o leproso."
+          },
+          {
+            "id": "P13",
+            "text": "Uma mulher aproximou-se de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma mulher aproximou-se de Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "Ela trazia um frasco feito de alabastro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela trazia um frasco feito de alabastro."
+          },
+          {
+            "id": "P15",
+            "text": "O frasco continha perfume precioso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O frasco continha perfume precioso."
+          },
+          {
+            "id": "P16",
+            "text": "A mulher derramou o perfume sobre a cabeça de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher derramou o perfume sobre a cabeça de Jesus."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus estava à mesa quando isso ocorreu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus estava à mesa quando isso ocorreu."
+          },
+          {
+            "id": "P18",
+            "text": "Os discípulos ficaram indignados ao ver a ação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos ficaram indignados ao ver a ação."
+          },
+          {
+            "id": "P19",
+            "text": "Eles chamaram o uso do perfume de desperdício.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles chamaram o uso do perfume de desperdício."
+          },
+          {
+            "id": "P20",
+            "text": "Disseram que ele poderia ser vendido por muito dinheiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Disseram que ele poderia ser vendido por muito dinheiro."
+          },
+          {
+            "id": "P21",
+            "text": "Segundo eles, o valor poderia ser dado aos pobres.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo eles, o valor poderia ser dado aos pobres."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus perguntou por que incomodavam a mulher.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou por que incomodavam a mulher."
+          },
+          {
+            "id": "P23",
+            "text": "Ele qualificou a ação dela como boa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele qualificou a ação dela como boa."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus disse que os pobres estariam sempre com eles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que os pobres estariam sempre com eles."
+          },
+          {
+            "id": "P25",
+            "text": "Contrastou isso com sua própria permanência entre eles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Contrastou isso com sua própria permanência entre eles."
+          },
+          {
+            "id": "P26",
+            "text": "Jesus atribuiu o derramamento à preparação para seu sepultamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu o derramamento à preparação para seu sepultamento."
+          },
+          {
+            "id": "P27",
+            "text": "Ele falou da pregação do evangelho em todo o mundo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele falou da pregação do evangelho em todo o mundo."
+          },
+          {
+            "id": "P28",
+            "text": "Também disse que a ação seria contada em memória da mulher.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também disse que a ação seria contada em memória da mulher."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 26.1-13 reúne o anúncio da Páscoa e crucificação, a deliberação dos líderes e a ação da mulher com perfume precioso em Betânia, explicada por Jesus em relação ao seu sepultamento.",
+        "hinge": "O plano dos líderes e a cena em Betânia permanecem unidades sucessivas de Mateus; a pauta não identifica a mulher por paralelo nem completa as referências ao sepultamento ou aos pobres pelo Antigo Testamento.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-judas-trinta-moedas-ocasiao": {
+      "id": "nt2-mateus-judas-trinta-moedas-ocasiao",
+      "kind": "canonical-case",
+      "title": "Judas, trinta moedas e ocasião",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 26.14-16",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.14-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem procurou os principais sacerdotes, que proposta fez, quanto recebeu e o que passou a buscar?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o agente que articula proposta, pagamento e busca de ocasião; os demais fixam interlocutores, quantia e ação posterior sem completar a narrativa por paralelos.",
+      "editorial": {
+        "hinge": "Os seis fatos explícitos sustentam mesa de duas pessoas com uma carta no poço; nenhuma motivação, cronologia ou identificação adicional é importada de outro documento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Um dos doze que procurou os principais sacerdotes",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Judas Iscariotes"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "João Batista"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "José de Arimateia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Judas Iscariotes",
+          "enderecoNAA": "Mateus 26.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Grupo procurado por Judas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os principais sacerdotes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os anciãos de Israel reunidos no monte"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os cobradores das duas dracmas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os principais sacerdotes",
+          "enderecoNAA": "Mateus 26.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quantia paga a Judas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Trinta moedas de prata"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Duas dracmas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Cinco talentos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Duzentos denários"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Trinta moedas de prata",
+          "enderecoNAA": "Mateus 26.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Judas buscou depois do pagamento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Uma boa ocasião para entregar Jesus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um lugar para preparar a Páscoa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Testemunhas para defender Jesus"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Um barco para atravessar o mar"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Uma boa ocasião para entregar Jesus",
+          "enderecoNAA": "Mateus 26.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 2,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Judas Iscariotes era um dos doze.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas Iscariotes era um dos doze."
+          },
+          {
+            "id": "P02",
+            "text": "Ele foi falar com os principais sacerdotes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele foi falar com os principais sacerdotes."
+          },
+          {
+            "id": "P03",
+            "text": "Judas perguntou quanto receberia para entregar Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas perguntou quanto receberia para entregar Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "Eles lhe pagaram trinta moedas de prata.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles lhe pagaram trinta moedas de prata."
+          },
+          {
+            "id": "P05",
+            "text": "A partir daquele momento, Judas buscava uma ocasião.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A partir daquele momento, Judas buscava uma ocasião."
+          },
+          {
+            "id": "P06",
+            "text": "A ocasião procurada era para entregar Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ocasião procurada era para entregar Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 26.14-16 identifica Judas Iscariotes como um dos doze que procurou os principais sacerdotes, recebeu trinta moedas de prata e passou a buscar ocasião para entregar Jesus.",
+        "hinge": "Os seis fatos explícitos sustentam mesa de duas pessoas com uma carta no poço; nenhuma motivação, cronologia ou identificação adicional é importada de outro documento.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.14-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-pedro-aviso-negacao": {
+      "id": "nt2-mateus-pedro-aviso-negacao",
+      "kind": "canonical-case",
+      "title": "Aviso a Pedro sobre a negação",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 26.31-35",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.31-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus anunciou aos discípulos, para onde iria após ressuscitar e como Pedro respondeu ao aviso sobre sua negação?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O quarto campo contém o aviso verificável que estrutura as respostas de Pedro; os demais distinguem reação coletiva, destino anunciado e insistência sem recorrer ao cumprimento posterior.",
+      "editorial": {
+        "hinge": "O aviso permanece distinto de seu cumprimento em 26.69-75 e de paralelos; a citação sobre pastor e ovelhas é conservada somente como fala registrada por Mateus, sem conteúdo externo."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Aviso específico de Jesus a Pedro",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Negaria Jesus três vezes antes do canto do galo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Fugiria duas vezes antes da festa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Dormiria três vezes antes da oração"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Seria preso antes de chegar à Galileia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Negaria Jesus três vezes antes do canto do galo",
+          "enderecoNAA": "Mateus 26.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem, segundo Jesus, tropeçaria naquela noite",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Todos os discípulos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente Pedro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os principais sacerdotes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "As duas testemunhas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Todos os discípulos",
+          "enderecoNAA": "Mateus 26.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Destino de Jesus após a ressurreição anunciada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Galileia, adiante dos discípulos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Betânia, à casa de Simão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cafarnaum, junto aos cobradores"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Jerusalém, ao palácio de Caifás"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Galileia, adiante dos discípulos",
+          "enderecoNAA": "Mateus 26.32",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resposta inicial de Pedro ao anúncio coletivo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Disse que nunca tropeçaria, mesmo que todos tropeçassem"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Perguntou onde preparar a Páscoa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Prometeu buscar uma boa ocasião"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Afastou-se e dormiu"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Disse que nunca tropeçaria, mesmo que todos tropeçassem",
+          "enderecoNAA": "Mateus 26.33",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus falou aos discípulos sobre aquela noite.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus falou aos discípulos sobre aquela noite."
+          },
+          {
+            "id": "P02",
+            "text": "Ele disse que seria pedra de tropeço para todos eles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que seria pedra de tropeço para todos eles."
+          },
+          {
+            "id": "P03",
+            "text": "Na fala citada, o pastor seria ferido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala citada, o pastor seria ferido."
+          },
+          {
+            "id": "P04",
+            "text": "As ovelhas do rebanho ficariam dispersas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As ovelhas do rebanho ficariam dispersas."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus anunciou sua ressurreição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou sua ressurreição."
+          },
+          {
+            "id": "P06",
+            "text": "Depois dela, iria adiante dos discípulos para a Galileia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois dela, iria adiante dos discípulos para a Galileia."
+          },
+          {
+            "id": "P07",
+            "text": "Pedro respondeu ao anúncio coletivo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro respondeu ao anúncio coletivo."
+          },
+          {
+            "id": "P08",
+            "text": "Disse que, mesmo se todos tropeçassem, ele nunca tropeçaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Disse que, mesmo se todos tropeçassem, ele nunca tropeçaria."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus situou o aviso a Pedro naquela noite.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus situou o aviso a Pedro naquela noite."
+          },
+          {
+            "id": "P10",
+            "text": "O aviso ocorreria antes que o galo cantasse.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O aviso ocorreria antes que o galo cantasse."
+          },
+          {
+            "id": "P11",
+            "text": "Pedro negaria Jesus três vezes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro negaria Jesus três vezes."
+          },
+          {
+            "id": "P12",
+            "text": "Pedro insistiu que não o negaria, ainda que precisasse morrer com ele; todos os discípulos disseram o mesmo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro insistiu que não o negaria, ainda que precisasse morrer com ele; todos os discípulos disseram o mesmo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 26.31-35 registra o anúncio de tropeço dos discípulos, a ida posterior de Jesus à Galileia, a resistência de Pedro e o aviso de três negações antes do canto do galo.",
+        "hinge": "O aviso permanece distinto de seu cumprimento em 26.69-75 e de paralelos; a citação sobre pastor e ovelhas é conservada somente como fala registrada por Mateus, sem conteúdo externo.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.31-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-sinedrio-negacoes-pedro": {
+      "id": "nt2-mateus-sinedrio-negacoes-pedro",
+      "kind": "canonical-case",
+      "title": "Sinédrio e negações de Pedro",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 26.57-75",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.57-75",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde Jesus foi levado, que resposta deu ao sumo sacerdote e como se desenrolaram as negações e a reação final de Pedro?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo situa as duas linhas narrativas no espaço de Caifás; os demais distinguem declaração de Jesus, acusações a Pedro e desfecho do aviso anterior.",
+      "editorial": {
+        "hinge": "Acusações e falas são atribuídas aos respectivos agentes; imagens da resposta de Jesus não são explicadas por Daniel, e as negações permanecem na versão e sequência próprias de Mateus."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Casa para a qual Jesus foi levado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A de Caifás, o sumo sacerdote"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A de Simão, o leproso"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A de Pedro, em Cafarnaum"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A de Judas Iscariotes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A de Caifás, o sumo sacerdote",
+          "enderecoNAA": "Mateus 26.57",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.57",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Resposta de Jesus à exigência sobre ser o Cristo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Disse que o sumo sacerdote mesmo o estava dizendo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Negou conhecer aquele homem"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pediu que chamassem duas testemunhas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Permaneceu sem responder durante todo o interrogatório"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Disse que o sumo sacerdote mesmo o estava dizendo",
+          "enderecoNAA": "Mateus 26.63-64",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.63-64",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Elemento que denunciaria Pedro segundo os presentes",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Seu modo de falar"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A espada em sua mão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "As trinta moedas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O frasco de alabastro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Seu modo de falar",
+          "enderecoNAA": "Mateus 26.73",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.73",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Reação final de Pedro após lembrar a palavra de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Saiu e chorou amargamente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Voltou e adormeceu"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Rasgou as próprias vestes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Foi levado à casa de Caifás"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Saiu e chorou amargamente",
+          "enderecoNAA": "Mateus 26.75",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "26.75",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os que prenderam Jesus o levaram à casa de Caifás.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.57",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que prenderam Jesus o levaram à casa de Caifás."
+          },
+          {
+            "id": "P02",
+            "text": "Caifás era o sumo sacerdote.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.57",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Caifás era o sumo sacerdote."
+          },
+          {
+            "id": "P03",
+            "text": "Escribas e anciãos estavam reunidos ali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.57",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Escribas e anciãos estavam reunidos ali."
+          },
+          {
+            "id": "P04",
+            "text": "Pedro seguiu Jesus de longe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro seguiu Jesus de longe."
+          },
+          {
+            "id": "P05",
+            "text": "Ele entrou no pátio do sumo sacerdote e sentou-se entre os servos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele entrou no pátio do sumo sacerdote e sentou-se entre os servos."
+          },
+          {
+            "id": "P06",
+            "text": "Pedro queria ver como aquilo terminaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro queria ver como aquilo terminaria."
+          },
+          {
+            "id": "P07",
+            "text": "Principais sacerdotes e todo o Sinédrio buscavam testemunho falso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.59",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes e todo o Sinédrio buscavam testemunho falso."
+          },
+          {
+            "id": "P08",
+            "text": "O objetivo declarado era condenar Jesus à morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.59",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O objetivo declarado era condenar Jesus à morte."
+          },
+          {
+            "id": "P09",
+            "text": "Muitas testemunhas falsas foram apresentadas, mas nada acharam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.60",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitas testemunhas falsas foram apresentadas, mas nada acharam."
+          },
+          {
+            "id": "P10",
+            "text": "Por fim compareceram duas testemunhas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.60",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por fim compareceram duas testemunhas."
+          },
+          {
+            "id": "P11",
+            "text": "Elas atribuíram a Jesus uma fala sobre destruir e reconstruir o santuário em três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.61",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas atribuíram a Jesus uma fala sobre destruir e reconstruir o santuário em três dias."
+          },
+          {
+            "id": "P12",
+            "text": "O sumo sacerdote perguntou se Jesus responderia aos depoimentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sumo sacerdote perguntou se Jesus responderia aos depoimentos."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus guardou silêncio naquele momento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus guardou silêncio naquele momento."
+          },
+          {
+            "id": "P14",
+            "text": "O sumo sacerdote exigiu resposta sobre ele ser o Cristo, o Filho de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sumo sacerdote exigiu resposta sobre ele ser o Cristo, o Filho de Deus."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus disse que o próprio sumo sacerdote estava dizendo isso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que o próprio sumo sacerdote estava dizendo isso."
+          },
+          {
+            "id": "P16",
+            "text": "Também falou do Filho do Homem à direita do Todo-Poderoso e vindo sobre as nuvens do céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também falou do Filho do Homem à direita do Todo-Poderoso e vindo sobre as nuvens do céu."
+          },
+          {
+            "id": "P17",
+            "text": "O sumo sacerdote rasgou as vestes e acusou Jesus de blasfêmia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.65",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sumo sacerdote rasgou as vestes e acusou Jesus de blasfêmia."
+          },
+          {
+            "id": "P18",
+            "text": "Os presentes responderam que Jesus era réu de morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os presentes responderam que Jesus era réu de morte."
+          },
+          {
+            "id": "P19",
+            "text": "Alguns cuspiram no rosto de Jesus e bateram nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.67",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns cuspiram no rosto de Jesus e bateram nele."
+          },
+          {
+            "id": "P20",
+            "text": "Outros o esbofeteavam e mandavam que profetizasse quem batera.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.67-68",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outros o esbofeteavam e mandavam que profetizasse quem batera."
+          },
+          {
+            "id": "P21",
+            "text": "Pedro estava sentado fora, no pátio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.69",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro estava sentado fora, no pátio."
+          },
+          {
+            "id": "P22",
+            "text": "Uma empregada afirmou que ele estivera com Jesus, o galileu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.69",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma empregada afirmou que ele estivera com Jesus, o galileu."
+          },
+          {
+            "id": "P23",
+            "text": "Pedro negou diante de todos e disse não saber do que ela falava.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.70",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro negou diante de todos e disse não saber do que ela falava."
+          },
+          {
+            "id": "P24",
+            "text": "Ao dirigir-se à porta, Pedro foi visto por outra empregada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.71",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao dirigir-se à porta, Pedro foi visto por outra empregada."
+          },
+          {
+            "id": "P25",
+            "text": "Ela afirmou aos presentes que ele estivera com Jesus, o Nazareno.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.71",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela afirmou aos presentes que ele estivera com Jesus, o Nazareno."
+          },
+          {
+            "id": "P26",
+            "text": "Pedro negou novamente, desta vez com juramento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.72",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro negou novamente, desta vez com juramento."
+          },
+          {
+            "id": "P27",
+            "text": "Pouco depois, os presentes aproximaram-se de Pedro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.73",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pouco depois, os presentes aproximaram-se de Pedro."
+          },
+          {
+            "id": "P28",
+            "text": "Eles disseram que seu modo de falar o denunciava.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.73",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles disseram que seu modo de falar o denunciava."
+          },
+          {
+            "id": "P29",
+            "text": "Pedro começou a praguejar e jurar que não conhecia Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.74",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro começou a praguejar e jurar que não conhecia Jesus."
+          },
+          {
+            "id": "P30",
+            "text": "No mesmo instante, o galo cantou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.74",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No mesmo instante, o galo cantou."
+          },
+          {
+            "id": "P31",
+            "text": "Pedro lembrou-se do aviso sobre três negações antes do canto do galo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.75",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro lembrou-se do aviso sobre três negações antes do canto do galo."
+          },
+          {
+            "id": "P32",
+            "text": "Então saiu dali.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.75",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Então saiu dali."
+          },
+          {
+            "id": "P33",
+            "text": "Pedro chorou amargamente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "26.75",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro chorou amargamente."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 26.57-75 alterna Jesus diante de Caifás e do Sinédrio com Pedro no pátio, culminando no canto do galo, na lembrança do aviso e no choro amargo.",
+        "hinge": "Acusações e falas são atribuídas aos respectivos agentes; imagens da resposta de Jesus não são explicadas por Daniel, e as negações permanecem na versão e sequência próprias de Mateus.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "26.57-75",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
