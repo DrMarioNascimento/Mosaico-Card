@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 19–20 inventariado por unidade — checkpoint 073 | Pendente posterior: Mt 21–25 | 39 próprios + 4 consolidados; 46 pautas citam o livro | Quatro pautas novas; crianças e cegos de Jericó têm decisões específicas, sem apagar fatos exclusivos |
+| Mateus | Mt 19–20 resolvido após reavaliação — checkpoint 074 | Pendente posterior: Mt 21–25 | 48 pautas citam o livro / 940 pistas | Seis pautas nos dois capítulos; os dois cegos permanecem unidade própria de Mateus, sem identidade presumida com Bartimeu |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -204,3 +204,7 @@ A leitura integral da página NAA de Mateus 18 e a comparação por campos e pis
 ## Checkpoint 073 — Mateus 19–20
 
 A leitura efetiva das duas páginas NAA e a comparação por unidade acrescentaram quatro pautas/109 pistas, levando o banco de **226/4.404 para 230/4.513** e Mateus de **42 pautas/806 pistas para 46/915**. Os 226 objetos anteriores permaneceram serializadamente idênticos. Mt 19.13-15 e 20.29-34 receberam motivos específicos; os fatos exclusivos do segundo recorte permanecem inventariados apesar do paralelo com Bartimeu. Mt 21–25 fica para lote posterior, sem declaração de banco completo.
+
+## Checkpoint 074 — reavaliação de Mt 19.13-15 e 20.29-34
+
+A reconsulta NAA e duas matrizes concretas demonstraram quatro campos independentes e fatos suficientes nas duas unidades antes recusadas. Crianças (9 pistas; capacidade 4) e dois cegos (16; capacidade 7) receberam pautas próprias. O relato dos cegos usa o núcleo integral de Mateus sem presumir identidade com Bartimeu. O banco passa de **230/4.513 para 232/4.538**, e Mateus de **46/915 para 48/940**, preservando serializadamente os 230 objetos anteriores. Mt 21–25 continua posterior; o banco não está completo.

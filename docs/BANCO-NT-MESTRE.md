@@ -730,3 +730,9 @@ Somente a página NAA Bible.com 1840 de Mateus 18 foi consultada, com HTTP 200 e
 As páginas NAA Bible.com 1840 de Mt 19–20 foram obtidas com HTTP 200 e lidas verso a verso. Quatro unidades sustentadas acrescentaram 109 pistas: diálogo sobre divórcio/eunucos, jovem rico/recompensa, trabalhadores da vinha e cálice/serviço/resgate. O banco passa de **226 pautas/4.404 pistas para 230/4.513**, com preservação serializada dos 226 objetos anteriores.
 
 Crianças (Mt 19.13-15) e cegos ao sair de Jericó (Mt 20.29-34) receberam decisões específicas; no segundo caso, os fatos exclusivos de Mateus permanecem registrados mesmo após comparação com Bartimeu. As capacidades novas são 10, 12, 12 e 12. **Mt 21–25 e os demais recortes globais continuam posteriores; o banco não está completo.**
+
+## Checkpoint 074 — reavaliação limitada em Mateus 19–20
+
+A leitura NAA renovada e matrizes explícitas de perguntas, respostas, referências e fatos corrigiram as decisões de Mt 19.13-15 e 20.29-34. Foram anexadas duas pautas próprias: crianças (9 pistas; capacidade 4) e dois cegos (16; capacidade 7). O segundo relato não foi identificado nem consolidado com Bartimeu apenas por compartilhar cura e seguimento.
+
+O banco passa de **230 pautas/4.513 pistas para 232/4.538**, preservando serializadamente os 230 objetos anteriores. **Mt 21–25 permanece posterior; o banco não está completo.**

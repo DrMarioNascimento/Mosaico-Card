@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 230);
+assert.equal(catalog.summary.editoriallyEligibleCases, 232);
 assert.equal(catalog.summary.max12Cases, 89);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -409,6 +409,19 @@ for (const [id, maxPlayers] of Object.entries(auditoriaMateus073)) {
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^(?:19|20)\./.test(ref.passage))), `${id} permanece restrita a Mateus 19–20`);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
+
+const auditoriaMateus074 = {
+  "nt2-mateus-criancas-maos-oracao": 4,
+  "nt2-mateus-dois-cegos-jerico": 7
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus074)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.status.playable, true);
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^(?:19|20)\./.test(ref.passage))), `${id} usa somente a unidade própria de Mateus`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+assert.equal(catalog.byId["nt2-mateus-dois-cegos-jerico"].deck.cards.some(card => /Bartimeu/i.test(card.text)), false, "a pauta de Mateus não identifica os cegos com Bartimeu");
 
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));

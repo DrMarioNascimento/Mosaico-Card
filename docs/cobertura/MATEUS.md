@@ -224,3 +224,31 @@ Em 13/09/2026, as páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.19.
 | Mt 20.29-34 — dois cegos ao sair de Jericó | **Não autorada — paralelo comparado, recorte curto.** `nt2-marcos-bartimeu` cobre o núcleo paralelo, mas os fatos exclusivos de Mateus — dois cegos, forma plural do pedido, toque nos olhos e resposta conjunta — não foram descartados. Isoladamente eles não sustentam quatro campos independentes e ao menos cinco pistas sem repetir o núcleo já coberto; permanecem registrados para eventual consolidação documental futura. |
 
 O lote acrescenta exatamente **quatro pautas/109 pistas**, com capacidades calculadas por `min(12, floor((pistas - 1) / 2))`: 10, 12, 12 e 12. Não há remanescente sem decisão em Mt 19–20 no inventário vigente; crianças e cegos possuem motivos/status específicos, não exclusões definitivas. O próximo recorte de Mateus é **Mt 21–25**, posterior e fora deste lote. Isso não declara Mateus ou o banco completos.
+
+## Reavaliação concreta de Mt 19.13-15 e 20.29-34 — checkpoint 074
+
+Em 13/09/2026, somente as páginas NAA Bible.com 1840 de Mt 19 e 20 foram novamente obtidas (HTTP 200; 96.864 e 96.784 bytes) e os dois recortes foram relidos. A matriz abaixo substitui as duas decisões negativas do checkpoint 073: capacidade variável e perguntas independentes bastam; não se exige cadeia dedutiva, pergunta complexa ou 25 pistas.
+
+### Mt 19.13-15 — matriz de quatro campos
+
+| Campo | Pergunta concreta | Resposta NAA | Referência | Fatos distintos que a sustentam |
+| --- | --- | --- | --- | --- |
+| C1 | Para que as crianças foram levadas a Jesus? | Para que lhes impusesse as mãos e orasse. | Mt 19.13 | crianças levadas; imposição de mãos pretendida; oração pretendida |
+| C2 | Quem repreendia durante a aproximação? | Os discípulos. | Mt 19.13 | os discípulos repreendiam |
+| C3 | Que ordem Jesus deu? | Deixá-las e não impedi-las de vir a ele. | Mt 19.14 | deixar os pequeninos; não impedir sua vinda; afirmação sobre o Reino |
+| C4 | O que Jesus fez antes de retirar-se? | Impôs as mãos sobre elas. | Mt 19.15 | imposição efetiva das mãos; retirada posterior |
+
+Os nove fatos são úteis e não dependem de interpretação do sujeito implícito que levou as crianças. A unidade foi **autorada** em `nt2-mateus-criancas-maos-oracao`, com quatro alternativas por campo, focal C1, pesos gerados 8/5/3/2 e capacidade `min(12, floor((9-1)/2)) = 4`.
+
+### Mt 20.29-34 — matriz de quatro campos
+
+| Campo | Pergunta concreta | Resposta NAA | Referência | Fatos distintos que a sustentam |
+| --- | --- | --- | --- | --- |
+| C1 | Quantos cegos Mateus apresenta à beira do caminho? | Dois. | Mt 20.30 | dois cegos; sentados à beira do caminho; ouviram Jesus passar |
+| C2 | Onde a cena começou? | Na saída de Jericó. | Mt 20.29-30 | saída de Jericó; grande multidão seguindo; posição à beira do caminho |
+| C3 | O que pediram quando Jesus os chamou? | Que seus olhos fossem abertos. | Mt 20.32-33 | clamor; título Filho de Davi; pedido de compaixão; repreensão; clamor intensificado; parada e chamado; pergunta; pedido pelos olhos |
+| C4 | Como a cura ocorreu? | Jesus se compadeceu, tocou nos olhos e eles viram imediatamente. | Mt 20.34 | compaixão; toque; recuperação imediata; seguimento |
+
+A avaliação usa o núcleo textual completo de Mateus, não apenas diferenças em relação a Marcos. Não há base documental suficiente para afirmar que os dois cegos sejam Bartimeu ou que os relatos descrevam a mesma ocasião; por isso não houve consolidação. A unidade foi **autorada** em `nt2-mateus-dois-cegos-jerico`, com 16 pistas, quatro alternativas por campo, focal C1, pesos 8/5/3/2 e capacidade `min(12, floor((16-1)/2)) = 7`.
+
+A reavaliação acrescenta **duas pautas/25 pistas** e preserva os 230 objetos anteriores serializadamente. O banco passa a 232/4.538 e Mateus a 48 pautas/940 pistas. As duas unidades ficam resolvidas como pautas próprias, não adiadas nem excluídas. Mt 21–25 permanece posterior e o banco não é declarado completo.

@@ -527,3 +527,9 @@ A comparação serializada confirmou os **222 objetos anteriores integralmente i
 As páginas NAA Bible.com 1840 de Mt 19 e 20 retornaram HTTP 200 e foram lidas integralmente. A comparação de referências, campos, pistas e paralelos nos 226 objetos anteriores sustentou quatro novas pautas: diálogo sobre divórcio/eunucos (21 pistas), jovem rico/recompensa (30), trabalhadores da vinha (28) e cálice/serviço/resgate (30). Mt 19.13-15 ficou insuficiente com fatos próprios; Mt 20.29-34 foi comparado a `nt2-marcos-bartimeu`, preservando em inventário os fatos exclusivos de Mateus sem duplicar o núcleo.
 
 A comparação serializada confirmou os **226 objetos anteriores integralmente idênticos**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **230 pautas/4.513 pistas**, todas elegíveis. As capacidades novas são 10, 12, 12 e 12, sem usar 25 pistas ou 12 participantes como piso. Mt 19–20 fica individualmente decidido nesta rodada; Mt 21–25 permanece posterior, e testes não tornam o banco completo.
+
+## Checkpoint 074 — reavaliação de duas unidades de Mateus 19–20
+
+Mt 19.13-15 e 20.29-34 foram reconsultados exclusivamente nas páginas NAA Bible.com 1840. Matrizes concretas de pergunta, resposta, referência e fatos distintos demonstraram quatro campos independentes em cada unidade. Foram anexadas `nt2-mateus-criancas-maos-oracao` (9 pistas; capacidade 4) e `nt2-mateus-dois-cegos-jerico` (16; capacidade 7). A segunda pauta usa todo o núcleo de Mateus e não presume identidade com Bartimeu; não houve consolidação nem harmonização.
+
+A comparação serializada confirmou os **230 objetos anteriores integralmente idênticos**, na mesma ordem; somente dois objetos foram anexados. Resultado: **232 pautas/4.538 pistas**, todas elegíveis. As decisões negativas específicas do checkpoint 073 ficam supersedidas, e não resta pendência vigente em Mt 19–20. Mt 21–25 permanece posterior; testes não tornam o banco completo.

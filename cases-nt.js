@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-073-mateus-19-20",
+  "catalogVersion": "checkpoint-074-mateus-19-20-reavaliacao",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 230,
-    "fields": 920,
-    "editoriallyEligibleCases": 230,
-    "playableCases": 230,
+    "cases": 232,
+    "fields": 928,
+    "editoriallyEligibleCases": 232,
+    "playableCases": 232,
     "max12Cases": 89
   },
   "order": [
@@ -246,7 +246,9 @@
     "nt2-mateus-divorcio-eunucos",
     "nt2-mateus-jovem-rico-recompensa",
     "nt2-mateus-trabalhadores-vinha",
-    "nt2-mateus-calice-servico-resgate"
+    "nt2-mateus-calice-servico-resgate",
+    "nt2-mateus-criancas-maos-oracao",
+    "nt2-mateus-dois-cegos-jerico"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -161315,6 +161317,1057 @@
           {
             "book": "Mateus",
             "passage": "20.17-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-criancas-maos-oracao": {
+      "id": "nt2-mateus-criancas-maos-oracao",
+      "kind": "canonical-case",
+      "title": "As crianças, as mãos e a oração",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 19.13-15",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.13-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que finalidade, reação, ordem e gesto formam a breve cena das crianças levadas a Jesus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o pedido ou cenário central da unidade; os demais distinguem agentes, falas e desfecho.",
+      "editorial": {
+        "hinge": "A pauta conserva o sujeito de “trouxeram” sem identificação e trata Reino, gesto e oração somente como elementos expressos na cena."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para que as crianças foram levadas a Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Para que lhes impusesse as mãos e orasse"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Para que lhes desse um denário"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Para que julgassem as doze tribos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Para que trabalhassem na vinha"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Para que lhes impusesse as mãos e orasse",
+          "enderecoNAA": "Mateus 19.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem repreendia durante a aproximação",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os fariseus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A grande multidão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os administradores"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os discípulos",
+          "enderecoNAA": "Mateus 19.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que ordem Jesus deu sobre os pequeninos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Deixá-los e não impedi-los de vir a ele"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Mandá-los voltar à Galileia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Fazê-los esperar na praça"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Entregá-los aos principais sacerdotes"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Deixá-los e não impedi-los de vir a ele",
+          "enderecoNAA": "Mateus 19.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Jesus fez antes de retirar-se",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Impôs as mãos sobre eles"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Distribuiu-lhes moedas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Chamou os doze à parte"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Tocou nos olhos deles"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Impôs as mãos sobre eles",
+          "enderecoNAA": "Mateus 19.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "19.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Algumas crianças foram levadas a Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Algumas crianças foram levadas a Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "A finalidade declarada era que Jesus lhes impusesse as mãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade declarada era que Jesus lhes impusesse as mãos."
+          },
+          {
+            "id": "P03",
+            "text": "A mesma finalidade incluía que Jesus orasse.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma finalidade incluía que Jesus orasse."
+          },
+          {
+            "id": "P04",
+            "text": "Os discípulos repreendiam durante essa aproximação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos repreendiam durante essa aproximação."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus mandou deixar os pequeninos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou deixar os pequeninos."
+          },
+          {
+            "id": "P06",
+            "text": "Ele também ordenou que não fossem impedidos de vir até ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também ordenou que não fossem impedidos de vir até ele."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus afirmou que o Reino dos Céus pertence aos que são como eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que o Reino dos Céus pertence aos que são como eles."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus impôs as mãos sobre as crianças.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus impôs as mãos sobre as crianças."
+          },
+          {
+            "id": "P09",
+            "text": "Depois disso, retirou-se daquele lugar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "19.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois disso, retirou-se daquele lugar."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 19.13-15 registra crianças levadas para imposição de mãos e oração, a repreensão dos discípulos, a ordem de Jesus e sua retirada.",
+        "hinge": "A pauta conserva o sujeito de “trouxeram” sem identificação e trata Reino, gesto e oração somente como elementos expressos na cena.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "19.13-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.19.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-dois-cegos-jerico": {
+      "id": "nt2-mateus-dois-cegos-jerico",
+      "kind": "canonical-case",
+      "title": "Os dois cegos à saída de Jericó",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 20.29-34",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.29-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANTO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que número, lugar, pedido e sequência de ações identificam a cura narrada por Mateus à saída de Jericó?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o pedido ou cenário central da unidade; os demais distinguem agentes, falas e desfecho.",
+      "editorial": {
+        "hinge": "A unidade é mantida como relato próprio de Mateus; não recebe o nome Bartimeu nem uma identidade compartilhada com personagens de outro Evangelho."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantos cegos Mateus apresenta à beira do caminho",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Dois"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Três"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Doze"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Dois",
+          "enderecoNAA": "Mateus 20.30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde a cena começou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Na saída de Jericó"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Na entrada de Jerusalém"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Além do Jordão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Numa praça da vinha"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Na saída de Jericó",
+          "enderecoNAA": "Mateus 20.29-30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.29-30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os cegos pediram quando Jesus os chamou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Que os olhos deles fossem abertos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Que recebessem um denário"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Que ocupassem dois tronos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Que a multidão fosse dispensada"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Que os olhos deles fossem abertos",
+          "enderecoNAA": "Mateus 20.32-33",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.32-33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como a cura ocorreu segundo Mateus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Jesus se compadeceu, tocou nos olhos e eles viram imediatamente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os discípulos impuseram as mãos e oraram"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A multidão os conduziu a uma piscina"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Jesus os enviou aos sacerdotes sem tocá-los"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Jesus se compadeceu, tocou nos olhos e eles viram imediatamente",
+          "enderecoNAA": "Mateus 20.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "20.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A cena começa quando eles saíam de Jericó.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A cena começa quando eles saíam de Jericó."
+          },
+          {
+            "id": "P02",
+            "text": "Uma grande multidão seguia Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma grande multidão seguia Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus apresenta dois cegos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus apresenta dois cegos."
+          },
+          {
+            "id": "P04",
+            "text": "Eles estavam sentados à beira do caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles estavam sentados à beira do caminho."
+          },
+          {
+            "id": "P05",
+            "text": "Os dois ouviram que Jesus passava.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois ouviram que Jesus passava."
+          },
+          {
+            "id": "P06",
+            "text": "Eles gritaram chamando Jesus de Senhor e Filho de Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles gritaram chamando Jesus de Senhor e Filho de Davi."
+          },
+          {
+            "id": "P07",
+            "text": "No grito, pediram que Jesus tivesse compaixão deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No grito, pediram que Jesus tivesse compaixão deles."
+          },
+          {
+            "id": "P08",
+            "text": "A multidão os repreendeu para que se calassem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão os repreendeu para que se calassem."
+          },
+          {
+            "id": "P09",
+            "text": "Eles responderam gritando ainda mais o mesmo pedido de compaixão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam gritando ainda mais o mesmo pedido de compaixão."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus parou e chamou os dois.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus parou e chamou os dois."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus perguntou o que queriam que ele fizesse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou o que queriam que ele fizesse."
+          },
+          {
+            "id": "P12",
+            "text": "Eles pediram que seus olhos fossem abertos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles pediram que seus olhos fossem abertos."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus ficou profundamente compadecido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ficou profundamente compadecido."
+          },
+          {
+            "id": "P14",
+            "text": "Ele tocou nos olhos deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele tocou nos olhos deles."
+          },
+          {
+            "id": "P15",
+            "text": "Os dois recuperaram a vista imediatamente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois recuperaram a vista imediatamente."
+          },
+          {
+            "id": "P16",
+            "text": "Depois da cura, eles seguiram Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade própria de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "20.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da cura, eles seguiram Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 20.29-34 narra dois cegos à beira do caminho, o pedido repetido, a pergunta de Jesus, o toque, a recuperação da vista e o seguimento.",
+        "hinge": "A unidade é mantida como relato próprio de Mateus; não recebe o nome Bartimeu nem uma identidade compartilhada com personagens de outro Evangelho.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "20.29-34",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
             "checkedAt": "2026-09-13"
