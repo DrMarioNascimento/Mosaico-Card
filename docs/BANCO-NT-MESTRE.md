@@ -425,3 +425,15 @@ At 21.7-14 originou `nt2-atos-agabo-jerusalem`, com 10 fatos próprios e capacid
 - **Diff da rodada:** duas pautas e 34 pistas novas na fonte, com regeneração do catálogo e atualização documental deste checkpoint.
 - **Pendências:** os candidatos enumerados de Romanos–Judas e Apocalipse ficam para a próxima base. O banco **não** está completo.
 - **Operação:** não houve merge, deploy, publicação nem alteração de credenciais ou Firebase.
+
+## Checkpoint 041 — primeiro lote limitado de Romanos
+
+A rodada partiu exatamente de `ee86a1912b2cbcf310f4574158e0a2dd5e4f3d1a`, com **116 pautas elegíveis e 2.097 pistas**, na branch selecionada desta sequência. Antes da edição, `validate:bank` e `audit:clues` confirmaram esses totais e nenhum par semântico pendente. As páginas identificadas como Nova Almeida Atualizada de Romanos 1, 6, 7 e 8 em `bible.com/pt/bible/1840` foram obtidas separadamente em 13/09/2026, todas com HTTP 200, e os recortes Rm 1.1-15, Rm 6, Rm 7 e Rm 8 foram lidos antes da autoria.
+
+Foram acrescentadas quatro pautas, sem forçar uma quinta: `nt2-romanos-abertura-visita` (16 pistas), `nt2-romanos-pecado-graca-servico` (18), `nt2-romanos-lei-pecado-conflito` (18) e `nt2-romanos-espirito-adocao-esperanca` (25). Rm 6, 7 e 8 permanecem como argumentos separados. Perguntas, campos e pistas atribuem as afirmações ao texto, e as alternativas incorretas não são apresentadas como doutrina. Nenhum fato do Antigo Testamento, carta, viagem ou cronologia externa foi importado.
+
+- **Inventário:** 120 pautas elegíveis e 2.174 pistas; 57 chegam a 12 participantes, uma a 11, seis a oito, três a sete, 29 a seis, uma a cinco, dez a quatro e treze a três.
+- **Preservação:** comparação mecanizada confirmou igualdade integral dos 116 objetos anteriores e de suas 2.097 pistas.
+- **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; a consulta bíblica foi uma etapa distinta da validação e dos testes.
+- **Pendências:** Rm 12–15, os demais candidatos de 1–2 Coríntios e das outras cartas, e Apocalipse permanecem para lotes posteriores. O banco **não** está completo.
+- **Operação:** não houve merge, deploy, publicação nem alteração de credenciais/Firebase.

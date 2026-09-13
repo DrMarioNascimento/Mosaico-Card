@@ -33,3 +33,14 @@ Com decisões registradas para todas as faixas, Romanos passa a **analisado nest
 ## Reavaliação temática — checkpoint 032
 
 Rm 16.1-23 originou `nt2-romanos-saudacoes` após a autorização temática; Rm 16.24 continuou fora da pauta por sua ressalva textual.
+
+## Reavaliação argumentativa — checkpoint 041
+
+A autorização posterior para perguntas independentes e conjuntos temáticos exigiu rever a antiga recusa genérica de Rm 6–8. Em 13/09/2026, Romanos 1, 6, 7 e 8 foram obtidos individualmente da NAA identificada em `bible.com/pt/bible/1840`, com HTTP 200, e lidos nos recortes autorizados. A nova autoria pergunta somente o que o texto afirma e delimita cada argumento, sem apresentar alternativas incorretas como teses teológicas.
+
+- Rm 1.1-15: `nt2-romanos-abertura-visita`, 16 pistas.
+- Rm 6: `nt2-romanos-pecado-graca-servico`, 18 pistas.
+- Rm 7: `nt2-romanos-lei-pecado-conflito`, 18 pistas.
+- Rm 8: `nt2-romanos-espirito-adocao-esperanca`, 25 pistas.
+
+Os três argumentos de Rm 6, 7 e 8 permanecem separados. Nenhuma alusão recebeu complemento factual do Antigo Testamento, e nenhuma carta ou viagem foi usada para harmonizar Romanos. Rm 12–15 continua pendente para lote posterior, inclusive qualquer nova delimitação de Rm 15 que não replique a pauta factual já existente de 15.14-33.
