@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-061",
+  "catalogVersion": "2026-09-13-checkpoint-062",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -118661,6 +118661,1474 @@
             "passage": "10.1-11",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-apocalipse-medicao-duas-testemunhas",
+      "title": "Medição, duas testemunhas e o segundo ai",
+      "generalReferences": [
+        {
+          "book": "Apocalipse",
+          "passage": "11.1-14",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo a visão de Apocalipse 11.1-14, o que deve ser medido, como as duas testemunhas são apresentadas e o que lhes acontece depois de concluírem seu testemunho?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A conclusão do testemunho marca a passagem da atuação autorizada das duas testemunhas para guerra, morte, retorno à vida e subida ao céu.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que o vidente recebe ordem de medir",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "O santuário de Deus, o altar e os adoradores"
+            },
+            {
+              "id": "C1-O2",
+              "text": "O átrio exterior e toda a cidade santa"
+            },
+            {
+              "id": "C1-O3",
+              "text": "O mar, a terra e o abismo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "A muralha e os portões da nova cidade"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como as duas testemunhas profetizam",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Por mil duzentos e sessenta dias, vestidas de pano de saco"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Por quarenta e dois dias, vestidas de branco"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Por três dias e meio, usando coroas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Por cinco meses, diante do poço do abismo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que ocorre ao concluírem o testemunho",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "A besta do abismo guerreia contra elas, vence e as mata"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Elas recebem ordem de medir o átrio exterior"
+            },
+            {
+              "id": "C3-O3",
+              "text": "O dragão lhes entrega seu trono e autoridade"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Elas selam as vozes dos sete trovões"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que sucede depois de três dias e meio",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Recebem vida, ficam em pé e depois sobem ao céu numa nuvem"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Permanecem sepultadas fora da cidade"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Passam a reinar sobre os gafanhotos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Tocam juntas a sétima trombeta"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.11-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Ao vidente é dado um caniço semelhante a uma vara.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele recebe ordem de levantar-se e medir.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A medição inclui o santuário de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Também inclui o altar e os que adoram no santuário.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O átrio exterior deve ser deixado de lado e não medido.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Esse átrio é dado aos gentios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A cidade santa seria pisada durante quarenta e dois meses.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Duas testemunhas recebem autoridade para profetizar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O período declarado é de mil duzentos e sessenta dias.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Elas se vestem de pano de saco.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "São chamadas duas oliveiras e dois candelabros.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Elas estão em pé diante do Senhor da terra.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Fogo sai da boca delas e devora quem pretende causar-lhes dano.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Elas têm autoridade para fechar o céu durante os dias de sua profecia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Também têm autoridade sobre as águas e para ferir a terra com flagelos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A guerra ocorre quando elas concluem o testemunho que devem dar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "A besta que surge do abismo faz guerra contra elas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A besta vence e mata as testemunhas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Os cadáveres ficam na praça da grande cidade descrita no próprio texto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Povos, tribos, línguas e nações os contemplam por três dias e meio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "Não permitem que os cadáveres sejam sepultados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P22",
+          "text": "Moradores da terra festejam e trocam presentes por causa da morte delas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P23",
+          "text": "Depois de três dias e meio, um espírito de vida vindo de Deus entra nelas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P24",
+          "text": "Elas ficam em pé, e os observadores sentem grande medo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P25",
+          "text": "Uma voz forte do céu ordena que subam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P26",
+          "text": "As duas sobem ao céu numa nuvem diante dos inimigos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P27",
+          "text": "Naquela hora, um terremoto derruba a décima parte da cidade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P28",
+          "text": "O terremoto mata sete mil pessoas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P29",
+          "text": "As demais ficam aterrorizadas e dão glória ao Deus do céu.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P30",
+          "text": "O segundo ai é declarado passado, e o terceiro é anunciado sem demora.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "O vidente recebe ordem de medir o santuário, o altar e os adoradores; duas testemunhas profetizam com autoridade, são vencidas após concluírem o testemunho, recebem vida, sobem ao céu e são seguidas por um terremoto e pelo anúncio do terceiro ai.",
+        "hinge": "As duas testemunhas recebem apenas as designações, ações, duração e destino declarados em Apocalipse 11; a pauta não lhes atribui nomes, personagens históricos, instituições atuais ou identidades externas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "11.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-apocalipse-setima-trombeta-reino-santuario",
+      "title": "Sétima trombeta, adoração e santuário aberto",
+      "generalReferences": [
+        {
+          "book": "Apocalipse",
+          "passage": "11.15-19",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo a visão de Apocalipse 11.15-19, o que as vozes proclamam na sétima trombeta, como os anciãos respondem e o que é visto no santuário aberto?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A proclamação do reino na sétima trombeta conduz à adoração dos anciãos, ao anúncio do julgamento e à abertura do santuário celeste.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que as vozes fortes proclamam",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "O reino do mundo tornou-se de nosso Senhor e do seu Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "O primeiro ai ainda não havia passado"
+            },
+            {
+              "id": "C1-O3",
+              "text": "A besta do abismo recebeu o reino para sempre"
+            },
+            {
+              "id": "C1-O4",
+              "text": "A cidade santa seria medida durante cinco meses"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como os vinte e quatro anciãos respondem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Prostram-se sobre o rosto e adoram a Deus"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Fogem para o deserto e recebem asas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Sobem numa nuvem diante dos inimigos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Entregam a trombeta às duas testemunhas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que grupos são mencionados ao falar do galardão",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Servos profetas, santos e os que temem o nome de Deus, pequenos e grandes"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Somente os quatro anjos junto ao Eufrates"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Apenas os habitantes que receberam a marca"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Exclusivamente os vinte e quatro anciãos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "O que é visto quando o santuário celeste se abre",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "A arca da aliança no santuário"
+            },
+            {
+              "id": "C4-O2",
+              "text": "O poço do abismo sem a chave"
+            },
+            {
+              "id": "C4-O3",
+              "text": "O livrinho fechado sobre o altar"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Uma imagem erguida pela segunda besta"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O sétimo anjo toca a trombeta.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Vozes fortes são ouvidas no céu.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Elas proclamam que o reino do mundo se tornou de nosso Senhor e do seu Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A proclamação afirma que ele reinará para todo o sempre.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Os vinte e quatro anciãos estão sentados em seus tronos diante de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Eles se prostram sobre o rosto e adoram a Deus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A ação de graças se dirige ao Senhor Deus Todo-Poderoso.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O louvor afirma que ele assumiu seu grande poder e passou a reinar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "As nações são descritas como enfurecidas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "O louvor anuncia a ira de Deus e o tempo de julgamento dos mortos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O galardão é associado aos servos de Deus, os profetas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Santos e pessoas que temem o nome de Deus também são mencionados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A enumeração inclui pequenos e grandes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Também é anunciado o momento de destruir os que destroem a terra.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O santuário de Deus no céu se abre.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A arca da aliança é vista no santuário.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Sobrevêm relâmpagos, vozes e trovões.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A sequência termina com terremoto e forte chuva de granizo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma descrição, ação ou sequência interna da visão de Apocalipse 11",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Apocalipse",
+              "passage": "11.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Na sétima trombeta, vozes proclamam o reino, os vinte e quatro anciãos adoram e anunciam ira, julgamento e galardão; o santuário celeste se abre, revela a arca da aliança e é seguido por sinais.",
+        "hinge": "Reino, julgamento, galardão, santuário e arca permanecem na proclamação e na cena de Apocalipse 11; a pauta não transforma a sequência em calendário nem acrescenta instituições ou interpretações históricas.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "11.15-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

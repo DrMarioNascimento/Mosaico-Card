@@ -15,16 +15,16 @@ As páginas NAA de Ap 2–22 foram novamente obtidas com HTTP 200 e lidas por re
 | Ap 7 | `nt2-apocalipse-selados-tribos` e `nt2-apocalipse-grande-multidao-trono`; cenas separadas, sem decidir literalidade nem identidade entre grupos. |
 | Ap 14 | 144 mil preservados sem decidir literalidade nem harmonizar com Ap 7. |
 | Ap 8–10 | Quatro pautas autoradas: selo/quatro primeiras trombetas, quinta trombeta, sexta trombeta e anjo/livrinho; descrições, ações e sequência internas, sem identidades ou cronologia externas. |
-| Ap 11 | Trombeta, templo e duas testemunhas preservados para auditoria posterior; sem identidades externas. |
-| Ap 12 | `nt2-apocalipse-mulher-dragao`, 25 pistas, elegível; somente o dragão recebe a identificação interna de 12.9. |
-| Ap 13 | `nt2-apocalipse-duas-bestas`, capacidade 2–6, sem identidade atual. |
+| Ap 11 | `nt2-apocalipse-medicao-duas-testemunhas` e `nt2-apocalipse-setima-trombeta-reino-santuario`; duas cenas autoradas sem identidades externas ou calendário. |
+| Ap 12 | `nt2-apocalipse-mulher-dragao`, 25 pistas, elegível; cobertura encerrada no checkpoint 062, com somente a identificação interna do dragão em 12.9. |
+| Ap 13 | `nt2-apocalipse-duas-bestas`, capacidade 2–6; cobertura encerrada no checkpoint 062, sem identidade atual ou interpretação externa do 666. |
 | Ap 15–16 | `nt2-apocalipse-tacas`, capacidade 2–6, sem cronologia externa. |
 | Ap 17–18 | Explicações internas preservadas; sem cidade/instituição histórica; sem pauta por alternância de explicação e lamento. |
 | Ap 19 | Bodas e cavaleiro preservados como cenas distintas, não fundidas artificialmente. |
 | Ap 20 | `nt2-apocalipse-mil-anos-juizo`, capacidade 2–6, sem escolher sistema cronológico. |
 | Ap 21–22 | `nt2-apocalipse-nova-jerusalem`, 25 pistas, elegível; sem localização atual ou literalidade imposta às medidas. |
 
-Apocalipse permanece **em autoria** com vinte e uma pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
+Apocalipse permanece **em autoria** com vinte e três pautas autoradas. Cada recorte recém-permitido possui resultado; “sem pauta” não significa exclusão do texto nem decisão interpretativa do usuário.
 
 ## Apocalipse 2 por carta — checkpoint 058
 
@@ -51,3 +51,9 @@ Não surgiu ambiguidade real nova. **Ap 8–22 permanecem especificamente penden
 As páginas identificadas como NAA de Ap 8, 9 e 10 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas antes da autoria. A comparação com as 188 pautas anteriores não encontrou cobertura desses três capítulos. O lote produziu quatro blocos coerentes: Ap 8.1-13; Ap 9.1-12; Ap 9.13-21; e Ap 10.1-11. Ap 9 permaneceu dividido entre a quinta e a sexta trombetas, e nenhuma quinta pauta foi forçada.
 
 Foram acrescentadas 96 pistas. Trombetas, estrela, abismo, gafanhotos, quatro anjos, cavalaria, anjo forte, sete trovões e livrinho permanecem descrições, ações, comparações, nomes e sequências internas. A referência à hora, dia, mês e ano não foi convertida em calendário; o conteúdo selado dos trovões não foi reconstruído; não se acrescentou identidade histórica, tecnologia moderna ou alegoria. Não surgiu ambiguidade real nova. **Ap 11–22 fica para os próximos lotes, com auditoria das pautas existentes de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros permanece posterior e o banco não está completo.**
+
+## Apocalipse 11 e auditoria de 12–13 — checkpoint 062
+
+As páginas NAA de Ap 11, 12 e 13 foram obtidas individualmente com HTTP 200 em 13/09/2026 e lidas integralmente. A comparação com as 192 pautas anteriores confirmou que Ap 11 ainda não tinha pauta e que Ap 12 e 13 já estavam cobertos, respectivamente, por `nt2-apocalipse-mulher-dragao` e `nt2-apocalipse-duas-bestas`; esses dois objetos foram preservados sem duplicação ou correção.
+
+Ap 11 sustentou duas pautas: 11.1-14, com 30 pistas, e 11.15-19, com 18. As duas testemunhas não receberam nomes nem identidades externas. Medição, períodos, besta do abismo, sétima trombeta, reino, julgamento, santuário e arca permanecem elementos internos da visão, sem calendário ou instituição atual. A auditoria de Ap 12 confirmou que mulher e dragão ficam limitados às descrições e à identificação explícita de 12.9; em Ap 13, bestas, marca e 666 ficam limitados às descrições, ações e identificações do capítulo. Nenhuma instituição atual, cronologia ou interpretação externa foi acrescentada. **Ap 14–22 e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**

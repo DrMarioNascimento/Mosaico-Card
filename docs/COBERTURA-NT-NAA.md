@@ -30,7 +30,7 @@
 | 2 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
 | 3 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | pauta factual 2–6 |
 | Judas | Auditoria/autoria encerrada — checkpoint 057 | 1 carta em 3 blocos | 3 autorados | alusões não completadas |
-| Apocalipse | Em autoria — checkpoint 061 | capítulos 1–22; Ap 2–10 auditados individualmente | 21 autorados | Ap 11–22 pendentes nesta sequência, incluída auditoria das pautas existentes; sem identidades externas |
+| Apocalipse | Em autoria — checkpoint 062 | capítulos 1–22; Ap 2–13 auditados individualmente | 23 autorados | Ap 14–22 pendentes nesta sequência, incluída auditoria das pautas existentes; sem identidades externas |
 
 ## Critério de atualização
 
@@ -148,3 +148,9 @@ Os cento e quarenta e quatro mil, as tribos e a grande multidão permanecem desc
 As páginas NAA de Ap 8, 9 e 10 retornaram HTTP 200 em 13/09/2026 e foram lidas antes da autoria. Quatro pautas e 96 pistas foram acrescentadas: Ap 8.1-13, Ap 9.1-12, Ap 9.13-21 e Ap 10.1-11. O inventário passa de 188/3.502 para **192 pautas, 768 campos e 3.598 pistas**, com preservação integral dos 188 objetos anteriores.
 
 As imagens foram mantidas como descrições, ações, comparações, identificações e sequências internas. Nenhuma identidade histórica, tecnologia moderna, alegoria ou calendário foi importado; o que os sete trovões disseram permanece selado. **Ap 11–22 segue pendente, incluída a auditoria individual das pautas existentes de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros fica para depois e o banco não está completo.**
+
+## Checkpoint 062 — auditoria/autoria de Apocalipse 11–13
+
+As três páginas NAA retornaram HTTP 200 em 13/09/2026. Ap 11.1-14 e 11.15-19 originaram duas pautas com 48 pistas. A leitura completa dos capítulos e a comparação encerraram Ap 12 e 13 nas pautas existentes, sem alteração nem duplicação. O inventário passa de 192/3.598 para **194 pautas, 776 campos e 3.646 pistas**, preservando integralmente os 192 objetos anteriores.
+
+As duas testemunhas não receberam identidades externas; mulher, dragão, bestas, marca e 666 permanecem restritos às descrições e identificações internas dos capítulos. **Ap 14–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.**

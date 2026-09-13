@@ -396,3 +396,14 @@ Nenhuma literalidade foi escolhida para os cento e quarenta e quatro mil; os gru
 | Ap 10.1-11 | Autorado como `nt2-apocalipse-anjo-livrinho`, 25 pistas. | Ações do anjo e do vidente, ordem sobre os trovões e experiência com o livrinho sustentam a sequência; o conteúdo selado não foi reconstruído. |
 
 O lote encerra com quatro pautas, sem forçar uma quinta. Os 188 objetos e as 3.502 pistas anteriores foram preservados integralmente, e não surgiu ambiguidade real nova. Ap 11–22, inclusive a auditoria das pautas existentes de Ap 12, 13, 16, 20 e 21–22, permanece para depois; a auditoria global dos 27 livros também continua pendente e o banco não está completo.
+
+## Checkpoint 062 — decisões individuais em Apocalipse 11–13
+
+| Recorte | Decisão | Motivo |
+| --- | --- | --- |
+| Ap 11.1-14 | Autorado como `nt2-apocalipse-medicao-duas-testemunhas`, 30 pistas. | Medição, atuação, conclusão do testemunho, morte, retorno à vida, subida e terremoto formam uma sequência própria; as testemunhas não recebem identidades externas. |
+| Ap 11.15-19 | Autorado como `nt2-apocalipse-setima-trombeta-reino-santuario`, 18 pistas. | Proclamação, adoração, julgamento, galardão e abertura do santuário sustentam um segundo bloco, sem calendário histórico. |
+| Ap 12.1-18 | Cobertura encerrada em `nt2-apocalipse-mulher-dragao`, já existente com 25 pistas. | Os quatro campos e as pistas percorrem os sinais, a fuga, a guerra e a identificação interna do dragão em 12.9; não se atribui identidade externa à mulher. |
+| Ap 13.1-18 | Cobertura encerrada em `nt2-apocalipse-duas-bestas`, já existente com 13 pistas. | Os campos e as pistas distinguem origens, ações, marca e número; bestas e 666 não recebem identidade atual ou interpretação externa. |
+
+Somente duas pautas foram acrescentadas, sem forçar uma terceira. Os 192 objetos e as 3.598 pistas anteriores permaneceram integralmente idênticos, inclusive as pautas auditadas de Ap 12 e 13. Não surgiu ambiguidade real nova. **Ap 14–22 e a auditoria global dos 27 livros permanecem para nova base; o banco não está completo.**

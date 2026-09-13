@@ -218,3 +218,9 @@ Número, lista de tribos e grande multidão são mantidos como conteúdo da vis�
 As páginas NAA de Ap 8–10 retornaram HTTP 200 e foram lidas antes da autoria. Quatro pautas documentais — Ap 8.1-13, Ap 9.1-12, Ap 9.13-21 e Ap 10.1-11 — acrescentam 96 pistas. O catálogo passa de 188/3.502 para **192 pautas, 768 campos e 3.598 pistas**, preservando integralmente os 188 objetos anteriores.
 
 As formulações são atributivas e limitadas a descrições, ações, comparações, identificações e sequências internas. Não foram acrescentados calendário, identidade histórica, tecnologia moderna ou alegoria para trombetas, anjos, gafanhotos, cavalaria, trovões ou livrinho. **Ap 11–22 e a auditoria global permanecem pendentes nos termos registrados; o banco não está completo.**
+
+## Checkpoint 062 — Apocalipse 11 e auditoria de 12–13
+
+A consulta efetiva das páginas NAA de Ap 11–13 sustentou duas pautas novas para Ap 11, com 30 e 18 pistas, e confirmou que a cobertura do capítulo 12 pode ser encerrada por `nt2-apocalipse-mulher-dragao` e a do capítulo 13 por `nt2-apocalipse-duas-bestas`. Nenhuma pauta foi duplicada e os objetos existentes não foram alterados. O catálogo passa de 192/3.598 para **194 pautas, 776 campos e 3.646 pistas**.
+
+As duas testemunhas permanecem sem identidades externas; mulher, dragão, bestas, marca e 666 ficam restritos às descrições e identificações internas. Não foram acrescentados instituições atuais, calendários ou interpretações externas. **Ap 14–22 e a auditoria global permanecem pendentes; o banco não está completo.**
