@@ -69,3 +69,38 @@ Mt 15.21-28 originou `nt2-mateus-mulher-cananeia`, com sete fatos e capacidade 2
 ## Auditoria individual — checkpoint 036
 
 Mt 21.1-11 e Mt 28.1-10 foram relidos na NAA e comparados com os relatos paralelos. Originaram `nt2-mateus-entrada-jerusalem` (11 pistas) e `nt2-mateus-mulheres-ressurreicao` (13 pistas), sem importar detalhes dos demais Evangelhos. As pendências solicitadas de Mateus estão encerradas; isso não declara completo o banco NT.
+
+## Reconsulta individual de Mateus 5–7 — checkpoint 067
+
+Em 13/09/2026, as três páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.5.NAA`, `/MAT.6.NAA` e `/MAT.7.NAA` foram obtidas separadamente (HTTP 200; 397.176, 364.097 e 337.884 bytes) e lidas verso a verso. Antes da autoria, os 205 IDs e suas referências gerais foram pesquisados: havia 20 pautas que citavam Mateus, mas nenhuma referência geral a Mt 5, 6 ou 7. A exclusão agregada antiga por “ensino contínuo”, risco doutrinário e exigência de 25 cartas fica superada; perguntas atributivas, listas coerentes e capacidade variável permitem avaliar cada unidade sem converter interpretação em fato.
+
+| Unidade efetivamente lida | Comparação/decisão individual |
+| --- | --- |
+| Mt 5.1-2 — abertura no monte | Fatos usados como moldura de `nt2-mateus-bem-aventurancas`; não recebeu pauta isolada por ter somente a aproximação dos discípulos e o início do ensino. |
+| Mt 5.3-12 — bem-aventuranças | **Autorada** em `nt2-mateus-bem-aventurancas`, 16 pistas, capacidade 2–7. As correspondências entre grupos e promessas permanecem atribuídas ao texto. |
+| Mt 5.13-16 — sal e luz | **Lida, não autorada neste lote.** Unidade coerente e potencialmente sustentável, mas ficou fora pelo limite máximo de quatro pautas; próxima rodada deve comparar uma pauta própria ou temática sem explicar externamente as imagens. |
+| Mt 5.17-20 — Lei e Profetas | **Lida, não autorada.** Unidade curta; pode integrar futura pauta atributiva, mas não foi anexada artificialmente ao bloco seguinte. |
+| Mt 5.21-26 — ira, oferta e adversário | **Autorada como parte** de `nt2-mateus-ensinos-contrastes`; sequência de oferta/reconciliação preservada. |
+| Mt 5.27-30 — adultério e tropeço | **Lida, não usada.** A rodada não transformou linguagem corporal em ação narrativa nem criou alternativas interpretativas. Reavaliar isoladamente em lote futuro. |
+| Mt 5.31-32 — divórcio | **Lida, não usada.** Duas formulações densas e sensíveis não foram ampliadas nem harmonizadas com paralelos; permanece para decisão atributiva futura. |
+| Mt 5.33-37 — juramentos | **Autorada como parte** de `nt2-mateus-ensinos-contrastes`, preservando os exemplos e a forma recomendada da palavra. |
+| Mt 5.38-42 — reação ao mal | **Autorada como parte** da pauta de contrastes, sem converter os imperativos em episódio ocorrido. |
+| Mt 5.43-48 — inimigos | **Autorada como parte** da pauta de contrastes; sol, chuva, publicanos e gentios são somente comparações expressas no recorte. |
+| Mt 6.1 — princípio sobre obras vistas | **Usada como abertura** de `nt2-mateus-praticas-secreto`. |
+| Mt 6.2-4 — esmola | **Autorada como parte** da pauta sobre práticas em secreto. |
+| Mt 6.5-15 — oração e perdão | **Autorada como parte** da mesma pauta; pedidos e relações de perdão permanecem atribuídos, sem exposição doutrinária externa. |
+| Mt 6.16-18 — jejum | **Autorada como parte** da mesma pauta, com ações e finalidade expressas. |
+| Mt 6.19-21 — tesouros | **Lida, não autorada neste lote.** Candidata temática para o próximo lote; não foi anexada para inflar a pauta já suficiente. |
+| Mt 6.22-23 — olhos e corpo | **Lida, não autorada.** Imagem curta; futura pergunta deve mantê-la como comparação textual, sem equivalência interpretativa. |
+| Mt 6.24 — dois senhores | **Lida, não autorada.** Unidade de um verso; pode ser comparada com a unidade adjacente em pauta temática coerente, sem exigir fusão. |
+| Mt 6.25-34 — preocupações | **Lida, não autorada neste lote.** Sustenta candidato próprio sobre vida, aves, lírios e amanhã; prioridade do próximo lote, evitando inferências cronológicas ou doutrinárias. |
+| Mt 7.1-5 — julgamento, cisco e trave | **Lida, não autorada neste lote.** Candidato atributivo remanescente; as imagens não receberam equivalência externa. |
+| Mt 7.6 — cães, santo, pérolas e porcos | **Lida, não autorada.** Um único dito, mantido isolado por risco de interpretação se transformado em gabarito. |
+| Mt 7.7-12 — pedir, buscar e regra de ação | **Autorada em parte** de `nt2-mateus-escolhas-alertas`; foram usados pedido, respostas e comparações de pai e filho. Mt 7.12 foi lido, mas não virou pista para não fundir um imperativo distinto sem necessidade. |
+| Mt 7.13-14 — duas portas/caminhos | **Autorada como parte** da pauta de escolhas e alertas. |
+| Mt 7.15-20 — falsos profetas e frutos | **Autorada como parte** da mesma pauta, mantendo as imagens como comparações. |
+| Mt 7.21-23 — entrada e alegações | **Autorada parcialmente** na mesma pauta. Mt 7.22-23 foi inventariado, mas alegações e resposta final não foram usados como identidade ou interpretação; pode ser revisto sozinho. |
+| Mt 7.24-27 — dois fundamentos | **Autorada como parte** da pauta de escolhas e alertas. |
+| Mt 7.28-29 — reação final | **Lida, não autorada.** Fecho curto já confirma maravilhamento e autoridade, mas não foi anexado a uma pauta suficiente. |
+
+O lote acrescenta exatamente quatro pautas e 85 pistas: bem-aventuranças (16; capacidade 7), contrastes (22; capacidade 10), práticas em secreto (22; capacidade 10) e escolhas/alertas (25; capacidade 12). **Mateus 5–7 não está fechado**: continuam para o próximo lote, prioritariamente, Mt 5.13-20, 5.27-32, 6.19-34 e 7.1-6/7.12/7.22-23/7.28-29, cada qual com o status e limite acima. Os demais livros não foram abertos nesta rodada.

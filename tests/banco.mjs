@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 205);
-assert.equal(catalog.summary.max12Cases, 78);
+assert.equal(catalog.summary.editoriallyEligibleCases, 209);
+assert.equal(catalog.summary.max12Cases, 79);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -340,6 +340,19 @@ for (const id of ["nt2-apocalipse-mulher-dragao", "nt2-apocalipse-duas-bestas"])
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:12|13)\./.test(ref.passage))), `${id} mantém exclusivamente as identificações internas de seu capítulo`);
 }
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
+const auditoriaMateus067 = {
+  "nt2-mateus-bem-aventurancas": 7,
+  "nt2-mateus-ensinos-contrastes": 10,
+  "nt2-mateus-praticas-secreto": 10,
+  "nt2-mateus-escolhas-alertas": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus067)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita a Mateus 5–7`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));
 

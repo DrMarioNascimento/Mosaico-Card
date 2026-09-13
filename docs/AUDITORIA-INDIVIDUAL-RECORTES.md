@@ -448,3 +448,16 @@ O limite de quatro pautas foi atingido por quatro unidades documentais completas
 | Ap 22.6-21 | NAA, HTTP 200; ordens do anjo, bem-aventuranças, convite, advertências sobre o livro, testemunho e bênção final comparados com as 204 pautas anteriores. | `nt2-apocalipse-palavras-convite-testemunho-final`, 32 pistas, capacidade 2–12. |
 
 A pauta atribui cada fala ao agente indicado no recorte e não transforma proximidade ou vinda sem demora em calendário. Nenhuma segunda pauta foi forçada. A auditoria documental global está registrada em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`; ela encontrou pendências reais em outros livros e, portanto, este resultado não declara o banco completo.
+
+## Checkpoint 067 — inventário individual de Mateus 5–7
+
+As páginas NAA Bible.com 1840 de Mateus 5, 6 e 7 retornaram HTTP 200 e foram efetivamente lidas verso a verso em 13/09/2026. A comparação prévia encontrou 205 IDs, 3.937 pistas, 20 pautas com Mateus e nenhuma referência geral a Mt 5–7. O inventário de cada uma das 25 unidades editoriais lidas, inclusive unidades usadas parcialmente ou deixadas para o próximo lote, está em `docs/cobertura/MATEUS.md`; isso substitui a antiga exclusão única por ensino/discurso/25 cartas.
+
+| Recorte autorado | Decisão |
+| --- | --- |
+| Mt 5.1-12 | `nt2-mateus-bem-aventurancas`, 16 pistas, capacidade 2–7; lista textual com correspondências entre grupos e promessas. |
+| Mt 5.21-48 (unidades 21-26, 33-37, 38-42 e 43-48) | `nt2-mateus-ensinos-contrastes`, 22 pistas, capacidade 2–10; quatro perguntas independentes e atributivas, sem usar 5.27-32. |
+| Mt 6.1-18 | `nt2-mateus-praticas-secreto`, 22 pistas, capacidade 2–10; esmola, oração, perdão e jejum unidos pelo contraste textual da exibição e do secreto. |
+| Mt 7.7-27 (uso delimitado no inventário) | `nt2-mateus-escolhas-alertas`, 25 pistas, capacidade 2–12; pedidos, caminhos, frutos e fundamentos mantidos como ensinos e comparações. |
+
+A comparação serializada após a edição confirmou os 205 objetos anteriores, na mesma ordem e com conteúdo byte-equivalente quando cada objeto é serializado por `JSON.stringify`; apenas quatro novos objetos foram anexados e `catalogVersion` avançou. Resultado: **209 pautas/4.022 pistas**, todas elegíveis. Essa verificação estrutural não demonstra conferência bíblica nem banco completo. Mt 5–7 conserva unidades remanescentes individualizadas na ficha de Mateus, e os demais livros permanecem na fila da auditoria global.

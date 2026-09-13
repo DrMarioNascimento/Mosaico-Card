@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Analisado — pendências solicitadas encerradas no checkpoint 036 | 21 + faixas restantes | 14 próprios + 3 consolidados | alimentação consolidada com João |
+| Mateus | Reconsulta em andamento — checkpoint 067 | Mt 5–7 inventariado por unidade; demais faixas futuras | 18 próprios + 3 consolidados; 24 pautas citam o livro | Mt 5–7 não fechado; remanescentes individualizados na ficha |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -176,3 +176,7 @@ A revisão individual confirmou Ap 20.1-15 na pauta existente de 13 pistas e Ap 
 ## Checkpoint 066 — Apocalipse 22.6-21 e auditoria dos 27 livros
 
 A consulta efetiva de Ap 22.6-21 sustentou uma pauta de 32 pistas. O inventário passa a **205 pautas, 820 campos e 3.937 pistas**, preservando os 204 objetos anteriores. A auditoria global documental posterior, detalhada em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`, confrontou banco e registros livro a livro e converteu exclusões genéricas incompatíveis com as regras atuais em pendências acionáveis. “Analisado”, download integral ou faixa agregada não são usados como equivalentes de conferência individual. A auditoria não declara o banco completo e lista as consultas NAA ainda necessárias.
+
+## Checkpoint 067 — primeiro lote da reconsulta de Mateus 5–7
+
+Mateus passa a **24 pautas/421 pistas que citam o livro**, e o banco a **209/4.022**, após consulta e leitura efetiva das páginas NAA Bible.com 1840 de Mt 5, 6 e 7. Quatro pautas foram anexadas e todos os 205 objetos anteriores foram preservados serialmente. O inventário individual completo das unidades está na ficha de Mateus. Mt 5–7 continua **em andamento**, com Mt 5.13-20, 5.27-32, 6.19-34 e porções delimitadas de Mt 7 no próximo lote; testes estruturais não autorizam chamá-lo fechado nem declarar o banco completo.

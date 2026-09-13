@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-066-apocalipse-22-auditoria-global",
+  "catalogVersion": "checkpoint-067-mateus-5-7",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 205,
-    "fields": 820,
-    "editoriallyEligibleCases": 205,
-    "playableCases": 205,
-    "max12Cases": 78
+    "cases": 209,
+    "fields": 836,
+    "editoriallyEligibleCases": 209,
+    "playableCases": 209,
+    "max12Cases": 79
   },
   "order": [
     "nt2-joao-cana",
@@ -221,7 +221,11 @@
     "nt2-apocalipse-pedra-silencio-sangue",
     "nt2-apocalipse-bodas-cordeiro-louvor",
     "nt2-apocalipse-cavaleiro-besta-ceia",
-    "nt2-apocalipse-palavras-convite-testemunho-final"
+    "nt2-apocalipse-palavras-convite-testemunho-final",
+    "nt2-mateus-bem-aventurancas",
+    "nt2-mateus-ensinos-contrastes",
+    "nt2-mateus-praticas-secreto",
+    "nt2-mateus-escolhas-alertas"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -141791,6 +141795,2946 @@
             "passage": "22.6-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-bem-aventurancas": {
+      "id": "nt2-mateus-bem-aventurancas",
+      "kind": "canonical-case",
+      "title": "As bem-aventuranças no monte",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 5.1-12",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Mateus 5.1-12, quem se aproximou, o que Jesus fez e quais grupos recebem as promessas indicadas?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A promessa aos pacificadores diferencia uma correspondência textual específica dentro da lista, sem transformar interpretação em gabarito.",
+      "editorial": {
+        "hinge": "As respostas são correspondências expressas entre destinatários, ação e promessas em Mateus 5.1-12; não definem os grupos além das palavras do recorte."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem será chamado filho de Deus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os pacificadores"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Os mansos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os misericordiosos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os que choram"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os pacificadores",
+          "enderecoNAA": "Mateus 5.9",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem se aproximou de Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os escribas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os publicanos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os sacerdotes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os discípulos",
+          "enderecoNAA": "Mateus 5.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus passou a fazer",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Ensinar"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Curar"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Escrever"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Navegar"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Ensinar",
+          "enderecoNAA": "Mateus 5.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem verá a Deus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Os limpos de coração"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os perseguidos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os pobres em espírito"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os que têm fome"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Os limpos de coração",
+          "enderecoNAA": "Mateus 5.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus viu as multidões antes de subir ao monte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus viu as multidões antes de subir ao monte."
+          },
+          {
+            "id": "P02",
+            "text": "Depois de subir, Jesus se assentou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de subir, Jesus se assentou."
+          },
+          {
+            "id": "P03",
+            "text": "Os discípulos se aproximaram dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se aproximaram dele."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus então passou a ensiná-los.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus então passou a ensiná-los."
+          },
+          {
+            "id": "P05",
+            "text": "Aos pobres em espírito é atribuído o Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos pobres em espírito é atribuído o Reino dos Céus."
+          },
+          {
+            "id": "P06",
+            "text": "Os que choram recebem promessa de consolo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que choram recebem promessa de consolo."
+          },
+          {
+            "id": "P07",
+            "text": "Aos mansos é prometida a terra como herança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos mansos é prometida a terra como herança."
+          },
+          {
+            "id": "P08",
+            "text": "Os que têm fome e sede de justiça serão saciados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que têm fome e sede de justiça serão saciados."
+          },
+          {
+            "id": "P09",
+            "text": "Os misericordiosos alcançarão misericórdia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os misericordiosos alcançarão misericórdia."
+          },
+          {
+            "id": "P10",
+            "text": "Aos limpos de coração é prometida a visão de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos limpos de coração é prometida a visão de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "Os pacificadores serão chamados filhos de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os pacificadores serão chamados filhos de Deus."
+          },
+          {
+            "id": "P12",
+            "text": "Aos perseguidos por causa da justiça pertence o Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos perseguidos por causa da justiça pertence o Reino dos Céus."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus chama bem-aventurados os insultados e perseguidos por causa dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chama bem-aventurados os insultados e perseguidos por causa dele."
+          },
+          {
+            "id": "P14",
+            "text": "A acusação mencionada envolve dizer falsamente todo mal contra os destinatários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A acusação mencionada envolve dizer falsamente todo mal contra os destinatários."
+          },
+          {
+            "id": "P15",
+            "text": "A orientação diante dessa perseguição é alegrar-se e exultar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação diante dessa perseguição é alegrar-se e exultar."
+          },
+          {
+            "id": "P16",
+            "text": "A recompensa desses perseguidos é descrita como grande nos céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A recompensa desses perseguidos é descrita como grande nos céus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus sobe ao monte, os discípulos se aproximam e ele ensina uma série de bem-aventuranças, entre elas as promessas aos limpos de coração e aos pacificadores.",
+        "hinge": "As respostas são correspondências expressas entre destinatários, ação e promessas em Mateus 5.1-12; não definem os grupos além das palavras do recorte.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-ensinos-contrastes": {
+      "id": "nt2-mateus-ensinos-contrastes",
+      "kind": "canonical-case",
+      "title": "Contrastes no ensino de Jesus",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 5.21-48",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.21-48",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que orientações e comparações Mateus atribui a Jesus nos ensinos sobre reconciliação, juramentos, reação ao mal e inimigos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A prioridade de reconciliar-se antes de apresentar a oferta organiza uma sequência explícita e distingue o primeiro gabarito.",
+      "editorial": {
+        "hinge": "Os quatro campos são perguntas independentes do mesmo conjunto de ensinos e preservam seus agentes e comparações; não se formula uma doutrina externa ao texto."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que fazer primeiro ao lembrar do irmão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Reconciliar-se com ele"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Apresentar a oferta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Procurar o juiz"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Pagar o último centavo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Reconciliar-se com ele",
+          "enderecoNAA": "Mateus 5.23-24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que forma deve ter a palavra",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "“Sim, sim; não, não”"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um juramento pelo céu"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um juramento pela terra"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um juramento por Jerusalém"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "“Sim, sim; não, não”",
+          "enderecoNAA": "Mateus 5.37",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quanto andar com quem obriga a uma milha",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Duas milhas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Meia milha"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma milha"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Três milhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Duas milhas",
+          "enderecoNAA": "Mateus 5.41",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Por quem os destinatários devem orar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Por quem os persegue"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente pelos irmãos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Somente pelos justos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pelos publicanos que os amam"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Por quem os persegue",
+          "enderecoNAA": "Mateus 5.44",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "5.44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O ensino recorda a proibição de matar e a sujeição do homicida a julgamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ensino recorda a proibição de matar e a sujeição do homicida a julgamento."
+          },
+          {
+            "id": "P02",
+            "text": "A ira contra o irmão também é relacionada a julgamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ira contra o irmão também é relacionada a julgamento."
+          },
+          {
+            "id": "P03",
+            "text": "A lembrança de que o irmão tem algo contra a pessoa ocorre junto ao altar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lembrança de que o irmão tem algo contra a pessoa ocorre junto ao altar."
+          },
+          {
+            "id": "P04",
+            "text": "A oferta deve ser deixada diante do altar enquanto se busca reconciliação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oferta deve ser deixada diante do altar enquanto se busca reconciliação."
+          },
+          {
+            "id": "P05",
+            "text": "Depois da reconciliação, a pessoa volta para apresentar a oferta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da reconciliação, a pessoa volta para apresentar a oferta."
+          },
+          {
+            "id": "P06",
+            "text": "O acordo com o adversário deve ser feito sem demora, ainda a caminho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O acordo com o adversário deve ser feito sem demora, ainda a caminho."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus orienta a não jurar pelo céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus orienta a não jurar pelo céu."
+          },
+          {
+            "id": "P08",
+            "text": "O céu é descrito como trono de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O céu é descrito como trono de Deus."
+          },
+          {
+            "id": "P09",
+            "text": "Também não se deve jurar pela terra nem por Jerusalém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também não se deve jurar pela terra nem por Jerusalém."
+          },
+          {
+            "id": "P10",
+            "text": "A terra é descrita como estrado dos pés de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terra é descrita como estrado dos pés de Deus."
+          },
+          {
+            "id": "P11",
+            "text": "A pessoa não pode tornar branco ou preto um só cabelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa não pode tornar branco ou preto um só cabelo."
+          },
+          {
+            "id": "P12",
+            "text": "A palavra recomendada limita-se à afirmação ou negação simples.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra recomendada limita-se à afirmação ou negação simples."
+          },
+          {
+            "id": "P13",
+            "text": "A quem recebe um tapa na face direita é dito que ofereça também a esquerda.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A quem recebe um tapa na face direita é dito que ofereça também a esquerda."
+          },
+          {
+            "id": "P14",
+            "text": "A quem pretende tirar a túnica deve-se deixar também a capa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A quem pretende tirar a túnica deve-se deixar também a capa."
+          },
+          {
+            "id": "P15",
+            "text": "A obrigação de uma milha recebe a orientação de caminhar duas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A obrigação de uma milha recebe a orientação de caminhar duas."
+          },
+          {
+            "id": "P16",
+            "text": "O ensino manda dar a quem pede.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ensino manda dar a quem pede."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus manda amar os inimigos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus manda amar os inimigos."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus manda orar pelos perseguidores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus manda orar pelos perseguidores."
+          },
+          {
+            "id": "P19",
+            "text": "O Pai faz o sol nascer sobre maus e bons.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai faz o sol nascer sobre maus e bons."
+          },
+          {
+            "id": "P20",
+            "text": "As chuvas vêm sobre justos e injustos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As chuvas vêm sobre justos e injustos."
+          },
+          {
+            "id": "P21",
+            "text": "Amar apenas quem ama é comparado à conduta dos publicanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Amar apenas quem ama é comparado à conduta dos publicanos."
+          },
+          {
+            "id": "P22",
+            "text": "Saudar somente os irmãos é comparado à conduta dos gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "5.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Saudar somente os irmãos é comparado à conduta dos gentios."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus registra orientações de Jesus para priorizar a reconciliação, falar sem juramentos, responder de modo não retaliatório e amar e orar por inimigos e perseguidores.",
+        "hinge": "Os quatro campos são perguntas independentes do mesmo conjunto de ensinos e preservam seus agentes e comparações; não se formula uma doutrina externa ao texto.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "5.21-48",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-praticas-secreto": {
+      "id": "nt2-mateus-praticas-secreto",
+      "kind": "canonical-case",
+      "title": "Práticas diante do Pai em secreto",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 6.1-18",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "6.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Como Mateus 6.1-18 contrasta a prática exibida com esmola, oração, perdão e jejum diante do Pai?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O lugar indicado para a oração secreta torna concreto o contraste recorrente entre exibição pública e ação vista pelo Pai.",
+      "editorial": {
+        "hinge": "Cada pista conserva a prática, o agente e a finalidade expressos no capítulo; a importância editorial das pistas não é tratada como prova ou proveniência."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Onde orar após fechar a porta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "No quarto"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Na sinagoga"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No canto da praça"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Na rua"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "No quarto",
+          "enderecoNAA": "Mateus 6.6",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem já recebeu a própria recompensa",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os hipócritas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os gentios"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os devedores"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os que perdoam"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os hipócritas",
+          "enderecoNAA": "Mateus 6.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que o Pai sabe antes do pedido",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Aquilo de que seus filhos precisam"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Quantas palavras serão repetidas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Quem está jejuando"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Onde está a esmola"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Aquilo de que seus filhos precisam",
+          "enderecoNAA": "Mateus 6.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como cuidar da aparência ao jejuar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ungir a cabeça e lavar o rosto"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Tocar trombeta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Desfigurar o rosto"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ficar em pé na praça"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ungir a cabeça e lavar o rosto",
+          "enderecoNAA": "Mateus 6.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "6.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Obras de justiça não devem ser praticadas diante dos outros para obter visibilidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Obras de justiça não devem ser praticadas diante dos outros para obter visibilidade."
+          },
+          {
+            "id": "P02",
+            "text": "Ao dar esmola, tocar trombeta é associado aos hipócritas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao dar esmola, tocar trombeta é associado aos hipócritas."
+          },
+          {
+            "id": "P03",
+            "text": "As sinagogas e as ruas são os lugares citados para essa exibição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As sinagogas e as ruas são os lugares citados para essa exibição."
+          },
+          {
+            "id": "P04",
+            "text": "A finalidade da exibição dos hipócritas é receber elogio dos outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade da exibição dos hipócritas é receber elogio dos outros."
+          },
+          {
+            "id": "P05",
+            "text": "Ao dar esmola, a mão esquerda deve ignorar a ação da direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao dar esmola, a mão esquerda deve ignorar a ação da direita."
+          },
+          {
+            "id": "P06",
+            "text": "A esmola deve permanecer em secreto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A esmola deve permanecer em secreto."
+          },
+          {
+            "id": "P07",
+            "text": "Os hipócritas gostam de orar em pé nas sinagogas e nos cantos das praças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os hipócritas gostam de orar em pé nas sinagogas e nos cantos das praças."
+          },
+          {
+            "id": "P08",
+            "text": "A oração exibida busca ser vista pelos outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração exibida busca ser vista pelos outros."
+          },
+          {
+            "id": "P09",
+            "text": "Para orar, a pessoa deve entrar no quarto e fechar a porta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Para orar, a pessoa deve entrar no quarto e fechar a porta."
+          },
+          {
+            "id": "P10",
+            "text": "A oração no quarto é dirigida ao Pai que está em secreto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração no quarto é dirigida ao Pai que está em secreto."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus orienta a não usar repetições vazias como os gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus orienta a não usar repetições vazias como os gentios."
+          },
+          {
+            "id": "P12",
+            "text": "Os gentios pensam ser ouvidos pelo muito falar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os gentios pensam ser ouvidos pelo muito falar."
+          },
+          {
+            "id": "P13",
+            "text": "O Pai sabe do que seus filhos precisam antes do pedido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai sabe do que seus filhos precisam antes do pedido."
+          },
+          {
+            "id": "P14",
+            "text": "A oração pede o pão de cada dia para hoje.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oração pede o pão de cada dia para hoje."
+          },
+          {
+            "id": "P15",
+            "text": "O pedido de perdão das dívidas é acompanhado pelo perdão aos devedores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido de perdão das dívidas é acompanhado pelo perdão aos devedores."
+          },
+          {
+            "id": "P16",
+            "text": "O perdão das ofensas aos outros é relacionado ao perdão do Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O perdão das ofensas aos outros é relacionado ao perdão do Pai."
+          },
+          {
+            "id": "P17",
+            "text": "Os hipócritas desfiguram o rosto para parecer que estão jejuando.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os hipócritas desfiguram o rosto para parecer que estão jejuando."
+          },
+          {
+            "id": "P18",
+            "text": "A aparência triste no jejum é rejeitada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aparência triste no jejum é rejeitada."
+          },
+          {
+            "id": "P19",
+            "text": "No jejum, a orientação é ungir a cabeça.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No jejum, a orientação é ungir a cabeça."
+          },
+          {
+            "id": "P20",
+            "text": "A orientação também inclui lavar o rosto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação também inclui lavar o rosto."
+          },
+          {
+            "id": "P21",
+            "text": "O objetivo é não exibir o jejum aos outros.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O objetivo é não exibir o jejum aos outros."
+          },
+          {
+            "id": "P22",
+            "text": "O Pai que vê em secreto é quem dará a recompensa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "6.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai que vê em secreto é quem dará a recompensa."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus contrasta atos feitos para serem vistos com esmola, oração e jejum mantidos em secreto, e atribui ao Pai conhecimento das necessidades, perdão e recompensa.",
+        "hinge": "Cada pista conserva a prática, o agente e a finalidade expressos no capítulo; a importância editorial das pistas não é tratada como prova ou proveniência.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "6.1-18",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-escolhas-alertas": {
+      "id": "nt2-mateus-escolhas-alertas",
+      "kind": "canonical-case",
+      "title": "Pedidos, caminhos, frutos e fundamentos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 7.7-27",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "7.7-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quais respostas completam os pedidos, caminhos, alertas e fundamentos apresentados por Jesus em Mateus 7.7-27?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O fundamento da casa prudente culmina a comparação final e exige reconhecer prática, agente e resultado sem revelar todos os campos antes da solução.",
+      "editorial": {
+        "hinge": "A pauta reúne quatro perguntas independentes autorizadas e sustentadas pelo discurso; as imagens permanecem como comparações atribuídas a Jesus, sem equivalências externas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Sobre que fundamento o prudente construiu",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Sobre a rocha"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sobre a areia"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Sobre os espinheiros"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sobre a estrada"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Sobre a rocha",
+          "enderecoNAA": "Mateus 7.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que um pai não dará ao filho que pede pão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma pedra"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um peixe"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma cobra"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma porta"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma pedra",
+          "enderecoNAA": "Mateus 7.9",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que caminho conduz para a vida",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O apertado"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O espaçoso"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O largo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O dos muitos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O apertado",
+          "enderecoNAA": "Mateus 7.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como reconhecer os falsos profetas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Pelos frutos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Pelas roupas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pelos milagres alegados"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pelo modo de chamar Jesus"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Pelos frutos",
+          "enderecoNAA": "Mateus 7.16,20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "7.16,20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A orientação inicial reúne pedir, buscar e bater.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A orientação inicial reúne pedir, buscar e bater."
+          },
+          {
+            "id": "P02",
+            "text": "A quem pede é prometido receber.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A quem pede é prometido receber."
+          },
+          {
+            "id": "P03",
+            "text": "A quem busca é prometido encontrar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A quem busca é prometido encontrar."
+          },
+          {
+            "id": "P04",
+            "text": "Ao filho que pede pão, o pai não oferece uma pedra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao filho que pede pão, o pai não oferece uma pedra."
+          },
+          {
+            "id": "P05",
+            "text": "Ao pedido de peixe é contraposta uma cobra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao pedido de peixe é contraposta uma cobra."
+          },
+          {
+            "id": "P06",
+            "text": "O Pai celestial dará coisas boas aos que lhe pedirem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai celestial dará coisas boas aos que lhe pedirem."
+          },
+          {
+            "id": "P07",
+            "text": "A porta larga e o caminho espaçoso conduzem à perdição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A porta larga e o caminho espaçoso conduzem à perdição."
+          },
+          {
+            "id": "P08",
+            "text": "Muitos entram pela porta larga.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos entram pela porta larga."
+          },
+          {
+            "id": "P09",
+            "text": "A porta estreita e o caminho apertado conduzem à vida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A porta estreita e o caminho apertado conduzem à vida."
+          },
+          {
+            "id": "P10",
+            "text": "Poucos encontram o caminho que conduz à vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Poucos encontram o caminho que conduz à vida."
+          },
+          {
+            "id": "P11",
+            "text": "Os falsos profetas chegam disfarçados de ovelhas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os falsos profetas chegam disfarçados de ovelhas."
+          },
+          {
+            "id": "P12",
+            "text": "Por dentro, eles são comparados a lobos vorazes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por dentro, eles são comparados a lobos vorazes."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus diz que eles serão conhecidos pelos frutos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus diz que eles serão conhecidos pelos frutos."
+          },
+          {
+            "id": "P14",
+            "text": "Espinheiros não produzem uvas na pergunta usada como comparação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Espinheiros não produzem uvas na pergunta usada como comparação."
+          },
+          {
+            "id": "P15",
+            "text": "A árvore boa produz frutos bons.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore boa produz frutos bons."
+          },
+          {
+            "id": "P16",
+            "text": "A árvore má produz frutos maus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore má produz frutos maus."
+          },
+          {
+            "id": "P17",
+            "text": "A árvore sem bom fruto é cortada e lançada ao fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore sem bom fruto é cortada e lançada ao fogo."
+          },
+          {
+            "id": "P18",
+            "text": "Dizer “Senhor, Senhor” não basta para entrar no Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dizer “Senhor, Senhor” não basta para entrar no Reino dos Céus."
+          },
+          {
+            "id": "P19",
+            "text": "A entrada é relacionada a fazer a vontade do Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A entrada é relacionada a fazer a vontade do Pai."
+          },
+          {
+            "id": "P20",
+            "text": "O prudente ouve as palavras de Jesus e as pratica.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O prudente ouve as palavras de Jesus e as pratica."
+          },
+          {
+            "id": "P21",
+            "text": "A casa do prudente foi construída sobre a rocha.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A casa do prudente foi construída sobre a rocha."
+          },
+          {
+            "id": "P22",
+            "text": "Chuva, rios e ventos atingiram essa casa sem derrubá-la.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Chuva, rios e ventos atingiram essa casa sem derrubá-la."
+          },
+          {
+            "id": "P23",
+            "text": "O insensato ouve as palavras e não as pratica.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O insensato ouve as palavras e não as pratica."
+          },
+          {
+            "id": "P24",
+            "text": "A casa do insensato foi construída sobre a areia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A casa do insensato foi construída sobre a areia."
+          },
+          {
+            "id": "P25",
+            "text": "A casa sobre a areia caiu, e sua ruína foi grande.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Distinguir a resposta pela afirmação atribuída ao ensino registrado em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "7.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A casa sobre a areia caiu, e sua ruína foi grande."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Jesus relaciona pedir à dádiva do Pai, contrasta dois caminhos, manda reconhecer falsos profetas pelos frutos e compara praticar suas palavras a construir sobre a rocha.",
+        "hinge": "A pauta reúne quatro perguntas independentes autorizadas e sustentadas pelo discurso; as imagens permanecem como comparações atribuídas a Jesus, sem equivalências externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "7.7-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.7.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

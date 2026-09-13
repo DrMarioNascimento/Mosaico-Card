@@ -668,3 +668,13 @@ A consulta efetiva das páginas NAA de Ap 19–22 e a comparação com os 202 ob
 Ap 22.6-21 foi novamente consultado na página NAA identificada e originou uma pauta de 32 pistas, levando o catálogo a **205 pautas, 820 campos e 3.937 pistas**. Os 204 objetos anteriores permaneceram serializadamente idênticos. Ordens, convites, advertências e testemunho final mantêm atribuição textual; expressões de proximidade não receberam calendário ou interpretação externa.
 
 A auditoria global cruzou as 27 fichas, a cobertura, a auditoria individual e o banco real. `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md` registra por livro as lacunas, evidências, estados e próximos lotes. Estados antigos de “analisado” não foram aceitos como prova de exaustividade quando dependiam de 25 cartas, unidade narrativa, veto a listas/temas ou decisões agregadas por capítulos. As dúvidas de 1Co 11.2-16 e 14.34-36 permanecem separadas do trabalho independente. O banco não está completo: as linhas pendentes exigem novas consultas NAA por recorte.
+
+## Checkpoint 067 — primeiro lote sequencial da reauditoria de Mateus 5–7
+
+Partindo do head informado da PR 22 (`b28873f568eb226c321e06f7faea11d7d16e9ac0`) e do inventário preservado de 205 pautas/3.937 pistas, somente Mateus 5–7 foi trabalhado. Em 13/09/2026, as páginas NAA Bible.com 1840 de MAT.5, MAT.6 e MAT.7 foram obtidas separadamente com HTTP 200 e efetivamente lidas verso a verso. A busca dos IDs e referências existentes não encontrou pauta geral em Mt 5–7. A ficha de Mateus agora registra decisão individual para cada unidade editorial identificada, inclusive as não usadas.
+
+Foram anexadas quatro pautas sustentadas, sem meta de quantidade: `nt2-mateus-bem-aventurancas` (16 pistas), `nt2-mateus-ensinos-contrastes` (22), `nt2-mateus-praticas-secreto` (22) e `nt2-mateus-escolhas-alertas` (25). Suas capacidades são, respectivamente, 7, 10, 10 e 12 pela fórmula vigente. Os campos C1–C4 têm quatro alternativas e gabaritos referenciados; o focal é justificado e pontuado operacionalmente em 8/5/3/2. Ensino, imagens e listas permanecem atribuídos a Mateus, sem harmonização ou interpretação externa.
+
+- **Comparação antes/depois:** 205/3.937 → 209/4.022; os 205 objetos anteriores permaneceram na mesma ordem e serializaram identicamente, enquanto quatro objetos foram apenas anexados.
+- **Limite:** Mt 5–7 **não está fechado**. A ficha lista como próximo lote Mt 5.13-20, 5.27-32, 6.19-34 e as porções remanescentes de Mt 7, com motivo individual. Nenhum outro livro foi consultado ou alterado.
+- **Decisões preservadas:** 1Co 11.2-16 e 14.34-36 continuam dúvidas do usuário; exclusões definitivas e isolamento de versões/partidas permanecem intactos. Não houve merge, deploy, publicação, Firebase ou credenciais.
