@@ -212,3 +212,9 @@ As formulações são atributivas e as imagens permanecem descrições, avaliaç
 A consulta efetiva de Ap 4–7 confirmou que as pautas existentes de trono/Cordeiro (Ap 4–5) e selos/cavaleiros (Ap 6) já cobrem seus recortes, sem necessidade de duplicação. Duas pautas próprias foram acrescentadas para Ap 7.1-8 e 7.9-17, com 16 e 20 pistas. O catálogo passa a **188 pautas, 752 campos e 3.502 pistas**, preservando os 186 objetos anteriores.
 
 Número, lista de tribos e grande multidão são mantidos como conteúdo da visão, sem literalidade definida, identidade externa, calendário ou harmonização com Ap 14. **Ap 8–22 e a auditoria global permanecem pendentes nos termos registrados; o banco não está completo.**
+
+## Checkpoint 061 — Apocalipse 8–10
+
+As páginas NAA de Ap 8–10 retornaram HTTP 200 e foram lidas antes da autoria. Quatro pautas documentais — Ap 8.1-13, Ap 9.1-12, Ap 9.13-21 e Ap 10.1-11 — acrescentam 96 pistas. O catálogo passa de 188/3.502 para **192 pautas, 768 campos e 3.598 pistas**, preservando integralmente os 188 objetos anteriores.
+
+As formulações são atributivas e limitadas a descrições, ações, comparações, identificações e sequências internas. Não foram acrescentados calendário, identidade histórica, tecnologia moderna ou alegoria para trombetas, anjos, gafanhotos, cavalaria, trovões ou livrinho. **Ap 11–22 e a auditoria global permanecem pendentes nos termos registrados; o banco não está completo.**

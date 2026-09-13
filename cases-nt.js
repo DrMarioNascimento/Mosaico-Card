@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-060",
+  "catalogVersion": "2026-09-13-checkpoint-061",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 188,
-    "fields": 752,
-    "editoriallyEligibleCases": 188,
-    "playableCases": 188,
-    "max12Cases": 67
+    "cases": 192,
+    "fields": 768,
+    "editoriallyEligibleCases": 192,
+    "playableCases": 192,
+    "max12Cases": 69
   },
   "order": [
     "nt2-joao-cana",
@@ -204,7 +204,11 @@
     "nt2-apocalipse-filadelfia-porta-coroa-coluna",
     "nt2-apocalipse-laodiceia-mornida-conselho-trono",
     "nt2-apocalipse-selados-tribos",
-    "nt2-apocalipse-grande-multidao-trono"
+    "nt2-apocalipse-grande-multidao-trono",
+    "nt2-apocalipse-setimo-selo-quatro-trombetas",
+    "nt2-apocalipse-quinta-trombeta-gafanhotos",
+    "nt2-apocalipse-sexta-trombeta-eufrates",
+    "nt2-apocalipse-anjo-livrinho"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -127505,6 +127509,3210 @@
             "passage": "7.9-17",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-setimo-selo-quatro-trombetas": {
+      "id": "nt2-apocalipse-setimo-selo-quatro-trombetas",
+      "kind": "canonical-case",
+      "title": "Sétimo selo e as quatro primeiras trombetas",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 8.1-13",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "8.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão de Apocalipse 8, o que ocorre após a abertura do sétimo selo e o que acompanha o toque das quatro primeiras trombetas?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A sucessão das quatro trombetas organiza os efeitos descritos sobre terra, mar, águas e luz sem lhes atribuir explicações externas.",
+      "editorial": {
+        "hinge": "A pauta conserva somente a ordem, as proporções e os efeitos narrados na visão; astros, Absinto, fogo, sangue e águia não recebem identidade histórica, tecnologia, calendário ou alegoria externa."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que sequência resume as quatro primeiras trombetas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Terra e vegetação; mar; rios e fontes; astros"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Abismo; Eufrates; santuário; duas testemunhas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Selos; taças; trono; nova cidade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dragão; duas bestas; cordeiro; colheita"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Terra e vegetação; mar; rios e fontes; astros",
+          "enderecoNAA": "Apocalipse 8.7-12",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "8.7-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que sucede à abertura do sétimo selo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Silêncio no céu durante quase meia hora"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A queda imediata da grande cidade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A soltura dos quatro anjos do Eufrates"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "O fechamento do poço do abismo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Silêncio no céu durante quase meia hora",
+          "enderecoNAA": "Apocalipse 8.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "8.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o anjo faz com o incensário",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Enche-o com fogo do altar e o lança à terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entrega-o aos quatro seres viventes"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Coloca nele o livrinho aberto"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Usa-o para medir o santuário"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Enche-o com fogo do altar e o lança à terra",
+          "enderecoNAA": "Apocalipse 8.3-5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "8.3-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que anúncio encerra o capítulo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Uma águia proclama três ais por causa das trombetas restantes"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um ancião declara encerrados todos os juízos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O anjo anuncia que não haverá mais vozes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os quatro cavaleiros recebem novas coroas"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Uma águia proclama três ais por causa das trombetas restantes",
+          "enderecoNAA": "Apocalipse 8.13",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "8.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O Cordeiro abre o sétimo selo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Cordeiro abre o sétimo selo."
+          },
+          {
+            "id": "P02",
+            "text": "Segue-se silêncio no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segue-se silêncio no céu."
+          },
+          {
+            "id": "P03",
+            "text": "A duração é descrita como quase meia hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A duração é descrita como quase meia hora."
+          },
+          {
+            "id": "P04",
+            "text": "Sete anjos estão em pé diante de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sete anjos estão em pé diante de Deus."
+          },
+          {
+            "id": "P05",
+            "text": "Eles recebem sete trombetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles recebem sete trombetas."
+          },
+          {
+            "id": "P06",
+            "text": "Outro anjo se coloca junto ao altar com um incensário de ouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro anjo se coloca junto ao altar com um incensário de ouro."
+          },
+          {
+            "id": "P07",
+            "text": "Muito incenso lhe é dado para ser oferecido com as orações dos santos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muito incenso lhe é dado para ser oferecido com as orações dos santos."
+          },
+          {
+            "id": "P08",
+            "text": "O altar de ouro fica diante do trono.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O altar de ouro fica diante do trono."
+          },
+          {
+            "id": "P09",
+            "text": "A fumaça do incenso sobe da mão do anjo à presença de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fumaça do incenso sobe da mão do anjo à presença de Deus."
+          },
+          {
+            "id": "P10",
+            "text": "O anjo enche o incensário com fogo do altar e o lança à terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo enche o incensário com fogo do altar e o lança à terra."
+          },
+          {
+            "id": "P11",
+            "text": "Depois disso há trovões, vozes, relâmpagos e terremoto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois disso há trovões, vozes, relâmpagos e terremoto."
+          },
+          {
+            "id": "P12",
+            "text": "Os sete anjos se preparam para tocar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os sete anjos se preparam para tocar."
+          },
+          {
+            "id": "P13",
+            "text": "Na primeira trombeta, granizo e fogo misturados com sangue são lançados à terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na primeira trombeta, granizo e fogo misturados com sangue são lançados à terra."
+          },
+          {
+            "id": "P14",
+            "text": "A primeira trombeta atinge a terça parte da terra e das árvores, e toda erva verde é queimada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A primeira trombeta atinge a terça parte da terra e das árvores, e toda erva verde é queimada."
+          },
+          {
+            "id": "P15",
+            "text": "Na segunda, algo semelhante a uma grande montanha em chamas é lançado ao mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na segunda, algo semelhante a uma grande montanha em chamas é lançado ao mar."
+          },
+          {
+            "id": "P16",
+            "text": "A terça parte do mar se torna sangue.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terça parte do mar se torna sangue."
+          },
+          {
+            "id": "P17",
+            "text": "A terça parte das criaturas marinhas morre e a das embarcações é destruída.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terça parte das criaturas marinhas morre e a das embarcações é destruída."
+          },
+          {
+            "id": "P18",
+            "text": "Na terceira, uma grande estrela ardente cai sobre rios e fontes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na terceira, uma grande estrela ardente cai sobre rios e fontes."
+          },
+          {
+            "id": "P19",
+            "text": "A estrela recebe o nome de Absinto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A estrela recebe o nome de Absinto."
+          },
+          {
+            "id": "P20",
+            "text": "As águas atingidas ficam amargas e causam muitas mortes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As águas atingidas ficam amargas e causam muitas mortes."
+          },
+          {
+            "id": "P21",
+            "text": "Na quarta, a terça parte do sol, da lua e das estrelas é ferida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na quarta, a terça parte do sol, da lua e das estrelas é ferida."
+          },
+          {
+            "id": "P22",
+            "text": "Uma terça parte do dia e da noite fica sem luz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma terça parte do dia e da noite fica sem luz."
+          },
+          {
+            "id": "P23",
+            "text": "Uma águia voa pelo meio do céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma águia voa pelo meio do céu."
+          },
+          {
+            "id": "P24",
+            "text": "Ela anuncia em voz forte três ais aos moradores da terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela anuncia em voz forte três ais aos moradores da terra."
+          },
+          {
+            "id": "P25",
+            "text": "Os ais são relacionados às três trombetas que ainda serão tocadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 8",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "8.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ais são relacionados às três trombetas que ainda serão tocadas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A abertura do sétimo selo traz silêncio; incenso e orações antecedem sinais na terra, e as quatro primeiras trombetas atingem sucessivamente terra, mar, águas doces e luminares antes do anúncio de três ais.",
+        "hinge": "A pauta conserva somente a ordem, as proporções e os efeitos narrados na visão; astros, Absinto, fogo, sangue e águia não recebem identidade histórica, tecnologia, calendário ou alegoria externa.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "8.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-quinta-trombeta-gafanhotos": {
+      "id": "nt2-apocalipse-quinta-trombeta-gafanhotos",
+      "kind": "canonical-case",
+      "title": "Quinta trombeta: abismo, gafanhotos e cinco meses",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 9.1-12",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "9.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão da quinta trombeta, de onde saem os gafanhotos, quem podem atingir, como são descritos e quem reina sobre eles?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A limitação do dano às pessoas sem o selo de Deus distingue o alvo, a duração e o tipo de tormento atribuídos aos gafanhotos.",
+      "editorial": {
+        "hinge": "A estrela, o abismo, os gafanhotos e seu rei ficam restritos às descrições, permissões, comparações e nomes internos de Apocalipse 9, sem identidade histórica ou alegórica acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem os gafanhotos podem atingir",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "As pessoas que não têm o selo de Deus na testa"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Toda coisa verde e toda árvore"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Somente os que estão diante do trono"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os anjos que seguram os ventos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "As pessoas que não têm o selo de Deus na testa",
+          "enderecoNAA": "Apocalipse 9.4-5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.4-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que é dado à estrela caída",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A chave do poço do abismo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A chave da cidade santa"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O selo do Deus vivo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma vara para medir o altar"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A chave do poço do abismo",
+          "enderecoNAA": "Apocalipse 9.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como seu dano é limitado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Atormentam por cinco meses, sem permissão para matar"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Matam durante dez dias"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ferem a vegetação por três anos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Prendem os quatro anjos por uma hora"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Atormentam por cinco meses, sem permissão para matar",
+          "enderecoNAA": "Apocalipse 9.5",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem é o rei sobre eles",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O anjo do abismo, chamado Abadom e Apoliom"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A estrela chamada Absinto"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A águia que anunciou os ais"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O anjo com o incensário de ouro"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O anjo do abismo, chamado Abadom e Apoliom",
+          "enderecoNAA": "Apocalipse 9.11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O quinto anjo toca a trombeta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O quinto anjo toca a trombeta."
+          },
+          {
+            "id": "P02",
+            "text": "O vidente observa uma estrela que havia caído do céu sobre a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente observa uma estrela que havia caído do céu sobre a terra."
+          },
+          {
+            "id": "P03",
+            "text": "À estrela é dada a chave do poço do abismo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À estrela é dada a chave do poço do abismo."
+          },
+          {
+            "id": "P04",
+            "text": "Ela abre o poço do abismo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela abre o poço do abismo."
+          },
+          {
+            "id": "P05",
+            "text": "Fumaça semelhante à de uma grande fornalha sai do poço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fumaça semelhante à de uma grande fornalha sai do poço."
+          },
+          {
+            "id": "P06",
+            "text": "O sol e o ar escurecem com essa fumaça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sol e o ar escurecem com essa fumaça."
+          },
+          {
+            "id": "P07",
+            "text": "Gafanhotos saem da fumaça para a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Gafanhotos saem da fumaça para a terra."
+          },
+          {
+            "id": "P08",
+            "text": "Eles recebem poder comparado ao dos escorpiões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles recebem poder comparado ao dos escorpiões."
+          },
+          {
+            "id": "P09",
+            "text": "É-lhes proibido danificar erva, coisa verde ou árvore.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "É-lhes proibido danificar erva, coisa verde ou árvore."
+          },
+          {
+            "id": "P10",
+            "text": "Seu alvo se limita às pessoas sem o selo de Deus na testa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu alvo se limita às pessoas sem o selo de Deus na testa."
+          },
+          {
+            "id": "P11",
+            "text": "Não recebem permissão para matar essas pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não recebem permissão para matar essas pessoas."
+          },
+          {
+            "id": "P12",
+            "text": "Recebem permissão para atormentá-las por cinco meses.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Recebem permissão para atormentá-las por cinco meses."
+          },
+          {
+            "id": "P13",
+            "text": "O tormento é comparado ao de um escorpião quando fere alguém.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O tormento é comparado ao de um escorpião quando fere alguém."
+          },
+          {
+            "id": "P14",
+            "text": "As pessoas buscarão a morte sem encontrá-la.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As pessoas buscarão a morte sem encontrá-la."
+          },
+          {
+            "id": "P15",
+            "text": "O aspecto dos gafanhotos é comparado a cavalos preparados para a batalha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O aspecto dos gafanhotos é comparado a cavalos preparados para a batalha."
+          },
+          {
+            "id": "P16",
+            "text": "Sobre a cabeça há algo semelhante a coroas que parecem de ouro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sobre a cabeça há algo semelhante a coroas que parecem de ouro."
+          },
+          {
+            "id": "P17",
+            "text": "Seus rostos são comparados a rostos humanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seus rostos são comparados a rostos humanos."
+          },
+          {
+            "id": "P18",
+            "text": "Os cabelos são comparados a cabelos de mulher e os dentes aos de leão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os cabelos são comparados a cabelos de mulher e os dentes aos de leão."
+          },
+          {
+            "id": "P19",
+            "text": "Suas couraças parecem de ferro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas couraças parecem de ferro."
+          },
+          {
+            "id": "P20",
+            "text": "O ruído das asas é comparado ao de muitos carros e cavalos em batalha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ruído das asas é comparado ao de muitos carros e cavalos em batalha."
+          },
+          {
+            "id": "P21",
+            "text": "As caudas, semelhantes às de escorpiões, têm ferrões e poder de causar dano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As caudas, semelhantes às de escorpiões, têm ferrões e poder de causar dano."
+          },
+          {
+            "id": "P22",
+            "text": "O rei sobre eles é o anjo do abismo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei sobre eles é o anjo do abismo."
+          },
+          {
+            "id": "P23",
+            "text": "Seu nome é dado como Abadom em hebraico e Apoliom em grego.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu nome é dado como Abadom em hebraico e Apoliom em grego."
+          },
+          {
+            "id": "P24",
+            "text": "Com o fim desta cena, o primeiro ai é declarado passado e outros dois ainda virão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com o fim desta cena, o primeiro ai é declarado passado e outros dois ainda virão."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A quinta trombeta abre o poço do abismo; da fumaça saem gafanhotos com limites explícitos de alvo, ação e duração, descrições comparativas e um rei nomeado no próprio texto.",
+        "hinge": "A estrela, o abismo, os gafanhotos e seu rei ficam restritos às descrições, permissões, comparações e nomes internos de Apocalipse 9, sem identidade histórica ou alegórica acrescentada.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "9.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-sexta-trombeta-eufrates": {
+      "id": "nt2-apocalipse-sexta-trombeta-eufrates",
+      "kind": "canonical-case",
+      "title": "Sexta trombeta: quatro anjos e a cavalaria",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 9.13-21",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "9.13-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão da sexta trombeta, que ordem é dada, como a cavalaria é descrita e qual é a reação dos sobreviventes?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A ausência de arrependimento encerra a cena e contrasta a sobrevivência aos flagelos com a continuidade das obras e condutas enumeradas.",
+      "editorial": {
+        "hinge": "Hora, dia, mês e ano são apenas a formulação interna da preparação dos quatro anjos; não se convertem em data, cronologia ou correspondência histórica."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como reage o restante da humanidade",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Não se arrepende das obras e condutas enumeradas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Abandona imediatamente todos os ídolos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Veste roupas brancas diante do trono"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sela o que os sete trovões disseram"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Não se arrepende das obras e condutas enumeradas",
+          "enderecoNAA": "Apocalipse 9.20-21",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.20-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que ordem sai do altar de ouro",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Soltar os quatro anjos amarrados junto ao grande rio Eufrates"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Fechar o poço do abismo por cinco meses"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Selar as palavras dos sete trovões"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Medir o santuário e os adoradores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Soltar os quatro anjos amarrados junto ao grande rio Eufrates",
+          "enderecoNAA": "Apocalipse 9.13-14",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.13-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Para que os quatro anjos estavam preparados",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Para a hora, o dia, o mês e o ano indicados na visão"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Para um calendário calculado pelos leitores"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Para tocar as quatro primeiras trombetas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Para guardar os quatro ventos para sempre"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Para a hora, o dia, o mês e o ano indicados na visão",
+          "enderecoNAA": "Apocalipse 9.15",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que sai da boca dos cavalos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fogo, fumaça e enxofre"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Água, sangue e granizo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Incenso, vozes e relâmpagos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Mel, amargor e profecia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fogo, fumaça e enxofre",
+          "enderecoNAA": "Apocalipse 9.17-18",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "9.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O sexto anjo toca a trombeta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sexto anjo toca a trombeta."
+          },
+          {
+            "id": "P02",
+            "text": "Uma voz vem das quatro pontas do altar de ouro diante de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz vem das quatro pontas do altar de ouro diante de Deus."
+          },
+          {
+            "id": "P03",
+            "text": "A voz ordena ao anjo da trombeta que solte quatro anjos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz ordena ao anjo da trombeta que solte quatro anjos."
+          },
+          {
+            "id": "P04",
+            "text": "Os quatro estavam amarrados junto ao grande rio Eufrates.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os quatro estavam amarrados junto ao grande rio Eufrates."
+          },
+          {
+            "id": "P05",
+            "text": "Eles são soltos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles são soltos."
+          },
+          {
+            "id": "P06",
+            "text": "Estavam preparados para a hora, o dia, o mês e o ano mencionados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Estavam preparados para a hora, o dia, o mês e o ano mencionados."
+          },
+          {
+            "id": "P07",
+            "text": "A finalidade declarada é matar a terça parte da humanidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade declarada é matar a terça parte da humanidade."
+          },
+          {
+            "id": "P08",
+            "text": "O vidente ouve o número dos exércitos da cavalaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente ouve o número dos exércitos da cavalaria."
+          },
+          {
+            "id": "P09",
+            "text": "Esse número é expresso como vinte mil vezes dez milhares.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse número é expresso como vinte mil vezes dez milhares."
+          },
+          {
+            "id": "P10",
+            "text": "Na visão, cavaleiros usam couraças cor de fogo, de jacinto e de enxofre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na visão, cavaleiros usam couraças cor de fogo, de jacinto e de enxofre."
+          },
+          {
+            "id": "P11",
+            "text": "As cabeças dos cavalos são comparadas a cabeças de leão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As cabeças dos cavalos são comparadas a cabeças de leão."
+          },
+          {
+            "id": "P12",
+            "text": "Da boca dos cavalos saem fogo, fumaça e enxofre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Da boca dos cavalos saem fogo, fumaça e enxofre."
+          },
+          {
+            "id": "P13",
+            "text": "Esses três são chamados flagelos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esses três são chamados flagelos."
+          },
+          {
+            "id": "P14",
+            "text": "Por eles morre a terça parte da humanidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por eles morre a terça parte da humanidade."
+          },
+          {
+            "id": "P15",
+            "text": "A força dos cavalos está na boca e na cauda.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A força dos cavalos está na boca e na cauda."
+          },
+          {
+            "id": "P16",
+            "text": "As caudas são semelhantes a serpentes, têm cabeças e causam dano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As caudas são semelhantes a serpentes, têm cabeças e causam dano."
+          },
+          {
+            "id": "P17",
+            "text": "O restante da humanidade não é morto por esses flagelos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O restante da humanidade não é morto por esses flagelos."
+          },
+          {
+            "id": "P18",
+            "text": "Mesmo assim, não se arrepende das obras de suas mãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo assim, não se arrepende das obras de suas mãos."
+          },
+          {
+            "id": "P19",
+            "text": "Continua a adoração de demônios e de ídolos feitos de diferentes materiais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Continua a adoração de demônios e de ídolos feitos de diferentes materiais."
+          },
+          {
+            "id": "P20",
+            "text": "Os ídolos enumerados não podem ver, ouvir nem andar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ídolos enumerados não podem ver, ouvir nem andar."
+          },
+          {
+            "id": "P21",
+            "text": "Também não há arrependimento dos homicídios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também não há arrependimento dos homicídios."
+          },
+          {
+            "id": "P22",
+            "text": "A lista final ainda menciona feitiçarias, imoralidade sexual e furtos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 9",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "9.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista final ainda menciona feitiçarias, imoralidade sexual e furtos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "A sexta trombeta é seguida pela ordem de soltar quatro anjos junto ao Eufrates, pela descrição de uma numerosa cavalaria e de três flagelos, e pela afirmação de que os sobreviventes não se arrependem.",
+        "hinge": "Hora, dia, mês e ano são apenas a formulação interna da preparação dos quatro anjos; não se convertem em data, cronologia ou correspondência histórica.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "9.13-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-apocalipse-anjo-livrinho": {
+      "id": "nt2-apocalipse-anjo-livrinho",
+      "kind": "canonical-case",
+      "title": "Anjo forte, sete trovões e o livrinho",
+      "canon": {
+        "book": "Apocalipse",
+        "referenceNAA": "Apocalipse 10.1-11",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "10.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo a visão de Apocalipse 10, como o anjo forte e o livrinho são apresentados, que ordens o vidente recebe e o que experimenta?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "Comer o livrinho conduz diretamente à experiência doce e amarga e à ordem final de profetizar novamente, articulando ações e sequência do recorte.",
+      "editorial": {
+        "hinge": "Anjo, livrinho, posições, vozes e sensações permanecem descrições e ações internas; o conteúdo selado não é reconstruído e nenhuma identidade histórica, tecnologia ou alegoria é proposta."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que acontece ao comer o livrinho",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "É doce na boca e amargo no estômago, antes da ordem de profetizar novamente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "É amargo na boca e desaparece antes de ser engolido"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Torna-se fogo, fumaça e enxofre"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Produz silêncio no céu durante quase meia hora"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "É doce na boca e amargo no estômago, antes da ordem de profetizar novamente",
+          "enderecoNAA": "Apocalipse 10.9-11",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "10.9-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como o anjo forte aparece",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Envolto em nuvem, com arco-íris sobre a cabeça, rosto como sol e pernas como colunas de fogo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Vestido de branco e segurando ramos de palmeira"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Coberto de couraça de ferro e com cauda de escorpião"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sentado num cavalo pálido e seguido pelo abismo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Envolto em nuvem, com arco-íris sobre a cabeça, rosto como sol e pernas como colunas de fogo",
+          "enderecoNAA": "Apocalipse 10.1",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "10.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o vidente deve fazer com os sete trovões",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Selar o que disseram e não escrever"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Anotar as palavras e enviá-las às sete igrejas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Explicar suas vozes por identidades históricas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Usá-las para calcular quando tudo ocorreria"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Selar o que disseram e não escrever",
+          "enderecoNAA": "Apocalipse 10.4",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "10.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que é anunciado sobre a demora e a sétima trombeta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Não haveria mais demora; nos dias da sétima trombeta se cumpriria o mistério anunciado"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Haveria cinco meses de silêncio antes da primeira trombeta"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os quatro anjos permaneceriam presos para sempre"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "As trombetas seriam substituídas por sete selos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Não haveria mais demora; nos dias da sétima trombeta se cumpriria o mistério anunciado",
+          "enderecoNAA": "Apocalipse 10.6-7",
+          "answerReferences": [
+            {
+              "book": "Apocalipse",
+              "passage": "10.6-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O vidente observa outro anjo forte descendo do céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente observa outro anjo forte descendo do céu."
+          },
+          {
+            "id": "P02",
+            "text": "O anjo está envolto em uma nuvem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo está envolto em uma nuvem."
+          },
+          {
+            "id": "P03",
+            "text": "Há um arco-íris por cima de sua cabeça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Há um arco-íris por cima de sua cabeça."
+          },
+          {
+            "id": "P04",
+            "text": "Seu rosto é comparado ao sol.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu rosto é comparado ao sol."
+          },
+          {
+            "id": "P05",
+            "text": "Suas pernas são comparadas a colunas de fogo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas pernas são comparadas a colunas de fogo."
+          },
+          {
+            "id": "P06",
+            "text": "Ele segura um livrinho aberto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele segura um livrinho aberto."
+          },
+          {
+            "id": "P07",
+            "text": "Coloca o pé direito sobre o mar e o esquerdo sobre a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Coloca o pé direito sobre o mar e o esquerdo sobre a terra."
+          },
+          {
+            "id": "P08",
+            "text": "Clama com voz forte comparada ao rugido de um leão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Clama com voz forte comparada ao rugido de um leão."
+          },
+          {
+            "id": "P09",
+            "text": "Ao clamor, os sete trovões fazem ouvir suas próprias vozes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao clamor, os sete trovões fazem ouvir suas próprias vozes."
+          },
+          {
+            "id": "P10",
+            "text": "O vidente se prepara para escrever o que os trovões disseram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente se prepara para escrever o que os trovões disseram."
+          },
+          {
+            "id": "P11",
+            "text": "Uma voz do céu manda selar essas palavras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma voz do céu manda selar essas palavras."
+          },
+          {
+            "id": "P12",
+            "text": "A mesma voz proíbe que sejam escritas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma voz proíbe que sejam escritas."
+          },
+          {
+            "id": "P13",
+            "text": "O anjo sobre mar e terra levanta a mão direita para o céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo sobre mar e terra levanta a mão direita para o céu."
+          },
+          {
+            "id": "P14",
+            "text": "Ele jura por aquele que vive para todo o sempre e criou céu, terra, mar e o que neles existe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele jura por aquele que vive para todo o sempre e criou céu, terra, mar e o que neles existe."
+          },
+          {
+            "id": "P15",
+            "text": "O anúncio declara que já não haverá demora.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio declara que já não haverá demora."
+          },
+          {
+            "id": "P16",
+            "text": "Nos dias da voz do sétimo anjo, quando ele tocar, o mistério de Deus se cumprirá.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nos dias da voz do sétimo anjo, quando ele tocar, o mistério de Deus se cumprirá."
+          },
+          {
+            "id": "P17",
+            "text": "Esse mistério é relacionado às boas-novas anunciadas aos servos de Deus, os profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse mistério é relacionado às boas-novas anunciadas aos servos de Deus, os profetas."
+          },
+          {
+            "id": "P18",
+            "text": "A voz do céu manda o vidente tomar o livrinho aberto da mão do anjo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz do céu manda o vidente tomar o livrinho aberto da mão do anjo."
+          },
+          {
+            "id": "P19",
+            "text": "O vidente pede o livrinho ao anjo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente pede o livrinho ao anjo."
+          },
+          {
+            "id": "P20",
+            "text": "O anjo ordena que ele o pegue e coma.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo ordena que ele o pegue e coma."
+          },
+          {
+            "id": "P21",
+            "text": "O anjo avisa que o livrinho será amargo no estômago e doce como mel na boca.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo avisa que o livrinho será amargo no estômago e doce como mel na boca."
+          },
+          {
+            "id": "P22",
+            "text": "O vidente o toma e come.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vidente o toma e come."
+          },
+          {
+            "id": "P23",
+            "text": "Na boca, o livrinho é doce como mel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na boca, o livrinho é doce como mel."
+          },
+          {
+            "id": "P24",
+            "text": "Depois de comê-lo, seu estômago fica amargo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de comê-lo, seu estômago fica amargo."
+          },
+          {
+            "id": "P25",
+            "text": "Ao final, dizem que ele deve profetizar novamente a respeito de muitos povos, nações, línguas e reis.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma descrição ou ação interna da visão de Apocalipse 10",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Apocalipse",
+                "passage": "10.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao final, dizem que ele deve profetizar novamente a respeito de muitos povos, nações, línguas e reis."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Um anjo forte desce com um livrinho aberto; o vidente deve manter seladas as vozes dos sete trovões, ouve o anúncio ligado à sétima trombeta, come o livro doce e amargo e recebe ordem de profetizar novamente.",
+        "hinge": "Anjo, livrinho, posições, vozes e sensações permanecem descrições e ações internas; o conteúdo selado não é reconstruído e nenhuma identidade histórica, tecnologia ou alegoria é proposta.",
+        "references": [
+          {
+            "book": "Apocalipse",
+            "passage": "10.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -10,8 +10,8 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 188);
-assert.equal(catalog.summary.max12Cases, 67);
+assert.equal(catalog.summary.editoriallyEligibleCases, 192);
+assert.equal(catalog.summary.max12Cases, 69);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
@@ -270,6 +270,18 @@ for (const [id, maxPlayers] of Object.entries(auditoriaApocalipse060)) {
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^7\./.test(ref.passage))), `${id} permanece limitado a Apocalipse 7`);
   assert.match(catalog.byId[id].reveal.hinge, /não (?:decide|é igualada)/, `${id} não impõe literalidade nem identidade externa`);
+}
+const auditoriaApocalipse061 = {
+  "nt2-apocalipse-setimo-selo-quatro-trombetas": [12, /^(?:8\.)/],
+  "nt2-apocalipse-quinta-trombeta-gafanhotos": [11, /^(?:9\.(?:[1-9]|1[0-2]))(?:\D|$)/],
+  "nt2-apocalipse-sexta-trombeta-eufrates": [10, /^(?:9\.(?:1[3-9]|2[01]))(?:\D|$)/],
+  "nt2-apocalipse-anjo-livrinho": [12, /^(?:10\.)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse061)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 8–10`);
+  assert.match(catalog.byId[id].reveal.hinge, /(?:identidade histórica|calendário|cronologia|conteúdo selado)/, `${id} explicita o limite contra complementos externos`);
 }
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];

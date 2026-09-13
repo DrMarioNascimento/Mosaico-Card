@@ -30,7 +30,7 @@
 | 2 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
 | 3 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | pauta factual 2–6 |
 | Judas | Auditoria/autoria encerrada — checkpoint 057 | 1 carta em 3 blocos | 3 autorados | alusões não completadas |
-| Apocalipse | Em autoria — checkpoint 058 | capítulos 1–22; Ap 2 autorado por carta | 12 autorados | Ap 3 e demais recortes pendentes nesta sequência; sem identidades externas |
+| Apocalipse | Em autoria — checkpoint 061 | capítulos 1–22; Ap 2–10 auditados individualmente | 21 autorados | Ap 11–22 pendentes nesta sequência, incluída auditoria das pautas existentes; sem identidades externas |
 
 ## Critério de atualização
 
@@ -142,3 +142,9 @@ Descrições, ordens, advertências, conselhos e promessas permanecem internos �
 As quatro páginas NAA retornaram HTTP 200 em 13/09/2026. A leitura e comparação fecharam Ap 4–5 em `nt2-apocalipse-trono-cordeiro` e Ap 6 em `nt2-apocalipse-selos`, sem duplicação. Ap 7.1-8 e 7.9-17 acrescentaram duas pautas e 36 pistas, levando o inventário de 186/3.466 para **188 pautas, 752 campos e 3.502 pistas**, com preservação integral dos 186 objetos anteriores.
 
 Os cento e quarenta e quatro mil, as tribos e a grande multidão permanecem descrições internas; não há decisão de literalidade, identidade externa ou harmonização com Ap 14. **Ap 8–22 segue pendente nos recortes ainda não auditados individualmente, e a auditoria global dos 27 livros fica para depois; o banco não está completo.**
+
+## Checkpoint 061 — auditoria/autoria de Apocalipse 8–10
+
+As páginas NAA de Ap 8, 9 e 10 retornaram HTTP 200 em 13/09/2026 e foram lidas antes da autoria. Quatro pautas e 96 pistas foram acrescentadas: Ap 8.1-13, Ap 9.1-12, Ap 9.13-21 e Ap 10.1-11. O inventário passa de 188/3.502 para **192 pautas, 768 campos e 3.598 pistas**, com preservação integral dos 188 objetos anteriores.
+
+As imagens foram mantidas como descrições, ações, comparações, identificações e sequências internas. Nenhuma identidade histórica, tecnologia moderna, alegoria ou calendário foi importado; o que os sete trovões disseram permanece selado. **Ap 11–22 segue pendente, incluída a auditoria individual das pautas existentes de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros fica para depois e o banco não está completo.**

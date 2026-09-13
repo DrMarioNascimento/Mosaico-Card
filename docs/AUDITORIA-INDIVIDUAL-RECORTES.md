@@ -97,7 +97,7 @@ Esses seis resultados corrigem as justificativas genéricas anteriores. Nenhuma 
 | Judas | remetente/destinatários; exemplos citados; falsos mestres; Miguel; Enoque; exortação | Candidato temático; alusões limitadas ao que Judas declara. |
 | Ap 2–3 | sete destinatários; autorretratos; avaliações; ordens; promessas | Candidatos por carta ou tema, sem identidades históricas externas. |
 | Ap 7; 14 | selados/tribos; multidão; Cordeiro; 144 mil; cântico; colheitas | Candidatos separados; não se presume que grupos de capítulos diferentes sejam idênticos. |
-| Ap 8–10 | selo; incenso; sete trombetas; águia; Abadom/Apoliom; livrinho | Candidatos por visão, sem cronologia externa. |
+| Ap 8–10 | selo; incenso; quatro primeiras trombetas; quinta e sexta trombetas; águia; Abadom/Apoliom; livrinho | Quatro pautas autoradas no checkpoint 061, sem cronologia ou identidades externas. |
 | Ap 11 | templo; duas testemunhas; 1.260 dias; besta; ressurreição; sétima trombeta | Candidato factual próprio; testemunhas permanecem sem identidade externa. |
 | Ap 17–18 | mulher/besta; explicações internas; águas; reis; grande cidade; lamento | Candidatos por bloco; nenhuma cidade/instituição histórica é escolhida. |
 | Ap 19 | multidão; bodas; cavaleiro; nomes/títulos; exércitos; aves | Candidatos separados, somente com identificações internas. |
@@ -385,3 +385,14 @@ A comparação não encontrou cobertura anterior desses recortes, e as 183 pauta
 | Ap 7.9-17 | NAA, HTTP 200; multidão, adoração, resposta do ancião, serviço e cuidado tratados somente pela identificação interna. | `nt2-apocalipse-grande-multidao-trono`, 20 pistas, capacidade 2–9. |
 
 Nenhuma literalidade foi escolhida para os cento e quarenta e quatro mil; os grupos de Ap 7 não foram igualados entre si nem ao grupo de Ap 14. Não surgiram identidades externas, calendário ou ambiguidade real nova. Ap 8–22 continua pendente nos recortes ainda sem auditoria individual, preservadas as pautas já existentes; o banco não está completo.
+
+## Checkpoint 061 — decisões individuais em Apocalipse 8–10
+
+| Recorte | Decisão | Motivo |
+| --- | --- | --- |
+| Ap 8.1-13 | Autorado como `nt2-apocalipse-setimo-selo-quatro-trombetas`, 25 pistas. | Silêncio, incensário, primeira série de quatro trombetas e anúncio dos ais formam uma sequência explícita; os efeitos permanecem descrições internas. |
+| Ap 9.1-12 | Autorado como `nt2-apocalipse-quinta-trombeta-gafanhotos`, 24 pistas. | A quinta trombeta tem origem, alvo, limites, duração, comparações e rei próprios, sem identificar externamente estrela, abismo ou gafanhotos. |
+| Ap 9.13-21 | Autorado como `nt2-apocalipse-sexta-trombeta-eufrates`, 22 pistas. | Ordem, quatro anjos, cavalaria, flagelos e reação final sustentam um bloco separado; hora, dia, mês e ano não viraram calendário. |
+| Ap 10.1-11 | Autorado como `nt2-apocalipse-anjo-livrinho`, 25 pistas. | Ações do anjo e do vidente, ordem sobre os trovões e experiência com o livrinho sustentam a sequência; o conteúdo selado não foi reconstruído. |
+
+O lote encerra com quatro pautas, sem forçar uma quinta. Os 188 objetos e as 3.502 pistas anteriores foram preservados integralmente, e não surgiu ambiguidade real nova. Ap 11–22, inclusive a auditoria das pautas existentes de Ap 12, 13, 16, 20 e 21–22, permanece para depois; a auditoria global dos 27 livros também continua pendente e o banco não está completo.
