@@ -10,8 +10,20 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 280);
+assert.equal(catalog.summary.editoriallyEligibleCases, 282);
 assert.equal(catalog.summary.max12Cases, 96);
+const mateus28Checkpoint088 = {
+  "nt2-mateus-guarda-dinheiro-versao": 8,
+  "nt2-mateus-onze-monte-comissao": 8
+};
+for (const [id, maxPlayers] of Object.entries(mateus28Checkpoint088)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.28.NAA"))), `${id} mantém a proveniência exclusiva de Mt 28`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
 const mateus27Checkpoint087 = {
   "nt2-mateus-judas-remorso-campo-sangue": 10,
   "nt2-mateus-soldados-manto-coroa": 7,

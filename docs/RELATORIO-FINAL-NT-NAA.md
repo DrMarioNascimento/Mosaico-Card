@@ -294,3 +294,9 @@ Os 251 objetos anteriores serializaram identicamente e permaneceram na mesma ord
 Somente a página NAA Bible.com 1840 de Mateus 27 foi obtida (HTTP 200; 379.709 bytes), lida integralmente e comparada aos **277 objetos/5.372 pistas**. Pilatos/Barrabás, crucificação e sepultamento em 27.57-61 permaneceram cobertos por três pautas existentes, sem alteração ou duplicação. Três pautas sustentadas foram anexadas: Judas/campo (21 pistas; capacidade 10), zombaria dos soldados (16; 7) e guarda do túmulo (15; 7).
 
 Os 277 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resultado é **280 pautas/1.120 campos/5.424 pistas**, todas elegíveis. Alegações e citações permanecem atributivas, sem harmonização ou AT externo. Mt 27 tem decisões por unidade no inventário atual; **Mt 28 permanece posterior por limite**, e Mt 17.21, 23.14, dúvidas de 1Co e decisões anteriores foram preservados. Testes não declaram o banco completo.
+
+## Incremento do checkpoint 088 — inventário individual de Mateus 28
+
+Somente a página NAA Bible.com 1840 de Mateus 28 foi obtida (HTTP 200; 321.847 bytes), lida integralmente e comparada aos **280 objetos/5.424 pistas**. Mt 28.1-10 permaneceu coberto sem alteração; duas pautas sustentadas foram anexadas para a versão paga aos guardas (17 pistas; capacidade 8) e os onze no monte/comissão (18; 8).
+
+Os 280 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resultado é **282 pautas/1.128 campos/5.459 pistas**, todas elegíveis. A ficha possui decisão para todos os recortes enumerados de Mateus, exceto as lacunas textuais específicas Mt 17.21 e 23.14, que não são exclusões definitivas. O próximo lote independente planejado é Mc 1–2, sem autoria de Marcos agora. Dúvidas de 1Co e decisões anteriores permanecem preservadas; testes não declaram o banco completo.

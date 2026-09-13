@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-087-mateus-27",
+  "catalogVersion": "checkpoint-088-mateus-28",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 280,
-    "fields": 1120,
-    "editoriallyEligibleCases": 280,
-    "playableCases": 280,
+    "cases": 282,
+    "fields": 1128,
+    "editoriallyEligibleCases": 282,
+    "playableCases": 282,
     "max12Cases": 96
   },
   "order": [
@@ -296,7 +296,9 @@
     "nt2-mateus-sinedrio-negacoes-pedro",
     "nt2-mateus-judas-remorso-campo-sangue",
     "nt2-mateus-soldados-manto-coroa",
-    "nt2-mateus-guarda-tumulo"
+    "nt2-mateus-guarda-tumulo",
+    "nt2-mateus-guarda-dinheiro-versao",
+    "nt2-mateus-onze-monte-comissao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -194505,6 +194507,1297 @@
             "passage": "27.62-66",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-guarda-dinheiro-versao": {
+      "id": "nt2-mateus-guarda-dinheiro-versao",
+      "kind": "canonical-case",
+      "title": "Guarda, dinheiro e versão divulgada",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 28.11-15",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.11-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem relatou os acontecimentos, que instrução os líderes deram aos soldados e qual foi o resultado?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O terceiro campo preserva como instrução dos líderes a versão distintiva da unidade; os demais situam relato, pagamento e divulgação sem validar a alegação.",
+      "editorial": {
+        "hinge": "Roubo, sono e chegada noturna permanecem conteúdo da versão mandada pelos líderes, não fatos assumidos pela pauta; nenhuma explicação externa sobre grupos, autoridades ou cronologia é acrescentada."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Versão que os soldados foram instruídos a divulgar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Que os discípulos roubaram o corpo durante a noite enquanto eles dormiam"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Que José mudou o corpo de túmulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Que as mulheres removeram a pedra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Que o governador levou o corpo ao Pretório"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Que os discípulos roubaram o corpo durante a noite enquanto eles dormiam",
+          "enderecoNAA": "Mateus 28.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem foi à cidade contar o que havia acontecido",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Alguns da guarda"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "As duas mulheres"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os onze discípulos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "José de Arimateia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Alguns da guarda",
+          "enderecoNAA": "Mateus 28.11",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "A quem os guardas contaram os acontecimentos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Aos principais sacerdotes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ao governador diretamente"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Aos discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "À multidão da Galileia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Aos principais sacerdotes",
+          "enderecoNAA": "Mateus 28.11",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que os soldados fizeram após receber o dinheiro",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Agiram conforme a instrução recebida"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Recusaram o dinheiro e partiram"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foram procurar os discípulos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Contaram outra versão ao governador"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Agiram conforme a instrução recebida",
+          "enderecoNAA": "Mateus 28.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Enquanto as mulheres iam, alguns integrantes da guarda foram à cidade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Enquanto as mulheres iam, alguns integrantes da guarda foram à cidade."
+          },
+          {
+            "id": "P02",
+            "text": "Eles contaram tudo o que havia acontecido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles contaram tudo o que havia acontecido."
+          },
+          {
+            "id": "P03",
+            "text": "O relato foi feito aos principais sacerdotes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O relato foi feito aos principais sacerdotes."
+          },
+          {
+            "id": "P04",
+            "text": "Os principais sacerdotes reuniram-se em conselho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os principais sacerdotes reuniram-se em conselho."
+          },
+          {
+            "id": "P05",
+            "text": "Os anciãos participaram do conselho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anciãos participaram do conselho."
+          },
+          {
+            "id": "P06",
+            "text": "Os líderes deram aos soldados uma grande soma de dinheiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes deram aos soldados uma grande soma de dinheiro."
+          },
+          {
+            "id": "P07",
+            "text": "Os soldados receberam uma instrução sobre o que dizer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados receberam uma instrução sobre o que dizer."
+          },
+          {
+            "id": "P08",
+            "text": "A versão instruída dizia que os discípulos vieram durante a noite.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A versão instruída dizia que os discípulos vieram durante a noite."
+          },
+          {
+            "id": "P09",
+            "text": "Ela dizia que os guardas estavam dormindo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela dizia que os guardas estavam dormindo."
+          },
+          {
+            "id": "P10",
+            "text": "Também dizia que os discípulos roubaram o corpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também dizia que os discípulos roubaram o corpo."
+          },
+          {
+            "id": "P11",
+            "text": "Os líderes consideraram a possibilidade de o relato chegar ao governador.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes consideraram a possibilidade de o relato chegar ao governador."
+          },
+          {
+            "id": "P12",
+            "text": "Eles disseram que convenceriam o governador.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles disseram que convenceriam o governador."
+          },
+          {
+            "id": "P13",
+            "text": "Prometeram livrar os soldados de maiores preocupações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Prometeram livrar os soldados de maiores preocupações."
+          },
+          {
+            "id": "P14",
+            "text": "Os soldados receberam o dinheiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados receberam o dinheiro."
+          },
+          {
+            "id": "P15",
+            "text": "Eles fizeram como haviam sido instruídos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles fizeram como haviam sido instruídos."
+          },
+          {
+            "id": "P16",
+            "text": "Mateus afirma que essa versão se espalhou entre os judeus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus afirma que essa versão se espalhou entre os judeus."
+          },
+          {
+            "id": "P17",
+            "text": "O texto situa essa circulação até o dia de sua formulação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto situa essa circulação até o dia de sua formulação."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 28.11-15 relata que alguns guardas informaram os principais sacerdotes, receberam dinheiro após o conselho com os anciãos e divulgaram a versão que lhes foi instruída.",
+        "hinge": "Roubo, sono e chegada noturna permanecem conteúdo da versão mandada pelos líderes, não fatos assumidos pela pauta; nenhuma explicação externa sobre grupos, autoridades ou cronologia é acrescentada.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.11-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-onze-monte-comissao": {
+      "id": "nt2-mateus-onze-monte-comissao",
+      "kind": "canonical-case",
+      "title": "Os onze no monte e a comissão",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 28.16-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.16-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde os onze encontraram Jesus, que autoridade ele declarou e quais ações ordenou antes de sua promessa final?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O segundo campo fixa a declaração que fundamenta as ordens seguintes no próprio discurso; os demais identificam destino, ações e promessa sem construir doutrina externa.",
+      "editorial": {
+        "hinge": "Autoridade, fórmula batismal, ensino e promessa permanecem falas atribuídas a Jesus na conclusão de Mateus; referências cruzadas, formulações institucionais e explicações externas não são importadas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Autoridade que Jesus declarou ter recebido",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Toda a autoridade no céu e na terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Autoridade somente sobre a Galileia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Autoridade apenas sobre os onze"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma escolta à sua disposição"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Toda a autoridade no céu e na terra",
+          "enderecoNAA": "Mateus 28.18",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino dos onze discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A Galileia, no monte designado por Jesus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jerusalém, no templo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Betânia, na casa de Simão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Arimateia, junto ao túmulo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A Galileia, no monte designado por Jesus",
+          "enderecoNAA": "Mateus 28.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação ordenada em relação a todas as nações",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Fazer discípulos e batizá-los em nome do Pai, do Filho e do Espírito Santo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Reunir soldados e selar o túmulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Cobrar impostos e comprar um campo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Escolher outro governador para a cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Fazer discípulos e batizá-los em nome do Pai, do Filho e do Espírito Santo",
+          "enderecoNAA": "Mateus 28.19",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Promessa final feita aos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Estar com eles todos os dias até o fim dos tempos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Encontrá-los somente naquela tarde"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Mandar uma escolta até a Galileia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Voltar ao Pretório no terceiro dia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Estar com eles todos os dias até o fim dos tempos",
+          "enderecoNAA": "Mateus 28.20",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "28.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O grupo mencionado era formado pelos onze discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O grupo mencionado era formado pelos onze discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Eles partiram para a Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles partiram para a Galileia."
+          },
+          {
+            "id": "P03",
+            "text": "O destino específico era um monte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O destino específico era um monte."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus havia designado esse monte aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus havia designado esse monte aos discípulos."
+          },
+          {
+            "id": "P05",
+            "text": "Ao verem Jesus, os discípulos o adoraram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao verem Jesus, os discípulos o adoraram."
+          },
+          {
+            "id": "P06",
+            "text": "Mateus registra que alguns duvidaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus registra que alguns duvidaram."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus aproximou-se deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus aproximou-se deles."
+          },
+          {
+            "id": "P08",
+            "text": "Ele declarou que autoridade lhe havia sido dada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou que autoridade lhe havia sido dada."
+          },
+          {
+            "id": "P09",
+            "text": "A autoridade declarada abrangia o céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A autoridade declarada abrangia o céu."
+          },
+          {
+            "id": "P10",
+            "text": "A mesma declaração abrangia a terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma declaração abrangia a terra."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus ordenou que fossem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que fossem."
+          },
+          {
+            "id": "P12",
+            "text": "A ordem incluía fazer discípulos de todas as nações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem incluía fazer discípulos de todas as nações."
+          },
+          {
+            "id": "P13",
+            "text": "A ordem incluía batizar esses discípulos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem incluía batizar esses discípulos."
+          },
+          {
+            "id": "P14",
+            "text": "O batismo foi formulado em nome do Pai, do Filho e do Espírito Santo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O batismo foi formulado em nome do Pai, do Filho e do Espírito Santo."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus ordenou ensinar os discípulos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou ensinar os discípulos."
+          },
+          {
+            "id": "P16",
+            "text": "O ensino deveria levá-los a guardar tudo o que ele havia ordenado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ensino deveria levá-los a guardar tudo o que ele havia ordenado."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus prometeu estar com os discípulos todos os dias.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus prometeu estar com os discípulos todos os dias."
+          },
+          {
+            "id": "P18",
+            "text": "A promessa foi situada até o fim dos tempos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "28.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa foi situada até o fim dos tempos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 28.16-20 leva os onze à Galileia, registra adoração e dúvida, e atribui a Jesus uma declaração de autoridade, ordens de fazer discípulos, batizar e ensinar, além da promessa de presença.",
+        "hinge": "Autoridade, fórmula batismal, ensino e promessa permanecem falas atribuídas a Jesus na conclusão de Mateus; referências cruzadas, formulações institucionais e explicações externas não são importadas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "28.16-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.28.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
