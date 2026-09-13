@@ -24,8 +24,8 @@
 | Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
 | Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado/elegível | pauta temática liberada; AT não importado |
 | Tiago | Analisado — decisões por recorte | capítulos 1–5 | 1 autorado | exemplos/metáforas não inflados |
-| 1 Pedro | Em autoria — checkpoint 053 | capítulos 1–5 | 6 autorados | 1Pe 3.19 e 4.6 fora; capítulo 5 pendente; 5.13 interpretado sem geografia |
-| 2 Pedro | Analisado — decisões por recorte | capítulos 1–3 | 0 | alusões não completadas |
+| 1 Pedro | Autoria autorizada encerrada — checkpoint 054 | capítulos 1–5 | 7 autorados | 1Pe 3.19 e 4.6 fora; 5.13 comunitário, sem geografia nem equivalência lexical |
+| 2 Pedro | Em autoria — checkpoint 054 | capítulos 1–3 | 1 autorado | somente 1.1-15 nesta rodada; alusões não completadas |
 | 1 João | Analisado — decisões por bloco | capítulos 1–5 | 0 | 1Jo 5.16-17 mantido sem identificar o pecado |
 | 2 João | Analisado — carta integral | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
 | 3 João | Analisado — carta integral reavaliada | 1 carta | 1 autorado | pauta factual 2–6 |
@@ -97,3 +97,12 @@ As páginas NAA de 1Pe 1, 2 e 3 foram obtidas com HTTP 200 em 13/09/2026 e os re
 A base de 163 pautas e 2.979 pistas foi preservada mecanicamente. A página NAA de 1Pe 4 retornou HTTP 200 em 13/09/2026 e a autoria ficou restrita a 4.1-5, 4.7-11 e 4.12-19. Esses três recortes independentes acrescentaram 50 pistas, levando o inventário a **166 pautas, 664 campos e 3.029 pistas**. A questão de 4.6 não aparece em pergunta, campo, alternativa, gabarito, pista ou referência.
 
 **1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** A interpretação comunitária de 1Pe 5.13 segue preservada, sem geografia nem alegação lexical. O banco não está completo.
+
+
+## Checkpoint 054 — 1 Pedro 5 e 2 Pedro 1.1-15
+
+As páginas NAA de 1Pe 5 e 2Pe 1 retornaram HTTP 200 em 13/09/2026; a leitura e autoria ficaram limitadas a 1Pe 5 e 2Pe 1.1-15. Duas pautas, sem forçar a terceira permitida, acrescentaram 61 pistas: 32 em `nt2-1pedro-pastoreio-humildade-firmeza-saudacoes` e 29 em `nt2-2pedro-fe-virtudes-memoria`. O inventário passa de 166/3.029 para **168 pautas, 672 campos e 3.090 pistas**.
+
+Os 166 objetos anteriores permaneceram mecanicamente idênticos. Em 1Pe 5.13, a remetente da saudação é tratada como Igreja/comunidade cristã por interpretação aprovada, sem geografia e sem equivalência lexical entre Babilônia e Igreja. As exclusões de 1Pe 3.19 e 4.6 continuam intactas.
+
+**João, Judas, Apocalipse e a auditoria global permanecem pendentes; o banco não está completo.**

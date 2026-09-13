@@ -161,3 +161,10 @@ Foram incorporadas três pautas e 80 pistas, chegando a **163 pautas, 652 campos
 A consulta efetiva e exclusiva da página NAA de 1Pe 4 sustentou três pautas independentes: 4.1-5 (15 pistas), 4.7-11 (16) e 4.12-19 (19). O inventário passa de 163/2.979 para **166 pautas, 664 campos e 3.029 pistas**, preservando integralmente os objetos anteriores. 1Pe 4.6 foi excluído de todos os elementos editoriais e referências.
 
 **1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.**
+
+
+## Checkpoint 054 — fechamento autorizado de Pedro
+
+A consulta efetiva das páginas NAA de 1Pe 5 e 2Pe 1 sustentou duas pautas: 1Pe 5 com 32 pistas e 2Pe 1.1-15 com 29. O catálogo passa a **168 pautas, 672 campos e 3.090 pistas**, com os 166 objetos anteriores preservados. A interpretação comunitária de 1Pe 5.13 foi registrada sem geografia nem equivalência lexical; 1Pe 3.19 e 4.6 permanecem excluídos.
+
+**João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.**

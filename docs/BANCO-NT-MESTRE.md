@@ -558,3 +558,15 @@ Foram acrescentadas três pautas e 50 pistas: 1Pe 4.1-5 com 15, 1Pe 4.7-11 com 1
 - **Preservação:** os 163 objetos e as 2.979 pistas anteriores permaneceram mecanicamente idênticos.
 - **Contrato:** as pautas mantêm C1–C4, alternativas e gabaritos explícitos, focal justificado, metadados, revelação e pontuação 8/5/3/2; a capacidade segue `min(12, floor((cartas-1)/2))`.
 - **Pendências:** 1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam para outras bases; o banco **não** está completo. A decisão comunitária de 1Pe 5.13 permanece sem geografia nem alegação lexical.
+
+
+## Checkpoint 054 — somente 1 Pedro 5 e 2 Pedro 1.1-15
+
+A rodada partiu do commit `5a396d51efaf31aead8a73853b0ddc311c975b93`, com **166 pautas, 664 campos e 3.029 pistas**. Em 13/09/2026, exclusivamente as páginas de 1Pe 5 e 2Pe 1 identificadas como Nova Almeida Atualizada em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200. A leitura e autoria limitaram-se a 1Pe 5 e 2Pe 1.1-15.
+
+Duas pautas foram acrescentadas, sem forçar a terceira permitida: `nt2-1pedro-pastoreio-humildade-firmeza-saudacoes`, com 32 pistas, e `nt2-2pedro-fe-virtudes-memoria`, com 29. O inventário passa a **168 pautas elegíveis, 672 campos e 3.090 pistas**; 63 comportam até 12 participantes, seis até 11, seis até 10, sete até 9, quinze até 8, onze até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+
+- **Preservação:** os 166 objetos e as 3.029 pistas anteriores permaneceram mecanicamente idênticos.
+- **Delimitação:** 1Pe 5.13 usa a interpretação aprovada de Igreja/comunidade cristã sem inferência geográfica e sem dizer que Babilônia significa lexicalmente Igreja; 2Pe termina em 1.15. As exclusões de 1Pe 3.19 e 4.6 permanecem.
+- **Contrato:** C1–C4, quatro alternativas, gabaritos, focal, metadados, revelação, 8/5/3/2 e capacidade derivada foram preservados.
+- **Pendências:** João, Judas, Apocalipse e a auditoria global seguem para etapas posteriores; o banco **não** está completo.

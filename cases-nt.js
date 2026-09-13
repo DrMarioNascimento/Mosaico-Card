@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 166,
-    "fields": 664,
-    "editoriallyEligibleCases": 166,
-    "playableCases": 166,
-    "max12Cases": 61
+    "cases": 168,
+    "fields": 672,
+    "editoriallyEligibleCases": 168,
+    "playableCases": 168,
+    "max12Cases": 63
   },
   "order": [
     "nt2-joao-cana",
@@ -182,7 +182,9 @@
     "nt2-1pedro-relacoes-unidade-sofrimento",
     "nt2-1pedro-vontade-conduta-julgamento",
     "nt2-1pedro-amor-hospitalidade-dons",
-    "nt2-1pedro-prova-sofrimento-fiel-criador"
+    "nt2-1pedro-prova-sofrimento-fiel-criador",
+    "nt2-1pedro-pastoreio-humildade-firmeza-saudacoes",
+    "nt2-2pedro-fe-virtudes-memoria"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -111173,6 +111175,1920 @@
             "passage": "4.12-19",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-1pedro-pastoreio-humildade-firmeza-saudacoes": {
+      "id": "nt2-1pedro-pastoreio-humildade-firmeza-saudacoes",
+      "kind": "canonical-case",
+      "title": "Pastoreio, humildade, firmeza e saudações",
+      "canon": {
+        "book": "1 Pedro",
+        "referenceNAA": "1 Pedro 5.1-14",
+        "references": [
+          {
+            "book": "1 Pedro",
+            "passage": "5.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 1 Pedro 5, que orientações e saudações encerram a carta aos presbíteros, aos demais leitores e à comunidade?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O modo de pastorear estabelece o primeiro eixo do encerramento e se conecta às orientações de humildade, vigilância e firmeza.",
+      "editorial": {
+        "hinge": "Em 5.13, “aquela” é tratada pela interpretação aprovada como Igreja ou comunidade cristã; isso não localiza Babilônia nem transforma “Babilônia” em equivalente lexical de Igreja."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como os presbíteros deveriam cuidar do rebanho de Deus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Espontaneamente, de boa vontade e como exemplos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Por obrigação, ganância e domínio"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sem contato com os que lhes foram confiados"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Mediante autoridade geográfica sobre outras igrejas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Espontaneamente, de boa vontade e como exemplos",
+          "enderecoNAA": "1 Pedro 5.2-3",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "5.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como os leitores deveriam lidar com humildade e ansiedade",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Humilhar-se sob a mão de Deus e lançar sobre ele as ansiedades"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Exaltar-se no tempo escolhido por eles"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Guardar as ansiedades sem confiar no cuidado divino"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Resistir aos humildes e favorecer os soberbos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Humilhar-se sob a mão de Deus e lançar sobre ele as ansiedades",
+          "enderecoNAA": "1 Pedro 5.5-7",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "5.5-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como deveriam reagir ao inimigo descrito como leão que ruge",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Com sobriedade, vigilância e resistência firme na fé"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Com medo e abandono da fé"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Identificando o leão com uma pessoa não nomeada"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Negando que outros irmãos sofressem"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Com sobriedade, vigilância e resistência firme na fé",
+          "enderecoNAA": "1 Pedro 5.8-9",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "5.8-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem envia as saudações mencionadas no encerramento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A comunidade também eleita e Marcos, chamado filho do autor"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Uma cidade identificada como significado lexical de Igreja"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Somente Silvano, apresentado como autor da carta"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os presbíteros de uma região geográfica definida"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A comunidade também eleita e Marcos, chamado filho do autor",
+          "enderecoNAA": "1 Pedro 5.12-14",
+          "answerReferences": [
+            {
+              "book": "1 Pedro",
+              "passage": "5.12-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O autor dirige um pedido aos presbíteros existentes entre os leitores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor dirige um pedido aos presbíteros existentes entre os leitores."
+          },
+          {
+            "id": "P02",
+            "text": "Ele se apresenta como presbítero junto com eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se apresenta como presbítero junto com eles."
+          },
+          {
+            "id": "P03",
+            "text": "Também se declara testemunha dos sofrimentos de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também se declara testemunha dos sofrimentos de Cristo."
+          },
+          {
+            "id": "P04",
+            "text": "Ele se diz participante da glória que será revelada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se diz participante da glória que será revelada."
+          },
+          {
+            "id": "P05",
+            "text": "Os presbíteros deveriam pastorear o rebanho de Deus entre eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os presbíteros deveriam pastorear o rebanho de Deus entre eles."
+          },
+          {
+            "id": "P06",
+            "text": "O cuidado não deveria ser exercido por obrigação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O cuidado não deveria ser exercido por obrigação."
+          },
+          {
+            "id": "P07",
+            "text": "A disposição esperada era espontânea, conforme Deus quer.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A disposição esperada era espontânea, conforme Deus quer."
+          },
+          {
+            "id": "P08",
+            "text": "A ganância é rejeitada como motivação do pastoreio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ganância é rejeitada como motivação do pastoreio."
+          },
+          {
+            "id": "P09",
+            "text": "Eles deveriam servir de boa vontade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deveriam servir de boa vontade."
+          },
+          {
+            "id": "P10",
+            "text": "Dominar os que lhes foram confiados é contraposto a ser exemplo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dominar os que lhes foram confiados é contraposto a ser exemplo."
+          },
+          {
+            "id": "P11",
+            "text": "Quando o Supremo Pastor se manifestar, eles receberão a coroa de glória que não perde o brilho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando o Supremo Pastor se manifestar, eles receberão a coroa de glória que não perde o brilho."
+          },
+          {
+            "id": "P12",
+            "text": "Os jovens são orientados a sujeitar-se aos mais velhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os jovens são orientados a sujeitar-se aos mais velhos."
+          },
+          {
+            "id": "P13",
+            "text": "Todos deveriam revestir-se de humildade no trato mútuo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos deveriam revestir-se de humildade no trato mútuo."
+          },
+          {
+            "id": "P14",
+            "text": "O próprio texto afirma que Deus resiste aos soberbos e concede graça aos humildes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio texto afirma que Deus resiste aos soberbos e concede graça aos humildes."
+          },
+          {
+            "id": "P15",
+            "text": "Os leitores deveriam humilhar-se debaixo da poderosa mão de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam humilhar-se debaixo da poderosa mão de Deus."
+          },
+          {
+            "id": "P16",
+            "text": "Deus os exaltaria no tempo oportuno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deus os exaltaria no tempo oportuno."
+          },
+          {
+            "id": "P17",
+            "text": "Todas as ansiedades deveriam ser lançadas sobre Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todas as ansiedades deveriam ser lançadas sobre Deus."
+          },
+          {
+            "id": "P18",
+            "text": "A razão apresentada é que Deus cuida deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão apresentada é que Deus cuida deles."
+          },
+          {
+            "id": "P19",
+            "text": "Sobriedade e vigilância são ordenadas aos leitores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sobriedade e vigilância são ordenadas aos leitores."
+          },
+          {
+            "id": "P20",
+            "text": "O diabo é apresentado como inimigo que ronda à procura de alguém para devorar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O diabo é apresentado como inimigo que ronda à procura de alguém para devorar."
+          },
+          {
+            "id": "P21",
+            "text": "A comparação empregada para o inimigo é a de um leão que ruge.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação empregada para o inimigo é a de um leão que ruge."
+          },
+          {
+            "id": "P22",
+            "text": "A resistência deveria ocorrer com firmeza na fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resistência deveria ocorrer com firmeza na fé."
+          },
+          {
+            "id": "P23",
+            "text": "Os leitores sabiam que irmãos pelo mundo passavam por sofrimentos semelhantes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores sabiam que irmãos pelo mundo passavam por sofrimentos semelhantes."
+          },
+          {
+            "id": "P24",
+            "text": "O Deus de toda graça os chamou em Cristo para sua glória eterna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Deus de toda graça os chamou em Cristo para sua glória eterna."
+          },
+          {
+            "id": "P25",
+            "text": "Depois de breve sofrimento, o próprio Deus os aperfeiçoaria, firmaria, fortificaria e fundamentaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de breve sofrimento, o próprio Deus os aperfeiçoaria, firmaria, fortificaria e fundamentaria."
+          },
+          {
+            "id": "P26",
+            "text": "O domínio é atribuído a Deus para sempre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O domínio é atribuído a Deus para sempre."
+          },
+          {
+            "id": "P27",
+            "text": "Silvano é considerado irmão fiel e serviu de meio para a breve escrita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Silvano é considerado irmão fiel e serviu de meio para a breve escrita."
+          },
+          {
+            "id": "P28",
+            "text": "A carta exorta e testemunha que esta é a genuína graça de Deus, na qual deveriam permanecer firmes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta exorta e testemunha que esta é a genuína graça de Deus, na qual deveriam permanecer firmes."
+          },
+          {
+            "id": "P29",
+            "text": "Aquela que envia saudação é entendida, conforme a interpretação aprovada, como uma Igreja ou comunidade cristã também eleita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aquela que envia saudação é entendida, conforme a interpretação aprovada, como uma Igreja ou comunidade cristã também eleita."
+          },
+          {
+            "id": "P30",
+            "text": "O texto associa essa comunidade a Babilônia, sem fornecer neste recorte uma localização geográfica.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O texto associa essa comunidade a Babilônia, sem fornecer neste recorte uma localização geográfica."
+          },
+          {
+            "id": "P31",
+            "text": "Marcos, chamado filho do autor, também envia saudação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Marcos, chamado filho do autor, também envia saudação."
+          },
+          {
+            "id": "P32",
+            "text": "Os leitores deveriam saudar-se com beijo fraterno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "1 Pedro",
+                "passage": "5.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam saudar-se com beijo fraterno."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "1 Pedro 5 orienta presbíteros a pastorear como exemplos, convoca todos à humildade e firmeza na fé e encerra com testemunho da graça e saudações comunitárias.",
+        "hinge": "Em 5.13, “aquela” é tratada pela interpretação aprovada como Igreja ou comunidade cristã; isso não localiza Babilônia nem transforma “Babilônia” em equivalente lexical de Igreja.",
+        "references": [
+          {
+            "book": "1 Pedro",
+            "passage": "5.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2pedro-fe-virtudes-memoria": {
+      "id": "nt2-2pedro-fe-virtudes-memoria",
+      "kind": "canonical-case",
+      "title": "Fé, virtudes, confirmação e memória",
+      "canon": {
+        "book": "2 Pedro",
+        "referenceNAA": "2 Pedro 1.1-15",
+        "references": [
+          {
+            "book": "2 Pedro",
+            "passage": "1.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Pedro 1.1-15, como a carta relaciona a fé recebida, o crescimento das qualidades e o esforço para conservar essas coisas na memória?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A sequência de qualidades acrescentadas à fé organiza a parte central do recorte e explica seus resultados declarados.",
+      "editorial": {
+        "hinge": "A pauta termina em 1.15 e não utiliza o testemunho ocular, a voz no monte ou a discussão da palavra profética iniciados em 1.16."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que sequência culmina no amor",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Fé, virtude, conhecimento, domínio próprio, perseverança, piedade, fraternidade e amor"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Fé, riqueza, autoridade, fama e domínio"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Conhecimento, isolamento, silêncio e temor"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Piedade, localização, calendário e glória humana"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Fé, virtude, conhecimento, domínio próprio, perseverança, piedade, fraternidade e amor",
+          "enderecoNAA": "2 Pedro 1.5-7",
+          "answerReferences": [
+            {
+              "book": "2 Pedro",
+              "passage": "1.5-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como a fé dos destinatários é apresentada",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Igualmente preciosa à dos remetentes, obtida na justiça de Deus e Salvador Jesus Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Inferior à fé dos remetentes"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Adquirida por mérito geográfico"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Separada da justiça mencionada na saudação"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Igualmente preciosa à dos remetentes, obtida na justiça de Deus e Salvador Jesus Cristo",
+          "enderecoNAA": "2 Pedro 1.1",
+          "answerReferences": [
+            {
+              "book": "2 Pedro",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que resultado é associado à prática e confirmação dessas qualidades",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Frutificação no conhecimento, firmeza sem tropeço e entrada amplamente suprida no Reino eterno"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Inatividade no conhecimento de Cristo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Esquecimento da purificação dos pecados"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Tropeço inevitável apesar do empenho"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Frutificação no conhecimento, firmeza sem tropeço e entrada amplamente suprida no Reino eterno",
+          "enderecoNAA": "2 Pedro 1.8-11",
+          "answerReferences": [
+            {
+              "book": "2 Pedro",
+              "passage": "1.8-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que o autor pretendia fazer antes e depois de sua partida",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Despertar lembranças e esforçar-se para que continuassem recordando essas coisas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Apresentar uma data para sua partida"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Abandonar o ensino porque já conheciam a verdade"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Completar a revelação recebida com outra narrativa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Despertar lembranças e esforçar-se para que continuassem recordando essas coisas",
+          "enderecoNAA": "2 Pedro 1.12-15",
+          "answerReferences": [
+            {
+              "book": "2 Pedro",
+              "passage": "1.12-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O remetente se apresenta como Simão Pedro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O remetente se apresenta como Simão Pedro."
+          },
+          {
+            "id": "P02",
+            "text": "Ele se identifica como servo e apóstolo de Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se identifica como servo e apóstolo de Jesus Cristo."
+          },
+          {
+            "id": "P03",
+            "text": "Os destinatários obtiveram fé tão preciosa quanto a dos remetentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários obtiveram fé tão preciosa quanto a dos remetentes."
+          },
+          {
+            "id": "P04",
+            "text": "A fé é relacionada à justiça de Deus e Salvador Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fé é relacionada à justiça de Deus e Salvador Jesus Cristo."
+          },
+          {
+            "id": "P05",
+            "text": "Graça e paz deveriam ser multiplicadas aos leitores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Graça e paz deveriam ser multiplicadas aos leitores."
+          },
+          {
+            "id": "P06",
+            "text": "Essa multiplicação é ligada ao pleno conhecimento de Deus e de Jesus, o Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa multiplicação é ligada ao pleno conhecimento de Deus e de Jesus, o Senhor."
+          },
+          {
+            "id": "P07",
+            "text": "O poder de Deus concedeu tudo o que conduz à vida e à piedade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O poder de Deus concedeu tudo o que conduz à vida e à piedade."
+          },
+          {
+            "id": "P08",
+            "text": "A concessão ocorre pelo conhecimento daquele que chamou os leitores para sua glória e virtude.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A concessão ocorre pelo conhecimento daquele que chamou os leitores para sua glória e virtude."
+          },
+          {
+            "id": "P09",
+            "text": "Promessas preciosas e muito grandes foram concedidas por meio dessas realidades.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Promessas preciosas e muito grandes foram concedidas por meio dessas realidades."
+          },
+          {
+            "id": "P10",
+            "text": "As promessas visavam tornar os leitores participantes da natureza divina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As promessas visavam tornar os leitores participantes da natureza divina."
+          },
+          {
+            "id": "P11",
+            "text": "Eles haviam escapado da corrupção existente no mundo por causa das paixões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles haviam escapado da corrupção existente no mundo por causa das paixões."
+          },
+          {
+            "id": "P12",
+            "text": "Os leitores deveriam concentrar todo esforço no crescimento indicado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores deveriam concentrar todo esforço no crescimento indicado."
+          },
+          {
+            "id": "P13",
+            "text": "À fé deveria ser acrescentada a virtude.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À fé deveria ser acrescentada a virtude."
+          },
+          {
+            "id": "P14",
+            "text": "À virtude deveria ser acrescentado o conhecimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À virtude deveria ser acrescentado o conhecimento."
+          },
+          {
+            "id": "P15",
+            "text": "Ao conhecimento, o domínio próprio; e ao domínio próprio, a perseverança.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao conhecimento, o domínio próprio; e ao domínio próprio, a perseverança."
+          },
+          {
+            "id": "P16",
+            "text": "À perseverança deveria ser acrescentada a piedade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À perseverança deveria ser acrescentada a piedade."
+          },
+          {
+            "id": "P17",
+            "text": "À piedade, a fraternidade; e à fraternidade, o amor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À piedade, a fraternidade; e à fraternidade, o amor."
+          },
+          {
+            "id": "P18",
+            "text": "Presentes e crescentes, essas qualidades impediriam inatividade e falta de fruto no conhecimento de Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Presentes e crescentes, essas qualidades impediriam inatividade e falta de fruto no conhecimento de Cristo."
+          },
+          {
+            "id": "P19",
+            "text": "Quem não possui essas qualidades é descrito como cego e limitado ao que está perto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem não possui essas qualidades é descrito como cego e limitado ao que está perto."
+          },
+          {
+            "id": "P20",
+            "text": "A ausência delas é associada ao esquecimento da purificação dos pecados antigos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ausência delas é associada ao esquecimento da purificação dos pecados antigos."
+          },
+          {
+            "id": "P21",
+            "text": "Os irmãos deveriam empenhar-se cada vez mais em confirmar sua vocação e eleição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os irmãos deveriam empenhar-se cada vez mais em confirmar sua vocação e eleição."
+          },
+          {
+            "id": "P22",
+            "text": "A prática indicada é associada a não tropeçar jamais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A prática indicada é associada a não tropeçar jamais."
+          },
+          {
+            "id": "P23",
+            "text": "Dessa maneira, a entrada no Reino eterno de Jesus Cristo seria amplamente suprida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dessa maneira, a entrada no Reino eterno de Jesus Cristo seria amplamente suprida."
+          },
+          {
+            "id": "P24",
+            "text": "O Reino é atribuído ao Senhor e Salvador Jesus Cristo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino é atribuído ao Senhor e Salvador Jesus Cristo."
+          },
+          {
+            "id": "P25",
+            "text": "O autor estava sempre pronto a fazê-los lembrar, embora já conhecessem essas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor estava sempre pronto a fazê-los lembrar, embora já conhecessem essas coisas."
+          },
+          {
+            "id": "P26",
+            "text": "Os leitores haviam sido confirmados na verdade que receberam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os leitores haviam sido confirmados na verdade que receberam."
+          },
+          {
+            "id": "P27",
+            "text": "Enquanto permanecesse em seu tabernáculo, o autor considerava justo despertar essas lembranças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Enquanto permanecesse em seu tabernáculo, o autor considerava justo despertar essas lembranças."
+          },
+          {
+            "id": "P28",
+            "text": "Ele declara saber que em breve deixaria seu tabernáculo, conforme Jesus Cristo lhe revelara.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declara saber que em breve deixaria seu tabernáculo, conforme Jesus Cristo lhe revelara."
+          },
+          {
+            "id": "P29",
+            "text": "O autor se esforçaria para que, mesmo após sua partida, eles sempre se lembrassem dessas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este recorte da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Pedro",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O autor se esforçaria para que, mesmo após sua partida, eles sempre se lembrassem dessas coisas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 Pedro 1.1-15 apresenta a fé recebida, as concessões divinas, uma sequência de qualidades a cultivar e o compromisso do autor em manter essas coisas na memória dos leitores.",
+        "hinge": "A pauta termina em 1.15 e não utiliza o testemunho ocular, a voz no monte ou a discussão da palavra profética iniciados em 1.16.",
+        "references": [
+          {
+            "book": "2 Pedro",
+            "passage": "1.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -307,3 +307,14 @@ O lote encerra nesses quatro recortes, sem forçar uma quinta pauta. Pedro, Joã
 | 1Pe 4.12-19 | NAA, HTTP 200; provação, motivos contrastantes de sofrimento e confiança no Criador tratados sem completar alusões externas. | `nt2-1pedro-prova-sofrimento-fiel-criador`, 19 pistas, capacidade 2–9. |
 
 O lote encerra nesses três recortes, sem forçar uma quarta pauta. Os 163 objetos e as 2.979 pistas anteriores foram preservados. 1Pe 5 e os livros seguintes continuam pendentes; o banco não está completo.
+
+
+## Checkpoint 054 — decisões individuais em 1 Pedro 5 e 2 Pedro 1.1-15
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Pe 5.1-12,14 | NAA, HTTP 200; pastoreio, humildade, ansiedade, vigilância, resistência, promessa e encerramento mantidos no capítulo. | Integrados em `nt2-1pedro-pastoreio-humildade-firmeza-saudacoes`, 32 pistas no total, capacidade 2–12. |
+| 1Pe 5.13 | NAA, HTTP 200; “aquela” entendida como Igreja/comunidade cristã conforme decisão aprovada. | Integrado à pauta do capítulo sem localizar Babilônia nem afirmar equivalência lexical entre Babilônia e Igreja. |
+| 2Pe 1.1-15 | NAA, HTTP 200; apresentação, fé, concessões, qualidades, resultados e memória tratados atributivamente. | `nt2-2pedro-fe-virtudes-memoria`, 29 pistas, capacidade 2–12; 1.16-21 permanece fora desta autoria. |
+
+O lote encerra com duas pautas, sem forçar uma terceira. Os 166 objetos e as 3.029 pistas anteriores foram preservados. João, Judas, Apocalipse e a auditoria global permanecem pendentes; o banco não está completo.
