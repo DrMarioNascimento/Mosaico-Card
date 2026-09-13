@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-090-marcos-2",
+  "catalogVersion": "checkpoint-091-mateus-17-21",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -188070,11 +188070,11 @@
       "title": "O menino curado e a fé como grão de mostarda",
       "canon": {
         "book": "Mateus",
-        "referenceNAA": "Mateus 17.14-20",
+        "referenceNAA": "Mateus 17.14-21",
         "references": [
           {
             "book": "Mateus",
-            "passage": "17.14-20",
+            "passage": "17.14-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
             "checkedAt": "2026-09-13"
@@ -188097,12 +188097,12 @@
         ]
       },
       "prompt": {
-        "question": "Que problema o pai apresentou, o que Jesus fez pelo menino e como explicou a incapacidade dos discípulos?"
+        "question": "Que problema o pai apresentou, o que Jesus fez pelo menino e, na variante contextual autorizada, por que os discípulos não conseguiram expulsá-lo?"
       },
       "focalFieldId": "C1",
-      "focalJustification": "O primeiro campo identifica o eixo factual da unidade; os demais distinguem agentes, falas, ações e desfechos explicitamente registrados por Mateus.",
+      "focalJustification": "O primeiro campo mantém o eixo factual da cura; C4 oferece, em variante contextual autorizada e claramente delimitada, a inferência “falta de oração e jejum”, enquanto a pequenez da fé de 17.20 permanece perspectiva textual disponível em pistas e na revelação.",
       "editorial": {
-        "hinge": "A condição, o demônio, o monte e o grão de mostarda permanecem nos termos narrativos e na fala de Jesus; o verso 21 entre colchetes não integra campos, pistas ou gabaritos."
+        "hinge": "Gabarito contextual de C4: “falta de oração e jejum” (Mt 17.19-21, NAA). Trata-se de inferência aceita: o verso 21 declara o meio necessário para expulsar esse tipo, mas não afirma literalmente que os discípulos deixaram de orar ou jejuar. A perspectiva literal “pequenez da fé” de 17.20 continua válida e não aparece como alternativa marcada errada nesta pergunta de resposta única."
       },
       "fields": [
         {
@@ -188219,32 +188219,32 @@
         {
           "id": "C4",
           "sourceOrder": 4,
-          "rotulo": "Motivo dado à incapacidade dos discípulos",
+          "rotulo": "Por que os discípulos não conseguiram expulsá-lo?",
           "opcoes": [
             {
               "id": "C4-O1",
-              "texto": "A pequenez da fé deles"
+              "texto": "Falta de oração e jejum"
             },
             {
               "id": "C4-O2",
-              "texto": "A ausência de uma moeda"
+              "texto": "Porque estavam longe de Jerusalém"
             },
             {
               "id": "C4-O3",
-              "texto": "A distância de Jerusalém"
+              "texto": "Porque não tinham uma moeda"
             },
             {
               "id": "C4-O4",
-              "texto": "A falta de alimento"
+              "texto": "Porque o menino não fora apresentado a Jesus"
             }
           ],
           "respostaId": "C4-O1",
-          "respostaCanonica": "A pequenez da fé deles",
-          "enderecoNAA": "Mateus 17.19-20",
+          "respostaCanonica": "Falta de oração e jejum",
+          "enderecoNAA": "Mateus 17.19-21",
           "answerReferences": [
             {
               "book": "Mateus",
-              "passage": "17.19-20",
+              "passage": "17.19-21",
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
               "checkedAt": "2026-09-13"
@@ -188693,7 +188693,7 @@
           },
           {
             "id": "P19",
-            "text": "Na fala, uma ordem ao monte seria seguida de mudança.",
+            "text": "O verso 21, exibido entre colchetes na NAA, afirma que esse tipo só pode ser expulso por meio de oração e jejum.",
             "importance": "contextual",
             "relatedFields": [
               "C4"
@@ -188707,13 +188707,13 @@
             "references": [
               {
                 "book": "Mateus",
-                "passage": "17.20",
+                "passage": "17.21",
                 "edition": "NAA",
                 "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
                 "checkedAt": "2026-09-13"
               }
             ],
-            "texto": "Na fala, uma ordem ao monte seria seguida de mudança."
+            "texto": "O verso 21, exibido entre colchetes na NAA, afirma que esse tipo só pode ser expulso por meio de oração e jejum."
           },
           {
             "id": "P20",
@@ -188742,12 +188742,12 @@
         ]
       },
       "reveal": {
-        "canonicalSummary": "Mateus 17.14-20 relata o pedido de um pai, a incapacidade anterior dos discípulos, a saída do demônio, a cura do menino e a explicação de Jesus sobre a pequenez da fé.",
-        "hinge": "A condição, o demônio, o monte e o grão de mostarda permanecem nos termos narrativos e na fala de Jesus; o verso 21 entre colchetes não integra campos, pistas ou gabaritos.",
+        "canonicalSummary": "Mateus 17.14-21 relata o pedido de um pai, a incapacidade anterior dos discípulos, a saída do demônio e a cura do menino. O verso 20 atribui a incapacidade à pequenez da fé; o verso 21, entre colchetes na NAA, afirma que esse tipo só é expulso por oração e jejum.",
+        "hinge": "Gabarito contextual de C4: “falta de oração e jejum” (Mt 17.19-21, NAA). Trata-se de inferência aceita: o verso 21 declara o meio necessário para expulsar esse tipo, mas não afirma literalmente que os discípulos deixaram de orar ou jejuar. A perspectiva literal “pequenez da fé” de 17.20 continua válida e não aparece como alternativa marcada errada nesta pergunta de resposta única.",
         "references": [
           {
             "book": "Mateus",
-            "passage": "17.14-20",
+            "passage": "17.14-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
             "checkedAt": "2026-09-13"

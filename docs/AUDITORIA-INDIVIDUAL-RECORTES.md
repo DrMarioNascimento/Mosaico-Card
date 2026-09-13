@@ -638,3 +638,7 @@ As páginas NAA Bible.com 1840 de Mc 1–2 retornaram HTTP 200 (99.112 e 95.905 
 ## Checkpoint 090 — duas pendências de Marcos 2
 
 A reconsulta NAA 1840 ficou exclusivamente em Mc 2.18-22 e 2.23-28. As matrizes concretas registradas na ficha de Marcos sustentaram `nt2-marcos-jejum-remendo-odres` (14 pistas; capacidade 6) e `nt2-marcos-espigas-sabado-davi` (13; capacidade 6), sem importar costumes, conteúdo de 1Sm ou detalhes de paralelos. Os 286 objetos anteriores permaneceram serializadamente idênticos e dois objetos foram anexados, resultando em **288 pautas/5.566 pistas**. Não resta pendência conhecida de Mc 1–2 no inventário atual; Mc 3–4 é somente o próximo plano, não foi autorado.
+
+## Checkpoint 091 — decisão contextual de Mt 17.21
+
+A reconsulta efetiva da NAA 1840 confirmou Mt 17.21 entre colchetes e a nota de manuscritos mais recentes. Por decisão explícita, `nt2-mateus-menino-fe-mostarda` agora responde C4 com **“Falta de oração e jejum”** como inferência contextual de 17.19-21, sem afirmar que 17.21 diz literalmente que os discípulos não oraram/jejuaram. A pequenez da fé de 17.20 continua registrada como perspectiva literal, fora das alternativas concorrentes de resposta única. Dos 288 objetos, 287 ficaram idênticos e somente esse objeto foi consolidado; permanecem **288/5.566**. Nenhum outro recorte foi autorado.

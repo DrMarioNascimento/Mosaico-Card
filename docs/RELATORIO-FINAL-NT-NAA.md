@@ -300,3 +300,7 @@ Os 277 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resu
 Somente a página NAA Bible.com 1840 de Mateus 28 foi obtida (HTTP 200; 321.847 bytes), lida integralmente e comparada aos **280 objetos/5.424 pistas**. Mt 28.1-10 permaneceu coberto sem alteração; duas pautas sustentadas foram anexadas para a versão paga aos guardas (17 pistas; capacidade 8) e os onze no monte/comissão (18; 8).
 
 Os 280 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resultado é **282 pautas/1.128 campos/5.459 pistas**, todas elegíveis. A ficha possui decisão para todos os recortes enumerados de Mateus, exceto as lacunas textuais específicas Mt 17.21 e 23.14, que não são exclusões definitivas. O próximo lote independente planejado é Mc 1–2, sem autoria de Marcos agora. Dúvidas de 1Co e decisões anteriores permanecem preservadas; testes não declaram o banco completo.
+
+## Incremento do checkpoint 091 — decisão de Mt 17.21
+
+A reconsulta NAA 1840 confirmou texto e nota entre colchetes. Sem criar pauta nova, `nt2-mateus-menino-fe-mostarda` passou a responder “Falta de oração e jejum” como inferência contextual de Mt 17.19-21, com explicação de que o verso não declara literalmente a omissão dos discípulos. “Pequenez da fé” em 17.20 continua perspectiva válida, mas não distrator falso. Dos 288 objetos, somente esse foi consolidado; permanecem **288 pautas/1.152 campos/5.566 pistas**. Mt 23.14 e dúvidas de 1Co continuam pendentes, Mc 16.9-20 permanece excluído e Mc 3–4 é somente o próximo plano.

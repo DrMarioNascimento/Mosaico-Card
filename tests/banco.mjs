@@ -12,6 +12,15 @@ assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
 assert.equal(catalog.summary.editoriallyEligibleCases, 288);
 assert.equal(catalog.summary.max12Cases, 96);
+const mateus1721 = catalog.byId["nt2-mateus-menino-fe-mostarda"];
+const respostaContextual = mateus1721.fields.find(field => field.id === "C4");
+assert.equal(respostaContextual.rotulo, "Por que os discípulos não conseguiram expulsá-lo?");
+assert.equal(respostaContextual.respostaCanonica, "Falta de oração e jejum");
+assert.ok(!respostaContextual.opcoes.some(opcao => opcao.texto === "A pequenez da fé deles"), "a perspectiva literal compatível não vira distrator falso");
+assert.ok(respostaContextual.answerReferences.some(ref => ref.passage === "17.19-21"));
+assert.match(mateus1721.reveal.hinge, /inferência aceita/);
+assert.match(mateus1721.reveal.hinge, /não afirma literalmente/);
+assert.ok(mateus1721.deck.cards.some(card => card.text.includes("entre colchetes") && card.references.some(ref => ref.passage === "17.21")));
 const marcos2Checkpoint090 = {
   "nt2-marcos-jejum-remendo-odres": 6,
   "nt2-marcos-espigas-sabado-davi": 6
@@ -163,7 +172,7 @@ for (const [id, maxPlayers] of Object.entries(mateus16a17Checkpoint084)) {
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.length >= 5);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.1[67]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 16–17`);
-  assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
+  if (id !== "nt2-mateus-menino-fe-mostarda") assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
   assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 
@@ -176,7 +185,7 @@ for (const [id, maxPlayers] of Object.entries(mateus17Checkpoint085)) {
   assert.equal(catalog.byId[id].fields.length, 4);
   assert.ok(catalog.byId[id].fields.every(field => field.opcoes.length === 4));
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.17\.NAA$/.test(ref.sourceId))));
-  assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
+  if (id !== "nt2-mateus-menino-fe-mostarda") assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
   assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 

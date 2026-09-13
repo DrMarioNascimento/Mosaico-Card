@@ -18,7 +18,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
-| Mateus | 98 pautas / 1.861 pistas | Pendências textuais específicas de Mt 17.21 e 23.14 | O checkpoint 088 inventariou integralmente Mt 28, preservou 28.1-10 e autorou 28.11-15 e 28.16-20; a conferência da ficha encontrou decisão para todos os demais recortes enumerados. | **FILA ORDINÁRIA DECIDIDA.** Mt 17.21 e 23.14 permanecem pendências textuais, não exclusões definitivas; sem declaração de completude ou exaustividade futura. |
+| Mateus | 98 pautas / 1.861 pistas | Pendência textual específica de Mt 23.14 | O checkpoint 091 resolveu Mt 17.21 como inferência contextual aceita na pauta existente, preservando colchetes, nota textual e a perspectiva literal de 17.20. | **FILA ORDINÁRIA DECIDIDA.** Mt 23.14 permanece pendência textual, não exclusão definitiva; sem declaração de completude ou exaustividade futura. |
 | Marcos | 17 / 194 | Trechos fora da lista inicial, sobretudo Mc 1–4, 6–13 e 14–16.8 não representados por pauta própria/paralela | A ficha decide 17 pré-candidatos e depois chama os 16 capítulos de analisados; não há inventário individual de todos os demais recortes. | **PENDENTE — decisão individual.** Varredura NAA por recorte; **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
@@ -56,7 +56,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Próximo trabalho independente — Marcos:** lote inicial pequeno de Mc 1–2; consultar a NAA e inventariar unidades antes de qualquer autoria, comparando pautas e paralelos sem harmonizar. Mt 17.21 e 23.14 permanecem em filas textuais próprias, sem inclusão ou exclusão automática.
+1. **Próximo trabalho independente — Marcos:** lote pequeno de Mc 3–4; consultar a NAA e inventariar unidades antes de qualquer autoria, comparando pautas e paralelos sem harmonizar. Mt 17.21 está resolvido; Mt 23.14 permanece em fila textual própria, sem inclusão ou exclusão automática.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
@@ -102,3 +102,7 @@ A reauditoria consultou exclusivamente Mc 1–2 na NAA 1840 e substituiu decisõ
 ## Checkpoint 090 — conclusão da fila vigente de Mc 1–2
 
 A consulta exclusiva de Mc 2.18-28 na NAA 1840 resolveu as duas pendências concretas do checkpoint 089 com duas pautas/27 pistas e capacidade 6 em ambas. A comparação manteve Marcos e Mateus como documentos próprios e não incorporou conteúdo do AT. O catálogo passa de **286/5.539 para 288/5.566**, preservando serializadamente os 286 objetos anteriores. Mc 1–2 não conserva remanescente conhecido, mas Marcos e o banco não são declarados completos; Mc 3–4 fica apenas planejado.
+
+## Checkpoint 091 — Mt 17.21 resolvido sem duplicar episódio
+
+A decisão explícita sobre Mt 17.21 foi aplicada ao objeto existente `nt2-mateus-menino-fe-mostarda`: um único C4 usa a inferência contextual “Falta de oração e jejum”, com referência 17.19-21 e explicação da nota textual, enquanto a pequenez da fé de 17.20 permanece perspectiva literal em pista/revelação e não aparece como distrator falso. A arquitetura de resposta única foi preservada, sem criar caso duplicado ou suporte amplo de variantes. Dos 288 objetos anteriores, 287 permanecem serializadamente idênticos e somente o objeto consolidado mudou; totais permanecem **288 pautas/5.566 pistas**. Mt 23.14 e as dúvidas de 1Co seguem pendentes; Mc 3–4 é o próximo plano sem autoria agora.

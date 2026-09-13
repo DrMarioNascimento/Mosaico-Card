@@ -30,3 +30,26 @@ Em 12/09/2026, o usuário revogou a exigência universal de 25 cartas/12 partici
 ## Decisão posterior — pautas temáticas e listas
 
 Em 12/09/2026, o usuário autorizou pautas temáticas e listas que reúnam fatos de episódios ou blocos diferentes, desde que sejam coerentes, não contraditórias e sustentadas pela NAA. Ausência de ligação causal, de uma única dedução ou presença de quatro perguntas independentes deixa de ser motivo de bloqueio. Hebreus 11 deve ser liberado após conferência dos demais critérios. Todos os recortes anteriormente recusados **apenas** por lista, conjunto temático, falta de dente comum ou pela antiga capacidade universal de 25 cartas devem ser reavaliados; capacidade variável continua vigente. Permanecem fora Mc 16.9-20, a questão de 1Pe 3.19 e 1Pe 4.6, além dos limites interpretativos já aprovados.
+
+## Decisão explícita — Mt 17.21 e perspectivas contextuais (checkpoint 091)
+
+Em 13/09/2026, o usuário resolveu editorialmente Mt 17.21. Na variante contextual da pauta `nt2-mateus-menino-fe-mostarda`, a pergunta **“Por que os discípulos não conseguiram expulsá-lo?”** usa como resposta de jogo **“Falta de oração e jejum”**, referenciada em Mt 17.19-21. A resposta é uma **inferência contextual aceita**: o verso 21, exibido entre colchetes na NAA, afirma que aquele tipo só pode ser expulso por oração e jejum, mas não declara literalmente que os discípulos não oraram ou não jejuaram. A nota textual da NAA — presença do texto apenas em manuscritos mais recentes — deve permanecer visível na explicação editorial.
+
+A explicação literal de Mt 17.20, **“a pequenez da fé”**, continua válida. As duas perspectivas podem orientar partidas ou variantes distintas, mas não podem aparecer como duas alternativas verdadeiras numa pergunta de resposta única enquanto uma delas é marcada errada. A arquitetura atual possui somente um `answerId` por campo e não seleciona variantes de gabarito; por isso, este checkpoint aplica a variante contextual ao C4 existente, mantém a perspectiva de 17.20 nas pistas e na revelação, e retira-a das alternativas concorrentes. Não se duplica o episódio para simular suporte funcional inexistente.
+
+### Diretriz geral decorrente
+
+Uma perspectiva não será excluída apenas porque outra explicação compatível também é válida. Cada reavaliação deve: (1) identificar o fundamento textual ou contextual; (2) distinguir citação, paráfrase e inferência; (3) examinar contradição real, sem confundi-la com complementaridade; (4) delimitar o gabarito para não oferecer duas respostas verdadeiras como alternativas mutuamente exclusivas; e (5) comprovar quatro campos e pistas suficientes antes de qualquer autoria. A decisão não libera recortes em massa.
+
+### Exclusões a reavaliar individualmente, sem autoria neste checkpoint
+
+| Recorte | Registro antigo a testar | Limite da futura reavaliação |
+| --- | --- | --- |
+| Jo 1.1-18 | Exclusão por conteúdo conceitual/teológico. | Verificar perguntas atributivas e quatro campos; não converter afirmações em identidades externas. |
+| Jo 3.16-36 | Exclusão por risco de distratores doutrinários. | Distinguir falas/testemunhos e inferências; alternativas não podem negar outra perspectiva válida. |
+| Jo 6.22-71 | Exclusão por interpretação teológica. | Avaliar blocos e imagens atribuídas sem explicar externamente o pão da vida. |
+| Jo 8.12-59 | Exclusão por debate teológico e falta de narrativa única. | Perguntas independentes são permitidas; preservar falantes e não presumir identidades além do texto. |
+| Jo 10.22-42 | Exclusão por debate de identidade/obras. | Reexaminar fatos e alegações atribuídas, registrando qualquer inferência necessária. |
+| Jo 14–17 | Exclusão por discursos/oração e antiga exigência de mistério factual. | Reavaliar cada unidade, sem massa, lista ou perspectiva única forçada e sem autoria antecipada. |
+
+Mt 23.14 e 1Co 11.2-16/14.34-36 continuam pendentes sem decisão presumida. Mc 16.9-20 permanece excluído por decisão anterior. Depois de salvar esta decisão, o próximo inventário independente continua planejado para Mc 3–4.

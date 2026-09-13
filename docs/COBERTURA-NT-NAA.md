@@ -295,3 +295,7 @@ Consulta NAA 1840 e inventário integral de Mc 1–2: Mc 1.1-15 e 1.29-45 gerara
 ## Checkpoint 090 — pendências de Mc 2.18-28
 
 A consulta efetiva exclusiva de Mc 2.18-28 na NAA 1840 acrescentou duas pautas/27 pistas, ambas com capacidade 6, aos 286 objetos preservados. O total passa a **288 pautas, 1.152 campos e 5.566 pistas**. Não resta recorte conhecido pendente em Mc 1–2 no inventário vigente; Mc 3–4 está apenas planejado, sem autoria neste checkpoint, e o banco não é declarado completo.
+
+## Checkpoint 091 — decisão de Mt 17.21
+
+Mt 17.21 foi reconsultado na NAA 1840, preservando colchetes e nota textual. A pauta existente do menino/fé passou a usar “Falta de oração e jejum” como inferência contextual claramente explicada para C4; a pequenez da fé de 17.20 continua como perspectiva literal sem virar alternativa marcada errada. Não houve pauta ou pista líquida nova: **288 pautas/1.152 campos/5.566 pistas**. Somente um dos 288 objetos mudou; Mt 23.14 e dúvidas de 1Co permanecem pendentes, e Mc 3–4 fica planejado.
