@@ -10,8 +10,20 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 240);
+assert.equal(catalog.summary.editoriallyEligibleCases, 244);
 assert.equal(catalog.summary.max12Cases, 91);
+const mateus23Checkpoint077 = {
+  "nt2-mateus-escribas-obras-titulos": 8,
+  "nt2-mateus-ais-juramentos": 7,
+  "nt2-mateus-ais-dizimo-aparencias": 8,
+  "nt2-mateus-profetas-lamento-jerusalem": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus23Checkpoint077)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.23.NAA"))), `${id} mantém a proveniência exclusiva de Mt 23`);
+}
+
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
 assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");

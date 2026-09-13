@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-076-mateus-22-pendencias",
+  "catalogVersion": "checkpoint-077-mateus-23",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 240,
-    "fields": 960,
-    "editoriallyEligibleCases": 240,
-    "playableCases": 240,
+    "cases": 244,
+    "fields": 976,
+    "editoriallyEligibleCases": 244,
+    "playableCases": 244,
     "max12Cases": 91
   },
   "order": [
@@ -256,7 +256,11 @@
     "nt2-mateus-imposto-cesar",
     "nt2-mateus-saduceus-ressurreicao",
     "nt2-mateus-grande-mandamento",
-    "nt2-mateus-cristo-davi"
+    "nt2-mateus-cristo-davi",
+    "nt2-mateus-escribas-obras-titulos",
+    "nt2-mateus-ais-juramentos",
+    "nt2-mateus-ais-dizimo-aparencias",
+    "nt2-mateus-profetas-lamento-jerusalem"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -167898,6 +167902,2586 @@
             "passage": "22.41-46",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-escribas-obras-titulos": {
+      "id": "nt2-mateus-escribas-obras-titulos",
+      "kind": "canonical-case",
+      "title": "Obras, títulos e serviço",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 23.1-12",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "A quem Jesus falou, que contraste fez sobre os líderes e que orientação deu sobre títulos e grandeza?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica os destinatários e o contraste central; os demais distinguem ações, títulos e conclusão do discurso.",
+      "editorial": {
+        "hinge": "Cargas, títulos e posições são elementos da censura e do ensino de Jesus; a pauta não os converte em descrição geral de qualquer grupo."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A quem Jesus dirigiu estas palavras",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Às multidões e aos discípulos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente aos saduceus"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Apenas aos doze apóstolos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Aos servos do sumo sacerdote"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Às multidões e aos discípulos",
+          "enderecoNAA": "Mateus 23.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que contraste Jesus apresentou sobre escribas e fariseus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Dizem, mas não praticam"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Não dizem nem praticam"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Praticam tudo em segredo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ensinam apenas por parábolas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Dizem, mas não praticam",
+          "enderecoNAA": "Mateus 23.2-3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que título Jesus disse que os discípulos não deveriam buscar",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Mestre"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Sacerdote"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Profeta"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Rei"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Mestre",
+          "enderecoNAA": "Mateus 23.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem seria o maior entre eles",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Aquele que os servisse"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Quem ocupasse a primeira cadeira"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Quem alargasse as franjas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quem recebesse saudações"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Aquele que os servisse",
+          "enderecoNAA": "Mateus 23.11",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus falou às multidões e aos seus discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus falou às multidões e aos seus discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Segundo Jesus, escribas e fariseus se assentaram na cadeira de Moisés.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, escribas e fariseus se assentaram na cadeira de Moisés."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus mandou observar o que eles diziam, mas não copiar suas obras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou observar o que eles diziam, mas não copiar suas obras."
+          },
+          {
+            "id": "P04",
+            "text": "Ele justificou o contraste dizendo que eles falavam e não faziam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele justificou o contraste dizendo que eles falavam e não faziam."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus os acusou de pôr cargas difíceis nos ombros alheios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os acusou de pôr cargas difíceis nos ombros alheios."
+          },
+          {
+            "id": "P06",
+            "text": "Segundo a acusação, eles não queriam mover essas cargas nem com um dedo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo a acusação, eles não queriam mover essas cargas nem com um dedo."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus afirmou que eles praticavam obras com a finalidade de serem vistos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que eles praticavam obras com a finalidade de serem vistos."
+          },
+          {
+            "id": "P08",
+            "text": "Ele disse que alargavam filactérios e alongavam franjas das capas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que alargavam filactérios e alongavam franjas das capas."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus atribuiu a eles preferência pelos primeiros lugares nos banquetes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a eles preferência pelos primeiros lugares nos banquetes."
+          },
+          {
+            "id": "P10",
+            "text": "Também lhes atribuiu preferência pelas primeiras cadeiras nas sinagogas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também lhes atribuiu preferência pelas primeiras cadeiras nas sinagogas."
+          },
+          {
+            "id": "P11",
+            "text": "Segundo Jesus, eles gostavam de saudações nas praças e do título de mestre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, eles gostavam de saudações nas praças e do título de mestre."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus declarou que os seus ouvintes eram irmãos e tinham um só Mestre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou que os seus ouvintes eram irmãos e tinham um só Mestre."
+          },
+          {
+            "id": "P13",
+            "text": "Ele orientou que ninguém na terra fosse chamado de pai, pois um só era o Pai celestial.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele orientou que ninguém na terra fosse chamado de pai, pois um só era o Pai celestial."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus disse que um só era o Guia deles: o Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que um só era o Guia deles: o Cristo."
+          },
+          {
+            "id": "P15",
+            "text": "Ele apresentou o maior como servo dos demais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele apresentou o maior como servo dos demais."
+          },
+          {
+            "id": "P16",
+            "text": "Segundo Jesus, quem se exalta será humilhado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, quem se exalta será humilhado."
+          },
+          {
+            "id": "P17",
+            "text": "Segundo Jesus, quem se humilha será exaltado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, quem se humilha será exaltado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 23.1-12 atribui a Jesus uma censura às obras e à busca de destaque, seguida de orientações sobre títulos, serviço e humildade.",
+        "hinge": "Cargas, títulos e posições são elementos da censura e do ensino de Jesus; a pauta não os converte em descrição geral de qualquer grupo.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-ais-juramentos": {
+      "id": "nt2-mateus-ais-juramentos",
+      "kind": "canonical-case",
+      "title": "Advertências e juramentos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 23.13-22",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.13-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "A quem Jesus dirigiu os ais, que efeitos denunciou e como respondeu às distinções sobre juramentos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica os destinatários e o contraste central; os demais distinguem ações, títulos e conclusão do discurso.",
+      "editorial": {
+        "hinge": "As denúncias pertencem ao discurso de Jesus; Mt 23.14, marcado entre colchetes pela edição consultada, não foi usado como pista nem gabarito."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A quem os ais foram dirigidos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Aos escribas e fariseus chamados de hipócritas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "À multidão e aos discípulos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Aos sete irmãos saduceus"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Aos convidados de uma festa"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Aos escribas e fariseus chamados de hipócritas",
+          "enderecoNAA": "Mateus 23.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus disse que eles fechavam diante das pessoas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O Reino dos Céus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "As portas do santuário"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "As casas das viúvas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "As estradas da Judeia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O Reino dos Céus",
+          "enderecoNAA": "Mateus 23.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que elementos aparecem na primeira distinção de juramentos criticada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Santuário e ouro do santuário"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Copo e prato"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Mosquito e camelo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Profetas e sepulcros"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Santuário e ouro do santuário",
+          "enderecoNAA": "Mateus 23.16-17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A que o juramento pelo céu foi ligado por Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao trono de Deus e àquele que nele está sentado"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente às nuvens"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Ao altar e à oferta"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "À cadeira de Moisés"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao trono de Deus e àquele que nele está sentado",
+          "enderecoNAA": "Mateus 23.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chamou escribas e fariseus de hipócritas ao pronunciar o primeiro ai deste trecho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou escribas e fariseus de hipócritas ao pronunciar o primeiro ai deste trecho."
+          },
+          {
+            "id": "P02",
+            "text": "Ele os acusou de fechar o Reino dos Céus diante das pessoas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os acusou de fechar o Reino dos Céus diante das pessoas."
+          },
+          {
+            "id": "P03",
+            "text": "Segundo Jesus, eles próprios não entravam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, eles próprios não entravam."
+          },
+          {
+            "id": "P04",
+            "text": "Ele acrescentou que eles não permitiam a entrada dos que estavam entrando.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele acrescentou que eles não permitiam a entrada dos que estavam entrando."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus disse que eles atravessavam mar e terra para fazer um prosélito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que eles atravessavam mar e terra para fazer um prosélito."
+          },
+          {
+            "id": "P06",
+            "text": "Ele afirmou que o convertido se tornava duas vezes mais filho do inferno do que eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que o convertido se tornava duas vezes mais filho do inferno do que eles."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus chamou de guias cegos os autores das distinções sobre juramentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou de guias cegos os autores das distinções sobre juramentos."
+          },
+          {
+            "id": "P08",
+            "text": "A fala criticada dispensava o juramento pelo santuário e obrigava pelo ouro dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala criticada dispensava o juramento pelo santuário e obrigava pelo ouro dele."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus contrapôs o ouro ao santuário que o santifica.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrapôs o ouro ao santuário que o santifica."
+          },
+          {
+            "id": "P10",
+            "text": "Outra fala criticada dispensava o juramento pelo altar e obrigava pela oferta sobre ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra fala criticada dispensava o juramento pelo altar e obrigava pela oferta sobre ele."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus contrapôs a oferta ao altar que a santifica.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrapôs a oferta ao altar que a santifica."
+          },
+          {
+            "id": "P12",
+            "text": "Segundo Jesus, jurar pelo altar inclui o altar e tudo o que está sobre ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, jurar pelo altar inclui o altar e tudo o que está sobre ele."
+          },
+          {
+            "id": "P13",
+            "text": "Jurar pelo santuário inclui o santuário e aquele que nele habita.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jurar pelo santuário inclui o santuário e aquele que nele habita."
+          },
+          {
+            "id": "P14",
+            "text": "Jurar pelo céu inclui o trono de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jurar pelo céu inclui o trono de Deus."
+          },
+          {
+            "id": "P15",
+            "text": "A mesma fala inclui aquele que está sentado no trono.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma fala inclui aquele que está sentado no trono."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 23.13-22 reúne ais pronunciados por Jesus e sua resposta às distinções de juramento atribuídas aos guias censurados.",
+        "hinge": "As denúncias pertencem ao discurso de Jesus; Mt 23.14, marcado entre colchetes pela edição consultada, não foi usado como pista nem gabarito.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.13-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-ais-dizimo-aparencias": {
+      "id": "nt2-mateus-ais-dizimo-aparencias",
+      "kind": "canonical-case",
+      "title": "Dízimo, limpeza e aparências",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 23.23-28",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.23-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais prioridades, imagens e contrastes Jesus usou na censura dos escribas e fariseus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica os destinatários e o contraste central; os demais distinguem ações, títulos e conclusão do discurso.",
+      "editorial": {
+        "hinge": "As imagens e acusações são explicitamente atribuídas a Jesus e não recebem equivalências morais externas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quais preceitos Jesus chamou de mais importantes",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Justiça, misericórdia e fé"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Ouro, oferta e altar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Saudações, lugares e cadeiras"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Hortelã, endro e cominho"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Justiça, misericórdia e fé",
+          "enderecoNAA": "Mateus 23.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que contraste de animais Jesus apresentou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Coar um mosquito e engolir um camelo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ajuntar pintinhos e afastar uma galinha"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Criar ovelhas e perder cabritos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Soltar pombas e prender serpentes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Coar um mosquito e engolir um camelo",
+          "enderecoNAA": "Mateus 23.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que deveria ser limpo primeiro na imagem do copo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O interior"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A borda"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O prato ao lado"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A mesa inteira"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O interior",
+          "enderecoNAA": "Mateus 23.25-26",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.25-26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A que Jesus comparou os censurados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A sepulcros pintados de branco"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A redes cheias de peixes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A sementes em terra boa"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A trabalhadores de uma vinha"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A sepulcros pintados de branco",
+          "enderecoNAA": "Mateus 23.27-28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.27-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus acusou os escribas e fariseus de dar o dízimo da hortelã.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus acusou os escribas e fariseus de dar o dízimo da hortelã."
+          },
+          {
+            "id": "P02",
+            "text": "Na mesma lista, ele mencionou o endro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na mesma lista, ele mencionou o endro."
+          },
+          {
+            "id": "P03",
+            "text": "A lista do dízimo também incluiu o cominho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista do dízimo também incluiu o cominho."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus disse que eles desprezavam preceitos mais importantes da Lei.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que eles desprezavam preceitos mais importantes da Lei."
+          },
+          {
+            "id": "P05",
+            "text": "Ele nomeou justiça, misericórdia e fé como esses preceitos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele nomeou justiça, misericórdia e fé como esses preceitos."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus disse que estas coisas deveriam ser feitas sem omitir aquelas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que estas coisas deveriam ser feitas sem omitir aquelas."
+          },
+          {
+            "id": "P07",
+            "text": "Ele os chamou de guias cegos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os chamou de guias cegos."
+          },
+          {
+            "id": "P08",
+            "text": "Na imagem usada por Jesus, eles coavam um mosquito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na imagem usada por Jesus, eles coavam um mosquito."
+          },
+          {
+            "id": "P09",
+            "text": "Na mesma imagem, eles engoliam um camelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na mesma imagem, eles engoliam um camelo."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus disse que limpavam a parte externa do copo e do prato.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que limpavam a parte externa do copo e do prato."
+          },
+          {
+            "id": "P11",
+            "text": "Ele afirmou que por dentro estavam cheios de roubo e glutonaria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que por dentro estavam cheios de roubo e glutonaria."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus ordenou ao fariseu cego que limpasse primeiro o interior do copo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou ao fariseu cego que limpasse primeiro o interior do copo."
+          },
+          {
+            "id": "P13",
+            "text": "A finalidade declarada era que o exterior também ficasse limpo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A finalidade declarada era que o exterior também ficasse limpo."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus os comparou a sepulcros pintados de branco.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os comparou a sepulcros pintados de branco."
+          },
+          {
+            "id": "P15",
+            "text": "Na comparação, os sepulcros pareciam belos por fora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, os sepulcros pareciam belos por fora."
+          },
+          {
+            "id": "P16",
+            "text": "Por dentro, a imagem continha ossos de mortos e podridão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por dentro, a imagem continha ossos de mortos e podridão."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus aplicou o contraste dizendo que eles pareciam justos aos olhos dos outros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus aplicou o contraste dizendo que eles pareciam justos aos olhos dos outros."
+          },
+          {
+            "id": "P18",
+            "text": "Segundo a denúncia de Jesus, interiormente estavam cheios de hipocrisia e maldade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo a denúncia de Jesus, interiormente estavam cheios de hipocrisia e maldade."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 23.23-28 registra censuras de Jesus por prioridades omitidas e usa as imagens do mosquito e camelo, do copo e dos sepulcros.",
+        "hinge": "As imagens e acusações são explicitamente atribuídas a Jesus e não recebem equivalências morais externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.23-28",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-profetas-lamento-jerusalem": {
+      "id": "nt2-mateus-profetas-lamento-jerusalem",
+      "kind": "canonical-case",
+      "title": "Profetas e lamento sobre Jerusalém",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 23.29-39",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.29-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que declarações Jesus atribuiu aos censurados, que anúncio fez e como lamentou por Jerusalém?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica os destinatários e o contraste central; os demais distinguem ações, títulos e conclusão do discurso.",
+      "editorial": {
+        "hinge": "Hipóteses, acusações, anúncio e imagem permanecem como falas de Jesus em Mateus; nomes e citação não são ampliados pelo Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os censurados diziam sobre os dias de seus pais",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Que não teriam participado da morte dos profetas"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Que teriam fechado o Reino"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Que atravessariam mar e terra"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Que receberiam os enviados"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Que não teriam participado da morte dos profetas",
+          "enderecoNAA": "Mateus 23.29-30",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.29-30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem Jesus disse que enviaria",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Profetas, sábios e escribas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Reis, soldados e cobradores"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Lavradores, servos e convidados"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pescadores, pastores e comerciantes"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Profetas, sábios e escribas",
+          "enderecoNAA": "Mateus 23.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que imagem Jesus usou ao falar de reunir os filhos de Jerusalém",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Uma galinha reunindo pintinhos sob as asas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um pastor carregando uma ovelha"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Um semeador recolhendo sementes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um rei chamando convidados"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Uma galinha reunindo pintinhos sob as asas",
+          "enderecoNAA": "Mateus 23.37",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Jesus afirmou sobre a casa deles",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ficaria deserta"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Seria ampliada"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Receberia sete irmãos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Guardaria o ouro do santuário"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ficaria deserta",
+          "enderecoNAA": "Mateus 23.38",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus disse que eles edificavam sepulcros dos profetas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que eles edificavam sepulcros dos profetas."
+          },
+          {
+            "id": "P02",
+            "text": "Ele afirmou que enfeitavam túmulos dos justos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele afirmou que enfeitavam túmulos dos justos."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus atribuiu a eles a hipótese de não terem sido cúmplices da morte dos profetas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a eles a hipótese de não terem sido cúmplices da morte dos profetas."
+          },
+          {
+            "id": "P04",
+            "text": "Segundo Jesus, essa fala testemunhava contra eles próprios.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, essa fala testemunhava contra eles próprios."
+          },
+          {
+            "id": "P05",
+            "text": "Ele os chamou de filhos dos que mataram os profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os chamou de filhos dos que mataram os profetas."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus os chamou de serpentes e raça de víboras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os chamou de serpentes e raça de víboras."
+          },
+          {
+            "id": "P07",
+            "text": "Ele perguntou como esperavam escapar da condenação do inferno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou como esperavam escapar da condenação do inferno."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus anunciou que lhes enviaria profetas, sábios e escribas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou que lhes enviaria profetas, sábios e escribas."
+          },
+          {
+            "id": "P09",
+            "text": "Segundo o anúncio, alguns seriam mortos e outros crucificados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo o anúncio, alguns seriam mortos e outros crucificados."
+          },
+          {
+            "id": "P10",
+            "text": "Outros seriam açoitados nas sinagogas e perseguidos de cidade em cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outros seriam açoitados nas sinagogas e perseguidos de cidade em cidade."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus situou o sangue mencionado entre Abel e Zacarias, filho de Baraquias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus situou o sangue mencionado entre Abel e Zacarias, filho de Baraquias."
+          },
+          {
+            "id": "P12",
+            "text": "Ele disse que Zacarias foi morto entre o santuário e o altar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que Zacarias foi morto entre o santuário e o altar."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus afirmou que essas coisas viriam sobre aquela geração.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que essas coisas viriam sobre aquela geração."
+          },
+          {
+            "id": "P14",
+            "text": "No lamento, Jesus se dirigiu diretamente a Jerusalém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No lamento, Jesus se dirigiu diretamente a Jerusalém."
+          },
+          {
+            "id": "P15",
+            "text": "Ele atribuiu à cidade a morte de profetas e o apedrejamento de enviados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele atribuiu à cidade a morte de profetas e o apedrejamento de enviados."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus disse que quis reunir os filhos dela muitas vezes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que quis reunir os filhos dela muitas vezes."
+          },
+          {
+            "id": "P17",
+            "text": "A comparação foi com uma galinha reunindo pintinhos sob as asas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação foi com uma galinha reunindo pintinhos sob as asas."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus afirmou que eles não quiseram ser reunidos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que eles não quiseram ser reunidos."
+          },
+          {
+            "id": "P19",
+            "text": "Ele anunciou que a casa deles ficaria deserta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele anunciou que a casa deles ficaria deserta."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus disse que não o veriam até declararem bendito o que vem em nome do Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explícita e atribuída do discurso em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que não o veriam até declararem bendito o que vem em nome do Senhor."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 23.29-39 atribui a Jesus denúncias e anúncios sobre profetas, seguidos de seu lamento dirigido a Jerusalém.",
+        "hinge": "Hipóteses, acusações, anúncio e imagem permanecem como falas de Jesus em Mateus; nomes e citação não são ampliados pelo Antigo Testamento.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "23.29-39",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

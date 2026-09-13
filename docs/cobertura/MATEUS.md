@@ -285,3 +285,23 @@ Em 13/09/2026, a página `https://www.bible.com/pt/bible/1840/MAT.22.NAA` foi no
 | Mt 22.41-46 — Cristo e Davi | tema → Cristo (41-42; reunião/perguntas); resposta → filho de Davi (42); designação → Senhor pelo Espírito (43-45; atribuição/citação/impasse); desfecho → silêncio e fim das perguntas (46; duas reações) | **Autorada** em `nt2-mateus-cristo-davi`, 10 pistas, capacidade 4. A citação permanece dentro do argumento de Jesus, sem contexto externo. |
 
 Foram anexadas **quatro pautas/56 pistas**, com capacidades 7, 9, 4 e 4 pela fórmula `min(12, floor((pistas-1)/2))`. Os 236 objetos anteriores permaneceram na mesma ordem e serializaram identicamente. Todas as unidades inventariadas de Mt 21–22 têm agora decisão, mas isso não declara exaustividade futura nem completa Mateus ou o banco: **Mt 23–25 permanece posterior**.
+
+## Inventário individual de Mateus 23 — checkpoint 077
+
+Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.23.NAA` foi obtida (HTTP 200; 354.533 bytes) e lida integralmente. A comparação prévia pesquisou campos, perguntas, pistas, referências e paralelos nos **240 objetos/4.693 pistas**; não havia referência geral a Mt 23. O capítulo foi inventariado sem transformar as denúncias de Jesus em generalizações sobre grupos, sem explicar externamente suas imagens e sem importar as referências do Antigo Testamento exibidas pela página.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 23.1-12 — obras, títulos, serviço e humildade | **Autorada** em `nt2-mateus-escribas-obras-titulos`, 17 pistas, capacidade 8. Cadeira, fardos, filactérios, franjas e títulos permanecem elementos do discurso de Jesus. O paralelo de serviço já presente em Mt 20 não recebeu harmonização. |
+| Mt 23.13 — fechamento do Reino | **Autorada** como abertura de `nt2-mateus-ais-juramentos`; a ação é denúncia atribuída a Jesus. |
+| Mt 23.14 — texto entre colchetes na NAA consultada | **Não autorada e mantida fora deste banco**, preservando o tratamento editorial definitivo de passagens sinalizadas pela edição. Nenhum fato do verso aparece em pista, campo ou gabarito. |
+| Mt 23.15 — prosélito | **Autorada** na pauta dos ais; mar, terra e resultado denunciado ficam atribuídos a Jesus, sem descrição externa do grupo. |
+| Mt 23.16-22 — distinções sobre juramentos | **Autorada** na mesma pauta, que totaliza 15 pistas e capacidade 7. As falas censuradas e as respostas de Jesus são distinguidas; notas e alusões ao AT não foram importadas. |
+| Mt 23.23-24 — dízimo, prioridades e animais | **Autorada** em `nt2-mateus-ais-dizimo-aparencias`; a lista e mosquito/camelo permanecem no discurso. |
+| Mt 23.25-26 — copo e prato | **Autorada** na mesma pauta; interior/exterior são componentes da imagem textual, sem equivalência acrescentada. |
+| Mt 23.27-28 — sepulcros e aparência | **Autorada** na mesma pauta, que totaliza 18 pistas e capacidade 8; beleza, ossos, podridão, justiça aparente, hipocrisia e maldade são comparações ou denúncias de Jesus. |
+| Mt 23.29-32 — túmulos, hipótese e testemunho | **Autorada** em `nt2-mateus-profetas-lamento-jerusalem`; a declaração contrafactual fica atribuída aos censurados e a conclusão, a Jesus. |
+| Mt 23.33-36 — enviados e anúncio | **Autorada** na mesma pauta. Os nomes Abel e Zacarias e os acontecimentos anunciados ficam nos limites da fala registrada por Mateus; nenhuma narrativa do AT foi incorporada. |
+| Mt 23.37-39 — lamento sobre Jerusalém | **Autorada** na mesma pauta, que totaliza 20 pistas e capacidade 9. A imagem da galinha, a recusa, a casa deserta e a declaração final permanecem falas de Jesus, sem harmonização com Lucas nem expansão da citação. |
+
+Foram anexadas **quatro pautas/70 pistas**, com capacidades 8, 7, 8 e 9 pela fórmula `min(12, floor((pistas-1)/2))`; quantidade e capacidade não foram usadas como meta. Os 240 objetos anteriores foram preservados na mesma ordem e serializaram identicamente. Todas as unidades de Mt 23 têm decisão explícita neste inventário, inclusive o verso 14 sinalizado; **Mt 24–25 permanece posterior**. Dúvidas de 1Co e exclusões definitivas continuam intactas, e o banco não é declarado completo.

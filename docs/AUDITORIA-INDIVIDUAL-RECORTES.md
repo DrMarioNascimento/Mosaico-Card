@@ -541,3 +541,9 @@ A leitura exclusiva das duas páginas NAA Bible.com 1840 inventariou todas as un
 ## Checkpoint 076 — quatro pendências finais de Mt 22
 
 A reconsulta NAA exclusiva de Mt 22.15-46 e a comparação de campos/pistas reais sustentaram quatro pautas independentes: tributo (16 pistas; capacidade 7), ressurreição (20; 9), grande mandamento (10; 4) e Cristo/Davi (10; 4). Hipótese, citações e perguntas permanecem atribuídas aos agentes do texto; nenhum conteúdo do AT ou paralelo sinótico foi importado. O banco passa a **240 pautas/4.693 pistas**, com os 236 objetos anteriores preservados serializadamente. Mt 23–25 permanece posterior; o banco não está completo.
+
+## Checkpoint 077 — inventário individual de Mateus 23
+
+Somente a página NAA Bible.com 1840 de Mateus 23 foi obtida (HTTP 200; 354.533 bytes), lida integralmente e comparada aos **240 objetos/4.693 pistas**. Todas as unidades receberam decisão individual na ficha de Mateus. Quatro pautas sustentadas foram anexadas: obras/títulos/serviço (17 pistas; capacidade 8), ais/juramentos (15; 7), dízimo/aparências (18; 8) e profetas/lamento (20; 9). Mt 23.14, exibido entre colchetes pela NAA consultada, não foi usado em pista, campo ou gabarito.
+
+A comparação serializada confirmou os **240 objetos anteriores byte-equivalentes por `JSON.stringify`**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **244 pautas/976 campos/4.763 pistas**, todas elegíveis. Denúncias, hipóteses, anúncios, citações e imagens permanecem atribuídos ao discurso/texto de Mateus, sem generalização, importação do AT ou harmonização de paralelos. Mt 24–25 e as pendências concretas dos demais livros permanecem posteriores; dúvidas de 1Co e exclusões definitivas foram preservadas. Testes não declaram o banco completo, e não houve merge, deploy, publicação, Firebase ou credenciais.
