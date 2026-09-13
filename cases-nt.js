@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-096-marcos-5-6",
+  "catalogVersion": "checkpoint-097-marcos-7-8",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 300,
-    "fields": 1200,
-    "editoriallyEligibleCases": 300,
-    "playableCases": 300,
+    "cases": 304,
+    "fields": 1216,
+    "editoriallyEligibleCases": 304,
+    "playableCases": 304,
     "max12Cases": 97
   },
   "order": [
@@ -316,7 +316,11 @@
     "nt2-marcos-terra-incredulidade-ensino",
     "nt2-marcos-repouso-multidao-paes",
     "nt2-marcos-mar-vento-paes-coracao",
-    "nt2-marcos-genesare-leitos-pracas"
+    "nt2-marcos-genesare-leitos-pracas",
+    "nt2-marcos-tradicao-corba-pais",
+    "nt2-marcos-dentro-coracao-contaminacao",
+    "nt2-marcos-sinal-gemido-partida",
+    "nt2-marcos-fermento-paes-cestos"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -206949,6 +206953,2397 @@
             "passage": "6.53-56",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-tradicao-corba-pais": {
+      "id": "nt2-marcos-tradicao-corba-pais",
+      "kind": "canonical-case",
+      "title": "Tradição, Corbã e o dever para com os pais",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 7.1-13",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUANDO"
+        ]
+      },
+      "prompt": {
+        "question": "O que motivou a pergunta sobre os discípulos, qual contraste Jesus apresentou, que declaração exemplificou a tradição e qual efeito ele denunciou?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A declaração de Corbã particulariza o exemplo usado por Jesus; observação inicial, contraste e efeito completam o argumento atribuído.",
+      "editorial": {
+        "hinge": "Citações e acusações permanecem atribuídas a Jesus; as referências cruzadas exibidas pela página não completam o conteúdo da pauta."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Declaração usada no exemplo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A ajuda aos pais é Corbã, isto é, oferta ao Senhor"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A lavagem das mãos é Efatá"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O bordão é oferta aos anciãos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O pão dos discípulos é sinal do céu"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A ajuda aos pais é Corbã, isto é, oferta ao Senhor",
+          "enderecoNAA": "Marcos 7.10-12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.10-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Observação que motivou a pergunta",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Alguns discípulos comiam pão sem lavar as mãos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos colhiam espigas no sábado"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A multidão comia sem repartir os peixes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os escribas entravam em casas sem sandálias"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Alguns discípulos comiam pão sem lavar as mãos",
+          "enderecoNAA": "Marcos 7.1-5",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.1-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Contraste apresentado por Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Mandamento de Deus e tradição humana"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Templo de Jerusalém e sinagoga da Galileia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Jejum dos discípulos e banquete de Herodes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pães dos filhos e migalhas dos cachorrinhos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Mandamento de Deus e tradição humana",
+          "enderecoNAA": "Marcos 7.6-9",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.6-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Efeito denunciado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Invalidar a palavra de Deus pela tradição transmitida"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Confirmar o mandamento pela lavagem de copos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Multiplicar ofertas para auxiliar os pais"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Encerrar todas as tradições na praça"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Invalidar a palavra de Deus pela tradição transmitida",
+          "enderecoNAA": "Marcos 7.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Fariseus e escribas vindos de Jerusalém se reuniram em volta de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fariseus e escribas vindos de Jerusalém se reuniram em volta de Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Eles viram alguns discípulos comerem pão com mãos impuras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles viram alguns discípulos comerem pão com mãos impuras."
+          },
+          {
+            "id": "P03",
+            "text": "O próprio texto explica mãos impuras como mãos sem lavar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O próprio texto explica mãos impuras como mãos sem lavar."
+          },
+          {
+            "id": "P04",
+            "text": "A tradição dos anciãos incluía lavar cuidadosamente as mãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A tradição dos anciãos incluía lavar cuidadosamente as mãos."
+          },
+          {
+            "id": "P05",
+            "text": "Ao voltar da praça, a lavagem precedia a refeição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao voltar da praça, a lavagem precedia a refeição."
+          },
+          {
+            "id": "P06",
+            "text": "Copos, jarros, vasos de metal e camas aparecem numa lista de lavagens recebidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Copos, jarros, vasos de metal e camas aparecem numa lista de lavagens recebidas."
+          },
+          {
+            "id": "P07",
+            "text": "A pergunta acusou os discípulos de não viverem conforme a tradição dos anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta acusou os discípulos de não viverem conforme a tradição dos anciãos."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus atribuiu a Isaías a descrição de honra com lábios e coração distante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu a Isaías a descrição de honra com lábios e coração distante."
+          },
+          {
+            "id": "P09",
+            "text": "A fala citada relaciona adoração vã a preceitos humanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala citada relaciona adoração vã a preceitos humanos."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus contrapôs o mandamento de Deus à tradição humana.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrapôs o mandamento de Deus à tradição humana."
+          },
+          {
+            "id": "P11",
+            "text": "Ele acusou os interlocutores de rejeitar o mandamento para guardar a tradição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele acusou os interlocutores de rejeitar o mandamento para guardar a tradição."
+          },
+          {
+            "id": "P12",
+            "text": "A fala atribuída a Moisés manda honrar pai e mãe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala atribuída a Moisés manda honrar pai e mãe."
+          },
+          {
+            "id": "P13",
+            "text": "Também cita punição para quem maldisser pai ou mãe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também cita punição para quem maldisser pai ou mãe."
+          },
+          {
+            "id": "P14",
+            "text": "Corbã é explicado no recorte como oferta ao Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Corbã é explicado no recorte como oferta ao Senhor."
+          },
+          {
+            "id": "P15",
+            "text": "A declaração Corbã atingia ajuda que pai ou mãe poderia receber.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A declaração Corbã atingia ajuda que pai ou mãe poderia receber."
+          },
+          {
+            "id": "P16",
+            "text": "Com isso, dispensavam a pessoa de agir em favor dos pais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Com isso, dispensavam a pessoa de agir em favor dos pais."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus disse que assim invalidavam a palavra de Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que assim invalidavam a palavra de Deus."
+          },
+          {
+            "id": "P18",
+            "text": "A tradição era transmitida de pai para filho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A tradição era transmitida de pai para filho."
+          },
+          {
+            "id": "P19",
+            "text": "Muitas outras práticas semelhantes foram mencionadas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitas outras práticas semelhantes foram mencionadas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 7.1-13 registra a controvérsia sobre mãos sem lavar e a resposta de Jesus, que contrasta mandamento de Deus e tradição humana por meio do exemplo de Corbã.",
+        "hinge": "Citações e acusações permanecem atribuídas a Jesus; as referências cruzadas exibidas pela página não completam o conteúdo da pauta.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-dentro-coracao-contaminacao": {
+      "id": "nt2-marcos-dentro-coracao-contaminacao",
+      "kind": "canonical-case",
+      "title": "O que entra, o que sai e o coração",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 7.14-15,17-23",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.14-15,17-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUANDO"
+        ]
+      },
+      "prompt": {
+        "question": "Que contraste Jesus apresentou à multidão, onde explicou aos discípulos, qual origem atribuiu aos males e que conclusão repetiu?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A origem interior no coração organiza a lista factual; contraste público, explicação privada e conclusão delimitam a fala sem usar o verso textual ressalvado.",
+      "editorial": {
+        "hinge": "Mc 7.16 fica isolado desta pauta porque aparece entre colchetes com nota textual na NAA; nenhuma decisão sobre sua inclusão foi presumida e os versos independentes sustentam todos os campos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Origem atribuída aos males enumerados",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De dentro, do coração das pessoas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Dos alimentos que chegam ao estômago"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Da água usada na lavagem dos vasos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Da multidão reunida fora da casa"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De dentro, do coração das pessoas",
+          "enderecoNAA": "Marcos 7.21-22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.21-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Contraste dito à multidão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O que entra de fora não contamina; o que sai da pessoa contamina"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A tradição contamina, mas toda palavra externa purifica"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Somente mãos sem lavar contaminam o coração"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Alimentos contaminam, mas pensamentos não"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O que entra de fora não contamina; o que sai da pessoa contamina",
+          "enderecoNAA": "Marcos 7.14-15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Cenário da explicação posterior",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Em casa, após deixar a multidão, aos discípulos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Na praça, diante dos fariseus de Jerusalém"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "No barco, ao atravessar para Dalmanuta"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Em Decápolis, somente ao homem curado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Em casa, após deixar a multidão, aos discípulos",
+          "enderecoNAA": "Marcos 7.17-20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.17-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Conclusão sobre os males listados",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vêm de dentro e contaminam a pessoa"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Vêm da praça e contaminam os alimentos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Procedem dos discípulos e purificam a pessoa"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "São tradições que substituem todas as palavras"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vêm de dentro e contaminam a pessoa",
+          "enderecoNAA": "Marcos 7.23",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "7.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus convocou novamente a multidão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus convocou novamente a multidão."
+          },
+          {
+            "id": "P02",
+            "text": "Mandou todos escutarem e entenderem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mandou todos escutarem e entenderem."
+          },
+          {
+            "id": "P03",
+            "text": "A fala nega que algo externo contamine ao entrar na pessoa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala nega que algo externo contamine ao entrar na pessoa."
+          },
+          {
+            "id": "P04",
+            "text": "A fala afirma que aquilo que sai da pessoa a contamina.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala afirma que aquilo que sai da pessoa a contamina."
+          },
+          {
+            "id": "P05",
+            "text": "Depois Jesus entrou em casa, deixando a multidão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois Jesus entrou em casa, deixando a multidão."
+          },
+          {
+            "id": "P06",
+            "text": "Os discípulos o interrogaram sobre a parábola.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos o interrogaram sobre a parábola."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus perguntou se eles também não entendiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou se eles também não entendiam."
+          },
+          {
+            "id": "P08",
+            "text": "O que entra de fora não chega ao coração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.18-19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que entra de fora não chega ao coração."
+          },
+          {
+            "id": "P09",
+            "text": "O percurso mencionado passa pelo estômago e termina em eliminação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O percurso mencionado passa pelo estômago e termina em eliminação."
+          },
+          {
+            "id": "P10",
+            "text": "O narrador conclui que Jesus considerou puros todos os alimentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O narrador conclui que Jesus considerou puros todos os alimentos."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus repetiu que o que sai da pessoa a contamina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus repetiu que o que sai da pessoa a contamina."
+          },
+          {
+            "id": "P12",
+            "text": "Ele situou os maus pensamentos dentro do coração humano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele situou os maus pensamentos dentro do coração humano."
+          },
+          {
+            "id": "P13",
+            "text": "Imoralidades sexuais, furtos e homicídios integram a enumeração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Imoralidades sexuais, furtos e homicídios integram a enumeração."
+          },
+          {
+            "id": "P14",
+            "text": "Adultérios, avareza e maldades também são enumerados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Adultérios, avareza e maldades também são enumerados."
+          },
+          {
+            "id": "P15",
+            "text": "A lista prossegue com engano, libertinagem e inveja.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista prossegue com engano, libertinagem e inveja."
+          },
+          {
+            "id": "P16",
+            "text": "Blasfêmia, orgulho e falta de juízo encerram a lista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Blasfêmia, orgulho e falta de juízo encerram a lista."
+          },
+          {
+            "id": "P17",
+            "text": "Todos os males enumerados são descritos como vindos de dentro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos os males enumerados são descritos como vindos de dentro."
+          },
+          {
+            "id": "P18",
+            "text": "A conclusão diz que esses males contaminam a pessoa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "7.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão diz que esses males contaminam a pessoa."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 7.14-15,17-23 registra o contraste público entre entrada e saída e a explicação privada que situa no coração a origem dos males enumerados.",
+        "hinge": "Mc 7.16 fica isolado desta pauta porque aparece entre colchetes com nota textual na NAA; nenhuma decisão sobre sua inclusão foi presumida e os versos independentes sustentam todos os campos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "7.14-15,17-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-sinal-gemido-partida": {
+      "id": "nt2-marcos-sinal-gemido-partida",
+      "kind": "canonical-case",
+      "title": "O pedido de sinal e a partida",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.11-13",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.11-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem discutiu com Jesus, o que pediu, como ele reagiu e que decisão tomou em seguida?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O pedido de sinal vindo do céu concentra o confronto; intenção, reação e partida formam quatro respostas explícitas.",
+      "editorial": {
+        "hinge": "A intenção é atribuída pelo narrador e a negativa permanece fala de Jesus; referências cruzadas não fornecem outro sinal ou explicação."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Pedido apresentado para tentar Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um sinal vindo do céu"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Sete cestos de pão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma cura fora da aldeia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Uma explicação sobre Corbã"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um sinal vindo do céu",
+          "enderecoNAA": "Marcos 8.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Interlocutores no confronto",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os fariseus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os habitantes de Betsaida"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os principais sacerdotes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os fariseus",
+          "enderecoNAA": "Marcos 8.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Reação antes da resposta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Gemeu profundamente em seu espírito"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Lavou cuidadosamente as mãos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Chamou a multidão para uma refeição"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Impôs as mãos sobre um enfermo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Gemeu profundamente em seu espírito",
+          "enderecoNAA": "Marcos 8.12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Decisão depois de negar o sinal",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Deixou-os, embarcou e foi para o outro lado"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Permaneceu discutindo em Dalmanuta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Enviou os fariseus de dois em dois"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Voltou a pé para Jerusalém"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Deixou-os, embarcou e foi para o outro lado",
+          "enderecoNAA": "Marcos 8.12-13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os fariseus chegaram até Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus chegaram até Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Eles começaram a discutir com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles começaram a discutir com ele."
+          },
+          {
+            "id": "P03",
+            "text": "O narrador atribui ao pedido a intenção de tentar Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O narrador atribui ao pedido a intenção de tentar Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "O pedido era por um sinal vindo do céu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido era por um sinal vindo do céu."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus gemeu profundamente em seu espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus gemeu profundamente em seu espírito."
+          },
+          {
+            "id": "P06",
+            "text": "Ele perguntou por que aquela geração pedia um sinal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou por que aquela geração pedia um sinal."
+          },
+          {
+            "id": "P07",
+            "text": "Declarou que nenhum sinal seria dado àquela geração.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Declarou que nenhum sinal seria dado àquela geração."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus os deixou, tornou a embarcar e seguiu para o outro lado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os deixou, tornou a embarcar e seguiu para o outro lado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.11-13 registra a discussão iniciada pelos fariseus, o pedido de um sinal vindo do céu para tentar Jesus, seu gemido e sua partida de barco.",
+        "hinge": "A intenção é atribuída pelo narrador e a negativa permanece fala de Jesus; referências cruzadas não fornecem outro sinal ou explicação.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.11-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-fermento-paes-cestos": {
+      "id": "nt2-marcos-fermento-paes-cestos",
+      "kind": "canonical-case",
+      "title": "Um pão, dois fermentos e os cestos lembrados",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.14-21",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.14-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "O que os discípulos esqueceram, contra quais fermentos Jesus os advertiu, como interpretaram a fala e que números recordaram?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "Os números doze e sete conectam as duas refeições lembradas à incompreensão; pão disponível, advertência e interpretação equivocada completam o diálogo.",
+      "editorial": {
+        "hinge": "Fermento permanece termo da advertência de Jesus sem identificação externa; a interpretação sobre falta de pão é atribuída aos discípulos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Cestos recordados nas duas perguntas",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Doze após cinco pães; sete após sete pães"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Sete após cinco pães; doze após sete pães"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cinco nas duas refeições"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Um depois da primeira e nenhum depois da segunda"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Doze após cinco pães; sete após sete pães",
+          "enderecoNAA": "Marcos 8.18-20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.18-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Situação do pão no barco",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Esqueceram de levar e tinham somente um pão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Levaram sete pães e doze cestos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Não tinham pão porque o deram aos fariseus"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Encontraram cinco pães ao chegar a Betsaida"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Esqueceram de levar e tinham somente um pão",
+          "enderecoNAA": "Marcos 8.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Advertência de Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Cuidado com o fermento dos fariseus e o de Herodes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cuidado com as migalhas dos filhos e cachorrinhos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cuidado com a tradição dos anciãos e as camas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Cuidado com os peixes e a relva verde"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Cuidado com o fermento dos fariseus e o de Herodes",
+          "enderecoNAA": "Marcos 8.15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Interpretação discutida pelos discípulos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Jesus falava porque eles não tinham pão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Jesus pedia um sinal vindo do céu"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Jesus mandava voltar para Dalmanuta"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Jesus proibia recordar as multidões"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Jesus falava porque eles não tinham pão",
+          "enderecoNAA": "Marcos 8.16-17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os discípulos se esqueceram de levar pão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se esqueceram de levar pão."
+          },
+          {
+            "id": "P02",
+            "text": "No barco havia somente um pão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No barco havia somente um pão."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus mandou que ficassem atentos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou que ficassem atentos."
+          },
+          {
+            "id": "P04",
+            "text": "A advertência mencionou o fermento dos fariseus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A advertência mencionou o fermento dos fariseus."
+          },
+          {
+            "id": "P05",
+            "text": "Também mencionou o fermento de Herodes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também mencionou o fermento de Herodes."
+          },
+          {
+            "id": "P06",
+            "text": "Os discípulos discutiram entre si.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos discutiram entre si."
+          },
+          {
+            "id": "P07",
+            "text": "Eles relacionaram a fala à falta de pão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles relacionaram a fala à falta de pão."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus percebeu a discussão deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus percebeu a discussão deles."
+          },
+          {
+            "id": "P09",
+            "text": "Perguntou por que discutiam por não terem pão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Perguntou por que discutiam por não terem pão."
+          },
+          {
+            "id": "P10",
+            "text": "Também perguntou se ainda não percebiam nem compreendiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também perguntou se ainda não percebiam nem compreendiam."
+          },
+          {
+            "id": "P11",
+            "text": "O coração endurecido apareceu numa pergunta de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O coração endurecido apareceu numa pergunta de Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Olhos, ouvidos e memória foram mencionados em novas perguntas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Olhos, ouvidos e memória foram mencionados em novas perguntas."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus recordou os cinco pães repartidos para cinco mil.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus recordou os cinco pães repartidos para cinco mil."
+          },
+          {
+            "id": "P14",
+            "text": "A resposta sobre aquela sobra foi doze cestos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta sobre aquela sobra foi doze cestos."
+          },
+          {
+            "id": "P15",
+            "text": "Ele recordou também sete pães repartidos para quatro mil.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele recordou também sete pães repartidos para quatro mil."
+          },
+          {
+            "id": "P16",
+            "text": "A resposta sobre a segunda sobra foi sete cestos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta sobre a segunda sobra foi sete cestos."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus encerrou perguntando se ainda não compreendiam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão textual sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus encerrou perguntando se ainda não compreendiam."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.14-21 registra o único pão no barco, a advertência sobre os fermentos dos fariseus e de Herodes e as perguntas que recordam doze e sete cestos.",
+        "hinge": "Fermento permanece termo da advertência de Jesus sem identificação externa; a interpretação sobre falta de pão é atribuída aos discípulos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.14-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
