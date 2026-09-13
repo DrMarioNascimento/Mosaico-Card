@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-086-mateus-26",
+  "catalogVersion": "checkpoint-087-mateus-27",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 277,
-    "fields": 1108,
-    "editoriallyEligibleCases": 277,
-    "playableCases": 277,
+    "cases": 280,
+    "fields": 1120,
+    "editoriallyEligibleCases": 280,
+    "playableCases": 280,
     "max12Cases": 96
   },
   "order": [
@@ -293,7 +293,10 @@
     "nt2-mateus-plano-uncao-betania",
     "nt2-mateus-judas-trinta-moedas-ocasiao",
     "nt2-mateus-pedro-aviso-negacao",
-    "nt2-mateus-sinedrio-negacoes-pedro"
+    "nt2-mateus-sinedrio-negacoes-pedro",
+    "nt2-mateus-judas-remorso-campo-sangue",
+    "nt2-mateus-soldados-manto-coroa",
+    "nt2-mateus-guarda-tumulo"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -192577,6 +192580,1931 @@
             "passage": "26.57-75",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.26.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-judas-remorso-campo-sangue": {
+      "id": "nt2-mateus-judas-remorso-campo-sangue",
+      "kind": "canonical-case",
+      "title": "Remorso de Judas e Campo de Sangue",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 27.1-10",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que aconteceu entre a decisão dos líderes, a devolução das moedas por Judas e a compra do campo do oleiro?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O segundo campo identifica a devolução que liga a reação de Judas às decisões posteriores dos sacerdotes; os demais fixam destino, compra e nome do campo apenas na sequência de Mateus.",
+      "editorial": {
+        "hinge": "Remorso, confissão e respostas são atribuídos aos agentes nomeados por Mateus; a citação profética permanece como citação do documento, sem reconstrução do Antigo Testamento nem harmonização com outro relato."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Judas fez com as trinta moedas de prata",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Devolveu-as aos principais sacerdotes e anciãos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entregou-as aos discípulos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Escondeu-as no templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Comprou com elas um túmulo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Devolveu-as aos principais sacerdotes e anciãos",
+          "enderecoNAA": "Mateus 27.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A quem Jesus foi entregue depois de ser amarrado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Ao governador Pilatos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Ao sumo sacerdote Caifás"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A José de Arimateia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Ao centurião"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Ao governador Pilatos",
+          "enderecoNAA": "Mateus 27.1-2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os líderes compraram com as moedas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O campo do oleiro para cemitério de estrangeiros"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um palácio para o governador"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma casa em Betânia"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Um jardim junto ao templo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O campo do oleiro para cemitério de estrangeiros",
+          "enderecoNAA": "Mateus 27.6-7",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.6-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Nome pelo qual o campo passou a ser conhecido",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Campo de Sangue"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Campo de Trigo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Lugar da Caveira"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Campo do Tesouro"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Campo de Sangue",
+          "enderecoNAA": "Mateus 27.8",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Ao romper do dia, principais sacerdotes e anciãos entraram em conselho contra Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao romper do dia, principais sacerdotes e anciãos entraram em conselho contra Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "A deliberação tinha por finalidade matar Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A deliberação tinha por finalidade matar Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus foi amarrado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi amarrado."
+          },
+          {
+            "id": "P04",
+            "text": "Ele foi levado e entregue ao governador Pilatos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele foi levado e entregue ao governador Pilatos."
+          },
+          {
+            "id": "P05",
+            "text": "Judas viu que Jesus havia sido condenado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas viu que Jesus havia sido condenado."
+          },
+          {
+            "id": "P06",
+            "text": "Mateus afirma que Judas ficou cheio de remorso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus afirma que Judas ficou cheio de remorso."
+          },
+          {
+            "id": "P07",
+            "text": "Ele devolveu as trinta moedas de prata.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele devolveu as trinta moedas de prata."
+          },
+          {
+            "id": "P08",
+            "text": "As moedas foram levadas aos principais sacerdotes e anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As moedas foram levadas aos principais sacerdotes e anciãos."
+          },
+          {
+            "id": "P09",
+            "text": "Judas declarou ter pecado ao entregar sangue inocente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas declarou ter pecado ao entregar sangue inocente."
+          },
+          {
+            "id": "P10",
+            "text": "Os líderes responderam que isso era problema dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes responderam que isso era problema dele."
+          },
+          {
+            "id": "P11",
+            "text": "Judas atirou as moedas para dentro do santuário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judas atirou as moedas para dentro do santuário."
+          },
+          {
+            "id": "P12",
+            "text": "Depois, retirou-se e foi enforcar-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois, retirou-se e foi enforcar-se."
+          },
+          {
+            "id": "P13",
+            "text": "Os sacerdotes recolheram as moedas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os sacerdotes recolheram as moedas."
+          },
+          {
+            "id": "P14",
+            "text": "Eles disseram que era ilícito colocá-las no cofre das ofertas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles disseram que era ilícito colocá-las no cofre das ofertas."
+          },
+          {
+            "id": "P15",
+            "text": "A razão apresentada foi serem preço de sangue.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão apresentada foi serem preço de sangue."
+          },
+          {
+            "id": "P16",
+            "text": "Após deliberarem, compraram o campo do oleiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Após deliberarem, compraram o campo do oleiro."
+          },
+          {
+            "id": "P17",
+            "text": "O campo serviria de cemitério para estrangeiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O campo serviria de cemitério para estrangeiros."
+          },
+          {
+            "id": "P18",
+            "text": "Por isso ele passou a chamar-se Campo de Sangue.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por isso ele passou a chamar-se Campo de Sangue."
+          },
+          {
+            "id": "P19",
+            "text": "Mateus relaciona o acontecimento a uma palavra atribuída ao profeta Jeremias.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus relaciona o acontecimento a uma palavra atribuída ao profeta Jeremias."
+          },
+          {
+            "id": "P20",
+            "text": "A formulação citada menciona trinta moedas de prata.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A formulação citada menciona trinta moedas de prata."
+          },
+          {
+            "id": "P21",
+            "text": "A citação também menciona o campo do oleiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A citação também menciona o campo do oleiro."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 27.1-10 relata a entrega de Jesus a Pilatos, o remorso e a morte de Judas, e a decisão dos sacerdotes de usar as moedas na compra do campo do oleiro, chamado Campo de Sangue.",
+        "hinge": "Remorso, confissão e respostas são atribuídos aos agentes nomeados por Mateus; a citação profética permanece como citação do documento, sem reconstrução do Antigo Testamento nem harmonização com outro relato.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-soldados-manto-coroa": {
+      "id": "nt2-mateus-soldados-manto-coroa",
+      "kind": "canonical-case",
+      "title": "Soldados, manto e coroa de espinhos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 27.27-31",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.27-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde os soldados levaram Jesus, como o vestiram e zombaram dele, e o que fizeram antes de conduzi-lo à crucificação?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O terceiro campo concentra o gesto de zombaria que distingue a unidade; os demais situam local, vestimenta e transição final na redação própria de Mateus.",
+      "editorial": {
+        "hinge": "A pauta registra atos dos soldados como narrados por Mateus e trata a saudação como zombaria; não identifica tropas atuais nem importa cores, objetos ou sequências dos relatos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Objetos usados na encenação diante de Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Coroa de espinhos na cabeça e caniço na mão direita"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ramos nas mãos e pedra aos pés"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Cálice na mão e véu na cabeça"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Espada na mão e moedas na cintura"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Coroa de espinhos na cabeça e caniço na mão direita",
+          "enderecoNAA": "Mateus 27.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar para onde os soldados levaram Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Pretório"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O santuário"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O túmulo novo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A casa de Caifás"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Pretório",
+          "enderecoNAA": "Mateus 27.27",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Peça colocada sobre Jesus depois de o despirem",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um manto escarlate"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um lençol limpo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma túnica branca"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um manto de pelos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um manto escarlate",
+          "enderecoNAA": "Mateus 27.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que fizeram antes de levá-lo para crucificar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Tiraram o manto e vestiram nele as próprias roupas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Deixaram o manto e soltaram-no"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cobriram-no com um lençol"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Levaram-no ainda com a coroa e o caniço"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Tiraram o manto e vestiram nele as próprias roupas",
+          "enderecoNAA": "Mateus 27.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os soldados do governador levaram Jesus ao Pretório.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados do governador levaram Jesus ao Pretório."
+          },
+          {
+            "id": "P02",
+            "text": "Toda a tropa reuniu-se em volta dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a tropa reuniu-se em volta dele."
+          },
+          {
+            "id": "P03",
+            "text": "Os soldados despiram Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados despiram Jesus."
+          },
+          {
+            "id": "P04",
+            "text": "Colocaram sobre ele um manto escarlate.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Colocaram sobre ele um manto escarlate."
+          },
+          {
+            "id": "P05",
+            "text": "Eles trançaram uma coroa de espinhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles trançaram uma coroa de espinhos."
+          },
+          {
+            "id": "P06",
+            "text": "A coroa foi posta na cabeça de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A coroa foi posta na cabeça de Jesus."
+          },
+          {
+            "id": "P07",
+            "text": "Um caniço foi colocado em sua mão direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um caniço foi colocado em sua mão direita."
+          },
+          {
+            "id": "P08",
+            "text": "Os soldados ajoelharam-se diante dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados ajoelharam-se diante dele."
+          },
+          {
+            "id": "P09",
+            "text": "A reverência fazia parte da zombaria narrada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reverência fazia parte da zombaria narrada."
+          },
+          {
+            "id": "P10",
+            "text": "Eles o saudavam como rei dos judeus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles o saudavam como rei dos judeus."
+          },
+          {
+            "id": "P11",
+            "text": "Os soldados cuspiram nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os soldados cuspiram nele."
+          },
+          {
+            "id": "P12",
+            "text": "Tomaram o caniço que havia sido usado na encenação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tomaram o caniço que havia sido usado na encenação."
+          },
+          {
+            "id": "P13",
+            "text": "Bateram com o caniço na cabeça de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Bateram com o caniço na cabeça de Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "Depois da zombaria, tiraram o manto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da zombaria, tiraram o manto."
+          },
+          {
+            "id": "P15",
+            "text": "Vestiram nele as próprias roupas de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Vestiram nele as próprias roupas de Jesus."
+          },
+          {
+            "id": "P16",
+            "text": "Então o levaram para ser crucificado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Então o levaram para ser crucificado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 27.27-31 situa Jesus no Pretório, cercado pela tropa, vestido com manto escarlate, coroado com espinhos, alvo de zombaria, cusparadas e golpes antes de ser levado à crucificação.",
+        "hinge": "A pauta registra atos dos soldados como narrados por Mateus e trata a saudação como zombaria; não identifica tropas atuais nem importa cores, objetos ou sequências dos relatos paralelos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.27-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-guarda-tumulo": {
+      "id": "nt2-mateus-guarda-tumulo",
+      "kind": "canonical-case",
+      "title": "Pedido e montagem da guarda do túmulo",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 27.62-66",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.62-66",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem procurou Pilatos depois da preparação, que risco alegou e como o túmulo recebeu guarda?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O quarto campo identifica a ação final verificável da unidade; os demais preservam tempo, interlocutores e alegação como fala dos líderes, sem afirmar o cenário alegado.",
+      "editorial": {
+        "hinge": "“Enganador”, roubo e anúncio futuro permanecem declarações e receios atribuídos aos líderes, não fatos confirmados; a nota sobre preparação e referências cruzadas não são ampliadas por calendário ou fontes externas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como a guarda foi montada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A pedra foi selada e a escolta ficou ali"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O túmulo foi aberto e deixado vazio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A pedra foi removida pela escolta"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Uma nova entrada foi aberta na rocha"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A pedra foi selada e a escolta ficou ali",
+          "enderecoNAA": "Mateus 27.65-66",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.65-66",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quando os líderes se reuniram com Pilatos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No dia seguinte, depois da preparação"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Ao romper do dia anterior"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ao cair da tarde do terceiro dia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Na madrugada do primeiro dia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No dia seguinte, depois da preparação",
+          "enderecoNAA": "Mateus 27.62",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.62",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem se reuniu com Pilatos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os principais sacerdotes e os fariseus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "José e as duas Marias"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os discípulos e a multidão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O centurião e os soldados"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os principais sacerdotes e os fariseus",
+          "enderecoNAA": "Mateus 27.62",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.62",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Risco alegado ao pedir segurança até o terceiro dia",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os discípulos roubarem o corpo e anunciarem a ressurreição"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "José mudar o corpo para outro túmulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A escolta abandonar o Pretório"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "As mulheres retirarem a pedra"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os discípulos roubarem o corpo e anunciarem a ressurreição",
+          "enderecoNAA": "Mateus 27.63-64",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "27.63-64",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A reunião com Pilatos ocorreu no dia seguinte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A reunião com Pilatos ocorreu no dia seguinte."
+          },
+          {
+            "id": "P02",
+            "text": "Mateus situa esse dia depois da preparação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus situa esse dia depois da preparação."
+          },
+          {
+            "id": "P03",
+            "text": "Principais sacerdotes participaram da reunião.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes participaram da reunião."
+          },
+          {
+            "id": "P04",
+            "text": "Fariseus também se reuniram com Pilatos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Fariseus também se reuniram com Pilatos."
+          },
+          {
+            "id": "P05",
+            "text": "Eles chamaram Jesus de enganador em sua fala a Pilatos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles chamaram Jesus de enganador em sua fala a Pilatos."
+          },
+          {
+            "id": "P06",
+            "text": "Afirmaram lembrar-se de algo dito por ele enquanto vivia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Afirmaram lembrar-se de algo dito por ele enquanto vivia."
+          },
+          {
+            "id": "P07",
+            "text": "A fala lembrada anunciava ressurreição depois de três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala lembrada anunciava ressurreição depois de três dias."
+          },
+          {
+            "id": "P08",
+            "text": "Os líderes pediram segurança para o túmulo até o terceiro dia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes pediram segurança para o túmulo até o terceiro dia."
+          },
+          {
+            "id": "P09",
+            "text": "O pedido alegava que os discípulos poderiam roubar o corpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido alegava que os discípulos poderiam roubar o corpo."
+          },
+          {
+            "id": "P10",
+            "text": "Também alegava que eles anunciariam ao povo uma ressurreição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também alegava que eles anunciariam ao povo uma ressurreição."
+          },
+          {
+            "id": "P11",
+            "text": "Pilatos declarou haver uma escolta à disposição deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.65",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pilatos declarou haver uma escolta à disposição deles."
+          },
+          {
+            "id": "P12",
+            "text": "Ele mandou que guardassem o túmulo como entendessem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.65",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele mandou que guardassem o túmulo como entendessem."
+          },
+          {
+            "id": "P13",
+            "text": "Eles foram ao túmulo e montaram guarda.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles foram ao túmulo e montaram guarda."
+          },
+          {
+            "id": "P14",
+            "text": "A pedra foi selada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pedra foi selada."
+          },
+          {
+            "id": "P15",
+            "text": "A escolta foi deixada no local.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "27.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A escolta foi deixada no local."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 27.62-66 relata a reunião de principais sacerdotes e fariseus com Pilatos, o risco por eles alegado e a montagem da guarda mediante selo na pedra e presença da escolta.",
+        "hinge": "“Enganador”, roubo e anúncio futuro permanecem declarações e receios atribuídos aos líderes, não fatos confirmados; a nota sobre preparação e referências cruzadas não são ampliadas por calendário ou fontes externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "27.62-66",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.27.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

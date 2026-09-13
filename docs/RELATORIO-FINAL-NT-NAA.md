@@ -288,3 +288,9 @@ Os 248 objetos anteriores serializaram identicamente e permaneceram na mesma ord
 Somente Mt 1.1-17, 2.13-23, 3.1-12 e 4.12-25 foram reconsultados nas páginas NAA Bible.com 1840 de Mateus 1–4, todas HTTP 200. Após comparação aos 251 objetos/4.904 pistas, quatro pautas acrescentaram 84 pistas, com capacidades 11, 9, 9 e 10. Genealogia, listas, citações, imagens e o paralelo do chamado ficaram restritos ao documento de Mateus, sem AT importado, cronologia ou harmonização.
 
 Os 251 objetos anteriores serializaram identicamente e permaneceram na mesma ordem; o resultado é **255 pautas/1.020 campos/4.988 pistas**. Nenhum dos quatro recortes ficou pendente, mas testes e matrizes não declaram Mateus nem o banco completos. Mt 8–9, 14–17 e 26–28 permanecem posteriores; Mt 23.14 e dúvidas de 1Co foram preservados.
+
+## Incremento do checkpoint 087 — inventário individual de Mateus 27
+
+Somente a página NAA Bible.com 1840 de Mateus 27 foi obtida (HTTP 200; 379.709 bytes), lida integralmente e comparada aos **277 objetos/5.372 pistas**. Pilatos/Barrabás, crucificação e sepultamento em 27.57-61 permaneceram cobertos por três pautas existentes, sem alteração ou duplicação. Três pautas sustentadas foram anexadas: Judas/campo (21 pistas; capacidade 10), zombaria dos soldados (16; 7) e guarda do túmulo (15; 7).
+
+Os 277 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resultado é **280 pautas/1.120 campos/5.424 pistas**, todas elegíveis. Alegações e citações permanecem atributivas, sem harmonização ou AT externo. Mt 27 tem decisões por unidade no inventário atual; **Mt 28 permanece posterior por limite**, e Mt 17.21, 23.14, dúvidas de 1Co e decisões anteriores foram preservados. Testes não declaram o banco completo.
