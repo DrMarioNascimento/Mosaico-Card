@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-079-mateus-25",
+  "catalogVersion": "checkpoint-080-mateus-1-4",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 251,
-    "fields": 1004,
-    "editoriallyEligibleCases": 251,
-    "playableCases": 251,
+    "cases": 255,
+    "fields": 1020,
+    "editoriallyEligibleCases": 255,
+    "playableCases": 255,
     "max12Cases": 91
   },
   "order": [
@@ -267,7 +267,11 @@
     "nt2-mateus-vigilancia-servos",
     "nt2-mateus-virgens-lamparinas",
     "nt2-mateus-servos-talentos",
-    "nt2-mateus-rei-ovelhas-cabritos"
+    "nt2-mateus-rei-ovelhas-cabritos",
+    "nt2-mateus-genealogia-jesus",
+    "nt2-mateus-egito-belem-nazare",
+    "nt2-mateus-joao-deserto-batismo",
+    "nt2-mateus-galileia-pescadores-curas"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -175448,6 +175452,2922 @@
             "passage": "25.31-46",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-genealogia-jesus": {
+      "id": "nt2-mateus-genealogia-jesus",
+      "kind": "canonical-case",
+      "title": "Genealogia de Jesus em Mateus",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 1.1-17",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "1.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Como Mateus apresenta a genealogia de Jesus, quais relações destaca e como organiza seu resumo final?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo textual desta unidade; os demais distinguem relações, ações e marcos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A pauta preserva somente nomes, relações e contagem tal como Mateus os apresenta; não reconstrói cronologias, não resolve diferenças genealógicas e não importa dados do Antigo Testamento ou de outro Evangelho."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "De quem Jesus Cristo é apresentado como filho na abertura",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "De Davi e de Abraão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "De José e de Zacarias"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "De Moisés e de Arão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "De Salomão e de Josias"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "De Davi e de Abraão",
+          "enderecoNAA": "Mateus 1.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem aparece como marido de Maria",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "José"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Jacó"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Zorobabel"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Salatiel"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "José",
+          "enderecoNAA": "Mateus 1.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "De quem Mateus diz que Jesus nasceu",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De Maria"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "De Tamar"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "De Raabe"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "De Rute"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De Maria",
+          "enderecoNAA": "Mateus 1.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quantas gerações o resumo atribui a cada uma das três etapas",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Catorze"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Doze"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Sete"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quarenta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Catorze",
+          "enderecoNAA": "Mateus 1.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "1.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Mateus abre o livro identificando-o como genealogia de Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus abre o livro identificando-o como genealogia de Jesus Cristo."
+          },
+          {
+            "id": "P02",
+            "text": "Na abertura, Jesus Cristo é chamado filho de Davi.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na abertura, Jesus Cristo é chamado filho de Davi."
+          },
+          {
+            "id": "P03",
+            "text": "A mesma abertura também o chama filho de Abraão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma abertura também o chama filho de Abraão."
+          },
+          {
+            "id": "P04",
+            "text": "A sequência começa com Abraão gerando Isaque.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sequência começa com Abraão gerando Isaque."
+          },
+          {
+            "id": "P05",
+            "text": "Isaque gerou Jacó, e Jacó gerou Judá e seus irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Isaque gerou Jacó, e Jacó gerou Judá e seus irmãos."
+          },
+          {
+            "id": "P06",
+            "text": "Judá gerou Perez e Zera, e Tamar é nomeada como mãe deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Judá gerou Perez e Zera, e Tamar é nomeada como mãe deles."
+          },
+          {
+            "id": "P07",
+            "text": "A linha segue de Perez por Esrom, Arão, Aminadabe e Naassom.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.3-4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A linha segue de Perez por Esrom, Arão, Aminadabe e Naassom."
+          },
+          {
+            "id": "P08",
+            "text": "Depois de Naassom, Mateus lista Salmom e Boaz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.4-5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de Naassom, Mateus lista Salmom e Boaz."
+          },
+          {
+            "id": "P09",
+            "text": "Raabe é nomeada como mãe de Boaz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Raabe é nomeada como mãe de Boaz."
+          },
+          {
+            "id": "P10",
+            "text": "Rute é nomeada como mãe de Obede.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Rute é nomeada como mãe de Obede."
+          },
+          {
+            "id": "P11",
+            "text": "Obede gerou Jessé, e Jessé gerou o rei Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.5-6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Obede gerou Jessé, e Jessé gerou o rei Davi."
+          },
+          {
+            "id": "P12",
+            "text": "Salomão é apresentado como filho de Davi e da mulher que havia sido de Urias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Salomão é apresentado como filho de Davi e da mulher que havia sido de Urias."
+          },
+          {
+            "id": "P13",
+            "text": "A lista prossegue de Salomão até Josias por uma sequência de reis nomeados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.7-10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista prossegue de Salomão até Josias por uma sequência de reis nomeados."
+          },
+          {
+            "id": "P14",
+            "text": "Josias gerou Jeconias e seus irmãos no tempo do exílio na Babilônia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Josias gerou Jeconias e seus irmãos no tempo do exílio na Babilônia."
+          },
+          {
+            "id": "P15",
+            "text": "Depois do exílio, a sequência recomeça com Jeconias gerando Salatiel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois do exílio, a sequência recomeça com Jeconias gerando Salatiel."
+          },
+          {
+            "id": "P16",
+            "text": "Salatiel gerou Zorobabel, seguido na lista por Abiúde e Eliaquim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.12-13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Salatiel gerou Zorobabel, seguido na lista por Abiúde e Eliaquim."
+          },
+          {
+            "id": "P17",
+            "text": "De Eliaquim, a lista passa por Azor, Sadoque, Aquim e Eliúde.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.13-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "De Eliaquim, a lista passa por Azor, Sadoque, Aquim e Eliúde."
+          },
+          {
+            "id": "P18",
+            "text": "Eliúde gerou Eleazar, que gerou Matã, que gerou Jacó.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eliúde gerou Eleazar, que gerou Matã, que gerou Jacó."
+          },
+          {
+            "id": "P19",
+            "text": "Esse Jacó é apresentado como pai de José.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse Jacó é apresentado como pai de José."
+          },
+          {
+            "id": "P20",
+            "text": "José é identificado como marido de Maria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "José é identificado como marido de Maria."
+          },
+          {
+            "id": "P21",
+            "text": "Mateus diz que Jesus, chamado Cristo, nasceu de Maria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus diz que Jesus, chamado Cristo, nasceu de Maria."
+          },
+          {
+            "id": "P22",
+            "text": "O resumo divide a genealogia em três etapas delimitadas por Davi e pelo exílio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O resumo divide a genealogia em três etapas delimitadas por Davi e pelo exílio."
+          },
+          {
+            "id": "P23",
+            "text": "Mateus atribui catorze gerações a cada uma das três etapas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "1.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus atribui catorze gerações a cada uma das três etapas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 1.1-17 apresenta a genealogia de Jesus Cristo, nomeia relações familiares e resume a sequência em três etapas de catorze gerações.",
+        "hinge": "A pauta preserva somente nomes, relações e contagem tal como Mateus os apresenta; não reconstrói cronologias, não resolve diferenças genealógicas e não importa dados do Antigo Testamento ou de outro Evangelho.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "1.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-egito-belem-nazare": {
+      "id": "nt2-mateus-egito-belem-nazare",
+      "kind": "canonical-case",
+      "title": "Egito, Belém e Nazaré",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 2.13-23",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "2.13-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que instruções José recebeu, o que Herodes ordenou e como a família chegou a Nazaré segundo Mateus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo textual desta unidade; os demais distinguem relações, ações e marcos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "Sonhos, deslocamentos, ordens e fórmulas de cumprimento ficam restritos ao relato de Mateus; a pauta não completa as citações, não cria cronologia externa e não harmoniza outros relatos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para onde o anjo mandou José fugir com o menino e sua mãe",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Egito"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Ramá"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Egito",
+          "enderecoNAA": "Mateus 2.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "2.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que grupo Herodes mandou matar em Belém e arredores",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Meninos de dois anos para baixo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Todos os viajantes do Oriente"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sacerdotes e escribas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Soldados de Arquelau"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Meninos de dois anos para baixo",
+          "enderecoNAA": "Mateus 2.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "2.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que região José evitou ao saber do governo de Arquelau",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Judeia"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Síria"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Egito"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Decápolis"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Judeia",
+          "enderecoNAA": "Mateus 2.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "2.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Em que cidade José foi morar com a família",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Nazaré"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Belém"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Cafarnaum"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ramá"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Nazaré",
+          "enderecoNAA": "Mateus 2.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "2.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Depois da partida dos magos, um anjo do Senhor apareceu a José em sonho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da partida dos magos, um anjo do Senhor apareceu a José em sonho."
+          },
+          {
+            "id": "P02",
+            "text": "O anjo ordenou que José tomasse o menino e sua mãe.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo ordenou que José tomasse o menino e sua mãe."
+          },
+          {
+            "id": "P03",
+            "text": "A instrução era fugir para o Egito e permanecer até novo aviso.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução era fugir para o Egito e permanecer até novo aviso."
+          },
+          {
+            "id": "P04",
+            "text": "Na fala do anjo, Herodes procuraria o menino para matá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala do anjo, Herodes procuraria o menino para matá-lo."
+          },
+          {
+            "id": "P05",
+            "text": "José partiu de noite para o Egito com o menino e sua mãe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "José partiu de noite para o Egito com o menino e sua mãe."
+          },
+          {
+            "id": "P06",
+            "text": "A família permaneceu no Egito até a morte de Herodes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A família permaneceu no Egito até a morte de Herodes."
+          },
+          {
+            "id": "P07",
+            "text": "Mateus atribui essa saída do Egito ao cumprimento de uma fala do Senhor por meio do profeta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus atribui essa saída do Egito ao cumprimento de uma fala do Senhor por meio do profeta."
+          },
+          {
+            "id": "P08",
+            "text": "Herodes percebeu que havia sido iludido pelos magos e ficou furioso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Herodes percebeu que havia sido iludido pelos magos e ficou furioso."
+          },
+          {
+            "id": "P09",
+            "text": "Ele ordenou a morte dos meninos de Belém e de seus arredores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele ordenou a morte dos meninos de Belém e de seus arredores."
+          },
+          {
+            "id": "P10",
+            "text": "A ordem alcançava os meninos de dois anos para baixo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ordem alcançava os meninos de dois anos para baixo."
+          },
+          {
+            "id": "P11",
+            "text": "O limite considerou a informação dos magos sobre o aparecimento da estrela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O limite considerou a informação dos magos sobre o aparecimento da estrela."
+          },
+          {
+            "id": "P12",
+            "text": "Mateus relaciona o lamento descrito em seguida a uma fala do profeta Jeremias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.17-18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus relaciona o lamento descrito em seguida a uma fala do profeta Jeremias."
+          },
+          {
+            "id": "P13",
+            "text": "Depois da morte de Herodes, um anjo apareceu novamente a José em sonho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da morte de Herodes, um anjo apareceu novamente a José em sonho."
+          },
+          {
+            "id": "P14",
+            "text": "Nessa ocasião, José estava no Egito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa ocasião, José estava no Egito."
+          },
+          {
+            "id": "P15",
+            "text": "O anjo mandou que ele voltasse com o menino e sua mãe para a terra de Israel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anjo mandou que ele voltasse com o menino e sua mãe para a terra de Israel."
+          },
+          {
+            "id": "P16",
+            "text": "A razão dada foi a morte dos que queriam matar o menino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão dada foi a morte dos que queriam matar o menino."
+          },
+          {
+            "id": "P17",
+            "text": "José voltou com o menino e sua mãe para a terra de Israel.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "José voltou com o menino e sua mãe para a terra de Israel."
+          },
+          {
+            "id": "P18",
+            "text": "Ao saber que Arquelau reinava na Judeia, José teve medo de ir para lá.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao saber que Arquelau reinava na Judeia, José teve medo de ir para lá."
+          },
+          {
+            "id": "P19",
+            "text": "Avisado por Deus em sonho, ele seguiu para a região da Galileia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Avisado por Deus em sonho, ele seguiu para a região da Galileia."
+          },
+          {
+            "id": "P20",
+            "text": "José foi morar numa cidade chamada Nazaré.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "2.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "José foi morar numa cidade chamada Nazaré."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 2.13-23 narra a ida da família ao Egito, a ordem de Herodes, o retorno à terra de Israel e a mudança para Nazaré.",
+        "hinge": "Sonhos, deslocamentos, ordens e fórmulas de cumprimento ficam restritos ao relato de Mateus; a pauta não completa as citações, não cria cronologia externa e não harmoniza outros relatos.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "2.13-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.2.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-joao-deserto-batismo": {
+      "id": "nt2-mateus-joao-deserto-batismo",
+      "kind": "canonical-case",
+      "title": "João no deserto e o batismo",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 3.1-12",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "3.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde João pregava, como Mateus o descreve e que contrastes ele anunciou aos que vinham ao batismo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo textual desta unidade; os demais distinguem relações, ações e marcos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A voz profética, pedras, árvores, machado, eira, trigo, palha e fogo permanecem citações ou imagens no relato; nenhuma equivalência externa, identidade posterior ou conteúdo do Antigo Testamento é acrescentado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde João Batista pregava",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No deserto da Judeia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Nas sinagogas da Galileia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "No templo em Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "À beira do mar da Galileia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No deserto da Judeia",
+          "enderecoNAA": "Mateus 3.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De que era feita a roupa de João",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pelos de camelo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Linho fino"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pele de ovelha"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Lã tingida"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pelos de camelo",
+          "enderecoNAA": "Mateus 3.4",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde João batizava as pessoas que confessavam seus pecados",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "No rio Jordão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "No mar da Galileia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Num tanque de Jerusalém"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "No caminho de Nazaré"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "No rio Jordão",
+          "enderecoNAA": "Mateus 3.6",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Com que João disse que aquele que viria depois batizaria",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Espírito Santo e fogo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Água e óleo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Vento e chuva"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pão e vinho"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Espírito Santo e fogo",
+          "enderecoNAA": "Mateus 3.11",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "3.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Mateus situa João Batista pregando no deserto da Judeia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus situa João Batista pregando no deserto da Judeia."
+          },
+          {
+            "id": "P02",
+            "text": "João anunciava arrependimento diante da proximidade do Reino dos Céus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João anunciava arrependimento diante da proximidade do Reino dos Céus."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus relaciona João à voz no deserto mencionada pelo profeta Isaías.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus relaciona João à voz no deserto mencionada pelo profeta Isaías."
+          },
+          {
+            "id": "P04",
+            "text": "A fala citada ordena preparar o caminho do Senhor e endireitar suas veredas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fala citada ordena preparar o caminho do Senhor e endireitar suas veredas."
+          },
+          {
+            "id": "P05",
+            "text": "João vestia uma roupa feita de pelos de camelo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João vestia uma roupa feita de pelos de camelo."
+          },
+          {
+            "id": "P06",
+            "text": "Ele usava um cinto de couro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele usava um cinto de couro."
+          },
+          {
+            "id": "P07",
+            "text": "Gafanhotos e mel silvestre compunham sua alimentação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Gafanhotos e mel silvestre compunham sua alimentação."
+          },
+          {
+            "id": "P08",
+            "text": "Moradores de Jerusalém, da Judeia e dos arredores do Jordão iam até João.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Moradores de Jerusalém, da Judeia e dos arredores do Jordão iam até João."
+          },
+          {
+            "id": "P09",
+            "text": "As pessoas confessavam seus pecados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As pessoas confessavam seus pecados."
+          },
+          {
+            "id": "P10",
+            "text": "João as batizava no rio Jordão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João as batizava no rio Jordão."
+          },
+          {
+            "id": "P11",
+            "text": "João viu muitos fariseus e saduceus vindo ao seu batismo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João viu muitos fariseus e saduceus vindo ao seu batismo."
+          },
+          {
+            "id": "P12",
+            "text": "Ele os chamou de raça de víboras e perguntou sobre a fuga da ira futura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os chamou de raça de víboras e perguntou sobre a fuga da ira futura."
+          },
+          {
+            "id": "P13",
+            "text": "João ordenou que produzissem fruto digno de arrependimento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João ordenou que produzissem fruto digno de arrependimento."
+          },
+          {
+            "id": "P14",
+            "text": "Ele rejeitou a confiança expressa apenas na afirmação de ter Abraão como pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele rejeitou a confiança expressa apenas na afirmação de ter Abraão como pai."
+          },
+          {
+            "id": "P15",
+            "text": "João afirmou que Deus poderia fazer surgir filhos a Abraão das pedras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João afirmou que Deus poderia fazer surgir filhos a Abraão das pedras."
+          },
+          {
+            "id": "P16",
+            "text": "Na imagem usada por João, o machado já estava junto à raiz das árvores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na imagem usada por João, o machado já estava junto à raiz das árvores."
+          },
+          {
+            "id": "P17",
+            "text": "A árvore sem bom fruto seria cortada e lançada ao fogo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A árvore sem bom fruto seria cortada e lançada ao fogo."
+          },
+          {
+            "id": "P18",
+            "text": "João contrapôs seu batismo com água àquele que viria depois dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João contrapôs seu batismo com água àquele que viria depois dele."
+          },
+          {
+            "id": "P19",
+            "text": "Ele declarou não ser digno de carregar as sandálias do que viria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou não ser digno de carregar as sandálias do que viria."
+          },
+          {
+            "id": "P20",
+            "text": "Na imagem final, aquele que vem limpa a eira, recolhe o trigo e queima a palha.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na imagem final, aquele que vem limpa a eira, recolhe o trigo e queima a palha."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 3.1-12 apresenta a pregação e a aparência de João Batista, o batismo no Jordão e suas advertências e comparações.",
+        "hinge": "A voz profética, pedras, árvores, machado, eira, trigo, palha e fogo permanecem citações ou imagens no relato; nenhuma equivalência externa, identidade posterior ou conteúdo do Antigo Testamento é acrescentado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "3.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-galileia-pescadores-curas": {
+      "id": "nt2-mateus-galileia-pescadores-curas",
+      "kind": "canonical-case",
+      "title": "Galileia, pescadores e curas",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 4.12-25",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "4.12-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde Jesus foi, quem chamou junto ao mar e como Mateus resume seu ensino, pregação e curas?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o eixo textual desta unidade; os demais distinguem relações, ações e marcos explicitamente registrados por Mateus.",
+      "editorial": {
+        "hinge": "A citação, o chamado e o resumo ministerial permanecem no documento de Mateus; não se completa Isaías, não se harmoniza o chamado com outros Evangelhos e não se cria cronologia externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Em que cidade Jesus foi morar depois de deixar Nazaré",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cafarnaum"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Belém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Nazaré"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cafarnaum",
+          "enderecoNAA": "Mateus 4.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quais irmãos lançavam redes quando Jesus os viu",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Simão Pedro e André"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Tiago e João"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Filipe e Natanael"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Jacó e José"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Simão Pedro e André",
+          "enderecoNAA": "Mateus 4.18",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que Tiago e João faziam quando Jesus os chamou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Consertavam as redes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Vendiam peixes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ensinavam na sinagoga"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Recolhiam impostos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Consertavam as redes",
+          "enderecoNAA": "Mateus 4.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que três atividades Mateus atribui a Jesus por toda a Galileia",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ensinar, pregar e curar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Batizar, escrever e julgar"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Plantar, colher e repartir"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Navegar, pescar e construir"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ensinar, pregar e curar",
+          "enderecoNAA": "Mateus 4.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "4.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Ao saber da prisão de João, Jesus voltou para a Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao saber da prisão de João, Jesus voltou para a Galileia."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus deixou Nazaré e foi morar em Cafarnaum.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deixou Nazaré e foi morar em Cafarnaum."
+          },
+          {
+            "id": "P03",
+            "text": "Mateus situa Cafarnaum à beira-mar, na região de Zebulom e Naftali.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus situa Cafarnaum à beira-mar, na região de Zebulom e Naftali."
+          },
+          {
+            "id": "P04",
+            "text": "Mateus atribui essa mudança ao cumprimento do que fora dito por Isaías.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.14-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus atribui essa mudança ao cumprimento do que fora dito por Isaías."
+          },
+          {
+            "id": "P05",
+            "text": "A citação apresentada por Mateus contrapõe trevas e grande luz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.15-16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A citação apresentada por Mateus contrapõe trevas e grande luz."
+          },
+          {
+            "id": "P06",
+            "text": "A partir daí, Jesus começou a pregar arrependimento e proximidade do Reino dos Céus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A partir daí, Jesus começou a pregar arrependimento e proximidade do Reino dos Céus."
+          },
+          {
+            "id": "P07",
+            "text": "Junto ao mar da Galileia, Jesus viu Simão, chamado Pedro, e André.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Junto ao mar da Galileia, Jesus viu Simão, chamado Pedro, e André."
+          },
+          {
+            "id": "P08",
+            "text": "Os dois irmãos lançavam redes ao mar porque eram pescadores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois irmãos lançavam redes ao mar porque eram pescadores."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus os chamou para segui-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os chamou para segui-lo."
+          },
+          {
+            "id": "P10",
+            "text": "Na fala de Jesus, eles seriam feitos pescadores de gente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala de Jesus, eles seriam feitos pescadores de gente."
+          },
+          {
+            "id": "P11",
+            "text": "Simão e André deixaram imediatamente as redes e seguiram Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Simão e André deixaram imediatamente as redes e seguiram Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Mais adiante, Jesus viu Tiago e João, filhos de Zebedeu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mais adiante, Jesus viu Tiago e João, filhos de Zebedeu."
+          },
+          {
+            "id": "P13",
+            "text": "Os dois estavam no barco com o pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois estavam no barco com o pai."
+          },
+          {
+            "id": "P14",
+            "text": "Tiago e João consertavam as redes quando foram chamados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago e João consertavam as redes quando foram chamados."
+          },
+          {
+            "id": "P15",
+            "text": "Eles deixaram imediatamente o barco e o pai para seguir Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deixaram imediatamente o barco e o pai para seguir Jesus."
+          },
+          {
+            "id": "P16",
+            "text": "Mateus resume que Jesus percorria toda a Galileia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus resume que Jesus percorria toda a Galileia."
+          },
+          {
+            "id": "P17",
+            "text": "Ele ensinava nas sinagogas e pregava o evangelho do Reino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele ensinava nas sinagogas e pregava o evangelho do Reino."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus curava todo tipo de doenças e enfermidades entre o povo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curava todo tipo de doenças e enfermidades entre o povo."
+          },
+          {
+            "id": "P19",
+            "text": "Sua fama se espalhou por toda a Síria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua fama se espalhou por toda a Síria."
+          },
+          {
+            "id": "P20",
+            "text": "Trouxeram a Jesus doentes com diferentes enfermidades e tormentos, e ele os curou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Trouxeram a Jesus doentes com diferentes enfermidades e tormentos, e ele os curou."
+          },
+          {
+            "id": "P21",
+            "text": "Numerosas multidões de cinco regiões enumeradas por Mateus seguiam Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "4.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Numerosas multidões de cinco regiões enumeradas por Mateus seguiam Jesus."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 4.12-25 registra a ida de Jesus à Galileia, o chamado de quatro pescadores e um resumo de seu ensino, pregação, curas e seguidores.",
+        "hinge": "A citação, o chamado e o resumo ministerial permanecem no documento de Mateus; não se completa Isaías, não se harmoniza o chamado com outros Evangelhos e não se cria cronologia externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "4.12-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.4.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

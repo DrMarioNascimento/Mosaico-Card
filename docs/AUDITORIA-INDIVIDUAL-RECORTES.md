@@ -559,3 +559,9 @@ A comparação serializada confirmou os **244 objetos anteriores byte-equivalent
 A página NAA Bible.com 1840 de Mt 25 retornou HTTP 200 (351.114 bytes) e foi lida integralmente. A matriz por unidade e a comparação com **248 pautas/4.844 pistas** estão na ficha de Mateus. Três pautas independentes foram anexadas para 25.1-13, 25.14-30 e 25.31-46, com 18, 22 e 20 pistas e capacidades 8, 10 e 9. Imagens, falas e julgamento são atributivos, sem identificação, harmonização ou calendário externos.
 
 Os 248 objetos anteriores permaneceram serialmente idênticos e na mesma ordem; o resultado é **251 pautas/4.904 pistas**. Sem nova consulta ou autoria, a auditoria documental de Mt 1–4, 8–9, 14–17 e 26–28 constatou que decisões atuais cobrem apenas recortes selecionados, enquanto fechamentos agregados e exclusões antigas por 25 pistas/12 participantes, brevidade ou paralelo não equivalem a matriz individual vigente. A ficha enumera as unidades que exigem lotes posteriores. Mt 23.14 permanece pendência textual, e o banco não é declarado completo.
+
+## Checkpoint 080 — Mateus 1–4 sob as regras vigentes
+
+As páginas efetivas NAA Bible.com 1840 de Mt 1–4 retornaram HTTP 200, e somente 1.1-17, 2.13-23, 3.1-12 e 4.12-25 foram lidos e comparados aos 251 objetos/4.904 pistas. A matriz concreta de perguntas, respostas, referências e fatos consta na ficha de Mateus. Quatro pautas somam 84 pistas e capacidades 11, 9, 9 e 10; genealogia, listas, temas e perguntas independentes foram aceitos sem inflação, AT importado, cronologia externa ou harmonização.
+
+Os 251 objetos anteriores permaneceram serialmente idênticos e na mesma ordem; somente quatro foram anexados, resultando em **255 pautas/4.988 pistas**. Nenhum dos recortes autorizados ficou sem decisão. As faixas Mt 8–9, 14–17 e 26–28 permanecem para depois, Mt 23.14 continua pendência textual e o banco não é declarado completo.

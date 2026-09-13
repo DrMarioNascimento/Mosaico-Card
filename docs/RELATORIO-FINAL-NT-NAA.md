@@ -282,3 +282,9 @@ A comparação serializada confirmou os **244 objetos anteriores byte-equivalent
 Somente Mt 25 foi consultado na página NAA Bible.com 1840 (HTTP 200; 351.114 bytes), lido por unidade e comparado aos 248 objetos/4.844 pistas. Três pautas sustentadas acrescentaram 60 pistas: virgens/lamparinas (18; capacidade 8), servos/talentos (22; 10) e Rei/ovelhas/cabritos (20; 9), todas atributivas e sem identidades externas, harmonização ou calendário.
 
 Os 248 objetos anteriores serializaram identicamente e permaneceram na mesma ordem; o resultado é **251 pautas/1.004 campos/4.904 pistas**. A revisão meramente documental das faixas Mt 1–4, 8–9, 14–17 e 26–28 registrou na ficha lacunas específicas deixadas por decisões agregadas antigas, sem nova autoria. Mt 23.14 continua pendência textual e nenhum teste declara Mateus ou o banco completos.
+
+## Checkpoint 080 — lacunas individualizadas de Mateus 1–4
+
+Somente Mt 1.1-17, 2.13-23, 3.1-12 e 4.12-25 foram reconsultados nas páginas NAA Bible.com 1840 de Mateus 1–4, todas HTTP 200. Após comparação aos 251 objetos/4.904 pistas, quatro pautas acrescentaram 84 pistas, com capacidades 11, 9, 9 e 10. Genealogia, listas, citações, imagens e o paralelo do chamado ficaram restritos ao documento de Mateus, sem AT importado, cronologia ou harmonização.
+
+Os 251 objetos anteriores serializaram identicamente e permaneceram na mesma ordem; o resultado é **255 pautas/1.020 campos/4.988 pistas**. Nenhum dos quatro recortes ficou pendente, mas testes e matrizes não declaram Mateus nem o banco completos. Mt 8–9, 14–17 e 26–28 permanecem posteriores; Mt 23.14 e dúvidas de 1Co foram preservados.

@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 25 inventariado — checkpoint 079 | Pendência textual Mt 23.14; lacunas documentais antigas enumeradas | 67 pautas citam o livro / 1.306 pistas | Mt 25 decidido por unidade; Mt 1–4, 8–9, 14–17 e 26–28 requerem reconsulta individual onde a ficha indica |
+| Mateus | Mt 1–4 reavaliado — checkpoint 080 | Pendência textual Mt 23.14; lacunas posteriores Mt 8–9, 14–17 e 26–28 | 71 pautas citam o livro / 1.390 pistas | Os quatro recortes lacunares de Mt 1–4 receberam matriz e decisão; outras faixas antigas continuam posteriores |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -215,3 +215,10 @@ A reconsulta NAA e duas matrizes concretas demonstraram quatro campos independen
 A consulta efetiva exclusiva de Mt 25 na NAA Bible.com 1840 acrescentou três pautas/60 pistas aos 248 objetos preservados serialmente, levando o banco a **251 pautas/1.004 campos/4.904 pistas** e Mateus a **67 pautas/1.306 pistas que citam o livro**. As unidades 25.1-13, 25.14-30 e 25.31-46 receberam decisão e capacidade 8, 10 e 9.
 
 Sem abrir outras páginas ou autorar fora de Mt 25, a revisão documental de Mt 1–4, 8–9, 14–17 e 26–28 constatou que matrizes atuais cobrem apenas recortes selecionados; a ficha de Mateus enumera as unidades ainda dependentes de reconsulta sob as regras vigentes. Isso impede declarar Mateus completo. Mt 23.14 permanece pendência textual específica, não exclusão definitiva.
+
+
+## Checkpoint 080 — lacunas de Mateus 1–4
+
+A consulta efetiva das páginas NAA Bible.com 1840 de Mt 1–4 ficou restrita a 1.1-17, 2.13-23, 3.1-12 e 4.12-25. Quatro pautas/84 pistas foram anexadas aos 251 objetos preservados serialmente, levando o banco a **255 pautas/1.020 campos/4.988 pistas** e Mateus a **71 pautas/1.390 pistas que citam o livro**. As capacidades são 11, 9, 9 e 10.
+
+Nenhum recorte autorizado ficou sem decisão. A ficha registra a matriz individual e combina-a às decisões anteriores das unidades adjacentes, sem declarar Mateus completo. Mt 8–9, 14–17 e 26–28 permanecem posteriores; Mt 23.14 continua pendência textual específica e dúvidas de 1Co seguem preservadas.

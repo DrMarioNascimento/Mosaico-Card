@@ -354,3 +354,27 @@ A pedido, foi feita somente uma auditoria dos registros existentes, sem consulta
 | Mt 26–28 | Ceia, Getsêmani e Pilatos têm pautas; crucificação possui consolidação e Mt 28.1-10 foi reavaliado no checkpoint 036. Permanecem exclusões antigas por brevidade/paralelo, inclusive sepultamento/guarda. | Reconsultar e decidir individualmente Mt 26.1-16, 26.31-35, 26.47-75, 27.1-10, 27.27-31, 27.57-66 e 28.11-20; comparar consolidações documentais sem harmonizar relatos. |
 
 Essas lacunas são fila documental concreta para lotes seguintes, não exclusões nem autorização de autoria neste checkpoint. Mt 5–7, 10–13 e 18–25 conservam suas matrizes posteriores; Mt 23.14 permanece pendência textual específica. Nenhuma faixa acima foi declarada completa por teste, download antigo ou decisão agregada.
+
+## Lacunas individualizadas de Mateus 1–4 — checkpoint 080
+
+Em 13/09/2026, somente as páginas efetivas NAA Bible.com 1840 de Mateus 1, 2, 3 e 4 foram obtidas separadamente (HTTP 200; 336.349, 334.120, 329.146 e 351.052 bytes). A leitura ficou estritamente nos quatro recortes autorizados: Mt 1.1-17, 2.13-23, 3.1-12 e 4.12-25. Antes da autoria, seus campos, perguntas, referências e fatos foram comparados aos **251 objetos/4.904 pistas**, em particular `nt2-mateus-jose-sonho`, `nt2-mateus-magos`, `nt2-mateus-batismo`, `nt2-mateus-tentacoes` e `nt2-marcos-chamado-pescadores`. Nenhum relato paralelo foi harmonizado e nenhuma citação recebeu conteúdo do Antigo Testamento.
+
+| Unidade efetivamente lida | Perguntas/respostas, fatos comparados e decisão individual |
+| --- | --- |
+| Mt 1.1 — apresentação | **Autorada** em `nt2-mateus-genealogia-jesus`: o campo pergunta de quem Jesus é apresentado como filho e responde Davi e Abraão (1.1). A pista registra somente a apresentação de Mateus. |
+| Mt 1.2-6 — Abraão a Davi | **Autorada** na mesma pauta: relações sucessivas e mães expressamente nomeadas sustentam fatos independentes, sem completar biografias. |
+| Mt 1.7-11 — Davi ao exílio | **Autorada** na mesma pauta: a sequência de nomes e o marco do exílio ficam na lista de Mateus, sem datas externas. |
+| Mt 1.12-16 — exílio a Jesus | **Autorada** na mesma pauta: os campos perguntam quem era marido de Maria (José) e de quem Jesus nasceu (Maria), com respostas em 1.16. |
+| Mt 1.17 — resumo em três etapas | **Autorada** na mesma pauta, com resposta de catorze gerações por etapa. A pauta totaliza 23 pistas e capacidade 11; não reconcilia genealogias nem cria cronologia. |
+| Mt 2.13-15 — fuga e permanência no Egito | **Autorada** em `nt2-mateus-egito-belem-nazare`: a pergunta de destino responde Egito (2.13); sonho, ordem, partida e permanência são fatos próprios do relato. |
+| Mt 2.16-18 — ordem de Herodes e lamento | **Autorada** na mesma pauta: o campo responde meninos de dois anos para baixo (2.16); a citação permanece fórmula de cumprimento em Mateus, sem conteúdo importado. |
+| Mt 2.19-23 — retorno e Nazaré | **Autorada** na mesma pauta: a região evitada é a Judeia (2.22) e a cidade final é Nazaré (2.23). A pauta totaliza 20 pistas e capacidade 9, sem cronologia ou harmonização. |
+| Mt 3.1-6 — pregação, descrição e batismo | **Autorada** em `nt2-mateus-joao-deserto-batismo`: respostas são deserto da Judeia (3.1), roupa de pelos de camelo (3.4) e rio Jordão (3.6). Aparência e ações não recebem identificação externa. |
+| Mt 3.7-12 — advertências e contrastes | **Autorada** na mesma pauta: a quarta resposta é Espírito Santo e fogo (3.11). Víboras, pedras, árvores, machado, eira, trigo e palha permanecem falas e imagens atribuídas a João. A pauta totaliza 20 pistas e capacidade 9. |
+| Mt 4.12-17 — ida à Galileia e início da pregação | **Autorada** em `nt2-mateus-galileia-pescadores-curas`: a cidade respondida é Cafarnaum (4.13); a citação fica na forma apresentada por Mateus. |
+| Mt 4.18-22 — chamado de quatro pescadores | **Autorada** na mesma pauta após comparação com `nt2-marcos-chamado-pescadores`: respostas são Simão Pedro e André lançando redes (4.18), e Tiago e João consertando-as (4.21). Cada documento conserva sua cena, sem fundi-las. |
+| Mt 4.23-25 — ensino, pregação, curas e multidões | **Autorada** na mesma pauta: o resumo responde ensinar, pregar e curar (4.23). Doenças, regiões e multidões permanecem na enumeração de Mateus. A pauta totaliza 21 pistas e capacidade 10. |
+
+Foram anexadas **quatro pautas/84 pistas**, sem meta, com capacidades 11, 9, 9 e 10 pela fórmula `min(12, floor((pistas-1)/2))`. Todas têm quatro campos, quatro alternativas por campo, gabaritos, focal 8-5-3-2, referências e proveniência NAA, metadados e revelação. Os 251 objetos anteriores permaneceram na mesma ordem e serializaram identicamente por `JSON.stringify`; somente quatro foram anexados. O banco passa a **255 pautas/1.020 campos/4.988 pistas**, todas elegíveis.
+
+Nenhum dos quatro recortes autorizados ficou sem decisão por limite do lote. Em conjunto com as decisões individuais anteriores de Mt 1.18-25, 2.1-12, 3.13-17 e 4.1-11, não resta lacuna conhecida no inventário individual vigente de Mt 1–4; isso não afirma exaustividade futura, não usa testes para declarar Mateus completo e não encerra as lacunas posteriores de Mt 8–9, 14–17 e 26–28. Mt 23.14 e as dúvidas de 1Co permanecem intactas.

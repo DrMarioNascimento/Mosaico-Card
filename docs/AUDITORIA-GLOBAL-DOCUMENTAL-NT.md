@@ -2,7 +2,7 @@
 
 ## Escopo, método e limite da conclusão
 
-Checkpoint 079, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cobertura/`, a matriz `docs/COBERTURA-NT-NAA.md`, os registros de `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`, as decisões vigentes e os **251 objetos/4.904 pistas** realmente serializados em `data/nt-bank.json`. Para cada livro, a contagem abaixo deriva das referências gerais do banco; uma pauta paralela pode contar em mais de um livro, e a contagem de pistas considera somente cartas que citam o livro da linha.
+Checkpoint 080, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cobertura/`, a matriz `docs/COBERTURA-NT-NAA.md`, os registros de `docs/AUDITORIA-INDIVIDUAL-RECORTES.md`, as decisões vigentes e os **255 objetos/4.988 pistas** realmente serializados em `data/nt-bank.json`. Para cada livro, a contagem abaixo deriva das referências gerais do banco; uma pauta paralela pode contar em mais de um livro, e a contagem de pistas considera somente cartas que citam o livro da linha.
 
 “Sem lacuna documental conhecida” significa apenas que a ficha possui decisões individuais posteriores compatíveis com as regras atuais para os recortes que ela enumera. Não prova que todo recorte possível da NAA foi novamente consultado, não converte “analisado” em exaustividade e não declara o banco completo. Onde a ficha usa somente faixas de capítulos, gênero, tamanho, “25 pistas”, unidade narrativa ou risco genérico de alternativas, o resultado é **reconsulta NAA necessária**, ainda que o arquivo histórico chame o livro de analisado.
 
@@ -18,7 +18,7 @@ Checkpoint 079, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
-| Mateus | 67 pautas / 1.306 pistas | Decisão textual de Mt 23.14; reconsulta individual de Mt 1–4, 8–9, 14–17 e 26–28 nas unidades enumeradas na ficha | O checkpoint 079 leu e decidiu todas as unidades de Mt 25 em três pautas; auditou documentalmente, sem autoria, as faixas antigas e constatou que decisões atuais cobrem apenas recortes selecionados. | **EM ANDAMENTO.** Mt 25 está inventariado; Mt 23.14 permanece pendência específica e as lacunas antigas enumeradas impedem declarar Mateus completo. |
+| Mateus | 71 pautas / 1.390 pistas | Decisão textual de Mt 23.14; reconsulta individual de Mt 8–9, 14–17 e 26–28 nas unidades enumeradas na ficha | O checkpoint 080 reconsultou e decidiu 1.1-17, 2.13-23, 3.1-12 e 4.12-25; combinados às decisões anteriores, não resta lacuna conhecida no inventário vigente de Mt 1–4. | **EM ANDAMENTO.** Mt 1–4 recebeu matriz atual, mas as três faixas antigas posteriores e Mt 23.14 impedem declarar Mateus completo. |
 | Marcos | 17 / 194 | Trechos fora da lista inicial, sobretudo Mc 1–4, 6–13 e 14–16.8 não representados por pauta própria/paralela | A ficha decide 17 pré-candidatos e depois chama os 16 capítulos de analisados; não há inventário individual de todos os demais recortes. | **PENDENTE — decisão individual.** Varredura NAA por recorte; **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
@@ -56,7 +56,7 @@ Checkpoint 079, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Próximo lote de Mateus:** reconsultar uma das faixas antigas enumeradas em `docs/cobertura/MATEUS.md` (Mt 1–4, 8–9, 14–17 ou 26–28), mantendo cada documento independente. Mt 23.14 permanece em fila textual própria e não é exclusão definitiva.
+1. **Próximo lote de Mateus:** reconsultar uma das faixas antigas ainda enumeradas em `docs/cobertura/MATEUS.md` (Mt 8–9, 14–17 ou 26–28), mantendo cada documento independente. Mt 23.14 permanece em fila textual própria e não é exclusão definitiva.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
