@@ -5,7 +5,7 @@
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
 | Mateus | Mt 1–4 reavaliado — checkpoint 080 | Pendência textual Mt 23.14; lacunas posteriores Mt 8–9, 14–17 e 26–28 | 71 pautas citam o livro / 1.390 pistas | Os quatro recortes lacunares de Mt 1–4 receberam matriz e decisão; outras faixas antigas continuam posteriores |
-| Marcos | Em reauditoria individual — Mc 3–4 decidido no checkpoint 094 | 27 | 15 próprios + 3 consolidados | Mc 4.1-34 sustentado para continuidade; Mc 16.9-20 fora por decisão |
+| Marcos | Em reauditoria individual — Mc 3–4 fechado no checkpoint 095 | 31 | 19 próprios + 3 consolidados | próximo lote Mc 5–6; Mc 16.9-20 fora por decisão |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
@@ -313,3 +313,9 @@ A reconsulta NAA 1840 confirmou o item de 1Co 14.35, que foi excluído editorial
 As páginas NAA Bible.com 1840 de Mc 3–4 (95.002 e 97.761 bytes; HTTP 200) foram efetivamente lidas verso a verso, e cada unidade recebeu matriz concreta na ficha de Marcos. Mc 3.1-6 e 4.35-41 já estavam cobertos por `nt2-marcos-mao-ressequida` e `nt2-tempestade-barco`, sem alteração. Mc 3.7-12, 3.13-19, 3.20-30 e 3.31-35 originaram quatro pautas com 14, 18, 18 e 11 pistas, capacidades 6, 8, 8 e 5. Os 288 objetos anteriores ficaram serializadamente idênticos e apenas quatro foram anexados: **292 pautas/1.168 campos/5.629 pistas**, todas elegíveis.
 
 Mc 4.1-20, 4.21-25, 4.26-29 e 4.30-34 permanecem precisamente registrados como sustentados para continuidade, adiados apenas pelo limite de quatro novas pautas; não foram excluídos por insuficiência. Semelhanças de cura, multidão, monte, mostarda e seguimento não estabeleceram identidade, e referências cruzadas não forneceram fatos. Decisões de Mt 17.21, Mt 23.14, 1Co 11, 1Co 14.35 e Mc 16.9-20 foram preservadas. Marcos e o banco não são declarados completos.
+
+## Checkpoint 095 — fechamento de Marcos 4.1-34
+
+A página NAA Bible.com 1840 de Mc 4 foi reconsultada (HTTP 200; 97.761 bytes), com leitura efetiva restrita a 4.1-20, 4.21-25, 4.26-29 e 4.30-34. As quatro matrizes já registradas foram conferidas contra 292 objetos/5.629 pistas e originaram pautas de 27, 11, 14 e 12 pistas, capacidades 12, 5, 6 e 5. `nt2-tempestade-barco` continuou cobrindo 4.35-41 sem alteração ou duplicação. Paralelos, referências cruzadas e a imagem genérica da mostarda não estabeleceram identidade nem forneceram fatos externos.
+
+Os 292 objetos anteriores permaneceram serializadamente idênticos e na mesma ordem; somente quatro foram anexados. Resultado: **296 pautas/1.184 campos/5.693 pistas**, todas elegíveis. Mc 3–4 fica sem remanescente conhecido na matriz vigente, mas Marcos e o banco não são declarados completos, pois as auditorias globais permanecem abertas. Decisões anteriores foram preservadas; o próximo lote delimitado é Mc 5–6, ainda não consultado nem autorado.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-094-marcos-3-4",
+  "catalogVersion": "checkpoint-095-marcos-4-1-34",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 292,
-    "fields": 1168,
-    "editoriallyEligibleCases": 292,
-    "playableCases": 292,
-    "max12Cases": 96
+    "cases": 296,
+    "fields": 1184,
+    "editoriallyEligibleCases": 296,
+    "playableCases": 296,
+    "max12Cases": 97
   },
   "order": [
     "nt2-joao-cana",
@@ -308,7 +308,11 @@
     "nt2-marcos-multidao-barquinho-espiritos",
     "nt2-marcos-doze-monte-nomes",
     "nt2-marcos-casa-belsebu-divisao",
-    "nt2-marcos-mae-irmaos-vontade-deus"
+    "nt2-marcos-mae-irmaos-vontade-deus",
+    "nt2-marcos-semeador-explicacao",
+    "nt2-marcos-lamparina-medida",
+    "nt2-marcos-semente-crescimento-colheita",
+    "nt2-marcos-mostarda-parabolas-particular"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -202139,6 +202143,2443 @@
             "passage": "3.31-35",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-semeador-explicacao": {
+      "id": "nt2-marcos-semeador-explicacao",
+      "kind": "canonical-case",
+      "title": "O semeador e a explicação em Marcos",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 4.1-20",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.1-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Qual era o cenário do ensino, que destinos receberam as sementes, a quem Jesus explicou o uso de parábolas e como interpretou os quatro solos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A explicação explícita dos quatro solos fornece a chave do recorte; cenário, destinos da narrativa e interlocutores distinguem a formulação própria de Marcos.",
+      "editorial": {
+        "hinge": "A pauta preserva narrativa e explicação atribuídas a Jesus em Marcos; referências cruzadas e formulações de Mateus, Lucas ou Isaías não fornecem fatos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Elementos centrais da explicação",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Palavra tirada por Satanás; falta de raiz; sufocamento; recepção com fruto"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Quatro tipos de embarcação e suas rotas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Quatro cargos dados aos discípulos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quatro curas realizadas no sábado"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Palavra tirada por Satanás; falta de raiz; sufocamento; recepção com fruto",
+          "enderecoNAA": "Marcos 4.14-20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.14-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Cenário do ensino",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Jesus sentado num barco afastado da praia e o povo na praia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jesus sozinho numa sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os doze dentro de uma casa sem multidão"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Jesus em Jerusalém diante dos sacerdotes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Jesus sentado num barco afastado da praia e o povo na praia",
+          "enderecoNAA": "Marcos 4.1-2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quatro destinos da semente",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Caminho, solo rochoso, espinhos e boa terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mar, deserto, casa e monte"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Areia, rio, barco e sinagoga"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Odres, roupa, redes e cestos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Caminho, solo rochoso, espinhos e boa terra",
+          "enderecoNAA": "Marcos 4.3-8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.3-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Grupo que perguntou quando Jesus ficou só",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Os que estavam junto dele com os doze"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente os escribas de Jerusalém"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os fariseus e herodianos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A multidão inteira na praia"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Os que estavam junto dele com os doze",
+          "enderecoNAA": "Marcos 4.10-12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.10-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus voltou a ensinar à beira-mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus voltou a ensinar à beira-mar."
+          },
+          {
+            "id": "P02",
+            "text": "Uma numerosa multidão reuniu-se ao redor dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma numerosa multidão reuniu-se ao redor dele."
+          },
+          {
+            "id": "P03",
+            "text": "Ele entrou, sentou-se num barco e afastou-se da praia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele entrou, sentou-se num barco e afastou-se da praia."
+          },
+          {
+            "id": "P04",
+            "text": "O povo permaneceu na praia, à beira-mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O povo permaneceu na praia, à beira-mar."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus ensinava muitas coisas por parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ensinava muitas coisas por parábolas."
+          },
+          {
+            "id": "P06",
+            "text": "O semeador saiu a semear.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O semeador saiu a semear."
+          },
+          {
+            "id": "P07",
+            "text": "À beira do caminho, aves comeram a semente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "À beira do caminho, aves comeram a semente."
+          },
+          {
+            "id": "P08",
+            "text": "No solo rochoso havia pouca terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No solo rochoso havia pouca terra."
+          },
+          {
+            "id": "P09",
+            "text": "Ali a semente nasceu logo, mas o sol a queimou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.5-6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali a semente nasceu logo, mas o sol a queimou."
+          },
+          {
+            "id": "P10",
+            "text": "Ela secou porque não tinha raiz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela secou porque não tinha raiz."
+          },
+          {
+            "id": "P11",
+            "text": "Entre espinhos, a semente foi sufocada e não frutificou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Entre espinhos, a semente foi sufocada e não frutificou."
+          },
+          {
+            "id": "P12",
+            "text": "Na boa terra, a semente brotou, cresceu e frutificou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na boa terra, a semente brotou, cresceu e frutificou."
+          },
+          {
+            "id": "P13",
+            "text": "A produção foi de trinta, sessenta e cem por um.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A produção foi de trinta, sessenta e cem por um."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus chamou quem tem ouvidos a ouvir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou quem tem ouvidos a ouvir."
+          },
+          {
+            "id": "P15",
+            "text": "Quando ficou só, os que estavam com ele e os doze perguntaram sobre as parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando ficou só, os que estavam com ele e os doze perguntaram sobre as parábolas."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus disse que a eles era dado conhecer o mistério do Reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que a eles era dado conhecer o mistério do Reino."
+          },
+          {
+            "id": "P17",
+            "text": "Aos de fora, tudo era ensinado por parábolas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.11-12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos de fora, tudo era ensinado por parábolas."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus perguntou como entenderiam outras parábolas sem entender aquela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou como entenderiam outras parábolas sem entender aquela."
+          },
+          {
+            "id": "P19",
+            "text": "Na explicação, o semeador semeia a palavra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na explicação, o semeador semeia a palavra."
+          },
+          {
+            "id": "P20",
+            "text": "Na beira do caminho, Satanás tira logo a palavra ouvida.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na beira do caminho, Satanás tira logo a palavra ouvida."
+          },
+          {
+            "id": "P21",
+            "text": "No solo rochoso, a palavra é recebida logo com alegria.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No solo rochoso, a palavra é recebida logo com alegria."
+          },
+          {
+            "id": "P22",
+            "text": "Sem raiz e de pouca duração, escandalizam-se diante de angústia ou perseguição por causa da palavra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sem raiz e de pouca duração, escandalizam-se diante de angústia ou perseguição por causa da palavra."
+          },
+          {
+            "id": "P23",
+            "text": "Os semeados entre espinhos ouvem a palavra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os semeados entre espinhos ouvem a palavra."
+          },
+          {
+            "id": "P24",
+            "text": "Preocupações do mundo, fascinação da riqueza e outras ambições sufocam a palavra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Preocupações do mundo, fascinação da riqueza e outras ambições sufocam a palavra."
+          },
+          {
+            "id": "P25",
+            "text": "Nesse solo, a palavra fica infrutífera.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nesse solo, a palavra fica infrutífera."
+          },
+          {
+            "id": "P26",
+            "text": "Na boa terra, ouvem e recebem a palavra.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na boa terra, ouvem e recebem a palavra."
+          },
+          {
+            "id": "P27",
+            "text": "Eles frutificam a trinta, sessenta e cem por um.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles frutificam a trinta, sessenta e cem por um."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 4.1-20 apresenta o ensino no barco, a parábola dos quatro solos e sua explicação posterior aos que estavam com Jesus e os doze.",
+        "hinge": "A pauta preserva narrativa e explicação atribuídas a Jesus em Marcos; referências cruzadas e formulações de Mateus, Lucas ou Isaías não fornecem fatos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.1-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-lamparina-medida": {
+      "id": "nt2-marcos-lamparina-medida",
+      "kind": "canonical-case",
+      "title": "A lamparina, o oculto e a medida",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 4.21-25",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.21-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde a lamparina deve ficar, o que acontecerá ao oculto, a que os ouvintes devem prestar atenção e como funcionam medida e posse nas declarações?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A posição contrastante da lamparina abre e identifica o conjunto de declarações; revelação, atenção e medida completam o bloco sem explicação externa.",
+      "editorial": {
+        "hinge": "As imagens permanecem falas atribuídas e não são fundidas com ocorrências semelhantes em Mateus ou Lucas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino adequado da lamparina",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um lugar em que ilumine bem"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Debaixo de um cesto"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Debaixo da cama"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Dentro de um odre fechado"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um lugar em que ilumine bem",
+          "enderecoNAA": "Marcos 4.21",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Destino do que está oculto ou escondido",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Ser manifesto e revelado"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Permanecer oculto para sempre"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ser levado para a outra margem"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ser entregue somente aos escribas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Ser manifesto e revelado",
+          "enderecoNAA": "Marcos 4.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Objeto da atenção solicitada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O que os ouvintes escutam"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O tamanho da multidão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O número de barcos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A origem dos discípulos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O que os ouvintes escutam",
+          "enderecoNAA": "Marcos 4.23-24",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Relações declaradas sobre medida e posse",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A medida usada será aplicada com acréscimo; quem tem recebe mais, quem não tem perde até o que tem"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Toda medida será anulada e ninguém receberá mais"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Somente quem não tem receberá em dobro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A medida depende do lugar onde a lamparina foi comprada"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A medida usada será aplicada com acréscimo; quem tem recebe mais, quem não tem perde até o que tem",
+          "enderecoNAA": "Marcos 4.24-25",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.24-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus perguntou se uma lamparina é trazida para ficar sob um cesto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou se uma lamparina é trazida para ficar sob um cesto."
+          },
+          {
+            "id": "P02",
+            "text": "Ele também recusou colocá-la debaixo da cama.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também recusou colocá-la debaixo da cama."
+          },
+          {
+            "id": "P03",
+            "text": "O lugar apropriado é onde ela ilumine bem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O lugar apropriado é onde ela ilumine bem."
+          },
+          {
+            "id": "P04",
+            "text": "Nada oculto deixa de ter como destino ser manifesto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nada oculto deixa de ter como destino ser manifesto."
+          },
+          {
+            "id": "P05",
+            "text": "Nada escondido deixa de ter como destino ser revelado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nada escondido deixa de ter como destino ser revelado."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus novamente chamou quem tem ouvidos a ouvir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus novamente chamou quem tem ouvidos a ouvir."
+          },
+          {
+            "id": "P07",
+            "text": "Ele ordenou atenção ao que os ouvintes escutavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele ordenou atenção ao que os ouvintes escutavam."
+          },
+          {
+            "id": "P08",
+            "text": "A medida usada pelos ouvintes seria aplicada a eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A medida usada pelos ouvintes seria aplicada a eles."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus acrescentou que ainda mais lhes seria dado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus acrescentou que ainda mais lhes seria dado."
+          },
+          {
+            "id": "P10",
+            "text": "Ao que tem seria dado mais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao que tem seria dado mais."
+          },
+          {
+            "id": "P11",
+            "text": "Ao que não tem seria tirado até aquilo que tem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao que não tem seria tirado até aquilo que tem."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 4.21-25 reúne declarações de Jesus sobre a lamparina, a revelação do oculto, a atenção ao ouvir e as relações de medida e posse.",
+        "hinge": "As imagens permanecem falas atribuídas e não são fundidas com ocorrências semelhantes em Mateus ou Lucas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.21-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-semente-crescimento-colheita": {
+      "id": "nt2-marcos-semente-crescimento-colheita",
+      "kind": "canonical-case",
+      "title": "A semente, o crescimento e a colheita",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 4.26-29",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.26-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "A que o Reino é comparado, qual rotina o homem mantém, como ocorre a sequência do crescimento e o que ele faz quando o fruto amadurece?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A sequência planta–espiga–grão cheio distingue a comparação; lançamento, rotina e colheita sustentam seu começo e final sem alegorização.",
+      "editorial": {
+        "hinge": "A pauta conserva a progressão expressa na comparação e não importa interpretações ou conteúdo das referências cruzadas a outros livros."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Sequência produzida pela terra",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Primeiro planta, depois espiga e por fim grão cheio na espiga"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Primeiro fruto, depois raiz e por fim semente"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Primeiro foice, depois terra e por fim espinhos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Primeiro barco, depois praia e por fim multidão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Primeiro planta, depois espiga e por fim grão cheio na espiga",
+          "enderecoNAA": "Marcos 4.27-28",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.27-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Comparação inicial do Reino",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um homem que lança a semente na terra"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um pescador que lança a rede no mar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um escriba que entra na sinagoga"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um servo que esconde uma lamparina"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um homem que lança a semente na terra",
+          "enderecoNAA": "Marcos 4.26",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Rotina enquanto a semente cresce",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O homem dorme e acorda, de noite e de dia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ele permanece acordado somente à noite"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ele corta a planta todos os dias"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ele transfere a semente para um barco"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O homem dorme e acorda, de noite e de dia",
+          "enderecoNAA": "Marcos 4.27",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ação quando o fruto amadurece",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Mandar cortar com a foice, porque chegou a colheita"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Arrancar a espiga antes de surgir a planta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Guardar a semente sob a cama"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Devolver o fruto à terra sem colhê-lo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Mandar cortar com a foice, porque chegou a colheita",
+          "enderecoNAA": "Marcos 4.29",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus comparou o Reino de Deus a um homem que lança semente na terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou o Reino de Deus a um homem que lança semente na terra."
+          },
+          {
+            "id": "P02",
+            "text": "Depois de lançar, o homem dorme.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de lançar, o homem dorme."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também acorda.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também acorda."
+          },
+          {
+            "id": "P04",
+            "text": "A rotina é situada de noite e de dia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A rotina é situada de noite e de dia."
+          },
+          {
+            "id": "P05",
+            "text": "A semente germina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente germina."
+          },
+          {
+            "id": "P06",
+            "text": "A semente cresce.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente cresce."
+          },
+          {
+            "id": "P07",
+            "text": "O homem não sabe como ocorre esse crescimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem não sabe como ocorre esse crescimento."
+          },
+          {
+            "id": "P08",
+            "text": "A terra frutifica por si mesma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terra frutifica por si mesma."
+          },
+          {
+            "id": "P09",
+            "text": "Primeiro aparece a planta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Primeiro aparece a planta."
+          },
+          {
+            "id": "P10",
+            "text": "Depois aparece a espiga.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois aparece a espiga."
+          },
+          {
+            "id": "P11",
+            "text": "Por fim surge o grão cheio na espiga.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por fim surge o grão cheio na espiga."
+          },
+          {
+            "id": "P12",
+            "text": "A ação final espera o fruto estar maduro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ação final espera o fruto estar maduro."
+          },
+          {
+            "id": "P13",
+            "text": "Então o homem manda cortar com a foice.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Então o homem manda cortar com a foice."
+          },
+          {
+            "id": "P14",
+            "text": "A razão dada é a chegada da colheita.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A razão dada é a chegada da colheita."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 4.26-29 compara o Reino a um homem que semeia, segue sua rotina sem saber como a semente cresce e manda cortar quando chega a colheita.",
+        "hinge": "A pauta conserva a progressão expressa na comparação e não importa interpretações ou conteúdo das referências cruzadas a outros livros.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.26-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-mostarda-parabolas-particular": {
+      "id": "nt2-marcos-mostarda-parabolas-particular",
+      "kind": "canonical-case",
+      "title": "A mostarda e o ensino em parábolas",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 4.30-34",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.30-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Com que semente Jesus comparou o Reino, qual contraste descreveu, como ensinava a multidão e o que fazia em particular aos discípulos?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O contraste de tamanho e seus ramos identifica a comparação; a semente, o modo público e a explicação particular completam o uso das parábolas.",
+      "editorial": {
+        "hinge": "A mostarda permanece imagem desta fala, sem identidade presumida com a fé em Mt 17; nenhuma referência cruzada completa a explicação."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Contraste apresentado depois de semeada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "De menor das sementes a maior das hortaliças, com grandes ramos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "De maior árvore a menor semente, sem ramos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "De planta madura a solo rochoso sem raiz"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De espiga cheia a lamparina escondida"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "De menor das sementes a maior das hortaliças, com grandes ramos",
+          "enderecoNAA": "Marcos 4.31-32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.31-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Semente usada na comparação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Grão de mostarda"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Grão de trigo recolhido no sábado"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Semente caída somente entre espinhos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Grão cheio já cortado com a foice"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Grão de mostarda",
+          "enderecoNAA": "Marcos 4.30-31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.30-31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Modo de exposição à multidão",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Muitas parábolas semelhantes, conforme podiam compreender"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente listas de nomes no monte"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas perguntas sem comparações"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Explicações particulares sem parábolas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Muitas parábolas semelhantes, conforme podiam compreender",
+          "enderecoNAA": "Marcos 4.33-34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.33-34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Tratamento dado aos próprios discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Explicava tudo em particular"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Não lhes explicava nenhuma parábola"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Mandava-os consultar referências externas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Enviava-os para perguntar à multidão"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Explicava tudo em particular",
+          "enderecoNAA": "Marcos 4.34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "4.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus perguntou com que comparar o Reino de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou com que comparar o Reino de Deus."
+          },
+          {
+            "id": "P02",
+            "text": "Ele também perguntou com que parábola apresentá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também perguntou com que parábola apresentá-lo."
+          },
+          {
+            "id": "P03",
+            "text": "A comparação escolhida foi o grão de mostarda.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação escolhida foi o grão de mostarda."
+          },
+          {
+            "id": "P04",
+            "text": "A semente é descrita, ao ser semeada, como a menor sobre a terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A semente é descrita, ao ser semeada, como a menor sobre a terra."
+          },
+          {
+            "id": "P05",
+            "text": "Uma vez semeada, ela cresce.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma vez semeada, ela cresce."
+          },
+          {
+            "id": "P06",
+            "text": "Ela se torna maior do que todas as hortaliças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela se torna maior do que todas as hortaliças."
+          },
+          {
+            "id": "P07",
+            "text": "A planta cria ramos muito grandes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A planta cria ramos muito grandes."
+          },
+          {
+            "id": "P08",
+            "text": "As aves do céu podem aninhar-se à sombra desses ramos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As aves do céu podem aninhar-se à sombra desses ramos."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus expunha a palavra com muitas parábolas semelhantes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus expunha a palavra com muitas parábolas semelhantes."
+          },
+          {
+            "id": "P10",
+            "text": "A exposição acompanhava o que as pessoas podiam compreender.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A exposição acompanhava o que as pessoas podiam compreender."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus não lhes falava sem parábolas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus não lhes falava sem parábolas."
+          },
+          {
+            "id": "P12",
+            "text": "Aos seus próprios discípulos, explicava tudo em particular.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Marcos",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "4.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Aos seus próprios discípulos, explicava tudo em particular."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 4.30-34 registra a comparação do Reino com o grão de mostarda e descreve o uso público das parábolas e a explicação particular aos discípulos.",
+        "hinge": "A mostarda permanece imagem desta fala, sem identidade presumida com a fé em Mt 17; nenhuma referência cruzada completa a explicação.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "4.30-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
