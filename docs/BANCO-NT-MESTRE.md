@@ -450,3 +450,9 @@ O lote acrescentou exatamente quatro pautas: `nt2-romanos-corpo-dons-conduta` (2
 - **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução.
 - **Pendências:** Coríntios, as demais cartas e Apocalipse ficam para a próxima base. O banco **não** está completo.
 - **Operação:** não houve uso da `main`, merge, deploy, publicação nem alteração de Firebase ou credenciais.
+
+## Checkpoint 043 — lote limitado a 1 Coríntios 1, 8, 9 e 10
+
+Em 13/09/2026, as páginas de 1 Coríntios 1, 8, 9 e 10 identificadas como NAA em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200 e lidas antes da autoria. O lote acrescentou quatro pautas, sem forçar uma quinta: abertura/divisões/batismos (16 pistas), conhecimento/liberdade/consciência (13), direitos/adaptação/corrida (21) e exemplos/mesa/glória (23).
+
+As perguntas atribuem cada afirmação à carta. As alusões de 1Co 9–10 permanecem somente como afirmações desses capítulos, sem completar narrativas pelo Antigo Testamento; os capítulos não foram fundidos nem alinhados a cronologias externas. O inventário passa de **124 pautas e 2.250 pistas** para **128 pautas e 2.323 pistas**. 1Co 11, 13 e 14, 2 Coríntios e os demais recortes pendentes ficam para lotes posteriores; o banco não é declarado completo.

@@ -182,3 +182,14 @@ Em 13/09/2026, Romanos 12, 13, 14 e 15 foram obtidos individualmente da NAA iden
 | Rm 15.1-13 | Responsabilidade dos fortes; edificação do próximo; acolhimento; alegria, paz e esperança. As citações ficam limitadas ao que Romanos declara. | `nt2-romanos-fortes-acolhimento-esperanca`, 14 pistas, capacidade 2–6. |
 
 O lote autorizado termina nessas quatro pautas. Coríntios, as demais cartas e Apocalipse permanecem pendentes para a próxima base; o banco não é declarado completo.
+
+## Checkpoint 043 — decisões individuais em 1 Coríntios
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Co 1.1-17 | NAA, HTTP 200; remetentes, fonte do informe, falas de grupo e batismos atribuídos à carta. | `nt2-1corintios-remetentes-divisoes-batismos`, 16 pistas, capacidade 2–7. |
+| 1Co 8 | NAA, HTTP 200; conhecimento, amor, consciência fraca e renúncia mantidos no argumento do capítulo. | `nt2-1corintios-conhecimento-liberdade-consciencia`, 13 pistas, capacidade 2–6. |
+| 1Co 9 | NAA, HTTP 200; direitos, renúncia, adaptação e imagens atléticas tratados como declarações de Paulo. | `nt2-1corintios-direitos-adaptacao-corrida`, 21 pistas, capacidade 2–10. |
+| 1Co 10 | NAA, HTTP 200; exemplos e alusões não foram completados pelo AT; consciência e finalidade permanecem atributivas. | `nt2-1corintios-exemplos-mesa-gloria`, 23 pistas, capacidade 2–11. |
+
+O lote autorizado encerra nesses quatro recortes. 1Co 11, 13 e 14 não foram consultados nem decididos nesta rodada; 2 Coríntios e os demais livros pendentes permanecem para bases posteriores. O banco não é declarado completo.

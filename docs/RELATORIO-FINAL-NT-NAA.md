@@ -60,3 +60,11 @@ Foram incorporadas quatro pautas e 76 pistas: Rm 12 com 21, Rm 13 com 18, Rm 14 
 A comparação mecanizada preservou integralmente os 120 objetos e 2.174 pistas anteriores, incluindo IDs e revisões. O auditor encontrou zero duplicatas exatas e nenhum par semântico pendente. O diff desta rodada limita-se às quatro pautas novas, catálogo regenerado, expectativas de inventário/capacidade e registros documentais.
 
 **Coríntios, as demais cartas e Apocalipse permanecem pendentes para a próxima base. O banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 043 — lote incremental de 1 Coríntios
+
+A base `bab702264accefcab91597d52e9462203e9c7b26` foi confirmada limpa, com **124 pautas elegíveis e 2.250 pistas**, antes de qualquer edição. Em etapa bíblica separada dos validadores, as páginas NAA de 1 Coríntios 1, 8, 9 e 10 em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026 e foram lidas somente nos recortes autorizados.
+
+Foram acrescentadas quatro pautas e 73 pistas: 1Co 1.1-17 com 16, 1Co 8 com 13, 1Co 9 com 21 e 1Co 10 com 23. O inventário passa a **128 pautas, 512 campos e 2.323 pistas**, todas elegíveis em alguma mesa. A capacidade continua derivada por `min(12, floor((cartas - 1) / 2))`, com duas cartas por pessoa e pelo menos uma no poço. A comparação mecanizada preservou integralmente os 124 objetos e 2.250 pistas anteriores.
+
+As perguntas são atributivas, as alternativas incorretas não são declaradas como doutrina e as alusões de 1Co 9–10 não foram completadas pelo Antigo Testamento. **1Co 11, 13 e 14, 2 Coríntios e os demais recortes pendentes permanecem para outra rodada; o banco não está completo.** Não houve merge, deploy, publicação, Firebase ou credenciais.

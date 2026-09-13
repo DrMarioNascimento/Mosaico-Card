@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026.09-batch-042",
+  "catalogVersion": "2026-09-13-checkpoint-043",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -75261,6 +75261,2415 @@
           }
         ],
         "canonicalSummary": "Romanos 15.1-13 atribui aos fortes o suporte aos fracos, orienta a edificação do próximo, toma Cristo como modelo de acolhimento e encerra com alegria, paz e esperança pelo Espírito."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-remetentes-divisoes-batismos",
+      "title": "Remetentes, divisões e batismos em 1 Coríntios 1",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "1.1-17",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 1.1-17, quem acompanha Paulo na abertura, de quem veio o informe sobre brigas, quais nomes apareciam nas declarações de grupo e quem Paulo se lembra de ter batizado?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A casa de Cloe é a origem explicitamente atribuída ao informe e liga a exortação às divisões sem inferir a identidade de seus membros.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem é chamado de irmão ao lado de Paulo",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sóstenes"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Apolo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Crispo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Estéfanas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "De quem veio o informe sobre as brigas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "De membros da casa de Cloe"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dos irmãos do Senhor"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Da casa de Crispo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Dos portadores da coleta"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quais nomes apareciam nas declarações de pertencimento",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Paulo, Apolo, Cefas e Cristo"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Paulo, Barnabé, Silas e Timóteo"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Crispo, Gaio, Cloe e Estéfanas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Moisés, Arão, Cefas e Apolo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem Paulo recorda ter batizado no recorte",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Crispo, Gaio e a casa de Estéfanas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Sóstenes, Cloe e todos os coríntios"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Apolo, Cefas e a casa de Cloe"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Barnabé, Timóteo e os irmãos do Senhor"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.14-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Paulo se apresenta como chamado pela vontade de Deus para ser apóstolo de Cristo Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Sóstenes é identificado como irmão na abertura da carta.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Os destinatários são identificados como a igreja de Deus em Corinto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A saudação atribui graça e paz a Deus Pai e ao Senhor Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Paulo pede acordo no falar e ausência de divisões.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O pedido inclui união no mesmo modo de pensar e no mesmo propósito.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Membros da casa de Cloe informaram Paulo sobre brigas entre os destinatários.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Uma declaração mencionada no conflito dizia pertencer a Paulo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Outra declaração mencionada dizia pertencer a Apolo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Cefas também aparece como nome de um dos grupos declarados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Cristo é o quarto nome usado nas declarações de pertencimento.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Paulo pergunta se ele próprio teria sido crucificado pelos destinatários.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Crispo é uma das pessoas que Paulo afirma ter batizado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Gaio também é citado entre os batizados por Paulo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Paulo acrescenta que batizou a casa de Estéfanas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "No recorte, Paulo contrasta batizar com a missão de pregar o evangelho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "1.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "A pauta atribui cada informação à carta e não transforma os nomes dos grupos em descrições históricas externas.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "1.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "Em 1 Coríntios 1.1-17, Sóstenes acompanha Paulo; a casa de Cloe é fonte do informe sobre brigas; quatro nomes aparecem nas falas de grupo; e Paulo nomeia Crispo, Gaio e a casa de Estéfanas entre seus batismos."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-conhecimento-liberdade-consciencia",
+      "title": "Conhecimento, liberdade e consciência em 1 Coríntios 8",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "8.1-13",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 8, o que conhecimento e amor produzem, quem o texto reconhece como Deus e Senhor, que risco a liberdade pode trazer e que decisão Paulo declara diante do escândalo do irmão?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O risco de a liberdade tornar-se tropeço é o eixo prático que conecta conhecimento, consciência fraca e a decisão final de Paulo.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que conhecimento e amor produzem no contraste inicial",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "O conhecimento orgulha, mas o amor edifica"
+            },
+            {
+              "id": "C1-O2",
+              "text": "O conhecimento edifica, mas o amor divide"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ambos tornam a comida agradável a Deus"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Ambos eliminam toda diferença de consciência"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem o capítulo apresenta como o único Deus e o único Senhor",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "O Pai como Deus e Jesus Cristo como Senhor"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Moisés como Deus e Paulo como senhor"
+            },
+            {
+              "id": "C2-O3",
+              "text": "O ídolo como deus e o templo como senhor"
+            },
+            {
+              "id": "C2-O4",
+              "text": "A consciência como deus e o conhecimento como senhor"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que risco é atribuído à liberdade dos que têm conhecimento",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tornar-se tropeço para os fracos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Eliminar a responsabilidade pelo irmão"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Fazer a comida determinar a aceitação divina"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Provar que todos possuem o mesmo conhecimento"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.9-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Que decisão Paulo declara se a comida escandalizar seu irmão",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Nunca mais comer carne para não escandalizá-lo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Comer no templo para demonstrar conhecimento"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Exigir que o irmão ignore a consciência"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Abandonar toda convivência com o irmão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O capítulo contrapõe o orgulho ligado ao conhecimento à edificação ligada ao amor.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Quem julga conhecer algo ainda não conhece como deveria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Quem ama a Deus é apresentado como conhecido por ele.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O ídolo é declarado sem realidade própria no mundo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O texto afirma que há um só Deus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O Pai é apresentado como aquele de quem procedem todas as coisas e para quem existimos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Jesus Cristo é apresentado como o único Senhor, por meio de quem todas as coisas existem.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O capítulo afirma que nem todos possuem esse conhecimento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A consciência fraca pode ser contaminada quando a comida ainda é tratada como sacrificada ao ídolo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "A comida não é apresentada como aquilo que torna alguém agradável a Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A liberdade pode transformar-se em tropeço para os fracos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Ferir a consciência fraca dos irmãos é descrito como pecado contra Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Paulo declara que deixaria de comer carne para não escandalizar o irmão.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "high",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "8.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "O caso pergunta o que Paulo afirma sobre liberdade e consciência; alternativas incorretas não são oferecidas como normas verdadeiras.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "8.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 8 contrapõe conhecimento e amor, identifica um só Deus e um só Senhor, adverte contra o tropeço da consciência fraca e encerra com a renúncia declarada por Paulo."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-direitos-adaptacao-corrida",
+      "title": "Direitos, adaptação e corrida em 1 Coríntios 9",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "9.1-27",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 9, que selo Paulo aponta, por que não usou seu direito, com que finalidade se adaptou a diferentes pessoas e como descreve sua corrida e a coroa buscada?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A renúncia ao direito para não criar obstáculo ao evangelho explica a conduta de Paulo sem depender de reconstrução biográfica externa.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que Paulo chama de selo de seu apostolado no Senhor",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Os próprios destinatários"
+            },
+            {
+              "id": "C1-O2",
+              "text": "A esposa crente que o acompanhava"
+            },
+            {
+              "id": "C1-O3",
+              "text": "O fruto de uma vinha que plantou"
+            },
+            {
+              "id": "C1-O4",
+              "text": "A coroa recebida no estádio"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Por que Paulo diz que não fez uso do direito mencionado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Para não criar obstáculo ao evangelho de Cristo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Para negar que pregadores possam viver do evangelho"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Para deixar de anunciar gratuitamente"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Para provar que Barnabé não precisava trabalhar"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Com que finalidade Paulo se fez como diferentes grupos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Ganhar o maior número possível e salvar alguns"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Receber de todos os grupos bens materiais"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ficar livre da lei de Cristo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ser reconhecido como vencedor no estádio"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.19-23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como Paulo descreve sua corrida e a coroa buscada",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Corre com meta e busca uma coroa incorruptível"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Corre sem meta e busca uma coroa corruptível"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Luta golpeando o ar para ganhar bens materiais"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Evita domínio próprio para não ser desqualificado"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.24-27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Paulo pergunta se é livre e se é apóstolo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele afirma ter visto Jesus, o Senhor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Os destinatários são chamados de fruto do trabalho de Paulo no Senhor.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Paulo chama os destinatários de selo de seu apostolado no Senhor.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Entre os direitos discutidos estão comer e beber.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Paulo menciona o direito de levar uma esposa crente, como outros apóstolos, os irmãos do Senhor e Cefas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Paulo e Barnabé são mencionados juntos na pergunta sobre trabalhar para viver.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O capítulo usa como exemplos o soldado, quem planta uma vinha e quem cuida de um rebanho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Paulo afirma que não fez uso do direito que vinha defendendo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Ele diz ter suportado tudo para não criar obstáculo ao evangelho de Cristo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O capítulo afirma que quem prega o evangelho tem o direito de viver do evangelho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Paulo diz apresentar o evangelho gratuitamente, sem valer-se desse direito.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Embora livre de todos, Paulo diz ter-se feito escravo de todos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A finalidade declarada dessa condição é ganhar o maior número possível.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Para com os judeus, Paulo diz ter-se feito como judeu para ganhá-los.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Para com os fracos, Paulo diz ter-se feito fraco para ganhar os fracos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Paulo resume que se fez tudo para com todos a fim de salvar alguns.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Na comparação do estádio, todos correm, mas apenas um recebe o prêmio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "O atleta exerce domínio próprio por uma coroa corruptível; Paulo contrapõe a ela uma incorruptível.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Paulo diz correr com meta e não lutar como quem golpeia o ar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "Ele disciplina o corpo para não ser desqualificado depois de pregar a outros.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "9.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "As imagens legais, laborais e atléticas ficam como comparações usadas pelo próprio capítulo, sem importação dos textos indicados em notas cruzadas.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "9.1-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 9 apresenta os destinatários como selo do apostolado de Paulo, sua renúncia a direitos pelo evangelho, sua adaptação para ganhar pessoas e sua corrida disciplinada por uma coroa incorruptível."
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1corintios-exemplos-mesa-gloria",
+      "title": "Exemplos, mesa e glória em 1 Coríntios 10",
+      "generalReferences": [
+        {
+          "book": "1 Coríntios",
+          "passage": "10.1-33",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Coríntios 10, para que serviram os acontecimentos recordados, o que Deus provê na tentação, como agir quando uma comida é identificada como sacrificada a ídolo e qual finalidade deve orientar toda ação?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "Fazer tudo para a glória de Deus resume o critério final do capítulo e organiza as instruções sem transformar alusões anteriores em reconstrução do AT.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Para que os acontecimentos recordados foram escritos",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Como exemplos e advertência aos destinatários"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Como cronologia completa dos pais no deserto"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Como permissão para cobiçar e murmurar"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Como identificação externa de cada personagem"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.6,11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que Deus provê junto com a tentação",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Livramento para que possa ser suportada"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Uma tentação acima da capacidade humana"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Garantia de que ninguém pode cair"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Dispensa de vigilância para quem está em pé"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.12-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como agir se alguém disser que a comida foi sacrificada a ídolo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Não comer, por causa de quem informou e da consciência"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Comer para mostrar que a consciência do outro não importa"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Perguntar qual narrativa antiga originou o sacrifício"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Recusar qualquer alimento vendido no mercado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.25-29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Qual finalidade deve orientar comer, beber ou qualquer outra ação",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Fazer tudo para a glória de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Buscar em tudo o próprio interesse"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Tornar-se tropeço para todos os grupos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Participar simultaneamente de duas mesas"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.31-33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O capítulo afirma que todos os pais estiveram sob a nuvem e passaram pelo mar.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O alimento e a bebida são qualificados como espirituais no argumento do capítulo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.3-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A pedra espiritual é identificada no próprio texto como Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A maioria deles não agradou a Deus e ficou prostrada no deserto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Esses acontecimentos são chamados de exemplos para que os destinatários não cobicem coisas más.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O capítulo adverte contra idolatria, imoralidade, pôr Cristo à prova e murmuração.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.7-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O texto diz que os acontecimentos foram escritos como advertência aos destinatários.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Quem pensa estar em pé recebe a advertência para cuidar que não caia.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "A tentação que sobreveio é descrita como humana.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Deus é chamado fiel na afirmação sobre tentação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O capítulo afirma que Deus não permitirá tentação além do que os destinatários podem suportar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Junto com a tentação, Deus proverá livramento para que ela possa ser suportada.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Os destinatários amados recebem a ordem de fugir da idolatria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "O cálice da bênção é relacionado à comunhão do sangue de Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O pão partido é relacionado à comunhão do corpo de Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "O capítulo nega que se possa participar ao mesmo tempo da mesa do Senhor e da mesa dos demônios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "O texto diz que nem tudo o que é lícito convém ou edifica.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A orientação é buscar o interesse do próximo, não o próprio.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "A comida vendida no mercado pode ser consumida sem pergunta por motivo de consciência.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Se alguém identificar a comida como sacrificada a ídolo, a orientação é não comer por causa de quem informou e da consciência.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.28-29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "Comer, beber e qualquer outra ação devem ser feitos para a glória de Deus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P22",
+          "text": "O texto manda não se tornar tropeço para judeus, gentios ou a igreja de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P23",
+          "text": "Paulo diz não buscar o próprio interesse, mas o de muitos, para que sejam salvos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Distinguir afirmações explícitas do capítulo sem completar alusões ou criar harmonizações",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Coríntios",
+              "passage": "10.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "hinge": "As alusões permanecem exatamente como afirmações de 1 Coríntios 10; nenhuma narrativa do Antigo Testamento é completada nem usada como fonte adicional.",
+        "references": [
+          {
+            "book": "1 Coríntios",
+            "passage": "10.1-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ],
+        "canonicalSummary": "1 Coríntios 10 chama acontecimentos anteriores de exemplos e advertência, afirma a fidelidade de Deus na tentação, distingue instruções sobre comida e consciência e orienta toda ação para a glória de Deus."
       },
       "review": {
         "structural": "approved",
