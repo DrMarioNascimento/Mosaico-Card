@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-095-marcos-4-1-34",
+  "catalogVersion": "checkpoint-096-marcos-5-6",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 296,
-    "fields": 1184,
-    "editoriallyEligibleCases": 296,
-    "playableCases": 296,
+    "cases": 300,
+    "fields": 1200,
+    "editoriallyEligibleCases": 300,
+    "playableCases": 300,
     "max12Cases": 97
   },
   "order": [
@@ -312,7 +312,11 @@
     "nt2-marcos-semeador-explicacao",
     "nt2-marcos-lamparina-medida",
     "nt2-marcos-semente-crescimento-colheita",
-    "nt2-marcos-mostarda-parabolas-particular"
+    "nt2-marcos-mostarda-parabolas-particular",
+    "nt2-marcos-terra-incredulidade-ensino",
+    "nt2-marcos-repouso-multidao-paes",
+    "nt2-marcos-mar-vento-paes-coracao",
+    "nt2-marcos-genesare-leitos-pracas"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -204580,6 +204584,2371 @@
             "passage": "4.30-34",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-terra-incredulidade-ensino": {
+      "id": "nt2-marcos-terra-incredulidade-ensino",
+      "kind": "canonical-case",
+      "title": "A recepção de Jesus em sua terra",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 6.1-6",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus ensinou, como foi identificado pelos ouvintes, qual limite ele declarou e o que lhe causou admiração?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A identificação feita pelos ouvintes concentra a reação em sua terra; cenário, declaração e admiração distinguem o recorte.",
+      "editorial": {
+        "hinge": "A pauta mantém como falas e reações aquilo que o narrador assim apresenta; não converte perguntas dos ouvintes em biografia externa."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Identificação feita pelos ouvintes",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O carpinteiro, filho de Maria e irmão de Tiago, José, Judas e Simão"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O pescador, filho de Isabel e irmão de André"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O cobrador, filho de Zebedeu e irmão de Levi"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O sacerdote, filho de José e irmão de João"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O carpinteiro, filho de Maria e irmão de Tiago, José, Judas e Simão",
+          "enderecoNAA": "Marcos 6.3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Cenário do ensino",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sua terra, na sinagoga, no sábado"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jerusalém, no templo, durante a festa"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Decápolis, numa casa, ao anoitecer"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Betsaida, no barco, de madrugada"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sua terra, na sinagoga, no sábado",
+          "enderecoNAA": "Marcos 6.1-2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Limite declarado sobre o desprezo ao profeta",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Sua terra, seus parentes e sua casa"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente cidades estrangeiras"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas o palácio e o templo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O barco, a praia e o deserto"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Sua terra, seus parentes e sua casa",
+          "enderecoNAA": "Marcos 6.4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Motivo da admiração de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "A incredulidade deles"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A quantidade de enfermos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O conhecimento dos escribas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A distância percorrida pelos discípulos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "A incredulidade deles",
+          "enderecoNAA": "Marcos 6.5-6",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus saiu dali e foi para a sua terra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus saiu dali e foi para a sua terra."
+          },
+          {
+            "id": "P02",
+            "text": "Os discípulos o acompanharam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos o acompanharam."
+          },
+          {
+            "id": "P03",
+            "text": "No sábado, ele começou a ensinar na sinagoga.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No sábado, ele começou a ensinar na sinagoga."
+          },
+          {
+            "id": "P04",
+            "text": "Muitos ouvintes se maravilharam com sabedoria e maravilhas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos ouvintes se maravilharam com sabedoria e maravilhas."
+          },
+          {
+            "id": "P05",
+            "text": "Eles o chamaram de carpinteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles o chamaram de carpinteiro."
+          },
+          {
+            "id": "P06",
+            "text": "Também o identificaram como filho de Maria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também o identificaram como filho de Maria."
+          },
+          {
+            "id": "P07",
+            "text": "Tiago, José, Judas e Simão foram citados como irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago, José, Judas e Simão foram citados como irmãos."
+          },
+          {
+            "id": "P08",
+            "text": "As irmãs dele viviam ali entre os ouvintes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As irmãs dele viviam ali entre os ouvintes."
+          },
+          {
+            "id": "P09",
+            "text": "Os ouvintes se escandalizavam por causa dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ouvintes se escandalizavam por causa dele."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus mencionou o desprezo na própria terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mencionou o desprezo na própria terra."
+          },
+          {
+            "id": "P11",
+            "text": "Também mencionou parentes e casa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também mencionou parentes e casa."
+          },
+          {
+            "id": "P12",
+            "text": "Ali impôs as mãos e curou uns poucos doentes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali impôs as mãos e curou uns poucos doentes."
+          },
+          {
+            "id": "P13",
+            "text": "Ele se admirou da incredulidade deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se admirou da incredulidade deles."
+          },
+          {
+            "id": "P14",
+            "text": "Depois percorreu as aldeias vizinhas ensinando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois percorreu as aldeias vizinhas ensinando."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 6.1-6 registra o ensino de Jesus em sua terra, a identificação e o escândalo dos ouvintes, sua declaração sobre o profeta e sua admiração diante da incredulidade.",
+        "hinge": "A pauta mantém como falas e reações aquilo que o narrador assim apresenta; não converte perguntas dos ouvintes em biografia externa.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.1-6",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-repouso-multidao-paes": {
+      "id": "nt2-marcos-repouso-multidao-paes",
+      "kind": "canonical-case",
+      "title": "Do repouso proposto à multidão alimentada",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 6.30-44",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.30-44",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Por que Jesus propôs repouso, como encontrou a multidão, como a organizou e qual foi o resultado da refeição?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A organização sobre a relva em grupos de cem e cinquenta particulariza o relato de Marcos; motivo, compaixão e resultado completam a sequência.",
+      "editorial": {
+        "hinge": "O relato de Marcos permanece documentalmente próprio; os paralelos não fornecem personagens, causas ou detalhes a esta pauta."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Organização ordenada para a refeição",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Grupos de cem e de cinquenta sobre a relva verde"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Filas de doze dentro das aldeias"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pares em pé junto ao barco"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Grupos de sete sobre pedras"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Grupos de cem e de cinquenta sobre a relva verde",
+          "enderecoNAA": "Marcos 6.39-40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.39-40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Motivo imediato para repousar à parte",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Muitos iam e vinham, sem tempo nem para comer"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Uma tempestade impedia a travessia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Herodes convocara os apóstolos ao palácio"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A sinagoga havia encerrado o ensino"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Muitos iam e vinham, sem tempo nem para comer",
+          "enderecoNAA": "Marcos 6.30-32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.30-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Reação de Jesus ao desembarcar",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Compadeceu-se e ensinou muitas coisas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Despediu imediatamente todas as pessoas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Entrou sozinho numa casa e não ensinou"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mandou a multidão atravessar o mar"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Compadeceu-se e ensinou muitas coisas",
+          "enderecoNAA": "Marcos 6.33-34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.33-34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resultado contado ao final",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Todos se fartaram; doze cestos; cinco mil homens"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Metade comeu; sete cestos; quatro mil mulheres"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Somente os discípulos comeram; nenhum pedaço restou"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Duzentos homens comeram; cinco cestos ficaram vazios"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Todos se fartaram; doze cestos; cinco mil homens",
+          "enderecoNAA": "Marcos 6.42-44",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.42-44",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os apóstolos relataram a Jesus o que haviam feito e ensinado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os apóstolos relataram a Jesus o que haviam feito e ensinado."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus os chamou para repousar um pouco à parte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os chamou para repousar um pouco à parte."
+          },
+          {
+            "id": "P03",
+            "text": "Eles não tinham tempo nem para comer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles não tinham tempo nem para comer."
+          },
+          {
+            "id": "P04",
+            "text": "Foram de barco a um lugar deserto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram de barco a um lugar deserto."
+          },
+          {
+            "id": "P05",
+            "text": "Pessoas correram a pé e chegaram antes deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pessoas correram a pé e chegaram antes deles."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus viu uma grande multidão ao desembarcar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus viu uma grande multidão ao desembarcar."
+          },
+          {
+            "id": "P07",
+            "text": "Ele se compadeceu porque eram como ovelhas sem pastor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se compadeceu porque eram como ovelhas sem pastor."
+          },
+          {
+            "id": "P08",
+            "text": "Começou a ensinar-lhes muitas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Começou a ensinar-lhes muitas coisas."
+          },
+          {
+            "id": "P09",
+            "text": "Os discípulos observaram que já era bastante tarde.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos observaram que já era bastante tarde."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus lhes disse que dessem comida ao povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus lhes disse que dessem comida ao povo."
+          },
+          {
+            "id": "P11",
+            "text": "Eles mencionaram duzentos denários de pão numa pergunta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles mencionaram duzentos denários de pão numa pergunta."
+          },
+          {
+            "id": "P12",
+            "text": "Após verificarem, informaram cinco pães e dois peixes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Após verificarem, informaram cinco pães e dois peixes."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus mandou o povo assentar-se sobre a relva verde.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou o povo assentar-se sobre a relva verde."
+          },
+          {
+            "id": "P14",
+            "text": "A organização formou grupos de cem e de cinquenta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A organização formou grupos de cem e de cinquenta."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus abençoou e partiu os pães.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus abençoou e partiu os pães."
+          },
+          {
+            "id": "P16",
+            "text": "Os discípulos receberam os pães para distribuí-los.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos receberam os pães para distribuí-los."
+          },
+          {
+            "id": "P17",
+            "text": "Os dois peixes também foram repartidos entre todos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois peixes também foram repartidos entre todos."
+          },
+          {
+            "id": "P18",
+            "text": "Todos comeram até ficarem satisfeitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos comeram até ficarem satisfeitos."
+          },
+          {
+            "id": "P19",
+            "text": "Foram recolhidos doze cestos com pedaços de pão e peixe.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram recolhidos doze cestos com pedaços de pão e peixe."
+          },
+          {
+            "id": "P20",
+            "text": "A contagem registra cinco mil homens que comeram os pães.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A contagem registra cinco mil homens que comeram os pães."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 6.30-44 liga o retorno dos apóstolos e a falta de tempo para comer à compaixão, ao ensino e à alimentação de cinco mil homens organizados sobre a relva.",
+        "hinge": "O relato de Marcos permanece documentalmente próprio; os paralelos não fornecem personagens, causas ou detalhes a esta pauta.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.30-44",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-mar-vento-paes-coracao": {
+      "id": "nt2-marcos-mar-vento-paes-coracao",
+      "kind": "canonical-case",
+      "title": "O vento, os pães e o coração endurecido",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 6.45-52",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.45-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde os discípulos foram enviados, em que situação Jesus os viu, como eles reagiram e por que ficaram perplexos?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A explicação narrativa que associa perplexidade, pães e coração endurecido é própria do fechamento de Marcos; destino, dificuldade e reação sustentam a identificação.",
+      "editorial": {
+        "hinge": "A explicação sobre os pães e o coração é mantida como afirmação do narrador de Marcos; não se importam Pedro ou outros detalhes dos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Explicação da perplexidade",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Não compreenderam o milagre dos pães e tinham o coração endurecido"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Esqueceram os cestos na praia e ficaram com fome"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Não sabiam o destino e perderam os remos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Temeram a multidão que corria pelas cidades"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Não compreenderam o milagre dos pães e tinham o coração endurecido",
+          "enderecoNAA": "Marcos 6.51-52",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.51-52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino dado aos discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Adiante, de barco, para Betsaida"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "De volta a Nazaré por terra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "À Decápolis em grupos de cem"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A Genesaré sem atravessar o mar"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Adiante, de barco, para Betsaida",
+          "enderecoNAA": "Marcos 6.45",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Situação vista por Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Remavam com dificuldade por causa do vento contrário"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Dormiam na popa durante uma tempestade"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pescavam sem encontrar peixe perto da praia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Discutiam sobre lugares à mesa"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Remavam com dificuldade por causa do vento contrário",
+          "enderecoNAA": "Marcos 6.47-48",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.47-48",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Interpretação inicial dos discípulos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Pensaram que fosse um fantasma e gritaram"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Reconheceram Jesus e ficaram em silêncio"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pensaram que fosse um pescador e o chamaram"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Acharam que fosse Herodes e voltaram"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Pensaram que fosse um fantasma e gritaram",
+          "enderecoNAA": "Marcos 6.49-50",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.49-50",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus fez os discípulos entrarem no barco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus fez os discípulos entrarem no barco."
+          },
+          {
+            "id": "P02",
+            "text": "Eles deveriam seguir adiante para Betsaida.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles deveriam seguir adiante para Betsaida."
+          },
+          {
+            "id": "P03",
+            "text": "Enquanto isso, Jesus despedia a multidão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Enquanto isso, Jesus despedia a multidão."
+          },
+          {
+            "id": "P04",
+            "text": "Depois ele subiu ao monte para orar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois ele subiu ao monte para orar."
+          },
+          {
+            "id": "P05",
+            "text": "Ao cair da tarde, o barco estava no meio do mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao cair da tarde, o barco estava no meio do mar."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus permanecia sozinho em terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus permanecia sozinho em terra."
+          },
+          {
+            "id": "P07",
+            "text": "De madrugada, ele viu a dificuldade dos remadores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "De madrugada, ele viu a dificuldade dos remadores."
+          },
+          {
+            "id": "P08",
+            "text": "O vento era contrário a eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O vento era contrário a eles."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus foi até eles andando sobre o mar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi até eles andando sobre o mar."
+          },
+          {
+            "id": "P10",
+            "text": "Ele queria passar adiante deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele queria passar adiante deles."
+          },
+          {
+            "id": "P11",
+            "text": "Os discípulos pensaram ver um fantasma e gritaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos pensaram ver um fantasma e gritaram."
+          },
+          {
+            "id": "P12",
+            "text": "Todos ficaram apavorados ao vê-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos ficaram apavorados ao vê-lo."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus lhes disse que tivessem coragem e não temessem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus lhes disse que tivessem coragem e não temessem."
+          },
+          {
+            "id": "P14",
+            "text": "Quando ele subiu no barco, o vento cessou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando ele subiu no barco, o vento cessou."
+          },
+          {
+            "id": "P15",
+            "text": "Eles ficaram totalmente perplexos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles ficaram totalmente perplexos."
+          },
+          {
+            "id": "P16",
+            "text": "Não haviam compreendido o milagre dos pães.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.52",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não haviam compreendido o milagre dos pães."
+          },
+          {
+            "id": "P17",
+            "text": "O narrador atribui isso ao coração endurecido deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.52",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O narrador atribui isso ao coração endurecido deles."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 6.45-52 relata o envio do barco para Betsaida, a aproximação de Jesus sobre o mar, o medo dos discípulos e a explicação de sua perplexidade pelo não entendimento dos pães.",
+        "hinge": "A explicação sobre os pães e o coração é mantida como afirmação do narrador de Marcos; não se importam Pedro ou outros detalhes dos paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.45-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-genesare-leitos-pracas": {
+      "id": "nt2-marcos-genesare-leitos-pracas",
+      "kind": "canonical-case",
+      "title": "Os enfermos levados às praças de Genesaré",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 6.53-56",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.53-56",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUANDO",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Onde o barco atracou, o que o povo fez ao reconhecer Jesus, onde punha os enfermos e qual foi o resultado?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Genesaré delimita a chegada; o percurso, as praças e o toque documentam a mobilização regional e seu resultado.",
+      "editorial": {
+        "hinge": "A pauta se limita ao sumário geográfico e às ações expressas no recorte, sem identificar indivíduos ou causas não fornecidas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar da chegada e atracação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Terra de Genesaré"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Terra dos gerasenos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Cidade de Nazaré"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Aldeia de Betsaida"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Terra de Genesaré",
+          "enderecoNAA": "Marcos 6.53",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.53",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Ação regional após reconhecerem Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Percorreram a região e levaram enfermos em leitos até onde ele estava"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Reuniram escribas e esconderam os doentes nas casas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Voltaram aos barcos e atravessaram para Decápolis"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mandaram os enfermos caminhar sozinhos ao deserto"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Percorreram a região e levaram enfermos em leitos até onde ele estava",
+          "enderecoNAA": "Marcos 6.54-55",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.54-55",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Locais onde colocavam os enfermos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Nas praças de aldeias, cidades ou campos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente dentro das sinagogas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas junto ao monte"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Exclusivamente no barco"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Nas praças de aldeias, cidades ou campos",
+          "enderecoNAA": "Marcos 6.56",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.56",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Pedido e resultado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Tocar ao menos na borda da roupa; todos os que tocavam ficavam curados"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Receber pão; somente os discípulos se fartaram"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Tocar nos remos; o vento cessou"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entrar nas casas; ninguém foi reconhecido"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Tocar ao menos na borda da roupa; todos os que tocavam ficavam curados",
+          "enderecoNAA": "Marcos 6.56",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "6.56",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A travessia terminou na terra de Genesaré.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.53",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A travessia terminou na terra de Genesaré."
+          },
+          {
+            "id": "P02",
+            "text": "Foi ali que o barco atracou.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.53",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi ali que o barco atracou."
+          },
+          {
+            "id": "P03",
+            "text": "Ao desembarcarem, o povo reconheceu Jesus imediatamente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.54",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao desembarcarem, o povo reconheceu Jesus imediatamente."
+          },
+          {
+            "id": "P04",
+            "text": "As pessoas percorreram toda aquela região.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar o núcleo documental próprio do recorte de Marcos",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As pessoas percorreram toda aquela região."
+          },
+          {
+            "id": "P05",
+            "text": "Começaram a trazer os enfermos em leitos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Começaram a trazer os enfermos em leitos."
+          },
+          {
+            "id": "P06",
+            "text": "Levavam-nos para onde ouviam que Jesus estava.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Levavam-nos para onde ouviam que Jesus estava."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus entrava em aldeias, cidades ou campos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar um fato explícito às alternativas do campo indicado",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus entrava em aldeias, cidades ou campos."
+          },
+          {
+            "id": "P08",
+            "text": "Os enfermos eram colocados nas praças.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os enfermos eram colocados nas praças."
+          },
+          {
+            "id": "P09",
+            "text": "Pediam permissão para tocar ao menos na borda da roupa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pediam permissão para tocar ao menos na borda da roupa."
+          },
+          {
+            "id": "P10",
+            "text": "Todos os que tocavam ficavam curados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar a progressão registrada sem importar explicações externas",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "6.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos os que tocavam ficavam curados."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 6.53-56 registra a chegada a Genesaré e a mobilização do povo para levar enfermos em leitos às praças, onde pediam tocar na borda da roupa de Jesus.",
+        "hinge": "A pauta se limita ao sumário geográfico e às ações expressas no recorte, sem identificar indivíduos ou causas não fornecidas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "6.53-56",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.6.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

@@ -19,7 +19,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 | Livro | Banco real | Recorte ou lacuna documental | Motivo/evidência cruzada | Status e ação |
 | --- | ---: | --- | --- | --- |
 | Mateus | 98 pautas / 1.863 pistas | Nenhuma pendência textual conhecida após as decisões específicas | O checkpoint 092 aplicou Mt 23.14 à pauta existente, com colchetes/nota e separação entre exploração das viúvas e longas orações. | **FILA ORDINÁRIA DECIDIDA.** Sem declaração de completude ou exaustividade futura. |
-| Marcos | 31 / 426 | Trechos ainda não individualizados em Mc 5–16.8 | O checkpoint 095 fechou os quatro remanescentes de Mc 4; as faixas seguintes ainda exigem inventário individual. | **PENDENTE — decisão individual.** Próximo lote: Mc 5–6. **Mc 16.9-20 permanece FORA POR DECISÃO**. |
+| Marcos | 35 / 487 | Trechos ainda não individualizados em Mc 7–16.8 | O checkpoint 096 decidiu individualmente Mc 5–6; as faixas seguintes ainda exigem inventário individual. | **PENDENTE — decisão individual.** Próximo lote: Mc 7–8. **Mc 16.9-20 permanece FORA POR DECISÃO**. |
 | Lucas | 16 / 279 | Lc 1–24 fora dos pré-candidatos/pautas, especialmente discursos, parábolas e finais classificados por faixa | “Discursos e paralelos excluídos” e “não fragmentadas para atingir baralho” são decisões agregadas anteriores à capacidade variável. | **PENDENTE — regra superada.** Lotes pequenos por faixas; primeiro parábolas/discursos ainda sem ID e depois paralelos documentais. |
 | João | 21 / 387 | Jo 8.1-11; 8.12-59; 10.22-42; 12.12-50; 13.21-38; 14–17; 18.15-40; 21.15-25 | A ficha usa exclusões por debate/discurso, “mistério factual”, paralelos ou avaliação posterior; Jo 8.1-11 foi autorizado somente com ressalva textual. | **PENDENTE — decisão individual.** Reconsulta atributiva, com Jo 8.1-11 isolado e ressalvado; não harmonizar paralelos. |
 | Atos | 26 / 484 | Faixas narrativas/discursivas não individualizadas além dos 26 candidatos iniciais | A “varredura por faixas” afirma avaliação, mas não fornece recorte/motivo individual para todas as exclusões; discursos foram parcialmente recusados por risco genérico. | **PENDENTE — decisão individual.** Inventariar referências por episódio/discurso e confrontar as 26 pautas antes de novo lote. |
@@ -56,7 +56,7 @@ Checkpoint 088, em 13/09/2026. Esta auditoria cruzou as 27 fichas em `docs/cober
 
 ## Plano de lotes pequenos, sem autoria antecipada
 
-1. **Próximo trabalho independente — Marcos:** inventariar Mc 5–6 por recorte, comparando a cobertura já existente sem harmonizar paralelos. Mc 3–4 não conserva remanescente conhecido na matriz vigente.
+1. **Próximo trabalho independente — Marcos:** inventariar Mc 7–8 por recorte, comparando a cobertura já existente sem harmonizar paralelos. Mc 1–6 não conserva remanescente conhecido na matriz vigente.
 2. **Lote documental B — Romanos 1.16–5.21:** blocos argumentativos separados, perguntas atributivas, sem completar o AT.
 3. **Lote documental C — 1 Coríntios 2–7:** trabalho independente; não incluir 11.2-16 nem 14.34-36.
 4. **Lote documental D — Filipenses 1 e 2.1-18:** reavaliar oração, relato e afirmações da carta sem distratores teológicos.
@@ -119,3 +119,9 @@ A leitura efetiva das páginas NAA 1840 de Mc 3–4, seguida de matriz por unida
 ## Checkpoint 095 — quatro remanescentes de Marcos 4
 
 A reconsulta e leitura efetiva exclusiva de Mc 4.1-34 sustentou quatro pautas/64 pistas, com capacidades 12, 5, 6 e 5; Mc 4.35-41 permaneceu coberto por `nt2-tempestade-barco`. Os 292 objetos anteriores ficaram serializadamente idênticos, levando o catálogo de **292/5.629 para 296/5.693**. Marcos passa a 31 pautas/426 pistas que citam o livro, sem equiparar IDs a histórias. Mc 3–4 não conserva remanescente conhecido na matriz vigente; as faixas seguintes e as demais auditorias globais continuam pendentes, Mc 16.9-20 continua fora e o banco não está completo. Próximo lote delimitado: Mc 5–6.
+
+## Checkpoint 096 — inventário individual integral de Marcos 5–6
+
+As páginas NAA Bible.com 1840 de Mc 5 e 6 retornaram HTTP 200 (95.923 e 99.487 bytes) e foram efetivamente lidas verso a verso em 13/09/2026. A matriz individual em `docs/cobertura/MARCOS.md` confronta perguntas, gabaritos, referências e fatos de dez unidades: Mc 5.1-20, 5.21-24, 5.24-34, 5.35-43, 6.1-6, 6.7-13, 6.14-29, 6.30-44, 6.45-52 e 6.53-56.
+
+Quatro pautas próprias de Marcos foram anexadas: recepção em sua terra (14 pistas), repouso/multidão/pães (20), caminhada sobre o mar com a explicação dos pães (17) e Genesaré (10). Os seis recortes restantes já estavam cobertos com referências documentais concretas e não foram duplicados. O catálogo passa de **296 pautas/5.693 pistas para 300/5.754**, preservando serializadamente os 296 objetos anteriores; capacidades novas: 6, 9, 8 e 4. Não resta recorte de Mc 5–6 adiado por limite. Próximo lote: Mc 7–8. Marcos e o banco permanecem incompletos; Mc 16.9-20 e todas as decisões vigentes permanecem intactos.
