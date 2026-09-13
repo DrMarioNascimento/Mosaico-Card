@@ -146,3 +146,11 @@ A rodada partiu de `869fd005716a37812e95001ee02e9a7a55eb5ed3`, com **156 pautas 
 Foram incorporadas quatro pautas e 95 pistas, elevando o catálogo a **160 pautas, 640 campos e 2.899 pistas**. Todas são elegíveis em alguma mesa e mantêm capacidade derivada por `min(12, floor((cartas-1)/2))`, com duas cartas por participante e ao menos uma no poço. A comparação mecanizada confirmou que os 156 objetos anteriores permaneceram integralmente idênticos.
 
 As perguntas e pistas atribuem as afirmações às próprias cartas; alusões não receberam complementação externa. **Pedro, João, Judas, Apocalipse e a auditoria global de cobertura permanecem pendentes; o banco não está completo.** Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
+
+## Checkpoint 052 — lote limitado a 1 Pedro 1–3.17
+
+A base `529b518` foi confirmada com **160 pautas e 2.899 pistas**. Em etapa bíblica separada dos testes, 1Pe 1, 2 e 3 na NAA identificada em `bible.com/pt/bible/1840` retornaram HTTP 200 em 13/09/2026. A autoria limitou-se a 1Pe 1, 1Pe 2 e 1Pe 3.1-17.
+
+Foram incorporadas três pautas e 80 pistas, chegando a **163 pautas, 652 campos e 2.979 pistas**. As três comportam 12 participantes; C1–C4, quatro alternativas, gabaritos, focal, pontuação 8/5/3/2, metadados e revelação permanecem no contrato. Os 160 objetos anteriores foram mecanicamente preservados.
+
+1Pe 3.19 não foi usado nem interpretado. **1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global ficam para nova base; o banco não está completo.** Não houve uso da `main`, merge, deploy ou publicação.

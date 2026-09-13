@@ -285,3 +285,13 @@ O lote encerra com quatro pautas, sem forçar uma quinta. 2Tm 4.9-22 não foi du
 | Tg 5.1-12 | NAA, HTTP 200; ricos, salário retido, paciência, profetas, Jó e palavra responsável delimitados antes de 5.13. | `nt2-tiago-ricos-paciencia-palavra`, 23 pistas, capacidade 2–11. |
 
 O lote encerra nesses quatro recortes, sem forçar uma quinta pauta. Pedro, João, Judas, Apocalipse e a auditoria global de cobertura permanecem pendentes; o banco não está completo.
+
+## Checkpoint 052 — decisões individuais em 1 Pedro 1–3.17
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Pe 1 | NAA, HTTP 200; destinatários, esperança, fé provada, santidade e amor mantidos no argumento da carta. | `nt2-1pedro-esperanca-santidade-amor`, 27 pistas, capacidade 2–12. |
+| 1Pe 2 | NAA, HTTP 200; palavra, pedras vivas, designações comunitárias e conduta tratados atributivamente, sem converter imagens em geografia ou instituição externa. | `nt2-1pedro-palavra-pedras-conduta`, 27 pistas, capacidade 2–12. |
+| 1Pe 3.1-17 | NAA, HTTP 200; relações domésticas, unidade, fala e sofrimento delimitados antes de 3.18. | `nt2-1pedro-relacoes-unidade-sofrimento`, 26 pistas, capacidade 2–12. |
+
+1Pe 3.19 permanece integralmente fora, sem interpretação dos espíritos em prisão. 1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global continuam pendentes; o banco não está completo.

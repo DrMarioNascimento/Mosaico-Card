@@ -84,3 +84,9 @@ A base de 152 pautas/2.733 pistas foi preservada mecanicamente. Após consulta H
 Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12 foram relidos nas páginas NAA identificadas, com decisão individual e autoria. O lote acrescenta quatro pautas e 95 pistas ao inventário anterior de 156/2.804, totalizando **160 pautas, 640 campos e 2.899 pistas**. As alusões a Abraão, Raabe e Jó ficam restritas ao que Tiago afirma. Tg 5.13-20 não foi anexado ao bloco autorizado.
 
 **Pedro, João, Judas, Apocalipse e a auditoria global de cobertura continuam pendentes; o banco não está completo.**
+
+## Checkpoint 052 — primeiro lote de 1 Pedro
+
+As páginas NAA de 1Pe 1, 2 e 3 foram obtidas com HTTP 200 em 13/09/2026 e os recortes 1Pe 1, 1Pe 2 e 1Pe 3.1-17 receberam decisões e pautas próprias. Foram acrescentadas três pautas e 80 pistas, elevando o inventário de 160/2.899 para **163 pautas, 652 campos e 2.979 pistas**. A terceira pauta não ultrapassa 3.17 e não usa a questão de 3.19.
+
+**1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** 1Pe 4.6 continua fora; 1Pe 5.13 permanece comunitário e sem geografia. O banco não está completo.

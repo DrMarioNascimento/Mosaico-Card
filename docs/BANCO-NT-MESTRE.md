@@ -537,3 +537,13 @@ Foram acrescentadas quatro pautas e 95 pistas: Hb 13.1-19 com 23, Tg 1 com 25, T
 - **Preservação:** a comparação mecanizada confirmou igualdade integral dos 156 objetos e das 2.804 pistas anteriores.
 - **Contrato:** C1–C4, alternativas distintas, gabaritos, focal justificado, metadados, revelação e pontuação 8/5/3/2 foram preservados; a capacidade segue `min(12, floor((cartas-1)/2))`.
 - **Pendências:** 1–2 Pedro, 1–3 João, Judas, Apocalipse e a auditoria global de cobertura ficam para etapas posteriores; o banco **não** está completo. As decisões e dúvidas vigentes permanecem inalteradas.
+
+## Checkpoint 052 — 1 Pedro 1, 2 e 3.1-17
+
+A rodada continuou de `529b518`, com **160 pautas, 640 campos e 2.899 pistas**. Em 13/09/2026, exclusivamente as páginas de 1 Pedro 1, 2 e 3 identificadas como Nova Almeida Atualizada em `bible.com/pt/bible/1840` foram obtidas separadamente com HTTP 200 e lidas antes da autoria.
+
+Três blocos coerentes sustentaram três pautas, sem forçar a quarta permitida: 1Pe 1 com 27 pistas, 1Pe 2 com 27 e 1Pe 3.1-17 com 26. O último bloco termina estritamente em 3.17: 1Pe 3.19 e os espíritos em prisão não determinam pergunta, campo, alternativa, gabarito ou pista.
+
+- **Inventário:** 163 pautas elegíveis, 652 campos e 2.979 pistas; 61 comportam até 12 participantes, seis até 11, seis até 10, seis até 9, quinze até 8, nove até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+- **Preservação:** comparação mecanizada confirmou igualdade integral dos 160 objetos e das 2.899 pistas anteriores.
+- **Pendências:** 1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global de cobertura ficam para nova base; o banco **não** está completo. 1Pe 4.6 continua fora e 1Pe 5.13 conserva a interpretação comunitária aprovada, sem geografia.
