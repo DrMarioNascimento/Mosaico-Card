@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-075-mateus-21-22",
+  "catalogVersion": "checkpoint-076-mateus-22-pendencias",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 236,
-    "fields": 944,
-    "editoriallyEligibleCases": 236,
-    "playableCases": 236,
+    "cases": 240,
+    "fields": 960,
+    "editoriallyEligibleCases": 240,
+    "playableCases": 240,
     "max12Cases": 91
   },
   "order": [
@@ -252,7 +252,11 @@
     "nt2-mateus-templo-figueira",
     "nt2-mateus-autoridade-dois-filhos",
     "nt2-mateus-lavradores-maus",
-    "nt2-mateus-festa-casamento"
+    "nt2-mateus-festa-casamento",
+    "nt2-mateus-imposto-cesar",
+    "nt2-mateus-saduceus-ressurreicao",
+    "nt2-mateus-grande-mandamento",
+    "nt2-mateus-cristo-davi"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -165648,6 +165652,2250 @@
           {
             "book": "Mateus",
             "passage": "22.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-imposto-cesar": {
+      "id": "nt2-mateus-imposto-cesar",
+      "kind": "canonical-case",
+      "title": "A questão do imposto",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 22.15-22",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.15-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem planejou a pergunta sobre o imposto, que objeto Jesus pediu e que resposta encerrou a prova?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica os agentes que formularam a prova; os demais distinguem pergunta, moeda e resposta.",
+      "editorial": {
+        "hinge": "Os elogios iniciais e a pergunta são atribuídos aos enviados, enquanto a percepção e a resposta são atribuídas a Jesus; não se deriva uma teoria externa de tributação."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem foi enviado para falar com Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Discípulos dos fariseus junto com herodianos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Saduceus junto com sete irmãos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Principais sacerdotes junto com anciãos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Servos do rei junto com convidados"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Discípulos dos fariseus junto com herodianos",
+          "enderecoNAA": "Mateus 22.15-16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.15-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que questão apresentaram a Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Se era lícito pagar imposto a César"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Se o batismo de João vinha do céu"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Qual era o grande mandamento"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De quem o Cristo era filho"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Se era lícito pagar imposto a César",
+          "enderecoNAA": "Mateus 22.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Que moeda foi apresentada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Um denário"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Um talento"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Uma dracma"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Uma moeda achada num peixe"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Um denário",
+          "enderecoNAA": "Mateus 22.19",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que resposta Jesus deu após identificarem César",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Dar a César o que é de César e a Deus o que é de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Não pagar nenhum imposto"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Entregar a moeda ao templo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Dividir o denário entre os discípulos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Dar a César o que é de César e a Deus o que é de Deus",
+          "enderecoNAA": "Mateus 22.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os fariseus se retiraram e deliberaram entre si.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus se retiraram e deliberaram entre si."
+          },
+          {
+            "id": "P02",
+            "text": "Eles queriam surpreender Jesus em alguma palavra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles queriam surpreender Jesus em alguma palavra."
+          },
+          {
+            "id": "P03",
+            "text": "Foram enviados discípulos dos fariseus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram enviados discípulos dos fariseus."
+          },
+          {
+            "id": "P04",
+            "text": "Os herodianos foram junto com eles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os herodianos foram junto com eles."
+          },
+          {
+            "id": "P05",
+            "text": "Os enviados chamaram Jesus de Mestre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os enviados chamaram Jesus de Mestre."
+          },
+          {
+            "id": "P06",
+            "text": "Eles afirmaram que Jesus ensinava o caminho de Deus segundo a verdade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles afirmaram que Jesus ensinava o caminho de Deus segundo a verdade."
+          },
+          {
+            "id": "P07",
+            "text": "Disseram que ele não olhava para a aparência das pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Disseram que ele não olhava para a aparência das pessoas."
+          },
+          {
+            "id": "P08",
+            "text": "Perguntaram se era lícito pagar imposto a César.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Perguntaram se era lícito pagar imposto a César."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus percebeu a maldade deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus percebeu a maldade deles."
+          },
+          {
+            "id": "P10",
+            "text": "Ele os chamou de hipócritas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele os chamou de hipócritas."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus perguntou por que o punham à prova.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou por que o punham à prova."
+          },
+          {
+            "id": "P12",
+            "text": "Ele pediu que mostrassem a moeda do imposto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pediu que mostrassem a moeda do imposto."
+          },
+          {
+            "id": "P13",
+            "text": "Trouxeram um denário.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Trouxeram um denário."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus perguntou de quem eram a figura e a inscrição.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou de quem eram a figura e a inscrição."
+          },
+          {
+            "id": "P15",
+            "text": "Eles responderam que eram de César.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam que eram de César."
+          },
+          {
+            "id": "P16",
+            "text": "Depois da resposta de Jesus, admiraram-se, deixaram-no e foram embora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da resposta de Jesus, admiraram-se, deixaram-no e foram embora."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 22.15-22 registra o plano dos fariseus, a pergunta trazida com os herodianos, o denário e a resposta de Jesus sobre César e Deus.",
+        "hinge": "Os elogios iniciais e a pergunta são atribuídos aos enviados, enquanto a percepção e a resposta são atribuídas a Jesus; não se deriva uma teoria externa de tributação.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.15-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-saduceus-ressurreicao": {
+      "id": "nt2-mateus-saduceus-ressurreicao",
+      "kind": "canonical-case",
+      "title": "Os saduceus e a ressurreição",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 22.23-33",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.23-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que grupo apresentou o caso dos sete irmãos, qual pergunta fez e como Jesus respondeu segundo Mateus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica quem propôs o caso; os demais distinguem regra alegada, pergunta e resposta registrada.",
+      "editorial": {
+        "hinge": "A regra e o caso são atribuídos aos saduceus, e a citação é registrada como usada por Jesus; nenhum dado do Pentateuco ou sistema externo é importado."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem apresentou a questão naquele dia",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Alguns saduceus que dizem não haver ressurreição"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Discípulos dos fariseus e herodianos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Principais sacerdotes e escribas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um intérprete da Lei sozinho"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Alguns saduceus que dizem não haver ressurreição",
+          "enderecoNAA": "Mateus 22.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que dever atribuíram a Moisés no início do caso",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O irmão casar com a viúva sem filhos e gerar descendência ao falecido"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O filho abandonar a herança do pai"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A viúva permanecer sem novo casamento"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O irmão entregar um denário ao templo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O irmão casar com a viúva sem filhos e gerar descendência ao falecido",
+          "enderecoNAA": "Mateus 22.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual foi a pergunta final sobre a mulher",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De qual dos sete seria esposa na ressurreição"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Qual irmão tinha pago o imposto"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Quem herdaria o campo da família"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quando ela voltaria a casar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De qual dos sete seria esposa na ressurreição",
+          "enderecoNAA": "Mateus 22.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Em que Jesus situou o erro deles",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Em não conhecerem as Escrituras nem o poder de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Em desconhecerem a figura do denário"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Em não terem ido à festa do rei"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Em temerem as multidões"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Em não conhecerem as Escrituras nem o poder de Deus",
+          "enderecoNAA": "Mateus 22.29",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Alguns saduceus se aproximaram de Jesus naquele dia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns saduceus se aproximaram de Jesus naquele dia."
+          },
+          {
+            "id": "P02",
+            "text": "Mateus registra que eles dizem não haver ressurreição.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mateus registra que eles dizem não haver ressurreição."
+          },
+          {
+            "id": "P03",
+            "text": "Eles atribuíram a Moisés uma regra para o homem morto sem filhos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles atribuíram a Moisés uma regra para o homem morto sem filhos."
+          },
+          {
+            "id": "P04",
+            "text": "Nessa regra, o irmão deveria casar com a viúva.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Nessa regra, o irmão deveria casar com a viúva."
+          },
+          {
+            "id": "P05",
+            "text": "O casamento visava gerar descendência para o falecido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O casamento visava gerar descendência para o falecido."
+          },
+          {
+            "id": "P06",
+            "text": "O caso proposto tinha sete irmãos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O caso proposto tinha sete irmãos."
+          },
+          {
+            "id": "P07",
+            "text": "O primeiro casou, morreu e não deixou descendência.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O primeiro casou, morreu e não deixou descendência."
+          },
+          {
+            "id": "P08",
+            "text": "A mulher foi deixada para o irmão dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mulher foi deixada para o irmão dele."
+          },
+          {
+            "id": "P09",
+            "text": "O mesmo ocorreu do segundo até o sétimo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O mesmo ocorreu do segundo até o sétimo."
+          },
+          {
+            "id": "P10",
+            "text": "Depois de todos os irmãos, a mulher também morreu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de todos os irmãos, a mulher também morreu."
+          },
+          {
+            "id": "P11",
+            "text": "Eles perguntaram de qual dos sete ela seria esposa na ressurreição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles perguntaram de qual dos sete ela seria esposa na ressurreição."
+          },
+          {
+            "id": "P12",
+            "text": "A pergunta afirmou que todos se casaram com ela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta afirmou que todos se casaram com ela."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus situou o erro no desconhecimento das Escrituras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus situou o erro no desconhecimento das Escrituras."
+          },
+          {
+            "id": "P14",
+            "text": "Também o situou no desconhecimento do poder de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também o situou no desconhecimento do poder de Deus."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus disse que na ressurreição não se casam nem se dão em casamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que na ressurreição não se casam nem se dão em casamento."
+          },
+          {
+            "id": "P16",
+            "text": "Ele comparou essa condição à dos anjos no céu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele comparou essa condição à dos anjos no céu."
+          },
+          {
+            "id": "P17",
+            "text": "Quanto à ressurreição, Jesus perguntou se nunca leram o que Deus dissera.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quanto à ressurreição, Jesus perguntou se nunca leram o que Deus dissera."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus citou Deus como Deus de Abraão, Isaque e Jacó.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus citou Deus como Deus de Abraão, Isaque e Jacó."
+          },
+          {
+            "id": "P19",
+            "text": "Ele declarou que Deus não é Deus de mortos, mas de vivos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declarou que Deus não é Deus de mortos, mas de vivos."
+          },
+          {
+            "id": "P20",
+            "text": "As multidões se maravilhavam da doutrina ao ouvir isso.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As multidões se maravilhavam da doutrina ao ouvir isso."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 22.23-33 apresenta a posição dos saduceus, o caso hipotético dos sete irmãos, a pergunta sobre a mulher e a resposta de Jesus.",
+        "hinge": "A regra e o caso são atribuídos aos saduceus, e a citação é registrada como usada por Jesus; nenhum dado do Pentateuco ou sistema externo é importado.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.23-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-grande-mandamento": {
+      "id": "nt2-mateus-grande-mandamento",
+      "kind": "canonical-case",
+      "title": "O grande mandamento",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 22.34-40",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.34-40",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem testou Jesus sobre a Lei e quais mandamentos e relação final aparecem na resposta?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o perguntador e a intenção textual; os demais distinguem a pergunta, o primeiro e o segundo mandamento.",
+      "editorial": {
+        "hinge": "Os mandamentos e a relação com Lei e Profetas permanecem na resposta atribuída a Jesus; suas fontes não são completadas pelo Antigo Testamento."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem fez a pergunta para pôr Jesus à prova",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Um fariseu, intérprete da Lei"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um saduceu, irmão da viúva"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Um herodiano com um denário"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um servo enviado às estradas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Um fariseu, intérprete da Lei",
+          "enderecoNAA": "Mateus 22.34-35",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.34-35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que ele perguntou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Qual é o grande mandamento na Lei"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Se era lícito pagar imposto"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "De quem o Cristo era filho"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "De qual irmão a mulher seria esposa"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Qual é o grande mandamento na Lei",
+          "enderecoNAA": "Mateus 22.36",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual resposta Jesus chamou de grande e primeiro mandamento",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Amar o Senhor Deus de todo coração, alma e entendimento"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Amar somente os que retribuem"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Entregar todos os bens aos sacerdotes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Guardar a veste da festa"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Amar o Senhor Deus de todo coração, alma e entendimento",
+          "enderecoNAA": "Mateus 22.37-38",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.37-38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Qual mandamento Jesus apresentou como segundo e semelhante",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Amar o próximo como a si mesmo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Não responder aos saduceus"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Pagar o imposto com um denário"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Convidar apenas os dignos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Amar o próximo como a si mesmo",
+          "enderecoNAA": "Mateus 22.39",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os fariseus souberam que Jesus havia silenciado os saduceus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus souberam que Jesus havia silenciado os saduceus."
+          },
+          {
+            "id": "P02",
+            "text": "Eles se reuniram em conselho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles se reuniram em conselho."
+          },
+          {
+            "id": "P03",
+            "text": "Um deles era intérprete da Lei.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um deles era intérprete da Lei."
+          },
+          {
+            "id": "P04",
+            "text": "Ele perguntou querendo pôr Jesus à prova.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou querendo pôr Jesus à prova."
+          },
+          {
+            "id": "P05",
+            "text": "A pergunta tratava do grande mandamento na Lei.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta tratava do grande mandamento na Lei."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus respondeu que se deve amar o Senhor Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu que se deve amar o Senhor Deus."
+          },
+          {
+            "id": "P07",
+            "text": "Esse amor abrange todo o coração, toda a alma e todo o entendimento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse amor abrange todo o coração, toda a alma e todo o entendimento."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus chamou esse mandamento de grande e primeiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou esse mandamento de grande e primeiro."
+          },
+          {
+            "id": "P09",
+            "text": "O segundo, semelhante, manda amar o próximo como a si mesmo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O segundo, semelhante, manda amar o próximo como a si mesmo."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus disse que desses dois dependem toda a Lei e os Profetas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que desses dois dependem toda a Lei e os Profetas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 22.34-40 registra a pergunta do intérprete da Lei e a resposta de Jesus com o primeiro e o segundo mandamentos.",
+        "hinge": "Os mandamentos e a relação com Lei e Profetas permanecem na resposta atribuída a Jesus; suas fontes não são completadas pelo Antigo Testamento.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.34-40",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-cristo-davi": {
+      "id": "nt2-mateus-cristo-davi",
+      "kind": "canonical-case",
+      "title": "A pergunta sobre o Cristo e Davi",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 22.41-46",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.41-46",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que pergunta Jesus fez aos fariseus, como eles responderam e qual impasse encerrou o diálogo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o tema e os interlocutores; os demais distinguem resposta, argumento citado e desfecho.",
+      "editorial": {
+        "hinge": "A citação e sua atribuição permanecem dentro do argumento de Jesus em Mateus; não se importam contexto ou conclusões externas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Sobre quem Jesus perguntou aos fariseus reunidos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sobre o Cristo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Sobre João Batista"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sobre César"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sobre o homem sem veste"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sobre o Cristo",
+          "enderecoNAA": "Mateus 22.41-42",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.41-42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "De quem os fariseus disseram que o Cristo era filho",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "De Davi"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "De Abraão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "De César"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Do dono da vinha"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "De Davi",
+          "enderecoNAA": "Mateus 22.42",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como Jesus disse que Davi chamava o Cristo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "De Senhor, pelo Espírito"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "De profeta, diante da multidão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "De filho, por uma parábola"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "De rei, pelos sacerdotes"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "De Senhor, pelo Espírito",
+          "enderecoNAA": "Mateus 22.43",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ocorreu depois da pergunta final de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ninguém respondeu, e não ousaram fazer mais perguntas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os fariseus trouxeram outro denário"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os saduceus apresentaram oito irmãos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A multidão deixou a cidade"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ninguém respondeu, e não ousaram fazer mais perguntas",
+          "enderecoNAA": "Mateus 22.46",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os fariseus estavam reunidos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os fariseus estavam reunidos."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus lhes perguntou o que pensavam do Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus lhes perguntou o que pensavam do Cristo."
+          },
+          {
+            "id": "P03",
+            "text": "Ele também perguntou de quem o Cristo era filho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também perguntou de quem o Cristo era filho."
+          },
+          {
+            "id": "P04",
+            "text": "Eles responderam: de Davi.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam: de Davi."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus disse que Davi, pelo Espírito, chama o Cristo de Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que Davi, pelo Espírito, chama o Cristo de Senhor."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus introduziu uma fala atribuída por ele a Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.43-44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus introduziu uma fala atribuída por ele a Davi."
+          },
+          {
+            "id": "P07",
+            "text": "Na citação, o Senhor manda o Senhor de Davi sentar-se à sua direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na citação, o Senhor manda o Senhor de Davi sentar-se à sua direita."
+          },
+          {
+            "id": "P08",
+            "text": "A permanência seria até os inimigos serem postos debaixo dos pés.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A permanência seria até os inimigos serem postos debaixo dos pés."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus perguntou como o Cristo poderia ser filho de Davi se Davi o chama Senhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou como o Cristo poderia ser filho de Davi se Davi o chama Senhor."
+          },
+          {
+            "id": "P10",
+            "text": "Ninguém respondeu uma palavra, e desde aquele dia ninguém ousou fazer mais perguntas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ninguém respondeu uma palavra, e desde aquele dia ninguém ousou fazer mais perguntas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 22.41-46 registra as perguntas de Jesus aos fariseus, a resposta “de Davi”, a citação atribuída a Davi e o silêncio final.",
+        "hinge": "A citação e sua atribuição permanecem dentro do argumento de Jesus em Mateus; não se importam contexto ou conclusões externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.41-46",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
             "checkedAt": "2026-09-13"

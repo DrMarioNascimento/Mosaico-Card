@@ -537,3 +537,7 @@ A comparação serializada confirmou os **230 objetos anteriores integralmente i
 ## Checkpoint 075 — Mt 21–22
 
 A leitura exclusiva das duas páginas NAA Bible.com 1840 inventariou todas as unidades de Mt 21–22. A comparação de campos, perguntas, pistas e referências confirmou Mt 21.1-11 na pauta existente e sustentou quatro pautas: templo/figueira (23 pistas; capacidade 11), autoridade/dois filhos (23; 11), lavradores (28; 12) e festa de casamento (25; 12). Mt 22.15-22, 23-33, 34-40 e 41-46 permanecem candidatos independentes pelo limite de quatro novas pautas, não por insuficiência ou paralelo. O banco passa a **236 pautas/4.637 pistas**; os 232 objetos anteriores foram preservados serializadamente.
+
+## Checkpoint 076 — quatro pendências finais de Mt 22
+
+A reconsulta NAA exclusiva de Mt 22.15-46 e a comparação de campos/pistas reais sustentaram quatro pautas independentes: tributo (16 pistas; capacidade 7), ressurreição (20; 9), grande mandamento (10; 4) e Cristo/Davi (10; 4). Hipótese, citações e perguntas permanecem atribuídas aos agentes do texto; nenhum conteúdo do AT ou paralelo sinótico foi importado. O banco passa a **240 pautas/4.693 pistas**, com os 236 objetos anteriores preservados serializadamente. Mt 23–25 permanece posterior; o banco não está completo.

@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 21 inventariado — checkpoint 075 | Pendentes: Mt 22.15-46 e Mt 23–25 | 52 pautas citam o livro / 1.039 pistas | Quatro pautas novas em Mt 21–22; quatro unidades finais de Mt 22 continuam candidatas pelo limite do lote |
+| Mateus | Mt 21–22 inventariado — checkpoint 076 | Pendente posterior: Mt 23–25 | 56 pautas citam o livro / 1.095 pistas | As quatro unidades finais de Mt 22 receberam pautas próprias; nenhum paralelo foi fundido |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
