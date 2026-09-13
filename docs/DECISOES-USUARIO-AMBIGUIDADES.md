@@ -65,3 +65,9 @@ O usuário aprovou o uso de Mt 23.14 com a ressalva textual da NAA: o verso apar
 Foram aprovados **somente** estes três pares, com suas referências NAA específicas: (1) “Quais atividades aparecem na orientação sobre a cabeça coberta ou descoberta?” → “Orar e profetizar.” (11.4-5); (2) “Segundo o argumento de Paulo, homem e mulher são independentes um do outro no Senhor?” → “Não, existe interdependência.” (11.11); (3) “De quem tudo procede, conforme o versículo 12?” → “De Deus.” (11.12). Nada sobre anjos, véu, aplicação atual ou um quarto conteúdo foi aprovado.
 
 O banco exige exatamente quatro campos por pauta. Como inventar um quarto violaria a decisão, os três itens ficam preservados em `data/nt-approved-content.json` com estado `approved-content-pending-structural-integration`; não formam caso elegível e não alteram o sorteio. **A decisão editorial está resolvida; a aplicação permanece pendente estruturalmente.** 1Co 14.34-36 continua pendente sem aprovação. A arquitetura de variantes funcionais segue não implementada.
+
+## Decisão explícita — exclusão editorial de 1Co 14.35 (checkpoint 093)
+
+O usuário determinou: **“Vamos deixar o 35 de fora.”** Fica excluído do jogo somente o item de 1Co 14.35 que perguntaria onde fazer perguntas ao próprio marido, com resposta “em casa”. A decisão não é substituída por conteúdo de 14.34 ou 14.36, não amplia aprovação e não altera a pauta vigente de 1Co 14.1-33,37-40. Trata-se de exclusão editorial para o jogo, não de juízo sobre o texto bíblico.
+
+Com isso, a pendência editorial de 1Co 14.34-36 se encerra **sem novas perguntas desse recorte**. As quatro decisões recentes ficam definidas: Mt 17.21 e Mt 23.14 aplicadas; 1Co 11.2-16 aprovado com exatamente três itens ainda pendentes de integração estrutural; 1Co 14.35 excluído, sem substituição por 14.34/36. Variantes funcionais de Mt 17 continuam não implementadas.

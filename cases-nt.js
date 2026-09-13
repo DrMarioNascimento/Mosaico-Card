@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-092-mateus-23-14-1corintios-11",
+  "catalogVersion": "checkpoint-093-1corintios-14-35-relatorio-parcial",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {

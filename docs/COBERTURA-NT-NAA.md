@@ -303,3 +303,7 @@ Mt 17.21 foi reconsultado na NAA 1840, preservando colchetes e nota textual. A p
 ## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
 
 A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguindo exploração das viúvas de sua justificação com longas orações e preservando colchetes/nota textual. Duas pistas foram anexadas; a pauta passa a 17 pistas/capacidade 8. Em 1Co 11.2-16, somente três perguntas aprovadas foram registradas em `data/nt-approved-content.json`; elas não viraram pauta porque o contrato exige quatro campos e um quarto conteúdo foi expressamente proibido. Dos 288 objetos, 287 ficaram idênticos e somente a pauta de Mateus mudou; resultado **288 pautas/5.568 pistas**. 1Co 14.34-36 continua pendente, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.
+
+## Checkpoint 093 — 1Co 14.35 e fechamento parcial reproduzível
+
+A reconsulta NAA 1840 confirmou o item de 1Co 14.35, que foi excluído editorialmente do jogo por decisão explícita, sem substituição por 14.34/36 e sem alterar a pauta de 14.1-33,37-40. Nenhum objeto ou pista mudou: permanecem **288/5.568**. O relatório parcial reproduzível está em `docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`, com artefato em `data/nt-capacity-report.json` e gerador `tools/report-nt-capacity.mjs`. Ele conta IDs, não histórias, e mantém fatos semânticos/episódios sem contagem quando o modelo não os representa.

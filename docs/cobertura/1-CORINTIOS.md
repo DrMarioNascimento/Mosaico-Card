@@ -53,3 +53,9 @@ Somadas às sete pautas anteriores, 1 Coríntios passa a dez pautas autoradas. A
 A página `https://www.bible.com/pt/bible/1840/1CO.11.NAA` foi reconsultada em 13/09/2026 (HTTP 200; 94.162 bytes). O usuário aprovou somente três perguntas: atividades **orar e profetizar** (11.4-5), resposta **não, existe interdependência** entre homem e mulher no Senhor (11.11), e procedência de tudo **de Deus** (11.12). Anjos, véu, aplicação atual e qualquer quarto conteúdo permanecem fora desta decisão.
 
 Como uma pauta exige quatro campos, os três pares não foram inflados nem transformados em caso inelegível. Estão preservados estruturalmente em `data/nt-approved-content.json` com decisão editorial resolvida e integração pendente por incompatibilidade estrutural. Nenhum objeto do banco mudou por 1Co 11 e não houve nova pauta. 1Co 14.34-36 permanece pendente sem aprovação.
+
+## Exclusão editorial de 1Co 14.35 — checkpoint 093
+
+A página `https://www.bible.com/pt/bible/1840/1CO.14.NAA` foi efetivamente reconsultada em 13/09/2026 (HTTP 200; 95.136 bytes). Por decisão explícita, fica fora do jogo somente a pergunta possível de 14.35 — onde fazer perguntas ao próprio marido → em casa. Nenhuma pergunta de 14.34 ou 14.36 a substitui, e `nt2-1corintios-profecia-linguas-edificacao-ordem`, delimitada a 14.1-33,37-40, permanece intacta.
+
+A pendência editorial de 14.34-36 encerra-se sem novo conteúdo de jogo; a exclusão não julga o texto. Os três itens aprovados de 11.2-16 continuam no artefato estruturado e ainda não cabem no contrato de quatro campos. Nenhum dos 288 objetos ou das 5.568 pistas mudou. Mt 17.21 e Mt 23.14 foram preservados, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.

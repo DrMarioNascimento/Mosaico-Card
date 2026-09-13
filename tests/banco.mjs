@@ -23,6 +23,24 @@ assert.equal(corintios11.decision, "approved-content-pending-structural-integrat
 assert.equal(corintios11.questions.length, 3, "1Co 11 mantém somente as três perguntas aprovadas");
 assert.deepEqual(corintios11.questions.map(item => item.answer), ["Orar e profetizar.", "Não, existe interdependência.", "De Deus."]);
 assert.ok(corintios11.forbiddenAdditions.includes("quarto campo ou quarto conteúdo"));
+const exclusions = require("../data/nt-editorial-exclusions.json");
+const corintios1435 = exclusions.items.find(item => item.id === "excluded-1corintios-14-35");
+assert.equal(corintios1435.decision, "excluded-from-game-by-user");
+assert.equal(corintios1435.passage, "14.35");
+assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Coríntios").every(id =>
+  [...catalog.byId[id].canon.references, ...catalog.byId[id].fields.flatMap(field => field.answerReferences), ...catalog.byId[id].deck.cards.flatMap(card => card.references)]
+    .every(ref => ref.passage !== "14.35")
+), "1Co 14.35 permanece ausente de pautas, campos e pistas");
+const capacityReport = require("../data/nt-capacity-report.json");
+assert.equal(capacityReport.units.cases, 288);
+assert.equal(capacityReport.units.clueCards, 5568);
+assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
+assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
+assert.equal(capacityReport.units.functionalVariants, 0);
+for (const row of capacityReport.capacity) {
+  assert.equal(row.eligibleCases, catalog.order.filter(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers >= row.players).length);
+  assert.equal(row.drawsWithoutReplacementPerBagCycle, row.eligibleCases);
+}
 const mateus1721 = catalog.byId["nt2-mateus-menino-fe-mostarda"];
 const respostaContextual = mateus1721.fields.find(field => field.id === "C4");
 assert.equal(respostaContextual.rotulo, "Por que os discípulos não conseguiram expulsá-lo?");
