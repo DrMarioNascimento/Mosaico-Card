@@ -655,7 +655,7 @@ Cento e quarenta e quatro mil, Cordeiro, cântico, anjos, ceifa, lagar, flagelos
 
 A rodada partiu de `2a5fbcd`, com **198 pautas, 792 campos e 3.739 pistas**. Em 13/09/2026, exclusivamente as páginas NAA de Ap 17 e 18 em `bible.com/pt/bible/1840` foram obtidas com HTTP 200 e lidas integralmente. A comparação não encontrou pauta anterior para esses capítulos.
 
-Foram acrescentadas quatro pautas e 105 pistas: Ap 17.1-18 (34), Ap 18.1-8 (25), Ap 18.9-20 (28) e Ap 18.21-24 (18). O catálogo passa a **202 pautas, 808 campos e 3.844 pistas**. Os 198 objetos e as 3.739 pistas anteriores permaneceram serializadamente idênticos. Mulher, Babilônia, besta, reis, mercadores e lamentos ficaram limitados às descrições, ações, falas e identificações internas; nenhuma identidade histórica externa, instituição atual, geografia atual, calendário ou alegoria foi acrescentada.
+Foram acrescentadas três pautas e 80 pistas: Ap 17.1-18 (34), Ap 18.1-8 (25), Ap 18.9-20 (28) e Ap 18.21-24 (18). O catálogo passa a **202 pautas, 808 campos e 3.844 pistas**. Os 198 objetos e as 3.739 pistas anteriores permaneceram serializadamente idênticos. Mulher, Babilônia, besta, reis, mercadores e lamentos ficaram limitados às descrições, ações, falas e identificações internas; nenhuma identidade histórica externa, instituição atual, geografia atual, calendário ou alegoria foi acrescentada.
 
 C1–C4, quatro alternativas, gabaritos, foco, 8/5/3/2, metadados, revelação e capacidade `min(12, floor((cartas-1)/2))` foram preservados. Quatro pares de auditoria receberam fundamentação individual e não restou pendência; não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.** Não houve `main`, merge, deploy ou publicação.
 
@@ -686,3 +686,13 @@ Sobre o checkpoint 067 (`fe765b4`), somente os remanescentes já individualizado
 - **Antes/depois:** 209 pautas/4.022 pistas → 213/4.104; os 209 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
 - **Cobertura:** todas as porções que permaneciam expressamente não representadas no inventário de Mt 5–7 receberam decisão e cobertura neste lote. Mt 5–7 encerra documentalmente esta sequência; a próxima faixa pendente de Mateus no inventário global é Mt 10–13.
 - **Limites preservados:** encerramento documental não significa exaustividade futura nem banco completo. Nenhum outro livro foi aberto. As dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, sorteio, capacidade, isolamento de versões/partidas, Firebase e credenciais não foram alterados; não houve merge, deploy ou publicação.
+
+## Checkpoint 069 — Mateus 10–11
+
+Somente Mateus 10 e 11 foram trabalhados sobre o checkpoint 068. As duas páginas NAA Bible.com 1840 retornaram HTTP 200, foram lidas verso a verso e tiveram cada unidade inventariada. A comparação prévia com os 213 objetos/4.104 pistas não encontrou referência geral anterior aos capítulos nem ID/pergunta equivalente. As antigas exclusões agregadas por discurso, ensino ou 25 cartas foram reavaliadas segundo perguntas atributivas, listas coerentes e capacidade variável.
+
+Três pautas sustentadas foram anexadas: Mt 10.16-42 (30 pistas), Mt 11.1-19 (25) e Mt 11.20-30 (25). Mt 10.1-15 foi excluído especificamente de nova autoria após a comparação com `nt2-marcos-envio-doze`, que já representa o mesmo envio paralelo. Todas têm quatro campos, quatro alternativas por campo, gabaritos e proveniência NAA; focal explícito e ordem 8/5/3/2; metadados completos; revelação sem transformar hipóteses, acusações ou imagens em fatos externos. As 80 pistas permitem capacidade 12 pela fórmula vigente, sem que 12 ou 25 tenham sido usados como meta.
+
+- **Antes/depois:** 213 pautas/4.104 pistas → 216/4.184; os 213 objetos anteriores permaneceram na mesma ordem e serializaram identicamente.
+- **Limite:** Mt 10–11 recebeu decisão para cada unidade inventariada, mas Mt 10–13 não está completo. Mt 12–13 é o próximo recorte; Mt 18–20 e 21–25 continuam posteriores.
+- **Preservação:** dúvidas de 1Co 11.2-16 e 14.34-36, exclusões definitivas, isolamento, sorteio e partidas não foram alterados. Não houve merge, deploy, publicação, Firebase ou credenciais.

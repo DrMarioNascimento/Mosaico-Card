@@ -126,3 +126,25 @@ Em 13/09/2026, as páginas efetivas NAA Bible.com 1840 de Mateus 5, 6 e 7 foram 
 | Mt 7.28-29 — reação final | **Coberta integralmente** na mesma pauta; a reação pertence ao encerramento de Mateus e não é harmonizada com cenas semelhantes. |
 
 Foram acrescentadas quatro pautas sustentadas, sem forçar a quantidade: sal/luz/Lei (19 pistas; capacidade 9), olhar/tropeço/divórcio (13; capacidade 6), tesouros/olhos/senhores/preocupações (29; capacidade 12) e julgamento/regra/alegações/reação (21; capacidade 10). Com as decisões do checkpoint 067 e a cobertura complementar acima, **não resta leitura nem autoria pendente no inventário individual vigente de Mt 5–7**; essa faixa pode ser marcada como encerrada documentalmente nesta sequência, sem afirmar exaustividade futura nem banco completo. A próxima faixa pendente de Mateus no inventário global é Mt 10–13. Nenhum outro livro ou faixa foi aberto neste lote.
+
+## Inventário individual de Mateus 10–11 — checkpoint 069
+
+Em 13/09/2026, as páginas efetivas `https://www.bible.com/pt/bible/1840/MAT.10.NAA` e `/MAT.11.NAA` foram obtidas separadamente (HTTP 200; 98.611 e 97.194 bytes transferidos) e lidas verso a verso. Antes da autoria, os **213 IDs/4.104 pistas** foram comparados por referências gerais, perguntas e conteúdo: nenhuma pauta anterior tinha referência geral a Mt 10 ou 11. As exclusões antigas agregadas por discurso, ensino, parábola ou exigência de 25 cartas ficam reavaliadas sob as regras atuais.
+
+| Unidade efetivamente lida | Evidência e decisão individual |
+| --- | --- |
+| Mt 10.1-4 — chamada, autoridade e nomes dos doze | **Excluída especificamente de nova pauta.** A comparação encontrou `nt2-marcos-envio-doze` (Mc 6.7-13), cujo campo de autoridade e envio já representa o paralelo; os nomes de Mateus não justificam duplicar a pauta. |
+| Mt 10.5-15 — primeiras instruções da missão | **Excluída especificamente de nova pauta paralela.** Destino, anúncio, provisões, acolhimento e recusa foram comparados com `nt2-marcos-envio-doze`; diferenças documentais ficam inventariadas aqui, mas não sustentam um caso independente sem repetir o núcleo do envio. |
+| Mt 10.16-23 — oposição e testemunho | **Autorada** em `nt2-mateus-envio-perseguicao-coragem-recepcao`; perigos e promessas são falas prospectivas, não acontecimentos afirmados como já realizados. |
+| Mt 10.24-33 — mestre, temor e confissão | **Autorada** na mesma pauta; imagens e contrastes permanecem atribuídos a Jesus, sem identificar agentes futuros. |
+| Mt 10.34-39 — espada, casa, prioridade e cruz | **Autorada** na mesma pauta como ensinos do discurso; nenhuma regra externa ou harmonização foi acrescentada. |
+| Mt 10.40-42 — recepção e recompensa | **Autorada** na mesma pauta; recepção, profeta, justo, discípulo e água fria ficam nos termos do recorte. |
+| Mt 11.1 — transição após as instruções | **Autorada como moldura** de `nt2-mateus-joao-obras-testemunho-geracao`; isoladamente não sustenta quatro campos nem cinco pistas. |
+| Mt 11.2-6 — pergunta enviada por João | **Autorada** na pauta de João; cárcere, pergunta, retorno e fatos observáveis da resposta são preservados sem completar as alusões pelo AT. |
+| Mt 11.7-15 — testemunho de Jesus sobre João | **Autorada** na mesma pauta; as classificações, inclusive Elias, são registradas como afirmações explícitas de Jesus em Mateus, não como reconstrução externa. |
+| Mt 11.16-19 — comparação da geração | **Autorada** na mesma pauta; acusações contra João e o Filho do Homem são tratadas como acusações citadas, não como fatos aprovados. |
+| Mt 11.20-24 — cidades repreendidas | **Autorada** em `nt2-mateus-cidades-revelacao-descanso`; os cenários sobre Tiro, Sidom e Sodoma permanecem hipóteses formuladas no discurso. |
+| Mt 11.25-27 — graças e revelação | **Autorada** na mesma pauta, atributivamente, sem exposição teológica ou apoio externo. |
+| Mt 11.28-30 — convite, jugo e descanso | **Autorada** na mesma pauta; convite e descrições permanecem falas de Jesus. |
+
+O lote acrescenta exatamente três pautas e 80 pistas: advertências/prioridades/recepção (30; capacidade 12), pergunta de João/testemunho/geração (25; capacidade 12) e cidades/revelação/descanso (25; capacidade 12). **Não resta unidade pendente no inventário vigente de Mt 10–11**, sem que isso declare exaustividade futura ou a faixa Mt 10–13 completa. O próximo lote de Mateus é **Mt 12–13**, ainda pendente de nova consulta e inventário individual. Nenhum outro capítulo ou livro foi aberto nesta rodada.

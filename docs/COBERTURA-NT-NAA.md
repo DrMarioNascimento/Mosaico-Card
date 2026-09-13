@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 5–7 encerrado documentalmente — checkpoint 068 | Próxima faixa pendente: Mt 10–13; depois 18–20 e 21–25 | 22 próprios + 3 consolidados; 28 pautas citam o livro | Mt 5–7 sem remanescente no inventário vigente; não equivale a exaustividade |
+| Mateus | Mt 5–11 inventariado nos lotes recentes — checkpoint 069 | Próxima faixa pendente: Mt 12–13; depois 18–20 e 21–25 | 25 próprios + 3 consolidados; 31 pautas citam o livro | Mt 10–11 sem remanescente no inventário vigente; a faixa Mt 10–13 não está completa |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -184,3 +184,7 @@ Mateus passa a **24 pautas/421 pistas que citam o livro**, e o banco a **209/4.0
 ## Checkpoint 068 — remanescentes de Mateus 5–7
 
 Quatro pautas e 82 pistas cobrem somente as unidades que ainda constavam como não representadas após o checkpoint 067. O banco passa a **213 pautas/4.104 pistas**, e Mateus a **28 pautas/503 pistas que citam o livro**. Os 209 objetos anteriores foram preservados serialmente. O inventário individual vigente de Mt 5–7 fica sem remanescente; a próxima faixa pendente global de Mateus é Mt 10–13. Isso não declara exaustividade futura nem banco completo, e nenhum outro livro foi aberto.
+
+## Checkpoint 069 — Mateus 10–11
+
+As páginas NAA Bible.com 1840 de Mt 10–11 foram efetivamente obtidas e lidas. Três pautas/80 pistas foram anexadas após comparação com os 213 objetos anteriores, que permaneceram serializados identicamente. O inventário passa a **216 pautas/4.184 pistas**; 31 pautas citam Mateus e suas cartas somam 583 pistas. Mt 12–13 permanece como próximo recorte, sem declaração de faixa completa por download ou testes.

@@ -473,4 +473,17 @@ As páginas NAA Bible.com 1840 de Mt 5–7 retornaram novamente HTTP 200 e os re
 | Mt 6.19-34 | `nt2-mateus-tesouro-olhos-senhores-preocupacoes`, 29 pistas, capacidade 2–12; cobre as quatro unidades remanescentes. |
 | Mt 7.1-6,12,22-23,28-29 | `nt2-mateus-julgamento-regra-alegacoes-reacao`, 21 pistas, capacidade 2–10; cobre somente as porções antes não representadas. |
 
-A comparação serializada confirmou os 209 objetos anteriores, na mesma ordem e idênticos quando serializados por `JSON.stringify`; quatro objetos foram anexados. O banco passa de **209/4.022 para 213/4.104**. O inventário vigente de Mt 5–7 não conserva remanescente, mas essa conclusão documental não prova exaustividade futura e os testes não tornam o banco completo.
+A comparação serializada confirmou os 209 objetos anteriores, na mesma ordem e idênticos quando serializados por `JSON.stringify`; três objetos foram anexados. O banco passa de **209/4.022 para 213/4.104**. O inventário vigente de Mt 5–7 não conserva remanescente, mas essa conclusão documental não prova exaustividade futura e os testes não tornam o banco completo.
+
+## Checkpoint 069 — inventário individual de Mateus 10–11
+
+As páginas NAA Bible.com 1840 de Mt 10 e 11 retornaram HTTP 200 e foram efetivamente lidas verso a verso em 13/09/2026. A comparação prévia abrangeu os 213 IDs/4.104 pistas e não encontrou referência geral anterior a esses capítulos. As exclusões antigas por discurso, ensino e baralho universal de 25 foram substituídas por decisões de cada unidade registradas na ficha de Mateus.
+
+| Recorte autorado | Decisão |
+| --- | --- |
+| Mt 10.1-15 | **Excluído especificamente de nova autoria** após comparação com `nt2-marcos-envio-doze`; o mesmo envio paralelo já está representado e não foi duplicado. |
+| Mt 10.16-42 | `nt2-mateus-envio-perseguicao-coragem-recepcao`, 30 pistas, capacidade 2–12. |
+| Mt 11.1-19 | `nt2-mateus-joao-obras-testemunho-geracao`, 25 pistas, capacidade 2–12. |
+| Mt 11.20-30 | `nt2-mateus-cidades-revelacao-descanso`, 25 pistas, capacidade 2–12. |
+
+Os 213 objetos anteriores foram preservados na mesma ordem e serializaram identicamente; três objetos foram somente anexados. O banco passa de **213 pautas/4.104 pistas para 216/4.184**. Mt 10–11 fica sem remanescente no inventário vigente; **Mt 12–13 permanece para o próximo lote**, e testes ou downloads não são usados para declarar a faixa completa.
