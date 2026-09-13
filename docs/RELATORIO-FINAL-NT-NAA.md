@@ -112,3 +112,16 @@ A base `9b25bdb8465878bb2f86f05f2f203fd633092f74`, correspondente ao conteúdo s
 - **Delimitação:** 1Ts 4 permaneceu em duas pautas sem fusão. Perguntas e fatos são atributivos às cartas; não foi criado calendário da vinda, e figuras fora de 2Ts 2.13-17 não foram usadas.
 - **Auditoria:** zero duplicatas exatas e zero pares semânticos sem resolução; as cinco pautas têm C1–C4, gabaritos explícitos, focais justificados e capacidade derivada por mesa.
 - **Pendências:** pastorais, cartas gerais e Apocalipse permanecem para uma nova base; o banco não está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 e todas as demais decisões vigentes continuam isoladas/preservadas.
+
+
+## Checkpoint 049 — cinco blocos de 1 Timóteo
+
+A rodada partiu exatamente de `1de2fa0d1a624457a6cec3465d3f9245fb3d0065`, com **147 pautas, 588 campos e 2.652 pistas**, e confirmou a preservação integral desses 147 objetos. Em 13/09/2026, exclusivamente 1Tm 1, 4, 5 e 6 na Nova Almeida Atualizada identificada em `bible.com/pt/bible/1840` foram obtidos individualmente com HTTP 200 e lidos antes da autoria.
+
+Foram acrescentadas cinco pautas e 81 pistas: `nt2-1timoteo-ensino-graca-combate` (18), `nt2-1timoteo-criacao-piedade-ministerio` (16), `nt2-1timoteo-familias-viuvas` (16), `nt2-1timoteo-presbiteros-conselhos` (10) e `nt2-1timoteo-contentamento-combate-ricos` (21). O capítulo 5 foi delimitado em 5.1-16 e 5.17-25; os demais capítulos formam blocos próprios. Perguntas, alternativas e pistas atribuem as afirmações à carta, sem importar notas cruzadas, história, harmonizações ou calendário.
+
+- **Inventário:** 152 pautas elegíveis, 608 campos e 2.733 pistas; 57 comportam até 12 participantes, três até 11, seis até 10, cinco até 9, treze até 8, oito até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+- **Contrato:** todas as novas pautas têm C1–C4, quatro alternativas distintas por campo, gabaritos explícitos, focal justificado e pontuação gerada 8/5/3/2; a capacidade segue `min(12, floor((cartas-1)/2))`, duas cartas por jogador e ao menos uma no poço.
+- **Preservação:** os 147 objetos e as 2.652 pistas anteriores permaneceram mecanicamente idênticos.
+- **Pendências:** 2Tm/Tt, cartas gerais e Apocalipse permanecem para lotes seguintes; o banco **não** está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 seguem isoladas, e todas as decisões bíblicas vigentes foram preservadas.
+- **Operação:** não houve merge, deploy, publicação, Firebase nem alteração de credenciais.

@@ -18,7 +18,7 @@
 | Colossenses | Analisado — checkpoint 047 | capítulos 1–4 | 2 autorados | temas não fundidos com Efésios; mensageiros e cartas sem harmonização |
 | 1 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–5 | 5 autorados | 1Ts 4 em blocos; sem calendário ou cronologia externa |
 | 2 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–3 | 2 autorados | somente 2Ts 2.13-17 usado; figuras anteriores permanecem fora |
-| 1 Timóteo | Analisado — decisões por recorte | capítulos 1–6 | 1 autorado | delimitação heterogênea recusada |
+| 1 Timóteo | Analisado — checkpoint 049 | capítulos 1–6 | 6 autorados | 1Tm 1, 4–6 delimitados sem harmonização externa |
 | 2 Timóteo | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | listas/metáforas não infladas |
 | Tito | Analisado — decisões por recorte | capítulos 1–3 | 0 | conclusão factual insuficiente |
 | Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
@@ -68,3 +68,8 @@ A base de 138 pautas/2.514 pistas foi preservada mecanicamente. A leitura NAA in
 ## Checkpoint 048 — 1–2 Tessalonicenses
 
 A base de 142 pautas/2.593 pistas foi preservada mecanicamente. A leitura NAA dos cinco blocos autorizados acrescentou cinco pautas e 59 pistas, levando o inventário a **147 pautas, 588 campos e 2.652 pistas**. 1Ts 4.1-12 e 4.13-18 permanecem independentes; 2Ts 2.13-17 não importa as figuras anteriores nem calendário externo. Pastorais, cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.
+
+
+## Checkpoint 049 — lote limitado de 1 Timóteo
+
+A base de 147 pautas/2.652 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 1Tm 1, 4, 5 e 6, cinco blocos coerentes acrescentaram 81 pistas, levando o inventário a **152 pautas, 608 campos e 2.733 pistas**. 1Tm 5 foi separado entre cuidado familiar/viúvas (5.1-16) e presbíteros/conselhos (5.17-25); nenhuma nota cruzada, reconstrução histórica ou calendário foi importado. 2Tm/Tt, cartas gerais e Apocalipse permanecem para lotes seguintes; o banco não está completo.

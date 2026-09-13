@@ -249,3 +249,16 @@ A rodada encerra nesses quatro recortes, sem forçar uma quinta pauta. Os 138 ob
 | 2Ts 3.6-18 | NAA, HTTP 200; desordem, exemplo de trabalho, disciplina fraterna e saudação tratados no próprio bloco. | `nt2-2tessalonicenses-trabalho-disciplina-saudacao`, 15 pistas, capacidade 2–7. |
 
 O lote autorizado encerra nessas cinco pautas, sem buscar quantidade adicional. Os 142 objetos e 2.593 pistas anteriores foram preservados integralmente. Nenhuma data da vinda, viagem ou identificação externa de carta foi acrescentada. Pastorais, cartas gerais e Apocalipse ficam para nova base; o banco não está completo.
+
+
+## Checkpoint 049 — decisões individuais em 1 Timóteo
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 1Tm 1.3-20 | NAA, HTTP 200; ensino diferente, testemunho de misericórdia e encargo do combate mantidos no documento. | `nt2-1timoteo-ensino-graca-combate`, 18 pistas, capacidade 2–8. |
+| 1Tm 4 | NAA, HTTP 200; anúncio, criação recebida com gratidão, piedade e deveres ministeriais atribuídos ao capítulo. | `nt2-1timoteo-criacao-piedade-ministerio`, 16 pistas, capacidade 2–7. |
+| 1Tm 5.1-16 | NAA, HTTP 200; tratamento familiar, critérios da lista e responsabilidades de socorro mantidos no primeiro bloco. | `nt2-1timoteo-familias-viuvas`, 16 pistas, capacidade 2–7. |
+| 1Tm 5.17-25 | NAA, HTTP 200; presbíteros, testemunhas, repreensão, cautela e conselho pessoal mantidos separados. | `nt2-1timoteo-presbiteros-conselhos`, 10 pistas, capacidade 2–4. |
+| 1Tm 6 | NAA, HTTP 200; ensino, contentamento, combate e instruções aos ricos organizados atributivamente. | `nt2-1timoteo-contentamento-combate-ricos`, 21 pistas, capacidade 2–10. |
+
+O limite de cinco encerra o lote. Nenhuma nota cruzada completa as citações, e não foi criada cronologia para a manifestação mencionada. 2Tm/Tt, cartas gerais e Apocalipse ficam para etapas posteriores; o banco não está completo.

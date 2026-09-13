@@ -4,10 +4,19 @@ const bank = JSON.parse(fs.readFileSync(process.argv[2] || "data/nt-bank.json", 
 const resolutionsPath = process.argv[3] || "data/nt-clue-audit-resolutions.json";
 const resolutions = fs.existsSync(resolutionsPath) ? JSON.parse(fs.readFileSync(resolutionsPath, "utf8")) : {};
 const normalize = value => value.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLocaleLowerCase("pt-BR").replace(/[^a-z0-9]+/g, " ").trim();
-const words = value => new Set(normalize(value).split(" ").filter(word => word.length > 2));
+const analysisCache = new Map();
+const analyze = value => {
+  if (!analysisCache.has(value)) {
+    const normalized = normalize(value);
+    analysisCache.set(value, { normalized, words: new Set(normalized.split(" ").filter(word => word.length > 2)) });
+  }
+  return analysisCache.get(value);
+};
 const similarity = (left, right) => {
-  const a = words(left), b = words(right);
-  return [...a].filter(word => b.has(word)).length / Math.max(1, new Set([...a, ...b]).size);
+  const a = analyze(left).words, b = analyze(right).words;
+  let intersection = 0;
+  for (const word of a) if (b.has(word)) intersection += 1;
+  return intersection / Math.max(1, a.size + b.size - intersection);
 };
 
 const report = { cases: bank.cases.length, cards: 0, exactDuplicates: [], reviewPairs: [], crossCaseReviewPairs: [] };
@@ -16,7 +25,7 @@ for (const entry of bank.cases) {
   for (let i = 0; i < entry.cards.length; i += 1) {
     for (let j = i + 1; j < entry.cards.length; j += 1) {
       const a = entry.cards[i], b = entry.cards[j];
-      if (normalize(a.text) === normalize(b.text)) report.exactDuplicates.push(`${entry.id}:${a.id}/${b.id}`);
+      if (analyze(a.text).normalized === analyze(b.text).normalized) report.exactDuplicates.push(`${entry.id}:${a.id}/${b.id}`);
       else if (similarity(a.text, b.text) >= 0.5) report.reviewPairs.push(`${entry.id}:${a.id}/${b.id}`);
     }
   }

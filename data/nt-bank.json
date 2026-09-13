@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-048",
+  "catalogVersion": "2026-09-13-checkpoint-049",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -88705,6 +88705,2779 @@
             "passage": "3.6-18",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1timoteo-ensino-graca-combate",
+      "title": "Ensino, misericórdia e bom combate",
+      "generalReferences": [
+        {
+          "book": "1 Timóteo",
+          "passage": "1.3-20",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Timóteo 1.3-20, que conjunto reúne a admoestação, o testemunho de Paulo e o encargo a Timóteo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e ordena a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que Timóteo deveria impedir",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Que certas pessoas ensinassem outra doutrina"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Que a leitura pública continuasse"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Que viúvas fossem socorridas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Que ricos praticassem boas obras"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.3-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Qual era o objetivo da admoestação",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Amor procedente de coração puro, boa consciência e fé sem hipocrisia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Lucro obtido por meio da piedade"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Discussões acerca de palavras"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Abstinência dos alimentos criados por Deus"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como Paulo descreve o que recebeu",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Misericórdia, depois de ter agido na ignorância e incredulidade"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pagamento em dobro por ensinar"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Condenação sem oportunidade de mudança"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Uma revelação de calendário futuro"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.12-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Que encargo é dirigido a Timóteo",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Combater o bom combate, mantendo fé e boa consciência"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Evitar toda imposição de mãos para sempre"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Abandonar Éfeso imediatamente"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Identificar uma carta escrita a Laodiceia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.18-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Paulo havia pedido que Timóteo permanecesse em Éfeso enquanto seguia para a Macedônia.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "A tarefa incluía admoestar certas pessoas a não ensinarem doutrina diferente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Fábulas e genealogias intermináveis promoviam discussões em vez do serviço de Deus na fé.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A admoestação visava ao amor vindo de três fontes interiores explicitamente enumeradas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Alguns haviam se desviado e se perdido em discussões inúteis.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Os pretendentes a mestres da lei não compreendiam nem suas falas nem suas afirmações confiantes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A carta afirma que a lei é boa quando usada legitimamente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "A extensa lista ligada à lei termina abrangendo tudo o que se opõe à sã doutrina.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Paulo declara ter sido encarregado do evangelho da glória do Deus bendito.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Cristo o fortaleceu, considerou fiel e designou para o ministério.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Seu passado é descrito como blasfemo, perseguidor e insolente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Ele atribui a misericórdia a ter agido em ignorância e incredulidade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A graça transbordou com a fé e o amor existentes em Cristo Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A palavra fiel declara que Cristo Jesus veio ao mundo para salvar pecadores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Paulo diz ter recebido misericórdia para servir de modelo aos futuros crentes.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A honra e a glória são dirigidas ao Rei eterno, imortal, invisível e único Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "As profecias anteriores a respeito de Timóteo deveriam firmá-lo no combate.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Himeneu e Alexandre são nomeados entre os que naufragaram na fé após rejeitar a boa consciência.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "1.19-20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "1 Timóteo 1.3-20 reúne a oposição ao ensino diferente, o testemunho de misericórdia de Paulo e a admoestação para Timóteo combater mantendo fé e boa consciência.",
+        "hinge": "Cada afirmação permanece no argumento desta carta; notas cruzadas não completam pessoas, acontecimentos ou doutrinas externas.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "1.3-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1timoteo-criacao-piedade-ministerio",
+      "title": "Criação, piedade e fidelidade no ministério",
+      "generalReferences": [
+        {
+          "book": "1 Timóteo",
+          "passage": "4.1-16",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Timóteo 4, que contrastes e deveres compõem a exortação dirigida a Timóteo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e ordena a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Que ensino futuro é anunciado",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Proibição do casamento e exigência de abstinência de alimentos"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Obrigação de riqueza como sinal de piedade"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Fim da leitura pública das Escrituras"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Dispensa do cuidado com a doutrina"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como os alimentos devem ser recebidos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Com gratidão, pois a criação de Deus é boa"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Com medo, porque toda criação é recusável"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Sem palavra de Deus nem oração"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Somente depois de uma genealogia"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.3-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Em que Timóteo deveria exercitar-se",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Na piedade"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Em discussões inúteis"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Na busca de lucro"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Em fábulas profanas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.7-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "A que deveria dedicar-se até a chegada de Paulo",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "À leitura pública, à exortação e ao ensino"
+            },
+            {
+              "id": "C4-O2",
+              "text": "À coleta de riquezas instáveis"
+            },
+            {
+              "id": "C4-O3",
+              "text": "A viagens não mencionadas"
+            },
+            {
+              "id": "C4-O4",
+              "text": "À proibição de todo exercício físico"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.12-16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O Espírito afirma expressamente que alguns se afastariam da fé em tempos posteriores.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "A obediência descrita seria a espíritos enganadores e ensinos de demônios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Mentira hipócrita e consciência cauterizada caracterizam os propagadores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Casamento e alimentos aparecem nas proibições atribuídas a eles.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Os alimentos foram criados para recepção agradecida por quem crê e conhece a verdade.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Nada da criação divina deve ser recusado quando recebido com gratidão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A palavra de Deus e a oração são ligadas à santificação do alimento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Expor essas coisas aos irmãos caracterizaria um bom ministro de Cristo Jesus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Timóteo é descrito como alimentado pelas palavras da fé e da boa doutrina seguida.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Fábulas profanas deveriam ser rejeitadas, enquanto a piedade deveria ser exercitada.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O exercício físico recebe algum valor; a piedade, valor para tudo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "A promessa da piedade alcança a vida presente e a futura.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "O trabalho e o esforço são relacionados à esperança colocada no Deus vivo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A juventude não deveria provocar desprezo; Timóteo deveria tornar-se exemplo aos fiéis.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O dom recebido mediante profecia e imposição das mãos do presbitério não deveria ser negligenciado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Cuidar de si e da doutrina, perseverando, é o dever conclusivo do capítulo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "4.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "1 Timóteo 4 contrapõe ensinos de abstinência à criação recebida com gratidão e reúne instruções de piedade, exemplo, leitura, ensino, dom e perseverança.",
+        "hinge": "A pauta apenas atribui ao capítulo seus anúncios e mandatos, sem definir cronologia dos últimos tempos nem construir um sistema ministerial externo.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "4.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1timoteo-familias-viuvas",
+      "title": "Famílias, viúvas e responsabilidade de cuidado",
+      "generalReferences": [
+        {
+          "book": "1 Timóteo",
+          "passage": "5.1-16",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Timóteo 5.1-16, como a carta distribui tratamento familiar, honra e responsabilidade pelas viúvas?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e ordena a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Como tratar pessoas mais velhas e mais jovens",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Como pai ou mães e como irmãos ou irmãs, com pureza"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Como adversários sem distinção"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Como mestres da lei em todos os casos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Como pessoas fora de qualquer família"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quem deve ser honrada como viúva",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "A que não tem ninguém para cuidar dela"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Toda pessoa com filhos e netos ausentes da pauta"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Somente a mais jovem que deseja casar"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Quem abandona súplicas e orações"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.3-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que critério aparece para a lista",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Mais de sessenta anos e testemunho de boas obras"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Menos de quarenta anos e riqueza própria"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Qualquer idade sem exame de conduta"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Somente a capacidade de ensinar publicamente"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como se distribui o socorro familiar e comunitário",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "A família socorre as suas, para a igreja atender quem não tem ninguém"
+            },
+            {
+              "id": "C4-O2",
+              "text": "A igreja substitui toda responsabilidade familiar"
+            },
+            {
+              "id": "C4-O3",
+              "text": "As viúvas sem ninguém ficam sem socorro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Somente presbíteros podem prestar auxílio"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.4,8,16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O homem mais velho deveria ser exortado como pai, não repreendido duramente.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Os homens mais jovens deveriam ser tratados como irmãos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Mulheres mais velhas seriam tratadas como mães e as jovens como irmãs, com toda pureza.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "A honra é dirigida às viúvas sem pessoa alguma que cuide delas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Filhos ou netos deveriam exercer primeiro a piedade em sua própria casa.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Recompensar os pais é chamado aceitável diante de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A viúva de fato põe a esperança em Deus e persevera em súplicas e orações.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Aquela entregue aos prazeres é descrita como morta mesmo estando viva.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Quem não cuida dos seus, especialmente da própria casa, é descrito como alguém que negou a fé.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "A lista admitiria viúva acima de sessenta anos e esposa de um só marido.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Criar filhos e praticar hospitalidade integram o testemunho de boas obras.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Lavar os pés dos santos e socorrer atribulados também integram esse testemunho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "As viúvas mais novas não deveriam ser incluídas naquela lista.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "O texto associa ociosidade a andar de casa em casa e falar o que não se deve.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Às viúvas mais novas Paulo expressa o desejo de que casem, criem filhos e cuidem da casa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A mulher crente com viúvas na família deveria socorrê-las para não sobrecarregar a igreja.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "1 Timóteo 5.1-16 usa relações familiares para orientar o tratamento dos fiéis e distingue o dever da família e o socorro da igreja às viúvas sem amparo.",
+        "hinge": "Os critérios são apresentados como instruções desta carta e deste recorte, sem transformá-los em legislação civil, reconstrução histórica ou regra externa.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "5.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1timoteo-presbiteros-conselhos",
+      "title": "Presbíteros, denúncias e conselhos pessoais",
+      "generalReferences": [
+        {
+          "book": "1 Timóteo",
+          "passage": "5.17-25",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Timóteo 5.17-25, que orientações são dadas sobre presbíteros, decisões e a conduta de Timóteo?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e ordena a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem é considerado merecedor de pagamento em dobro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Presbíteros que presidem bem, sobretudo os dedicados à palavra e ao ensino"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Todos os acusadores sem testemunhas"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Somente quem bebe água"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Quem age com parcialidade"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Quando aceitar denúncia contra presbítero",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sob depoimento de duas ou três testemunhas"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Com uma suspeita anônima"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Depois de impor as mãos depressa"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Somente quando as obras ficam escondidas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Como guardar os conselhos",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Sem discriminação nem parcialidade"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Favorecendo previamente uma das partes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Participando dos pecados alheios"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ignorando os que persistem no pecado"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.20-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Que conselho pessoal sobre bebida aparece",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Usar também um pouco de vinho por causa do estômago e enfermidades frequentes"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Abandonar água por completo"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Beber vinho para obter lucro"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Guardar vinho apenas para os presbíteros"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Os presbíteros que presidem bem são considerados dignos de pagamento em dobro.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Os que trabalham na pregação da palavra e no ensino recebem destaque nessa orientação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A carta cita que não se deve amordaçar o boi enquanto pisa o trigo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Ela também declara que o trabalhador é digno do seu salário.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Uma denúncia contra presbítero exige depoimento de duas ou três testemunhas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Os que vivem no pecado deveriam ser repreendidos diante de todos, para temor dos demais.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Timóteo é incumbido de agir sem discriminação e sem espírito de parcialidade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Ele não deveria impor as mãos apressadamente nem ser cúmplice dos pecados de outros.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Pecados e boas obras podem estar evidentes ou manifestar-se posteriormente, mas as boas obras não ficarão escondidas.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.24-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Por causa do estômago e de enfermidades frequentes, Timóteo deveria usar também um pouco de vinho, não somente água.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "5.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "1 Timóteo 5.17-25 trata de reconhecimento, denúncias e repreensão ligados a presbíteros e acrescenta cautela, pureza, conselho pessoal e observações sobre obras manifestas.",
+        "hinge": "As citações são preservadas como declarações internas de 1 Timóteo; nenhuma fonte externa é usada para completar seu alcance.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "5.17-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      }
+    },
+    {
+      "id": "nt2-1timoteo-contentamento-combate-ricos",
+      "title": "Contentamento, combate e instruções aos ricos",
+      "generalReferences": [
+        {
+          "book": "1 Timóteo",
+          "passage": "6.1-21",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+          "checkedAt": "2026-09-13"
+        }
+      ],
+      "question": "Segundo 1 Timóteo 6, que conjunto contrasta ensino diferente, contentamento, combate da fé e orientação aos ricos?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e ordena a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "O que caracteriza o ensino diferente",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Não concordar com as sãs palavras e com o ensino segundo a piedade"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Praticar generosidade e repartir"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Guardar o que foi confiado"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Pôr a esperança em Deus"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.3-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Que contentamento é ensinado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Estar contente tendo sustento e com que se vestir"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Desejar riqueza para evitar tentações"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Tratar piedade como fonte de ganho financeiro"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Depositar esperança na instabilidade da riqueza"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.6-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Que ordem central Timóteo recebe",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Fugir dessas coisas, seguir virtudes e combater o bom combate da fé"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Buscar discussões e brigas de palavras"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Abandonar a boa confissão diante das testemunhas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Fixar a data da manifestação de Cristo"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.11-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Como os ricos deste mundo são orientados",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "A esperar em Deus, fazer o bem, dar e repartir"
+            },
+            {
+              "id": "C4-O2",
+              "text": "A confiar na estabilidade dos bens"
+            },
+            {
+              "id": "C4-O3",
+              "text": "A deixar toda boa obra para outros"
+            },
+            {
+              "id": "C4-O4",
+              "text": "A professar o falso conhecimento"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.17-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Servos sob jugo deveriam honrar seus senhores para não difamarem o nome de Deus e a doutrina.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O senhor crente não deveria ser desrespeitado por ser irmão; o serviço deveria ser ainda maior.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O ensino diferente é medido contra as sãs palavras de Jesus Cristo e o ensino segundo a piedade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Orgulho, falta de entendimento e desejo doentio de discussões são atribuídos ao falso mestre.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Inveja, provocação, difamações e suspeitas malignas nascem das brigas sobre palavras.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Pessoas privadas da verdade supõem que a piedade seja fonte de lucro.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A piedade acompanhada de contentamento é chamada grande fonte de lucro.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Nada foi trazido para o mundo e nada poderá ser levado dele.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Sustento e vestimenta são apresentados como suficientes para contentamento.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "O desejo de enriquecer conduz a tentação, armadilhas e desejos nocivos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O amor ao dinheiro é chamado raiz de todos os males e ligado a desvio da fé.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "O homem de Deus deveria fugir disso e seguir justiça, piedade, fé, amor, perseverança e mansidão.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Timóteo deveria combater o bom combate e tomar posse da vida eterna.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A boa confissão de Timóteo ocorreu diante de muitas testemunhas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O mandato deveria ser guardado imaculado e irrepreensível até a manifestação de Jesus Cristo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.13-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "O Soberano é descrito como Rei dos reis e Senhor dos senhores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Ele possui imortalidade e habita em luz inacessível.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Os ricos não deveriam ser orgulhosos nem esperar na instabilidade da riqueza.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "A esperança deveria estar em Deus, que proporciona todas as coisas ricamente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Fazer o bem, ser rico em boas obras, dar e repartir compõem a instrução aos ricos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.18-19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "id": "P21",
+          "text": "Timóteo deveria guardar o que lhe foi confiado e evitar falatórios profanos e o falso conhecimento.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "1 Timóteo",
+              "passage": "6.20-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "1 Timóteo 6 contrapõe ensino segundo a piedade e cobiça, chama Timóteo ao combate da fé e orienta os ricos a esperar em Deus e repartir.",
+        "hinge": "A manifestação é mencionada sem calendário; servidão, riqueza e conhecimento são tratados somente nos termos atribuídos ao capítulo.",
+        "references": [
+          {
+            "book": "1 Timóteo",
+            "passage": "6.1-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
