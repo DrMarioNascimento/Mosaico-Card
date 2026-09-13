@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-091-mateus-17-21",
+  "catalogVersion": "checkpoint-092-mateus-23-14-1corintios-11",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -168601,7 +168601,7 @@
     "nt2-mateus-ais-juramentos": {
       "id": "nt2-mateus-ais-juramentos",
       "kind": "canonical-case",
-      "title": "Advertências e juramentos",
+      "title": "Advertências, viúvas, orações e juramentos",
       "canon": {
         "book": "Mateus",
         "referenceNAA": "Mateus 23.13-22",
@@ -168631,14 +168631,51 @@
         ]
       },
       "prompt": {
-        "question": "A quem Jesus dirigiu os ais, que efeitos denunciou e como respondeu às distinções sobre juramentos?"
+        "question": "A quem Jesus dirigiu os ais, qual conduta denunciou, como disse que procuravam justificá-la e que outras advertências apresentou?"
       },
-      "focalFieldId": "C1",
-      "focalJustification": "O primeiro campo identifica os destinatários e o contraste central; os demais distinguem ações, títulos e conclusão do discurso.",
+      "focalFieldId": "C3",
+      "focalJustification": "O terceiro campo preserva a conduta especificamente aprovada pelo usuário e a distingue do modo de justificá-la em C4; os campos anteriores situam agentes e primeira denúncia no mesmo discurso.",
       "editorial": {
-        "hinge": "As denúncias pertencem ao discurso de Jesus; Mt 23.14, marcado entre colchetes pela edição consultada, não foi usado como pista nem gabarito."
+        "hinge": "Em Mt 23.14, exibido entre colchetes na NAA, os agentes são escribas e fariseus; “exploração das viúvas” identifica a conduta denunciada, enquanto “com longas orações” identifica como procuravam justificá-la. “Sob uma aparência de devoção” é somente explicação contextual, não nova fala nem troca entre ato e justificativa. A nota NAA informa que o texto entre colchetes aparece apenas em manuscritos mais recentes."
       },
       "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual conduta Jesus denuncia?",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A exploração das viúvas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A travessia do mar para ensinar"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A oferta depositada no santuário"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A colheita de espigas no sábado"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A exploração das viúvas",
+          "enderecoNAA": "Mateus 23.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "23.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
         {
           "id": "C1",
           "sourceOrder": 1,
@@ -168673,8 +168710,8 @@
               "checkedAt": "2026-09-13"
             }
           ],
-          "isFocal": true,
-          "pontosBase": 8
+          "isFocal": false,
+          "pontosBase": 5
         },
         {
           "id": "C2",
@@ -168711,74 +168748,37 @@
             }
           ],
           "isFocal": false,
-          "pontosBase": 5
-        },
-        {
-          "id": "C3",
-          "sourceOrder": 3,
-          "rotulo": "Que elementos aparecem na primeira distinção de juramentos criticada",
-          "opcoes": [
-            {
-              "id": "C3-O1",
-              "texto": "Santuário e ouro do santuário"
-            },
-            {
-              "id": "C3-O2",
-              "texto": "Copo e prato"
-            },
-            {
-              "id": "C3-O3",
-              "texto": "Mosquito e camelo"
-            },
-            {
-              "id": "C3-O4",
-              "texto": "Profetas e sepulcros"
-            }
-          ],
-          "respostaId": "C3-O1",
-          "respostaCanonica": "Santuário e ouro do santuário",
-          "enderecoNAA": "Mateus 23.16-17",
-          "answerReferences": [
-            {
-              "book": "Mateus",
-              "passage": "23.16-17",
-              "edition": "NAA",
-              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
-              "checkedAt": "2026-09-13"
-            }
-          ],
-          "isFocal": false,
           "pontosBase": 3
         },
         {
           "id": "C4",
           "sourceOrder": 4,
-          "rotulo": "A que o juramento pelo céu foi ligado por Jesus",
+          "rotulo": "Como procuravam justificar essa conduta?",
           "opcoes": [
             {
               "id": "C4-O1",
-              "texto": "Ao trono de Deus e àquele que nele está sentado"
+              "texto": "Com longas orações"
             },
             {
               "id": "C4-O2",
-              "texto": "Somente às nuvens"
+              "texto": "Com juramentos pelo ouro"
             },
             {
               "id": "C4-O3",
-              "texto": "Ao altar e à oferta"
+              "texto": "Com saudações nas praças"
             },
             {
               "id": "C4-O4",
-              "texto": "À cadeira de Moisés"
+              "texto": "Com o silêncio diante da multidão"
             }
           ],
           "respostaId": "C4-O1",
-          "respostaCanonica": "Ao trono de Deus e àquele que nele está sentado",
-          "enderecoNAA": "Mateus 23.22",
+          "respostaCanonica": "Com longas orações",
+          "enderecoNAA": "Mateus 23.14",
           "answerReferences": [
             {
               "book": "Mateus",
-              "passage": "23.22",
+              "passage": "23.14",
               "edition": "NAA",
               "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
               "checkedAt": "2026-09-13"
@@ -168791,7 +168791,7 @@
       "deck": {
         "status": "ready",
         "minPlayers": 2,
-        "maxPlayers": 7,
+        "maxPlayers": 8,
         "cards": [
           {
             "id": "P01",
@@ -169152,12 +169152,60 @@
               }
             ],
             "texto": "A mesma fala inclui aquele que está sentado no trono."
+          },
+          {
+            "id": "P16",
+            "text": "No verso entre colchetes, Jesus denuncia escribas e fariseus por devorarem as casas das viúvas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar separadamente a conduta denunciada e o modo de justificá-la no discurso de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No verso entre colchetes, Jesus denuncia escribas e fariseus por devorarem as casas das viúvas."
+          },
+          {
+            "id": "P17",
+            "text": "A mesma denúncia afirma que eles faziam longas orações para justificar essa conduta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar separadamente a conduta denunciada e o modo de justificá-la no discurso de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "23.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.23.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A mesma denúncia afirma que eles faziam longas orações para justificar essa conduta."
           }
         ]
       },
       "reveal": {
-        "canonicalSummary": "Mateus 23.13-22 reúne ais pronunciados por Jesus e sua resposta às distinções de juramento atribuídas aos guias censurados.",
-        "hinge": "As denúncias pertencem ao discurso de Jesus; Mt 23.14, marcado entre colchetes pela edição consultada, não foi usado como pista nem gabarito.",
+        "canonicalSummary": "Mateus 23.13-22 reúne ais pronunciados por Jesus: fechamento do Reino, exploração das viúvas justificada com longas orações, proselitismo e distinções sobre juramentos.",
+        "hinge": "Em Mt 23.14, exibido entre colchetes na NAA, os agentes são escribas e fariseus; “exploração das viúvas” identifica a conduta denunciada, enquanto “com longas orações” identifica como procuravam justificá-la. “Sob uma aparência de devoção” é somente explicação contextual, não nova fala nem troca entre ato e justificativa. A nota NAA informa que o texto entre colchetes aparece apenas em manuscritos mais recentes.",
         "references": [
           {
             "book": "Mateus",

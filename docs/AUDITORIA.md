@@ -208,3 +208,7 @@ A conferência documental final da ficha encontrou decisão individual vigente p
 ## Checkpoint 091 — Mt 17.21
 
 A NAA 1840 foi reconsultada e a decisão explícita sobre Mt 17.21 foi aplicada somente a `nt2-mateus-menino-fe-mostarda`. O gabarito contextual “Falta de oração e jejum” é explicado como inferência de 17.19-21, sem atribuir ao verso a afirmação literal de omissão pelos discípulos; “pequenez da fé” (17.20) permanece perspectiva válida fora dos distratores. Não houve objeto novo: 287 dos 288 objetos ficaram idênticos, e as contagens permanecem 288/5.566. As outras pendências e exclusões foram preservadas.
+
+## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
+
+A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguindo exploração das viúvas de sua justificação com longas orações e preservando colchetes/nota textual. Duas pistas foram anexadas; a pauta passa a 17 pistas/capacidade 8. Em 1Co 11.2-16, somente três perguntas aprovadas foram registradas em `data/nt-approved-content.json`; elas não viraram pauta porque o contrato exige quatro campos e um quarto conteúdo foi expressamente proibido. Dos 288 objetos, 287 ficaram idênticos e somente a pauta de Mateus mudou; resultado **288 pautas/5.568 pistas**. 1Co 14.34-36 continua pendente, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.

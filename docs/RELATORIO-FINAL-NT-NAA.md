@@ -304,3 +304,7 @@ Os 280 objetos anteriores ficaram byte-equivalentes por `JSON.stringify`; o resu
 ## Incremento do checkpoint 091 — decisão de Mt 17.21
 
 A reconsulta NAA 1840 confirmou texto e nota entre colchetes. Sem criar pauta nova, `nt2-mateus-menino-fe-mostarda` passou a responder “Falta de oração e jejum” como inferência contextual de Mt 17.19-21, com explicação de que o verso não declara literalmente a omissão dos discípulos. “Pequenez da fé” em 17.20 continua perspectiva válida, mas não distrator falso. Dos 288 objetos, somente esse foi consolidado; permanecem **288 pautas/1.152 campos/5.566 pistas**. Mt 23.14 e dúvidas de 1Co continuam pendentes, Mc 16.9-20 permanece excluído e Mc 3–4 é somente o próximo plano.
+
+## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
+
+A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguindo exploração das viúvas de sua justificação com longas orações e preservando colchetes/nota textual. Duas pistas foram anexadas; a pauta passa a 17 pistas/capacidade 8. Em 1Co 11.2-16, somente três perguntas aprovadas foram registradas em `data/nt-approved-content.json`; elas não viraram pauta porque o contrato exige quatro campos e um quarto conteúdo foi expressamente proibido. Dos 288 objetos, 287 ficaram idênticos e somente a pauta de Mateus mudou; resultado **288 pautas/5.568 pistas**. 1Co 14.34-36 continua pendente, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.

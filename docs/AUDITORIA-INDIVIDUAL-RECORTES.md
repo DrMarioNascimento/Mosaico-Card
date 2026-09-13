@@ -642,3 +642,7 @@ A reconsulta NAA 1840 ficou exclusivamente em Mc 2.18-22 e 2.23-28. As matrizes 
 ## Checkpoint 091 — decisão contextual de Mt 17.21
 
 A reconsulta efetiva da NAA 1840 confirmou Mt 17.21 entre colchetes e a nota de manuscritos mais recentes. Por decisão explícita, `nt2-mateus-menino-fe-mostarda` agora responde C4 com **“Falta de oração e jejum”** como inferência contextual de 17.19-21, sem afirmar que 17.21 diz literalmente que os discípulos não oraram/jejuaram. A pequenez da fé de 17.20 continua registrada como perspectiva literal, fora das alternativas concorrentes de resposta única. Dos 288 objetos, 287 ficaram idênticos e somente esse objeto foi consolidado; permanecem **288/5.566**. Nenhum outro recorte foi autorado.
+
+## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
+
+A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguindo exploração das viúvas de sua justificação com longas orações e preservando colchetes/nota textual. Duas pistas foram anexadas; a pauta passa a 17 pistas/capacidade 8. Em 1Co 11.2-16, somente três perguntas aprovadas foram registradas em `data/nt-approved-content.json`; elas não viraram pauta porque o contrato exige quatro campos e um quarto conteúdo foi expressamente proibido. Dos 288 objetos, 287 ficaram idênticos e somente a pauta de Mateus mudou; resultado **288 pautas/5.568 pistas**. 1Co 14.34-36 continua pendente, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.

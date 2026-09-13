@@ -53,3 +53,15 @@ Uma perspectiva não será excluída apenas porque outra explicação compatíve
 | Jo 14–17 | Exclusão por discursos/oração e antiga exigência de mistério factual. | Reavaliar cada unidade, sem massa, lista ou perspectiva única forçada e sem autoria antecipada. |
 
 Mt 23.14 e 1Co 11.2-16/14.34-36 continuam pendentes sem decisão presumida. Mc 16.9-20 permanece excluído por decisão anterior. Depois de salvar esta decisão, o próximo inventário independente continua planejado para Mc 3–4.
+
+## Duas decisões explícitas — Mt 23.14 e 1Co 11.2-16 (checkpoint 092)
+
+### A. Mt 23.14 aprovado e aplicado
+
+O usuário aprovou o uso de Mt 23.14 com a ressalva textual da NAA: o verso aparece entre colchetes, com nota de que o texto se encontra apenas em manuscritos mais recentes. Os agentes denunciados são **escribas e fariseus**. A pergunta **“Qual conduta Jesus denuncia?”** tem gabarito **“A exploração das viúvas”**; a pergunta independente **“Como procuravam justificar essa conduta?”** tem gabarito **“Com longas orações”**. A explicação pode dizer “sob uma aparência de devoção” somente como contexto, sem atribuir a frase ao verso. Ato e modo de justificá-lo não podem ser trocados nem reduzidos a uma pergunta genérica de contradição; as viúvas devem permanecer explícitas.
+
+### B. 1Co 11.2-16 aprovado como conteúdo, pendente estruturalmente
+
+Foram aprovados **somente** estes três pares, com suas referências NAA específicas: (1) “Quais atividades aparecem na orientação sobre a cabeça coberta ou descoberta?” → “Orar e profetizar.” (11.4-5); (2) “Segundo o argumento de Paulo, homem e mulher são independentes um do outro no Senhor?” → “Não, existe interdependência.” (11.11); (3) “De quem tudo procede, conforme o versículo 12?” → “De Deus.” (11.12). Nada sobre anjos, véu, aplicação atual ou um quarto conteúdo foi aprovado.
+
+O banco exige exatamente quatro campos por pauta. Como inventar um quarto violaria a decisão, os três itens ficam preservados em `data/nt-approved-content.json` com estado `approved-content-pending-structural-integration`; não formam caso elegível e não alteram o sorteio. **A decisão editorial está resolvida; a aplicação permanece pendente estruturalmente.** 1Co 14.34-36 continua pendente sem aprovação. A arquitetura de variantes funcionais segue não implementada.

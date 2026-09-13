@@ -299,3 +299,7 @@ A consulta efetiva exclusiva de Mc 2.18-28 na NAA 1840 acrescentou duas pautas/2
 ## Checkpoint 091 — decisão de Mt 17.21
 
 Mt 17.21 foi reconsultado na NAA 1840, preservando colchetes e nota textual. A pauta existente do menino/fé passou a usar “Falta de oração e jejum” como inferência contextual claramente explicada para C4; a pequenez da fé de 17.20 continua como perspectiva literal sem virar alternativa marcada errada. Não houve pauta ou pista líquida nova: **288 pautas/1.152 campos/5.566 pistas**. Somente um dos 288 objetos mudou; Mt 23.14 e dúvidas de 1Co permanecem pendentes, e Mc 3–4 fica planejado.
+
+## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
+
+A reconsulta NAA 1840 aplicou Mt 23.14 a `nt2-mateus-ais-juramentos`, distinguindo exploração das viúvas de sua justificação com longas orações e preservando colchetes/nota textual. Duas pistas foram anexadas; a pauta passa a 17 pistas/capacidade 8. Em 1Co 11.2-16, somente três perguntas aprovadas foram registradas em `data/nt-approved-content.json`; elas não viraram pauta porque o contrato exige quatro campos e um quarto conteúdo foi expressamente proibido. Dos 288 objetos, 287 ficaram idênticos e somente a pauta de Mateus mudou; resultado **288 pautas/5.568 pistas**. 1Co 14.34-36 continua pendente, variantes funcionais não foram implementadas e Mc 3–4 não foi autorado.

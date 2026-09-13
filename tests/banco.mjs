@@ -12,6 +12,17 @@ assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
 assert.equal(catalog.summary.editoriallyEligibleCases, 288);
 assert.equal(catalog.summary.max12Cases, 96);
+const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
+assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
+assert.equal(mateus2314.fields.find(field => field.id === "C4").respostaCanonica, "Com longas orações");
+assert.ok(mateus2314.deck.cards.filter(card => card.references.some(ref => ref.passage === "23.14")).length === 2);
+assert.match(mateus2314.reveal.hinge, /manuscritos mais recentes/);
+const approvedContent = require("../data/nt-approved-content.json");
+const corintios11 = approvedContent.items.find(item => item.id === "approved-1corintios-11-2-16");
+assert.equal(corintios11.decision, "approved-content-pending-structural-integration");
+assert.equal(corintios11.questions.length, 3, "1Co 11 mantém somente as três perguntas aprovadas");
+assert.deepEqual(corintios11.questions.map(item => item.answer), ["Orar e profetizar.", "Não, existe interdependência.", "De Deus."]);
+assert.ok(corintios11.forbiddenAdditions.includes("quarto campo ou quarto conteúdo"));
 const mateus1721 = catalog.byId["nt2-mateus-menino-fe-mostarda"];
 const respostaContextual = mateus1721.fields.find(field => field.id === "C4");
 assert.equal(respostaContextual.rotulo, "Por que os discípulos não conseguiram expulsá-lo?");
@@ -72,7 +83,7 @@ for (const [id, maxPlayers] of Object.entries(mateus27Checkpoint087)) {
 
 const mateus23Checkpoint077 = {
   "nt2-mateus-escribas-obras-titulos": 8,
-  "nt2-mateus-ais-juramentos": 7,
+  "nt2-mateus-ais-juramentos": 8,
   "nt2-mateus-ais-dizimo-aparencias": 8,
   "nt2-mateus-profetas-lamento-jerusalem": 9
 };

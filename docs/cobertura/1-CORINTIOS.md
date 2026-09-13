@@ -47,3 +47,9 @@ A decisão antiga de insuficiência para 1Co 1 e 8–10 é substituída por esta
 As páginas de 1Co 11, 13 e 14 foram obtidas e lidas na NAA identificada em `bible.com/pt/bible/1840`, com HTTP 200 em 13/09/2026. A autoria separou 11.17-34 do bloco de costumes e símbolos de 11.2-16: somente a ceia originou pauta. 1Co 13 originou uma pauta atributiva sem definir externamente “o completo”. Em 1Co 14, a pauta usa 14.1-33,37-40 para efeitos, interpretação, edificação e ordem, mas não completa a citação de 14.21 pelo AT e não usa 14.34-36 para impor interpretação sobre mulheres, silêncio ou submissão.
 
 Somadas às sete pautas anteriores, 1 Coríntios passa a dez pautas autoradas. As dúvidas reais acima permanecem isoladas, e as pautas anteriores não foram alteradas.
+
+## Conteúdo aprovado de 1Co 11.2-16 — checkpoint 092
+
+A página `https://www.bible.com/pt/bible/1840/1CO.11.NAA` foi reconsultada em 13/09/2026 (HTTP 200; 94.162 bytes). O usuário aprovou somente três perguntas: atividades **orar e profetizar** (11.4-5), resposta **não, existe interdependência** entre homem e mulher no Senhor (11.11), e procedência de tudo **de Deus** (11.12). Anjos, véu, aplicação atual e qualquer quarto conteúdo permanecem fora desta decisão.
+
+Como uma pauta exige quatro campos, os três pares não foram inflados nem transformados em caso inelegível. Estão preservados estruturalmente em `data/nt-approved-content.json` com decisão editorial resolvida e integração pendente por incompatibilidade estrutural. Nenhum objeto do banco mudou por 1Co 11 e não houve nova pauta. 1Co 14.34-36 permanece pendente sem aprovação.
