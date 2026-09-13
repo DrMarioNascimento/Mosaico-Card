@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-078-mateus-24",
+  "catalogVersion": "checkpoint-079-mateus-25",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 248,
-    "fields": 992,
-    "editoriallyEligibleCases": 248,
-    "playableCases": 248,
+    "cases": 251,
+    "fields": 1004,
+    "editoriallyEligibleCases": 251,
+    "playableCases": 251,
     "max12Cases": 91
   },
   "order": [
@@ -264,7 +264,10 @@
     "nt2-mateus-templo-sinais-testemunho",
     "nt2-mateus-fuga-falsos-cristos",
     "nt2-mateus-vinda-anjos-figueira",
-    "nt2-mateus-vigilancia-servos"
+    "nt2-mateus-vigilancia-servos",
+    "nt2-mateus-virgens-lamparinas",
+    "nt2-mateus-servos-talentos",
+    "nt2-mateus-rei-ovelhas-cabritos"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -173330,6 +173333,2121 @@
             "passage": "24.36-51",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.24.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-virgens-lamparinas": {
+      "id": "nt2-mateus-virgens-lamparinas",
+      "kind": "canonical-case",
+      "title": "Virgens, lamparinas e espera",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 25.1-13",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Como Jesus distinguiu as dez virgens, o que aconteceu durante a espera e que advertência encerrou a parábola?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o elemento central da comparação narrada por Jesus; os demais distinguem ações, respostas e resultados atribuídos no texto.",
+      "editorial": {
+        "hinge": "Virgens, óleo, noivo, festa e porta são elementos da parábola atribuída a Jesus; não recebem identidades externas nem aplicação cronológica."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantas virgens Jesus incluiu na comparação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Dez"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Cinco"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Três"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Dez",
+          "enderecoNAA": "Mateus 25.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que as prudentes levaram além das lamparinas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Óleo em vasilhas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pães em cestos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Dinheiro em bolsas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Água em cântaros"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Óleo em vasilhas",
+          "enderecoNAA": "Mateus 25.4",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem chegou enquanto as imprudentes tinham saído",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O noivo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O vendedor de óleo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O senhor dos servos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O pastor"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O noivo",
+          "enderecoNAA": "Mateus 25.10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que ordem Jesus deu ao concluir a parábola",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vigiar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Contar os dias"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Procurar o noivo no campo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Manter a porta aberta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vigiar",
+          "enderecoNAA": "Mateus 25.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus comparou o Reino dos Céus a dez virgens com lamparinas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus comparou o Reino dos Céus a dez virgens com lamparinas."
+          },
+          {
+            "id": "P02",
+            "text": "Na comparação, elas saíram para encontrar o noivo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, elas saíram para encontrar o noivo."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus distinguiu cinco prudentes e cinco imprudentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus distinguiu cinco prudentes e cinco imprudentes."
+          },
+          {
+            "id": "P04",
+            "text": "As imprudentes não levaram óleo além de suas lamparinas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As imprudentes não levaram óleo além de suas lamparinas."
+          },
+          {
+            "id": "P05",
+            "text": "As prudentes carregaram vasilhas com óleo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As prudentes carregaram vasilhas com óleo."
+          },
+          {
+            "id": "P06",
+            "text": "Como o noivo demorou, todas ficaram sonolentas e dormiram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Como o noivo demorou, todas ficaram sonolentas e dormiram."
+          },
+          {
+            "id": "P07",
+            "text": "Um grito à meia-noite anunciou a chegada do noivo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um grito à meia-noite anunciou a chegada do noivo."
+          },
+          {
+            "id": "P08",
+            "text": "Todas se levantaram e prepararam as lamparinas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todas se levantaram e prepararam as lamparinas."
+          },
+          {
+            "id": "P09",
+            "text": "As imprudentes disseram que suas lamparinas estavam se apagando.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As imprudentes disseram que suas lamparinas estavam se apagando."
+          },
+          {
+            "id": "P10",
+            "text": "Elas pediram parte do óleo das prudentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas pediram parte do óleo das prudentes."
+          },
+          {
+            "id": "P11",
+            "text": "As prudentes responderam que o óleo poderia faltar para os dois grupos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As prudentes responderam que o óleo poderia faltar para os dois grupos."
+          },
+          {
+            "id": "P12",
+            "text": "Elas orientaram as outras a comprar o próprio óleo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas orientaram as outras a comprar o próprio óleo."
+          },
+          {
+            "id": "P13",
+            "text": "O noivo chegou enquanto as imprudentes estavam comprando.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O noivo chegou enquanto as imprudentes estavam comprando."
+          },
+          {
+            "id": "P14",
+            "text": "As preparadas entraram com ele na festa do casamento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As preparadas entraram com ele na festa do casamento."
+          },
+          {
+            "id": "P15",
+            "text": "Depois da entrada, a porta foi fechada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da entrada, a porta foi fechada."
+          },
+          {
+            "id": "P16",
+            "text": "As imprudentes chegaram mais tarde e pediram que a porta fosse aberta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As imprudentes chegaram mais tarde e pediram que a porta fosse aberta."
+          },
+          {
+            "id": "P17",
+            "text": "Na parábola, o noivo respondeu que não as conhecia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na parábola, o noivo respondeu que não as conhecia."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus encerrou ordenando vigilância diante do desconhecimento do dia e da hora.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus encerrou ordenando vigilância diante do desconhecimento do dia e da hora."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 25.1-13 registra a comparação de Jesus sobre dez virgens, a preparação durante a espera e a ordem final de vigiar.",
+        "hinge": "Virgens, óleo, noivo, festa e porta são elementos da parábola atribuída a Jesus; não recebem identidades externas nem aplicação cronológica.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.1-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-servos-talentos": {
+      "id": "nt2-mateus-servos-talentos",
+      "kind": "canonical-case",
+      "title": "Servos, bens e acerto de contas",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 25.14-30",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.14-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Como o homem distribuiu seus bens, o que os servos fizeram e quais respostas o senhor deu no acerto de contas?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o elemento central da comparação narrada por Jesus; os demais distinguem ações, respostas e resultados atribuídos no texto.",
+      "editorial": {
+        "hinge": "Os valores, avaliações e destinos pertencem à parábola narrada por Jesus; não identificam pessoas externas nem estabelecem equivalências econômicas ou calendários."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Segundo que critério o homem distribuiu os talentos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A capacidade de cada servo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A idade de cada servo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A ordem de chegada"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A distância da viagem"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A capacidade de cada servo",
+          "enderecoNAA": "Mateus 25.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que fez o servo que recebeu um talento",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Escondeu o dinheiro na terra"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Entregou-o aos banqueiros"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ganhou outro talento"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Dividiu-o entre os servos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Escondeu o dinheiro na terra",
+          "enderecoNAA": "Mateus 25.18",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como o senhor chamou os dois servos que multiplicaram o recebido",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Bons e fiéis"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Prudentes e vigilantes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Justos e benditos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Fortes e generosos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Bons e fiéis",
+          "enderecoNAA": "Mateus 25.21-23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.21-23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem foi dado o talento retirado do servo inútil",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao servo que tinha dez"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ao que tinha quatro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Aos banqueiros"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ao servo encarregado da casa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao servo que tinha dez",
+          "enderecoNAA": "Mateus 25.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus introduziu a comparação com um homem que viajaria para fora do país.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus introduziu a comparação com um homem que viajaria para fora do país."
+          },
+          {
+            "id": "P02",
+            "text": "Antes de partir, ele chamou os servos e lhes confiou seus bens.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Antes de partir, ele chamou os servos e lhes confiou seus bens."
+          },
+          {
+            "id": "P03",
+            "text": "Um servo recebeu cinco talentos, outro recebeu dois e outro, um.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um servo recebeu cinco talentos, outro recebeu dois e outro, um."
+          },
+          {
+            "id": "P04",
+            "text": "A distribuição considerou a capacidade de cada um.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A distribuição considerou a capacidade de cada um."
+          },
+          {
+            "id": "P05",
+            "text": "O servo dos cinco negociou imediatamente e ganhou mais cinco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo dos cinco negociou imediatamente e ganhou mais cinco."
+          },
+          {
+            "id": "P06",
+            "text": "O servo dos dois também ganhou outros dois.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo dos dois também ganhou outros dois."
+          },
+          {
+            "id": "P07",
+            "text": "O servo de um abriu um buraco e escondeu o dinheiro do senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo de um abriu um buraco e escondeu o dinheiro do senhor."
+          },
+          {
+            "id": "P08",
+            "text": "Depois de muito tempo, o senhor voltou para ajustar contas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de muito tempo, o senhor voltou para ajustar contas."
+          },
+          {
+            "id": "P09",
+            "text": "O primeiro apresentou os cinco recebidos e outros cinco ganhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O primeiro apresentou os cinco recebidos e outros cinco ganhos."
+          },
+          {
+            "id": "P10",
+            "text": "O senhor o chamou de servo bom e fiel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor o chamou de servo bom e fiel."
+          },
+          {
+            "id": "P11",
+            "text": "A fidelidade no pouco foi seguida de responsabilidade sobre muito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A fidelidade no pouco foi seguida de responsabilidade sobre muito."
+          },
+          {
+            "id": "P12",
+            "text": "O servo foi convidado a participar da alegria de seu senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo foi convidado a participar da alegria de seu senhor."
+          },
+          {
+            "id": "P13",
+            "text": "O segundo apresentou os dois recebidos e outros dois ganhos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O segundo apresentou os dois recebidos e outros dois ganhos."
+          },
+          {
+            "id": "P14",
+            "text": "Ele recebeu do senhor a mesma avaliação de bondade e fidelidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele recebeu do senhor a mesma avaliação de bondade e fidelidade."
+          },
+          {
+            "id": "P15",
+            "text": "O último atribuiu severidade ao senhor e disse que teve medo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.24-25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O último atribuiu severidade ao senhor e disse que teve medo."
+          },
+          {
+            "id": "P16",
+            "text": "Esse servo devolveu apenas o talento que havia escondido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse servo devolveu apenas o talento que havia escondido."
+          },
+          {
+            "id": "P17",
+            "text": "O senhor o chamou de mau e preguiçoso.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor o chamou de mau e preguiçoso."
+          },
+          {
+            "id": "P18",
+            "text": "Na resposta, o dinheiro deveria ao menos ter sido entregue aos banqueiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na resposta, o dinheiro deveria ao menos ter sido entregue aos banqueiros."
+          },
+          {
+            "id": "P19",
+            "text": "O senhor disse que assim receberia o que era seu com juros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor disse que assim receberia o que era seu com juros."
+          },
+          {
+            "id": "P20",
+            "text": "O talento foi retirado e destinado a quem tinha dez.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O talento foi retirado e destinado a quem tinha dez."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus atribuiu ao senhor a máxima sobre receber mais ou perder até o que se tem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribuiu ao senhor a máxima sobre receber mais ou perder até o que se tem."
+          },
+          {
+            "id": "P22",
+            "text": "Na comparação, o servo inútil seria lançado nas trevas, com choro e ranger de dentes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na comparação, o servo inútil seria lançado nas trevas, com choro e ranger de dentes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 25.14-30 registra a comparação de Jesus sobre bens confiados a três servos, suas ações e o acerto de contas posterior.",
+        "hinge": "Os valores, avaliações e destinos pertencem à parábola narrada por Jesus; não identificam pessoas externas nem estabelecem equivalências econômicas ou calendários.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.14-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-rei-ovelhas-cabritos": {
+      "id": "nt2-mateus-rei-ovelhas-cabritos",
+      "kind": "canonical-case",
+      "title": "Rei, ovelhas e cabritos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 25.31-46",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.31-46",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que julgamento Jesus descreveu, como o Rei distinguiu os grupos e que explicação atribuiu às ações e omissões?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica o elemento central da comparação narrada por Jesus; os demais distinguem ações, respostas e resultados atribuídos no texto.",
+      "editorial": {
+        "hinge": "Trono, Pastor, Rei, ovelhas, cabritos e destinos permanecem na cena e nas falas atribuídas por Jesus; a pauta não identifica nações, pessoas ou cumprimento externo."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "A que figura Jesus comparou a separação entre os grupos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A um pastor separando ovelhas de cabritos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A um semeador separando sementes"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A um pescador escolhendo peixes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A um noivo fechando a porta"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A um pastor separando ovelhas de cabritos",
+          "enderecoNAA": "Mateus 25.32",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Em que lado o Rei pôs as ovelhas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "À direita"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "À esquerda"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Diante do trono"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Fora da reunião"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "À direita",
+          "enderecoNAA": "Mateus 25.33",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A quem o Rei relacionou o bem feito a ele",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A um de seus pequeninos irmãos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Aos anjos que o acompanhavam"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Aos reis das nações"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Aos servos dos talentos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "A um de seus pequeninos irmãos",
+          "enderecoNAA": "Mateus 25.40",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que destinos Jesus anunciou ao final",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Castigo eterno e vida eterna"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Trevas e festa de casamento"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Exílio e retorno"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Serviço e descanso temporários"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Castigo eterno e vida eterna",
+          "enderecoNAA": "Mateus 25.46",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "25.46",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus anunciou a vinda do Filho do Homem em majestade, acompanhado pelos anjos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus anunciou a vinda do Filho do Homem em majestade, acompanhado pelos anjos."
+          },
+          {
+            "id": "P02",
+            "text": "Na descrição, ele se assentaria no trono de sua glória.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na descrição, ele se assentaria no trono de sua glória."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus disse que todas as nações seriam reunidas diante dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que todas as nações seriam reunidas diante dele."
+          },
+          {
+            "id": "P04",
+            "text": "A separação foi comparada à ação de um pastor com ovelhas e cabritos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A separação foi comparada à ação de um pastor com ovelhas e cabritos."
+          },
+          {
+            "id": "P05",
+            "text": "As ovelhas foram postas à direita e os cabritos à esquerda.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As ovelhas foram postas à direita e os cabritos à esquerda."
+          },
+          {
+            "id": "P06",
+            "text": "Na fala atribuída ao Rei, os da direita são chamados benditos de seu Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala atribuída ao Rei, os da direita são chamados benditos de seu Pai."
+          },
+          {
+            "id": "P07",
+            "text": "O Rei os convida a herdar um Reino preparado desde a fundação do mundo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Rei os convida a herdar um Reino preparado desde a fundação do mundo."
+          },
+          {
+            "id": "P08",
+            "text": "Ele enumera ter recebido comida quando estava com fome.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele enumera ter recebido comida quando estava com fome."
+          },
+          {
+            "id": "P09",
+            "text": "Também enumera bebida na sede e hospedagem como forasteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também enumera bebida na sede e hospedagem como forasteiro."
+          },
+          {
+            "id": "P10",
+            "text": "A lista prossegue com roupa, visita na enfermidade e visita na prisão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista prossegue com roupa, visita na enfermidade e visita na prisão."
+          },
+          {
+            "id": "P11",
+            "text": "Os justos perguntam quando o viram nessas condições e o atenderam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.37-39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os justos perguntam quando o viram nessas condições e o atenderam."
+          },
+          {
+            "id": "P12",
+            "text": "O Rei relaciona essas ações ao que fizeram a um de seus pequeninos irmãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Rei relaciona essas ações ao que fizeram a um de seus pequeninos irmãos."
+          },
+          {
+            "id": "P13",
+            "text": "Na fala aos da esquerda, o Rei ordena que se afastem dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na fala aos da esquerda, o Rei ordena que se afastem dele."
+          },
+          {
+            "id": "P14",
+            "text": "O fogo mencionado foi descrito como preparado para o diabo e seus anjos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O fogo mencionado foi descrito como preparado para o diabo e seus anjos."
+          },
+          {
+            "id": "P15",
+            "text": "O Rei atribui ao segundo grupo omissões diante de fome, sede e condição de forasteiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.42-43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Rei atribui ao segundo grupo omissões diante de fome, sede e condição de forasteiro."
+          },
+          {
+            "id": "P16",
+            "text": "Ele também menciona falta de roupa e de visita na enfermidade e na prisão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também menciona falta de roupa e de visita na enfermidade e na prisão."
+          },
+          {
+            "id": "P17",
+            "text": "Esse grupo pergunta quando o viu nessas condições sem o socorrer.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Esse grupo pergunta quando o viu nessas condições sem o socorrer."
+          },
+          {
+            "id": "P18",
+            "text": "O Rei relaciona a omissão ao que deixaram de fazer a um dos mais pequeninos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Rei relaciona a omissão ao que deixaram de fazer a um dos mais pequeninos."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus encerra o anúncio com a ida de um grupo para o castigo eterno.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus encerra o anúncio com a ida de um grupo para o castigo eterno."
+          },
+          {
+            "id": "P20",
+            "text": "No mesmo encerramento, os justos vão para a vida eterna.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída à comparação de Jesus em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "25.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No mesmo encerramento, os justos vão para a vida eterna."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 25.31-46 registra o julgamento anunciado por Jesus, a separação figurada como ovelhas e cabritos e a explicação dada pelo Rei aos dois grupos.",
+        "hinge": "Trono, Pastor, Rei, ovelhas, cabritos e destinos permanecem na cena e nas falas atribuídas por Jesus; a pauta não identifica nações, pessoas ou cumprimento externo.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "25.31-46",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.25.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

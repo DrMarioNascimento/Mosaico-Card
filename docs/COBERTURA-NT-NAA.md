@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 24 inventariado — checkpoint 078 | Pendente posterior: Mt 25; pendência textual Mt 23.14 | 64 pautas citam o livro / 1.246 pistas | Mt 24 decidido por unidade; Mt 23.14 não entrou e requer encaminhamento específico |
+| Mateus | Mt 25 inventariado — checkpoint 079 | Pendência textual Mt 23.14; lacunas documentais antigas enumeradas | 67 pautas citam o livro / 1.306 pistas | Mt 25 decidido por unidade; Mt 1–4, 8–9, 14–17 e 26–28 requerem reconsulta individual onde a ficha indica |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
@@ -208,3 +208,10 @@ A leitura efetiva das duas páginas NAA e a comparação por unidade acrescentar
 ## Checkpoint 074 — reavaliação de Mt 19.13-15 e 20.29-34
 
 A reconsulta NAA e duas matrizes concretas demonstraram quatro campos independentes e fatos suficientes nas duas unidades antes recusadas. Crianças (9 pistas; capacidade 4) e dois cegos (16; capacidade 7) receberam pautas próprias. O relato dos cegos usa o núcleo integral de Mateus sem presumir identidade com Bartimeu. O banco passa de **230/4.513 para 232/4.538**, e Mateus de **46/915 para 48/940**, preservando serializadamente os 230 objetos anteriores. Mt 21–25 continua posterior; o banco não está completo.
+
+
+## Checkpoint 079 — Mateus 25 e auditoria documental limitada
+
+A consulta efetiva exclusiva de Mt 25 na NAA Bible.com 1840 acrescentou três pautas/60 pistas aos 248 objetos preservados serialmente, levando o banco a **251 pautas/1.004 campos/4.904 pistas** e Mateus a **67 pautas/1.306 pistas que citam o livro**. As unidades 25.1-13, 25.14-30 e 25.31-46 receberam decisão e capacidade 8, 10 e 9.
+
+Sem abrir outras páginas ou autorar fora de Mt 25, a revisão documental de Mt 1–4, 8–9, 14–17 e 26–28 constatou que matrizes atuais cobrem apenas recortes selecionados; a ficha de Mateus enumera as unidades ainda dependentes de reconsulta sob as regras vigentes. Isso impede declarar Mateus completo. Mt 23.14 permanece pendência textual específica, não exclusão definitiva.

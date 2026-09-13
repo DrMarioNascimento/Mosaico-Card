@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 248);
+assert.equal(catalog.summary.editoriallyEligibleCases, 251);
 assert.equal(catalog.summary.max12Cases, 91);
 const mateus23Checkpoint077 = {
   "nt2-mateus-escribas-obras-titulos": 8,
@@ -34,6 +34,18 @@ for (const [id, maxPlayers] of Object.entries(mateus24Checkpoint078)) {
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.length >= 5);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.24.NAA"))), `${id} mantém a proveniência exclusiva de Mt 24`);
+}
+
+const mateus25Checkpoint079 = {
+  "nt2-mateus-virgens-lamparinas": 8,
+  "nt2-mateus-servos-talentos": 10,
+  "nt2-mateus-rei-ovelhas-cabritos": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus25Checkpoint079)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.25.NAA"))), `${id} mantém a proveniência exclusiva de Mt 25`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 
 assert.equal(catalog.byId.ovelha, undefined);

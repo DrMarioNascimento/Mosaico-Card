@@ -325,3 +325,32 @@ Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.24.NAA` foi obti
 | Mt 24.45-51 — servos fiel e mau | **Autorada** na mesma pauta, que totaliza 22 pistas e capacidade 10. A pergunta, as ações hipotéticas e os resultados são componentes da comparação de Jesus, sem generalização externa. |
 
 Foram anexadas **quatro pautas/81 pistas**, com capacidades 10, 10, 7 e 10 pela fórmula `min(12, floor((pistas-1)/2))`; quatro não foi meta e não houve piso de 25 pistas ou 12 participantes. Os 244 objetos anteriores permaneceram na mesma ordem e serializaram identicamente. Não restou unidade de Mt 24 sem decisão neste inventário; **Mt 25 permanece posterior**, e **Mt 23.14 continua pendência textual específica** sem bloquear o avanço. O banco não é declarado completo.
+
+## Inventário individual de Mateus 25 — checkpoint 079
+
+Em 13/09/2026, somente `https://www.bible.com/pt/bible/1840/MAT.25.NAA` foi obtida (HTTP 200; 351.114 bytes) e lida integralmente, verso a verso. Antes da autoria, campos, perguntas, pistas e referências dos **248 objetos/4.844 pistas** foram comparados; não havia referência geral a Mt 25. A comparação também considerou as pautas de vigilância e servos de Mt 24, sem repetir seus campos: as três unidades de Mt 25 preservam os elementos próprios de cada comparação e do julgamento anunciado.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 25.1-5 — dez virgens e demora | **Autorada** em `nt2-mateus-virgens-lamparinas`; prudência, óleo, sono e demora permanecem elementos da parábola, sem identidades ou cronologia externas. |
+| Mt 25.6-13 — anúncio, entrada e porta | **Autorada** na mesma pauta, que totaliza 18 pistas e capacidade 8. A fala do noivo e a ordem de vigiar são atribuídas na comparação; dia e hora não são calculados. |
+| Mt 25.14-18 — bens confiados e ações | **Autorada** em `nt2-mateus-servos-talentos`; valores e condutas ficam na parábola, sem converter talento em valor monetário moderno. |
+| Mt 25.19-30 — acerto de contas | **Autorada** na mesma pauta, que totaliza 22 pistas e capacidade 10. Avaliações, máxima e sentença são falas do senhor na comparação narrada por Jesus. |
+| Mt 25.31-33 — vinda, trono e separação | **Autorada** em `nt2-mateus-rei-ovelhas-cabritos`; majestade, anjos, trono, Pastor, ovelhas e cabritos permanecem no anúncio e na imagem de Jesus. |
+| Mt 25.34-40 — fala à direita | **Autorada** na mesma pauta; necessidades, ações, pergunta dos justos e resposta do Rei são fatos discursivos, sem identificar externamente “pequeninos irmãos”. |
+| Mt 25.41-46 — fala à esquerda e destinos | **Autorada** na mesma pauta, que totaliza 20 pistas e capacidade 9. Omissões, resposta e destinos são atribuídos ao julgamento anunciado, sem identificar pessoas, nações ou cumprimento histórico. |
+
+As três pautas acrescentam **60 pistas**, sem meta: virgens/lamparinas (18; capacidade 8), servos/talentos (22; 10) e Rei/ovelhas/cabritos (20; 9), pela fórmula `min(12, floor((pistas-1)/2))`. Cada pauta possui quatro campos, quatro alternativas por campo, gabaritos, focal 8-5-3-2, proveniência NAA, metadados e revelação atributiva. Os 248 objetos anteriores foram preservados na mesma ordem e serializaram byte a byte por `JSON.stringify`; somente três foram anexados. O banco passa a **251 pautas/1.004 campos/4.904 pistas**, todas elegíveis. Isso encerra apenas o inventário individual vigente de Mt 25, não declara Mateus nem o banco completos; Mt 23.14 continua pendência textual, não exclusão definitiva.
+
+### Auditoria documental das faixas antigas, sem nova autoria
+
+A pedido, foi feita somente uma auditoria dos registros existentes, sem consultar páginas adicionais e sem criar conteúdo fora de Mt 25. O diagnóstico separa decisão individual atual de fechamento antigo que antecede a capacidade variável e a autorização de perguntas temáticas.
+
+| Faixa | Evidência documental vigente | Lacuna específica para lote posterior |
+| --- | --- | --- |
+| Mt 1–4 | Os recortes Mt 1.18-25, 3.13-17 e 4.1-11 foram reavaliados e autorados no checkpoint 034; Mt 2.1-12 já tinha pauta. A varredura restante aparece apenas como decisão agregada antiga. | Reconsultar NAA 1840 e decidir individualmente as demais unidades de Mt 1–4, especialmente genealogia/transição de 1.1-17, retorno e deslocamentos de 2.13-23, ministério de João em 3.1-12 e início do ministério/chamados/cura em 4.12-25. |
+| Mt 8–9 | Há pautas e consolidações de episódios selecionados, mas a ficha conserva justificativas antigas de “curto”, “paralelo” ou incapacidade para 12. | Inventariar verso a verso Mt 8–9 e reavaliar sob capacidade variável os recortes não decididos atualmente, incluindo 8.1-4, 8.14-22, 8.28-34, 9.9-17, 9.27-34 e 9.35-38; comparar sem harmonizar os paralelos já existentes. |
+| Mt 14–17 | Pautas antigas cobrem episódios selecionados e Mt 15.21-28 foi reavaliado no checkpoint 035, mas não existe matriz individual atual para todas as unidades. | Reconsultar e decidir as transições, controvérsias, curas e ensinos não cobertos, sobretudo Mt 15.1-20, 15.29-39, 16.1-28 e 17.14-27; não importar identidades ou fatos dos paralelos. |
+| Mt 26–28 | Ceia, Getsêmani e Pilatos têm pautas; crucificação possui consolidação e Mt 28.1-10 foi reavaliado no checkpoint 036. Permanecem exclusões antigas por brevidade/paralelo, inclusive sepultamento/guarda. | Reconsultar e decidir individualmente Mt 26.1-16, 26.31-35, 26.47-75, 27.1-10, 27.27-31, 27.57-66 e 28.11-20; comparar consolidações documentais sem harmonizar relatos. |
+
+Essas lacunas são fila documental concreta para lotes seguintes, não exclusões nem autorização de autoria neste checkpoint. Mt 5–7, 10–13 e 18–25 conservam suas matrizes posteriores; Mt 23.14 permanece pendência textual específica. Nenhuma faixa acima foi declarada completa por teste, download antigo ou decisão agregada.
