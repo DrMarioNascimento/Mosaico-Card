@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-084-mateus-16-17",
+  "catalogVersion": "checkpoint-085-mateus-17-22-27",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 271,
-    "fields": 1084,
-    "editoriallyEligibleCases": 271,
-    "playableCases": 271,
+    "cases": 273,
+    "fields": 1092,
+    "editoriallyEligibleCases": 273,
+    "playableCases": 273,
     "max12Cases": 94
   },
   "order": [
@@ -287,7 +287,9 @@
     "nt2-mateus-sinal-fermento",
     "nt2-mateus-confissao-pedro-chaves",
     "nt2-mateus-morte-seguimento-vinda",
-    "nt2-mateus-menino-fe-mostarda"
+    "nt2-mateus-menino-fe-mostarda",
+    "nt2-mateus-entrega-morte-ressurreicao-tristeza",
+    "nt2-mateus-duas-dracmas-peixe-moeda"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -188731,6 +188733,1038 @@
           {
             "book": "Mateus",
             "passage": "17.14-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-entrega-morte-ressurreicao-tristeza": {
+      "id": "nt2-mateus-entrega-morte-ressurreicao-tristeza",
+      "kind": "canonical-case",
+      "title": "Entrega, morte, ressurreição e tristeza",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 17.22-23",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.22-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde estavam reunidos, quem seria entregue, o que os homens fariam e quando ocorreria a ressurreição anunciada?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O segundo campo identifica o sujeito do anúncio que articula entrega, morte e ressurreição; os demais distinguem lugar, ação e tempo explicitamente registrados.",
+      "editorial": {
+        "hinge": "A unidade preserva este anúncio e a reação como uma ocorrência própria de Mateus 17.22-23; a semelhança de ensino com Mateus 16.21 não estabelece a mesma ocasião."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem Jesus disse que estava para ser entregue",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O Filho do Homem"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "João Batista"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Elias"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O Filho do Homem",
+          "enderecoNAA": "Mateus 17.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar em que eles estavam reunidos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Cesareia de Filipe"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Cafarnaum"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Galileia",
+          "enderecoNAA": "Mateus 17.22",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que os homens fariam depois da entrega",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Matariam o Filho do Homem"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Cobrariam duas dracmas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Construiriam três tendas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Buscariam um sinal do céu"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Matariam o Filho do Homem",
+          "enderecoNAA": "Mateus 17.22-23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.22-23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quando ocorreria a ressurreição anunciada",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ao terceiro dia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Depois de seis dias"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Naquela mesma hora"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ao cair da tarde"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ao terceiro dia",
+          "enderecoNAA": "Mateus 17.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Eles estavam reunidos na Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles estavam reunidos na Galileia."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus falou aos que estavam reunidos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus falou aos que estavam reunidos."
+          },
+          {
+            "id": "P03",
+            "text": "O sujeito anunciado foi o Filho do Homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O sujeito anunciado foi o Filho do Homem."
+          },
+          {
+            "id": "P04",
+            "text": "Ele estava para ser entregue nas mãos dos homens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele estava para ser entregue nas mãos dos homens."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus disse que os homens o matariam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que os homens o matariam."
+          },
+          {
+            "id": "P06",
+            "text": "Também disse que ressuscitaria ao terceiro dia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também disse que ressuscitaria ao terceiro dia."
+          },
+          {
+            "id": "P07",
+            "text": "Depois do anúncio, os discípulos ficaram muito tristes.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois do anúncio, os discípulos ficaram muito tristes."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em Mateus 17.22-23, Jesus anunciou na Galileia que o Filho do Homem seria entregue nas mãos dos homens, morto e ressuscitado ao terceiro dia; os discípulos ficaram muito tristes.",
+        "hinge": "A unidade preserva este anúncio e a reação como uma ocorrência própria de Mateus 17.22-23; a semelhança de ensino com Mateus 16.21 não estabelece a mesma ocasião.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.22-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-duas-dracmas-peixe-moeda": {
+      "id": "nt2-mateus-duas-dracmas-peixe-moeda",
+      "kind": "canonical-case",
+      "title": "Duas dracmas, peixe e moeda",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 17.24-27",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.24-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem abordou Pedro, que comparação Jesus apresentou e que instruções deu para realizar o pagamento?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O quarto campo reúne a sequência distintiva que leva do mar ao pagamento; os demais fixam lugar, interlocutores e comparação sem importar explicações externas.",
+      "editorial": {
+        "hinge": "A revelação conserva a sequência e a comparação nos termos de Mateus e de sua nota monetária, sem completar o episódio pelo Antigo Testamento nem convertê-lo em regra externa."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Sequência ordenada a Pedro para obter o pagamento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ir ao mar, lançar o anzol e abrir a boca do primeiro peixe"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ir ao templo, vender um peixe e procurar uma moeda"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Entrar no barco, lançar uma rede e repartir os peixes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Procurar os cobradores, pedir uma moeda e voltar à casa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ir ao mar, lançar o anzol e abrir a boca do primeiro peixe",
+          "enderecoNAA": "Mateus 17.27",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Cidade em que os cobradores abordaram Pedro",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cafarnaum"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Belém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Nazaré"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cafarnaum",
+          "enderecoNAA": "Mateus 17.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem se dirigiu a Pedro com uma pergunta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Os cobradores do imposto das duas dracmas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os principais sacerdotes e anciãos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os pescadores junto ao mar"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os fariseus e saduceus"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Os cobradores do imposto das duas dracmas",
+          "enderecoNAA": "Mateus 17.24",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "De quem Pedro disse que os reis cobravam impostos ou tributo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Dos estranhos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Dos seus filhos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Dos discípulos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Dos cobradores"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Dos estranhos",
+          "enderecoNAA": "Mateus 17.25-26",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "17.25-26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos chegaram a Cafarnaum.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus e os discípulos chegaram a Cafarnaum."
+          },
+          {
+            "id": "P02",
+            "text": "Os cobradores do imposto das duas dracmas dirigiram-se a Pedro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os cobradores do imposto das duas dracmas dirigiram-se a Pedro."
+          },
+          {
+            "id": "P03",
+            "text": "Eles perguntaram se o Mestre dos discípulos pagava as duas dracmas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles perguntaram se o Mestre dos discípulos pagava as duas dracmas."
+          },
+          {
+            "id": "P04",
+            "text": "Pedro respondeu que o Mestre pagava.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro respondeu que o Mestre pagava."
+          },
+          {
+            "id": "P05",
+            "text": "Ao entrar Pedro em casa, Jesus falou antes dele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao entrar Pedro em casa, Jesus falou antes dele."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus chamou Pedro de Simão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou Pedro de Simão."
+          },
+          {
+            "id": "P07",
+            "text": "A pergunta de Jesus mencionou os reis da terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta de Jesus mencionou os reis da terra."
+          },
+          {
+            "id": "P08",
+            "text": "Ela tratava da cobrança de impostos ou tributo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela tratava da cobrança de impostos ou tributo."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus contrastou os filhos dos reis com os estranhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou os filhos dos reis com os estranhos."
+          },
+          {
+            "id": "P10",
+            "text": "Pedro respondeu que a cobrança recaía sobre os estranhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro respondeu que a cobrança recaía sobre os estranhos."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus concluiu que os filhos estavam isentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus concluiu que os filhos estavam isentos."
+          },
+          {
+            "id": "P12",
+            "text": "Mesmo assim, Jesus quis evitar que eles escandalizassem os cobradores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo assim, Jesus quis evitar que eles escandalizassem os cobradores."
+          },
+          {
+            "id": "P13",
+            "text": "Pedro recebeu a ordem de ir ao mar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro recebeu a ordem de ir ao mar."
+          },
+          {
+            "id": "P14",
+            "text": "Ele deveria jogar um anzol.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele deveria jogar um anzol."
+          },
+          {
+            "id": "P15",
+            "text": "A instrução indicava o primeiro peixe que fosse fisgado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução indicava o primeiro peixe que fosse fisgado."
+          },
+          {
+            "id": "P16",
+            "text": "Ao abrir a boca do peixe, Pedro encontraria uma moeda.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao abrir a boca do peixe, Pedro encontraria uma moeda."
+          },
+          {
+            "id": "P17",
+            "text": "A moeda deveria ser entregue aos cobradores para pagar por Jesus e Pedro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar os campos com fato explicitamente registrado no recorte de Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "17.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A moeda deveria ser entregue aos cobradores para pagar por Jesus e Pedro."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Em Mateus 17.24-27, cobradores perguntaram a Pedro pelas duas dracmas; Jesus comparou filhos e estranhos e mandou Pedro obter no primeiro peixe uma moeda para pagar por ambos.",
+        "hinge": "A revelação conserva a sequência e a comparação nos termos de Mateus e de sua nota monetária, sem completar o episódio pelo Antigo Testamento nem convertê-lo em regra externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "17.24-27",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.17.NAA",
             "checkedAt": "2026-09-13"
