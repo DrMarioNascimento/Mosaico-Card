@@ -85,6 +85,7 @@ body:has(#welcome.active) { padding: 0; background: #080f18; }
 .mesa-title-info { display: flex; align-items: center; justify-content: flex-end; gap: 10px; min-width: 0; }
 .mesa-title-info .scene-title { margin: 0; }
 #mesa-info { flex: 0 0 44px; width: 44px; height: 44px; padding: 4px; border-radius: 10px; font-size: 23px; }
+#mesa-info { font-family: "Cinzel Decorative", Cinzel, serif; font-weight: 900; text-transform: none; color: var(--accent); text-shadow: 0 2px 1px #17372f, 0 0 2px #071b18, 0 0 7px #65d5cc77; }
 .mesa-question { margin: 12px 0; padding: 14px 16px; border: 1px solid #65d5cc55; border-radius: 12px; background: #0b292f; box-shadow: inset 0 1px 0 #ffffff12, 0 4px 10px #0003; color: var(--ink); font-weight: 700; line-height: 1.5; }
 #mesa-help-dialog { width: min(800px, calc(100% - 24px)); max-height: calc(100dvh - 32px); padding: 24px; color: var(--ink); background: #12313f; border: 1px solid #65d5cc66; border-radius: 20px; box-shadow: 0 24px 70px #0009; }
 #mesa-help-dialog::backdrop { background: #031319bf; backdrop-filter: blur(4px); }
