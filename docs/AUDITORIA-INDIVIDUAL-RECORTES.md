@@ -533,3 +533,7 @@ A comparação serializada confirmou os **226 objetos anteriores integralmente i
 Mt 19.13-15 e 20.29-34 foram reconsultados exclusivamente nas páginas NAA Bible.com 1840. Matrizes concretas de pergunta, resposta, referência e fatos distintos demonstraram quatro campos independentes em cada unidade. Foram anexadas `nt2-mateus-criancas-maos-oracao` (9 pistas; capacidade 4) e `nt2-mateus-dois-cegos-jerico` (16; capacidade 7). A segunda pauta usa todo o núcleo de Mateus e não presume identidade com Bartimeu; não houve consolidação nem harmonização.
 
 A comparação serializada confirmou os **230 objetos anteriores integralmente idênticos**, na mesma ordem; somente dois objetos foram anexados. Resultado: **232 pautas/4.538 pistas**, todas elegíveis. As decisões negativas específicas do checkpoint 073 ficam supersedidas, e não resta pendência vigente em Mt 19–20. Mt 21–25 permanece posterior; testes não tornam o banco completo.
+
+## Checkpoint 075 — Mt 21–22
+
+A leitura exclusiva das duas páginas NAA Bible.com 1840 inventariou todas as unidades de Mt 21–22. A comparação de campos, perguntas, pistas e referências confirmou Mt 21.1-11 na pauta existente e sustentou quatro pautas: templo/figueira (23 pistas; capacidade 11), autoridade/dois filhos (23; 11), lavradores (28; 12) e festa de casamento (25; 12). Mt 22.15-22, 23-33, 34-40 e 41-46 permanecem candidatos independentes pelo limite de quatro novas pautas, não por insuficiência ou paralelo. O banco passa a **236 pautas/4.637 pistas**; os 232 objetos anteriores foram preservados serializadamente.

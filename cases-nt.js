@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-074-mateus-19-20-reavaliacao",
+  "catalogVersion": "checkpoint-075-mateus-21-22",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 232,
-    "fields": 928,
-    "editoriallyEligibleCases": 232,
-    "playableCases": 232,
-    "max12Cases": 89
+    "cases": 236,
+    "fields": 944,
+    "editoriallyEligibleCases": 236,
+    "playableCases": 236,
+    "max12Cases": 91
   },
   "order": [
     "nt2-joao-cana",
@@ -248,7 +248,11 @@
     "nt2-mateus-trabalhadores-vinha",
     "nt2-mateus-calice-servico-resgate",
     "nt2-mateus-criancas-maos-oracao",
-    "nt2-mateus-dois-cegos-jerico"
+    "nt2-mateus-dois-cegos-jerico",
+    "nt2-mateus-templo-figueira",
+    "nt2-mateus-autoridade-dois-filhos",
+    "nt2-mateus-lavradores-maus",
+    "nt2-mateus-festa-casamento"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -162370,6 +162374,3282 @@
             "passage": "20.29-34",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.20.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-templo-figueira": {
+      "id": "nt2-mateus-templo-figueira",
+      "kind": "canonical-case",
+      "title": "O templo e a figueira sem fruto",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 21.12-22",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.12-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que ações no templo, reação às crianças e sequência junto à figueira Mateus reúne antes da questão da autoridade?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a ação inicial no templo; os demais distinguem fala, reação e sequência da figueira.",
+      "editorial": {
+        "hinge": "Templo e figueira permanecem duas cenas sucessivas do próprio texto; o ensino é atribuído a Jesus sem explicação externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que Jesus fez ao entrar no templo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Expulsou compradores e vendedores"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Chamou os doze para uma refeição"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Sentou-se junto ao gazofilácio"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Saiu imediatamente para Betânia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Expulsou compradores e vendedores",
+          "enderecoNAA": "Mateus 21.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como Jesus contrapôs o propósito da casa ao uso denunciado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Casa de oração e covil de salteadores"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Casa de comércio e escola de escribas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Palácio real e praça de impostos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Lugar de sacrifícios e torre de vigia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Casa de oração e covil de salteadores",
+          "enderecoNAA": "Mateus 21.13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem gritou no templo e como reagiram sacerdotes e escribas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Crianças gritaram, e eles ficaram indignados"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Coxos gritaram, e eles se alegraram"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Cambistas gritaram, e eles fugiram"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Discípulos gritaram, e eles se calaram"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Crianças gritaram, e eles ficaram indignados",
+          "enderecoNAA": "Mateus 21.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ocorreu com a figueira após a palavra de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Secou imediatamente"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Produziu fruto naquela manhã"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foi transplantada para Betânia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Foi cortada pelos discípulos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Secou imediatamente",
+          "enderecoNAA": "Mateus 21.19",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus entrou no templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus entrou no templo."
+          },
+          {
+            "id": "P02",
+            "text": "Ali havia pessoas vendendo e comprando.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ali havia pessoas vendendo e comprando."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus expulsou compradores e vendedores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus expulsou compradores e vendedores."
+          },
+          {
+            "id": "P04",
+            "text": "Ele derrubou as mesas dos cambistas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele derrubou as mesas dos cambistas."
+          },
+          {
+            "id": "P05",
+            "text": "Também derrubou as cadeiras dos vendedores de pombas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também derrubou as cadeiras dos vendedores de pombas."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus chamou a casa de Casa de Oração.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou a casa de Casa de Oração."
+          },
+          {
+            "id": "P07",
+            "text": "Ele disse que a estavam fazendo covil de salteadores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele disse que a estavam fazendo covil de salteadores."
+          },
+          {
+            "id": "P08",
+            "text": "Cegos e coxos se aproximaram dele no templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cegos e coxos se aproximaram dele no templo."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus curou os cegos e coxos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus curou os cegos e coxos."
+          },
+          {
+            "id": "P10",
+            "text": "Os principais sacerdotes e escribas viram as maravilhas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os principais sacerdotes e escribas viram as maravilhas."
+          },
+          {
+            "id": "P11",
+            "text": "Crianças gritavam no templo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Crianças gritavam no templo."
+          },
+          {
+            "id": "P12",
+            "text": "As crianças diziam Hosana ao Filho de Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As crianças diziam Hosana ao Filho de Davi."
+          },
+          {
+            "id": "P13",
+            "text": "Os líderes ficaram indignados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes ficaram indignados."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus confirmou que ouvia o que as crianças diziam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus confirmou que ouvia o que as crianças diziam."
+          },
+          {
+            "id": "P15",
+            "text": "Ele citou o louvor vindo de pequeninos e crianças de peito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele citou o louvor vindo de pequeninos e crianças de peito."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus saiu da cidade para Betânia e passou a noite ali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus saiu da cidade para Betânia e passou a noite ali."
+          },
+          {
+            "id": "P17",
+            "text": "De manhã, ao voltar à cidade, Jesus teve fome.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "De manhã, ao voltar à cidade, Jesus teve fome."
+          },
+          {
+            "id": "P18",
+            "text": "A figueira ficava à beira do caminho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A figueira ficava à beira do caminho."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus encontrou somente folhas nela.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus encontrou somente folhas nela."
+          },
+          {
+            "id": "P20",
+            "text": "Depois da palavra de Jesus, a figueira secou imediatamente.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois da palavra de Jesus, a figueira secou imediatamente."
+          },
+          {
+            "id": "P21",
+            "text": "Os discípulos se admiraram com a rapidez.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se admiraram com a rapidez."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus relacionou sua resposta a ter fé sem duvidar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus relacionou sua resposta a ter fé sem duvidar."
+          },
+          {
+            "id": "P23",
+            "text": "Ele também falou de pedir em oração crendo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também falou de pedir em oração crendo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 21.12-22 reúne a expulsão no templo, curas, reação ao louvor das crianças e a figueira que secou, seguida do ensino de Jesus.",
+        "hinge": "Templo e figueira permanecem duas cenas sucessivas do próprio texto; o ensino é atribuído a Jesus sem explicação externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.12-22",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-autoridade-dois-filhos": {
+      "id": "nt2-mateus-autoridade-dois-filhos",
+      "kind": "canonical-case",
+      "title": "A autoridade e os dois filhos",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 21.23-32",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.23-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que pergunta, impasse e parábola estruturam a resposta de Jesus aos líderes no templo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo localiza o confronto central sobre autoridade; os demais distinguem o teste, os filhos e a aplicação declarada.",
+      "editorial": {
+        "hinge": "A aplicação fica limitada ao que Jesus declara aos interlocutores; a parábola não recebe correspondências adicionais."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os líderes perguntaram a Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Com que autoridade fazia aquelas coisas e quem a dera"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Por que curava apenas em Jerusalém"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Quando restauraria o reino a Israel"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Qual discípulo seria o maior"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Com que autoridade fazia aquelas coisas e quem a dera",
+          "enderecoNAA": "Mateus 21.23",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que questão Jesus apresentou em resposta",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A origem do batismo de João"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O dono da moeda do imposto"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O grande mandamento da Lei"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A identidade do filho de Davi"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "A origem do batismo de João",
+          "enderecoNAA": "Mateus 21.25",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Qual filho fez a vontade do pai",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O primeiro, que recusou e depois foi"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O segundo, que aceitou e foi"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os dois, porque responderam ao pai"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Nenhum, porque a vinha estava arrendada"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O primeiro, que recusou e depois foi",
+          "enderecoNAA": "Mateus 21.28-31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.28-31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem Jesus disse estar entrando primeiro no Reino",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Publicanos e prostitutas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Principais sacerdotes e escribas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os dois filhos da parábola"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os servos enviados à vinha"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Publicanos e prostitutas",
+          "enderecoNAA": "Mateus 21.31",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A pergunta dos líderes ocorreu enquanto Jesus ensinava no templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta dos líderes ocorreu enquanto Jesus ensinava no templo."
+          },
+          {
+            "id": "P02",
+            "text": "Principais sacerdotes e anciãos do povo se aproximaram.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes e anciãos do povo se aproximaram."
+          },
+          {
+            "id": "P03",
+            "text": "Eles perguntaram com que autoridade Jesus agia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles perguntaram com que autoridade Jesus agia."
+          },
+          {
+            "id": "P04",
+            "text": "Também perguntaram quem lhe dera a autoridade.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também perguntaram quem lhe dera a autoridade."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus condicionou sua resposta à resposta deles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus condicionou sua resposta à resposta deles."
+          },
+          {
+            "id": "P06",
+            "text": "Ele perguntou se o batismo de João era do céu ou dos homens.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou se o batismo de João era do céu ou dos homens."
+          },
+          {
+            "id": "P07",
+            "text": "Eles discutiram entre si antes de responder.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles discutiram entre si antes de responder."
+          },
+          {
+            "id": "P08",
+            "text": "Dizer “do céu” levantaria a pergunta sobre não terem acreditado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dizer “do céu” levantaria a pergunta sobre não terem acreditado."
+          },
+          {
+            "id": "P09",
+            "text": "Dizer “dos homens” os fazia temer o povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Dizer “dos homens” os fazia temer o povo."
+          },
+          {
+            "id": "P10",
+            "text": "Todos consideravam João um profeta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Todos consideravam João um profeta."
+          },
+          {
+            "id": "P11",
+            "text": "Eles responderam que não sabiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam que não sabiam."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus então não lhes disse com que autoridade agia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus então não lhes disse com que autoridade agia."
+          },
+          {
+            "id": "P13",
+            "text": "Na parábola, um homem tinha dois filhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na parábola, um homem tinha dois filhos."
+          },
+          {
+            "id": "P14",
+            "text": "O pai mandou o primeiro trabalhar naquele dia na vinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai mandou o primeiro trabalhar naquele dia na vinha."
+          },
+          {
+            "id": "P15",
+            "text": "O primeiro respondeu que não queria ir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O primeiro respondeu que não queria ir."
+          },
+          {
+            "id": "P16",
+            "text": "Depois, arrependido, o primeiro foi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois, arrependido, o primeiro foi."
+          },
+          {
+            "id": "P17",
+            "text": "O outro respondeu “Sim, senhor”, mas não foi.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O outro respondeu “Sim, senhor”, mas não foi."
+          },
+          {
+            "id": "P18",
+            "text": "Os ouvintes apontaram o primeiro como quem fez a vontade do pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ouvintes apontaram o primeiro como quem fez a vontade do pai."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus disse que publicanos e prostitutas entravam primeiro no Reino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que publicanos e prostitutas entravam primeiro no Reino."
+          },
+          {
+            "id": "P20",
+            "text": "João veio no caminho da justiça.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João veio no caminho da justiça."
+          },
+          {
+            "id": "P21",
+            "text": "Os líderes não acreditaram em João.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os líderes não acreditaram em João."
+          },
+          {
+            "id": "P22",
+            "text": "Publicanos e prostitutas acreditaram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Publicanos e prostitutas acreditaram."
+          },
+          {
+            "id": "P23",
+            "text": "Mesmo vendo isso, eles não se arrependeram para acreditar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mesmo vendo isso, eles não se arrependeram para acreditar."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 21.23-32 apresenta a pergunta sobre autoridade, o impasse acerca do batismo de João e a parábola dos dois filhos com sua aplicação explícita.",
+        "hinge": "A aplicação fica limitada ao que Jesus declara aos interlocutores; a parábola não recebe correspondências adicionais.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.23-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-lavradores-maus": {
+      "id": "nt2-mateus-lavradores-maus",
+      "kind": "canonical-case",
+      "title": "A parábola dos lavradores maus",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 21.33-46",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.33-46",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que preparação, agressões, decisão do dono e reação final compõem a parábola dos lavradores em Mateus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a vinha preparada e arrendada; os demais distinguem agressões, filho e decisão anunciada.",
+      "editorial": {
+        "hinge": "A identificação final é somente a percepção registrada dos líderes; não se amplia a parábola por uma chave externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que o dono preparou e arrendou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Uma vinha com cerca, lagar e torre"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Um campo com celeiro e sete poços"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Uma festa de casamento para o filho"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma praça para contratar trabalhadores"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Uma vinha com cerca, lagar e torre",
+          "enderecoNAA": "Mateus 21.33",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que os lavradores fizeram aos primeiros servos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Espancaram um, mataram outro e apedrejaram outro"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pagaram os frutos e pediram novo contrato"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Prenderam todos e os levaram ao rei"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Mandaram-nos de volta sem resposta"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Espancaram um, mataram outro e apedrejaram outro",
+          "enderecoNAA": "Mateus 21.35",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por que decidiram matar o filho",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Porque o reconheceram como herdeiro e quiseram a herança"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Porque ele não trouxe novos servos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Porque desconheciam quem o enviara"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Porque ele derrubou a torre da vinha"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Porque o reconheceram como herdeiro e quiseram a herança",
+          "enderecoNAA": "Mateus 21.38",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Que destino os ouvintes anunciaram para a vinha",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Seria arrendada a outros que entregariam os frutos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Seria abandonada fora do país"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Seria repartida entre os primeiros servos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Seria transformada em salão de casamento"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Seria arrendada a outros que entregariam os frutos",
+          "enderecoNAA": "Mateus 21.41",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "21.41",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um dono de terras plantou uma vinha.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um dono de terras plantou uma vinha."
+          },
+          {
+            "id": "P02",
+            "text": "Ele pôs uma cerca ao redor dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele pôs uma cerca ao redor dela."
+          },
+          {
+            "id": "P03",
+            "text": "Construiu um lagar na vinha.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Construiu um lagar na vinha."
+          },
+          {
+            "id": "P04",
+            "text": "Edificou uma torre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Edificou uma torre."
+          },
+          {
+            "id": "P05",
+            "text": "Arrendou a vinha a lavradores.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Arrendou a vinha a lavradores."
+          },
+          {
+            "id": "P06",
+            "text": "Depois se ausentou do país.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois se ausentou do país."
+          },
+          {
+            "id": "P07",
+            "text": "No tempo da colheita, enviou servos para receber seus frutos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No tempo da colheita, enviou servos para receber seus frutos."
+          },
+          {
+            "id": "P08",
+            "text": "Os lavradores espancaram um servo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lavradores espancaram um servo."
+          },
+          {
+            "id": "P09",
+            "text": "Eles mataram outro servo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles mataram outro servo."
+          },
+          {
+            "id": "P10",
+            "text": "Ainda apedrejaram outro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ainda apedrejaram outro."
+          },
+          {
+            "id": "P11",
+            "text": "O dono enviou outros servos em maior número.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono enviou outros servos em maior número."
+          },
+          {
+            "id": "P12",
+            "text": "Os lavradores fizeram o mesmo com eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lavradores fizeram o mesmo com eles."
+          },
+          {
+            "id": "P13",
+            "text": "Por último, o dono enviou o próprio filho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Por último, o dono enviou o próprio filho."
+          },
+          {
+            "id": "P14",
+            "text": "O dono pensou que respeitariam seu filho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dono pensou que respeitariam seu filho."
+          },
+          {
+            "id": "P15",
+            "text": "Os lavradores reconheceram o filho como herdeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lavradores reconheceram o filho como herdeiro."
+          },
+          {
+            "id": "P16",
+            "text": "Eles decidiram matá-lo para ficar com a herança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles decidiram matá-lo para ficar com a herança."
+          },
+          {
+            "id": "P17",
+            "text": "Agarraram o filho e o lançaram fora da vinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Agarraram o filho e o lançaram fora da vinha."
+          },
+          {
+            "id": "P18",
+            "text": "Depois o mataram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois o mataram."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus perguntou o que o dono faria aos lavradores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou o que o dono faria aos lavradores."
+          },
+          {
+            "id": "P20",
+            "text": "Os ouvintes anunciaram a perdição dos malvados.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os ouvintes anunciaram a perdição dos malvados."
+          },
+          {
+            "id": "P21",
+            "text": "Eles disseram que a vinha seria entregue a outros lavradores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles disseram que a vinha seria entregue a outros lavradores."
+          },
+          {
+            "id": "P22",
+            "text": "Os novos lavradores entregariam frutos no tempo certo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os novos lavradores entregariam frutos no tempo certo."
+          },
+          {
+            "id": "P23",
+            "text": "Jesus citou a pedra rejeitada que se tornou angular.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus citou a pedra rejeitada que se tornou angular."
+          },
+          {
+            "id": "P24",
+            "text": "Jesus disse que o Reino seria entregue a um povo que produzisse frutos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que o Reino seria entregue a um povo que produzisse frutos."
+          },
+          {
+            "id": "P25",
+            "text": "Principais sacerdotes e fariseus entenderam que ele falava deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Principais sacerdotes e fariseus entenderam que ele falava deles."
+          },
+          {
+            "id": "P26",
+            "text": "Eles queriam prender Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles queriam prender Jesus."
+          },
+          {
+            "id": "P27",
+            "text": "Tinham medo das multidões.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tinham medo das multidões."
+          },
+          {
+            "id": "P28",
+            "text": "As multidões consideravam Jesus profeta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "21.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As multidões consideravam Jesus profeta."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 21.33-46 registra a vinha preparada, a violência contra servos e filho, a resposta dos ouvintes e a reação dos líderes.",
+        "hinge": "A identificação final é somente a percepção registrada dos líderes; não se amplia a parábola por uma chave externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "21.33-46",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.21.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-festa-casamento": {
+      "id": "nt2-mateus-festa-casamento",
+      "kind": "canonical-case",
+      "title": "A parábola da festa de casamento",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 22.1-14",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Que convites, respostas, reunião e exame do rei estruturam a festa de casamento narrada por Jesus?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "O primeiro campo identifica a ocasião preparada pelo rei; os demais distinguem recusas, novo convite e o homem sem veste.",
+      "editorial": {
+        "hinge": "Os elementos permanecem na formulação da parábola e em sua conclusão expressa; não recebem identidades ou cronologia externas."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Para quem o rei preparou a festa de casamento",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Para seu filho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Para os sete irmãos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Para os lavradores da vinha"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Para os servos das estradas"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Para seu filho",
+          "enderecoNAA": "Mateus 22.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Como os primeiros convidados responderam ao chamado",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Não quiseram vir"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Vieram e ocuparam toda a sala"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pediram que a festa fosse adiada"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Enviaram presentes sem comparecer"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Não quiseram vir",
+          "enderecoNAA": "Mateus 22.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem os servos reuniram nas estradas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Todos os encontrados, maus e bons"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Somente parentes do rei"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Apenas os antigos convidados"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Somente pessoas com veste nupcial"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Todos os encontrados, maus e bons",
+          "enderecoNAA": "Mateus 22.9-10",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que ocorreu ao homem sem veste nupcial",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Foi amarrado e lançado para fora, nas trevas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Recebeu uma veste do rei"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foi enviado para buscar os convidados"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Sentou-se ao lado do filho do rei"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Foi amarrado e lançado para fora, nas trevas",
+          "enderecoNAA": "Mateus 22.11-13",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "22.11-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus voltou a falar por parábolas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus voltou a falar por parábolas."
+          },
+          {
+            "id": "P02",
+            "text": "O Reino dos Céus foi comparado a um rei.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino dos Céus foi comparado a um rei."
+          },
+          {
+            "id": "P03",
+            "text": "O rei preparou uma festa de casamento para seu filho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei preparou uma festa de casamento para seu filho."
+          },
+          {
+            "id": "P04",
+            "text": "Ele enviou servos para chamar os convidados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele enviou servos para chamar os convidados."
+          },
+          {
+            "id": "P05",
+            "text": "Os convidados não quiseram vir.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os convidados não quiseram vir."
+          },
+          {
+            "id": "P06",
+            "text": "Outros servos anunciaram que o banquete estava preparado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outros servos anunciaram que o banquete estava preparado."
+          },
+          {
+            "id": "P07",
+            "text": "Bois e animais da engorda já tinham sido abatidos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Bois e animais da engorda já tinham sido abatidos."
+          },
+          {
+            "id": "P08",
+            "text": "Tudo estava pronto para a festa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tudo estava pronto para a festa."
+          },
+          {
+            "id": "P09",
+            "text": "Um convidado foi para seu campo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um convidado foi para seu campo."
+          },
+          {
+            "id": "P10",
+            "text": "Outro foi para seu negócio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outro foi para seu negócio."
+          },
+          {
+            "id": "P11",
+            "text": "Outros agarraram, maltrataram e mataram os servos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outros agarraram, maltrataram e mataram os servos."
+          },
+          {
+            "id": "P12",
+            "text": "O rei ficou furioso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei ficou furioso."
+          },
+          {
+            "id": "P13",
+            "text": "Suas tropas exterminaram os assassinos e incendiaram a cidade deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas tropas exterminaram os assassinos e incendiaram a cidade deles."
+          },
+          {
+            "id": "P14",
+            "text": "O rei disse que os primeiros convidados não eram dignos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei disse que os primeiros convidados não eram dignos."
+          },
+          {
+            "id": "P15",
+            "text": "Os servos foram enviados às encruzilhadas dos caminhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os servos foram enviados às encruzilhadas dos caminhos."
+          },
+          {
+            "id": "P16",
+            "text": "Deveriam convidar todos os que encontrassem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Deveriam convidar todos os que encontrassem."
+          },
+          {
+            "id": "P17",
+            "text": "Eles reuniram maus e bons.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles reuniram maus e bons."
+          },
+          {
+            "id": "P18",
+            "text": "A sala do banquete ficou cheia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sala do banquete ficou cheia."
+          },
+          {
+            "id": "P19",
+            "text": "O rei entrou para ver os que estavam à mesa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei entrou para ver os que estavam à mesa."
+          },
+          {
+            "id": "P20",
+            "text": "Ele notou um homem sem veste nupcial.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele notou um homem sem veste nupcial."
+          },
+          {
+            "id": "P21",
+            "text": "O rei perguntou como o homem entrara assim.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei perguntou como o homem entrara assim."
+          },
+          {
+            "id": "P22",
+            "text": "O homem emudeceu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem emudeceu."
+          },
+          {
+            "id": "P23",
+            "text": "O rei mandou amarrar os pés e as mãos dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O rei mandou amarrar os pés e as mãos dele."
+          },
+          {
+            "id": "P24",
+            "text": "Mandou lançá-lo para fora, nas trevas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Mandou lançá-lo para fora, nas trevas."
+          },
+          {
+            "id": "P25",
+            "text": "Jesus concluiu que muitos são chamados e poucos escolhidos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com fato explícito da unidade em Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "22.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus concluiu que muitos são chamados e poucos escolhidos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 22.1-14 narra o convite recusado, a reunião de maus e bons e o exame do homem sem veste nupcial na festa preparada pelo rei.",
+        "hinge": "Os elementos permanecem na formulação da parábola e em sua conclusão expressa; não recebem identidades ou cronologia externas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "22.1-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.22.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

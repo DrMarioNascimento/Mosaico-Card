@@ -252,3 +252,23 @@ Os nove fatos são úteis e não dependem de interpretação do sujeito implíci
 A avaliação usa o núcleo textual completo de Mateus, não apenas diferenças em relação a Marcos. Não há base documental suficiente para afirmar que os dois cegos sejam Bartimeu ou que os relatos descrevam a mesma ocasião; por isso não houve consolidação. A unidade foi **autorada** em `nt2-mateus-dois-cegos-jerico`, com 16 pistas, quatro alternativas por campo, focal C1, pesos 8/5/3/2 e capacidade `min(12, floor((16-1)/2)) = 7`.
 
 A reavaliação acrescenta **duas pautas/25 pistas** e preserva os 230 objetos anteriores serializadamente. O banco passa a 232/4.538 e Mateus a 48 pautas/940 pistas. As duas unidades ficam resolvidas como pautas próprias, não adiadas nem excluídas. Mt 21–25 permanece posterior e o banco não é declarado completo.
+
+## Inventário individual de Mateus 21–22 — checkpoint 075
+
+Em 13/09/2026, somente as páginas `https://www.bible.com/pt/bible/1840/MAT.21.NAA` e `/MAT.22.NAA` foram obtidas separadamente (HTTP 200; 371.792 e 356.448 bytes) e lidas verso a verso. A comparação prévia abrangeu os **232 objetos/4.538 pistas**, seus campos, perguntas, pistas, referências e paralelos. Mt 21.1-11 já estava representado por `nt2-mateus-entrada-jerusalem`; não se presumiu que unidades semelhantes dos outros Evangelhos fossem a mesma ocasião.
+
+| Unidade lida | Campos/pergunta e comparação | Status e motivo específico |
+| --- | --- | --- |
+| Mt 21.1-11 — entrada em Jerusalém | agente enviado/animais/ações das multidões/identificação; comparação de toda a pauta existente | **Coberta** por `nt2-mateus-entrada-jerusalem`; nenhuma pista exclusiva ficou sem representação. |
+| Mt 21.12-17 — templo | ação inicial/finalidade da casa/crianças/reação dos líderes; comparada com pautas de templo de outros documentos | **Autorada** com a figueira em `nt2-mateus-templo-figueira`; 23 fatos no conjunto, sem afirmar identidade de ocasião paralela. |
+| Mt 21.18-22 — figueira | lugar/achado/resultado/ensino atribuído; comparada com Mt 7 e Mc 11 | **Autorada** na mesma pauta por sucessão explícita e pergunta dos discípulos; não se deu significado externo à figueira. |
+| Mt 21.23-27 — autoridade | pergunta/origem proposta/deliberação/resposta | **Autorada** em `nt2-mateus-autoridade-dois-filhos`; o impasse fornece campos e fatos próprios. |
+| Mt 21.28-32 — dois filhos | ordem/respostas/ação/aplicação declarada | **Autorada** na mesma pauta, total de 23 pistas; não se acrescentaram correspondências alegóricas. |
+| Mt 21.33-46 — lavradores | preparação/agressões/filho/destino; comparação com Mc 12 e Lc 20 sem presumir ocasião | **Autorada** em `nt2-mateus-lavradores-maus`, 28 pistas; a percepção dos líderes é mantida como reação textual. |
+| Mt 22.1-14 — festa de casamento | destinatário/recusa/novo convite/homem sem veste | **Autorada** em `nt2-mateus-festa-casamento`, 25 pistas; nenhuma identidade ou cronologia foi imposta aos elementos. |
+| Mt 22.15-22 — imposto | agentes/moeda/pergunta/resposta; paralelo indicado em Mc 12/Lc 20 | **Pendente por limite do lote, não excluída.** Unidade factual autônoma; exige matriz e comparação de pistas antes da autoria. |
+| Mt 22.23-33 — saduceus e ressurreição | grupo/caso dos sete/diagnóstico/resposta; paralelo indicado em Mc 12/Lc 20 | **Pendente por limite do lote, não excluída.** Lista e ensino atributivo são autorizados; não resolver além da fala de Jesus. |
+| Mt 22.34-40 — grande mandamento | perguntador/pergunta/primeiro/segundo mandamento | **Pendente por limite do lote, não excluída.** Mesa pequena e pergunta independente são permitidas; comparar pautas temáticas. |
+| Mt 22.41-46 — Cristo e Davi | interlocutores/pergunta/resposta/citação e silêncio final | **Pendente por limite do lote, não excluída.** Recorte curto não recebe veto genérico; avaliar quatro campos e cinco fatos no lote seguinte. |
+
+Foram anexadas **quatro pautas/99 pistas**, com capacidades 11, 11, 12 e 12 pela fórmula vigente. Os 232 objetos anteriores permaneceram na mesma ordem e serializaram identicamente. Mt 21 fica decidido no inventário vigente; **Mt 22 não é fechado**: 22.15-46 permanece em quatro unidades concretas, e Mt 23–25 continua posterior. Nenhuma insuficiência definitiva foi declarada neste lote.

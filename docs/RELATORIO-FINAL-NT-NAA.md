@@ -252,3 +252,9 @@ Somente Mt 10.1-15, Mt 12.9-14 e Mt 13.51-58 foram reconsultados na NAA Bible.co
 ## Incremento do checkpoint 072 — Mateus 18
 
 A leitura exclusiva de Mateus 18 na NAA Bible.com 1840 sustentou quatro pautas e 57 pistas, elevando o catálogo de **222 pautas/4.347 pistas para 226/4.404**. Todas as unidades foram inventariadas; Mt 18.8-9 foi reconhecido como já coberto por Mt 5.29-30 e não foi repetido. A recontagem por referência corrige o subtotal anterior de Mateus de 750 para 749 pistas e chega agora a 806, sem alterar o catálogo. Os 222 objetos anteriores permaneceram integralmente idênticos e as novas pautas têm capacidades 5, 4, 6 e 10. Mt 19–20 e demais recortes continuam posteriores; não houve harmonização, interpretação externa ou declaração de banco completo.
+
+## Checkpoint 075 — lote limitado de Mateus 21–22
+
+Somente Mt 21–22 foi obtido na NAA Bible.com 1840 (HTTP 200) e lido verso a verso. A comparação efetiva de campos, perguntas, pistas, referências e paralelos partiu de **232 pautas/4.538 pistas**. Mt 21.1-11 permaneceu coberto pela pauta existente. Quatro pautas foram anexadas: templo/figueira (23 pistas), autoridade/dois filhos (23), lavradores maus (28) e festa de casamento (25), levando o catálogo a **236 pautas/944 campos/4.637 pistas**; os 232 objetos anteriores permaneceram serializadamente idênticos.
+
+As capacidades são 11, 11, 12 e 12, calculadas sem piso ou inflação. Parábolas, listas e ensinos permanecem atributivos e não foram harmonizados com paralelos. Mt 22.15-22, 22.23-33, 22.34-40 e 22.41-46 ficam individualmente **pendentes pelo limite do lote**, não excluídos; Mt 23–25 continua posterior. Dúvidas de 1Co e exclusões definitivas permanecem preservadas. O banco não está completo, e testes não alteram esse estado.

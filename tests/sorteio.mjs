@@ -23,7 +23,7 @@ assert.equal(bank.elegiveis(7).filter(id => bank.byId[id].deck.maxPlayers === 7)
 assert.equal(bank.elegiveis(8).filter(id => bank.byId[id].deck.maxPlayers === 8).length, 21, "pautas de dezessete ou dezoito cartas usam capacidade oito");
 assert.equal(bank.elegiveis(9).filter(id => bank.byId[id].deck.maxPlayers === 9).length, 15, "pautas de dezenove ou vinte cartas usam capacidade nove");
 assert.equal(bank.elegiveis(10).filter(id => bank.byId[id].deck.maxPlayers === 10).length, 17, "pautas de 21 ou 22 cartas usam capacidade dez");
-assert.equal(bank.elegiveis(11).filter(id => bank.byId[id].deck.maxPlayers === 11).length, 9, "pautas de 23 ou 24 cartas usam capacidade onze");
+assert.equal(bank.elegiveis(11).filter(id => bank.byId[id].deck.maxPlayers === 11).length, 11, "pautas de 23 ou 24 cartas usam capacidade onze");
 const limitadasAQuatro = bank.elegiveis(4).filter(id => bank.byId[id].deck.maxPlayers === 4);
 assert.equal(limitadasAQuatro.length, 13, "pautas de nove ou dez cartas usam capacidade quatro");
 const limitadasATres = bank.elegiveis(3).filter(id => bank.byId[id].deck.maxPlayers === 3);

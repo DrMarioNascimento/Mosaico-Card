@@ -736,3 +736,9 @@ Crianças (Mt 19.13-15) e cegos ao sair de Jericó (Mt 20.29-34) receberam decis
 A leitura NAA renovada e matrizes explícitas de perguntas, respostas, referências e fatos corrigiram as decisões de Mt 19.13-15 e 20.29-34. Foram anexadas duas pautas próprias: crianças (9 pistas; capacidade 4) e dois cegos (16; capacidade 7). O segundo relato não foi identificado nem consolidado com Bartimeu apenas por compartilhar cura e seguimento.
 
 O banco passa de **230 pautas/4.513 pistas para 232/4.538**, preservando serializadamente os 230 objetos anteriores. **Mt 21–25 permanece posterior; o banco não está completo.**
+
+## Checkpoint 075 — lote limitado de Mateus 21–22
+
+Somente Mt 21–22 foi obtido na NAA Bible.com 1840 (HTTP 200) e lido verso a verso. A comparação efetiva de campos, perguntas, pistas, referências e paralelos partiu de **232 pautas/4.538 pistas**. Mt 21.1-11 permaneceu coberto pela pauta existente. Quatro pautas foram anexadas: templo/figueira (23 pistas), autoridade/dois filhos (23), lavradores maus (28) e festa de casamento (25), levando o catálogo a **236 pautas/944 campos/4.637 pistas**; os 232 objetos anteriores permaneceram serializadamente idênticos.
+
+As capacidades são 11, 11, 12 e 12, calculadas sem piso ou inflação. Parábolas, listas e ensinos permanecem atributivos e não foram harmonizados com paralelos. Mt 22.15-22, 22.23-33, 22.34-40 e 22.41-46 ficam individualmente **pendentes pelo limite do lote**, não excluídos; Mt 23–25 continua posterior. Dúvidas de 1Co e exclusões definitivas permanecem preservadas. O banco não está completo, e testes não alteram esse estado.

@@ -4,7 +4,7 @@
 
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
-| Mateus | Mt 19–20 resolvido após reavaliação — checkpoint 074 | Pendente posterior: Mt 21–25 | 48 pautas citam o livro / 940 pistas | Seis pautas nos dois capítulos; os dois cegos permanecem unidade própria de Mateus, sem identidade presumida com Bartimeu |
+| Mateus | Mt 21 inventariado — checkpoint 075 | Pendentes: Mt 22.15-46 e Mt 23–25 | 52 pautas citam o livro / 1.039 pistas | Quatro pautas novas em Mt 21–22; quatro unidades finais de Mt 22 continuam candidatas pelo limite do lote |
 | Marcos | Analisado — pendência solicitada encerrada no checkpoint 036 | 17 | 11 próprios + 3 consolidados | curtos bloqueados; Mc 16.9-20 fora por decisão do usuário |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
