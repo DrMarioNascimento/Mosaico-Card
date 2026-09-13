@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-097-marcos-7-8",
+  "catalogVersion": "checkpoint-098-marcos-8-pendencias",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 304,
-    "fields": 1216,
-    "editoriallyEligibleCases": 304,
-    "playableCases": 304,
+    "cases": 308,
+    "fields": 1232,
+    "editoriallyEligibleCases": 308,
+    "playableCases": 308,
     "max12Cases": 97
   },
   "order": [
@@ -320,7 +320,11 @@
     "nt2-marcos-tradicao-corba-pais",
     "nt2-marcos-dentro-coracao-contaminacao",
     "nt2-marcos-sinal-gemido-partida",
-    "nt2-marcos-fermento-paes-cestos"
+    "nt2-marcos-fermento-paes-cestos",
+    "nt2-marcos-quatro-mil-dalmanuta",
+    "nt2-marcos-cesareia-opinioes-cristo",
+    "nt2-marcos-sofrimento-pedro-repreensao",
+    "nt2-marcos-negar-cruz-evangelho-gloria"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -209342,6 +209346,2178 @@
           {
             "book": "Marcos",
             "passage": "8.14-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-quatro-mil-dalmanuta": {
+      "id": "nt2-marcos-quatro-mil-dalmanuta",
+      "kind": "canonical-case",
+      "title": "Quatro mil alimentados e a ida a Dalmanuta",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.1-10",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Qual necessidade Jesus apresentou, quais recursos havia, qual foi o resultado e para onde ele seguiu?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "Dalmanuta distingue o encerramento documental de Marcos; necessidade, recursos e números identificam a refeição sem transferir o destino de Mateus.",
+      "editorial": {
+        "hinge": "O destino Dalmanuta é mantido como dado próprio de Marcos, sem substituí-lo pelo encerramento do relato de Mateus."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Destino após despedir a multidão",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Entrou no barco com os discípulos e foi para a região de Dalmanuta"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Foi a Magadã sem os discípulos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Seguiu a pé para Cesareia de Filipe"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Permaneceu no lugar durante mais três dias"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Entrou no barco com os discípulos e foi para a região de Dalmanuta",
+          "enderecoNAA": "Marcos 8.9-10",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.9-10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Necessidade apresentada por Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A multidão estava havia três dias sem comer e poderia desfalecer no caminho"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos estavam havia sete dias sem pão no barco"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os fariseus pediam alimento para testar Jesus"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A multidão tinha acabado de chegar e levava provisões"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A multidão estava havia três dias sem comer e poderia desfalecer no caminho",
+          "enderecoNAA": "Marcos 8.1-3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.1-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Recursos informados",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Sete pães e alguns peixinhos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cinco pães e dois peixes"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um pão e sete peixes grandes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Doze pães e nenhum peixe"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Sete pães e alguns peixinhos",
+          "enderecoNAA": "Marcos 8.5-7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.5-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resultado da refeição",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Todos comeram e se fartaram; sobraram sete cestos e havia cerca de quatro mil homens"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Sobraram doze cestos para cinco mil homens"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Sobraram sete pães para doze discípulos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ninguém se fartou e a multidão saiu com fome"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Todos comeram e se fartaram; sobraram sete cestos e havia cerca de quatro mil homens",
+          "enderecoNAA": "Marcos 8.8-9",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.8-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Outra vez se reuniu uma grande multidão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra vez se reuniu uma grande multidão."
+          },
+          {
+            "id": "P02",
+            "text": "A multidão não tinha o que comer.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão não tinha o que comer."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus disse ter compaixão daquela gente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse ter compaixão daquela gente."
+          },
+          {
+            "id": "P04",
+            "text": "Eles já estavam com Jesus havia três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles já estavam com Jesus havia três dias."
+          },
+          {
+            "id": "P05",
+            "text": "Alguns tinham vindo de longe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns tinham vindo de longe."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus mencionou o risco de desfalecerem no caminho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mencionou o risco de desfalecerem no caminho."
+          },
+          {
+            "id": "P07",
+            "text": "Os discípulos perguntaram como saciar a todos naquele lugar deserto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos perguntaram como saciar a todos naquele lugar deserto."
+          },
+          {
+            "id": "P08",
+            "text": "Havia sete pães.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Havia sete pães."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus mandou o povo assentar-se no chão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou o povo assentar-se no chão."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus deu graças, partiu os pães e os entregou aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus deu graças, partiu os pães e os entregou aos discípulos."
+          },
+          {
+            "id": "P11",
+            "text": "Também havia alguns peixinhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também havia alguns peixinhos."
+          },
+          {
+            "id": "P12",
+            "text": "A multidão comeu e se fartou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão comeu e se fartou."
+          },
+          {
+            "id": "P13",
+            "text": "Foram recolhidos sete cestos de pedaços.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foram recolhidos sete cestos de pedaços."
+          },
+          {
+            "id": "P14",
+            "text": "Havia cerca de quatro mil homens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Havia cerca de quatro mil homens."
+          },
+          {
+            "id": "P15",
+            "text": "Depois de despedir a multidão, Jesus entrou no barco com os discípulos e foi à região de Dalmanuta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.9-10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de despedir a multidão, Jesus entrou no barco com os discípulos e foi à região de Dalmanuta."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.1-10 relata a compaixão pela multidão, sete pães, alguns peixinhos, sete cestos, cerca de quatro mil homens e a viagem a Dalmanuta.",
+        "hinge": "O destino Dalmanuta é mantido como dado próprio de Marcos, sem substituí-lo pelo encerramento do relato de Mateus.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.1-10",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-cesareia-opinioes-cristo": {
+      "id": "nt2-marcos-cesareia-opinioes-cristo",
+      "kind": "canonical-case",
+      "title": "No caminho de Cesareia: opiniões e confissão",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.27-30",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.27-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ"
+        ]
+      },
+      "prompt": {
+        "question": "Aonde Jesus e os discípulos foram, que opiniões foram relatadas, o que Pedro respondeu e qual ordem receberam?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A resposta de Pedro, “o Cristo”, é o centro da conversa; caminho, opiniões e ordem final preservam a formulação breve de Marcos.",
+      "editorial": {
+        "hinge": "A pauta conserva a formulação de Marcos e não importa chaves, bem-aventurança ou outros desenvolvimentos de Mateus."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resposta de Pedro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O senhor é o Cristo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O senhor é João Batista"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O senhor é Elias"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O senhor é um dos profetas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O senhor é o Cristo",
+          "enderecoNAA": "Marcos 8.29",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino do percurso",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "As aldeias de Cesareia de Filipe"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "A região de Dalmanuta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A cidade de Jerusalém"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A terra de Genesaré"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "As aldeias de Cesareia de Filipe",
+          "enderecoNAA": "Marcos 8.27",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Opiniões relatadas sobre Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "João Batista, Elias ou um dos profetas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Herodes, Pilatos ou um escriba"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Moisés, Davi ou Salomão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um sacerdote, um fariseu ou um discípulo"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "João Batista, Elias ou um dos profetas",
+          "enderecoNAA": "Marcos 8.27-28",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.27-28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ordem dada aos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que não falassem a ninguém a respeito dele"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que anunciassem imediatamente nas aldeias"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que voltassem sozinhos para Dalmanuta"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que perguntassem aos fariseus por um sinal"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que não falassem a ninguém a respeito dele",
+          "enderecoNAA": "Marcos 8.30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus partiu com os discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus partiu com os discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "O destino eram as aldeias de Cesareia de Filipe.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O destino eram as aldeias de Cesareia de Filipe."
+          },
+          {
+            "id": "P03",
+            "text": "A conversa ocorreu no caminho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conversa ocorreu no caminho."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus perguntou quem o povo dizia que ele era.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou quem o povo dizia que ele era."
+          },
+          {
+            "id": "P05",
+            "text": "João Batista foi uma das respostas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João Batista foi uma das respostas."
+          },
+          {
+            "id": "P06",
+            "text": "Elias foi outra resposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elias foi outra resposta."
+          },
+          {
+            "id": "P07",
+            "text": "Outros diziam que era um dos profetas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outros diziam que era um dos profetas."
+          },
+          {
+            "id": "P08",
+            "text": "Pedro respondeu que Jesus era o Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro respondeu que Jesus era o Cristo."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus advertiu os discípulos a não falarem a ninguém a respeito dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus advertiu os discípulos a não falarem a ninguém a respeito dele."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.27-30 situa a pergunta no caminho para as aldeias de Cesareia de Filipe, registra três opiniões, a resposta de Pedro e a ordem de silêncio.",
+        "hinge": "A pauta conserva a formulação de Marcos e não importa chaves, bem-aventurança ou outros desenvolvimentos de Mateus.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.27-30",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-sofrimento-pedro-repreensao": {
+      "id": "nt2-marcos-sofrimento-pedro-repreensao",
+      "kind": "canonical-case",
+      "title": "O anúncio claro e as duas repreensões",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.31-33",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.31-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus começou a ensinar, de que modo falou, o que Pedro fez e como Jesus respondeu?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O modo claro do anúncio delimita a passagem; conteúdo, iniciativa de Pedro e resposta de Jesus distinguem os dois atos de repreender.",
+      "editorial": {
+        "hinge": "Os dois atos de repreender ficam atribuídos a sujeitos distintos, e nenhum qualificativo exclusivo do paralelo de Mateus é transferido."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Modo como Jesus apresentou a palavra",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Falava claramente"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Ensinava apenas por parábolas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Falava em segredo sem os discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Escrevia sinais no chão"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Falava claramente",
+          "enderecoNAA": "Marcos 8.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Conteúdo do ensino",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O Filho do Homem sofreria, seria rejeitado e morto, e depois de três dias ressuscitaria"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O Filho do Homem receberia um sinal e iria a Dalmanuta"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Pedro sofreria, seria preso e ressuscitaria no mesmo dia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os anciãos aceitariam o Filho do Homem e o fariam rei"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O Filho do Homem sofreria, seria rejeitado e morto, e depois de três dias ressuscitaria",
+          "enderecoNAA": "Marcos 8.31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação de Pedro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Chamou Jesus à parte e começou a repreendê-lo"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Convocou a multidão e começou a ensiná-la"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Afastou-se dos discípulos e permaneceu calado"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediu a Jesus um sinal vindo do céu"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Chamou Jesus à parte e começou a repreendê-lo",
+          "enderecoNAA": "Marcos 8.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta de Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Viu os discípulos, repreendeu Pedro e contrastou as coisas de Deus com as dos homens"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Agradeceu a Pedro e ocultou o ensino dos discípulos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Mandou Pedro voltar sozinho para Cesareia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Disse que Pedro pensava somente nas coisas de Deus"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Viu os discípulos, repreendeu Pedro e contrastou as coisas de Deus com as dos homens",
+          "enderecoNAA": "Marcos 8.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus começou a ensinar sobre o Filho do Homem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus começou a ensinar sobre o Filho do Homem."
+          },
+          {
+            "id": "P02",
+            "text": "O ensino incluía muito sofrimento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ensino incluía muito sofrimento."
+          },
+          {
+            "id": "P03",
+            "text": "O Filho do Homem seria rejeitado pelos anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem seria rejeitado pelos anciãos."
+          },
+          {
+            "id": "P04",
+            "text": "Também seria rejeitado pelos principais sacerdotes e escribas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também seria rejeitado pelos principais sacerdotes e escribas."
+          },
+          {
+            "id": "P05",
+            "text": "O anúncio incluía sua morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio incluía sua morte."
+          },
+          {
+            "id": "P06",
+            "text": "A ressurreição seria depois de três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ressurreição seria depois de três dias."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus expunha essa palavra claramente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus expunha essa palavra claramente."
+          },
+          {
+            "id": "P08",
+            "text": "Pedro chamou Jesus à parte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro chamou Jesus à parte."
+          },
+          {
+            "id": "P09",
+            "text": "Pedro começou a repreendê-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro começou a repreendê-lo."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus voltou-se e viu os discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus voltou-se e viu os discípulos."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus repreendeu Pedro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus repreendeu Pedro."
+          },
+          {
+            "id": "P12",
+            "text": "A resposta contrastou as coisas de Deus com as dos homens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A resposta contrastou as coisas de Deus com as dos homens."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus mandou Pedro colocar-se para trás dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus mandou Pedro colocar-se para trás dele."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.31-33 registra o anúncio claro de sofrimento, rejeição, morte e ressurreição, seguido pela repreensão de Pedro e pela resposta de Jesus.",
+        "hinge": "Os dois atos de repreender ficam atribuídos a sujeitos distintos, e nenhum qualificativo exclusivo do paralelo de Mateus é transferido.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.31-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-negar-cruz-evangelho-gloria": {
+      "id": "nt2-marcos-negar-cruz-evangelho-gloria",
+      "kind": "canonical-case",
+      "title": "Negar-se, tomar a cruz e seguir",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 8.34-38",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.34-38",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem Jesus chamou, que exigências apresentou, quais contrastes fez sobre a vida e o que disse sobre ter vergonha?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A audiência conjunta e as três exigências abrem o ensino próprio de Marcos; os contrastes e o acréscimo sobre o evangelho conduzem à conclusão.",
+      "editorial": {
+        "hinge": "“Por causa do evangelho”, a audiência e a conclusão permanecem próprias da formulação de Marcos, sem fusão automática com Mateus."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Audiência e exigências para seguir",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "A multidão e os discípulos; negar-se, tomar a cruz e seguir Jesus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente Pedro; guardar silêncio e voltar para casa"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Apenas os Doze; levar pão e atravessar o mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os fariseus; pedir um sinal e deixar a região"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "A multidão e os discípulos; negar-se, tomar a cruz e seguir Jesus",
+          "enderecoNAA": "Marcos 8.34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Contraste sobre salvar e perder a vida",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Quem quiser salvá-la a perderá; quem a perder por Jesus e pelo evangelho a salvará"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Quem salvar a vida ganhará também o mundo inteiro"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Quem perder a vida não poderá voltar a seguir Jesus"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Somente quem perder bens poderá salvar a vida"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Quem quiser salvá-la a perderá; quem a perder por Jesus e pelo evangelho a salvará",
+          "enderecoNAA": "Marcos 8.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Perguntas sobre mundo e alma",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Que proveito há em ganhar o mundo e perder a alma, e o que se daria em troca dela"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Quantos pães comprariam o mundo e alimentariam a alma"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Que sinal do céu provaria o valor do mundo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Qual profeta poderia trocar o mundo por sete cestos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Que proveito há em ganhar o mundo e perder a alma, e o que se daria em troca dela",
+          "enderecoNAA": "Marcos 8.36-37",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.36-37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Conclusão sobre vergonha",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Filho do Homem também se envergonhará dessa pessoa quando vier na glória do Pai com os santos anjos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os discípulos se envergonharão quando voltarem a Dalmanuta"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O Filho do Homem ocultará para sempre suas palavras"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os anjos trocarão a alma de quem ganhar o mundo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Filho do Homem também se envergonhará dessa pessoa quando vier na glória do Pai com os santos anjos",
+          "enderecoNAA": "Marcos 8.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "8.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus chamou a multidão juntamente com os discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou a multidão juntamente com os discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "O convite foi dirigido a quem quisesse segui-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O convite foi dirigido a quem quisesse segui-lo."
+          },
+          {
+            "id": "P03",
+            "text": "A pessoa deveria negar a si mesma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pessoa deveria negar a si mesma."
+          },
+          {
+            "id": "P04",
+            "text": "Também deveria tomar a sua cruz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deveria tomar a sua cruz."
+          },
+          {
+            "id": "P05",
+            "text": "A terceira exigência era seguir Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A terceira exigência era seguir Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Quem quiser salvar a vida a perderá.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem quiser salvar a vida a perderá."
+          },
+          {
+            "id": "P07",
+            "text": "Perder a vida por causa de Jesus aparece no contraste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Perder a vida por causa de Jesus aparece no contraste."
+          },
+          {
+            "id": "P08",
+            "text": "Marcos acrescenta “por causa do evangelho”.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Marcos acrescenta “por causa do evangelho”."
+          },
+          {
+            "id": "P09",
+            "text": "Essa perda é contrastada com salvar a vida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essa perda é contrastada com salvar a vida."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus perguntou pelo proveito de ganhar o mundo inteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou pelo proveito de ganhar o mundo inteiro."
+          },
+          {
+            "id": "P11",
+            "text": "A pergunta contrapõe esse ganho à perda da alma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A pergunta contrapõe esse ganho à perda da alma."
+          },
+          {
+            "id": "P12",
+            "text": "Outra pergunta trata do que alguém daria em troca da alma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Outra pergunta trata do que alguém daria em troca da alma."
+          },
+          {
+            "id": "P13",
+            "text": "A conclusão menciona vergonha de Jesus e de suas palavras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A conclusão menciona vergonha de Jesus e de suas palavras."
+          },
+          {
+            "id": "P14",
+            "text": "A geração é chamada adúltera e pecadora na fala.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A geração é chamada adúltera e pecadora na fala."
+          },
+          {
+            "id": "P15",
+            "text": "O Filho do Homem virá na glória de seu Pai.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem virá na glória de seu Pai."
+          },
+          {
+            "id": "P16",
+            "text": "A vinda é mencionada com os santos anjos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um dado específico do recorte sem antecipar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "8.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A vinda é mencionada com os santos anjos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 8.34-38 reúne multidão e discípulos, apresenta negar-se, tomar a cruz e seguir, contrasta salvar e perder a vida e conclui com glória e santos anjos.",
+        "hinge": "“Por causa do evangelho”, a audiência e a conclusão permanecem próprias da formulação de Marcos, sem fusão automática com Mateus.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "8.34-38",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
             "checkedAt": "2026-09-13"

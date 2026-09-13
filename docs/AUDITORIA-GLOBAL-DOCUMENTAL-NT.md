@@ -131,3 +131,7 @@ Quatro pautas próprias de Marcos foram anexadas: recepção em sua terra (14 pi
 As páginas NAA Bible.com 1840 de Mc 7 e 8 retornaram HTTP 200 (95.783 e 96.398 bytes) e foram efetivamente lidas verso a verso em 13/09/2026. A ficha de Marcos registra matriz concreta e decisão para onze unidades. Quatro pautas foram anexadas: tradição/Corbã (19 pistas), interior/coração (18), pedido de sinal (8) e fermento/pães/cestos (17). Mc 7.24-30, 7.31-37 e 8.22-26 permaneceram cobertos sem duplicação.
 
 O catálogo passa de **300 pautas/5.754 pistas para 304/5.816**, preservando serializadamente os 300 objetos anteriores; capacidades novas: 9, 8, 3 e 8. Restam precisamente por limite Mc 8.1-10, 8.27-30, 8.31-33 e 8.34-38, todos sustentados. Mc 7.16 foi isolado separadamente por estar entre colchetes com nota textual na NAA e não foi usado nem decidido. Depois dos adiados, o próximo lote é Mc 9–10. Marcos e o banco permanecem incompletos; decisões anteriores permanecem intactas.
+
+## Checkpoint 098 — fechamento incremental dos adiados de Marcos 8
+
+A reconsulta e leitura efetiva NAA 1840 de Mc 8 limitou-se aos quatro recortes sustentados do checkpoint 097. Mc 8.1-10, 8.27-30, 8.31-33 e 8.34-38 originaram quatro pautas e 53 pistas; a comparação com os objetos de Mateus preservou documentos e detalhes próprios, sem identidade baseada apenas em semelhança. Os 304 objetos anteriores permaneceram serializadamente idênticos, resultando em **308 pautas/5.869 pistas**. Mc 7.16 segue pendência textual isolada; Mc 9–10 é o próximo lote e o banco permanece incompleto.

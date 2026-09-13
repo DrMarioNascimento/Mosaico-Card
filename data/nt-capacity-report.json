@@ -4,15 +4,15 @@
   "status": "partial",
   "source": {
     "file": "data/nt-bank.json",
-    "catalogVersion": "checkpoint-097-marcos-7-8",
-    "sha256": "b613029131d11f93ab3aa5aef9415e31f84bfa7a8c49cba0bb76948788cb715d",
-    "baseCommit": "c6dfd49420f38a52d1592fcea7effacb5d35188f"
+    "catalogVersion": "checkpoint-098-marcos-8-pendencias",
+    "sha256": "5e299a027b16328078a18c68233f01e7101cf038cc96647ba38dfcd162661322",
+    "baseCommit": "1376a5521ffdebddf43731933877c5833a1b0d3e"
   },
   "units": {
-    "cases": 304,
-    "playableCaseIds": 304,
-    "clueCards": 5816,
-    "uniqueClueStringsExact": 5803,
+    "cases": 308,
+    "playableCaseIds": 308,
+    "clueCards": 5869,
+    "uniqueClueStringsExact": 5853,
     "semanticallyUniqueFacts": null,
     "storyOrEpisodeGroups": null,
     "functionalVariants": 0
@@ -36,33 +36,33 @@
   "capacity": [
     {
       "players": 2,
-      "eligibleCases": 304,
-      "drawsWithoutReplacementPerBagCycle": 304
+      "eligibleCases": 308,
+      "drawsWithoutReplacementPerBagCycle": 308
     },
     {
       "players": 3,
-      "eligibleCases": 303,
-      "drawsWithoutReplacementPerBagCycle": 303
+      "eligibleCases": 307,
+      "drawsWithoutReplacementPerBagCycle": 307
     },
     {
       "players": 4,
-      "eligibleCases": 286,
-      "drawsWithoutReplacementPerBagCycle": 286
+      "eligibleCases": 290,
+      "drawsWithoutReplacementPerBagCycle": 290
     },
     {
       "players": 5,
-      "eligibleCases": 267,
-      "drawsWithoutReplacementPerBagCycle": 267
+      "eligibleCases": 270,
+      "drawsWithoutReplacementPerBagCycle": 270
     },
     {
       "players": 6,
-      "eligibleCases": 259,
-      "drawsWithoutReplacementPerBagCycle": 259
+      "eligibleCases": 262,
+      "drawsWithoutReplacementPerBagCycle": 262
     },
     {
       "players": 7,
-      "eligibleCases": 217,
-      "drawsWithoutReplacementPerBagCycle": 217
+      "eligibleCases": 219,
+      "drawsWithoutReplacementPerBagCycle": 219
     },
     {
       "players": 8,

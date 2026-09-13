@@ -5,7 +5,7 @@
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
 | Mateus | Mt 1–4 reavaliado — checkpoint 080 | Pendência textual Mt 23.14; lacunas posteriores Mt 8–9, 14–17 e 26–28 | 71 pautas citam o livro / 1.390 pistas | Os quatro recortes lacunares de Mt 1–4 receberam matriz e decisão; outras faixas antigas continuam posteriores |
-| Marcos | Em reauditoria individual — Mc 7–8 inventariado no checkpoint 097 | 39 | 27 próprios + 3 consolidados | quatro recortes de Mc 8 adiados; Mc 7.16 isolado; depois Mc 9–10; Mc 16.9-20 fora |
+| Marcos | Em reauditoria individual — adiados de Mc 8 concluídos no checkpoint 098 | 43 | 31 próprios + 3 consolidados | Mc 7.16 isolado; próximo lote Mc 9–10; Mc 16.9-20 fora |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
@@ -331,3 +331,9 @@ Quatro pautas próprias de Marcos foram anexadas: recepção em sua terra (14 pi
 As páginas NAA Bible.com 1840 de Mc 7 e 8 retornaram HTTP 200 (95.783 e 96.398 bytes) e foram efetivamente lidas verso a verso em 13/09/2026. A ficha de Marcos registra matriz concreta e decisão para onze unidades. Quatro pautas foram anexadas: tradição/Corbã (19 pistas), interior/coração (18), pedido de sinal (8) e fermento/pães/cestos (17). Mc 7.24-30, 7.31-37 e 8.22-26 permaneceram cobertos sem duplicação.
 
 O catálogo passa de **300 pautas/5.754 pistas para 304/5.816**, preservando serializadamente os 300 objetos anteriores; capacidades novas: 9, 8, 3 e 8. Restam precisamente por limite Mc 8.1-10, 8.27-30, 8.31-33 e 8.34-38, todos sustentados. Mc 7.16 foi isolado separadamente por estar entre colchetes com nota textual na NAA e não foi usado nem decidido. Depois dos adiados, o próximo lote é Mc 9–10. Marcos e o banco permanecem incompletos; decisões anteriores permanecem intactas.
+
+## Checkpoint 098 — quatro recortes adiados de Marcos 8
+
+A página NAA Bible.com 1840 de Mc 8 foi reconsultada (HTTP 200; 349.519 bytes), com leitura efetiva limitada a 8.1-10, 8.27-30, 8.31-33 e 8.34-38 e comparação contra os 304 objetos/5.816 pistas. Quatro pautas documentais próprias acrescentaram 53 pistas, com capacidades 7, 4, 6 e 7: quatro mil/Dalmanuta, confissão no caminho, anúncio com duas repreensões e ensino sobre seguir/vida/vergonha. Paralelos de Mateus foram confrontados, mas não provaram identidade por semelhança nem forneceram detalhes a Marcos.
+
+Os 304 objetos anteriores permaneceram serializadamente idênticos e na mesma ordem; somente os quatro novos foram anexados. Resultado: **308 pautas/1.232 campos/5.869 pistas**, todas elegíveis. Mc 7.16 continua pendência textual isolada, sem decisão ou conteúdo novo; o próximo lote ordinário é Mc 9–10. O banco permanece incompleto, e decisões anteriores, inclusive Mc 16.9-20 e 1Co 11/14, continuam intactas. Não houve merge, deploy nem publicação.
