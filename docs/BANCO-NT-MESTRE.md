@@ -716,3 +716,11 @@ Mt 12.9-14 foi consolidado em `nt2-marcos-mao-ressequida` porque seus três fato
 - **Antes/depois:** 220 pautas/4.308 pistas → 222/4.347; 219 objetos anteriores ficaram serializadamente idênticos, um recebeu a consolidação documental descrita acima e dois foram anexados na cauda.
 - **Contrato:** quatro campos e quatro alternativas, gabaritos e proveniência NAA, focal explícito com ordem 8/5/3/2, importância distinta de risco de revelação e capacidade `min(12, floor((cartas-1)/2))`; não houve piso de 25 nem quantidade forçada.
 - **Limite:** as três pendências específicas ficam resolvidas; Mt 18–20 e todos os demais recortes permanecem posteriores. Dúvidas de 1Co e exclusões definitivas foram preservadas; não houve merge, deploy, publicação, Firebase ou credenciais, e testes não são prova de banco completo.
+
+## Checkpoint 072 — Mateus 18
+
+Somente a página NAA Bible.com 1840 de Mateus 18 foi consultada, com HTTP 200 e leitura verso a verso. A comparação prévia contra 222 objetos/4.347 pistas incluiu campos, perguntas, pistas, referências, o paralelo de Lucas 15 e a repetição interna de Mt 5.29-30. Foram anexadas quatro pautas sustentadas, sem quantidade-meta: Mt 18.1-7 (12 pistas; capacidade 5), 18.10-14 (10; capacidade 4), 18.15-20 (13; capacidade 6) e 18.21-35 (22; capacidade 10). Mt 18.8-9 foi documentado como já coberto pela pauta anterior e não foi repetido.
+
+- **Antes/depois:** 222 pautas/4.347 pistas → 226/4.404; a recontagem por referência corrige o subtotal histórico de Mateus do checkpoint 071 de 750 para 749 pistas (P03 da mão ressequida é exclusivamente de Marcos), chegando agora a 806; os 222 objetos anteriores permaneceram na mesma ordem e serializaram identicamente, sem consolidação ou correção interna.
+- **Contrato:** quatro campos e quatro alternativas, gabaritos NAA, focal e ordem 8/5/3/2, proveniência, importância separada do risco de revelação, metadados e capacidade variável foram preservados. Parábolas e ensinos são atributivos, sem interpretação externa ou harmonização.
+- **Limite:** todas as unidades de Mt 18 receberam decisão neste inventário; Mt 19–20 e demais recortes ficam posteriores. Dúvidas e exclusões definitivas permanecem intactas; não houve merge, deploy, publicação, Firebase ou credenciais, e testes não declaram o banco completo.

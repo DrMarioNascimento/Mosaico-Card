@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-071-mateus-pendencias-10-13",
+  "catalogVersion": "checkpoint-072-mateus-18",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 222,
-    "fields": 888,
-    "editoriallyEligibleCases": 222,
-    "playableCases": 222,
+    "cases": 226,
+    "fields": 904,
+    "editoriallyEligibleCases": 226,
+    "playableCases": 226,
     "max12Cases": 86
   },
   "order": [
@@ -238,7 +238,11 @@
     "nt2-mateus-semeador-explicacao",
     "nt2-mateus-joio-comparacoes-rede",
     "nt2-mateus-doze-destino-anuncio-acolhida",
-    "nt2-mateus-escriba-rejeicao-nazare"
+    "nt2-mateus-escriba-rejeicao-nazare",
+    "nt2-mateus-crianca-maior-tropecos",
+    "nt2-mateus-pequeninos-ovelha-desgarrada",
+    "nt2-mateus-irmao-testemunhas-igreja-acordo",
+    "nt2-mateus-servo-divida-perdao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -155522,6 +155526,2277 @@
             "passage": "13.51-58",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MAT.13.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-crianca-maior-tropecos": {
+      "id": "nt2-mateus-crianca-maior-tropecos",
+      "kind": "canonical-case",
+      "title": "A criança, o maior e os tropeços",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 18.1-7",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Mateus, quais pergunta, ação, condição e advertência abrem o ensino sobre o maior?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A criança colocada no meio torna concreta a resposta de Jesus e conecta os campos do recorte.",
+      "editorial": {
+        "hinge": "As condições e imagens permanecem falas do recorte; a pauta não define externamente criança, pequenino ou pedra de tropeço."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem Jesus colocou no meio deles",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma criança"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um servo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um pastor"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma criança",
+          "enderecoNAA": "Mateus 18.2",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que os discípulos perguntaram",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Quem é o maior no Reino dos Céus"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Quem encontrou a ovelha"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Quantas vezes deveriam perdoar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Quem pecou contra o irmão"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Quem é o maior no Reino dos Céus",
+          "enderecoNAA": "Mateus 18.1",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Condição apresentada para entrar no Reino",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Converter-se e tornar-se como criança"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Receber cem ovelhas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Perdoar somente sete vezes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Reunir duas testemunhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Converter-se e tornar-se como criança",
+          "enderecoNAA": "Mateus 18.3",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que seria melhor para quem faz um pequenino tropeçar",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Ser lançado no mar com grande pedra de moinho"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ser vendido com todos os bens"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Permanecer sozinho nos montes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Ser tratado como publicano"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Ser lançado no mar com grande pedra de moinho",
+          "enderecoNAA": "Mateus 18.6",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os discípulos se aproximaram de Jesus naquela hora.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se aproximaram de Jesus naquela hora."
+          },
+          {
+            "id": "P02",
+            "text": "Eles perguntaram quem era o maior no Reino dos Céus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles perguntaram quem era o maior no Reino dos Céus."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus chamou uma criança.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou uma criança."
+          },
+          {
+            "id": "P04",
+            "text": "A criança foi colocada no meio dos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A criança foi colocada no meio dos discípulos."
+          },
+          {
+            "id": "P05",
+            "text": "A entrada no Reino foi condicionada a converter-se e tornar-se como criança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A entrada no Reino foi condicionada a converter-se e tornar-se como criança."
+          },
+          {
+            "id": "P06",
+            "text": "Quem se humilha como aquela criança é apresentado como o maior no Reino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem se humilha como aquela criança é apresentado como o maior no Reino."
+          },
+          {
+            "id": "P07",
+            "text": "Receber uma criança em nome de Jesus é descrito como receber o próprio Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Receber uma criança em nome de Jesus é descrito como receber o próprio Jesus."
+          },
+          {
+            "id": "P08",
+            "text": "A advertência trata de fazer tropeçar um pequenino que crê em Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A advertência trata de fazer tropeçar um pequenino que crê em Jesus."
+          },
+          {
+            "id": "P09",
+            "text": "Para o responsável, a grande pedra de moinho seria pendurada ao pescoço.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Para o responsável, a grande pedra de moinho seria pendurada ao pescoço."
+          },
+          {
+            "id": "P10",
+            "text": "A comparação termina com essa pessoa afogada na profundeza do mar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação termina com essa pessoa afogada na profundeza do mar."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus declarou inevitável a existência de pedras de tropeço.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus declarou inevitável a existência de pedras de tropeço."
+          },
+          {
+            "id": "P12",
+            "text": "Um ai é dirigido a quem se torna responsável por elas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um ai é dirigido a quem se torna responsável por elas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 18.1-7 registra a pergunta sobre o maior, a criança colocada no meio e advertências atribuídas a Jesus.",
+        "hinge": "As condições e imagens permanecem falas do recorte; a pauta não define externamente criança, pequenino ou pedra de tropeço.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.1-7",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-pequeninos-ovelha-desgarrada": {
+      "id": "nt2-mateus-pequeninos-ovelha-desgarrada",
+      "kind": "canonical-case",
+      "title": "Os pequeninos e a ovelha desgarrada",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 18.10-14",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.10-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais cuidado, números, busca e alegria Jesus atribui ao exemplo da ovelha desgarrada?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A vontade declarada do Pai dá o ponto focal ao cuidado com os pequeninos e à comparação da ovelha.",
+      "editorial": {
+        "hinge": "A pauta conserva a forma de Mateus e não transfere festa, personagens ou explicações do paralelo de Lucas."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que não é vontade do Pai celeste",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Que se perca um só destes pequeninos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Que o pastor procure a desgarrada"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Que os anjos vejam sua face"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Que as ovelhas permaneçam nos montes"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Que se perca um só destes pequeninos",
+          "enderecoNAA": "Mateus 18.14",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quantas ovelhas o homem tinha",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Cem"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Noventa e nove"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Doze"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Setenta"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Cem",
+          "enderecoNAA": "Mateus 18.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quantas se desgarraram",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Duas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sete"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Noventa e nove"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma",
+          "enderecoNAA": "Mateus 18.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Onde as noventa e nove seriam deixadas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Nos montes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "No curral"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "À beira-mar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Na sinagoga"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Nos montes",
+          "enderecoNAA": "Mateus 18.12",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus advertiu contra desprezar qualquer daqueles pequeninos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus advertiu contra desprezar qualquer daqueles pequeninos."
+          },
+          {
+            "id": "P02",
+            "text": "Os anjos deles nos céus veem continuamente a face do Pai celeste.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os anjos deles nos céus veem continuamente a face do Pai celeste."
+          },
+          {
+            "id": "P03",
+            "text": "O Filho do Homem é apresentado como vindo salvar o que estava perdido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem é apresentado como vindo salvar o que estava perdido."
+          },
+          {
+            "id": "P04",
+            "text": "O exemplo começa com um homem que possui cem ovelhas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O exemplo começa com um homem que possui cem ovelhas."
+          },
+          {
+            "id": "P05",
+            "text": "Uma das cem se desgarra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma das cem se desgarra."
+          },
+          {
+            "id": "P06",
+            "text": "As noventa e nove são deixadas nos montes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As noventa e nove são deixadas nos montes."
+          },
+          {
+            "id": "P07",
+            "text": "O homem parte em busca da ovelha desgarrada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem parte em busca da ovelha desgarrada."
+          },
+          {
+            "id": "P08",
+            "text": "A alegria depende de ele conseguir encontrá-la.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A alegria depende de ele conseguir encontrá-la."
+          },
+          {
+            "id": "P09",
+            "text": "A ovelha encontrada produz mais alegria do que as noventa e nove que não se desviaram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A ovelha encontrada produz mais alegria do que as noventa e nove que não se desviaram."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus conclui que o Pai celeste não quer a perda de nenhum desses pequeninos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus conclui que o Pai celeste não quer a perda de nenhum desses pequeninos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 18.10-14 reúne o cuidado com os pequeninos e o exemplo numérico da ovelha que se desgarra.",
+        "hinge": "A pauta conserva a forma de Mateus e não transfere festa, personagens ou explicações do paralelo de Lucas.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.10-14",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-irmao-testemunhas-igreja-acordo": {
+      "id": "nt2-mateus-irmao-testemunhas-igreja-acordo",
+      "kind": "canonical-case",
+      "title": "O irmão, as testemunhas, a igreja e o acordo",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 18.15-20",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.15-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais etapas e resultados Jesus apresenta para tratar o pecado do irmão e o acordo dos reunidos?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A primeira conversa em particular inicia a sequência progressiva e sustenta a leitura das etapas seguintes.",
+      "editorial": {
+        "hinge": "A pauta pergunta o que Jesus disse no texto e não acrescenta procedimento institucional, condição ou interpretação externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como deve começar a repreensão ao irmão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Em particular"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Diante de toda a igreja"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Com duas ou três testemunhas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Tratando-o como gentio"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Em particular",
+          "enderecoNAA": "Mateus 18.15",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quantas pessoas podem ser levadas se ele não ouvir",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma ou duas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Três ou quatro"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Sete"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Doze"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma ou duas",
+          "enderecoNAA": "Mateus 18.16",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "A quem expor o assunto após nova recusa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "À igreja"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ao governador"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Aos fariseus"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "À multidão"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "À igreja",
+          "enderecoNAA": "Mateus 18.17",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem concede o pedido feito em acordo",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Pai que está nos céus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "As testemunhas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A igreja reunida"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O irmão repreendido"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Pai que está nos céus",
+          "enderecoNAA": "Mateus 18.19",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A situação proposta começa com um irmão que peca contra outro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A situação proposta começa com um irmão que peca contra outro."
+          },
+          {
+            "id": "P02",
+            "text": "A primeira orientação é ir repreendê-lo em particular.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A primeira orientação é ir repreendê-lo em particular."
+          },
+          {
+            "id": "P03",
+            "text": "Se o irmão ouvir, ele é descrito como ganho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Se o irmão ouvir, ele é descrito como ganho."
+          },
+          {
+            "id": "P04",
+            "text": "Se não ouvir, devem acompanhar uma ou duas pessoas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Se não ouvir, devem acompanhar uma ou duas pessoas."
+          },
+          {
+            "id": "P05",
+            "text": "Duas ou três testemunhas servem para decidir a questão por seus depoimentos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Duas ou três testemunhas servem para decidir a questão por seus depoimentos."
+          },
+          {
+            "id": "P06",
+            "text": "A recusa em ouvi-las leva a expor o assunto à igreja.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A recusa em ouvi-las leva a expor o assunto à igreja."
+          },
+          {
+            "id": "P07",
+            "text": "Quem também recusa ouvir a igreja deve ser considerado gentio e publicano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem também recusa ouvir a igreja deve ser considerado gentio e publicano."
+          },
+          {
+            "id": "P08",
+            "text": "O que for ligado na terra terá sido ligado nos céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que for ligado na terra terá sido ligado nos céus."
+          },
+          {
+            "id": "P09",
+            "text": "O que for desligado na terra terá sido desligado nos céus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O que for desligado na terra terá sido desligado nos céus."
+          },
+          {
+            "id": "P10",
+            "text": "A promessa seguinte envolve dois que concordem na terra sobre o que pedirem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa seguinte envolve dois que concordem na terra sobre o que pedirem."
+          },
+          {
+            "id": "P11",
+            "text": "O Pai celeste é apresentado como aquele que lhes concederá o pedido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Pai celeste é apresentado como aquele que lhes concederá o pedido."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus menciona dois ou três reunidos em seu nome.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus menciona dois ou três reunidos em seu nome."
+          },
+          {
+            "id": "P13",
+            "text": "Ele declara estar no meio desses reunidos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declara estar no meio desses reunidos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 18.15-20 apresenta uma sequência de escuta e recusa, seguida por declarações sobre acordo e reunião.",
+        "hinge": "A pauta pergunta o que Jesus disse no texto e não acrescenta procedimento institucional, condição ou interpretação externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.15-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-mateus-servo-divida-perdao": {
+      "id": "nt2-mateus-servo-divida-perdao",
+      "kind": "canonical-case",
+      "title": "O servo, as dívidas e o perdão recusado",
+      "canon": {
+        "book": "Mateus",
+        "referenceNAA": "Mateus 18.21-35",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.21-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quais números, decisões, pedidos e consequências estruturam a parábola contada após a pergunta de Pedro?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O perdão da dívida pelo senhor é o giro central que contrasta com a conduta posterior do servo.",
+      "editorial": {
+        "hinge": "Valores, falas e aplicação são mantidos como elementos da parábola e do ensino de Jesus, sem conversão monetária nem regra externa."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que o senhor fez com a dívida do servo",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Perdoou-a e mandou o servo embora"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Dividiu-a entre os conservos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Reduziu-a a cem denários"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Entregou-a às testemunhas"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Perdoou-a e mandou o servo embora",
+          "enderecoNAA": "Mateus 18.27",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Qual limite Pedro sugeriu para perdoar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Até sete vezes"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Até setenta vezes sete"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Até duas vezes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Até doze vezes"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Até sete vezes",
+          "enderecoNAA": "Mateus 18.21",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quanto o conservo devia ao servo",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Cem denários"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Dez mil talentos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Setenta moedas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Uma moeda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Cem denários",
+          "enderecoNAA": "Mateus 18.28",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "A quem o senhor entregou o servo indignado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Aos carrascos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "À igreja"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A duas testemunhas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Aos cobradores do templo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Aos carrascos",
+          "enderecoNAA": "Mateus 18.34",
+          "answerReferences": [
+            {
+              "book": "Mateus",
+              "passage": "18.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Pedro perguntou quantas vezes deveria perdoar o irmão que pecasse contra ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro perguntou quantas vezes deveria perdoar o irmão que pecasse contra ele."
+          },
+          {
+            "id": "P02",
+            "text": "A sugestão de Pedro foi perdoar até sete vezes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A sugestão de Pedro foi perdoar até sete vezes."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus respondeu com setenta vezes sete.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu com setenta vezes sete."
+          },
+          {
+            "id": "P04",
+            "text": "O Reino dos Céus foi comparado a um rei que decidiu ajustar contas com seus servos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Reino dos Céus foi comparado a um rei que decidiu ajustar contas com seus servos."
+          },
+          {
+            "id": "P05",
+            "text": "Foi trazido um servo que devia dez mil talentos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Foi trazido um servo que devia dez mil talentos."
+          },
+          {
+            "id": "P06",
+            "text": "O devedor não possuía meios para pagar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O devedor não possuía meios para pagar."
+          },
+          {
+            "id": "P07",
+            "text": "Seu senhor ordenou a venda dele, de sua família e de seus bens para pagar a dívida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu senhor ordenou a venda dele, de sua família e de seus bens para pagar a dívida."
+          },
+          {
+            "id": "P08",
+            "text": "Caído aos pés do senhor, o servo pediu paciência e prometeu pagar tudo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Caído aos pés do senhor, o servo pediu paciência e prometeu pagar tudo."
+          },
+          {
+            "id": "P09",
+            "text": "Movido por compaixão, o senhor o liberou e cancelou a dívida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Movido por compaixão, o senhor o liberou e cancelou a dívida."
+          },
+          {
+            "id": "P10",
+            "text": "Depois de sair, o servo encontrou um conservo que lhe devia cem denários.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois de sair, o servo encontrou um conservo que lhe devia cem denários."
+          },
+          {
+            "id": "P11",
+            "text": "Ele agarrou e sufocou o conservo, exigindo o pagamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele agarrou e sufocou o conservo, exigindo o pagamento."
+          },
+          {
+            "id": "P12",
+            "text": "O conservo também caiu a seus pés, pediu paciência e prometeu pagar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O conservo também caiu a seus pés, pediu paciência e prometeu pagar."
+          },
+          {
+            "id": "P13",
+            "text": "O servo recusou o pedido e colocou o conservo na prisão até o pagamento.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O servo recusou o pedido e colocou o conservo na prisão até o pagamento."
+          },
+          {
+            "id": "P14",
+            "text": "Os companheiros ficaram muito tristes com o ocorrido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os companheiros ficaram muito tristes com o ocorrido."
+          },
+          {
+            "id": "P15",
+            "text": "Eles relataram ao senhor tudo o que havia acontecido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles relataram ao senhor tudo o que havia acontecido."
+          },
+          {
+            "id": "P16",
+            "text": "O senhor chamou o primeiro de servo malvado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor chamou o primeiro de servo malvado."
+          },
+          {
+            "id": "P17",
+            "text": "Ele lembrou que havia perdoado toda a dívida porque o servo implorou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele lembrou que havia perdoado toda a dívida porque o servo implorou."
+          },
+          {
+            "id": "P18",
+            "text": "O senhor perguntou se o servo não deveria ter tratado o conservo com a mesma compaixão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O senhor perguntou se o servo não deveria ter tratado o conservo com a mesma compaixão."
+          },
+          {
+            "id": "P19",
+            "text": "Indignado, entregou o servo aos carrascos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Indignado, entregou o servo aos carrascos."
+          },
+          {
+            "id": "P20",
+            "text": "A entrega duraria até que toda a dívida fosse paga.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A entrega duraria até que toda a dívida fosse paga."
+          },
+          {
+            "id": "P21",
+            "text": "A aplicação final exige que cada um perdoe o irmão de modo íntimo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aplicação final exige que cada um perdoe o irmão de modo íntimo."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus atribui ao Pai celeste a consequência apresentada na aplicação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar os campos com afirmação explicitamente atribuída a Mateus",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Mateus",
+                "passage": "18.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus atribui ao Pai celeste a consequência apresentada na aplicação."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Mateus 18.21-35 registra a pergunta de Pedro, a resposta numérica e a parábola das duas dívidas.",
+        "hinge": "Valores, falas e aplicação são mantidos como elementos da parábola e do ensino de Jesus, sem conversão monetária nem regra externa.",
+        "references": [
+          {
+            "book": "Mateus",
+            "passage": "18.21-35",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MAT.18.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

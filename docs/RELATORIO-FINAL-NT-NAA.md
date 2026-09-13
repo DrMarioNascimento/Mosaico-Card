@@ -248,3 +248,7 @@ Uma pauta de 32 pistas para Ap 22.6-21 leva o inventário a **205 pautas, 820 ca
 ## Incremento do checkpoint 071 — pendências específicas de Mateus 10–13
 
 Somente Mt 10.1-15, Mt 12.9-14 e Mt 13.51-58 foram reconsultados na NAA Bible.com 1840. Duas pautas novas, com 22 e 14 pistas, e três pistas exclusivas consolidadas na pauta paralela da mão ressequida levam o catálogo de **220 pautas/4.308 pistas para 222/4.347**. A consolidação preserva todos os campos e as nove pistas anteriores, atribui fatos comuns às duas fontes e mantém diferenças documentais separadas. Os outros 219 objetos anteriores ficaram idênticos; Mt 18–20 e os demais recortes continuam posteriores. Não houve harmonização, meta numérica nem declaração de banco completo.
+
+## Incremento do checkpoint 072 — Mateus 18
+
+A leitura exclusiva de Mateus 18 na NAA Bible.com 1840 sustentou quatro pautas e 57 pistas, elevando o catálogo de **222 pautas/4.347 pistas para 226/4.404**. Todas as unidades foram inventariadas; Mt 18.8-9 foi reconhecido como já coberto por Mt 5.29-30 e não foi repetido. A recontagem por referência corrige o subtotal anterior de Mateus de 750 para 749 pistas e chega agora a 806, sem alterar o catálogo. Os 222 objetos anteriores permaneceram integralmente idênticos e as novas pautas têm capacidades 5, 4, 6 e 10. Mt 19–20 e demais recortes continuam posteriores; não houve harmonização, interpretação externa ou declaração de banco completo.

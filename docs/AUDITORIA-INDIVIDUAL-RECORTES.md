@@ -515,3 +515,9 @@ As páginas NAA Bible.com 1840 de Mt 10, 12 e 13 retornaram HTTP 200 e somente M
 | Mt 13.51-58 | `nt2-mateus-escriba-rejeicao-nazare`, 14 pistas, capacidade 2–6; fecho e rejeição reunidos atributivamente. |
 
 A comparação serializada confirmou **219 dos 220 objetos anteriores integralmente idênticos**. O único diff interno é a consolidação de Mt 12 descrita acima; dois objetos foram anexados. Resultado: **222 pautas/4.347 pistas**, todas elegíveis. As três pendências autorizadas ficam resolvidas; Mt 18–20 e outros recortes não foram lidos nem decididos. O banco não é declarado completo.
+
+## Checkpoint 072 — inventário individual de Mateus 18
+
+A página NAA Bible.com 1840 de Mateus 18 retornou HTTP 200 e foi lida integralmente. A comparação contra 222 pautas/4.347 pistas não encontrou referência geral ao capítulo. Quatro pautas foram anexadas: Mt 18.1-7 (12 pistas, capacidade 5), 18.10-14 (10, capacidade 4), 18.15-20 (13, capacidade 6) e 18.21-35 (22, capacidade 10). Mt 18.8-9 já estava representado pela redação interna paralela de Mt 5.29-30 e não foi repetido.
+
+A comparação serializada confirmou os **222 objetos anteriores integralmente idênticos**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **226 pautas/4.404 pistas**, todas elegíveis. A recontagem por referência corrige somente o subtotal documental de Mateus do checkpoint 071, de 750 para 749 pistas, pois P03 da mão ressequida permanece exclusivamente em Marcos; com as 57 novas, Mateus soma 806. A auditoria de pistas não encontrou duplicata exata nem par sem resolução; ligar/desligar em Mt 18.18 recebeu justificativa como contraste coordenado. Mt 19–20 e demais recortes não foram consultados nem decididos, e testes não tornam o banco completo.

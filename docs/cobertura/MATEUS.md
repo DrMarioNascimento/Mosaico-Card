@@ -192,3 +192,18 @@ Em 13/09/2026, somente as páginas efetivas `https://www.bible.com/pt/bible/1840
 O lote acrescenta somente duas pautas e 39 pistas líquidas: 36 nas novas pautas e três na consolidação de Mt 12. A alteração do objeto existente teve um motivo único e preciso: preservar no episódio paralelo fatos exclusivos que não sustentariam uma pauta independente sem repetir o núcleo. Foram acrescentados a referência geral de Mt 12.9-14, referências de Mateus aos fatos comuns P02/P04/P08 e três pistas P10–P12; a síntese/dente foram ajustados para explicitar as diferenças. Nenhum outro campo, alternativa, gabarito, pista ou metadado anterior foi alterado.
 
 As pendências específicas de **Mt 10.1-15, Mt 12.9-14 e Mt 13.51-58 ficam resolvidas documentalmente**. Mt 18–20 e os demais recortes inventariados para lotes posteriores continuam intocados. Encerramento deste lote não significa banco completo; dúvidas de 1Co e exclusões definitivas permanecem preservadas.
+
+## Inventário individual de Mateus 18 — checkpoint 072
+
+Em 13/09/2026, a página efetiva `https://www.bible.com/pt/bible/1840/MAT.18.NAA` foi obtida com HTTP 200 (349.751 bytes) e lida verso a verso. Antes da autoria, os **222 objetos/4.347 pistas** foram comparados por referências gerais, campos, perguntas e pistas. Nenhuma pauta tinha referência geral a Mt 18; a comparação incluiu o paralelo da ovelha em Lucas e a pauta anterior de Mt 5.27-30, sem presumir equivalência nem descartar fatos próprios.
+
+| Unidade efetivamente lida | Comparação e decisão individual |
+| --- | --- |
+| Mt 18.1-5 — o maior e a criança | **Autorada** em `nt2-mateus-crianca-maior-tropecos`; pergunta, criança no meio, condições e recepção permanecem falas/ações de Mateus. |
+| Mt 18.6-7 — advertências sobre tropeços | **Autorada na mesma pauta**, sem identificar externamente pequeninos ou pedras de tropeço. O conjunto tem 12 pistas e capacidade 5. |
+| Mt 18.8-9 — mão, pé e olho | **Coberta anteriormente** em `nt2-mateus-olhar-tropeco-divorcio`, que já contém as formulações paralelas internas de Mt 5.29-30. Não houve duplicação nem alteração do objeto. |
+| Mt 18.10-14 — pequeninos e ovelha desgarrada | **Autorada** em `nt2-mateus-pequeninos-ovelha-desgarrada`, 10 pistas, capacidade 4. Anjos, montes e vontade do Pai são exclusivos desta forma de Mateus; festa e personagens de Lc 15 não foram importados. |
+| Mt 18.15-20 — irmão, testemunhas, igreja e acordo | **Autorada** em `nt2-mateus-irmao-testemunhas-igreja-acordo`, 13 pistas, capacidade 6. As etapas e promessas são atributivas, sem procedimento institucional externo. |
+| Mt 18.21-35 — perdão e servo devedor | **Autorada** em `nt2-mateus-servo-divida-perdao`, 22 pistas, capacidade 10. Valores e ações permanecem elementos da parábola; nenhuma conversão monetária foi importada. |
+
+Foram anexadas quatro pautas e 57 pistas, sem meta e sem consolidação de objeto anterior. A recontagem por referência corrige o subtotal documental do checkpoint 071 de 750 para 749 pistas: P03 da mão ressequida descreve observação, presente somente em Marcos, e por isso não conta como pista de Mateus; o subtotal atual é 806. Os **222 objetos anteriores permanecem na mesma ordem e serializam identicamente**. Mateus 18 fica decidido por todas as unidades identificadas; Mt 19–20 e os demais recortes continuam posteriores. Dúvidas de 1Co e exclusões definitivas seguem preservadas, e o banco não é declarado completo.

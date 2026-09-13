@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 222);
+assert.equal(catalog.summary.editoriallyEligibleCases, 226);
 assert.equal(catalog.summary.max12Cases, 86);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -381,6 +381,20 @@ assert.equal(maoRessequida.deck.maxPlayers, 5);
 assert.equal(maoRessequida.deck.cards.length, 12);
 assert.ok(maoRessequida.deck.cards.slice(9).every(card => card.references.every(ref => ref.book === "Mateus")), "os três fatos consolidados permanecem exclusivos de Mateus");
 assert.ok(maoRessequida.deck.cards.slice(0, 9).filter(card => ["P02", "P04", "P08"].includes(card.id)).every(card => card.references.some(ref => ref.book === "Marcos") && card.references.some(ref => ref.book === "Mateus")), "fatos comuns preservam ambas as proveniências");
+
+const auditoriaMateus072 = {
+  "nt2-mateus-crianca-maior-tropecos": 5,
+  "nt2-mateus-pequeninos-ovelha-desgarrada": 4,
+  "nt2-mateus-irmao-testemunhas-igreja-acordo": 6,
+  "nt2-mateus-servo-divida-perdao": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus072)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.status.playable, true);
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^18\./.test(ref.passage))), `${id} permanece restrita a Mateus 18`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
 assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));
