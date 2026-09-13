@@ -19,8 +19,8 @@
 | 1 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–5 | 5 autorados | 1Ts 4 em blocos; sem calendário ou cronologia externa |
 | 2 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–3 | 2 autorados | somente 2Ts 2.13-17 usado; figuras anteriores permanecem fora |
 | 1 Timóteo | Analisado — checkpoint 049 | capítulos 1–6 | 6 autorados | 1Tm 1, 4–6 delimitados sem harmonização externa |
-| 2 Timóteo | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | listas/metáforas não infladas |
-| Tito | Analisado — decisões por recorte | capítulos 1–3 | 0 | conclusão factual insuficiente |
+| 2 Timóteo | Analisado — checkpoint 050 | capítulos 1–4 | 3 autorados | listas/metáforas não infladas; 4.1-8 isolado das saudações |
+| Tito | Analisado — checkpoint 050 | capítulos 1–3 | 2 autorados | capítulos 1 e 3 mantidos independentes e sem reconstrução externa |
 | Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
 | Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado/elegível | pauta temática liberada; AT não importado |
 | Tiago | Analisado — decisões por recorte | capítulos 1–5 | 1 autorado | exemplos/metáforas não inflados |
@@ -73,3 +73,8 @@ A base de 142 pautas/2.593 pistas foi preservada mecanicamente. A leitura NAA do
 ## Checkpoint 049 — lote limitado de 1 Timóteo
 
 A base de 147 pautas/2.652 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 1Tm 1, 4, 5 e 6, cinco blocos coerentes acrescentaram 81 pistas, levando o inventário a **152 pautas, 608 campos e 2.733 pistas**. 1Tm 5 foi separado entre cuidado familiar/viúvas (5.1-16) e presbíteros/conselhos (5.17-25); nenhuma nota cruzada, reconstrução histórica ou calendário foi importado. 2Tm/Tt, cartas gerais e Apocalipse permanecem para lotes seguintes; o banco não está completo.
+
+
+## Checkpoint 050 — 2 Timóteo 3–4.8 e Tito 1,3
+
+A base de 152 pautas/2.733 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 2Tm 3, 2Tm 4.1-8, Tt 1 e Tt 3, quatro blocos coerentes acrescentaram 71 pistas, levando o inventário a **156 pautas, 624 campos e 2.804 pistas**. Nenhum itinerário, identidade, cronologia ou nota cruzada foi importado. Cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.

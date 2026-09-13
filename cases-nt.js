@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "2026-09-13-checkpoint-049",
+  "catalogVersion": "2026-09-13-checkpoint-050",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 152,
-    "fields": 608,
-    "editoriallyEligibleCases": 152,
-    "playableCases": 152,
+    "cases": 156,
+    "fields": 624,
+    "editoriallyEligibleCases": 156,
+    "playableCases": 156,
     "max12Cases": 57
   },
   "order": [
@@ -168,7 +168,11 @@
     "nt2-1timoteo-criacao-piedade-ministerio",
     "nt2-1timoteo-familias-viuvas",
     "nt2-1timoteo-presbiteros-conselhos",
-    "nt2-1timoteo-contentamento-combate-ricos"
+    "nt2-1timoteo-contentamento-combate-ricos",
+    "nt2-2timoteo-ultimos-dias-escrituras",
+    "nt2-2timoteo-pregar-combater-coroa",
+    "nt2-tito-presbiteros-ensino-repreensao",
+    "nt2-tito-conduta-graca-instrucoes"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -100905,6 +100909,2610 @@
             "passage": "6.1-21",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2timoteo-ultimos-dias-escrituras": {
+      "id": "nt2-2timoteo-ultimos-dias-escrituras",
+      "kind": "canonical-case",
+      "title": "Últimos dias, exemplo seguido e Escrituras",
+      "canon": {
+        "book": "2 Timóteo",
+        "referenceNAA": "2 Timóteo 3.1-17",
+        "references": [
+          {
+            "book": "2 Timóteo",
+            "passage": "3.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Timóteo 3, que contrastes ligam os tempos difíceis, o exemplo seguido por Timóteo e as Sagradas Escrituras?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e orienta a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Os nomes e lugares são mantidos exatamente como aparecem no capítulo; nenhuma narrativa externa completa suas identidades, sequência ou cronologia."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Como são descritos os últimos dias",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Como tempos difíceis marcados por pessoas amantes de si e dos prazeres"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Como período sem qualquer oposição"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Como data calculável da manifestação"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Como ocasião de riqueza estável"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Como tempos difíceis marcados por pessoas amantes de si e dos prazeres",
+          "enderecoNAA": "2 Timóteo 3.1-5",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "3.1-5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Timóteo havia seguido de perto",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Ensino, procedimento, propósito, fé, paciência, amor e perseverança de Paulo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Genealogias e fábulas intermináveis"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma viagem não mencionada nesta carta"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A busca de aprovação humana"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Ensino, procedimento, propósito, fé, paciência, amor e perseverança de Paulo",
+          "enderecoNAA": "2 Timóteo 3.10-11",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "3.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Em que deveria permanecer",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "No que aprendeu e de que foi inteirado, sabendo de quem aprendeu"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Em novidades sem testemunho"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Em discussões sobre palavras"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Em interpretações externas à carta"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "No que aprendeu e de que foi inteirado, sabendo de quem aprendeu",
+          "enderecoNAA": "2 Timóteo 3.14-15",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "3.14-15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Para que é útil toda a Escritura inspirada por Deus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para ensino, repreensão, correção e educação na justiça"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para estabelecer calendários secretos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para dispensar toda boa obra"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para substituir a fé pela riqueza"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para ensino, repreensão, correção e educação na justiça",
+          "enderecoNAA": "2 Timóteo 3.16-17",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "3.16-17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A carta anuncia tempos difíceis nos últimos dias.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A carta anuncia tempos difíceis nos últimos dias."
+          },
+          {
+            "id": "P02",
+            "text": "A lista começa com pessoas amantes de si mesmas e do dinheiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista começa com pessoas amantes de si mesmas e do dinheiro."
+          },
+          {
+            "id": "P03",
+            "text": "Arrogância, blasfêmia e desobediência aos pais aparecem entre as características.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Arrogância, blasfêmia e desobediência aos pais aparecem entre as características."
+          },
+          {
+            "id": "P04",
+            "text": "Ingratidão, impiedade e ausência de afeição natural também são enumeradas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.2-3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ingratidão, impiedade e ausência de afeição natural também são enumeradas."
+          },
+          {
+            "id": "P05",
+            "text": "Calúnia, falta de domínio próprio e crueldade integram a descrição.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Calúnia, falta de domínio próprio e crueldade integram a descrição."
+          },
+          {
+            "id": "P06",
+            "text": "Traição, atrevimento e presunção aparecem no prosseguimento da lista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Traição, atrevimento e presunção aparecem no prosseguimento da lista."
+          },
+          {
+            "id": "P07",
+            "text": "Essas pessoas amariam mais os prazeres do que a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Essas pessoas amariam mais os prazeres do que a Deus."
+          },
+          {
+            "id": "P08",
+            "text": "Teriam forma de piedade, mas negariam o poder dela; Timóteo deveria afastar-se.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Teriam forma de piedade, mas negariam o poder dela; Timóteo deveria afastar-se."
+          },
+          {
+            "id": "P09",
+            "text": "Alguns entravam nas casas e conquistavam pessoas sobrecarregadas de pecados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns entravam nas casas e conquistavam pessoas sobrecarregadas de pecados."
+          },
+          {
+            "id": "P10",
+            "text": "A aprendizagem contínua descrita não chegava ao pleno conhecimento da verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A aprendizagem contínua descrita não chegava ao pleno conhecimento da verdade."
+          },
+          {
+            "id": "P11",
+            "text": "Janes e Jambres são citados no próprio capítulo como resistentes a Moisés.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Janes e Jambres são citados no próprio capítulo como resistentes a Moisés."
+          },
+          {
+            "id": "P12",
+            "text": "A oposição deles é comparada à resistência à verdade por homens de mente corrompida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A oposição deles é comparada à resistência à verdade por homens de mente corrompida."
+          },
+          {
+            "id": "P13",
+            "text": "A insensatez desses homens se tornaria evidente a todos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A insensatez desses homens se tornaria evidente a todos."
+          },
+          {
+            "id": "P14",
+            "text": "Timóteo seguira ensino, procedimento, propósito, fé, paciência, amor e perseverança de Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Timóteo seguira ensino, procedimento, propósito, fé, paciência, amor e perseverança de Paulo."
+          },
+          {
+            "id": "P15",
+            "text": "Perseguições e sofrimentos em Antioquia, Icônio e Listra são mencionados pela carta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Perseguições e sofrimentos em Antioquia, Icônio e Listra são mencionados pela carta."
+          },
+          {
+            "id": "P16",
+            "text": "Os que querem viver piedosamente em Cristo Jesus são apresentados como sujeitos a perseguições.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que querem viver piedosamente em Cristo Jesus são apresentados como sujeitos a perseguições."
+          },
+          {
+            "id": "P17",
+            "text": "Desde a infância Timóteo conhecia as Sagradas Letras, capazes de torná-lo sábio para a salvação pela fé.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.14-15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desde a infância Timóteo conhecia as Sagradas Letras, capazes de torná-lo sábio para a salvação pela fé."
+          },
+          {
+            "id": "P18",
+            "text": "Toda a Escritura é chamada inspirada por Deus e útil, visando preparar para toda boa obra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "3.16-17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Toda a Escritura é chamada inspirada por Deus e útil, visando preparar para toda boa obra."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 Timóteo 3 contrapõe pessoas dos tempos difíceis ao exemplo seguido por Timóteo e termina afirmando a procedência e utilidade das Escrituras.",
+        "hinge": "Os nomes e lugares são mantidos exatamente como aparecem no capítulo; nenhuma narrativa externa completa suas identidades, sequência ou cronologia.",
+        "references": [
+          {
+            "book": "2 Timóteo",
+            "passage": "3.1-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-2timoteo-pregar-combater-coroa": {
+      "id": "nt2-2timoteo-pregar-combater-coroa",
+      "kind": "canonical-case",
+      "title": "Pregação, combate completado e coroa",
+      "canon": {
+        "book": "2 Timóteo",
+        "referenceNAA": "2 Timóteo 4.1-8",
+        "references": [
+          {
+            "book": "2 Timóteo",
+            "passage": "4.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo 2 Timóteo 4.1-8, que encargo e testemunho Paulo apresenta diante da futura manifestação de Cristo?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e orienta a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "A manifestação, o Dia e a partida permanecem expressões da carta, sem cálculo cronológico nem harmonização com viagens ou outros documentos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Que encargo solene é dado a Timóteo",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pregar a palavra, estando preparado a tempo e fora de tempo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Reconstruir viagens anteriores"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Evitar toda repreensão e exortação"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Fixar o dia do julgamento"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Pregar a palavra, estando preparado a tempo e fora de tempo",
+          "enderecoNAA": "2 Timóteo 4.1-2",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "4.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que alguns fariam com a sã doutrina",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Não a suportariam e buscariam mestres segundo os próprios desejos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Permaneceriam nela sem desvio"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Trocariam-na pela leitura pública apenas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Guardariam um calendário revelado"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Não a suportariam e buscariam mestres segundo os próprios desejos",
+          "enderecoNAA": "2 Timóteo 4.3-4",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "4.3-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como Timóteo deveria agir",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ser sóbrio, suportar sofrimentos e cumprir plenamente o ministério"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Abandonar o trabalho de evangelista"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Buscar fábulas para agradar ouvintes"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Evitar qualquer sofrimento por princípio"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ser sóbrio, suportar sofrimentos e cumprir plenamente o ministério",
+          "enderecoNAA": "2 Timóteo 4.5",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "4.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como Paulo resume sua trajetória",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Combateu o bom combate, completou a carreira e guardou a fé"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Acumulou riqueza e encerrou o ensino"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Evitou toda oposição e julgamento"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Identificou externamente todas as suas cartas"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Combateu o bom combate, completou a carreira e guardou a fé",
+          "enderecoNAA": "2 Timóteo 4.6-8",
+          "answerReferences": [
+            {
+              "book": "2 Timóteo",
+              "passage": "4.6-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A exortação é feita diante de Deus e de Cristo Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A exortação é feita diante de Deus e de Cristo Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Cristo é apresentado como aquele que há de julgar vivos e mortos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Cristo é apresentado como aquele que há de julgar vivos e mortos."
+          },
+          {
+            "id": "P03",
+            "text": "Sua manifestação e seu Reino integram a fórmula solene do encargo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Sua manifestação e seu Reino integram a fórmula solene do encargo."
+          },
+          {
+            "id": "P04",
+            "text": "Timóteo deveria pregar a palavra e estar preparado em toda ocasião.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Timóteo deveria pregar a palavra e estar preparado em toda ocasião."
+          },
+          {
+            "id": "P05",
+            "text": "O ministério incluía repreender, corrigir e exortar com paciência e doutrina.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O ministério incluía repreender, corrigir e exortar com paciência e doutrina."
+          },
+          {
+            "id": "P06",
+            "text": "Viria tempo em que pessoas não suportariam a sã doutrina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Viria tempo em que pessoas não suportariam a sã doutrina."
+          },
+          {
+            "id": "P07",
+            "text": "Elas reuniriam mestres para si segundo os próprios desejos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elas reuniriam mestres para si segundo os próprios desejos."
+          },
+          {
+            "id": "P08",
+            "text": "Desviariam os ouvidos da verdade e se voltariam para fábulas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Desviariam os ouvidos da verdade e se voltariam para fábulas."
+          },
+          {
+            "id": "P09",
+            "text": "Timóteo deveria manter a sobriedade em todas as coisas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Timóteo deveria manter a sobriedade em todas as coisas."
+          },
+          {
+            "id": "P10",
+            "text": "Suportar sofrimentos e fazer o trabalho de evangelista compõem a ordem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suportar sofrimentos e fazer o trabalho de evangelista compõem a ordem."
+          },
+          {
+            "id": "P11",
+            "text": "Ele também deveria cumprir plenamente seu ministério.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também deveria cumprir plenamente seu ministério."
+          },
+          {
+            "id": "P12",
+            "text": "Paulo se descreve como já oferecido por libação, perto do tempo de partir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se descreve como já oferecido por libação, perto do tempo de partir."
+          },
+          {
+            "id": "P13",
+            "text": "Ele declara ter combatido o bom combate.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele declara ter combatido o bom combate."
+          },
+          {
+            "id": "P14",
+            "text": "Também declara ter completado a carreira e guardado a fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também declara ter completado a carreira e guardado a fé."
+          },
+          {
+            "id": "P15",
+            "text": "A coroa da justiça estava guardada para ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A coroa da justiça estava guardada para ele."
+          },
+          {
+            "id": "P16",
+            "text": "O justo Juiz a daria naquele Dia não só a Paulo, mas aos que amam sua manifestação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "2 Timóteo",
+                "passage": "4.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O justo Juiz a daria naquele Dia não só a Paulo, mas aos que amam sua manifestação."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "2 Timóteo 4.1-8 apresenta o encargo de pregar com paciência, a advertência sobre ouvintes e o testemunho de Paulo sobre combate, carreira, fé e coroa.",
+        "hinge": "A manifestação, o Dia e a partida permanecem expressões da carta, sem cálculo cronológico nem harmonização com viagens ou outros documentos.",
+        "references": [
+          {
+            "book": "2 Timóteo",
+            "passage": "4.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tito-presbiteros-ensino-repreensao": {
+      "id": "nt2-tito-presbiteros-ensino-repreensao",
+      "kind": "canonical-case",
+      "title": "Presbíteros, ensino fiel e repreensão",
+      "canon": {
+        "book": "Tito",
+        "referenceNAA": "Tito 1.1-16",
+        "references": [
+          {
+            "book": "Tito",
+            "passage": "1.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Tito 1, que conjunto reúne a missão deixada em Creta, as qualificações e a resposta aos enganadores?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e orienta a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Creta, grupos e qualificações são usados somente como aparecem em Tito; não se importam biografia, itinerário, etnia ou estrutura eclesial externa."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Onde Tito foi deixado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Em Creta, para pôr em ordem o restante e constituir presbíteros"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Em Éfeso, para impedir uma viagem"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Na Macedônia, para organizar uma coleta"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Em Roma, para aguardar julgamento"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Em Creta, para pôr em ordem o restante e constituir presbíteros",
+          "enderecoNAA": "Tito 1.5",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "1.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Que relação o bispo deve ter com a palavra",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Apegar-se à palavra fiel conforme o ensino"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Substituí-la por mandamentos humanos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Usá-la para obter lucro vergonhoso"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Evitar exortar e convencer"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Apegar-se à palavra fiel conforme o ensino",
+          "enderecoNAA": "Tito 1.7-9",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "1.7-9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Quem precisava ser silenciado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Insubordinados, faladores inúteis e enganadores, especialmente da circuncisão"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Todos os cretenses sem distinção"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Somente os que praticavam hospitalidade"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "As pessoas firmes na sã doutrina"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Insubordinados, faladores inúteis e enganadores, especialmente da circuncisão",
+          "enderecoNAA": "Tito 1.10-11",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "1.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Com que finalidade deveria haver repreensão severa",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Para que fossem sadios na fé"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Para completar genealogias judaicas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Para confirmar mandamentos humanos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Para declarar puras todas as obras"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Para que fossem sadios na fé",
+          "enderecoNAA": "Tito 1.13-14",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "1.13-14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Paulo se apresenta como servo de Deus e apóstolo de Jesus Cristo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo se apresenta como servo de Deus e apóstolo de Jesus Cristo."
+          },
+          {
+            "id": "P02",
+            "text": "Seu serviço é relacionado à fé dos eleitos e ao conhecimento da verdade segundo a piedade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seu serviço é relacionado à fé dos eleitos e ao conhecimento da verdade segundo a piedade."
+          },
+          {
+            "id": "P03",
+            "text": "A esperança mencionada é a vida eterna prometida pelo Deus que não pode mentir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A esperança mencionada é a vida eterna prometida pelo Deus que não pode mentir."
+          },
+          {
+            "id": "P04",
+            "text": "A palavra foi manifestada no tempo certo mediante a pregação confiada a Paulo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra foi manifestada no tempo certo mediante a pregação confiada a Paulo."
+          },
+          {
+            "id": "P05",
+            "text": "Tito é chamado verdadeiro filho segundo a fé comum.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tito é chamado verdadeiro filho segundo a fé comum."
+          },
+          {
+            "id": "P06",
+            "text": "Ele havia sido deixado em Creta para pôr em ordem as coisas restantes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele havia sido deixado em Creta para pôr em ordem as coisas restantes."
+          },
+          {
+            "id": "P07",
+            "text": "Também deveria constituir presbíteros de cidade em cidade conforme as instruções recebidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deveria constituir presbíteros de cidade em cidade conforme as instruções recebidas."
+          },
+          {
+            "id": "P08",
+            "text": "A lista começa exigindo irrepreensibilidade e fidelidade familiar nos termos da carta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista começa exigindo irrepreensibilidade e fidelidade familiar nos termos da carta."
+          },
+          {
+            "id": "P09",
+            "text": "O bispo, como administrador de Deus, deveria ser irrepreensível.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O bispo, como administrador de Deus, deveria ser irrepreensível."
+          },
+          {
+            "id": "P10",
+            "text": "Arrogância, irritabilidade, embriaguez, violência e lucro vergonhoso são recusados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Arrogância, irritabilidade, embriaguez, violência e lucro vergonhoso são recusados."
+          },
+          {
+            "id": "P11",
+            "text": "Hospitalidade, amor ao bem, sensatez, justiça, piedade e domínio próprio são requeridos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Hospitalidade, amor ao bem, sensatez, justiça, piedade e domínio próprio são requeridos."
+          },
+          {
+            "id": "P12",
+            "text": "Apegar-se à palavra fiel permite exortar pela sã doutrina e convencer os que contradizem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Apegar-se à palavra fiel permite exortar pela sã doutrina e convencer os que contradizem."
+          },
+          {
+            "id": "P13",
+            "text": "Muitos insubordinados, faladores inúteis e enganadores precisavam ser silenciados.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.10-11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos insubordinados, faladores inúteis e enganadores precisavam ser silenciados."
+          },
+          {
+            "id": "P14",
+            "text": "Eles transtornavam casas inteiras ensinando por motivo de lucro vergonhoso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles transtornavam casas inteiras ensinando por motivo de lucro vergonhoso."
+          },
+          {
+            "id": "P15",
+            "text": "A própria carta reproduz o testemunho de um profeta dos cretenses a respeito deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A própria carta reproduz o testemunho de um profeta dos cretenses a respeito deles."
+          },
+          {
+            "id": "P16",
+            "text": "A repreensão severa visava torná-los sadios na fé e afastá-los de fábulas judaicas e mandamentos humanos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.13-14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A repreensão severa visava torná-los sadios na fé e afastá-los de fábulas judaicas e mandamentos humanos."
+          },
+          {
+            "id": "P17",
+            "text": "Para os puros, tudo é puro; nos corrompidos e descrentes, mente e consciência estão contaminadas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Para os puros, tudo é puro; nos corrompidos e descrentes, mente e consciência estão contaminadas."
+          },
+          {
+            "id": "P18",
+            "text": "Alguns professavam conhecer Deus, mas o negavam por suas obras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "1.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Alguns professavam conhecer Deus, mas o negavam por suas obras."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Tito 1 apresenta remetente e destinatário, a tarefa em Creta, qualificações de liderança e a necessidade de enfrentar ensinos que transtornavam casas.",
+        "hinge": "Creta, grupos e qualificações são usados somente como aparecem em Tito; não se importam biografia, itinerário, etnia ou estrutura eclesial externa.",
+        "references": [
+          {
+            "book": "Tito",
+            "passage": "1.1-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-tito-conduta-graca-instrucoes": {
+      "id": "nt2-tito-conduta-graca-instrucoes",
+      "kind": "canonical-case",
+      "title": "Conduta, graça e instruções finais",
+      "canon": {
+        "book": "Tito",
+        "referenceNAA": "Tito 3.1-15",
+        "references": [
+          {
+            "book": "Tito",
+            "passage": "3.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANDO",
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Segundo Tito 3, que conjunto relaciona conduta pública, bondade salvadora, disciplina e instruções finais?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Este campo concentra o contraste textual que melhor identifica o bloco e orienta a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Nicópolis, Ártemas, Tíquico, Zenas e Apolo permanecem apenas na instrução desta carta, sem itinerário, data ou identificação importada."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "De que os destinatários deveriam lembrar-se",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sujeitar-se a governantes, obedecer e estar prontos para toda boa obra"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Evitar toda autoridade e toda obra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Falar mal de todos sem distinção"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Buscar controvérsias sobre a lei"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sujeitar-se a governantes, obedecer e estar prontos para toda boa obra",
+          "enderecoNAA": "Tito 3.1-2",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "3.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Segundo que fundamento Deus salvou",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Segundo sua misericórdia, não por obras de justiça praticadas por nós"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Segundo riqueza e posição"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Segundo genealogias debatidas"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Segundo uma viagem a Nicópolis"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Segundo sua misericórdia, não por obras de justiça praticadas por nós",
+          "enderecoNAA": "Tito 3.4-7",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "3.4-7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que deveria ser evitado",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Questões insensatas, genealogias, controvérsias e discussões sobre a lei"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Boas obras úteis"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Mansidão para com todos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A palavra fiel"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Questões insensatas, genealogias, controvérsias e discussões sobre a lei",
+          "enderecoNAA": "Tito 3.9",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "3.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Como tratar quem provoca divisões",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Admoestar uma ou duas vezes e depois evitar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Aprovar sem advertência"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Transformar em fonte histórica"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Seguir toda controvérsia proposta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Admoestar uma ou duas vezes e depois evitar",
+          "enderecoNAA": "Tito 3.10-11",
+          "answerReferences": [
+            {
+              "book": "Tito",
+              "passage": "3.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os destinatários deveriam sujeitar-se a governantes e autoridades e ser obedientes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os destinatários deveriam sujeitar-se a governantes e autoridades e ser obedientes."
+          },
+          {
+            "id": "P02",
+            "text": "Também deveriam estar prontos para toda boa obra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Também deveriam estar prontos para toda boa obra."
+          },
+          {
+            "id": "P03",
+            "text": "Não deveriam difamar ninguém, mas ser cordatos e mostrar mansidão para com todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Não deveriam difamar ninguém, mas ser cordatos e mostrar mansidão para com todos."
+          },
+          {
+            "id": "P04",
+            "text": "O passado comum é descrito com insensatez, desobediência e engano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O passado comum é descrito com insensatez, desobediência e engano."
+          },
+          {
+            "id": "P05",
+            "text": "Escravidão a paixões e prazeres e vida em maldade e inveja completam essa retrospectiva.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Escravidão a paixões e prazeres e vida em maldade e inveja completam essa retrospectiva."
+          },
+          {
+            "id": "P06",
+            "text": "A bondade de Deus, nosso Salvador, e seu amor pelas pessoas se manifestaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A bondade de Deus, nosso Salvador, e seu amor pelas pessoas se manifestaram."
+          },
+          {
+            "id": "P07",
+            "text": "A salvação é negada como resultado de obras de justiça praticadas por nós.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A salvação é negada como resultado de obras de justiça praticadas por nós."
+          },
+          {
+            "id": "P08",
+            "text": "Ela é atribuída à misericórdia, mediante lavagem regeneradora e renovadora do Espírito Santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ela é atribuída à misericórdia, mediante lavagem regeneradora e renovadora do Espírito Santo."
+          },
+          {
+            "id": "P09",
+            "text": "O Espírito foi derramado ricamente por meio de Jesus Cristo, nosso Salvador.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Espírito foi derramado ricamente por meio de Jesus Cristo, nosso Salvador."
+          },
+          {
+            "id": "P10",
+            "text": "Justificados pela graça, os destinatários se tornam herdeiros segundo a esperança da vida eterna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Justificados pela graça, os destinatários se tornam herdeiros segundo a esperança da vida eterna."
+          },
+          {
+            "id": "P11",
+            "text": "A palavra é chamada fiel, e Tito deveria afirmá-la com confiança.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A palavra é chamada fiel, e Tito deveria afirmá-la com confiança."
+          },
+          {
+            "id": "P12",
+            "text": "Os que creem em Deus deveriam empenhar-se na prática de boas obras, úteis às pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os que creem em Deus deveriam empenhar-se na prática de boas obras, úteis às pessoas."
+          },
+          {
+            "id": "P13",
+            "text": "Questões insensatas, genealogias e discussões sobre a lei são chamadas inúteis e sem valor.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Questões insensatas, genealogias e discussões sobre a lei são chamadas inúteis e sem valor."
+          },
+          {
+            "id": "P14",
+            "text": "Quem provoca divisões deveria ser admoestado uma ou duas vezes antes de ser evitado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem provoca divisões deveria ser admoestado uma ou duas vezes antes de ser evitado."
+          },
+          {
+            "id": "P15",
+            "text": "Tal pessoa é descrita como pervertida, pecadora e condenada por si mesma.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tal pessoa é descrita como pervertida, pecadora e condenada por si mesma."
+          },
+          {
+            "id": "P16",
+            "text": "Paulo ordena que Tito se esforce para encontrá-lo em Nicópolis após a chegada de Ártemas ou Tíquico.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Paulo ordena que Tito se esforce para encontrá-lo em Nicópolis após a chegada de Ártemas ou Tíquico."
+          },
+          {
+            "id": "P17",
+            "text": "Zenas e Apolo deveriam ser encaminhados com cuidado para que nada lhes faltasse.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Zenas e Apolo deveriam ser encaminhados com cuidado para que nada lhes faltasse."
+          },
+          {
+            "id": "P18",
+            "text": "Os do grupo deveriam aprender a distinguir-se nas boas obras para necessidades urgentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os do grupo deveriam aprender a distinguir-se nas boas obras para necessidades urgentes."
+          },
+          {
+            "id": "P19",
+            "text": "As saudações abrangem os companheiros de Paulo e os que os amavam na fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Sustentar a dedução com uma afirmação atribuída a este bloco da carta",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Tito",
+                "passage": "3.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "As saudações abrangem os companheiros de Paulo e os que os amavam na fé."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Tito 3 reúne deveres de mansidão e boas obras, a afirmação da salvação segundo a misericórdia, limites para controvérsias e instruções finais nomeadas.",
+        "hinge": "Nicópolis, Ártemas, Tíquico, Zenas e Apolo permanecem apenas na instrução desta carta, sem itinerário, data ou identificação importada.",
+        "references": [
+          {
+            "book": "Tito",
+            "passage": "3.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
             "checkedAt": "2026-09-13"
           }
         ]

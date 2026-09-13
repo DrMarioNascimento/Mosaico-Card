@@ -262,3 +262,15 @@ O lote autorizado encerra nessas cinco pautas, sem buscar quantidade adicional. 
 | 1Tm 6 | NAA, HTTP 200; ensino, contentamento, combate e instruções aos ricos organizados atributivamente. | `nt2-1timoteo-contentamento-combate-ricos`, 21 pistas, capacidade 2–10. |
 
 O limite de cinco encerra o lote. Nenhuma nota cruzada completa as citações, e não foi criada cronologia para a manifestação mencionada. 2Tm/Tt, cartas gerais e Apocalipse ficam para etapas posteriores; o banco não está completo.
+
+
+## Checkpoint 050 — decisões individuais em 2 Timóteo e Tito
+
+| Recorte | Consulta e delimitação individual | Resultado |
+| --- | --- | --- |
+| 2Tm 3 | NAA, HTTP 200; tempos difíceis, exemplo seguido e Escrituras mantidos como contrastes internos. | `nt2-2timoteo-ultimos-dias-escrituras`, 18 pistas, capacidade 2–8. |
+| 2Tm 4.1-8 | NAA, HTTP 200; encargo de pregar, advertência, ministério e testemunho final separados das pessoas e viagens posteriores. | `nt2-2timoteo-pregar-combater-coroa`, 16 pistas, capacidade 2–7. |
+| Tt 1 | NAA, HTTP 200; missão em Creta, qualificações e resposta aos enganadores mantidas no capítulo. | `nt2-tito-presbiteros-ensino-repreensao`, 18 pistas, capacidade 2–8. |
+| Tt 3 | NAA, HTTP 200; conduta, misericórdia, boas obras, divisões e instruções finais tratadas sem itinerário externo. | `nt2-tito-conduta-graca-instrucoes`, 19 pistas, capacidade 2–9. |
+
+O lote encerra com quatro pautas, sem forçar uma quinta. 2Tm 4.9-22 não foi duplicado nem fundido ao bloco 4.1-8. Cartas gerais e Apocalipse permanecem para nova base, e o banco não está completo.

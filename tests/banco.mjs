@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 152);
+assert.equal(catalog.summary.editoriallyEligibleCases, 156);
 assert.equal(catalog.summary.max12Cases, 57);
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
@@ -144,6 +144,17 @@ for (const [id, maxPlayers] of Object.entries(auditoria1Timoteo049)) {
   assert.equal(catalog.byId[id].status.playable, true);
   assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
   assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Timóteo")), `${id} mantém fonte exclusiva em 1 Timóteo`);
+}
+const auditoriaPastorais050 = {
+  "nt2-2timoteo-ultimos-dias-escrituras": ["2 Timóteo", 8],
+  "nt2-2timoteo-pregar-combater-coroa": ["2 Timóteo", 7],
+  "nt2-tito-presbiteros-ensino-repreensao": ["Tito", 8],
+  "nt2-tito-conduta-graca-instrucoes": ["Tito", 9]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaPastorais050)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} não importa reconstruções de outros documentos`);
 }
 assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
 const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];

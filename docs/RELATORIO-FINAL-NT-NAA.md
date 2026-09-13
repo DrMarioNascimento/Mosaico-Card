@@ -125,3 +125,16 @@ Foram acrescentadas cinco pautas e 81 pistas: `nt2-1timoteo-ensino-graca-combate
 - **Preservação:** os 147 objetos e as 2.652 pistas anteriores permaneceram mecanicamente idênticos.
 - **Pendências:** 2Tm/Tt, cartas gerais e Apocalipse permanecem para lotes seguintes; o banco **não** está completo. As dúvidas de 1Co 11.2-16 e 14.34-36 seguem isoladas, e todas as decisões bíblicas vigentes foram preservadas.
 - **Operação:** não houve merge, deploy, publicação, Firebase nem alteração de credenciais.
+
+
+## Checkpoint 050 — quatro blocos de 2 Timóteo e Tito
+
+A rodada continuou de `a92cbe6`, com **152 pautas, 608 campos e 2.733 pistas**. Antes da autoria, a regeneração produziu arquivo byte a byte idêntico (`sha256sum -c`), e a equivalência do auditor otimizado foi medida em todas as **3.733.278 comparações** possíveis entre as 2.733 pistas: algoritmo anterior e otimizado retornaram os mesmos 12 pares sinalizados, os mesmos escores e diferença máxima zero. O cache não suprimiu comparação nem mudou limiar.
+
+Em 13/09/2026, exclusivamente as páginas NAA de 2Tm 3, 2Tm 4, Tt 1 e Tt 3 identificadas em `bible.com/pt/bible/1840` foram obtidas individualmente com HTTP 200. A leitura e autoria ficaram limitadas a 2Tm 3, 2Tm 4.1-8, Tt 1 e Tt 3. Foram acrescentadas quatro pautas e 71 pistas: `nt2-2timoteo-ultimos-dias-escrituras` (18), `nt2-2timoteo-pregar-combater-coroa` (16), `nt2-tito-presbiteros-ensino-repreensao` (18) e `nt2-tito-conduta-graca-instrucoes` (19).
+
+- **Inventário:** 156 pautas elegíveis, 624 campos e 2.804 pistas; 57 comportam até 12 participantes, três até 11, seis até 10, seis até 9, quinze até 8, nove até 7, 33 até 6, uma até 5, doze até 4 e quatorze até 3.
+- **Contrato:** C1–C4, quatro alternativas distintas, gabaritos explícitos, focal justificado, metadados classificados, revelação e pontuação 8/5/3/2 foram preservados; a capacidade continua `min(12, floor((cartas-1)/2))`.
+- **Preservação:** os 152 objetos e as 2.733 pistas anteriores permaneceram integralmente idênticos.
+- **Limites:** perguntas e pistas são atributivas; nomes, lugares, manifestação, Dia, Escrituras e citações não receberam reconstruções externas. As dúvidas de 1Co 11.2-16 e 14.34-36 seguem isoladas.
+- **Pendências:** cartas gerais e Apocalipse ficam para nova base; o banco **não** está completo. Não houve uso da `main`, merge, deploy, publicação, Firebase ou credenciais.
