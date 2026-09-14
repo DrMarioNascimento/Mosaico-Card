@@ -2,17 +2,17 @@
 
 **Data do snapshot:** 2026-09-14
 **Estado:** parcial; não representa conclusão dos 27 livros
-**Fonte:** `data/nt-bank.json`, catálogo `checkpoint-101-marcos-9-10-adiados`
-**SHA-256 do snapshot:** `8d836a56a3395cb7c77d8d1a8ba8a6c31820b4a8fddeac94f93d963b45df397a`
-**Commit-base do snapshot:** `8b1dac6a71a4656721bc5935f6198a2b19f22933`
+**Fonte:** `data/nt-bank.json`, catálogo `checkpoint-102-marcos-11-12-inventario`
+**SHA-256 do snapshot:** `4bfb63afad6602c88ec892155b6c663e7164b05620a283a1e7d7fbef9418e364`
+**Commit-base do snapshot:** `fdbfb60c4c23a34f02504b1b48c8d6add80a9bbb`
 **Reprodução:** `node tools/report-nt-capacity.mjs`
 
 ## Unidades contadas e limites
 
-- **Pautas/IDs:** 319; 319 estão elegíveis. Um sorteio retorna exatamente uma pauta.
-- **Pistas/cartas:** 6055; há 6029 strings de pista exatamente distintas.
+- **Pautas/IDs:** 323; 323 estão elegíveis. Um sorteio retorna exatamente uma pauta.
+- **Pistas/cartas:** 6117; há 6087 strings de pista exatamente distintas.
 - **Fatos semanticamente únicos:** não verificados. Similaridade automatizada não prova identidade ou independência factual.
-- **Histórias/episódios:** sem contagem. O banco não possui agrupamento canônico que relacione IDs paralelos, complementares, temáticos ou referentes à mesma história; portanto, 319 IDs não equivalem a 319 histórias independentes.
+- **Histórias/episódios:** sem contagem. O banco não possui agrupamento canônico que relacione IDs paralelos, complementares, temáticos ou referentes à mesma história; portanto, 323 IDs não equivalem a 323 histórias independentes.
 - **Variantes funcionais:** 0. Perspectivas editoriais, inclusive Mt 17.21, podem coexistir na documentação, mas o runtime não seleciona gabaritos variantes.
 
 ## Capacidade de sorteios sem reposição
@@ -21,12 +21,12 @@ A unidade de não repetição é o **ID de pauta elegível**, não história, ep
 
 | Jogadores | IDs elegíveis | Sorteios/partidas sem reposição por ciclo |
 | ---: | ---: | ---: |
-| 2 | 319 | 319 |
-| 3 | 318 | 318 |
-| 4 | 300 | 300 |
-| 5 | 278 | 278 |
-| 6 | 268 | 268 |
-| 7 | 225 | 225 |
+| 2 | 323 | 323 |
+| 3 | 322 | 322 |
+| 4 | 304 | 304 |
+| 5 | 282 | 282 |
+| 6 | 272 | 272 |
+| 7 | 229 | 229 |
 | 8 | 204 | 204 |
 | 9 | 165 | 165 |
 | 10 | 139 | 139 |
@@ -45,5 +45,5 @@ Não há API pública de reset. Quando a bolsa compatível esvazia, o runtime re
 - 1Co 11.2-16 conserva exatamente três conteúdos aprovados em pendência estrutural, sem quarto campo fabricado.
 - Mt 17.21 conserva as perspectivas registradas, mas variantes funcionais continuam não implementadas.
 - Mt 23.14 permanece integrado conforme a decisão anterior.
-- Os três adiados finais de Mc 9–10 foram anexados; Mc 9.44 e 9.46 foram isolados como novas pendências textuais e não usados. Mc 9–10 não conserva remanescente ordinário; o próximo lote é Mc 11–12. Mc 7.16 permanece pendência textual isolada.
+- Quatro pautas de Mc 11 foram anexadas após inventário integral de Mc 11–12. Restam por limite Mc 12.1-12, 12.13-17, 12.18-27, 12.28-34, 12.35-37 e 12.38-40; Mc 12.41-44 já estava coberto. Mc 11.26 foi isolado como pendência textual, junto de Mc 7.16, 9.44 e 9.46.
 - As demais auditorias são as linhas marcadas **PENDENTE** em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`. Testes e este snapshot não tornam o banco completo.

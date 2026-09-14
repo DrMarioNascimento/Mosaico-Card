@@ -71,3 +71,7 @@ O banco exige exatamente quatro campos por pauta. Como inventar um quarto violar
 O usuário determinou: **“Vamos deixar o 35 de fora.”** Fica excluído do jogo somente o item de 1Co 14.35 que perguntaria onde fazer perguntas ao próprio marido, com resposta “em casa”. A decisão não é substituída por conteúdo de 14.34 ou 14.36, não amplia aprovação e não altera a pauta vigente de 1Co 14.1-33,37-40. Trata-se de exclusão editorial para o jogo, não de juízo sobre o texto bíblico.
 
 Com isso, a pendência editorial de 1Co 14.34-36 se encerra **sem novas perguntas desse recorte**. As quatro decisões recentes ficam definidas: Mt 17.21 e Mt 23.14 aplicadas; 1Co 11.2-16 aprovado com exatamente três itens ainda pendentes de integração estrutural; 1Co 14.35 excluído, sem substituição por 14.34/36. Variantes funcionais de Mt 17 continuam não implementadas.
+
+## Nova pendência textual isolada — Mc 11.26 (checkpoint 102)
+
+A página NAA 1840 consultada exibe Mc 11.26 entre colchetes e informa que o texto se encontra apenas em manuscritos mais recentes. Isso foi isolado sem decisão presumida do usuário: o verso não aparece em referência geral, pergunta, alternativa, gabarito ou pista. Mc 11.25 sustenta por si mesmo o conteúdo autorado sobre perdoar durante a oração. Esta pendência não altera os encaminhamentos próprios de Mt 17.21, Mt 23.14, Mc 7.16, 9.44, 9.46 ou 1Co 11/14 e não bloqueia conteúdo independente.

@@ -20,7 +20,7 @@ assert.equal(curtasJoao.length, 8, "as oito pautas curtas de João entram em mes
 assert.equal(limitadasASeis.length, 43, "pautas com 13 ou 14 cartas usam capacidade seis");
 assert.equal(bank.elegiveis(2).filter(id => bank.byId[id].deck.maxPlayers === 2).length, 1, "pautas de cinco ou seis cartas usam capacidade dois");
 assert.equal(bank.elegiveis(5).filter(id => bank.byId[id].deck.maxPlayers === 5).length, 10, "pautas de onze ou doze cartas usam capacidade cinco");
-assert.equal(bank.elegiveis(7).filter(id => bank.byId[id].deck.maxPlayers === 7).length, 21, "pautas de quinze ou dezesseis cartas usam capacidade sete");
+assert.equal(bank.elegiveis(7).filter(id => bank.byId[id].deck.maxPlayers === 7).length, 25, "pautas de quinze ou dezesseis cartas usam capacidade sete");
 assert.equal(bank.elegiveis(8).filter(id => bank.byId[id].deck.maxPlayers === 8).length, 39, "pautas de dezessete ou dezoito cartas usam capacidade oito");
 assert.equal(bank.elegiveis(9).filter(id => bank.byId[id].deck.maxPlayers === 9).length, 26, "pautas de dezenove ou vinte cartas usam capacidade nove");
 assert.equal(bank.elegiveis(10).filter(id => bank.byId[id].deck.maxPlayers === 10).length, 26, "pautas de 21 ou 22 cartas usam capacidade dez");

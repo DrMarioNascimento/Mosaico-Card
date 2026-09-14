@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-101-marcos-9-10-adiados",
+  "catalogVersion": "checkpoint-102-marcos-11-12-inventario",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 319,
-    "fields": 1276,
-    "editoriallyEligibleCases": 319,
-    "playableCases": 319,
+    "cases": 323,
+    "fields": 1292,
+    "editoriallyEligibleCases": 323,
+    "playableCases": 323,
     "max12Cases": 99
   },
   "order": [
@@ -335,7 +335,11 @@
     "nt2-marcos-homem-nao-seguia-copo-agua",
     "nt2-marcos-pequeninos-tropeco-sal-paz",
     "nt2-marcos-judeia-divorcio-casa",
-    "nt2-marcos-criancas-indignacao-bencao"
+    "nt2-marcos-criancas-indignacao-bencao",
+    "nt2-marcos-jumentinho-entrada-templo",
+    "nt2-marcos-figueira-fe-oracao-perdao",
+    "nt2-marcos-templo-objeto-doutrina",
+    "nt2-marcos-autoridade-batismo-joao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -218474,6 +218478,2394 @@
             "passage": "10.13-16",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-jumentinho-entrada-templo": {
+      "id": "nt2-marcos-jumentinho-entrada-templo",
+      "kind": "canonical-case",
+      "title": "O jumentinho, a entrada e o templo",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 11.1-11",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "ONDE",
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "POR QUÊ",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus se aproximava, o que os discípulos encontraram, como a multidão agiu e o que Jesus fez ao anoitecer?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A localização inicial reúne Betfagé, Betânia e o monte das Oliveiras e delimita a redação própria de Marcos antes das ações com o jumentinho.",
+      "editorial": {
+        "hinge": "A pauta usa somente Marcos: não transfere de Mateus o número de animais nem de outros relatos nomes, motivos ou reações."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar da aproximação",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Jerusalém, junto de Betfagé, Betânia e monte das Oliveiras"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jericó, junto ao Jordão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Cafarnaum, junto ao mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Nazaré, junto à sinagoga"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Jerusalém, junto de Betfagé, Betânia e monte das Oliveiras",
+          "enderecoNAA": "Marcos 11.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Animal encontrado pelos dois discípulos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma jumenta já montada"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um cavalo preso no campo"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um jumentinho preso que ninguém havia montado"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um cordeiro levado ao templo"
+            }
+          ],
+          "respostaId": "C2-O3",
+          "respostaCanonica": "Um jumentinho preso que ninguém havia montado",
+          "enderecoNAA": "Marcos 11.2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação de muitos no caminho",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Estenderam capas; outros espalharam ramos cortados nos campos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Fecharam os portões e deixaram a cidade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Levaram mesas e cadeiras ao templo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediram que a multidão ficasse em silêncio"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Estenderam capas; outros espalharam ramos cortados nos campos",
+          "enderecoNAA": "Marcos 11.8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ação de Jesus quando já era tarde",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Permaneceu sozinho no templo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Voltou à aldeia com dois discípulos"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foi ao monte com Pedro, Tiago e João"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Saiu para Betânia com os doze após observar tudo"
+            }
+          ],
+          "respostaId": "C4-O4",
+          "respostaCanonica": "Saiu para Betânia com os doze após observar tudo",
+          "enderecoNAA": "Marcos 11.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A aproximação ocorreu perto de Jerusalém, Betfagé e Betânia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A aproximação ocorreu perto de Jerusalém, Betfagé e Betânia."
+          },
+          {
+            "id": "P02",
+            "text": "O monte das Oliveiras integra a localização inicial.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O monte das Oliveiras integra a localização inicial."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus enviou dois discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus enviou dois discípulos."
+          },
+          {
+            "id": "P04",
+            "text": "Eles achariam um jumentinho preso.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles achariam um jumentinho preso."
+          },
+          {
+            "id": "P05",
+            "text": "Ninguém ainda havia montado o animal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ninguém ainda havia montado o animal."
+          },
+          {
+            "id": "P06",
+            "text": "O Senhor precisava dele e o mandaria de volta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O Senhor precisava dele e o mandaria de volta."
+          },
+          {
+            "id": "P07",
+            "text": "O jumentinho estava do lado de fora, junto ao portão, na rua.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O jumentinho estava do lado de fora, junto ao portão, na rua."
+          },
+          {
+            "id": "P08",
+            "text": "Os discípulos responderam conforme as instruções de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos responderam conforme as instruções de Jesus."
+          },
+          {
+            "id": "P09",
+            "text": "Capas foram postas sobre o animal.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Capas foram postas sobre o animal."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus montou no jumentinho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus montou no jumentinho."
+          },
+          {
+            "id": "P11",
+            "text": "Muitos estenderam capas no caminho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Muitos estenderam capas no caminho."
+          },
+          {
+            "id": "P12",
+            "text": "Outros espalharam ramos cortados nos campos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Outros espalharam ramos cortados nos campos."
+          },
+          {
+            "id": "P13",
+            "text": "Havia pessoas adiante e atrás de Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Havia pessoas adiante e atrás de Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "A aclamação menciona o Reino de Davi.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A aclamação menciona o Reino de Davi."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus entrou em Jerusalém e no templo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus entrou em Jerusalém e no templo."
+          },
+          {
+            "id": "P16",
+            "text": "Depois de observar tudo, saiu para Betânia com os doze.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois de observar tudo, saiu para Betânia com os doze."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 11.1-11 registra a aproximação de Jerusalém, o envio de dois discípulos, o jumentinho, as ações e aclamações no caminho e a saída para Betânia.",
+        "hinge": "A pauta usa somente Marcos: não transfere de Mateus o número de animais nem de outros relatos nomes, motivos ou reações.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.1-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-figueira-fe-oracao-perdao": {
+      "id": "nt2-marcos-figueira-fe-oracao-perdao",
+      "kind": "canonical-case",
+      "title": "A figueira, a fé, a oração e o perdão",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 11.12-14,20-25",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.12-14,20-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUANDO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "ONDE",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus encontrou na figueira, como ela foi vista depois, que ordem deu sobre fé e o que ensinou durante a oração?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A condição seca desde a raiz é observada no retorno e lembrada por Pedro, conectando explicitamente as duas cenas da figueira em Marcos.",
+      "editorial": {
+        "hinge": "Mc 11.26, entre colchetes e acompanhado de nota textual na página NAA, permanece fora desta pauta como pendência isolada; a formulação de 11.25 tem sustentação própria."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Condição vista pela manhã",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Seca apenas nas folhas"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cortada pelos discípulos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Seca desde a raiz"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Coberta de novos frutos"
+            }
+          ],
+          "respostaId": "C2-O3",
+          "respostaCanonica": "Seca desde a raiz",
+          "enderecoNAA": "Marcos 11.20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "O que Jesus encontrou na figueira",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Muitos figos maduros"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Somente folhas"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Frutos ainda verdes"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Ramos cortados"
+            }
+          ],
+          "respostaId": "C1-O2",
+          "respostaCanonica": "Somente folhas",
+          "enderecoNAA": "Marcos 11.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ordem dada por Jesus aos discípulos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Tenham fé em Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Procurem outra figueira"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Voltem imediatamente a Betânia"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Não contem a visão a ninguém"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Tenham fé em Deus",
+          "enderecoNAA": "Marcos 11.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Conduta ao orar tendo algo contra alguém",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Esperar até a tarde"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Pedir um sinal primeiro"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Abandonar a oração"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Perdoar"
+            }
+          ],
+          "respostaId": "C4-O4",
+          "respostaCanonica": "Perdoar",
+          "enderecoNAA": "Marcos 11.25",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "No dia seguinte, Jesus e os discípulos saíram de Betânia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "No dia seguinte, Jesus e os discípulos saíram de Betânia."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus teve fome.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus teve fome."
+          },
+          {
+            "id": "P03",
+            "text": "Ele viu de longe uma figueira com folhas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele viu de longe uma figueira com folhas."
+          },
+          {
+            "id": "P04",
+            "text": "Nada encontrou além de folhas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nada encontrou além de folhas."
+          },
+          {
+            "id": "P05",
+            "text": "Não era tempo de figos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Não era tempo de figos."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus declarou que ninguém mais comesse dos frutos dela.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus declarou que ninguém mais comesse dos frutos dela."
+          },
+          {
+            "id": "P07",
+            "text": "Os discípulos ouviram a declaração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos ouviram a declaração."
+          },
+          {
+            "id": "P08",
+            "text": "Pela manhã, eles viram a figueira seca desde a raiz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pela manhã, eles viram a figueira seca desde a raiz."
+          },
+          {
+            "id": "P09",
+            "text": "Pedro se lembrou e chamou Jesus de Mestre.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro se lembrou e chamou Jesus de Mestre."
+          },
+          {
+            "id": "P10",
+            "text": "Pedro mencionou que a figueira amaldiçoada ficara seca.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro mencionou que a figueira amaldiçoada ficara seca."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus ordenou que tivessem fé em Deus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus ordenou que tivessem fé em Deus."
+          },
+          {
+            "id": "P12",
+            "text": "A fala associa crer sem duvidar à ordem dirigida ao monte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala associa crer sem duvidar à ordem dirigida ao monte."
+          },
+          {
+            "id": "P13",
+            "text": "A oração é acompanhada da ordem de crer que se recebeu.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A oração é acompanhada da ordem de crer que se recebeu."
+          },
+          {
+            "id": "P14",
+            "text": "Ao orar, a pessoa pode ter algo contra alguém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ao orar, a pessoa pode ter algo contra alguém."
+          },
+          {
+            "id": "P15",
+            "text": "A ordem nesse caso é perdoar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A ordem nesse caso é perdoar."
+          },
+          {
+            "id": "P16",
+            "text": "O perdão pedido relaciona-se ao Pai nos céus perdoar as ofensas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O perdão pedido relaciona-se ao Pai nos céus perdoar as ofensas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 11.12-14,20-25 registra a figueira sem fruto, sua condição seca desde a raiz e ensinos de Jesus sobre fé, oração e perdão.",
+        "hinge": "Mc 11.26, entre colchetes e acompanhado de nota textual na página NAA, permanece fora desta pauta como pendência isolada; a formulação de 11.25 tem sustentação própria.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.12-14,20-25",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-templo-objeto-doutrina": {
+      "id": "nt2-marcos-templo-objeto-doutrina",
+      "kind": "canonical-case",
+      "title": "O templo, o objeto e a reação à doutrina",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 11.15-19",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.15-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "ONDE",
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUANDO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem Jesus expulsou, o que impediu no templo, como chamou a casa e por que os líderes o temiam?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A designação da casa como Casa de Oração para todas as nações fundamenta o contraste textual com o covil de salteadores.",
+      "editorial": {
+        "hinge": "As citações são tratadas como fala presente em Marcos; referências cruzadas exibidas pela página e detalhes dos paralelos não fornecem fatos à pauta."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Como a casa é chamada na fala citada",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Casa de Oração para todas as nações"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Casa dos reis e dos sacerdotes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Casa de comércio para os peregrinos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Casa reservada aos escribas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Casa de Oração para todas as nações",
+          "enderecoNAA": "Marcos 11.17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Pessoas que Jesus começou a expulsar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os que vendiam e compravam"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os doze que o acompanhavam"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os escribas que ensinavam"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os peregrinos que oravam"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os que vendiam e compravam",
+          "enderecoNAA": "Marcos 11.15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus não permitia",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que alguém ensinasse sentado"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que alguém atravessasse o templo carregando objeto"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que os discípulos saíssem à tarde"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que os ricos depositassem moedas"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Que alguém atravessasse o templo carregando objeto",
+          "enderecoNAA": "Marcos 11.16",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Razão declarada para os líderes temerem Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Os discípulos estavam armados"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "A cidade havia fechado os portões"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "A multidão se maravilhava da doutrina dele"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Os cambistas haviam deixado Jerusalém"
+            }
+          ],
+          "respostaId": "C4-O3",
+          "respostaCanonica": "A multidão se maravilhava da doutrina dele",
+          "enderecoNAA": "Marcos 11.18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus entrou no templo em Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus entrou no templo em Jerusalém."
+          },
+          {
+            "id": "P02",
+            "text": "Ele começou a expulsar os que vendiam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele começou a expulsar os que vendiam."
+          },
+          {
+            "id": "P03",
+            "text": "Também expulsou os que compravam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Também expulsou os que compravam."
+          },
+          {
+            "id": "P04",
+            "text": "Derrubou as mesas dos cambistas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Derrubou as mesas dos cambistas."
+          },
+          {
+            "id": "P05",
+            "text": "Derrubou as cadeiras dos vendedores de pombas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Derrubou as cadeiras dos vendedores de pombas."
+          },
+          {
+            "id": "P06",
+            "text": "Não permitia atravessar o templo carregando objeto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Não permitia atravessar o templo carregando objeto."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus ensinava no templo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus ensinava no templo."
+          },
+          {
+            "id": "P08",
+            "text": "A fala chama a casa de Casa de Oração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala chama a casa de Casa de Oração."
+          },
+          {
+            "id": "P09",
+            "text": "A abrangência declarada é para todas as nações.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A abrangência declarada é para todas as nações."
+          },
+          {
+            "id": "P10",
+            "text": "O contraste acusa que fizeram dela covil de salteadores.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O contraste acusa que fizeram dela covil de salteadores."
+          },
+          {
+            "id": "P11",
+            "text": "Principais sacerdotes e escribas ouviram isso.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Principais sacerdotes e escribas ouviram isso."
+          },
+          {
+            "id": "P12",
+            "text": "Eles procuravam uma maneira de matar Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles procuravam uma maneira de matar Jesus."
+          },
+          {
+            "id": "P13",
+            "text": "Os líderes temiam Jesus.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os líderes temiam Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "A multidão se maravilhava da doutrina dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A multidão se maravilhava da doutrina dele."
+          },
+          {
+            "id": "P15",
+            "text": "À tarde, Jesus e os discípulos saíram da cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "À tarde, Jesus e os discípulos saíram da cidade."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 11.15-19 registra as ações e o ensino de Jesus no templo, a intenção e o temor dos líderes e a saída da cidade à tarde.",
+        "hinge": "As citações são tratadas como fala presente em Marcos; referências cruzadas exibidas pela página e detalhes dos paralelos não fornecem fatos à pauta.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.15-19",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-autoridade-batismo-joao": {
+      "id": "nt2-marcos-autoridade-batismo-joao",
+      "kind": "canonical-case",
+      "title": "A autoridade e a pergunta sobre o batismo de João",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 11.27-33",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.27-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "ONDE",
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES",
+          "QUANDO",
+          "QUANTO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem questionou Jesus, que contrapergunta ele fez, como os líderes raciocinaram e qual resposta deram?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A resposta “Não sabemos” encerra o impasse narrativo e explica textualmente por que Jesus não declara ali a origem de sua autoridade.",
+      "editorial": {
+        "hinge": "A pauta não responde por inferência à pergunta sobre a autoridade; preserva somente perguntas, raciocínio e respostas declarados em Marcos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta final dos líderes",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Do céu"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Dos homens"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "João não batizava"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Não sabemos"
+            }
+          ],
+          "respostaId": "C4-O4",
+          "respostaCanonica": "Não sabemos",
+          "enderecoNAA": "Marcos 11.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Grupos que vieram ao encontro de Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Fariseus e herodianos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Principais sacerdotes, escribas e anciãos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Publicanos e pecadores"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Saduceus e romanos"
+            }
+          ],
+          "respostaId": "C1-O2",
+          "respostaCanonica": "Principais sacerdotes, escribas e anciãos",
+          "enderecoNAA": "Marcos 11.27",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Tema da pergunta feita por Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "A moeda de César"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "O principal mandamento"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "A origem do batismo de João"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A ressurreição dos mortos"
+            }
+          ],
+          "respostaId": "C2-O3",
+          "respostaCanonica": "A origem do batismo de João",
+          "enderecoNAA": "Marcos 11.30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Razão para temerem responder “dos homens”",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Todos pensavam que João era realmente profeta"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A multidão havia deixado a cidade"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "João estava ensinando no templo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os discípulos exigiam um sinal"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Todos pensavam que João era realmente profeta",
+          "enderecoNAA": "Marcos 11.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "11.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus regressou a Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus regressou a Jerusalém."
+          },
+          {
+            "id": "P02",
+            "text": "Ele andava pelo templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele andava pelo templo."
+          },
+          {
+            "id": "P03",
+            "text": "Principais sacerdotes vieram ao seu encontro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Principais sacerdotes vieram ao seu encontro."
+          },
+          {
+            "id": "P04",
+            "text": "Escribas e anciãos também vieram.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, lugar e ações no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Escribas e anciãos também vieram."
+          },
+          {
+            "id": "P05",
+            "text": "Eles perguntaram com que autoridade Jesus fazia aquelas coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles perguntaram com que autoridade Jesus fazia aquelas coisas."
+          },
+          {
+            "id": "P06",
+            "text": "Também perguntaram quem lhe dera a autoridade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Também perguntaram quem lhe dera a autoridade."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus condicionou sua resposta à resposta deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus condicionou sua resposta à resposta deles."
+          },
+          {
+            "id": "P08",
+            "text": "A contrapergunta tratou do batismo de João.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A contrapergunta tratou do batismo de João."
+          },
+          {
+            "id": "P09",
+            "text": "As origens propostas eram céu ou homens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "As origens propostas eram céu ou homens."
+          },
+          {
+            "id": "P10",
+            "text": "Eles discutiram entre si.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles discutiram entre si."
+          },
+          {
+            "id": "P11",
+            "text": "Responder “do céu” levantaria a pergunta sobre não terem acreditado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Responder “do céu” levantaria a pergunta sobre não terem acreditado."
+          },
+          {
+            "id": "P12",
+            "text": "Responder “dos homens” fazia temer o povo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Responder “dos homens” fazia temer o povo."
+          },
+          {
+            "id": "P13",
+            "text": "Todos pensavam que João era realmente profeta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Todos pensavam que João era realmente profeta."
+          },
+          {
+            "id": "P14",
+            "text": "Eles responderam que não sabiam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles responderam que não sabiam."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus então não lhes disse com que autoridade agia.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o relato ou ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "11.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus então não lhes disse com que autoridade agia."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 11.27-33 registra a pergunta dos líderes sobre a autoridade de Jesus, sua contrapergunta sobre o batismo de João, a deliberação e o impasse final.",
+        "hinge": "A pauta não responde por inferência à pergunta sobre a autoridade; preserva somente perguntas, raciocínio e respostas declarados em Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "11.27-33",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
             "checkedAt": "2026-09-14"
           }
         ]
