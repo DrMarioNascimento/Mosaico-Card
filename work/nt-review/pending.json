@@ -1,0 +1,75 @@
+{
+  "updatedAt": "2026-09-14",
+  "items": [
+    {
+      "id": "pending-marcos-7-16",
+      "reference": "Mc 7.16",
+      "evidence": "Verso apresentado entre colchetes na NAA consultada anteriormente.",
+      "impact": "Permanece fora de campos, alternativas, gabaritos e pistas até decisão.",
+      "options": [
+        "manter fora",
+        "autorizar conteúdo com ressalva textual"
+      ]
+    },
+    {
+      "id": "pending-marcos-9-44",
+      "reference": "Mc 9.44",
+      "evidence": "Verso entre colchetes, com nota de manuscritos mais recentes.",
+      "impact": "Não integra a pauta de Mc 9.42-50.",
+      "options": [
+        "manter fora",
+        "autorizar conteúdo com ressalva textual"
+      ]
+    },
+    {
+      "id": "pending-marcos-9-46",
+      "reference": "Mc 9.46",
+      "evidence": "Verso entre colchetes, com nota de manuscritos mais recentes.",
+      "impact": "Não integra a pauta de Mc 9.42-50.",
+      "options": [
+        "manter fora",
+        "autorizar conteúdo com ressalva textual"
+      ]
+    },
+    {
+      "id": "pending-marcos-11-26",
+      "reference": "Mc 11.26",
+      "evidence": "Cláusula entre colchetes, com nota de manuscritos mais recentes.",
+      "impact": "Não integra referência, gabarito ou pista.",
+      "options": [
+        "manter fora",
+        "autorizar conteúdo com ressalva textual"
+      ]
+    },
+    {
+      "id": "pending-marcos-15-28",
+      "reference": "Mc 15.28",
+      "evidence": "A página NAA 1840 exibe o verso entre colchetes e informa que consta em manuscritos mais recentes.",
+      "impact": "Isolado da nova pauta de Mc 15.21-32; não usado em referência, campo, alternativa, gabarito ou pista.",
+      "options": [
+        "manter fora",
+        "autorizar conteúdo com ressalva textual"
+      ]
+    },
+    {
+      "id": "pending-1corintios-11-estrutura",
+      "reference": "1Co 11.2-16",
+      "evidence": "Há exatamente três conteúdos aprovados e proibição vigente de fabricar quarto campo.",
+      "impact": "Contrato exige quatro campos; nenhuma pauta funcional pode ser integrada.",
+      "options": [
+        "manter pendência estrutural",
+        "autorizar explicitamente um quarto conteúdo"
+      ]
+    },
+    {
+      "id": "pending-variantes-funcionais",
+      "reference": "Mt 17.21 e decisões de variantes registradas",
+      "evidence": "Perspectivas documentadas não possuem seleção funcional no runtime.",
+      "impact": "Variantes funcionais permanecem em zero.",
+      "options": [
+        "manter apenas documentação",
+        "especificar mecanismo funcional em tarefa própria"
+      ]
+    }
+  ]
+}

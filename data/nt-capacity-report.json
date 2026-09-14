@@ -1,0 +1,103 @@
+{
+  "schemaVersion": 1,
+  "reportDate": "2026-09-14",
+  "status": "partial",
+  "source": {
+    "file": "data/nt-bank.json",
+    "catalogVersion": "checkpoint-107-marcos-14-16-8-integral",
+    "sha256": "5a17afb14ea2d4184cc579b0ae2546ea8c7f204b59fd93bf60689dac4d39cd81",
+    "baseCommit": "1756bfee941b414d06a1d6ccb5929a27d37e7e36"
+  },
+  "units": {
+    "cases": 350,
+    "playableCaseIds": 350,
+    "clueCards": 6525,
+    "uniqueClueStringsExact": 6485,
+    "semanticallyUniqueFacts": null,
+    "storyOrEpisodeGroups": null,
+    "functionalVariants": 0
+  },
+  "nullReasons": {
+    "semanticallyUniqueFacts": "Não houve verificação semântica exaustiva fato a fato; a auditoria de similaridade é somente triagem.",
+    "storyOrEpisodeGroups": "O modelo não possui agrupamento canônico de IDs por história ou episódio; IDs não podem ser contados automaticamente como histórias independentes."
+  },
+  "drawRules": {
+    "casesPerDraw": 1,
+    "withoutReplacementUnit": "eligible case ID within the bag for the selected player count",
+    "participantRange": [
+      2,
+      12
+    ],
+    "caseCapacityFormula": "min(12, floor((clueCards - 1) / 2))",
+    "dealPremise": "duas pistas por jogador e ao menos uma pista no poço",
+    "reset": "não há API pública de reset; quando o saco compatível fica vazio, todos os IDs elegíveis são reembaralhados; se houver mais de um, o primeiro do novo ciclo não repete o último do ciclo anterior",
+    "persistence": "localStorage por namespace, catalogVersion, schemaVersion e número de jogadores; se leitura ou escrita falhar, o sorteio continua, mas o saco é reconstruído em chamada posterior e a garantia de não repetição entre chamadas deixa de existir"
+  },
+  "capacity": [
+    {
+      "players": 2,
+      "eligibleCases": 350,
+      "drawsWithoutReplacementPerBagCycle": 350
+    },
+    {
+      "players": 3,
+      "eligibleCases": 348,
+      "drawsWithoutReplacementPerBagCycle": 348
+    },
+    {
+      "players": 4,
+      "eligibleCases": 330,
+      "drawsWithoutReplacementPerBagCycle": 330
+    },
+    {
+      "players": 5,
+      "eligibleCases": 305,
+      "drawsWithoutReplacementPerBagCycle": 305
+    },
+    {
+      "players": 6,
+      "eligibleCases": 291,
+      "drawsWithoutReplacementPerBagCycle": 291
+    },
+    {
+      "players": 7,
+      "eligibleCases": 245,
+      "drawsWithoutReplacementPerBagCycle": 245
+    },
+    {
+      "players": 8,
+      "eligibleCases": 216,
+      "drawsWithoutReplacementPerBagCycle": 216
+    },
+    {
+      "players": 9,
+      "eligibleCases": 172,
+      "drawsWithoutReplacementPerBagCycle": 172
+    },
+    {
+      "players": 10,
+      "eligibleCases": 139,
+      "drawsWithoutReplacementPerBagCycle": 139
+    },
+    {
+      "players": 11,
+      "eligibleCases": 113,
+      "drawsWithoutReplacementPerBagCycle": 113
+    },
+    {
+      "players": 12,
+      "eligibleCases": 99,
+      "drawsWithoutReplacementPerBagCycle": 99
+    }
+  ],
+  "structuralPending": [
+    "1Co 11.2-16: exatamente três conteúdos aprovados, sem quarto campo autorizado",
+    "Mt 17.21: perspectivas registradas, mas seleção funcional de variantes não implementada"
+  ],
+  "remainingAudits": [
+    "Marcos 14–16.8 foi revisado integralmente; resta somente a fila textual consolidada de Marcos",
+    "Mc 11.26 é pendência textual isolada e não integra perguntas, respostas ou pistas",
+    "demais linhas PENDENTE da matriz em docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md",
+    "1Co 14.35 excluído do jogo; 1Co 14.34 e 14.36 sem novas perguntas aprovadas"
+  ]
+}

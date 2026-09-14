@@ -1,0 +1,98 @@
+{
+  "scope": "MRK 14–16.8",
+  "state": "complete",
+  "lastCompleted": "16.8",
+  "next": "none within authorized scope; next broad block Lucas 1–12",
+  "decisions": [
+    {
+      "reference": "14.1-9",
+      "status": "supported",
+      "caseId": "nt2-marcos-plano-betania-perfume-memoria"
+    },
+    {
+      "reference": "14.10-11",
+      "status": "supported",
+      "caseId": "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao"
+    },
+    {
+      "reference": "14.12-16",
+      "status": "supported",
+      "caseId": "nt2-marcos-pascoa-homem-cantaro-cenaculo"
+    },
+    {
+      "reference": "14.17-21",
+      "status": "supported",
+      "caseId": "nt2-marcos-mesa-doze-traidor-prato"
+    },
+    {
+      "reference": "14.22-26",
+      "status": "supported",
+      "caseId": "nt2-marcos-pao-calice-videira-hino"
+    },
+    {
+      "reference": "14.27-31",
+      "status": "supported",
+      "caseId": "nt2-marcos-pastor-galileia-pedro-galo"
+    },
+    {
+      "reference": "14.32-42",
+      "status": "supported",
+      "caseId": "nt2-marcos-getsemani-aba-vigiar-entrega"
+    },
+    {
+      "reference": "14.43-52",
+      "status": "supported-documentary",
+      "caseId": "nt2-marcos-judas-beijo-espadas-jovem"
+    },
+    {
+      "reference": "14.53-65",
+      "status": "supported",
+      "caseId": "nt2-marcos-sinedrio-testemunhos-silencio-confissao"
+    },
+    {
+      "reference": "14.66-72",
+      "status": "supported",
+      "caseId": "nt2-marcos-patio-empregada-negacoes-choro"
+    },
+    {
+      "reference": "15.1-15",
+      "status": "supported",
+      "caseId": "nt2-marcos-pilatos-barrabas-multidao-crucificacao"
+    },
+    {
+      "reference": "15.16-20",
+      "status": "supported",
+      "caseId": "nt2-marcos-pretorio-purpura-espinhos-zombaria"
+    },
+    {
+      "reference": "15.21-27,29-32",
+      "status": "supported-excluding-textual-pending",
+      "caseId": "nt2-marcos-cireneu-golgota-inscricao-zombaria"
+    },
+    {
+      "reference": "15.28",
+      "status": "pending-textual",
+      "caseId": null
+    },
+    {
+      "reference": "15.33-41",
+      "status": "supported",
+      "caseId": "nt2-marcos-trevas-grito-veu-centuriao-mulheres"
+    },
+    {
+      "reference": "15.42-47",
+      "status": "covered",
+      "caseId": "nt2-sepultamento-jesus"
+    },
+    {
+      "reference": "16.1-8",
+      "status": "supported",
+      "caseId": "nt2-marcos-mulheres-pedra-jovem-galileia"
+    },
+    {
+      "reference": "16.9-20",
+      "status": "excluded-by-user",
+      "caseId": null
+    }
+  ]
+}

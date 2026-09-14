@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "createdAt": "2026-09-14",
+  "baseline": {
+    "catalogCases": 350,
+    "clueCards": 6525,
+    "bankMutation": false
+  },
+  "method": [
+    "Consulta HTTP direta das páginas Bible.com 1840 identificadas como NAA.",
+    "Lucas, João, Atos e Romanos: conteúdo efetivamente examinado, com sínteses e observações originais por capítulo.",
+    "1 Coríntios–Apocalipse: somente obtenção, hash e mapeamento; não classificados como análise concluída.",
+    "Nenhum texto bíblico integral foi preservado; temporários foram descartados após cada livro."
+  ],
+  "destination": {
+    "type": "private-drive-handoff-by-coordination",
+    "folderId": "1oLCZuhp16MpCOOIYf0kVrYJsJkVE9Grg",
+    "manifestId": "145i5ehIc7PsMc5Bvc9s76ZtlGhNrrCTL",
+    "uploadAttempted": false,
+    "reason": "Conector Drive não disponível; nenhuma credencial foi buscada ou inventada."
+  },
+  "files": [
+    "candidates.jsonl",
+    "chapter-analysis.jsonl",
+    "luke-candidates.jsonl",
+    "john-chapter-analysis.jsonl",
+    "john-candidates.jsonl",
+    "acts-chapter-analysis.jsonl",
+    "acts-candidates.jsonl",
+    "romans-chapter-analysis.jsonl",
+    "romans-candidates.jsonl",
+    "coverage.json",
+    "pending.json",
+    "metadata.json",
+    "README.md"
+  ],
+  "checkpoint": {
+    "lastBookAnalyzed": "Romanos",
+    "lastChapterAnalyzed": 16,
+    "nextBook": "1 Coríntios",
+    "nextChapter": 1,
+    "reason": "Limite técnico real após o bloco completo de Romanos; iniciar 1 Coríntios sem capacidade para leitura e notas concretas degradaria a análise."
+  }
+}

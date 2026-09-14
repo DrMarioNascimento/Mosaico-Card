@@ -1,0 +1,2575 @@
+{
+  "schemaVersion": 1,
+  "scope": "Lucas–Apocalipse (todos os capítulos; Mateus e Marcos não reabertos)",
+  "edition": "Nova Almeida Atualizada (NAA)",
+  "rightsNotice": "Nova Almeida Atualizada © 2017 Sociedade Bíblica do Brasil (SBB). A tradução foi usada temporariamente para leitura; este diretório preserva somente notas analíticas originais, referências e metadados.",
+  "checkedAt": "2026-09-14",
+  "status": "partial-content-analysis",
+  "books": [
+    {
+      "book": "Lucas",
+      "code": "LUK",
+      "chaptersExpected": 24,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 413498,
+          "sha256": "222bac1986c9c1fa69a416d585c168b7b25279582c5afc41250abde1274e6e40",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 363728,
+          "sha256": "62b5fccbe66f3b666e95de3ab88c61cdfb1aabb7b757fcdf88c30e2093e55b2d",
+          "sectionsObserved": 8,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 353915,
+          "sha256": "4b84f2628433db2dc31483a3de909231498ddbfbc623fb805a5d31ef833c7662",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 378620,
+          "sha256": "79e9be07773ee3b6e33962f2e96a41f67f077f8d810dc758f9be89628dd1f9fe",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 358209,
+          "sha256": "063f540c7f26a0840248a5307c0bbda9784cfce53d6885019db80b4cb54d0ca2",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 385033,
+          "sha256": "b6f73ba1816b9551082dd894612ab3e61b90c3d7709f63b7613435e5e92c1b9e",
+          "sectionsObserved": 9,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 372695,
+          "sha256": "8bba0787cea25e65c3d33cb7cdd7a90f40ba16be875631f8b1ada1c81e373806",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 378114,
+          "sha256": "a075726ba49bca7cbe19424601b50f665de13f68b6f328816f3e7700bb5a77ee",
+          "sectionsObserved": 11,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 397983,
+          "sha256": "3145868f1d41f122c2b15d5d76040b3c5eca3d9062ee96337e01988e31bd7769",
+          "sectionsObserved": 12,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 377218,
+          "sha256": "b5894608dca705385b55d81a284cd6243bf162886104bb1cb49166576c101f66",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 382833,
+          "sha256": "e01cfe564a9e91684c10dfbdbd6081034303c834e3b672f62c9f4f499d8a326a",
+          "sectionsObserved": 9,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 391797,
+          "sha256": "8c3507c9641a40f3a8be5049aac3c29bc243700e00956dacc45118138a2e7010",
+          "sectionsObserved": 9,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 352966,
+          "sha256": "4bbaef0a0c357ce62a4a9c30540898e4a157dc6716d5c94665a95ad604747724",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 348644,
+          "sha256": "60554398a15ee95b373f33f23438c73684a74c97e0fbd4f26b198ed42810a80a",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 341586,
+          "sha256": "cad1394544d36321b4b41e9e425323466ba095d810d4fe70bc7104fd1bedbf67",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 346894,
+          "sha256": "3d429c45d9f335da8e6e05f5087ef66acb545b7c6efdafb5a86bc234b558b97d",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 17,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.17.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 353878,
+          "sha256": "9b649d9506dc8accdf7cac86f04d08ada9598844624d8c6d9af68eb08bf2c95c",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 18,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.18.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 369922,
+          "sha256": "906b704949f147cb0ea7579bc2d7196d4ea57344508c3499b351660dd98f6281",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 19,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.19.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 370212,
+          "sha256": "d53f83c029ace34da790210f7f372cac4d635085ad2305358b305b4aa6071ff4",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 20,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.20.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 368692,
+          "sha256": "03276d6d99d4aa8af448aa2c0e6f88c880f8eb3ad4772bd007b41f95ea9b701e",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 21,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.21.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 352633,
+          "sha256": "cf0c31423ab3385c7f06b019213c86cf4f73b49d156da467cac8f7beaf0cfaeb",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 22,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.22.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 412910,
+          "sha256": "332f88a37182bbd6af40d0ee42938f44691588aeba6df91326a37a30491ea4be",
+          "sectionsObserved": 12,
+          "gap": null
+        },
+        {
+          "chapter": 23,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.23.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 375539,
+          "sha256": "90bba53eba6a735a663b7b5399cd1232aeed9d28240bbd73b3bf8a89fbc58a61",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 24,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/LUK.24.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 373684,
+          "sha256": "025114b1f592c545694c5d5dd009d38bfd9295de60a697b7cd4c442a40710924",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "João",
+      "code": "JHN",
+      "chaptersExpected": 21,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 384524,
+          "sha256": "8041b8153884cea6665d7d7434aa970dfe3c9aa33b9c74431b6db559cbc23f66",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340815,
+          "sha256": "7942b754ddf8f46461a64eba994b70fedf1ef57e6e4e0931759448f8e9d1fb7f",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 353368,
+          "sha256": "5e2898b875955742fe70ac4d2105b17f49ca57e9f81593325cdba873b761142c",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 374027,
+          "sha256": "ad453d1ec19efbbdf29a8f9c84373ddaf6f215744898d7b15ac1fa25f12ac12a",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 365250,
+          "sha256": "7e30ca8c94d1934ba46470dae656f552eef9e8170f044b8bb46d0281488ebfab",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 389570,
+          "sha256": "d40da3a1fab8b6fa0c98f44ef6d354308b28823b3464efb2cd2a246fc773ad49",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 374573,
+          "sha256": "071485fe81485b3b9a11076e389041cf73e88440520eb949c1568676269c2c34",
+          "sectionsObserved": 9,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 385293,
+          "sha256": "a5ae4e3f4c427593b6e30c0910bd36424a65ac5ac02b2a178ee37936fa7c314c",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 359640,
+          "sha256": "0aef9a9f7face6d6a8f6617af6f4ac2ee177e83b6f963d39d510598c0c4e2b8d",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 356006,
+          "sha256": "9d7eb0e10fde08900a8fb436ec7a0e5dcd06d563387f9f83aecd027c854c9127",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 374233,
+          "sha256": "82d87f6ec1a95ea6e95320a6c2888145580dad43334e87e9f303c115da8bc050",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 379007,
+          "sha256": "1e373ddb8959436ddb62b7e5cd24448e0a47a71ddd3d484a74ca6daa3e1cb71b",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 357068,
+          "sha256": "ccce2ff8a663ef02c6f346b3a10089e08d2b4d948f3b1103d8ed777de2c171d4",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 360171,
+          "sha256": "7ae401a0ddf09008a3f51581632e555e96129eedf139d86381610e9b7439e89e",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 344244,
+          "sha256": "8bd38c04a1ce9719436ff7a18549a90f9a4fa8ffdfd1f35945fae26c5b155079",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 347694,
+          "sha256": "d41cf664100b7677a1b5feedded352c8b745e4588b0dd0939263c3a73cdee61f",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 17,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.17.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 339557,
+          "sha256": "7797d2d864ae61e9f5dadea15e82fde72335c0ef274c288125842393475f9ec0",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 18,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.18.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 371966,
+          "sha256": "db799f44ed19ade201743901823291b0d2e82da980df3d5032a9a02021b0ea88",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 19,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.19.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 369887,
+          "sha256": "816c096807874b0da4fe79bee626e980e80e3de43d425e4754bddbb37af1e78a",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 20,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.20.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 352922,
+          "sha256": "fcdf8de677727bffba89a28e62e050c175452c965071190d832447a212bf1005",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 21,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JHN.21.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 342938,
+          "sha256": "0c232ba36b392fd31ec3456b2aa62141f3a416a63d01f2ce664cfb9c9d156867",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Atos",
+      "code": "ACT",
+      "chaptersExpected": 28,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 347409,
+          "sha256": "0c6f92bead9240705e0d23d6f8ee2c27489c166c3f78d87b56bba353e67ade28",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 369201,
+          "sha256": "8170da2c0183b3eff0f110ef216553c2dbecc9d8dfd51893b479b8a3dc5bc1c4",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 339955,
+          "sha256": "1c1045dd24384c27ba1a97afd81bc1fa7a896aae28c1ce00e4477b2c354ca989",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 349794,
+          "sha256": "9d58f9bf6d4efa718289cd586df77af708cdc1f7b1913f9aecd1ec3a111dbf1d",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 349031,
+          "sha256": "c184ff606cd23bb4bfcdbd90a33a64eee1cd9008975ea1e398bf9ec52405d749",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319376,
+          "sha256": "8c7d4587474f115bab75128497a1f6de221a2819e1474af52dac2c31e2d9fe61",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 392548,
+          "sha256": "07bdf02debc5e0948f61b2db8dd166fde3d7ffc1c7bed687742cdf034b9d0a76",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 352208,
+          "sha256": "6d886a3b6acee58d5e0c0b75e936663cb04417d06ff4545c98428346446014a1",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 355830,
+          "sha256": "6a3cf35ca90e47cc8e47668df4124980e87b32298fd891a9b6868407bf27e0a4",
+          "sectionsObserved": 8,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 355360,
+          "sha256": "8bf95932bd9b325ac9c52efa8d60b0a6a114f229f256a9569c1d075c234e4031",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 333094,
+          "sha256": "98a5e7bf5f3bf7b1fbf074a02706789b3e0ffb5f5b84303ebb8cc81c96b6652e",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332216,
+          "sha256": "beb8f02fb8f542f9ba1085eb403855a3baa88810c3b67893afd18695770a5b27",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 376325,
+          "sha256": "b7fc25143111c4c811c45c1c5d83855316041600b2165d7736414a171371761b",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 335504,
+          "sha256": "21dd30698c768a72571ecb8ad145987c7a88c51921ebebd5ff96f460181ea44c",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 351307,
+          "sha256": "a9778ec57b59991a04ae024f8b419d69ea95faedaa4eb50c58328348ba5d8f82",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 344923,
+          "sha256": "7c74dc42c01e030b92992da76f20efbe272f3a5aac968dd194a685334c889313",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 17,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.17.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 342777,
+          "sha256": "b84ea626b327bd41e8b61fca30118800231f42aeec344f5cd125120351b932d2",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 18,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.18.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332903,
+          "sha256": "89f136f1b8359d14b33a2cecb5289c560dacc060132c191a9d202f85fc479d13",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 19,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.19.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 348858,
+          "sha256": "5b08a6ddb28fc4e0d831b45792b1747f112a85a2fdc42e4742a92e996a7e9f6b",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 20,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.20.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 338432,
+          "sha256": "0c6dbd6e3493b862f3447265dd4f10dec1ec9f5741f7371c0006a12a1ea7e78b",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 21,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.21.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 346059,
+          "sha256": "12b1fdd829a0899e8e1b509cb71e63b34f51574e62809b3575ea133b64572118",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 22,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.22.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 339789,
+          "sha256": "c08fd405a6c719ae37bfe11e0d8df14d4fac44c7d985bc4741479130447ac22a",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 23,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.23.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 345960,
+          "sha256": "4a09f3a128f0e2fbc1528b2c53a4ac2f2a0c295b6c0d0dc6b307c8838839491c",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 24,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.24.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332264,
+          "sha256": "446c383c988d845c18cdc771e994849b0ab73d1a3ed1c6cc77458f8e4baa20de",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 25,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.25.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 331649,
+          "sha256": "99e47bad5eb93856111c5c9bcb708ed73820751a0db560cddc74183572687b8d",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 26,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.26.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 343057,
+          "sha256": "17dbe3a03bf61631162450940023d538035a4dbf0f9f17948f4a6af1f495527d",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 27,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.27.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340984,
+          "sha256": "8a4ae1a7b27ccf7d93805c75d56c584097c8350e67cdc550a59dbf14a3f42d71",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 28,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ACT.28.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 343796,
+          "sha256": "3e03731a83169200cc3b97e228c2fba3662d095d6d6dbccfb0f09c769845cdc5",
+          "sectionsObserved": 6,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Romanos",
+      "code": "ROM",
+      "chaptersExpected": 16,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 335479,
+          "sha256": "f430955618e4c5aa0a37146113402cc95a10b03f521dd1705930c9649ae70922",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330886,
+          "sha256": "85c6631291e6804cc4d48b0f748cc4fd2b8b9e86b6d04a62146295c90750f64c",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 346148,
+          "sha256": "32b7de883aa7ec90bcc9308ef78754f5e6e186bfe293145d75528676a764fee9",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 331557,
+          "sha256": "7f5be74ee843a862f2fcb5b28fe9df8aae51eb2964bb6e8e8fa8a886931fc4aa",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322942,
+          "sha256": "20d8cfbb1f66729573372487f5c84e48a08f47aad831b2cf1d13dd354b573fc7",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325297,
+          "sha256": "7a55dca2029d4d1b4c1b1fb59e49a06ebfaa01a00860813eddc66a8817297f3c",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 326906,
+          "sha256": "bada6edeabe9a209186cfccf49b6f3305260755612a041d3a2620147aa1516d4",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 351440,
+          "sha256": "5fc9703f94b31b20a8b3516c3c496edaf8408ac4730ca6963a2034c91e41601c",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 348942,
+          "sha256": "ba2cbe3d0d48e934293694bf3dd084a447d9007f833946df03cfaeefd37fba87",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 331536,
+          "sha256": "26bcf830df5219bb02ecb4618ef24f5db652a1405c8dea9bb63676cacd685ed9",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 352443,
+          "sha256": "8765c15c279085907c9686f0708823a030f6e93b5785848e626c9f5d2abe3d22",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332724,
+          "sha256": "135ac036fbd782b01b524143324f6ea006b09fe2d453199bf806b3e4207e3701",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320730,
+          "sha256": "28f0b5f4954c85b367aef6b11588f5d129fc7fc84ce51b1ed0299c13d9ac3d43",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325429,
+          "sha256": "9d1c3971d22bb7e5d58b9ba2df01bafb7d36a3c73e1f046bb02cdb7e626904de",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 343682,
+          "sha256": "05c71db9dc2b2e85534c29d547a2c54c8f82b792896b1a5f19655e7f9f6b73c6",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "analyzed-content-read",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/ROM.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 327439,
+          "sha256": "620095c338f5620439cdede61c96a5bac0917f4c7c6306f9161816c11d59dfbc",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "1 Coríntios",
+      "code": "1CO",
+      "chaptersExpected": 16,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 337088,
+          "sha256": "836cd0c15040f1d79322ce203569e390bb9c76d6d411bd387ed6ec469158bd3b",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323217,
+          "sha256": "3ea7b50979a218e073ea564d9703931b9b2b9e7f50befdface4d7ec3d58c297e",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325244,
+          "sha256": "ebfd69de0f516b3b3531ad7d3549643f6ec576120a01a8fe11078fec8a7c36cc",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322697,
+          "sha256": "708a478240abd9e1d1ce1c2e0ca87dc252f4db1675d6c39a8ff9a73aa73a303b",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 310612,
+          "sha256": "651073866df9770714ba40c9c7ef4f3300fcf2378c71b9c7b38b11fafdeb74f0",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321250,
+          "sha256": "040a14a8719853b0bfb003057b26245520054dd02c360bd6660641a642d3aee0",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 336406,
+          "sha256": "9709db9806aa5a93af50264c99fee8c9af34bf30cff6d1588dd1674c4861e50f",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 311151,
+          "sha256": "a01132e5da2966955845b4667fdf61b38f1926a41d85f353f7acfd5ce18aa8e1",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 329815,
+          "sha256": "353a518b7191d8919a9f53ac144750f498fe404e6457a651c8eeb2430c49fac2",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 337990,
+          "sha256": "a9051f7a4e3eaff23995dfe880a8e35985632cb2b5cde3d0a2ade314692dd65a",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325977,
+          "sha256": "d95c9d636ebb42f4c68d833c44edc79792b06ef30626901001ac169619312f55",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324883,
+          "sha256": "a3254cf589205fadb901d200ec4b0614119bc874643468d0f29baeed3e717ddc",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 309932,
+          "sha256": "39dee5688c7e3c3cc029edb8581dcc12b07d8f1b205c2d97d0b26f99c6724056",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330721,
+          "sha256": "397ce96cbcb06a274623f23e370f2ba2822b547be38184faaffe923548e74b48",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 360822,
+          "sha256": "59f03a919b1d98a48cca82cf388e15fe3e2b1224bcc5fa27dafe352e536304a6",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1CO.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 326826,
+          "sha256": "330a67630d35406bd7191aa203fefb96d16dad573389f3262aab0142872faafc",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "2 Coríntios",
+      "code": "2CO",
+      "chaptersExpected": 13,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332955,
+          "sha256": "abaa045f6e592d89483abf494b28fa5f3dad4f67f9bcd4f1f513488bbf04ba11",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 318800,
+          "sha256": "bd6382a2701b591ff8425b1034e91f520cefd7a8d36796daf5ed5e39a4b0d1d6",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320546,
+          "sha256": "3fa5c1031b14c7d42fabc87f8cb516c9ff3fb3d5fed8142e2ab2582e337b0044",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 317332,
+          "sha256": "4e2a905c3ef9ba9269340e3c17a27abdcbe497e0b1a2f1bb5e31a32bdb66f89d",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322054,
+          "sha256": "31816da4ca24479cf879ad774b6231dccc76fa8a5278b802d8134525eae9dd97",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325602,
+          "sha256": "557abcd4f66ff34d9f2ecc03050eec5e6015682b61178c3dbd29dae2fe4078d9",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 311919,
+          "sha256": "16f97201cef29feba611293ba804228dcfd64dd154f9f00f7b8400b4966f3376",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319347,
+          "sha256": "9584a296368125292afc75277582367732311689ad01f6602be828d274d3b5a5",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 312734,
+          "sha256": "5c8eef7e4de7afc67786f639b5f349a639974eaeb6121c116f98b54de7babe07",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 316898,
+          "sha256": "7457b980907da1e247dedb7e47fa237834e94ca5b86118720b15abc89db4316c",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 333579,
+          "sha256": "3f7c2eebaffad94a36759b8b2f2c4bf715bc3564f2daf089932bc65e0a73cf44",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321031,
+          "sha256": "7a09273d829f1d821ee2605b49b1118d217893c4a647818de3333993136fbabb",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2CO.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 312453,
+          "sha256": "670accf87a0edd7ce0d33001254796b96aa8c55c4ba386ebca2000e8b7a2845e",
+          "sectionsObserved": 3,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Gálatas",
+      "code": "GAL",
+      "chaptersExpected": 6,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321721,
+          "sha256": "b44d5d41ffda86c06214ebddfbf308cd8ed9e500ee45f4018e25f34d86cd9d71",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319216,
+          "sha256": "883175769bf052a1338ad9aae48509318309a413db93bbe317413f447e82019f",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 329760,
+          "sha256": "6bf7f03f759fed698e2fa1e6e504bcccc67433bd66074f48665b82e1e98f2167",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 329564,
+          "sha256": "3f240d3d72b3e48e11ecacb997552aa31acecf9d0ac9f4ea557af611a18685fb",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321986,
+          "sha256": "b10b3ebe0f2030e1f6bcafadc3f033a8e5be34bea37db94cf63952612bb91782",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/GAL.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 316164,
+          "sha256": "7314b6feadc03df45881a0c7d2cf862e0bf320c4a4a3cabb7a350e41d7f318df",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Efésios",
+      "code": "EPH",
+      "chaptersExpected": 6,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325220,
+          "sha256": "11d4e9b579318e90f945d8e6947f7d0bc1645587891a57d58fc5637bac87c0ce",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323499,
+          "sha256": "94269c7b0a2477a3959b8573eb73fe4bee729e159a72c9f65eb6851d7006503a",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319181,
+          "sha256": "a35aad2440f03d3742f7bcc3cbc4fabee3177143ded4aee6262b4ebce0a3d783",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 336308,
+          "sha256": "c10abbf12e0f5f2d4c8f884f5352206a9a884f4da15ccfbb69b79c5d4524c333",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 343163,
+          "sha256": "d51d92df3dec62b8e49925248f6f4cd83b4bf67941843ac76dc99379aec78b53",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/EPH.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 326702,
+          "sha256": "31814c53dca61a67bfc4f6c4033ee7d2dc1097a23c65c6438767691629bc350c",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Filipenses",
+      "code": "PHP",
+      "chaptersExpected": 4,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/PHP.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324839,
+          "sha256": "acfa2f7fef74eee1c42742de99ced86b668c1fa6840849acde63e2b5bc5cf4fb",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/PHP.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332081,
+          "sha256": "10b96953781dbedc289fe9995e50ba32d827a68e3029b1611c5a38cfdf1a7f04",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/PHP.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324169,
+          "sha256": "c8a85e2e00f025178563b262e3c428400f07137e0141d56a774aaa478008e3ac",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/PHP.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325176,
+          "sha256": "5801d30e2247fcdc6cad5cf3498a1c700d6e834b65e1c8ea6cd3f053d82bb492",
+          "sectionsObserved": 6,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Colossenses",
+      "code": "COL",
+      "chaptersExpected": 4,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/COL.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 339145,
+          "sha256": "3697309e595c555d5d9c9375a25182d76f9c4ba0f3d5b2af7ca02b04187d3514",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/COL.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323987,
+          "sha256": "2bc2bde045d66eeaa7a88d639b9e064d59514fabeaee5f8fb46ad5ed4c3c52c2",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/COL.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 327645,
+          "sha256": "5bd04492067f2491b64cb4da4b0ffd02ff1ed4beb1851c0b52b9ff77b174edcd",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/COL.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325338,
+          "sha256": "8fe949eea69bd4587847f5832bf66c88c6898ddab736a0ca65ef3b9a31eb2060",
+          "sectionsObserved": 3,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "1 Tessalonicenses",
+      "code": "1TH",
+      "chaptersExpected": 5,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TH.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 308889,
+          "sha256": "542e135ae07fcbef57ddf338918532daae43be2e5bc52d3af8572e0decaf4b6c",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TH.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324987,
+          "sha256": "97101091cacede1dc50c6efd96204ba885d3167da9bebf9f8f00050fc17c9016",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TH.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 310813,
+          "sha256": "883caf98cc8040ab5382b1f4866b64055c80adf82547b79730bfdc62351e28e0",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TH.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 312706,
+          "sha256": "12573036f0c9e3eadadb93dc53bf5dc654943ee8436b33ef5e590c00e0ea900c",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TH.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330574,
+          "sha256": "f18e0079baba9834d8eb3473c9cad4b7acdcf937ca9590c2f8bce0cc82dcb4d4",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "2 Tessalonicenses",
+      "code": "2TH",
+      "chaptersExpected": 3,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TH.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 306142,
+          "sha256": "f475eebaf1f81f7ca6fee34aef40cdf90ce5be9c9a437abf85cfd45ad9e7bee9",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TH.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 315166,
+          "sha256": "71a24b9edb634f496e1978b05e873a3273ccc8717d2c165959ab8c8e2de413cf",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TH.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321780,
+          "sha256": "e687905bf8159c30a768f38d6d040a20fd0857ff69226425f933a87de5184959",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "1 Timóteo",
+      "code": "1TI",
+      "chaptersExpected": 6,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 326968,
+          "sha256": "4d6b1c27bad9900ce5e802dd81fdeb27de5b31138c2844ecf54e32ac564153bf",
+          "sectionsObserved": 5,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 314044,
+          "sha256": "e2a2ed83229e5aa31d8c5f41b4326e35ec2ad6613c78a4e7a33a2b95f90e2270",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 315598,
+          "sha256": "611f3751d954bac461214bcdb6d11fb71a1841e76011d34fadd93eaf86e6ed71",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 315513,
+          "sha256": "e1a7315338b04421cccb837c1ec8b18ab2a9490d21f0ce742e018ece9ea1794b",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324004,
+          "sha256": "47a226ddf50fe87ec9d38956297117a540bb2bdda55bfb1aad921183c3fd1c68",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1TI.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325435,
+          "sha256": "967f3fed9b37617c25dc4cd922a02e2fdacdf5279be29000d8cbad11c3aeff40",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "2 Timóteo",
+      "code": "2TI",
+      "chaptersExpected": 4,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TI.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323572,
+          "sha256": "eefe61ef02d6f3d0df3f752c0f0290c87ce3ae9c740973991a67e7b13cb66c89",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TI.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332922,
+          "sha256": "1374945fd388c808a4f352249d55743ae654fdf0c2626655cd5c983057d2990a",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TI.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 317085,
+          "sha256": "3f8147ae4f0aceea4b576882b69249826b41d5af5adb87dc4817e9947a8d64f4",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2TI.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330817,
+          "sha256": "8bef539b3da6cc0b625c5cf90360e486683c1e15576270dab8f7187eb92b13cc",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Tito",
+      "code": "TIT",
+      "chaptersExpected": 3,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/TIT.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319387,
+          "sha256": "5352004546f97bd7096e3a8bf210aebb32e7e459df61d5db2ec728cedb4eca11",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/TIT.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 317443,
+          "sha256": "510fbe54af28e21cb8ef69fb806194f1c270b713a4293fe9067e79d166beda2e",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/TIT.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321175,
+          "sha256": "46f595e26c51009506d6c244046e152ac3eec7dab9d9a3addd58062450416099",
+          "sectionsObserved": 3,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Filemom",
+      "code": "PHM",
+      "chaptersExpected": 1,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/PHM.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 327422,
+          "sha256": "7f943fbee672792a64e37ac4af398d1c31a5c03610b1666055a1b282ffcb99ac",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Hebreus",
+      "code": "HEB",
+      "chaptersExpected": 13,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 336749,
+          "sha256": "d513993d14a834da34bf255e54b84a080e685f7e877351b6a353b1f71e1e5ad3",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 329529,
+          "sha256": "63601386feec653bb9d1c3978c9e96379d3d489a7499fae0b9c488ca19131f83",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322412,
+          "sha256": "9dff302a595aa31b098929fc52a64163582543c147decce312504172bdfd1173",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322467,
+          "sha256": "00ebf78e7fab719e91b3db549699f4afed9765e7a77ec4758b8147e8fe176938",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 313913,
+          "sha256": "b8e5910fc571651264c0b4c8627e844a18825ca99553dc6116c6c9817ccbff9f",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 317705,
+          "sha256": "f4e399929847a88afeb485b4d62ba18ee070472a427d12a9be376fde327834c7",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330286,
+          "sha256": "e7585e2c407be3d94d62484878875804c1df0f597d0f0631e4b943fdfefaa219",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323486,
+          "sha256": "8df83710eb4e045f572d331e7ef0ec01824c7c57d42ed82edc301b59874a625b",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 337933,
+          "sha256": "dac9b683a511a0b3a3599f73d33e03d5661adce573595f50cb6cd6178132178b",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 358677,
+          "sha256": "7284f9aa976a66ea694b1c9683a875e27e3f4c20837877f7d9c226aa0b0a3730",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 362272,
+          "sha256": "0cb418a1f52c20d23985f2edd74602380cf08b3bfd73dcf01641a3b96c2daf3f",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340228,
+          "sha256": "77ed872fec7be23e8d784d06beb710d51b4da1c71428baaa52b7bed96eb2d9c2",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/HEB.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 338150,
+          "sha256": "8f0cdee4947120bff1ac7c151c6ee4300d76f30435cf7a47650d04a83cd4b992",
+          "sectionsObserved": 6,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Tiago",
+      "code": "JAS",
+      "chaptersExpected": 5,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JAS.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 335294,
+          "sha256": "86cb9fddda753b4e5faf48b5d2c75944b5bc3ab8b8a2e0a9632ee352d30fa58c",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JAS.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 322194,
+          "sha256": "7f77136e8c5296a1d91c4197195277b6ae49c7e7186cc3fe321a22be150ffb11",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JAS.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 313303,
+          "sha256": "92126d480191267c5fdb19b949150143fe77f6c3035f9b9131834c3e146be97b",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JAS.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320456,
+          "sha256": "afbc38b5538c89b4f634018c93bc378d88527c37998db13ca3a04c7ac0476412",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JAS.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320675,
+          "sha256": "42f21f4e8a2a7924ba4d8ac6e839c787a99c965eaecafa3e719cb1b0488c1827",
+          "sectionsObserved": 3,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "1 Pedro",
+      "code": "1PE",
+      "chaptersExpected": 5,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1PE.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 339422,
+          "sha256": "65c9c2de92b210d660ba12f552f1621203b06982aaa54b15305c7de65ab431ec",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1PE.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 333881,
+          "sha256": "147ff01a3bf3c433ac91c17c2861a9b2cc228e9ee02ca07fd4acb911440e362d",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1PE.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 334811,
+          "sha256": "dc1e5fe7da2318d208110b42956a6da5112313e65708253b4153c3bcbd40cf39",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1PE.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 321451,
+          "sha256": "77b4e6afe7ad65b41c5fa5381520308c36071de98834d838a7c4ac133db58f1c",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1PE.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320631,
+          "sha256": "f0559bdb8b56ce10e312fcdb0b73f449f9e33d6ff3606bf5d167ba7d0a870498",
+          "sectionsObserved": 2,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "2 Pedro",
+      "code": "2PE",
+      "chaptersExpected": 3,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2PE.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325633,
+          "sha256": "fbf400042cb6c09b3e28efcff97e59d5062806dcd4b5a0c8ea8c3e6272d10d96",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2PE.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324279,
+          "sha256": "6492441f3577862a730042f855e0b23c17e1fab72cb4f09c6343045ee61e3a94",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2PE.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 318926,
+          "sha256": "a98c5acd9d5ba5734d4f2674dc0dd370927e4f03ac3876c8a1cf42857f28f7c3",
+          "sectionsObserved": 2,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "1 João",
+      "code": "1JN",
+      "chaptersExpected": 5,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1JN.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 315392,
+          "sha256": "fbc9b43f9edcc7eefb0d51317f702e301e03af9712d75d7e831ad9ffe893f0a1",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1JN.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 345504,
+          "sha256": "d1c8e01f255e01cbd600195912a2ba154d57d9387652547abc99cab892c11c04",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1JN.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 328499,
+          "sha256": "bb9963494441fc3f1cf021f254aac2f27bbec4c85b1838a23ac26a46d9a19afd",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1JN.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 327423,
+          "sha256": "02948efec72c753e65d6bbe0c6a54d9c4cf20c9a3ead6fd82600f4e2fe4a7b52",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/1JN.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 325808,
+          "sha256": "2ad8a0a1d08a956d5dd73bc6c9f90c50fc0794a62718ce2c016487ee06d44955",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "2 João",
+      "code": "2JN",
+      "chaptersExpected": 1,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/2JN.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 312725,
+          "sha256": "7e3ea8f9bb94c76c38d53ed28af3de609ec86cef2d1babec9449352fe3c1d1d2",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "3 João",
+      "code": "3JN",
+      "chaptersExpected": 1,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/3JN.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 312374,
+          "sha256": "006e113b3f2205b227b4774502f1346890e958068baf95b3cb5149641191fe6a",
+          "sectionsObserved": 4,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Judas",
+      "code": "JUD",
+      "chaptersExpected": 1,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/JUD.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 338528,
+          "sha256": "6d40bdb247ec98123a5bc1354005af74695013fcff723bf0e46f2ac97a49f666",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    },
+    {
+      "book": "Apocalipse",
+      "code": "REV",
+      "chaptersExpected": 22,
+      "chapters": [
+        {
+          "chapter": 1,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.1.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340823,
+          "sha256": "8833fcd66529e2c4a23b997bbf76c03d1b7fc63596d837e62a4acb8c763ce06f",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 2,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.2.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 359049,
+          "sha256": "91e9208a513de5fec8604e4d9790b2b3b6238006e2861e40ba8a15f8ecafabf5",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 3,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.3.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 357842,
+          "sha256": "0bb146aecdb718794f9a07bdcbb6e0f0d83800439680f5fc5c457bd1b5a8855e",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 4,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.4.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 323446,
+          "sha256": "5d8e404ee3a6a2369c14b444547a4fa13810dba38550e6eec6ae7f680f71c9e4",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 5,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.5.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 333318,
+          "sha256": "de49cf161cd2a931b32b5e7fa4bf12b557e237979d180af10cd58840f022c276",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 6,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.6.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 330623,
+          "sha256": "4015d2549b19f28d4a3a43f0dc9e7ddde88687cadf0aedb08c0b9e26375aca44",
+          "sectionsObserved": 7,
+          "gap": null
+        },
+        {
+          "chapter": 7,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.7.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 328986,
+          "sha256": "574b7c58d4109a1e5415c4686e2cd0357c4e9da7493d0dea24266ce3ce8c2283",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 8,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.8.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 320609,
+          "sha256": "331726b4468f1a7cb66a36ef6b629ce6e926cf3a04914bfc42096add76994f79",
+          "sectionsObserved": 6,
+          "gap": null
+        },
+        {
+          "chapter": 9,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.9.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 324584,
+          "sha256": "a9a0f51d14cc60657008559ce2712b8f4e9c5e9d3dbe10d6e8d6898cf37637ac",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 10,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.10.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 314270,
+          "sha256": "520d2297ccaafd9d2d98a62741fadc5f7b3240e73bac503b6e715b28124e62fe",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 11,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.11.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340098,
+          "sha256": "29386c3aa805888f910f6c677860ddeb93ab6ca43cde6dad5c3f3c72d97a6cb8",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 12,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.12.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340117,
+          "sha256": "315768b5166c708b4f474b1959e0afa77a3d80a352c1f0c5673d7f4625a3bcb3",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 13,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.13.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 327151,
+          "sha256": "dc939f865bff5f2422e50139c333e06cfd8c534218cb6a178593e1272102a6e8",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 14,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.14.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 332974,
+          "sha256": "6aaf5bb75f791483d44411aac31809745f9e0adb9037a54f7fac72a708df93bf",
+          "sectionsObserved": 4,
+          "gap": null
+        },
+        {
+          "chapter": 15,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.15.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 319797,
+          "sha256": "cfa752a0bf67ec2be66d277cbfdb295636e009f1b4ad6025c4c30564dbbd8d86",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 16,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.16.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 340343,
+          "sha256": "20eda5ca257cac18a43122a879f1e2c62bcc315532275d416a78580b8ec78a9a",
+          "sectionsObserved": 8,
+          "gap": null
+        },
+        {
+          "chapter": 17,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.17.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 326901,
+          "sha256": "174178462a8053e4b05f8d1d0ee02962b97681eb3cca13bc5cc8e81f2c18e22f",
+          "sectionsObserved": 1,
+          "gap": null
+        },
+        {
+          "chapter": 18,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.18.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 367934,
+          "sha256": "c30900c74e5111c90e683530f7fbf09ab42f01fe832e3ae762a45bb7c494a75a",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 19,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.19.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 348535,
+          "sha256": "febed1d36322d955e6b9f2e81c43de71ebd43d5cce6378f18f01432d333ec8ee",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 20,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.20.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 328092,
+          "sha256": "72f794b9d0560258fc4a8b5dcdad0b13bac655bb5b6b1923ba00891bdf1fd1e5",
+          "sectionsObserved": 3,
+          "gap": null
+        },
+        {
+          "chapter": 21,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.21.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 355839,
+          "sha256": "8baed0f97754a2844c3361417d9c5458d13a9c6cd144e248dfd75c5445820004",
+          "sectionsObserved": 2,
+          "gap": null
+        },
+        {
+          "chapter": 22,
+          "status": "obtained-section-mapped",
+          "sourceUrl": "https://www.bible.com/pt/bible/1840/REV.22.NAA",
+          "checkedAt": "2026-09-14",
+          "httpStatus": 200,
+          "bytes": 351811,
+          "sha256": "5a4e4d69c4a5a8ef58d0e694243a66dceb3dc5e885da1b0e5a48275b9188f268",
+          "sectionsObserved": 5,
+          "gap": null
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "books": 25,
+    "chapters": 216,
+    "candidates": 784,
+    "chapterGaps": 0,
+    "booksMapped": 25,
+    "chaptersMapped": 216,
+    "booksAnalyzed": 4,
+    "chaptersAnalyzed": 89,
+    "chaptersPendingContentAnalysis": 127,
+    "inventoryUnits": 784,
+    "contentAnalyzedCandidates": 258
+  },
+  "next": "1 Coríntios 1 é o próximo ponto de leitura analítica; os 127 capítulos de 1 Coríntios a Apocalipse permanecem apenas obtidos e mapeados."
+}
