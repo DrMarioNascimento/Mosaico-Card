@@ -5,7 +5,7 @@
 | Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
 |---|---|---:|---:|---|
 | Mateus | Mt 1–4 reavaliado — checkpoint 080 | Pendência textual Mt 23.14; lacunas posteriores Mt 8–9, 14–17 e 26–28 | 71 pautas citam o livro / 1.390 pistas | Os quatro recortes lacunares de Mt 1–4 receberam matriz e decisão; outras faixas antigas continuam posteriores |
-| Marcos | Em reauditoria individual — quatro primeiros adiados de Mc 9 autorados no checkpoint 100 | 54 | 44 próprios + 3 consolidados | Mc 9.42-50, 10.1-12 e 10.13-16 sustentados para a próxima continuidade; Mc 7.16 isolado; depois Mc 11–12; Mc 16.9-20 fora |
+| Marcos | Em reauditoria individual — adiados de Mc 9–10 concluídos no checkpoint 101 | 54 | 47 próprios + 3 consolidados | Mc 7.16, 9.44 e 9.46 isolados; próximo lote Mc 11–12; Mc 16.9-20 fora |
 | Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
 | João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
 | Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
@@ -349,3 +349,11 @@ Os 308 objetos anteriores permaneceram serializadamente idênticos e na mesma or
 Em 14/09/2026, a página NAA Bible.com 1840 de Mc 9 foi reconsultada efetivamente (HTTP 200; 365.573 bytes; SHA-256 `704d3dae683735478bd0136ccbea7906cc37f060471d4e3de6727d3e9e010ebe`), com leitura restrita a Mc 9.1, 9.30-32, 9.33-37 e 9.38-41 e confronto com os **312 objetos/5.970 pistas**. Os quatro recortes sustentaram pautas próprias de 7, 9, 12 e 11 pistas, capacidades 3, 4, 5 e 5. O verso curto 9.1 foi mantido por quatro perguntas explícitas, sem inventar interpretação de cumprimento; nos demais, falas, reações, máximas e agentes permanecem atribuídos ao documento, sem transferência de paralelos.
 
 Os 312 objetos anteriores permaneceram serializadamente idênticos e na mesma ordem; somente quatro foram anexados. Resultado: **316 pautas/1.264 campos/6.009 pistas**, todas elegíveis. A auditoria encontrou zero duplicatas exatas e resolveu quatro alertas por distinção concreta de documento, agente, cena ou função narrativa. Permanecem precisamente para a próxima continuidade **Mc 9.42-50, 10.1-12 e 10.13-16**; depois, Mc 11–12. Mc 7.16 continua pendência textual isolada, Mc 16.9-20 continua fora, e as decisões de Mt 17.21, Mt 23.14 e 1Co 11/14 permanecem intactas. O banco continua incompleto; não houve merge, deploy nem publicação.
+
+## Checkpoint 101 — conclusão dos adiados de Marcos 9–10
+
+Em 14/09/2026, as páginas NAA Bible.com 1840 de Mc 9 e 10 foram efetivamente reconsultadas (HTTP 200; 365.573 e 376.563 bytes; SHA-256 `704d3dae683735478bd0136ccbea7906cc37f060471d4e3de6727d3e9e010ebe` e `e0d14b26026435302785a1e75d49e1395dce3638de05d3e991949d16858d4cec`). A leitura e autoria ficaram limitadas a Mc 9.42-50, 10.1-12 e 10.13-16, com confronto dos **316 objetos/6.009 pistas** e das pautas paralelas de Mateus. Três pautas próprias acrescentaram 18, 18 e 10 pistas, capacidades 8, 8 e 4, sem transferência de detalhes documentais.
+
+Mc 9.44 e 9.46, exibidos entre colchetes com notas de manuscritos mais recentes, foram isolados como novas pendências textuais sem decisão presumida: não aparecem em referência geral, campo, alternativa, gabarito ou pista; a formulação de 9.48 foi usada somente por estar não colcheteada no próprio verso. Os 316 objetos anteriores permaneceram serializadamente idênticos e na mesma ordem, com apenas três anexos. Resultado: **319 pautas/1.276 campos/6.055 pistas**, todas elegíveis. A auditoria registrou zero duplicatas exatas e zero alertas sem resolução após decisões específicas dos dois paralelos.
+
+Mc 9–10 fica sem remanescente ordinário no inventário vigente. Mc 7.16, 9.44 e 9.46 permanecem pendências textuais isoladas; Mc 16.9-20 continua fora. O próximo lote é **Mc 11–12**, não consultado nem autorado agora. Todas as decisões anteriores foram preservadas, o banco continua incompleto e não houve merge, deploy nem publicação.

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-100-marcos-9-adiados-1",
+  "catalogVersion": "checkpoint-101-marcos-9-10-adiados",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 316,
-    "fields": 1264,
-    "editoriallyEligibleCases": 316,
-    "playableCases": 316,
+    "cases": 319,
+    "fields": 1276,
+    "editoriallyEligibleCases": 319,
+    "playableCases": 319,
     "max12Cases": 99
   },
   "order": [
@@ -332,7 +332,10 @@
     "nt2-marcos-reino-chegado-poder",
     "nt2-marcos-galileia-anuncio-incompreensao",
     "nt2-marcos-maior-crianca-recepcao",
-    "nt2-marcos-homem-nao-seguia-copo-agua"
+    "nt2-marcos-homem-nao-seguia-copo-agua",
+    "nt2-marcos-pequeninos-tropeco-sal-paz",
+    "nt2-marcos-judeia-divorcio-casa",
+    "nt2-marcos-criancas-indignacao-bencao"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -216690,6 +216693,1787 @@
             "passage": "9.38-41",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pequeninos-tropeco-sal-paz": {
+      "id": "nt2-marcos-pequeninos-tropeco-sal-paz",
+      "kind": "canonical-case",
+      "title": "Os pequeninos, o tropeço, o sal e a paz",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.42-43,45,47-50",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.42-43,45,47-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Qual advertência foi dada sobre os pequeninos, que contraste usou a mão, que destino contrastou com o olho e quais ordens encerraram a fala?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A advertência sobre fazer um pequenino crente tropeçar abre e delimita o bloco; os contrastes de mão e olho e as ordens sobre sal e paz permanecem respostas independentes.",
+      "editorial": {
+        "hinge": "Mc 9.44 e 9.46 permanecem fora desta pauta como pendências textuais isoladas por estarem entre colchetes com nota de manuscritos mais recentes; a formulação equivalente de 9.48 é usada somente porque aparece ali sem colchetes."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Consequência apresentada como melhor para quem faz um pequenino tropeçar",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Receber uma pedra como memorial"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Ser enviado para outra cidade"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ter uma grande pedra de moinho ao pescoço e ser lançado ao mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Ficar fora da casa até a tarde"
+            }
+          ],
+          "respostaId": "C1-O3",
+          "respostaCanonica": "Ter uma grande pedra de moinho ao pescoço e ser lançado ao mar",
+          "enderecoNAA": "Marcos 9.42",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.42",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Orientação figurada se a mão leva a tropeçar",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Lavá-la antes das refeições"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Cortá-la"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Erguê-la diante da multidão"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Cobri-la com um pano"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Cortá-la",
+          "enderecoNAA": "Marcos 9.43",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Destino preferível no contraste com os olhos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Entrar no Reino de Deus com um olho só"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ver a multidão com os dois olhos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Permanecer fora da cidade por sete dias"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Atravessar o mar antes do anoitecer"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Entrar no Reino de Deus com um olho só",
+          "enderecoNAA": "Marcos 9.47",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.47",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ordens que encerram a fala",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Guardem o fermento e repartam os pães"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Tenham sal em vocês mesmos e paz uns com os outros"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Procurem sinais e discutam entre vocês"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Juntem pedras e apaguem o fogo"
+            }
+          ],
+          "respostaId": "C4-O2",
+          "respostaCanonica": "Tenham sal em vocês mesmos e paz uns com os outros",
+          "enderecoNAA": "Marcos 9.50",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.50",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A advertência inicial trata de fazer tropeçar um dos pequeninos que creem em Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A advertência inicial trata de fazer tropeçar um dos pequeninos que creem em Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "A comparação menciona uma grande pedra de moinho presa ao pescoço.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A comparação menciona uma grande pedra de moinho presa ao pescoço."
+          },
+          {
+            "id": "P03",
+            "text": "A consequência comparativa termina com a pessoa lançada ao mar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A consequência comparativa termina com a pessoa lançada ao mar."
+          },
+          {
+            "id": "P04",
+            "text": "A mão é apresentada condicionalmente como aquilo que pode levar alguém a tropeçar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A mão é apresentada condicionalmente como aquilo que pode levar alguém a tropeçar."
+          },
+          {
+            "id": "P05",
+            "text": "A ordem figurada ligada à mão é cortá-la.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A ordem figurada ligada à mão é cortá-la."
+          },
+          {
+            "id": "P06",
+            "text": "A fala considera melhor entrar aleijado na vida do que ir com as duas mãos para o inferno.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala considera melhor entrar aleijado na vida do que ir com as duas mãos para o inferno."
+          },
+          {
+            "id": "P07",
+            "text": "O mesmo tipo de contraste é aplicado ao pé que leva a tropeçar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O mesmo tipo de contraste é aplicado ao pé que leva a tropeçar."
+          },
+          {
+            "id": "P08",
+            "text": "No caso do pé, entrar aleijado na vida é preferido a ser lançado com os dois pés no inferno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "No caso do pé, entrar aleijado na vida é preferido a ser lançado com os dois pés no inferno."
+          },
+          {
+            "id": "P09",
+            "text": "Um dos olhos também aparece como possível ocasião de tropeço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Um dos olhos também aparece como possível ocasião de tropeço."
+          },
+          {
+            "id": "P10",
+            "text": "A ordem figurada referente a esse olho é arrancá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A ordem figurada referente a esse olho é arrancá-lo."
+          },
+          {
+            "id": "P11",
+            "text": "A comparação prefere entrar no Reino de Deus com um olho só.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A comparação prefere entrar no Reino de Deus com um olho só."
+          },
+          {
+            "id": "P12",
+            "text": "O destino oposto é ser lançado no inferno com os dois olhos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O destino oposto é ser lançado no inferno com os dois olhos."
+          },
+          {
+            "id": "P13",
+            "text": "O verme que não morre e o fogo que não se apaga aparecem no texto não colcheteado do versículo 48.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O verme que não morre e o fogo que não se apaga aparecem no texto não colcheteado do versículo 48."
+          },
+          {
+            "id": "P14",
+            "text": "A fala afirma que cada um será salgado com fogo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala afirma que cada um será salgado com fogo."
+          },
+          {
+            "id": "P15",
+            "text": "O sal é qualificado como bom.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sal é qualificado como bom."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus pergunta como restaurar o sabor caso o sal se torne insípido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus pergunta como restaurar o sabor caso o sal se torne insípido."
+          },
+          {
+            "id": "P17",
+            "text": "Os ouvintes recebem a ordem de ter sal em si mesmos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os ouvintes recebem a ordem de ter sal em si mesmos."
+          },
+          {
+            "id": "P18",
+            "text": "A última ordem é ter paz uns com os outros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A última ordem é ter paz uns com os outros."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.42-43,45,47-50 reúne a advertência sobre fazer pequeninos tropeçar, contrastes figurados com mão, pé e olho e as palavras finais sobre fogo, sal e paz.",
+        "hinge": "Mc 9.44 e 9.46 permanecem fora desta pauta como pendências textuais isoladas por estarem entre colchetes com nota de manuscritos mais recentes; a formulação equivalente de 9.48 é usada somente porque aparece ali sem colchetes.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.42-43,45,47-50",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-judeia-divorcio-casa": {
+      "id": "nt2-marcos-judeia-divorcio-casa",
+      "kind": "canonical-case",
+      "title": "A pergunta sobre divórcio e o ensino em casa",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 10.1-12",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde Jesus foi, com que intenção os fariseus perguntaram, a que atribuiu o mandamento e o que respondeu em casa?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A dureza do coração é a razão explicitamente atribuída por Jesus ao mandamento mencionado; deslocamento, teste e resposta em casa distinguem a versão documental de Marcos.",
+      "editorial": {
+        "hinge": "Perguntas, citações e respostas permanecem atribuídas aos agentes de Marcos; conteúdo de Gênesis, exceções e formulações próprias de Mateus não são importados."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Razão dada para Moisés deixar o mandamento escrito",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A distância entre as cidades"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A falta de testemunhas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A dureza do coração deles"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O costume das multidões"
+            }
+          ],
+          "respostaId": "C3-O3",
+          "respostaCanonica": "A dureza do coração deles",
+          "enderecoNAA": "Marcos 10.5",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino de Jesus ao sair dali",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Território da Judeia e além do Jordão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Costa de Tiro e Sidom"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Cesareia de Filipe"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Deserto da Idumeia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Território da Judeia e além do Jordão",
+          "enderecoNAA": "Marcos 10.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Intenção atribuída à pergunta dos fariseus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pedir uma parábola"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pô-lo à prova"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Convidá-lo para uma refeição"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Solicitar uma cura"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Pô-lo à prova",
+          "enderecoNAA": "Marcos 10.2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta em casa sobre repudiar e casar novamente",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O assunto deveria ser levado aos escribas"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Isso exigia uma nova carta de divórcio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O casamento seguinte anulava o primeiro sem consequência"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Quem repudia e casa com outra pessoa comete adultério contra o cônjuge"
+            }
+          ],
+          "respostaId": "C4-O4",
+          "respostaCanonica": "Quem repudia e casa com outra pessoa comete adultério contra o cônjuge",
+          "enderecoNAA": "Marcos 10.10-12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.10-12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus saiu do lugar anterior e foi ao território da Judeia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus saiu do lugar anterior e foi ao território da Judeia."
+          },
+          {
+            "id": "P02",
+            "text": "O deslocamento também é descrito como para além do Jordão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O deslocamento também é descrito como para além do Jordão."
+          },
+          {
+            "id": "P03",
+            "text": "Multidões voltaram a reunir-se junto a ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Multidões voltaram a reunir-se junto a ele."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus as ensinava novamente, segundo o seu costume.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus as ensinava novamente, segundo o seu costume."
+          },
+          {
+            "id": "P05",
+            "text": "Alguns fariseus se aproximaram.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Alguns fariseus se aproximaram."
+          },
+          {
+            "id": "P06",
+            "text": "A pergunta sobre ser lícito ao marido repudiar a mulher tinha a intenção narrativa de pôr Jesus à prova.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A pergunta sobre ser lícito ao marido repudiar a mulher tinha a intenção narrativa de pôr Jesus à prova."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus respondeu inicialmente perguntando o que Moisés lhes havia ordenado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus respondeu inicialmente perguntando o que Moisés lhes havia ordenado."
+          },
+          {
+            "id": "P08",
+            "text": "Eles disseram que Moisés permitiu escrever carta de divórcio e repudiar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles disseram que Moisés permitiu escrever carta de divórcio e repudiar."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus vinculou o mandamento escrito à dureza do coração dos interlocutores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus vinculou o mandamento escrito à dureza do coração dos interlocutores."
+          },
+          {
+            "id": "P10",
+            "text": "A resposta remeteu ao princípio da criação e afirmou que Deus os fez homem e mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A resposta remeteu ao princípio da criação e afirmou que Deus os fez homem e mulher."
+          },
+          {
+            "id": "P11",
+            "text": "Na fala, o homem deixa pai e mãe e se une à mulher.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na fala, o homem deixa pai e mãe e se une à mulher."
+          },
+          {
+            "id": "P12",
+            "text": "Os dois se tornam uma só carne.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os dois se tornam uma só carne."
+          },
+          {
+            "id": "P13",
+            "text": "A conclusão afirma que já não são dois, mas uma só carne.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A conclusão afirma que já não são dois, mas uma só carne."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus ordenou que ninguém separe o que Deus ajuntou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus ordenou que ninguém separe o que Deus ajuntou."
+          },
+          {
+            "id": "P15",
+            "text": "Os discípulos voltaram a perguntar sobre o assunto em casa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos voltaram a perguntar sobre o assunto em casa."
+          },
+          {
+            "id": "P16",
+            "text": "Quem repudia a mulher e casa com outra comete adultério contra a primeira, segundo a resposta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Quem repudia a mulher e casa com outra comete adultério contra a primeira, segundo a resposta."
+          },
+          {
+            "id": "P17",
+            "text": "A resposta também trata da mulher que repudia o marido e casa com outro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A resposta também trata da mulher que repudia o marido e casa com outro."
+          },
+          {
+            "id": "P18",
+            "text": "Nesse segundo caso, Jesus igualmente afirma que ela comete adultério.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nesse segundo caso, Jesus igualmente afirma que ela comete adultério."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 10.1-12 relata a ida à Judeia e além do Jordão, o teste dos fariseus sobre divórcio, a resposta sobre dureza do coração e criação e as explicações posteriores aos discípulos em casa.",
+        "hinge": "Perguntas, citações e respostas permanecem atribuídas aos agentes de Marcos; conteúdo de Gênesis, exceções e formulações próprias de Mateus não são importados.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-criancas-indignacao-bencao": {
+      "id": "nt2-marcos-criancas-indignacao-bencao",
+      "kind": "canonical-case",
+      "title": "As crianças, a indignação e a bênção",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 10.13-16",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.13-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Para que trouxeram crianças, quem repreendeu as pessoas, como Jesus reagiu e que gesto realizou ao final?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A indignação de Jesus é uma reação explícita e distintiva de Marcos, ligando a repreensão dos discípulos ao ensino e ao acolhimento das crianças.",
+      "editorial": {
+        "hinge": "O texto não identifica quem levou as crianças, seu número, idade ou parentesco; a indignação e o abraço permanecem particularidades documentadas em Marcos, sem transferência de Mateus."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Reação de Jesus ao ver isso",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Retirou-se em silêncio"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Indignou-se"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pediu um sinal"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Mandou fechar a casa"
+            }
+          ],
+          "respostaId": "C3-O2",
+          "respostaCanonica": "Indignou-se",
+          "enderecoNAA": "Marcos 10.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Finalidade de trazerem as crianças",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Que Jesus as abençoasse"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Que distribuíssem os pães"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Que respondessem aos fariseus"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Que atravessassem o Jordão"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Que Jesus as abençoasse",
+          "enderecoNAA": "Marcos 10.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem repreendia os que as traziam",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "As multidões"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Os fariseus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Os discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os moradores da casa"
+            }
+          ],
+          "respostaId": "C2-O3",
+          "respostaCanonica": "Os discípulos",
+          "enderecoNAA": "Marcos 10.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Gesto final de Jesus com as crianças",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Sentou-as à mesa e repartiu pão"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Enviou-as de duas em duas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Tomou-as nos braços, impôs as mãos e as abençoou"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pediu que voltassem no dia seguinte"
+            }
+          ],
+          "respostaId": "C4-O3",
+          "respostaCanonica": "Tomou-as nos braços, impôs as mãos e as abençoou",
+          "enderecoNAA": "Marcos 10.16",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Algumas crianças foram levadas até Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Algumas crianças foram levadas até Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "A finalidade declarada era que ele as abençoasse.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A finalidade declarada era que ele as abençoasse."
+          },
+          {
+            "id": "P03",
+            "text": "Os discípulos repreendiam os que levavam as crianças.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos repreendiam os que levavam as crianças."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus viu a repreensão.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar agentes, objetos e contraste no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus viu a repreensão."
+          },
+          {
+            "id": "P05",
+            "text": "A reação atribuída a Jesus foi indignação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A reação atribuída a Jesus foi indignação."
+          },
+          {
+            "id": "P06",
+            "text": "Ele ordenou que deixassem os pequeninos ir até ele e não os impedissem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele ordenou que deixassem os pequeninos ir até ele e não os impedissem."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus afirmou que dos tais é o Reino de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus afirmou que dos tais é o Reino de Deus."
+          },
+          {
+            "id": "P08",
+            "text": "Ele declarou que quem não receber o Reino como uma criança de modo nenhum entrará nele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele declarou que quem não receber o Reino como uma criança de modo nenhum entrará nele."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus tomou as crianças nos braços.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus tomou as crianças nos braços."
+          },
+          {
+            "id": "P10",
+            "text": "Ele lhes impôs as mãos e as abençoava.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o ensino atribuído sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele lhes impôs as mãos e as abençoava."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 10.13-16 registra crianças levadas para serem abençoadas, a repreensão dos discípulos, a indignação e o ensino de Jesus e seu gesto de abraçar, impor as mãos e abençoar.",
+        "hinge": "O texto não identifica quem levou as crianças, seu número, idade ou parentesco; a indignação e o abraço permanecem particularidades documentadas em Marcos, sem transferência de Mateus.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.13-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
             "checkedAt": "2026-09-14"
           }
         ]

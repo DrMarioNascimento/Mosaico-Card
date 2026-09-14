@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 316);
+assert.equal(catalog.summary.editoriallyEligibleCases, 319);
 assert.equal(catalog.summary.max12Cases, 99);
 const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
 assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
@@ -32,8 +32,8 @@ assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Corínti
     .every(ref => ref.passage !== "14.35")
 ), "1Co 14.35 permanece ausente de pautas, campos e pistas");
 const capacityReport = require("../data/nt-capacity-report.json");
-assert.equal(capacityReport.units.cases, 316);
-assert.equal(capacityReport.units.clueCards, 6009);
+assert.equal(capacityReport.units.cases, 319);
+assert.equal(capacityReport.units.clueCards, 6055);
 assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
 assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
 assert.equal(capacityReport.units.functionalVariants, 0);
@@ -78,6 +78,21 @@ for (const [id, maxPlayers] of Object.entries(marcos9Checkpoint100)) {
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["9.42-50", "10.1-12", "10.13-16", "7.16"].includes(ref.passage))), `${id} não invade recortes posteriores nem Mc 7.16`);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
+const marcos910Checkpoint101 = {
+  "nt2-marcos-pequeninos-tropeco-sal-paz": 8,
+  "nt2-marcos-judeia-divorcio-casa": 8,
+  "nt2-marcos-criancas-indignacao-bencao": 4
+};
+for (const [id, maxPlayers] of Object.entries(marcos910Checkpoint101)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && /MRK\.(9|10)\.NAA$/.test(ref.sourceId))), `${id} mantém proveniência exclusiva de Mc 9–10`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["7.16", "9.44", "9.46"].includes(ref.passage))), `${id} não usa as pendências textuais isoladas`);
+  assert.ok(entry.fields.flatMap(field => field.answerReferences).every(ref => !["7.16", "9.44", "9.46"].includes(ref.passage)), `${id} não usa pendências textuais como gabarito`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+assert.equal(catalog.byId["nt2-marcos-pequeninos-tropeco-sal-paz"].canon.referenceNAA, "Marcos 9.42-43,45,47-50");
 const marcos8Checkpoint098 = {
   "nt2-marcos-quatro-mil-dalmanuta": 7,
   "nt2-marcos-cesareia-opinioes-cristo": 4,
