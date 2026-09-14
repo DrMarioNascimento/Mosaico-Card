@@ -135,3 +135,9 @@ O catálogo passa de **300 pautas/5.754 pistas para 304/5.816**, preservando ser
 ## Checkpoint 098 — fechamento incremental dos adiados de Marcos 8
 
 A reconsulta e leitura efetiva NAA 1840 de Mc 8 limitou-se aos quatro recortes sustentados do checkpoint 097. Mc 8.1-10, 8.27-30, 8.31-33 e 8.34-38 originaram quatro pautas e 53 pistas; a comparação com os objetos de Mateus preservou documentos e detalhes próprios, sem identidade baseada apenas em semelhança. Os 304 objetos anteriores permaneceram serializadamente idênticos, resultando em **308 pautas/5.869 pistas**. Mc 7.16 segue pendência textual isolada; Mc 9–10 é o próximo lote e o banco permanece incompleto.
+
+## Checkpoint 099 — inventário individual integral de Marcos 9–10
+
+As páginas NAA Bible.com 1840 de Mc 9 e 10 foram obtidas (HTTP 200; 365.573 e 376.563 bytes), efetivamente lidas verso a verso e confrontadas com os 308 objetos/5.869 pistas. A matriz integral na ficha de Marcos registra decisão concreta para todas as unidades. Quatro pautas foram anexadas: monte/voz/Elias (24 pistas; capacidade 11), menino/oração (22; 10), homem rico/Reino/recompensa (28; 12) e subida/cálice/serviço (27; 12). Bartimeu permaneceu coberto sem alteração. Paralelos foram comparados documentalmente, sem identidade baseada só em semelhança ou transferência de detalhes.
+
+Os 308 objetos anteriores permaneceram serializadamente idênticos e na mesma ordem; somente quatro foram anexados. Resultado: **312 pautas/1.248 campos/5.970 pistas**, todas elegíveis. Permanecem precisamente sustentados por limite Mc 9.1, 9.30-32, 9.33-37, 9.38-41, 9.42-50, 10.1-12 e 10.13-16. Depois desses adiados, o próximo lote ordinário será Mc 11–12. Mc 7.16 segue pendência textual isolada, Mc 16.9-20 continua fora e o banco permanece incompleto. Não houve merge, deploy nem publicação.

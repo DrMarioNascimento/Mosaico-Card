@@ -4,15 +4,15 @@
   "status": "partial",
   "source": {
     "file": "data/nt-bank.json",
-    "catalogVersion": "checkpoint-098-marcos-8-pendencias",
-    "sha256": "5e299a027b16328078a18c68233f01e7101cf038cc96647ba38dfcd162661322",
-    "baseCommit": "1376a5521ffdebddf43731933877c5833a1b0d3e"
+    "catalogVersion": "checkpoint-099-marcos-9-10",
+    "sha256": "cac64abd9010f785b64a08efa9a580ac0c3a8fb82f7f38c6b98e695aefa5e530",
+    "baseCommit": "fcd490b5f1a584dceaf704d54cf9324f086a877a"
   },
   "units": {
-    "cases": 308,
-    "playableCaseIds": 308,
-    "clueCards": 5869,
-    "uniqueClueStringsExact": 5853,
+    "cases": 312,
+    "playableCaseIds": 312,
+    "clueCards": 5970,
+    "uniqueClueStringsExact": 5945,
     "semanticallyUniqueFacts": null,
     "storyOrEpisodeGroups": null,
     "functionalVariants": 0
@@ -36,58 +36,58 @@
   "capacity": [
     {
       "players": 2,
-      "eligibleCases": 308,
-      "drawsWithoutReplacementPerBagCycle": 308
+      "eligibleCases": 312,
+      "drawsWithoutReplacementPerBagCycle": 312
     },
     {
       "players": 3,
-      "eligibleCases": 307,
-      "drawsWithoutReplacementPerBagCycle": 307
+      "eligibleCases": 311,
+      "drawsWithoutReplacementPerBagCycle": 311
     },
     {
       "players": 4,
-      "eligibleCases": 290,
-      "drawsWithoutReplacementPerBagCycle": 290
+      "eligibleCases": 294,
+      "drawsWithoutReplacementPerBagCycle": 294
     },
     {
       "players": 5,
-      "eligibleCases": 270,
-      "drawsWithoutReplacementPerBagCycle": 270
+      "eligibleCases": 274,
+      "drawsWithoutReplacementPerBagCycle": 274
     },
     {
       "players": 6,
-      "eligibleCases": 262,
-      "drawsWithoutReplacementPerBagCycle": 262
+      "eligibleCases": 266,
+      "drawsWithoutReplacementPerBagCycle": 266
     },
     {
       "players": 7,
-      "eligibleCases": 219,
-      "drawsWithoutReplacementPerBagCycle": 219
+      "eligibleCases": 223,
+      "drawsWithoutReplacementPerBagCycle": 223
     },
     {
       "players": 8,
-      "eligibleCases": 198,
-      "drawsWithoutReplacementPerBagCycle": 198
+      "eligibleCases": 202,
+      "drawsWithoutReplacementPerBagCycle": 202
     },
     {
       "players": 9,
-      "eligibleCases": 161,
-      "drawsWithoutReplacementPerBagCycle": 161
+      "eligibleCases": 165,
+      "drawsWithoutReplacementPerBagCycle": 165
     },
     {
       "players": 10,
-      "eligibleCases": 135,
-      "drawsWithoutReplacementPerBagCycle": 135
+      "eligibleCases": 139,
+      "drawsWithoutReplacementPerBagCycle": 139
     },
     {
       "players": 11,
-      "eligibleCases": 110,
-      "drawsWithoutReplacementPerBagCycle": 110
+      "eligibleCases": 113,
+      "drawsWithoutReplacementPerBagCycle": 113
     },
     {
       "players": 12,
-      "eligibleCases": 97,
-      "drawsWithoutReplacementPerBagCycle": 97
+      "eligibleCases": 99,
+      "drawsWithoutReplacementPerBagCycle": 99
     }
   ],
   "structuralPending": [

@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-098-marcos-8-pendencias",
+  "catalogVersion": "checkpoint-099-marcos-9-10",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,11 +10,11 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 308,
-    "fields": 1232,
-    "editoriallyEligibleCases": 308,
-    "playableCases": 308,
-    "max12Cases": 97
+    "cases": 312,
+    "fields": 1248,
+    "editoriallyEligibleCases": 312,
+    "playableCases": 312,
+    "max12Cases": 99
   },
   "order": [
     "nt2-joao-cana",
@@ -324,7 +324,11 @@
     "nt2-marcos-quatro-mil-dalmanuta",
     "nt2-marcos-cesareia-opinioes-cristo",
     "nt2-marcos-sofrimento-pedro-repreensao",
-    "nt2-marcos-negar-cruz-evangelho-gloria"
+    "nt2-marcos-negar-cruz-evangelho-gloria",
+    "nt2-marcos-monte-vestes-voz-elias",
+    "nt2-marcos-menino-espirito-oracao",
+    "nt2-marcos-homem-rico-reino-recompensa",
+    "nt2-marcos-jerusalem-calice-servir-resgate"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -211520,6 +211524,3330 @@
             "passage": "8.34-38",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.8.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-monte-vestes-voz-elias": {
+      "id": "nt2-marcos-monte-vestes-voz-elias",
+      "kind": "canonical-case",
+      "title": "No monte: vestes, voz e a pergunta sobre Elias",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.2-13",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.2-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem subiu com Jesus, o que os discípulos viram, o que a voz declarou e como Jesus respondeu sobre Elias?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A voz vinda da nuvem identifica o centro revelador da cena; acompanhantes, visão e conversa posterior delimitam a versão de Marcos.",
+      "editorial": {
+        "hinge": "A cena permanece documentalmente própria de Marcos; não recebe falas, cronologia ou identificações externas dos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Declaração da voz na nuvem",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Este é o meu Filho amado; escutem o que ele diz"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Este é Elias; preparem três tendas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Este é Moisés; desçam imediatamente"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Este é Pedro; contem a todos o que viram"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Este é o meu Filho amado; escutem o que ele diz",
+          "enderecoNAA": "Marcos 9.7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Acompanhantes levados ao alto monte",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pedro, Tiago e João"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "André, Filipe e Bartolomeu"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Somente Pedro e João"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os doze e uma multidão"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Pedro, Tiago e João",
+          "enderecoNAA": "Marcos 9.2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Visão no monte",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Jesus transfigurado, vestes muito brancas, Elias e Moisés falando com ele"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Somente uma luz e três tendas prontas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "João Batista e Elias falando com Pedro"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Anjos descendo sobre uma multidão"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Jesus transfigurado, vestes muito brancas, Elias e Moisés falando com ele",
+          "enderecoNAA": "Marcos 9.2-4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.2-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta sobre Elias",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Elias viria primeiro; também já veio e fizeram com ele o que quiseram"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Elias não viria e nada estava escrito sobre ele"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Elias era um dos três discípulos presentes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Elias permaneceria no monte até a ressurreição"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Elias viria primeiro; também já veio e fizeram com ele o que quiseram",
+          "enderecoNAA": "Marcos 9.11-13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.11-13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 11,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Seis dias depois, Jesus levou consigo três discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Seis dias depois, Jesus levou consigo três discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Pedro estava entre os três.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro estava entre os três."
+          },
+          {
+            "id": "P03",
+            "text": "Tiago estava entre os três.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago estava entre os três."
+          },
+          {
+            "id": "P04",
+            "text": "João estava entre os três.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "João estava entre os três."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus os levou à parte para um alto monte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os levou à parte para um alto monte."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus foi transfigurado diante deles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus foi transfigurado diante deles."
+          },
+          {
+            "id": "P07",
+            "text": "Suas roupas ficaram resplandecentes e muito brancas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Suas roupas ficaram resplandecentes e muito brancas."
+          },
+          {
+            "id": "P08",
+            "text": "Marcos compara a brancura ao que nenhum lavandeiro poderia produzir.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Marcos compara a brancura ao que nenhum lavandeiro poderia produzir."
+          },
+          {
+            "id": "P09",
+            "text": "Elias apareceu com Moisés.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Elias apareceu com Moisés."
+          },
+          {
+            "id": "P10",
+            "text": "Os dois falavam com Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os dois falavam com Jesus."
+          },
+          {
+            "id": "P11",
+            "text": "Pedro propôs fazer três tendas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro propôs fazer três tendas."
+          },
+          {
+            "id": "P12",
+            "text": "Ele nomeou uma tenda para Jesus, uma para Moisés e uma para Elias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele nomeou uma tenda para Jesus, uma para Moisés e uma para Elias."
+          },
+          {
+            "id": "P13",
+            "text": "Pedro não sabia o que dizer porque estavam com medo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro não sabia o que dizer porque estavam com medo."
+          },
+          {
+            "id": "P14",
+            "text": "Uma nuvem os envolveu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Uma nuvem os envolveu."
+          },
+          {
+            "id": "P15",
+            "text": "Da nuvem veio uma voz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Da nuvem veio uma voz."
+          },
+          {
+            "id": "P16",
+            "text": "A voz chamou Jesus de Filho amado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz chamou Jesus de Filho amado."
+          },
+          {
+            "id": "P17",
+            "text": "A voz ordenou que o escutassem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A voz ordenou que o escutassem."
+          },
+          {
+            "id": "P18",
+            "text": "De repente, viram somente Jesus com eles.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "De repente, viram somente Jesus com eles."
+          },
+          {
+            "id": "P19",
+            "text": "Na descida, Jesus ordenou silêncio até a ressurreição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Na descida, Jesus ordenou silêncio até a ressurreição."
+          },
+          {
+            "id": "P20",
+            "text": "Eles discutiam entre si o significado de ressuscitar dentre os mortos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles discutiam entre si o significado de ressuscitar dentre os mortos."
+          },
+          {
+            "id": "P21",
+            "text": "Os discípulos perguntaram por que os escribas diziam que Elias devia vir primeiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos perguntaram por que os escribas diziam que Elias devia vir primeiro."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus afirmou que Elias viria primeiro e restauraria todas as coisas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que Elias viria primeiro e restauraria todas as coisas."
+          },
+          {
+            "id": "P23",
+            "text": "Jesus também disse que Elias já veio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus também disse que Elias já veio."
+          },
+          {
+            "id": "P24",
+            "text": "Segundo Jesus, fizeram com Elias tudo o que quiseram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Segundo Jesus, fizeram com Elias tudo o que quiseram."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.2-13 registra três discípulos no monte, a transfiguração, Elias e Moisés, a voz da nuvem e a conversa sobre Elias durante a descida.",
+        "hinge": "A cena permanece documentalmente própria de Marcos; não recebe falas, cronologia ou identificações externas dos paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.2-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-menino-espirito-oracao": {
+      "id": "nt2-marcos-menino-espirito-oracao",
+      "kind": "canonical-case",
+      "title": "O menino, o pedido de fé e a oração",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.14-29",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.14-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que situação cercava os discípulos, como o pai descreveu o menino, que pedido fez e o que Jesus explicou em casa?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O pedido simultâneo de ajuda e fé particulariza o diálogo de Marcos; conflito, descrição e explicação privada sustentam a identificação.",
+      "editorial": {
+        "hinge": "A resposta usa somente “oração”, conforme a NAA consultada de Marcos; jejum e detalhes de Mateus não são importados."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Pedido e resposta sobre crer",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Se podes, ajuda-nos; creio, ajude-me na minha falta de fé"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Prove primeiro com um sinal; não preciso de fé"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Faça três tendas; já compreendo tudo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Mande os discípulos embora; não creio em nada"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Se podes, ajuda-nos; creio, ajude-me na minha falta de fé",
+          "enderecoNAA": "Marcos 9.22-24",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.22-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Situação ao chegar aos discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Grande multidão, escribas discutindo e discípulos incapazes de expulsar o espírito"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os discípulos ensinavam sozinhos numa casa vazia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Fariseus pediam um sinal no barco"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Uma multidão repartia sete pães sem dificuldade"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Grande multidão, escribas discutindo e discípulos incapazes de expulsar o espírito",
+          "enderecoNAA": "Marcos 9.14-18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.14-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Descrição feita pelo pai",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um espírito deixava o filho mudo, lançava-o por terra e o fazia espumar e enrijecer"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Uma febre fazia o filho dormir calmamente"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O menino era cego e via pessoas como árvores"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O filho fugia para os túmulos e dizia chamar-se Legião"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um espírito deixava o filho mudo, lançava-o por terra e o fazia espumar e enrijecer",
+          "enderecoNAA": "Marcos 9.17-18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.17-18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Explicação dada em casa",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Esse tipo de espírito só pode ser expulso por meio de oração"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Esse tipo exige sete pães e dois peixes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Os discípulos falharam por não irem ao monte"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A expulsão dependia de contar o fato a todos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Esse tipo de espírito só pode ser expulso por meio de oração",
+          "enderecoNAA": "Marcos 9.28-29",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.28-29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 10,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Ao chegar, Jesus viu grande multidão ao redor dos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ao chegar, Jesus viu grande multidão ao redor dos discípulos."
+          },
+          {
+            "id": "P02",
+            "text": "Escribas discutiam com os discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Escribas discutiam com os discípulos."
+          },
+          {
+            "id": "P03",
+            "text": "A multidão ficou surpresa ao ver Jesus e correu para saudá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A multidão ficou surpresa ao ver Jesus e correu para saudá-lo."
+          },
+          {
+            "id": "P04",
+            "text": "Um homem disse ter trazido o filho a Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um homem disse ter trazido o filho a Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "O espírito deixava o menino mudo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O espírito deixava o menino mudo."
+          },
+          {
+            "id": "P06",
+            "text": "Quando se apoderava dele, lançava-o por terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quando se apoderava dele, lançava-o por terra."
+          },
+          {
+            "id": "P07",
+            "text": "O menino espumava, rangia os dentes e ficava enrijecido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O menino espumava, rangia os dentes e ficava enrijecido."
+          },
+          {
+            "id": "P08",
+            "text": "Os discípulos não conseguiram expulsar o espírito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos não conseguiram expulsar o espírito."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus perguntou havia quanto tempo aquilo acontecia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou havia quanto tempo aquilo acontecia."
+          },
+          {
+            "id": "P10",
+            "text": "O pai respondeu que acontecia desde a infância.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai respondeu que acontecia desde a infância."
+          },
+          {
+            "id": "P11",
+            "text": "O espírito muitas vezes lançava o menino no fogo e na água.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O espírito muitas vezes lançava o menino no fogo e na água."
+          },
+          {
+            "id": "P12",
+            "text": "O pai pediu compaixão e ajuda, se Jesus pudesse fazer algo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai pediu compaixão e ajuda, se Jesus pudesse fazer algo."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus respondeu que tudo é possível ao que crê.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu que tudo é possível ao que crê."
+          },
+          {
+            "id": "P14",
+            "text": "O pai declarou que cria.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pai declarou que cria."
+          },
+          {
+            "id": "P15",
+            "text": "Ele também pediu ajuda para sua falta de fé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele também pediu ajuda para sua falta de fé."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus repreendeu o espírito mudo e surdo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus repreendeu o espírito mudo e surdo."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus ordenou que saísse e nunca mais entrasse no menino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ordenou que saísse e nunca mais entrasse no menino."
+          },
+          {
+            "id": "P18",
+            "text": "O espírito gritou, agitou o menino e saiu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O espírito gritou, agitou o menino e saiu."
+          },
+          {
+            "id": "P19",
+            "text": "Muitos disseram que o menino estava morto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos disseram que o menino estava morto."
+          },
+          {
+            "id": "P20",
+            "text": "Jesus o tomou pela mão, levantou-o e ele ficou em pé.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus o tomou pela mão, levantou-o e ele ficou em pé."
+          },
+          {
+            "id": "P21",
+            "text": "Em casa, os discípulos perguntaram em particular por que falharam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Em casa, os discípulos perguntaram em particular por que falharam."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus respondeu que aquele tipo só sai por meio de oração.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus respondeu que aquele tipo só sai por meio de oração."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.14-29 relata a discussão, a condição do menino, o pedido do pai, a expulsão e a explicação privada sobre oração.",
+        "hinge": "A resposta usa somente “oração”, conforme a NAA consultada de Marcos; jejum e detalhes de Mateus não são importados.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.14-29",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-homem-rico-reino-recompensa": {
+      "id": "nt2-marcos-homem-rico-reino-recompensa",
+      "kind": "canonical-case",
+      "title": "O homem rico, o Reino e a recompensa",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 10.17-31",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.17-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que pergunta o homem fez, que instrução recebeu, qual comparação Jesus usou e que promessa apresentou aos que deixaram bens e relações?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A instrução composta dada com amor e a retirada triste estruturam o encontro; comparação e promessa ampliam a conversa sem perder os falantes.",
+      "editorial": {
+        "hinge": "Amor, propriedades, evangelho e perseguições permanecem nos termos de Marcos; identidade, idade e cargo não são importados de paralelos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Instrução depois da resposta sobre mandamentos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Vender tudo, dar aos pobres, ter tesouro no céu e seguir Jesus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Guardar as propriedades e voltar para casa"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Dar metade aos discípulos e procurar Bartimeu"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Construir tendas e permanecer no monte"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Vender tudo, dar aos pobres, ter tesouro no céu e seguir Jesus",
+          "enderecoNAA": "Marcos 10.20-21",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.20-21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Pergunta do homem ajoelhado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "O que faria para herdar a vida eterna"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Quantos lugares receberia no Reino"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Como expulsaria um espírito por oração"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Onde encontraria Elias no monte"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "O que faria para herdar a vida eterna",
+          "enderecoNAA": "Marcos 10.17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Comparação sobre entrar no Reino",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "É mais fácil um camelo passar pelo fundo de uma agulha do que um rico entrar no Reino de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "É mais fácil um rico comprar um lugar no Reino"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "É mais fácil uma criança atravessar o Jordão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "É mais fácil um cego reconhecer uma árvore"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "É mais fácil um camelo passar pelo fundo de uma agulha do que um rico entrar no Reino de Deus",
+          "enderecoNAA": "Marcos 10.23-25",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.23-25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Promessa a quem deixou por Jesus e pelo evangelho",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Receber cem vezes mais agora, com perseguições, e no mundo por vir a vida eterna"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Receber apenas propriedades sem perseguições"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Nunca mais ter irmãos, casas ou campos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Governar imediatamente sobre todos os povos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Receber cem vezes mais agora, com perseguições, e no mundo por vir a vida eterna",
+          "enderecoNAA": "Marcos 10.29-30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.29-30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Um homem correu ao encontro de Jesus no caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Um homem correu ao encontro de Jesus no caminho."
+          },
+          {
+            "id": "P02",
+            "text": "Ele se ajoelhou diante de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele se ajoelhou diante de Jesus."
+          },
+          {
+            "id": "P03",
+            "text": "O homem chamou Jesus de Bom Mestre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem chamou Jesus de Bom Mestre."
+          },
+          {
+            "id": "P04",
+            "text": "Ele perguntou sobre herdar a vida eterna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele perguntou sobre herdar a vida eterna."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus perguntou por que o chamava de bom.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou por que o chamava de bom."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus enumerou mandamentos ao homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus enumerou mandamentos ao homem."
+          },
+          {
+            "id": "P07",
+            "text": "O homem afirmou observar essas coisas desde a juventude.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem afirmou observar essas coisas desde a juventude."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus olhou para ele com amor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus olhou para ele com amor."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus disse que lhe faltava uma coisa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que lhe faltava uma coisa."
+          },
+          {
+            "id": "P10",
+            "text": "A instrução incluía vender tudo o que tinha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A instrução incluía vender tudo o que tinha."
+          },
+          {
+            "id": "P11",
+            "text": "O dinheiro deveria ser dado aos pobres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O dinheiro deveria ser dado aos pobres."
+          },
+          {
+            "id": "P12",
+            "text": "Jesus prometeu tesouro no céu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus prometeu tesouro no céu."
+          },
+          {
+            "id": "P13",
+            "text": "Depois, o homem deveria seguir Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Depois, o homem deveria seguir Jesus."
+          },
+          {
+            "id": "P14",
+            "text": "O homem retirou-se triste.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O homem retirou-se triste."
+          },
+          {
+            "id": "P15",
+            "text": "Ele era dono de muitas propriedades.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele era dono de muitas propriedades."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus falou da dificuldade de ricos entrarem no Reino de Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus falou da dificuldade de ricos entrarem no Reino de Deus."
+          },
+          {
+            "id": "P17",
+            "text": "Os discípulos estranharam essas palavras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos estranharam essas palavras."
+          },
+          {
+            "id": "P18",
+            "text": "Jesus os chamou de filhos ao insistir no ensino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus os chamou de filhos ao insistir no ensino."
+          },
+          {
+            "id": "P19",
+            "text": "A comparação menciona um camelo e o fundo de uma agulha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A comparação menciona um camelo e o fundo de uma agulha."
+          },
+          {
+            "id": "P20",
+            "text": "Os discípulos ficaram muito admirados e perguntaram quem poderia ser salvo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos ficaram muito admirados e perguntaram quem poderia ser salvo."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus contrastou impossibilidade humana e possibilidade para Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus contrastou impossibilidade humana e possibilidade para Deus."
+          },
+          {
+            "id": "P22",
+            "text": "Pedro disse que eles haviam deixado tudo e seguido Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Pedro disse que eles haviam deixado tudo e seguido Jesus."
+          },
+          {
+            "id": "P23",
+            "text": "A lista do que alguém deixa inclui casa e familiares.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A lista do que alguém deixa inclui casa e familiares."
+          },
+          {
+            "id": "P24",
+            "text": "Marcos registra as causas: Jesus e o evangelho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Marcos registra as causas: Jesus e o evangelho."
+          },
+          {
+            "id": "P25",
+            "text": "A promessa de cem vezes mais é situada no tempo presente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa de cem vezes mais é situada no tempo presente."
+          },
+          {
+            "id": "P26",
+            "text": "A promessa presente inclui perseguições.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "A promessa presente inclui perseguições."
+          },
+          {
+            "id": "P27",
+            "text": "No mundo por vir, a promessa é vida eterna.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "No mundo por vir, a promessa é vida eterna."
+          },
+          {
+            "id": "P28",
+            "text": "Muitos primeiros seriam últimos, e os últimos seriam primeiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Muitos primeiros seriam últimos, e os últimos seriam primeiros."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 10.17-31 registra a pergunta do homem, a instrução que o entristeceu, o ensino sobre riquezas e a promessa aos que deixaram bens e relações.",
+        "hinge": "Amor, propriedades, evangelho e perseguições permanecem nos termos de Marcos; identidade, idade e cargo não são importados de paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.17-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-jerusalem-calice-servir-resgate": {
+      "id": "nt2-marcos-jerusalem-calice-servir-resgate",
+      "kind": "canonical-case",
+      "title": "Subida a Jerusalém, cálice e serviço",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 10.32-45",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.32-45",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+            "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANTO",
+          "ONDE",
+          "QUANDO",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Que anúncio Jesus fez na subida, o que Tiago e João pediram, como respondeu sobre cálice e lugares e que contraste ensinou aos Doze?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O contraste entre domínio e serviço culmina no resgate por muitos; anúncio, pedido e resposta sobre cálice constroem o contexto documental.",
+      "editorial": {
+        "hinge": "Os agentes e atos permanecem atribuídos em Marcos; a mãe dos irmãos e outros detalhes de Mateus não são importados."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Contraste ensinado aos Doze",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Entre eles, quem quiser ser grande será servo; o Filho do Homem veio servir e dar a vida em resgate por muitos"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Os maiores deveriam dominar como os governantes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Servir era tarefa apenas dos gentios"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O Filho do Homem veio para ser servido pelos demais"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Entre eles, quem quiser ser grande será servo; o Filho do Homem veio servir e dar a vida em resgate por muitos",
+          "enderecoNAA": "Marcos 10.41-45",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.41-45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Anúncio feito aos Doze na subida",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Entrega aos líderes, condenação, entrega aos gentios, zombaria, morte e ressurreição após três dias"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Aclamação imediata e governo sem sofrimento"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Prisão dos discípulos e retorno para a Galileia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Somente uma viagem silenciosa até Jericó"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Entrega aos líderes, condenação, entrega aos gentios, zombaria, morte e ressurreição após três dias",
+          "enderecoNAA": "Marcos 10.32-34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.32-34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Pedido de Tiago e João",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Sentar um à direita e outro à esquerda na glória de Jesus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Receber cem propriedades sem perseguições"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Expulsar um espírito sem oração"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ser enviados sozinhos de volta a Cafarnaum"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Sentar um à direita e outro à esquerda na glória de Jesus",
+          "enderecoNAA": "Marcos 10.35-37",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.35-37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resposta sobre cálice, batismo e lugares",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Eles participariam do cálice e batismo, mas os lugares pertenciam àqueles para quem estavam preparados"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Eles não participariam de sofrimento algum e escolheriam os lugares"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Os lugares seriam vendidos a quem tivesse mais propriedades"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O cálice garantiria automaticamente direita e esquerda"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Eles participariam do cálice e batismo, mas os lugares pertenciam àqueles para quem estavam preparados",
+          "enderecoNAA": "Marcos 10.38-40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "10.38-40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+              "checkedAt": "2026-09-13"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos estavam subindo para Jerusalém.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus e os discípulos estavam subindo para Jerusalém."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus ia adiante deles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus ia adiante deles."
+          },
+          {
+            "id": "P03",
+            "text": "Os discípulos se admiravam e os seguidores estavam apreensivos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os discípulos se admiravam e os seguidores estavam apreensivos."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus chamou novamente os Doze para um lado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus chamou novamente os Doze para um lado."
+          },
+          {
+            "id": "P05",
+            "text": "O anúncio incluiu entrega aos principais sacerdotes e escribas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio incluiu entrega aos principais sacerdotes e escribas."
+          },
+          {
+            "id": "P06",
+            "text": "Eles o condenariam à morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles o condenariam à morte."
+          },
+          {
+            "id": "P07",
+            "text": "Ele seria entregue aos gentios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele seria entregue aos gentios."
+          },
+          {
+            "id": "P08",
+            "text": "O anúncio incluiu zombaria, cuspes e açoites.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio incluiu zombaria, cuspes e açoites."
+          },
+          {
+            "id": "P09",
+            "text": "O anúncio incluiu morte e ressurreição depois de três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O anúncio incluiu morte e ressurreição depois de três dias."
+          },
+          {
+            "id": "P10",
+            "text": "Tiago e João eram filhos de Zebedeu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Tiago e João eram filhos de Zebedeu."
+          },
+          {
+            "id": "P11",
+            "text": "Eles pediram que Jesus lhes concedesse o que solicitariam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles pediram que Jesus lhes concedesse o que solicitariam."
+          },
+          {
+            "id": "P12",
+            "text": "O pedido era sentar à direita e à esquerda na glória de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O pedido era sentar à direita e à esquerda na glória de Jesus."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus perguntou se poderiam beber o cálice que ele beberia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus perguntou se poderiam beber o cálice que ele beberia."
+          },
+          {
+            "id": "P14",
+            "text": "Jesus também perguntou pelo batismo com que seria batizado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus também perguntou pelo batismo com que seria batizado."
+          },
+          {
+            "id": "P15",
+            "text": "Eles responderam que podiam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Eles responderam que podiam."
+          },
+          {
+            "id": "P16",
+            "text": "Jesus afirmou que beberiam o cálice.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que beberiam o cálice."
+          },
+          {
+            "id": "P17",
+            "text": "Jesus afirmou que receberiam o batismo mencionado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus afirmou que receberiam o batismo mencionado."
+          },
+          {
+            "id": "P18",
+            "text": "Conceder direita ou esquerda não cabia a Jesus, segundo sua resposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Conceder direita ou esquerda não cabia a Jesus, segundo sua resposta."
+          },
+          {
+            "id": "P19",
+            "text": "Os lugares eram para aqueles a quem estavam preparados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os lugares eram para aqueles a quem estavam preparados."
+          },
+          {
+            "id": "P20",
+            "text": "Os outros dez se indignaram contra Tiago e João.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Os outros dez se indignaram contra Tiago e João."
+          },
+          {
+            "id": "P21",
+            "text": "Jesus reuniu os Doze.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus reuniu os Doze."
+          },
+          {
+            "id": "P22",
+            "text": "Jesus disse que os governantes dos gentios os dominam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Jesus disse que os governantes dos gentios os dominam."
+          },
+          {
+            "id": "P23",
+            "text": "Entre os discípulos não seria assim.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Entre os discípulos não seria assim."
+          },
+          {
+            "id": "P24",
+            "text": "Quem quisesse tornar-se grande deveria servir os demais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem quisesse tornar-se grande deveria servir os demais."
+          },
+          {
+            "id": "P25",
+            "text": "Quem quisesse ser o primeiro deveria ser servo de todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Quem quisesse ser o primeiro deveria ser servo de todos."
+          },
+          {
+            "id": "P26",
+            "text": "O Filho do Homem não veio para ser servido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "O Filho do Homem não veio para ser servido."
+          },
+          {
+            "id": "P27",
+            "text": "Ele veio para servir e dar sua vida em resgate por muitos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Sustentar um fato específico do recorte sem revelar isoladamente toda a solução",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "10.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
+                "checkedAt": "2026-09-13"
+              }
+            ],
+            "texto": "Ele veio para servir e dar sua vida em resgate por muitos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 10.32-45 reúne o anúncio na subida, o pedido de Tiago e João, a resposta sobre cálice e lugares e o ensino de serviço e resgate.",
+        "hinge": "Os agentes e atos permanecem atribuídos em Marcos; a mãe dos irmãos e outros detalhes de Mateus não são importados.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "10.32-45",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
             "checkedAt": "2026-09-13"
           }
         ]
