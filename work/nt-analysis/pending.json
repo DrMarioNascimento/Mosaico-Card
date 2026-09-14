@@ -1,0 +1,87 @@
+{
+  "schemaVersion": 1,
+  "scope": "dúvidas consolidadas da leitura analítica; nenhuma decisão editorial final",
+  "items": [
+    {
+      "reference": "Jo 7.53–8.11",
+      "evidenceSummary": "A apresentação NAA sinaliza a unidade como questão textual; decisão vigente já a mantém isolada.",
+      "impact": "Não tratar a unidade como candidata comum nem transferir fatos para outra pauta.",
+      "options": [
+        "manter não usar",
+        "reavaliar localmente somente sob decisão editorial expressa"
+      ]
+    },
+    {
+      "reference": "Jo 5.4",
+      "evidenceSummary": "Verso sinalizado textualmente na apresentação NAA e já excluído de fatos no banco vigente.",
+      "impact": "Não usar como explicação factual automática do tanque.",
+      "options": [
+        "manter fora",
+        "reavaliar localmente com ressalva explícita"
+      ]
+    },
+    {
+      "reference": "At 8.37",
+      "evidenceSummary": "Variante textual já encaminhada na documentação vigente dentro da pauta existente.",
+      "impact": "A análise não deve criar gabarito novo determinado pela variante.",
+      "options": [
+        "preservar encaminhamento atual",
+        "revisar localmente apenas com a decisão vigente em mãos"
+      ]
+    },
+    {
+      "reference": "Rm 16.24",
+      "evidenceSummary": "Cláusula textual já tratada como não utilizada nas decisões vigentes.",
+      "impact": "Não ampliar a unidade de saudações automaticamente.",
+      "options": [
+        "manter fora",
+        "reavaliar localmente com prova textual específica"
+      ]
+    },
+    {
+      "reference": "1Co 11.2-16",
+      "evidenceSummary": "Há exatamente três conteúdos aprovados, com pendência estrutural e proibição vigente de fabricar quarto campo.",
+      "impact": "A leitura analítica não resolve o contrato de quatro campos.",
+      "options": [
+        "manter pendência estrutural",
+        "decidir localmente uma solução sem conteúdo inventado"
+      ]
+    },
+    {
+      "reference": "1Co 14.35",
+      "evidenceSummary": "Item excluído editorialmente do jogo por decisão vigente, sem novas perguntas em 14.34-36.",
+      "impact": "Não tratar o verso como novo candidato.",
+      "options": [
+        "preservar exclusão",
+        "reabrir apenas por decisão expressa posterior"
+      ]
+    },
+    {
+      "reference": "1Pe 3.19; 4.6",
+      "evidenceSummary": "Questões interpretativas explicitamente mantidas fora nas decisões vigentes.",
+      "impact": "Blocos adjacentes podem ser analisados, mas não completados por essas interpretações.",
+      "options": [
+        "preservar limites",
+        "reavaliar localmente em tarefa própria"
+      ]
+    },
+    {
+      "reference": "1Jo 5.16-17",
+      "evidenceSummary": "O texto distingue categorias, mas a decisão vigente proíbe identificar externamente qual pecado.",
+      "impact": "Qualquer seleção futura deve manter a indeterminação.",
+      "options": [
+        "preservar descrição textual",
+        "submeter interpretação nova a decisão separada"
+      ]
+    },
+    {
+      "reference": "Apocalipse (visões, números e identidades)",
+      "evidenceSummary": "A leitura oferece cenas e listas explícitas, mas identidades históricas, literalidade e cronologias não são dadas como decisões do banco.",
+      "impact": "Candidatos permanecem provisórios e atributivos, sem harmonização de sistemas.",
+      "options": [
+        "selecionar apenas fatos internos",
+        "rever localmente unidades com dependência interpretativa"
+      ]
+    }
+  ]
+}
