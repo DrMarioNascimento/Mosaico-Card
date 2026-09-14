@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-106-marcos-13-remanescentes",
+  "catalogVersion": "checkpoint-107-marcos-14-16-8-integral",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 335,
-    "fields": 1340,
-    "editoriallyEligibleCases": 335,
-    "playableCases": 335,
+    "cases": 350,
+    "fields": 1400,
+    "editoriallyEligibleCases": 350,
+    "playableCases": 350,
     "max12Cases": 99
   },
   "order": [
@@ -351,7 +351,22 @@
     "nt2-marcos-desolacao-fuga-eleitos-alerta",
     "nt2-marcos-astros-filho-homem-escolhidos",
     "nt2-marcos-figueira-geracao-palavras",
-    "nt2-marcos-pai-servos-porteiro-vigilia"
+    "nt2-marcos-pai-servos-porteiro-vigilia",
+    "nt2-marcos-plano-betania-perfume-memoria",
+    "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao",
+    "nt2-marcos-pascoa-homem-cantaro-cenaculo",
+    "nt2-marcos-mesa-doze-traidor-prato",
+    "nt2-marcos-pao-calice-videira-hino",
+    "nt2-marcos-pastor-galileia-pedro-galo",
+    "nt2-marcos-getsemani-aba-vigiar-entrega",
+    "nt2-marcos-judas-beijo-espadas-jovem",
+    "nt2-marcos-sinedrio-testemunhos-silencio-confissao",
+    "nt2-marcos-patio-empregada-negacoes-choro",
+    "nt2-marcos-pilatos-barrabas-multidao-crucificacao",
+    "nt2-marcos-pretorio-purpura-espinhos-zombaria",
+    "nt2-marcos-cireneu-golgota-inscricao-zombaria",
+    "nt2-marcos-trevas-grito-veu-centuriao-mulheres",
+    "nt2-marcos-mulheres-pedra-jovem-galileia"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -227835,6 +227850,8940 @@
             "passage": "13.32-37",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-plano-betania-perfume-memoria": {
+      "id": "nt2-marcos-plano-betania-perfume-memoria",
+      "kind": "canonical-case",
+      "title": "O plano, o perfume e a memória",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.1-9",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.1-9",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quando os líderes planejavam agir, onde ocorreu a unção, como Jesus avaliou a ação e o que disse sobre sua memória?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A avaliação de Jesus sobre a boa ação e sua relação com a sepultura organiza as reações e a memória final sem identificar externamente a mulher.",
+      "editorial": {
+        "hinge": "A mulher permanece sem nome; preço, pobres, sepultura e memória são elementos internos de Marcos, sem transferência dos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Avaliação de Jesus sobre a mulher",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Praticou uma boa ação para com ele"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Interrompeu a refeição"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Deveria recuperar o frasco"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Precisava identificar-se"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Praticou uma boa ação para com ele",
+          "enderecoNAA": "Marcos 14.6-8",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.6-8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Momento evitado pelos líderes",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Durante a festa"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Na manhã seguinte"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Depois do sábado"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Durante a viagem"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Durante a festa",
+          "enderecoNAA": "Marcos 14.1-2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.1-2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Lugar da refeição",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Casa de Simão, o leproso, em Betânia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Pátio do sumo sacerdote"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cenáculo em Jerusalém"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Casa de Pilatos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Casa de Simão, o leproso, em Betânia",
+          "enderecoNAA": "Marcos 14.3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Alcance da memória da ação",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Onde o evangelho fosse pregado no mundo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Somente naquela casa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Apenas entre os doze"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Somente durante a festa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Onde o evangelho fosse pregado no mundo",
+          "enderecoNAA": "Marcos 14.9",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A Páscoa e a Festa dos Pães sem Fermento estavam a dois dias.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A Páscoa e a Festa dos Pães sem Fermento estavam a dois dias."
+          },
+          {
+            "id": "P02",
+            "text": "Principais sacerdotes e escribas buscavam prender Jesus à traição.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Principais sacerdotes e escribas buscavam prender Jesus à traição."
+          },
+          {
+            "id": "P03",
+            "text": "Eles pretendiam matá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles pretendiam matá-lo."
+          },
+          {
+            "id": "P04",
+            "text": "Os líderes evitavam agir durante a festa por receio de tumulto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os líderes evitavam agir durante a festa por receio de tumulto."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus fazia uma refeição em Betânia, na casa de Simão, o leproso.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus fazia uma refeição em Betânia, na casa de Simão, o leproso."
+          },
+          {
+            "id": "P06",
+            "text": "Uma mulher trouxe um frasco de alabastro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Uma mulher trouxe um frasco de alabastro."
+          },
+          {
+            "id": "P07",
+            "text": "O frasco continha perfume valioso de nardo puro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O frasco continha perfume valioso de nardo puro."
+          },
+          {
+            "id": "P08",
+            "text": "Ela quebrou o frasco e derramou o perfume sobre a cabeça de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ela quebrou o frasco e derramou o perfume sobre a cabeça de Jesus."
+          },
+          {
+            "id": "P09",
+            "text": "Alguns presentes ficaram indignados e falaram em desperdício.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Alguns presentes ficaram indignados e falaram em desperdício."
+          },
+          {
+            "id": "P10",
+            "text": "Eles estimaram a venda em mais de trezentos denários e mencionaram os pobres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles estimaram a venda em mais de trezentos denários e mencionaram os pobres."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus mandou que deixassem a mulher em paz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus mandou que deixassem a mulher em paz."
+          },
+          {
+            "id": "P12",
+            "text": "Ele afirmou que ela praticara uma boa ação para com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele afirmou que ela praticara uma boa ação para com ele."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus distinguiu a presença contínua dos pobres de sua própria presença limitada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus distinguiu a presença contínua dos pobres de sua própria presença limitada."
+          },
+          {
+            "id": "P14",
+            "text": "Ele disse que ela fez o que pôde e antecipou a unção para a sepultura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele disse que ela fez o que pôde e antecipou a unção para a sepultura."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus vinculou a pregação mundial do evangelho à memória da ação dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus vinculou a pregação mundial do evangelho à memória da ação dela."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.1-9 registra o plano dos líderes, a unção anônima em Betânia, as reações e a avaliação atribuída a Jesus.",
+        "hinge": "A mulher permanece sem nome; preço, pobres, sepultura e memória são elementos internos de Marcos, sem transferência dos paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.1-9",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao": {
+      "id": "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao",
+      "kind": "canonical-case",
+      "title": "Judas, os sacerdotes, o dinheiro e a ocasião",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.10-11",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.10-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem procurou os sacerdotes, para que os procurou, como eles reagiram e o que ele passou a buscar?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A iniciativa de Judas em procurar os líderes para entregar Jesus é o centro explícito do recorte e conecta reação, promessa e busca posterior.",
+      "editorial": {
+        "hinge": "O recorte não quantifica o dinheiro nem importa motivos, negociações ou desfechos de outros documentos."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem procurou os principais sacerdotes",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Judas Iscariotes"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Simão, o leproso"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "José de Arimateia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Judas Iscariotes",
+          "enderecoNAA": "Marcos 14.10",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Finalidade da procura",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Entregar Jesus"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Preparar a Páscoa"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pedir o corpo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Comprar perfume"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Entregar Jesus",
+          "enderecoNAA": "Marcos 14.10",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Reação dos sacerdotes",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Alegraram-se e prometeram dinheiro"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Rasgaram as vestes"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ficaram em silêncio"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Mandaram soltá-lo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Alegraram-se e prometeram dinheiro",
+          "enderecoNAA": "Marcos 14.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que Judas buscava depois",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Uma boa ocasião para entregar Jesus"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um aposento mobiliado"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Testemunhas coerentes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Um cântaro de água"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Uma boa ocasião para entregar Jesus",
+          "enderecoNAA": "Marcos 14.11",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 2,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Judas Iscariotes tomou a iniciativa de procurar os principais sacerdotes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Judas Iscariotes tomou a iniciativa de procurar os principais sacerdotes."
+          },
+          {
+            "id": "P02",
+            "text": "Marcos o identifica como um dos doze.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos o identifica como um dos doze."
+          },
+          {
+            "id": "P03",
+            "text": "A finalidade declarada era entregar Jesus aos líderes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A finalidade declarada era entregar Jesus aos líderes."
+          },
+          {
+            "id": "P04",
+            "text": "Os sacerdotes se alegraram ao ouvir a proposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os sacerdotes se alegraram ao ouvir a proposta."
+          },
+          {
+            "id": "P05",
+            "text": "Eles prometeram dar dinheiro a Judas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles prometeram dar dinheiro a Judas."
+          },
+          {
+            "id": "P06",
+            "text": "Depois disso, Judas buscava uma boa ocasião para a entrega.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois disso, Judas buscava uma boa ocasião para a entrega."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.10-11 registra Judas procurando os principais sacerdotes para entregar Jesus, a alegria e promessa de dinheiro dos líderes e a busca de uma ocasião.",
+        "hinge": "O recorte não quantifica o dinheiro nem importa motivos, negociações ou desfechos de outros documentos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.10-11",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pascoa-homem-cantaro-cenaculo": {
+      "id": "nt2-marcos-pascoa-homem-cantaro-cenaculo",
+      "kind": "canonical-case",
+      "title": "A Páscoa, o homem com cântaro e o cenáculo",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.12-16",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.12-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quando os discípulos perguntaram pelos preparativos, qual sinal receberiam, o que deveriam perguntar e como terminou a busca?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O encontro de tudo conforme Jesus dissera confirma a sequência de instruções e conduz ao preparo efetivo da Páscoa.",
+      "editorial": {
+        "hinge": "Homem, casa e dono permanecem sem nomes; o cântaro funciona apenas como sinal narrado em Marcos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resultado da busca",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Acharam tudo como Jesus dissera e prepararam a Páscoa"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Voltaram sem encontrar a casa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Foram impedidos pelos líderes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Prepararam a refeição em Betânia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Acharam tudo como Jesus dissera e prepararam a Páscoa",
+          "enderecoNAA": "Marcos 14.16",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Ocasião da pergunta dos discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Primeiro dia dos Pães sem Fermento"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Véspera do sábado"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Dois dias após a Páscoa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Primeiro dia da semana"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Primeiro dia dos Pães sem Fermento",
+          "enderecoNAA": "Marcos 14.12",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Sinal na cidade",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um homem trazendo um cântaro de água"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Uma mulher com perfume"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um jovem vestido de branco"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um servo com uma espada"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um homem trazendo um cântaro de água",
+          "enderecoNAA": "Marcos 14.13",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Pergunta ao dono da casa",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Onde ficava o aposento do Mestre"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Onde estava o Sinédrio"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Quem removeria a pedra"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Quando chegaria Pilatos"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Onde ficava o aposento do Mestre",
+          "enderecoNAA": "Marcos 14.14",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Era o primeiro dia da Festa dos Pães sem Fermento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Era o primeiro dia da Festa dos Pães sem Fermento."
+          },
+          {
+            "id": "P02",
+            "text": "Nesse dia se fazia o sacrifício do cordeiro pascal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nesse dia se fazia o sacrifício do cordeiro pascal."
+          },
+          {
+            "id": "P03",
+            "text": "Os discípulos perguntaram onde deveriam preparar a Páscoa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos perguntaram onde deveriam preparar a Páscoa."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus enviou dois discípulos à cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus enviou dois discípulos à cidade."
+          },
+          {
+            "id": "P05",
+            "text": "Um homem trazendo um cântaro de água sairia ao encontro deles.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Um homem trazendo um cântaro de água sairia ao encontro deles."
+          },
+          {
+            "id": "P06",
+            "text": "Eles deveriam seguir esse homem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles deveriam seguir esse homem."
+          },
+          {
+            "id": "P07",
+            "text": "A pergunta seria dirigida ao dono da casa em que ele entrasse.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A pergunta seria dirigida ao dono da casa em que ele entrasse."
+          },
+          {
+            "id": "P08",
+            "text": "O aposento era destinado ao Mestre e aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O aposento era destinado ao Mestre e aos discípulos."
+          },
+          {
+            "id": "P09",
+            "text": "O dono mostraria um cenáculo espaçoso, mobiliado e pronto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O dono mostraria um cenáculo espaçoso, mobiliado e pronto."
+          },
+          {
+            "id": "P10",
+            "text": "Os dois deveriam fazer ali os preparativos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os dois deveriam fazer ali os preparativos."
+          },
+          {
+            "id": "P11",
+            "text": "Os discípulos saíram e foram à cidade.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos saíram e foram à cidade."
+          },
+          {
+            "id": "P12",
+            "text": "Eles acharam tudo como Jesus havia dito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles acharam tudo como Jesus havia dito."
+          },
+          {
+            "id": "P13",
+            "text": "Então prepararam a Páscoa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Então prepararam a Páscoa."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.12-16 registra a pergunta sobre o preparo da Páscoa, as instruções dadas a dois discípulos e o encontro do cenário anunciado.",
+        "hinge": "Homem, casa e dono permanecem sem nomes; o cântaro funciona apenas como sinal narrado em Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.12-16",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-mesa-doze-traidor-prato": {
+      "id": "nt2-marcos-mesa-doze-traidor-prato",
+      "kind": "canonical-case",
+      "title": "A mesa, os doze, o traidor e o prato",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.17-21",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.17-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Com quem Jesus chegou, o que anunciou durante a refeição, como os discípulos reagiram e como identificou o traidor?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O anúncio de traição por alguém que comia com Jesus produz a tristeza, as perguntas e a identificação interna do grupo.",
+      "editorial": {
+        "hinge": "A pauta conserva anúncio e descrição atribuídos a Jesus, sem completar a citação ou importar identidade além de Judas já nomeado no contexto documental."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Anúncio durante a refeição",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um dos que comiam com ele o trairia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Todos fugiriam para Betânia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Pilatos soltaria Barrabás"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O túmulo estaria vazio"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um dos que comiam com ele o trairia",
+          "enderecoNAA": "Marcos 14.18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Grupo com o qual Jesus chegou",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os doze"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O Sinédrio"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A tropa"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "As mulheres da Galileia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Os doze",
+          "enderecoNAA": "Marcos 14.17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Reação dos discípulos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Entristeceram-se e perguntaram um por um"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Cantaram antes da resposta"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Saíram imediatamente"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Chamaram os sacerdotes"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Entristeceram-se e perguntaram um por um",
+          "enderecoNAA": "Marcos 14.19",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Identificação dada por Jesus",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Um dos doze que punha a mão no prato com ele"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "O porteiro da casa"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O homem do cântaro"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O servo do sumo sacerdote"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Um dos doze que punha a mão no prato com ele",
+          "enderecoNAA": "Marcos 14.20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Ao cair da tarde, Jesus chegou com os doze.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ao cair da tarde, Jesus chegou com os doze."
+          },
+          {
+            "id": "P02",
+            "text": "A conversa ocorreu enquanto estavam à mesa e comiam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A conversa ocorreu enquanto estavam à mesa e comiam."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus introduziu o anúncio com uma fórmula solene.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus introduziu o anúncio com uma fórmula solene."
+          },
+          {
+            "id": "P04",
+            "text": "Ele disse que um dos presentes o trairia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele disse que um dos presentes o trairia."
+          },
+          {
+            "id": "P05",
+            "text": "O traidor foi descrito como alguém que comia com Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O traidor foi descrito como alguém que comia com Jesus."
+          },
+          {
+            "id": "P06",
+            "text": "Os discípulos começaram a ficar tristes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos começaram a ficar tristes."
+          },
+          {
+            "id": "P07",
+            "text": "Eles perguntaram individualmente se seriam os responsáveis.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles perguntaram individualmente se seriam os responsáveis."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus situou o traidor entre os doze.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus situou o traidor entre os doze."
+          },
+          {
+            "id": "P09",
+            "text": "Também o descreveu pondo a mão no prato com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Também o descreveu pondo a mão no prato com ele."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus afirmou que o Filho do Homem seguiria o que estava escrito a seu respeito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus afirmou que o Filho do Homem seguiria o que estava escrito a seu respeito."
+          },
+          {
+            "id": "P11",
+            "text": "Ele pronunciou um ai sobre aquele que o traía.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele pronunciou um ai sobre aquele que o traía."
+          },
+          {
+            "id": "P12",
+            "text": "A fala compara o destino desse homem a não ter nascido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala compara o destino desse homem a não ter nascido."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.17-21 registra a chegada com os doze, o anúncio de traição durante a refeição e a reação do grupo.",
+        "hinge": "A pauta conserva anúncio e descrição atribuídos a Jesus, sem completar a citação ou importar identidade além de Judas já nomeado no contexto documental.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.17-21",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pao-calice-videira-hino": {
+      "id": "nt2-marcos-pao-calice-videira-hino",
+      "kind": "canonical-case",
+      "title": "O pão, o cálice, a videira e o hino",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.22-26",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.22-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus fez com o pão, o que disse sobre o cálice, até quando não beberia da videira e para onde saíram após o hino?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A entrega do cálice a todos e a fala sobre o sangue da aliança estruturam o centro da refeição entre pão, promessa e saída.",
+      "editorial": {
+        "hinge": "Corpo, sangue, aliança e Reino permanecem falas atribuídas a Jesus; a pauta não acrescenta formulações litúrgicas ou doutrinárias externas."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Identificação do conteúdo do cálice",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Seu sangue da aliança, derramado por muitos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "A água do cântaro"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O perfume de nardo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O vinagre da esponja"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Seu sangue da aliança, derramado por muitos",
+          "enderecoNAA": "Marcos 14.23-24",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.23-24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Ações de Jesus com o pão",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Abençoou, partiu e deu aos discípulos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Guardou, vendeu e distribuiu aos pobres"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Misturou com mirra e recusou"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Levou ao monte e escondeu"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Abençoou, partiu e deu aos discípulos",
+          "enderecoNAA": "Marcos 14.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Limite declarado sobre a videira",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Até beber o vinho novo no Reino de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Até o fim da festa naquele dia"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Até voltar à casa de Simão"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Até o galo cantar"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Até beber o vinho novo no Reino de Deus",
+          "enderecoNAA": "Marcos 14.25",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Destino após cantarem um hino",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Monte das Oliveiras"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Gólgota"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pátio do sumo sacerdote"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Monte das Oliveiras",
+          "enderecoNAA": "Marcos 14.26",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 6,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "A unidade ocorre enquanto Jesus e os discípulos comiam.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A unidade ocorre enquanto Jesus e os discípulos comiam."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus pegou um pão e o abençoou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus pegou um pão e o abençoou."
+          },
+          {
+            "id": "P03",
+            "text": "Ele partiu o pão e o deu aos discípulos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele partiu o pão e o deu aos discípulos."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus relacionou o pão ao seu corpo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus relacionou o pão ao seu corpo."
+          },
+          {
+            "id": "P05",
+            "text": "Depois, pegou um cálice e deu graças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois, pegou um cálice e deu graças."
+          },
+          {
+            "id": "P06",
+            "text": "Ele deu o cálice aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele deu o cálice aos discípulos."
+          },
+          {
+            "id": "P07",
+            "text": "Todos beberam dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Todos beberam dele."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus relacionou o cálice ao seu sangue da aliança.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus relacionou o cálice ao seu sangue da aliança."
+          },
+          {
+            "id": "P09",
+            "text": "Esse sangue foi descrito como derramado por muitos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Esse sangue foi descrito como derramado por muitos."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus declarou que não beberia novamente do fruto da videira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus declarou que não beberia novamente do fruto da videira."
+          },
+          {
+            "id": "P11",
+            "text": "O limite era o dia de beber vinho novo no Reino de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O limite era o dia de beber vinho novo no Reino de Deus."
+          },
+          {
+            "id": "P12",
+            "text": "O grupo cantou um hino.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O grupo cantou um hino."
+          },
+          {
+            "id": "P13",
+            "text": "Depois, saiu para o monte das Oliveiras.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois, saiu para o monte das Oliveiras."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.22-26 registra ações e falas de Jesus com pão e cálice, a declaração sobre a videira e a saída após um hino.",
+        "hinge": "Corpo, sangue, aliança e Reino permanecem falas atribuídas a Jesus; a pauta não acrescenta formulações litúrgicas ou doutrinárias externas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.22-26",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pastor-galileia-pedro-galo": {
+      "id": "nt2-marcos-pastor-galileia-pedro-galo",
+      "kind": "canonical-case",
+      "title": "O pastor, a Galileia, Pedro e o galo",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.27-31",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.27-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "O que Jesus anunciou ao grupo, para onde iria após ressuscitar, como Pedro respondeu e qual sinal acompanharia sua negação?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A previsão específica do galo e das três negações concentra o diálogo com Pedro e distingue sua afirmação da resposta de Jesus.",
+      "editorial": {
+        "hinge": "A citação do pastor fica atribuída ao discurso em Marcos; o recorte não identifica cumprimento externo nem funde anúncios paralelos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Sinal e quantidade na previsão a Pedro",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Galo cantaria duas vezes e ele negaria três"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Galo cantaria uma vez e ele negaria duas"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Haveria três horas de trevas"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Dois servos fariam uma pergunta"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Galo cantaria duas vezes e ele negaria três",
+          "enderecoNAA": "Marcos 14.30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Anúncio sobre os discípulos",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Todos tropeçariam"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Todos permaneceriam no cenáculo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Todos seguiriam até o pátio"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Todos seriam soltos por Pilatos"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Todos tropeçariam",
+          "enderecoNAA": "Marcos 14.27",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Destino anunciado após a ressurreição",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Betânia"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Gólgota"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Arimateia"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Galileia",
+          "enderecoNAA": "Marcos 14.28",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Afirmação inicial de Pedro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ainda que todos tropeçassem, ele não"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ele não conhecia Jesus"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ele prepararia a Páscoa sozinho"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ele removeria a pedra"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ainda que todos tropeçassem, ele não",
+          "enderecoNAA": "Marcos 14.29",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus disse aos discípulos que todos tropeçariam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus disse aos discípulos que todos tropeçariam."
+          },
+          {
+            "id": "P02",
+            "text": "Ele atribuiu ao texto a imagem do pastor ferido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele atribuiu ao texto a imagem do pastor ferido."
+          },
+          {
+            "id": "P03",
+            "text": "Na imagem citada, as ovelhas ficariam dispersas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na imagem citada, as ovelhas ficariam dispersas."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus anunciou sua ressurreição.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus anunciou sua ressurreição."
+          },
+          {
+            "id": "P05",
+            "text": "Depois dela, iria adiante dos discípulos para a Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.28",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois dela, iria adiante dos discípulos para a Galileia."
+          },
+          {
+            "id": "P06",
+            "text": "Pedro afirmou que não tropeçaria mesmo que todos os demais o fizessem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro afirmou que não tropeçaria mesmo que todos os demais o fizessem."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus situou a previsão naquele mesmo dia e noite.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus situou a previsão naquele mesmo dia e noite."
+          },
+          {
+            "id": "P08",
+            "text": "O galo cantaria duas vezes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O galo cantaria duas vezes."
+          },
+          {
+            "id": "P09",
+            "text": "Antes disso, Pedro negaria Jesus três vezes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Antes disso, Pedro negaria Jesus três vezes."
+          },
+          {
+            "id": "P10",
+            "text": "Pedro insistiu com ainda mais firmeza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro insistiu com ainda mais firmeza."
+          },
+          {
+            "id": "P11",
+            "text": "Ele disse que não negaria Jesus mesmo que precisasse morrer com ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele disse que não negaria Jesus mesmo que precisasse morrer com ele."
+          },
+          {
+            "id": "P12",
+            "text": "Todos os demais fizeram a mesma afirmação.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Todos os demais fizeram a mesma afirmação."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.27-31 registra o anúncio de tropeço do grupo, a Galileia após a ressurreição e o diálogo de Jesus com Pedro sobre negação.",
+        "hinge": "A citação do pastor fica atribuída ao discurso em Marcos; o recorte não identifica cumprimento externo nem funde anúncios paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.27-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-getsemani-aba-vigiar-entrega": {
+      "id": "nt2-marcos-getsemani-aba-vigiar-entrega",
+      "kind": "canonical-case",
+      "title": "Getsêmani, Aba, vigilância e entrega",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.32-42",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.32-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde o grupo chegou, quem acompanhou Jesus mais adiante, o que ele pediu em oração e que ordem deu aos discípulos?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A ordem conjunta de vigiar e orar atravessa as idas e voltas, relacionando sono, tentação e a chegada da entrega sem reduzir a oração a uma conclusão externa.",
+      "editorial": {
+        "hinge": "A pauta descreve palavras, emoções, movimentos e reações narrados por Marcos, sem decidir questões teológicas além das falas atribuídas."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Pedido de Jesus em oração",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Que a hora passasse, se possível, submetendo-se à vontade do Pai"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Que os discípulos partissem para Roma"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Que o traidor recebesse dinheiro"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Que o Sinédrio encontrasse testemunhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Que a hora passasse, se possível, submetendo-se à vontade do Pai",
+          "enderecoNAA": "Marcos 14.35-36",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.35-36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar ao qual foram",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Getsêmani"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Gólgota"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Betânia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Pretório"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Getsêmani",
+          "enderecoNAA": "Marcos 14.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Três levados por Jesus",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Pedro, Tiago e João"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Judas, Pedro e André"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "José, Simão e Rufo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Maria, Salomé e José"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Pedro, Tiago e João",
+          "enderecoNAA": "Marcos 14.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ordem aos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Vigiar e orar para não cair em tentação"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Preparar pão e cálice"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Buscar espadas e porretes"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Responder ao sumo sacerdote"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Vigiar e orar para não cair em tentação",
+          "enderecoNAA": "Marcos 14.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos chegaram a um lugar chamado Getsêmani.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus e os discípulos chegaram a um lugar chamado Getsêmani."
+          },
+          {
+            "id": "P02",
+            "text": "Ele mandou os discípulos se assentarem enquanto orava.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele mandou os discípulos se assentarem enquanto orava."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus levou consigo Pedro, Tiago e João.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus levou consigo Pedro, Tiago e João."
+          },
+          {
+            "id": "P04",
+            "text": "Ele começou a sentir pavor e angústia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele começou a sentir pavor e angústia."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus descreveu sua alma como profundamente triste até a morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus descreveu sua alma como profundamente triste até a morte."
+          },
+          {
+            "id": "P06",
+            "text": "Pediu aos três que permanecessem e vigiassem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pediu aos três que permanecessem e vigiassem."
+          },
+          {
+            "id": "P07",
+            "text": "Adiantando-se um pouco, prostrou-se em terra.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Adiantando-se um pouco, prostrou-se em terra."
+          },
+          {
+            "id": "P08",
+            "text": "Ele orou para que, se possível, aquela hora lhe fosse poupada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele orou para que, se possível, aquela hora lhe fosse poupada."
+          },
+          {
+            "id": "P09",
+            "text": "Na oração, dirigiu-se ao Pai como Aba.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na oração, dirigiu-se ao Pai como Aba."
+          },
+          {
+            "id": "P10",
+            "text": "Afirmou que todas as coisas eram possíveis ao Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Afirmou que todas as coisas eram possíveis ao Pai."
+          },
+          {
+            "id": "P11",
+            "text": "Pediu que o cálice fosse afastado, mas submeteu o pedido à vontade do Pai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pediu que o cálice fosse afastado, mas submeteu o pedido à vontade do Pai."
+          },
+          {
+            "id": "P12",
+            "text": "Ao voltar, encontrou os três dormindo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ao voltar, encontrou os três dormindo."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus perguntou a Simão se não conseguira vigiar uma hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus perguntou a Simão se não conseguira vigiar uma hora."
+          },
+          {
+            "id": "P14",
+            "text": "Ele mandou vigiar e orar para não cair em tentação.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele mandou vigiar e orar para não cair em tentação."
+          },
+          {
+            "id": "P15",
+            "text": "Jesus contrastou o espírito pronto com a carne fraca.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus contrastou o espírito pronto com a carne fraca."
+          },
+          {
+            "id": "P16",
+            "text": "Retirou-se novamente e repetiu as mesmas palavras em oração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Retirou-se novamente e repetiu as mesmas palavras em oração."
+          },
+          {
+            "id": "P17",
+            "text": "Na volta seguinte, achou-os dormindo com olhos pesados e sem resposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na volta seguinte, achou-os dormindo com olhos pesados e sem resposta."
+          },
+          {
+            "id": "P18",
+            "text": "Na terceira volta, anunciou que a hora havia chegado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na terceira volta, anunciou que a hora havia chegado."
+          },
+          {
+            "id": "P19",
+            "text": "Jesus disse que o Filho do Homem estava sendo entregue a pecadores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus disse que o Filho do Homem estava sendo entregue a pecadores."
+          },
+          {
+            "id": "P20",
+            "text": "Ele mandou levantar e anunciou a aproximação do traidor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.42",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele mandou levantar e anunciou a aproximação do traidor."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.32-42 registra Getsêmani, a oração de Jesus, o sono dos três discípulos e o anúncio da entrega próxima.",
+        "hinge": "A pauta descreve palavras, emoções, movimentos e reações narrados por Marcos, sem decidir questões teológicas além das falas atribuídas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.32-42",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-judas-beijo-espadas-jovem": {
+      "id": "nt2-marcos-judas-beijo-espadas-jovem",
+      "kind": "canonical-case",
+      "title": "Judas, o beijo, as espadas e o jovem",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.43-52",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.43-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem chegou com a multidão, qual sinal havia combinado, como Jesus respondeu à prisão e o que aconteceu ao jovem que o seguia?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O beijo previamente combinado identifica Jesus à multidão e estrutura prisão, resposta, fuga geral e o episódio exclusivo do jovem.",
+      "editorial": {
+        "hinge": "A pauta mantém o jovem sem identidade e não transfere lanternas, nomes ou outras particularidades dos relatos paralelos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Sinal combinado pelo traidor",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um beijo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um cântaro"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma inscrição"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um hino"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um beijo",
+          "enderecoNAA": "Marcos 14.44-45",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.44-45",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem chegou enquanto Jesus falava",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Judas, um dos doze"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Pilatos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "José de Arimateia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Simão Cireneu"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Judas, um dos doze",
+          "enderecoNAA": "Marcos 14.43",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.43",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Comparação usada por Jesus sobre a prisão",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Vieram como se ele fosse um salteador"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Vieram como a um rei em festa"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Vieram como servos da casa"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Vieram como mulheres ao túmulo"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Vieram como se ele fosse um salteador",
+          "enderecoNAA": "Marcos 14.48-49",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.48-49",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Desfecho do jovem",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Largou o lençol e fugiu nu"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Foi preso com Jesus"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Feriu o servo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Seguiu até Pilatos"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Largou o lençol e fugiu nu",
+          "enderecoNAA": "Marcos 14.51-52",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.51-52",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Judas chegou enquanto Jesus ainda falava.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Judas chegou enquanto Jesus ainda falava."
+          },
+          {
+            "id": "P02",
+            "text": "Marcos identifica Judas como um dos doze.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos identifica Judas como um dos doze."
+          },
+          {
+            "id": "P03",
+            "text": "Uma multidão veio com ele trazendo espadas e porretes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Uma multidão veio com ele trazendo espadas e porretes."
+          },
+          {
+            "id": "P04",
+            "text": "A multidão vinha da parte dos principais sacerdotes, escribas e anciãos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.43",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A multidão vinha da parte dos principais sacerdotes, escribas e anciãos."
+          },
+          {
+            "id": "P05",
+            "text": "O traidor havia combinado um beijo como sinal.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O traidor havia combinado um beijo como sinal."
+          },
+          {
+            "id": "P06",
+            "text": "A instrução era prender e levar com segurança aquele que fosse beijado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.44",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A instrução era prender e levar com segurança aquele que fosse beijado."
+          },
+          {
+            "id": "P07",
+            "text": "Judas aproximou-se de Jesus e o chamou de Mestre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Judas aproximou-se de Jesus e o chamou de Mestre."
+          },
+          {
+            "id": "P08",
+            "text": "Depois, beijou Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.45",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois, beijou Jesus."
+          },
+          {
+            "id": "P09",
+            "text": "O grupo agarrou e prendeu Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.46",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O grupo agarrou e prendeu Jesus."
+          },
+          {
+            "id": "P10",
+            "text": "Um presente feriu com espada o servo do sumo sacerdote e cortou sua orelha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.47",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Um presente feriu com espada o servo do sumo sacerdote e cortou sua orelha."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus comparou a abordagem armada à prisão de um salteador.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.48",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus comparou a abordagem armada à prisão de um salteador."
+          },
+          {
+            "id": "P12",
+            "text": "Ele recordou que ensinava diariamente no templo sem ser preso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele recordou que ensinava diariamente no templo sem ser preso."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus atribuiu o ocorrido ao cumprimento das Escrituras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.49",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus atribuiu o ocorrido ao cumprimento das Escrituras."
+          },
+          {
+            "id": "P14",
+            "text": "Todos o deixaram e fugiram.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.50",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Todos o deixaram e fugiram."
+          },
+          {
+            "id": "P15",
+            "text": "Um jovem coberto apenas por um lençol seguia Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Um jovem coberto apenas por um lençol seguia Jesus."
+          },
+          {
+            "id": "P16",
+            "text": "Tentaram agarrar o jovem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.51",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Tentaram agarrar o jovem."
+          },
+          {
+            "id": "P17",
+            "text": "Ele largou o lençol e fugiu nu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.52",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele largou o lençol e fugiu nu."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.43-52 registra a chegada de Judas e da multidão, o sinal do beijo, a prisão, a fuga geral e a fuga de um jovem.",
+        "hinge": "A pauta mantém o jovem sem identidade e não transfere lanternas, nomes ou outras particularidades dos relatos paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.43-52",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-sinedrio-testemunhos-silencio-confissao": {
+      "id": "nt2-marcos-sinedrio-testemunhos-silencio-confissao",
+      "kind": "canonical-case",
+      "title": "O Sinédrio, os testemunhos, o silêncio e a resposta",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.53-65",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.53-65",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde Jesus foi levado, que problema havia nos testemunhos, como reagiu às primeiras acusações e que resposta provocou a condenação?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A resposta final de Jesus ao sumo sacerdote altera o curso do interrogatório após depoimentos incoerentes e silêncio, conduzindo ao parecer e aos maus-tratos.",
+      "editorial": {
+        "hinge": "Acusações, títulos, anúncio e juízo permanecem atribuídos aos respectivos falantes; nenhuma citação recebe conteúdo externo."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resposta à pergunta sobre Cristo e Filho do Bendito",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Eu sou"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Não o conheço"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Não sei o que você fala"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "O Pai somente sabe"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Eu sou",
+          "enderecoNAA": "Marcos 14.61-62",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.61-62",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Destino de Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Sumo sacerdote e reunião dos líderes"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Pretório de Pilatos"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Túmulo aberto na rocha"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Casa de Simão em Betânia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sumo sacerdote e reunião dos líderes",
+          "enderecoNAA": "Marcos 14.53",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.53",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Problema dos testemunhos",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Não eram coerentes"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Não havia testemunhas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Vinham apenas dos discípulos"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Tratavam somente de Barrabás"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Não eram coerentes",
+          "enderecoNAA": "Marcos 14.55-59",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.55-59",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Resposta inicial de Jesus às acusações",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Guardou silêncio"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Confirmou os depoimentos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pediu outro juiz"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Chamou Pedro"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Guardou silêncio",
+          "enderecoNAA": "Marcos 14.60-61",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.60-61",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 8,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus foi levado ao sumo sacerdote.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.53",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus foi levado ao sumo sacerdote."
+          },
+          {
+            "id": "P02",
+            "text": "Principais sacerdotes, anciãos e escribas reuniram-se ali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.53",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Principais sacerdotes, anciãos e escribas reuniram-se ali."
+          },
+          {
+            "id": "P03",
+            "text": "Pedro o seguiu de longe até o pátio e se aquentou ao fogo entre os servos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.54",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro o seguiu de longe até o pátio e se aquentou ao fogo entre os servos."
+          },
+          {
+            "id": "P04",
+            "text": "Os líderes buscavam testemunho para condenar Jesus à morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os líderes buscavam testemunho para condenar Jesus à morte."
+          },
+          {
+            "id": "P05",
+            "text": "Eles não encontravam prova adequada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.55",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles não encontravam prova adequada."
+          },
+          {
+            "id": "P06",
+            "text": "Muitos testemunhavam falsamente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Muitos testemunhavam falsamente."
+          },
+          {
+            "id": "P07",
+            "text": "Os depoimentos não eram coerentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.56",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os depoimentos não eram coerentes."
+          },
+          {
+            "id": "P08",
+            "text": "Alguns atribuíram a Jesus uma fala sobre destruir e reconstruir o santuário.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.57-58",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Alguns atribuíram a Jesus uma fala sobre destruir e reconstruir o santuário."
+          },
+          {
+            "id": "P09",
+            "text": "Nem nesse ponto os testemunhos concordavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.59",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nem nesse ponto os testemunhos concordavam."
+          },
+          {
+            "id": "P10",
+            "text": "O sumo sacerdote perguntou se Jesus nada responderia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.60",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sumo sacerdote perguntou se Jesus nada responderia."
+          },
+          {
+            "id": "P11",
+            "text": "Jesus guardou silêncio e não respondeu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.61",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus guardou silêncio e não respondeu."
+          },
+          {
+            "id": "P12",
+            "text": "O sumo sacerdote perguntou se ele era o Cristo, Filho do Bendito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.61",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sumo sacerdote perguntou se ele era o Cristo, Filho do Bendito."
+          },
+          {
+            "id": "P13",
+            "text": "Jesus respondeu afirmativamente.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus respondeu afirmativamente."
+          },
+          {
+            "id": "P14",
+            "text": "Ele anunciou que veriam o Filho do Homem à direita do Todo-Poderoso e vindo com nuvens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.62",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele anunciou que veriam o Filho do Homem à direita do Todo-Poderoso e vindo com nuvens."
+          },
+          {
+            "id": "P15",
+            "text": "O sumo sacerdote rasgou as vestes e dispensou outras testemunhas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.63",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sumo sacerdote rasgou as vestes e dispensou outras testemunhas."
+          },
+          {
+            "id": "P16",
+            "text": "Os presentes julgaram Jesus réu de morte.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.64",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os presentes julgaram Jesus réu de morte."
+          },
+          {
+            "id": "P17",
+            "text": "Alguns cuspiram, cobriram o rosto, bateram e exigiram profecia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.65",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Alguns cuspiram, cobriram o rosto, bateram e exigiram profecia."
+          },
+          {
+            "id": "P18",
+            "text": "Os guardas também o receberam a tapas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.65",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os guardas também o receberam a tapas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.53-65 registra a reunião diante do sumo sacerdote, depoimentos incoerentes, o silêncio de Jesus, sua resposta e a condenação.",
+        "hinge": "Acusações, títulos, anúncio e juízo permanecem atribuídos aos respectivos falantes; nenhuma citação recebe conteúdo externo.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.53-65",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-patio-empregada-negacoes-choro": {
+      "id": "nt2-marcos-patio-empregada-negacoes-choro",
+      "kind": "canonical-case",
+      "title": "O pátio, a empregada, as negações e o choro",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 14.66-72",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.66-72",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Pedro estava, quem iniciou a acusação, como ele respondeu e o que o fez lembrar e chorar?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O segundo canto do galo liga as três negações à palavra anterior de Jesus e produz a lembrança e o choro de Pedro.",
+      "editorial": {
+        "hinge": "As acusações e respostas ficam ligadas aos falantes e à sequência de Marcos, sem completar detalhes de outros Evangelhos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Evento que provocou a lembrança",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Segundo canto do galo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Rasgar das vestes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Romper do véu"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Nascer do sol"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Segundo canto do galo",
+          "enderecoNAA": "Marcos 14.72",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.72",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Local de Pedro",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Embaixo no pátio"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Dentro do túmulo"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "No monte das Oliveiras"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No Pretório"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Embaixo no pátio",
+          "enderecoNAA": "Marcos 14.66",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.66",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Quem iniciou a identificação",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Uma empregada do sumo sacerdote"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Salomé"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Maria Madalena"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "A mulher de Pilatos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Uma empregada do sumo sacerdote",
+          "enderecoNAA": "Marcos 14.66-67",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.66-67",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Primeira resposta de Pedro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Negou conhecer ou compreender"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Confessou ser discípulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Guardou silêncio"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pediu testemunhas"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Negou conhecer ou compreender",
+          "enderecoNAA": "Marcos 14.68",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "14.68",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 7,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Pedro estava embaixo no pátio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro estava embaixo no pátio."
+          },
+          {
+            "id": "P02",
+            "text": "Uma empregada do sumo sacerdote aproximou-se.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.66",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Uma empregada do sumo sacerdote aproximou-se."
+          },
+          {
+            "id": "P03",
+            "text": "Ela viu Pedro aquecendo-se e fixou os olhos nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.67",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ela viu Pedro aquecendo-se e fixou os olhos nele."
+          },
+          {
+            "id": "P04",
+            "text": "A empregada o associou a Jesus, o Nazareno.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.67",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A empregada o associou a Jesus, o Nazareno."
+          },
+          {
+            "id": "P05",
+            "text": "Pedro negou conhecer ou compreender o assunto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.68",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro negou conhecer ou compreender o assunto."
+          },
+          {
+            "id": "P06",
+            "text": "Ele saiu para o alpendre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.68",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele saiu para o alpendre."
+          },
+          {
+            "id": "P07",
+            "text": "Então o galo cantou pela primeira vez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.68",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Então o galo cantou pela primeira vez."
+          },
+          {
+            "id": "P08",
+            "text": "A empregada voltou a apontá-lo aos presentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.69",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A empregada voltou a apontá-lo aos presentes."
+          },
+          {
+            "id": "P09",
+            "text": "Pedro negou outra vez.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.70",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro negou outra vez."
+          },
+          {
+            "id": "P10",
+            "text": "Pouco depois, os presentes o associaram ao grupo por ser galileu.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.70",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pouco depois, os presentes o associaram ao grupo por ser galileu."
+          },
+          {
+            "id": "P11",
+            "text": "Pedro começou a praguejar e jurar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.71",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro começou a praguejar e jurar."
+          },
+          {
+            "id": "P12",
+            "text": "Ele afirmou não conhecer o homem mencionado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.71",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele afirmou não conhecer o homem mencionado."
+          },
+          {
+            "id": "P13",
+            "text": "O galo cantou pela segunda vez.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.72",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O galo cantou pela segunda vez."
+          },
+          {
+            "id": "P14",
+            "text": "Pedro lembrou a previsão de duas cantadas e três negações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.72",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pedro lembrou a previsão de duas cantadas e três negações."
+          },
+          {
+            "id": "P15",
+            "text": "Ao recordar a palavra de Jesus, caiu em si e começou a chorar.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "14.72",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ao recordar a palavra de Jesus, caiu em si e começou a chorar."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 14.66-72 registra as três negações de Pedro no pátio, os dois cantos do galo, a lembrança e o choro.",
+        "hinge": "As acusações e respostas ficam ligadas aos falantes e à sequência de Marcos, sem completar detalhes de outros Evangelhos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "14.66-72",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pilatos-barrabas-multidao-crucificacao": {
+      "id": "nt2-marcos-pilatos-barrabas-multidao-crucificacao",
+      "kind": "canonical-case",
+      "title": "Pilatos, Barrabás, a multidão e a crucificação",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 15.1-15",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "A quem os líderes entregaram Jesus, quem era Barrabás, por que Pilatos percebia a entrega e que decisão tomou para contentar a multidão?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A decisão final de Pilatos encerra a sequência de acusação, costume, escolha e gritos, determinando soltura, açoite e entrega.",
+      "editorial": {
+        "hinge": "A pauta mantém inveja como percepção narrada de Pilatos e não importa sonho, lavagem das mãos ou outros elementos de Mateus."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Decisão para contentar a multidão",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Soltou Barrabás, mandou açoitar Jesus e o entregou para crucificação"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Soltou Jesus e prendeu os sacerdotes"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Adiou tudo até o sábado"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entregou Barrabás aos soldados"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Soltou Barrabás, mandou açoitar Jesus e o entregou para crucificação",
+          "enderecoNAA": "Marcos 15.15",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Autoridade que recebeu Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pilatos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O sumo sacerdote"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Simão Cireneu"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "José de Arimateia"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Pilatos",
+          "enderecoNAA": "Marcos 15.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Descrição de Barrabás",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Preso com rebeldes envolvidos em homicídio durante tumulto"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Servo do sumo sacerdote"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Membro ilustre do Sinédrio"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Soldado do Pretório"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Preso com rebeldes envolvidos em homicídio durante tumulto",
+          "enderecoNAA": "Marcos 15.7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Motivo percebido por Pilatos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Inveja dos principais sacerdotes"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Medo das mulheres"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pedido dos discípulos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ordem do centurião"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Inveja dos principais sacerdotes",
+          "enderecoNAA": "Marcos 15.10",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Pela manhã, os principais sacerdotes deliberaram com anciãos, escribas e Sinédrio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pela manhã, os principais sacerdotes deliberaram com anciãos, escribas e Sinédrio."
+          },
+          {
+            "id": "P02",
+            "text": "Eles amarraram Jesus, levaram-no e o entregaram a Pilatos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles amarraram Jesus, levaram-no e o entregaram a Pilatos."
+          },
+          {
+            "id": "P03",
+            "text": "Pilatos perguntou se Jesus era o rei dos judeus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pilatos perguntou se Jesus era o rei dos judeus."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus respondeu que Pilatos estava dizendo isso.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus respondeu que Pilatos estava dizendo isso."
+          },
+          {
+            "id": "P05",
+            "text": "Os principais sacerdotes faziam muitas acusações.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os principais sacerdotes faziam muitas acusações."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus deixou de responder, e Pilatos se admirou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.4-5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus deixou de responder, e Pilatos se admirou."
+          },
+          {
+            "id": "P07",
+            "text": "Na festa, costumava-se soltar o preso pedido pelo povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na festa, costumava-se soltar o preso pedido pelo povo."
+          },
+          {
+            "id": "P08",
+            "text": "Barrabás estava preso com rebeldes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Barrabás estava preso com rebeldes."
+          },
+          {
+            "id": "P09",
+            "text": "O grupo havia cometido homicídio durante um tumulto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O grupo havia cometido homicídio durante um tumulto."
+          },
+          {
+            "id": "P10",
+            "text": "A multidão pediu que Pilatos seguisse o costume.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A multidão pediu que Pilatos seguisse o costume."
+          },
+          {
+            "id": "P11",
+            "text": "Pilatos ofereceu soltar aquele que chamava rei dos judeus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.9",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pilatos ofereceu soltar aquele que chamava rei dos judeus."
+          },
+          {
+            "id": "P12",
+            "text": "Ele percebia que os sacerdotes haviam entregado Jesus por inveja.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.10",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele percebia que os sacerdotes haviam entregado Jesus por inveja."
+          },
+          {
+            "id": "P13",
+            "text": "Os sacerdotes incitaram a multidão a preferir Barrabás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.11",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os sacerdotes incitaram a multidão a preferir Barrabás."
+          },
+          {
+            "id": "P14",
+            "text": "Pilatos perguntou o que fazer com o chamado rei dos judeus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.12",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pilatos perguntou o que fazer com o chamado rei dos judeus."
+          },
+          {
+            "id": "P15",
+            "text": "A multidão gritou pela crucificação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.13",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A multidão gritou pela crucificação."
+          },
+          {
+            "id": "P16",
+            "text": "Pilatos perguntou que mal Jesus havia feito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Pilatos perguntou que mal Jesus havia feito."
+          },
+          {
+            "id": "P17",
+            "text": "Os gritos pela crucificação aumentaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.14",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os gritos pela crucificação aumentaram."
+          },
+          {
+            "id": "P18",
+            "text": "Para contentar a multidão, Pilatos soltou Barrabás.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Para contentar a multidão, Pilatos soltou Barrabás."
+          },
+          {
+            "id": "P19",
+            "text": "Ele mandou açoitar Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele mandou açoitar Jesus."
+          },
+          {
+            "id": "P20",
+            "text": "Por fim, entregou Jesus para ser crucificado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.15",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Por fim, entregou Jesus para ser crucificado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 15.1-15 registra a entrega a Pilatos, acusações, o costume de soltura, a escolha de Barrabás e a entrega de Jesus à crucificação.",
+        "hinge": "A pauta mantém inveja como percepção narrada de Pilatos e não importa sonho, lavagem das mãos ou outros elementos de Mateus.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.1-15",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-pretorio-purpura-espinhos-zombaria": {
+      "id": "nt2-marcos-pretorio-purpura-espinhos-zombaria",
+      "kind": "canonical-case",
+      "title": "O Pretório, a púrpura, os espinhos e a zombaria",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 15.16-20",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.16-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Para onde os soldados levaram Jesus, com que o vestiram, como o saudaram e o que fizeram depois da zombaria?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A saudação irônica de rei dos judeus dá sentido interno às vestes, coroa, gestos e agressões antes da condução para fora.",
+      "editorial": {
+        "hinge": "Todos os títulos e gestos permanecem ações ou falas dos soldados na zombaria narrada, sem generalização externa."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Saudação dos soldados",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Salve, rei dos judeus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Eu sou"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Vigiem todos"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Preparem a Páscoa"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Salve, rei dos judeus",
+          "enderecoNAA": "Marcos 15.18",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar para onde os soldados o levaram",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Interior do palácio, o Pretório"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Casa de Simão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Túmulo"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Monte das Oliveiras"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Interior do palácio, o Pretório",
+          "enderecoNAA": "Marcos 15.16",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Vestuário e objeto postos nele",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Manto púrpura e coroa de espinhos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Lençol e perfume"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Túnica branca e cântaro"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Armadura e espada"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Manto púrpura e coroa de espinhos",
+          "enderecoNAA": "Marcos 15.17",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ação após a zombaria",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Tiraram a púrpura, vestiram suas roupas e o levaram para crucificar"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Soltaram-no no pátio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Levaram-no de volta a Betânia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Entregaram-lhe a coroa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Tiraram a púrpura, vestiram suas roupas e o levaram para crucificar",
+          "enderecoNAA": "Marcos 15.20",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Os soldados levaram Jesus para dentro do palácio.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os soldados levaram Jesus para dentro do palácio."
+          },
+          {
+            "id": "P02",
+            "text": "Marcos identifica esse local como o Pretório.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos identifica esse local como o Pretório."
+          },
+          {
+            "id": "P03",
+            "text": "Toda a tropa foi reunida.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.16",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Toda a tropa foi reunida."
+          },
+          {
+            "id": "P04",
+            "text": "Os soldados vestiram Jesus com um manto púrpura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os soldados vestiram Jesus com um manto púrpura."
+          },
+          {
+            "id": "P05",
+            "text": "Eles teceram e puseram nele uma coroa de espinhos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.17",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles teceram e puseram nele uma coroa de espinhos."
+          },
+          {
+            "id": "P06",
+            "text": "A saudação o chamava de rei dos judeus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.18",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A saudação o chamava de rei dos judeus."
+          },
+          {
+            "id": "P07",
+            "text": "Batiam na cabeça dele com um caniço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Batiam na cabeça dele com um caniço."
+          },
+          {
+            "id": "P08",
+            "text": "Também cuspiam nele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Também cuspiam nele."
+          },
+          {
+            "id": "P09",
+            "text": "Ajoelhavam-se diante dele em gesto de adoração.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.19",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ajoelhavam-se diante dele em gesto de adoração."
+          },
+          {
+            "id": "P10",
+            "text": "Depois de zombar, retiraram o manto púrpura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois de zombar, retiraram o manto púrpura."
+          },
+          {
+            "id": "P11",
+            "text": "Vestiram Jesus com suas próprias roupas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Vestiram Jesus com suas próprias roupas."
+          },
+          {
+            "id": "P12",
+            "text": "Então o conduziram para fora a fim de crucificá-lo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.20",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Então o conduziram para fora a fim de crucificá-lo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 15.16-20 registra a condução ao Pretório, a roupa púrpura, a coroa, a saudação e as agressões dos soldados.",
+        "hinge": "Todos os títulos e gestos permanecem ações ou falas dos soldados na zombaria narrada, sem generalização externa.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.16-20",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-cireneu-golgota-inscricao-zombaria": {
+      "id": "nt2-marcos-cireneu-golgota-inscricao-zombaria",
+      "kind": "canonical-case",
+      "title": "O Cireneu, o Gólgota, a inscrição e a zombaria",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 15.21-27,29-32",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.21-27,29-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem foi obrigado a levar a cruz, para onde conduziram Jesus, o que dizia a inscrição e que desafio os zombadores fizeram?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "O Gólgota concentra condução, crucificação, inscrição e zombarias, enquanto a referência exclui deliberadamente o verso textual pendente 15.28.",
+      "editorial": {
+        "hinge": "Mc 15.28, exibido entre colchetes na NAA consultada, fica fora de referência, campo e pista; citações e paralelos não completam o relato."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Lugar da crucificação",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Gólgota, Lugar da Caveira"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Getsêmani"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Betânia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Pretório"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Gólgota, Lugar da Caveira",
+          "enderecoNAA": "Marcos 15.22",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Homem obrigado a levar a cruz",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Simão Cireneu"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "José de Arimateia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Barrabás"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Alexandre"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Simão Cireneu",
+          "enderecoNAA": "Marcos 15.21",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Inscrição da acusação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O Rei dos Judeus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O Filho do Bendito"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "O Nazareno ressuscitou"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O dono da casa chegou"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O Rei dos Judeus",
+          "enderecoNAA": "Marcos 15.26",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Desafio repetido na zombaria",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Descer da cruz para salvar-se e ser visto"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Remover a pedra do túmulo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Chamar os discípulos da Galileia"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Recusar o vinho novo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Descer da cruz para salvar-se e ser visto",
+          "enderecoNAA": "Marcos 15.29-32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.29-32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Simão Cireneu passava pelo local vindo do campo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Simão Cireneu passava pelo local vindo do campo."
+          },
+          {
+            "id": "P02",
+            "text": "Marcos o identifica como pai de Alexandre e Rufo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos o identifica como pai de Alexandre e Rufo."
+          },
+          {
+            "id": "P03",
+            "text": "Os soldados o obrigaram a carregar a cruz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.21",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os soldados o obrigaram a carregar a cruz."
+          },
+          {
+            "id": "P04",
+            "text": "Jesus foi levado ao Gólgota.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus foi levado ao Gólgota."
+          },
+          {
+            "id": "P05",
+            "text": "Marcos explica o nome como Lugar da Caveira.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.22",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos explica o nome como Lugar da Caveira."
+          },
+          {
+            "id": "P06",
+            "text": "Ofereceram vinho misturado com mirra, mas Jesus recusou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.23",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ofereceram vinho misturado com mirra, mas Jesus recusou."
+          },
+          {
+            "id": "P07",
+            "text": "Depois o crucificaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Depois o crucificaram."
+          },
+          {
+            "id": "P08",
+            "text": "As roupas foram repartidas por sorteio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.24",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "As roupas foram repartidas por sorteio."
+          },
+          {
+            "id": "P09",
+            "text": "Marcos situa a crucificação às nove horas da manhã.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.25",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos situa a crucificação às nove horas da manhã."
+          },
+          {
+            "id": "P10",
+            "text": "A inscrição apresentava a acusação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A inscrição apresentava a acusação."
+          },
+          {
+            "id": "P11",
+            "text": "Ela dizia que Jesus era o Rei dos Judeus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.26",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ela dizia que Jesus era o Rei dos Judeus."
+          },
+          {
+            "id": "P12",
+            "text": "Dois ladrões foram crucificados com ele, um de cada lado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.27",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Dois ladrões foram crucificados com ele, um de cada lado."
+          },
+          {
+            "id": "P13",
+            "text": "Passantes blasfemavam e balançavam a cabeça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Passantes blasfemavam e balançavam a cabeça."
+          },
+          {
+            "id": "P14",
+            "text": "Eles aludiam à destruição e reconstrução do santuário em três dias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.29",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles aludiam à destruição e reconstrução do santuário em três dias."
+          },
+          {
+            "id": "P15",
+            "text": "Desafiavam Jesus a salvar-se e descer da cruz.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Desafiavam Jesus a salvar-se e descer da cruz."
+          },
+          {
+            "id": "P16",
+            "text": "Principais sacerdotes e escribas também zombavam entre si.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Principais sacerdotes e escribas também zombavam entre si."
+          },
+          {
+            "id": "P17",
+            "text": "Eles contrastavam salvar outros com não salvar a si mesmo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles contrastavam salvar outros com não salvar a si mesmo."
+          },
+          {
+            "id": "P18",
+            "text": "Desafiavam o Cristo, rei de Israel, a descer para que vissem e cressem.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Desafiavam o Cristo, rei de Israel, a descer para que vissem e cressem."
+          },
+          {
+            "id": "P19",
+            "text": "Os que estavam crucificados com Jesus também o insultavam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os que estavam crucificados com Jesus também o insultavam."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 15.21-27,29-32 registra Simão Cireneu, o Gólgota, a crucificação, a inscrição e as zombarias.",
+        "hinge": "Mc 15.28, exibido entre colchetes na NAA consultada, fica fora de referência, campo e pista; citações e paralelos não completam o relato.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.21-27,29-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-trevas-grito-veu-centuriao-mulheres": {
+      "id": "nt2-marcos-trevas-grito-veu-centuriao-mulheres",
+      "kind": "canonical-case",
+      "title": "As trevas, o grito, o véu, o centurião e as mulheres",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 15.33-41",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.33-41",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quanto duraram as trevas, o que ocorreu após o grito de Jesus, como o centurião reagiu e quais mulheres foram nomeadas?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A declaração do centurião responde ao modo como Jesus expirou e forma o eixo narrativo entre sinais e testemunhas nomeadas.",
+      "editorial": {
+        "hinge": "A fala aramaica, o título e os sinais ficam descritos como elementos do relato; a pauta não importa interpretações doutrinárias ou detalhes paralelos."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Três mulheres nomeadas",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Maria Madalena, Maria mãe de Tiago e José, e Salomé"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Marta, Maria e Isabel"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Maria mãe de Jesus, Joana e Priscila"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A empregada, a mulher de Pilatos e Lídia"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Maria Madalena, Maria mãe de Tiago e José, e Salomé",
+          "enderecoNAA": "Marcos 15.40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Intervalo das trevas",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Do meio-dia às três da tarde"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Das nove ao meio-dia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Da tarde à meia-noite"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Da madrugada ao nascer do sol"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Do meio-dia às três da tarde",
+          "enderecoNAA": "Marcos 15.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que ocorreu com o véu do santuário",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Rasgou-se em duas partes, de alto a baixo"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Foi removido pelos soldados"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Cobriu o rosto de Jesus"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Foi entregue às mulheres"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Rasgou-se em duas partes, de alto a baixo",
+          "enderecoNAA": "Marcos 15.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Declaração do centurião",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Verdadeiramente este homem era o Filho de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Este homem era Barrabás"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ele chamava pelo porteiro"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "O túmulo está vazio"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Verdadeiramente este homem era o Filho de Deus",
+          "enderecoNAA": "Marcos 15.39",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "15.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Houve trevas sobre toda a terra ao meio-dia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Houve trevas sobre toda a terra ao meio-dia."
+          },
+          {
+            "id": "P02",
+            "text": "As trevas duraram até as três horas da tarde.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "As trevas duraram até as três horas da tarde."
+          },
+          {
+            "id": "P03",
+            "text": "Às três horas, Jesus clamou em alta voz.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Às três horas, Jesus clamou em alta voz."
+          },
+          {
+            "id": "P04",
+            "text": "Marcos registra e traduz a pergunta sobre abandono dirigida a Deus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos registra e traduz a pergunta sobre abandono dirigida a Deus."
+          },
+          {
+            "id": "P05",
+            "text": "Alguns presentes pensaram que Jesus chamava Elias.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Alguns presentes pensaram que Jesus chamava Elias."
+          },
+          {
+            "id": "P06",
+            "text": "Uma pessoa ofereceu vinagre numa esponja presa a um caniço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Uma pessoa ofereceu vinagre numa esponja presa a um caniço."
+          },
+          {
+            "id": "P07",
+            "text": "O gesto foi acompanhado da espera para ver se Elias o tiraria dali.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O gesto foi acompanhado da espera para ver se Elias o tiraria dali."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus deu um forte grito e expirou.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus deu um forte grito e expirou."
+          },
+          {
+            "id": "P09",
+            "text": "O véu do santuário rasgou-se em duas partes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O véu do santuário rasgou-se em duas partes."
+          },
+          {
+            "id": "P10",
+            "text": "O rasgo ocorreu de alto a baixo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O rasgo ocorreu de alto a baixo."
+          },
+          {
+            "id": "P11",
+            "text": "O centurião estava em frente de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O centurião estava em frente de Jesus."
+          },
+          {
+            "id": "P12",
+            "text": "Ele viu o modo como Jesus expirou.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele viu o modo como Jesus expirou."
+          },
+          {
+            "id": "P13",
+            "text": "Então declarou que aquele homem era verdadeiramente o Filho de Deus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Então declarou que aquele homem era verdadeiramente o Filho de Deus."
+          },
+          {
+            "id": "P14",
+            "text": "Algumas mulheres observavam de longe.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Algumas mulheres observavam de longe."
+          },
+          {
+            "id": "P15",
+            "text": "Maria Madalena estava entre elas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Maria Madalena estava entre elas."
+          },
+          {
+            "id": "P16",
+            "text": "Outra era Maria, mãe de Tiago, o Menor, e de José.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Outra era Maria, mãe de Tiago, o Menor, e de José."
+          },
+          {
+            "id": "P17",
+            "text": "Salomé também foi nomeada.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Salomé também foi nomeada."
+          },
+          {
+            "id": "P18",
+            "text": "Na Galileia, essas mulheres acompanhavam e serviam Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na Galileia, essas mulheres acompanhavam e serviam Jesus."
+          },
+          {
+            "id": "P19",
+            "text": "Muitas outras mulheres haviam subido com ele a Jerusalém.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "15.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Muitas outras mulheres haviam subido com ele a Jerusalém."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 15.33-41 registra trevas, o grito e morte de Jesus, o rasgo do véu, a declaração do centurião e mulheres observando.",
+        "hinge": "A fala aramaica, o título e os sinais ficam descritos como elementos do relato; a pauta não importa interpretações doutrinárias ou detalhes paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "15.33-41",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-mulheres-pedra-jovem-galileia": {
+      "id": "nt2-marcos-mulheres-pedra-jovem-galileia",
+      "kind": "canonical-case",
+      "title": "As mulheres, a pedra, o jovem e a Galileia",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 16.1-8",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "16.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem foi ao túmulo, qual preocupação tinham, o que o jovem anunciou e que mensagem deveriam transmitir?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O anúncio do jovem de que Jesus ressuscitou e não estava ali transforma a preocupação com a pedra em incumbência e reação final.",
+      "editorial": {
+        "hinge": "O jovem permanece sem identidade externa; a pauta termina em 16.8 e não usa nenhum conteúdo de Mc 16.9-20."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Anúncio do jovem sobre Jesus",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ressuscitou e não estava ali"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Ainda estava no túmulo"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Tinha ido ao Pretório"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Esperava no pátio"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ressuscitou e não estava ali",
+          "enderecoNAA": "Marcos 16.6",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "16.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Mulheres que compraram aromas",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Maria Madalena, Maria mãe de Tiago e Salomé"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Maria mãe de José, Marta e Joana"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A empregada, Salomé e Isabel"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Maria Madalena e os doze"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Maria Madalena, Maria mãe de Tiago e Salomé",
+          "enderecoNAA": "Marcos 16.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "16.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Preocupação no caminho",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Quem removeria a pedra da entrada"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Quem prepararia a Páscoa"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Quem soltaria Barrabás"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Quem carregaria a cruz"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Quem removeria a pedra da entrada",
+          "enderecoNAA": "Marcos 16.3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "16.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Mensagem destinada aos discípulos e a Pedro",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Jesus iria adiante deles para a Galileia"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Deveriam voltar ao Sinédrio"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "O porteiro conhecia a hora"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pilatos pediria o corpo"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "Jesus iria adiante deles para a Galileia",
+          "enderecoNAA": "Marcos 16.7",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "16.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 9,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O sábado já havia passado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sábado já havia passado."
+          },
+          {
+            "id": "P02",
+            "text": "Maria Madalena comprou óleos aromáticos com outras mulheres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Maria Madalena comprou óleos aromáticos com outras mulheres."
+          },
+          {
+            "id": "P03",
+            "text": "Maria, mãe de Tiago, e Salomé completam o grupo nomeado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Maria, mãe de Tiago, e Salomé completam o grupo nomeado."
+          },
+          {
+            "id": "P04",
+            "text": "A finalidade era ungir o corpo de Jesus.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A finalidade era ungir o corpo de Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "Elas foram ao túmulo bem cedo no primeiro dia da semana.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Elas foram ao túmulo bem cedo no primeiro dia da semana."
+          },
+          {
+            "id": "P06",
+            "text": "O sol estava nascendo quando chegaram.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.2",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O sol estava nascendo quando chegaram."
+          },
+          {
+            "id": "P07",
+            "text": "No caminho, perguntavam quem removeria a pedra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.3",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "No caminho, perguntavam quem removeria a pedra."
+          },
+          {
+            "id": "P08",
+            "text": "Ao olhar, viram que a pedra já estava removida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ao olhar, viram que a pedra já estava removida."
+          },
+          {
+            "id": "P09",
+            "text": "Marcos observa que a pedra era muito grande.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.4",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Marcos observa que a pedra era muito grande."
+          },
+          {
+            "id": "P10",
+            "text": "Dentro do túmulo, viram um jovem sentado à direita.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Dentro do túmulo, viram um jovem sentado à direita."
+          },
+          {
+            "id": "P11",
+            "text": "Ele estava vestido de branco, e elas ficaram atemorizadas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.5",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele estava vestido de branco, e elas ficaram atemorizadas."
+          },
+          {
+            "id": "P12",
+            "text": "O jovem mandou que não tivessem medo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O jovem mandou que não tivessem medo."
+          },
+          {
+            "id": "P13",
+            "text": "Ele identificou a busca por Jesus, o Nazareno crucificado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele identificou a busca por Jesus, o Nazareno crucificado."
+          },
+          {
+            "id": "P14",
+            "text": "Anunciou que Jesus havia ressuscitado e não estava ali.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Anunciou que Jesus havia ressuscitado e não estava ali."
+          },
+          {
+            "id": "P15",
+            "text": "Mostrou o lugar em que o corpo havia sido colocado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.6",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Mostrou o lugar em que o corpo havia sido colocado."
+          },
+          {
+            "id": "P16",
+            "text": "Mandou que fossem falar aos discípulos e especificamente a Pedro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Mandou que fossem falar aos discípulos e especificamente a Pedro."
+          },
+          {
+            "id": "P17",
+            "text": "A mensagem dizia que Jesus iria adiante deles para a Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a resposta documental sem informação externa",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A mensagem dizia que Jesus iria adiante deles para a Galileia."
+          },
+          {
+            "id": "P18",
+            "text": "Ali o veriam, conforme Jesus havia dito.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.7",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ali o veriam, conforme Jesus havia dito."
+          },
+          {
+            "id": "P19",
+            "text": "As mulheres saíram e fugiram do túmulo tomadas de temor e assombro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar fatos explícitos à progressão do recorte",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "As mulheres saíram e fugiram do túmulo tomadas de temor e assombro."
+          },
+          {
+            "id": "P20",
+            "text": "Elas não contaram nada a ninguém porque estavam com medo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação no próprio relato",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "16.8",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Elas não contaram nada a ninguém porque estavam com medo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 16.1-8 registra a ida de três mulheres ao túmulo, a pedra removida, o anúncio do jovem e a reação de temor.",
+        "hinge": "O jovem permanece sem identidade externa; a pauta termina em 16.8 e não usa nenhum conteúdo de Mc 16.9-20.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "16.1-8",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
             "checkedAt": "2026-09-14"
           }
         ]

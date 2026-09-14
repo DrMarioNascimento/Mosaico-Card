@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 335);
+assert.equal(catalog.summary.editoriallyEligibleCases, 350);
 assert.equal(catalog.summary.max12Cases, 99);
 const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
 assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
@@ -32,8 +32,8 @@ assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Corínti
     .every(ref => ref.passage !== "14.35")
 ), "1Co 14.35 permanece ausente de pautas, campos e pistas");
 const capacityReport = require("../data/nt-capacity-report.json");
-assert.equal(capacityReport.units.cases, 335);
-assert.equal(capacityReport.units.clueCards, 6294);
+assert.equal(capacityReport.units.cases, 350);
+assert.equal(capacityReport.units.clueCards, 6525);
 assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
 assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
 assert.equal(capacityReport.units.functionalVariants, 0);
@@ -158,6 +158,32 @@ for (const [id, maxPlayers] of Object.entries(marcos13Checkpoint106)) {
   assert.ok(entry.deck.cards.length >= 5);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.13.NAA"))), `${id} mantém proveniência exclusiva de Mc 13`);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => !ref.passage.startsWith("14."))), `${id} não invade Mc 14`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos1416Checkpoint107 = {
+  "nt2-marcos-plano-betania-perfume-memoria": 7,
+  "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao": 2,
+  "nt2-marcos-pascoa-homem-cantaro-cenaculo": 6,
+  "nt2-marcos-mesa-doze-traidor-prato": 5,
+  "nt2-marcos-pao-calice-videira-hino": 6,
+  "nt2-marcos-pastor-galileia-pedro-galo": 5,
+  "nt2-marcos-getsemani-aba-vigiar-entrega": 9,
+  "nt2-marcos-judas-beijo-espadas-jovem": 8,
+  "nt2-marcos-sinedrio-testemunhos-silencio-confissao": 8,
+  "nt2-marcos-patio-empregada-negacoes-choro": 7,
+  "nt2-marcos-pilatos-barrabas-multidao-crucificacao": 9,
+  "nt2-marcos-pretorio-purpura-espinhos-zombaria": 5,
+  "nt2-marcos-cireneu-golgota-inscricao-zombaria": 9,
+  "nt2-marcos-trevas-grito-veu-centuriao-mulheres": 9,
+  "nt2-marcos-mulheres-pedra-jovem-galileia": 9
+};
+for (const [id, maxPlayers] of Object.entries(marcos1416Checkpoint107)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  const allReferences = [...entry.canon.references, ...entry.fields.flatMap(field => field.answerReferences), ...entry.deck.cards.flatMap(card => card.references)];
+  assert.ok(allReferences.every(ref => ref.book === "Marcos" && /MRK\.(14|15|16)\.NAA$/.test(ref.sourceId)), `${id} mantém proveniência exclusiva de Mc 14–16`);
+  assert.ok(allReferences.every(ref => !ref.passage.includes("16.9") && ref.passage !== "15.28"), `${id} não usa Mc 16.9-20 nem Mc 15.28`);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 const marcos8Checkpoint098 = {
