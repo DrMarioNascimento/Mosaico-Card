@@ -4,15 +4,15 @@
   "status": "partial",
   "source": {
     "file": "data/nt-bank.json",
-    "catalogVersion": "checkpoint-102-marcos-11-12-inventario",
-    "sha256": "4bfb63afad6602c88ec892155b6c663e7164b05620a283a1e7d7fbef9418e364",
-    "baseCommit": "fdbfb60c4c23a34f02504b1b48c8d6add80a9bbb"
+    "catalogVersion": "checkpoint-103-marcos-12-primeiros-remanescentes",
+    "sha256": "c2650415f54485efb63162a1e350c67c43527ab26ac70c146c59f787b3c78c6a",
+    "baseCommit": "834f23418c4c6f9c31260ac4340b8231c74e716c"
   },
   "units": {
-    "cases": 323,
-    "playableCaseIds": 323,
-    "clueCards": 6117,
-    "uniqueClueStringsExact": 6087,
+    "cases": 327,
+    "playableCaseIds": 327,
+    "clueCards": 6189,
+    "uniqueClueStringsExact": 6156,
     "semanticallyUniqueFacts": null,
     "storyOrEpisodeGroups": null,
     "functionalVariants": 0
@@ -36,43 +36,43 @@
   "capacity": [
     {
       "players": 2,
-      "eligibleCases": 323,
-      "drawsWithoutReplacementPerBagCycle": 323
+      "eligibleCases": 327,
+      "drawsWithoutReplacementPerBagCycle": 327
     },
     {
       "players": 3,
-      "eligibleCases": 322,
-      "drawsWithoutReplacementPerBagCycle": 322
+      "eligibleCases": 326,
+      "drawsWithoutReplacementPerBagCycle": 326
     },
     {
       "players": 4,
-      "eligibleCases": 304,
-      "drawsWithoutReplacementPerBagCycle": 304
+      "eligibleCases": 308,
+      "drawsWithoutReplacementPerBagCycle": 308
     },
     {
       "players": 5,
-      "eligibleCases": 282,
-      "drawsWithoutReplacementPerBagCycle": 282
+      "eligibleCases": 286,
+      "drawsWithoutReplacementPerBagCycle": 286
     },
     {
       "players": 6,
-      "eligibleCases": 272,
-      "drawsWithoutReplacementPerBagCycle": 272
+      "eligibleCases": 276,
+      "drawsWithoutReplacementPerBagCycle": 276
     },
     {
       "players": 7,
-      "eligibleCases": 229,
-      "drawsWithoutReplacementPerBagCycle": 229
+      "eligibleCases": 233,
+      "drawsWithoutReplacementPerBagCycle": 233
     },
     {
       "players": 8,
-      "eligibleCases": 204,
-      "drawsWithoutReplacementPerBagCycle": 204
+      "eligibleCases": 207,
+      "drawsWithoutReplacementPerBagCycle": 207
     },
     {
       "players": 9,
-      "eligibleCases": 165,
-      "drawsWithoutReplacementPerBagCycle": 165
+      "eligibleCases": 167,
+      "drawsWithoutReplacementPerBagCycle": 167
     },
     {
       "players": 10,
@@ -95,7 +95,7 @@
     "Mt 17.21: perspectivas registradas, mas seleção funcional de variantes não implementada"
   ],
   "remainingAudits": [
-    "Mc 11 foi autorado em quatro pautas; seis recortes sustentados de Mc 12 restam precisamente por limite",
+    "Os quatro primeiros remanescentes de Mc 12 foram autorados; Mc 12.35-37 e 12.38-40 restam por limite",
     "Mc 11.26 é pendência textual isolada e não integra perguntas, respostas ou pistas",
     "demais linhas PENDENTE da matriz em docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md",
     "1Co 14.35 excluído do jogo; 1Co 14.34 e 14.36 sem novas perguntas aprovadas"

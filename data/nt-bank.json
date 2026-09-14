@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-102-marcos-11-12-inventario",
+  "catalogVersion": "checkpoint-103-marcos-12-primeiros-remanescentes",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -200537,6 +200537,2390 @@
             "passage": "11.27-33",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-vinha-servos-filho-pedra",
+      "title": "A vinha, os servos, o filho e a pedra",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "12.1-12",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Como a vinha foi preparada, o que ocorreu com os enviados, por que mataram o filho e como os ouvintes reagiram?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A identificação do filho como herdeiro fornece a razão declarada pelos lavradores para matá-lo e distingue intenção de resultado na parábola.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Preparação da vinha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Cerca, lagar e torre"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Poço, curral e celeiro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Muralha, altar e trono"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Casa, estrada e barco"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Tratamento do primeiro servo",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Receberam-no e deram os frutos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Prenderam-no na torre"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Agarraram, espancaram e mandaram de mãos vazias"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Levaram-no ao dono da vinha"
+            }
+          ],
+          "answerId": "C2-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.2-3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Razão declarada para matar o filho",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Era o último servo enviado"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Queriam ficar com a herança"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Ele havia destruído o lagar"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Temiam que chamasse o povo"
+            }
+          ],
+          "answerId": "C3-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Reação dos que entenderam a parábola",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Procuraram prender Jesus, mas temeram o povo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Entregaram imediatamente os frutos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pediram outra parábola em particular"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Deixaram a vinha e seguiram Jesus"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Um homem plantou uma vinha.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele pôs uma cerca em volta dela.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Construiu um lagar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Edificou uma torre.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A vinha foi arrendada a lavradores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "No tempo da colheita, um servo foi buscar parte dos frutos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O primeiro servo foi espancado e enviado de mãos vazias.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Outro servo foi ferido na cabeça e insultado.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Um terceiro servo foi morto.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Outros enviados foram espancados ou mortos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Restava ao dono seu filho amado.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "O filho foi enviado por último.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Os lavradores o reconheceram como herdeiro.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Eles quiseram a herança para si.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Mataram o filho e o lançaram fora da vinha.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "O dono exterminaria os lavradores e daria a vinha a outros.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "A fala menciona a pedra rejeitada que se tornou angular.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.10-11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Os ouvintes entenderam que a parábola era contra eles.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Eles queriam prender Jesus, mas temiam o povo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Depois deixaram Jesus e foram embora.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 12.1-12 registra a preparação e arrendamento da vinha, os envios, a morte do filho, a resposta do dono, a pedra e a reação dos ouvintes.",
+        "hinge": "A pauta preserva a sequência de Marcos; não transfere de Mateus apedrejamento, fórmula de arrendamento futuro ou identificação externa dos personagens.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.1-12",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-fariseus-herodianos-denario",
+      "title": "Os fariseus, os herodianos e o denário",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "12.13-17",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Quem foi enviado, com que finalidade, o que Jesus pediu e qual resposta deu sobre César e Deus?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Marcos identifica diretamente fariseus e herodianos como os enviados, detalhe documental que delimita os agentes da tentativa de apanhar Jesus.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Grupos enviados a Jesus",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Discípulos e escribas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Fariseus e herodianos"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Saduceus e anciãos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Publicanos e romanos"
+            }
+          ],
+          "answerId": "C1-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Finalidade declarada do envio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Pedir uma cura"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Convidá-lo a uma refeição"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Apanhá-lo em alguma palavra"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mostrar-lhe o templo"
+            }
+          ],
+          "answerId": "C2-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Objeto pedido por Jesus",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Uma pequena moeda"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Um denário"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Uma pedra angular"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Um rolo da Lei"
+            }
+          ],
+          "answerId": "C3-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Resposta sobre o que dar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Tudo a César"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Nada a César ou a Deus"
+            },
+            {
+              "id": "C4-O3",
+              "text": "A César o que é de César e a Deus o que é de Deus"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ao templo o que é de César"
+            }
+          ],
+          "answerId": "C4-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Alguns fariseus foram enviados a Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Alguns herodianos também foram enviados.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A finalidade era apanhá-lo em alguma palavra.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Eles chamaram Jesus de Mestre.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A fala atribuiu a Jesus ensino verdadeiro do caminho de Deus.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "A pergunta tratava da licitude de pagar imposto a César.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Jesus percebeu a hipocrisia deles.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Ele perguntou por que o punham à prova.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Jesus pediu que lhe trouxessem um denário.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Eles trouxeram a moeda.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Jesus perguntou de quem eram figura e inscrição.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Eles responderam que eram de César.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Jesus mandou dar a César o que é de César.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Também mandou dar a Deus o que é de Deus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Eles se admiraram muito de Jesus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 12.13-17 registra o envio de fariseus e herodianos, a pergunta sobre imposto, o denário, a resposta sobre César e Deus e a admiração.",
+        "hinge": "A pauta não importa de Mateus discípulos dos fariseus nem qualifica como idêntica a ocasião paralela; agentes e formulações seguem Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.13-17",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-saduceus-sete-sarca",
+      "title": "Os saduceus, os sete irmãos e a sarça",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "12.18-27",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Que grupo apresentou o caso, o que ocorreu com os sete irmãos, onde Jesus localizou o erro e que trecho mencionou sobre os mortos?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANTO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A referência ao Livro de Moisés no trecho da sarça ancora no próprio diálogo a resposta final sobre ressurreição e Deus de vivos.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Grupo que se aproximou de Jesus",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Fariseus que ensinavam a ressurreição"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Herodianos que cobravam imposto"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Saduceus que dizem não haver ressurreição"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Escribas que guardavam o templo"
+            }
+          ],
+          "answerId": "C1-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Resultado do caso dos sete irmãos",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Todos deixaram filhos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Nenhum deixou descendência"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Somente o último se casou"
+            },
+            {
+              "id": "C2-O4",
+              "text": "A mulher morreu antes deles"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.20-22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Diagnóstico do erro segundo Jesus",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Não conhecer Escrituras nem poder de Deus"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Não pagar o imposto devido"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Não oferecer no templo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Não distinguir os mandamentos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Trecho indicado por Jesus",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "A pedra rejeitada"
+            },
+            {
+              "id": "C4-O2",
+              "text": "A criação do homem e da mulher"
+            },
+            {
+              "id": "C4-O3",
+              "text": "A vinha arrendada"
+            },
+            {
+              "id": "C4-O4",
+              "text": "A sarça no Livro de Moisés"
+            }
+          ],
+          "answerId": "C4-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Alguns saduceus se aproximaram de Jesus.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Eles dizem não haver ressurreição.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O caso invocou a instrução de Moisés sobre viúva sem filhos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O irmão deveria casar com a viúva e gerar descendência ao falecido.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "O caso proposto tinha sete irmãos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O primeiro morreu sem deixar filhos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O segundo também morreu sem descendência.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "O terceiro passou pelo mesmo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Nenhum dos sete deixou descendência.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Depois de todos, morreu também a mulher.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A pergunta era de qual deles ela seria esposa na ressurreição.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Jesus relacionou o erro a não conhecer as Escrituras.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Também o relacionou a não conhecer o poder de Deus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Na ressurreição, não casarão nem se darão em casamento.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Serão como os anjos nos céus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Jesus remeteu ao Livro de Moisés.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "O trecho especificado foi o da sarça.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "A fala nomeia Deus de Abraão, Isaque e Jacó.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P19",
+          "text": "Ele é Deus de vivos, não de mortos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P20",
+          "text": "Jesus concluiu que estavam completamente enganados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 12.18-27 registra a pergunta dos saduceus por meio do caso de sete irmãos, o diagnóstico de Jesus e sua resposta sobre casamento, sarça e Deus de vivos.",
+        "hinge": "As afirmações permanecem atribuídas ao diálogo em Marcos; detalhes ou ordem das versões de Mateus e Lucas não são usados como complemento.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.18-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-escriba-mandamentos-reino",
+      "title": "O escriba, os mandamentos e o Reino",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "12.28-34",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "O que o escriba perguntou, qual mandamento Jesus apresentou primeiro, qual veio em seguida e como Jesus avaliou a resposta?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A resposta inicial reúne a unicidade do Senhor e o amor integral a Deus, preservando como primeiro mandamento a formulação extensa própria do diálogo em Marcos.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Pergunta feita pelo escriba",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Qual era a origem do batismo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Qual é o principal de todos os mandamentos"
+            },
+            {
+              "id": "C1-O3",
+              "text": "De quem era a inscrição"
+            },
+            {
+              "id": "C1-O4",
+              "text": "De quem a mulher seria esposa"
+            }
+          ],
+          "answerId": "C1-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Primeiro mandamento apresentado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Amar o Senhor de coração, alma, entendimento e força"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Guardar a vinha até a colheita"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dar todas as moedas ao templo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Não responder aos adversários"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.29-30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Segundo mandamento apresentado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Amar somente os amigos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Honrar os primeiros lugares"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amar o próximo como a si mesmo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Evitar toda pergunta pública"
+            }
+          ],
+          "answerId": "C3-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Avaliação final de Jesus ao escriba",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Você não está longe do Reino de Deus"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Você precisa consultar os saduceus"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Você respondeu sem sabedoria"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Você deve deixar o templo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Um escriba ouviu a discussão.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele viu que Jesus havia dado boa resposta.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O escriba perguntou pelo principal mandamento.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Jesus começou com a ordem de Israel escutar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar agentes e ações no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A fala declara que o Senhor é o único Senhor.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O primeiro mandamento inclui amar a Deus de todo o coração.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Também inclui toda a alma.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Inclui todo o entendimento e toda a força.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "O segundo manda amar o próximo como a si mesmo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar a progressão explícita às respostas possíveis",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Jesus declarou não haver mandamento maior do que esses.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "O escriba aprovou a resposta de Jesus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Ele repetiu que Deus é único.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "O escriba comparou esses amores aos holocaustos e sacrifícios.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Segundo ele, amar é mais do que todos esses sacrifícios.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Jesus viu que o escriba respondeu sabiamente.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Jesus declarou que ele não estava longe do Reino de Deus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Depois disso, ninguém mais ousava fazer perguntas a Jesus.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar o diálogo ou ensino atribuído sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "12.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 12.28-34 registra a pergunta de um escriba, os dois mandamentos apresentados por Jesus, a resposta do escriba e a avaliação final.",
+        "hinge": "A pauta pergunta pelo que os falantes afirmam em Marcos; não transforma listas em causalidade, não completa citações pelo AT e não transfere a interlocução de paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.28-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
             "checkedAt": "2026-09-14"
           }
         ]
