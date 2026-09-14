@@ -1,18 +1,18 @@
 {
   "schemaVersion": 1,
-  "reportDate": "2026-09-13",
+  "reportDate": "2026-09-14",
   "status": "partial",
   "source": {
     "file": "data/nt-bank.json",
-    "catalogVersion": "checkpoint-099-marcos-9-10",
-    "sha256": "cac64abd9010f785b64a08efa9a580ac0c3a8fb82f7f38c6b98e695aefa5e530",
-    "baseCommit": "fcd490b5f1a584dceaf704d54cf9324f086a877a"
+    "catalogVersion": "checkpoint-100-marcos-9-adiados-1",
+    "sha256": "7240273009b84acc8de682c44bf7a71011fbb1c9ac8a09946f6619df365e7541",
+    "baseCommit": "d7b56ccf225c58204ff6d488b3c212a0efd3bb9a"
   },
   "units": {
-    "cases": 312,
-    "playableCaseIds": 312,
-    "clueCards": 5970,
-    "uniqueClueStringsExact": 5945,
+    "cases": 316,
+    "playableCaseIds": 316,
+    "clueCards": 6009,
+    "uniqueClueStringsExact": 5983,
     "semanticallyUniqueFacts": null,
     "storyOrEpisodeGroups": null,
     "functionalVariants": 0
@@ -36,23 +36,23 @@
   "capacity": [
     {
       "players": 2,
-      "eligibleCases": 312,
-      "drawsWithoutReplacementPerBagCycle": 312
+      "eligibleCases": 316,
+      "drawsWithoutReplacementPerBagCycle": 316
     },
     {
       "players": 3,
-      "eligibleCases": 311,
-      "drawsWithoutReplacementPerBagCycle": 311
+      "eligibleCases": 315,
+      "drawsWithoutReplacementPerBagCycle": 315
     },
     {
       "players": 4,
-      "eligibleCases": 294,
-      "drawsWithoutReplacementPerBagCycle": 294
+      "eligibleCases": 297,
+      "drawsWithoutReplacementPerBagCycle": 297
     },
     {
       "players": 5,
-      "eligibleCases": 274,
-      "drawsWithoutReplacementPerBagCycle": 274
+      "eligibleCases": 276,
+      "drawsWithoutReplacementPerBagCycle": 276
     },
     {
       "players": 6,
@@ -95,7 +95,7 @@
     "Mt 17.21: perspectivas registradas, mas seleção funcional de variantes não implementada"
   ],
   "remainingAudits": [
-    "Mc 8.1-10 e 8.27-38 permanecem para continuidade pelo limite de quatro pautas; depois, o próximo lote é Mc 9-10",
+    "Mc 9.42-50, 10.1-12 e 10.13-16 permanecem sustentados para a próxima continuidade; depois, o próximo lote é Mc 11-12",
     "demais linhas PENDENTE da matriz em docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md",
     "1Co 14.35 excluído do jogo; 1Co 14.34 e 14.36 sem novas perguntas aprovadas"
   ]

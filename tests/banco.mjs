@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 312);
+assert.equal(catalog.summary.editoriallyEligibleCases, 316);
 assert.equal(catalog.summary.max12Cases, 99);
 const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
 assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
@@ -32,8 +32,8 @@ assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Corínti
     .every(ref => ref.passage !== "14.35")
 ), "1Co 14.35 permanece ausente de pautas, campos e pistas");
 const capacityReport = require("../data/nt-capacity-report.json");
-assert.equal(capacityReport.units.cases, 312);
-assert.equal(capacityReport.units.clueCards, 5970);
+assert.equal(capacityReport.units.cases, 316);
+assert.equal(capacityReport.units.clueCards, 6009);
 assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
 assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
 assert.equal(capacityReport.units.functionalVariants, 0);
@@ -62,6 +62,20 @@ for (const [id, maxPlayers] of Object.entries(marcos910Checkpoint099)) {
   assert.ok(entry.deck.cards.length >= 5);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && /MRK\.(9|10)\.NAA$/.test(ref.sourceId))), `${id} mantém proveniência exclusiva de Mc 9–10`);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "7.16")), `${id} não usa Mc 7.16`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos9Checkpoint100 = {
+  "nt2-marcos-reino-chegado-poder": 3,
+  "nt2-marcos-galileia-anuncio-incompreensao": 4,
+  "nt2-marcos-maior-crianca-recepcao": 5,
+  "nt2-marcos-homem-nao-seguia-copo-agua": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos9Checkpoint100)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.9.NAA"))), `${id} mantém a proveniência exclusiva de Mc 9`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["9.42-50", "10.1-12", "10.13-16", "7.16"].includes(ref.passage))), `${id} não invade recortes posteriores nem Mc 7.16`);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 const marcos8Checkpoint098 = {

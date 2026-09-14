@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-099-marcos-9-10",
+  "catalogVersion": "checkpoint-100-marcos-9-adiados-1",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 312,
-    "fields": 1248,
-    "editoriallyEligibleCases": 312,
-    "playableCases": 312,
+    "cases": 316,
+    "fields": 1264,
+    "editoriallyEligibleCases": 316,
+    "playableCases": 316,
     "max12Cases": 99
   },
   "order": [
@@ -328,7 +328,11 @@
     "nt2-marcos-monte-vestes-voz-elias",
     "nt2-marcos-menino-espirito-oracao",
     "nt2-marcos-homem-rico-reino-recompensa",
-    "nt2-marcos-jerusalem-calice-servir-resgate"
+    "nt2-marcos-jerusalem-calice-servir-resgate",
+    "nt2-marcos-reino-chegado-poder",
+    "nt2-marcos-galileia-anuncio-incompreensao",
+    "nt2-marcos-maior-crianca-recepcao",
+    "nt2-marcos-homem-nao-seguia-copo-agua"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -214849,6 +214853,1844 @@
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.10.NAA",
             "checkedAt": "2026-09-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-reino-chegado-poder": {
+      "id": "nt2-marcos-reino-chegado-poder",
+      "kind": "canonical-case",
+      "title": "O Reino de Deus chegado com poder",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.1",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.1",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "QUANDO",
+          "COMO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Quem fez a declaração, a quem ela se referia, o que alguns não experimentariam e o que veriam antes?"
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "A visão do Reino chegado com poder é o termo principal da declaração; os demais campos identificam falante, grupo e limite temporal sem impor interpretação do cumprimento.",
+      "editorial": {
+        "hinge": "A pauta conserva somente os elementos afirmados no versículo e não identifica o cumprimento, sua data ou sua relação com a cena seguinte."
+      },
+      "fields": [
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "O que veriam ter chegado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "O Reino de Deus com poder"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Elias numa carruagem"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Uma legião de anjos"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "A cidade de Jerusalém em festa"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "O Reino de Deus com poder",
+          "enderecoNAA": "Marcos 9.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Quem fez a declaração",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Jesus"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Um escriba"
+            }
+          ],
+          "respostaId": "C1-O2",
+          "respostaCanonica": "Jesus",
+          "enderecoNAA": "Marcos 9.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Grupo mencionado na declaração",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Todos os habitantes da Galileia"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Somente os doze apóstolos"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Alguns dos que ali se encontravam"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Os escribas vindos de Jerusalém"
+            }
+          ],
+          "respostaId": "C2-O3",
+          "respostaCanonica": "Alguns dos que ali se encontravam",
+          "enderecoNAA": "Marcos 9.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "O que alguns não experimentariam antes",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "A dispersão pelo caminho"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "A morte"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "A travessia do mar"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "A prisão"
+            }
+          ],
+          "respostaId": "C3-O2",
+          "respostaCanonica": "A morte",
+          "enderecoNAA": "Marcos 9.1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 3,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus continuou falando aos que estavam com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus continuou falando aos que estavam com ele."
+          },
+          {
+            "id": "P02",
+            "text": "A declaração foi introduzida com “Em verdade”.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A declaração foi introduzida com “Em verdade”."
+          },
+          {
+            "id": "P03",
+            "text": "A afirmação não abrangia indistintamente todos: referia-se a alguns dos presentes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A afirmação não abrangia indistintamente todos: referia-se a alguns dos presentes."
+          },
+          {
+            "id": "P04",
+            "text": "Esses alguns estavam ali quando a fala foi proferida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Esses alguns estavam ali quando a fala foi proferida."
+          },
+          {
+            "id": "P05",
+            "text": "A morte aparece como o limite que alguns não ultrapassariam antes da visão anunciada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A morte aparece como o limite que alguns não ultrapassariam antes da visão anunciada."
+          },
+          {
+            "id": "P06",
+            "text": "Eles veriam o Reino de Deus já chegado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles veriam o Reino de Deus já chegado."
+          },
+          {
+            "id": "P07",
+            "text": "A chegada do Reino seria vista com poder.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.1",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A chegada do Reino seria vista com poder."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.1 atribui a Jesus a declaração de que alguns dos presentes não passariam pela morte antes de ver o Reino de Deus chegado com poder.",
+        "hinge": "A pauta conserva somente os elementos afirmados no versículo e não identifica o cumprimento, sua data ou sua relação com a cena seguinte.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.1",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-galileia-anuncio-incompreensao": {
+      "id": "nt2-marcos-galileia-anuncio-incompreensao",
+      "kind": "canonical-case",
+      "title": "A passagem pela Galileia e o anúncio",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.30-32",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.30-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "ONDE",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANDO"
+        ],
+        "unsupported": [
+          "QUEM",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Por onde passavam, o que Jesus queria evitar, qual anúncio ensinou e como os discípulos reagiram?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O anúncio de entrega, morte e ressurreição é o núcleo ensinado; percurso, reserva e reação delimitam a cena própria de Marcos.",
+      "editorial": {
+        "hinge": "O anúncio permanece fala de Jesus e a reação permanece descrição do narrador; nenhum detalhe dos anúncios paralelos é transferido."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Conteúdo do ensino aos discípulos",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "O Filho do Homem seria entregue, morto e ressuscitaria três dias depois"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "O templo seria reconstruído em três dias pelos discípulos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Elias voltaria para reunir as multidões"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Os discípulos governariam imediatamente as cidades"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "O Filho do Homem seria entregue, morto e ressuscitaria três dias depois",
+          "enderecoNAA": "Marcos 9.31",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Região pela qual passavam",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Judeia"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Galileia"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Idumeia"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Pereia"
+            }
+          ],
+          "respostaId": "C1-O2",
+          "respostaCanonica": "Galileia",
+          "enderecoNAA": "Marcos 9.30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "O que Jesus não queria",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Que os discípulos o acompanhassem"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Que alguém soubesse de sua passagem"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Que entrassem numa casa"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Que atravessassem o mar"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Que alguém soubesse de sua passagem",
+          "enderecoNAA": "Marcos 9.30",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Reação dos discípulos",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Compreenderam e anunciaram ao povo"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Discutiram com a multidão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Não compreenderam e tiveram medo de perguntar"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Escreveram o ensino e partiram"
+            }
+          ],
+          "respostaId": "C4-O3",
+          "respostaCanonica": "Não compreenderam e tiveram medo de perguntar",
+          "enderecoNAA": "Marcos 9.32",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus e os discípulos saíram dali e atravessavam uma região.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus e os discípulos saíram dali e atravessavam uma região."
+          },
+          {
+            "id": "P02",
+            "text": "A região nomeada era a Galileia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A região nomeada era a Galileia."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus queria que ninguém soubesse da passagem.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.30",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus queria que ninguém soubesse da passagem."
+          },
+          {
+            "id": "P04",
+            "text": "A reserva é ligada no texto ao ensino dirigido aos discípulos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.30-31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A reserva é ligada no texto ao ensino dirigido aos discípulos."
+          },
+          {
+            "id": "P05",
+            "text": "O anúncio dizia que o Filho do Homem seria entregue nas mãos dos homens.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O anúncio dizia que o Filho do Homem seria entregue nas mãos dos homens."
+          },
+          {
+            "id": "P06",
+            "text": "Segundo o anúncio, esses homens o matariam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Segundo o anúncio, esses homens o matariam."
+          },
+          {
+            "id": "P07",
+            "text": "A fala anunciava ressurreição três dias depois da morte.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.31",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala anunciava ressurreição três dias depois da morte."
+          },
+          {
+            "id": "P08",
+            "text": "Os discípulos não compreendiam o que foi dito.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos não compreendiam o que foi dito."
+          },
+          {
+            "id": "P09",
+            "text": "Eles tinham medo de perguntar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.32",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles tinham medo de perguntar."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.30-32 relata a passagem reservada pela Galileia, o ensino de Jesus sobre entrega, morte e ressurreição e a incompreensão temerosa dos discípulos.",
+        "hinge": "O anúncio permanece fala de Jesus e a reação permanece descrição do narrador; nenhum detalhe dos anúncios paralelos é transferido.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.30-32",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-maior-crianca-recepcao": {
+      "id": "nt2-marcos-maior-crianca-recepcao",
+      "kind": "canonical-case",
+      "title": "A discussão sobre o maior e a criança",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.33-37",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.33-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "ONDE",
+          "COMO",
+          "POR QUÊ"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES",
+          "QUAL/QUE TIPO"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus interrogou os discípulos, sobre o que eles haviam discutido, que regra ensinou e quem colocou no meio deles?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A discussão sobre quem era o maior provoca diretamente a regra e o gesto com a criança; local, ensino e personagem completam a progressão.",
+      "editorial": {
+        "hinge": "A recepção da criança e de quem enviou Jesus permanece como fala atribuída; a pauta não impõe identidade institucional nem importa paralelos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Assunto discutido no caminho",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Quem era o maior"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Quem levaria os pães"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Quando voltariam à Galileia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Onde passariam a noite"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Quem era o maior",
+          "enderecoNAA": "Marcos 9.34",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Lugar da pergunta de Jesus",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Numa sinagoga em Nazaré"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "À margem do Jordão"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Em casa, em Cafarnaum"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "No templo, em Jerusalém"
+            }
+          ],
+          "respostaId": "C1-O3",
+          "respostaCanonica": "Em casa, em Cafarnaum",
+          "enderecoNAA": "Marcos 9.33",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Regra para quem quer ser o primeiro",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Deve afastar-se dos demais"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Será o último e servo de todos"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Receberá o primeiro lugar à mesa"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Deve guardar silêncio por sete dias"
+            }
+          ],
+          "respostaId": "C3-O2",
+          "respostaCanonica": "Será o último e servo de todos",
+          "enderecoNAA": "Marcos 9.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Quem Jesus colocou no meio deles",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Um escriba"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Um homem enfermo"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Uma viúva"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Uma criança"
+            }
+          ],
+          "respostaId": "C4-O4",
+          "respostaCanonica": "Uma criança",
+          "enderecoNAA": "Marcos 9.36",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "O grupo chegou a Cafarnaum.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O grupo chegou a Cafarnaum."
+          },
+          {
+            "id": "P02",
+            "text": "Jesus fez a pergunta quando estava em casa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.33",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus fez a pergunta quando estava em casa."
+          },
+          {
+            "id": "P03",
+            "text": "A conversa anterior havia ocorrido no caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.33-34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A conversa anterior havia ocorrido no caminho."
+          },
+          {
+            "id": "P04",
+            "text": "Os discípulos se calaram diante da pergunta.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos se calaram diante da pergunta."
+          },
+          {
+            "id": "P05",
+            "text": "Eles tinham discutido entre si sobre quem era o maior.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.34",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles tinham discutido entre si sobre quem era o maior."
+          },
+          {
+            "id": "P06",
+            "text": "Jesus se assentou e chamou os doze.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus se assentou e chamou os doze."
+          },
+          {
+            "id": "P07",
+            "text": "Quem quiser ser o primeiro será o último.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Quem quiser ser o primeiro será o último."
+          },
+          {
+            "id": "P08",
+            "text": "Esse também será servo de todos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Esse também será servo de todos."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus trouxe uma criança e a pôs no meio deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus trouxe uma criança e a pôs no meio deles."
+          },
+          {
+            "id": "P10",
+            "text": "Ele tomou a criança nos braços.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele tomou a criança nos braços."
+          },
+          {
+            "id": "P11",
+            "text": "Receber em nome de Jesus uma criança como aquela equivale, na fala, a recebê-lo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Receber em nome de Jesus uma criança como aquela equivale, na fala, a recebê-lo."
+          },
+          {
+            "id": "P12",
+            "text": "Quem recebe Jesus recebe aquele que o enviou.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Quem recebe Jesus recebe aquele que o enviou."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.33-37 reúne a pergunta em casa em Cafarnaum, o silêncio após a discussão sobre o maior, a regra do último e servo e o gesto de Jesus com uma criança.",
+        "hinge": "A recepção da criança e de quem enviou Jesus permanece como fala atribuída; a pauta não impõe identidade institucional nem importa paralelos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.33-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-homem-nao-seguia-copo-agua": {
+      "id": "nt2-marcos-homem-nao-seguia-copo-agua",
+      "kind": "canonical-case",
+      "title": "O homem que não seguia o grupo e o copo de água",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 9.38-41",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.38-41",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Quem relatou o caso, o que fazia o homem, por que foi proibido e qual orientação Jesus deu?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A ação do homem em nome de Jesus identifica o caso e fundamenta a resposta; relator, motivo da proibição e orientação são explicitamente distintos.",
+      "editorial": {
+        "hinge": "A pauta não identifica o homem nem amplia o milagre; motivo, máximas e recompensa permanecem exatamente atribuídos ao diálogo em Marcos."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Ação praticada pelo homem",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Distribuía pães à multidão"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Expulsava demônios em nome de Jesus"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ensinava na sinagoga aos sábados"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Curava impondo barro nos olhos"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Expulsava demônios em nome de Jesus",
+          "enderecoNAA": "Marcos 9.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Discípulo que relatou o caso",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Pedro"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Tiago"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "João"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "André"
+            }
+          ],
+          "respostaId": "C1-O3",
+          "respostaCanonica": "João",
+          "enderecoNAA": "Marcos 9.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Motivo alegado para a proibição",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Não seguia o grupo dos discípulos"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Pedia pagamento às pessoas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Falava contra Jesus"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Recusava-se a deixar a cidade"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Não seguia o grupo dos discípulos",
+          "enderecoNAA": "Marcos 9.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Orientação de Jesus sobre o homem",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Proibi-lo até que acompanhasse os doze"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Levá-lo imediatamente a Cafarnaum"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Não o proibir"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Exigir dele um sinal"
+            }
+          ],
+          "respostaId": "C4-O3",
+          "respostaCanonica": "Não o proibir",
+          "enderecoNAA": "Marcos 9.39",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "9.39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "João dirigiu seu relato a Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "João dirigiu seu relato a Jesus."
+          },
+          {
+            "id": "P02",
+            "text": "Ele chamou Jesus de Mestre.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Ele chamou Jesus de Mestre."
+          },
+          {
+            "id": "P03",
+            "text": "Os discípulos haviam visto um homem expulsando demônios.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos haviam visto um homem expulsando demônios."
+          },
+          {
+            "id": "P04",
+            "text": "O homem agia em nome de Jesus.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação e seus destinatários no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O homem agia em nome de Jesus."
+          },
+          {
+            "id": "P05",
+            "text": "Os discípulos o proibiram de continuar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Os discípulos o proibiram de continuar."
+          },
+          {
+            "id": "P06",
+            "text": "João explicou que o homem não os seguia.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "João explicou que o homem não os seguia."
+          },
+          {
+            "id": "P07",
+            "text": "Jesus respondeu que não deveriam proibi-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus respondeu que não deveriam proibi-lo."
+          },
+          {
+            "id": "P08",
+            "text": "Quem faz milagre em nome de Jesus não pode logo depois falar mal dele, segundo a resposta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar a sequência explícita às respostas possíveis",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Quem faz milagre em nome de Jesus não pode logo depois falar mal dele, segundo a resposta."
+          },
+          {
+            "id": "P09",
+            "text": "Jesus afirmou que quem não é contra o grupo é a favor dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus afirmou que quem não é contra o grupo é a favor dele."
+          },
+          {
+            "id": "P10",
+            "text": "A fala menciona dar aos discípulos um copo de água por serem de Cristo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A fala menciona dar aos discípulos um copo de água por serem de Cristo."
+          },
+          {
+            "id": "P11",
+            "text": "Quem assim der a água não perderá sua recompensa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar o encadeamento textual sem explicação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "9.41",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Quem assim der a água não perderá sua recompensa."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 9.38-41 registra João relatando a proibição de um homem que expulsava demônios em nome de Jesus e a orientação de não o proibir, seguida das afirmações sobre favor e recompensa.",
+        "hinge": "A pauta não identifica o homem nem amplia o milagre; motivo, máximas e recompensa permanecem exatamente atribuídos ao diálogo em Marcos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "9.38-41",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+            "checkedAt": "2026-09-14"
           }
         ]
       },
