@@ -10,7 +10,7 @@ assert.equal(catalog.demoIsolated, true);
 assert.equal(catalog.summary.cases, catalog.order.length);
 assert.equal(catalog.summary.fields, catalog.order.length * 4);
 assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
-assert.equal(catalog.summary.editoriallyEligibleCases, 327);
+assert.equal(catalog.summary.editoriallyEligibleCases, 329);
 assert.equal(catalog.summary.max12Cases, 99);
 const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
 assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
@@ -32,8 +32,8 @@ assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Corínti
     .every(ref => ref.passage !== "14.35")
 ), "1Co 14.35 permanece ausente de pautas, campos e pistas");
 const capacityReport = require("../data/nt-capacity-report.json");
-assert.equal(capacityReport.units.cases, 327);
-assert.equal(capacityReport.units.clueCards, 6189);
+assert.equal(capacityReport.units.cases, 329);
+assert.equal(capacityReport.units.clueCards, 6210);
 assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
 assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
 assert.equal(capacityReport.units.functionalVariants, 0);
@@ -120,6 +120,18 @@ for (const [id, maxPlayers] of Object.entries(marcos12Checkpoint103)) {
   assert.ok(entry.deck.cards.length >= 5);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.12.NAA"))), `${id} mantém proveniência exclusiva de Mc 12`);
   assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["12.35-37", "12.38-40", "12.41-44"].includes(ref.passage))), `${id} não invade recortes posteriores`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos12Checkpoint104 = {
+  "nt2-marcos-cristo-davi-senhor": 4,
+  "nt2-marcos-escribas-viuvas-oracoes-juizo": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos12Checkpoint104)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.12.NAA"))), `${id} mantém proveniência exclusiva de Mc 12`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "12.41-44")), `${id} não duplica a pauta já coberta da viúva`);
   assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
 }
 const marcos8Checkpoint098 = {

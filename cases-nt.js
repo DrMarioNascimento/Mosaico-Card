@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-nt-bank.mjs a partir de data/nt-bank.json. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_NT_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-103-marcos-12-primeiros-remanescentes",
+  "catalogVersion": "checkpoint-104-marcos-12-remanescentes",
   "namespace": "mosaico-nt-naa-v2",
   "demoIsolated": true,
   "source": {
@@ -10,10 +10,10 @@
     "scope": "Novo Testamento (27 livros)"
   },
   "summary": {
-    "cases": 327,
-    "fields": 1308,
-    "editoriallyEligibleCases": 327,
-    "playableCases": 327,
+    "cases": 329,
+    "fields": 1316,
+    "editoriallyEligibleCases": 329,
+    "playableCases": 329,
     "max12Cases": 99
   },
   "order": [
@@ -343,7 +343,9 @@
     "nt2-marcos-vinha-servos-filho-pedra",
     "nt2-marcos-fariseus-herodianos-denario",
     "nt2-marcos-saduceus-sete-sarca",
-    "nt2-marcos-escriba-mandamentos-reino"
+    "nt2-marcos-escriba-mandamentos-reino",
+    "nt2-marcos-cristo-davi-senhor",
+    "nt2-marcos-escribas-viuvas-oracoes-juizo"
   ],
   "byId": {
     "nt2-joao-cana": {
@@ -223496,6 +223498,961 @@
           {
             "book": "Marcos",
             "passage": "12.28-34",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-cristo-davi-senhor": {
+      "id": "nt2-marcos-cristo-davi-senhor",
+      "kind": "canonical-case",
+      "title": "O Cristo, Davi e o Senhor",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 12.35-37",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.35-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "POR QUÊ",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "Onde Jesus ensinava, o que perguntou sobre a afirmação dos escribas, por quem Davi falou e como a multidão reagiu?"
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A pergunta sobre o título atribuído ao Cristo inicia o contraste que a fala de Davi desenvolve, sem exigir que o jogo resolva a relação além do que Marcos registra.",
+      "editorial": {
+        "hinge": "A pauta reconstrói falas e reação registradas em Marcos; não identifica um cumprimento, não completa a citação por outra fonte e não exige solução teológica externa para o contraste."
+      },
+      "fields": [
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Afirmação dos escribas questionada",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "O Cristo é filho de Davi"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Davi era um dos escribas"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O templo pertencia a Davi"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "O Cristo ensinaria nas praças"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "O Cristo é filho de Davi",
+          "enderecoNAA": "Marcos 12.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Local do ensino",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "No templo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Numa sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "À beira do mar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Numa casa"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "No templo",
+          "enderecoNAA": "Marcos 12.35",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Por quem Davi falou",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Pelos escribas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Pela multidão"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Pelo Espírito Santo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Pelos sacerdotes"
+            }
+          ],
+          "respostaId": "C3-O3",
+          "respostaCanonica": "Pelo Espírito Santo",
+          "enderecoNAA": "Marcos 12.36",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Reação da grande multidão",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Saiu em silêncio"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Ouvia Jesus com prazer"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Tentou prendê-lo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Pediu um sinal"
+            }
+          ],
+          "respostaId": "C4-O2",
+          "respostaCanonica": "Ouvia Jesus com prazer",
+          "enderecoNAA": "Marcos 12.37",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 4,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus estava ensinando.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus estava ensinando."
+          },
+          {
+            "id": "P02",
+            "text": "O ensino ocorria no templo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O ensino ocorria no templo."
+          },
+          {
+            "id": "P03",
+            "text": "Jesus formulou uma pergunta sobre o que os escribas diziam.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus formulou uma pergunta sobre o que os escribas diziam."
+          },
+          {
+            "id": "P04",
+            "text": "A afirmação examinada apresentava o Cristo como filho de Davi.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.35",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A afirmação examinada apresentava o Cristo como filho de Davi."
+          },
+          {
+            "id": "P05",
+            "text": "Jesus atribuiu a fala citada ao próprio Davi.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus atribuiu a fala citada ao próprio Davi."
+          },
+          {
+            "id": "P06",
+            "text": "Davi falou pelo Espírito Santo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.36",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Davi falou pelo Espírito Santo."
+          },
+          {
+            "id": "P07",
+            "text": "Na fala atribuída a Davi, o Cristo é chamado de Senhor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.36-37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Na fala atribuída a Davi, o Cristo é chamado de Senhor."
+          },
+          {
+            "id": "P08",
+            "text": "Jesus contrapôs o título de Senhor à condição de filho de Davi.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus contrapôs o título de Senhor à condição de filho de Davi."
+          },
+          {
+            "id": "P09",
+            "text": "Uma grande multidão acompanhava o ensino.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Uma grande multidão acompanhava o ensino."
+          },
+          {
+            "id": "P10",
+            "text": "A grande multidão ouvia Jesus com prazer.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.37",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A grande multidão ouvia Jesus com prazer."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 12.35-37 registra Jesus ensinando no templo, questionando a afirmação dos escribas, atribuindo uma fala a Davi pelo Espírito Santo e sendo ouvido com prazer pela multidão.",
+        "hinge": "A pauta reconstrói falas e reação registradas em Marcos; não identifica um cumprimento, não completa a citação por outra fonte e não exige solução teológica externa para o contraste.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.35-37",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "status": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
+      },
+      "pendingIssues": []
+    },
+    "nt2-marcos-escribas-viuvas-oracoes-juizo": {
+      "id": "nt2-marcos-escribas-viuvas-oracoes-juizo",
+      "kind": "canonical-case",
+      "title": "Os escribas, as viúvas, as orações e o juízo",
+      "canon": {
+        "book": "Marcos",
+        "referenceNAA": "Marcos 12.38-40",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.38-40",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      },
+      "grammar": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "prompt": {
+        "question": "De quem Jesus mandou ter cuidado, que distinções eles buscavam, o que faziam contra as viúvas e qual juízo receberiam?"
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "A ação contra as casas das viúvas é a acusação concreta central da censura e distingue a pauta das preferências públicas listadas ao redor dela.",
+      "editorial": {
+        "hinge": "A pauta mantém a exploração das viúvas, as longas orações e sua finalidade dentro de Mc 12.40; Mt 23.14 não fornece fatos nem altera sua decisão textual separada."
+      },
+      "fields": [
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Ação praticada contra as viúvas",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Devoravam as casas delas"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Impediam suas ofertas"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Expulsavam-nas das sinagogas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Tomavam suas vestes talares"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Devoravam as casas delas",
+          "enderecoNAA": "Marcos 12.40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Grupo do qual ter cuidado",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Os herodianos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Os saduceus"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os escribas"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Os cambistas"
+            }
+          ],
+          "respostaId": "C1-O3",
+          "respostaCanonica": "Os escribas",
+          "enderecoNAA": "Marcos 12.38",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.38",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Distinções que eles preferiam",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Últimos assentos e lugares discretos"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Primeiras cadeiras e primeiros lugares"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Moedas e animais do templo"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Barcos e redes de pesca"
+            }
+          ],
+          "respostaId": "C2-O2",
+          "respostaCanonica": "Primeiras cadeiras e primeiros lugares",
+          "enderecoNAA": "Marcos 12.38-39",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.38-39",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Resultado anunciado",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "Receberiam os primeiros lugares"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "Seriam elogiados pela multidão"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "Receberiam juízo muito mais severo"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "Deixariam de fazer orações"
+            }
+          ],
+          "respostaId": "C4-O3",
+          "respostaCanonica": "Receberiam juízo muito mais severo",
+          "enderecoNAA": "Marcos 12.40",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "12.40",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "ready",
+        "minPlayers": 2,
+        "maxPlayers": 5,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Jesus incluiu uma advertência em seu ensino.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": true,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus incluiu uma advertência em seu ensino."
+          },
+          {
+            "id": "P02",
+            "text": "A advertência mandava ter cuidado com os escribas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A advertência mandava ter cuidado com os escribas."
+          },
+          {
+            "id": "P03",
+            "text": "Eles gostavam de circular usando vestes talares.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles gostavam de circular usando vestes talares."
+          },
+          {
+            "id": "P04",
+            "text": "Eles buscavam saudações nas praças.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.38",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Eles buscavam saudações nas praças."
+          },
+          {
+            "id": "P05",
+            "text": "Nas sinagogas, gostavam das primeiras cadeiras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nas sinagogas, gostavam das primeiras cadeiras."
+          },
+          {
+            "id": "P06",
+            "text": "Nos banquetes, preferiam os primeiros lugares.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.39",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Nos banquetes, preferiam os primeiros lugares."
+          },
+          {
+            "id": "P07",
+            "text": "A censura afirma que eles devoravam as casas das viúvas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A censura afirma que eles devoravam as casas das viúvas."
+          },
+          {
+            "id": "P08",
+            "text": "A mesma censura menciona orações longas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "A mesma censura menciona orações longas."
+          },
+          {
+            "id": "P09",
+            "text": "As orações longas eram feitas para disfarçar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "As orações longas eram feitas para disfarçar."
+          },
+          {
+            "id": "P10",
+            "text": "Jesus anunciou que eles receberiam juízo.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+            "earlyRevealRisk": "medium",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "Jesus anunciou que eles receberiam juízo."
+          },
+          {
+            "id": "P11",
+            "text": "O juízo anunciado seria muito mais severo.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+            "earlyRevealRisk": "low",
+            "twoPlayerSuitable": true,
+            "specialExpensive": false,
+            "documentScope": "single",
+            "references": [
+              {
+                "book": "Marcos",
+                "passage": "12.40",
+                "edition": "NAA",
+                "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+                "checkedAt": "2026-09-14"
+              }
+            ],
+            "texto": "O juízo anunciado seria muito mais severo."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Marcos 12.38-40 registra a advertência de Jesus contra escribas que buscavam distinção, devoravam casas de viúvas e faziam longas orações para disfarçar, com anúncio de juízo mais severo.",
+        "hinge": "A pauta mantém a exploração das viúvas, as longas orações e sua finalidade dentro de Mc 12.40; Mt 23.14 não fornece fatos nem altera sua decisão textual separada.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "12.38-40",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
             "checkedAt": "2026-09-14"
