@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-104-marcos-12-remanescentes",
+  "catalogVersion": "checkpoint-105-marcos-13-inventario",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -203769,6 +203769,2003 @@
             "passage": "12.38-40",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.12.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-templo-pedras-perguntas",
+      "title": "O templo, as pedras e as perguntas",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.1-4",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "De onde Jesus saía, o que o discípulo admirou, o que Jesus anunciou e quem perguntou em particular?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C3",
+      "focalJustification": "O anúncio sobre as construções transforma a admiração inicial no assunto das perguntas seguintes e identifica o núcleo documental sem atribuir data ao cumprimento.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Lugar do qual Jesus saía",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Do templo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "De uma sinagoga"
+            },
+            {
+              "id": "C1-O3",
+              "text": "De uma casa"
+            },
+            {
+              "id": "C1-O4",
+              "text": "De um barco"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "O que um discípulo admirou",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Redes e barcos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pedras e construções"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Vestes e saudações"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Campos e colheitas"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Anúncio sobre as construções",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Seriam escondidas no monte"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Seriam ampliadas pelos discípulos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Nenhuma pedra sobre pedra ficaria sem ser derrubada"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Permaneceriam sem alteração"
+            }
+          ],
+          "answerId": "C3-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Grupo que perguntou em particular",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Escribas e saduceus"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Os doze sem nomes registrados"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Fariseus e herodianos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pedro, Tiago, João e André"
+            }
+          ],
+          "answerId": "C4-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.3-4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus estava saindo do templo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Um dos discípulos dirigiu-se a Jesus como Mestre.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O discípulo chamou atenção para as pedras.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Ele também destacou as construções.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.1",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Jesus respondeu falando das grandes construções que o discípulo via.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Jesus anunciou que não ficaria pedra sobre pedra sem ser derrubada.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.2",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Depois, Jesus estava sentado no monte das Oliveiras, diante do templo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1",
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Pedro, Tiago, João e André fizeram a pergunta em particular.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.3",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Eles perguntaram quando ocorreria e qual sinal antecederia o cumprimento.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3",
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.4",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.1-4 registra a saída do templo, a admiração de um discípulo, o anúncio de que as construções seriam derrubadas e a pergunta particular de quatro discípulos.",
+        "hinge": "A pauta reconstrói cenário, anúncio e interlocutores; não fornece uma data, não identifica externamente as construções e não transforma a pergunta dos discípulos em resposta cronológica.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.1-4",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-enganos-testemunho-firmeza",
+      "title": "Os enganos, o testemunho e a firmeza",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.5-13",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Qual cuidado iniciou a resposta, onde os discípulos seriam levados, o que deveria ocorrer primeiro e quem falaria quando fossem entregues?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "ONDE",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A ordem de não se deixar enganar abre e governa a sequência de advertências, sem converter os sinais enumerados em calendário.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cuidado inicial",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Não deixar que ninguém os enganasse"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Determinar a data do fim"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Buscar sinais e prodígios"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Abandonar o testemunho"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.5-6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Autoridades diante das quais seriam levados",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Somente sacerdotes"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Governadores e reis"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Comerciantes e lavradores"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Porteiros e servos"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "O que deveria ocorrer primeiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Todos saberem o dia e a hora"
+            },
+            {
+              "id": "C3-O2",
+              "text": "As pedras serem reconstruídas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "O evangelho ser pregado a todas as nações"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Os discípulos deixarem a Judeia"
+            }
+          ],
+          "answerId": "C3-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem falaria na hora da entrega",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Os próprios discípulos sem auxílio"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Os falsos profetas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Os governadores"
+            },
+            {
+              "id": "C4-O4",
+              "text": "O Espírito Santo"
+            }
+          ],
+          "answerId": "C4-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus começou mandando que os discípulos tivessem cuidado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O cuidado visava impedir que alguém os enganasse.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.5",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Muitos viriam em nome de Jesus e enganariam a muitos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.6",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Guerras e rumores de guerras não deveriam assustá-los.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Jesus disse que esses acontecimentos ainda não seriam o fim.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.7",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Nação contra nação e reino contra reino foram enumerados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Terremotos em vários lugares e fomes também foram enumerados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Essas coisas foram chamadas de princípio das dores.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.8",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Os discípulos foram avisados de entregas a tribunais e sinagogas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Eles seriam açoitados.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Por causa de Jesus, seriam levados diante de governadores e reis.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Essa presença diante das autoridades serviria de testemunho.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.9",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Primeiro, o evangelho deveria ser pregado a todas as nações.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.10",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Na entrega, eles não deveriam se preocupar antecipadamente com a fala.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Deveriam dizer o que lhes fosse concedido naquela hora.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Jesus atribuiu a fala naquela hora ao Espírito Santo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.11",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "O ensino descreve conflito entre familiares.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.12",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Quem permanecesse firme até o fim seria salvo.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.13",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.5-13 reúne advertências contra engano e medo, perseguições como ocasião de testemunho, a pregação do evangelho e a promessa ligada à firmeza.",
+        "hinge": "Guerras, calamidades, autoridades e conflitos são fatos do ensino atribuído a Jesus, não datas, previsões aplicadas a eventos externos nem uma harmonização escatológica.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.5-13",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-desolacao-fuga-eleitos-alerta",
+      "title": "A desolação, a fuga, os eleitos e o alerta",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.14-23",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Que visão iniciaria a fuga, para onde os da Judeia deveriam ir, por causa de quem os dias seriam abreviados e em que anúncios não deveriam acreditar?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "ONDE",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "A visão do abominável da desolação onde não deve estar é o marco expresso da instrução, mantido sem identificação histórica ou externa.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Visão que iniciaria a instrução de fuga",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "O abominável da desolação onde não deve estar"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Um exército identificado pelo nome"
+            },
+            {
+              "id": "C1-O3",
+              "text": "A figueira com folhas"
+            },
+            {
+              "id": "C1-O4",
+              "text": "O dono da casa chegando"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Destino indicado aos que estivessem na Judeia",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "O interior do templo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Os montes"
+            },
+            {
+              "id": "C2-O3",
+              "text": "As praças"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Os campos para buscar capas"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Por causa de quem os dias seriam abreviados",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Dos governadores e reis"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Dos falsos cristos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dos eleitos escolhidos por Deus"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Dos escribas"
+            }
+          ],
+          "answerId": "C3-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Anúncios em que não acreditar",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "As pedras são grandes"
+            },
+            {
+              "id": "C4-O2",
+              "text": "O inverno está próximo"
+            },
+            {
+              "id": "C4-O3",
+              "text": "As folhas brotaram"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Aqui ou ali está o Cristo"
+            }
+          ],
+          "answerId": "C4-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus falou da visão do abominável da desolação.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Ele o situou onde não deve estar, sem registrar uma identidade externa.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A fala inclui a orientação para que o leitor entenda.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Os que estivessem na Judeia deveriam fugir para os montes.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.14",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Quem estivesse no terraço não deveria descer para retirar algo de casa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.15",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Quem estivesse no campo não deveria voltar para buscar a capa.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.16",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "O ensino lamenta a condição das grávidas e das que amamentassem naqueles dias.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.17",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Os ouvintes deveriam orar para que isso não acontecesse no inverno.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.18",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Jesus descreveu aqueles dias como uma tribulação sem precedente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.19",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Se o Senhor não os abreviasse, ninguém seria salvo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Deus abreviou os dias por causa dos eleitos que escolheu.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.20",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Os discípulos não deveriam acreditar no anúncio de que o Cristo estava aqui.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Também não deveriam acreditar no anúncio de que ele estava ali.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.21",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "Jesus anunciou o surgimento de falsos cristos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "Ele também anunciou falsos profetas.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "Sinais e prodígios teriam a finalidade de enganar, se possível, os eleitos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3",
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.22",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P17",
+          "text": "Jesus repetiu a ordem de sobreaviso.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P18",
+          "text": "Ele declarou ter predito tudo isso aos discípulos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.23",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.14-23 registra instruções de fuga, a abreviação dos dias por causa dos eleitos e alertas contra anúncios e sinais enganosos.",
+        "hinge": "A expressão de 13.14 permanece como o texto a apresenta; a nota explicativa e referências cruzadas da página não fornecem identidade, data, evento histórico ou detalhe para o jogo.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.14-23",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-astros-filho-homem-escolhidos",
+      "title": "Os astros, o Filho do Homem e os escolhidos",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.24-27",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "O que aconteceria ao sol, como o Filho do Homem seria visto, quem ele enviaria e quem seria reunido?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "ONDE",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "QUANDO",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A vinda do Filho do Homem nas nuvens com poder e glória ocupa o centro da sequência entre as alterações celestes e a reunião atribuída aos anjos.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Alteração anunciada para o sol",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Escureceria"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cairia do firmamento"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Deixaria o verão próximo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Seria reunido pelos anjos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Como o Filho do Homem seria visto",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sentado no templo em silêncio"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Vindo nas nuvens com grande poder e glória"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Fugindo para os montes"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Chegando como porteiro"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Quem seria enviado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Os falsos profetas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Os quatro discípulos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Os anjos"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Os governadores"
+            }
+          ],
+          "answerId": "C3-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Quem seria reunido",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Os reis"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Os escribas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Os construtores"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Os escolhidos"
+            }
+          ],
+          "answerId": "C4-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "O ensino situa essa descrição após a tribulação referida.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "O sol escureceria.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A lua deixaria de dar sua claridade.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.24",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "As estrelas cairiam do firmamento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Os poderes dos céus seriam abalados.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.25",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "O Filho do Homem seria visto vindo nas nuvens.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Sua vinda é descrita com grande poder e glória.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.26",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Ele enviaria os anjos.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Os anjos reuniriam os escolhidos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "A reunião se estenderia dos quatro ventos, da extremidade da terra à extremidade do céu.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar cenário, contraste ou reação sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.27",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.24-27 descreve alterações celestes, o Filho do Homem vindo nas nuvens e o envio dos anjos para reunir os escolhidos.",
+        "hinge": "A pauta descreve somente os sujeitos, ações e imagens atribuídos ao ensino; não identifica datas, pessoas externas, eventos contemporâneos nem completa as imagens por referências cruzadas.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.24-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
             "checkedAt": "2026-09-14"
           }
         ]
