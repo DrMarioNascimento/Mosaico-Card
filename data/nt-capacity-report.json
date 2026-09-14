@@ -4,15 +4,15 @@
   "status": "partial",
   "source": {
     "file": "data/nt-bank.json",
-    "catalogVersion": "checkpoint-105-marcos-13-inventario",
-    "sha256": "6f5a801a55e8f7656f2773d52dd874916181f28cdd90feef0154615eafe44f02",
-    "baseCommit": "f36849411735ec40edba28f37fbefab73a0412c9"
+    "catalogVersion": "checkpoint-106-marcos-13-remanescentes",
+    "sha256": "e06b53dc7c0ce814161154d18b5b30a89aca918851d0d3c2cb9e1444f02e744c",
+    "baseCommit": "1d160ceb6de573897232e9f631f2834c3dd55335"
   },
   "units": {
-    "cases": 333,
-    "playableCaseIds": 333,
-    "clueCards": 6265,
-    "uniqueClueStringsExact": 6229,
+    "cases": 335,
+    "playableCaseIds": 335,
+    "clueCards": 6294,
+    "uniqueClueStringsExact": 6258,
     "semanticallyUniqueFacts": null,
     "storyOrEpisodeGroups": null,
     "functionalVariants": 0
@@ -36,33 +36,33 @@
   "capacity": [
     {
       "players": 2,
-      "eligibleCases": 333,
-      "drawsWithoutReplacementPerBagCycle": 333
+      "eligibleCases": 335,
+      "drawsWithoutReplacementPerBagCycle": 335
     },
     {
       "players": 3,
-      "eligibleCases": 332,
-      "drawsWithoutReplacementPerBagCycle": 332
+      "eligibleCases": 334,
+      "drawsWithoutReplacementPerBagCycle": 334
     },
     {
       "players": 4,
-      "eligibleCases": 314,
-      "drawsWithoutReplacementPerBagCycle": 314
+      "eligibleCases": 316,
+      "drawsWithoutReplacementPerBagCycle": 316
     },
     {
       "players": 5,
-      "eligibleCases": 289,
-      "drawsWithoutReplacementPerBagCycle": 289
+      "eligibleCases": 291,
+      "drawsWithoutReplacementPerBagCycle": 291
     },
     {
       "players": 6,
-      "eligibleCases": 278,
-      "drawsWithoutReplacementPerBagCycle": 278
+      "eligibleCases": 280,
+      "drawsWithoutReplacementPerBagCycle": 280
     },
     {
       "players": 7,
-      "eligibleCases": 235,
-      "drawsWithoutReplacementPerBagCycle": 235
+      "eligibleCases": 236,
+      "drawsWithoutReplacementPerBagCycle": 236
     },
     {
       "players": 8,
@@ -95,7 +95,7 @@
     "Mt 17.21: perspectivas registradas, mas seleção funcional de variantes não implementada"
   ],
   "remainingAudits": [
-    "Mc 13 foi inventariado integralmente; Mc 13.28-31 e 13.32-37 restam por limite antes de Mc 14",
+    "Mc 13 foi concluído no inventário vigente; Mc 14 é o próximo recorte ordinário e não foi aberto",
     "Mc 11.26 é pendência textual isolada e não integra perguntas, respostas ou pistas",
     "demais linhas PENDENTE da matriz em docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md",
     "1Co 14.35 excluído do jogo; 1Co 14.34 e 14.36 sem novas perguntas aprovadas"

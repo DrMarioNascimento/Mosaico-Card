@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "catalogVersion": "checkpoint-105-marcos-13-inventario",
+  "catalogVersion": "checkpoint-106-marcos-13-remanescentes",
   "namespace": "mosaico-nt-naa-v2",
   "edition": "Nova Almeida Atualizada (NAA)",
   "scope": "Novo Testamento (27 livros)",
@@ -205764,6 +205764,1041 @@
           {
             "book": "Marcos",
             "passage": "13.24-27",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-figueira-geracao-palavras",
+      "title": "A figueira, a geração e as palavras",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.28-31",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Que lição Jesus mandou aprender da figueira, que proximidade ela ilustrava, o que disse da geração e que contraste fez sobre suas palavras?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "POR QUÊ",
+          "ONDE",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C4",
+      "focalJustification": "O contraste final entre a passagem do céu e da terra e a permanência das palavras de Jesus fecha e ancora a unidade sem definir geração, acontecimentos ou cronologia.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Lição que Jesus mandou aprender",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "A comparação do porteiro"
+            },
+            {
+              "id": "C1-O2",
+              "text": "A parábola da figueira"
+            },
+            {
+              "id": "C1-O3",
+              "text": "A lista dos quatro ventos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "A pergunta sobre as pedras"
+            }
+          ],
+          "answerId": "C1-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Proximidade ilustrada pelos ramos e folhas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "A chegada do inverno"
+            },
+            {
+              "id": "C2-O2",
+              "text": "A colheita já encerrada"
+            },
+            {
+              "id": "C2-O3",
+              "text": "O verão próximo"
+            },
+            {
+              "id": "C2-O4",
+              "text": "A noite sem vigília"
+            }
+          ],
+          "answerId": "C2-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.28-29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Declaração sobre a geração",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Passaria antes de qualquer acontecimento"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Não passaria sem que tudo aquilo acontecesse"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Definiria o dia e a hora"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Conheceria todos os sinais externos"
+            }
+          ],
+          "answerId": "C3-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Contraste final sobre as palavras de Jesus",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "As folhas permaneceriam, mas os ramos passariam"
+            },
+            {
+              "id": "C4-O2",
+              "text": "A geração passaria, mas o verão não"
+            },
+            {
+              "id": "C4-O3",
+              "text": "O céu e a terra passariam, mas suas palavras não"
+            },
+            {
+              "id": "C4-O4",
+              "text": "As portas passariam, mas a casa não"
+            }
+          ],
+          "answerId": "C4-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus mandou que os ouvintes aprendessem uma parábola.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "A árvore usada nessa parábola é a figueira.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "Na comparação, os ramos da figueira se renovam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Na mesma comparação, as folhas brotam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Esses sinais da árvore permitem saber que o verão está próximo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.28",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Jesus aplicou a comparação ao momento em que os ouvintes vissem acontecer aquelas coisas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "Ele mandou que, então, soubessem que estava próximo.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "A proximidade foi expressa com a imagem de algo às portas.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.29",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Jesus introduziu a declaração seguinte com uma fórmula solene de verdade.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Ele afirmou que aquela geração não passaria antes do cumprimento mencionado.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "A declaração abrange tudo aquilo que aconteceria, sem definir externamente os acontecimentos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.30",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Jesus disse que o céu e a terra passariam.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Ele afirmou que suas palavras não passariam.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.31",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.28-31 atribui a Jesus a lição da figueira, sua aplicação à proximidade, a declaração sobre aquela geração e o contraste entre céu, terra e suas palavras.",
+        "hinge": "A pauta descreve os termos do ensino em Marcos; não identifica externamente “esta geração” ou “essas coisas”, não fornece data e não harmoniza uma cronologia com outros documentos.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.28-31",
+            "edition": "NAA",
+            "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+            "checkedAt": "2026-09-14"
+          }
+        ]
+      }
+    },
+    {
+      "id": "nt2-marcos-pai-servos-porteiro-vigilia",
+      "title": "O Pai, os servos, o porteiro e a vigília",
+      "generalReferences": [
+        {
+          "book": "Marcos",
+          "passage": "13.32-37",
+          "edition": "NAA",
+          "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+          "checkedAt": "2026-09-14"
+        }
+      ],
+      "question": "Quem Jesus disse conhecer o dia ou a hora, que ordens deu, como descreveu a casa na comparação e que risco justificava a vigilância?",
+      "natures": {
+        "supported": [
+          "QUEM",
+          "O QUÊ",
+          "COMO",
+          "POR QUÊ",
+          "QUANDO",
+          "QUAL/QUE TIPO"
+        ],
+        "unsupported": [
+          "ONDE",
+          "QUANTO",
+          "QUANTAS VEZES"
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "biblical": "approved",
+        "editorial": "approved",
+        "ambiguities": []
+      },
+      "focalFieldId": "C2",
+      "focalJustification": "A ordem reiterada de vigiar governa a comparação da casa e sua conclusão, enquanto o texto preserva justamente o desconhecimento do tempo em vez de oferecer cálculo cronológico.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Quem sabe a respeito do dia ou da hora",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Os servos da casa"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Os anjos no céu"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Somente o Pai"
+            },
+            {
+              "id": "C1-O4",
+              "text": "O porteiro"
+            }
+          ],
+          "answerId": "C1-O3",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ordem reiterada por Jesus",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Calcular o tempo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Vigiar"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Deixar a casa"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Escolher uma hora"
+            }
+          ],
+          "answerId": "C2-O2",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.33,35,37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Responsabilidade particular do porteiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Distribuir as obrigações"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Anunciar a hora"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Guardar a autoridade"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Vigiar"
+            }
+          ],
+          "answerId": "C3-O4",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Risco apresentado na comparação",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "O dono chegar inesperadamente e encontrá-los dormindo"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Os servos abandonarem o país antes do dono"
+            },
+            {
+              "id": "C4-O3",
+              "text": "O porteiro revelar a hora aos anjos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "A casa ficar sem obrigações durante o verão"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "book": "Marcos",
+              "passage": "13.35-36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Jesus disse que ninguém sabe a respeito daquele dia ou da hora.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": true,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "Na enumeração, os anjos no céu não sabem esse momento.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "O Filho também aparece entre os que não sabem.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "Jesus disse que somente o Pai sabe.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.32",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "Os ouvintes receberam a ordem de estar de sobreaviso.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Eles também receberam a ordem de vigiar porque não sabiam quando seria o tempo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.33",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A comparação apresenta um homem que se ausenta do país.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Antes de partir, esse homem deixa a sua casa.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Ele dá autoridade aos seus servos.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "Na comparação, cada servo recebe a sua obrigação.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Ao porteiro é dada especificamente a ordem de vigiar.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2",
+            "C3"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.34",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Jesus repetiu a vigilância porque não se sabia quando o dono da casa viria.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2",
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "Tarde, meia-noite, cantar do galo e manhã formam as possibilidades enumeradas para a chegada.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.35",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "A chegada do dono poderia ocorrer inesperadamente.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Relacionar elementos explícitos à progressão do ensino",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "text": "O risco declarado era que ele encontrasse os ouvintes dormindo.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Delimitar a afirmação central e seus agentes no documento",
+          "earlyRevealRisk": "medium",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.36",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "text": "A ordem dirigida aos ouvintes foi estendida por Jesus a todos.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Completar comparação, contraste ou alcance sem interpretação externa",
+          "earlyRevealRisk": "low",
+          "twoPlayerSuitable": true,
+          "specialExpensive": false,
+          "documentScope": "single",
+          "references": [
+            {
+              "book": "Marcos",
+              "passage": "13.37",
+              "edition": "NAA",
+              "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
+              "checkedAt": "2026-09-14"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Marcos 13.32-37 atribui a Jesus a afirmação de que somente o Pai sabe o momento, ordens de vigilância e a comparação do homem ausente, seus servos e o porteiro.",
+        "hinge": "O texto sustenta vigilância diante do tempo desconhecido; as quatro faixas do dia permanecem uma lista da comparação, sem data, identidade externa ou esquema escatológico.",
+        "references": [
+          {
+            "book": "Marcos",
+            "passage": "13.32-37",
             "edition": "NAA",
             "sourceId": "https://www.bible.com/pt/bible/1840/MRK.13.NAA",
             "checkedAt": "2026-09-14"
