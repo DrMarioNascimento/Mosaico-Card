@@ -1,156 +1,239 @@
-# Auditoria do Mosaico Card
+# Matriz de cobertura — NT/NAA v2
 
-Atualizada em 12 de setembro de 2026 após o descarte editorial do catálogo antigo e a criação da fundação NT/NAA v2.
+“Pendente” significa que nenhum levantamento textual NAA foi realizado. A matriz não usa a lista nem a contagem do banco descartado.
 
-## Situação geral
+| Livro | Estado | Recortes analisados | Candidatos | Exclusões justificadas |
+|---|---|---:|---:|---|
+| Mateus | Mt 1–4 reavaliado — checkpoint 080 | Pendência textual Mt 23.14; lacunas posteriores Mt 8–9, 14–17 e 26–28 | 71 pautas citam o livro / 1.390 pistas | Os quatro recortes lacunares de Mt 1–4 receberam matriz e decisão; outras faixas antigas continuam posteriores |
+| Marcos | Revisão documental ordinária fechada em 1–16.8 no checkpoint 107 | 85 pautas citam o livro / 1.258 pistas | 77 próprios + 8 consolidados | Sem lacuna ordinária conhecida; Mc 7.16, 9.44, 9.46, 11.26 e 15.28 isolados; Mc 16.9-20 fora |
+| Lucas | Analisado — pendências solicitadas encerradas no checkpoint 036 | 22 + faixas restantes | 16 autorados | curtos/poéticos/paralelos documentados |
+| João | Analisado — ver ficha por recorte | 20 | 20 | 8 pautas limitadas a 2–6; nenhuma bloqueada |
+| Atos | Analisado — auditoria individual encerrada nesta lista | 26 + faixas restantes | 21 autorados | candidatos enumerados decididos individualmente |
+| Romanos | Analisado — decisões por faixa | capítulos 1–16 | 2 autorados | argumentos/listas insuficientes; Rm 16.24 bloqueado |
+| 1 Coríntios | Analisado — checkpoint 044 | capítulos 1–16 | 10 autorados | dúvidas de 11.2-16 e 14.34-36 isoladas |
+| 2 Coríntios | Analisado — checkpoint 045 | capítulos 1–13 | 4 autorados | coleta consolidada; 2Co 12 ambíguo |
+| Gálatas | Analisado — checkpoint 046 | capítulos 1–6 | 3 autorados | cronologia de Gl 2 bloqueada |
+| Efésios | Analisado — checkpoint 047 | capítulos 1–6 | 6 autorados | armadura não inflada; capítulos mantidos independentes |
+| Filipenses | Analisado — decisões por recorte | capítulos 1–4 | 1 autorado | demais blocos insuficientes/argumentativos |
+| Colossenses | Analisado — checkpoint 047 | capítulos 1–4 | 2 autorados | temas não fundidos com Efésios; mensageiros e cartas sem harmonização |
+| 1 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–5 | 5 autorados | 1Ts 4 em blocos; sem calendário ou cronologia externa |
+| 2 Tessalonicenses | Analisado — checkpoint 048 | capítulos 1–3 | 2 autorados | somente 2Ts 2.13-17 usado; figuras anteriores permanecem fora |
+| 1 Timóteo | Analisado — checkpoint 049 | capítulos 1–6 | 6 autorados | 1Tm 1, 4–6 delimitados sem harmonização externa |
+| 2 Timóteo | Analisado — checkpoint 050 | capítulos 1–4 | 3 autorados | listas/metáforas não infladas; 4.1-8 isolado das saudações |
+| Tito | Analisado — checkpoint 050 | capítulos 1–3 | 2 autorados | capítulos 1 e 3 mantidos independentes e sem reconstrução externa |
+| Filemom | Analisado — carta integral | 1 carta | 1 autorado | comparação com Cl 4 preservada |
+| Hebreus | Analisado — decisões por faixa | capítulos 1–13 | 1 autorado/elegível | pauta temática liberada; AT não importado |
+| Tiago | Analisado — decisões por recorte | capítulos 1–5 | 1 autorado | exemplos/metáforas não inflados |
+| 1 Pedro | Autoria autorizada encerrada — checkpoint 054 | capítulos 1–5 | 7 autorados | 1Pe 3.19 e 4.6 fora; 5.13 comunitário, sem geografia nem equivalência lexical |
+| 2 Pedro | Autoria autorizada encerrada — checkpoint 054 | capítulos 1–3 | 1 autorado | somente 1.1-15 nesta rodada; alusões não completadas |
+| 1 João | Autoria autorizada encerrada — checkpoint 056 | capítulos 1–5 | 8 autorados | 1Jo 5.16-17 mantido sem identificar o pecado |
+| 2 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | interpretação comunitária não usada como gabarito lexical |
+| 3 João | Auditoria/autoria encerrada — checkpoint 057 | 1 carta | 1 autorado | pauta factual 2–6 |
+| Judas | Auditoria/autoria encerrada — checkpoint 057 | 1 carta em 3 blocos | 3 autorados | alusões não completadas |
+| Apocalipse | Em autoria — checkpoint 062 | capítulos 1–22; Ap 2–13 auditados individualmente | 23 autorados | Ap 14–22 pendentes nesta sequência, incluída auditoria das pautas existentes; sem identidades externas |
 
-| Área | Estado | Observação |
-| --- | --- | --- |
-| Fluxo da sala | Implementado | Configuração vem antes da identidade e da assistência do Mestre. |
-| Mestre como jogador | Implementado | Participa da ordem, possui mão, saldo, assistência e pontuação. |
-| Assistência individual | Parcial | Escolha e persistência local implementadas; auxílios específicos por pauta ainda precisam ser redigidos. |
-| Telão opcional | Implementado | Acompanha pergunta, campos, vez, tempo e participantes. |
-| Turno compartilhado | Implementado | 30/45/60 s, autoridade do Mestre e passagem automática no zero. |
-| Tempo total | Implementado | Usa ciclos completos e encerra ao fim do ciclo corrente. |
-| Fechamento final | Implementado | Janela gratuita de 60 s e apuração simultânea. |
-| Pontuação e pódio | Implementado | Ledger por parcelas, residual, desempates, ranking e top 3. |
-| Banco NT/NAA v2 | 27 livros com decisões por recorte; pendências classificadas | 109 pautas e 1.983 pistas; todas editorialmente elegíveis (56 para até 12, 2 para até 8, 28 para até 6, 1 para até 5, 9 para até 4 e 13 para até 3). |
-| Demonstração da ovelha | Implementada e isolada | Não participa do catálogo ou do saco NT. |
+## Critério de atualização
 
-## Bloqueio editorial P0
+Cada recorte examinado deve registrar referência, resultado (candidato/excluído), justificativa e fonte NAA consultada. Livros só passam a “analisado” quando seus recortes definidos no levantamento tiverem resultado registrado; a existência de um candidato não completa o livro.
 
-O bloqueio HTTP anterior foi superado no checkpoint 002, conforme evidências no documento mestre. Vinte recortes de João foram consultados e autorados; os vinte estão editorialmente elegíveis; doze comportam até 12 participantes e oito, com 13 pistas, comportam até 6. Os 27 livros receberam decisões por recorte, e os recortes autorizados pelo usuário foram reavaliados no checkpoint 027. A estrutura libera somente após três aprovações, ausência de ambiguidades e capacidade calculada para duas cartas por participante e ao menos uma no poço na mesa real.
+## Checkpoint 039 — segundo lote incremental de Atos
 
-## Pontos de atenção técnicos
+A base de 109 pautas/1.983 pistas foi preservada integralmente. Após consulta HTTP 200 e leitura na NAA de Atos 13, 14, 16, 18 e 19, os cinco recortes autorizados produziram 80 pistas em cinco pautas. Atos passa a 19 pautas autoradas na auditoria acumulada. At 21/23, Romanos–Judas e Apocalipse permanecem pendentes; o banco não está completo.
 
-### Segurança e privacidade do Firestore
 
-O snapshot da sala ainda reúne mãos, saldos, erros e ledger no mesmo documento. A interface filtra o que mostra, mas um participante capaz de inspecionar diretamente o documento pode enxergar dados privados. As respostas do fechamento também ficam reunidas na sala antes da apuração.
+## Checkpoint 040 — fechamento da lista auditada de Atos
 
-Antes do teste externo, é necessário separar dados públicos e privados ou impor uma camada confiável de servidor, além de revisar as regras do Firestore para garantir que:
+At 21.7-14 e 23.12-35 foram relidos na NAA e originaram duas pautas com 34 pistas. O inventário passa de 114/2.063 para 116/2.097, preservando mecanicamente os 114 objetos anteriores. A próxima base deve tratar Romanos–Judas e Apocalipse; o banco não está completo.
 
-- somente participantes possam escrever na sala;
-- somente o jogador da vez possa publicar sua ação normal;
-- somente o Mestre possa mudar fase e controlar relógios;
-- um cliente não possa alterar mão, saldo ou pontuação de outro jogador;
-- respostas finais não possam ser lidas pelos adversários antes da apuração.
+## Checkpoint 043 — 1 Coríntios 1, 8, 9 e 10
 
-### Reconexão e concorrência
+A base de 124 pautas e 2.250 pistas foi preservada. A leitura NAA individual dos quatro capítulos autorizados acrescentou quatro pautas e 73 pistas, levando o inventário a 128/2.323. A linha de 1 Coríntios passa a somar sete pautas autoradas; 1Co 11, 13 e 14 seguem pendentes, assim como 2 Coríntios e os demais recortes das cartas e de Apocalipse. O banco não está completo.
 
-As transações e o `turnoId` protegem contra parte das publicações atrasadas, mas ainda é necessário validar em vários aparelhos:
+## Checkpoint 044 — fechamento limitado de 1 Coríntios
 
-- reconexão após suspensão do navegador no iPhone;
-- duas ações enviadas quase simultaneamente;
-- expiração do relógio enquanto uma ação está em trânsito;
-- troca de Mestre se o aparelho que criou a sala sair;
-- retorno correto às fases de fechamento e apuração.
+A base de 128 pautas/2.323 pistas foi preservada mecanicamente. Três pautas e 58 pistas foram acrescentadas após leitura NAA de 1Co 11, 13 e 14, levando o inventário a 131/2.381. As questões interpretativas de 11.2-16 e 14.34-36 foram isoladas sem impedir a autoria independente dos demais blocos. 2 Coríntios, as outras cartas e Apocalipse permanecem para nova base; o banco não está completo.
 
-### Camadas de assistência
+## Checkpoint 045 — lote limitado de 2 Coríntios
 
-Livre, Assistida e Guiada já fazem parte do cadastro individual e não são expostas aos demais jogadores. Entretanto, o banco ainda não fornece textos e relações graduadas para que cada camada produza uma experiência realmente diferente. Até essa autoria existir, as três escolhas compartilham essencialmente o mesmo conteúdo de jogo.
+A base de 131 pautas/2.381 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura na NAA exclusivamente de 2Co 7, 10 e 13, foram acrescentadas três pautas e 52 pistas, levando o inventário a **134 pautas, 536 campos e 2.433 pistas**. A linha de 2 Coríntios passa a quatro pautas autoradas. As perguntas permanecem atributivas, a alusão de 13.1 não foi completada pelo AT e nenhuma visita ou carta foi harmonizada. As demais cartas e Apocalipse ficam pendentes; o banco não está completo.
 
-### Duração curta, padrão e longa
+## Checkpoint 046 — Gl 6 e Ef 1–3
 
-A escolha altera a quantidade de ovelhas e os ciclos da partida. Curta reduz um ciclo, com mínimo de três, e uma ovelha, com mínimo de uma. Longa acrescenta um ciclo, com teto de cinco, e uma ovelha, com teto de quatro. A suíte automática cobre esses limites.
+A base de 134 pautas/2.433 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura NAA somente de Gl 6 e Ef 1, 2 e 3, quatro pautas e 81 pistas foram acrescentadas, elevando o inventário a **138 pautas, 552 campos e 2.514 pistas**. Cada capítulo de Efésios permaneceu separado; perguntas e alternativas são atributivas, sem harmonização ou teses externas. Ef 4–5, Colossenses, Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem para próximas bases; o banco não está completo.
 
-## Validação antes de liberar pautas
+## Checkpoint 047 — Efésios 4–5 e Colossenses 3–4
 
-| Ordem | Entrega | Critério de aceite |
-| ---: | --- | --- |
-| 1 | Acesso NAA | Trechos efetivamente consultados, com fonte e data. |
-| 2 | Levantamento | Recortes e exclusões registrados por livro, sem meta numérica. |
-| 3 | Lote autorado | Pergunta, C1–C4, focal, pistas e revelação completos. |
-| 4 | Validar e gerar | Validação estrutural aprovada e saída reproduzível. |
-| 5 | Liberar | Aprovações bíblica/editorial e zero ambiguidades. |
-| 6 | Distribuição | Mesas de 2–12 sem concentração das essenciais. |
+A base de 138 pautas/2.514 pistas foi preservada mecanicamente. A leitura NAA individual dos quatro capítulos autorizados acrescentou quatro pautas e 79 pistas, levando o inventário a **142 pautas, 568 campos e 2.593 pistas**. Efésios e Colossenses ficam analisados nesta rodada, com os recortes tratados independentemente e sem harmonizar Tíquico, Onésimo, viagens ou cartas. Tessalonicenses, pastorais, cartas gerais e Apocalipse permanecem pendentes nesta sequência; o banco não está completo.
 
-## Verificação automática
+## Checkpoint 048 — 1–2 Tessalonicenses
 
-```bash
-npm test
-```
+A base de 142 pautas/2.593 pistas foi preservada mecanicamente. A leitura NAA dos cinco blocos autorizados acrescentou cinco pautas e 59 pistas, levando o inventário a **147 pautas, 588 campos e 2.652 pistas**. 1Ts 4.1-12 e 4.13-18 permanecem independentes; 2Ts 2.13-17 não importa as figuras anteriores nem calendário externo. Pastorais, cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.
 
-A automação cobre sintaxe e contratos centrais. Ela não substitui teste de segurança das regras do Firestore, teste de rede real nem validação editorial e bíblica das pautas.
 
-## Checkpoint 059 — verificação de Apocalipse 3
+## Checkpoint 049 — lote limitado de 1 Timóteo
 
-Sardes, Filadélfia e Laodiceia foram consultadas na página NAA identificada de Ap 3, comparadas com os 183 objetos existentes e autoradas em três pautas independentes. As 58 pistas novas levam o catálogo a 186 pautas e 3.466 pistas. O validador confirmou C1–C4, alternativas, gabaritos, foco, metadados, revelação, capacidade e elegibilidade; a auditoria registrou como repetições documentais resolvidas as fórmulas finais comuns às três cartas e não deixou par pendente. Os demais recortes de Apocalipse e a auditoria global de cobertura continuam fora deste lote; o banco não está completo.
+A base de 147 pautas/2.652 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 1Tm 1, 4, 5 e 6, cinco blocos coerentes acrescentaram 81 pistas, levando o inventário a **152 pautas, 608 campos e 2.733 pistas**. 1Tm 5 foi separado entre cuidado familiar/viúvas (5.1-16) e presbíteros/conselhos (5.17-25); nenhuma nota cruzada, reconstrução histórica ou calendário foi importado. 2Tm/Tt, cartas gerais e Apocalipse permanecem para lotes seguintes; o banco não está completo.
 
-## Checkpoint 060 — verificação limitada de Apocalipse 4–7
 
-A leitura NAA e comparação individual fecharam Ap 4–5 e Ap 6 nas pautas já existentes e acrescentaram somente duas pautas para as cenas separadas de Ap 7. As 36 pistas novas levam o banco a 188 pautas e 3.502 pistas. A auditoria mantém as repetições da lista de tribos como itens textuais distintos e resolvidos, sem duplicata exata ou par pendente; a literalidade dos cento e quarenta e quatro mil e qualquer relação com Ap 14 não foram decididas. Ap 8–22 e a auditoria global continuam pendentes; o banco não está completo.
+## Checkpoint 050 — 2 Timóteo 3–4.8 e Tito 1,3
 
-## Checkpoint 061 — verificação limitada de Apocalipse 8–10
+A base de 152 pautas/2.733 pistas foi preservada mecanicamente. Após consulta HTTP 200 e leitura exclusiva na NAA de 2Tm 3, 2Tm 4.1-8, Tt 1 e Tt 3, quatro blocos coerentes acrescentaram 71 pistas, levando o inventário a **156 pautas, 624 campos e 2.804 pistas**. Nenhum itinerário, identidade, cronologia ou nota cruzada foi importado. Cartas gerais e Apocalipse permanecem para nova base; o banco não está completo.
 
-A consulta efetiva das três páginas NAA e a comparação com os 188 objetos anteriores sustentaram quatro pautas: Ap 8 em um bloco, Ap 9 separado entre quinta e sexta trombetas, e Ap 10 em um bloco. As 96 pistas novas levam o banco a **192 pautas e 3.598 pistas**. A auditoria automatizada continua com zero duplicatas exatas e zero pares semânticos sem resolução; nenhum alerta novo exigiu registro. As descrições e ações internas não receberam identidade histórica, tecnologia, alegoria ou calendário. Ap 11–22 e a auditoria global continuam pendentes; o banco não está completo.
+## Checkpoint 051 — Hebreus 13 e Tiago
 
-## Checkpoint 062 — verificação de Apocalipse 11–13
+Hb 13.1-19, Tg 1, Tg 2 e Tg 5.1-12 foram relidos nas páginas NAA identificadas, com decisão individual e autoria. O lote acrescenta quatro pautas e 95 pistas ao inventário anterior de 156/2.804, totalizando **160 pautas, 640 campos e 2.899 pistas**. As alusões a Abraão, Raabe e Jó ficam restritas ao que Tiago afirma. Tg 5.13-20 não foi anexado ao bloco autorizado.
 
-A leitura NAA e a comparação individual produziram duas pautas para os blocos 11.1-14 e 11.15-19, somando 48 pistas, e encerraram Ap 12 e 13 nas duas pautas já existentes, sem alterá-las ou duplicá-las. O banco passa a **194 pautas e 3.646 pistas**. A auditoria automatizada mantém zero duplicatas exatas e zero pares semânticos sem resolução. As duas testemunhas permanecem sem identidades externas; mulher, dragão, bestas, marca e 666 não receberam instituições atuais, calendário ou interpretação externa. Ap 14–22 e a auditoria global continuam pendentes; o banco não está completo.
+**Pedro, João, Judas, Apocalipse e a auditoria global de cobertura continuam pendentes; o banco não está completo.**
 
-## Checkpoint 063 — verificação de Apocalipse 14–16
+## Checkpoint 052 — primeiro lote de 1 Pedro
 
-A leitura NAA e a comparação individual produziram quatro pautas para Ap 14–15, somando 93 pistas, e encerraram Ap 16 em `nt2-apocalipse-tacas` sem alterar ou duplicar o objeto. O banco passa a **198 pautas e 3.739 pistas**. Os 194 objetos anteriores foram preservados; a auditoria automatizada mantém zero duplicatas exatas e zero pares sem resolução. Literalidade dos cento e quarenta e quatro mil, harmonização com Ap 7, identidades externas, calendários e alegorias acrescentadas ficaram fora. Ap 17–22 e a auditoria global continuam pendentes; o banco não está completo.
+As páginas NAA de 1Pe 1, 2 e 3 foram obtidas com HTTP 200 em 13/09/2026 e os recortes 1Pe 1, 1Pe 2 e 1Pe 3.1-17 receberam decisões e pautas próprias. Foram acrescentadas três pautas e 80 pistas, elevando o inventário de 160/2.899 para **163 pautas, 652 campos e 2.979 pistas**. A terceira pauta não ultrapassa 3.17 e não usa a questão de 3.19.
 
-## Checkpoint 064 — verificação de Apocalipse 17–18
+**1Pe 4–5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** 1Pe 4.6 continua fora; 1Pe 5.13 permanece comunitário e sem geografia. O banco não está completo.
 
-A leitura NAA e a comparação individual produziram quatro pautas e 105 pistas: Ap 17.1-18, Ap 18.1-8, Ap 18.9-20 e Ap 18.21-24. O banco passa a **202 pautas e 3.844 pistas**, preservando os 198 objetos anteriores. A auditoria automatizada mantém zero duplicatas exatas e zero pares sem resolução. As identificações permanecem internas, sem cidade ou instituição histórica/atual, geografia presente, calendário ou alegoria acrescentada. Ap 19–22 e a auditoria global continuam pendentes; o banco não está completo.
 
-## Checkpoint 065 — Apocalipse 19 e auditoria limitada de 20–22
+## Checkpoint 053 — somente 1 Pedro 4, exceto 4.6
 
-Duas pautas de Ap 19 acrescentaram 61 pistas, elevando o banco a **204 pautas e 3.905 pistas**. Os 202 objetos anteriores foram preservados; Ap 20.1-15 e Ap 21.1–22.5 foram conferidos nas pautas existentes sem alteração. A auditoria delimitou Ap 22.6-21 como não coberto, em vez de perpetuar a descrição genérica “Ap 21–22”. A triagem registra zero duplicata exata e, após decisão explícita sobre os dois atributos coordenados de Ap 19.2, zero par sem resolução. Não há interpretação histórica, geográfica, cronológica ou alegórica acrescentada. A auditoria global dos 27 livros é o próximo passo obrigatório; o banco não está completo.
+A base de 163 pautas e 2.979 pistas foi preservada mecanicamente. A página NAA de 1Pe 4 retornou HTTP 200 em 13/09/2026 e a autoria ficou restrita a 4.1-5, 4.7-11 e 4.12-19. Esses três recortes independentes acrescentaram 50 pistas, levando o inventário a **166 pautas, 664 campos e 3.029 pistas**. A questão de 4.6 não aparece em pergunta, campo, alternativa, gabarito, pista ou referência.
 
-## Checkpoint 066 — pauta terminal de Apocalipse e auditoria global documental
+**1Pe 5, 2Pe, João, Judas, Apocalipse e a auditoria global permanecem pendentes.** A interpretação comunitária de 1Pe 5.13 segue preservada, sem geografia nem alegação lexical. O banco não está completo.
 
-Ap 22.6-21 acrescentou uma pauta e 32 pistas; o banco passa a **205 pautas e 3.937 pistas**, com os 204 objetos anteriores preservados. A auditoria de pistas mantém zero duplicata exata e zero par sem resolução. A auditoria global obrigatória foi executada documentalmente em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`: ela cruza os 27 livros e identifica lacunas decorrentes de regras revogadas, decisões agregadas e recortes ainda não reconsultados. As dúvidas do usuário em 1Co 11.2-16 e 14.34-36 ficam isoladas das filas independentes. O limite é explícito: essa auditoria não releu agora cada recorte NAA pendente e não demonstra completude do banco.
 
-## Checkpoint 075 — lote limitado de Mateus 21–22
+## Checkpoint 054 — 1 Pedro 5 e 2 Pedro 1.1-15
 
-Somente Mt 21–22 foi obtido na NAA Bible.com 1840 (HTTP 200) e lido verso a verso. A comparação efetiva de campos, perguntas, pistas, referências e paralelos partiu de **232 pautas/4.538 pistas**. Mt 21.1-11 permaneceu coberto pela pauta existente. Quatro pautas foram anexadas: templo/figueira (23 pistas), autoridade/dois filhos (23), lavradores maus (28) e festa de casamento (25), levando o catálogo a **236 pautas/944 campos/4.637 pistas**; os 232 objetos anteriores permaneceram serializadamente idênticos.
+As páginas NAA de 1Pe 5 e 2Pe 1 retornaram HTTP 200 em 13/09/2026; a leitura e autoria ficaram limitadas a 1Pe 5 e 2Pe 1.1-15. Duas pautas, sem forçar a terceira permitida, acrescentaram 61 pistas: 32 em `nt2-1pedro-pastoreio-humildade-firmeza-saudacoes` e 29 em `nt2-2pedro-fe-virtudes-memoria`. O inventário passa de 166/3.029 para **168 pautas, 672 campos e 3.090 pistas**.
 
-As capacidades são 11, 11, 12 e 12, calculadas sem piso ou inflação. Parábolas, listas e ensinos permanecem atributivos e não foram harmonizados com paralelos. Mt 22.15-22, 22.23-33, 22.34-40 e 22.41-46 ficam individualmente **pendentes pelo limite do lote**, não excluídos; Mt 23–25 continua posterior. Dúvidas de 1Co e exclusões definitivas permanecem preservadas. O banco não está completo, e testes não alteram esse estado.
+Os 166 objetos anteriores permaneceram mecanicamente idênticos. Em 1Pe 5.13, a remetente da saudação é tratada como Igreja/comunidade cristã por interpretação aprovada, sem geografia e sem equivalência lexical entre Babilônia e Igreja. As exclusões de 1Pe 3.19 e 4.6 continuam intactas.
 
-## Checkpoint 076 — quatro pendências finais de Mateus 22
+**João, Judas, Apocalipse e a auditoria global permanecem pendentes; o banco não está completo.**
 
-Somente Mt 22.15-46 foi reconsultado na NAA Bible.com 1840 (HTTP 200) e comparado, por campos, perguntas, pistas, referências e paralelos, aos **236 objetos/4.637 pistas**. Quatro pautas sustentadas foram anexadas: tributo (16 pistas; capacidade 7), ressurreição (20; 9), grande mandamento (10; 4) e Cristo/Davi (10; 4). O catálogo passa a **240 pautas/960 campos/4.693 pistas**, preservando serializadamente os 236 objetos anteriores.
+## Checkpoint 055 — 1 João 1–3
 
-As hipóteses e perguntas ficam atribuídas aos interlocutores; respostas e citações ficam atribuídas a Jesus. Não se importou o AT, não se harmonizaram paralelos e não houve piso de 25 pistas ou 12 participantes. Mt 21–22 fica decidido no inventário vigente, mas **Mt 23–25 permanece posterior**; Mateus e o banco não são declarados completos. Dúvidas de 1Co e exclusões definitivas continuam preservadas; não houve merge, deploy, publicação, Firebase ou credenciais.
+A leitura exclusiva das páginas NAA de 1Jo 1–3 acrescentou quatro pautas e 100 pistas: uma para o capítulo 1, duas para os blocos 2.1-17 e 2.18-29, e uma para o capítulo 3. Os anticristos são descritos apenas pelos critérios internos de 1Jo 2, sem identidades externas. A base anterior de 168 pautas/3.090 pistas foi preservada mecanicamente, e o inventário passa a **172 pautas, 688 campos e 3.190 pistas**.
 
-## Checkpoint 077 — inventário individual de Mateus 23
+**1Jo 4–5, demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**
 
-Somente a página NAA Bible.com 1840 de Mateus 23 foi obtida (HTTP 200; 354.533 bytes), lida integralmente e comparada aos **240 objetos/4.693 pistas**. As unidades não sinalizadas receberam decisão individual na ficha de Mateus; Mt 23.14 permaneceu sem decisão própria. Quatro pautas sustentadas foram anexadas: obras/títulos/serviço (17 pistas; capacidade 8), ais/juramentos (15; 7), dízimo/aparências (18; 8) e profetas/lamento (20; 9). Mt 23.14, exibido entre colchetes pela NAA consultada, não foi usado em pista, campo ou gabarito e permanece como pendência textual: a política vigente exige decisão específica, pois colchetes isoladamente não constituem exclusão global (Jo 8.1-11 e At 8.37 tiveram encaminhamentos próprios).
+## Checkpoint 056 — 1 João 4–5
 
-A comparação serializada confirmou os **240 objetos anteriores byte-equivalentes por `JSON.stringify`**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **244 pautas/976 campos/4.763 pistas**, todas elegíveis. Denúncias, hipóteses, anúncios, citações e imagens permanecem atribuídos ao discurso/texto de Mateus, sem generalização, importação do AT ou harmonização de paralelos. Mt 24–25 e as pendências concretas dos demais livros permanecem posteriores; dúvidas de 1Co e exclusões definitivas foram preservadas. Testes não declaram o banco completo, e não houve merge, deploy, publicação, Firebase ou credenciais.
+A consulta e leitura exclusivas das páginas NAA de 1Jo 4–5 acrescentaram quatro pautas e 88 pistas: 4.1-6, 4.7-21, 5.1-12 e 5.13-21. Os 172 objetos e as 3.190 pistas anteriores foram preservados mecanicamente. O inventário chega a **176 pautas, 704 campos e 3.278 pistas**.
 
-## Checkpoint 078 — inventário individual de Mateus 24
+1Jo 5.16-17 permanece textual, sem identificar o pecado que leva à morte; os espíritos e o espírito do anticristo não receberam identidades externas. **Demais João, Judas, Apocalipse e auditoria global permanecem pendentes; o banco não está completo.**
 
-Somente a página NAA Bible.com 1840 de Mateus 24 foi obtida (HTTP 200; 359.681 bytes), lida integralmente e comparada aos **244 objetos/4.763 pistas**. Quatro pautas sustentadas foram anexadas: templo/sinais/testemunho (22 pistas; capacidade 10), fuga/falsos cristos (21; 10), vinda/anjos/figueira (16; 7) e vigilância/servos (22; 10). Profecias, imagens, alusões e situações hipotéticas permanecem atribuídas ao discurso de Jesus em Mateus, sem calendário, identidades históricas, geografia atual, importação do AT ou harmonização externa.
+## Checkpoint 057 — fechamento individual de 2–3 João e Judas
 
-A comparação serializada confirmou os **244 objetos anteriores byte-equivalentes por `JSON.stringify`**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **248 pautas/992 campos/4.844 pistas**, todas elegíveis. Mt 24 recebeu decisão por unidade; **Mt 25 permanece posterior**. A correção documental do checkpoint anterior mantém **Mt 23.14 como pendência textual específica**, não exclusão definitiva: colchetes não são regra global, e a política registrada para Jo 8.1-11 e At 8.37 exige encaminhamento próprio. O verso não foi incluído agora e não bloqueou Mt 24. Dúvidas de 1Co e exclusões definitivas continuam preservadas; testes não declaram o banco completo, e não houve merge, deploy, publicação, Firebase ou credenciais.
+A consulta efetiva e individual das três páginas NAA retornou HTTP 200 em 13/09/2026. A comparação com a cobertura existente confirmou que `nt2-2joao-verdade-hospitalidade` (9 pistas) e `nt2-3joao-gaio-diotrefes-demetrio` (13 pistas) já cobrem os fatos aproveitáveis dessas cartas; nenhum fato ou recorte foi duplicado. Em 2 João, “senhora eleita” permanece designação textual, e Igreja/comunidade cristã permanece interpretação aprovada, sem identidade lexical explícita, necessidade de comunidade local ou uso como novo gabarito.
 
-## Checkpoint 079 — inventário individual de Mateus 25
+Judas foi delimitado em três blocos coerentes: 1-7 (18 pistas), 8-16 (20) e 17-25 (20). Moisés, Miguel e Enoque aparecem apenas no que Judas declara; notas, narrativas externas, identidades atuais e calendários não foram importados. O inventário passa a **179 pautas, 716 campos e 3.336 pistas**, com preservação integral dos 176 objetos e das 3.278 pistas anteriores. **Apocalipse e a auditoria global dos 27 livros permanecem para etapas posteriores; o banco não está completo.**
 
-Somente a página NAA Bible.com 1840 de Mateus 25 foi obtida (HTTP 200; 351.114 bytes), lida integralmente e comparada aos **248 objetos/4.844 pistas**. Três pautas sustentadas, sem meta, foram anexadas: virgens/lamparinas (18 pistas; capacidade 8), servos/talentos (22; 10) e Rei/ovelhas/cabritos (20; 9). Parábolas, imagens e julgamento permanecem atribuídos às comparações e ao anúncio de Jesus, sem identidades externas, harmonização ou calendário.
+## Checkpoint 058 — Apocalipse 2 por carta
 
-A comparação serializada confirmou os **248 objetos anteriores byte-equivalentes por `JSON.stringify`**, na mesma ordem; somente três objetos foram anexados. Resultado: **251 pautas/1.004 campos/4.904 pistas**, todas elegíveis. A auditoria exclusivamente documental de Mt 1–4, 8–9, 14–17 e 26–28 encontrou matrizes atuais apenas para recortes selecionados e registrou as unidades concretas ainda sujeitas a reconsulta futura; não houve autoria nessas faixas. Mt 23.14 continua pendência textual, não exclusão definitiva. Dúvidas de 1Co e demais exclusões foram preservadas; testes não declaram Mateus nem o banco completos, e não houve merge, deploy, publicação, Firebase ou credenciais.
+A consulta NAA de Ap 2 retornou HTTP 200 em 13/09/2026. A comparação individual confirmou que as pautas anteriores não cobriam as quatro cartas. Éfeso (18 pistas), Esmirna (14), Pérgamo (18) e Tiatira (22) foram autoradas separadamente, levando o inventário de 179/3.336 para **183 pautas, 732 campos e 3.408 pistas**, com preservação integral dos 179 objetos anteriores.
 
-## Checkpoint 080 — lacunas individualizadas de Mateus 1–4
+Jezabel e nicolaítas permanecem somente como apresentados no texto; não foram acrescentadas identidades históricas ou atuais, igrejas atuais, calendários ou alegorias. **Ap 3, os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes para nova base; o banco não está completo.**
 
-Somente as páginas NAA Bible.com 1840 de Mt 1–4 foram obtidas (HTTP 200; 336.349, 334.120, 329.146 e 351.052 bytes), e a leitura foi limitada a 1.1-17, 2.13-23, 3.1-12 e 4.12-25. A comparação com **251 objetos/4.904 pistas** precedeu quatro pautas sustentadas: genealogia (23 pistas; capacidade 11), Egito/Belém/Nazaré (20; 9), João no deserto/batismo (20; 9) e Galileia/pescadores/curas (21; 10). Listas, citações, imagens e paralelos permanecem documentais, sem AT importado, cronologia externa ou harmonização.
+## Checkpoint 059 — Apocalipse 3 por carta
 
-A comparação serializada confirmou os **251 objetos anteriores byte-equivalentes por `JSON.stringify`**, na mesma ordem; somente quatro objetos foram anexados. Resultado: **255 pautas/1.020 campos/4.988 pistas**, todas elegíveis. Nenhum recorte autorizado ficou pendente por limite; a ficha combina essas decisões com as unidades anteriores sem declarar Mateus ou o banco completos. Mt 8–9, 14–17 e 26–28 continuam posteriores; Mt 23.14, dúvidas de 1Co e demais limites foram preservados. Não houve merge, deploy, publicação, Firebase ou credenciais.
+A página NAA identificada de Ap 3 retornou HTTP 200 em 13/09/2026. A leitura e autoria exclusivas das cartas a Sardes, Filadélfia e Laodiceia acrescentaram três pautas e 58 pistas, elevando o inventário de 183/3.408 para **186 pautas, 744 campos e 3.466 pistas**. Os 183 objetos anteriores foram preservados mecanicamente.
 
-## Checkpoint 081 — inventário limitado de Mateus 8–9
+Descrições, ordens, advertências, conselhos e promessas permanecem internos às cartas; não se acrescentaram identidades históricas, igrejas atuais, calendários, localizações presentes ou alegorias. **Os demais recortes de Apocalipse e a auditoria global dos 27 livros permanecem pendentes; o banco não está completo.**
 
-Somente as páginas NAA Bible.com 1840 de Mt 8–9 foram obtidas (HTTP 200; 97.575 e 98.424 bytes), lidas verso a verso e comparadas aos **255 objetos/4.988 pistas** por perguntas, campos, pistas, referências e paralelos. Quatro pautas foram anexadas sem meta: leproso (10 pistas; capacidade 4), sogra/seguidores (17; 8), gadarenos/porcos (16; 7) e chamado/mesa/jejum (19; 9). Fatos exclusivos de Mateus foram preservados; semelhança não virou identidade de ocasião, e nenhum AT ou interpretação externa foi importado.
+## Checkpoint 060 — auditoria/autoria de Apocalipse 4–7
 
-Os 255 objetos anteriores permaneceram serialmente idênticos e na mesma ordem. O catálogo passa a **259 pautas/1.036 campos/5.050 pistas**, todas elegíveis. A ficha mantém Mt 8.5-13, 9.27-31, 9.32-34 e 9.35-38 em matrizes concretas para o próximo lote por limite, não por insuficiência ou descarte. Mt 8–9, Mateus e o banco não são declarados completos; Mt 14–17, 26–28, Mt 23.14, dúvidas de 1Co e exclusões definitivas permanecem intactos. Não houve merge, deploy, publicação, Firebase ou credenciais.
+As quatro páginas NAA retornaram HTTP 200 em 13/09/2026. A leitura e comparação fecharam Ap 4–5 em `nt2-apocalipse-trono-cordeiro` e Ap 6 em `nt2-apocalipse-selos`, sem duplicação. Ap 7.1-8 e 7.9-17 acrescentaram duas pautas e 36 pistas, levando o inventário de 186/3.466 para **188 pautas, 752 campos e 3.502 pistas**, com preservação integral dos 186 objetos anteriores.
+
+Os cento e quarenta e quatro mil, as tribos e a grande multidão permanecem descrições internas; não há decisão de literalidade, identidade externa ou harmonização com Ap 14. **Ap 8–22 segue pendente nos recortes ainda não auditados individualmente, e a auditoria global dos 27 livros fica para depois; o banco não está completo.**
+
+## Checkpoint 061 — auditoria/autoria de Apocalipse 8–10
+
+As páginas NAA de Ap 8, 9 e 10 retornaram HTTP 200 em 13/09/2026 e foram lidas antes da autoria. Quatro pautas e 96 pistas foram acrescentadas: Ap 8.1-13, Ap 9.1-12, Ap 9.13-21 e Ap 10.1-11. O inventário passa de 188/3.502 para **192 pautas, 768 campos e 3.598 pistas**, com preservação integral dos 188 objetos anteriores.
+
+As imagens foram mantidas como descrições, ações, comparações, identificações e sequências internas. Nenhuma identidade histórica, tecnologia moderna, alegoria ou calendário foi importado; o que os sete trovões disseram permanece selado. **Ap 11–22 segue pendente, incluída a auditoria individual das pautas existentes de Ap 12, 13, 16, 20 e 21–22; a auditoria global dos 27 livros fica para depois e o banco não está completo.**
+
+## Checkpoint 062 — auditoria/autoria de Apocalipse 11–13
+
+As três páginas NAA retornaram HTTP 200 em 13/09/2026. Ap 11.1-14 e 11.15-19 originaram duas pautas com 48 pistas. A leitura completa dos capítulos e a comparação encerraram Ap 12 e 13 nas pautas existentes, sem alteração nem duplicação. O inventário passa de 192/3.598 para **194 pautas, 776 campos e 3.646 pistas**, preservando integralmente os 192 objetos anteriores.
+
+As duas testemunhas não receberam identidades externas; mulher, dragão, bestas, marca e 666 permanecem restritos às descrições e identificações internas dos capítulos. **Ap 14–22 e a auditoria global dos 27 livros ficam para nova base; o banco não está completo.**
+
+## Checkpoint 063 — auditoria/autoria de Apocalipse 14–16
+
+As páginas NAA de Ap 14–16 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. Ap 14 originou três pautas, com 19, 25 e 24 pistas; Ap 15 originou uma pauta com 25. A comparação encerrou Ap 16 na pauta existente `nt2-apocalipse-tacas`, preservada sem alteração ou duplicação. O inventário passa de 194/3.646 para **198 pautas, 792 campos e 3.739 pistas**, com os 194 objetos anteriores serializadamente idênticos.
+
+As capacidades novas são 9, 12, 11 e 12. O número dos cento e quarenta e quatro mil não recebeu decisão de literalidade nem harmonização com Ap 7. Cordeiro, cânticos, anjos, ceifa, lagar, flagelos e taças ficaram restritos às descrições, falas, ações e identificações internas. Não surgiu ambiguidade real nova. **Ap 17–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 064 — autoria de Apocalipse 17–18
+
+As páginas NAA de Ap 17–18 retornaram HTTP 200 em 13/09/2026 e foram lidas integralmente. A comparação com as 198 pautas anteriores confirmou ausência de cobertura. Foram incorporadas quatro pautas com 34, 25, 28 e 18 pistas, elevando o inventário a **202 pautas, 808 campos e 3.844 pistas**; os 198 objetos anteriores permaneceram idênticos.
+
+As explicações internas do anjo em Ap 17 foram preservadas sem complementação histórica. Em Ap 18, anúncio, saída, juízo, mercadorias, lamentos, pedra e silêncios permanecem na descrição e nas falas do capítulo. Não se acrescentaram instituições atuais, geografia presente, calendário ou alegoria, e não surgiu ambiguidade real nova. **Ap 19–22 e a auditoria global dos 27 livros continuam pendentes; o banco não está completo.**
+
+## Checkpoint 065 — Apocalipse 19 e conferência de 20–22
+
+Ap 19–22 retornaram HTTP 200 na fonte NAA identificada em 13/09/2026 e foram lidos integralmente. A comparação preservou byte a byte, em sua serialização canônica, os 202 objetos anteriores e acrescentou somente duas pautas de Ap 19: 19.1-10 (29 pistas) e 19.11-21 (32), totalizando **204 pautas, 816 campos e 3.905 pistas**.
+
+A revisão individual confirmou Ap 20.1-15 na pauta existente de 13 pistas e Ap 21.1–22.5 na pauta existente de 25 pistas, sem identidades ou cronologias externas. Ap 22.6-21 não está coberto por esta última; a antiga abreviação “Ap 21–22” foi delimitada e o recorte terminal segue para a auditoria global dos 27 livros. Não se declara o banco completo.
+
+## Checkpoint 066 — Apocalipse 22.6-21 e auditoria dos 27 livros
+
+A consulta efetiva de Ap 22.6-21 sustentou uma pauta de 32 pistas. O inventário passa a **205 pautas, 820 campos e 3.937 pistas**, preservando os 204 objetos anteriores. A auditoria global documental posterior, detalhada em `docs/AUDITORIA-GLOBAL-DOCUMENTAL-NT.md`, confrontou banco e registros livro a livro e converteu exclusões genéricas incompatíveis com as regras atuais em pendências acionáveis. “Analisado”, download integral ou faixa agregada não são usados como equivalentes de conferência individual. A auditoria não declara o banco completo e lista as consultas NAA ainda necessárias.
+
+## Checkpoint 067 — primeiro lote da reconsulta de Mateus 5–7
+
+Mateus passa a **24 pautas/421 pistas que citam o livro**, e o banco a **209/4.022**, após consulta e leitura efetiva das páginas NAA Bible.com 1840 de Mt 5, 6 e 7. Quatro pautas foram anexadas e todos os 205 objetos anteriores foram preservados serialmente. O inventário individual completo das unidades está na ficha de Mateus. Mt 5–7 continua **em andamento**, com Mt 5.13-20, 5.27-32, 6.19-34 e porções delimitadas de Mt 7 no próximo lote; testes estruturais não autorizam chamá-lo fechado nem declarar o banco completo.
+
+## Checkpoint 068 — remanescentes de Mateus 5–7
+
+Quatro pautas e 82 pistas cobrem somente as unidades que ainda constavam como não representadas após o checkpoint 067. O banco passa a **213 pautas/4.104 pistas**, e Mateus a **28 pautas/503 pistas que citam o livro**. Os 209 objetos anteriores foram preservados serialmente. O inventário individual vigente de Mt 5–7 fica sem remanescente; a próxima faixa pendente global de Mateus é Mt 10–13. Isso não declara exaustividade futura nem banco completo, e nenhum outro livro foi aberto.
+
+## Checkpoint 069 — Mateus 10–11
+
+As páginas NAA Bible.com 1840 de Mt 10–11 foram efetivamente obtidas e lidas. Três pautas/80 pistas foram anexadas após comparação com os 213 objetos anteriores, que permaneceram serializados identicamente. O inventário passa a **216 pautas/4.184 pistas**; 31 pautas citam Mateus e suas cartas somam 583 pistas. Mt 12–13 permanece como próximo recorte, sem declaração de faixa completa por download ou testes.
+
+## Checkpoint 070 — Mateus 12–13
+
+A consulta efetiva das páginas NAA de Mt 12–13 sustentou quatro pautas e 124 pistas, levando o banco de **216/4.184 para 220/4.308** e Mateus a **35 pautas/707 pistas**. Os 216 objetos anteriores foram preservados serialmente. Mt 12.9-14 e 13.51-58 permanecem específicos; a revisão adicional também reabriu Mt 10.1-15 quanto a fatos exclusivos não cobertos por Marcos. Nenhum teste ou download foi usado para declarar a faixa completa.
+
+## Checkpoint 071 — pendências específicas de Mateus 10–13
+
+A releitura NAA exclusiva de Mt 10.1-15, 12.9-14 e 13.51-58 resolveu as três pendências: duas pautas novas somam 36 pistas, e a pauta paralela da mão ressequida recebeu três pistas exclusivas de Mateus e proveniência nos três fatos comuns. O inventário passa de **220/4.308 para 222/4.347**. Dos objetos anteriores, 219 permanecem idênticos e um tem somente a consolidação documentada; dois objetos foram anexados. Mt 18–20 e os demais recortes continuam posteriores, e o banco não está completo.
+
+## Checkpoint 072 — Mateus 18
+
+A leitura integral da página NAA de Mateus 18 e a comparação por campos e pistas produziram quatro pautas, com 12, 10, 13 e 22 pistas. Mt 18.8-9 já estava coberto pela pauta de Mt 5.29-30 e não foi duplicado. O inventário passa de **222/4.347 para 226/4.404**, com os 222 objetos anteriores serializadamente idênticos. A recontagem corrige o subtotal de Mateus anterior de 750 para 749 pistas, pois P03 da mão ressequida cita somente Marcos; o total atual de Mateus é 806. Mateus 18 fica individualmente decidido; Mt 19–20 e os demais recortes permanecem posteriores, sem declaração de banco completo.
+
+## Checkpoint 073 — Mateus 19–20
+
+A leitura efetiva das duas páginas NAA e a comparação por unidade acrescentaram quatro pautas/109 pistas, levando o banco de **226/4.404 para 230/4.513** e Mateus de **42 pautas/806 pistas para 46/915**. Os 226 objetos anteriores permaneceram serializadamente idênticos. Mt 19.13-15 e 20.29-34 receberam motivos específicos; os fatos exclusivos do segundo recorte permanecem inventariados apesar do paralelo com Bartimeu. Mt 21–25 fica para lote posterior, sem declaração de banco completo.
+
+## Checkpoint 074 — reavaliação de Mt 19.13-15 e 20.29-34
+
+A reconsulta NAA e duas matrizes concretas demonstraram quatro campos independentes e fatos suficientes nas duas unidades antes recusadas. Crianças (9 pistas; capacidade 4) e dois cegos (16; capacidade 7) receberam pautas próprias. O relato dos cegos usa o núcleo integral de Mateus sem presumir identidade com Bartimeu. O banco passa de **230/4.513 para 232/4.538**, e Mateus de **46/915 para 48/940**, preservando serializadamente os 230 objetos anteriores. Mt 21–25 continua posterior; o banco não está completo.
+
+
+## Checkpoint 079 — Mateus 25 e auditoria documental limitada
+
+A consulta efetiva exclusiva de Mt 25 na NAA Bible.com 1840 acrescentou três pautas/60 pistas aos 248 objetos preservados serialmente, levando o banco a **251 pautas/1.004 campos/4.904 pistas** e Mateus a **67 pautas/1.306 pistas que citam o livro**. As unidades 25.1-13, 25.14-30 e 25.31-46 receberam decisão e capacidade 8, 10 e 9.
+
+Sem abrir outras páginas ou autorar fora de Mt 25, a revisão documental de Mt 1–4, 8–9, 14–17 e 26–28 constatou que matrizes atuais cobrem apenas recortes selecionados; a ficha de Mateus enumera as unidades ainda dependentes de reconsulta sob as regras vigentes. Isso impede declarar Mateus completo. Mt 23.14 permanece pendência textual específica, não exclusão definitiva.
+
+
+## Checkpoint 080 — lacunas de Mateus 1–4
+
+A consulta efetiva das páginas NAA Bible.com 1840 de Mt 1–4 ficou restrita a 1.1-17, 2.13-23, 3.1-12 e 4.12-25. Quatro pautas/84 pistas foram anexadas aos 251 objetos preservados serialmente, levando o banco a **255 pautas/1.020 campos/4.988 pistas** e Mateus a **71 pautas/1.390 pistas que citam o livro**. As capacidades são 11, 9, 9 e 10.
+
+Nenhum recorte autorizado ficou sem decisão. A ficha registra a matriz individual e combina-a às decisões anteriores das unidades adjacentes, sem declarar Mateus completo. Mt 8–9, 14–17 e 26–28 permanecem posteriores; Mt 23.14 continua pendência textual específica e dúvidas de 1Co seguem preservadas.
+
+## Checkpoint 081 — lote limitado de Mateus 8–9
+
+A consulta efetiva e leitura verso a verso das páginas NAA Bible.com 1840 de Mt 8–9 acrescentaram quatro pautas/62 pistas aos 255 objetos preservados serialmente. O banco passa a **259 pautas/1.036 campos/5.050 pistas**, e Mateus a **75 pautas/1.452 pistas que citam o livro**. As capacidades novas são 4, 8, 7 e 9, sem piso de 25 pistas ou meta de 12 participantes.
+
+A comparação confirmou pautas anteriores para Mt 8.23-27, 9.1-8 e 9.18-26. **Mt 8–9 permanece em andamento:** Mt 8.5-13, 9.27-31, 9.32-34 e 9.35-38 ficaram individualizados com matrizes na ficha por limite deste lote, não por exclusão ou insuficiência. Mt 14–17 e 26–28 ficam posteriores; Mt 23.14 e as dúvidas de 1Co permanecem preservados. O banco não está completo.
 
 ## Checkpoint 082 — remanescentes de Mateus 8–9
 
-Somente Mt 8.5-13, 9.27-31, 9.32-34 e 9.35-38 foram relidos nas páginas NAA Bible.com 1840 novamente obtidas (HTTP 200; 97.575 e 98.424 bytes). A comparação de perguntas, respostas, campos, pistas, referências e paralelos partiu dos **259 objetos/5.050 pistas** e sustentou quatro pautas com 20, 12, 7 e 10 pistas, para capacidades 9, 5, 3 e 4. Não houve piso de 25/12, inflação, identidade presumida entre ocasiões nem descarte de fatos próprios.
+A reconsulta efetiva das páginas NAA Bible.com 1840 de Mt 8–9 ficou somente nos quatro recortes pendentes. Centurião/servo, dois cegos/casa, mudo/reações e multidões/seara acrescentaram quatro pautas/49 pistas aos 259 objetos preservados serialmente. O banco passa a **263 pautas/1.052 campos/5.099 pistas**, e Mateus a **79 pautas/1.501 pistas que citam o livro**; capacidades novas 9, 5, 3 e 4.
 
-Os 259 objetos anteriores permaneceram serialmente idênticos e na mesma ordem; somente quatro foram anexados. O catálogo passa a **263 pautas/1.052 campos/5.099 pistas**, todas elegíveis. A fila específica vigente de Mt 8–9 fica sem recorte conhecido, sem declaração de exaustividade futura ou banco completo. Mt 14–17, 26–28, Mt 23.14, dúvidas de 1Co e exclusões definitivas permanecem intactos. Não houve merge, deploy, publicação, Firebase ou credenciais.
+Com o inventário do checkpoint 081, não resta recorte conhecido na fila vigente de Mt 8–9, sem declaração de exaustividade futura. Mt 14–17 e 26–28 permanecem posteriores; Mt 23.14 e dúvidas de 1Co seguem preservados. Testes não tornam Mateus nem o banco completos.
 
 ## Checkpoint 083 — inventário de Mateus 14–15
 
@@ -205,9 +288,17 @@ As duas novas pautas acrescentam **35 pistas**, levando o banco a **282 pautas/1
 
 A conferência documental final da ficha encontrou decisão individual vigente para todos os recortes de Mateus nela enumerados que não dependem de decisão textual. As **únicas lacunas reais registradas** são Mt 17.21 e Mt 23.14, ambos exibidos entre colchetes na fonte consultada e mantidos como pendências textuais específicas — não como exclusões definitivas. Isso encerra a fila ordinária conhecida de Mateus nesta sequência, mas não prova exaustividade futura nem declara Mateus ou o banco completos. Dúvidas de 1Co e decisões anteriores permanecem intactas. O próximo trabalho independente será Marcos; planeja-se apenas um lote inicial pequeno de **Mc 1–2**, com consulta e inventário antes de eventual autoria, sem abrir nem autorar Marcos neste checkpoint.
 
-## Checkpoint 091 — Mt 17.21
+## Checkpoint 089 — Mc 1–2
 
-A NAA 1840 foi reconsultada e a decisão explícita sobre Mt 17.21 foi aplicada somente a `nt2-mateus-menino-fe-mostarda`. O gabarito contextual “Falta de oração e jejum” é explicado como inferência de 17.19-21, sem atribuir ao verso a afirmação literal de omissão pelos discípulos; “pequenez da fé” (17.20) permanece perspectiva válida fora dos distratores. Não houve objeto novo: 287 dos 288 objetos ficaram idênticos, e as contagens permanecem 288/5.566. As outras pendências e exclusões foram preservadas.
+Consulta NAA 1840 e inventário integral de Mc 1–2: Mc 1.1-15 e 1.29-45 geraram quatro pautas/80 pistas; Mc 1.16-28 e 2.1-17 foram confirmados em quatro pautas anteriores sem alteração. Mc 2.18-22 e 2.23-28 são sustentados e ficaram pendentes somente pelo limite de quatro novas pautas. Total: **286 pautas, 1.144 campos e 5.539 pistas**; não há fechamento de Mc 1–2, Marcos ou banco.
+
+## Checkpoint 090 — pendências de Mc 2.18-28
+
+A consulta efetiva exclusiva de Mc 2.18-28 na NAA 1840 acrescentou duas pautas/27 pistas, ambas com capacidade 6, aos 286 objetos preservados. O total passa a **288 pautas, 1.152 campos e 5.566 pistas**. Não resta recorte conhecido pendente em Mc 1–2 no inventário vigente; Mc 3–4 está apenas planejado, sem autoria neste checkpoint, e o banco não é declarado completo.
+
+## Checkpoint 091 — decisão de Mt 17.21
+
+Mt 17.21 foi reconsultado na NAA 1840, preservando colchetes e nota textual. A pauta existente do menino/fé passou a usar “Falta de oração e jejum” como inferência contextual claramente explicada para C4; a pequenez da fé de 17.20 continua como perspectiva literal sem virar alternativa marcada errada. Não houve pauta ou pista líquida nova: **288 pautas/1.152 campos/5.566 pistas**. Somente um dos 288 objetos mudou; Mt 23.14 e dúvidas de 1Co permanecem pendentes, e Mc 3–4 fica planejado.
 
 ## Checkpoint 092 — decisões de Mt 23.14 e 1Co 11.2-16
 

@@ -1,0 +1,34 @@
+{
+  "chapterSources": [
+    {
+      "chapter": 14,
+      "url": "https://www.bible.com/pt/bible/1840/MRK.14.NAA",
+      "checkedAt": "2026-09-14",
+      "httpStatus": 200,
+      "bytes": 394754,
+      "sha256": "660b60fc9a516392a853c2e4a80a9e4fb99fd6a34ab2c005d4bcb763c07a45ad"
+    },
+    {
+      "chapter": 15,
+      "url": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+      "checkedAt": "2026-09-14",
+      "httpStatus": 200,
+      "bytes": 350330,
+      "sha256": "90140de1d08c1b402f59da65284c28269d639e37e537c2e3f0e34f999f6d06f6"
+    },
+    {
+      "chapter": 16,
+      "url": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+      "checkedAt": "2026-09-14",
+      "httpStatus": 200,
+      "bytes": 318381,
+      "sha256": "055c1947758bfa5d0627cd4ea0634876339557479c0b3b319401fe61e4e5b3ac"
+    }
+  ],
+  "scope": "Marcos 14.1–16.8, lido de ponta a ponta na NAA; Mc 16.9-20 permaneceu fora.",
+  "baseline": {
+    "cases": 335,
+    "cards": 6294
+  },
+  "comparison": "Campos, alternativas, gabaritos, referências e pistas confrontados com os 335 objetos; paralelos mantidos documentalmente independentes e detalhes não transferidos."
+}

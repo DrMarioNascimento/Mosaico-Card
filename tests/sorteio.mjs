@@ -4,33 +4,44 @@ import { createContext, runInContext } from "node:vm";
 
 const catalogSource = readFileSync(new URL("../cases-nt.js", import.meta.url), "utf8");
 const runtimeSource = readFileSync(new URL("../bank-runtime.js", import.meta.url), "utf8");
-const storage = new Map();
-const context = createContext({
-  window: {},
-  globalThis: {},
-  localStorage: {
-    getItem: key => storage.get(key) ?? null,
-    setItem: (key, value) => storage.set(key, value)
-  },
-  Math,
-  JSON
-});
-context.globalThis = context;
-context.window = context;
-runInContext(catalogSource, context);
-runInContext(runtimeSource, context);
-
+const storage = new Map([["mc:nt:saco:v1", JSON.stringify({ ids: ["nt-001"], ultimo: "nt-052" })]]);
+const context = createContext({ window: {}, globalThis: {}, localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) }, Math, JSON });
+context.globalThis = context; context.window = context;
+runInContext(catalogSource, context); runInContext(runtimeSource, context);
 const bank = context.MC_NT_BANK;
-assert.equal(typeof bank.sortear, "function");
-assert.equal(bank.elegiveis().length, 0);
-assert.match(bank.sortear().erro, /aguardam baralho/);
-
-bank.byId["nt-001"].status.playable = true;
-bank.byId["nt-002"].status.playable = true;
-const primeiro = bank.sortear();
-const segundo = bank.sortear();
-assert.notEqual(primeiro.id, segundo.id, "o saco não repete antes de esgotar");
-const terceiro = bank.sortear();
-assert.notEqual(terceiro.id, segundo.id, "a recomposição evita repetição imediata");
-
-console.log("ok saco de pautas");
+const eligible = bank.elegiveis();
+assert.equal(eligible.length, bank.summary.playableCases);
+assert.ok(eligible.length > 0, "o lote validado deve estar disponível");
+const eligible6 = bank.elegiveis(6);
+const eligible7 = bank.elegiveis(7);
+const limitadasASeis = eligible6.filter(id => bank.byId[id].deck.maxPlayers === 6);
+const curtasJoao = limitadasASeis.filter(id => bank.byId[id].canon.book === "João");
+assert.equal(curtasJoao.length, 8, "as oito pautas curtas de João entram em mesas de até seis");
+assert.equal(limitadasASeis.length, 46, "pautas com 13 ou 14 cartas usam capacidade seis");
+assert.equal(bank.elegiveis(2).filter(id => bank.byId[id].deck.maxPlayers === 2).length, 2, "pautas de cinco ou seis cartas usam capacidade dois");
+assert.equal(bank.elegiveis(5).filter(id => bank.byId[id].deck.maxPlayers === 5).length, 14, "pautas de onze ou doze cartas usam capacidade cinco");
+assert.equal(bank.elegiveis(7).filter(id => bank.byId[id].deck.maxPlayers === 7).length, 29, "pautas de quinze ou dezesseis cartas usam capacidade sete");
+assert.equal(bank.elegiveis(8).filter(id => bank.byId[id].deck.maxPlayers === 8).length, 44, "pautas de dezessete ou dezoito cartas usam capacidade oito");
+assert.equal(bank.elegiveis(9).filter(id => bank.byId[id].deck.maxPlayers === 9).length, 33, "pautas de dezenove ou vinte cartas usam capacidade nove");
+assert.equal(bank.elegiveis(10).filter(id => bank.byId[id].deck.maxPlayers === 10).length, 26, "pautas de 21 ou 22 cartas usam capacidade dez");
+assert.equal(bank.elegiveis(11).filter(id => bank.byId[id].deck.maxPlayers === 11).length, 14, "pautas de 23 ou 24 cartas usam capacidade onze");
+const limitadasAQuatro = bank.elegiveis(4).filter(id => bank.byId[id].deck.maxPlayers === 4);
+assert.equal(limitadasAQuatro.length, 25, "pautas de nove ou dez cartas usam capacidade quatro");
+const limitadasATres = bank.elegiveis(3).filter(id => bank.byId[id].deck.maxPlayers === 3);
+assert.equal(limitadasATres.length, 18, "pautas de sete cartas usam capacidade três");
+assert.ok(limitadasATres.every(id => !bank.elegiveis(4).includes(id)));
+assert.ok(limitadasAQuatro.every(id => !bank.elegiveis(5).includes(id)));
+assert.ok(limitadasASeis.every(id => !eligible7.includes(id)), "pautas limitadas a seis ficam fora a partir de sete");
+assert.ok(bank.elegiveis(12).every(id => bank.byId[id].deck.maxPlayers === 12));
+const cycle = Array.from({ length: eligible.length }, () => bank.sortear().id);
+assert.equal(new Set(cycle).size, eligible.length, "não repete antes de esgotar");
+const next = bank.sortear().id;
+assert.notEqual(next, cycle.at(-1), "não repete ao recompor");
+assert.ok([...storage.keys()].some(key => key.includes(bank.namespace) && key.includes(bank.catalogVersion)));
+const cycle6 = Array.from({ length: eligible6.length }, () => bank.sortear(6).id);
+assert.ok(cycle6.every(id => eligible6.includes(id)));
+const cycle7 = Array.from({ length: eligible7.length }, () => bank.sortear(7).id);
+assert.ok(cycle7.every(id => eligible7.includes(id) && bank.byId[id].deck.maxPlayers >= 7));
+assert.ok([...storage.keys()].some(key => key.endsWith(":j6")) && [...storage.keys()].some(key => key.endsWith(":j7")), "sacos persistidos são separados por capacidade da mesa");
+assert.ok(storage.has("mc:nt:saco:v1"), "estado legado fica intocado e não é reutilizado");
+console.log("ok saco versionado do novo banco");

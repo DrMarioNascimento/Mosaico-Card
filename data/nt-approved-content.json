@@ -1,0 +1,39 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "checkpoint-092-mateus-23-14-1corintios-11",
+  "items": [
+    {
+      "id": "approved-1corintios-11-2-16",
+      "book": "1 Coríntios",
+      "passage": "11.2-16",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/1CO.11.NAA",
+      "checkedAt": "2026-09-13",
+      "decision": "approved-content-pending-structural-integration",
+      "structuralReason": "O contrato vigente exige exatamente quatro campos por pauta; a decisão autoriza exatamente três perguntas e proíbe acrescentar um quarto conteúdo.",
+      "questions": [
+        {
+          "question": "Quais atividades aparecem na orientação sobre a cabeça coberta ou descoberta?",
+          "answer": "Orar e profetizar.",
+          "references": ["11.4-5"]
+        },
+        {
+          "question": "Segundo o argumento de Paulo, homem e mulher são independentes um do outro no Senhor?",
+          "answer": "Não, existe interdependência.",
+          "references": ["11.11"]
+        },
+        {
+          "question": "De quem tudo procede, conforme o versículo 12?",
+          "answer": "De Deus.",
+          "references": ["11.12"]
+        }
+      ],
+      "forbiddenAdditions": [
+        "anjos",
+        "véu",
+        "aplicação atual",
+        "quarto campo ou quarto conteúdo"
+      ]
+    }
+  ]
+}

@@ -1,50 +1,932 @@
 import assert from "node:assert/strict";
 import { createRequire } from "node:module";
+import { validateBank } from "../tools/validate-nt-bank.mjs";
 
 const require = createRequire(import.meta.url);
 const catalog = require("../cases-nt.js");
-const cases = catalog.order.map((id) => catalog.byId[id]);
-const fields = cases.flatMap((entry) => entry.fields);
-
-assert.equal(catalog.schemaVersion, 1);
-assert.equal(catalog.namespace, "nt");
+assert.equal(catalog.schemaVersion, 2);
+assert.equal(catalog.namespace, "mosaico-nt-naa-v2");
 assert.equal(catalog.demoIsolated, true);
-assert.equal(cases.length, 145);
-assert.equal(fields.length, 580);
-assert.deepEqual(
-  catalog.order,
-  Array.from({ length: 145 }, (_, index) => `nt-${String(index + 1).padStart(3, "0")}`),
-);
+assert.equal(catalog.summary.cases, catalog.order.length);
+assert.equal(catalog.summary.fields, catalog.order.length * 4);
+assert.equal(catalog.summary.playableCases, catalog.order.filter(id => catalog.byId[id].status.playable).length);
+assert.equal(catalog.summary.editoriallyEligibleCases, 350);
+assert.equal(catalog.summary.max12Cases, 99);
+const mateus2314 = catalog.byId["nt2-mateus-ais-juramentos"];
+assert.equal(mateus2314.fields.find(field => field.id === "C3").respostaCanonica, "A exploração das viúvas");
+assert.equal(mateus2314.fields.find(field => field.id === "C4").respostaCanonica, "Com longas orações");
+assert.ok(mateus2314.deck.cards.filter(card => card.references.some(ref => ref.passage === "23.14")).length === 2);
+assert.match(mateus2314.reveal.hinge, /manuscritos mais recentes/);
+const approvedContent = require("../data/nt-approved-content.json");
+const corintios11 = approvedContent.items.find(item => item.id === "approved-1corintios-11-2-16");
+assert.equal(corintios11.decision, "approved-content-pending-structural-integration");
+assert.equal(corintios11.questions.length, 3, "1Co 11 mantém somente as três perguntas aprovadas");
+assert.deepEqual(corintios11.questions.map(item => item.answer), ["Orar e profetizar.", "Não, existe interdependência.", "De Deus."]);
+assert.ok(corintios11.forbiddenAdditions.includes("quarto campo ou quarto conteúdo"));
+const exclusions = require("../data/nt-editorial-exclusions.json");
+const corintios1435 = exclusions.items.find(item => item.id === "excluded-1corintios-14-35");
+assert.equal(corintios1435.decision, "excluded-from-game-by-user");
+assert.equal(corintios1435.passage, "14.35");
+assert.ok(catalog.order.filter(id => catalog.byId[id].canon.book === "1 Coríntios").every(id =>
+  [...catalog.byId[id].canon.references, ...catalog.byId[id].fields.flatMap(field => field.answerReferences), ...catalog.byId[id].deck.cards.flatMap(card => card.references)]
+    .every(ref => ref.passage !== "14.35")
+), "1Co 14.35 permanece ausente de pautas, campos e pistas");
+const capacityReport = require("../data/nt-capacity-report.json");
+assert.equal(capacityReport.units.cases, 350);
+assert.equal(capacityReport.units.clueCards, 6525);
+assert.equal(capacityReport.units.semanticallyUniqueFacts, null);
+assert.equal(capacityReport.units.storyOrEpisodeGroups, null);
+assert.equal(capacityReport.units.functionalVariants, 0);
+for (const row of capacityReport.capacity) {
+  assert.equal(row.eligibleCases, catalog.order.filter(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers >= row.players).length);
+  assert.equal(row.drawsWithoutReplacementPerBagCycle, row.eligibleCases);
+}
+const mateus1721 = catalog.byId["nt2-mateus-menino-fe-mostarda"];
+const respostaContextual = mateus1721.fields.find(field => field.id === "C4");
+assert.equal(respostaContextual.rotulo, "Por que os discípulos não conseguiram expulsá-lo?");
+assert.equal(respostaContextual.respostaCanonica, "Falta de oração e jejum");
+assert.ok(!respostaContextual.opcoes.some(opcao => opcao.texto === "A pequenez da fé deles"), "a perspectiva literal compatível não vira distrator falso");
+assert.ok(respostaContextual.answerReferences.some(ref => ref.passage === "17.19-21"));
+assert.match(mateus1721.reveal.hinge, /inferência aceita/);
+assert.match(mateus1721.reveal.hinge, /não afirma literalmente/);
+assert.ok(mateus1721.deck.cards.some(card => card.text.includes("entre colchetes") && card.references.some(ref => ref.passage === "17.21")));
+const marcos910Checkpoint099 = {
+  "nt2-marcos-monte-vestes-voz-elias": 11,
+  "nt2-marcos-menino-espirito-oracao": 10,
+  "nt2-marcos-homem-rico-reino-recompensa": 12,
+  "nt2-marcos-jerusalem-calice-servir-resgate": 12
+};
+for (const [id, maxPlayers] of Object.entries(marcos910Checkpoint099)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && /MRK\.(9|10)\.NAA$/.test(ref.sourceId))), `${id} mantém proveniência exclusiva de Mc 9–10`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "7.16")), `${id} não usa Mc 7.16`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos9Checkpoint100 = {
+  "nt2-marcos-reino-chegado-poder": 3,
+  "nt2-marcos-galileia-anuncio-incompreensao": 4,
+  "nt2-marcos-maior-crianca-recepcao": 5,
+  "nt2-marcos-homem-nao-seguia-copo-agua": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos9Checkpoint100)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.9.NAA"))), `${id} mantém a proveniência exclusiva de Mc 9`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["9.42-50", "10.1-12", "10.13-16", "7.16"].includes(ref.passage))), `${id} não invade recortes posteriores nem Mc 7.16`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos910Checkpoint101 = {
+  "nt2-marcos-pequeninos-tropeco-sal-paz": 8,
+  "nt2-marcos-judeia-divorcio-casa": 8,
+  "nt2-marcos-criancas-indignacao-bencao": 4
+};
+for (const [id, maxPlayers] of Object.entries(marcos910Checkpoint101)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && /MRK\.(9|10)\.NAA$/.test(ref.sourceId))), `${id} mantém proveniência exclusiva de Mc 9–10`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["7.16", "9.44", "9.46"].includes(ref.passage))), `${id} não usa as pendências textuais isoladas`);
+  assert.ok(entry.fields.flatMap(field => field.answerReferences).every(ref => !["7.16", "9.44", "9.46"].includes(ref.passage)), `${id} não usa pendências textuais como gabarito`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+assert.equal(catalog.byId["nt2-marcos-pequeninos-tropeco-sal-paz"].canon.referenceNAA, "Marcos 9.42-43,45,47-50");
+const marcos1112Checkpoint102 = {
+  "nt2-marcos-jumentinho-entrada-templo": 7,
+  "nt2-marcos-figueira-fe-oracao-perdao": 7,
+  "nt2-marcos-templo-objeto-doutrina": 7,
+  "nt2-marcos-autoridade-batismo-joao": 7
+};
+for (const [id, maxPlayers] of Object.entries(marcos1112Checkpoint102)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.11.NAA"))), `${id} mantém proveniência exclusiva de Mc 11`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "11.26")), `${id} não usa Mc 11.26`);
+  assert.ok(entry.fields.flatMap(field => field.answerReferences).every(ref => ref.passage !== "11.26"), `${id} não usa Mc 11.26 como gabarito`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos12Checkpoint103 = {
+  "nt2-marcos-vinha-servos-filho-pedra": 9,
+  "nt2-marcos-fariseus-herodianos-denario": 7,
+  "nt2-marcos-saduceus-sete-sarca": 9,
+  "nt2-marcos-escriba-mandamentos-reino": 8
+};
+for (const [id, maxPlayers] of Object.entries(marcos12Checkpoint103)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.12.NAA"))), `${id} mantém proveniência exclusiva de Mc 12`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !["12.35-37", "12.38-40", "12.41-44"].includes(ref.passage))), `${id} não invade recortes posteriores`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos12Checkpoint104 = {
+  "nt2-marcos-cristo-davi-senhor": 4,
+  "nt2-marcos-escribas-viuvas-oracoes-juizo": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos12Checkpoint104)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.12.NAA"))), `${id} mantém proveniência exclusiva de Mc 12`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "12.41-44")), `${id} não duplica a pauta já coberta da viúva`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos13Checkpoint105 = {
+  "nt2-marcos-templo-pedras-perguntas": 4,
+  "nt2-marcos-enganos-testemunho-firmeza": 8,
+  "nt2-marcos-desolacao-fuga-eleitos-alerta": 8,
+  "nt2-marcos-astros-filho-homem-escolhidos": 4
+};
+for (const [id, maxPlayers] of Object.entries(marcos13Checkpoint105)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.13.NAA"))), `${id} mantém proveniência exclusiva de Mc 13`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !ref.passage.startsWith("14."))), `${id} não invade Mc 14`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos13Checkpoint106 = {
+  "nt2-marcos-figueira-geracao-palavras": 6,
+  "nt2-marcos-pai-servos-porteiro-vigilia": 7
+};
+for (const [id, maxPlayers] of Object.entries(marcos13Checkpoint106)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.13.NAA"))), `${id} mantém proveniência exclusiva de Mc 13`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => !ref.passage.startsWith("14."))), `${id} não invade Mc 14`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos1416Checkpoint107 = {
+  "nt2-marcos-plano-betania-perfume-memoria": 7,
+  "nt2-marcos-judas-sacerdotes-dinheiro-ocasiao": 2,
+  "nt2-marcos-pascoa-homem-cantaro-cenaculo": 6,
+  "nt2-marcos-mesa-doze-traidor-prato": 5,
+  "nt2-marcos-pao-calice-videira-hino": 6,
+  "nt2-marcos-pastor-galileia-pedro-galo": 5,
+  "nt2-marcos-getsemani-aba-vigiar-entrega": 9,
+  "nt2-marcos-judas-beijo-espadas-jovem": 8,
+  "nt2-marcos-sinedrio-testemunhos-silencio-confissao": 8,
+  "nt2-marcos-patio-empregada-negacoes-choro": 7,
+  "nt2-marcos-pilatos-barrabas-multidao-crucificacao": 9,
+  "nt2-marcos-pretorio-purpura-espinhos-zombaria": 5,
+  "nt2-marcos-cireneu-golgota-inscricao-zombaria": 9,
+  "nt2-marcos-trevas-grito-veu-centuriao-mulheres": 9,
+  "nt2-marcos-mulheres-pedra-jovem-galileia": 9
+};
+for (const [id, maxPlayers] of Object.entries(marcos1416Checkpoint107)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  const allReferences = [...entry.canon.references, ...entry.fields.flatMap(field => field.answerReferences), ...entry.deck.cards.flatMap(card => card.references)];
+  assert.ok(allReferences.every(ref => ref.book === "Marcos" && /MRK\.(14|15|16)\.NAA$/.test(ref.sourceId)), `${id} mantém proveniência exclusiva de Mc 14–16`);
+  assert.ok(allReferences.every(ref => !ref.passage.includes("16.9") && ref.passage !== "15.28"), `${id} não usa Mc 16.9-20 nem Mc 15.28`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos8Checkpoint098 = {
+  "nt2-marcos-quatro-mil-dalmanuta": 7,
+  "nt2-marcos-cesareia-opinioes-cristo": 4,
+  "nt2-marcos-sofrimento-pedro-repreensao": 6,
+  "nt2-marcos-negar-cruz-evangelho-gloria": 7
+};
+for (const [id, maxPlayers] of Object.entries(marcos8Checkpoint098)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.8.NAA"))), `${id} mantém a proveniência exclusiva de Mc 8`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "7.16")), `${id} não usa Mc 7.16`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos78Checkpoint097 = {
+  "nt2-marcos-tradicao-corba-pais": 9,
+  "nt2-marcos-dentro-coracao-contaminacao": 8,
+  "nt2-marcos-sinal-gemido-partida": 3,
+  "nt2-marcos-fermento-paes-cestos": 8
+};
+for (const [id, maxPlayers] of Object.entries(marcos78Checkpoint097)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && /MRK\.[78]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mc 7–8`);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.passage !== "7.16")), `${id} não usa Mc 7.16`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos56Checkpoint096 = {
+  "nt2-marcos-terra-incredulidade-ensino": 6,
+  "nt2-marcos-repouso-multidao-paes": 9,
+  "nt2-marcos-mar-vento-paes-coracao": 8,
+  "nt2-marcos-genesare-leitos-pracas": 4
+};
+for (const [id, maxPlayers] of Object.entries(marcos56Checkpoint096)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.6.NAA"))), `${id} mantém a proveniência exclusiva de Mc 6`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos4Checkpoint095 = {
+  "nt2-marcos-semeador-explicacao": 12,
+  "nt2-marcos-lamparina-medida": 5,
+  "nt2-marcos-semente-crescimento-colheita": 6,
+  "nt2-marcos-mostarda-parabolas-particular": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos4Checkpoint095)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.4.NAA"))), `${id} mantém a proveniência exclusiva de Mc 4`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos34Checkpoint094 = {
+  "nt2-marcos-multidao-barquinho-espiritos": 6,
+  "nt2-marcos-doze-monte-nomes": 8,
+  "nt2-marcos-casa-belsebu-divisao": 8,
+  "nt2-marcos-mae-irmaos-vontade-deus": 5
+};
+for (const [id, maxPlayers] of Object.entries(marcos34Checkpoint094)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.3.NAA"))), `${id} mantém a proveniência exclusiva de Mc 3`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos2Checkpoint090 = {
+  "nt2-marcos-jejum-remendo-odres": 6,
+  "nt2-marcos-espigas-sabado-davi": 6
+};
+for (const [id, maxPlayers] of Object.entries(marcos2Checkpoint090)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.2.NAA"))), `${id} mantém a proveniência exclusiva de Mc 2`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const marcos1Checkpoint089 = {
+  "nt2-marcos-joao-deserto-batismo": 8,
+  "nt2-marcos-batismo-deserto-anuncio-galileia": 8,
+  "nt2-marcos-casa-madrugada-pregacao": 11,
+  "nt2-marcos-leproso-divulgacao": 9
+};
+for (const [id, maxPlayers] of Object.entries(marcos1Checkpoint089)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Marcos" && ref.sourceId.endsWith("MRK.1.NAA"))), `${id} mantém a proveniência exclusiva de Mc 1`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const mateus28Checkpoint088 = {
+  "nt2-mateus-guarda-dinheiro-versao": 8,
+  "nt2-mateus-onze-monte-comissao": 8
+};
+for (const [id, maxPlayers] of Object.entries(mateus28Checkpoint088)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.28.NAA"))), `${id} mantém a proveniência exclusiva de Mt 28`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 
-cases.forEach((entry) => {
-  assert.equal(entry.kind, "canonical-case");
-  assert.deepEqual(entry.fields.map((field) => field.id), ["C1", "C2", "C3", "C4"]);
-  assert.equal(entry.focalFieldId, null);
-  assert.equal(entry.deck.status, "missing");
-  assert.deepEqual(entry.deck.cards, []);
-  assert.equal(entry.status.playable, false);
-  assert.ok(entry.pendingIssues.includes("missing-deck"));
-  assert.ok(entry.pendingIssues.includes("missing-focal-field"));
-});
+const mateus27Checkpoint087 = {
+  "nt2-mateus-judas-remorso-campo-sangue": 10,
+  "nt2-mateus-soldados-manto-coroa": 7,
+  "nt2-mateus-guarda-tumulo": 7
+};
+for (const [id, maxPlayers] of Object.entries(mateus27Checkpoint087)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.length >= 5);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.27.NAA"))), `${id} mantém a proveniência exclusiva de Mt 27`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const mateus23Checkpoint077 = {
+  "nt2-mateus-escribas-obras-titulos": 8,
+  "nt2-mateus-ais-juramentos": 8,
+  "nt2-mateus-ais-dizimo-aparencias": 8,
+  "nt2-mateus-profetas-lamento-jerusalem": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus23Checkpoint077)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.23.NAA"))), `${id} mantém a proveniência exclusiva de Mt 23`);
+}
+
+const mateus24Checkpoint078 = {
+  "nt2-mateus-templo-sinais-testemunho": 10,
+  "nt2-mateus-fuga-falsos-cristos": 10,
+  "nt2-mateus-vinda-anjos-figueira": 7,
+  "nt2-mateus-vigilancia-servos": 10
+};
+for (const [id, maxPlayers] of Object.entries(mateus24Checkpoint078)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.24.NAA"))), `${id} mantém a proveniência exclusiva de Mt 24`);
+}
+
+const mateus25Checkpoint079 = {
+  "nt2-mateus-virgens-lamparinas": 8,
+  "nt2-mateus-servos-talentos": 10,
+  "nt2-mateus-rei-ovelhas-cabritos": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus25Checkpoint079)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && ref.sourceId.endsWith("MAT.25.NAA"))), `${id} mantém a proveniência exclusiva de Mt 25`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const mateus1a4Checkpoint080 = {
+  "nt2-mateus-genealogia-jesus": 11,
+  "nt2-mateus-egito-belem-nazare": 9,
+  "nt2-mateus-joao-deserto-batismo": 9,
+  "nt2-mateus-galileia-pescadores-curas": 10
+};
+for (const [id, maxPlayers] of Object.entries(mateus1a4Checkpoint080)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.[1-4]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 1–4`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+
+const mateus8a9Checkpoint081 = {
+  "nt2-mateus-leproso-purificacao": 4,
+  "nt2-mateus-sogra-seguidores": 8,
+  "nt2-mateus-gadarenos-porcos": 7,
+  "nt2-mateus-chamado-mesa-jejum": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus8a9Checkpoint081)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.[89]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 8–9`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+
+const mateus8a9Checkpoint082 = {
+  "nt2-mateus-centuriao-servo": 9,
+  "nt2-mateus-dois-cegos-casa": 5,
+  "nt2-mateus-mudo-reacoes": 3,
+  "nt2-mateus-multidoes-seara": 4
+};
+for (const [id, maxPlayers] of Object.entries(mateus8a9Checkpoint082)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.[89]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 8–9`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+
+const mateus14a15Checkpoint083 = {
+  "nt2-mateus-genesare-curas": 4,
+  "nt2-mateus-tradicao-coracao": 12,
+  "nt2-mateus-monte-multidoes-curas": 8,
+  "nt2-mateus-quatro-mil": 12
+};
+for (const [id, maxPlayers] of Object.entries(mateus14a15Checkpoint083)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.1[45]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 14–15`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+
+const mateus16a17Checkpoint084 = {
+  "nt2-mateus-sinal-fermento": 10,
+  "nt2-mateus-confissao-pedro-chaves": 10,
+  "nt2-mateus-morte-seguimento-vinda": 12,
+  "nt2-mateus-menino-fe-mostarda": 9
+};
+for (const [id, maxPlayers] of Object.entries(mateus16a17Checkpoint084)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.length >= 5);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.1[67]\.NAA$/.test(ref.sourceId))), `${id} mantém a proveniência exclusiva de Mateus 16–17`);
+  if (id !== "nt2-mateus-menino-fe-mostarda") assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const mateus17Checkpoint085 = {
+  "nt2-mateus-entrega-morte-ressurreicao-tristeza": 3,
+  "nt2-mateus-duas-dracmas-peixe-moeda": 8
+};
+for (const [id, maxPlayers] of Object.entries(mateus17Checkpoint085)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.equal(catalog.byId[id].fields.length, 4);
+  assert.ok(catalog.byId[id].fields.every(field => field.opcoes.length === 4));
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.17\.NAA$/.test(ref.sourceId))));
+  if (id !== "nt2-mateus-menino-fe-mostarda") assert.ok(catalog.byId[id].deck.cards.every(card => !/17\.21/.test(card.references.map(ref => ref.passage).join(";"))), `${id} não incorpora Mt 17.21`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const mateus26Checkpoint086 = {
+  "nt2-mateus-plano-uncao-betania": 12,
+  "nt2-mateus-judas-trinta-moedas-ocasiao": 2,
+  "nt2-mateus-pedro-aviso-negacao": 5,
+  "nt2-mateus-sinedrio-negacoes-pedro": 12
+};
+for (const [id, maxPlayers] of Object.entries(mateus26Checkpoint086)) {
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.equal(catalog.byId[id].fields.length, 4);
+  assert.ok(catalog.byId[id].fields.every(field => field.opcoes.length === 4));
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /MAT\.26\.NAA$/.test(ref.sourceId))), `${id} mantém proveniência exclusiva de Mt 26`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 
 assert.equal(catalog.byId.ovelha, undefined);
 assert.equal(catalog.byId["demo-ovelha"], undefined);
-assert.equal(cases.some((entry) => entry.kind === "demo"), false);
+assert.equal(catalog.byId["nt2-mateus-multidao"], undefined, "episódio paralelo consolidado não permanece duplicado");
+assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].status.playable, true, "pauta temática de Hebreus 11 foi liberada");
+assert.equal(catalog.byId["nt2-hebreus-testemunhos-fe"].deck.maxPlayers, 12);
+assert.ok(catalog.byId["nt2-hebreus-testemunhos-fe"].deck.cards.every(card => card.references.every(reference => reference.book === "Hebreus")), "Hebreus 11 não importa fatos do AT");
+assert.equal(catalog.byId["nt2-2joao-verdade-hospitalidade"].deck.maxPlayers, 4);
+const tematicasNovas = [
+  "nt2-romanos-saudacoes", "nt2-1corintios-dons-corpo", "nt2-1corintios-testemunhas-ressurreicao",
+  "nt2-galatas-carne-espirito", "nt2-efesios-armadura", "nt2-1timoteo-liderancas",
+  "nt2-1tessalonicenses-exortacoes", "nt2-tiago-lingua-sabedoria", "nt2-apocalipse-selos",
+  "nt2-apocalipse-duas-bestas", "nt2-apocalipse-tacas", "nt2-apocalipse-mil-anos-juizo"
+];
+assert.ok(tematicasNovas.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
+const auditadasTreze = ["nt2-lucas-jesus-doze-anos", "nt2-atos-escolha-matias", "nt2-atos-coxo-porta-formosa", "nt2-atos-sete-distribuicao", "nt2-atos-eutico", "nt2-3joao-gaio-diotrefes-demetrio"];
+assert.ok(auditadasTreze.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 6));
+const auditadasNove = ["nt2-mateus-jose-sonho", "nt2-mateus-batismo", "nt2-mateus-tentacoes", "nt2-marcos-chamado-pescadores", "nt2-marcos-sinagoga-cafarnaum"];
+assert.ok(auditadasNove.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 4));
+const auditoriaEvangelhosFinal = ["nt2-mateus-entrada-jerusalem", "nt2-mateus-mulheres-ressurreicao", "nt2-marcos-bartimeu", "nt2-lucas-mesa-servico-pedro", "nt2-lucas-aparicao-ascensao"];
+assert.ok(auditoriaEvangelhosFinal.every(id => catalog.byId[id].status.playable));
+assert.equal(catalog.byId["nt2-marcos-bartimeu"].deck.maxPlayers, 3);
+assert.equal(catalog.byId["nt2-lucas-aparicao-ascensao"].deck.maxPlayers, 8);
+const auditoriaAtos037 = ["nt2-atos-oracao-ousadia", "nt2-atos-apostolos-sinedrio", "nt2-atos-morte-estevao", "nt2-atos-eneias-tabita", "nt2-atos-herodes-tiro-sidom"];
+assert.ok(auditoriaAtos037.every(id => catalog.byId[id].status.playable));
+const auditoriaAtos039 = ["nt2-atos-chipre-elimas", "nt2-atos-listra-paulo-barnabe", "nt2-atos-visao-lidia", "nt2-atos-paulo-corinto", "nt2-atos-efeso-ceva"];
+assert.ok(auditoriaAtos039.every(id => catalog.byId[id].status.playable));
+assert.equal(catalog.byId["nt2-atos-agabo-jerusalem"].deck.maxPlayers, 4);
+assert.equal(catalog.byId["nt2-atos-conspiracao-transferencia"].deck.maxPlayers, 11);
+const auditoriaRomanos041 = {
+  "nt2-romanos-abertura-visita": 7,
+  "nt2-romanos-pecado-graca-servico": 8,
+  "nt2-romanos-lei-pecado-conflito": 8,
+  "nt2-romanos-espirito-adocao-esperanca": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaRomanos041)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Romanos")), `${id} não importa fatos de outro documento`);
+}
+const auditoriaRomanos042 = {
+  "nt2-romanos-corpo-dons-conduta": 10,
+  "nt2-romanos-autoridades-amor-vigilancia": 8,
+  "nt2-romanos-acolhimento-consciencia-paz": 11,
+  "nt2-romanos-fortes-acolhimento-esperanca": 6
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaRomanos042)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Romanos")), `${id} não importa fatos de outro documento`);
+}
+const auditoria1Corintios043 = {
+  "nt2-1corintios-remetentes-divisoes-batismos": 7,
+  "nt2-1corintios-conhecimento-liberdade-consciencia": 6,
+  "nt2-1corintios-direitos-adaptacao-corrida": 10,
+  "nt2-1corintios-exemplos-mesa-gloria": 11
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Corintios043)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Coríntios")), `${id} não completa alusões nem importa fatos de outro documento`);
+}
+const auditoria1Corintios044 = {
+  "nt2-1corintios-ceia-reuniao-exame": 8,
+  "nt2-1corintios-amor-permanencia": 8,
+  "nt2-1corintios-profecia-linguas-edificacao-ordem": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Corintios044)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Coríntios")), `${id} mantém fonte exclusiva em 1 Coríntios`);
+}
+assert.ok(catalog.byId["nt2-1corintios-ceia-reuniao-exame"].deck.cards.every(card => !card.references.some(ref => /11\.(?:[2-9]|1[0-6])(?:\D|$)/.test(ref.passage))), "costumes de 1Co 11.2-16 ficam fora da pauta da ceia");
+assert.ok(catalog.byId["nt2-1corintios-profecia-linguas-edificacao-ordem"].deck.cards.every(card => !card.references.some(ref => /14\.(?:34|35|36)(?:\D|$)/.test(ref.passage))), "1Co 14.34-36 fica isolado de gabaritos e pistas");
+const auditoria2Corintios045 = {
+  "nt2-2corintios-tito-tristeza-consolo": 7,
+  "nt2-2corintios-autoridade-limites-recomendacao": 8,
+  "nt2-2corintios-visita-exame-edificacao": 8
+};
+for (const [id, maxPlayers] of Object.entries(auditoria2Corintios045)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "2 Coríntios")), `${id} mantém fonte exclusiva em 2 Coríntios`);
+}
 
-assert.equal(catalog.summary.cases, 145);
-assert.equal(catalog.summary.fields, 580);
-assert.equal(catalog.summary.casesWithCompleteOptions, 143);
-assert.equal(catalog.summary.casesWithValidOptions, 142);
-assert.equal(catalog.summary.fieldsWithCompleteOptions, 572);
-assert.equal(catalog.summary.safeAnswerKeys, 87);
-assert.equal(catalog.summary.playableCases, 0);
+const auditoriaGlEf046 = {
+  "nt2-galatas-restauracao-semeadura-gloria": ["Gálatas", 8],
+  "nt2-efesios-bencaos-selo-oracao": ["Efésios", 9],
+  "nt2-efesios-graca-paz-edificio": ["Efésios", 10],
+  "nt2-efesios-misterio-ministerio-oracao": ["Efésios", 10]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaGlEf046)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém fonte exclusiva no próprio documento`);
+}
+const auditoriaEfCl047 = {
+  "nt2-efesios-unidade-maturidade-nova-natureza": ["Efésios", 9],
+  "nt2-efesios-luz-sabedoria-relacoes": ["Efésios", 9],
+  "nt2-colossenses-alto-nova-natureza-conduta": ["Colossenses", 9],
+  "nt2-colossenses-oracao-mensageiros-saudacoes": ["Colossenses", 9]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaEfCl047)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém proveniência exclusiva no próprio documento`);
+}
+assert.ok(catalog.byId["nt2-colossenses-oracao-mensageiros-saudacoes"].deck.cards.every(card => !card.references.some(ref => ref.book !== "Colossenses")), "Tíquico, Onésimo e as cartas não são harmonizados com outro documento");
+const auditoriaTessalonicenses048 = {
+  "nt2-1tessalonicenses-fe-amor-esperanca-conversao": ["1 Tessalonicenses", 6],
+  "nt2-1tessalonicenses-santificacao-amor-trabalho": ["1 Tessalonicenses", 6],
+  "nt2-1tessalonicenses-esperanca-encontro-consolo": ["1 Tessalonicenses", 4],
+  "nt2-2tessalonicenses-escolha-firmeza-consolo": ["2 Tessalonicenses", 3],
+  "nt2-2tessalonicenses-trabalho-disciplina-saudacao": ["2 Tessalonicenses", 7]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaTessalonicenses048)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém fonte exclusiva na própria carta`);
+}
+assert.ok(catalog.byId["nt2-1tessalonicenses-santificacao-amor-trabalho"].deck.cards.every(card => card.references.every(ref => /^(?:4\.(?:[1-9]|1[0-2]))(?:\D|$)/.test(ref.passage))), "1Ts 4.1-12 permanece no primeiro bloco delimitado");
+assert.ok(catalog.byId["nt2-1tessalonicenses-esperanca-encontro-consolo"].deck.cards.every(card => card.references.every(ref => /^4\.1[3-8](?:\D|$)/.test(ref.passage))), "1Ts 4.13-18 permanece no segundo bloco delimitado");
+const auditoria1Timoteo049 = {
+  "nt2-1timoteo-ensino-graca-combate": 8,
+  "nt2-1timoteo-criacao-piedade-ministerio": 7,
+  "nt2-1timoteo-familias-viuvas": 7,
+  "nt2-1timoteo-presbiteros-conselhos": 4,
+  "nt2-1timoteo-contentamento-combate-ricos": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Timoteo049)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Timóteo")), `${id} mantém fonte exclusiva em 1 Timóteo`);
+}
+const auditoriaPastorais050 = {
+  "nt2-2timoteo-ultimos-dias-escrituras": ["2 Timóteo", 8],
+  "nt2-2timoteo-pregar-combater-coroa": ["2 Timóteo", 7],
+  "nt2-tito-presbiteros-ensino-repreensao": ["Tito", 8],
+  "nt2-tito-conduta-graca-instrucoes": ["Tito", 9]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaPastorais050)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} não importa reconstruções de outros documentos`);
+}
+const auditoriaHebreusTiago051 = {
+  "nt2-hebreus-hospitalidade-fidelidade-oracao": ["Hebreus", 11],
+  "nt2-tiago-provacoes-sabedoria-pratica": ["Tiago", 12],
+  "nt2-tiago-parcialidade-fe-obras": ["Tiago", 11],
+  "nt2-tiago-ricos-paciencia-palavra": ["Tiago", 11]
+};
+for (const [id, [book, maxPlayers]] of Object.entries(auditoriaHebreusTiago051)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} não completa alusões com outro documento`);
+}
+const auditoria1Pedro052 = [
+  "nt2-1pedro-esperanca-santidade-amor",
+  "nt2-1pedro-palavra-pedras-conduta",
+  "nt2-1pedro-relacoes-unidade-sofrimento"
+];
+assert.ok(auditoria1Pedro052.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 12));
+assert.ok(auditoria1Pedro052.every(id => catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Pedro"))), "pautas de 1Pe não importam fatos externos");
+assert.ok(catalog.byId["nt2-1pedro-relacoes-unidade-sofrimento"].deck.cards.every(card => card.references.every(ref => /^(?:3\.(?:[1-9]|1[0-7]))(?:\D|$)/.test(ref.passage))), "1Pe 3 permanece limitado a 3.1-17");
+const auditoria1Pedro053 = {
+  "nt2-1pedro-vontade-conduta-julgamento": 7,
+  "nt2-1pedro-amor-hospitalidade-dons": 7,
+  "nt2-1pedro-prova-sofrimento-fiel-criador": 9
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Pedro053)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 Pedro")), `${id} mantém fonte exclusiva em 1 Pedro`);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.passage !== "4.6")), `${id} exclui integralmente 1Pe 4.6`);
+}
 
-assert.equal(catalog.byId["nt-020"].status.options, "blocked");
-assert.equal(catalog.byId["nt-031"].status.options, "blocked");
-assert.ok(catalog.byId["nt-035"].pendingIssues.includes("duplicate-options:C1"));
+const auditoriaPedro054 = {
+  "nt2-1pedro-pastoreio-humildade-firmeza-saudacoes": "1 Pedro",
+  "nt2-2pedro-fe-virtudes-memoria": "2 Pedro"
+};
+for (const [id, book] of Object.entries(auditoriaPedro054)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, 12);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === book)), `${id} mantém fonte exclusiva no próprio documento`);
+}
+const pauta1Pe5 = catalog.byId["nt2-1pedro-pastoreio-humildade-firmeza-saudacoes"];
+assert.match(pauta1Pe5.reveal.hinge, /Igreja ou comunidade cristã/);
+assert.match(pauta1Pe5.reveal.hinge, /não localiza Babilônia/);
+assert.match(pauta1Pe5.reveal.hinge, /equivalente lexical/);
+assert.ok(catalog.byId["nt2-2pedro-fe-virtudes-memoria"].deck.cards.every(card => card.references.every(ref => /^(?:1\.(?:[1-9]|1[0-5]))(?:\D|$)/.test(ref.passage))), "2Pe permanece limitado a 1.1-15");
+const auditoria1Joao055 = {
+  "nt2-1joao-testemunho-luz-confissao": 10,
+  "nt2-1joao-advogado-mandamentos-amor-mundo": 12,
+  "nt2-1joao-anticristos-uncao-permanencia": 12,
+  "nt2-1joao-filhos-amor-confianca": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Joao055)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 João")), `${id} mantém fonte exclusiva em 1 João`);
+}
+assert.match(catalog.byId["nt2-1joao-anticristos-uncao-permanencia"].reveal.hinge, /sem atribuir o termo anticristo a identidades externas/);
+const auditoria1Joao056 = {
+  "nt2-1joao-provar-espiritos-verdade-erro": 9,
+  "nt2-1joao-amor-permanencia-confianca": 12,
+  "nt2-1joao-fe-testemunho-vida": 10,
+  "nt2-1joao-confianca-oracao-pecado-conhecimento": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoria1Joao056)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "1 João")), `${id} mantém fonte exclusiva em 1 João`);
+}
+assert.match(catalog.byId["nt2-1joao-provar-espiritos-verdade-erro"].reveal.hinge, /nenhuma identidade pessoal, institucional ou histórica externa/);
+assert.match(catalog.byId["nt2-1joao-confianca-oracao-pecado-conhecimento"].reveal.hinge, /não identifica qual pecado leva à morte/);
+const auditoriaJudas057 = {
+  "nt2-judas-chamado-fe-exemplos": 8,
+  "nt2-judas-falsos-mestres-contrastes": 9,
+  "nt2-judas-memoria-perseveranca-doxologia": 9
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaJudas057)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Judas")), `${id} mantém fonte exclusiva em Judas`);
+}
+assert.match(catalog.byId["nt2-judas-falsos-mestres-contrastes"].reveal.hinge, /não reconstrói episódios/);
+const auditoriaApocalipse058 = {
+  "nt2-apocalipse-efeso-obras-primeiro-amor": 8,
+  "nt2-apocalipse-esmirna-tribulacao-fidelidade": 6,
+  "nt2-apocalipse-pergamo-nome-doutrinas-promessa": 8,
+  "nt2-apocalipse-tiatira-obras-jezabel-conservar": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaApocalipse058)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^2\./.test(ref.passage))), `${id} permanece limitado a Apocalipse 2`);
+}
+assert.match(catalog.byId["nt2-apocalipse-efeso-obras-primeiro-amor"].reveal.hinge, /nenhuma identidade histórica, atual ou alegórica/);
+assert.match(catalog.byId["nt2-apocalipse-tiatira-obras-jezabel-conservar"].reveal.hinge, /sem identificação histórica, igreja atual, calendário ou alegoria externa/);
+const auditoriaApocalipse059 = {
+  "nt2-apocalipse-sardes-vigiar-vestes-livro": 8,
+  "nt2-apocalipse-filadelfia-porta-coroa-coluna": 9,
+  "nt2-apocalipse-laodiceia-mornida-conselho-trono": 9
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaApocalipse059)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^3\./.test(ref.passage))), `${id} permanece limitado a Apocalipse 3`);
+}
+assert.ok(Object.keys(auditoriaApocalipse059).every(id => /sem (?:equivalência histórica|identidade histórica|alegoria)/.test(catalog.byId[id].reveal.hinge)), "cartas de Ap 3 registram o limite contra identidades ou alegorias externas");
+const auditoriaApocalipse060 = {
+  "nt2-apocalipse-selados-tribos": 7,
+  "nt2-apocalipse-grande-multidao-trono": 9
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaApocalipse060)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^7\./.test(ref.passage))), `${id} permanece limitado a Apocalipse 7`);
+  assert.match(catalog.byId[id].reveal.hinge, /não (?:decide|é igualada)/, `${id} não impõe literalidade nem identidade externa`);
+}
+const auditoriaApocalipse061 = {
+  "nt2-apocalipse-setimo-selo-quatro-trombetas": [12, /^(?:8\.)/],
+  "nt2-apocalipse-quinta-trombeta-gafanhotos": [11, /^(?:9\.(?:[1-9]|1[0-2]))(?:\D|$)/],
+  "nt2-apocalipse-sexta-trombeta-eufrates": [10, /^(?:9\.(?:1[3-9]|2[01]))(?:\D|$)/],
+  "nt2-apocalipse-anjo-livrinho": [12, /^(?:10\.)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse061)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 8–10`);
+  assert.match(catalog.byId[id].reveal.hinge, /(?:identidade histórica|calendário|cronologia|conteúdo selado)/, `${id} explicita o limite contra complementos externos`);
+}
+const auditoriaApocalipse062 = {
+  "nt2-apocalipse-medicao-duas-testemunhas": [12, /^(?:11\.(?:[1-9]|1[0-4]))(?:\D|$)/],
+  "nt2-apocalipse-setima-trombeta-reino-santuario": [8, /^(?:11\.(?:1[5-9]))(?:\D|$)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse062)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 11`);
+}
+assert.match(catalog.byId["nt2-apocalipse-medicao-duas-testemunhas"].reveal.hinge, /não lhes atribui nomes.*identidades externas/, "as duas testemunhas permanecem sem identificação externa");
+const auditoriaApocalipse063 = {
+  "nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil": [9, /^(?:14\.[1-5])(?:\D|$)/],
+  "nt2-apocalipse-tres-anjos-perseveranca": [12, /^(?:14\.(?:[6-9]|1[0-3]))(?:\D|$)/],
+  "nt2-apocalipse-colheita-lagar": [11, /^(?:14\.(?:1[4-9]|20))(?:\D|$)/],
+  "nt2-apocalipse-mar-cantico-anjos-tacas": [12, /^(?:15\.[1-8])(?:\D|$)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse063)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao recorte de Apocalipse 14–15`);
+}
+assert.match(catalog.byId["nt2-apocalipse-cordeiro-cento-quarenta-quatro-mil"].reveal.hinge, /não se escolhe a literalidade.*nem se equipara.*Apocalipse 7/, "os cento e quarenta e quatro mil não recebem literalidade nem harmonização com Ap 7");
+assert.equal(catalog.byId["nt2-apocalipse-tacas"].deck.maxPlayers, 6, "a pauta existente encerra Apocalipse 16 sem expansão artificial");
+const auditoriaApocalipse064 = {
+  "nt2-apocalipse-mulher-besta-explicacao": [12, /^(?:17\.(?:[1-9]|1[0-8]))(?:\D|$)/],
+  "nt2-apocalipse-queda-babilonia-saida-julgamento": [12, /^(?:18\.[1-8])(?:\D|$)/],
+  "nt2-apocalipse-lamentos-reis-mercadores-mar": [12, /^(?:18\.(?:9|1[0-9]|20))(?:\D|$)/],
+  "nt2-apocalipse-pedra-silencio-sangue": [8, /^(?:18\.2[1-4])(?:\D|$)/]
+};
+for (const [id, [maxPlayers, passagePattern]] of Object.entries(auditoriaApocalipse064)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 17–18`);
+  assert.match(catalog.byId[id].reveal.hinge, /(?:identifica|históric|instituição|geografia|alegoria)/, `${id} explicita o limite contra identidades externas`);
+}
+const auditoriaApocalipse065 = {
+  "nt2-apocalipse-bodas-cordeiro-louvor": /^(?:19\.(?:[1-9]|10))(?:\D|$)/,
+  "nt2-apocalipse-cavaleiro-besta-ceia": /^(?:19\.(?:1[1-9]|2[01]))(?:\D|$)/
+};
+for (const [id, passagePattern] of Object.entries(auditoriaApocalipse065)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, 12);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && passagePattern.test(ref.passage))), `${id} permanece limitado ao próprio bloco de Apocalipse 19`);
+  assert.match(catalog.byId[id].reveal.hinge, /(?:históric|geografia|cronologia|alegoria)/, `${id} explicita o limite interpretativo`);
+}
+assert.ok(catalog.byId["nt2-apocalipse-mil-anos-juizo"].deck.cards.every(card => card.references.every(ref => /^(?:20\.)/.test(ref.passage))), "pauta dos mil anos permanece limitada a Ap 20");
+assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].deck.cards.every(card => card.references.every(ref => /^(?:21\.|22\.[1-5](?:\D|$))/.test(ref.passage))), "Nova Jerusalém permanece limitada a Ap 21.1–22.5");
+const apocalipseFinal = catalog.byId["nt2-apocalipse-palavras-convite-testemunho-final"];
+assert.equal(apocalipseFinal.status.playable, true);
+assert.equal(apocalipseFinal.deck.maxPlayers, 12);
+assert.equal(apocalipseFinal.deck.cards.length, 32);
+assert.ok(apocalipseFinal.deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:22\.(?:[6-9]|1[0-9]|2[01]))(?:\D|$)/.test(ref.passage))), "encerramento permanece limitado a Ap 22.6-21");
+assert.match(apocalipseFinal.reveal.hinge, /não são convertidos em calendário/);
+for (const id of ["nt2-apocalipse-mulher-dragao", "nt2-apocalipse-duas-bestas"]) {
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Apocalipse" && /^(?:12|13)\./.test(ref.passage))), `${id} mantém exclusivamente as identificações internas de seu capítulo`);
+}
+assert.ok(catalog.byId["nt2-marcos-bartimeu"].deck.cards.every(card => card.references.every(ref => ref.book === "Marcos")), "Bartimeu não presume identidade dos paralelos");
+const auditoriaMateus067 = {
+  "nt2-mateus-bem-aventurancas": 7,
+  "nt2-mateus-ensinos-contrastes": 10,
+  "nt2-mateus-praticas-secreto": 10,
+  "nt2-mateus-escolhas-alertas": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus067)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita a Mateus 5–7`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 
-// O recorte 52 pertence ao banco canônico; ele não é a demonstração especial.
-assert.equal(catalog.byId["nt-052"].title, "A ovelha perdida");
-assert.equal(catalog.byId["nt-052"].kind, "canonical-case");
+const auditoriaMateus068 = {
+  "nt2-mateus-sal-luz-lei": 9,
+  "nt2-mateus-olhar-tropeco-divorcio": 6,
+  "nt2-mateus-tesouro-olhos-senhores-preocupacoes": 12,
+  "nt2-mateus-julgamento-regra-alegacoes-reacao": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus068)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^[567]\./.test(ref.passage))), `${id} permanece restrita aos remanescentes de Mateus 5–7`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
 
-console.log("Banco NT validado: 145 casos, 580 campos e demonstração da ovelha isolada.");
+const auditoriaMateus071 = {
+  "nt2-mateus-doze-destino-anuncio-acolhida": 10,
+  "nt2-mateus-escriba-rejeicao-nazare": 6
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus071)) {
+  assert.equal(catalog.byId[id].status.playable, true);
+  assert.equal(catalog.byId[id].deck.maxPlayers, maxPlayers);
+  assert.ok(catalog.byId[id].deck.cards.every(card => card.references.every(ref => ref.book === "Mateus")), `${id} mantém fatos exclusivos em Mateus`);
+  assert.deepEqual(catalog.byId[id].fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+const maoRessequida = catalog.byId["nt2-marcos-mao-ressequida"];
+assert.equal(maoRessequida.deck.maxPlayers, 5);
+assert.equal(maoRessequida.deck.cards.length, 12);
+assert.ok(maoRessequida.deck.cards.slice(9).every(card => card.references.every(ref => ref.book === "Mateus")), "os três fatos consolidados permanecem exclusivos de Mateus");
+assert.ok(maoRessequida.deck.cards.slice(0, 9).filter(card => ["P02", "P04", "P08"].includes(card.id)).every(card => card.references.some(ref => ref.book === "Marcos") && card.references.some(ref => ref.book === "Mateus")), "fatos comuns preservam ambas as proveniências");
+
+const auditoriaMateus072 = {
+  "nt2-mateus-crianca-maior-tropecos": 5,
+  "nt2-mateus-pequeninos-ovelha-desgarrada": 4,
+  "nt2-mateus-irmao-testemunhas-igreja-acordo": 6,
+  "nt2-mateus-servo-divida-perdao": 10
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus072)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.status.playable, true);
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^18\./.test(ref.passage))), `${id} permanece restrita a Mateus 18`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const auditoriaMateus073 = {
+  "nt2-mateus-divorcio-eunucos": 10,
+  "nt2-mateus-jovem-rico-recompensa": 12,
+  "nt2-mateus-trabalhadores-vinha": 12,
+  "nt2-mateus-calice-servico-resgate": 12
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus073)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.status.playable, true);
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^(?:19|20)\./.test(ref.passage))), `${id} permanece restrita a Mateus 19–20`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+
+const auditoriaMateus074 = {
+  "nt2-mateus-criancas-maos-oracao": 4,
+  "nt2-mateus-dois-cegos-jerico": 7
+};
+for (const [id, maxPlayers] of Object.entries(auditoriaMateus074)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.status.playable, true);
+  assert.equal(entry.deck.maxPlayers, maxPlayers);
+  assert.ok(entry.deck.cards.every(card => card.references.every(ref => ref.book === "Mateus" && /^(?:19|20)\./.test(ref.passage))), `${id} usa somente a unidade própria de Mateus`);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+}
+assert.equal(catalog.byId["nt2-mateus-dois-cegos-jerico"].deck.cards.some(card => /Bartimeu/i.test(card.text)), false, "a pauta de Mateus não identifica os cegos com Bartimeu");
+
+const auditadasSete = ["nt2-mateus-mulher-cananeia", "nt2-marcos-levi", "nt2-marcos-envio-doze", "nt2-marcos-surdo-decapolis", "nt2-marcos-cego-betsaida", "nt2-marcos-oferta-viuva", "nt2-lucas-marta-maria", "nt2-lucas-mulher-encurvada", "nt2-lucas-hidropico", "nt2-lucas-moeda-perdida", "nt2-lucas-dez-leprosos"];
+assert.ok(auditadasSete.every(id => catalog.byId[id].status.playable && catalog.byId[id].deck.maxPlayers === 3));
+
+assert.ok(catalog.byId["nt2-apocalipse-trono-cordeiro"].status.playable);
+assert.ok(catalog.byId["nt2-apocalipse-mulher-dragao"].status.playable);
+assert.ok(catalog.byId["nt2-apocalipse-nova-jerusalem"].status.playable);
+const curtasJoao = catalog.order.map(id => catalog.byId[id]).filter(entry => entry.canon.book === "João" && entry.deck.cards.length === 13);
+assert.equal(curtasJoao.length, 8);
+assert.ok(curtasJoao.every(entry => entry.status.editoriallyEligible && entry.status.playable && entry.deck.maxPlayers === 6));
+const pistaAt837 = catalog.byId["nt2-atos-filipe-eunuco"].deck.cards.find(card => card.references.some(reference => reference.passage === "8.37"));
+assert.match(pistaAt837.text, /manuscritos mais recentes/, "At 8.37 exige ressalva textual explícita");
+assert.equal(catalog.byId["nt2-atos-filipe-eunuco"].fields.some(field => field.answerReferences.some(reference => reference.passage === "8.37")), false, "a variante não determina gabarito");
+assert.equal(catalog.order.some(id => /^nt-\d{3}$/.test(id)), false, "IDs descartados não voltam ao catálogo");
+catalog.order.forEach(id => {
+  const entry = catalog.byId[id];
+  const expectedEditorial = entry.review.structural === "approved" && entry.review.biblical === "approved" && entry.review.editorial === "approved" && entry.review.ambiguities.length === 0;
+  const expectedMaxPlayers = Math.min(12, Math.floor((entry.deck.cards.length - 1) / 2));
+  const expectedPlayable = expectedEditorial && expectedMaxPlayers >= 2;
+  assert.equal(entry.status.editoriallyEligible, expectedEditorial);
+  assert.equal(entry.status.playable, expectedPlayable);
+  assert.equal(entry.deck.maxPlayers, expectedMaxPlayers);
+  assert.equal(entry.deck.status, expectedPlayable ? "ready" : "blocked");
+  assert.equal(entry.fields.length, 4);
+  assert.deepEqual(entry.fields.map(field => field.pontosBase), [8, 5, 3, 2]);
+  assert.ok(entry.fields.every(field => field.respostaCanonica && field.enderecoNAA && field.answerReferences.length));
+  assert.ok(entry.reveal.canonicalSummary && entry.reveal.hinge && entry.reveal.references.length);
+  assert.ok(entry.deck.cards.length >= 5);
+});
+
+const ref = { book: "Mateus", passage: "1.1", edition: "NAA", sourceId: "fonte-identificada", checkedAt: "2026-09-12" };
+const fields = ["C1", "C2", "C3", "C4"].map((id, fieldIndex) => ({
+  id, label: `Campo ${id}`,
+  options: [1, 2, 3, 4].map(number => ({ id: `${id}-O${number}`, text: `Opção ${fieldIndex}-${number}` })),
+  answerId: `${id}-O1`, answerReferences: [ref]
+}));
+const cards = Array.from({ length: 25 }, (_, index) => ({ id: `P${index + 1}`, text: `Fato ${index + 1}`, importance: index < 12 ? "essential" : "relevant", relatedFields: [`C${index % 4 + 1}`], recommendedMoment: "any", narrativeFunction: "Apoiar dedução", earlyRevealRisk: "low", twoPlayerSuitable: true, specialExpensive: false, documentScope: "single", references: [ref] }));
+const valid = { schemaVersion: 2, catalogVersion: "teste", namespace: "mosaico-nt-naa-v2", edition: "Nova Almeida Atualizada (NAA)", scope: "Novo Testamento (27 livros)", cases: [{ id: "nt2-teste", title: "Teste estrutural não editorial", generalReferences: [ref], question: "Pergunta pronta?", natures: { supported: ["QUEM", "O QUÊ", "ONDE", "COMO"], unsupported: ["QUANTO", "QUANDO", "QUANTAS VEZES", "POR QUÊ", "QUAL/QUE TIPO"] }, focalFieldId: "C3", focalJustification: "Justificativa de teste", fields, cards, reveal: { canonicalSummary: "Síntese", hinge: "Dente", references: [ref] }, review: { structural: "approved", biblical: "approved", editorial: "approved", ambiguities: [] } }] };
+assert.deepEqual(validateBank(structuredClone(valid)), []);
+const derived = structuredClone(valid); validateBank(derived);
+assert.equal(derived.cases[0].__derived.playable, true);
+assert.deepEqual(derived.cases[0].__derived.fieldOrder, ["C3", "C1", "C2", "C4"]);
+assert.deepEqual(derived.cases[0].__derived.points, [8, 5, 3, 2]);
+const shortDeck = structuredClone(valid);
+shortDeck.cases[0].cards = shortDeck.cases[0].cards.slice(0, 13);
+assert.deepEqual(validateBank(shortDeck), []);
+assert.equal(shortDeck.cases[0].__derived.playable, true);
+assert.equal(shortDeck.cases[0].__derived.maxPlayers, 6);
+assert.deepEqual(shortDeck.cases[0].__derived.blockers, []);
+const tooShort = structuredClone(valid);
+tooShort.cases[0].cards = tooShort.cases[0].cards.slice(0, 4);
+assert.ok(validateBank(tooShort).some(error => error.includes("capacidade mínima")));
+
+const duplicate = structuredClone(valid);
+duplicate.cases[0].fields[0].options[1].text = duplicate.cases[0].fields[0].options[0].text;
+assert.ok(validateBank(duplicate).some(error => error.includes("alternativas distintas")));
+const ambiguous = structuredClone(valid);
+ambiguous.cases[0].review.ambiguities.push("harmonização discutível");
+validateBank(ambiguous);
+assert.equal(ambiguous.cases[0].__derived.playable, false);
+const wrongEdition = structuredClone(valid);
+wrongEdition.cases[0].fields[0].answerReferences[0].edition = "ARA";
+assert.ok(validateBank(wrongEdition).some(error => error.includes("não é NAA")));
+
+console.log("Banco NT/NAA v2 e bloqueios negativos validados sem meta numérica.");
+
+// Integração global: cada pauta elegível comporta mãos de duas cartas e poço em 2–12.
+const regras = require("../game-core.js");
+for (const id of catalog.order.filter(caseId => catalog.byId[caseId].status.playable)) {
+  const entry = catalog.byId[id];
+  assert.equal(entry.fields.length, 4);
+  assert.ok(entry.reveal.canonicalSummary && entry.reveal.hinge && entry.reveal.references.length);
+  for (let quantidade = 2; quantidade <= entry.deck.maxPlayers; quantidade += 1) {
+    const jogadores = Array.from({ length: quantidade }, (_, index) => `j${index}`);
+    const ids = entry.deck.cards.map(card => card.id);
+    const essenciais = entry.deck.cards.filter(card => card.importance === "essential").map(card => card.id);
+    const distribuicao = regras.distribuirPistas(ids, essenciais, jogadores, items => items.slice());
+    assert.ok(jogadores.every(jogador => distribuicao.maosPorJogador[jogador].length === 2), `${id}: mão inválida para ${quantidade}`);
+    assert.equal(distribuicao.monte.length, ids.length - quantidade * 2, `${id}: poço inválido para ${quantidade}`);
+  }
+  if (entry.deck.maxPlayers < 12) {
+    const jogadores = Array.from({ length: entry.deck.maxPlayers + 1 }, (_, index) => `j${index}`);
+    assert.throws(() => regras.distribuirPistas(entry.deck.cards.map(card => card.id), [], jogadores, items => items.slice()), /duas cartas por jogador/);
+  }
+}

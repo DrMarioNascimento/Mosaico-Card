@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "checkpoint": "checkpoint-093-1corintios-14-35-relatorio-parcial",
+  "items": [
+    {
+      "id": "excluded-1corintios-14-35",
+      "book": "1 Coríntios",
+      "passage": "14.35",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/1CO.14.NAA",
+      "checkedAt": "2026-09-13",
+      "decision": "excluded-from-game-by-user",
+      "excludedQuestion": "Onde deveriam fazer perguntas ao próprio marido?",
+      "excludedAnswer": "Em casa.",
+      "scope": "Somente o item de 1Co 14.35; não substitui por 14.34 ou 14.36 e não exclui os conteúdos já usados de 1Co 14.1-33,37-40.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    }
+  ]
+}

@@ -58,6 +58,15 @@
   function casoDoBanco(id) {
     return window.MC_NT_BANK && window.MC_NT_BANK.byId ? window.MC_NT_BANK.byId[id] : null;
   }
+  function identidadeBanco() {
+    const bank = window.MC_NT_BANK || {};
+    return { namespace: bank.namespace, catalogVersion: bank.catalogVersion, schemaVersion: bank.schemaVersion };
+  }
+  function identidadeCompativel(data) {
+    return window.MC_RULES && window.MC_RULES.identidadeBancoCompativel
+      ? window.MC_RULES.identidadeBancoCompativel(window.MC_NT_BANK, data)
+      : !data || !data.pautaId;
+  }
 
   window.MC_GAME = {
     casoId: function () { return engine() ? engine().state.demo ? "ovelha" : null : "ovelha"; },
@@ -71,7 +80,8 @@
         pautaId: e.state.demo ? null : (window.MC_ACTIVE_CASE_ID || null),
         fase: fase || e.state.fase,
         ordem: (window.MC_SALA.jogadores || []).map(function (j) { return j.id; }),
-        snap: snapshotEstado()
+        snap: snapshotEstado(),
+        bankIdentity: e.state.demo ? null : identidadeBanco()
       };
       if (!e.state.demo && !payload.pautaId && window.MC_NT_BANK) {
         const encontrado = window.MC_NT_BANK.order.find(function (id) {
@@ -84,7 +94,9 @@
       return window.MC_SALA.publicar(payload);
     },
     receberSala: function (data, opcoes) {
-      if (!data) return;
+      if (!data || !identidadeCompativel(data)) return;
+      if (data.pautaId && !casoDoBanco(data.pautaId)) return;
+      if (data.pautaId && window.MC_RULES && !window.MC_RULES.casoCompativelComMesa(casoDoBanco(data.pautaId), (data.jogadores || data.ordem || []).length)) return;
       if (engine() && engine().configurarJogadores) engine().configurarJogadores(data.jogadores || [], data.ordem || []);
       if (data.pautaId) {
         const caso = casoDoBanco(data.pautaId);
