@@ -6,7 +6,7 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 **Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
 
-Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-integral`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
+Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-108-marcos-colchetes-excluidos`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
 
 ## Estado atual
 
@@ -23,9 +23,11 @@ O jogo está publicado e jogável. `cases-nt.js` é a saída reproduzível de `d
 | Pautas que comportam 2 jogadores | 350 |
 | Pautas que comportam 12 jogadores | 99 |
 
-350 IDs não são 350 histórias independentes: há recortes distintos do mesmo episódio. O banco é jogável por inteiro e ainda parcial em cobertura de capítulo.
+350 IDs não são 350 histórias independentes: há recortes distintos do mesmo episódio.
 
-Pendência de publicação no banco-mestre (`data/nt-bank.json` e `cases-nt.js`): a revisão de `nt2-mateus-ais-juramentos` (pergunta “Ai de vocês”, recorte Mt 23.1 + 23.13, 25 pistas, mesa até 12). No Pages ela já vale via `case-mt23.js`.
+A revisão de `nt2-mateus-ais-juramentos` (“Ai de vocês”, Mt 23.1 + 23.13) está publicada via `case-mt23.js`. Não há fila de publicação aberta.
+
+Fila textual isolada de Marcos encerrada em 15/09/2026: Mc 7.16, 9.44, 9.46, 11.26, 15.28 e 16.9-20 fora do jogo. Ver [`docs/FILAS-ENCERRADAS.md`](docs/FILAS-ENCERRADAS.md) e [`data/nt-editorial-exclusions.json`](data/nt-editorial-exclusions.json).
 
 Playtest registrado em 14/09/2026: `nt2-1joao-confianca-oracao-pecado-conhecimento` (1 João 5.13-21), `approved-playtested`.
 
@@ -49,7 +51,7 @@ A demonstração **A ovelha perdida** permanece em `case-ovelha.js`. Não entra 
 
 A resposta canônica é o que a NAA daquele recorte afirma. Tradição externa não é gabarito. Perspectivas distintas sobre o mesmo texto podem coexistir em pautas diferentes; uma não anula a outra.
 
-Documentos de acompanhamento: [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md), [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md), [`docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md).
+Documentos de acompanhamento: [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md), [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md), [`docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md), [`docs/FILAS-ENCERRADAS.md`](docs/FILAS-ENCERRADAS.md).
 
 ## Fluxo da sala
 
@@ -115,7 +117,7 @@ Fonte editável: `data/nt-bank.json`. Validação: `tools/validate-nt-bank.mjs`.
 | `game.js` | Estado da partida, ações, cronômetros, animações, renderização e apuração. |
 | `game-sala.js` | Sincronização do motor com a sala compartilhada. |
 | `cases-nt.js` | Catálogo NT gerado; não editar à mão. |
-| `case-mt23.js` | Override temporário de `nt2-mateus-ais-juramentos` até o banco-mestre ser republicado. |
+| `case-mt23.js` | Publicação vigente de `nt2-mateus-ais-juramentos`. |
 | `bank-runtime.js` | Elegibilidade, saco de sorteio e carga do override de Mt 23. |
 | `hud-fix.css` | Ajustes de HUD (saldo, cronômetro, destaque de resposta). |
 | `case-ovelha.js` | Demonstração isolada da carta da ovelha. |
@@ -152,6 +154,7 @@ A suíte cobre sintaxe, identidade, QR/sala, estrutura, fechamento, cronômetros
 - [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md): matriz dos 27 livros.
 - [`docs/AUDITORIA.md`](docs/AUDITORIA.md): estado técnico e riscos.
 - [`docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md): capacidade por número de jogadores.
+- [`docs/FILAS-ENCERRADAS.md`](docs/FILAS-ENCERRADAS.md): filas de decisão encerradas.
 
 ## About sugerido para o GitHub
 
