@@ -38,6 +38,7 @@ input.codigo { text-transform:uppercase; letter-spacing:.28em; font-size:22px; t
 .config-grupo { margin:16px 0; padding:0; border:0; }
 .config-grupo legend { padding:0; color:var(--accent); font-size:11px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
 .config-opcoes { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:7px; margin-top:8px; }
+.config-opcoes[aria-label="Tempo por jogada"] { grid-template-columns:repeat(3,minmax(0,1fr)); }
 .config-opcoes button { min-width:0; min-height:86px; padding:9px 7px; }
 .config-opcoes button b { font-size:15px; }
 .config-opcoes button span { font-size:11px; }
