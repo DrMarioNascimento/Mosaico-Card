@@ -136,17 +136,46 @@
   z-index: 2;
 }
 
-.tempo-inline { display: flex; align-items: baseline; gap: 6px; white-space: nowrap; line-height: 1; }
-.vez-inline { color: var(--muted); font-size: 12px; font-weight: 700; line-height: 1.15; }
-.vez-inline b { color: #fff; font-size: 13px; font-weight: 800; }
-#cell-tempo strong { color: #fff; font-size: 18px; }
+#cell-tempo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  column-gap: 8px;
+  row-gap: 0;
+}
+#cell-tempo .tempo-inline,
+#cell-tempo .vez-inline {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 1px;
+  white-space: nowrap;
+  line-height: 1.1;
+}
+#cell-tempo .tempo-inline { align-items: flex-start; }
+#cell-tempo .vez-inline { align-items: flex-end; text-align: right; }
+#cell-tempo .tempo-inline small,
+#cell-tempo .vez-inline {
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+#cell-tempo strong,
+#cell-tempo .vez-inline b {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.1;
+}
 #cell-tempo.minha-vez { border-color: #ff667a; }
 #cell-tempo.minha-vez strong,
-#cell-tempo.minha-vez .vez-inline,
 #cell-tempo.minha-vez .vez-inline b { color: #ff667a; }
 #cell-tempo.vez-alheia { border-color: #3d8f88; }
 #cell-tempo.vez-alheia strong,
-#cell-tempo.vez-alheia .vez-inline,
 #cell-tempo.vez-alheia .vez-inline b { color: var(--accent); }
 #cell-tempo.urgente {
   border-color: #ff667a;
@@ -194,8 +223,6 @@
   .control-dock .stash-art .bag,
   .control-dock .stash-art .wallet { width: 58px; height: 38px; }
   .control-dock .saldo-head strong { font-size: 20px; }
-  .control-dock #cell-tempo { justify-content: center; align-items: flex-start; gap: 2px; }
-  .control-dock #cell-tempo strong { font-size: 18px; }
-  .control-dock .vez-inline { font-size: 12px; }
-  .control-dock .vez-inline b { font-size: 13px; }
+  .control-dock #cell-tempo strong,
+  .control-dock #cell-tempo .vez-inline b { font-size: 15px; }
 }
