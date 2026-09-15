@@ -6,11 +6,46 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 **Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
 
+Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-integral`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
+
 ## Estado atual
 
-A arquitetura da partida permanece implementada. O catálogo editorial anterior foi descartado e `cases-nt.js` agora é a saída reproduzível do novo banco **NT/NAA v2**. Não existe meta numérica: o total será consequência do levantamento dos 27 livros e dos critérios de dedução. João foi analisado por recorte; Mateus e Marcos foram analisados por recorte; Lucas foi analisado por recorte e Atos foi analisado por recorte e Romanos foi analisado. O banco tem 109 pautas autoradas e editorialmente elegíveis: 56 comportam 2–12 participantes; duas comportam até oito; 28 comportam até seis; uma, até cinco; nove, até quatro; e treze pautas de sete pistas comportam 2–3. A seleção considera o tamanho real da mesa, sempre com duas cartas por pessoa e ao menos uma no poço; não houve inflação de conteúdo.
+O jogo está publicado e jogável. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
 
-A demonstração independente **A ovelha perdida** continua em `case-ovelha.js`; não pertence ao catálogo nem ao sorteio e não determina qualquer ID novo. O documento mestre e o checkpoint estão em [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md), e a cobertura está em [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md).
+| | |
+| --- | ---: |
+| Pautas jogáveis | **350** |
+| Cartas de pista | **6.525** |
+| Strings de pista exatamente distintas | 6.485 |
+| Campos de resposta | **1.400** |
+| Recortes com referência NAA | 363 |
+| Jogadores por mesa | **2 a 12** |
+| Pautas que comportam 2 jogadores | 350 |
+| Pautas que comportam 12 jogadores | 99 |
+
+350 IDs não são 350 histórias independentes: há recortes distintos do mesmo episódio. O banco é jogável por inteiro e ainda parcial em cobertura de capítulo.
+
+### Pautas por bloco
+
+| Bloco | Pautas |
+| --- | ---: |
+| Mateus | 91 |
+| Marcos | 78 |
+| Apocalipse | 34 |
+| Atos | 26 |
+| João | 20 |
+| Lucas | 16 |
+| Cartas paulinas | 55 |
+| Cartas gerais | 27 |
+| Paralelos sinóticos (mais de um Evangelho) | 3 |
+
+Capacidade da pauta: `min(12, floor((pistas - 1) / 2))`.
+
+A demonstração **A ovelha perdida** permanece em `case-ovelha.js`. Não entra no sorteio. Nas partidas NT as ovelhas são bônus inseridos no monte na hora do deal.
+
+A resposta canônica é o que a NAA daquele recorte afirma. Tradição externa não é gabarito. Perspectivas distintas sobre o mesmo texto podem coexistir em pautas diferentes; uma não anula a outra.
+
+Documentos de acompanhamento: [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md), [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md), [`docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md).
 
 ## Fluxo da sala
 
@@ -18,31 +53,29 @@ A demonstração independente **A ovelha perdida** continua em `case-ovelha.js`;
 2. A sala é aberta e o QR Code fica disponível imediatamente.
 3. O Mestre informa sua identidade e escolhe sua camada de assistência, pois também participa como jogador.
 4. Cada participante entra e escolhe individualmente **Livre, Assistida ou Guiada**.
-5. O início só é liberado com 2 a 12 participantes e todos marcados como prontos. Mesas com 3 ou mais pessoas continuam recomendadas para ampliar a diversidade de perspectivas.
+5. O início só é liberado com 2 a 12 participantes e todos marcados como prontos.
 6. A pauta é sorteada apenas no início da partida.
 
-O tempo sugerido pelo sistema depende do tamanho da mesa: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre pode escolher outro dos três valores, mas não informar um prazo livre.
+Tempo sugerido: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre escolhe um desses três valores.
 
-A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pontuação. A seleção já integra o fluxo e é preservada localmente; a diferenciação detalhada do conteúdo das três camadas ainda depende da redação dos auxílios de cada pauta.
+A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pontuação. Os códigos internos C, P e H organizam o banco; a mesa mostra rótulos, texto da pista e síntese — não os ids.
 
 ## Regras consolidadas
 
 - Um acerto fecha o campo para toda a mesa e registra sua pontuação.
 - Um erro fecha o campo somente para quem arriscou; os demais ainda podem tentar.
 - O turno passa automaticamente quando o cronômetro chega a zero.
-- A duração normal é calculada em ciclos completos: `2 + teto(campos / jogadores)`, limitada entre 3 e 5 ciclos.
+- A duração normal é `2 + teto(campos / jogadores)`, limitada entre 3 e 5 ciclos.
 - Encerrado o tempo normal, começa um fechamento gratuito de 60 segundos para os campos ainda elegíveis.
 - No fechamento, mais de um jogador pode acertar o mesmo campo aberto; uma cicatriz anterior continua bloqueando aquele jogador.
 - Somente campos fechados e denários restantes entram no resultado.
-- A pontuação é revelada em parcelas e termina com ranking completo e pódio.
+- A pontuação é revelada em parcelas e termina com ranking e pódio.
 
-Nas pautas atuais de quatro campos, os valores-base são `8 / 5 / 3 / 2`. O momento do fechamento aplica `1,3` no primeiro terço, `1,1` no segundo e `1,0` no terceiro e no fechamento final. O saldo residual vale `denários × 0,35, preservando as frações`.
+Valores-base dos quatro campos: `8 / 5 / 3 / 2`. Multiplicador do momento: `1,3` no primeiro terço, `1,1` no segundo, `1,0` no terceiro e no fechamento. Residual: `denários × 0,35`.
 
-Os critérios de desempate, nesta ordem, são: maior total, menos campos queimados, mais denários e fechamento mais cedo do campo focal.
+Desempate, nesta ordem: maior total, menos campos queimados, mais denários, fechamento mais cedo do campo focal.
 
 ## Economia e ovelhas
-
-Custos do modo econômico:
 
 | Ação | Custo |
 | --- | ---: |
@@ -51,7 +84,7 @@ Custos do modo econômico:
 | Arriscar | 3 denários |
 | Consignar | 0 denário |
 
-Nas partidas normais, a ovelha é um bônus embaralhado no monte. Concede 6 denários imediatamente, exibe a animação e sai do jogo; não permanece na mão ou nas pistas e não gera pontuação residual própria.
+A ovelha vale 6 denários, anima e sai do jogo. Não fica na mão, não vai ao balaio, não pode ser capturada e não entra no residual.
 
 | Jogadores | Padrão | Curta | Longa |
 | --- | ---: | ---: | ---: |
@@ -61,7 +94,7 @@ Nas partidas normais, a ovelha é um bônus embaralhado no monte. Concede 6 den�
 
 ## Banco NT e sorteio
 
-A fonte editável versionada é `data/nt-bank.json`, validada por `tools/validate-nt-bank.mjs` e gerada por `tools/generate-nt-bank.mjs`. Somente pautas aprovadas estrutural, bíblica e editorialmente, sem ambiguidades, entram no saco. A chave persistida incorpora namespace, versão do catálogo e versão do esquema, impedindo que o saco legado contamine os novos IDs `nt2-*`.
+Fonte editável: `data/nt-bank.json`. Validação: `tools/validate-nt-bank.mjs`. Geração: `tools/generate-nt-bank.mjs`. Só entram pautas aprovadas estrutural, bíblica e editorialmente, sem ambiguidades abertas. A chave do saco junta namespace, versão do catálogo, esquema e número de jogadores.
 
 ## Arquitetura
 
@@ -69,17 +102,17 @@ A fonte editável versionada é `data/nt-bank.json`, validada por `tools/validat
 | --- | --- |
 | `index.html` | Cenas de entrada, configuração, assistência, lobby, partida, telão, fechamento e pódio. |
 | `sala.js` | Fluxo Mestre/jogadores, prontidão, QR Code, configuração e transações da sala. |
-| `game-core.js` | Regras puras de tempo, ovelhas, respostas, pontuação, fase final e ranking. |
+| `game-core.js` | Regras de tempo, ovelhas, respostas, pontuação, fase final e ranking. |
 | `game.js` | Estado da partida, ações, cronômetros, animações, renderização e apuração. |
-| `game-sala.js` | Serialização e sincronização do motor com a sala compartilhada. |
-| `cases-nt.js` | Catálogo NT gerado mecanicamente; não deve ser editado à mão. |
-| `bank-runtime.js` | Elegibilidade e saco de sorteio das pautas. |
+| `game-sala.js` | Sincronização do motor com a sala compartilhada. |
+| `cases-nt.js` | Catálogo NT gerado; não editar à mão. |
+| `bank-runtime.js` | Elegibilidade e saco de sorteio. |
 | `case-ovelha.js` | Demonstração isolada da carta da ovelha. |
-| `data/nt-bank.json` | Fonte editorial editável do novo banco. |
+| `data/nt-bank.json` | Fonte editorial do banco. |
 | `tools/validate-nt-bank.mjs` | Validador estrutural e de elegibilidade. |
-| `tools/generate-nt-bank.mjs` | Gerador determinístico de `cases-nt.js`. |
+| `tools/generate-nt-bank.mjs` | Gerador de `cases-nt.js`. |
 
-O Mestre é a autoridade dos relógios e das mudanças de fase. As publicações usam transação no Firestore e `turnoId` crescente para rejeitar ações atrasadas ou repetidas.
+O Mestre é a autoridade dos relógios e das mudanças de fase. As publicações usam transação no Firestore e `turnoId` crescente.
 
 ## Geração do banco
 
@@ -89,31 +122,32 @@ npm run generate:bank
 npm test
 ```
 
-O importador da planilha antiga falha deliberadamente para impedir reintrodução acidental do conteúdo descartado. Validação estrutural não declara fidelidade bíblica.
+O importador da planilha antiga falha de propósito. Validação estrutural não declara fidelidade bíblica.
 
 ## Desenvolvimento e testes
 
-O projeto usa HTML, CSS e JavaScript sem etapa de compilação. Sirva a pasta por HTTP para testar no navegador.
+HTML, CSS e JavaScript, sem etapa de compilação. Sirva a pasta por HTTP.
 
 ```bash
 npm test
 ```
 
-A suíte executa verificação de sintaxe e contratos de identidade, QR/sala, estrutura visual, fechamento híbrido, cronômetros, ovelhas, ciclos, fase final, pontuação, ranking, catálogo NT e saco de sorteio. O GitHub Actions roda a validação em pushes e pull requests.
+A suíte cobre sintaxe, identidade, QR/sala, estrutura, fechamento, cronômetros, ovelhas, ciclos, fase final, pontuação, ranking, catálogo NT e saco. O GitHub Actions valida pushes e pull requests.
 
 ## Documentação
 
-- [`docs/CONSOLIDACAO-OPERACIONAL.md`](docs/CONSOLIDACAO-OPERACIONAL.md): contrato Mestre–jogador–telão e regras da partida.
+- [`docs/CONSOLIDACAO-OPERACIONAL.md`](docs/CONSOLIDACAO-OPERACIONAL.md): contrato Mestre–jogador–telão.
 - [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.md): mandato, contrato, fontes e checkpoints.
 - [`docs/COBERTURA-NT-NAA.md`](docs/COBERTURA-NT-NAA.md): matriz dos 27 livros.
-- [`docs/AUDITORIA.md`](docs/AUDITORIA.md): estado técnico e riscos que ainda exigem validação.
+- [`docs/AUDITORIA.md`](docs/AUDITORIA.md): estado técnico e riscos.
+- [`docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md`](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md): capacidade por número de jogadores.
 
 ## About sugerido para o GitHub
 
-**Descrição:** Jogo multiplayer de fragmentos, economia e inferência do projeto MOSAICO, com pautas canônicas do Novo Testamento.
+**Descrição:** Jogo multiplayer de pistas e inferência do MOSAICO, com 350 pautas do Novo Testamento (NAA).
 
 **Website:** https://drmarionascimento.github.io/Mosaico-Card/
 
-**Topics:** `mosaico`, `card-game`, `multiplayer`, `firebase`, `firestore`, `javascript`, `mobile-first`, `serious-game`, `educational-game`.
+**Topics:** `mosaico`, `card-game`, `multiplayer`, `firebase`, `firestore`, `javascript`, `mobile-first`, `serious-game`, `educational-game`, `nova-almeida-atualizada`
 
 Criação: **M&O**.
