@@ -3,44 +3,16 @@
 
 .deal-bar {
   display: grid;
-  grid-template-columns: auto minmax(0, 1fr) auto;
+  grid-template-columns: auto 1fr auto auto;
   align-items: center;
   gap: 8px 10px;
 }
 .deal-bar .brand-lockup { grid-column: 1; min-width: 0; }
-.deal-bar .mark-name { display: none; }
-.mesa-title-info,
-.deal-actions {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  min-width: 0;
-}
-.mesa-title-info { grid-column: 2; }
-.deal-actions { grid-column: 3; justify-content: flex-end; flex: 0 0 auto; }
+.deal-bar .mark-name { display: inline; }
 .deal-bar .scene-title,
-.mesa-title-info .scene-title {
-  flex: 1 1 auto;
-  grid-column: auto;
-  justify-self: stretch;
-  min-width: 0;
-  margin: 0;
-  text-align: center;
-  letter-spacing: .06em;
-  text-transform: uppercase;
-  font-size: clamp(11px, 3.1vw, 13px);
-  color: var(--accent);
-  font-weight: 800;
-  line-height: 1.2;
-  text-wrap: balance;
-  overflow-wrap: anywhere;
-  display: -webkit-box;
-  -webkit-box-orient: vertical;
-  -webkit-line-clamp: 2;
-  overflow: hidden;
-}
+.deal-bar #caso-titulo,
+.mesa-title-info { display: none !important; }
 #mesa-info {
-  flex: 0 0 auto;
   width: 36px;
   min-width: 36px;
   height: 36px;
@@ -53,7 +25,6 @@
   line-height: 1;
 }
 .deal-sala {
-  grid-column: 3;
   min-width: 64px;
   width: auto;
   min-height: 36px;
@@ -61,6 +32,33 @@
   padding: 5px 10px;
   font-size: 12px;
 }
+
+#deal #caso-titulo,
+#deal .scene-title {
+  display: block !important;
+  margin: 0 0 8px;
+  text-align: left;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: var(--accent);
+  font-weight: 800;
+  line-height: 1.25;
+  text-wrap: balance;
+}
+#mesa-question {
+  margin: 0;
+  padding: 12px 14px;
+  border-radius: 14px;
+  background: linear-gradient(180deg, #163644, #102833);
+  border: 1px solid #3d6474;
+  box-shadow: inset 0 1px 0 #d9f3ff22, 0 8px 18px #0005;
+  color: #f1f8fc;
+  font-size: 16px;
+  line-height: 1.4;
+  font-weight: 650;
+}
+#mesa-question[hidden] { display: block !important; }
 
 .cell-saldo {
   display: grid;
@@ -144,10 +142,6 @@
   filter: none;
 }
 
-@media (max-width: 640px) {
-  .deal-bar { grid-template-columns: auto minmax(0, 1fr) auto; }
-  .scene-title { justify-self: stretch; }
-}
 @media (max-width: 430px) {
   .control-dock .status-cell { min-height: 52px; height: 52px; padding: 5px 8px; }
   .control-dock .cell-saldo { grid-template-columns: 44px minmax(0, 1fr); column-gap: 8px; padding: 5px 10px 5px 6px; }
@@ -156,5 +150,4 @@
   .control-dock #cell-tempo strong { font-size: 18px; }
   .control-dock .vez-inline { font-size: 12px; }
   .control-dock .vez-inline b { font-size: 13px; }
-  .scene-title { font-size: 11px; letter-spacing: .05em; }
 }
