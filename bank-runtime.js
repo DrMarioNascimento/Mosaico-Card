@@ -54,4 +54,8 @@
     return { id: id, caso: bank.byId[id], restantes: saco.ids.length };
   };
   bank.elegiveis = elegiveis;
+
+  var extra = document.createElement("script");
+  extra.src = "case-mt23.js?v=1";
+  document.head.appendChild(extra);
 })();
