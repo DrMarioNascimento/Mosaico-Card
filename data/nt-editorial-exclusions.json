@@ -1,6 +1,7 @@
 {
   "schemaVersion": 1,
-  "checkpoint": "checkpoint-093-1corintios-14-35-relatorio-parcial",
+  "checkpoint": "checkpoint-108-marcos-colchetes-excluidos",
+  "decidedAt": "2026-09-15",
   "items": [
     {
       "id": "excluded-1corintios-14-35",
@@ -13,6 +14,72 @@
       "excludedQuestion": "Onde deveriam fazer perguntas ao próprio marido?",
       "excludedAnswer": "Em casa.",
       "scope": "Somente o item de 1Co 14.35; não substitui por 14.34 ou 14.36 e não exclui os conteúdos já usados de 1Co 14.1-33,37-40.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-7-16",
+      "book": "Marcos",
+      "passage": "7.16",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.7.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Verso inteiro fora de referência, campo, gabarito e pista. Não altera Mc 7.14-15,17-23.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-9-44",
+      "book": "Marcos",
+      "passage": "9.44",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Verso inteiro fora. Mc 9.48 permanece.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-9-46",
+      "book": "Marcos",
+      "passage": "9.46",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.9.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Verso inteiro fora. Mc 9.48 permanece.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-11-26",
+      "book": "Marcos",
+      "passage": "11.26",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.11.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Verso inteiro fora. Mc 11.25 permanece.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-15-28",
+      "book": "Marcos",
+      "passage": "15.28",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.15.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Verso inteiro fora. Mc 15.27 permanece.",
+      "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
+    },
+    {
+      "id": "excluded-marcos-16-9-20",
+      "book": "Marcos",
+      "passage": "16.9-20",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/MRK.16.NAA",
+      "checkedAt": "2026-09-15",
+      "decision": "excluded-from-game-by-user",
+      "scope": "Bloco inteiro fora. Confirma decisão anterior. Mc 16.1-8 permanece.",
       "editorialMeaning": "Exclusão editorial do jogo, não juízo sobre o texto bíblico."
     }
   ]

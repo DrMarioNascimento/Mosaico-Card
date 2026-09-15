@@ -5,6 +5,11 @@ Registro versionado em 12/09/2026. Estas decisões substituem os bloqueios corre
 | Recorte | Decisão autorizada | Limite obrigatório |
 | --- | --- | --- |
 | Mc 16.9-20 | Manter fora do banco. | Não autorar nem usar como apoio. |
+| Mc 7.16 | Fora do jogo. | Não usar em referência, campo, gabarito ou pista. O recorte 7.14-15,17-23 permanece. |
+| Mc 9.44 | Fora do jogo. | Não usar. O 9.48, sem colchetes, permanece. |
+| Mc 9.46 | Fora do jogo. | Não usar. O 9.48, sem colchetes, permanece. |
+| Mc 11.26 | Fora do jogo. | Não usar. O 11.25 permanece. |
+| Mc 15.28 | Fora do jogo. | Não usar. O 15.27 permanece. |
 | Jo 8.1-11 | Permitir reavaliação. | Exibir ressalva textual explícita; inclusão depende dos demais critérios. |
 | At 8.37 | Permitir reavaliação. | Exibir ressalva textual explícita; não tratar a variante como incontroversa. |
 | 2Jo 1 | “Senhora eleita” aprovada como Igreja/comunidade cristã. | Registrar como interpretação aprovada pelo usuário, não como identificação lexical explícita nem apenas igreja local. |
@@ -39,7 +44,7 @@ A explicação literal de Mt 17.20, **“a pequenez da fé”**, continua válid
 
 ### Diretriz geral decorrente
 
-Uma perspectiva não será excluída apenas porque outra explicação compatível também é válida. Cada reavaliação deve: (1) identificar o fundamento textual ou contextual; (2) distinguir citação, paráfrase e inferência; (3) examinar contradição real, sem confundi-la com complementaridade; (4) delimitar o gabarito para não oferecer duas respostas verdadeiras como alternativas mutuamente exclusivas; e (5) comprovar quatro campos e pistas suficientes antes de qualquer autoria. A decisão não libera recortes em massa.
+Uma perspectiva não será excluída apenas porque outra explicação compatível também é válida. Cada reavaliação deve: (1) identificar o fundamento textual ou contextual; (2) distinguir citação, paráfrase e inferência; (3) examinar contradição real, sem confundí-la com complementaridade; (4) delimitar o gabarito para não oferecer duas respostas verdadeiras como alternativas mutuamente exclusivas; e (5) comprovar quatro campos e pistas suficientes antes de qualquer autoria. A decisão não libera recortes em massa.
 
 ### Exclusões a reavaliar individualmente, sem autoria neste checkpoint
 
@@ -72,6 +77,17 @@ O usuário determinou: **“Vamos deixar o 35 de fora.”** Fica excluído do jo
 
 Com isso, a pendência editorial de 1Co 14.34-36 se encerra **sem novas perguntas desse recorte**. As quatro decisões recentes ficam definidas: Mt 17.21 e Mt 23.14 aplicadas; 1Co 11.2-16 aprovado com exatamente três itens ainda pendentes de integração estrutural; 1Co 14.35 excluído, sem substituição por 14.34/36. Variantes funcionais de Mt 17 continuam não implementadas.
 
-## Nova pendência textual isolada — Mc 11.26 (checkpoint 102)
+## Decisão explícita — colchetes isolados de Marcos (15/09/2026)
 
-A página NAA 1840 consultada exibe Mc 11.26 entre colchetes e informa que o texto se encontra apenas em manuscritos mais recentes. Isso foi isolado sem decisão presumida do usuário: o verso não aparece em referência geral, pergunta, alternativa, gabarito ou pista. Mc 11.25 sustenta por si mesmo o conteúdo autorado sobre perdoar durante a oração. Esta pendência não altera os encaminhamentos próprios de Mt 17.21, Mt 23.14, Mc 7.16, 9.44, 9.46 ou 1Co 11/14 e não bloqueia conteúdo independente.
+O usuário determinou: **fora tudo.** Fila textual isolada de Marcos encerrada. Exclusão editorial do jogo, não juízo sobre o texto bíblico. Sem pauta nova, sem pista nova, sem gabarito novo.
+
+| Texto | Decisão | O que permanece |
+| --- | --- | --- |
+| Mc 7.16 | Fora | Mc 7.14-15,17-23 |
+| Mc 9.44 | Fora | Mc 9.43, 9.45, 9.47-48 |
+| Mc 9.46 | Fora | Mc 9.48 |
+| Mc 11.26 | Fora | Mc 11.25 |
+| Mc 15.28 | Fora | Mc 15.27 |
+| Mc 16.9-20 | Fora (já decidido; confirmado) | Mc 16.1-8 |
+
+Não há pendência textual isolada em Marcos. Mc 11.25, 9.48, 7.14-15,17-23, 15.27 e 16.1-8 não mudam.
