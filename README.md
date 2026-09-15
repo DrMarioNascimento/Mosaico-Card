@@ -25,6 +25,10 @@ O jogo está publicado e jogável. `cases-nt.js` é a saída reproduzível de `d
 
 350 IDs não são 350 histórias independentes: há recortes distintos do mesmo episódio. O banco é jogável por inteiro e ainda parcial em cobertura de capítulo.
 
+Pendência de publicação no banco-mestre (`data/nt-bank.json` e `cases-nt.js`): a revisão de `nt2-mateus-ais-juramentos` (pergunta “Ai de vocês”, recorte Mt 23.1 + 23.13, 25 pistas, mesa até 12). No Pages ela já vale via `case-mt23.js`.
+
+Playtest registrado em 14/09/2026: `nt2-1joao-confianca-oracao-pecado-conhecimento` (1 João 5.13-21), `approved-playtested`.
+
 ### Pautas por bloco
 
 | Bloco | Pautas |
@@ -49,16 +53,20 @@ Documentos de acompanhamento: [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.m
 
 ## Fluxo da sala
 
-1. O Mestre configura a sala antes de criá-la: escolhe **30, 45 ou 60 segundos**, duração curta/padrão/longa e uso opcional de telão.
-2. A sala é aberta e o QR Code fica disponível imediatamente.
-3. O Mestre informa sua identidade e escolhe sua camada de assistência, pois também participa como jogador.
-4. Cada participante entra e escolhe individualmente **Livre, Assistida ou Guiada**.
-5. O início só é liberado com 2 a 12 participantes e todos marcados como prontos.
-6. A pauta é sorteada apenas no início da partida.
+1. Abertura com Bíblia e peça dourada.
+2. Tela de explicação da partida — mestre e convidado passam por ela.
+3. O Mestre configura a sala: **30, 45 ou 60 segundos**, duração curta/padrão/longa e telão opcional.
+4. A sala é aberta e o QR Code fica disponível imediatamente.
+5. O Mestre informa sua identidade e escolhe sua camada de assistência, pois também participa como jogador.
+6. Cada participante entra e escolhe individualmente **Livre, Assistida ou Guiada**.
+7. O início só é liberado com 2 a 12 participantes e todos marcados como prontos.
+8. A pauta é sorteada apenas no início da partida.
 
 Tempo sugerido: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre escolhe um desses três valores.
 
 A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pontuação. Os códigos internos C, P e H organizam o banco; a mesa mostra rótulos, texto da pista e síntese — não os ids.
+
+Na mesa, o título da pauta fica no bloco da citação/pergunta, não na faixa do logo.
 
 ## Regras consolidadas
 
@@ -101,12 +109,15 @@ Fonte editável: `data/nt-bank.json`. Validação: `tools/validate-nt-bank.mjs`.
 | Arquivo | Responsabilidade |
 | --- | --- |
 | `index.html` | Cenas de entrada, configuração, assistência, lobby, partida, telão, fechamento e pódio. |
+| `abertura.js` | Abertura, explicação da partida e título da pauta junto da citação. |
 | `sala.js` | Fluxo Mestre/jogadores, prontidão, QR Code, configuração e transações da sala. |
 | `game-core.js` | Regras de tempo, ovelhas, respostas, pontuação, fase final e ranking. |
 | `game.js` | Estado da partida, ações, cronômetros, animações, renderização e apuração. |
 | `game-sala.js` | Sincronização do motor com a sala compartilhada. |
 | `cases-nt.js` | Catálogo NT gerado; não editar à mão. |
-| `bank-runtime.js` | Elegibilidade e saco de sorteio. |
+| `case-mt23.js` | Override temporário de `nt2-mateus-ais-juramentos` até o banco-mestre ser republicado. |
+| `bank-runtime.js` | Elegibilidade, saco de sorteio e carga do override de Mt 23. |
+| `hud-fix.css` | Ajustes de HUD (saldo, cronômetro, destaque de resposta). |
 | `case-ovelha.js` | Demonstração isolada da carta da ovelha. |
 | `data/nt-bank.json` | Fonte editorial do banco. |
 | `tools/validate-nt-bank.mjs` | Validador estrutural e de elegibilidade. |
