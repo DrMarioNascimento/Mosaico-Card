@@ -1,0 +1,157 @@
+/* Correções de HUD: título da pauta, saldo, cronômetro e respostas do fechamento */
+:root { --dock-height: 168px; }
+
+.deal-bar {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 8px 10px;
+}
+.deal-bar .brand-lockup { grid-column: 1; min-width: 0; }
+.deal-bar .mark-name { display: none; }
+.deal-actions {
+  grid-column: 3;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 8px;
+  flex: 0 0 auto;
+}
+.deal-bar .scene-title {
+  grid-column: 2;
+  justify-self: stretch;
+  min-width: 0;
+  margin: 0;
+  text-align: center;
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  font-size: clamp(11px, 3.1vw, 13px);
+  color: var(--accent);
+  font-weight: 800;
+  line-height: 1.2;
+  text-wrap: balance;
+  overflow-wrap: anywhere;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+#mesa-info {
+  flex: 0 0 auto;
+  width: 36px;
+  min-width: 36px;
+  height: 36px;
+  min-height: 36px;
+  padding: 0;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 800;
+  font-style: italic;
+  line-height: 1;
+}
+.deal-sala {
+  grid-column: auto;
+  min-width: 64px;
+  width: auto;
+  min-height: 36px;
+  height: 36px;
+  padding: 5px 10px;
+  font-size: 12px;
+}
+
+.cell-saldo {
+  display: grid;
+  grid-template-columns: 48px minmax(0, 1fr);
+  align-items: center;
+  column-gap: 10px;
+  padding: 6px 10px 6px 8px;
+  overflow: hidden;
+}
+.cell-saldo .purse {
+  grid-column: 1;
+  grid-row: auto;
+  margin: 0;
+  min-width: 0;
+  justify-self: start;
+}
+.cell-saldo .saldo-head {
+  grid-column: 2;
+  grid-row: auto;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  gap: 2px;
+  min-width: 0;
+  width: 100%;
+  text-align: right;
+}
+.saldo-head strong { font-size: 22px; color: #fff; line-height: 1; font-variant-numeric: tabular-nums; }
+.cell-saldo .stash-art { width: 48px; height: 34px; }
+.cell-saldo .stash-art .bag,
+.cell-saldo .stash-art .wallet { width: 44px; height: 32px; left: 0; }
+.cell-saldo .stash-art .coin { width: 16px; height: 16px; left: 26px; bottom: 1px; }
+
+.tempo-inline { display: flex; align-items: baseline; gap: 6px; white-space: nowrap; line-height: 1; }
+.vez-inline { color: var(--muted); font-size: 12px; font-weight: 700; line-height: 1.15; }
+.vez-inline b { color: #fff; font-size: 13px; font-weight: 800; }
+#cell-tempo strong { color: #fff; font-size: 18px; }
+#cell-tempo.minha-vez { border-color: #ff667a; }
+#cell-tempo.minha-vez strong,
+#cell-tempo.minha-vez .vez-inline,
+#cell-tempo.minha-vez .vez-inline b { color: #ff667a; }
+#cell-tempo.vez-alheia { border-color: #3d8f88; }
+#cell-tempo.vez-alheia strong,
+#cell-tempo.vez-alheia .vez-inline,
+#cell-tempo.vez-alheia .vez-inline b { color: var(--accent); }
+#cell-tempo.urgente {
+  border-color: #ff667a;
+  animation: timer-glow .85s ease-in-out infinite alternate;
+}
+#cell-tempo.urgente strong { color: #ff405d; text-shadow: 0 0 8px #ff405d, 0 0 18px #ff405daa; }
+#cell-tempo.vez-alheia.urgente {
+  border-color: var(--accent);
+  animation-name: timer-glow-accent;
+}
+#cell-tempo.vez-alheia.urgente strong { color: var(--accent); text-shadow: 0 0 8px #65d5cc, 0 0 18px #65d5cc88; }
+@keyframes timer-glow-accent {
+  from { box-shadow: inset 0 1px 0 #fff2, 0 0 5px #65d5cc55; }
+  to { box-shadow: inset 0 1px 0 #fff3, 0 0 16px #65d5cccc, 0 0 28px #65d5cc55; }
+}
+
+.campo-resposta { gap: 8px; }
+.campo-resposta > b { font-size: 15px; line-height: 1.3; color: #f1f8fc; }
+.campo-resposta button {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.35;
+  min-height: 48px;
+  padding: 10px 14px;
+  white-space: normal;
+}
+.campo-resposta button.ligado,
+.fechamento-campos button.ligado {
+  background: linear-gradient(#3aa89c, #1f6f67 48%, #134843);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow:
+    inset 0 2px 1px #d9f3ff66,
+    inset 0 -3px 4px #07221eaa,
+    0 0 0 2px #65d5cc,
+    0 0 16px #65d5cc77;
+  filter: none;
+}
+
+@media (max-width: 640px) {
+  .deal-bar { grid-template-columns: auto minmax(0, 1fr) auto; }
+  .scene-title { justify-self: stretch; }
+}
+@media (max-width: 430px) {
+  .control-dock .status-cell { min-height: 52px; height: 52px; padding: 5px 8px; }
+  .control-dock .cell-saldo { grid-template-columns: 44px minmax(0, 1fr); column-gap: 8px; padding: 5px 10px 5px 6px; }
+  .control-dock .saldo-head strong { font-size: 20px; }
+  .control-dock #cell-tempo { justify-content: center; align-items: flex-start; gap: 2px; }
+  .control-dock #cell-tempo strong { font-size: 18px; }
+  .control-dock .vez-inline { font-size: 12px; }
+  .control-dock .vez-inline b { font-size: 13px; }
+  .scene-title { font-size: 11px; letter-spacing: .05em; }
+}
