@@ -61,4 +61,34 @@
     new MutationObserver(encaixarTituloNaCitacao).observe(alvo, { childList: true, characterData: true, subtree: true });
   }
   document.addEventListener("visibilitychange", encaixarTituloNaCitacao);
+
+  function garantirTemposLongos() {
+    const grupo = document.querySelector('[aria-label="Tempo por jogada"]');
+    if (!grupo || grupo.querySelector('[data-tempo="90"]')) return;
+    [
+      { s: "90", rotulo: "Mais folga" },
+      { s: "120", rotulo: "Máxima folga" }
+    ].forEach(function (op) {
+      const btn = document.createElement("button");
+      btn.type = "button";
+      btn.className = "tempo-op";
+      btn.setAttribute("data-tempo", op.s);
+      btn.setAttribute("aria-pressed", "false");
+      btn.innerHTML = "<b>" + op.s + " s</b><span>" + op.rotulo + "</span>";
+      btn.addEventListener("click", function () {
+        document.querySelectorAll("[data-tempo]").forEach(function (el) {
+          const on = el.getAttribute("data-tempo") === op.s;
+          el.classList.toggle("on", on);
+          el.setAttribute("aria-pressed", on ? "true" : "false");
+        });
+      });
+      grupo.appendChild(btn);
+    });
+    document.querySelectorAll("#how-to-play p").forEach(function (p) {
+      if (p.textContent.indexOf("30, 45 ou 60") !== -1) {
+        p.innerHTML = p.innerHTML.replace("30, 45 ou 60", "30, 45, 60, 90 ou 120");
+      }
+    });
+  }
+  garantirTemposLongos();
 })();
