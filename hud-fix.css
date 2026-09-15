@@ -140,7 +140,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: start;
-  column-gap: 8px;
+  column-gap: 6px;
   row-gap: 0;
 }
 #cell-tempo .tempo-inline,
@@ -148,28 +148,31 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  gap: 1px;
-  white-space: nowrap;
-  line-height: 1.1;
+  gap: 0;
+  min-width: 0;
+  line-height: 1;
 }
 #cell-tempo .tempo-inline { align-items: flex-start; }
 #cell-tempo .vez-inline { align-items: flex-end; text-align: right; }
 #cell-tempo .tempo-inline small,
 #cell-tempo .vez-inline {
   color: var(--accent);
-  font-size: 10px;
+  font-size: 9px;
   font-weight: 800;
-  letter-spacing: .12em;
+  letter-spacing: .1em;
   text-transform: uppercase;
 }
 #cell-tempo strong,
 #cell-tempo .vez-inline b {
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 800;
-  letter-spacing: 0;
+  letter-spacing: -0.03em;
   text-transform: none;
-  line-height: 1.05;
+  line-height: 1;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 #cell-tempo.minha-vez { border-color: #ff667a; }
 #cell-tempo.minha-vez strong,
@@ -224,5 +227,5 @@
   .control-dock .stash-art .wallet { width: 58px; height: 38px; }
   .control-dock .saldo-head strong { font-size: 20px; }
   .control-dock #cell-tempo strong,
-  .control-dock #cell-tempo .vez-inline b { font-size: 20px; }
+  .control-dock #cell-tempo .vez-inline b { font-size: 24px; }
 }
