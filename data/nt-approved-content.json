@@ -1,7 +1,38 @@
 {
   "schemaVersion": 1,
-  "checkpoint": "checkpoint-092-mateus-23-14-1corintios-11",
+  "checkpoint": "checkpoint-108-1joao-5-13-21-playtest",
   "items": [
+    {
+      "id": "approved-1joao-5-13-21",
+      "caseId": "nt2-1joao-confianca-oracao-pecado-conhecimento",
+      "book": "1 João",
+      "passage": "5.13-21",
+      "edition": "NAA",
+      "sourceId": "https://www.bible.com/pt/bible/1840/1JN.5.NAA",
+      "checkedAt": "2026-09-13",
+      "playtestedAt": "2026-09-14",
+      "decision": "approved-playtested",
+      "title": "Confiança, oração, pecado e certezas finais",
+      "question": "Segundo 1 João 5.13-21, que certezas a carta atribui aos que creem quanto à vida, à oração, ao pecado e ao conhecimento de Deus?",
+      "structuralReason": "Pauta já integrada no banco com quatro campos. Playtest em partida compartilhada confirmou enunciado, campos e restrição de 5.16-17.",
+      "questions": [
+        {
+          "question": "Qual confiança orienta os pedidos a Deus?",
+          "answer": "Se pedirmos segundo sua vontade, ele nos ouve.",
+          "references": ["5.14-15"]
+        },
+        {
+          "question": "Que afirmações a carta faz sobre o pecado, sem identificar qual leva à morte?",
+          "answer": "Há pecado que leva à morte, há pecado que não leva à morte e toda injustiça é pecado.",
+          "references": ["5.16-17"]
+        }
+      ],
+      "forbiddenAdditions": [
+        "identificar o pecado que leva à morte",
+        "identidades externas",
+        "aplicação atual fora do texto"
+      ]
+    },
     {
       "id": "approved-1corintios-11-2-16",
       "book": "1 Coríntios",
