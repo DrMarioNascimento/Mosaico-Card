@@ -4,13 +4,14 @@ import assert from "node:assert/strict";
 const html = readFileSync(new URL("../index.html", import.meta.url), "utf8");
 const js = readFileSync(new URL("../sala.js", import.meta.url), "utf8");
 const css = readFileSync(new URL("../sala.css", import.meta.url), "utf8");
+const abertura = readFileSync(new URL("../abertura.js", import.meta.url), "utf8");
 
 assert.match(html, /id="modal-mestre"/);
 assert.match(html, /data-tempo="30"/);
 assert.match(html, /data-tempo="45"/);
 assert.match(html, /data-tempo="60"/);
-assert.match(html, /data-tempo="90"/);
-assert.match(html, /data-tempo="120"/);
+assert.match(abertura, /data-tempo="90"/);
+assert.match(abertura, /data-tempo="120"/);
 assert.match(html, /data-duracao="curta"/);
 assert.match(html, /data-duracao="padrao"/);
 assert.match(html, /data-duracao="longa"/);
