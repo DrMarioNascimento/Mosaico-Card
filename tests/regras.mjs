@@ -40,9 +40,9 @@ assert.equal(regras.campoDisponivel(estado, "bia", "C1"), false);
 assert.equal(estado.saldosPorJogador.ana, 12);
 assert.equal(estado.saldosPorJogador.bia, 12);
 
-// Configuração: recomendação e seleção limitada a 30/45/60.
+// Configuração: recomendação e seleção 30/45/60/90/120.
 assert.deepEqual([2, 3, 5, 6, 8, 9, 12].map(regras.tempoRecomendado), [60, 60, 60, 45, 45, 30, 30]);
-assert.deepEqual(regras.TEMPOS_TURNO, [30, 45, 60]);
+assert.deepEqual(regras.TEMPOS_TURNO, [30, 45, 60, 90, 120]);
 let config = regras.validarConfiguracao({ numeroJogadores: 7, duracao: "longa", telao: true });
 assert.equal(config.valida, true);
 assert.deepEqual(config.config, {
@@ -55,6 +55,8 @@ assert.deepEqual(config.config, {
 config = regras.validarConfiguracao({ numeroJogadores: 7, turnoSegundos: 60, camposAtivos: 6 });
 assert.equal(config.valida, true);
 assert.equal(config.config.turnoSegundos, 60);
+assert.equal(regras.validarConfiguracao({ numeroJogadores: 4, turnoSegundos: 90 }).valida, true);
+assert.equal(regras.validarConfiguracao({ numeroJogadores: 4, turnoSegundos: 120 }).valida, true);
 assert.equal(regras.validarConfiguracao({ numeroJogadores: 7, turnoSegundos: 50 }).valida, false);
 assert.equal(regras.validarConfiguracao({ numeroJogadores: 2 }).valida, true);
 assert.equal(regras.validarConfiguracao({ numeroJogadores: 1 }).valida, false);
@@ -83,6 +85,8 @@ assert.equal(regras.calcularCiclos(4, 12, "longa"), 4);
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60), { ciclos: 4, segundos: 720 });
 assert.deepEqual(regras.calcularTempoTotal(4, 2, 60), { ciclos: 4, segundos: 480 });
 assert.deepEqual(regras.calcularTempoTotal(9, 12, 30), { ciclos: 3, segundos: 1080 });
+assert.deepEqual(regras.calcularTempoTotal(4, 3, 90), { ciclos: 4, segundos: 1080 });
+assert.deepEqual(regras.calcularTempoTotal(4, 3, 120), { ciclos: 4, segundos: 1440 });
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60, "curta"), { ciclos: 3, segundos: 540 });
 assert.deepEqual(regras.calcularTempoTotal(4, 3, 60, "longa"), { ciclos: 5, segundos: 900 });
 assert.throws(() => regras.calcularTempoTotal(4, 3, 50), RangeError);
