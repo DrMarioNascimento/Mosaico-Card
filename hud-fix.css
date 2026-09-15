@@ -165,11 +165,11 @@
 #cell-tempo strong,
 #cell-tempo .vez-inline b {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 800;
   letter-spacing: 0;
   text-transform: none;
-  line-height: 1.1;
+  line-height: 1.05;
 }
 #cell-tempo.minha-vez { border-color: #ff667a; }
 #cell-tempo.minha-vez strong,
@@ -224,5 +224,5 @@
   .control-dock .stash-art .wallet { width: 58px; height: 38px; }
   .control-dock .saldo-head strong { font-size: 20px; }
   .control-dock #cell-tempo strong,
-  .control-dock #cell-tempo .vez-inline b { font-size: 15px; }
+  .control-dock #cell-tempo .vez-inline b { font-size: 20px; }
 }
