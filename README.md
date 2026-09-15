@@ -57,14 +57,14 @@ Documentos de acompanhamento: [`docs/BANCO-NT-MESTRE.md`](docs/BANCO-NT-MESTRE.m
 
 1. Abertura com Bíblia e peça dourada.
 2. Tela de explicação da partida — mestre e convidado passam por ela.
-3. O Mestre configura a sala: **30, 45 ou 60 segundos**, duração curta/padrão/longa e telão opcional.
+3. O Mestre configura a sala: **30, 45, 60, 90 ou 120 segundos**, duração curta/padrão/longa e telão opcional.
 4. A sala é aberta e o QR Code fica disponível imediatamente.
 5. O Mestre informa sua identidade e escolhe sua camada de assistência, pois também participa como jogador.
 6. Cada participante entra e escolhe individualmente **Livre, Assistida ou Guiada**.
 7. O início só é liberado com 2 a 12 participantes e todos marcados como prontos.
 8. A pauta é sorteada apenas no início da partida.
 
-Tempo sugerido: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre escolhe um desses três valores.
+Tempo sugerido: 60 s para 2–5 jogadores, 45 s para 6–8 e 30 s para 9–12. O Mestre escolhe um dos cinco valores.
 
 A assistência é pessoal e não muda fatos, alternativas, custos, tempo ou pontuação. Os códigos internos C, P e H organizam o banco; a mesa mostra rótulos, texto da pista e síntese — não os ids.
 
