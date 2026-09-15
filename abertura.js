@@ -45,4 +45,19 @@
     }
     document.getElementById("btn-abrir-mesa").focus();
   });
+
+  function encaixarTituloNaCitacao() {
+    const titulo = document.getElementById("caso-titulo");
+    const pergunta = document.getElementById("mesa-question");
+    if (!titulo || !pergunta || !pergunta.parentNode) return;
+    if (titulo.nextElementSibling === pergunta) return;
+    pergunta.parentNode.insertBefore(titulo, pergunta);
+    titulo.hidden = false;
+  }
+  encaixarTituloNaCitacao();
+  const alvo = document.getElementById("caso-titulo");
+  if (alvo && window.MutationObserver) {
+    new MutationObserver(encaixarTituloNaCitacao).observe(alvo, { childList: true, characterData: true, subtree: true });
+  }
+  document.addEventListener("visibilitychange", encaixarTituloNaCitacao);
 })();
