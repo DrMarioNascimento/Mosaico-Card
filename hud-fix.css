@@ -3,15 +3,20 @@
 
 .deal-bar {
   display: grid;
-  grid-template-columns: auto 1fr auto auto;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   gap: 8px 10px;
 }
 .deal-bar .brand-lockup { grid-column: 1; min-width: 0; }
 .deal-bar .mark-name { display: inline; }
 .deal-bar .scene-title,
-.deal-bar #caso-titulo,
-.mesa-title-info { display: none !important; }
+.deal-bar #caso-titulo { display: none !important; }
+.mesa-title-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
 #mesa-info {
   width: 36px;
   min-width: 36px;
@@ -33,10 +38,15 @@
   font-size: 12px;
 }
 
+#deal .market {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+}
 #deal #caso-titulo,
 #deal .scene-title {
   display: block !important;
-  margin: 0 0 8px;
+  grid-column: 1 / -1 !important;
+  margin: 0;
   text-align: left;
   letter-spacing: .08em;
   text-transform: uppercase;
@@ -45,6 +55,13 @@
   font-weight: 800;
   line-height: 1.25;
   text-wrap: balance;
+}
+#mesa-question,
+#jogadores-bar,
+#log,
+#monte-box,
+#pistas-box {
+  grid-column: 1 / -1 !important;
 }
 #mesa-question {
   margin: 0;
