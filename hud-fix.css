@@ -9,16 +9,19 @@
 }
 .deal-bar .brand-lockup { grid-column: 1; min-width: 0; }
 .deal-bar .mark-name { display: none; }
+.mesa-title-info,
 .deal-actions {
-  grid-column: 3;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
   gap: 8px;
-  flex: 0 0 auto;
+  min-width: 0;
 }
-.deal-bar .scene-title {
-  grid-column: 2;
+.mesa-title-info { grid-column: 2; }
+.deal-actions { grid-column: 3; justify-content: flex-end; flex: 0 0 auto; }
+.deal-bar .scene-title,
+.mesa-title-info .scene-title {
+  flex: 1 1 auto;
+  grid-column: auto;
   justify-self: stretch;
   min-width: 0;
   margin: 0;
@@ -50,7 +53,7 @@
   line-height: 1;
 }
 .deal-sala {
-  grid-column: auto;
+  grid-column: 3;
   min-width: 64px;
   width: auto;
   min-height: 36px;
