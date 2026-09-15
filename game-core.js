@@ -3,7 +3,7 @@
   if (typeof module === "object" && module.exports) module.exports = api;
   root.MC_RULES = api;
 })(typeof globalThis !== "undefined" ? globalThis : this, function () {
-  const TEMPOS_TURNO = Object.freeze([30, 45, 60]);
+  const TEMPOS_TURNO = Object.freeze([30, 45, 60, 90, 120]);
   const DURACOES = Object.freeze(["curta", "padrao", "longa"]);
   const VALORES_POR_QUANTIDADE = Object.freeze({
     4: Object.freeze([8, 5, 3, 2]),
@@ -71,7 +71,7 @@
     if (!erros.length) recomendado = tempoRecomendado(numeroJogadores);
     const turnoSegundos = origem.turnoSegundos == null ? recomendado : inteiro(origem.turnoSegundos);
     if (!TEMPOS_TURNO.includes(turnoSegundos)) {
-      erros.push("turnoSegundos deve ser 30, 45 ou 60");
+      erros.push("turnoSegundos deve ser 30, 45, 60, 90 ou 120");
     }
 
     const duracao = origem.duracao || "padrao";
@@ -183,7 +183,7 @@
   function calcularTempoTotal(camposAtivos, numeroJogadores, turnoSegundos, duracao) {
     const tempo = inteiro(turnoSegundos);
     if (!TEMPOS_TURNO.includes(tempo)) {
-      throw new RangeError("turnoSegundos deve ser 30, 45 ou 60.");
+      throw new RangeError("turnoSegundos deve ser 30, 45, 60, 90 ou 120.");
     }
     const ciclos = calcularCiclos(camposAtivos, numeroJogadores, duracao);
     return {
