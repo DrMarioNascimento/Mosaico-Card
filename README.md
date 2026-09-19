@@ -165,3 +165,9 @@ A suíte cobre sintaxe, identidade, QR/sala, estrutura, fechamento, cronômetros
 **Topics:** `mosaico`, `card-game`, `multiplayer`, `firebase`, `firestore`, `javascript`, `mobile-first`, `serious-game`, `educational-game`, `nova-almeida-atualizada`
 
 Criação: **M&O**.
+
+## Licença e uso
+
+O Mosaico Card é um projeto autoral proprietário. O acesso e a execução da versão publicada são permitidos para uso pessoal, educacional e demonstração não comercial; a publicação do repositório não autoriza copiar, adaptar, redistribuir, republicar ou explorar o projeto. Consulte [LICENSE.md](LICENSE.md).
+
+**Criação:** Mário César Nascimento e Osana Melo Nascimento.
