@@ -2,6 +2,8 @@
 
 Copyright © 2026 Mário César Nascimento e Osana Melo Nascimento. Todos os direitos reservados.
 
+Revisão documental: 7 de outubro de 2026. Esta revisão confirma a licença proprietária. O repositório não passa a ser código aberto.
+
 ## Titularidade
 
 O **Mosaico Card — Mercado de Pistas**, incluindo código, interface, cartas, banco de pautas, textos, imagens, animações, regras, estrutura de jogo, organização didática e demais componentes originais, é projeto autoral de **Mário César Nascimento e Osana Melo Nascimento**.
@@ -43,6 +45,7 @@ O projeto é disponibilizado no estado em que se encontra, para uso educacional 
 **Titulares declarados:** Mário César Nascimento e Osana Melo Nascimento  
 **Projeto:** Mosaico Card — Mercado de Pistas  
 **País:** Brasil  
-**Ano:** 2026
+**Ano:** 2026  
+**Revisão documental:** 7 de outubro de 2026
 
 Todos os direitos não expressamente concedidos permanecem reservados.
