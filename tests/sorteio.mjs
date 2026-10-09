@@ -5,7 +5,7 @@ import { createContext, runInContext } from "node:vm";
 const catalogSource = readFileSync(new URL("../cases-nt.js", import.meta.url), "utf8");
 const runtimeSource = readFileSync(new URL("../bank-runtime.js", import.meta.url), "utf8");
 const storage = new Map([["mc:nt:saco:v1", JSON.stringify({ ids: ["nt-001"], ultimo: "nt-052" })]]);
-const context = createContext({ window: {}, globalThis: {}, localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) }, Math, JSON });
+const context = createContext({ window: {}, globalThis: {}, document: { createElement: () => ({}), head: { appendChild() {} } }, localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) }, Math, JSON });
 context.globalThis = context; context.window = context;
 runInContext(catalogSource, context); runInContext(runtimeSource, context);
 const bank = context.MC_NT_BANK;
