@@ -39,8 +39,7 @@ assert.match(game, /calcularTempoTotal/);
 assert.match(game, /width: "24px", height: "24px"/);
 assert.doesNotMatch(game, /vale 4 den/);
 
-assert.match(css, /\.verbos button\.ligado/);
-assert.match(css, /border-color:#ff5b73/);
-assert.match(css, /grid-template-columns: repeat\(2, minmax\(0,1fr\)\)/);
+assert.match(css, /@import url\("https:\/\/cdn\.jsdelivr\.net\/gh\/DrMarioNascimento\/Mosaico-Card@[0-9a-f]{40}\/styles\.css"\)/);
+assert.match(css, /@import url\("hud-fix\.css/);
 
 console.log("ok estrutura");
