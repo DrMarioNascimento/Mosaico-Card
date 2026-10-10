@@ -49,3 +49,11 @@ O projeto é disponibilizado no estado em que se encontra, para uso educacional 
 **Revisão documental:** 7 de outubro de 2026
 
 Todos os direitos não expressamente concedidos permanecem reservados.
+
+---
+
+## Nota editorial — 10 de outubro de 2026
+
+Esta revisão mantém a autoria conjunta de Mário César Nascimento e Osana Melo Nascimento. A identificação da tradução NAA como fonte editorial não atribui aos titulares do jogo direitos sobre textos e traduções de terceiros.
+
+Esta nota registra a revisão da documentação. Não altera as cláusulas anteriores, os titulares, as permissões, as restrições nem as licenças próprias de terceiros.
