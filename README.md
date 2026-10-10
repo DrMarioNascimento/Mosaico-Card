@@ -1,5 +1,12 @@
 # Mosaico Card — Mercado de Pistas
 
+## Estado e manutenção — 10 de outubro de 2026
+
+O catálogo vigente é NT/NAA v2, com fonte editorial em `data/nt-bank.json` e saída gerada em `cases-nt.js`. O número de pautas elegíveis depende da quantidade de jogadores; consulte [o relatório de capacidade](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md). Não edite a saída gerada manualmente.
+
+O fluxo de manutenção é validar o banco, gerar a saída, executar `npm test` e conferir uma partida completa, incluindo fechamento e reconexão. A suíte automatizada verifica estrutura e regras; a revisão bíblica, editorial e de ambiguidade continua separada. As referências à tradução NAA identificam a fonte dos recortes e não transferem direitos de terceiros aos autores do jogo.
+
+
 Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAICO explora a distância entre aquilo que parece ter acontecido e aquilo que os fatos permitem concluir.
 
 > O fato cabe na carta; a interpretação, não.
