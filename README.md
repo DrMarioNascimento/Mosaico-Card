@@ -13,7 +13,14 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 **Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
 
-Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-108-marcos-colchetes-excluidos`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
+Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-integral`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
+
+## Dragon Games
+
+O Mosaico Card faz parte do [catálogo Dragon Games](https://drmarionascimento.github.io/Dragon/).
+A versão disponível neste projeto é bíblica, dedicada ao Novo Testamento (NAA).
+Seu código, banco e publicação continuam neste repositório, com autoria conjunta
+e condições de uso descritas em [LICENSE.md](LICENSE.md).
 
 ## Estado atual
 
