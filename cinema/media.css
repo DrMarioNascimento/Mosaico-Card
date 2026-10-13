@@ -1,0 +1,7 @@
+/* frente do ingresso — ver coin.css para o movimento */
+:root { --coin-face: url("ingresso-a.svg?v=1"); }
+.stash-art .coin,
+.coin-fly .face,
+.coin-fly .ghost {
+  background: var(--coin-face) center/cover no-repeat !important;
+}

@@ -1,0 +1,23 @@
+/* Mosaico Card — Cinema & Séries: sessão (formatos + Top 50) e ajustes da identidade. */
+.sessao-sub { margin: 4px 0 0; color: var(--gold); font-size: 13px; font-weight: 700; }
+.sessao-opcoes { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; margin-top: 10px; }
+.sessao-op {
+  display: flex; align-items: center; gap: 10px; min-height: var(--touch, 44px);
+  padding: 10px 12px; border: 1px solid #3d6474; border-radius: 13px; background: #0e2732; cursor: pointer;
+}
+.sessao-op input { inline-size: 22px; block-size: 22px; accent-color: #d7a24a; flex: 0 0 auto; margin: 0; }
+.sessao-op b, .sessao-op small { display: block; }
+.sessao-op small { color: var(--muted); font-size: 11px; margin-top: 2px; }
+.sessao-op:has(input:checked) { border-color: #d7a24a; background: #1d2a26; }
+.sessao-top { grid-column: 1 / -1; }
+.sessao-aviso { margin: 8px 0 0; color: #f2b8c6; font-size: 13px; font-weight: 700; }
+.sessao-linha { margin: 4px 0 0; color: var(--gold); font-size: 13px; font-weight: 700; letter-spacing: .02em; }
+.lobby-sessao { margin: 12px 0; padding: 12px 14px; border: 1px solid #3d6474; border-radius: 13px; background: #0e2732; }
+.lobby-sessao .kicker { margin: 0; }
+.mesa-sessao { margin: 2px 0 6px; font-size: 12px; text-align: center; }
+#btn-abrir-com-mesa:disabled { opacity: .45; cursor: not-allowed; }
+/* Revelação: o título real da obra ganha destaque, porque na mesa só aparece o título de sessão. */
+.revelacao-fonte { font-weight: 800; color: var(--gold); }
+@media (max-width: 380px) {
+  .sessao-opcoes { grid-template-columns: 1fr; }
+}

@@ -1,0 +1,20 @@
+/* Cinema & Séries: ingresso (frente e verso) no lugar do denário */
+:root {
+  --coin-a: url("ingresso-a.svg?v=1");
+  --coin-b: url("ingresso-b.svg?v=1");
+}
+.stash-art .coin,
+.coin-fly .face.a,
+.coin-stamp:not(.b) {
+  background-image: var(--coin-a) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}
+.coin-fly .face.b,
+.coin-stamp.b {
+  background-image: var(--coin-b) !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+}

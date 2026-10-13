@@ -1,0 +1,12 @@
+{
+  "name": "mosaico-card-cinema",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Mosaico Card — Cinema & Séries (jogo independente dentro do repositório Mosaico-Card).",
+  "scripts": {
+    "validate:bank": "node tools/validate-cinema-bank.mjs data/cinema-bank.json",
+    "generate:bank": "node tools/generate-cinema-bank.mjs data/cinema-bank.json data/cinema-base.csv cases-cinema.js",
+    "check": "node --check game-core.js && node --check case-pipoca.js && node --check cases-cinema.js && node --check sessao.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js && node --check tools/generate-cinema-bank.mjs && node --check tools/validate-cinema-bank.mjs",
+    "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs && node tests/regras.mjs && node tests/banco-cinema.mjs && node tests/sessao-sorteio.mjs"
+  }
+}

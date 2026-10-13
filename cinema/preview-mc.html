@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MC — prova de letra</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@700;900&family=Cinzel:wght@700;900&family=DM+Serif+Display&family=Inter:wght@800&display=swap" rel="stylesheet">
+  <style>
+    :root { --bg:#0b202b; --bg2:#214252; --ink:#dcebf3; --accent:#65d5cc; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 20px 14px 48px;
+      font-family: Inter, sans-serif;
+      color: var(--ink);
+      background: radial-gradient(ellipse at 0 0, var(--bg2), transparent 70%), var(--bg);
+    }
+    h1 { font-size: 18px; margin: 0 0 6px; }
+    p.lead { color:#aec6d5; margin: 0 0 22px; font-size: 14px; }
+    .opt {
+      background: linear-gradient(180deg,#163644,#102833);
+      border: 1px solid #3d6474;
+      border-radius: 14px;
+      padding: 16px;
+      margin: 0 0 14px;
+    }
+    .opt small { display:block; letter-spacing:.16em; text-transform:uppercase; font-size:10px; color:var(--accent); font-weight:800; font-family:Inter,sans-serif; }
+    .opt h2 { margin: 4px 0 12px; font-size: 15px; font-family:Inter,sans-serif; font-weight:700; }
+    .row { display:flex; align-items:center; gap:16px; }
+    .seal {
+      width: 72px; height: 72px;
+      display:grid; grid-template-columns:1fr 1fr; grid-template-rows:1fr 1fr;
+      gap:3px; padding:5px;
+      border:1px solid var(--accent); background:#0a1c26; flex:0 0 auto;
+    }
+    .seal i {
+      grid-column:1/-1; grid-row:1/-1;
+      display:grid; place-items:center;
+      background: linear-gradient(#1a3a48,#102833);
+      box-shadow: inset 0 0 0 1px #3a6070;
+      color: var(--accent);
+      font-size: 28px; line-height:1; font-style:normal;
+    }
+    .big { font-size: 72px; line-height: .9; color: var(--accent); margin: 10px 0 0; }
+    .a i, .a .big { font-family: "Cinzel Decorative", serif; font-weight: 900; }
+    .b i, .b .big { font-family: Cinzel, serif; font-weight: 900; }
+    .c i, .c .big { font-family: "DM Serif Display", serif; font-weight: 400; }
+    .mono {
+      width: 72px; height: 72px;
+      border: 1px solid var(--accent);
+      background: linear-gradient(#1a3a48,#102833);
+      display:grid; place-items:center;
+    }
+    .mono svg { width: 52px; height: 52px; }
+    a.back { color: var(--accent); font-size: 13px; }
+  </style>
+</head>
+<body>
+  <p><a class="back" href="./">← Mosaico Card</a></p>
+  <h1>Quatro letras para o MC</h1>
+  <p class="lead">Mesmo selo do topo, com a fonte de verdade. Toque o número que quiser no jogo.</p>
+
+  <article class="opt a">
+    <small>Opção 1</small>
+    <h2>Cinzel Decorative Black</h2>
+    <div class="row">
+      <div class="seal"><i>MC</i></div>
+      <div class="big">MC</div>
+    </div>
+  </article>
+
+  <article class="opt b">
+    <small>Opção 2</small>
+    <h2>Cinzel Black</h2>
+    <div class="row">
+      <div class="seal"><i>MC</i></div>
+      <div class="big">MC</div>
+    </div>
+  </article>
+
+  <article class="opt c">
+    <small>Opção 3</small>
+    <h2>DM Serif Display</h2>
+    <div class="row">
+      <div class="seal"><i>MC</i></div>
+      <div class="big">MC</div>
+    </div>
+  </article>
+
+  <article class="opt">
+    <small>Opção 4</small>
+    <h2>Monograma entrelaçado</h2>
+    <div class="row">
+      <div class="mono">
+        <svg viewBox="0 0 64 64" fill="none" aria-hidden="true">
+          <path d="M6 54V12l16 28L38 12v42" stroke="#65d5cc" stroke-width="6" stroke-linejoin="miter"/>
+          <path d="M28 18c14-2 28 4 28 16s-12 18-26 16" stroke="#65d5cc" stroke-width="6" fill="none"/>
+          <path d="M30 28h18" stroke="#65d5cc" stroke-width="6"/>
+        </svg>
+      </div>
+      <div class="big" style="font-family:Cinzel,serif;font-weight:900;font-size:42px;letter-spacing:.04em">selo</div>
+    </div>
+  </article>
+</body>
+</html>

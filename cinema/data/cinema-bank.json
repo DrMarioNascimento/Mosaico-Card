@@ -1,0 +1,485 @@
+{
+  "schemaVersion": 1,
+  "catalogVersion": "piloto-1",
+  "namespace": "mosaico-cinema-series-v1",
+  "canonicalSource": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+  "scope": "Filmes e séries a partir de 2001",
+  "cases": [
+    {
+      "id": "cs1-serie-wandinha",
+      "imdbId": "tt13443470",
+      "format": "serie",
+      "releaseYear": 2022,
+      "rating": "14 anos (conferir no Ministério da Justiça)",
+      "title": "Wandinha",
+      "sessionTitle": "Uma escola nada comum",
+      "generalReferences": [
+        {
+          "source": "IMDb",
+          "url": "https://www.imdb.com/title/tt13443470/",
+          "checkedAt": "2026-10-13"
+        },
+        {
+          "source": "Wikipédia (EN) — Wednesday (TV series)",
+          "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?",
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Título",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Wandinha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "A Família Addams"
+            },
+            {
+              "id": "C1-O3",
+              "text": "O Mundo Sombrio de Sabrina"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Coraline e o Mundo Secreto"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Protagonista",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Wandinha Addams"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Mortícia Addams"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Enid Sinclair"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sabrina Spellman"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Criação",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Alfred Gough e Miles Millar"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Tim Burton"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Irmãos Duffer"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ryan Murphy"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            },
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano de estreia",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "2022"
+            },
+            {
+              "id": "C4-O2",
+              "text": "2021"
+            },
+            {
+              "id": "C4-O3",
+              "text": "2023"
+            },
+            {
+              "id": "C4-O4",
+              "text": "2020"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "cards": [
+        {
+          "id": "P01",
+          "text": "Estreou em novembro de 2022, num serviço de streaming.",
+          "importance": "essential",
+          "relatedFields": [
+            "C4"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "epoca",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            },
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P02",
+          "text": "É uma série; a primeira temporada tem oito episódios.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "early",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "low",
+          "clueType": "formato",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P03",
+          "text": "A protagonista é transferida para um internato depois de ser expulsa de outra escola.",
+          "importance": "essential",
+          "relatedFields": [
+            "C2",
+            "C1"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "premissa",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P04",
+          "text": "O motivo da expulsão envolveu piranhas soltas na piscina da escola.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "premissa",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P05",
+          "text": "A protagonista toca violoncelo e escreve um romance policial numa máquina de escrever.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "low",
+          "clueType": "premissa",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P06",
+          "text": "Uma mão que anda sozinha é personagem fixo da série.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "high",
+          "clueType": "premissa",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P07",
+          "text": "A família da protagonista nasceu em cartuns publicados numa revista americana nos anos 1930.",
+          "importance": "essential",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "high",
+          "clueType": "curiosidade",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — The Addams Family",
+              "url": "https://en.wikipedia.org/wiki/The_Addams_Family",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P08",
+          "text": "Um cineasta famoso pela estética gótica dirigiu metade dos episódios da primeira temporada, mas não criou a série.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "bastidores",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            },
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P09",
+          "text": "Os criadores da série também criaram Smallville.",
+          "importance": "essential",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "middle",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "bastidores",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            },
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "text": "A atriz principal também está no elenco de Pânico (2022).",
+          "importance": "relevant",
+          "relatedFields": [
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "elenco",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt13443470/",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "text": "Uma atriz que viveu a mesma protagonista no cinema, nos anos 1990, aparece na série em outro papel.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C2"
+          ],
+          "recommendedMoment": "late",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "high",
+          "clueType": "elenco",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P12",
+          "text": "Uma cena de dança num baile da escola viralizou nas redes sociais.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C1"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "premios",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "text": "A primeira temporada é a série em inglês mais vista da história da Netflix nos primeiros 91 dias.",
+          "importance": "relevant",
+          "relatedFields": [
+            "C1",
+            "C4"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "medium",
+          "clueType": "premios",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Netflix Tudum — Most Popular TV (English)",
+              "url": "https://www.netflix.com/tudum/top10/most-popular/tv",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "text": "As gravações da primeira temporada aconteceram na Romênia.",
+          "importance": "contextual",
+          "relatedFields": [
+            "C3"
+          ],
+          "recommendedMoment": "any",
+          "narrativeFunction": "Aproximar a obra por um fato verificável",
+          "earlyRevealRisk": "low",
+          "clueType": "bastidores",
+          "twoPlayerSuitable": true,
+          "references": [
+            {
+              "source": "Wikipédia (EN) — Wednesday (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+              "checkedAt": "2026-10-13"
+            }
+          ]
+        }
+      ],
+      "reveal": {
+        "canonicalSummary": "Wandinha (Netflix, 2022), criada por Alfred Gough e Miles Millar, acompanha Wandinha Addams num internato.",
+        "hinge": "Tim Burton dirigiu episódios, mas não criou a série.",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt13443470/",
+            "checkedAt": "2026-10-13"
+          },
+          {
+            "source": "Wikipédia (EN) — Wednesday (TV series)",
+            "url": "https://en.wikipedia.org/wiki/Wednesday_(TV_series)",
+            "checkedAt": "2026-10-13"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "approved",
+        "editorial": "pending",
+        "ambiguities": []
+      }
+    }
+  ]
+}
