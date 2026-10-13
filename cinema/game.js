@@ -432,8 +432,8 @@
     if (!ePipoca(id)) { if (depois) depois(); return; }
     const item = peca(id), stage = $("#flip-stage"), front = $("#flip-front"), msg = $("#flip-msg"), inner = $("#flip-inner");
     if (!stage || !front) { if (depois) depois(); return; }
-    front.innerHTML = "<div class='pipoca-chamada'><span>Você encontrou</span><strong>PIPOCA DA SESSÃO</strong></div><img class='pipoca-art' alt='Balde de pipoca' src='" + PIPOCA_SRC + "'><p class='pipoca-valor'>Vale 6 ingressos</p>";
-    msg.textContent = jogador === idJogadorLocal() ? "Você achou a pipoca. Recebe 6 ingressos e a carta sai do jogo." : (NOMES[jogador] || "Alguém") + " achou a pipoca.";
+    front.innerHTML = "<div class='pipoca-chamada'><span>Você ganhou</span><strong>UMA PIPOCA</strong></div><img class='pipoca-art' alt='Balde de pipoca' src='" + PIPOCA_SRC + "'><p class='pipoca-valor'>Vale 6 ingressos</p>";
+    msg.textContent = jogador === idJogadorLocal() ? "Ganhou uma pipoca que vale 6 ingressos! A carta sai do jogo." : (NOMES[jogador] || "Alguém") + " ganhou uma pipoca que vale 6 ingressos.";
     if (inner) { inner.style.animation = "none"; void inner.offsetWidth; inner.style.animation = ""; }
     stage.hidden = false;
     if (flipTimer) clearTimeout(flipTimer);
@@ -460,7 +460,7 @@
     if (!achou) mao(jogador).push(id);
     revelarCompra(id, jogador, function () {
       pagarRecompensa(id, jogador);
-      state.log = achou ? "A pipoca saiu do jogo. Recompensa: +6." : "Pista comprada: " + peca(id).marca + ".";
+      state.log = achou ? "Ganhou uma pipoca que vale 6 ingressos." : "Pista comprada: " + peca(id).marca + ".";
       passarVez();
     });
     render();
