@@ -28,3 +28,11 @@ const sucessos = base.filter(l => l.includes(",sucessos,"));
 assert.equal(sucessos.filter(l => l.includes(",filme,")).length, 50);
 assert.equal(sucessos.filter(l => l.includes(",serie,")).length, 50);
 console.log("ok banco cinema", bank.cases.length, "pauta(s);", base.length, "títulos na base");
+
+// As alternativas saem embaralhadas: a resposta certa não pode ficar sempre na mesma posição.
+import { createRequire } from "node:module";
+const catalogo = createRequire(import.meta.url)("../cases-cinema.js");
+const posicoes = new Set(catalogo.order.flatMap(id => catalogo.byId[id].fields.map(f => f.opcoes.findIndex(o => o.id === f.respostaId))));
+assert.ok(posicoes.size > 1 || catalogo.order.length < 2, "a resposta certa varia de posição");
+assert.ok(catalogo.order.every(id => catalogo.byId[id].fields.every(f => f.opcoes.some(o => o.id === f.respostaId))));
+console.log("ok alternativas embaralhadas");

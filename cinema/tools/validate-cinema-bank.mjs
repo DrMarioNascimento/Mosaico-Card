@@ -59,6 +59,17 @@ export function validateBank(bank) {
       if (!options.some(option => option.id === field.answerId)) add(fieldAt, "gabarito deve apontar para uma alternativa");
       checkRefs(field.answerReferences, `${fieldAt}.answerReferences`);
     });
+    const label = id => ((entry.fields || []).find(field => field.id === id) || {}).label;
+    if (label("C1") !== "Título") add(`${at}.C1`, "rótulo deve ser \"Título\"");
+    if (!["Protagonista", "Um dos protagonistas"].includes(label("C2"))) add(`${at}.C2`, "rótulo deve ser \"Protagonista\" ou \"Um dos protagonistas\" (elenco coral)");
+    if (label("C3") !== (entry.format === "filme" ? "Direção" : "Criação")) add(`${at}.C3`, entry.format === "filme" ? "em filmes o rótulo é \"Direção\"" : "em séries o rótulo é \"Criação\"");
+    if (label("C4") !== (entry.format === "filme" ? "Ano de lançamento" : "Ano de estreia")) add(`${at}.C4`, entry.format === "filme" ? "em filmes o rótulo é \"Ano de lançamento\"" : "em séries o rótulo é \"Ano de estreia\"");
+    const c2 = (entry.fields || []).find(field => field.id === "C2");
+    if (c2 && c2.label === "Um dos protagonistas" && (!Array.isArray(c2.coProtagonists) || !c2.coProtagonists.length)) add(`${at}.C2`, "em \"Um dos protagonistas\", liste os demais protagonistas em coProtagonists (não podem aparecer como alternativas erradas)");
+    if (c2 && Array.isArray(c2.coProtagonists)) {
+      const wrong = (c2.options || []).filter(option => option.id !== c2.answerId).map(option => normalized(option.text));
+      c2.coProtagonists.forEach(name => { if (wrong.includes(normalized(name))) add(`${at}.C2`, `"${name}" também é protagonista e não pode ser alternativa errada`); });
+    }
     const c4 = (entry.fields || []).find(field => field.id === "C4");
     if (c4 && /ano/i.test(c4.label)) {
       (c4.options || []).forEach(option => {
@@ -97,7 +108,7 @@ export function validateBank(bank) {
   return errors;
 }
 
-const isCli = process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url);
+const isCli = process.argv[1] && fs.realpathSync(path.resolve(process.argv[1])) === fs.realpathSync(fileURLToPath(import.meta.url));
 if (isCli) {
   const input = path.resolve(process.argv[2] || "data/cinema-bank.json");
   const bank = JSON.parse(fs.readFileSync(input, "utf8"));

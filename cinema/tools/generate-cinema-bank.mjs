@@ -36,6 +36,19 @@ const errors = validateBank(bank);
 bank.cases.forEach(entry => { if (!byImdb[entry.imdbId]) errors.push(`${entry.id}: imdbId ${entry.imdbId} não está na base de títulos`); });
 if (errors.length) throw new Error(`Banco inválido:\n${errors.join("\n")}`);
 
+// Embaralha as alternativas de forma determinística (mesma ordem para todos os jogadores),
+// para que a resposta certa não fique sempre na mesma posição.
+function seededShuffle(list, seed) {
+  let h = 2166136261;
+  for (const ch of seed) { h ^= ch.charCodeAt(0); h = Math.imul(h, 16777619) >>> 0; }
+  const out = list.slice();
+  for (let i = out.length - 1; i > 0; i -= 1) {
+    h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0; h = Math.imul(h ^ (h >>> 13), 3266489909) >>> 0; h ^= h >>> 16;
+    const j = (h >>> 0) % (i + 1);
+    [out[i], out[j]] = [out[j], out[i]];
+  }
+  return out;
+}
 const refText = refs => refs.map(ref => ref.source).filter((v, i, a) => a.indexOf(v) === i).join("; ");
 const cases = bank.cases.map(entry => ({
   id: entry.id, kind: "canonical-case", imdbId: entry.imdbId, title: entry.title, sessionTitle: entry.sessionTitle,
@@ -46,7 +59,7 @@ const cases = bank.cases.map(entry => ({
   focalJustification: entry.focalJustification, editorial: { hinge: entry.reveal.hinge },
   fields: entry.__derived.fieldOrder.map((id, index) => {
     const field = entry.fields.find(item => item.id === id);
-    return { id: field.id, sourceOrder: entry.fields.indexOf(field) + 1, rotulo: field.label, opcoes: field.options.map(option => ({ id: option.id, texto: option.text })), respostaId: field.answerId, respostaCanonica: field.options.find(option => option.id === field.answerId).text, endereco: refText(field.answerReferences), answerReferences: field.answerReferences, isFocal: index === 0, pontosBase: entry.__derived.points[index] };
+    return { id: field.id, sourceOrder: entry.fields.indexOf(field) + 1, rotulo: field.label, opcoes: seededShuffle(field.options, entry.id + ":" + field.id).map(option => ({ id: option.id, texto: option.text })), respostaId: field.answerId, respostaCanonica: field.options.find(option => option.id === field.answerId).text + (Array.isArray(field.coProtagonists) && field.coProtagonists.length ? " (com " + field.coProtagonists.join(", ") + ")" : ""), endereco: refText(field.answerReferences), answerReferences: field.answerReferences, isFocal: index === 0, pontosBase: entry.__derived.points[index] };
   }),
   deck: { status: entry.__derived.playable ? "ready" : "blocked", minPlayers: entry.__derived.minPlayers, maxPlayers: entry.__derived.maxPlayers, cards: entry.cards.map(card => ({ ...card, texto: card.text })) },
   reveal: entry.reveal, review: entry.review,

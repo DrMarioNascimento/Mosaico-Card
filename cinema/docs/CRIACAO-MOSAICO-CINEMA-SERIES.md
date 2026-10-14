@@ -220,7 +220,7 @@ Distribuição por época dos Sucessos:
 | 2011–2020 | 29 | 26 |
 | 2021 em diante | 12 | 9 |
 
-Atenção: entre os Sucessos, 10 filmes e 18 séries têm protagonista ambíguo (elenco coral ou dupla), além de 40 filmes e 9 séries ainda "a avaliar". É a decisão 1 do §11.
+Atenção: entre os Sucessos, 10 filmes e 18 séries têm protagonista ambíguo (elenco coral ou dupla), além de 40 filmes e 9 séries ainda "a avaliar". Decidido: "Um dos protagonistas" (§11).
 
 ---
 
@@ -269,13 +269,15 @@ A escolha entre Novo Testamento e Cinema & Séries acontece **antes de entrar no
 
 ## 11. Decisões em aberto
 
-1. **Campo Protagonista em obras corais ou de dupla** (*Vingadores*, *Stranger Things*, *The Office*…), que agora estão entre os Sucessos. Opções: (a) nessas pautas, C2 vira "Personagem central da premissa", definido pela fonte canônica; (b) C2 passa a aceitar "um dos protagonistas", com as alternativas erradas vindas de outras obras; (c) trocar C2 por outro campo nessas pautas, como "Plataforma/estúdio de origem".
-2. **Porta de entrada:** onde o jogador escolhe entre Novo Testamento e Cinema & Séries. Opções: (a) duas portas no hub Dragon Games, como já acontece com outros jogos; (b) uma página de entrada no próprio Mosaico-Card. Na opção (b), a raiz deixaria de abrir direto o NT, o que mudaria os links atuais.
-3. **Fonte canônica:** IMDb (créditos e datas mais completos) ou Wikipédia em português (títulos brasileiros mais confiáveis). Também é possível combinar: uma fonte para créditos/datas e outra só para o título nacional.
-4. **Nomes próprios.** A regra do MOSAICO de usar arquétipos em vez de nomes vale para as estórias autorais. Aqui, o campo Protagonista exige nomes reais de personagens. Confirmar a exceção para o Mosaico Card temático.
-5. **Arte:** quem produz a nova identidade visual (abertura, ingresso, pipoca, verso das cartas).
+1. **Porta de entrada:** onde o jogador escolhe entre Novo Testamento e Cinema & Séries. Opções: (a) duas portas no hub Dragon Games, como já acontece com outros jogos; (b) uma página de entrada no próprio Mosaico-Card. Na opção (b), a raiz deixaria de abrir direto o NT, o que mudaria os links atuais.
+2. **Fonte canônica:** IMDb (créditos e datas mais completos) ou Wikipédia em português (títulos brasileiros mais confiáveis). Também é possível combinar: uma fonte para créditos/datas e outra só para o título nacional.
+3. **Nomes próprios.** A regra do MOSAICO de usar arquétipos em vez de nomes vale para as estórias autorais. Aqui, o campo Protagonista exige nomes reais de personagens. Confirmar a exceção para o Mosaico Card temático.
+4. **Arte:** quem produz a nova identidade visual (abertura, ingresso, pipoca, verso das cartas).
 
 ### Decididas em 13/10/2026
+- **Campo Protagonista em obras corais:** o campo passa a se chamar "Um dos protagonistas"; a resposta certa é um dos protagonistas (os demais ficam em `coProtagonists`, que o validador impede de aparecerem como alternativas erradas), e as alternativas erradas são personagens de outras obras. Rótulos fixos: C1 Título · C2 Protagonista/Um dos protagonistas · C3 Direção (filme)/Criação (série) · C4 Ano de lançamento (filme)/Ano de estreia (série).
+- **Alternativas embaralhadas:** o gerador embaralha a ordem das alternativas de cada campo (ordem fixa por pauta, igual para todos), para a resposta certa não ficar sempre na primeira posição.
+- Moeda: **ingresso**; carta bônus: **pipoca** ("Ganhou uma pipoca que vale 6 ingressos").
 - Cinema & Séries entra no repositório Mosaico-Card, numa pasta própria (`cinema/`), como jogo independente; a escolha entre NT e Cinema é feita antes, na porta de entrada (§6).
 - Recorte estrito: só obras **a partir de 2001**, sem exceções anteriores.
 - Base cruzada com regra de entrada (§8.2) e seleção Sucessos de 50 por formato (§8.3).
