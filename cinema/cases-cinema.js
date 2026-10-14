@@ -12,11 +12,11 @@
   },
   "summary": {
     "cases": 13,
-    "playableCases": 0,
+    "playableCases": 13,
     "films": 6,
     "series": 7,
     "sucessos": 13,
-    "max12Cases": 0,
+    "max12Cases": 13,
     "baseTitles": 437,
     "baseSucessos": 100
   },
@@ -45,7 +45,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2022,
-      "rating": "16 anos (conferir no Ministério da Justiça)",
+      "rating": "16 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — Wednesday (TV series); Estadão/TecMundo — Wandinha: Netflix altera a classificação etária (14/12/2022); AdoroCinema — notícia sobre Wandinha (30/07/2025)",
@@ -233,7 +233,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -829,24 +829,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-vingadores-ultimato": {
       "id": "cs1-filme-vingadores-ultimato",
@@ -1050,7 +1046,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -1648,24 +1644,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-stranger-things": {
       "id": "cs1-serie-stranger-things",
@@ -1676,7 +1668,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2016,
-      "rating": "16 anos (conferir no Ministério da Justiça)",
+      "rating": "16 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — Stranger Things; Wikipédia (EN) — Stranger Things season 1",
@@ -1869,7 +1861,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -2475,24 +2467,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-homem-aranha-sem-volta-para-casa": {
       "id": "cs1-filme-homem-aranha-sem-volta-para-casa",
@@ -2701,7 +2689,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -3280,24 +3268,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-big-bang-theory": {
       "id": "cs1-serie-the-big-bang-theory",
@@ -3308,7 +3292,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2007,
-      "rating": "12 anos (conferir no Ministério da Justiça)",
+      "rating": "12 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — The Big Bang Theory; Wikipédia (PT) — The Big Bang Theory",
@@ -3501,7 +3485,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -4103,24 +4087,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-avatar-o-caminho-da-agua": {
       "id": "cs1-filme-avatar-o-caminho-da-agua",
@@ -4344,7 +4324,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -4980,24 +4960,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-office": {
       "id": "cs1-serie-the-office",
@@ -5008,7 +4984,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2005,
-      "rating": "12 anos (conferir no Ministério da Justiça)",
+      "rating": "12 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — The Office (American TV series); Wikipédia (PT) — The Office (Estados Unidos); Wikipédia (EN) — The Office (American TV series) season 1",
@@ -5221,7 +5197,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -5863,24 +5839,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-v-de-vinganca": {
       "id": "cs1-filme-v-de-vinganca",
@@ -5891,7 +5863,7 @@
       "format": "filme",
       "selection": "sucessos",
       "releaseYear": 2005,
-      "rating": "14 anos (conferir no Ministério da Justiça)",
+      "rating": "14 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — V for Vendetta (film); Wikipédia (PT) — V for Vendetta (filme)",
@@ -6089,7 +6061,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -6690,24 +6662,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-round-6": {
       "id": "cs1-serie-round-6",
@@ -6718,7 +6686,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2021,
-      "rating": "16 anos (conferir no Ministério da Justiça)",
+      "rating": "16 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — Squid Game; Wikipédia (PT) — Round 6",
@@ -6916,7 +6884,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -7519,24 +7487,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-barbie": {
       "id": "cs1-filme-barbie",
@@ -7745,7 +7709,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -8329,24 +8293,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-boys": {
       "id": "cs1-serie-the-boys",
@@ -8357,7 +8317,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2019,
-      "rating": "18 anos (conferir no Ministério da Justiça)",
+      "rating": "18 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — The Boys (TV series); Wikipédia (PT) — The Boys (série de televisão)",
@@ -8555,7 +8515,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -9172,24 +9132,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-coringa": {
       "id": "cs1-filme-coringa",
@@ -9393,7 +9349,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -9968,24 +9924,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-breaking-bad": {
       "id": "cs1-serie-breaking-bad",
@@ -9996,7 +9948,7 @@
       "format": "serie",
       "selection": "sucessos",
       "releaseYear": 2008,
-      "rating": "16 anos (conferir no Ministério da Justiça)",
+      "rating": "16 anos",
       "canon": {
         "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
         "reference": "IMDb; Wikipédia (EN) — Breaking Bad; Wikipédia (PT) — Breaking Bad; Wikipédia (EN) — Pilot (Breaking Bad)",
@@ -10214,7 +10166,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -10828,24 +10780,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
         "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending"
-      ]
+      "pendingIssues": []
     }
   }
 };});

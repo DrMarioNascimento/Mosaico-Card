@@ -1,6 +1,6 @@
 # Revisão — Lote 1 (Cinema & Séries)
 
-Para cada obra: confira fatos, spoilers e texto. Quando aprovar, a pauta entra no sorteio (hoje só aparecem com `?rascunho=1`).
+**Status: revisado e aprovado pelo autor em 14/10/2026** (fatos, spoilers, texto e classificações indicativas). As 13 pautas entram no sorteio normal, sem `?rascunho=1`.
 
 ## Wandinha (Série, 2022)
 

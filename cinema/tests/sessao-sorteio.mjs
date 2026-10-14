@@ -11,6 +11,8 @@ function montar(search) {
   runInContext(load("cases-cinema.js"), ctx);
   // Pautas sintéticas para exercitar os filtros (formato × Top 50), sem depender do conteúdo editorial.
   const bank = ctx.MC_CINEMA_BANK;
+  // As pautas reais passam a valer como "em revisão" neste teste, para que só as sintéticas entrem no sorteio normal.
+  bank.order.forEach(id => { bank.byId[id] = Object.assign({}, bank.byId[id], { status: Object.assign({}, bank.byId[id].status, { playable: false }) }); });
   const modelo = bank.byId[bank.order[0]];
   [["t-filme-top", "filme", "sucessos"], ["t-filme-cat", "filme", "catalogo"], ["t-serie-top", "serie", "sucessos"], ["t-serie-cat", "serie", "catalogo"]].forEach(([id, format, selection]) => {
     bank.byId[id] = Object.assign({}, modelo, { id, format, selection, status: Object.assign({}, modelo.status, { playable: true }), deck: Object.assign({}, modelo.deck, { maxPlayers: 6 }) });
