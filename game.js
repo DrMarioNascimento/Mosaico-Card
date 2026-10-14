@@ -88,6 +88,21 @@
   }
   function tempoRestante(deadline) { return deadline ? Math.max(0, (Number(deadline) - Date.now()) / 1000) : 0; }
 
+  // Embaralha as alternativas numa ordem fixa por pauta e campo (igual para todos os jogadores da mesa),
+  // para que a resposta certa não fique sempre na primeira posição.
+  function embaralharFixo(lista, semente) {
+    let h = 2166136261;
+    for (let i = 0; i < semente.length; i += 1) { h ^= semente.charCodeAt(i); h = Math.imul(h, 16777619) >>> 0; }
+    const out = lista.slice();
+    for (let i = out.length - 1; i > 0; i -= 1) {
+      h = Math.imul(h ^ (h >>> 15), 2246822507) >>> 0;
+      h = Math.imul(h ^ (h >>> 13), 3266489909) >>> 0;
+      h = (h ^ (h >>> 16)) >>> 0;
+      const j = h % (i + 1);
+      const t = out[i]; out[i] = out[j]; out[j] = t;
+    }
+    return out;
+  }
   function normalizarCaso(origem) {
     if (!origem) return null;
     if (origem.pecas && origem.campos) return origem;
@@ -128,7 +143,7 @@
           respostaCanonica: item.respostaCanonica,
           enderecoNAA: item.enderecoNAA,
           pontosBase: valores[index],
-          opcoes: (item.opcoes || []).map(function (op) { return { id: op.id, txt: op.texto }; })
+          opcoes: embaralharFixo(item.opcoes || [], origem.id + ":" + item.id).map(function (op) { return { id: op.id, txt: op.texto }; })
         };
       })
     };

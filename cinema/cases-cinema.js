@@ -4106,9 +4106,7 @@
         "factual": "pending",
         "spoiler": "pending",
         "editorial": "pending",
-        "ambiguities": [
-          "Título no Brasil: a série é conhecida e distribuída como \"The Big Bang Theory\", mas o SBT a exibiu como \"Big Bang: A Teoria\"."
-        ]
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
@@ -4121,8 +4119,7 @@
       "pendingIssues": [
         "factual:pending",
         "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Título no Brasil: a série é conhecida e distribuída como \"The Big Bang Theory\", mas o SBT a exibiu como \"Big Bang: A Teoria\"."
+        "editorial:pending"
       ]
     },
     "cs1-filme-avatar-o-caminho-da-agua": {

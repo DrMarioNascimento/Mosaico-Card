@@ -158,7 +158,6 @@ Para cada obra: confira fatos, spoilers e texto. Quando aprovar, a pauta entra n
 - **Criação:** Chuck Lorre e Bill Prady — erradas: Chuck Lorre e Lee Aronsohn, James Burrows, Steven Molaro
 - **Ano de estreia:** 2007 — erradas: 2006, 2008, 2009
 - **Dente:** James Burrows dirigiu os dois pilotos e Chuck Lorre também criou Dois Homens e Meio com Lee Aronsohn, mas a série é de Chuck Lorre e Bill Prady.
-- **Pendência:** Título no Brasil: a série é conhecida e distribuída como "The Big Bang Theory", mas o SBT a exibiu como "Big Bang: A Teoria".
 
 | # | Pista | Momento |
 |---|---|---|
