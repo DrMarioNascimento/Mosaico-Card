@@ -17,7 +17,7 @@
   <link rel="stylesheet" href="cards.css?v=mesa3d3">
   <link rel="stylesheet" href="sala.css?v=ident1">
   <link rel="stylesheet" href="abertura.css?v=5">
-  <link rel="stylesheet" href="cinema.css?v=1">
+  <link rel="stylesheet" href="cinema.css?v=3">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -28,7 +28,7 @@
       </header>
       <h1 id="welcome-title">Você conhece filmes e séries.<br><span>Mas consegue reconhecer<br class="welcome-break"> a obra através de pistas?</span></h1>
       <div class="welcome-art" role="img" aria-label="Uma peça dourada de quebra-cabeça flutua entre uma claquete de cinema e uma tela de série.">
-        <img class="welcome-bible" src="assets/abertura/filmes-series-v1.jpg" width="1536" height="1024" alt="" fetchpriority="high" draggable="false">
+        <img class="welcome-bible" src="assets/abertura/filmes-series-v1.jpg?v=2" width="1536" height="1024" alt="" fetchpriority="high" draggable="false">
         <img class="welcome-piece" src="assets/abertura/peca-dourada-frontal-v2.png" width="1280" height="1280" alt="" draggable="false">
       </div>
       <button type="button" id="welcome-start">Teste seu conhecimento! <span aria-hidden="true">→</span></button>
@@ -60,7 +60,7 @@
       <p class="lede">Seu objetivo é conseguir pistas, conectar os detalhes e descobrir qual é a obra — e responder às perguntas sobre ela. Vence quem somar mais pontos.</p>
       <ol class="how-steps">
         <li><strong>Conheça o desafio</strong><p>Um filme ou uma série é sorteado para a mesa. Leia as perguntas e examine suas pistas: cada detalhe pode ajudar a encontrar uma resposta.</p></li>
-        <li><strong>Busque novas pistas</strong><p>Você começa com 12 ingressos. Na sua vez, pode comprar uma pista do monte por 4 ingressos ou capturar uma pista permitida de outro jogador por 2. Também pode consignar uma pista no balaio.</p></li>
+        <li><strong>Busque novas pistas</strong><p>Você começa com 12 ingressos. Na sua vez, pode comprar uma pista do monte por 4 ingressos ou capturar uma pista permitida de outro jogador por 2. Também pode consignar uma pista no balaio: quem levá-la depois paga 2 ingressos a você.</p></li>
         <li><strong>Conecte os detalhes e arrisque</strong><p>Quando acreditar que já sabe, use <b>Arriscar</b> e escolha uma resposta. Cada ação encerra sua vez, então decida entre buscar mais pistas e responder.</p></li>
       </ol>
       <section class="how-bonus" aria-labelledby="how-bonus-title">
@@ -443,9 +443,9 @@
   <script src="abertura.js?v=3"></script>
   <script src="case-pipoca.js?v=cin1"></script>
   <script src="cases-cinema.js?v=cin1"></script>
-  <script src="bank-runtime.js?v=cin1"></script>
+  <script src="bank-runtime.js?v=cin2"></script>
   <script src="game-core.js?v=regras6"></script>
-  <script src="game.js?v=partida9"></script>
+  <script src="game.js?v=cin2"></script>
   <script src="game-sala.js?v=partida3"></script>
 </body>
 </html>

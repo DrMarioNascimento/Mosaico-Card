@@ -42,8 +42,13 @@ assert.notEqual(a, b, "não repete dentro da mesma combinação");
 assert.ok(["t-filme-cat", "t-filme-top"].includes(a) && ["t-filme-cat", "t-filme-top"].includes(b));
 assert.ok(["t-filme-top", "t-serie-top"].includes(bank.sortear(4, sTop).id));
 assert.notEqual(bank.chaveSaco(4, sFilmes), bank.chaveSaco(4, sTop));
-assert.equal([...storage.keys()].length, 2, "um saco por combinação");
+assert.equal([...storage.keys()].filter(k => k.startsWith("mc:banco:saco:")).length, 2, "um saco por combinação");
 assert.ok(bank.sortear(4, { formatos: ["serie"], top50: false }).id.startsWith("t-serie"));
+
+// Memória global: trocar de combinação não repete a obra recém-jogada.
+const g = montar("");
+assert.equal(g.bank.sortear(4, { formatos: ["filme"], top50: true }).id, "t-filme-top");
+assert.equal(g.bank.sortear(4, { formatos: ["filme", "serie"], top50: true }).id, "t-serie-top", "evita a obra recente mesmo em outra combinação");
 
 // Modo rascunho libera pautas com estrutura aprovada, para teste.
 const r = montar("?rascunho=1");

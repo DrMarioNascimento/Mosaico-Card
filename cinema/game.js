@@ -2,6 +2,7 @@
   "use strict";
 
   const PRECO = Object.freeze({ nova: 4, captura: 2, arriscar: 3 });
+  const ROTULO_TIPO = Object.freeze({ premissa: "Premissa", bastidores: "Bastidores", elenco: "Elenco", premios: "Prêmios", epoca: "Época", curiosidade: "Curiosidade", formato: "Formato" });
   const MOEDAS_INICIAIS = 12;
   const FINAL_SEGUNDOS = 60;
   const TOAST_MS = 8000;
@@ -100,7 +101,7 @@
     const cards = (((origem.deck || {}).cards) || []).map(function (card, i) {
       return {
         id: card.id || "F" + String(i + 1).padStart(2, "0"),
-        marca: card.marca || card.title || "Fragmento",
+        marca: card.marca || card.title || ROTULO_TIPO[card.clueType] || "Fragmento",
         texto: card.texto || card.text || "",
         tipo: card.tipo || "pista",
         importance: card.importance || "contextual"
@@ -465,9 +466,24 @@
     });
     render();
   }
+  function capturarBalaio(pecaId) {
+    const jogador = idJogadorLocal();
+    if (!suaVez()) return;
+    const item = state.balaio.find(function (b) { return b.id === pecaId; });
+    if (!item) return say("Essa pista já saiu do balaio.");
+    if (item.dono === jogador) return say("Você não pode levar a própria pista consignada.");
+    if (saldo(jogador) < PRECO.captura) return say("Saldo insuficiente para capturar.");
+    state.balaio = state.balaio.filter(function (b) { return b.id !== pecaId; });
+    mao(jogador).push(pecaId);
+    mudarSaldo(jogador, -PRECO.captura);
+    mudarSaldo(item.dono, PRECO.captura);
+    state.log = "Você levou " + peca(pecaId).marca + " do balaio. " + (NOMES[item.dono] || "O dono") + " recebeu 2 ingressos.";
+    passarVez();
+  }
   function capturar(alvoId, pecaId) {
     const jogador = idJogadorLocal();
     if (!suaVez()) return;
+    if (alvoId === "balaio") return capturarBalaio(pecaId);
     if (eProtegida(pecaId)) return say("Essa pista não pode ser capturada.");
     if (saldo(jogador) < PRECO.captura) return say("Saldo insuficiente para capturar.");
     const alvo = mao(alvoId);
@@ -677,6 +693,8 @@
         return mao(id).filter(function (pid) { return !eProtegida(pid); }).map(function (pid) {
           return "<button class='chip' type='button' data-act='capturar-ok' data-quem='" + esc(id) + "' data-id='" + esc(pid) + "'><small>" + esc(NOMES[id]) + " · 2</small>" + esc(peca(pid).marca) + "</button>";
         }).join("");
+      }).join("") + state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
+        return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>Balaio · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
       }).join("");
       return chips ? "<p>Escolha uma pista capturável.</p>" + chips : "<p>Não há pista capturável.</p>";
     }

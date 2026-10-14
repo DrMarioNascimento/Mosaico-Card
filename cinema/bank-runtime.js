@@ -1,7 +1,8 @@
 (function () {
   "use strict";
   /* Sorteio do banco Cinema & Séries: filtra por formato (filme/série) e Top 50,
-     e mantém um "saco" separado por combinação de sessão para não repetir obra. */
+     mantém um "saco" separado por combinação de sessão para não repetir obra
+     e uma memória global das últimas obras, para não repetir ao trocar de sessão. */
   const bank = window.MC_CINEMA_BANK;
   if (!bank) return;
   const SESSAO = window.MC_SESSAO;
@@ -47,6 +48,15 @@
   function salvarSaco(chave, value) {
     try { localStorage.setItem(chave, JSON.stringify(value)); } catch (_) { /* sessão sem persistência */ }
   }
+  const RECENTES_MAX = 6;
+  const CHAVE_RECENTES = "mc:banco:recentes:" + bank.namespace;
+  function lerRecentes() {
+    try { const v = JSON.parse(localStorage.getItem(CHAVE_RECENTES) || "[]"); return Array.isArray(v) ? v : []; }
+    catch (_) { return []; }
+  }
+  function salvarRecentes(lista) {
+    try { localStorage.setItem(CHAVE_RECENTES, JSON.stringify(lista)); } catch (_) { /* sem persistência */ }
+  }
   function embaralhar(ids) {
     const result = ids.slice();
     for (let i = result.length - 1; i > 0; i -= 1) {
@@ -72,9 +82,17 @@
         [saco.ids[0], saco.ids[1]] = [saco.ids[1], saco.ids[0]];
       }
     }
-    const id = saco.ids.shift();
+    // Memória global de obras recentes (vale para todas as combinações e tamanhos de mesa):
+    // evita repetir a mesma obra quando o grupo troca a sessão ou o número de jogadores.
+    const recentes = lerRecentes();
+    const limite = Math.min(RECENTES_MAX, Math.max(0, aptos.length - 1));
+    const bloqueadas = recentes.slice(0, limite);
+    let pos = saco.ids.findIndex(function (cand) { return !bloqueadas.includes(cand); });
+    if (pos < 0) pos = 0;
+    const id = saco.ids.splice(pos, 1)[0];
     saco.ultimo = id;
     salvarSaco(chave, saco);
+    salvarRecentes([id].concat(recentes.filter(function (r) { return r !== id; })).slice(0, RECENTES_MAX));
     return { id: id, caso: bank.byId[id], restantes: saco.ids.length };
   };
   bank.elegiveis = elegiveis;
