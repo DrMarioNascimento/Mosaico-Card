@@ -284,3 +284,5 @@ A escolha entre Novo Testamento e Cinema & Séries acontece **antes de entrar no
 - Configuração da sala com Formato e Seleção, e aviso "a partir de 2001" (§9).
 
 - 14/10/2026: o balaio passa a se chamar **Em cartaz** (pôr uma pista em cartaz; quem levar paga 2 ingressos ao dono). Zeros nas mesas médias ficam como estão, para observar na prática.
+
+- 14/10/2026: organização "um jogo = um repositório = um subdomínio" (Dragon Games). No Mosaico Card: a raiz virou a **página de escolha** da versão; o Novo Testamento abre em `/novo-testamento/` (arquivos do NT continuam na raiz, via `<base href="../">`); a pasta `cinema/` foi renomeada para **`filmes-e-series/`**. O endereço antigo `/cinema/` e os links de sala na raiz (`?sala=`) redirecionam, mantendo o código da sala. A coleção do Firebase continua `salas-cinema`.
