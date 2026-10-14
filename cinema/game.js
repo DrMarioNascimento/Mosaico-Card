@@ -470,14 +470,14 @@
     const jogador = idJogadorLocal();
     if (!suaVez()) return;
     const item = state.balaio.find(function (b) { return b.id === pecaId; });
-    if (!item) return say("Essa pista já saiu do balaio.");
-    if (item.dono === jogador) return say("Você não pode levar a própria pista consignada.");
+    if (!item) return say("Essa pista já saiu de cartaz.");
+    if (item.dono === jogador) return say("Você não pode levar a própria pista em cartaz.");
     if (saldo(jogador) < PRECO.captura) return say("Saldo insuficiente para capturar.");
     state.balaio = state.balaio.filter(function (b) { return b.id !== pecaId; });
     mao(jogador).push(pecaId);
     mudarSaldo(jogador, -PRECO.captura);
     mudarSaldo(item.dono, PRECO.captura);
-    state.log = "Você levou " + peca(pecaId).marca + " do balaio. " + (NOMES[item.dono] || "O dono") + " recebeu 2 ingressos.";
+    state.log = "Você levou " + peca(pecaId).marca + " que estava em cartaz. " + (NOMES[item.dono] || "O dono") + " recebeu 2 ingressos.";
     passarVez();
   }
   function capturar(alvoId, pecaId) {
@@ -499,7 +499,7 @@
     if (!suaVez() || !mao(jogador).includes(pecaId)) return;
     state.maosPorJogador[jogador] = mao(jogador).filter(function (id) { return id !== pecaId; });
     state.balaio.push({ id: pecaId, dono: jogador });
-    state.log = "Você consignou " + peca(pecaId).marca + " no balaio.";
+    state.log = "Você pôs " + peca(pecaId).marca + " em cartaz.";
     passarVez();
   }
   function arriscar(campoId, valor) {
@@ -694,13 +694,13 @@
           return "<button class='chip' type='button' data-act='capturar-ok' data-quem='" + esc(id) + "' data-id='" + esc(pid) + "'><small>" + esc(NOMES[id]) + " · 2</small>" + esc(peca(pid).marca) + "</button>";
         }).join("");
       }).join("") + state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
-        return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>Balaio · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
+        return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>Em cartaz · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
       }).join("");
       return chips ? "<p>Escolha uma pista capturável.</p>" + chips : "<p>Não há pista capturável.</p>";
     }
     if (verbo === "consignar") {
-      return "<p>Escolha a pista que vai ao balaio.</p>" + mao(jogador).map(function (id) {
-        return "<button class='chip' type='button' data-act='consignar-ok' data-id='" + esc(id) + "'><small>Consignar</small>" + esc(peca(id).marca) + "</button>";
+      return "<p>Escolha a pista que vai entrar em cartaz. Quem levá-la paga 2 ingressos a você.</p>" + mao(jogador).map(function (id) {
+        return "<button class='chip' type='button' data-act='consignar-ok' data-id='" + esc(id) + "'><small>Pôr em cartaz</small>" + esc(peca(id).marca) + "</button>";
       }).join("");
     }
     if (verbo === "arriscar") {

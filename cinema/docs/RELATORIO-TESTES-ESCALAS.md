@@ -68,10 +68,14 @@ decisão de regra, abaixo.
 
 ## 5. Decisões que ficam com você
 
-- **Zeros em mesas de 4 a 7 jogadores (≈21%).** Opções: (a) manter; (b) prêmio de participação no fechamento
+- **Zeros em mesas de 4 a 7 jogadores (≈21%).** Decisão (14/10/2026): manter como está e observar nas partidas reais. Opções: (a) manter; (b) prêmio de participação no fechamento
   (ex.: 1 ponto por campo acertado mesmo já fechado); (c) campo bônus de "curiosidade" só no fechamento.
   Nenhuma foi implementada, porque mudam a regra.
 - **Novo Testamento tem o mesmo balaio sem saída.** A correção é idêntica à do Cinema; não alterei o NT porque não
   estava entre os arquivos indicados.
 - **Teste com pessoas:** BFI-2 curto antes e GAMS depois de 2–3 partidas reais (grupo de 15–25 anos) para confirmar as notas.
 - **Lote 1 continua em revisão** (`docs/REVISAO-LOTE-1.md`): sem aprovação, as obras só aparecem com `?rascunho=1`.
+
+## 6. Decisão posterior (14/10/2026)
+
+No Cinema & Séries, o "balaio" (termo bíblico) passou a se chamar **Em cartaz**: botão "Em cartaz · quem levar paga 2", painel "Pôr em cartaz" e, no Capturar, "Em cartaz · 2 para Duda". Só os textos mudaram; os nomes internos do código continuam os mesmos.

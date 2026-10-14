@@ -282,3 +282,5 @@ A escolha entre Novo Testamento e Cinema & Séries acontece **antes de entrar no
 - Recorte estrito: só obras **a partir de 2001**, sem exceções anteriores.
 - Base cruzada com regra de entrada (§8.2) e seleção Sucessos de 50 por formato (§8.3).
 - Configuração da sala com Formato e Seleção, e aviso "a partir de 2001" (§9).
+
+- 14/10/2026: o balaio passa a se chamar **Em cartaz** (pôr uma pista em cartaz; quem levar paga 2 ingressos ao dono). Zeros nas mesas médias ficam como estão, para observar na prática.
