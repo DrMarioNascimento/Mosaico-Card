@@ -29,11 +29,18 @@ Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-inte
 ## Dragon Games
 
 O Mosaico Card faz parte do [catálogo Dragon Games](https://dragongames.dev.br/).
-A versão disponível neste projeto é bíblica, dedicada ao Novo Testamento (NAA).
+O projeto reúne duas versões independentes: **Novo Testamento (NAA)** e **Filmes e Séries**. A raiz do domínio apresenta a escolha da versão.
+
+| Versão | Página |
+|---|---|
+| Novo Testamento | https://mosaico-card.dragongames.dev.br/novo-testamento/ |
+| Filmes e Séries | https://mosaico-card.dragongames.dev.br/filmes-e-series/ |
+
+A documentação e os números do banco NT abaixo se referem somente à versão Novo Testamento. A outra versão tem [README próprio](filmes-e-series/README.md).
 Seu código, banco e publicação continuam neste repositório, com autoria conjunta
 e condições de uso descritas em [LICENSE.md](LICENSE.md).
 
-## Estado atual
+## Estado atual — versão Novo Testamento
 
 A implementação está disponível para testes internos; o jogo ainda não foi lançado ao público. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
 
