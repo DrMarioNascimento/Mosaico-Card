@@ -1,7 +1,7 @@
 /* Gerado por tools/generate-cinema-bank.mjs a partir de data/cinema-bank.json e data/cinema-base.csv. Não editar. */
 (function(root,factory){const catalog=factory();if(typeof module==="object"&&module.exports)module.exports=catalog;root.MC_CINEMA_BANK=catalog;})(typeof globalThis!=="undefined"?globalThis:this,function(){return {
   "schemaVersion": 1,
-  "catalogVersion": "lote-1",
+  "catalogVersion": "lote-2",
   "namespace": "mosaico-cinema-series-v1",
   "demoIsolated": true,
   "source": {
@@ -11,11 +11,11 @@
     "scope": "Filmes e séries a partir de 2001"
   },
   "summary": {
-    "cases": 13,
+    "cases": 29,
     "playableCases": 13,
-    "films": 6,
-    "series": 7,
-    "sucessos": 13,
+    "films": 14,
+    "series": 15,
+    "sucessos": 29,
     "max12Cases": 13,
     "baseTitles": 437,
     "baseSucessos": 100
@@ -33,7 +33,23 @@
     "cs1-filme-barbie",
     "cs1-serie-the-boys",
     "cs1-filme-coringa",
-    "cs1-serie-breaking-bad"
+    "cs1-serie-breaking-bad",
+    "cs1-filme-vingadores-guerra-infinita",
+    "cs1-serie-the-walking-dead",
+    "cs1-filme-avatar",
+    "cs1-serie-game-of-thrones",
+    "cs1-filme-onde-os-fracos-nao-tem-vez",
+    "cs1-serie-chernobyl",
+    "cs1-filme-brilho-eterno-de-uma-mente-sem-lembrancas",
+    "cs1-serie-the-last-of-us",
+    "cs1-filme-garota-exemplar",
+    "cs1-serie-the-mandalorian",
+    "cs1-filme-era-uma-vez-em-hollywood",
+    "cs1-serie-better-call-saul",
+    "cs1-filme-pantera-negra",
+    "cs1-serie-sherlock",
+    "cs1-filme-top-gun-maverick",
+    "cs1-serie-attack-on-titan"
   ],
   "byId": {
     "cs1-serie-wandinha": {
@@ -128,23 +144,23 @@
           "opcoes": [
             {
               "id": "C2-O3",
-              "texto": "Enid Sinclair"
+              "texto": "Uma fada que descobre seus poderes num internato mágico"
             },
             {
               "id": "C2-O2",
-              "texto": "Mortícia Addams"
+              "texto": "Uma bruxa adolescente dividida entre dois mundos"
             },
             {
               "id": "C2-O4",
-              "texto": "Sabrina Spellman"
+              "texto": "Uma garota que encontra chaves mágicas numa casa antiga"
             },
             {
               "id": "C2-O1",
-              "texto": "Wandinha Addams"
+              "texto": "Uma adolescente sombria transferida para um internato de párias"
             }
           ],
           "respostaId": "C2-O1",
-          "respostaCanonica": "Wandinha Addams",
+          "respostaCanonica": "Uma adolescente sombria transferida para um internato de párias",
           "endereco": "Wikipédia (EN) — Wednesday (TV series)",
           "answerReferences": [
             {
@@ -881,7 +897,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -1691,7 +1707,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -2519,7 +2535,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -2574,23 +2590,23 @@
           "opcoes": [
             {
               "id": "C2-O4",
-              "texto": "Miles Morales"
+              "texto": "Um jornalista que se funde a um parasita alienígena"
             },
             {
               "id": "C2-O3",
-              "texto": "Stephen Strange (Doutor Estranho)"
+              "texto": "Um bilionário inventor que luta dentro de uma armadura"
             },
             {
               "id": "C2-O2",
-              "texto": "Ned Leeds"
+              "texto": "Um feiticeiro que protege a Terra de ameaças místicas"
             },
             {
               "id": "C2-O1",
-              "texto": "Peter Parker (Homem-Aranha)"
+              "texto": "Um jovem herói que tem a identidade secreta revelada ao mundo"
             }
           ],
           "respostaId": "C2-O1",
-          "respostaCanonica": "Peter Parker (Homem-Aranha)",
+          "respostaCanonica": "Um jovem herói que tem a identidade secreta revelada ao mundo",
           "endereco": "IMDb; Wikipédia (EN) — Spider-Man: No Way Home",
           "answerReferences": [
             {
@@ -3315,7 +3331,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -4144,7 +4160,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -5012,7 +5028,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -5886,7 +5902,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -7539,7 +7555,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -7594,23 +7610,23 @@
           "opcoes": [
             {
               "id": "C2-O3",
-              "texto": "Giselle"
+              "texto": "Uma princesa com poderes de gelo que se isola num castelo"
             },
             {
               "id": "C2-O1",
-              "texto": "Barbie"
+              "texto": "Uma boneca perfeita que de repente começa a ter crises existenciais"
             },
             {
               "id": "C2-O2",
-              "texto": "Elle Woods"
+              "texto": "Um caubói de brinquedo que teme ser trocado por um novo"
             },
             {
               "id": "C2-O4",
-              "texto": "Christine \"Lady Bird\" McPherson"
+              "texto": "Uma garota que cai num mundo de fantasia atrás de um coelho"
             }
           ],
           "respostaId": "C2-O1",
-          "respostaCanonica": "Barbie",
+          "respostaCanonica": "Uma boneca perfeita que de repente começa a ter crises existenciais",
           "endereco": "Wikipédia (EN) — Barbie (film); Wikipédia (PT) — Barbie (filme)",
           "answerReferences": [
             {
@@ -8340,7 +8356,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -9179,7 +9195,7 @@
         ]
       },
       "prompt": {
-        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
       },
       "focalFieldId": "C1",
       "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
@@ -10794,6 +10810,13169 @@
         "playable": true
       },
       "pendingIssues": []
+    },
+    "cs1-filme-vingadores-guerra-infinita": {
+      "id": "cs1-filme-vingadores-guerra-infinita",
+      "kind": "canonical-case",
+      "imdbId": "tt4154756",
+      "title": "Vingadores: Guerra Infinita",
+      "sessionTitle": "Uma caçada por seis pedras",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2018,
+      "rating": "12 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Avengers: Infinity War; AdoroCinema — Vingadores: Guerra Infinita",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt4154756/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Avengers: Infinity War",
+            "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Vingadores: Guerra Infinita",
+            "url": "https://www.adorocinema.com/filmes/filme-218265/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Joss Whedon dirigiu os dois primeiros filmes dos Vingadores, mas este é dos irmãos Russo; e, embora seja um filme de heróis, roteiristas e produtores tratam o vilão Thanos como protagonista."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "Liga da Justiça"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Vingadores: Era de Ultron"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Vingadores: Guerra Infinita"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Capitão América: Guerra Civil"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Vingadores: Guerra Infinita",
+          "endereco": "IMDb; Wikipédia (EN) — Avengers: Infinity War",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt4154756/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Avengers: Infinity War",
+              "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "Hela"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Loki"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Ultron"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Thanos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Thanos (com Tony Stark / Homem de Ferro, Thor, Steve Rogers / Capitão América, Doutor Estranho, Peter Parker / Homem-Aranha, Peter Quill / Senhor das Estrelas, Gamora, Bruce Banner / Hulk)",
+          "endereco": "Wikipédia (EN) — Avengers: Infinity War",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Avengers: Infinity War",
+              "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "Joss Whedon"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "James Gunn"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Anthony e Joe Russo"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Jon Favreau"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Anthony e Joe Russo",
+          "endereco": "Wikipédia (EN) — Avengers: Infinity War; AdoroCinema — Vingadores: Guerra Infinita",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Avengers: Infinity War",
+              "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Vingadores: Guerra Infinita",
+              "url": "https://www.adorocinema.com/filmes/filme-218265/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O3",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2016"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2017"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2018"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2018",
+          "endereco": "IMDb; Wikipédia (EN) — Avengers: Infinity War",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt4154756/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Avengers: Infinity War",
+              "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Chegou aos cinemas brasileiros em 26 de abril de 2018, um dia antes da estreia nos EUA.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Vingadores: Guerra Infinita",
+                "url": "https://www.adorocinema.com/filmes/filme-218265/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou aos cinemas brasileiros em 26 de abril de 2018, um dia antes da estreia nos EUA."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de quase duas horas e meia (149 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt4154756/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de quase duas horas e meia (149 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "Um poderoso conquistador alienígena percorre o universo atrás de seis pedras de poder lendárias.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um poderoso conquistador alienígena percorre o universo atrás de seis pedras de poder lendárias."
+          },
+          {
+            "id": "P04",
+            "text": "Logo no início, uma nave com os sobreviventes de Asgard é interceptada pelo vilão e seus tenentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Logo no início, uma nave com os sobreviventes de Asgard é interceptada pelo vilão e seus tenentes."
+          },
+          {
+            "id": "P05",
+            "text": "O Hulk despenca no Sanctum Sanctorum, em Nova York, e alerta o Doutor Estranho sobre a ameaça.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O Hulk despenca no Sanctum Sanctorum, em Nova York, e alerta o Doutor Estranho sobre a ameaça."
+          },
+          {
+            "id": "P06",
+            "text": "Os Guardiões da Galáxia atendem a um pedido de socorro e resgatam Thor no espaço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os Guardiões da Galáxia atendem a um pedido de socorro e resgatam Thor no espaço."
+          },
+          {
+            "id": "P07",
+            "text": "Uma das pedras cobiçadas fica na testa do androide Visão; outra está com o Doutor Estranho.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma das pedras cobiçadas fica na testa do androide Visão; outra está com o Doutor Estranho."
+          },
+          {
+            "id": "P08",
+            "text": "O vilão acredita que o universo está superpovoado e quer eliminar metade de toda a vida para 'reequilibrá-lo'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O vilão acredita que o universo está superpovoado e quer eliminar metade de toda a vida para 'reequilibrá-lo'."
+          },
+          {
+            "id": "P09",
+            "text": "Heróis da Terra e do espaço se dividem para impedir que o vilão reúna as seis joias.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Heróis da Terra e do espaço se dividem para impedir que o vilão reúna as seis joias."
+          },
+          {
+            "id": "P10",
+            "text": "A dupla de diretores já tinha comandado 'Capitão América: O Soldado Invernal' e a aventura seguinte do herói.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Empire — Russo brothers set for Avengers: Infinity War",
+                "url": "https://empireonline.com/movies/news/russo-brothers-set-avengers-infinity-war",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A dupla de diretores já tinha comandado 'Capitão América: O Soldado Invernal' e a aventura seguinte do herói."
+          },
+          {
+            "id": "P11",
+            "text": "Os diretores são irmãos e assumiram a equipe depois do cineasta que comandou os dois filmes anteriores do grupo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avengers: Age of Ultron",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os diretores são irmãos e assumiram a equipe depois do cineasta que comandou os dois filmes anteriores do grupo."
+          },
+          {
+            "id": "P12",
+            "text": "Foi rodado em sequência com o filme seguinte da saga, entre janeiro e julho de 2017.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi rodado em sequência com o filme seguinte da saga, entre janeiro e julho de 2017."
+          },
+          {
+            "id": "P13",
+            "text": "As filmagens começaram nos estúdios Pinewood, em Atlanta, com o codinome 'Mary Lou' para despistar curiosos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens começaram nos estúdios Pinewood, em Atlanta, com o codinome 'Mary Lou' para despistar curiosos."
+          },
+          {
+            "id": "P14",
+            "text": "Foi o primeiro longa de Hollywood filmado inteiramente com câmeras digitais IMAX.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi o primeiro longa de Hollywood filmado inteiramente com câmeras digitais IMAX."
+          },
+          {
+            "id": "P15",
+            "text": "Os roteiristas Christopher Markus e Stephen McFeely descreveram a história como a 'jornada do herói' do vilão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os roteiristas Christopher Markus e Stephen McFeely descreveram a história como a 'jornada do herói' do vilão."
+          },
+          {
+            "id": "P16",
+            "text": "Josh Brolin dá voz e corpo ao vilão, atuando no set com captura de movimento.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Josh Brolin dá voz e corpo ao vilão, atuando no set com captura de movimento."
+          },
+          {
+            "id": "P17",
+            "text": "Tom Holland vive um Vingador adolescente, protegido de Tony Stark.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Tom Holland vive um Vingador adolescente, protegido de Tony Stark."
+          },
+          {
+            "id": "P18",
+            "text": "Peter Dinklage aparece como Eitri, o rei dos anões de Nidavellir.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Peter Dinklage aparece como Eitri, o rei dos anões de Nidavellir."
+          },
+          {
+            "id": "P19",
+            "text": "Foi indicado ao Oscar de Melhores Efeitos Visuais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi indicado ao Oscar de Melhores Efeitos Visuais."
+          },
+          {
+            "id": "P20",
+            "text": "Arrecadou cerca de US$ 2 bilhões e foi a maior bilheteria mundial de 2018.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Arrecadou cerca de US$ 2 bilhões e foi a maior bilheteria mundial de 2018."
+          },
+          {
+            "id": "P21",
+            "text": "Chegou a US$ 1 bilhão de bilheteria em 11 dias, mais rápido que qualquer filme até então.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou a US$ 1 bilhão de bilheteria em 11 dias, mais rápido que qualquer filme até então."
+          },
+          {
+            "id": "P22",
+            "text": "É o 19º filme do Universo Cinematográfico Marvel.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É o 19º filme do Universo Cinematográfico Marvel."
+          },
+          {
+            "id": "P23",
+            "text": "A trilha é de Alan Silvestri, que também compôs a do primeiro filme da equipe, de 2012.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trilha é de Alan Silvestri, que também compôs a do primeiro filme da equipe, de 2012."
+          },
+          {
+            "id": "P24",
+            "text": "A estreia mundial foi em 23 de abril de 2018, no Dolby Theatre, em Hollywood.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A estreia mundial foi em 23 de abril de 2018, no Dolby Theatre, em Hollywood."
+          },
+          {
+            "id": "P25",
+            "text": "Foi anunciado em outubro de 2014 como a 'Parte 1' de uma história em dois filmes; o rótulo caiu depois.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avengers: Infinity War",
+                "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi anunciado em outubro de 2014 como a 'Parte 1' de uma história em dois filmes; o rótulo caiu depois."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Vingadores: Guerra Infinita (2018), dirigido por Anthony e Joe Russo, acompanha Thanos em busca das seis Joias do Infinito enquanto os heróis da Marvel tentam detê-lo.",
+        "hinge": "Joss Whedon dirigiu os dois primeiros filmes dos Vingadores, mas este é dos irmãos Russo; e, embora seja um filme de heróis, roteiristas e produtores tratam o vilão Thanos como protagonista.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Avengers: Infinity War",
+            "url": "https://en.wikipedia.org/wiki/Avengers:_Infinity_War",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Avengers: Age of Ultron",
+            "url": "https://en.wikipedia.org/wiki/Avengers:_Age_of_Ultron",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt4154756/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Escolha de Thanos como resposta de C2 ('Um dos protagonistas'): sustentada por Kevin Feige e pelos roteiristas, mas o professor pode preferir um herói (ex.: Tony Stark ou Thor) — nesse caso, mover Thanos para coProtagonists.",
+          "P15 (roteiristas chamam a história de 'jornada do herói' do vilão) está como clueType 'elenco' para fechar a distribuição; pode ser reclassificada como 'bastidores'.",
+          "P11 e a hinge dependem de Joss Whedon ter dirigido os dois filmes anteriores (confirmado na Wikipédia EN de 'Era de Ultron').",
+          "Classificação '12 anos' conferida só no AdoroCinema."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Escolha de Thanos como resposta de C2 ('Um dos protagonistas'): sustentada por Kevin Feige e pelos roteiristas, mas o professor pode preferir um herói (ex.: Tony Stark ou Thor) — nesse caso, mover Thanos para coProtagonists.",
+        "ambiguity:P15 (roteiristas chamam a história de 'jornada do herói' do vilão) está como clueType 'elenco' para fechar a distribuição; pode ser reclassificada como 'bastidores'.",
+        "ambiguity:P11 e a hinge dependem de Joss Whedon ter dirigido os dois filmes anteriores (confirmado na Wikipédia EN de 'Era de Ultron').",
+        "ambiguity:Classificação '12 anos' conferida só no AdoroCinema."
+      ]
+    },
+    "cs1-serie-the-walking-dead": {
+      "id": "cs1-serie-the-walking-dead",
+      "kind": "canonical-case",
+      "imdbId": "tt1520211",
+      "title": "The Walking Dead",
+      "sessionTitle": "Acordar num mundo vazio",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2010,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — The Walking Dead (TV series); Wikipédia (EN) — The Walking Dead season 1",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1520211/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+            "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Walking Dead season 1",
+            "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Robert Kirkman criou os quadrinhos e é produtor executivo, mas quem desenvolveu a série para a TV foi Frank Darabont."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "The Strain"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "The Walking Dead"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Z Nation"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Falling Skies"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "The Walking Dead",
+          "endereco": "IMDb; Wikipédia (EN) — The Walking Dead (TV series)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt1520211/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+              "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O2",
+              "texto": "Tom Mason"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Robert Neville"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Rick Grimes"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Gerry Lane"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Rick Grimes (com Shane Walsh, Lori Grimes, Carl Grimes, Glenn Rhee, Andrea, Dale Horvath, Daryl Dixon, Carol Peletier)",
+          "endereco": "Wikipédia (EN) — The Walking Dead season 1; Wikipédia (EN) — Andrew Lincoln",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Walking Dead season 1",
+              "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Andrew Lincoln",
+              "url": "https://en.wikipedia.org/wiki/Andrew_Lincoln",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Frank Darabont"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Scott M. Gimple"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Guillermo del Toro"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Robert Kirkman"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Frank Darabont",
+          "endereco": "Wikipédia (EN) — The Walking Dead (TV series); Wikipédia (EN) — Frank Darabont (arquivo)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+              "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Frank Darabont (arquivo)",
+              "url": "https://webcf.waybackmachine.org/web/20220314041450/https://en.m.wikipedia.org/wiki/Frank_Darabont",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O2",
+              "texto": "2009"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2010"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2012"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2011"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2010",
+          "endereco": "IMDb; Wikipédia (EN) — The Walking Dead (TV series)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt1520211/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+              "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou na TV americana no dia de Halloween, 31 de outubro de 2010.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou na TV americana no dia de Halloween, 31 de outubro de 2010."
+          },
+          {
+            "id": "P02",
+            "text": "É uma série; a primeira temporada tem apenas seis episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma série; a primeira temporada tem apenas seis episódios."
+          },
+          {
+            "id": "P03",
+            "text": "A história acompanha sobreviventes num mundo tomado por mortos-vivos.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história acompanha sobreviventes num mundo tomado por mortos-vivos."
+          },
+          {
+            "id": "P04",
+            "text": "A primeira temporada se passa e foi gravada em Atlanta e arredores, na Geórgia (EUA).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada se passa e foi gravada em Atlanta e arredores, na Geórgia (EUA)."
+          },
+          {
+            "id": "P05",
+            "text": "O protagonista é um policial, xerife adjunto, baleado em serviço, que acorda de um coma no hospital.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Omelete — The Walking Dead 10 anos: relembre o piloto",
+                "url": "https://www.omelete.com.br/walking-dead/the-walking-dead-10-anos-relembre-o-piloto",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um policial, xerife adjunto, baleado em serviço, que acorda de um coma no hospital."
+          },
+          {
+            "id": "P06",
+            "text": "Ao acordar, ele sai em busca da esposa e do filho, rumo a Atlanta.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ao acordar, ele sai em busca da esposa e do filho, rumo a Atlanta."
+          },
+          {
+            "id": "P07",
+            "text": "Logo no início, ele conhece um pai e um filho que também tentam sobreviver.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Logo no início, ele conhece um pai e um filho que também tentam sobreviver."
+          },
+          {
+            "id": "P08",
+            "text": "Na cidade grande, o protagonista fica preso dentro de um tanque de guerra.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Na cidade grande, o protagonista fica preso dentro de um tanque de guerra."
+          },
+          {
+            "id": "P09",
+            "text": "Uma voz no rádio do tanque é de um jovem que vai resgatá-lo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma voz no rádio do tanque é de um jovem que vai resgatá-lo."
+          },
+          {
+            "id": "P10",
+            "text": "Para atravessar a cidade, o grupo se disfarça de mortos-vivos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Para atravessar a cidade, o grupo se disfarça de mortos-vivos."
+          },
+          {
+            "id": "P11",
+            "text": "O protagonista reencontra a família num acampamento de sobreviventes perto da cidade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista reencontra a família num acampamento de sobreviventes perto da cidade."
+          },
+          {
+            "id": "P12",
+            "text": "Foi desenvolvida para a TV pelo diretor de 'Um Sonho de Liberdade' e 'À Espera de um Milagre'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Jornal de Brasília — diretor de Um Sonho de Liberdade e À Espera de um Milagre",
+                "url": "https://jornaldebrasilia.com.br/entretenimento/tvstreaming/diretor-de-sonho-de-liberdade-e-a-espera-de-um-milagre-comandara-stranger-things/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi desenvolvida para a TV pelo diretor de 'Um Sonho de Liberdade' e 'À Espera de um Milagre'."
+          },
+          {
+            "id": "P13",
+            "text": "Esse mesmo cineasta escreveu e dirigiu o episódio piloto.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Frank Darabont (arquivo)",
+                "url": "https://webcf.waybackmachine.org/web/20220314041450/https://en.m.wikipedia.org/wiki/Frank_Darabont",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Esse mesmo cineasta escreveu e dirigiu o episódio piloto."
+          },
+          {
+            "id": "P14",
+            "text": "Robert Kirkman, um dos autores dos quadrinhos originais, é produtor executivo da série.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Robert Kirkman, um dos autores dos quadrinhos originais, é produtor executivo da série."
+          },
+          {
+            "id": "P15",
+            "text": "Quem desenvolveu a série foi afastado do comando dela em julho de 2011.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Frank Darabont (arquivo)",
+                "url": "https://webcf.waybackmachine.org/web/20220314041450/https://en.m.wikipedia.org/wiki/Frank_Darabont",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Quem desenvolveu a série foi afastado do comando dela em julho de 2011."
+          },
+          {
+            "id": "P16",
+            "text": "O projeto foi oferecido antes à NBC, que recusou; acabou no canal AMC.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Frank Darabont (arquivo)",
+                "url": "https://webcf.waybackmachine.org/web/20220314041450/https://en.m.wikipedia.org/wiki/Frank_Darabont",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O projeto foi oferecido antes à NBC, que recusou; acabou no canal AMC."
+          },
+          {
+            "id": "P17",
+            "text": "O protagonista é vivido por um ator inglês que fez o apaixonado Mark em 'Simplesmente Amor' (2003).",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Andrew Lincoln",
+                "url": "https://en.wikipedia.org/wiki/Andrew_Lincoln",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — Simplesmente Amor",
+                "url": "https://www.adorocinema.com/filmes/filme-44445/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por um ator inglês que fez o apaixonado Mark em 'Simplesmente Amor' (2003)."
+          },
+          {
+            "id": "P18",
+            "text": "Jon Bernthal, que depois viveu o Justiceiro, interpreta o líder do acampamento de sobreviventes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Jon Bernthal",
+                "url": "https://en.wikipedia.org/wiki/Jon_Bernthal",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Jon Bernthal, que depois viveu o Justiceiro, interpreta o líder do acampamento de sobreviventes."
+          },
+          {
+            "id": "P19",
+            "text": "Steven Yeun vive Glenn, o jovem que fala com o protagonista pelo rádio e o resgata.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Britannica — Steven Yeun",
+                "url": "https://www.britannica.com/biography/Steven-Yeun",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Steven Yeun vive Glenn, o jovem que fala com o protagonista pelo rádio e o resgata."
+          },
+          {
+            "id": "P20",
+            "text": "O episódio piloto ganhou o Emmy de melhor maquiagem protética.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O episódio piloto ganhou o Emmy de melhor maquiagem protética."
+          },
+          {
+            "id": "P21",
+            "text": "A primeira temporada foi indicada ao Globo de Ouro de melhor série dramática.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada foi indicada ao Globo de Ouro de melhor série dramática."
+          },
+          {
+            "id": "P22",
+            "text": "Dias antes da estreia, uma 'invasão zumbi' promocional aconteceu em 26 cidades do mundo, em outubro de 2010.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Dias antes da estreia, uma 'invasão zumbi' promocional aconteceu em 26 cidades do mundo, em outubro de 2010."
+          },
+          {
+            "id": "P23",
+            "text": "O episódio piloto vazou na internet quase duas semanas antes de ir ao ar.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O episódio piloto vazou na internet quase duas semanas antes de ir ao ar."
+          },
+          {
+            "id": "P24",
+            "text": "A estreia da quinta temporada teve cerca de 17 milhões de espectadores, recorde da TV a cabo americana fora do esporte na época.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A estreia da quinta temporada teve cerca de 17 milhões de espectadores, recorde da TV a cabo americana fora do esporte na época."
+          },
+          {
+            "id": "P25",
+            "text": "A série durou 11 temporadas e 177 episódios, terminando em novembro de 2022.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+                "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A série durou 11 temporadas e 177 episódios, terminando em novembro de 2022."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "The Walking Dead (AMC, 2010), desenvolvida por Frank Darabont a partir dos quadrinhos de Robert Kirkman, Tony Moore e Charlie Adlard, começa com o policial Rick Grimes acordando de um coma num mundo tomado por mortos-vivos.",
+        "hinge": "Robert Kirkman criou os quadrinhos e é produtor executivo, mas quem desenvolveu a série para a TV foi Frank Darabont.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — The Walking Dead (TV series)",
+            "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_(TV_series)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Walking Dead season 1",
+            "url": "https://en.wikipedia.org/wiki/The_Walking_Dead_season_1",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Conferir classificação indicativa (não achei fonte brasileira confiável; pus 16 anos).",
+          "Elenco coral: Rick Grimes escolhido como o mais central; Daryl Dixon e Carol Peletier eram recorrentes na 1ª temporada e só depois viraram principais (estão em coProtagonists por precaução).",
+          "Distratores de C2 vêm de outras obras (Tom Mason — 'Falling Skies'; Robert Neville — 'Eu Sou a Lenda'; Gerry Lane — 'Guerra Mundial Z'): conferir nomes.",
+          "Distrator de C3 Scott M. Gimple foi showrunner posterior (não criador); conferir se é aceitável.",
+          "O recorde de ~17 milhões refere-se ao total de espectadores da estreia da 5ª temporada (fonte: Wikipédia EN)."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Conferir classificação indicativa (não achei fonte brasileira confiável; pus 16 anos).",
+        "ambiguity:Elenco coral: Rick Grimes escolhido como o mais central; Daryl Dixon e Carol Peletier eram recorrentes na 1ª temporada e só depois viraram principais (estão em coProtagonists por precaução).",
+        "ambiguity:Distratores de C2 vêm de outras obras (Tom Mason — 'Falling Skies'; Robert Neville — 'Eu Sou a Lenda'; Gerry Lane — 'Guerra Mundial Z'): conferir nomes.",
+        "ambiguity:Distrator de C3 Scott M. Gimple foi showrunner posterior (não criador); conferir se é aceitável.",
+        "ambiguity:O recorde de ~17 milhões refere-se ao total de espectadores da estreia da 5ª temporada (fonte: Wikipédia EN)."
+      ]
+    },
+    "cs1-filme-avatar": {
+      "id": "cs1-filme-avatar",
+      "kind": "canonical-case",
+      "imdbId": "tt0499549",
+      "title": "Avatar",
+      "sessionTitle": "Uma lua cheia de cobiça",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2009,
+      "rating": "12 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Avatar (2009 film); AdoroCinema — Avatar; Filmow — Avatar (classificação indicativa)",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0499549/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Avatar (2009 film)",
+            "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Avatar",
+            "url": "https://www.adorocinema.com/filmes/filme-61282/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Filmow — Avatar (classificação indicativa)",
+            "url": "https://filmow.com/avatar-t8531/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Na disputa do Oscar de 2010, o rival era 'Guerra ao Terror', de Kathryn Bigelow (ex-esposa do diretor), que levou Melhor Filme e Direção; Avatar é de James Cameron, o mesmo de 'Titanic'."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "John Carter: Entre Dois Mundos"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Distrito 9"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Avatar"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Interestelar"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Avatar",
+          "endereco": "IMDb; Wikipédia (EN) — Avatar (2009 film)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0499549/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Avatar (2009 film)",
+              "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "John Carter"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Grace Augustine"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Coronel Miles Quaritch"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Jake Sully"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Jake Sully",
+          "endereco": "Wikipédia (EN) — Avatar (2009 film)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Avatar (2009 film)",
+              "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "James Cameron"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Peter Jackson"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Ridley Scott"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Steven Spielberg"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "James Cameron",
+          "endereco": "Wikipédia (EN) — Avatar (2009 film); AdoroCinema — Avatar",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Avatar (2009 film)",
+              "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Avatar",
+              "url": "https://www.adorocinema.com/filmes/filme-61282/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "2009"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2010"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2007"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2008"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2009",
+          "endereco": "IMDb; Wikipédia (EN) — Avatar (2009 film)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0499549/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Avatar (2009 film)",
+              "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou nos cinemas do Brasil e dos EUA em 18 de dezembro de 2009.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou nos cinemas do Brasil e dos EUA em 18 de dezembro de 2009."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de cerca de 2h40 na versão de cinema (162 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de cerca de 2h40 na versão de cinema (162 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "A história se passa em 2154, com a Terra sofrendo esgotamento de recursos e colapso ecológico.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história se passa em 2154, com a Terra sofrendo esgotamento de recursos e colapso ecológico."
+          },
+          {
+            "id": "P04",
+            "text": "Uma empresa humana explora um mineral valioso numa lua habitável do sistema Alpha Centauri.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma empresa humana explora um mineral valioso numa lua habitável do sistema Alpha Centauri."
+          },
+          {
+            "id": "P05",
+            "text": "O protagonista é um ex-fuzileiro naval paraplégico que assume a vaga do irmão gêmeo morto num programa científico.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um ex-fuzileiro naval paraplégico que assume a vaga do irmão gêmeo morto num programa científico."
+          },
+          {
+            "id": "P06",
+            "text": "No programa, humanos controlam à distância corpos híbridos criados geneticamente a partir do povo nativo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No programa, humanos controlam à distância corpos híbridos criados geneticamente a partir do povo nativo."
+          },
+          {
+            "id": "P07",
+            "text": "Os nativos do lugar têm cerca de 3 metros de altura, pele azul e vivem em harmonia com a natureza.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os nativos do lugar têm cerca de 3 metros de altura, pele azul e vivem em harmonia com a natureza."
+          },
+          {
+            "id": "P08",
+            "text": "O protagonista conhece Neytiri, uma guerreira do povo nativo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista conhece Neytiri, uma guerreira do povo nativo."
+          },
+          {
+            "id": "P09",
+            "text": "O mineral cobiçado tem o nome brincalhão de 'unobtanium'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O mineral cobiçado tem o nome brincalhão de 'unobtanium'."
+          },
+          {
+            "id": "P10",
+            "text": "O chefe da segurança da empresa mineradora é um coronel linha-dura.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O chefe da segurança da empresa mineradora é um coronel linha-dura."
+          },
+          {
+            "id": "P11",
+            "text": "O diretor escreveu o primeiro tratamento da história, de 80 páginas, em 1994, mas esperou a tecnologia evoluir.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor escreveu o primeiro tratamento da história, de 80 páginas, em 1994, mas esperou a tecnologia evoluir."
+          },
+          {
+            "id": "P12",
+            "text": "Foi o primeiro longa dirigido por ele desde 'Titanic' (1997).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi o primeiro longa dirigido por ele desde 'Titanic' (1997)."
+          },
+          {
+            "id": "P13",
+            "text": "As câmeras 3D usadas foram um sistema desenvolvido pelo próprio diretor junto com Vince Pace.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As câmeras 3D usadas foram um sistema desenvolvido pelo próprio diretor junto com Vince Pace."
+          },
+          {
+            "id": "P14",
+            "text": "As filmagens principais aconteceram entre abril e dezembro de 2007, na Nova Zelândia e em Los Angeles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens principais aconteceram entre abril e dezembro de 2007, na Nova Zelândia e em Los Angeles."
+          },
+          {
+            "id": "P15",
+            "text": "Cerca de 40% das cenas têm atores reais; o resto foi feito com computação gráfica.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Cerca de 40% das cenas têm atores reais; o resto foi feito com computação gráfica."
+          },
+          {
+            "id": "P16",
+            "text": "O protagonista é vivido por Sam Worthington.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0499549/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Sam Worthington."
+          },
+          {
+            "id": "P17",
+            "text": "Sigourney Weaver interpreta a cientista que chefia o programa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Sigourney Weaver interpreta a cientista que chefia o programa."
+          },
+          {
+            "id": "P18",
+            "text": "Michael Biehn chegou a filmar testes para o papel do coronel, mas o personagem ficou com Stephen Lang.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Michael Biehn chegou a filmar testes para o papel do coronel, mas o personagem ficou com Stephen Lang."
+          },
+          {
+            "id": "P19",
+            "text": "Teve 9 indicações ao Oscar e venceu três: Direção de Arte, Fotografia e Efeitos Visuais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve 9 indicações ao Oscar e venceu três: Direção de Arte, Fotografia e Efeitos Visuais."
+          },
+          {
+            "id": "P20",
+            "text": "Ganhou o Globo de Ouro de Melhor Filme de Drama e o de Melhor Direção.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou o Globo de Ouro de Melhor Filme de Drama e o de Melhor Direção."
+          },
+          {
+            "id": "P21",
+            "text": "Em janeiro de 2010, superou 'Titanic' e virou a maior bilheteria da história do cinema.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em janeiro de 2010, superou 'Titanic' e virou a maior bilheteria da história do cinema."
+          },
+          {
+            "id": "P22",
+            "text": "O idioma do povo nativo foi criado pelo linguista Paul Frommer e tem cerca de mil palavras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Avatar (2009 film)",
+                "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O idioma do povo nativo foi criado pelo linguista Paul Frommer e tem cerca de mil palavras."
+          },
+          {
+            "id": "P23",
+            "text": "No Brasil, foi o primeiro filme exibido em 3D com legendas e levou mais de 9 milhões de pessoas aos cinemas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Brasil, foi o primeiro filme exibido em 3D com legendas e levou mais de 9 milhões de pessoas aos cinemas."
+          },
+          {
+            "id": "P24",
+            "text": "No Oscar de 2010, perdeu Melhor Filme e Melhor Direção para 'Guerra ao Terror', da ex-esposa do diretor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "ET Online — Oscars Flashback '10: Bigelow Makes History",
+                "url": "https://www.etonline.com/awards/128432_Oscars_Flashback_Kathryn_Bigelow_2010",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Oscar de 2010, perdeu Melhor Filme e Melhor Direção para 'Guerra ao Terror', da ex-esposa do diretor."
+          },
+          {
+            "id": "P25",
+            "text": "Em 2010, voltou aos cinemas numa versão só em 3D, com oito minutos extras.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Avatar (curiosidades)",
+                "url": "https://www.adorocinema.com/filmes/filme-61282/curiosidades/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em 2010, voltou aos cinemas numa versão só em 3D, com oito minutos extras."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Avatar (2009), escrito e dirigido por James Cameron, acompanha Jake Sully, ex-fuzileiro paraplégico que passa a controlar um corpo nativo na lua Pandora.",
+        "hinge": "Na disputa do Oscar de 2010, o rival era 'Guerra ao Terror', de Kathryn Bigelow (ex-esposa do diretor), que levou Melhor Filme e Direção; Avatar é de James Cameron, o mesmo de 'Titanic'.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Avatar (2009 film)",
+            "url": "https://en.wikipedia.org/wiki/Avatar_(2009_film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "ET Online — Oscars Flashback '10: Bigelow Makes History",
+            "url": "https://www.etonline.com/awards/128432_Oscars_Flashback_Kathryn_Bigelow_2010",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0499549/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Classificação '12 anos' conferida só no Filmow (o AdoroCinema não informa).",
+          "P21: a Wikipédia EN traz uma frase recente sobre outro filme ter tomado o recorde de bilheteria; a pista fala só do recorde de janeiro de 2010 — conferir se a redação fica clara.",
+          "P23 e P25 (dados do Brasil e relançamento) vêm só da página de curiosidades do AdoroCinema.",
+          "P07 diz 'cerca de 3 metros' a partir de '10 pés (3,0 m)' da Wikipédia EN."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Classificação '12 anos' conferida só no Filmow (o AdoroCinema não informa).",
+        "ambiguity:P21: a Wikipédia EN traz uma frase recente sobre outro filme ter tomado o recorde de bilheteria; a pista fala só do recorde de janeiro de 2010 — conferir se a redação fica clara.",
+        "ambiguity:P23 e P25 (dados do Brasil e relançamento) vêm só da página de curiosidades do AdoroCinema.",
+        "ambiguity:P07 diz 'cerca de 3 metros' a partir de '10 pés (3,0 m)' da Wikipédia EN."
+      ]
+    },
+    "cs1-serie-game-of-thrones": {
+      "id": "cs1-serie-game-of-thrones",
+      "kind": "canonical-case",
+      "imdbId": "tt0944947",
+      "title": "Game of Thrones",
+      "sessionTitle": "Famílias rivais, inverno à vista",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2011,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Game of Thrones; Wikipédia (EN) — Game of Thrones season 1; my-best Brasil — ranking de séries (classificação etária)",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0944947/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Game of Thrones",
+            "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Game of Thrones season 1",
+            "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "my-best Brasil — ranking de séries (classificação etária)",
+            "url": "https://br.my-best.com/20783",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "George R. R. Martin escreveu os livros e alguns episódios, mas a série foi criada por David Benioff e D. B. Weiss."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O4",
+              "texto": "A Casa do Dragão"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Vikings"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "The Witcher"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Game of Thrones"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Game of Thrones",
+          "endereco": "IMDb; Wikipédia (EN) — Game of Thrones",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0944947/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Game of Thrones",
+              "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O3",
+              "texto": "Ragnar Lothbrok"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Jon Snow"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Geralt de Rívia"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Samwell Tarly"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Jon Snow (com Eddard Stark, Catelyn Stark, Robb Stark, Sansa Stark, Arya Stark, Bran Stark, Tyrion Lannister, Cersei Lannister, Jaime Lannister, Daenerys Targaryen)",
+          "endereco": "Wikipédia (EN) — Game of Thrones season 1; Wikipédia (EN) — Kit Harington",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Game of Thrones season 1",
+              "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Kit Harington",
+              "url": "https://en.wikipedia.org/wiki/Kit_Harington",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "George R. R. Martin"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Michael Hirst"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "David Benioff e D. B. Weiss"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Lauren Schmidt Hissrich"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "David Benioff e D. B. Weiss",
+          "endereco": "Wikipédia (EN) — Game of Thrones; Wikipédia (EN) — David Benioff",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Game of Thrones",
+              "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — David Benioff",
+              "url": "https://en.wikipedia.org/wiki/David_Benioff",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O4",
+              "texto": "2013"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2012"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2010"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2011"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2011",
+          "endereco": "IMDb; Wikipédia (EN) — Game of Thrones",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0944947/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Game of Thrones",
+              "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou num domingo de abril de 2011, num canal de TV paga americano.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou num domingo de abril de 2011, num canal de TV paga americano."
+          },
+          {
+            "id": "P02",
+            "text": "É uma série; a primeira temporada tem dez episódios de cerca de 55 minutos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma série; a primeira temporada tem dez episódios de cerca de 55 minutos."
+          },
+          {
+            "id": "P03",
+            "text": "Famílias nobres de um continente fictício, de clima medieval, disputam o poder.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Famílias nobres de um continente fictício, de clima medieval, disputam o poder."
+          },
+          {
+            "id": "P04",
+            "text": "O rei visita um castelo do Norte para pedir que o senhor local seja a 'Mão do Rei', seu principal conselheiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — 10 grandes momentos da 1ª temporada",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-146814/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O rei visita um castelo do Norte para pedir que o senhor local seja a 'Mão do Rei', seu principal conselheiro."
+          },
+          {
+            "id": "P05",
+            "text": "Uma ninhada de seis filhotes de lobo gigante órfãos é encontrada, e cada filho da família nobre do Norte fica com um.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma ninhada de seis filhotes de lobo gigante órfãos é encontrada, e cada filho da família nobre do Norte fica com um."
+          },
+          {
+            "id": "P06",
+            "text": "Do outro lado do mar, um príncipe exilado entrega a irmã em casamento a um senhor da guerra, em troca de um exército.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — 10 grandes momentos da 1ª temporada",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-146814/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Do outro lado do mar, um príncipe exilado entrega a irmã em casamento a um senhor da guerra, em troca de um exército."
+          },
+          {
+            "id": "P07",
+            "text": "O protagonista é o filho bastardo do senhor do Norte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é o filho bastardo do senhor do Norte."
+          },
+          {
+            "id": "P08",
+            "text": "Ele parte para a Muralha, no extremo norte, para se juntar à Patrulha da Noite.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — 10 grandes momentos da 1ª temporada",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-146814/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele parte para a Muralha, no extremo norte, para se juntar à Patrulha da Noite."
+          },
+          {
+            "id": "P09",
+            "text": "Na Patrulha, ele se destaca entre recrutas que, muitas vezes, são de origem pobre ou criminosos condenados.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Na Patrulha, ele se destaca entre recrutas que, muitas vezes, são de origem pobre ou criminosos condenados."
+          },
+          {
+            "id": "P10",
+            "text": "Ele protege um recruta desajeitado que sofre nas mãos dos colegas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele protege um recruta desajeitado que sofre nas mãos dos colegas."
+          },
+          {
+            "id": "P11",
+            "text": "Um dos criadores escreveu os roteiros dos filmes 'Troia' (2004) e 'O Caçador de Pipas' (2007).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — David Benioff",
+                "url": "https://en.wikipedia.org/wiki/David_Benioff",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um dos criadores escreveu os roteiros dos filmes 'Troia' (2004) e 'O Caçador de Pipas' (2007)."
+          },
+          {
+            "id": "P12",
+            "text": "O autor dos livros originais é produtor e escreveu um episódio em cada uma das quatro primeiras temporadas, mas não criou a série.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O autor dos livros originais é produtor e escreveu um episódio em cada uma das quatro primeiras temporadas, mas não criou a série."
+          },
+          {
+            "id": "P13",
+            "text": "O primeiro episódio foi gravado em 2009, mas a emissora mandou refilmar cerca de 90% dele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O primeiro episódio foi gravado em 2009, mas a emissora mandou refilmar cerca de 90% dele."
+          },
+          {
+            "id": "P14",
+            "text": "O estúdio principal ficava em Belfast, na Irlanda do Norte; as cenas da capital, na 1ª temporada, foram gravadas em Malta.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O estúdio principal ficava em Belfast, na Irlanda do Norte; as cenas da capital, na 1ª temporada, foram gravadas em Malta."
+          },
+          {
+            "id": "P15",
+            "text": "Os dois criadores convenceram o autor dos livros após uma reunião de cinco horas com ele.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os dois criadores convenceram o autor dos livros após uma reunião de cinco horas com ele."
+          },
+          {
+            "id": "P16",
+            "text": "Sean Bean, o Boromir de 'O Senhor dos Anéis', vive o senhor do castelo do Norte.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sean Bean",
+                "url": "https://en.wikipedia.org/wiki/Sean_Bean",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Sean Bean, o Boromir de 'O Senhor dos Anéis', vive o senhor do castelo do Norte."
+          },
+          {
+            "id": "P17",
+            "text": "O ator do protagonista estreou na TV com esse papel e depois estrelou o filme 'Pompeia' (2014).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Kit Harington",
+                "url": "https://en.wikipedia.org/wiki/Kit_Harington",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O ator do protagonista estreou na TV com esse papel e depois estrelou o filme 'Pompeia' (2014)."
+          },
+          {
+            "id": "P18",
+            "text": "A atriz que vive a princesa exilada entrou no lugar de outra atriz quando o primeiro episódio foi refilmado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A atriz que vive a princesa exilada entrou no lugar de outra atriz quando o primeiro episódio foi refilmado."
+          },
+          {
+            "id": "P19",
+            "text": "Peter Dinklage ganhou o Emmy e o Globo de Ouro de ator coadjuvante pela primeira temporada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Peter Dinklage ganhou o Emmy e o Globo de Ouro de ator coadjuvante pela primeira temporada."
+          },
+          {
+            "id": "P20",
+            "text": "Com 59 troféus, é a série dramática mais premiada da história do Emmy.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "O Povo — uma década de Game of Thrones",
+                "url": "https://mais.opovo.com.br/jornal/vidaearte/2021/04/17/uma-decada-de-game-of-thrones--confira-curiosidades-sobre-a-serie.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Com 59 troféus, é a série dramática mais premiada da história do Emmy."
+          },
+          {
+            "id": "P21",
+            "text": "As filmagens da primeira temporada começaram em julho de 2010.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones season 1",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens da primeira temporada começaram em julho de 2010."
+          },
+          {
+            "id": "P22",
+            "text": "A série teve oito temporadas e 73 episódios, terminando em maio de 2019.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "O Povo — uma década de Game of Thrones",
+                "url": "https://mais.opovo.com.br/jornal/vidaearte/2021/04/17/uma-decada-de-game-of-thrones--confira-curiosidades-sobre-a-serie.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A série teve oito temporadas e 73 episódios, terminando em maio de 2019."
+          },
+          {
+            "id": "P23",
+            "text": "Um linguista criou idiomas completos para a série, como o dothraki e o valiriano.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um linguista criou idiomas completos para a série, como o dothraki e o valiriano."
+          },
+          {
+            "id": "P24",
+            "text": "Segundo o site TorrentFreak, foi a série mais pirateada do mundo entre 2012 e 2019 (exceto em 2018).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Segundo o site TorrentFreak, foi a série mais pirateada do mundo entre 2012 e 2019 (exceto em 2018)."
+          },
+          {
+            "id": "P25",
+            "text": "A abertura mostra um mapa em relevo, em 3D, do continente fictício, com cerca de 90 segundos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Game of Thrones",
+                "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A abertura mostra um mapa em relevo, em 3D, do continente fictício, com cerca de 90 segundos."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Game of Thrones (HBO, 2011), criada por David Benioff e D. B. Weiss a partir dos livros de George R. R. Martin, tem entre seus protagonistas Jon Snow, o filho bastardo de Eddard Stark que se junta à Patrulha da Noite.",
+        "hinge": "George R. R. Martin escreveu os livros e alguns episódios, mas a série foi criada por David Benioff e D. B. Weiss.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Game of Thrones",
+            "url": "https://en.wikipedia.org/wiki/Game_of_Thrones",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — David Benioff",
+            "url": "https://en.wikipedia.org/wiki/David_Benioff",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Conferir classificação indicativa (16 anos vem de fonte secundária: ranking my-best Brasil).",
+          "Elenco coral: escolhi Jon Snow como o mais central da série inteira; na 1ª temporada o primeiro creditado é Sean Bean (Eddard Stark), e Tyrion/Daenerys também seriam defensáveis (todos em coProtagonists).",
+          "Distrator de C2 Samwell Tarly é coadjuvante na 1ª temporada, mas ganha peso depois: conferir se não é protagonista demais.",
+          "Títulos BR 'O Caçador de Pipas' e 'Pompeia' (2014) não foram conferidos em fonte brasileira nesta tarefa.",
+          "C1 usa 'A Casa do Dragão' (derivada da própria obra) como distrator: conferir se não fica confuso."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Conferir classificação indicativa (16 anos vem de fonte secundária: ranking my-best Brasil).",
+        "ambiguity:Elenco coral: escolhi Jon Snow como o mais central da série inteira; na 1ª temporada o primeiro creditado é Sean Bean (Eddard Stark), e Tyrion/Daenerys também seriam defensáveis (todos em coProtagonists).",
+        "ambiguity:Distrator de C2 Samwell Tarly é coadjuvante na 1ª temporada, mas ganha peso depois: conferir se não é protagonista demais.",
+        "ambiguity:Títulos BR 'O Caçador de Pipas' e 'Pompeia' (2014) não foram conferidos em fonte brasileira nesta tarefa.",
+        "ambiguity:C1 usa 'A Casa do Dragão' (derivada da própria obra) como distrator: conferir se não fica confuso."
+      ]
+    },
+    "cs1-filme-onde-os-fracos-nao-tem-vez": {
+      "id": "cs1-filme-onde-os-fracos-nao-tem-vez",
+      "kind": "canonical-case",
+      "imdbId": "tt0477348",
+      "title": "Onde os Fracos Não Têm Vez",
+      "sessionTitle": "Uma maleta no deserto",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2007,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — No Country for Old Men; AdoroCinema — Onde os Fracos Não Têm Vez",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0477348/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — No Country for Old Men",
+            "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Onde os Fracos Não Têm Vez",
+            "url": "https://www.adorocinema.com/filmes/filme-110096/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "O clima de faroeste moderno e a disputa no Oscar com 'Sangue Negro' (Paul Thomas Anderson) confundem, mas o filme é dos irmãos Joel e Ethan Coen, adaptando Cormac McCarthy."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O4",
+              "texto": "Fargo"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Onde os Fracos Não Têm Vez"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "A Qualquer Custo"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Sangue Negro"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Onde os Fracos Não Têm Vez",
+          "endereco": "IMDb; Wikipédia (EN) — No Country for Old Men",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0477348/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — No Country for Old Men",
+              "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Llewelyn Moss"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Toby Howard"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Carson Wells"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Marge Gunderson"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Llewelyn Moss (com Ed Tom Bell, Anton Chigurh)",
+          "endereco": "Wikipédia (EN) — No Country for Old Men; IMDb",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — No Country for Old Men",
+              "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0477348/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O3",
+              "texto": "Quentin Tarantino"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Denis Villeneuve"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Joel e Ethan Coen"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Paul Thomas Anderson"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Joel e Ethan Coen",
+          "endereco": "IMDb; Wikipédia (EN) — No Country for Old Men; AdoroCinema — Onde os Fracos Não Têm Vez",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0477348/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — No Country for Old Men",
+              "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Onde os Fracos Não Têm Vez",
+              "url": "https://www.adorocinema.com/filmes/filme-110096/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O3",
+              "texto": "2008"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2005"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2006"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2007"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2007",
+          "endereco": "IMDb; Wikipédia (EN) — No Country for Old Men",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0477348/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — No Country for Old Men",
+              "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou nos EUA em novembro de 2007; no Brasil, chegou aos cinemas em fevereiro de 2008.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — Onde os Fracos Não Têm Vez",
+                "url": "https://www.adorocinema.com/filmes/filme-110096/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou nos EUA em novembro de 2007; no Brasil, chegou aos cinemas em fevereiro de 2008."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de cerca de duas horas (122 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0477348/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de cerca de duas horas (122 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "A história se passa no oeste do Texas, em 1980.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história se passa no oeste do Texas, em 1980."
+          },
+          {
+            "id": "P04",
+            "text": "Um caçador encontra no deserto o que sobrou de uma negociação de drogas que deu errado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um caçador encontra no deserto o que sobrou de uma negociação de drogas que deu errado."
+          },
+          {
+            "id": "P05",
+            "text": "Ele fica com uma maleta com cerca de 2 milhões de dólares deixada no local.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele fica com uma maleta com cerca de 2 milhões de dólares deixada no local."
+          },
+          {
+            "id": "P06",
+            "text": "Um matador frio e implacável é enviado para recuperar o dinheiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um matador frio e implacável é enviado para recuperar o dinheiro."
+          },
+          {
+            "id": "P07",
+            "text": "O matador usa como arma uma pistola pneumática de abate de gado.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O matador usa como arma uma pistola pneumática de abate de gado."
+          },
+          {
+            "id": "P08",
+            "text": "O matador costuma decidir o destino das pessoas no cara ou coroa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O matador costuma decidir o destino das pessoas no cara ou coroa."
+          },
+          {
+            "id": "P09",
+            "text": "Um xerife veterano investiga a onda de violência que vem em seguida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um xerife veterano investiga a onda de violência que vem em seguida."
+          },
+          {
+            "id": "P10",
+            "text": "Os diretores são irmãos e já tinham feito 'Fargo' (1996), outro filme de crime com muito acaso no caminho.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os diretores são irmãos e já tinham feito 'Fargo' (1996), outro filme de crime com muito acaso no caminho."
+          },
+          {
+            "id": "P11",
+            "text": "Os próprios diretores escreveram o roteiro, produziram e montaram o filme.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os próprios diretores escreveram o roteiro, produziram e montaram o filme."
+          },
+          {
+            "id": "P12",
+            "text": "É baseado num romance de Cormac McCarthy publicado em 2005.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É baseado num romance de Cormac McCarthy publicado em 2005."
+          },
+          {
+            "id": "P13",
+            "text": "Foi filmado no Novo México e no Texas, com uma cena gravada em Piedras Negras, no México.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi filmado no Novo México e no Texas, com uma cena gravada em Piedras Negras, no México."
+          },
+          {
+            "id": "P14",
+            "text": "A fotografia é de Roger Deakins.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A fotografia é de Roger Deakins."
+          },
+          {
+            "id": "P15",
+            "text": "O caçador é vivido por Josh Brolin.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0477348/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O caçador é vivido por Josh Brolin."
+          },
+          {
+            "id": "P16",
+            "text": "Tommy Lee Jones interpreta o xerife.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0477348/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Tommy Lee Jones interpreta o xerife."
+          },
+          {
+            "id": "P17",
+            "text": "Javier Bardem interpreta o matador.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0477348/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Javier Bardem interpreta o matador."
+          },
+          {
+            "id": "P18",
+            "text": "Woody Harrelson e Kelly Macdonald completam o elenco principal.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Woody Harrelson e Kelly Macdonald completam o elenco principal."
+          },
+          {
+            "id": "P19",
+            "text": "Teve 8 indicações ao Oscar e ganhou 4, incluindo Melhor Filme e Melhor Direção.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve 8 indicações ao Oscar e ganhou 4, incluindo Melhor Filme e Melhor Direção."
+          },
+          {
+            "id": "P20",
+            "text": "O intérprete do matador se tornou o primeiro ator espanhol a ganhar um Oscar.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O intérprete do matador se tornou o primeiro ator espanhol a ganhar um Oscar."
+          },
+          {
+            "id": "P21",
+            "text": "A montagem é creditada a 'Roderick Jaynes', um pseudônimo usado pelos próprios diretores.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A montagem é creditada a 'Roderick Jaynes', um pseudônimo usado pelos próprios diretores."
+          },
+          {
+            "id": "P22",
+            "text": "O título vem do primeiro verso do poema 'Sailing to Byzantium', de William Butler Yeats.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O título vem do primeiro verso do poema 'Sailing to Byzantium', de William Butler Yeats."
+          },
+          {
+            "id": "P23",
+            "text": "A trilha de Carter Burwell tem só cerca de 16 minutos de música; o resto é quase silêncio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trilha de Carter Burwell tem só cerca de 16 minutos de música; o resto é quase silêncio."
+          },
+          {
+            "id": "P24",
+            "text": "A estreia mundial foi em competição no Festival de Cannes, em maio de 2007.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — No Country for Old Men",
+                "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A estreia mundial foi em competição no Festival de Cannes, em maio de 2007."
+          },
+          {
+            "id": "P25",
+            "text": "No Oscar de 2008, disputou Melhor Filme com 'Sangue Negro', 'Juno', 'Desejo e Reparação' e 'Conduta de Risco'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "CNN — lista completa de indicados ao 80º Oscar (2008)",
+                "url": "https://edition.cnn.com/2008/SHOWBIZ/Movies/01/22/oscar.complete.list/index.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Oscar de 2008, disputou Melhor Filme com 'Sangue Negro', 'Juno', 'Desejo e Reparação' e 'Conduta de Risco'."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Onde os Fracos Não Têm Vez (2007), dirigido por Joel e Ethan Coen, acompanha Llewelyn Moss, caçador que fica com uma maleta de dinheiro do tráfico e passa a ser perseguido no oeste do Texas.",
+        "hinge": "O clima de faroeste moderno e a disputa no Oscar com 'Sangue Negro' (Paul Thomas Anderson) confundem, mas o filme é dos irmãos Joel e Ethan Coen, adaptando Cormac McCarthy.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — No Country for Old Men",
+            "url": "https://en.wikipedia.org/wiki/No_Country_for_Old_Men",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "CNN — lista completa de indicados ao 80º Oscar (2008)",
+            "url": "https://edition.cnn.com/2008/SHOWBIZ/Movies/01/22/oscar.complete.list/index.html",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0477348/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Escolha de Llewelyn Moss como resposta de C2: Tommy Lee Jones (Ed Tom Bell) é o primeiro nome do elenco e narra o filme; os dois e Anton Chigurh ficaram em coProtagonists.",
+          "Data de estreia no Brasil (fevereiro de 2008) conferida só no AdoroCinema.",
+          "Classificação '16 anos' conferida só no AdoroCinema.",
+          "Títulos BR 'Desejo e Reparação' (Atonement) e 'Conduta de Risco' (Michael Clayton) na P25 não foram conferidos em fonte aberta nesta tarefa."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Escolha de Llewelyn Moss como resposta de C2: Tommy Lee Jones (Ed Tom Bell) é o primeiro nome do elenco e narra o filme; os dois e Anton Chigurh ficaram em coProtagonists.",
+        "ambiguity:Data de estreia no Brasil (fevereiro de 2008) conferida só no AdoroCinema.",
+        "ambiguity:Classificação '16 anos' conferida só no AdoroCinema.",
+        "ambiguity:Títulos BR 'Desejo e Reparação' (Atonement) e 'Conduta de Risco' (Michael Clayton) na P25 não foram conferidos em fonte aberta nesta tarefa."
+      ]
+    },
+    "cs1-serie-chernobyl": {
+      "id": "cs1-serie-chernobyl",
+      "kind": "canonical-case",
+      "imdbId": "tt7366338",
+      "title": "Chernobyl",
+      "sessionTitle": "Uma noite que não acabou",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2019,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Chernobyl (miniseries); Omelete — o que faz de Chernobyl tão cativante",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt7366338/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+            "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Omelete — o que faz de Chernobyl tão cativante",
+            "url": "https://www.omelete.com.br/series-tv/chernobyl-o-que-faz-da-nova-serie-da-hbo-tao-cativante",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Johan Renck dirigiu todos os cinco episódios, mas a criação e o roteiro são de Craig Mazin."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Chernobyl"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "The Crown"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Olhos que Condenam"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "O Gambito da Rainha"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Chernobyl",
+          "endereco": "IMDb; Wikipédia (EN) — Chernobyl (miniseries)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt7366338/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+              "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O3",
+              "texto": "Beth Harmon"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "J. Robert Oppenheimer"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Valery Legasov"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Mikhail Gorbachev"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Valery Legasov (com Boris Shcherbina, Ulana Khomyuk)",
+          "endereco": "Wikipédia (EN) — Chernobyl (miniseries); Omelete — o que faz de Chernobyl tão cativante",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+              "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Omelete — o que faz de Chernobyl tão cativante",
+              "url": "https://www.omelete.com.br/series-tv/chernobyl-o-que-faz-da-nova-serie-da-hbo-tao-cativante",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "Johan Renck"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Ava DuVernay"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Craig Mazin"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Peter Morgan"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Craig Mazin",
+          "endereco": "Wikipédia (EN) — Chernobyl (miniseries); Wikipédia (EN) — Craig Mazin",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+              "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Craig Mazin",
+              "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O3",
+              "texto": "2020"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2021"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2018"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2019",
+          "endereco": "IMDb; Wikipédia (EN) — Chernobyl (miniseries)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt7366338/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+              "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou nos EUA em 6 de maio de 2019; no Brasil, chegou à HBO quatro dias depois.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Jovem Pan — Chernobyl estreia nesta semana",
+                "url": "https://jovempan.com.br/entretenimento/tv-e-cinema/serie-chernobyl-estreia-nesta-semana-e-revisita-tragedia-nuclear-dos-anos-80/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou nos EUA em 6 de maio de 2019; no Brasil, chegou à HBO quatro dias depois."
+          },
+          {
+            "id": "P02",
+            "text": "É uma minissérie fechada, com apenas cinco episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Jovem Pan — Chernobyl estreia nesta semana",
+                "url": "https://jovempan.com.br/entretenimento/tv-e-cinema/serie-chernobyl-estreia-nesta-semana-e-revisita-tragedia-nuclear-dos-anos-80/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma minissérie fechada, com apenas cinco episódios."
+          },
+          {
+            "id": "P03",
+            "text": "Recria um desastre real ocorrido numa usina nuclear da União Soviética.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Recria um desastre real ocorrido numa usina nuclear da União Soviética."
+          },
+          {
+            "id": "P04",
+            "text": "A história começa em abril de 1986, na Ucrânia, então parte da União Soviética.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história começa em abril de 1986, na Ucrânia, então parte da União Soviética."
+          },
+          {
+            "id": "P05",
+            "text": "De madrugada, um reator explode; um engenheiro-chefe adjunto ignora os avisos de que o núcleo está exposto.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "De madrugada, um reator explode; um engenheiro-chefe adjunto ignora os avisos de que o núcleo está exposto."
+          },
+          {
+            "id": "P06",
+            "text": "Bombeiros da cidade vizinha correm para combater o incêndio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Bombeiros da cidade vizinha correm para combater o incêndio."
+          },
+          {
+            "id": "P07",
+            "text": "Moradores se reúnem numa ponte para assistir ao fogo de longe.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Moradores se reúnem numa ponte para assistir ao fogo de longe."
+          },
+          {
+            "id": "P08",
+            "text": "As autoridades locais isolam a cidade e cortam as linhas telefônicas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As autoridades locais isolam a cidade e cortam as linhas telefônicas."
+          },
+          {
+            "id": "P09",
+            "text": "O protagonista, vice-diretor de um instituto de pesquisa nuclear, é chamado ao Kremlin para aconselhar Mikhail Gorbachev.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista, vice-diretor de um instituto de pesquisa nuclear, é chamado ao Kremlin para aconselhar Mikhail Gorbachev."
+          },
+          {
+            "id": "P10",
+            "text": "Ele trabalha ao lado de um vice-presidente do Conselho de Ministros e de uma física nuclear.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Omelete — o que faz de Chernobyl tão cativante",
+                "url": "https://www.omelete.com.br/series-tv/chernobyl-o-que-faz-da-nova-serie-da-hbo-tao-cativante",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele trabalha ao lado de um vice-presidente do Conselho de Ministros e de uma física nuclear."
+          },
+          {
+            "id": "P11",
+            "text": "A série acompanha também bombeiros, voluntários e mineiros que cavaram um túnel sob o reator.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A série acompanha também bombeiros, voluntários e mineiros que cavaram um túnel sob o reator."
+          },
+          {
+            "id": "P12",
+            "text": "O criador, que escreveu sozinho os cinco episódios, era conhecido por comédias como 'Todo Mundo em Pânico 3' e as continuações de 'Se Beber, Não Case!'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Craig Mazin",
+                "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Omelete — o que faz de Chernobyl tão cativante",
+                "url": "https://www.omelete.com.br/series-tv/chernobyl-o-que-faz-da-nova-serie-da-hbo-tao-cativante",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O criador, que escreveu sozinho os cinco episódios, era conhecido por comédias como 'Todo Mundo em Pânico 3' e as continuações de 'Se Beber, Não Case!'."
+          },
+          {
+            "id": "P13",
+            "text": "Um único diretor, que já tinha dirigido episódios de 'Breaking Bad' e 'Vikings', comandou os cinco episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Omelete — o que faz de Chernobyl tão cativante",
+                "url": "https://www.omelete.com.br/series-tv/chernobyl-o-que-faz-da-nova-serie-da-hbo-tao-cativante",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um único diretor, que já tinha dirigido episódios de 'Breaking Bad' e 'Vikings', comandou os cinco episódios."
+          },
+          {
+            "id": "P14",
+            "text": "A física nuclear vivida por Emily Watson é uma personagem inventada, que representa vários cientistas reais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A física nuclear vivida por Emily Watson é uma personagem inventada, que representa vários cientistas reais."
+          },
+          {
+            "id": "P15",
+            "text": "Uma usina nuclear desativada na Lituânia foi usada como cenário nas filmagens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma usina nuclear desativada na Lituânia foi usada como cenário nas filmagens."
+          },
+          {
+            "id": "P16",
+            "text": "Foi a primeira coprodução da HBO com o canal britânico Sky.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi a primeira coprodução da HBO com o canal britânico Sky."
+          },
+          {
+            "id": "P17",
+            "text": "O protagonista é vivido por Jared Harris, o rei George VI de 'The Crown'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Jared Harris",
+                "url": "https://en.wikipedia.org/wiki/Jared_Harris",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Jared Harris, o rei George VI de 'The Crown'."
+          },
+          {
+            "id": "P18",
+            "text": "Stellan Skarsgård vive o dirigente do governo soviético enviado para acompanhar a crise.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Stellan Skarsgård vive o dirigente do governo soviético enviado para acompanhar a crise."
+          },
+          {
+            "id": "P19",
+            "text": "Jessie Buckley vive Lyudmilla Ignatenko, mulher de um dos bombeiros.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Jovem Pan — Chernobyl estreia nesta semana",
+                "url": "https://jovempan.com.br/entretenimento/tv-e-cinema/serie-chernobyl-estreia-nesta-semana-e-revisita-tragedia-nuclear-dos-anos-80/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Jessie Buckley vive Lyudmilla Ignatenko, mulher de um dos bombeiros."
+          },
+          {
+            "id": "P20",
+            "text": "Ganhou o Emmy de melhor minissérie, além dos prêmios de direção e roteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Craig Mazin",
+                "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou o Emmy de melhor minissérie, além dos prêmios de direção e roteiro."
+          },
+          {
+            "id": "P21",
+            "text": "Ganhou o Globo de Ouro de melhor minissérie, e Stellan Skarsgård levou o de ator coadjuvante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou o Globo de Ouro de melhor minissérie, e Stellan Skarsgård levou o de ator coadjuvante."
+          },
+          {
+            "id": "P22",
+            "text": "Em maio de 2019, antes do último episódio, chegou a ter nota maior no IMDb que 'Breaking Bad' e 'Game of Thrones'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Rolling Stone Brasil — Chernobyl supera Game of Thrones e Breaking Bad",
+                "url": "https://rollingstone.com.br/noticia/com-uma-temporada-chernobyl-supera-game-thrones-e-breaking-bad/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em maio de 2019, antes do último episódio, chegou a ter nota maior no IMDb que 'Breaking Bad' e 'Game of Thrones'."
+          },
+          {
+            "id": "P23",
+            "text": "Os atores não imitam sotaque russo: cada um fala com o próprio sotaque.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os atores não imitam sotaque russo: cada um fala com o próprio sotaque."
+          },
+          {
+            "id": "P24",
+            "text": "A trilha, da compositora de 'Coringa', foi feita com sons gravados dentro de uma usina nuclear de verdade.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Joker (2019 film)",
+                "url": "https://en.wikipedia.org/wiki/Joker_(2019_film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trilha, da compositora de 'Coringa', foi feita com sons gravados dentro de uma usina nuclear de verdade."
+          },
+          {
+            "id": "P25",
+            "text": "Cada episódio ganhou um podcast oficial em que o criador explica o que é real e o que foi adaptado.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+                "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Cada episódio ganhou um podcast oficial em que o criador explica o que é real e o que foi adaptado."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Chernobyl (HBO/Sky, 2019), minissérie criada e escrita por Craig Mazin, recria o desastre nuclear de 1986 pelos olhos do cientista Valery Legasov e de quem enfrentou a crise.",
+        "hinge": "Johan Renck dirigiu todos os cinco episódios, mas a criação e o roteiro são de Craig Mazin.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Chernobyl (miniseries)",
+            "url": "https://en.wikipedia.org/wiki/Chernobyl_(miniseries)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Craig Mazin",
+            "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Conferir classificação indicativa (não achei fonte brasileira; pus 16 anos).",
+          "Protagonismo: tratei como trio (Legasov, Shcherbina, Khomyuk, apoiado pela Omelete); a Wikipédia descreve elenco coral e credita também Dyatlov e os Ignatenko no elenco principal — conferir rótulo 'Um dos protagonistas' vs. 'Protagonista'.",
+          "Distrator Mikhail Gorbachev é personagem coadjuvante da própria série; Beth Harmon e Oppenheimer são protagonistas de outras obras: conferir.",
+          "A pista P01 (estreia no Brasil 4 dias depois) se apoia na Jovem Pan, que cita só o dia 10."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Conferir classificação indicativa (não achei fonte brasileira; pus 16 anos).",
+        "ambiguity:Protagonismo: tratei como trio (Legasov, Shcherbina, Khomyuk, apoiado pela Omelete); a Wikipédia descreve elenco coral e credita também Dyatlov e os Ignatenko no elenco principal — conferir rótulo 'Um dos protagonistas' vs. 'Protagonista'.",
+        "ambiguity:Distrator Mikhail Gorbachev é personagem coadjuvante da própria série; Beth Harmon e Oppenheimer são protagonistas de outras obras: conferir.",
+        "ambiguity:A pista P01 (estreia no Brasil 4 dias depois) se apoia na Jovem Pan, que cita só o dia 10."
+      ]
+    },
+    "cs1-filme-brilho-eterno-de-uma-mente-sem-lembrancas": {
+      "id": "cs1-filme-brilho-eterno-de-uma-mente-sem-lembrancas",
+      "kind": "canonical-case",
+      "imdbId": "tt0338013",
+      "title": "Brilho Eterno de uma Mente sem Lembranças",
+      "sessionTitle": "Um amor para apagar",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2004,
+      "rating": "14 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Eternal Sunshine of the Spotless Mind; AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças; Filmow — Brilho Eterno (classificação indicativa)",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0338013/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+            "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+            "url": "https://www.adorocinema.com/filmes/filme-40191/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Filmow — Brilho Eterno (classificação indicativa)",
+            "url": "https://filmow.com/o-cordeiro-t4562/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "O roteiro premiado é de Charlie Kaufman (de 'Quero Ser John Malkovich'), e muita gente atribui o filme a ele ou a Spike Jonze; quem dirigiu foi Michel Gondry."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O4",
+              "texto": "500 Dias com Ela"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Quero Ser John Malkovich"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ela"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Brilho Eterno de uma Mente sem Lembranças"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Brilho Eterno de uma Mente sem Lembranças",
+          "endereco": "IMDb; Wikipédia (EN) — Eternal Sunshine of the Spotless Mind; AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0338013/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+              "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+              "url": "https://www.adorocinema.com/filmes/filme-40191/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "Tom Hansen"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Patrick Wertz"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Joel Barish"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Stan Fink"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Joel Barish (com Clementine Kruczynski)",
+          "endereco": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+              "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "Charlie Kaufman"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Sofia Coppola"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Michel Gondry"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Spike Jonze"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Michel Gondry",
+          "endereco": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind; AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+              "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+              "url": "https://www.adorocinema.com/filmes/filme-40191/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O4",
+              "texto": "2002"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2003"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2004"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2005"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2004",
+          "endereco": "IMDb; Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt0338013/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+              "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou nos cinemas dos EUA em março de 2004.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou nos cinemas dos EUA em março de 2004."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de 108 minutos, pouco menos de duas horas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt0338013/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de 108 minutos, pouco menos de duas horas."
+          },
+          {
+            "id": "P03",
+            "text": "É uma história de amor com toque de ficção científica: uma empresa oferece um serviço de apagar memórias.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma história de amor com toque de ficção científica: uma empresa oferece um serviço de apagar memórias."
+          },
+          {
+            "id": "P04",
+            "text": "Um homem descobre que a ex-namorada fez um procedimento para apagar da memória tudo o que viveu com ele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um homem descobre que a ex-namorada fez um procedimento para apagar da memória tudo o que viveu com ele."
+          },
+          {
+            "id": "P05",
+            "text": "Magoado, ele decide passar pelo mesmo procedimento para esquecê-la.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Magoado, ele decide passar pelo mesmo procedimento para esquecê-la."
+          },
+          {
+            "id": "P06",
+            "text": "O serviço é feito por uma pequena empresa de Long Island chamada Lacuna.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O serviço é feito por uma pequena empresa de Long Island chamada Lacuna."
+          },
+          {
+            "id": "P07",
+            "text": "Logo no começo, ele acorda no Dia dos Namorados americano e, num impulso, pega o trem para Montauk.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Logo no começo, ele acorda no Dia dos Namorados americano e, num impulso, pega o trem para Montauk."
+          },
+          {
+            "id": "P08",
+            "text": "A ex-namorada muda a cor do cabelo conforme o humor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A ex-namorada muda a cor do cabelo conforme o humor."
+          },
+          {
+            "id": "P09",
+            "text": "Boa parte da história se passa dentro das recordações do protagonista, revisitadas durante o procedimento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Boa parte da história se passa dentro das recordações do protagonista, revisitadas durante o procedimento."
+          },
+          {
+            "id": "P10",
+            "text": "O diretor é francês e ficou famoso por videoclipes de Björk, Daft Punk e Radiohead.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Open Culture — Michel Gondry's finest music videos",
+                "url": "https://openculture.com/2015/02/michel-gondry-finest-music-videos.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor é francês e ficou famoso por videoclipes de Björk, Daft Punk e Radiohead."
+          },
+          {
+            "id": "P11",
+            "text": "O diretor estreou em longas com 'A Natureza Quase Humana' (2001), também escrito por Charlie Kaufman.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — A Natureza Quase Humana",
+                "url": "https://www.adorocinema.com/filmes/filme-28830/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor estreou em longas com 'A Natureza Quase Humana' (2001), também escrito por Charlie Kaufman."
+          },
+          {
+            "id": "P12",
+            "text": "O roteirista já tinha sido indicado ao Oscar por 'Quero Ser John Malkovich' e 'Adaptação'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O roteirista já tinha sido indicado ao Oscar por 'Quero Ser John Malkovich' e 'Adaptação'."
+          },
+          {
+            "id": "P13",
+            "text": "A ideia nasceu do artista Pierre Bismuth, depois que uma amiga disse que apagaria o namorado da memória.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A ideia nasceu do artista Pierre Bismuth, depois que uma amiga disse que apagaria o namorado da memória."
+          },
+          {
+            "id": "P14",
+            "text": "As filmagens começaram em janeiro de 2003 e duraram cerca de três meses, principalmente em Nova York.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens começaram em janeiro de 2003 e duraram cerca de três meses, principalmente em Nova York."
+          },
+          {
+            "id": "P15",
+            "text": "O protagonista é vivido por Jim Carrey.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Jim Carrey."
+          },
+          {
+            "id": "P16",
+            "text": "Kate Winslet interpreta a ex-namorada e foi indicada ao Oscar de Melhor Atriz pelo papel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Kate Winslet interpreta a ex-namorada e foi indicada ao Oscar de Melhor Atriz pelo papel."
+          },
+          {
+            "id": "P17",
+            "text": "Kirsten Dunst, Mark Ruffalo, Elijah Wood e Tom Wilkinson completam o elenco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Kirsten Dunst, Mark Ruffalo, Elijah Wood e Tom Wilkinson completam o elenco."
+          },
+          {
+            "id": "P18",
+            "text": "Ganhou o Oscar de Melhor Roteiro Original.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou o Oscar de Melhor Roteiro Original."
+          },
+          {
+            "id": "P19",
+            "text": "No BAFTA, venceu Roteiro Original e Montagem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No BAFTA, venceu Roteiro Original e Montagem."
+          },
+          {
+            "id": "P20",
+            "text": "A cantora Björk chegou a ser cogitada para o papel feminino principal, mas recusou depois de ler o roteiro.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A cantora Björk chegou a ser cogitada para o papel feminino principal, mas recusou depois de ler o roteiro."
+          },
+          {
+            "id": "P21",
+            "text": "O título vem de versos do poema 'Eloisa to Abelard', de Alexander Pope (1717).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O título vem de versos do poema 'Eloisa to Abelard', de Alexander Pope (1717)."
+          },
+          {
+            "id": "P22",
+            "text": "Em 2016, uma votação de críticos da BBC o pôs em 6º lugar entre os maiores filmes do século 21.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em 2016, uma votação de críticos da BBC o pôs em 6º lugar entre os maiores filmes do século 21."
+          },
+          {
+            "id": "P23",
+            "text": "Quase não há computação gráfica: os efeitos foram feitos na própria câmera, com truques de perspectiva.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Quase não há computação gráfica: os efeitos foram feitos na própria câmera, com truques de perspectiva."
+          },
+          {
+            "id": "P24",
+            "text": "Ganhou seu Oscar na 77ª cerimônia da Academia, realizada no início de 2005.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+                "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou seu Oscar na 77ª cerimônia da Academia, realizada no início de 2005."
+          },
+          {
+            "id": "P25",
+            "text": "No Brasil, chegou aos cinemas em julho de 2004.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Brilho Eterno de uma Mente Sem Lembranças",
+                "url": "https://www.adorocinema.com/filmes/filme-40191/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Brasil, chegou aos cinemas em julho de 2004."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Brilho Eterno de uma Mente sem Lembranças (2004), dirigido por Michel Gondry, acompanha Joel Barish, que decide apagar da memória a ex-namorada Clementine depois de descobrir que ela o apagou.",
+        "hinge": "O roteiro premiado é de Charlie Kaufman (de 'Quero Ser John Malkovich'), e muita gente atribui o filme a ele ou a Spike Jonze; quem dirigiu foi Michel Gondry.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Eternal Sunshine of the Spotless Mind",
+            "url": "https://en.wikipedia.org/wiki/Eternal_Sunshine_of_the_Spotless_Mind",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — notícia sobre o filme (Oscar e roteirista)",
+            "url": "https://www.adorocinema.com/noticias/filmes/noticia-1000110322/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt0338013/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "C2 como 'Um dos protagonistas' (Joel Barish, com Clementine em coProtagonists): se o professor preferir 'Protagonista' único, basta trocar o rótulo e remover coProtagonists.",
+          "Classificação '14 anos' conferida só no Filmow (o AdoroCinema não informa).",
+          "P24: a Wikipédia EN cita a 77ª cerimônia; o ano (2005) da cerimônia não foi conferido em fonte separada.",
+          "P07 (acordar no Dia dos Namorados e ir a Montauk) é a abertura do filme, mas a cronologia dela é parte do jogo narrativo — conferir risco de spoiler.",
+          "P10: 'diretor francês' vem do Open Culture (que o descreve como único elemento francês do filme), não da Wikipédia.",
+          "Curiosidade ficou com 4 pistas (guia pede ~3) para fechar 25."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:C2 como 'Um dos protagonistas' (Joel Barish, com Clementine em coProtagonists): se o professor preferir 'Protagonista' único, basta trocar o rótulo e remover coProtagonists.",
+        "ambiguity:Classificação '14 anos' conferida só no Filmow (o AdoroCinema não informa).",
+        "ambiguity:P24: a Wikipédia EN cita a 77ª cerimônia; o ano (2005) da cerimônia não foi conferido em fonte separada.",
+        "ambiguity:P07 (acordar no Dia dos Namorados e ir a Montauk) é a abertura do filme, mas a cronologia dela é parte do jogo narrativo — conferir risco de spoiler.",
+        "ambiguity:P10: 'diretor francês' vem do Open Culture (que o descreve como único elemento francês do filme), não da Wikipédia.",
+        "ambiguity:Curiosidade ficou com 4 pistas (guia pede ~3) para fechar 25."
+      ]
+    },
+    "cs1-serie-the-last-of-us": {
+      "id": "cs1-serie-the-last-of-us",
+      "kind": "canonical-case",
+      "imdbId": "tt3581920",
+      "title": "The Last of Us",
+      "sessionTitle": "Uma travessia por ruínas",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2023,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — The Last of Us season 1; Wikipédia (EN) — The Last of Us (franquia)",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt3581920/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Last of Us season 1",
+            "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Last of Us (franquia)",
+            "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Neil Druckmann vem do videogame, mas a série tem dois criadores: ele e Craig Mazin, o roteirista de Chernobyl."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "Station Eleven"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Fallout"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Sweet Tooth"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "The Last of Us"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "The Last of Us",
+          "endereco": "IMDb; Wikipédia (EN) — The Last of Us season 1",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt3581920/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Last of Us season 1",
+              "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "Marlene"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Tess"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Tommy Miller"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Joel Miller"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Joel Miller (com Ellie)",
+          "endereco": "Wikipédia (EN) — The Last of Us season 1; Ovicio — tudo sobre a estreia de The Last of Us",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Last of Us season 1",
+              "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Ovicio — tudo sobre a estreia de The Last of Us",
+              "url": "https://ovicio.com.br/tudo-sobre-a-estreia-de-the-last-of-us/amp/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O4",
+              "texto": "Patrick Somerville"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Craig Mazin e Neil Druckmann"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Graham Wagner e Geneva Robertson-Dworet"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Jonathan Nolan e Lisa Joy"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Craig Mazin e Neil Druckmann",
+          "endereco": "Wikipédia (EN) — The Last of Us season 1; Wikipédia (EN) — Craig Mazin",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Last of Us season 1",
+              "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Craig Mazin",
+              "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O4",
+              "texto": "2021"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2022"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2023"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2024"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2023",
+          "endereco": "IMDb; Wikipédia (EN) — The Last of Us season 1",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt3581920/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Last of Us season 1",
+              "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou num domingo de janeiro de 2023, na TV paga e no streaming.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Last of Us (franquia)",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou num domingo de janeiro de 2023, na TV paga e no streaming."
+          },
+          {
+            "id": "P02",
+            "text": "É uma série; a primeira temporada tem nove episódios (eram dez, mas os dois primeiros viraram um só).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma série; a primeira temporada tem nove episódios (eram dez, mas os dois primeiros viraram um só)."
+          },
+          {
+            "id": "P03",
+            "text": "Uma infecção causada por um fungo mutante provoca uma pandemia mundial.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma infecção causada por um fungo mutante provoca uma pandemia mundial."
+          },
+          {
+            "id": "P04",
+            "text": "O surto começa em 2003; a história principal se passa vinte anos depois.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O surto começa em 2003; a história principal se passa vinte anos depois."
+          },
+          {
+            "id": "P05",
+            "text": "O primeiro episódio abre com um programa de TV de 1968 em que um cientista alerta sobre o perigo dos fungos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O primeiro episódio abre com um programa de TV de 1968 em que um cientista alerta sobre o perigo dos fungos."
+          },
+          {
+            "id": "P06",
+            "text": "No início do surto, o protagonista foge de Austin, no Texas, junto com o irmão.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No início do surto, o protagonista foge de Austin, no Texas, junto com o irmão."
+          },
+          {
+            "id": "P07",
+            "text": "O protagonista vira contrabandista numa zona de quarentena em Boston.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista vira contrabandista numa zona de quarentena em Boston."
+          },
+          {
+            "id": "P08",
+            "text": "Uma agência do governo, a FEDRA, controla essa zona de quarentena.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma agência do governo, a FEDRA, controla essa zona de quarentena."
+          },
+          {
+            "id": "P09",
+            "text": "A líder de um grupo rebelde contrata o protagonista e sua parceira para escoltar uma adolescente.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A líder de um grupo rebelde contrata o protagonista e sua parceira para escoltar uma adolescente."
+          },
+          {
+            "id": "P10",
+            "text": "A adolescente que precisa ser escoltada diz ser imune à infecção.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A adolescente que precisa ser escoltada diz ser imune à infecção."
+          },
+          {
+            "id": "P11",
+            "text": "Um dos criadores foi diretor criativo do jogo original, lançado em 2013 para PlayStation 3.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us (franquia)",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um dos criadores foi diretor criativo do jogo original, lançado em 2013 para PlayStation 3."
+          },
+          {
+            "id": "P12",
+            "text": "O outro criador havia escrito, antes, a premiada minissérie sobre o desastre nuclear soviético de 1986.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Craig Mazin",
+                "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O outro criador havia escrito, antes, a premiada minissérie sobre o desastre nuclear soviético de 1986."
+          },
+          {
+            "id": "P13",
+            "text": "Cada criador dirigiu um dos dois primeiros episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Cada criador dirigiu um dos dois primeiros episódios."
+          },
+          {
+            "id": "P14",
+            "text": "Foi gravada em Alberta, no Canadá, entre julho de 2021 e junho de 2022.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi gravada em Alberta, no Canadá, entre julho de 2021 e junho de 2022."
+          },
+          {
+            "id": "P15",
+            "text": "Pode ter sido a maior produção de TV da história do Canadá, com orçamento acima de 100 milhões de dólares canadenses.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Pode ter sido a maior produção de TV da história do Canadá, com orçamento acima de 100 milhões de dólares canadenses."
+          },
+          {
+            "id": "P16",
+            "text": "O protagonista é vivido por Pedro Pascal, astro de 'The Mandalorian'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Ovicio — tudo sobre a estreia de The Last of Us",
+                "url": "https://ovicio.com.br/tudo-sobre-a-estreia-de-the-last-of-us/amp/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "KRDO/AP — Bella Ramsey escalada em The Last of Us",
+                "url": "https://krdo.com/entertainment/2021/02/11/game-of-thrones-actress-bella-ramsey-cast-in-the-last-of-us-series/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Pedro Pascal, astro de 'The Mandalorian'."
+          },
+          {
+            "id": "P17",
+            "text": "A adolescente é vivida por Bella Ramsey, a Lyanna Mormont de 'Game of Thrones'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "KRDO/AP — Bella Ramsey escalada em The Last of Us",
+                "url": "https://krdo.com/entertainment/2021/02/11/game-of-thrones-actress-bella-ramsey-cast-in-the-last-of-us-series/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Ovicio — tudo sobre a estreia de The Last of Us",
+                "url": "https://ovicio.com.br/tudo-sobre-a-estreia-de-the-last-of-us/amp/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A adolescente é vivida por Bella Ramsey, a Lyanna Mormont de 'Game of Thrones'."
+          },
+          {
+            "id": "P18",
+            "text": "Os atores que deram voz à dupla principal no jogo também aparecem na série, em outros papéis.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us (franquia)",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Ovicio — tudo sobre a estreia de The Last of Us",
+                "url": "https://ovicio.com.br/tudo-sobre-a-estreia-de-the-last-of-us/amp/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os atores que deram voz à dupla principal no jogo também aparecem na série, em outros papéis."
+          },
+          {
+            "id": "P19",
+            "text": "Nick Offerman faz um sobrevivente desconfiado e muito precavido no terceiro episódio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Nick Offerman faz um sobrevivente desconfiado e muito precavido no terceiro episódio."
+          },
+          {
+            "id": "P20",
+            "text": "A primeira temporada recebeu 24 indicações ao Emmy.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada recebeu 24 indicações ao Emmy."
+          },
+          {
+            "id": "P21",
+            "text": "Ganhou 8 Emmys técnicos e de atuação convidada, incluindo um para Nick Offerman.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "VGC — 8 Emmys de artes criativas para The Last of Us",
+                "url": "https://www.videogameschronicle.com/news/nick-offermans-bill-headlines-8-creative-arts-emmy-wins-for-the-last-of-us",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou 8 Emmys técnicos e de atuação convidada, incluindo um para Nick Offerman."
+          },
+          {
+            "id": "P22",
+            "text": "O teaser de setembro de 2022 foi o vídeo promocional mais visto da história do canal: 57 milhões de visualizações em 72 horas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O teaser de setembro de 2022 foi o vídeo promocional mais visto da história do canal: 57 milhões de visualizações em 72 horas."
+          },
+          {
+            "id": "P23",
+            "text": "É adaptada de um videogame de ação e aventura que vendeu 3,4 milhões de cópias em três semanas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us (franquia)",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É adaptada de um videogame de ação e aventura que vendeu 3,4 milhões de cópias em três semanas."
+          },
+          {
+            "id": "P24",
+            "text": "A trilha é de Gustavo Santaolalla, o mesmo compositor dos jogos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us (franquia)",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trilha é de Gustavo Santaolalla, o mesmo compositor dos jogos."
+          },
+          {
+            "id": "P25",
+            "text": "Virou a temporada de estreia mais vista da história do canal, com média de quase 32 milhões de espectadores por episódio.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Last of Us season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Virou a temporada de estreia mais vista da história do canal, com média de quase 32 milhões de espectadores por episódio."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "The Last of Us (HBO, 2023), criada por Craig Mazin e Neil Druckmann a partir do videogame de 2013, acompanha o contrabandista Joel Miller na escolta da adolescente Ellie por um mundo devastado por um fungo.",
+        "hinge": "Neil Druckmann vem do videogame, mas a série tem dois criadores: ele e Craig Mazin, o roteirista de Chernobyl.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — The Last of Us season 1",
+            "url": "https://en.wikipedia.org/wiki/The_Last_of_Us_season_1",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Craig Mazin",
+            "url": "https://en.wikipedia.org/wiki/Craig_Mazin",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Conferir classificação indicativa (achei só a americana TV-MA; pus 16 anos).",
+          "Dupla: escolhi Joel Miller como resposta (primeiro creditado) e Ellie em coProtagonists; conferir se Ellie não seria a escolha mais central.",
+          "Distratores de C2 (Tommy, Tess, Marlene) são coadjuvantes da própria série: conferir se não ficam fáceis demais de eliminar.",
+          "Pista dos 8 Emmys sem ano de propósito: a cerimônia de artes criativas referente a 2023 aconteceu em janeiro de 2024.",
+          "P18 ('dubladores do jogo em outros papéis') se apoia no Ovicio, que diz só que eles têm papéis importantes na série."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Conferir classificação indicativa (achei só a americana TV-MA; pus 16 anos).",
+        "ambiguity:Dupla: escolhi Joel Miller como resposta (primeiro creditado) e Ellie em coProtagonists; conferir se Ellie não seria a escolha mais central.",
+        "ambiguity:Distratores de C2 (Tommy, Tess, Marlene) são coadjuvantes da própria série: conferir se não ficam fáceis demais de eliminar.",
+        "ambiguity:Pista dos 8 Emmys sem ano de propósito: a cerimônia de artes criativas referente a 2023 aconteceu em janeiro de 2024.",
+        "ambiguity:P18 ('dubladores do jogo em outros papéis') se apoia no Ovicio, que diz só que eles têm papéis importantes na série."
+      ]
+    },
+    "cs1-filme-garota-exemplar": {
+      "id": "cs1-filme-garota-exemplar",
+      "kind": "canonical-case",
+      "imdbId": "tt2267998",
+      "title": "Garota Exemplar",
+      "sessionTitle": "Um desaparecimento que vira manchete",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2014,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Gone Girl (film); AdoroCinema — Garota Exemplar",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt2267998/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Gone Girl (film)",
+            "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Garota Exemplar",
+            "url": "https://www.adorocinema.com/filmes/filme-217882/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Gillian Flynn escreveu o romance e o roteiro, e Reese Witherspoon foi produtora, mas quem dirigiu foi David Fincher."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Garota Exemplar"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Os Suspeitos"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "A Garota no Trem"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O Abutre"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Garota Exemplar",
+          "endereco": "AdoroCinema — Garota Exemplar; Wikipédia (EN) — Gone Girl (film)",
+          "answerReferences": [
+            {
+              "source": "AdoroCinema — Garota Exemplar",
+              "url": "https://www.adorocinema.com/filmes/filme-217882/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Gone Girl (film)",
+              "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Nick Dunne"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Rhonda Boney"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Margo Dunne"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Desi Collings"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Nick Dunne (com Amy Elliott Dunne)",
+          "endereco": "Wikipédia (EN) — Gone Girl (film)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Gone Girl (film)",
+              "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "David Fincher"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Christopher Nolan"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Denis Villeneuve"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Steven Soderbergh"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "David Fincher",
+          "endereco": "Wikipédia (EN) — Gone Girl (film); AdoroCinema — Garota Exemplar",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Gone Girl (film)",
+              "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Garota Exemplar",
+              "url": "https://www.adorocinema.com/filmes/filme-217882/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O3",
+              "texto": "2015"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2016"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2013"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2014"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2014",
+          "endereco": "Wikipédia (EN) — Gone Girl (film); AdoroCinema — Garota Exemplar",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Gone Girl (film)",
+              "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Garota Exemplar",
+              "url": "https://www.adorocinema.com/filmes/filme-217882/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Chegou aos cinemas brasileiros em 2 de outubro de 2014.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Garota Exemplar",
+                "url": "https://www.adorocinema.com/filmes/filme-217882/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou aos cinemas brasileiros em 2 de outubro de 2014."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de quase duas horas e meia (149 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de quase duas horas e meia (149 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "É um suspense americano ambientado numa pequena cidade do Missouri.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um suspense americano ambientado numa pequena cidade do Missouri."
+          },
+          {
+            "id": "P04",
+            "text": "Um casal trocou Nova York pela cidade natal do marido, no Missouri.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um casal trocou Nova York pela cidade natal do marido, no Missouri."
+          },
+          {
+            "id": "P05",
+            "text": "No dia do quinto aniversário de casamento, o marido chega em casa e descobre que a esposa sumiu.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No dia do quinto aniversário de casamento, o marido chega em casa e descobre que a esposa sumiu."
+          },
+          {
+            "id": "P06",
+            "text": "A esposa desaparecida inspirou uma série de livros infantis escritos pelos pais dela.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A esposa desaparecida inspirou uma série de livros infantis escritos pelos pais dela."
+          },
+          {
+            "id": "P07",
+            "text": "A imprensa transforma o sumiço num circo, e o jeito apático do marido desperta suspeitas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A imprensa transforma o sumiço num circo, e o jeito apático do marido desperta suspeitas."
+          },
+          {
+            "id": "P08",
+            "text": "Uma detetive da polícia local comanda a investigação do desaparecimento.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma detetive da polícia local comanda a investigação do desaparecimento."
+          },
+          {
+            "id": "P09",
+            "text": "A irmã gêmea do marido é sua principal aliada durante a investigação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A irmã gêmea do marido é sua principal aliada durante a investigação."
+          },
+          {
+            "id": "P10",
+            "text": "É a adaptação de um romance de 2012, e a própria autora do livro, Gillian Flynn, escreveu o roteiro.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É a adaptação de um romance de 2012, e a própria autora do livro, Gillian Flynn, escreveu o roteiro."
+          },
+          {
+            "id": "P11",
+            "text": "O diretor já tinha feito 'Se7en: Os Sete Crimes Capitais' (1995) e 'Clube da Luta' (1999).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Legião dos Heróis — filmes de David Fincher",
+                "url": "https://www.legiaodosherois.com.br/lista/david-fincher-todos-filmes-pior-melhor.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor já tinha feito 'Se7en: Os Sete Crimes Capitais' (1995) e 'Clube da Luta' (1999)."
+          },
+          {
+            "id": "P12",
+            "text": "'Zodíaco' (2007) e 'A Rede Social' (2010) também são do mesmo diretor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Legião dos Heróis — filmes de David Fincher",
+                "url": "https://www.legiaodosherois.com.br/lista/david-fincher-todos-filmes-pior-melhor.html",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "'Zodíaco' (2007) e 'A Rede Social' (2010) também são do mesmo diretor."
+          },
+          {
+            "id": "P13",
+            "text": "As filmagens começaram em setembro de 2013, em Cape Girardeau, no Missouri.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens começaram em setembro de 2013, em Cape Girardeau, no Missouri."
+          },
+          {
+            "id": "P14",
+            "text": "Reese Witherspoon, uma das produtoras, chegou a ser cotada para viver a esposa.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Reese Witherspoon, uma das produtoras, chegou a ser cotada para viver a esposa."
+          },
+          {
+            "id": "P15",
+            "text": "O filme custou cerca de US$ 61 milhões.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O filme custou cerca de US$ 61 milhões."
+          },
+          {
+            "id": "P16",
+            "text": "Ben Affleck interpreta o marido.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt2267998/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ben Affleck interpreta o marido."
+          },
+          {
+            "id": "P17",
+            "text": "Rosamund Pike interpreta a esposa desaparecida.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Rosamund Pike interpreta a esposa desaparecida."
+          },
+          {
+            "id": "P18",
+            "text": "Carrie Coon faz a irmã gêmea do marido.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Carrie Coon faz a irmã gêmea do marido."
+          },
+          {
+            "id": "P19",
+            "text": "Neil Patrick Harris e Tyler Perry estão no elenco de apoio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Neil Patrick Harris e Tyler Perry estão no elenco de apoio."
+          },
+          {
+            "id": "P20",
+            "text": "A atriz que vive a esposa foi indicada ao Oscar de Melhor Atriz pelo papel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A atriz que vive a esposa foi indicada ao Oscar de Melhor Atriz pelo papel."
+          },
+          {
+            "id": "P21",
+            "text": "Recebeu quatro indicações ao Globo de Ouro, entre elas Melhor Direção e Melhor Roteiro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Recebeu quatro indicações ao Globo de Ouro, entre elas Melhor Direção e Melhor Roteiro."
+          },
+          {
+            "id": "P22",
+            "text": "A trilha é de Trent Reznor e Atticus Ross, na terceira parceria da dupla com o diretor.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trilha é de Trent Reznor e Atticus Ross, na terceira parceria da dupla com o diretor."
+          },
+          {
+            "id": "P23",
+            "text": "Virou a maior bilheteria da carreira do diretor, com cerca de US$ 370 milhões no mundo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Omelete — maior bilheteria da carreira de David Fincher",
+                "url": "https://omelete.com.br/garota-exemplar/cinema/garota-exemplar-e-o-filme-de-maior-bilheteria-da-carreira-de-david-fincher/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Virou a maior bilheteria da carreira do diretor, com cerca de US$ 370 milhões no mundo."
+          },
+          {
+            "id": "P24",
+            "text": "Sua estreia nos EUA superou 'O Quarto do Pânico' como a maior abertura da carreira do diretor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Sua estreia nos EUA superou 'O Quarto do Pânico' como a maior abertura da carreira do diretor."
+          },
+          {
+            "id": "P25",
+            "text": "Abriu o Festival de Cinema de Nova York em 26 de setembro de 2014.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Gone Girl (film)",
+                "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Abriu o Festival de Cinema de Nova York em 26 de setembro de 2014."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Garota Exemplar (2014), dirigido por David Fincher, acompanha Nick Dunne, que vira o centro das suspeitas quando a esposa, Amy, desaparece no quinto aniversário de casamento.",
+        "hinge": "Gillian Flynn escreveu o romance e o roteiro, e Reese Witherspoon foi produtora, mas quem dirigiu foi David Fincher.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Gone Girl (film)",
+            "url": "https://en.wikipedia.org/wiki/Gone_Girl_(film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt2267998/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Escolha de protagonista: Nick Dunne como resposta e Amy Elliott Dunne como coprotagonista (o filme divide o foco entre os dois).",
+          "Conferir se nenhuma pista sobre a esposa/imprensa insinua a reviravolta da metade do filme.",
+          "Títulos BR dos distratores (O Abutre, Os Suspeitos, A Garota no Trem) não conferidos um a um.",
+          "IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Escolha de protagonista: Nick Dunne como resposta e Amy Elliott Dunne como coprotagonista (o filme divide o foco entre os dois).",
+        "ambiguity:Conferir se nenhuma pista sobre a esposa/imprensa insinua a reviravolta da metade do filme.",
+        "ambiguity:Títulos BR dos distratores (O Abutre, Os Suspeitos, A Garota no Trem) não conferidos um a um.",
+        "ambiguity:IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
+      ]
+    },
+    "cs1-serie-the-mandalorian": {
+      "id": "cs1-serie-the-mandalorian",
+      "kind": "canonical-case",
+      "imdbId": "tt8111088",
+      "title": "The Mandalorian",
+      "sessionTitle": "Um caçador sem rosto",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2019,
+      "rating": "14 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — The Mandalorian; Wikipédia (EN) — The Mandalorian season 1; AdoroCinema — The Mandalorian na Tela Quente",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt8111088/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Mandalorian",
+            "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — The Mandalorian season 1",
+            "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — The Mandalorian na Tela Quente",
+            "url": "https://www.adorocinema.com/noticias/filmes/noticia-155811/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Dave Filoni dirigiu o primeiro episódio e ajudou a desenvolver a série, mas o criador creditado é Jon Favreau."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "The Mandalorian"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O Livro de Boba Fett"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Andor"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Obi-Wan Kenobi"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "The Mandalorian",
+          "endereco": "IMDb; Wikipédia (EN) — The Mandalorian",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt8111088/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Mandalorian",
+              "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "Uma ex-soldada rebelde que vira mercenária"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Um caçador de recompensas solitário que segue um código de honra"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um ex-soldado que se torna espião rebelde"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um caçador de recompensas que assume o comando do crime de um planeta"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um caçador de recompensas solitário que segue um código de honra",
+          "endereco": "Wikipédia (EN) — The Mandalorian; Wikipédia (EN) — Chapter 1: The Mandalorian",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Mandalorian",
+              "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+              "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Jon Favreau"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Dave Filoni"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "George Lucas"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Tony Gilroy"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Jon Favreau",
+          "endereco": "Wikipédia (EN) — The Mandalorian; Wikipédia (EN) — Jon Favreau",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — The Mandalorian",
+              "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Jon Favreau",
+              "url": "https://en.wikipedia.org/wiki/Jon_Favreau",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O2",
+              "texto": "2018"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2020"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2021"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2019",
+          "endereco": "IMDb; Wikipédia (EN) — The Mandalorian",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt8111088/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — The Mandalorian",
+              "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou nos EUA em novembro de 2019, no mesmo dia em que nasceu um novo serviço de streaming.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Mandalorian season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou nos EUA em novembro de 2019, no mesmo dia em que nasceu um novo serviço de streaming."
+          },
+          {
+            "id": "P02",
+            "text": "É uma série; a primeira temporada tem oito episódios, numerados como \"capítulos\".",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma série; a primeira temporada tem oito episódios, numerados como \"capítulos\"."
+          },
+          {
+            "id": "P03",
+            "text": "Foi descrita como um faroeste espacial, com influência de filmes de samurai.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi descrita como um faroeste espacial, com influência de filmes de samurai."
+          },
+          {
+            "id": "P04",
+            "text": "A história começa cinco anos depois dos acontecimentos de 'O Retorno de Jedi' (1983).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história começa cinco anos depois dos acontecimentos de 'O Retorno de Jedi' (1983)."
+          },
+          {
+            "id": "P05",
+            "text": "O protagonista é um caçador de recompensas solitário que trabalha nos confins da galáxia.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um caçador de recompensas solitário que trabalha nos confins da galáxia."
+          },
+          {
+            "id": "P06",
+            "text": "Ele passa quase o tempo todo escondido sob um capacete e uma armadura.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele passa quase o tempo todo escondido sob um capacete e uma armadura."
+          },
+          {
+            "id": "P07",
+            "text": "No primeiro episódio, um cliente misterioso, protegido por ex-soldados do Império, lhe oferece um serviço.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No primeiro episódio, um cliente misterioso, protegido por ex-soldados do Império, lhe oferece um serviço."
+          },
+          {
+            "id": "P08",
+            "text": "O alvo deve ser trazido vivo, e a única informação dada é a idade: 50 anos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O alvo deve ser trazido vivo, e a única informação dada é a idade: 50 anos."
+          },
+          {
+            "id": "P09",
+            "text": "Como adiantamento, ele recebe beskar, um metal raro usado para forjar a armadura do seu povo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Como adiantamento, ele recebe beskar, um metal raro usado para forjar a armadura do seu povo."
+          },
+          {
+            "id": "P10",
+            "text": "O alvo acaba sendo um bebê verde e orelhudo, da mesma espécie de Yoda.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O alvo acaba sendo um bebê verde e orelhudo, da mesma espécie de Yoda."
+          },
+          {
+            "id": "P11",
+            "text": "Os fãs apelidaram esse bebê de \"Baby Yoda\".",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — The Mandalorian",
+                "url": "https://pt.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os fãs apelidaram esse bebê de \"Baby Yoda\"."
+          },
+          {
+            "id": "P12",
+            "text": "O criador da série dirigiu os filmes 'Homem de Ferro' (2008) e 'O Rei Leão' (2019).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Jon Favreau",
+                "url": "https://en.wikipedia.org/wiki/Jon_Favreau",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O criador da série dirigiu os filmes 'Homem de Ferro' (2008) e 'O Rei Leão' (2019)."
+          },
+          {
+            "id": "P13",
+            "text": "O criador não pôde dirigir a primeira temporada porque estava ocupado com 'O Rei Leão'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O criador não pôde dirigir a primeira temporada porque estava ocupado com 'O Rei Leão'."
+          },
+          {
+            "id": "P14",
+            "text": "O primeiro episódio foi dirigido por Dave Filoni, de 'Star Wars: The Clone Wars', em sua estreia com atores reais.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O primeiro episódio foi dirigido por Dave Filoni, de 'Star Wars: The Clone Wars', em sua estreia com atores reais."
+          },
+          {
+            "id": "P15",
+            "text": "As cenas foram gravadas diante de enormes telões de LED que exibem cenários digitais em tempo real.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As cenas foram gravadas diante de enormes telões de LED que exibem cenários digitais em tempo real."
+          },
+          {
+            "id": "P16",
+            "text": "As filmagens começaram em outubro de 2018, com o nome de fachada \"Project Huckleberry\".",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens começaram em outubro de 2018, com o nome de fachada \"Project Huckleberry\"."
+          },
+          {
+            "id": "P17",
+            "text": "O protagonista é vivido por Pedro Pascal, que a princípio achou que interpretaria Boba Fett.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Pedro Pascal, que a princípio achou que interpretaria Boba Fett."
+          },
+          {
+            "id": "P18",
+            "text": "Carl Weathers vive Greef Karga, líder de uma guilda de caçadores de recompensas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Carl Weathers vive Greef Karga, líder de uma guilda de caçadores de recompensas."
+          },
+          {
+            "id": "P19",
+            "text": "Werner Herzog interpreta um cliente misterioso, ligado ao antigo Império.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Werner Herzog interpreta um cliente misterioso, ligado ao antigo Império."
+          },
+          {
+            "id": "P20",
+            "text": "Taika Waititi dá voz a um droide caçador de recompensas e também dirigiu um episódio.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Taika Waititi dá voz a um droide caçador de recompensas e também dirigiu um episódio."
+          },
+          {
+            "id": "P21",
+            "text": "A primeira temporada concorreu ao Emmy de melhor série dramática e venceu sete Emmys técnicos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian season 1",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian_season_1",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — The Mandalorian",
+                "url": "https://pt.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada concorreu ao Emmy de melhor série dramática e venceu sete Emmys técnicos."
+          },
+          {
+            "id": "P22",
+            "text": "O episódio de estreia, sozinho, ganhou dois prêmios Emmy.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O episódio de estreia, sozinho, ganhou dois prêmios Emmy."
+          },
+          {
+            "id": "P23",
+            "text": "Foi a primeira série com atores reais (live-action) da franquia Star Wars.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — The Mandalorian",
+                "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi a primeira série com atores reais (live-action) da franquia Star Wars."
+          },
+          {
+            "id": "P24",
+            "text": "No Brasil, chegou um ano depois da estreia, em novembro de 2020, quando o serviço de streaming foi lançado aqui.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Tecnoblog — Disney+ anuncia lançamento no Brasil",
+                "url": "https://tecnoblog.net/noticias/disney-anuncia-lancamento-no-brasil-em-17-de-novembro/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — The Mandalorian na Tela Quente",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-155811/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Brasil, chegou um ano depois da estreia, em novembro de 2020, quando o serviço de streaming foi lançado aqui."
+          },
+          {
+            "id": "P25",
+            "text": "A TV Globo exibiu os dois primeiros episódios na 'Tela Quente', na véspera da chegada do streaming ao Brasil.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — The Mandalorian na Tela Quente",
+                "url": "https://www.adorocinema.com/noticias/filmes/noticia-155811/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A TV Globo exibiu os dois primeiros episódios na 'Tela Quente', na véspera da chegada do streaming ao Brasil."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "The Mandalorian (Disney+, 2019), criada por Jon Favreau, acompanha um caçador de recompensas solitário de capacete, vivido por Pedro Pascal, cinco anos depois de 'O Retorno de Jedi'.",
+        "hinge": "Dave Filoni dirigiu o primeiro episódio e ajudou a desenvolver a série, mas o criador creditado é Jon Favreau.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — The Mandalorian",
+            "url": "https://en.wikipedia.org/wiki/The_Mandalorian",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Chapter 1: The Mandalorian",
+            "url": "https://en.wikipedia.org/wiki/Chapter_1:_The_Mandalorian",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "P10 (o alvo é um bebê da espécie de Yoda) é a virada do fim do episódio 1; conferir se cabe como premissa.",
+          "Título: a base usa \"The Mandalorian\", mas o JustWatch Brasil lista a série como \"O Mandaloriano\"; conferir o título atual no Disney+ Brasil.",
+          "Classificação 14 anos confirmada no AdoroCinema (2020) e no JustWatch Brasil; conferir no ClassInd.",
+          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:P10 (o alvo é um bebê da espécie de Yoda) é a virada do fim do episódio 1; conferir se cabe como premissa.",
+        "ambiguity:Título: a base usa \"The Mandalorian\", mas o JustWatch Brasil lista a série como \"O Mandaloriano\"; conferir o título atual no Disney+ Brasil.",
+        "ambiguity:Classificação 14 anos confirmada no AdoroCinema (2020) e no JustWatch Brasil; conferir no ClassInd.",
+        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+      ]
+    },
+    "cs1-filme-era-uma-vez-em-hollywood": {
+      "id": "cs1-filme-era-uma-vez-em-hollywood",
+      "kind": "canonical-case",
+      "imdbId": "tt7131622",
+      "title": "Era Uma Vez em... Hollywood",
+      "sessionTitle": "Um astro em decadência em 1969",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2019,
+      "rating": "16 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Once Upon a Time in Hollywood; AdoroCinema — Era uma Vez em... Hollywood",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt7131622/reference",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+            "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Era uma Vez em... Hollywood",
+            "url": "https://www.adorocinema.com/filmes/filme-257482/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Roman Polanski, diretor famoso, aparece como personagem (vizinho do protagonista), mas quem dirigiu o filme foi Quentin Tarantino."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O4",
+              "texto": "La La Land: Cantando Estações"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ford vs Ferrari"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "O Irlandês"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Era Uma Vez em... Hollywood"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Era Uma Vez em... Hollywood",
+          "endereco": "AdoroCinema — Era uma Vez em... Hollywood; Wikipédia (EN) — Once Upon a Time in Hollywood",
+          "answerReferences": [
+            {
+              "source": "AdoroCinema — Era uma Vez em... Hollywood",
+              "url": "https://www.adorocinema.com/filmes/filme-257482/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+              "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O3",
+              "texto": "James Stacy"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Marvin Schwarz"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Jordan Belfort"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Rick Dalton"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Rick Dalton (com Cliff Booth, Sharon Tate)",
+          "endereco": "Wikipédia (EN) — Once Upon a Time in Hollywood; IMDb",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+              "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt7131622/reference",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Quentin Tarantino"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Paul Thomas Anderson"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Martin Scorsese"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Damien Chazelle"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Quentin Tarantino",
+          "endereco": "Wikipédia (EN) — Once Upon a Time in Hollywood; AdoroCinema — Era uma Vez em... Hollywood",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+              "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Era uma Vez em... Hollywood",
+              "url": "https://www.adorocinema.com/filmes/filme-257482/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2020"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2018"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2017"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2019",
+          "endereco": "Wikipédia (EN) — Once Upon a Time in Hollywood; AdoroCinema — Era uma Vez em... Hollywood",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+              "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Era uma Vez em... Hollywood",
+              "url": "https://www.adorocinema.com/filmes/filme-257482/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Chegou aos cinemas brasileiros em 15 de agosto de 2019.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Era uma Vez em... Hollywood",
+                "url": "https://www.adorocinema.com/filmes/filme-257482/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou aos cinemas brasileiros em 15 de agosto de 2019."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem comprido, de 2h41 (161 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt7131622/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem comprido, de 2h41 (161 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "A história se passa em Los Angeles, a partir de fevereiro de 1969.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história se passa em Los Angeles, a partir de fevereiro de 1969."
+          },
+          {
+            "id": "P04",
+            "text": "Um ator que fez fama num faroeste da TV vê a carreira decair e só ganha papéis de vilão convidado.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um ator que fez fama num faroeste da TV vê a carreira decair e só ganha papéis de vilão convidado."
+          },
+          {
+            "id": "P05",
+            "text": "O agente sugere que ele vá estrelar faroestes na Itália, ideia que o ator acha humilhante.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O agente sugere que ele vá estrelar faroestes na Itália, ideia que o ator acha humilhante."
+          },
+          {
+            "id": "P06",
+            "text": "O melhor amigo do ator é seu dublê e motorista, um veterano de guerra que quase não consegue trabalho.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O melhor amigo do ator é seu dublê e motorista, um veterano de guerra que quase não consegue trabalho."
+          },
+          {
+            "id": "P07",
+            "text": "Os vizinhos do ator são a atriz Sharon Tate e o diretor Roman Polanski.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os vizinhos do ator são a atriz Sharon Tate e o diretor Roman Polanski."
+          },
+          {
+            "id": "P08",
+            "text": "O ator espera fazer amizade com os vizinhos famosos para reanimar a carreira.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O ator espera fazer amizade com os vizinhos famosos para reanimar a carreira."
+          },
+          {
+            "id": "P09",
+            "text": "A trama mistura personagens inventados com figuras reais do cinema da época, como Bruce Lee.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A trama mistura personagens inventados com figuras reais do cinema da época, como Bruce Lee."
+          },
+          {
+            "id": "P10",
+            "text": "O diretor também escreveu o roteiro e é um dos produtores do filme.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor também escreveu o roteiro e é um dos produtores do filme."
+          },
+          {
+            "id": "P11",
+            "text": "O diretor é o mesmo de 'Pulp Fiction: Tempo de Violência' (1994) e 'Bastardos Inglórios' (2009).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Olhar Digital — ordem cronológica dos filmes de Tarantino",
+                "url": "https://olhardigital.com.br/2024/05/02/cinema-e-streaming/qual-a-ordem-cronologica-dos-filmes-de-tarantino/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor é o mesmo de 'Pulp Fiction: Tempo de Violência' (1994) e 'Bastardos Inglórios' (2009)."
+          },
+          {
+            "id": "P12",
+            "text": "Foi o primeiro filme do diretor feito sem os produtores Harvey e Bob Weinstein.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi o primeiro filme do diretor feito sem os produtores Harvey e Bob Weinstein."
+          },
+          {
+            "id": "P13",
+            "text": "Foi filmado em Los Angeles entre junho e novembro de 2018.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi filmado em Los Angeles entre junho e novembro de 2018."
+          },
+          {
+            "id": "P14",
+            "text": "Custou entre US$ 90 e 96 milhões, e o diretor exigiu ter a palavra final na montagem.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Custou entre US$ 90 e 96 milhões, e o diretor exigiu ter a palavra final na montagem."
+          },
+          {
+            "id": "P15",
+            "text": "Leonardo DiCaprio vive o astro de TV em decadência.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt7131622/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Leonardo DiCaprio vive o astro de TV em decadência."
+          },
+          {
+            "id": "P16",
+            "text": "Brad Pitt interpreta o dublê e amigo do astro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt7131622/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Brad Pitt interpreta o dublê e amigo do astro."
+          },
+          {
+            "id": "P17",
+            "text": "Margot Robbie interpreta Sharon Tate.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt7131622/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Margot Robbie interpreta Sharon Tate."
+          },
+          {
+            "id": "P18",
+            "text": "Al Pacino aparece como o agente do protagonista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Al Pacino aparece como o agente do protagonista."
+          },
+          {
+            "id": "P19",
+            "text": "Teve 10 indicações ao Oscar, incluindo Melhor Filme, e venceu Ator Coadjuvante e Design de Produção.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve 10 indicações ao Oscar, incluindo Melhor Filme, e venceu Ator Coadjuvante e Design de Produção."
+          },
+          {
+            "id": "P20",
+            "text": "Ganhou o Globo de Ouro de Melhor Filme – Comédia ou Musical.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ganhou o Globo de Ouro de Melhor Filme – Comédia ou Musical."
+          },
+          {
+            "id": "P21",
+            "text": "Foi o último papel de Luke Perry no cinema; o ator morreu em março de 2019 e o filme é dedicado a ele.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi o último papel de Luke Perry no cinema; o ator morreu em março de 2019 e o filme é dedicado a ele."
+          },
+          {
+            "id": "P22",
+            "text": "Em 2021, o diretor lançou uma versão da história em livro, seu primeiro romance.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em 2021, o diretor lançou uma versão da história em livro, seu primeiro romance."
+          },
+          {
+            "id": "P23",
+            "text": "O próprio diretor já disse que este é o seu favorito entre os filmes que fez.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O próprio diretor já disse que este é o seu favorito entre os filmes que fez."
+          },
+          {
+            "id": "P24",
+            "text": "Teve estreia mundial no Festival de Cannes, em 21 de maio de 2019.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve estreia mundial no Festival de Cannes, em 21 de maio de 2019."
+          },
+          {
+            "id": "P25",
+            "text": "Nos EUA, chegou aos cinemas em 26 de julho de 2019, distribuído pela Sony.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+                "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Nos EUA, chegou aos cinemas em 26 de julho de 2019, distribuído pela Sony."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Era Uma Vez em... Hollywood (2019), de Quentin Tarantino, acompanha o ator de TV em decadência Rick Dalton e seu dublê Cliff Booth na Los Angeles de 1969.",
+        "hinge": "Roman Polanski, diretor famoso, aparece como personagem (vizinho do protagonista), mas quem dirigiu o filme foi Quentin Tarantino.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Once Upon a Time in Hollywood",
+            "url": "https://en.wikipedia.org/wiki/Once_Upon_a_Time_in_Hollywood",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Era uma Vez em... Hollywood",
+            "url": "https://www.adorocinema.com/filmes/filme-257482/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Título: a base usa 'Era Uma Vez em... Hollywood'; o AdoroCinema grafa 'Era uma Vez em... Hollywood' (conferir maiúscula oficial).",
+          "Escolha de protagonista: Rick Dalton como resposta; Cliff Booth e Sharon Tate listados como coprotagonistas.",
+          "Títulos BR dos distratores (O Irlandês, Ford vs Ferrari, La La Land: Cantando Estações) não conferidos um a um."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Título: a base usa 'Era Uma Vez em... Hollywood'; o AdoroCinema grafa 'Era uma Vez em... Hollywood' (conferir maiúscula oficial).",
+        "ambiguity:Escolha de protagonista: Rick Dalton como resposta; Cliff Booth e Sharon Tate listados como coprotagonistas.",
+        "ambiguity:Títulos BR dos distratores (O Irlandês, Ford vs Ferrari, La La Land: Cantando Estações) não conferidos um a um."
+      ]
+    },
+    "cs1-serie-better-call-saul": {
+      "id": "cs1-serie-better-call-saul",
+      "kind": "canonical-case",
+      "imdbId": "tt3032476",
+      "title": "Better Call Saul",
+      "sessionTitle": "Um advogado em apuros",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2015,
+      "rating": "18 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Better Call Saul; Wikipédia (PT) — Better Call Saul; JustWatch Brasil — Better Call Saul",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt3032476/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Better Call Saul",
+            "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (PT) — Better Call Saul",
+            "url": "https://pt.wikipedia.org/wiki/Better_Call_Saul",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "JustWatch Brasil — Better Call Saul",
+            "url": "https://www.justwatch.com/br/serie/better-call-saul",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Vince Gilligan criou 'Breaking Bad' sozinho, mas esta série tem dois criadores: ele e Peter Gould, que inventou o personagem central num episódio de 'Breaking Bad'."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O1",
+              "texto": "Better Call Saul"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Ozark"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Suits"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Fargo"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Better Call Saul",
+          "endereco": "IMDb; Wikipédia (EN) — Better Call Saul",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt3032476/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Better Call Saul",
+              "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Jimmy McGill"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Walter White"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Howard Hamlin"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Harvey Specter"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Jimmy McGill",
+          "endereco": "Wikipédia (EN) — Better Call Saul; Wikipédia (EN) — Better Call Saul season 1",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Better Call Saul",
+              "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Better Call Saul season 1",
+              "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "Aaron Korsh"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Noah Hawley"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Bill Dubuque e Mark Williams"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Vince Gilligan e Peter Gould"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Vince Gilligan e Peter Gould",
+          "endereco": "Wikipédia (EN) — Better Call Saul; Wikipédia (PT) — Better Call Saul",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Better Call Saul",
+              "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (PT) — Better Call Saul",
+              "url": "https://pt.wikipedia.org/wiki/Better_Call_Saul",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O2",
+              "texto": "2014"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2016"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2015"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2013"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2015",
+          "endereco": "IMDb; Wikipédia (EN) — Better Call Saul",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt3032476/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Better Call Saul",
+              "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou na TV a cabo dos EUA em fevereiro de 2015.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou na TV a cabo dos EUA em fevereiro de 2015."
+          },
+          {
+            "id": "P02",
+            "text": "É uma série dramática; a primeira temporada tem dez episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma série dramática; a primeira temporada tem dez episódios."
+          },
+          {
+            "id": "P03",
+            "text": "No total, a série teve seis temporadas e 63 episódios.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Better Call Saul",
+                "url": "https://pt.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No total, a série teve seis temporadas e 63 episódios."
+          },
+          {
+            "id": "P04",
+            "text": "A história começa em 2002, em Albuquerque, no Novo México (EUA).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história começa em 2002, em Albuquerque, no Novo México (EUA)."
+          },
+          {
+            "id": "P05",
+            "text": "O protagonista é um advogado em dificuldades, que atende clientes que pagam muito pouco.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um advogado em dificuldades, que atende clientes que pagam muito pouco."
+          },
+          {
+            "id": "P06",
+            "text": "Como defensor público, ele recebe só 700 dólares por defender três adolescentes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Como defensor público, ele recebe só 700 dólares por defender três adolescentes."
+          },
+          {
+            "id": "P07",
+            "text": "O \"escritório\" dele fica num cômodo nos fundos de um salão de beleza.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O \"escritório\" dele fica num cômodo nos fundos de um salão de beleza."
+          },
+          {
+            "id": "P08",
+            "text": "O irmão mais velho dele, advogado de sucesso, vive sem eletricidade por acreditar ter hipersensibilidade eletromagnética.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O irmão mais velho dele, advogado de sucesso, vive sem eletricidade por acreditar ter hipersensibilidade eletromagnética."
+          },
+          {
+            "id": "P09",
+            "text": "Na juventude, ele aplicava golpes fingindo escorregões e quedas, o que lhe rendeu um apelido.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Na juventude, ele aplicava golpes fingindo escorregões e quedas, o que lhe rendeu um apelido."
+          },
+          {
+            "id": "P10",
+            "text": "Muitos críticos a consideram à altura da série que a originou; alguns a acham até melhor.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Muitos críticos a consideram à altura da série que a originou; alguns a acham até melhor."
+          },
+          {
+            "id": "P11",
+            "text": "É derivada de 'Breaking Bad' e se passa, em grande parte, alguns anos antes daquela série.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Better Call Saul",
+                "url": "https://pt.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É derivada de 'Breaking Bad' e se passa, em grande parte, alguns anos antes daquela série."
+          },
+          {
+            "id": "P12",
+            "text": "Mostra a transformação do protagonista no advogado sem escrúpulos que os fãs de 'Breaking Bad' já conheciam.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Mostra a transformação do protagonista no advogado sem escrúpulos que os fãs de 'Breaking Bad' já conheciam."
+          },
+          {
+            "id": "P13",
+            "text": "Um dos criadores também criou 'Breaking Bad'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Peter Gould",
+                "url": "https://en.wikipedia.org/wiki/Peter_Gould",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um dos criadores também criou 'Breaking Bad'."
+          },
+          {
+            "id": "P14",
+            "text": "O outro criador escreveu o episódio de 'Breaking Bad' que apresentou o personagem central desta série.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O outro criador escreveu o episódio de 'Breaking Bad' que apresentou o personagem central desta série."
+          },
+          {
+            "id": "P15",
+            "text": "Os criadores pensaram numa comédia de meia hora, mas preferiram um drama de uma hora.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os criadores pensaram numa comédia de meia hora, mas preferiram um drama de uma hora."
+          },
+          {
+            "id": "P16",
+            "text": "O primeiro episódio foi escrito pelos dois criadores e dirigido por um deles.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O primeiro episódio foi escrito pelos dois criadores e dirigido por um deles."
+          },
+          {
+            "id": "P17",
+            "text": "As filmagens começaram em junho de 2014, em Albuquerque, onde 'Breaking Bad' também foi gravada.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As filmagens começaram em junho de 2014, em Albuquerque, onde 'Breaking Bad' também foi gravada."
+          },
+          {
+            "id": "P18",
+            "text": "O protagonista é vivido por Bob Odenkirk, que já fazia o mesmo personagem em 'Breaking Bad'.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Bob Odenkirk, que já fazia o mesmo personagem em 'Breaking Bad'."
+          },
+          {
+            "id": "P19",
+            "text": "Jonathan Banks vive Mike, um ex-policial que trabalha como guarda do estacionamento do tribunal.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Jonathan Banks vive Mike, um ex-policial que trabalha como guarda do estacionamento do tribunal."
+          },
+          {
+            "id": "P20",
+            "text": "Rhea Seehorn vive Kim Wexler, advogada e amiga próxima do protagonista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Rhea Seehorn vive Kim Wexler, advogada e amiga próxima do protagonista."
+          },
+          {
+            "id": "P21",
+            "text": "Michael McKean interpreta o irmão mais velho do protagonista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Michael McKean interpreta o irmão mais velho do protagonista."
+          },
+          {
+            "id": "P22",
+            "text": "Recebeu 53 indicações ao Emmy e nunca ganhou nenhuma, um recorde.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Recebeu 53 indicações ao Emmy e nunca ganhou nenhuma, um recorde."
+          },
+          {
+            "id": "P23",
+            "text": "A primeira temporada concorreu ao Emmy de melhor série dramática.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada concorreu ao Emmy de melhor série dramática."
+          },
+          {
+            "id": "P24",
+            "text": "Na época, a estreia foi a de maior audiência de uma série roteirizada na TV a cabo dos EUA: cerca de 6,9 milhões.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Better Call Saul season 1",
+                "url": "https://en.wikipedia.org/wiki/Better_Call_Saul_season_1",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Na época, a estreia foi a de maior audiência de uma série roteirizada na TV a cabo dos EUA: cerca de 6,9 milhões."
+          },
+          {
+            "id": "P25",
+            "text": "Fora dos EUA, os episódios foram lançados pela Netflix em vários países.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Uno (Better Call Saul)",
+                "url": "https://en.wikipedia.org/wiki/Uno_(Better_Call_Saul)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Better Call Saul",
+                "url": "https://pt.wikipedia.org/wiki/Better_Call_Saul",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Fora dos EUA, os episódios foram lançados pela Netflix em vários países."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Better Call Saul (AMC, 2015), criada por Vince Gilligan e Peter Gould, acompanha Jimmy McGill (Bob Odenkirk), um advogado em dificuldades em Albuquerque, em 2002, anos antes de 'Breaking Bad'.",
+        "hinge": "Vince Gilligan criou 'Breaking Bad' sozinho, mas esta série tem dois criadores: ele e Peter Gould, que inventou o personagem central num episódio de 'Breaking Bad'.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Better Call Saul",
+            "url": "https://en.wikipedia.org/wiki/Better_Call_Saul",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Peter Gould",
+            "url": "https://en.wikipedia.org/wiki/Peter_Gould",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "C2 usa \"Protagonista\" com Jimmy McGill; a série também acompanha de perto Mike Ehrmantraut (Jonathan Banks) — por isso Mike não foi usado como distrator; conferir se não seria melhor \"Um dos protagonistas\".",
+          "Classificação: o JustWatch Brasil indica 18 anos; não achei confirmação no ClassInd. Conferir classificação indicativa.",
+          "P14 diz que um criador \"escreveu o episódio que apresentou o personagem\" (fonte: Wikipédia); conferir.",
+          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:C2 usa \"Protagonista\" com Jimmy McGill; a série também acompanha de perto Mike Ehrmantraut (Jonathan Banks) — por isso Mike não foi usado como distrator; conferir se não seria melhor \"Um dos protagonistas\".",
+        "ambiguity:Classificação: o JustWatch Brasil indica 18 anos; não achei confirmação no ClassInd. Conferir classificação indicativa.",
+        "ambiguity:P14 diz que um criador \"escreveu o episódio que apresentou o personagem\" (fonte: Wikipédia); conferir.",
+        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+      ]
+    },
+    "cs1-filme-pantera-negra": {
+      "id": "cs1-filme-pantera-negra",
+      "kind": "canonical-case",
+      "imdbId": "tt1825683",
+      "title": "Pantera Negra",
+      "sessionTitle": "Um rei, um trono, um segredo",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2018,
+      "rating": "14 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Black Panther (film); AdoroCinema — Pantera Negra",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1825683/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Black Panther (film)",
+            "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Pantera Negra",
+            "url": "https://www.adorocinema.com/filmes/filme-130336/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Wesley Snipes tentou fazer um filme do herói desde os anos 1990 e o produtor Kevin Feige recebeu a indicação de Melhor Filme, mas quem dirigiu foi Ryan Coogler."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O4",
+              "texto": "Mulher-Maravilha"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Thor: Ragnarok"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Pantera Negra"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Aquaman"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Pantera Negra",
+          "endereco": "AdoroCinema — Pantera Negra; Wikipédia (EN) — Black Panther (film)",
+          "answerReferences": [
+            {
+              "source": "AdoroCinema — Pantera Negra",
+              "url": "https://www.adorocinema.com/filmes/filme-130336/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Black Panther (film)",
+              "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um príncipe que volta para casa para assumir o trono"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "O líder de uma tribo das montanhas que desafia o rei"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Uma general que comanda a guarda real feminina"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um herdeiro do trono submarino dividido entre dois mundos"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um príncipe que volta para casa para assumir o trono",
+          "endereco": "Wikipédia (EN) — Black Panther (film)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Black Panther (film)",
+              "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Ryan Coogler"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Jordan Peele"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Barry Jenkins"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Taika Waititi"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Ryan Coogler",
+          "endereco": "Wikipédia (EN) — Black Panther (film); AdoroCinema — Pantera Negra",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Black Panther (film)",
+              "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Pantera Negra",
+              "url": "https://www.adorocinema.com/filmes/filme-130336/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O3",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2018"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2017"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2016"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2018",
+          "endereco": "Wikipédia (EN) — Black Panther (film); AdoroCinema — Pantera Negra",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Black Panther (film)",
+              "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Pantera Negra",
+              "url": "https://www.adorocinema.com/filmes/filme-130336/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Chegou aos cinemas brasileiros em 15 de fevereiro de 2018.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Pantera Negra",
+                "url": "https://www.adorocinema.com/filmes/filme-130336/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou aos cinemas brasileiros em 15 de fevereiro de 2018."
+          },
+          {
+            "id": "P02",
+            "text": "É um longa-metragem de pouco mais de duas horas (134 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de pouco mais de duas horas (134 minutos)."
+          },
+          {
+            "id": "P03",
+            "text": "É um filme de super-herói passado em boa parte num reino africano fictício.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um filme de super-herói passado em boa parte num reino africano fictício."
+          },
+          {
+            "id": "P04",
+            "text": "Após a morte do pai, o herói volta à terra natal para assumir o trono.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Após a morte do pai, o herói volta à terra natal para assumir o trono."
+          },
+          {
+            "id": "P05",
+            "text": "O reino esconde do mundo uma tecnologia avançadíssima por trás da imagem de país pobre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O reino esconde do mundo uma tecnologia avançadíssima por trás da imagem de país pobre."
+          },
+          {
+            "id": "P06",
+            "text": "Essa tecnologia nasce do vibranium, um metal raro trazido por um meteorito.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Essa tecnologia nasce do vibranium, um metal raro trazido por um meteorito."
+          },
+          {
+            "id": "P07",
+            "text": "Na coroação, o líder de uma tribo das montanhas desafia o herói para um combate ritual.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Na coroação, o líder de uma tribo das montanhas desafia o herói para um combate ritual."
+          },
+          {
+            "id": "P08",
+            "text": "O herói é protegido por uma guarda real formada só por mulheres guerreiras.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O herói é protegido por uma guarda real formada só por mulheres guerreiras."
+          },
+          {
+            "id": "P09",
+            "text": "A irmã do herói, de 16 anos, é a gênia que cria as novas tecnologias do país.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A irmã do herói, de 16 anos, é a gênia que cria as novas tecnologias do país."
+          },
+          {
+            "id": "P10",
+            "text": "O prólogo se passa em Oakland, na Califórnia, em 1992.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O prólogo se passa em Oakland, na Califórnia, em 1992."
+          },
+          {
+            "id": "P11",
+            "text": "Um traficante de armas rouba um artefato de um museu em Londres e foge para Busan, na Coreia do Sul.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um traficante de armas rouba um artefato de um museu em Londres e foge para Busan, na Coreia do Sul."
+          },
+          {
+            "id": "P12",
+            "text": "O diretor já tinha feito 'Fruitvale Station: A Última Parada' (2013) e 'Creed: Nascido para Lutar' (2015).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Olhar Digital — filmes de Ryan Coogler",
+                "url": "https://olhardigital.com.br/2025/04/30/cinema-e-streaming/6-filmes-com-o-diretor-de-pecadores-ryan-coogler-para-assistir-online/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor já tinha feito 'Fruitvale Station: A Última Parada' (2013) e 'Creed: Nascido para Lutar' (2015)."
+          },
+          {
+            "id": "P13",
+            "text": "O diretor também assina o roteiro, em parceria com Joe Robert Cole.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor também assina o roteiro, em parceria com Joe Robert Cole."
+          },
+          {
+            "id": "P14",
+            "text": "Wesley Snipes tentou levar este herói ao cinema desde 1992, mas o projeto nunca saiu do papel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Wesley Snipes tentou levar este herói ao cinema desde 1992, mas o projeto nunca saiu do papel."
+          },
+          {
+            "id": "P15",
+            "text": "Foi filmado na região de Atlanta entre janeiro e abril de 2017, com cenas também em Busan.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi filmado na região de Atlanta entre janeiro e abril de 2017, com cenas também em Busan."
+          },
+          {
+            "id": "P16",
+            "text": "Chadwick Boseman interpreta o herói.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chadwick Boseman interpreta o herói."
+          },
+          {
+            "id": "P17",
+            "text": "Michael B. Jordan, astro dos dois filmes anteriores do diretor, também está no elenco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Olhar Digital — filmes de Ryan Coogler",
+                "url": "https://olhardigital.com.br/2025/04/30/cinema-e-streaming/6-filmes-com-o-diretor-de-pecadores-ryan-coogler-para-assistir-online/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Michael B. Jordan, astro dos dois filmes anteriores do diretor, também está no elenco."
+          },
+          {
+            "id": "P18",
+            "text": "Lupita Nyong'o, Danai Gurira e Letitia Wright estão no elenco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Lupita Nyong'o, Danai Gurira e Letitia Wright estão no elenco."
+          },
+          {
+            "id": "P19",
+            "text": "O herói tinha sido apresentado ao público em 'Capitão América: Guerra Civil' (2016).",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O herói tinha sido apresentado ao público em 'Capitão América: Guerra Civil' (2016)."
+          },
+          {
+            "id": "P20",
+            "text": "Foi o primeiro filme de super-herói indicado ao Oscar de Melhor Filme.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi o primeiro filme de super-herói indicado ao Oscar de Melhor Filme."
+          },
+          {
+            "id": "P21",
+            "text": "Venceu três Oscars: Figurino, Design de Produção e Trilha Sonora Original.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — List of accolades received by Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/List_of_accolades_received_by_Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Venceu três Oscars: Figurino, Design de Produção e Trilha Sonora Original."
+          },
+          {
+            "id": "P22",
+            "text": "A figurinista criou cerca de 700 figurinos inspirados em povos africanos como os Maasai e os Himba.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A figurinista criou cerca de 700 figurinos inspirados em povos africanos como os Maasai e os Himba."
+          },
+          {
+            "id": "P23",
+            "text": "Arrecadou mais de US$ 1,3 bilhão e virou a maior bilheteria de um diretor negro.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Arrecadou mais de US$ 1,3 bilhão e virou a maior bilheteria de um diretor negro."
+          },
+          {
+            "id": "P24",
+            "text": "É o 18º filme do Universo Cinematográfico Marvel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É o 18º filme do Universo Cinematográfico Marvel."
+          },
+          {
+            "id": "P25",
+            "text": "Teve pré-estreia mundial em Los Angeles, em 29 de janeiro de 2018.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Black Panther (film)",
+                "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve pré-estreia mundial em Los Angeles, em 29 de janeiro de 2018."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Pantera Negra (2018), dirigido por Ryan Coogler, acompanha T'Challa, que volta a Wakanda para assumir o trono depois da morte do pai.",
+        "hinge": "Wesley Snipes tentou fazer um filme do herói desde os anos 1990 e o produtor Kevin Feige recebeu a indicação de Melhor Filme, mas quem dirigiu foi Ryan Coogler.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Black Panther (film)",
+            "url": "https://en.wikipedia.org/wiki/Black_Panther_(film)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — List of accolades received by Black Panther (film)",
+            "url": "https://en.wikipedia.org/wiki/List_of_accolades_received_by_Black_Panther_(film)",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Conferir classificação indicativa: AdoroCinema e Filmow dizem 14 anos; outra fonte (Auditório Ibirapuera) diz 12 anos.",
+          "Títulos BR dos distratores (Thor: Ragnarok, Aquaman, Mulher-Maravilha) não conferidos um a um.",
+          "IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Conferir classificação indicativa: AdoroCinema e Filmow dizem 14 anos; outra fonte (Auditório Ibirapuera) diz 12 anos.",
+        "ambiguity:Títulos BR dos distratores (Thor: Ragnarok, Aquaman, Mulher-Maravilha) não conferidos um a um.",
+        "ambiguity:IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
+      ]
+    },
+    "cs1-serie-sherlock": {
+      "id": "cs1-serie-sherlock",
+      "kind": "canonical-case",
+      "imdbId": "tt1475582",
+      "title": "Sherlock",
+      "sessionTitle": "Deduções na Londres de hoje",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2010,
+      "rating": "14 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Sherlock (TV series); Wikipédia (PT) — Sherlock (série); JustWatch Brasil — Sherlock",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1475582/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Sherlock (TV series)",
+            "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (PT) — Sherlock (série)",
+            "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "JustWatch Brasil — Sherlock",
+            "url": "https://www.justwatch.com/br/serie/sherlock",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem está entre os protagonistas, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Os criadores vêm de 'Doctor Who' e Matt Smith quase foi o Watson, mas a série não tem ligação com 'Doctor Who'; e Holmes divide o protagonismo com Watson."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O2",
+              "texto": "Luther"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Broadchurch"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Sherlock"
+            },
+            {
+              "id": "C1-O3",
+              "texto": "Elementary"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Sherlock",
+          "endereco": "IMDb; Wikipédia (EN) — Sherlock (TV series)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt1475582/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Sherlock (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Um dos protagonistas",
+          "opcoes": [
+            {
+              "id": "C2-O4",
+              "texto": "Um falso vidente que ajuda a polícia a solucionar crimes"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Um detetive consultor que resolve crimes por dedução"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um detetive belga que confia nas suas 'pequenas células cinzentas'"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Um médico rabugento que diagnostica casos impossíveis"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um detetive consultor que resolve crimes por dedução (com John Watson)",
+          "endereco": "Wikipédia (EN) — Sherlock (TV series); Wikipédia (PT) — Sherlock (série)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Sherlock (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (PT) — Sherlock (série)",
+              "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Mark Gatiss e Steven Moffat"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Russell T Davies"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Neil Cross"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Chris Chibnall"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Mark Gatiss e Steven Moffat",
+          "endereco": "Wikipédia (EN) — Sherlock (TV series); Wikipédia (PT) — Sherlock (série)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Sherlock (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (PT) — Sherlock (série)",
+              "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O4",
+              "texto": "2012"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2011"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2009"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2010"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2010",
+          "endereco": "IMDb; Wikipédia (EN) — Sherlock (TV series)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt1475582/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Sherlock (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou na TV britânica em julho de 2010.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou na TV britânica em julho de 2010."
+          },
+          {
+            "id": "P02",
+            "text": "Cada temporada tem só três episódios, de cerca de 90 minutos cada.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Cada temporada tem só três episódios, de cerca de 90 minutos cada."
+          },
+          {
+            "id": "P03",
+            "text": "É um drama policial britânico ambientado nos dias de hoje, em Londres.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Sherlock (série)",
+                "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um drama policial britânico ambientado nos dias de hoje, em Londres."
+          },
+          {
+            "id": "P04",
+            "text": "É uma versão moderna das histórias de um detetive clássico criado por Arthur Conan Doyle.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Sherlock (série)",
+                "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma versão moderna das histórias de um detetive clássico criado por Arthur Conan Doyle."
+          },
+          {
+            "id": "P05",
+            "text": "O protagonista usa mensagens de celular, internet e GPS para resolver crimes.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista usa mensagens de celular, internet e GPS para resolver crimes."
+          },
+          {
+            "id": "P06",
+            "text": "O protagonista se descreve como um \"sociopata altamente funcional\".",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista se descreve como um \"sociopata altamente funcional\"."
+          },
+          {
+            "id": "P07",
+            "text": "Um médico do exército, ferido no Afeganistão, conhece o protagonista, que procura alguém para dividir o aluguel.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um médico do exército, ferido no Afeganistão, conhece o protagonista, que procura alguém para dividir o aluguel."
+          },
+          {
+            "id": "P08",
+            "text": "Os dois vão morar juntos no número 221B da Baker Street.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os dois vão morar juntos no número 221B da Baker Street."
+          },
+          {
+            "id": "P09",
+            "text": "No primeiro caso, a polícia está perdida diante de uma série de mortes que parecem suicídios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No primeiro caso, a polícia está perdida diante de uma série de mortes que parecem suicídios."
+          },
+          {
+            "id": "P10",
+            "text": "Uma das vítimas, vestida toda de rosa, risca letras no chão antes de morrer.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Uma das vítimas, vestida toda de rosa, risca letras no chão antes de morrer."
+          },
+          {
+            "id": "P11",
+            "text": "Os dois criadores eram roteiristas de 'Doctor Who' e tiveram a ideia em viagens de trem até Cardiff.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os dois criadores eram roteiristas de 'Doctor Who' e tiveram a ideia em viagens de trem até Cardiff."
+          },
+          {
+            "id": "P12",
+            "text": "Um dos criadores já tinha adaptado a história do Dr. Jekyll e Mr. Hyde na série 'Jekyll' (2007).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um dos criadores já tinha adaptado a história do Dr. Jekyll e Mr. Hyde na série 'Jekyll' (2007)."
+          },
+          {
+            "id": "P13",
+            "text": "A produtora Sue Vertue, casada com um dos criadores, os incentivou a tocar o projeto.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A produtora Sue Vertue, casada com um dos criadores, os incentivou a tocar o projeto."
+          },
+          {
+            "id": "P14",
+            "text": "Um piloto de 60 minutos foi gravado em 2009, mas o canal pediu para refazer tudo em episódios de 90 minutos.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — A Study in Pink",
+                "url": "https://en.wikipedia.org/wiki/A_Study_in_Pink",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um piloto de 60 minutos foi gravado em 2009, mas o canal pediu para refazer tudo em episódios de 90 minutos."
+          },
+          {
+            "id": "P15",
+            "text": "A fachada do apartamento foi gravada em outra rua de Londres, porque a original tem trânsito demais.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A fachada do apartamento foi gravada em outra rua de Londres, porque a original tem trânsito demais."
+          },
+          {
+            "id": "P16",
+            "text": "O protagonista é vivido por Benedict Cumberbatch.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Sherlock (série)",
+                "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é vivido por Benedict Cumberbatch."
+          },
+          {
+            "id": "P17",
+            "text": "Martin Freeman vive o médico que se torna parceiro do protagonista.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Sherlock (série)",
+                "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Martin Freeman vive o médico que se torna parceiro do protagonista."
+          },
+          {
+            "id": "P18",
+            "text": "Matt Smith fez teste para o papel do parceiro, foi recusado e logo depois virou o Doutor em 'Doctor Who'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Matt Smith fez teste para o papel do parceiro, foi recusado e logo depois virou o Doutor em 'Doctor Who'."
+          },
+          {
+            "id": "P19",
+            "text": "Os pais de verdade do ator principal aparecem na série como os pais do protagonista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os pais de verdade do ator principal aparecem na série como os pais do protagonista."
+          },
+          {
+            "id": "P20",
+            "text": "Venceu o BAFTA de melhor série dramática em 2011.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Venceu o BAFTA de melhor série dramática em 2011."
+          },
+          {
+            "id": "P21",
+            "text": "Em 2014, o ator principal ganhou o Emmy de melhor ator em minissérie ou telefilme.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em 2014, o ator principal ganhou o Emmy de melhor ator em minissérie ou telefilme."
+          },
+          {
+            "id": "P22",
+            "text": "O protagonista troca o famoso cachimbo dos livros por adesivos de nicotina.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista troca o famoso cachimbo dos livros por adesivos de nicotina."
+          },
+          {
+            "id": "P23",
+            "text": "Os personagens se chamam pelo primeiro nome, e não pelo sobrenome, ideia refletida no nome da série.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os personagens se chamam pelo primeiro nome, e não pelo sobrenome, ideia refletida no nome da série."
+          },
+          {
+            "id": "P24",
+            "text": "O sobretudo usado pelo ator principal voltou a ser fabricado por causa da procura dos fãs.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O sobretudo usado pelo ator principal voltou a ser fabricado por causa da procura dos fãs."
+          },
+          {
+            "id": "P25",
+            "text": "A primeira temporada chegou à TV pública dos EUA (PBS) em outubro de 2010.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Sherlock (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Sherlock (série)",
+                "url": "https://pt.wikipedia.org/wiki/Sherlock_(s%C3%A9rie)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada chegou à TV pública dos EUA (PBS) em outubro de 2010."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Sherlock (BBC, 2010), criada por Mark Gatiss e Steven Moffat, traz Sherlock Holmes (Benedict Cumberbatch) e John Watson (Martin Freeman) resolvendo crimes na Londres atual.",
+        "hinge": "Os criadores vêm de 'Doctor Who' e Matt Smith quase foi o Watson, mas a série não tem ligação com 'Doctor Who'; e Holmes divide o protagonismo com Watson.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Sherlock (TV series)",
+            "url": "https://en.wikipedia.org/wiki/Sherlock_(TV_series)",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "C2 em \"Um dos protagonistas\" com Sherlock Holmes como resposta e John Watson em coProtagonists; conferir se não seria melhor \"Protagonista\" (personagem-título).",
+          "Classificação 14 anos vem do JustWatch Brasil; conferir classificação indicativa no ClassInd.",
+          "Distratores de C3 (Russell T Davies, Neil Cross, Chris Chibnall) não foram checados nesta tarefa como criadores de 'Doctor Who' (2005), 'Luther' e 'Broadchurch'; conferir.",
+          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:C2 em \"Um dos protagonistas\" com Sherlock Holmes como resposta e John Watson em coProtagonists; conferir se não seria melhor \"Protagonista\" (personagem-título).",
+        "ambiguity:Classificação 14 anos vem do JustWatch Brasil; conferir classificação indicativa no ClassInd.",
+        "ambiguity:Distratores de C3 (Russell T Davies, Neil Cross, Chris Chibnall) não foram checados nesta tarefa como criadores de 'Doctor Who' (2005), 'Luther' e 'Broadchurch'; conferir.",
+        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
+      ]
+    },
+    "cs1-filme-top-gun-maverick": {
+      "id": "cs1-filme-top-gun-maverick",
+      "kind": "canonical-case",
+      "imdbId": "tt1745960",
+      "title": "Top Gun: Maverick",
+      "sessionTitle": "Velhas asas para uma nova missão",
+      "format": "filme",
+      "selection": "sucessos",
+      "releaseYear": 2022,
+      "rating": "12 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Top Gun: Maverick; AdoroCinema — Top Gun: Maverick",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1745960/reference",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Top Gun: Maverick",
+            "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "AdoroCinema — Top Gun: Maverick",
+            "url": "https://www.adorocinema.com/filmes/filme-186636/",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a dirigiu e quando foi lançada?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Tony Scott dirigiu o filme original de 1986 (e a continuação é dedicada a ele), e Christopher McQuarrie e Tom Cruise estão no roteiro e na produção, mas quem dirigiu foi Joseph Kosinski."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "Trem-Bala"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Top Gun: Maverick"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Avatar: O Caminho da Água"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Missão: Impossível – Efeito Fallout"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Top Gun: Maverick",
+          "endereco": "AdoroCinema — Top Gun: Maverick; Wikipédia (EN) — Top Gun: Maverick",
+          "answerReferences": [
+            {
+              "source": "AdoroCinema — Top Gun: Maverick",
+              "url": "https://www.adorocinema.com/filmes/filme-186636/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Top Gun: Maverick",
+              "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O1",
+              "texto": "Um piloto veterano chamado para treinar jovens aviadores"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Um agente secreto que aceita missões impossíveis"
+            },
+            {
+              "id": "C2-O2",
+              "texto": "Um aviador novato que disputa a liderança do esquadrão"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Uma dona de bar que reencontra um antigo amor"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Um piloto veterano chamado para treinar jovens aviadores",
+          "endereco": "Wikipédia (EN) — Top Gun: Maverick; IMDb",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Top Gun: Maverick",
+              "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt1745960/reference",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Direção",
+          "opcoes": [
+            {
+              "id": "C3-O2",
+              "texto": "Tony Scott"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Michael Bay"
+            },
+            {
+              "id": "C3-O1",
+              "texto": "Joseph Kosinski"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Christopher McQuarrie"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Joseph Kosinski",
+          "endereco": "Wikipédia (EN) — Top Gun: Maverick; AdoroCinema — Top Gun: Maverick",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Top Gun: Maverick",
+              "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Top Gun: Maverick",
+              "url": "https://www.adorocinema.com/filmes/filme-186636/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de lançamento",
+          "opcoes": [
+            {
+              "id": "C4-O1",
+              "texto": "2022"
+            },
+            {
+              "id": "C4-O2",
+              "texto": "2020"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2019"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2021"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2022",
+          "endereco": "Wikipédia (EN) — Top Gun: Maverick; AdoroCinema — Top Gun: Maverick",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Top Gun: Maverick",
+              "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "AdoroCinema — Top Gun: Maverick",
+              "url": "https://www.adorocinema.com/filmes/filme-186636/",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Chegou aos cinemas brasileiros em 26 de maio de 2022.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Top Gun: Maverick",
+                "url": "https://www.adorocinema.com/filmes/filme-186636/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Chegou aos cinemas brasileiros em 26 de maio de 2022."
+          },
+          {
+            "id": "P02",
+            "text": "Era para ter estreado em 2019, mas foi adiado várias vezes, inclusive pela pandemia de covid-19.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Era para ter estreado em 2019, mas foi adiado várias vezes, inclusive pela pandemia de covid-19."
+          },
+          {
+            "id": "P03",
+            "text": "Foi exibido no Festival de Cannes em maio de 2022.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi exibido no Festival de Cannes em maio de 2022."
+          },
+          {
+            "id": "P04",
+            "text": "É um longa-metragem de cerca de duas horas e dez minutos (130 minutos).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt1745960/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um longa-metragem de cerca de duas horas e dez minutos (130 minutos)."
+          },
+          {
+            "id": "P05",
+            "text": "É um filme de ação americano sobre pilotos de caça da Marinha dos EUA.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um filme de ação americano sobre pilotos de caça da Marinha dos EUA."
+          },
+          {
+            "id": "P06",
+            "text": "O protagonista é um piloto de testes condecorado que, por indisciplina, nunca chegou a almirante.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um piloto de testes condecorado que, por indisciplina, nunca chegou a almirante."
+          },
+          {
+            "id": "P07",
+            "text": "Logo no começo, ele leva um avião hipersônico experimental além de Mach 10.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Logo no começo, ele leva um avião hipersônico experimental além de Mach 10."
+          },
+          {
+            "id": "P08",
+            "text": "Ele é transferido para treinar jovens pilotos de elite para uma missão perigosa.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele é transferido para treinar jovens pilotos de elite para uma missão perigosa."
+          },
+          {
+            "id": "P09",
+            "text": "Um dos alunos é filho do falecido melhor amigo do protagonista e guarda mágoa dele.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Um dos alunos é filho do falecido melhor amigo do protagonista e guarda mágoa dele."
+          },
+          {
+            "id": "P10",
+            "text": "Ele reencontra uma antiga paixão, hoje dona de um bar e mãe solo.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele reencontra uma antiga paixão, hoje dona de um bar e mãe solo."
+          },
+          {
+            "id": "P11",
+            "text": "Dois alunos rivais entre si disputam uma vaga na missão.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Dois alunos rivais entre si disputam uma vaga na missão."
+          },
+          {
+            "id": "P12",
+            "text": "É uma continuação lançada 36 anos depois do filme original, de 1986.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma continuação lançada 36 anos depois do filme original, de 1986."
+          },
+          {
+            "id": "P13",
+            "text": "O diretor já tinha trabalhado com o astro principal em 'Oblivion' (2013).",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "AdoroCinema — Joseph Kosinski",
+                "url": "https://www.adorocinema.com/personalidades/personalidade-193401/streaming/",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor já tinha trabalhado com o astro principal em 'Oblivion' (2013)."
+          },
+          {
+            "id": "P14",
+            "text": "O diretor também comandou 'Tron: O Legado' (2010) e 'Homens de Coragem' (2017).",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "AdoroCinema — Joseph Kosinski",
+                "url": "https://www.adorocinema.com/personalidades/personalidade-193401/streaming/",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Joseph Kosinski",
+                "url": "https://en.wikipedia.org/wiki/Joseph_Kosinski",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O diretor também comandou 'Tron: O Legado' (2010) e 'Homens de Coragem' (2017)."
+          },
+          {
+            "id": "P15",
+            "text": "Os atores passaram por um treinamento de três meses para aguentar voos reais em caças F/A-18.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Os atores passaram por um treinamento de três meses para aguentar voos reais em caças F/A-18."
+          },
+          {
+            "id": "P16",
+            "text": "Câmeras IMAX foram instaladas dentro das cabines dos caças durante as filmagens.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Câmeras IMAX foram instaladas dentro das cabines dos caças durante as filmagens."
+          },
+          {
+            "id": "P17",
+            "text": "Tom Cruise retoma o papel que viveu no filme original de 1986.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt1745960/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Tom Cruise retoma o papel que viveu no filme original de 1986."
+          },
+          {
+            "id": "P18",
+            "text": "Val Kilmer faz sua última atuação no cinema, como o almirante Iceman.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Val Kilmer faz sua última atuação no cinema, como o almirante Iceman."
+          },
+          {
+            "id": "P19",
+            "text": "Miles Teller, Jennifer Connelly e Jon Hamm estão no elenco.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "IMDb",
+                "url": "https://www.imdb.com/title/tt1745960/reference",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Miles Teller, Jennifer Connelly e Jon Hamm estão no elenco."
+          },
+          {
+            "id": "P20",
+            "text": "Glen Powell e Monica Barbaro interpretam alunos da escola de pilotos.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Glen Powell e Monica Barbaro interpretam alunos da escola de pilotos."
+          },
+          {
+            "id": "P21",
+            "text": "Teve seis indicações ao Oscar, incluindo Melhor Filme, e venceu Melhor Som.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Teve seis indicações ao Oscar, incluindo Melhor Filme, e venceu Melhor Som."
+          },
+          {
+            "id": "P22",
+            "text": "Arrecadou cerca de US$ 1,5 bilhão, a segunda maior bilheteria de 2022.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Arrecadou cerca de US$ 1,5 bilhão, a segunda maior bilheteria de 2022."
+          },
+          {
+            "id": "P23",
+            "text": "Lady Gaga canta 'Hold My Hand', uma das músicas da trilha.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Lady Gaga canta 'Hold My Hand', uma das músicas da trilha."
+          },
+          {
+            "id": "P24",
+            "text": "O filme é dedicado a Tony Scott, diretor do original, que morreu em 2012.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O filme é dedicado a Tony Scott, diretor do original, que morreu em 2012."
+          },
+          {
+            "id": "P25",
+            "text": "Virou a maior bilheteria da carreira do astro principal.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Top Gun: Maverick",
+                "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Virou a maior bilheteria da carreira do astro principal."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Top Gun: Maverick (2022), dirigido por Joseph Kosinski, traz Pete \"Maverick\" Mitchell de volta, agora encarregado de treinar jovens pilotos de elite para uma missão perigosa.",
+        "hinge": "Tony Scott dirigiu o filme original de 1986 (e a continuação é dedicada a ele), e Christopher McQuarrie e Tom Cruise estão no roteiro e na produção, mas quem dirigiu foi Joseph Kosinski.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Top Gun: Maverick",
+            "url": "https://en.wikipedia.org/wiki/Top_Gun:_Maverick",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt1745960/reference",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Títulos BR dos distratores (Avatar: O Caminho da Água, Trem-Bala, Missão: Impossível – Efeito Fallout) não conferidos um a um.",
+          "Pista P09 (aluno filho do amigo morto) é premissa do primeiro ato, mas conferir se o professor a considera reveladora demais."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Títulos BR dos distratores (Avatar: O Caminho da Água, Trem-Bala, Missão: Impossível – Efeito Fallout) não conferidos um a um.",
+        "ambiguity:Pista P09 (aluno filho do amigo morto) é premissa do primeiro ato, mas conferir se o professor a considera reveladora demais."
+      ]
+    },
+    "cs1-serie-attack-on-titan": {
+      "id": "cs1-serie-attack-on-titan",
+      "kind": "canonical-case",
+      "imdbId": "tt2560140",
+      "title": "Attack on Titan",
+      "sessionTitle": "Muralhas contra gigantes famintos",
+      "format": "serie",
+      "selection": "sucessos",
+      "releaseYear": 2013,
+      "rating": "18 anos",
+      "canon": {
+        "source": "IMDb (créditos e datas) + títulos oficiais no Brasil",
+        "reference": "IMDb; Wikipédia (EN) — Attack on Titan (TV series); Wikipédia (PT) — Shingeki no Kyojin; Omelete — Attack on Titan no top 10 da Crunchyroll",
+        "references": [
+          {
+            "source": "IMDb",
+            "url": "https://www.imdb.com/title/tt2560140/",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+            "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (PT) — Shingeki no Kyojin",
+            "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Omelete — Attack on Titan no top 10 da Crunchyroll",
+            "url": "https://www.omelete.com.br/ataque-dos-titas-attack-titan/attack-on-titan-crunchyroll-top-10",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "prompt": {
+        "question": "Que obra é esta, quem a protagoniza, quem a criou e quando estreou?"
+      },
+      "focalFieldId": "C1",
+      "focalJustification": "Identificar a obra organiza a leitura das demais respostas.",
+      "editorial": {
+        "hinge": "Tetsurō Araki dirigiu a adaptação animada (e também 'Death Note'), mas o criador creditado é Hajime Isayama, autor do mangá."
+      },
+      "fields": [
+        {
+          "id": "C1",
+          "sourceOrder": 1,
+          "rotulo": "Título",
+          "opcoes": [
+            {
+              "id": "C1-O3",
+              "texto": "Sword Art Online"
+            },
+            {
+              "id": "C1-O1",
+              "texto": "Attack on Titan"
+            },
+            {
+              "id": "C1-O2",
+              "texto": "Tokyo Ghoul"
+            },
+            {
+              "id": "C1-O4",
+              "texto": "Fullmetal Alchemist: Brotherhood"
+            }
+          ],
+          "respostaId": "C1-O1",
+          "respostaCanonica": "Attack on Titan",
+          "endereco": "IMDb; Wikipédia (EN) — Attack on Titan (TV series); Omelete — Attack on Titan no top 10 da Crunchyroll",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt2560140/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Omelete — Attack on Titan no top 10 da Crunchyroll",
+              "url": "https://www.omelete.com.br/ataque-dos-titas-attack-titan/attack-on-titan-crunchyroll-top-10",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": true,
+          "pontosBase": 8
+        },
+        {
+          "id": "C2",
+          "sourceOrder": 2,
+          "rotulo": "Protagonista",
+          "opcoes": [
+            {
+              "id": "C2-O2",
+              "texto": "Tanjiro Kamado"
+            },
+            {
+              "id": "C2-O4",
+              "texto": "Ken Kaneki"
+            },
+            {
+              "id": "C2-O3",
+              "texto": "Izuku Midoriya"
+            },
+            {
+              "id": "C2-O1",
+              "texto": "Eren Yeager"
+            }
+          ],
+          "respostaId": "C2-O1",
+          "respostaCanonica": "Eren Yeager",
+          "endereco": "Wikipédia (EN) — Attack on Titan (TV series); Wikipédia (EN) — Attack on Titan (mangá)",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 5
+        },
+        {
+          "id": "C3",
+          "sourceOrder": 3,
+          "rotulo": "Criação",
+          "opcoes": [
+            {
+              "id": "C3-O1",
+              "texto": "Hajime Isayama"
+            },
+            {
+              "id": "C3-O4",
+              "texto": "Kōhei Horikoshi"
+            },
+            {
+              "id": "C3-O2",
+              "texto": "Tetsurō Araki"
+            },
+            {
+              "id": "C3-O3",
+              "texto": "Tsugumi Ohba"
+            }
+          ],
+          "respostaId": "C3-O1",
+          "respostaCanonica": "Hajime Isayama",
+          "endereco": "Wikipédia (EN) — Attack on Titan (TV series); Wikipédia (EN) — Hajime Isayama",
+          "answerReferences": [
+            {
+              "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Hajime Isayama",
+              "url": "https://en.wikipedia.org/wiki/Hajime_Isayama",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 3
+        },
+        {
+          "id": "C4",
+          "sourceOrder": 4,
+          "rotulo": "Ano de estreia",
+          "opcoes": [
+            {
+              "id": "C4-O2",
+              "texto": "2012"
+            },
+            {
+              "id": "C4-O4",
+              "texto": "2015"
+            },
+            {
+              "id": "C4-O3",
+              "texto": "2014"
+            },
+            {
+              "id": "C4-O1",
+              "texto": "2013"
+            }
+          ],
+          "respostaId": "C4-O1",
+          "respostaCanonica": "2013",
+          "endereco": "IMDb; Wikipédia (EN) — Attack on Titan (TV series)",
+          "answerReferences": [
+            {
+              "source": "IMDb",
+              "url": "https://www.imdb.com/title/tt2560140/",
+              "checkedAt": "2026-10-14"
+            },
+            {
+              "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+              "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+              "checkedAt": "2026-10-14"
+            }
+          ],
+          "isFocal": false,
+          "pontosBase": 2
+        }
+      ],
+      "deck": {
+        "status": "blocked",
+        "minPlayers": 2,
+        "maxPlayers": 12,
+        "cards": [
+          {
+            "id": "P01",
+            "text": "Estreou na TV japonesa em abril de 2013.",
+            "importance": "essential",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Estreou na TV japonesa em abril de 2013."
+          },
+          {
+            "id": "P02",
+            "text": "É um anime; a primeira temporada tem 25 episódios.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É um anime; a primeira temporada tem 25 episódios."
+          },
+          {
+            "id": "P03",
+            "text": "É uma fantasia sombria e pós-apocalíptica, adaptada de um mangá.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "É uma fantasia sombria e pós-apocalíptica, adaptada de um mangá."
+          },
+          {
+            "id": "P04",
+            "text": "O que resta da humanidade vive cercado por três muralhas gigantescas.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O que resta da humanidade vive cercado por três muralhas gigantescas."
+          },
+          {
+            "id": "P05",
+            "text": "Do lado de fora das muralhas vivem gigantes de forma humana que devoram pessoas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Do lado de fora das muralhas vivem gigantes de forma humana que devoram pessoas."
+          },
+          {
+            "id": "P06",
+            "text": "Protegidos pelas muralhas, os moradores tiveram cerca de um século de paz.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "early",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Protegidos pelas muralhas, os moradores tiveram cerca de um século de paz."
+          },
+          {
+            "id": "P07",
+            "text": "A história começa no ano de 845, numa cidade da muralha mais externa.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A história começa no ano de 845, numa cidade da muralha mais externa."
+          },
+          {
+            "id": "P08",
+            "text": "Tudo muda quando um gigante colossal abre um buraco na muralha da cidade do protagonista.",
+            "importance": "essential",
+            "relatedFields": [
+              "C1",
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Tudo muda quando um gigante colossal abre um buraco na muralha da cidade do protagonista."
+          },
+          {
+            "id": "P09",
+            "text": "O protagonista é um garoto que jura eliminar todos os gigantes.",
+            "importance": "essential",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O protagonista é um garoto que jura eliminar todos os gigantes."
+          },
+          {
+            "id": "P10",
+            "text": "Ele se alista no exército junto com os amigos de infância Mikasa e Armin.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "late",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "high",
+            "clueType": "premissa",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Ele se alista no exército junto com os amigos de infância Mikasa e Armin."
+          },
+          {
+            "id": "P11",
+            "text": "O autor da história original tinha cerca de 23 anos quando a publicação começou, em 2009.",
+            "importance": "essential",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Hajime Isayama",
+                "url": "https://en.wikipedia.org/wiki/Hajime_Isayama",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O autor da história original tinha cerca de 23 anos quando a publicação começou, em 2009."
+          },
+          {
+            "id": "P12",
+            "text": "Foi a primeira série do autor; antes, ele levou a ideia à revista da 'Shōnen Jump', mas recusou as mudanças pedidas.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Hajime Isayama",
+                "url": "https://en.wikipedia.org/wiki/Hajime_Isayama",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi a primeira série do autor; antes, ele levou a ideia à revista da 'Shōnen Jump', mas recusou as mudanças pedidas."
+          },
+          {
+            "id": "P13",
+            "text": "O próprio autor já admitiu achar seus desenhos \"amadores\".",
+            "importance": "contextual",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O próprio autor já admitiu achar seus desenhos \"amadores\"."
+          },
+          {
+            "id": "P14",
+            "text": "A adaptação animada foi dirigida por quem também dirigiu o anime de 'Death Note'.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C3"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Tetsurō Araki",
+                "url": "https://en.wikipedia.org/wiki/Tetsur%C5%8D_Araki",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A adaptação animada foi dirigida por quem também dirigiu o anime de 'Death Note'."
+          },
+          {
+            "id": "P15",
+            "text": "As três primeiras temporadas foram animadas pelo Wit Studio; a última, pelo estúdio MAPPA.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "bastidores",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "As três primeiras temporadas foram animadas pelo Wit Studio; a última, pelo estúdio MAPPA."
+          },
+          {
+            "id": "P16",
+            "text": "No original japonês, o protagonista é dublado por Yūki Kaji.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No original japonês, o protagonista é dublado por Yūki Kaji."
+          },
+          {
+            "id": "P17",
+            "text": "Yui Ishikawa dubla, no original, a amiga de infância do protagonista.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C2"
+            ],
+            "recommendedMoment": "middle",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Yui Ishikawa dubla, no original, a amiga de infância do protagonista."
+          },
+          {
+            "id": "P18",
+            "text": "No Brasil, ganhou dublagem do estúdio DuBrasil a partir de novembro de 2020.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "elenco",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "No Brasil, ganhou dublagem do estúdio DuBrasil a partir de novembro de 2020."
+          },
+          {
+            "id": "P19",
+            "text": "Foi eleito Animação do Ano no Tokyo Anime Award de 2014.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Foi eleito Animação do Ano no Tokyo Anime Award de 2014."
+          },
+          {
+            "id": "P20",
+            "text": "Em 2025, foi o primeiro a receber o prêmio Global Impact do Crunchyroll Anime Awards.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "premios",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "Em 2025, foi o primeiro a receber o prêmio Global Impact do Crunchyroll Anime Awards."
+          },
+          {
+            "id": "P21",
+            "text": "A abertura dos 13 primeiros episódios, da banda Linked Horizon, chama-se \"Arco e Flecha Carmesim\" em tradução livre.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A abertura dos 13 primeiros episódios, da banda Linked Horizon, chama-se \"Arco e Flecha Carmesim\" em tradução livre."
+          },
+          {
+            "id": "P22",
+            "text": "O mangá original passou de 140 milhões de cópias em circulação.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C1",
+              "C3"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (mangá)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan",
+                "checkedAt": "2026-10-14"
+              },
+              {
+                "source": "Wikipédia (EN) — Hajime Isayama",
+                "url": "https://en.wikipedia.org/wiki/Hajime_Isayama",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O mangá original passou de 140 milhões de cópias em circulação."
+          },
+          {
+            "id": "P23",
+            "text": "A primeira temporada foi condensada em dois filmes lançados nos cinemas japoneses em 2014 e 2015.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "curiosidade",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A primeira temporada foi condensada em dois filmes lançados nos cinemas japoneses em 2014 e 2015."
+          },
+          {
+            "id": "P24",
+            "text": "O mangá começou a sair no Brasil pela Panini em novembro de 2013, mesmo ano da estreia do anime.",
+            "importance": "relevant",
+            "relatedFields": [
+              "C4"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "medium",
+            "clueType": "epoca",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (PT) — Shingeki no Kyojin",
+                "url": "https://pt.wikipedia.org/wiki/Shingeki_no_Kyojin",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "O mangá começou a sair no Brasil pela Panini em novembro de 2013, mesmo ano da estreia do anime."
+          },
+          {
+            "id": "P25",
+            "text": "A série terminou em novembro de 2023, depois de quatro temporadas.",
+            "importance": "contextual",
+            "relatedFields": [
+              "C1"
+            ],
+            "recommendedMoment": "any",
+            "narrativeFunction": "Aproximar a obra por um fato verificável",
+            "earlyRevealRisk": "low",
+            "clueType": "formato",
+            "twoPlayerSuitable": true,
+            "references": [
+              {
+                "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+                "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+                "checkedAt": "2026-10-14"
+              }
+            ],
+            "texto": "A série terminou em novembro de 2023, depois de quatro temporadas."
+          }
+        ]
+      },
+      "reveal": {
+        "canonicalSummary": "Attack on Titan (anime, 2013), baseado no mangá criado por Hajime Isayama, acompanha Eren Yeager, um garoto que jura eliminar os gigantes depois que eles invadem sua cidade murada.",
+        "hinge": "Tetsurō Araki dirigiu a adaptação animada (e também 'Death Note'), mas o criador creditado é Hajime Isayama, autor do mangá.",
+        "references": [
+          {
+            "source": "Wikipédia (EN) — Attack on Titan (TV series)",
+            "url": "https://en.wikipedia.org/wiki/Attack_on_Titan_(TV_series)",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Tetsurō Araki",
+            "url": "https://en.wikipedia.org/wiki/Tetsur%C5%8D_Araki",
+            "checkedAt": "2026-10-14"
+          },
+          {
+            "source": "Wikipédia (EN) — Hajime Isayama",
+            "url": "https://en.wikipedia.org/wiki/Hajime_Isayama",
+            "checkedAt": "2026-10-14"
+          }
+        ]
+      },
+      "review": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "ambiguities": [
+          "Título: a base usa \"Attack on Titan\" (também usado pela Crunchyroll e pela imprensa BR, ex.: Omelete), mas o JustWatch Brasil lista \"Ataque dos Titãs\" e o mangá saiu no Brasil como \"Ataque dos Titãs\" (Panini).",
+          "Criação: escolhi Hajime Isayama (autor do mangá), que a Wikipédia (EN) credita como \"creator\" da série; Tetsurō Araki (diretor das temporadas 1–3) virou distrator. A página do IMDb não abriu nesta tarefa (bloqueio), então o crédito do IMDb não foi conferido.",
+          "Classificação: o JustWatch Brasil indica 18 anos; não confirmei no ClassInd. Conferir classificação indicativa.",
+          "Nome do protagonista: usei \"Eren Yeager\" (Wikipédia); no Brasil também aparece como \"Eren Jaeger\".",
+          "P11 (autor com cerca de 23 anos) é cálculo: nascido em agosto de 1986, publicação iniciada em setembro de 2009."
+        ]
+      },
+      "status": {
+        "structural": "approved",
+        "factual": "pending",
+        "spoiler": "pending",
+        "editorial": "pending",
+        "editoriallyEligible": false,
+        "playable": false
+      },
+      "pendingIssues": [
+        "factual:pending",
+        "spoiler:pending",
+        "editorial:pending",
+        "ambiguity:Título: a base usa \"Attack on Titan\" (também usado pela Crunchyroll e pela imprensa BR, ex.: Omelete), mas o JustWatch Brasil lista \"Ataque dos Titãs\" e o mangá saiu no Brasil como \"Ataque dos Titãs\" (Panini).",
+        "ambiguity:Criação: escolhi Hajime Isayama (autor do mangá), que a Wikipédia (EN) credita como \"creator\" da série; Tetsurō Araki (diretor das temporadas 1–3) virou distrator. A página do IMDb não abriu nesta tarefa (bloqueio), então o crédito do IMDb não foi conferido.",
+        "ambiguity:Classificação: o JustWatch Brasil indica 18 anos; não confirmei no ClassInd. Conferir classificação indicativa.",
+        "ambiguity:Nome do protagonista: usei \"Eren Yeager\" (Wikipédia); no Brasil também aparece como \"Eren Jaeger\".",
+        "ambiguity:P11 (autor com cerca de 23 anos) é cálculo: nascido em agosto de 1986, publicação iniciada em setembro de 2009."
+      ]
     }
   }
 };});
