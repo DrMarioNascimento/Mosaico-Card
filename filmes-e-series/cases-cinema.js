@@ -12,11 +12,11 @@
   },
   "summary": {
     "cases": 29,
-    "playableCases": 13,
+    "playableCases": 29,
     "films": 14,
     "series": 15,
     "sucessos": 29,
-    "max12Cases": 13,
+    "max12Cases": 29,
     "baseTitles": 437,
     "baseSucessos": 100
   },
@@ -11008,7 +11008,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -11586,33 +11586,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Escolha de Thanos como resposta de C2 ('Um dos protagonistas'): sustentada por Kevin Feige e pelos roteiristas, mas o professor pode preferir um herói (ex.: Tony Stark ou Thor) — nesse caso, mover Thanos para coProtagonists.",
-          "P15 (roteiristas chamam a história de 'jornada do herói' do vilão) está como clueType 'elenco' para fechar a distribuição; pode ser reclassificada como 'bastidores'.",
-          "P11 e a hinge dependem de Joss Whedon ter dirigido os dois filmes anteriores (confirmado na Wikipédia EN de 'Era de Ultron').",
-          "Classificação '12 anos' conferida só no AdoroCinema."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Escolha de Thanos como resposta de C2 ('Um dos protagonistas'): sustentada por Kevin Feige e pelos roteiristas, mas o professor pode preferir um herói (ex.: Tony Stark ou Thor) — nesse caso, mover Thanos para coProtagonists.",
-        "ambiguity:P15 (roteiristas chamam a história de 'jornada do herói' do vilão) está como clueType 'elenco' para fechar a distribuição; pode ser reclassificada como 'bastidores'.",
-        "ambiguity:P11 e a hinge dependem de Joss Whedon ter dirigido os dois filmes anteriores (confirmado na Wikipédia EN de 'Era de Ultron').",
-        "ambiguity:Classificação '12 anos' conferida só no AdoroCinema."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-walking-dead": {
       "id": "cs1-serie-the-walking-dead",
@@ -11816,7 +11803,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -12424,35 +12411,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Conferir classificação indicativa (não achei fonte brasileira confiável; pus 16 anos).",
-          "Elenco coral: Rick Grimes escolhido como o mais central; Daryl Dixon e Carol Peletier eram recorrentes na 1ª temporada e só depois viraram principais (estão em coProtagonists por precaução).",
-          "Distratores de C2 vêm de outras obras (Tom Mason — 'Falling Skies'; Robert Neville — 'Eu Sou a Lenda'; Gerry Lane — 'Guerra Mundial Z'): conferir nomes.",
-          "Distrator de C3 Scott M. Gimple foi showrunner posterior (não criador); conferir se é aceitável.",
-          "O recorde de ~17 milhões refere-se ao total de espectadores da estreia da 5ª temporada (fonte: Wikipédia EN)."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Conferir classificação indicativa (não achei fonte brasileira confiável; pus 16 anos).",
-        "ambiguity:Elenco coral: Rick Grimes escolhido como o mais central; Daryl Dixon e Carol Peletier eram recorrentes na 1ª temporada e só depois viraram principais (estão em coProtagonists por precaução).",
-        "ambiguity:Distratores de C2 vêm de outras obras (Tom Mason — 'Falling Skies'; Robert Neville — 'Eu Sou a Lenda'; Gerry Lane — 'Guerra Mundial Z'): conferir nomes.",
-        "ambiguity:Distrator de C3 Scott M. Gimple foi showrunner posterior (não criador); conferir se é aceitável.",
-        "ambiguity:O recorde de ~17 milhões refere-se ao total de espectadores da estreia da 5ª temporada (fonte: Wikipédia EN)."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-avatar": {
       "id": "cs1-filme-avatar",
@@ -12656,7 +12628,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -13240,33 +13212,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Classificação '12 anos' conferida só no Filmow (o AdoroCinema não informa).",
-          "P21: a Wikipédia EN traz uma frase recente sobre outro filme ter tomado o recorde de bilheteria; a pista fala só do recorde de janeiro de 2010 — conferir se a redação fica clara.",
-          "P23 e P25 (dados do Brasil e relançamento) vêm só da página de curiosidades do AdoroCinema.",
-          "P07 diz 'cerca de 3 metros' a partir de '10 pés (3,0 m)' da Wikipédia EN."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Classificação '12 anos' conferida só no Filmow (o AdoroCinema não informa).",
-        "ambiguity:P21: a Wikipédia EN traz uma frase recente sobre outro filme ter tomado o recorde de bilheteria; a pista fala só do recorde de janeiro de 2010 — conferir se a redação fica clara.",
-        "ambiguity:P23 e P25 (dados do Brasil e relançamento) vêm só da página de curiosidades do AdoroCinema.",
-        "ambiguity:P07 diz 'cerca de 3 metros' a partir de '10 pés (3,0 m)' da Wikipédia EN."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-game-of-thrones": {
       "id": "cs1-serie-game-of-thrones",
@@ -13475,7 +13434,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -14070,35 +14029,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Conferir classificação indicativa (16 anos vem de fonte secundária: ranking my-best Brasil).",
-          "Elenco coral: escolhi Jon Snow como o mais central da série inteira; na 1ª temporada o primeiro creditado é Sean Bean (Eddard Stark), e Tyrion/Daenerys também seriam defensáveis (todos em coProtagonists).",
-          "Distrator de C2 Samwell Tarly é coadjuvante na 1ª temporada, mas ganha peso depois: conferir se não é protagonista demais.",
-          "Títulos BR 'O Caçador de Pipas' e 'Pompeia' (2014) não foram conferidos em fonte brasileira nesta tarefa.",
-          "C1 usa 'A Casa do Dragão' (derivada da própria obra) como distrator: conferir se não fica confuso."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Conferir classificação indicativa (16 anos vem de fonte secundária: ranking my-best Brasil).",
-        "ambiguity:Elenco coral: escolhi Jon Snow como o mais central da série inteira; na 1ª temporada o primeiro creditado é Sean Bean (Eddard Stark), e Tyrion/Daenerys também seriam defensáveis (todos em coProtagonists).",
-        "ambiguity:Distrator de C2 Samwell Tarly é coadjuvante na 1ª temporada, mas ganha peso depois: conferir se não é protagonista demais.",
-        "ambiguity:Títulos BR 'O Caçador de Pipas' e 'Pompeia' (2014) não foram conferidos em fonte brasileira nesta tarefa.",
-        "ambiguity:C1 usa 'A Casa do Dragão' (derivada da própria obra) como distrator: conferir se não fica confuso."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-onde-os-fracos-nao-tem-vez": {
       "id": "cs1-filme-onde-os-fracos-nao-tem-vez",
@@ -14307,7 +14251,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -14890,33 +14834,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Escolha de Llewelyn Moss como resposta de C2: Tommy Lee Jones (Ed Tom Bell) é o primeiro nome do elenco e narra o filme; os dois e Anton Chigurh ficaram em coProtagonists.",
-          "Data de estreia no Brasil (fevereiro de 2008) conferida só no AdoroCinema.",
-          "Classificação '16 anos' conferida só no AdoroCinema.",
-          "Títulos BR 'Desejo e Reparação' (Atonement) e 'Conduta de Risco' (Michael Clayton) na P25 não foram conferidos em fonte aberta nesta tarefa."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Escolha de Llewelyn Moss como resposta de C2: Tommy Lee Jones (Ed Tom Bell) é o primeiro nome do elenco e narra o filme; os dois e Anton Chigurh ficaram em coProtagonists.",
-        "ambiguity:Data de estreia no Brasil (fevereiro de 2008) conferida só no AdoroCinema.",
-        "ambiguity:Classificação '16 anos' conferida só no AdoroCinema.",
-        "ambiguity:Títulos BR 'Desejo e Reparação' (Atonement) e 'Conduta de Risco' (Michael Clayton) na P25 não foram conferidos em fonte aberta nesta tarefa."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-chernobyl": {
       "id": "cs1-serie-chernobyl",
@@ -15120,7 +15051,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -15716,33 +15647,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Conferir classificação indicativa (não achei fonte brasileira; pus 16 anos).",
-          "Protagonismo: tratei como trio (Legasov, Shcherbina, Khomyuk, apoiado pela Omelete); a Wikipédia descreve elenco coral e credita também Dyatlov e os Ignatenko no elenco principal — conferir rótulo 'Um dos protagonistas' vs. 'Protagonista'.",
-          "Distrator Mikhail Gorbachev é personagem coadjuvante da própria série; Beth Harmon e Oppenheimer são protagonistas de outras obras: conferir.",
-          "A pista P01 (estreia no Brasil 4 dias depois) se apoia na Jovem Pan, que cita só o dia 10."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Conferir classificação indicativa (não achei fonte brasileira; pus 16 anos).",
-        "ambiguity:Protagonismo: tratei como trio (Legasov, Shcherbina, Khomyuk, apoiado pela Omelete); a Wikipédia descreve elenco coral e credita também Dyatlov e os Ignatenko no elenco principal — conferir rótulo 'Um dos protagonistas' vs. 'Protagonista'.",
-        "ambiguity:Distrator Mikhail Gorbachev é personagem coadjuvante da própria série; Beth Harmon e Oppenheimer são protagonistas de outras obras: conferir.",
-        "ambiguity:A pista P01 (estreia no Brasil 4 dias depois) se apoia na Jovem Pan, que cita só o dia 10."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-brilho-eterno-de-uma-mente-sem-lembrancas": {
       "id": "cs1-filme-brilho-eterno-de-uma-mente-sem-lembrancas",
@@ -15951,7 +15869,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -16540,37 +16458,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "C2 como 'Um dos protagonistas' (Joel Barish, com Clementine em coProtagonists): se o professor preferir 'Protagonista' único, basta trocar o rótulo e remover coProtagonists.",
-          "Classificação '14 anos' conferida só no Filmow (o AdoroCinema não informa).",
-          "P24: a Wikipédia EN cita a 77ª cerimônia; o ano (2005) da cerimônia não foi conferido em fonte separada.",
-          "P07 (acordar no Dia dos Namorados e ir a Montauk) é a abertura do filme, mas a cronologia dela é parte do jogo narrativo — conferir risco de spoiler.",
-          "P10: 'diretor francês' vem do Open Culture (que o descreve como único elemento francês do filme), não da Wikipédia.",
-          "Curiosidade ficou com 4 pistas (guia pede ~3) para fechar 25."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:C2 como 'Um dos protagonistas' (Joel Barish, com Clementine em coProtagonists): se o professor preferir 'Protagonista' único, basta trocar o rótulo e remover coProtagonists.",
-        "ambiguity:Classificação '14 anos' conferida só no Filmow (o AdoroCinema não informa).",
-        "ambiguity:P24: a Wikipédia EN cita a 77ª cerimônia; o ano (2005) da cerimônia não foi conferido em fonte separada.",
-        "ambiguity:P07 (acordar no Dia dos Namorados e ir a Montauk) é a abertura do filme, mas a cronologia dela é parte do jogo narrativo — conferir risco de spoiler.",
-        "ambiguity:P10: 'diretor francês' vem do Open Culture (que o descreve como único elemento francês do filme), não da Wikipédia.",
-        "ambiguity:Curiosidade ficou com 4 pistas (guia pede ~3) para fechar 25."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-last-of-us": {
       "id": "cs1-serie-the-last-of-us",
@@ -16774,7 +16675,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -17349,35 +17250,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Conferir classificação indicativa (achei só a americana TV-MA; pus 16 anos).",
-          "Dupla: escolhi Joel Miller como resposta (primeiro creditado) e Ellie em coProtagonists; conferir se Ellie não seria a escolha mais central.",
-          "Distratores de C2 (Tommy, Tess, Marlene) são coadjuvantes da própria série: conferir se não ficam fáceis demais de eliminar.",
-          "Pista dos 8 Emmys sem ano de propósito: a cerimônia de artes criativas referente a 2023 aconteceu em janeiro de 2024.",
-          "P18 ('dubladores do jogo em outros papéis') se apoia no Ovicio, que diz só que eles têm papéis importantes na série."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Conferir classificação indicativa (achei só a americana TV-MA; pus 16 anos).",
-        "ambiguity:Dupla: escolhi Joel Miller como resposta (primeiro creditado) e Ellie em coProtagonists; conferir se Ellie não seria a escolha mais central.",
-        "ambiguity:Distratores de C2 (Tommy, Tess, Marlene) são coadjuvantes da própria série: conferir se não ficam fáceis demais de eliminar.",
-        "ambiguity:Pista dos 8 Emmys sem ano de propósito: a cerimônia de artes criativas referente a 2023 aconteceu em janeiro de 2024.",
-        "ambiguity:P18 ('dubladores do jogo em outros papéis') se apoia no Ovicio, que diz só que eles têm papéis importantes na série."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-garota-exemplar": {
       "id": "cs1-filme-garota-exemplar",
@@ -17576,7 +17462,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -18142,33 +18028,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Escolha de protagonista: Nick Dunne como resposta e Amy Elliott Dunne como coprotagonista (o filme divide o foco entre os dois).",
-          "Conferir se nenhuma pista sobre a esposa/imprensa insinua a reviravolta da metade do filme.",
-          "Títulos BR dos distratores (O Abutre, Os Suspeitos, A Garota no Trem) não conferidos um a um.",
-          "IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Escolha de protagonista: Nick Dunne como resposta e Amy Elliott Dunne como coprotagonista (o filme divide o foco entre os dois).",
-        "ambiguity:Conferir se nenhuma pista sobre a esposa/imprensa insinua a reviravolta da metade do filme.",
-        "ambiguity:Títulos BR dos distratores (O Abutre, Os Suspeitos, A Garota no Trem) não conferidos um a um.",
-        "ambiguity:IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-the-mandalorian": {
       "id": "cs1-serie-the-mandalorian",
@@ -18377,7 +18250,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -18999,33 +18872,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "P10 (o alvo é um bebê da espécie de Yoda) é a virada do fim do episódio 1; conferir se cabe como premissa.",
-          "Título: a base usa \"The Mandalorian\", mas o JustWatch Brasil lista a série como \"O Mandaloriano\"; conferir o título atual no Disney+ Brasil.",
-          "Classificação 14 anos confirmada no AdoroCinema (2020) e no JustWatch Brasil; conferir no ClassInd.",
-          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:P10 (o alvo é um bebê da espécie de Yoda) é a virada do fim do episódio 1; conferir se cabe como premissa.",
-        "ambiguity:Título: a base usa \"The Mandalorian\", mas o JustWatch Brasil lista a série como \"O Mandaloriano\"; conferir o título atual no Disney+ Brasil.",
-        "ambiguity:Classificação 14 anos confirmada no AdoroCinema (2020) e no JustWatch Brasil; conferir no ClassInd.",
-        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-era-uma-vez-em-hollywood": {
       "id": "cs1-filme-era-uma-vez-em-hollywood",
@@ -19229,7 +19089,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -19801,31 +19661,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Título: a base usa 'Era Uma Vez em... Hollywood'; o AdoroCinema grafa 'Era uma Vez em... Hollywood' (conferir maiúscula oficial).",
-          "Escolha de protagonista: Rick Dalton como resposta; Cliff Booth e Sharon Tate listados como coprotagonistas.",
-          "Títulos BR dos distratores (O Irlandês, Ford vs Ferrari, La La Land: Cantando Estações) não conferidos um a um."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Título: a base usa 'Era Uma Vez em... Hollywood'; o AdoroCinema grafa 'Era uma Vez em... Hollywood' (conferir maiúscula oficial).",
-        "ambiguity:Escolha de protagonista: Rick Dalton como resposta; Cliff Booth e Sharon Tate listados como coprotagonistas.",
-        "ambiguity:Títulos BR dos distratores (O Irlandês, Ford vs Ferrari, La La Land: Cantando Estações) não conferidos um a um."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-better-call-saul": {
       "id": "cs1-serie-better-call-saul",
@@ -20034,7 +19883,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -20663,33 +20512,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "C2 usa \"Protagonista\" com Jimmy McGill; a série também acompanha de perto Mike Ehrmantraut (Jonathan Banks) — por isso Mike não foi usado como distrator; conferir se não seria melhor \"Um dos protagonistas\".",
-          "Classificação: o JustWatch Brasil indica 18 anos; não achei confirmação no ClassInd. Conferir classificação indicativa.",
-          "P14 diz que um criador \"escreveu o episódio que apresentou o personagem\" (fonte: Wikipédia); conferir.",
-          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:C2 usa \"Protagonista\" com Jimmy McGill; a série também acompanha de perto Mike Ehrmantraut (Jonathan Banks) — por isso Mike não foi usado como distrator; conferir se não seria melhor \"Um dos protagonistas\".",
-        "ambiguity:Classificação: o JustWatch Brasil indica 18 anos; não achei confirmação no ClassInd. Conferir classificação indicativa.",
-        "ambiguity:P14 diz que um criador \"escreveu o episódio que apresentou o personagem\" (fonte: Wikipédia); conferir.",
-        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-pantera-negra": {
       "id": "cs1-filme-pantera-negra",
@@ -20888,7 +20724,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -21453,31 +21289,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Conferir classificação indicativa: AdoroCinema e Filmow dizem 14 anos; outra fonte (Auditório Ibirapuera) diz 12 anos.",
-          "Títulos BR dos distratores (Thor: Ragnarok, Aquaman, Mulher-Maravilha) não conferidos um a um.",
-          "IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Conferir classificação indicativa: AdoroCinema e Filmow dizem 14 anos; outra fonte (Auditório Ibirapuera) diz 12 anos.",
-        "ambiguity:Títulos BR dos distratores (Thor: Ragnarok, Aquaman, Mulher-Maravilha) não conferidos um a um.",
-        "ambiguity:IMDb não pôde ser aberto diretamente (bloqueio de robôs); fatos conferidos na Wikipédia EN e no AdoroCinema."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-sherlock": {
       "id": "cs1-serie-sherlock",
@@ -21686,7 +21511,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -22282,33 +22107,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "C2 em \"Um dos protagonistas\" com Sherlock Holmes como resposta e John Watson em coProtagonists; conferir se não seria melhor \"Protagonista\" (personagem-título).",
-          "Classificação 14 anos vem do JustWatch Brasil; conferir classificação indicativa no ClassInd.",
-          "Distratores de C3 (Russell T Davies, Neil Cross, Chris Chibnall) não foram checados nesta tarefa como criadores de 'Doctor Who' (2005), 'Luther' e 'Broadchurch'; conferir.",
-          "A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:C2 em \"Um dos protagonistas\" com Sherlock Holmes como resposta e John Watson em coProtagonists; conferir se não seria melhor \"Protagonista\" (personagem-título).",
-        "ambiguity:Classificação 14 anos vem do JustWatch Brasil; conferir classificação indicativa no ClassInd.",
-        "ambiguity:Distratores de C3 (Russell T Davies, Neil Cross, Chris Chibnall) não foram checados nesta tarefa como criadores de 'Doctor Who' (2005), 'Luther' e 'Broadchurch'; conferir.",
-        "ambiguity:A página do IMDb não abriu nesta tarefa (bloqueio); ano, título e elenco foram conferidos pela API de busca do IMDb, e a criação pela Wikipédia."
-      ]
+      "pendingIssues": []
     },
     "cs1-filme-top-gun-maverick": {
       "id": "cs1-filme-top-gun-maverick",
@@ -22512,7 +22324,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -23090,29 +22902,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Títulos BR dos distratores (Avatar: O Caminho da Água, Trem-Bala, Missão: Impossível – Efeito Fallout) não conferidos um a um.",
-          "Pista P09 (aluno filho do amigo morto) é premissa do primeiro ato, mas conferir se o professor a considera reveladora demais."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Títulos BR dos distratores (Avatar: O Caminho da Água, Trem-Bala, Missão: Impossível – Efeito Fallout) não conferidos um a um.",
-        "ambiguity:Pista P09 (aluno filho do amigo morto) é premissa do primeiro ato, mas conferir se o professor a considera reveladora demais."
-      ]
+      "pendingIssues": []
     },
     "cs1-serie-attack-on-titan": {
       "id": "cs1-serie-attack-on-titan",
@@ -23326,7 +23129,7 @@
         }
       ],
       "deck": {
-        "status": "blocked",
+        "status": "ready",
         "minPlayers": 2,
         "maxPlayers": 12,
         "cards": [
@@ -23944,35 +23747,20 @@
       },
       "review": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "ambiguities": [
-          "Título: a base usa \"Attack on Titan\" (também usado pela Crunchyroll e pela imprensa BR, ex.: Omelete), mas o JustWatch Brasil lista \"Ataque dos Titãs\" e o mangá saiu no Brasil como \"Ataque dos Titãs\" (Panini).",
-          "Criação: escolhi Hajime Isayama (autor do mangá), que a Wikipédia (EN) credita como \"creator\" da série; Tetsurō Araki (diretor das temporadas 1–3) virou distrator. A página do IMDb não abriu nesta tarefa (bloqueio), então o crédito do IMDb não foi conferido.",
-          "Classificação: o JustWatch Brasil indica 18 anos; não confirmei no ClassInd. Conferir classificação indicativa.",
-          "Nome do protagonista: usei \"Eren Yeager\" (Wikipédia); no Brasil também aparece como \"Eren Jaeger\".",
-          "P11 (autor com cerca de 23 anos) é cálculo: nascido em agosto de 1986, publicação iniciada em setembro de 2009."
-        ]
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "ambiguities": []
       },
       "status": {
         "structural": "approved",
-        "factual": "pending",
-        "spoiler": "pending",
-        "editorial": "pending",
-        "editoriallyEligible": false,
-        "playable": false
+        "factual": "approved",
+        "spoiler": "approved",
+        "editorial": "approved",
+        "editoriallyEligible": true,
+        "playable": true
       },
-      "pendingIssues": [
-        "factual:pending",
-        "spoiler:pending",
-        "editorial:pending",
-        "ambiguity:Título: a base usa \"Attack on Titan\" (também usado pela Crunchyroll e pela imprensa BR, ex.: Omelete), mas o JustWatch Brasil lista \"Ataque dos Titãs\" e o mangá saiu no Brasil como \"Ataque dos Titãs\" (Panini).",
-        "ambiguity:Criação: escolhi Hajime Isayama (autor do mangá), que a Wikipédia (EN) credita como \"creator\" da série; Tetsurō Araki (diretor das temporadas 1–3) virou distrator. A página do IMDb não abriu nesta tarefa (bloqueio), então o crédito do IMDb não foi conferido.",
-        "ambiguity:Classificação: o JustWatch Brasil indica 18 anos; não confirmei no ClassInd. Conferir classificação indicativa.",
-        "ambiguity:Nome do protagonista: usei \"Eren Yeager\" (Wikipédia); no Brasil também aparece como \"Eren Jaeger\".",
-        "ambiguity:P11 (autor com cerca de 23 anos) é cálculo: nascido em agosto de 1986, publicação iniciada em setembro de 2009."
-      ]
+      "pendingIssues": []
     }
   }
 };});

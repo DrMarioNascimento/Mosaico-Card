@@ -1,6 +1,6 @@
 # Revisão — Lote 2 (Cinema & Séries)
 
-**Status: aguardando revisão do autor.** As 16 pautas já estão no banco como rascunho: só aparecem com `?rascunho=1` no endereço. Quando aprovar (fatos, spoilers, texto e classificações), elas entram no sorteio normal.
+**Status: liberado pelo autor em 14/10/2026 para entrar no sorteio normal; revisão em jogo.** Os itens "Para conferir" abaixo continuam valendo como lista de checagem: o que precisar mudar volta como correção.
 
 Para cada obra: confira fatos, spoilers e texto. Os itens **Para conferir** são dúvidas que ficaram da pesquisa.
 
