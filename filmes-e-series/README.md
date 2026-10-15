@@ -1,6 +1,6 @@
 # Mosaico Card — Cinema & Séries
 
-Jogo independente dentro do repositório Mosaico-Card (o Novo Testamento continua na raiz, intocado).
+Versão independente dentro do repositório Mosaico-Card. A raiz do domínio apresenta a seleção entre [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) e [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/); os arquivos compartilhados pela entrada Novo Testamento permanecem na raiz do repositório.
 Filmes e séries **a partir de 2001**. Nenhum arquivo desta pasta é compartilhado com o Novo Testamento.
 
 ## O que muda em relação ao Novo Testamento
@@ -23,3 +23,7 @@ Filmes e séries **a partir de 2001**. Nenhum arquivo desta pasta é compartilha
 - `docs/base-final-cinema-series.xlsx` — planilha cruzada com as fontes de audiência.
 
 Criação: Mário César Nascimento e Osana Melo Nascimento.
+
+## Acesso e licença
+
+Em desenvolvimento e testes internos, sem participação externa. A demonstração não constitui lançamento público. As condições e a autoria conjunta estão em [LICENSE.md](../LICENSE.md).
