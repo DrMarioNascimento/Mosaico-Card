@@ -1,5 +1,16 @@
 # Mosaico Card — Mercado de Pistas
 
+## Desenvolvimento e acesso
+
+Os jogos estão em diferentes etapas de desenvolvimento, teste e aperfeiçoamento e ainda não foram lançados ao público. Nesta fase, os testes são realizados internamente, sem participação externa.
+
+Enquanto os jogos estiverem em desenvolvimento, regras, interfaces e funcionalidades poderão mudar. Algumas páginas poderão apresentar demonstrações do projeto, mas isso não significa que os jogos estejam disponíveis para participação do público.
+
+Mário César Nascimento estuda **Game Design e desenvolvimento de jogos**. Estes projetos acompanham esse percurso de formação e experimentação. As autorias e condições de uso de cada projeto estão identificadas em [LICENSE.md](LICENSE.md).
+
+**Development status:** internal testing only; external participation is not open. Demonstration pages do not constitute a public game launch. Rules, interfaces and features may change.
+
+
 ## Estado e manutenção — 10 de outubro de 2026
 
 O catálogo vigente é NT/NAA v2, com fonte editorial em `data/nt-bank.json` e saída gerada em `cases-nt.js`. O número de pautas elegíveis depende da quantidade de jogadores; consulte [o relatório de capacidade](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md). Não edite a saída gerada manualmente.
@@ -11,20 +22,20 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 > O fato cabe na carta; a interpretação, não.
 
-**Jogar:** [drmarionascimento.github.io/Mosaico-Card](https://drmarionascimento.github.io/Mosaico-Card/)
+**Página do projeto (testes internos):** [mosaico-card.dragongames.dev.br](https://mosaico-card.dragongames.dev.br/)
 
 Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-integral`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
 
 ## Dragon Games
 
-O Mosaico Card faz parte do [catálogo Dragon Games](https://drmarionascimento.github.io/Dragon/).
+O Mosaico Card faz parte do [catálogo Dragon Games](https://dragongames.dev.br/).
 A versão disponível neste projeto é bíblica, dedicada ao Novo Testamento (NAA).
 Seu código, banco e publicação continuam neste repositório, com autoria conjunta
 e condições de uso descritas em [LICENSE.md](LICENSE.md).
 
 ## Estado atual
 
-O jogo está publicado e jogável. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
+A implementação está disponível para testes internos; o jogo ainda não foi lançado ao público. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
 
 | | |
 | --- | ---: |
@@ -174,7 +185,7 @@ A suíte cobre sintaxe, identidade, QR/sala, estrutura, fechamento, cronômetros
 
 **Descrição:** Jogo multiplayer de pistas e inferência do MOSAICO, com 350 pautas do Novo Testamento (NAA).
 
-**Website:** https://drmarionascimento.github.io/Mosaico-Card/
+**Website:** https://mosaico-card.dragongames.dev.br/
 
 **Topics:** `mosaico`, `card-game`, `multiplayer`, `firebase`, `firestore`, `javascript`, `mobile-first`, `serious-game`, `educational-game`, `nova-almeida-atualizada`
 
@@ -182,6 +193,6 @@ Criação: **M&O**.
 
 ## Licença e uso
 
-O Mosaico Card é um projeto autoral proprietário. O acesso e a execução da versão publicada são permitidos para uso pessoal, educacional e demonstração não comercial; a publicação do repositório não autoriza copiar, adaptar, redistribuir, republicar ou explorar o projeto. Consulte [LICENSE.md](LICENSE.md).
+O Mosaico Card é um projeto autoral proprietário. A execução nesta fase limita-se aos testes internos autorizados; a publicação do repositório não autoriza copiar, adaptar, redistribuir, republicar ou explorar o projeto. Consulte [LICENSE.md](LICENSE.md).
 
 **Criação:** Mário César Nascimento e Osana Melo Nascimento.
