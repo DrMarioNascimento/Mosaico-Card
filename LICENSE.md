@@ -20,7 +20,7 @@ A visibilidade do repositório serve à demonstração, ao GitHub Pages e à con
 
 ## Uso permitido
 
-É permitido acessar e jogar a versão publicada para fins pessoais, educacionais e de demonstração não comercial.
+O jogo ainda não foi lançado ao público. Os testes são realizados internamente, sem participação externa. A execução para desenvolvimento e avaliação limita-se aos titulares e colaboradores internos expressamente autorizados. A eventual disponibilidade de uma página de demonstração não constitui abertura para participação pública.
 
 As cópias técnicas temporárias indispensáveis à execução no navegador não constituem autorização para redistribuição.
 
@@ -34,7 +34,7 @@ As cópias técnicas temporárias indispensáveis à execução no navegador nã
 - reproduzir, extrair ou tratar o conteúdo protegido para treinamento, ajuste, teste ou avaliação de sistemas de inteligência artificial;
 - apresentar o projeto ou partes dele como criação de outra pessoa ou instituição.
 
-Qualquer uso além do acesso e da execução da versão publicada exige autorização prévia, expressa e escrita dos titulares.
+Qualquer uso além da execução interna expressamente autorizada exige autorização prévia, expressa e escrita dos titulares.
 
 ## Ausência de garantia
 
@@ -57,3 +57,9 @@ Todos os direitos não expressamente concedidos permanecem reservados.
 Esta revisão mantém a autoria conjunta de Mário César Nascimento e Osana Melo Nascimento. A identificação da tradução NAA como fonte editorial não atribui aos titulares do jogo direitos sobre textos e traduções de terceiros.
 
 Esta nota registra a revisão da documentação. Não altera as cláusulas anteriores, os titulares, as permissões, as restrições nem as licenças próprias de terceiros.
+
+## Atualização de acesso e endereço — 14 de outubro de 2026
+
+A seção de uso permitido foi atualizada para refletir os testes internos, sem participação externa. Autoria conjunta, direitos sobre a fonte editorial NAA e condições de terceiros permanecem preservados.
+
+Endereço oficial: https://mosaico-card.dragongames.dev.br/ · Portal: https://dragongames.dev.br/
