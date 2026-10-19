@@ -2,7 +2,7 @@
 
 Copyright © 2026 Mário César Nascimento e Osana Melo Nascimento. Todos os direitos reservados.
 
-Revisão documental: 7 de outubro de 2026. Esta revisão confirma a licença proprietária. O repositório não passa a ser código aberto.
+Revisão documental: 19 de outubro de 2026. Esta revisão confirma a licença proprietária. O repositório não passa a ser código aberto.
 
 ## Titularidade
 
@@ -50,16 +50,14 @@ O projeto é disponibilizado no estado em que se encontra, para uso educacional 
 
 Todos os direitos não expressamente concedidos permanecem reservados.
 
----
-
-## Nota editorial — 10 de outubro de 2026
-
-Esta revisão mantém a autoria conjunta de Mário César Nascimento e Osana Melo Nascimento. A identificação da tradução NAA como fonte editorial não atribui aos titulares do jogo direitos sobre textos e traduções de terceiros.
-
-Esta nota registra a revisão da documentação. Não altera as cláusulas anteriores, os titulares, as permissões, as restrições nem as licenças próprias de terceiros.
-
 ## Atualização de acesso e endereço — 14 de outubro de 2026
 
 A seção de uso permitido foi atualizada para refletir os testes internos, sem participação externa. Autoria conjunta, direitos sobre a fonte editorial NAA e condições de terceiros permanecem preservados.
 
 Endereço oficial: https://mosaico-card.dragongames.dev.br/ · Portal: https://dragongames.dev.br/
+
+## Revisão documental — 19 de outubro de 2026
+
+As linhas Novo Testamento e Filmes e Séries integram este repositório. As condições proprietárias dos componentes originais permanecem aplicáveis às duas linhas; obras, traduções bíblicas, filmes, séries e componentes de terceiros mantêm seus direitos próprios.
+
+Esta revisão atualiza a identificação e o escopo documental. Preserva os titulares, as permissões e as restrições existentes. Não substitui nem restringe as licenças próprias de componentes de terceiros.

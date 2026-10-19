@@ -1,5 +1,11 @@
 # Mosaico Card — Cinema & Séries
 
+## Manutenção e origem — 19 de outubro de 2026
+
+Esta é a linha Filmes e Séries do Mosaico Card, com documentação e regras próprias. A outra linha é Novo Testamento. A entrada principal apenas permite escolher a experiência; os jogos continuam em desenvolvimento e testes internos, conforme a licença da raiz.
+
+Consulte o [README principal](../README.md) e a [licença da raiz](../LICENSE.md). Créditos e licenças específicos deste módulo permanecem nos documentos abaixo.
+
 Versão independente dentro do repositório Mosaico-Card. A raiz do domínio apresenta a seleção entre [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) e [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/); os arquivos compartilhados pela entrada Novo Testamento permanecem na raiz do repositório.
 Filmes e séries **a partir de 2001**. Nenhum arquivo desta pasta é compartilhado com o Novo Testamento.
 

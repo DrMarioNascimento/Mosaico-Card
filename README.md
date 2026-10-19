@@ -1,5 +1,9 @@
 # Mosaico Card — Mercado de Pistas
 
+## Situação atual — 19 de outubro de 2026
+
+A entrada oferece [Novo Testamento](novo-testamento/) e [Filmes e Séries](filmes-e-series/). O banco NT é mantido em `data/nt-bank.json` e gerado em `cases-nt.js`; consulte os relatórios de capacidade para a elegibilidade por número de jogadores. As duas linhas têm regras e documentação próprias. O acesso continua em desenvolvimento e testes internos.
+
 ## Desenvolvimento e acesso
 
 Os jogos estão em diferentes etapas de desenvolvimento, teste e aperfeiçoamento e ainda não foram lançados ao público. Nesta fase, os testes são realizados internamente, sem participação externa.
@@ -11,7 +15,7 @@ Mário César Nascimento estuda **Game Design e desenvolvimento de jogos**. Este
 **Development status:** internal testing only; external participation is not open. Demonstration pages do not constitute a public game launch. Rules, interfaces and features may change.
 
 
-## Estado e manutenção — 10 de outubro de 2026
+## Registro anterior de manutenção — 10 de outubro de 2026
 
 O catálogo vigente é NT/NAA v2, com fonte editorial em `data/nt-bank.json` e saída gerada em `cases-nt.js`. O número de pautas elegíveis depende da quantidade de jogadores; consulte [o relatório de capacidade](docs/RELATORIO-PARCIAL-CAPACIDADE-NT.md). Não edite a saída gerada manualmente.
 
