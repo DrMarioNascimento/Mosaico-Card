@@ -61,3 +61,13 @@ Endereço oficial: https://mosaico-card.dragongames.dev.br/ · Portal: https://d
 As linhas Novo Testamento e Filmes e Séries integram este repositório. As condições proprietárias dos componentes originais permanecem aplicáveis às duas linhas; obras, traduções bíblicas, filmes, séries e componentes de terceiros mantêm seus direitos próprios.
 
 Esta revisão atualiza a identificação e o escopo documental. Preserva os titulares, as permissões e as restrições existentes. Não substitui nem restringe as licenças próprias de componentes de terceiros.
+
+## Escopo e disponibilidade — 24 de outubro de 2026
+
+As versões Novo Testamento e Filmes e Séries permanecem em testes fechados, com condução autorizada e participantes convidados por código. Mantidas a autoria conjunta de Mário César Nascimento e Osana Melo Nascimento e todas as condições e os créditos existentes.
+
+Esta revisão documenta o escopo e a disponibilidade atuais; preserva os titulares, as permissões e as restrições existentes, inclusive os direitos e licenças próprios de terceiros. Acesso público não equivale a licença de código aberto.
+
+Inventário de acessos: https://www.drmarionascimento.com.br/#acesso-publico
+
+**English — scope and availability, October 24, 2026:** Both versions remain in closed testing with authorized hosts and invited participants. Joint authorship and all existing terms and credits remain unchanged. Existing ownership, grants, restrictions and third-party terms are preserved; public access does not mean open source.

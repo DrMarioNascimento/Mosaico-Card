@@ -1,6 +1,14 @@
 # Mosaico Card — Mercado de Pistas
 
-## Situação atual — 19 de outubro de 2026
+## Disponibilidade e novidades — 24 de outubro de 2026
+
+**Testes fechados com condução autorizada**. As versões [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) e [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/) exigem Google e inclusão na lista de mestres para criar uma sala. Participantes convidados entram por código. A página de escolha das versões pode ser visitada, mas não representa abertura geral dos testes.
+
+O endereço vigente de cinema e séries é `filmes-e-series/`; o catálogo do autor foi corrigido. A autoria conjunta de **Mário César Nascimento e Osana Melo Nascimento** permanece preservada.
+
+[Ver todos os recursos públicos](https://www.drmarionascimento.com.br/#acesso-publico). O acesso respeita [LICENSE.md](LICENSE.md).
+
+## Contexto técnico — registro de 19 de outubro de 2026
 
 A entrada oferece [Novo Testamento](novo-testamento/) e [Filmes e Séries](filmes-e-series/). O banco NT é mantido em `data/nt-bank.json` e gerado em `cases-nt.js`; consulte os relatórios de capacidade para a elegibilidade por número de jogadores. As duas linhas têm regras e documentação próprias. O acesso continua em desenvolvimento e testes internos.
 
