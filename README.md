@@ -212,6 +212,6 @@ Criação: **M&O**.
 
 ## Licença e uso
 
-O Mosaico Card é um projeto autoral proprietário. A execução nesta fase limita-se aos testes internos autorizados; a publicação do repositório não autoriza copiar, adaptar, redistribuir, republicar ou explorar o projeto. Consulte [LICENSE.md](LICENSE.md).
+O Mosaico Card é um projeto autoral proprietário. Nesta fase, qualquer pessoa pode jogar pelo endereço oficial (testes abertos); a publicação do repositório não autoriza copiar, adaptar, redistribuir, republicar ou explorar o projeto. Consulte [LICENSE.md](LICENSE.md).
 
 **Criação:** Mário César Nascimento e Osana Melo Nascimento.

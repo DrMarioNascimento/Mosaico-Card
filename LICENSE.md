@@ -20,7 +20,7 @@ A visibilidade do repositório serve à demonstração, ao GitHub Pages e à con
 
 ## Uso permitido
 
-O jogo ainda não foi lançado ao público. Os testes são realizados internamente, sem participação externa. A execução para desenvolvimento e avaliação limita-se aos titulares e colaboradores internos expressamente autorizados. A eventual disponibilidade de uma página de demonstração não constitui abertura para participação pública.
+O jogo está em testes abertos. Qualquer pessoa pode jogar gratuitamente, para fins pessoais, educacionais ou de lazer, pelo endereço oficial (https://mosaico-card.dragongames.dev.br/), abrindo uma sala com a própria conta Google ou entrando pelo código de uma sala. Esse uso não inclui cobrar pela partida, nem incorporar o jogo em outro site, aplicativo ou produto. O jogo segue em desenvolvimento: regras, conteúdos e interfaces podem mudar, e a disponibilidade pode ser interrompida a qualquer momento.
 
 As cópias técnicas temporárias indispensáveis à execução no navegador não constituem autorização para redistribuição.
 
@@ -34,7 +34,7 @@ As cópias técnicas temporárias indispensáveis à execução no navegador nã
 - reproduzir, extrair ou tratar o conteúdo protegido para treinamento, ajuste, teste ou avaliação de sistemas de inteligência artificial;
 - apresentar o projeto ou partes dele como criação de outra pessoa ou instituição.
 
-Qualquer uso além da execução interna expressamente autorizada exige autorização prévia, expressa e escrita dos titulares.
+Qualquer uso além de jogar pelo endereço oficial, como descrito em "Uso permitido", exige autorização prévia, expressa e escrita dos titulares.
 
 ## Ausência de garantia
 
@@ -71,3 +71,9 @@ Esta revisão documenta o escopo e a disponibilidade atuais; preserva os titular
 Inventário de acessos: https://www.drmarionascimento.com.br/#acesso-publico
 
 **English — scope and availability, October 24, 2026:** Both versions remain in closed testing with authorized hosts and invited participants. Joint authorship and all existing terms and credits remain unchanged. Existing ownership, grants, restrictions and third-party terms are preserved; public access does not mean open source.
+
+## Abertura dos testes — 27 de outubro de 2026
+
+As versões Filmes e Séries e Novo Testamento passam a testes abertos: qualquer pessoa pode jogar pelo endereço oficial, nas condições da seção "Uso permitido". A abertura amplia apenas o direito de jogar; não concede direito de copiar, adaptar, redistribuir, extrair ou explorar comercialmente o projeto. Mantidas a autoria conjunta de Mário César Nascimento e Osana Melo Nascimento, as demais restrições e os direitos e licenças próprios de terceiros. As seções anteriores registram o histórico e prevalecem no que não contrariarem esta.
+
+**English — open testing, October 27, 2026:** Both versions are now in open testing: anyone may play for free, for personal, educational or leisure purposes, at the official address. This only extends the right to play; it grants no right to copy, adapt, redistribute, extract or commercially exploit the project. Joint authorship, all other restrictions and third-party terms remain unchanged.
