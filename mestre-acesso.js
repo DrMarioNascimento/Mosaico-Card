@@ -1,4 +1,4 @@
-/* Mosaico Card · abrir sala só para mestres autorizados (16/10/2026).
+/* Mosaico Card · abrir sala com qualquer conta Google (aberto em 27/10/2026; antes, só mestres autorizados).
    Qualquer pessoa continua ENTRANDO numa sala pelo código ou QR, como convidado anônimo.
    CRIAR uma sala passa a exigir uma conta Google que esteja na lista de mestres do projeto
    (Firestore: config/mestres, campo "emails"). O Google é ligado à sessão anônima atual
@@ -22,10 +22,9 @@
   function fechar() { var g = document.getElementById('mcMestre'); if (g) g.remove(); }
   function erro(t) { var e = document.getElementById('mcMestreErro'); if (e) e.textContent = t || ''; }
   async function naLista(user) {
-    if (!user || user.isAnonymous || !user.email) return false;
-    var s = await fb().db.collection('config').doc('mestres').get();
-    var lista = s.exists && Array.isArray(s.data().emails) ? s.data().emails.map(function (e) { return String(e).toLowerCase(); }) : [];
-    return lista.indexOf(user.email.toLowerCase()) >= 0;
+    /* 27/10/2026: aberto ao público. Qualquer conta Google verificada abre sala;
+       a antiga lista config/mestres deixou de ser exigida. */
+    return !!(user && !user.isAnonymous && user.email && user.emailVerified !== false);
   }
   function avisarUid(user) {
     window.MC_FB.uid = user.uid;
@@ -62,7 +61,7 @@
     css(); fechar();
     var g = document.createElement('div'); g.id = 'mcMestre';
     g.innerHTML = '<div class="cx"><small>Mosaico Card · área do mestre</small><h2>Abrir uma sala</h2>'
-      + '<p>Só mestres autorizados abrem salas. Quem vai jogar entra pelo código ou QR da sala, sem precisar de conta.</p>'
+      + '<p>Quem conduz a partida entra com uma conta Google. Quem vai jogar entra pelo código ou QR da sala, sem precisar de conta.</p>'
       + '<button type="button" id="mcMestreBtn">Entrar com Google</button><button type="button" class="sec" id="mcMestreVoltar">Voltar</button><div class="erro" id="mcMestreErro"></div></div>';
     document.body.appendChild(g);
     document.getElementById('mcMestreBtn').onclick = function () { entrarGoogle(continuar); };

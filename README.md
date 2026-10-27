@@ -1,8 +1,8 @@
 # Mosaico Card — Mercado de Pistas
 
-## Disponibilidade e novidades — 24 de outubro de 2026
+## Disponibilidade e novidades — 27 de outubro de 2026
 
-**Testes fechados com condução autorizada**. As versões [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) e [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/) exigem Google e inclusão na lista de mestres para criar uma sala. Participantes convidados entram por código. A página de escolha das versões pode ser visitada, mas não representa abertura geral dos testes.
+**Testes abertos ao público (27/10/2026).** As versões [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/) e [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) podem ser abertas por qualquer pessoa com uma conta Google, que conduz a partida; os participantes entram pelo código ou QR, sem conta. A escolha de ajuda (Livre, Assistida, Guiada) continua disponível. O jogo segue em teste: regras e interfaces ainda podem mudar.
 
 O endereço vigente de cinema e séries é `filmes-e-series/`; o catálogo do autor foi corrigido. A autoria conjunta de **Mário César Nascimento e Osana Melo Nascimento** permanece preservada.
 
@@ -14,13 +14,13 @@ A entrada oferece [Novo Testamento](novo-testamento/) e [Filmes e Séries](filme
 
 ## Desenvolvimento e acesso
 
-Os jogos estão em diferentes etapas de desenvolvimento, teste e aperfeiçoamento e ainda não foram lançados ao público. Nesta fase, os testes são realizados internamente, sem participação externa.
+Os jogos estão em diferentes etapas de desenvolvimento, teste e aperfeiçoamento. Desde 27/10/2026 o Mosaico Card está em testes abertos: qualquer grupo pode jogar, com uma pessoa conduzindo pela conta Google.
 
 Enquanto os jogos estiverem em desenvolvimento, regras, interfaces e funcionalidades poderão mudar. Algumas páginas poderão apresentar demonstrações do projeto, mas isso não significa que os jogos estejam disponíveis para participação do público.
 
 Mário César Nascimento estuda **Game Design e desenvolvimento de jogos**. Estes projetos acompanham esse percurso de formação e experimentação. As autorias e condições de uso de cada projeto estão identificadas em [LICENSE.md](LICENSE.md).
 
-**Development status:** internal testing only; external participation is not open. Demonstration pages do not constitute a public game launch. Rules, interfaces and features may change.
+**Development status:** open testing since 27 Oct 2026; anyone with a Google account can host a room. Demonstration pages do not constitute a public game launch. Rules, interfaces and features may change.
 
 
 ## Registro anterior de manutenção — 10 de outubro de 2026
@@ -34,7 +34,7 @@ Jogo digital multiplayer de fragmentos, pistas, economia e inferência. O MOSAIC
 
 > O fato cabe na carta; a interpretação, não.
 
-**Página do projeto (testes internos):** [mosaico-card.dragongames.dev.br](https://mosaico-card.dragongames.dev.br/)
+**Página do projeto (testes abertos):** [mosaico-card.dragongames.dev.br](https://mosaico-card.dragongames.dev.br/)
 
 Catálogo vigente: **NT/NAA v2**, checkpoint `checkpoint-107-marcos-14-16-8-integral`. Fonte: Nova Almeida Atualizada. Âmbito: Novo Testamento (27 livros).
 
@@ -54,7 +54,7 @@ e condições de uso descritas em [LICENSE.md](LICENSE.md).
 
 ## Estado atual — versão Novo Testamento
 
-A implementação está disponível para testes internos; o jogo ainda não foi lançado ao público. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
+A implementação está em testes abertos desde 27/10/2026. `cases-nt.js` é a saída reproduzível de `data/nt-bank.json`. Toda pauta do saco tem quatro campos, duas pistas por jogador no início e ao menos uma carta no poço.
 
 | | |
 | --- | ---: |

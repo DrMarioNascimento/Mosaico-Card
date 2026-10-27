@@ -32,4 +32,4 @@ Criação: Mário César Nascimento e Osana Melo Nascimento.
 
 ## Acesso e licença
 
-Em desenvolvimento e testes internos, sem participação externa. A demonstração não constitui lançamento público. As condições e a autoria conjunta estão em [LICENSE.md](../LICENSE.md).
+Em testes abertos desde 27/10/2026: qualquer pessoa com conta Google abre sala e conduz; os participantes entram pelo código, sem conta. As condições e a autoria conjunta estão em [LICENSE.md](../LICENSE.md).
