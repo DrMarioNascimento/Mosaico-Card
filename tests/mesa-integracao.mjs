@@ -75,6 +75,16 @@ for(const edicao of ['cinema','nt']){
  assert.equal(nova.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,saldoDepois);
  const intruso=await abrir(server,edicao,'outra-identidade');click(intruso,'#btn-recuperar');fill(intruso,'#recuperar-token',token);click(intruso,'#recuperar-enviar');await ate(()=>intruso.w.document.querySelector('#recuperar-erro').textContent);await flush();assert.match(intruso.w.document.querySelector('#recuperar-erro').textContent,/inválido|usado/);
  assert.equal(player.w.MC_MESA.suaVez(),false);
+ // Encerramento preserva a partida, respeita cancelamento e exige a aba ativa do mestre.
+ await assert.rejects(nova.w.MC_MESA.encerrarSala(),/aba ativa do mestre/);
+ const mestreDuplicado=await abrir(server,edicao,'mestre',{storage:master.save().storage,google:true});
+ await assert.rejects(mestreDuplicado.w.MC_MESA.encerrarSala(),/aba ativa do mestre/);mestreDuplicado.close();
+ master.w.confirm=()=>false;click(master,'#btn-encerrar-sala');await flush();assert.equal(master.w.MC_SALA.codigo,codigo);
+ master.w.confirm=()=>true;const historico=clone(master.w.MC_GAME_ENGINE.state.maosPorJogador);
+ click(master,'#btn-encerrar-sala');await flush();
+ const encerrada=server.docs.get((edicao==='cinema'?'salas-cinema':'salas')+'/'+codigo);
+ assert.equal(encerrada.ativa,false);assert.equal(encerrada.snap.fase,'encerrada');assert.deepEqual(encerrada.snap.maosPorJogador,historico);
+ assert.equal(master.w.MC_SALA.codigo,null);assert.equal(nova.w.MC_SALA.codigo,null);
  nova.close();intruso.close();
  assert.deepEqual(master.erros,[]);assert.deepEqual(player.erros,[]);
  master.close();player.close();console.log('ok integração DOM, sala, treino, refresh, duas abas e relógio — '+edicao);

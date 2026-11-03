@@ -1,0 +1,9 @@
+# Publicação e verificação da mesa v3 — 03/11/2026
+
+A publicação foi autorizada explicitamente pelo responsável. Primeiro, `firestore.rules` foi publicada no projeto `mosaico-card`; depois de recarregar o console, o conteúdo ativo de 107 linhas foi conferido integralmente com o arquivo validado. Em seguida, o PR #50 foi integrado (`b247c62c1da43ce80acff9c87dcd81021385a5c7`). A validação do projeto e a publicação no GitHub Pages concluíram com sucesso.
+
+No site de Filmes e Séries, foi criada uma sala nova de verificação no formato Maratonar e iniciada a demonstração pelo mestre. A compra consumiu 4 ingressos; recarregar restaurou a mesma sala, as três pistas e o saldo de 8, mantendo o papel de mestre. A segunda rodada apresentou a carta especial prevista. A captura [jogo publicado](qa/jogo-publicado-2026-11-03.jpg) registra a interface real. O teste em produção teve um mestre real e participantes automáticos identificados; a verificação com quatro clientes independentes foi feita no emulador oficial, como descrito em `mesa-v3.md`.
+
+A revisão do encerramento identificou que o caminho legado mudava apenas a fase externa da sala, divergindo da fase do snapshot exigida pelas novas regras. O encerramento v3 agora atualiza ambas em uma transação, exige a aba ativa do mestre e conserva cartas, saldo e classificação. A regressão cobre cancelamento, participante sem autorização, aba duplicada e propagação do encerramento; o teste com as regras reais verifica que o documento e seu histórico são preservados. As regras de produção não precisam ser alteradas novamente.
+
+O encerramento da sala usada na conferência de produção foi bloqueado pela revisão automática por exigir autorização específica; essa ação não foi executada. Os testes de encerramento foram realizados somente em ambiente local/emulado.

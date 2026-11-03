@@ -469,7 +469,11 @@
   async function encerrarSala() {
     if (!souMestre() || !sala.codigo) return;
     if (!window.confirm("Encerrar esta sala para todos os participantes?")) return;
-    try { await refSala(sala.codigo).update({ ativa: false, fase: "encerrada" }); resetarSala(); }
+    try {
+      if (sala.ultimoDoc?.autoridade === "mestre") await window.MC_MESA.encerrarSala();
+      else await refSala(sala.codigo).update({ ativa: false, fase: "encerrada" });
+      resetarSala();
+    }
     catch (e) { setStatus("#sala-status", "Não foi possível encerrar a sala. " + (e.code || e.message || "")); }
   }
   function ligarTelao(cod) {
