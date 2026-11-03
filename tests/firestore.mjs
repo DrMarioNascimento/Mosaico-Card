@@ -117,6 +117,16 @@ try {
   click(m,'#btn-encerrar-fase');await ate(()=>recuperado.w.MC_GAME_ENGINE.state.fase==='judge');
   assert.equal(recuperado.w.MC_GAME_ENGINE.state.ranking.length,4);
   assert.equal(recuperado.w.MC_GAME_ENGINE.state.saldosPorJogador.jogador1,12,'Fechamento não cobra ingressos');
+  // Encerrar mantém o histórico e alinha a fase da sala e do snapshot na mesma transação.
+  const antesEncerrar=(await master.doc(col+'/'+codigo).get()).data();
+  click(m,'#btn-encerrar-sala');
+  await ate(()=>!m.w.MC_SALA.codigo || m.w.document.querySelector('#sala-status').textContent.startsWith('Não foi possível'));
+  assert.equal(m.w.MC_SALA.codigo,null,m.w.document.querySelector('#sala-status').textContent);
+  const encerrada=(await master.doc(col+'/'+codigo).get()).data();
+  assert.equal(encerrada.ativa,false);assert.equal(encerrada.fase,'encerrada');assert.equal(encerrada.snap.fase,'encerrada');
+  assert.equal(encerrada.snap.partidaId,partida);assert.deepEqual(encerrada.snap.ranking,antesEncerrar.snap.ranking);
+  assert.deepEqual(encerrada.snap.maosPorJogador,antesEncerrar.snap.maosPorJogador);
+  await ate(()=>!recuperado.w.MC_SALA.codigo);
   for(const app of apps.splice(0))app.close();
   console.log('ok Firestore + DOM: 4 clientes, fim do treino pelo jogador, nova partida, refresh e recuperação — '+edicao);
  }

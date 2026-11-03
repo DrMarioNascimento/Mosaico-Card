@@ -526,7 +526,20 @@
       S.resetar();
     } catch (e) { falha(e); }
   }
-  window.MC_MESA = { entrar, aguardaMestre, sair, conectar, esquecer, observarSala, suaVez, acao, confirmarRisco, controle, respostaFinal,
+  async function encerrarSala() {
+    if (!S.souMestre() || !ligado) throw new Error("Use a aba ativa do mestre para encerrar a sala.");
+    const ref = S.ref(S.codigo);
+    await window.MC_FB.db.runTransaction(async tx => {
+      const doc = await tx.get(ref);
+      if (!doc.exists) throw new Error("Sala não encontrada.");
+      const d = doc.data();
+      if (d.mestre !== S.uid || ((d.presencas || {})[d.mestre] || {}).aba !== aba) throw new Error("Use a aba ativa do mestre para encerrar a sala.");
+      d.ativa = false; d.fase = "encerrada";
+      if (d.snap) { d.snap.fase = "encerrada"; d.snap.revisao += 1; }
+      tx.set(ref, d);
+    });
+  }
+  window.MC_MESA = { entrar, aguardaMestre, sair, encerrarSala, conectar, esquecer, observarSala, suaVez, acao, confirmarRisco, controle, respostaFinal,
     publicarInicio, iniciarTreinoLocal, receber, tick, pintar, pintarSala };
   document.addEventListener("DOMContentLoaded", () => {
     window.MC_GAME.controleMestre = acao => E().controleMestre(acao);
