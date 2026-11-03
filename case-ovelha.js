@@ -5,7 +5,7 @@ window.MC_CASOS = {
     modo: "demonstracao",
     titulo: "A ovelha perdida",
     fonte: "Lucas 15,4–7",
-    lede: "Demonstração da carta especial e de sua animação.",
+    lede: "Duas rodadas para conhecer pistas, escolhas e custos.",
     pecas: {
       F1: { id: "F1", marca: "Curral", texto: "Havia cem ovelhas. Faltava uma." },
       F2: { id: "F2", marca: "Campo", texto: "As noventa e nove ficaram no descampado." },

@@ -6,11 +6,16 @@
     "generate:bank": "node tools/generate-nt-bank.mjs",
     "validate:bank": "node tools/validate-nt-bank.mjs",
     "audit:clues": "node tools/audit-nt-clues.mjs",
-    "check": "node --check game-core.js && node --check case-ovelha.js && node --check cases-nt.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js && node --check tools/generate-nt-bank.mjs && node --check tools/validate-nt-bank.mjs && node --check tools/audit-nt-clues.mjs && node --check tools/report-nt-capacity.mjs && node --check mesa-core.js && node --check mesa-runtime.js",
+    "check": "node --check game-core.js && node --check case-ovelha.js && node --check cases-nt.js && node --check bank-runtime.js && node --check game.js && node --check game-sala.js && node --check sala.js && node --check firebase.js && node --check tools/generate-nt-bank.mjs && node --check tools/validate-nt-bank.mjs && node --check tools/audit-nt-clues.mjs && node --check tools/report-nt-capacity.mjs && node --check mesa-core.js && node --check mesa-runtime.js && node --check tools/qa-preview.mjs && node --check vite.config.mjs",
     "test": "npm run check && node tests/identidade.mjs && node tests/qr-sala.mjs && node tests/estrutura.mjs && node tests/regras.mjs && node tests/banco.mjs && node tests/sorteio.mjs && node tests/escolha.mjs && npm --prefix filmes-e-series test && node tests/mesa.mjs && node tests/mesa-integracao.mjs",
-    "report:capacity": "node tools/report-nt-capacity.mjs"
+    "report:capacity": "node tools/report-nt-capacity.mjs",
+    "dev": "vite",
+    "test:firebase": "npx -y firebase-tools@latest emulators:exec --only firestore --project demo-mosaico-qa \"node tests/firestore.mjs\""
   },
   "devDependencies": {
-    "jsdom": "^30.1.3"
+    "@firebase/rules-unit-testing": "^6.0.0",
+    "firebase": "^13.2.0",
+    "jsdom": "^30.1.3",
+    "vite": "^8.3.5"
   }
 }

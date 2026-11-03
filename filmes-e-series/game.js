@@ -285,7 +285,7 @@
     const deadline = state.fase === "fechamento" ? state.fechamentoTerminaEm : state.turnoTerminaEm;
     const pausa = state.fase === "fechamento" ? state.pausaRestanteFechamento : state.pausaRestanteTurno;
     const restante = state.pausado ? pausa / 1000 : tempoRestante(deadline);
-    if ($("#tempo")) $("#tempo").textContent = state.pausado ? "pausa" : formatarTempo(restante);
+    if ($("#tempo")) $("#tempo").textContent = (window.MC_MESA && window.MC_MESA.aguardaMestre()) ? "pausa" : state.treino ? "treino" : state.pausado ? "pausa" : formatarTempo(restante);
     if ($("#fechamento-tempo")) $("#fechamento-tempo").textContent = formatarTempo(tempoRestante(state.fechamentoTerminaEm));
     const cell = $("#cell-tempo");
     if (cell) {
@@ -549,6 +549,10 @@
     if (!suaVez()) return say("Aguarde a sua vez.");
     state.verbo = state.verbo === verbo ? null : verbo;
     render();
+    if (state.verbo) {
+      const alvo = state.verbo === "comprar" ? $("#monte-box") : $("#painel");
+      if (alvo && alvo.scrollIntoView) alvo.scrollIntoView({ block: "start", behavior: "auto" });
+    }
   }
 
   function iniciarFechamento() {

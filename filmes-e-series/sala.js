@@ -329,7 +329,10 @@
           const snap = await tx.get(ref);
           if (snap.exists) throw new Error("codigo-em-uso");
           tx.set(ref, {
-            schemaVersion: 2,
+            schemaVersion: 3,
+            autoridade: "mestre",
+            vinculos: { [sala.uid]: sala.uid },
+            presencas: {},
             codigo: cod,
             mestre: sala.uid,
             fase: "lobby",
@@ -391,7 +394,15 @@
         const cod = (($("#cod") && $("#cod").value) || "").trim().toUpperCase();
         if (!cod) { setStatus("#entrar-status", "Digite o código da mesa."); return; }
         const ref = refSala(cod);
-        await window.MC_FB.db.runTransaction(async function (tx) {
+        const atual = await ref.get();
+        if (atual.exists && atual.data().autoridade === "mestre") {
+          setStatus("#entrar-status", "Entrando na sala… mantenha a tela do mestre aberta.");
+          const data = await window.MC_MESA.entrar(cod, nome, sala.forma);
+          sala.mestre = data.mestre;
+          sala.ultimoDoc = data;
+          sala.config = Object.assign({}, CONFIG_PADRAO, data.config || {});
+          sala.playerId = window.MC_MESA_CORE.participante(data, sala.uid).id;
+        } else await window.MC_FB.db.runTransaction(async function (tx) {
           const snap = await tx.get(ref);
           if (!snap.exists) throw new Error("Sala não encontrada.");
           const data = snap.data();
@@ -427,7 +438,7 @@
       return;
     }
     try {
-      await atualizarJogador(function (j) { j.pronto = true; return j; });
+      if (souMestre() || !sala.ultimoDoc || sala.ultimoDoc.autoridade !== "mestre") await atualizarJogador(function (j) { j.pronto = true; return j; });
       if (window.MC_MESA) await window.MC_MESA.conectar();
       if (sala.fase === "lobby") show("lobby");
     } catch (e) {
@@ -510,7 +521,7 @@
     sala.comoMestre = false;
     sala.online = false;
     sala.codigoConvite = "DEMO";
-    show("welcome");
+    sala.continuarConvite();
     window.scrollTo(0, 0);
   };
   sala.continuarConvite = function () {

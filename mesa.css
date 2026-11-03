@@ -55,3 +55,29 @@ dialog button { min-height: 44px; }
   #painel { margin-bottom: 16px; }
 }
 @media(prefers-reduced-motion:reduce) { #verbos button { transition: none; } }
+@media(min-width:601px) {
+  .treino-dica { display: grid; grid-template-columns: 1fr auto; gap: 6px 18px; align-items: center; }
+  .treino-dica > b { grid-column: 1 / -1; }
+  .treino-dica p { margin: 0; }
+  .treino-dica button { grid-column: 2; grid-row: 2; }
+}
+#deal #mesa-question[hidden], #deal #mesa-sessao[hidden] { display: none !important; }
+#deal .mobile-topbar { position: sticky; top: 0; z-index: 45; }
+#deal #painel, #deal #monte-box { scroll-margin-top: 82px; }
+#lobby-modalidade-texto { font-size: 14px; line-height: 1.5; }
+#deal #cell-tempo.minha-vez:not(.urgente) { border-color: #e8bc6e; }
+#deal #cell-tempo.minha-vez:not(.urgente) strong,
+#deal #cell-tempo.minha-vez:not(.urgente) .vez-inline b { color: #f6d58c; }
+@media(max-width:600px) {
+  #deal .control-dock .status-grid { grid-template-columns: minmax(112px,.8fr) minmax(0,1.2fr); }
+  #deal .control-dock #cell-tempo { display: grid; grid-template-columns: 56px minmax(0,1fr); gap: 8px; align-items: start; height: auto; min-height: 56px; }
+  #deal .control-dock #cell-tempo strong { font-size: 18px; }
+  #deal .control-dock #cell-tempo .vez-inline { min-width: 0; }
+  #deal .control-dock #cell-tempo .vez-inline b { font-size: 12px; line-height: 1.25; font-weight: 700; letter-spacing: 0; word-break: normal; overflow-wrap: anywhere; }
+  #deal .deal-sala { min-height: 44px; }
+  #deal .mark-name { font-size: 12px; }
+  #lobby-qr { width: 192px; max-width: 100%; margin-inline: auto; }
+}
+@media(max-width:360px) {
+  #deal .mark-name { display: none; }
+}

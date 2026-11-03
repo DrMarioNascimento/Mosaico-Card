@@ -284,7 +284,7 @@
     const deadline = state.fase === "fechamento" ? state.fechamentoTerminaEm : state.turnoTerminaEm;
     const pausa = state.fase === "fechamento" ? state.pausaRestanteFechamento : state.pausaRestanteTurno;
     const restante = state.pausado ? pausa / 1000 : tempoRestante(deadline);
-    if ($("#tempo")) $("#tempo").textContent = state.pausado ? "pausa" : formatarTempo(restante);
+    if ($("#tempo")) $("#tempo").textContent = (window.MC_MESA && window.MC_MESA.aguardaMestre()) ? "pausa" : state.treino ? "treino" : state.pausado ? "pausa" : formatarTempo(restante);
     if ($("#fechamento-tempo")) $("#fechamento-tempo").textContent = formatarTempo(tempoRestante(state.fechamentoTerminaEm));
     const cell = $("#cell-tempo");
     if (cell) {
@@ -533,6 +533,10 @@
     if (!suaVez()) return say("Aguarde a sua vez.");
     state.verbo = state.verbo === verbo ? null : verbo;
     render();
+    if (state.verbo) {
+      const alvo = state.verbo === "comprar" ? $("#monte-box") : $("#painel");
+      if (alvo && alvo.scrollIntoView) alvo.scrollIntoView({ block: "start", behavior: "auto" });
+    }
   }
 
   function iniciarFechamento() {
@@ -686,7 +690,10 @@
           return "<button class='chip' type='button' data-act='capturar-ok' data-quem='" + esc(id) + "' data-id='" + esc(pid) + "'><small>" + esc(NOMES[id]) + " · 2</small>" + esc(peca(pid).marca) + "</button>";
         }).join("");
       }).join("");
-      return chips ? "<p>Escolha uma pista capturável.</p>" + chips : "<p>Não há pista capturável.</p>";
+      const ofertas = state.protocolo === 3 ? state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
+        return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>No balaio · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
+      }).join("") : "";
+      return chips || ofertas ? "<p>Escolha uma pista capturável.</p>" + chips + ofertas : "<p>Não há pista capturável.</p>";
     }
     if (verbo === "consignar") {
       return "<p>Escolha a pista que vai ao balaio.</p>" + mao(jogador).map(function (id) {

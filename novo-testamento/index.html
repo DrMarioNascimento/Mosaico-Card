@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="cards.css?v=mesa3d3">
   <link rel="stylesheet" href="sala.css?v=ident1">
   <link rel="stylesheet" href="abertura.css?v=5">
-  <link rel="stylesheet" href="mesa.css?v=mesa3">
+  <link rel="stylesheet" href="mesa.css?v=mesa10">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -52,7 +52,7 @@
         <button type="button" id="btn-recuperar" class="ghost">Recuperar meu lugar</button>
         <button type="button" id="btn-ir-entrar" class="ghost">Entrar em uma mesa</button>
         <button type="button" id="go-how" class="ghost">Como jogar</button>
-        <button type="button" id="go-rule" class="ghost">Demonstração da ovelha</button>
+        <button type="button" id="go-rule" class="ghost">Experimentar demonstração</button>
       </div>
     </div>
   </section>
@@ -92,7 +92,7 @@
   </section>
   <section class="scene" id="demo-lobby" aria-labelledby="demo-lobby-title">
     <div class="wrap">
-      <p class="kicker">Sala de espera · Demonstração da ovelha</p>
+      <p class="kicker">Demonstração · 2 rodadas</p>
       <h2 id="demo-lobby-title">Tudo pronto para jogar.</h2>
       <div class="how-end"><p><b id="demo-player-name">Você</b> · Pronto</p><p>Jogador da demonstração · Pronto</p></div>
       <p class="lede">Numa sala real, o Mestre inicia a partida. Nesta demonstração, avance quando estiver pronto. Você experimenta os botões em duas rodadas, com uma única carta especial. As outras pessoas são exemplos automáticos.</p>
@@ -174,7 +174,7 @@
         <div class="sala-qr" id="lobby-qr"></div>
         <p class="lede" id="lobby-nota">Aponte a câmera para o QR ou informe o código.</p>
       </div>
-      <fieldset id="lobby-formato" class="config-grupo" hidden><legend>Como vamos jogar?</legend><select id="lobby-modalidade"><option value="classica">Sessão Clássica · Um jogador por vez</option><option value="maratonar">Maratonar · Dois jogadores ao mesmo tempo. Cada um por si.</option></select></fieldset>
+      <fieldset id="lobby-formato" class="config-grupo" hidden><legend>Como vamos jogar?</legend><select id="lobby-modalidade" aria-label="Formato da partida"><option value="classica">Sessão Clássica</option><option value="maratonar">Maratonar</option></select><p id="lobby-modalidade-texto">Um jogador por vez.</p></fieldset>
       <ol id="lobby-lista" class="sala-lista"></ol>
       <p class="lobby-prontidao" id="lobby-prontidao" aria-live="polite">Preparando os participantes…</p>
       <div class="actions">
@@ -231,7 +231,7 @@
           <div class="mc-outer"><div class="mc-inner">MC</div></div>
           <span class="mark-name">Mosaico Card</span>
         </div>
-        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Como jogar" aria-haspopup="dialog" title="Como jogar">Ajuda</button></div>
+        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Abrir ajuda da mesa" aria-haspopup="dialog" title="Como jogar">Ajuda</button></div>
         <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
       </header>
       <p class="mesa-question" id="mesa-question" hidden></p>
@@ -415,24 +415,24 @@
   </aside>
   <footer class="credit">M&amp;O</footer>
   <button type="button" id="ajuda-sempre">Ajuda</button>
-  <dialog id="risco-dialog" aria-labelledby="risco-titulo"><h2 id="risco-titulo">Confirmar resposta?</h2><p id="risco-resposta"></p><p>Acertou: pontua e não paga. Errou: perde 3 e essa questão fecha só para você.</p><p>O tempo da vez continua enquanto você escolhe.</p><div class="actions"><button type="button" id="risco-cancelar" class="ghost">Rever resposta</button><button type="button" id="risco-confirmar">Confirmar e arriscar</button></div></dialog>
+  <dialog id="risco-dialog" aria-labelledby="risco-titulo"><h2 id="risco-titulo">Confirmar resposta?</h2><p id="risco-resposta"></p><p>Acertou: pontua e não paga. Errou: perde 3 e essa questão fecha só para você.</p><p id="risco-tempo">O tempo da vez continua enquanto você escolhe.</p><div class="actions"><button type="button" id="risco-cancelar" class="ghost">Rever resposta</button><button type="button" id="risco-confirmar">Confirmar e arriscar</button></div></dialog>
   <dialog id="recuperar-dialog" aria-labelledby="recuperar-titulo"><h2 id="recuperar-titulo">Recuperar meu lugar</h2><p>O mestre gera um código no painel da sala. Ele devolve suas cartas e seu saldo a este aparelho.</p><label for="recuperar-token">Código de recuperação</label><input id="recuperar-token" autocomplete="off" spellcheck="false"><p id="recuperar-erro" role="alert"></p><div class="actions"><button type="button" id="recuperar-enviar">Recuperar acesso</button><button type="button" id="recuperar-fechar" class="ghost">Fechar</button></div></dialog>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
-  <script src="firebase.js?v=mesa3"></script>
-  <script src="sala.js?v=mesa3"></script>
+  <script src="firebase.js?v=mesa10"></script>
+  <script src="sala.js?v=mesa10"></script>
   <!-- 16/10/2026: abrir sala só com Google da lista de mestres; entrar por código continua livre. -->
   <script src="mestre-acesso.js?v=20261016"></script>
-  <script src="abertura.js?v=mesa3"></script>
-  <script src="case-ovelha.js?v=demo6"></script>
+  <script src="abertura.js?v=mesa10"></script>
+  <script src="case-ovelha.js?v=mesa10"></script>
   <script src="cases-nt.js?v=ntnaa107"></script>
   <script src="bank-runtime.js?v=saco2"></script>
-  <script src="game-core.js?v=mesa3"></script>
-  <script src="game.js?v=mesa3"></script>
-  <script src="game-sala.js?v=mesa3"></script>
-  <script src="mesa-core.js?v=mesa3"></script>
-  <script src="mesa-runtime.js?v=mesa3"></script>
+  <script src="game-core.js?v=mesa10"></script>
+  <script src="game.js?v=mesa10"></script>
+  <script src="game-sala.js?v=mesa10"></script>
+  <script src="mesa-core.js?v=mesa10"></script>
+  <script src="mesa-runtime.js?v=mesa10"></script>
 </body>
 </html>
