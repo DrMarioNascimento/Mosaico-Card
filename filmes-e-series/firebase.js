@@ -26,16 +26,28 @@ window.MC_FB = {
     window.MC_FB.app = firebase.initializeApp(firebaseConfig);
     window.MC_FB.db = firebase.firestore();
     window.MC_FB.auth = firebase.auth();
-    window.MC_FB.auth.signInAnonymously()
-      .then(function (cred) {
-        window.MC_FB.uid = cred.user.uid;
-        window.MC_FB.ready = true;
-        document.dispatchEvent(new CustomEvent("mc-fb-ready"));
-      })
-      .catch(function (e) {
-        window.MC_FB.err = "Ative Authentication > Anônimo no console Firebase. " + (e.code || "");
-        document.dispatchEvent(new CustomEvent("mc-fb-ready"));
+    // Espere a restauração: recarregar não pode substituir a conta Google do mestre.
+    const auth = window.MC_FB.auth;
+    auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(function () {
+      window.MC_FB.persistenceWarning = true;
+    }).then(function () {
+      let entrando = false;
+      auth.onAuthStateChanged(function (user) {
+        if (user) {
+          window.MC_FB.uid = user.uid;
+          window.MC_FB.ready = true;
+          window.MC_FB.err = "";
+          document.dispatchEvent(new CustomEvent("mc-fb-ready"));
+        } else if (!entrando) {
+          entrando = true;
+          auth.signInAnonymously().catch(function (e) {
+            entrando = false;
+            window.MC_FB.err = "Não foi possível conectar. Tente novamente. " + (e.code || "");
+            document.dispatchEvent(new CustomEvent("mc-fb-ready"));
+          });
+        }
       });
+    });
   } catch (e) {
     window.MC_FB.err = String(e && e.message ? e.message : e);
   }

@@ -251,7 +251,8 @@
     if (mesmoCampo.some(function (item) { return item.jogadorId === evento.jogadorId; })) {
       throw new Error("O jogador já pontuou neste campo.");
     }
-    if (mesmoCampo.length && (evento.fase !== "final" || mesmoCampo.some(function (item) { return item.fase !== "final"; }))) {
+    const mesmoLote = evento.lote && mesmoCampo.every(function (item) { return item.lote === evento.lote; });
+    if (mesmoCampo.length && !mesmoLote && (evento.fase !== "final" || mesmoCampo.some(function (item) { return item.fase !== "final"; }))) {
       throw new Error("Somente a fase final admite vários vencedores no mesmo campo.");
     }
     return atual.concat([Object.assign({}, evento)]);

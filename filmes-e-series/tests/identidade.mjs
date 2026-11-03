@@ -16,10 +16,10 @@ assert.match(html, /data-duracao="curta"/);
 assert.match(html, /data-duracao="padrao"/);
 assert.match(html, /data-duracao="longa"/);
 assert.match(html, /id="usa-telao"/);
-assert.match(html, /id="assistencia"/);
-assert.match(html, /data-assistencia="livre"/);
-assert.match(html, /data-assistencia="assistida"/);
-assert.match(html, /data-assistencia="guiada"/);
+
+
+
+
 assert.match(html, /id="lobby-prontidao"/);
 
 assert.match(js, /function criarSalaConfigurada/);
@@ -60,3 +60,8 @@ assert.match(gameSala, /collection\("salas-cinema"\)/);
 assert.doesNotMatch(js + gameSala, /collection\("salas"\)/);
 assert.match(js, /function atualizarSessaoLobby/);
 assert.match(js, /function validarSessaoModal/);
+
+assert.doesNotMatch(html, /data-assistencia=/);
+assert.match(html, /id="btn-treino"/);
+assert.match(html, /Maratonar/);
+assert.match(html, /mesa-runtime\.js/);

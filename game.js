@@ -73,9 +73,9 @@
   function jogoOnline() { return !!(window.MC_SALA && window.MC_SALA.online); }
   function souMestre() { return !!(window.MC_SALA && window.MC_SALA.souMestre && window.MC_SALA.souMestre()); }
   function autoridadeRelogio() { return !jogoOnline() || souMestre(); }
-  function idJogadorLocal() { return jogoOnline() && window.MC_SALA.uid ? window.MC_SALA.uid : "voce"; }
+  function idJogadorLocal() { return jogoOnline() && window.MC_SALA.uid ? (window.MC_SALA.playerId || window.MC_SALA.uid) : "voce"; }
   function quem() { return ORDEM.length ? ORDEM[state.vez % ORDEM.length] : null; }
-  function suaVez() { return state.fase === "deal" && quem() === idJogadorLocal(); }
+  function suaVez() { if (state.iniciando) return false; if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.suaVez(); return state.fase === "deal" && quem() === idJogadorLocal(); }
   function mao(id) { return state.maosPorJogador[id] || []; }
   function saldo(id) { return Number(state.saldosPorJogador[id] || 0); }
   function mudarSaldo(id, valor) { state.saldosPorJogador[id] = saldo(id) + valor; }
@@ -219,7 +219,7 @@
   }
   function limparEstadoPartida() {
     Object.assign(state, {
-      monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
+      protocolo: null, treino: false, monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
       turnoId: 1, turnoTerminaEm: null, partidaIniciaEm: null, partidaTerminaEm: null,
       fechamentoTerminaEm: null, encerrarAoFimDoCiclo: false, pausado: false,
       pausaRestanteTurno: 0, pausaRestantePartida: 0, ledger: [], respostasFinais: {},
@@ -229,6 +229,7 @@
   }
 
   function iniciarDemo() {
+    if (window.MC_MESA) return window.MC_MESA.iniciarTreinoLocal();
     limparEstadoPartida();
     state.demo = true;
     state.fase = "deal";
@@ -262,6 +263,7 @@
     carregarCaso(caso);
     prepararJogadores(jogadores, false);
     const bonus = distribuir();
+    state.iniciando = jogoOnline();
     const agora = Date.now();
     const total = REGRAS.calcularTempoTotal(CAMPOS.length, ORDEM.length, state.config.tempoPorJogada, state.config.duracao);
     state.partidaIniciaEm = agora;
@@ -294,6 +296,8 @@
   }
   function onTick() {
     paintTimer();
+    if (state.iniciando) return;
+    if (state.protocolo === 3) { if (window.MC_MESA) window.MC_MESA.tick(); return; }
     if (state.pausado || !autoridadeRelogio()) return;
     const agora = Date.now();
     if (state.fase === "deal") {
@@ -447,6 +451,7 @@
   }
 
   function comprar(indice) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "comprar", carta: state.monte[Number(indice) || 0]});
     if (!suaVez()) return say("Aguarde a sua vez.");
     if (!state.monte.length) return say("O monte está vazio.");
     const jogador = idJogadorLocal();
@@ -461,11 +466,12 @@
     revelarCompra(id, jogador, function () {
       pagarRecompensa(id, jogador);
       state.log = achou ? "A ovelha saiu do jogo. Recompensa: +6." : "Pista comprada: " + peca(id).marca + ".";
-      passarVez();
+      passarVez(state.log);
     });
     render();
   }
   function capturar(alvoId, pecaId) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "capturar", alvo: alvoId, carta: pecaId});
     const jogador = idJogadorLocal();
     if (!suaVez()) return;
     if (eProtegida(pecaId)) return say("Essa pista não pode ser capturada.");
@@ -476,17 +482,19 @@
     mao(jogador).push(pecaId);
     mudarSaldo(jogador, -PRECO.captura);
     state.log = "Você capturou " + peca(pecaId).marca + " de " + (NOMES[alvoId] || "outro jogador") + ".";
-    passarVez();
+    passarVez(state.log);
   }
   function consignar(pecaId) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "consignar", carta: pecaId});
     const jogador = idJogadorLocal();
     if (!suaVez() || !mao(jogador).includes(pecaId)) return;
     state.maosPorJogador[jogador] = mao(jogador).filter(function (id) { return id !== pecaId; });
     state.balaio.push({ id: pecaId, dono: jogador });
     state.log = "Você consignou " + peca(pecaId).marca + " no balaio.";
-    passarVez();
+    passarVez(state.log);
   }
   function arriscar(campoId, valor) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.confirmarRisco(campoId, valor);
     const jogador = idJogadorLocal();
     const alvo = campo(campoId);
     if (!suaVez() || !alvo || !campoDisponivel(campoId, jogador)) return say("Esse campo já está fechado para você.");
@@ -510,7 +518,7 @@
       mudarSaldo(jogador, -PRECO.arriscar);
       state.log = "Resposta incorreta. Este campo fechou somente para você.";
     }
-    passarVez();
+    passarVez(state.log);
   }
   function jogarRival() {
     if (jogoOnline() || state.fase !== "deal" || suaVez()) return;
@@ -552,6 +560,7 @@
     }).join("") : "<p class='lede'>Você não possui campos disponíveis nesta etapa.</p>";
     box.querySelectorAll("[data-final-campo]").forEach(function (btn) {
       btn.addEventListener("click", function () {
+        if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.respostaFinal(btn.dataset.finalCampo, btn.dataset.finalValor);
         if (!state.respostasFinais[jogador]) state.respostasFinais[jogador] = {};
         state.respostasFinais[jogador][btn.dataset.finalCampo] = btn.dataset.finalValor;
         renderFechamento();
@@ -747,6 +756,7 @@
       painel.querySelectorAll("[data-act='consignar-ok']").forEach(function (b) { b.addEventListener("click", function () { consignar(b.dataset.id); }); });
       painel.querySelectorAll("[data-act='arriscar-ok']").forEach(function (b) { b.addEventListener("click", function () { arriscar(b.dataset.campo, b.dataset.valor); }); });
     }
+    if (window.MC_MESA) window.MC_MESA.pintar();
   }
   function atualizarRegra() {
     if (!CASO || !$("#rule-kicker")) return;
@@ -779,6 +789,7 @@
     }
   }
   function controleMestre(acao) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.controle(acao);
     if (!souMestre()) return;
     const agora = Date.now();
     if (acao === "pausar") {
@@ -821,6 +832,7 @@
     $("#demo-ready")?.addEventListener("click", iniciarDemo);
     $("#go-deal")?.addEventListener("click", iniciarDemo);
     $("#again")?.addEventListener("click", function () {
+      if (window.MC_MESA && state.protocolo === 3 && jogoOnline()) return window.MC_MESA.controle("retornar");
       if (window.MC_SALA && window.MC_SALA.demonstracao) {
         window.MC_SALA.demonstracao = false;
         window.MC_SALA.codigoConvite = null;
@@ -844,6 +856,9 @@
     controleMestre: controleMestre,
     startTimer: startTimer,
     stopTimer: stopTimer,
+    dados: function () { return { caso: CASO, pecas: PECAS, campos: CAMPOS, ordem: ORDEM.slice() }; },
+    usarCatalogo: function (catalogo) { PECAS = Object.assign({}, catalogo); },
+    animarBonus: revelarCompra,
     aplicarSnap: function () {}
   };
 })();
