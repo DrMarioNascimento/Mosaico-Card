@@ -5,7 +5,7 @@ window.MC_CASOS = {
     modo: "demonstracao",
     titulo: "A sessão de estreia",
     fonte: "Demonstração",
-    lede: "Demonstração da carta especial e de sua animação.",
+    lede: "Duas rodadas para conhecer pistas, escolhas e custos.",
     pecas: {
       F1: { id: "F1", marca: "Sala", texto: "A sala tinha cem lugares. Um balde de pipoca sumiu antes do filme." },
       F2: { id: "F2", marca: "Fila", texto: "Noventa e nove pessoas já estavam sentadas quando as luzes apagaram." },

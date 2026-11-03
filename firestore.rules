@@ -1,0 +1,107 @@
+rules_version = '2';
+// Mosaico Card · salas v3: mestre Google autorizado mantém o estado canônico.
+// Salas: codigo/mestre/criado/schemaVersion/autoridade imutáveis; jogadores (1–12),
+// ordem (1–12), vinculos authUid -> lugar (até 12), presencas lugar -> lease (30s).
+// snap contém a partida do reducer; só o mestre pode gravar estado e recuperar vínculos.
+// pedidos/{authUid}: uma intenção por conta, JSON até 4096 caracteres, id/aba até 100,
+// criado timestamp do servidor; resultado só do mestre. Token é apagado da resposta.
+// Nenhum cliente lista salas. Regras legadas mantêm somente as salas sem autoridade v3.
+service cloud.firestore {
+  match /databases/{database}/documents {
+    function signed() { return request.auth != null; }
+    function owner(uid) { return signed() && request.auth.uid == uid; }
+    function text(s, max) { return s is string && s.size() > 0 && s.size() <= max; }
+    function mestreAutorizado() {
+      return signed() && request.auth.token.email is string
+        && request.auth.token.email_verified == true
+        && exists(/databases/$(database)/documents/config/mestres)
+        && request.auth.token.email.lower() in get(/databases/$(database)/documents/config/mestres).data.emails;
+    }
+    function nova(d) { return d.get('autoridade', '') == 'mestre'; }
+    function salaValida(d, cod) {
+      return d.keys().hasOnly(['codigo','mestre','criado','schemaVersion','autoridade','fase','ativa','config','jogadores','ordem','vinculos','presencas','recuperacoes','pautaId','snap','bankIdentity'])
+        && d.schemaVersion == 3 && d.autoridade == 'mestre' && d.codigo == cod
+        && cod.matches('^[A-Z0-9]{6}$') && text(d.mestre,128) && d.criado is timestamp
+        && d.fase in ['lobby','deal','fechamento','judge','treino-fim','encerrada'] && d.ativa is bool
+        && d.config is map && d.config.size() <= 8
+        && d.jogadores is list && d.jogadores.size() >= 1 && d.jogadores.size() <= 12
+        && d.ordem is list && d.ordem.size() >= 1 && d.ordem.size() <= 12
+        && d.vinculos is map && d.vinculos.size() <= 12 && d.vinculos[d.mestre] == d.mestre
+        && d.presencas is map && d.presencas.size() <= 12
+        && (d.snap == null || (d.snap is map && d.snap.protocolo == 3 && d.snap.size() <= 60 && d.snap.fase == d.fase));
+    }
+    function criacaoValida(cod) {
+      let d = request.resource.data;
+      return mestreAutorizado() && d.mestre == request.auth.uid && d.codigo == cod && d.fase == 'lobby' && d.ativa == true
+        && (nova(d) ? salaValida(d,cod) && d.criado == request.time && d.jogadores.size() == 1 && d.ordem == [request.auth.uid] && d.vinculos.keys().hasOnly([request.auth.uid]) : d.get('schemaVersion',2) == 2);
+    }
+    function leaseValida(p) {
+      return p is map && p.keys().hasOnly(['aba','visto','ate']) && text(p.aba,100)
+        && p.visto is int && p.ate is int && p.ate == p.visto + 30000
+        && p.visto >= request.time.toMillis() - 60000 && p.visto <= request.time.toMillis() + 60000;
+    }
+    function presencaPropria() {
+      let lugar = resource.data.vinculos.get(request.auth.uid, '');
+      return lugar != '' && request.resource.data.diff(resource.data).affectedKeys().hasOnly(['presencas'])
+        && request.resource.data.presencas.diff(resource.data.presencas).affectedKeys().hasOnly([lugar])
+        && leaseValida(request.resource.data.presencas[lugar]);
+    }
+    function atualizacaoValida(cod) {
+      let mudou = request.resource.data.diff(resource.data).affectedKeys();
+      return signed() && !mudou.hasAny(['mestre','codigo','schemaVersion','criado','autoridade'])
+        && (nova(resource.data)
+          ? salaValida(request.resource.data,cod) && (owner(resource.data.mestre) || (resource.data.ativa && presencaPropria()))
+          : (owner(resource.data.mestre) || (resource.data.ativa == true && !mudou.hasAny(['fase','ativa','config']))));
+    }
+    function sala(col,cod) { return get(/databases/$(database)/documents/$(col)/$(cod)).data; }
+    function pedidoValido(uid) {
+      let p = request.resource.data;
+      return p.keys().hasOnly(['uid','id','tipo','aba','payload','criado','resultado']) && p.uid == uid
+        && text(p.id,100) && text(p.aba,100) && p.tipo in ['entrar','acao','recuperar','sair']
+        && p.payload is string && p.payload.size() <= 4096 && p.criado is timestamp;
+    }
+    function escreverPedido(col,cod,uid) {
+      let d = sala(col,cod);
+      let p = request.resource.data;
+      return signed() && nova(d) && d.ativa && pedidoValido(uid)
+        && (owner(uid) && !('resultado' in p) && p.criado == request.time
+              && (p.tipo in ['entrar','recuperar'] || request.auth.uid in d.vinculos)
+          || owner(d.mestre) && p.resultado is map && p.resultado.keys().hasOnly(['ok','erro'])
+              && p.resultado.ok is bool && p.resultado.erro is string && p.resultado.erro.size() <= 300);
+    }
+    function respostaLegada(col,cod,uid) {
+      let d = sala(col,cod);
+      return owner(uid) && !nova(d) && request.resource.data.jogadorId == request.auth.uid && d.fase == 'fechamento';
+    }
+    match /config/mestres {
+      allow read: if mestreAutorizado();
+      allow write: if false;
+    }
+    match /{col}/{cod} {
+      allow get: if col in ['salas','salas-cinema'] && signed();
+      allow list, delete: if false;
+      allow create: if col in ['salas','salas-cinema'] && criacaoValida(cod);
+      allow update: if col in ['salas','salas-cinema'] && atualizacaoValida(cod);
+      match /pedidos/{uid} {
+        allow get: if col in ['salas','salas-cinema'] && signed() && nova(sala(col,cod)) && (owner(uid) || owner(sala(col,cod).mestre));
+        allow list: if col in ['salas','salas-cinema'] && signed() && nova(sala(col,cod)) && owner(sala(col,cod).mestre);
+        allow create, update: if col in ['salas','salas-cinema'] && escreverPedido(col,cod,uid);
+        allow delete: if false;
+      }
+      match /pulsos/{uid} {
+        allow get: if col in ['salas','salas-cinema'] && signed() && nova(sala(col,cod)) && (owner(uid) || owner(sala(col,cod).mestre));
+        allow list: if col in ['salas','salas-cinema'] && signed() && nova(sala(col,cod)) && owner(sala(col,cod).mestre);
+        allow create, update: if col in ['salas','salas-cinema'] && owner(uid) && nova(sala(col,cod)) && sala(col,cod).ativa
+          && uid in sala(col,cod).vinculos && leaseValida(request.resource.data)
+          && request.resource.data.aba == sala(col,cod).presencas[sala(col,cod).vinculos[uid]].aba;
+        allow delete: if false;
+      }
+      match /respostasFinais/{uid} {
+        allow read: if col in ['salas','salas-cinema'] && signed() && !nova(sala(col,cod));
+        allow create, update: if col in ['salas','salas-cinema'] && respostaLegada(col,cod,uid);
+        allow delete: if false;
+      }
+    }
+    match /{document=**} { allow read, write: if false; }
+  }
+}

@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="sala.css?v=ident1">
   <link rel="stylesheet" href="abertura.css?v=5">
   <link rel="stylesheet" href="cinema.css?v=3">
+  <link rel="stylesheet" href="../mesa.css?v=mesa10">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -47,9 +48,10 @@
       <p class="lede">Pistas, decisões e perspectivas. Uma obra é sorteada ao iniciar a partida.</p>
       <div class="portas">
         <button type="button" id="btn-abrir-mesa">Criar uma sala</button>
+        <button type="button" id="btn-recuperar" class="ghost">Recuperar meu lugar</button>
         <button type="button" id="btn-ir-entrar" class="ghost">Entrar em uma mesa</button>
         <button type="button" id="go-how" class="ghost">Como jogar</button>
-        <button type="button" id="go-rule" class="ghost">Demonstração da pipoca</button>
+        <button type="button" id="go-rule" class="ghost">Experimentar demonstração</button>
       </div>
     </div>
   </section>
@@ -89,11 +91,11 @@
   </section>
   <section class="scene" id="demo-lobby" aria-labelledby="demo-lobby-title">
     <div class="wrap">
-      <p class="kicker">Sala de espera · Demonstração da pipoca</p>
+      <p class="kicker">Demonstração · 2 rodadas</p>
       <h2 id="demo-lobby-title">Tudo pronto para jogar.</h2>
       <div class="how-end"><p><b id="demo-player-name">Você</b> · Pronto</p><p>Jogador da demonstração · Pronto</p></div>
-      <p class="lede">Numa sala real, o Mestre inicia a partida. Nesta demonstração, avance quando estiver pronto. Sua primeira compra revela a carta da pipoca.</p>
-      <button type="button" id="demo-ready">Continuar para a partida</button>
+      <p class="lede">Numa sala real, o Mestre inicia a partida. Nesta demonstração, avance quando estiver pronto. Você experimenta os botões em duas rodadas, com uma única carta especial. As outras pessoas são exemplos automáticos.</p>
+      <button type="button" id="demo-ready">Começar demonstração</button>
     </div>
   </section>
   <section class="scene" id="entrar" data-modo="convidado">
@@ -127,28 +129,7 @@
       </div>
     </div>
   </section>
-  <section class="scene" id="assistencia">
-    <div class="wrap">
-      <header class="mobile-topbar">
-        <div class="brand-lockup">
-          <div class="mc-outer"><div class="mc-inner">MC</div></div>
-          <span class="mark-name">Mosaico Card</span>
-        </div>
-      </header>
-      <p class="kicker">Sua experiência na mesa</p>
-      <h2>Como você prefere organizar as pistas?</h2>
-      <p class="lede">A camada muda apenas a ajuda visual. Fatos, tempo, alternativas, custos e pontuação continuam iguais para todos.</p>
-      <div class="assistencia-opcoes" role="group" aria-label="Camada de assistência">
-        <button type="button" class="assistencia-op on" data-assistencia="livre" aria-pressed="true"><b>Livre</b><span>Somente pistas e ações essenciais.</span></button>
-        <button type="button" class="assistencia-op" data-assistencia="assistida" aria-pressed="false"><b>Assistida</b><span>Organização e lembretes discretos.</span></button>
-        <button type="button" class="assistencia-op" data-assistencia="guiada" aria-pressed="false"><b>Guiada</b><span>Relações e passos mais estruturados.</span></button>
-      </div>
-      <p class="sala-nota">Essa escolha é particular: os outros jogadores não veem a sua camada.</p>
-      <div class="actions ident-actions">
-        <button type="button" id="btn-confirmar-assistencia" class="btn-go">Estou pronto</button>
-      </div>
-    </div>
-  </section>
+
   <section class="scene" id="telao">
     <div class="wrap">
       <header class="mobile-topbar">
@@ -177,6 +158,7 @@
       </div>
     </div>
   </section>
+  <div id="conexao-mesa" role="status" aria-live="polite" hidden></div>
   <section class="scene" id="lobby">
     <div class="wrap">
       <header class="mobile-topbar">
@@ -201,9 +183,11 @@
           <label class="sessao-op sessao-top"><input type="checkbox" id="lobby-top50"><span><b>Só os mais conhecidos (Top 50)</b></span></label>
         </div>
       </section>
+      <fieldset id="lobby-formato" class="config-grupo" hidden><legend>Como vamos jogar?</legend><select id="lobby-modalidade" aria-label="Formato da partida"><option value="classica">Sessão Clássica</option><option value="maratonar">Maratonar</option></select><p id="lobby-modalidade-texto">Um jogador por vez.</p></fieldset>
       <ol id="lobby-lista" class="sala-lista"></ol>
       <p class="lobby-prontidao" id="lobby-prontidao" aria-live="polite">Preparando os participantes…</p>
       <div class="actions">
+        <button type="button" id="btn-treino" class="btn-go" hidden>Jogar demonstração · 2 rodadas</button>
         <button type="button" id="btn-iniciar-partida" class="btn-go">Iniciar partida</button>
         <button type="button" id="btn-abrir-telao" class="ghost" hidden>Abrir telão</button>
         <p id="lobby-espera" class="log" hidden>Aguardando o Mestre iniciar a partida…</p>
@@ -256,7 +240,7 @@
           <div class="mc-outer"><div class="mc-inner">MC</div></div>
           <span class="mark-name">Mosaico Card</span>
         </div>
-        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Como jogar" aria-haspopup="dialog" title="Como jogar">i</button></div>
+        <div class="mesa-title-info"><p class="scene-title" id="caso-titulo">Caso</p><button type="button" id="mesa-info" aria-label="Abrir ajuda da mesa" aria-haspopup="dialog" title="Como jogar">Ajuda</button></div>
         <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
       </header>
       <p class="sessao-linha mesa-sessao" id="mesa-sessao" hidden></p>
@@ -265,7 +249,8 @@
         <summary><span>Jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
         <ol class="ordem" id="ordem"></ol>
       </details>
-      <p class="log" id="log"></p>
+      <aside id="treino-dica" class="treino-dica" hidden><b>Aprenda jogando · 2 rodadas</b><p id="treino-texto"></p><button type="button" id="treino-entendi">Entendi</button></aside>
+      <p class="log" id="log" role="status"></p>
       <section class="monte-box" id="monte-box">
         <div class="leque-wrap">
           <div class="area-heading"><span>Coletivo</span><strong id="monte-titulo">Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
@@ -290,16 +275,27 @@
             <span class="vez-inline">Vez: <b id="vez">Você</b></span>
           </div>
         </div>
+        <p id="estado-acoes" role="status">Aguarde sua vez · Ajuda sempre disponível</p>
         <div class="verbos" id="verbos">
-          <button type="button" data-verbo="arriscar">Arriscar</button>
-          <button type="button" data-verbo="capturar">Capturar</button>
-          <button type="button" data-verbo="comprar">Comprar</button>
-          <button type="button" data-verbo="consignar"><span>Em cartaz</span><small>quem levar paga 2</small></button>
+          <button type="button" data-verbo="arriscar"><span>Arriscar</span><small>Perde 3 se errar</small></button>
+          <button type="button" data-verbo="capturar"><span>Capturar</span><small>Custa 2</small></button>
+          <button type="button" data-verbo="comprar"><span>Comprar</span><small>Custa 4</small></button>
+          <button type="button" data-verbo="consignar"><span>Em cartaz</span><small>Grátis · recebe 2 se levarem</small></button>
         </div>
       </div>
       <div class="painel" id="painel" hidden></div>
     </div>
   </section>
+  <section class="scene" id="treino-fim"><div class="wrap">
+      <p class="kicker">Demonstração concluída · 2 de 2 rodadas</p><h2>Agora você já conhece a mesa.</h2>
+      <p>Você viu suas pistas, o monte, saldo, vez, botões, custos, captura e uma pipoca.</p>
+      <p><b>Arriscar:</b> precisa ter 3. Acertou, pontua sem pagar e fecha a questão para todos. Errou, perde 3 e a questão fecha só para você.</p>
+      <p><b>Fechamento:</b> na partida real, todos têm 60 segundos para responder gratuitamente às questões ainda disponíveis. As respostas são salvas e avaliadas juntas ao final.</p>
+      <p><b>Pontuação:</b> acertos antecipados valem mais. O saldo restante também conta. A tela final mostra a conta e o resultado.</p>
+      <p><b>Ajuda fica sempre disponível.</b> Recarregou? A sala retoma seu lugar e suas cartas.</p>
+      <p>Este treino não vale pontos. A partida real começa com novas pistas e 12 ingressos.</p>
+      <button type="button" id="treino-voltar">Voltar à sala e preparar a partida</button><p id="treino-espera" hidden>Aguarde o mestre voltar à sala.</p>
+    </div></section>
   <section class="scene" id="judge">
     <div class="wrap">
       <header class="mobile-topbar">
@@ -358,7 +354,12 @@
     <div class="modal-sala" role="dialog" aria-labelledby="mestre-titulo">
       <p class="kicker">Etapa 1 de 2 · configuração da sala</p>
       <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como será esta partida?</h2>
-      <p class="log">A sala será criada agora. Enquanto os participantes entram pelo QR, você escolhe sua assistência como jogador.</p>
+      <p class="log">A sala será criada agora. Você define as regras e depois informa seu nome. Os jogadores apenas entram e aguardam.</p>
+      <fieldset class="config-grupo escolha-formato"><legend>Como vamos jogar?</legend>
+        <label><input type="radio" name="modalidade" value="classica" checked><span><b>Sessão Clássica</b><small>Um jogador por vez.</small></span></label>
+        <label><input type="radio" name="modalidade" value="maratonar"><span><b>Maratonar</b><small>Dois jogadores ao mesmo tempo. Cada um por si.</small></span></label>
+        <p>Maratonar resolve as duas escolhas juntas. Se os dois acertarem a mesma questão, os dois pontuam. Disputas pela mesma pista alternam a prioridade; quem ficar sem ela não paga e pode escolher novamente.</p>
+      </fieldset>
       <fieldset class="config-grupo sessao-grupo" id="sessao-grupo">
         <legend>Que sessão vamos ver?</legend>
         <p class="sessao-sub">Filmes e séries a partir de 2001</p>
@@ -411,13 +412,13 @@
       </details>
       <details class="sala-sec">
         <summary>Participantes · <span id="sala-n">0</span></summary>
-        <ol id="sala-lista" class="sala-lista"></ol>
+        <ol id="sala-lista" class="sala-lista"></ol><ul id="presenca-lista" class="presenca-lista"></ul><p id="recuperacao-codigo" hidden></p>
       </details>
       <details class="sala-sec">
         <summary>Controle partida</summary>
         <p id="sala-controle" class="log"></p>
         <div class="controle-mestre" id="controle-mestre">
-          <button type="button" id="btn-pausar-partida">Pausar</button>
+          <button type="button" id="btn-pausar">Pausar</button>
           <button type="button" id="btn-adicionar-tempo">+ tempo</button>
           <button type="button" id="btn-passar-vez">Passar vez</button>
           <button type="button" id="btn-encerrar-fase" class="danger">Encerrar fase</button>
@@ -433,21 +434,26 @@
     </div>
   </aside>
   <footer class="credit">M&amp;O</footer>
+  <button type="button" id="ajuda-sempre">Ajuda</button>
+  <dialog id="risco-dialog" aria-labelledby="risco-titulo"><h2 id="risco-titulo">Confirmar resposta?</h2><p id="risco-resposta"></p><p>Acertou: pontua e não paga. Errou: perde 3 e essa questão fecha só para você.</p><p id="risco-tempo">O tempo da vez continua enquanto você escolhe.</p><div class="actions"><button type="button" id="risco-cancelar" class="ghost">Rever resposta</button><button type="button" id="risco-confirmar">Confirmar e arriscar</button></div></dialog>
+  <dialog id="recuperar-dialog" aria-labelledby="recuperar-titulo"><h2 id="recuperar-titulo">Recuperar meu lugar</h2><p>O mestre gera um código no painel da sala. Ele devolve suas cartas e seu saldo a este aparelho.</p><label for="recuperar-token">Código de recuperação</label><input id="recuperar-token" autocomplete="off" spellcheck="false"><p id="recuperar-erro" role="alert"></p><div class="actions"><button type="button" id="recuperar-enviar">Recuperar acesso</button><button type="button" id="recuperar-fechar" class="ghost">Fechar</button></div></dialog>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-auth-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
-  <script src="firebase.js?v=sala2"></script>
+  <script src="firebase.js?v=mesa10"></script>
   <script src="sessao.js?v=1"></script>
-  <script src="sala.js?v=cin1"></script>
+  <script src="sala.js?v=mesa10"></script>
   <!-- 16/10/2026: abrir sala só com Google da lista de mestres; entrar por código continua livre. -->
   <script src="mestre-acesso.js?v=20261016"></script>
-  <script src="abertura.js?v=3"></script>
-  <script src="case-pipoca.js?v=cin1"></script>
+  <script src="abertura.js?v=mesa10"></script>
+  <script src="case-pipoca.js?v=mesa10"></script>
   <script src="cases-cinema.js?v=cin2"></script>
   <script src="bank-runtime.js?v=cin2"></script>
-  <script src="game-core.js?v=regras6"></script>
-  <script src="game.js?v=cin3"></script>
-  <script src="game-sala.js?v=partida3"></script>
+  <script src="game-core.js?v=mesa10"></script>
+  <script src="game.js?v=mesa10"></script>
+  <script src="game-sala.js?v=mesa10"></script>
+  <script src="../mesa-core.js?v=mesa10"></script>
+  <script src="../mesa-runtime.js?v=mesa10"></script>
 </body>
 </html>

@@ -15,7 +15,7 @@
     uid: null,
     nome: "Você",
     forma: "n",
-    assistencia: "livre",
+    assistencia: "assistida",
     fase: "lobby",
     ativa: true,
     jogadores: [],
@@ -116,14 +116,14 @@
       const recomendado = window.MC_RULES && n >= 2 && n <= 12 ? window.MC_RULES.tempoRecomendado(n) : null;
       const tempo = recomendado ? " Tempo escolhido: " + sala.config.tempoPorJogada + " s; sugestão para " + n + ": " + recomendado + " s." : "";
       $("#lobby-nota").textContent = master
-        ? "A sala já está aberta. Enquanto as pessoas entram, todos escolhem sua experiência individual." + tempo
-        : "Escolha sua experiência e aguarde o Mestre iniciar." + tempo;
+        ? "A sala está aberta. Comece pela demonstração de duas rodadas ou inicie a partida." + tempo
+        : "Tudo pronto. Aguarde o mestre iniciar a demonstração ou a partida." + tempo;
     }
     pintarSessaoLobby(master);
     pintarLista($("#lobby-lista"), sala.jogadores);
     const impedimento = impedimentoInicio();
     if ($("#lobby-prontidao")) {
-      $("#lobby-prontidao").textContent = impedimento ||
+      $("#lobby-prontidao").textContent = (!master && impedimento ? "Aguarde o mestre preparar a sala." : impedimento) ||
         sala.jogadores.length + (sala.jogadores.length === 1 ? " participante pronto." : " participantes prontos.");
     }
     const iniciar = $("#btn-iniciar-partida");
@@ -211,11 +211,12 @@
     pintarLista($("#telao-lista"), sala.jogadores);
     if (window.MC_GAME && typeof window.MC_GAME.renderTelao === "function") window.MC_GAME.renderTelao(data || sala.ultimoDoc || {});
   }
-  function pintar() { pintarLobby(); pintarPainel(); pintarBotoes(); pintarTelao(); }
+  function pintar() { pintarLobby(); pintarPainel(); pintarBotoes(); pintarTelao(); if (window.MC_MESA) window.MC_MESA.pintarSala(); }
 
   function aplicarDoc(data) {
     if (!data) return;
     sala.ultimoDoc = data;
+    if (window.MC_MESA) window.MC_MESA.observarSala(data);
     if (data.ativa === false || data.fase === "encerrada") {
       if (sala.telao) { setStatus("#telao-msg", "Esta mesa foi encerrada."); return; }
       resetarSala("A mesa foi encerrada pelo Mestre.");
@@ -226,7 +227,7 @@
     sala.config = Object.assign({}, CONFIG_PADRAO, data.config || {});
     sala.fase = data.fase || "lobby";
     sala.ativa = data.ativa !== false;
-    if (sala.fase === "fechamento" && souMestre()) ouvirRespostasFinais();
+    if (sala.fase === "fechamento" && !(data.snap && data.snap.protocolo === 3) && souMestre()) ouvirRespostasFinais();
     else pararRespostasFinais();
     if (window.MC_GAME && typeof window.MC_GAME.receberSala === "function") window.MC_GAME.receberSala(data, { telao: sala.telao });
     if (!sala.telao && sala.fase === "lobby" && !sala.identidadePendente && cenaAtiva() !== "assistencia") show("lobby");
@@ -252,6 +253,7 @@
     });
   }
   function resetarSala(msg) {
+    if (window.MC_MESA) window.MC_MESA.esquecer();
     if (sala.unsub) { sala.unsub(); sala.unsub = null; }
     pararRespostasFinais();
     Object.assign(sala, {
@@ -274,6 +276,7 @@
     const tempo = document.querySelector("[data-tempo].on");
     const duracao = document.querySelector("[data-duracao].on");
     return {
+      modalidade: document.querySelector("[name=modalidade]:checked")?.value || "classica",
       tempoPorJogada: Number(tempo ? tempo.dataset.tempo : 45),
       duracao: duracao ? duracao.dataset.duracao : "padrao",
       telao: !!($("#usa-telao") && $("#usa-telao").checked),
@@ -316,6 +319,8 @@
     sala.config = lerConfigModal();
     if (window.MC_SESSAO && !window.MC_SESSAO.valida(sala.config.sessao)) { setStatus("#mestre-status", "Marque Filmes, Séries ou os dois."); return; }
     sala.uid = window.MC_FB.uid;
+    sala.playerId = sala.uid;
+    sala.demonstracao = false;
     for (let tentativa = 0; tentativa < 5; tentativa += 1) {
       const cod = codigoNovo();
       const ref = refSala(cod);
@@ -324,7 +329,10 @@
           const snap = await tx.get(ref);
           if (snap.exists) throw new Error("codigo-em-uso");
           tx.set(ref, {
-            schemaVersion: 2,
+            schemaVersion: 3,
+            autoridade: "mestre",
+            vinculos: { [sala.uid]: sala.uid },
+            presencas: {},
             codigo: cod,
             mestre: sala.uid,
             fase: "lobby",
@@ -361,7 +369,7 @@
       const snap = await tx.get(ref);
       if (!snap.exists) throw new Error("Sala não encontrada.");
       const data = snap.data();
-      const jogadores = (data.jogadores || []).map(function (j) { return j.id === sala.uid ? mutador(Object.assign({}, j)) : j; });
+      const jogadores = (data.jogadores || []).map(function (j) { return j.id === (sala.playerId || sala.uid) ? mutador(Object.assign({}, j)) : j; });
       tx.update(ref, { jogadores: jogadores });
     });
   }
@@ -371,7 +379,7 @@
       if (!nomeDemo) { setStatus("#entrar-status", "Digite o nome que a mesa vai ver."); return; }
       sala.nome = nomeDemo;
       sala.identidadePendente = false;
-      show("assistencia");
+      await confirmarAssistencia();
       return;
     }
     if (!window.MC_FB.ready) { setStatus("#entrar-status", window.MC_FB.err || "Firebase ainda conectando."); return; }
@@ -386,16 +394,27 @@
         const cod = (($("#cod") && $("#cod").value) || "").trim().toUpperCase();
         if (!cod) { setStatus("#entrar-status", "Digite o código da mesa."); return; }
         const ref = refSala(cod);
-        await window.MC_FB.db.runTransaction(async function (tx) {
+        const atual = await ref.get();
+        if (atual.exists && atual.data().autoridade === "mestre") {
+          setStatus("#entrar-status", "Entrando na sala… mantenha a tela do mestre aberta.");
+          const data = await window.MC_MESA.entrar(cod, nome, sala.forma);
+          sala.mestre = data.mestre;
+          sala.ultimoDoc = data;
+          sala.config = Object.assign({}, CONFIG_PADRAO, data.config || {});
+          sala.playerId = window.MC_MESA_CORE.participante(data, sala.uid).id;
+        } else await window.MC_FB.db.runTransaction(async function (tx) {
           const snap = await tx.get(ref);
           if (!snap.exists) throw new Error("Sala não encontrada.");
           const data = snap.data();
-          if (data.ativa === false || data.fase !== "lobby") throw new Error("A entrada desta sala já foi encerrada.");
+          if (data.ativa === false) throw new Error("Esta sala foi encerrada.");
           const jogadores = (data.jogadores || []).slice();
-          const existente = jogadores.findIndex(function (j) { return j.id === sala.uid; });
+          const existente = jogadores.findIndex(function (j) { return (j.authUid || j.id) === sala.uid; });
+          if (existente < 0 && data.fase !== "lobby") throw new Error("Partida em andamento. Peça ao mestre um código de recuperação se você já participava.");
+          if (existente < 0 && jogadores.length >= 12) throw new Error("Esta sala já tem 12 participantes.");
           const eu = { id: sala.uid, nome: nome, forma: sala.forma, pronto: false };
-          if (existente >= 0) jogadores[existente] = eu; else jogadores.push(eu);
-          const ordem = (data.ordem || []).includes(sala.uid) ? data.ordem : (data.ordem || []).concat(sala.uid);
+          if (existente >= 0) { eu.id = jogadores[existente].id; Object.assign(eu, jogadores[existente]); } else jogadores.push(eu);
+          sala.playerId = eu.id;
+          const ordem = (data.ordem || []).includes(eu.id) ? data.ordem : (data.ordem || []).concat(eu.id);
           tx.update(ref, { jogadores: jogadores, ordem: ordem });
           sala.mestre = data.mestre;
           sala.config = Object.assign({}, CONFIG_PADRAO, data.config || {});
@@ -405,14 +424,13 @@
         ouvir(cod);
       }
       sala.identidadePendente = false;
-      show("assistencia");
+      await confirmarAssistencia();
     } catch (e) {
       setStatus("#entrar-status", e.message || "Não foi possível entrar.");
     }
   }
   async function confirmarAssistencia() {
-    const selecionada = document.querySelector("[data-assistencia].on");
-    sala.assistencia = selecionada ? selecionada.dataset.assistencia : "livre";
+    sala.assistencia = "assistida";
     try { localStorage.setItem(armazenamentoAssistencia(), sala.assistencia); } catch (_) { /* sessão atual */ }
     if (sala.demonstracao) {
       $("#demo-player-name").textContent = sala.nome;
@@ -420,10 +438,11 @@
       return;
     }
     try {
-      await atualizarJogador(function (j) { j.pronto = true; return j; });
-      show("lobby");
+      if (souMestre() || !sala.ultimoDoc || sala.ultimoDoc.autoridade !== "mestre") await atualizarJogador(function (j) { j.pronto = true; return j; });
+      if (window.MC_MESA) await window.MC_MESA.conectar();
+      if (sala.fase === "lobby") show("lobby");
     } catch (e) {
-      setStatus("#entrar-status", "Não foi possível confirmar sua experiência. " + (e.message || ""));
+      setStatus("#entrar-status", "Não foi possível confirmar sua entrada. " + (e.message || ""));
     }
   }
 
@@ -464,6 +483,7 @@
   }
 
   sala.publicar = function (payload) {
+    if (window.MC_MESA && sala.fase === "lobby") return window.MC_MESA.publicarInicio(payload);
     if (!sala.codigo || !window.MC_FB.ready || sala.telao) return Promise.resolve(false);
     const ref = refSala(sala.codigo);
     const autor = sala.uid;
@@ -488,6 +508,10 @@
       return false;
     });
   };
+  sala.ref = refSala;
+  sala.ouvir = ouvir;
+  sala.aplicarDoc = aplicarDoc;
+  sala.resetar = resetarSala;
   sala.souMestre = souMestre;
   sala.sessao = function () { return sessaoDe(sala.config); };
   sala.pintar = pintar;
@@ -497,7 +521,7 @@
     sala.comoMestre = false;
     sala.online = false;
     sala.codigoConvite = "DEMO";
-    show("welcome");
+    sala.continuarConvite();
     window.scrollTo(0, 0);
   };
   sala.continuarConvite = function () {
@@ -526,7 +550,7 @@
     $("#btn-confirmar-assistencia")?.addEventListener("click", confirmarAssistencia);
     $("#btn-iniciar-partida")?.addEventListener("click", iniciarPartida);
     $("#btn-abrir-telao")?.addEventListener("click", function () { if (sala.codigo) window.open(joinUrl(sala.codigo, true), "mosaico-telao"); });
-    $("#btn-lobby-voltar")?.addEventListener("click", function () { if (souMestre()) encerrarSala(); else resetarSala(); });
+    $("#btn-lobby-voltar")?.addEventListener("click", function () { if (souMestre()) encerrarSala(); else if (window.MC_MESA) window.MC_MESA.sair(); else resetarSala(); });
     $("#btn-encerrar-sala")?.addEventListener("click", encerrarSala);
     $("#btn-sala")?.addEventListener("click", function (e) { e.preventDefault(); abrirPainel(); pintarPainel(); });
     $("#btn-mestre-flutuante")?.addEventListener("click", togglePainel);

@@ -94,6 +94,7 @@
       return window.MC_SALA.publicar(payload);
     },
     receberSala: function (data, opcoes) {
+      if (data && data.snap && data.snap.protocolo === 3 && window.MC_MESA) return window.MC_MESA.receber(data, opcoes);
       if (!data || !identidadeCompativel(data)) return;
       if (data.pautaId && !casoDoBanco(data.pautaId)) return;
       if (data.pautaId && window.MC_RULES && !window.MC_RULES.casoCompativelComMesa(casoDoBanco(data.pautaId), (data.jogadores || data.ordem || []).length)) return;

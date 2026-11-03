@@ -74,9 +74,9 @@
   function jogoOnline() { return !!(window.MC_SALA && window.MC_SALA.online); }
   function souMestre() { return !!(window.MC_SALA && window.MC_SALA.souMestre && window.MC_SALA.souMestre()); }
   function autoridadeRelogio() { return !jogoOnline() || souMestre(); }
-  function idJogadorLocal() { return jogoOnline() && window.MC_SALA.uid ? window.MC_SALA.uid : "voce"; }
+  function idJogadorLocal() { return jogoOnline() && window.MC_SALA.uid ? (window.MC_SALA.playerId || window.MC_SALA.uid) : "voce"; }
   function quem() { return ORDEM.length ? ORDEM[state.vez % ORDEM.length] : null; }
-  function suaVez() { return state.fase === "deal" && quem() === idJogadorLocal(); }
+  function suaVez() { if (state.iniciando) return false; if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.suaVez(); return state.fase === "deal" && quem() === idJogadorLocal(); }
   function mao(id) { return state.maosPorJogador[id] || []; }
   function saldo(id) { return Number(state.saldosPorJogador[id] || 0); }
   function mudarSaldo(id, valor) { state.saldosPorJogador[id] = saldo(id) + valor; }
@@ -220,7 +220,7 @@
   }
   function limparEstadoPartida() {
     Object.assign(state, {
-      monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
+      protocolo: null, treino: false, monte: [], balaio: [], resolvidosGlobais: {}, errosPorJogador: {}, pagas: {}, vez: 0,
       turnoId: 1, turnoTerminaEm: null, partidaIniciaEm: null, partidaTerminaEm: null,
       fechamentoTerminaEm: null, encerrarAoFimDoCiclo: false, pausado: false,
       pausaRestanteTurno: 0, pausaRestantePartida: 0, ledger: [], respostasFinais: {},
@@ -230,6 +230,7 @@
   }
 
   function iniciarDemo() {
+    if (window.MC_MESA) return window.MC_MESA.iniciarTreinoLocal();
     limparEstadoPartida();
     state.demo = true;
     state.fase = "deal";
@@ -263,6 +264,7 @@
     carregarCaso(caso);
     prepararJogadores(jogadores, false);
     const bonus = distribuir();
+    state.iniciando = jogoOnline();
     const agora = Date.now();
     const total = REGRAS.calcularTempoTotal(CAMPOS.length, ORDEM.length, state.config.tempoPorJogada, state.config.duracao);
     state.partidaIniciaEm = agora;
@@ -283,7 +285,7 @@
     const deadline = state.fase === "fechamento" ? state.fechamentoTerminaEm : state.turnoTerminaEm;
     const pausa = state.fase === "fechamento" ? state.pausaRestanteFechamento : state.pausaRestanteTurno;
     const restante = state.pausado ? pausa / 1000 : tempoRestante(deadline);
-    if ($("#tempo")) $("#tempo").textContent = state.pausado ? "pausa" : formatarTempo(restante);
+    if ($("#tempo")) $("#tempo").textContent = (window.MC_MESA && window.MC_MESA.aguardaMestre()) ? "pausa" : state.treino ? "treino" : state.pausado ? "pausa" : formatarTempo(restante);
     if ($("#fechamento-tempo")) $("#fechamento-tempo").textContent = formatarTempo(tempoRestante(state.fechamentoTerminaEm));
     const cell = $("#cell-tempo");
     if (cell) {
@@ -295,6 +297,8 @@
   }
   function onTick() {
     paintTimer();
+    if (state.iniciando) return;
+    if (state.protocolo === 3) { if (window.MC_MESA) window.MC_MESA.tick(); return; }
     if (state.pausado || !autoridadeRelogio()) return;
     const agora = Date.now();
     if (state.fase === "deal") {
@@ -448,6 +452,7 @@
   }
 
   function comprar(indice) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "comprar", carta: state.monte[Number(indice) || 0]});
     if (!suaVez()) return say("Aguarde a sua vez.");
     if (!state.monte.length) return say("O monte está vazio.");
     const jogador = idJogadorLocal();
@@ -462,7 +467,7 @@
     revelarCompra(id, jogador, function () {
       pagarRecompensa(id, jogador);
       state.log = achou ? "Ganhou uma pipoca que vale 6 ingressos." : "Pista comprada: " + peca(id).marca + ".";
-      passarVez();
+      passarVez(state.log);
     });
     render();
   }
@@ -478,9 +483,10 @@
     mudarSaldo(jogador, -PRECO.captura);
     mudarSaldo(item.dono, PRECO.captura);
     state.log = "Você levou " + peca(pecaId).marca + " que estava em cartaz. " + (NOMES[item.dono] || "O dono") + " recebeu 2 ingressos.";
-    passarVez();
+    passarVez(state.log);
   }
   function capturar(alvoId, pecaId) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "capturar", alvo: alvoId, carta: pecaId});
     const jogador = idJogadorLocal();
     if (!suaVez()) return;
     if (alvoId === "balaio") return capturarBalaio(pecaId);
@@ -492,17 +498,19 @@
     mao(jogador).push(pecaId);
     mudarSaldo(jogador, -PRECO.captura);
     state.log = "Você capturou " + peca(pecaId).marca + " de " + (NOMES[alvoId] || "outro jogador") + ".";
-    passarVez();
+    passarVez(state.log);
   }
   function consignar(pecaId) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.acao({tipo: "consignar", carta: pecaId});
     const jogador = idJogadorLocal();
     if (!suaVez() || !mao(jogador).includes(pecaId)) return;
     state.maosPorJogador[jogador] = mao(jogador).filter(function (id) { return id !== pecaId; });
     state.balaio.push({ id: pecaId, dono: jogador });
     state.log = "Você pôs " + peca(pecaId).marca + " em cartaz.";
-    passarVez();
+    passarVez(state.log);
   }
   function arriscar(campoId, valor) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.confirmarRisco(campoId, valor);
     const jogador = idJogadorLocal();
     const alvo = campo(campoId);
     if (!suaVez() || !alvo || !campoDisponivel(campoId, jogador)) return say("Esse campo já está fechado para você.");
@@ -526,7 +534,7 @@
       mudarSaldo(jogador, -PRECO.arriscar);
       state.log = "Resposta incorreta. Este campo fechou somente para você.";
     }
-    passarVez();
+    passarVez(state.log);
   }
   function jogarRival() {
     if (jogoOnline() || state.fase !== "deal" || suaVez()) return;
@@ -541,6 +549,10 @@
     if (!suaVez()) return say("Aguarde a sua vez.");
     state.verbo = state.verbo === verbo ? null : verbo;
     render();
+    if (state.verbo) {
+      const alvo = state.verbo === "comprar" ? $("#monte-box") : $("#painel");
+      if (alvo && alvo.scrollIntoView) alvo.scrollIntoView({ block: "start", behavior: "auto" });
+    }
   }
 
   function iniciarFechamento() {
@@ -568,6 +580,7 @@
     }).join("") : "<p class='lede'>Você não possui campos disponíveis nesta etapa.</p>";
     box.querySelectorAll("[data-final-campo]").forEach(function (btn) {
       btn.addEventListener("click", function () {
+        if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.respostaFinal(btn.dataset.finalCampo, btn.dataset.finalValor);
         if (!state.respostasFinais[jogador]) state.respostasFinais[jogador] = {};
         state.respostasFinais[jogador][btn.dataset.finalCampo] = btn.dataset.finalValor;
         renderFechamento();
@@ -766,6 +779,7 @@
       painel.querySelectorAll("[data-act='consignar-ok']").forEach(function (b) { b.addEventListener("click", function () { consignar(b.dataset.id); }); });
       painel.querySelectorAll("[data-act='arriscar-ok']").forEach(function (b) { b.addEventListener("click", function () { arriscar(b.dataset.campo, b.dataset.valor); }); });
     }
+    if (window.MC_MESA) window.MC_MESA.pintar();
   }
   function atualizarRegra() {
     if (!CASO || !$("#rule-kicker")) return;
@@ -799,6 +813,7 @@
     }
   }
   function controleMestre(acao) {
+    if (window.MC_MESA && state.protocolo === 3) return window.MC_MESA.controle(acao);
     if (!souMestre()) return;
     const agora = Date.now();
     if (acao === "pausar") {
@@ -841,6 +856,7 @@
     $("#demo-ready")?.addEventListener("click", iniciarDemo);
     $("#go-deal")?.addEventListener("click", iniciarDemo);
     $("#again")?.addEventListener("click", function () {
+      if (window.MC_MESA && state.protocolo === 3 && jogoOnline()) return window.MC_MESA.controle("retornar");
       if (window.MC_SALA && window.MC_SALA.demonstracao) {
         window.MC_SALA.demonstracao = false;
         window.MC_SALA.codigoConvite = null;
@@ -865,6 +881,9 @@
     controleMestre: controleMestre,
     startTimer: startTimer,
     stopTimer: stopTimer,
+    dados: function () { return { caso: CASO, pecas: PECAS, campos: CAMPOS, ordem: ORDEM.slice() }; },
+    usarCatalogo: function (catalogo) { PECAS = Object.assign({}, catalogo); },
+    animarBonus: revelarCompra,
     aplicarSnap: function () {}
   };
 })();

@@ -1,5 +1,11 @@
 # Mosaico Card — Mercado de Pistas
 
+## Atualização da mesa — 3 de novembro de 2026
+
+Demonstração de duas rodadas iniciada pelo mestre, Sessão Clássica e Maratonar (dois jogadores ao mesmo tempo, cada um por si), ajuda permanente e recuperação após recarregar. Configurações de conteúdo ficam com o mestre. Consulte [o funcionamento e a validação](docs/mesa-v3.md) e [a revisão visual](design-qa.md). As novidades valem para salas novas; o acesso continua restrito aos testes conduzidos por mestres autorizados.
+
+Prévia local: `npm run dev`. Testes: `npm test`; com Java 21, `npm run test:firebase` também valida as regras e quatro clientes no emulador oficial.
+
 ## Disponibilidade e novidades — 24 de outubro de 2026
 
 **Testes fechados com condução autorizada**. As versões [Novo Testamento](https://mosaico-card.dragongames.dev.br/novo-testamento/) e [Filmes e Séries](https://mosaico-card.dragongames.dev.br/filmes-e-series/) exigem Google e inclusão na lista de mestres para criar uma sala. Participantes convidados entram por código. A página de escolha das versões pode ser visitada, mas não representa abertura geral dos testes.
