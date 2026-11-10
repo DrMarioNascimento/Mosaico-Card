@@ -23,7 +23,8 @@
   function elegiveis(numeroJogadores, sessao) {
     const s = normalizar(sessao);
     // Os sacos e a memória de recentes usam o ID da obra, comum às duas categorias.
-    return bank.order.filter(function (id) {
+    const obras = s.categoria === "pipoca" ? bank.pipocaOrdem || [] : bank.order;
+    return obras.filter(function (id) {
       const variante = s.categoria === "pipoca" ? bank.pipocaPorObra?.[id] : id;
       const caso = bank.byId[variante];
       if (!disponivel(caso)) return false;
@@ -37,7 +38,7 @@
   function chaveSaco(numeroJogadores, sessao) {
     const s = normalizar(sessao);
     const combinacao = SESSAO ? SESSAO.chave(s) : s.formatos.join("+") + ":" + (s.top50 ? "top50" : "catalogo");
-    return "mc:banco:saco:" + bank.namespace + ":" + bank.catalogVersion + ":v" + bank.schemaVersion + ":" + combinacao + (rascunho ? ":rascunho" : "") + ":j" + (numeroJogadores == null ? "all" : numeroJogadores);
+    return "mc:banco:saco:" + bank.namespace + ":" + bank.catalogVersion + ":v" + bank.schemaVersion + ":" + combinacao + (s.categoria === "pipoca" ? ":acervo1" : "") + (rascunho ? ":rascunho" : "") + ":j" + (numeroJogadores == null ? "all" : numeroJogadores);
   }
   function lerSaco(chave) {
     try {
