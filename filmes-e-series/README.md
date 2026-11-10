@@ -20,9 +20,10 @@ Filmes e séries **a partir de 2001**. Nenhum arquivo desta pasta é compartilha
 ## Banco
 - `data/cinema-base.csv` — base de títulos (353 filmes + 84 séries), com a seleção Top 50 (`selecao`).
 - `data/cinema-bank.json` — fonte editorial das pautas Cinéfilo.
-- `cases-pipoca.js` — pistas curtas, algumas cartas só com emojis, e perguntas sobre título, personagens, elenco e tema. As variantes usam as mesmas obras Cinéfilo e mantêm a capacidade de 2 a 12 jogadores.
+- `cases-pipoca.js` e `data/pipoca-catalogo.js` — cobertura dos 437 títulos de `cinema-base.csv` (353 filmes e 84 séries). Pistas curtas, algumas cartas só com emojis e perguntas sobre título, personagens, elenco e tema.
+- As 29 pautas de 25 cartas mantêm duas por jogador. As outras pautas têm 13 ou 14 cartas e distribuem uma por jogador em mesas com 7 a 12 pessoas. Todas as pautas aceitam 2 a 12 jogadores e deixam ao menos uma carta no poço.
 - `npm run validate:bank` · `npm run generate:bank` (gera `cases-cinema.js`, não editar à mão) · `npm test`.
-- Uma pauta só entra no sorteio com revisão `structural`, `factual`, `spoiler` e `editorial` aprovadas.
+- Uma pauta Cinéfilo só entra no sorteio com revisão `structural`, `factual`, `spoiler` e `editorial` aprovadas.
 - Para testar pautas ainda em revisão: abrir com `?rascunho=1` (o link do QR mantém o modo).
 
 ## Documentos
