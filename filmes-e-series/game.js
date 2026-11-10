@@ -121,6 +121,7 @@
       titulo: origem.sessionTitle || "Sessão",
       tituloReal: origem.title,
       formato: origem.format,
+      baralhoCompacto: origem.deck?.compact === true,
       fonte: origem.canon ? origem.canon.reference : "",
       fonteRevelacao: (origem.canon ? origem.canon.source : ""),
       lede: origem.prompt ? origem.prompt.question : "",
@@ -213,7 +214,7 @@
     const bonus = adicionarPipocasBonus();
     const comuns = ids.filter(function (id) { return id !== especial && !bonus.includes(id); });
     const essenciais = comuns.filter(function (id) { return peca(id).importance === "essential"; });
-    const distribuicao = REGRAS.distribuirPistas(comuns, essenciais, ORDEM, shuffle);
+    const distribuicao = REGRAS.distribuirPistas(comuns, essenciais, ORDEM, shuffle, CASO.baralhoCompacto);
     state.maosPorJogador = distribuicao.maosPorJogador;
     state.monte = state.demo && especial ? [especial].concat(distribuicao.monte) : shuffle(distribuicao.monte.concat(bonus));
     return bonus.length;
@@ -254,7 +255,7 @@
   function iniciarPartida(caso, config, jogadores) {
     const quantidade = Array.isArray(jogadores) ? jogadores.length : 0;
     if (!casoJogavel(caso, quantidade)) {
-      throw new Error("A pauta não está validada ou não comporta esta quantidade de participantes com duas cartas e poço.");
+      throw new Error("A pauta não está validada ou não comporta esta quantidade de participantes.");
     }
     limparEstadoPartida();
     state.demo = false;
