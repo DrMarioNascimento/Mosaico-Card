@@ -6,17 +6,18 @@
     const e = entrada || {};
     let formatos = Array.isArray(e.formatos) ? e.formatos.filter(function (f) { return f === "filme" || f === "serie"; }) : PADRAO.formatos.slice();
     formatos = Array.from(new Set(formatos)).sort();
-    return { formatos: formatos, top50: e.top50 === true };
+    return { formatos: formatos, top50: e.top50 === true, categoria: e.categoria === "pipoca" ? "pipoca" : "cinefilo" };
   }
   function valida(sessao) { return normalizar(sessao).formatos.length > 0; }
   function texto(sessao) {
     const s = normalizar(sessao);
     const formatos = s.formatos.length === 2 ? "Filmes e Séries" : (s.formatos[0] === "filme" ? "Filmes" : (s.formatos[0] === "serie" ? "Séries" : "—"));
-    return "Sessão: " + formatos + " · " + (s.top50 ? "Top 50" : "Catálogo completo") + " · a partir de 2001";
+    const categoria = s.categoria === "pipoca" ? "Pipoca" : "Cinéfilo";
+    return "Sessão: " + categoria + " · " + formatos + " · " + (s.top50 ? "Top 50" : "Catálogo completo") + " · a partir de 2001";
   }
   function chave(sessao) {
     const s = normalizar(sessao);
-    return s.formatos.join("+") + ":" + (s.top50 ? "top50" : "catalogo");
+    return s.formatos.join("+") + ":" + (s.top50 ? "top50" : "catalogo") + (s.categoria === "pipoca" ? ":pipoca" : "");
   }
   const api = { PADRAO: PADRAO, normalizar: normalizar, valida: valida, texto: texto, chave: chave };
   if (typeof module === "object" && module.exports) module.exports = api;
