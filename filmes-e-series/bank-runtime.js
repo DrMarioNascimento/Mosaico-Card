@@ -22,8 +22,10 @@
   }
   function elegiveis(numeroJogadores, sessao) {
     const s = normalizar(sessao);
+    // Os sacos e a memória de recentes usam o ID da obra, comum às duas categorias.
     return bank.order.filter(function (id) {
-      const caso = bank.byId[id];
+      const variante = s.categoria === "pipoca" ? bank.pipocaPorObra?.[id] : id;
+      const caso = bank.byId[variante];
       if (!disponivel(caso)) return false;
       if (!s.formatos.includes(caso.format)) return false;
       if (s.top50 && caso.selection !== "sucessos") return false;
@@ -93,7 +95,8 @@
     saco.ultimo = id;
     salvarSaco(chave, saco);
     salvarRecentes([id].concat(recentes.filter(function (r) { return r !== id; })).slice(0, RECENTES_MAX));
-    return { id: id, caso: bank.byId[id], restantes: saco.ids.length };
+    const variante = normalizar(sessao).categoria === "pipoca" ? bank.pipocaPorObra[id] : id;
+    return { id: variante, caso: bank.byId[variante], restantes: saco.ids.length };
   };
   bank.elegiveis = elegiveis;
   bank.chaveSaco = chaveSaco;
