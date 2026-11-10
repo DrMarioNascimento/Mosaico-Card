@@ -137,19 +137,20 @@
     if ($("#btn-abrir-telao")) $("#btn-abrir-telao").hidden = !(master && sala.config.telao);
   }
 
-  function lerSessao(selFilmes, selSeries, selTop) {
+  function lerSessao(selFilmes, selSeries, selTop, selCategoria) {
     const formatos = [];
     if ($(selFilmes) && $(selFilmes).checked) formatos.push("filme");
     if ($(selSeries) && $(selSeries).checked) formatos.push("serie");
-    return { formatos: formatos, top50: !!($(selTop) && $(selTop).checked) };
+    return { formatos: formatos, top50: !!$(selTop)?.checked, categoria: $(selCategoria)?.value || "cinefilo" };
   }
-  function escreverSessao(sessao, selFilmes, selSeries, selTop) {
+  function escreverSessao(sessao, selFilmes, selSeries, selTop, selCategoria) {
     if ($(selFilmes)) $(selFilmes).checked = sessao.formatos.includes("filme");
     if ($(selSeries)) $(selSeries).checked = sessao.formatos.includes("serie");
     if ($(selTop)) $(selTop).checked = !!sessao.top50;
+    if ($(selCategoria)) $(selCategoria).value = sessao.categoria || "cinefilo";
   }
   function validarSessaoModal() {
-    const ok = !window.MC_SESSAO || window.MC_SESSAO.valida(lerSessao("#sessao-filmes", "#sessao-series", "#sessao-top50"));
+    const ok = !window.MC_SESSAO || window.MC_SESSAO.valida(lerSessao("#sessao-filmes", "#sessao-series", "#sessao-top50", "#sessao-categoria"));
     if ($("#sessao-aviso")) $("#sessao-aviso").hidden = ok;
     if ($("#btn-abrir-com-mesa")) $("#btn-abrir-com-mesa").disabled = !ok;
   }
@@ -164,20 +165,29 @@
     const edicao = $("#lobby-sessao-edicao");
     if (!edicao) return;
     edicao.hidden = !master;
-    if (master && !edicao.contains(document.activeElement)) escreverSessao(sessao, "#lobby-filmes", "#lobby-series", "#lobby-top50");
+    if (master && !edicao.contains(document.activeElement)) escreverSessao(sessao, "#lobby-filmes", "#lobby-series", "#lobby-top50", "#lobby-categoria");
   }
+  let atualizandoSessao = false;
   async function atualizarSessaoLobby() {
-    if (!souMestre() || !sala.codigo) return;
-    const nova = lerSessao("#lobby-filmes", "#lobby-series", "#lobby-top50");
+    if (!souMestre() || !sala.codigo || sala.fase !== "lobby" || atualizandoSessao) return;
+    const nova = lerSessao("#lobby-filmes", "#lobby-series", "#lobby-top50", "#lobby-categoria");
     if (window.MC_SESSAO && !window.MC_SESSAO.valida(nova)) {
       setStatus("#lobby-prontidao", "Marque Filmes, Séries ou os dois.");
-      escreverSessao(sessaoDe(sala.config), "#lobby-filmes", "#lobby-series", "#lobby-top50");
+      escreverSessao(sessaoDe(sala.config), "#lobby-filmes", "#lobby-series", "#lobby-top50", "#lobby-categoria");
       return;
     }
+    const edicao = $("#lobby-sessao-edicao").querySelectorAll("input, select");
+    atualizandoSessao = true;
+    edicao.forEach(controle => { controle.disabled = true; });
     try {
       await refSala(sala.codigo).update({ "config.sessao": nova });
+      sala.config.sessao = nova;
     } catch (e) {
+      escreverSessao(sessaoDe(sala.config), "#lobby-filmes", "#lobby-series", "#lobby-top50", "#lobby-categoria");
       setStatus("#lobby-prontidao", "Não foi possível alterar a sessão. " + (e.code || e.message || ""));
+    } finally {
+      atualizandoSessao = false;
+      edicao.forEach(controle => { controle.disabled = false; });
     }
   }
 
@@ -280,7 +290,7 @@
       tempoPorJogada: Number(tempo ? tempo.dataset.tempo : 45),
       duracao: duracao ? duracao.dataset.duracao : "padrao",
       telao: !!($("#usa-telao") && $("#usa-telao").checked),
-      sessao: lerSessao("#sessao-filmes", "#sessao-series", "#sessao-top50")
+      sessao: lerSessao("#sessao-filmes", "#sessao-series", "#sessao-top50", "#sessao-categoria")
     };
   }
   function abrirConfiguracao() {
@@ -289,7 +299,7 @@
     selecionarGrupo("[data-tempo]", "tempo", sala.config.tempoPorJogada);
     selecionarGrupo("[data-duracao]", "duracao", sala.config.duracao);
     if ($("#usa-telao")) $("#usa-telao").checked = !!sala.config.telao;
-    escreverSessao(sessaoDe(sala.config), "#sessao-filmes", "#sessao-series", "#sessao-top50");
+    escreverSessao({ ...sessaoDe(sala.config), categoria: "pipoca" }, "#sessao-filmes", "#sessao-series", "#sessao-top50", "#sessao-categoria");
     validarSessaoModal();
     setStatus("#mestre-status", "");
     modal.hidden = false;
@@ -452,6 +462,10 @@
   }
   function iniciarPartida() {
     if (!souMestre()) return;
+    if (atualizandoSessao) {
+      setStatus("#lobby-prontidao", "Aguarde enquanto a sessão é salva.");
+      return;
+    }
     const impedimento = impedimentoInicio();
     if (impedimento) {
       setStatus("#lobby-prontidao", impedimento);
@@ -575,8 +589,8 @@
     document.querySelectorAll("[data-duracao]").forEach(function (btn) {
       btn.addEventListener("click", function () { selecionarGrupo("[data-duracao]", "duracao", btn.dataset.duracao); });
     });
-    ["#sessao-filmes", "#sessao-series", "#sessao-top50"].forEach(function (sel) { $(sel)?.addEventListener("change", validarSessaoModal); });
-    ["#lobby-filmes", "#lobby-series", "#lobby-top50"].forEach(function (sel) { $(sel)?.addEventListener("change", atualizarSessaoLobby); });
+    ["#sessao-filmes", "#sessao-series", "#sessao-top50", "#sessao-categoria"].forEach(function (sel) { $(sel)?.addEventListener("change", validarSessaoModal); });
+    ["#lobby-filmes", "#lobby-series", "#lobby-top50", "#lobby-categoria"].forEach(function (sel) { $(sel)?.addEventListener("change", atualizarSessaoLobby); });
     ["#nome", "#cod"].forEach(function (sel) {
       $(sel)?.addEventListener("keydown", function (e) { if (e.key === "Enter") { e.preventDefault(); confirmarIdentidade(); } });
     });
