@@ -643,8 +643,7 @@
     C4: ["Uma corrida de carros", "Um concurso de dança", "Uma viagem de navio", "Um campeonato de futebol", "Uma disputa de culinária", "Uma banda em turnê"]
   };
 
-  function campo(original, rotulo, resposta, index) {
-    const alternativasErradas = alternativas[original.id];
+  function campo(original, rotulo, resposta, index, alternativasErradas = alternativas[original.id]) {
     const escolhas = [0, 1, 2].map(offset => alternativasErradas[(index + offset) % alternativasErradas.length]);
     const posicao = (index + original.sourceOrder) % 4;
     escolhas.splice(posicao, 0, resposta);
@@ -698,6 +697,75 @@
       }),
       editorial: { hinge: tema + ". " + (anime ? ator + " dá voz ao herói." : ator + " está no elenco.") },
       deck: { ...original.deck, cards: cartas }
+    };
+  });
+  // Inclui as demais obras de cinema-base.csv sem alterar o acervo Cinéfilo.
+  const catalogo = root.MC_PIPOCA_CATALOGO || [];
+  banco.pipocaOrdem = Object.keys(banco.pipocaPorObra);
+  const obras = banco.order.map(id => banco.byId[id]);
+  const titulosPorFormato = {
+    filme: obras.filter(obra => obra.format === "filme").map(obra => obra.title),
+    serie: obras.filter(obra => obra.format === "serie").map(obra => obra.title)
+  };
+  for (const [, formato, titulo] of catalogo) titulosPorFormato[formato].push(titulo);
+
+  const opcoesSimples = {
+    personagens: ["Capitão Ahab", "Anne Shirley", "Heidi", "Asterix", "Obelix", "Dona Flor", "Emília", "Saci-Pererê", "Mafalda"],
+    elenco: ["Humphrey Bogart", "Cary Grant", "Ingrid Bergman", "Buster Keaton", "Rita Hayworth", "Judy Garland", "James Dean", "Lauren Bacall", "Gene Kelly"],
+    temas: ["Uma família se prepara pra uma feira de ciências", "Uma dupla precisa organizar um desfile", "Um padeiro tenta ganhar um concurso de bolos", "Uma turma aprende a tocar numa orquestra", "Uma equipe sai pra consertar um farol", "Uma vizinha monta uma rádio no bairro"]
+  };
+  function opcoesDeTitulo(titulo, formato, index) {
+    const titulos = titulosPorFormato[formato];
+    // Passos diferentes mantêm as alternativas do mesmo formato sem repetir a resposta.
+    const opcoes = [];
+    for (let passo = 1; opcoes.length < 3 && passo < titulos.length; passo += 1) {
+      const candidato = titulos[(index + passo * 17) % titulos.length];
+      if (candidato !== titulo && !opcoes.includes(candidato)) opcoes.push(candidato);
+    }
+    return opcoes;
+  }
+
+  catalogo.forEach(([imdbId, formato, titulo, ano, selecao, elenco, personagem, tema, pistas, fonte, emoji], index) => {
+    const idObra = "cs1-" + imdbId;
+    const id = idObra + "-pipoca";
+    const imdb = "https://www.imdb.com/title/" + imdbId + "/";
+    const referencias = [{ source: "IMDb", url: imdb }];
+    if (fonte) referencias.push({ source: "Ficha da obra", url: fonte });
+    const ficha = referencias.map(ref => ref.source).join(" · ");
+    const campos = [
+      ["Qual é o título?", titulo, opcoesDeTitulo(titulo, formato, index)],
+      ["Quem aparece na história?", personagem, opcoesSimples.personagens],
+      ["Quem está no elenco?", elenco[0], opcoesSimples.elenco],
+      ["Qual é a ideia da história?", tema, opcoesSimples.temas]
+    ].map(([rotulo, resposta, erradas], i) => ({
+      ...campo({ id: "C" + (i + 1), sourceOrder: i + 1 }, rotulo, resposta, index, erradas),
+      endereco: ficha, answerReferences: referencias
+    }));
+    const cartas = [
+      ...pistas.map(texto => ({ texto: texto + ".", marca: "Pista", importance: "essential" })),
+      ...elenco.map(nome => ({ texto: "Tem " + nome + " no elenco.", marca: "Elenco" })),
+      { texto: "Aparece na história: " + personagem + ".", marca: "Personagem" },
+      { texto: tema + ".", marca: "História" },
+      { texto: "Ano no catálogo: " + ano + ".", marca: "Época" },
+      { texto: formato === "filme" ? "A obra é um filme." : "A obra é uma série.", marca: "Formato" },
+      ...(emoji ? [{ texto: emoji, marca: "Emojis" }] : [])
+    ].map((carta, i) => ({
+      id: "P" + String(i + 1).padStart(2, "0"),
+      importance: "relevant",
+      ...carta
+    }));
+    banco.pipocaOrdem.push(idObra);
+    banco.pipocaPorObra[idObra] = id;
+    banco.byId[id] = {
+      id, imdbId, format: formato, selection: selecao, releaseYear: ano, title: titulo,
+      sessionTitle: "Sessão Pipoca",
+      canon: { source: "Ficha da obra", reference: ficha, references: referencias },
+      prompt: { question: "Que obra é essa? Junte as pistas pra descobrir." },
+      focalFieldId: "C1",
+      fields: campos,
+      editorial: { hinge: tema + ". Tem " + elenco.join(" e ") + " no elenco." },
+      status: { playable: true },
+      deck: { status: "ready", minPlayers: 2, maxPlayers: 12, compact: true, cards: cartas }
     };
   });
 })(typeof globalThis !== "undefined" ? globalThis : this);
