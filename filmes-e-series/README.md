@@ -13,13 +13,14 @@ Filmes e séries **a partir de 2001**. Nenhum arquivo desta pasta é compartilha
 - Moeda: **ingressos** (no lugar dos denários). Carta bônus: **pipoca** (vale 6 e sai do jogo).
 - Abertura: claquete + tela de série, com a peça dourada do Mosaico.
 - Configuração da sala (antes de abrir, ajustável no lobby até "Iniciar"):
-  ☑ Filmes ☑ Séries ☐ Só os mais conhecidos (Top 50).
+  Filmes, Séries e Top 50 são filtros separados da categoria. O mestre escolhe **Pipoca** (padrão em salas novas) ou **Cinéfilo**.
 - Na mesa aparece só o **título de sessão** (neutro); o título real é a resposta e aparece na revelação.
 - Firebase: mesmo projeto, coleção própria **`salas-cinema`**.
 
 ## Banco
 - `data/cinema-base.csv` — base de títulos (353 filmes + 84 séries), com a seleção Top 50 (`selecao`).
-- `data/cinema-bank.json` — pautas escritas (fonte editorial). Pauta-piloto: *Wandinha* (em revisão).
+- `data/cinema-bank.json` — fonte editorial das pautas Cinéfilo.
+- `cases-pipoca.js` — pistas curtas, algumas cartas só com emojis, e perguntas sobre título, personagens, elenco e tema. As variantes usam as mesmas obras Cinéfilo e mantêm a capacidade de 2 a 12 jogadores.
 - `npm run validate:bank` · `npm run generate:bank` (gera `cases-cinema.js`, não editar à mão) · `npm test`.
 - Uma pauta só entra no sorteio com revisão `structural`, `factual`, `spoiler` e `editorial` aprovadas.
 - Para testar pautas ainda em revisão: abrir com `?rascunho=1` (o link do QR mantém o modo).
