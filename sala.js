@@ -127,6 +127,8 @@
       iniciar.setAttribute("aria-disabled", impedimento ? "true" : "false");
       iniciar.title = impedimento;
     }
+    const modo = $("#lobby-modo-nt");
+    if (modo) modo.textContent = sala.config.modoNT === "devocional" ? "Modo Devocional" : "Modo Pastor";
     if ($("#lobby-espera")) $("#lobby-espera").hidden = master;
     if ($("#btn-abrir-telao")) $("#btn-abrir-telao").hidden = !(master && sala.config.telao);
   }
@@ -227,6 +229,7 @@
     const duracao = document.querySelector("[data-duracao].on");
     return {
       modalidade: document.querySelector("[name=modalidade]:checked")?.value || "classica",
+      modoNT: document.querySelector("[name=modo-nt]:checked")?.value === "devocional" ? "devocional" : "pastor",
       tempoPorJogada: Number(tempo ? tempo.dataset.tempo : 45),
       duracao: duracao ? duracao.dataset.duracao : "padrao",
       telao: !!($("#usa-telao") && $("#usa-telao").checked)
@@ -394,7 +397,7 @@
 
   function escolherPauta() {
     if (!window.MC_NT_BANK || typeof window.MC_NT_BANK.sortear !== "function") return { erro: "O banco NT ainda não foi carregado." };
-    return window.MC_NT_BANK.sortear(sala.jogadores.length);
+    return window.MC_NT_BANK.sortear(sala.jogadores.length, sala.config.modoNT);
   }
   function iniciarPartida() {
     if (!souMestre()) return;

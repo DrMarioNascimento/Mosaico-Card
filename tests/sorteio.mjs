@@ -3,11 +3,15 @@ import { readFileSync } from "node:fs";
 import { createContext, runInContext } from "node:vm";
 
 const catalogSource = readFileSync(new URL("../cases-nt.js", import.meta.url), "utf8");
+const devocionalSource = readFileSync(new URL("../devocional.js", import.meta.url), "utf8");
 const runtimeSource = readFileSync(new URL("../bank-runtime.js", import.meta.url), "utf8");
 const storage = new Map([["mc:nt:saco:v1", JSON.stringify({ ids: ["nt-001"], ultimo: "nt-052" })]]);
 const context = createContext({ window: {}, globalThis: {}, document: { createElement: () => ({}), head: { appendChild() {} } }, localStorage: { getItem: key => storage.get(key) ?? null, setItem: (key, value) => storage.set(key, value) }, Math, JSON });
 context.globalThis = context; context.window = context;
-runInContext(catalogSource, context); runInContext(runtimeSource, context);
+runInContext(catalogSource, context);
+const originais = JSON.stringify(context.MC_NT_BANK.byId);
+runInContext(devocionalSource, context);
+runInContext(runtimeSource, context);
 const bank = context.MC_NT_BANK;
 const eligible = bank.elegiveis();
 assert.equal(eligible.length, bank.summary.playableCases);
@@ -44,4 +48,28 @@ const cycle7 = Array.from({ length: eligible7.length }, () => bank.sortear(7).id
 assert.ok(cycle7.every(id => eligible7.includes(id) && bank.byId[id].deck.maxPlayers >= 7));
 assert.ok([...storage.keys()].some(key => key.endsWith(":j6")) && [...storage.keys()].some(key => key.endsWith(":j7")), "sacos persistidos são separados por capacidade da mesa");
 assert.ok(storage.has("mc:nt:saco:v1"), "estado legado fica intocado e não é reutilizado");
-console.log("ok saco versionado do novo banco");
+const normalizar = texto => texto.normalize("NFD").replace(/\p{M}/gu, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
+const idsDevocionais = bank.elegiveis(12, "devocional");
+assert.equal(idsDevocionais.length, Object.keys(context.MC_NT_DEVOCIONAL).length);
+assert.equal(new Set(Array.from({length: idsDevocionais.length}, () => bank.sortear(12, "devocional").id)).size, idsDevocionais.length);
+for (const id of idsDevocionais) {
+  const caso = bank.byId[id];
+  const original = bank.byId[id.replace(/-devocional$/, "")];
+  assert.equal(caso.canon.referenceNAA, original.canon.referenceNAA);
+  assert.equal(caso.deck.maxPlayers, original.deck.maxPlayers);
+  assert.equal(caso.deck.cards.length, original.deck.cards.length);
+  assert.equal(new Set(caso.deck.cards.map(p => p.texto)).size, caso.deck.cards.length);
+  assert.ok(caso.deck.cards.every(p => typeof p.texto === "string" && p.texto.length > 0));
+  assert.ok(caso.deck.cards.filter(p => p.marca === "Emojis").length <= 1);
+  assert.equal(caso.fields.length, 4);
+  const textos = [caso.title, caso.prompt.question, ...caso.deck.cards.map(p => p.texto)].map(normalizar);
+  for (const campo of caso.fields) {
+    const resposta = normalizar(campo.respostaCanonica);
+    assert.ok(!textos.some(texto => (" " + texto + " ").includes(" " + resposta + " ")), caso.id + ":" + campo.id);
+  }
+  assert.ok(caso.fields.every((f, i) => f.rotulo && f.respostaId === original.fields[i].respostaId && new Set(f.opcoes.map(o => o.texto)).size === 4));
+}
+assert.equal(JSON.stringify(Object.fromEntries(bank.order.map(id => [id, bank.byId[id]]))), originais);
+assert.ok([...storage.keys()].some(key => key.endsWith(":devocional:j12")));
+assert.ok(!bank.elegiveis(12, "pastor").some(id => id.endsWith("-devocional")));
+console.log("ok sorteio e catálogos Pastor e Devocional");
