@@ -1,12 +1,11 @@
 /* Camada comum às duas edições. Mantém a identidade, com ações e estados legíveis. */
 [hidden] { display: none !important; }
 html, body { overscroll-behavior-y: contain; }
-:root { --mesa-dock: 240px; }
-#verbos button { min-height: 58px; height: auto; padding: 9px 7px; display: flex; flex-direction: column; justify-content: center; gap: 4px; font-size: 16px; line-height: 1.15; color: #fff7ea; background: linear-gradient(#4b453e, #342f2a 56%, #292521); border: 1px solid #827466; box-shadow: inset 0 2px 1px #ffffff30, inset 0 -2px 0 #0003, 0 4px 0 #191613, 0 7px 12px #0004; }
+#verbos button { min-height: 58px; height: auto; padding: 9px 7px; display: flex; flex-direction: column; justify-content: center; gap: 4px; font-size: 16px; line-height: 1.15; color: #f3f4ff; background: linear-gradient(#434c68, #333c57 56%, #28314a); border: 1px solid #687596; box-shadow: inset 0 2px 1px #ffffff30, inset 0 -2px 0 #0003, 0 4px 0 #151d31, 0 7px 12px #0004; }
 #verbos button small { display: block; font: 600 11px/1.3 system-ui,sans-serif; letter-spacing: 0; text-transform: none; opacity: 1; }
 #verbos button::after, #verbos button::before { content: none; }
-#verbos button.ligado:not(:disabled) { border-color: #e5ca95; box-shadow: inset 0 0 0 1px #e5ca95, 0 4px 0 #191613; }
-#verbos button:not(:disabled):hover { background: linear-gradient(#5a5148, #3a332c); }
+#verbos button.ligado:not(:disabled) { border-color: #e5ca95; box-shadow: inset 0 0 0 1px #e5ca95, 0 4px 0 #151d31; }
+#verbos button:not(:disabled):hover { background: linear-gradient(#505b79, #36415d); }
 #verbos button:disabled { opacity: .62; filter: saturate(.4); box-shadow: inset 0 1px 0 #fff4, 0 2px 0 #0004; transform: none; cursor: default; }
 button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid #ffd26f; outline-offset: 4px; }
 #estado-acoes { margin: 3px 0 9px; font: 600 12px/1.4 system-ui,sans-serif; text-align: center; color: #fae9c8; }
@@ -43,8 +42,7 @@ dialog button { min-height: 44px; }
 #treino-fim .wrap { padding-bottom: 90px; }
 #treino-fim p { line-height: 1.6; }
 @media(max-width:600px) {
-  #deal .wrap { padding-bottom: calc(var(--mesa-dock) + 32px + env(safe-area-inset-bottom)); }
-  #deal .control-dock { height: auto; padding-bottom: max(12px,env(safe-area-inset-bottom)); }
+  #deal .wrap { padding-bottom: max(24px, env(safe-area-inset-bottom)); }
   #verbos { gap: 10px; }
   #verbos button { min-height: 56px; font-size: 15px; }
   #cell-tempo .vez-inline b { font-size: 14px; overflow-wrap: anywhere; }
@@ -62,9 +60,9 @@ dialog button { min-height: 44px; }
 #deal .mobile-topbar { position: sticky; top: 0; z-index: 45; }
 #deal #painel, #deal #monte-box { scroll-margin-top: 82px; }
 #lobby-modalidade-texto { font-size: 14px; line-height: 1.5; }
-#deal #cell-tempo.minha-vez:not(.urgente) { border-color: #68584b; }
+#deal #cell-tempo.minha-vez:not(.urgente) { border-color: #515c7a; }
 #deal #cell-tempo.minha-vez:not(.urgente) strong,
-#deal #cell-tempo.minha-vez:not(.urgente) .vez-inline b { color: #fff7ea; }
+#deal #cell-tempo.minha-vez:not(.urgente) .vez-inline b { color: #f3f4ff; }
 @media(max-width:600px) {
   #deal .control-dock .status-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #deal .control-dock .cell-saldo { grid-template-columns: 40px minmax(0, 1fr); gap: 6px; height: auto; min-height: 56px; }
@@ -81,15 +79,29 @@ dialog button { min-height: 44px; }
   #deal .mark-name { display: none; }
 }
 
-/* Na mesa, o dourado identifica a mão e as ações do próprio jogador. */
 #deal .mesa-areas,
+#deal .mesa-areas-jogador,
 #deal .mesa-areas-compartilhadas { display: grid; grid-template-columns: minmax(0, 1fr); gap: 12px; min-width: 0; align-items: start; }
 #deal .mesa-areas section { min-width: 0; }
+#deal .mesa-areas-jogador {
+  gap: 10px;
+  padding: 10px;
+  border: 1px solid #5c6888;
+  border-radius: 18px;
+  background: #232b42;
+}
+#deal.vez-do-jogador .mesa-areas-jogador {
+  border-color: #d6b477;
+  box-shadow: inset 0 0 0 1px #d6b47730, 0 0 16px #eab5563b, 0 5px 16px #0004;
+}
+#deal #pistas-box { grid-column: auto !important; }
 #deal .mesa-area-titulo { display: block; margin: 0 0 8px; color: #dbf3ff; font-size: .95rem; }
 #deal .mesa-area-publica { padding: 12px; background: #102833; border: 1px solid #45798c; border-radius: 16px; }
 #deal .mesa-area-publica .monte-box { margin-top: 8px; border-color: #45798c; }
-#deal .mesa-area-pessoal { border: 1px solid #776653; border-radius: 16px; box-shadow: inset 0 1px 0 #f8e3b424; }
-#deal .mesa-area-pessoal .pistas-toggle small { color: #f7d999; }
+#deal .mesa-area-pessoal { border: 1px solid #515c7a; border-radius: 12px; background: #29324b; }
+#deal .mesa-area-pessoal .pistas-toggle small { color: #c3cce5; }
+#deal .mesa-area-pessoal .pistas-toggle > span:first-child { flex-wrap: wrap; gap: 4px 8px; }
+#deal .mesa-area-pessoal #hand { grid-template-columns: minmax(0, 1fr); }
 #deal .mesa-area-outros { padding: 0 10px; background: #1a2530; border: 1px solid #526277; border-radius: 16px; }
 #deal .mesa-area-outros .jogadores-bar { margin: 0; border: 0; background: transparent; box-shadow: none; }
 #deal .mesa-area-outros .jogadores-bar summary::after { content: ""; border: solid currentColor; border-width: 0 2px 2px 0; width: 7px; height: 7px; transform: rotate(45deg); }
@@ -103,20 +115,14 @@ dialog button { min-height: 44px; }
 #deal .control-dock {
   box-sizing: border-box;
   padding: 12px;
-  border: 1px solid #776653;
-  border-radius: 16px;
-  background: #25211e;
-  box-shadow: 0 5px 16px #0004;
+  border: 1px solid #515c7a;
+  border-radius: 12px;
+  background: #29324b;
 }
-#deal .control-dock .mesa-area-titulo { margin: 0 0 2px; color: #fff2db; }
-#deal .control-dock .status-cell { background: #302922; }
-#deal .control-dock .status-cell:not(.urgente) { border-color: #68584b; }
-#deal .control-dock .status-cell small { color: #dbcab4; }
-#deal.vez-do-jogador .mesa-area-pessoal { border-color: #b69b6b; }
-#deal.vez-do-jogador .control-dock {
-  border-color: #d6b477;
-  box-shadow: inset 0 0 0 1px #d6b47730, 0 0 16px #eab5563b, 0 5px 16px #0004;
-}
+#deal .control-dock .mesa-area-titulo { margin: 0 0 2px; color: #f3f4ff; }
+#deal .control-dock .status-cell { background: #212940; }
+#deal .control-dock .status-cell:not(.urgente) { border-color: #515c7a; }
+#deal .control-dock .status-cell small { color: #c3cce5; }
 #deal #estado-acoes { margin: 1px 0 3px; border-radius: 8px; padding: 5px 8px; }
 #deal.vez-do-jogador #estado-acoes { color: #2c1d0c; background: #e8c988; font-weight: 800; }
 #deal.vez-do-jogador #monte-box.compra-ativa { border-color: #e5c385; box-shadow: 0 0 13px #eac57760; }
@@ -134,10 +140,12 @@ dialog button { min-height: 44px; }
 #risco-dialog[open] #risco-confirmar { color: #2c1d0c; background: linear-gradient(#f8dfa8, #dcb36b); }
 #deal #verbos button.acao-guiada:not(:disabled) { outline: 2px solid #ffe092; outline-offset: 2px; }
 @media(max-width:600px) {
-  #deal .control-dock { padding: 8px 8px max(10px, env(safe-area-inset-bottom)); }
+  #deal .control-dock { position: static; transform: none; width: 100%; height: auto; padding: 8px; backdrop-filter: none; }
+  #deal .mesa-areas-jogador { padding: 8px; }
   #deal .control-dock .mesa-area-titulo { font-size: .82rem; }
 }
 @media (min-width: 740px) {
+  #deal .mesa-areas-jogador { grid-template-columns: minmax(0, 1fr) minmax(0, 1.3fr); }
   #deal .mesa-areas-compartilhadas { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
 }
 

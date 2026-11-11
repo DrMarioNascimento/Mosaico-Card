@@ -617,8 +617,6 @@
     $("#btn-recuperar").onclick = abrirRecuperacao;
     $("#recuperar-enviar").onclick = recuperar;
     $("#recuperar-fechar").onclick = () => $("#recuperar-dialog").close();
-    const dock = $(".control-dock");
-    if (dock && window.ResizeObserver) new ResizeObserver(entries => document.documentElement.style.setProperty("--mesa-dock", entries[0].target.getBoundingClientRect().height + "px")).observe(dock);
     restaurar();
     heartbeat = setInterval(() => { pulso(); pintarSala(); }, 10000);
   });
