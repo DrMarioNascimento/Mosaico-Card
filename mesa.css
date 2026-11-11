@@ -2,14 +2,11 @@
 [hidden] { display: none !important; }
 html, body { overscroll-behavior-y: contain; }
 :root { --mesa-dock: 240px; }
-#verbos button { min-height: 58px; height: auto; padding: 9px 7px; display: flex; flex-direction: column; justify-content: center; gap: 4px; font-size: 16px; line-height: 1.15; border: 1px solid #ffffff70; box-shadow: inset 0 2px 1px #ffffff40, inset 0 -2px 0 #0003, 0 4px 0 #0005, 0 7px 12px #0003; }
+#verbos button { min-height: 58px; height: auto; padding: 9px 7px; display: flex; flex-direction: column; justify-content: center; gap: 4px; font-size: 16px; line-height: 1.15; color: #fff7ea; background: linear-gradient(#4b453e, #342f2a 56%, #292521); border: 1px solid #827466; box-shadow: inset 0 2px 1px #ffffff30, inset 0 -2px 0 #0003, 0 4px 0 #191613, 0 7px 12px #0004; }
 #verbos button small { display: block; font: 600 11px/1.3 system-ui,sans-serif; letter-spacing: 0; text-transform: none; opacity: 1; }
 #verbos button::after, #verbos button::before { content: none; }
-#verbos button[data-verbo="comprar"] { --acao: #63d7af; background: linear-gradient(#378b75,#185443); color: #fff; }
-#verbos button[data-verbo="capturar"] { --acao: #79bdff; background: linear-gradient(#397db1,#19496d); color: #fff; }
-#verbos button[data-verbo="consignar"] { --acao: #f0c666; background: linear-gradient(#f2d28a,#c49139); color: #281c0d; }
-#verbos button[data-verbo="arriscar"] { --acao: #f1a6b6; background: linear-gradient(#a04258,#6e263a); color: #fff; }
-#verbos button.ligado { outline: 3px solid var(--acao); outline-offset: 3px; box-shadow: inset 0 2px 1px #fff5, 0 4px 0 #0005, 0 0 15px var(--acao); transform: translateY(-1px); }
+#verbos button.ligado:not(:disabled) { border-color: #e5ca95; box-shadow: inset 0 0 0 1px #e5ca95, 0 4px 0 #191613; }
+#verbos button:not(:disabled):hover { background: linear-gradient(#5a5148, #3a332c); }
 #verbos button:disabled { opacity: .62; filter: saturate(.4); box-shadow: inset 0 1px 0 #fff4, 0 2px 0 #0004; transform: none; cursor: default; }
 button:focus-visible, select:focus-visible, input:focus-visible, summary:focus-visible { outline: 3px solid #ffd26f; outline-offset: 4px; }
 #estado-acoes { margin: 3px 0 9px; font: 600 12px/1.4 system-ui,sans-serif; text-align: center; color: #fae9c8; }
@@ -54,7 +51,7 @@ dialog button { min-height: 44px; }
   .control-dock .status-cell { min-width: 0; }
   #painel { margin-bottom: 16px; }
 }
-@media(prefers-reduced-motion:reduce) { #verbos button { transition: none; } }
+@media(prefers-reduced-motion:reduce) { #verbos button { transition: none; } #deal #cell-tempo.urgente { animation: none; } }
 @media(min-width:601px) {
   .treino-dica { display: grid; grid-template-columns: 1fr auto; gap: 6px 18px; align-items: center; }
   .treino-dica > b { grid-column: 1 / -1; }
@@ -65,9 +62,9 @@ dialog button { min-height: 44px; }
 #deal .mobile-topbar { position: sticky; top: 0; z-index: 45; }
 #deal #painel, #deal #monte-box { scroll-margin-top: 82px; }
 #lobby-modalidade-texto { font-size: 14px; line-height: 1.5; }
-#deal #cell-tempo.minha-vez:not(.urgente) { border-color: #e8bc6e; }
+#deal #cell-tempo.minha-vez:not(.urgente) { border-color: #68584b; }
 #deal #cell-tempo.minha-vez:not(.urgente) strong,
-#deal #cell-tempo.minha-vez:not(.urgente) .vez-inline b { color: #f6d58c; }
+#deal #cell-tempo.minha-vez:not(.urgente) .vez-inline b { color: #fff7ea; }
 @media(max-width:600px) {
   #deal .control-dock .status-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   #deal .control-dock .cell-saldo { grid-template-columns: 40px minmax(0, 1fr); gap: 6px; height: auto; min-height: 56px; }
@@ -90,8 +87,8 @@ dialog button { min-height: 44px; }
 #deal .mesa-areas section { min-width: 0; }
 #deal .mesa-area-titulo { display: block; margin: 0 0 8px; color: #dbf3ff; font-size: .95rem; }
 #deal .mesa-area-publica { padding: 12px; background: #102833; border: 1px solid #45798c; border-radius: 16px; }
-#deal .mesa-area-publica .monte-box { margin-top: 8px; }
-#deal .mesa-area-pessoal { border: 1px solid #9e8054; border-radius: 16px; box-shadow: inset 0 1px 0 #f8e3b424; }
+#deal .mesa-area-publica .monte-box { margin-top: 8px; border-color: #45798c; }
+#deal .mesa-area-pessoal { border: 1px solid #776653; border-radius: 16px; box-shadow: inset 0 1px 0 #f8e3b424; }
 #deal .mesa-area-pessoal .pistas-toggle small { color: #f7d999; }
 #deal .mesa-area-outros { padding: 0 10px; background: #1a2530; border: 1px solid #526277; border-radius: 16px; }
 #deal .mesa-area-outros .jogadores-bar { margin: 0; border: 0; background: transparent; box-shadow: none; }
@@ -103,13 +100,43 @@ dialog button { min-height: 44px; }
 #deal .mesa-balaio { margin: 8px 0 0; color: #d3eaf3; font-size: .78rem; line-height: 1.45; overflow-wrap: anywhere; }
 #deal .mesa-areas h3 { margin: 10px 0 6px; font-size: .85rem; }
 #deal .saldo-head small { line-height: 1.25; white-space: normal; }
-#deal.vez-do-jogador .mesa-area-pessoal,
-#deal.vez-do-jogador .control-dock {
-  border-color: #ffe092;
-  box-shadow: inset 0 0 0 1px #ffe09268, 0 0 20px #eab55642;
+#deal .control-dock {
+  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid #776653;
+  border-radius: 16px;
+  background: #25211e;
+  box-shadow: 0 5px 16px #0004;
 }
-#deal.vez-do-jogador #estado-acoes { color: #fff1c5; background: #65451e; border-radius: 8px; padding: 4px 8px; font-weight: 800; }
+#deal .control-dock .mesa-area-titulo { margin: 0 0 2px; color: #fff2db; }
+#deal .control-dock .status-cell { background: #302922; }
+#deal .control-dock .status-cell:not(.urgente) { border-color: #68584b; }
+#deal .control-dock .status-cell small { color: #dbcab4; }
+#deal.vez-do-jogador .mesa-area-pessoal { border-color: #b69b6b; }
+#deal.vez-do-jogador .control-dock {
+  border-color: #d6b477;
+  box-shadow: inset 0 0 0 1px #d6b47730, 0 0 16px #eab5563b, 0 5px 16px #0004;
+}
+#deal #estado-acoes { margin: 1px 0 3px; border-radius: 8px; padding: 5px 8px; }
+#deal.vez-do-jogador #estado-acoes { color: #2c1d0c; background: #e8c988; font-weight: 800; }
+#deal.vez-do-jogador #monte-box.compra-ativa { border-color: #e5c385; box-shadow: 0 0 13px #eac57760; }
+#deal.vez-do-jogador #monte-box.compra-ativa .carta-costa:not(:disabled) {
+  border-color: #f6d799;
+  box-shadow: inset 1px 1px 2px #fff4, 0 4px 0 #62482f, 0 0 8px #eac57750;
+}
+#deal.vez-do-jogador #monte-box.compra-ativa .carta-costa:not(:disabled):is(:hover, :focus-visible),
+#deal.vez-do-jogador #painel button[data-act]:not(:disabled),
+#risco-dialog[open] #risco-confirmar {
+  border-color: #f6d799;
+  box-shadow: inset 0 0 0 1px #f6d799, 0 0 10px #eac57765;
+}
+#deal.vez-do-jogador #painel button[data-act]:not(:disabled):is(:hover, :focus-visible) { box-shadow: inset 0 0 0 2px #f6d799, 0 0 12px #eac57785; }
+#risco-dialog[open] #risco-confirmar { color: #2c1d0c; background: linear-gradient(#f8dfa8, #dcb36b); }
 #deal #verbos button.acao-guiada:not(:disabled) { outline: 2px solid #ffe092; outline-offset: 2px; }
+@media(max-width:600px) {
+  #deal .control-dock { padding: 8px 8px max(10px, env(safe-area-inset-bottom)); }
+  #deal .control-dock .mesa-area-titulo { font-size: .82rem; }
+}
 @media (min-width: 740px) {
   #deal .mesa-areas-compartilhadas { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
 }
