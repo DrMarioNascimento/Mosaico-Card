@@ -31,7 +31,12 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]
  assert.equal(master.w.MC_MESA.suaVez(),true);assert.equal(player.w.MC_MESA.suaVez(),true);
  const turn=player.w.MC_GAME_ENGINE.state.turnoId;
  click(player,'#treino-entendi');assert.equal(player.w.MC_GAME_ENGINE.state.turnoId,turn,'Entendi não passa a vez');
- await jogar(master);assert.equal(master.w.MC_MESA.suaVez(),false);
+ assert.ok(master.w.document.querySelector('#deal.vez-do-jogador #pistas-box'));
+ assert.ok(master.w.document.querySelector('#mesa-publica #monte-box'));
+ assert.equal(master.w.document.querySelectorAll('#mesa-outros [data-jogador]').length,3);
+ const primeira=master.w.MC_GAME_ENGINE.state.campos[0];
+ await jogar(master,{tipo:'arriscar',campo:primeira.id,valor:primeira.resposta});assert.equal(master.w.MC_MESA.suaVez(),false);
+ assert.equal(master.w.document.querySelector('#deal').classList.contains('vez-do-jogador'),false);
  // Recarrega a pessoa que ainda não escolheu: conserva identidade, pistas e vez.
  const salvo=player.save(),mao=clone(player.w.MC_GAME_ENGINE.state.maosPorJogador.pessoa);player.close();player=await abrir(server,edicao,'pessoa',salvo);
  assert.equal(player.w.MC_SALA.codigo,codigo);assert.deepEqual(clone(player.w.MC_GAME_ENGINE.state.maosPorJogador.pessoa),mao);assert.equal(player.w.MC_MESA.suaVez(),true);
@@ -39,11 +44,18 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]
  // Automatizados fazem suas ações nas mesmas regras. Avanço de tempo abaixo da tolerância de desconexão.
  server.agora+=8100;await master.w.MC_MESA.conectar();await player.w.MC_MESA.conectar();master.w.MC_MESA.tick();await flush();server.agora+=8100;await master.w.MC_MESA.conectar();await player.w.MC_MESA.conectar();master.w.MC_MESA.tick();await flush();
  assert.equal(master.w.MC_GAME_ENGINE.state.vez,4);
- await jogar(master);await jogar(player);
+ await jogar(master,{tipo:'passar'});await jogar(player);
  server.agora+=8100;await master.w.MC_MESA.conectar();await player.w.MC_MESA.conectar();master.w.MC_MESA.tick();await flush();server.agora+=8100;await master.w.MC_MESA.conectar();await player.w.MC_MESA.conectar();master.w.MC_MESA.tick();await flush();
- assert.equal(master.w.document.querySelector('.scene.active').id,'treino-fim');assert.equal(player.w.document.querySelector('.scene.active').id,'treino-fim');
- assert.equal(Object.keys(master.w.MC_GAME_ENGINE.state.pagas).length,1);
- click(master,'#treino-voltar');await flush();assert.equal(player.w.MC_SALA.fase,'lobby');
+ assert.equal(master.w.document.querySelector('.scene.active').id,'fechamento');
+ assert.equal(player.w.document.querySelector('.scene.active').id,'fechamento');
+ click(player,'[data-final-campo]');await flush();
+ click(player,'#fechamento-concluir');await flush();
+ assert.equal(player.w.document.querySelector('#fechamento-concluir').disabled,true);
+ click(master,'#fechamento-concluir');await flush();
+ assert.equal(master.w.document.querySelector('.scene.active').id,'judge');
+ assert.equal(player.w.document.querySelector('.scene.active').id,'judge');
+ assert.equal(master.w.MC_GAME_ENGINE.state.ranking.length,4);
+ click(master,'#voltar-demonstracao');await flush();assert.equal(player.w.MC_SALA.fase,'lobby');
  // Sala real inicia limpa: duas pessoas, sem os exemplos, saldo 12, sem treinamento.
  await master.w.MC_MESA.conectar();await player.w.MC_MESA.conectar();
  click(master,'#btn-iniciar-partida');await flush();

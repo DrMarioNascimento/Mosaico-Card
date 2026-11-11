@@ -296,7 +296,7 @@
   function acao(cmd) {
     if (!suaVez()) return;
     const s = E().state;
-    if (s.treino && cmd.tipo === "comprar") cmd.carta = C.acaoTreino(s, dadosSala().ordem, meuId()).carta;
+    if (s.treino && !C.treinoLivre(s) && cmd.tipo === "comprar") cmd.carta = C.acaoTreino(s, dadosSala().ordem, meuId()).carta;
     return enviar(comando(cmd.tipo, cmd));
   }
   function confirmarRisco(campoId, valor) {
@@ -313,7 +313,7 @@
     return enviar(comando(tipo));
   }
   function respostaFinal(campo, valor) {
-    if (ocupado) return;
+    if (ocupado || E().state.finaisProntos?.[meuId()]) return;
     const respostas = Object.assign({}, E().state.respostasFinais[meuId()] || {}, { [campo]: valor });
     $("#fechamento-status").textContent = "Salvando resposta…";
     enviar(comando("final", { respostas })).then(ok => {
@@ -368,7 +368,7 @@
     const mudouFase = E().state.partidaId !== s.partidaId || E().state.fase !== s.fase;
     if (mudouFase) requestAnimationFrame(() => window.scrollTo(0, 0));
     const mudouVez = E().state.partidaId !== s.partidaId || E().state.turnoId !== s.turnoId;
-    if (mudouVez && s.treino) proximoBot = Date.now() + 8000;
+    if (mudouVez && s.treino) proximoBot = Date.now() + (C.treinoLivre(s) ? 1400 : 8000);
     revisao = chaveRev;
     const e = E(), jogadores = s.treino ? s.treinoJogadores : d.jogadores;
     const verbo = e.state.partidaId === s.partidaId && e.state.turnoId === s.turnoId ? e.state.verbo : null;
@@ -400,7 +400,7 @@
     if (s.treino && s.fase === "deal") {
       if (agora < proximoBot) return;
       const bot = C.grupo(s, dadosSala().ordem).find(id => id.startsWith("treino-bot-") && !s.escolhas[id]);
-      if (bot) { proximoBot = agora + 8000; enviar(comando("bot", { jogador: bot })); }
+      if (bot) { proximoBot = agora + (C.treinoLivre(s) ? 1400 : 8000); enviar(comando("bot", { jogador: bot })); }
     } else if (s.fase === "deal" && agora >= s.turnoTerminaEm || s.fase === "fechamento" && agora >= s.fechamentoTerminaEm) {
       enviar(comando("relogio"));
     }
@@ -426,30 +426,60 @@
     if ($("#vez")) $("#vez").textContent = textoVez;
     if ($("#jogador-da-vez")) $("#jogador-da-vez").textContent = "Vez: " + textoVez;
     if ($("#log")) $("#log").textContent = s.pausado ? s.log : s.resultados[id] || s.log;
+    const vezLocal = suaVez();
+    const livre = C.treinoLivre(s);
+    const passoLocal = s.treino && !livre && vezLocal ? C.passoTreino(s, d.ordem, id) : null;
+    $("#deal")?.classList.toggle("vez-do-jogador", vezLocal);
+    const painel = $("#painel");
+    const area = $(s.verbo === "capturar" ? "#mesa-outros" : s.verbo === "comprar" ? "#mesa-publica" : "#pistas-box");
+    if (painel && area && painel.parentElement !== area) area.appendChild(painel);
+    const jogadaBot = $("#jogada-bot");
+    if (livre && s.treinoUltimaJogada) {
+      const { jogador, tipo } = s.treinoUltimaJogada;
+      const resumo = { comprar: "comprou uma pista", capturar: "capturou uma pista", consignar: "ofereceu uma pista", arriscar: "arriscou uma resposta" };
+      jogadaBot.textContent = nome(jogador) + " " + resumo[tipo] + ".";
+    }
+    jogadaBot.hidden = !livre || !s.treinoUltimaJogada;
     const status = $("#estado-acoes");
-    if (status) status.textContent = aguardaMestre() ? "Aguardando o mestre reconectar · seu lugar está guardado" : s.pausado ? "Partida pausada · Ajuda continua disponível" : ocupado ? "Confirmando sua escolha…" : s.escolhas[id] ? "Escolha confirmada · aguarde a outra escolha" : suaVez() ? "Sua vez · escolha uma ação" : "Aguarde sua vez · Ajuda sempre disponível";
+    const acoes = { arriscar: "Arriscar", capturar: "Capturar", comprar: "Comprar", consignar: cinema ? "Em cartaz" : "Consignar" };
+    const aviso = aguardaMestre() ? "Aguardando o mestre reconectar" : s.pausado ? "Partida pausada" : ocupado ? "Confirmando sua escolha…" : s.escolhas[id] ? "Escolha confirmada · aguarde a outra escolha" : vezLocal ? "Sua vez · " + (passoLocal ? "experimente " + acoes[passoLocal.tipo] : "escolha uma ação") : "Aguarde sua vez";
+    if (status && status.textContent !== aviso) status.textContent = aviso;
     document.querySelectorAll("#verbos button, #leque button, #painel button").forEach(btn => {
       const tipo = btn.dataset.verbo, saldo = s.saldosPorJogador[id] || 0;
-      const semSaldo = tipo === "arriscar" && saldo < 3 || tipo === "capturar" && saldo < 2 || tipo === "comprar" && saldo < 4 && !s.treino;
-      btn.disabled = !suaVez() || !!semSaldo || (!!btn.dataset.monteIndex && s.verbo !== "comprar");
+      const semSaldo = tipo === "arriscar" && saldo < 3 || tipo === "capturar" && saldo < 2 || tipo === "comprar" && saldo < 4 && (!s.treino || livre && !s.monte.includes("TBONUS"));
+      const foraDaEtapa = passoLocal && tipo && tipo !== passoLocal.tipo;
+      btn.disabled = !vezLocal || !!semSaldo || !!foraDaEtapa || (btn.hasAttribute("data-monte-index") && s.verbo !== "comprar");
+      btn.classList.toggle("acao-guiada", !!(passoLocal && tipo === passoLocal.tipo));
       if (tipo) { btn.setAttribute("aria-pressed", s.verbo === tipo ? "true" : "false"); btn.title = semSaldo ? "Saldo insuficiente para esta ação" : ""; }
     });
     if ($("#mesa-sessao")) $("#mesa-sessao").hidden = !souMestre();
     const card = $("#treino-dica");
     if (card) {
       card.hidden = !s.treino || s.fase !== "deal";
-      if (s.treino) {
-        const vezLocal = ativos.includes(id) && !s.escolhas[id];
-        const observando = ativos.find(pid => !s.escolhas[pid]) || ativos[0];
-        const passo = C.passoTreino(s, d.ordem, observando);
-        const dicas = {
-          comprar: passo.especial ? "A carta especial dá 6 e a compra é gratuita. Depois, ela sai do jogo." : "Comprar uma pista custa 4. As pistas que você reúne ficam na sua mão.",
-          consignar: "Oferecer uma pista é grátis. Quem a ofereceu recebe 2 quando alguém a leva.",
-          capturar: "Capturar custa 2. Se a pista estiver oferecida, os 2 vão para quem a colocou ali.",
-          arriscar: passo.valor === s.campos[0].resposta ? "O acerto vale pontos e fecha a questão para todos, sem descontar saldo." : "Só o erro desconta 3. A questão fecha apenas para quem errou. Os outros ainda podem responder."
-        };
-        $("#treino-texto").textContent = vezLocal ? textoTreino(s, id) : "Vez de " + textoVez + ". " + dicas[passo.tipo] + " Seus botões liberam na sua vez; Ajuda está sempre disponível.";
-        const k = s.partidaId + ":dica:" + s.turnoId + ":" + id;
+      if (s.treino && s.fase === "deal") {
+        const passar = $("#treino-passar");
+        passar.hidden = !livre;
+        passar.disabled = !vezLocal;
+        if (livre) {
+          const rodada = Math.floor(s.vez / d.ordem.length) + 1;
+          const oferta = cinema ? "pôr em cartaz" : "consignar";
+          const dica = vezLocal
+            ? "Sua vez. Você pode arriscar, capturar, comprar ou " + oferta + "."
+            : "Acompanhe a mesa e revise suas pistas enquanto espera.";
+          $("#treino-texto").textContent = "Rodada " + rodada + " de 2 · " + dica;
+        } else {
+          const mostrandoSeuPasso = ativos.includes(id) && !s.escolhas[id];
+          const observando = ativos.find(pid => !s.escolhas[pid]) || ativos[0];
+          const passo = C.passoTreino(s, d.ordem, observando);
+          const dicas = {
+            comprar: passo.especial ? "A carta especial dá 6 e a compra é gratuita. Depois, ela sai do jogo." : "Comprar uma pista custa 4. As pistas que você reúne ficam na sua mão.",
+            consignar: "Oferecer uma pista é grátis. Quem a ofereceu recebe 2 quando alguém a leva.",
+            capturar: "Capturar custa 2. Se a pista estiver oferecida, os 2 vão para quem a colocou ali.",
+            arriscar: passo.valor === s.campos.find(campo => campo.id === passo.campo)?.resposta ? "O acerto vale pontos e fecha a questão para todos, sem descontar saldo." : "Só o erro desconta 3. A questão fecha apenas para quem errou. Os outros ainda podem responder."
+          };
+          $("#treino-texto").textContent = mostrandoSeuPasso ? textoTreino(s, id) : "Vez de " + textoVez + ". " + dicas[passo.tipo] + " Seus botões liberam na sua vez; Ajuda está sempre disponível.";
+        }
+        const k = s.partidaId + ":dica:" + (livre ? "livre" : s.turnoId) + ":" + id;
         let lido = false; try { lido = sessionStorage.getItem(k) === "1"; } catch (_) {}
         $("#treino-texto").hidden = lido;
         $("#treino-entendi").textContent = lido ? "Rever dica" : "Entendi";
@@ -457,8 +487,28 @@
       }
     }
     if (s.treino && $("#tempo")) $("#tempo").textContent = "treino";
-    if (s.treino && $("#mesa-question")) $("#mesa-question").hidden = true;
-    document.querySelectorAll("#ordem li").forEach((li, i) => li.classList.toggle("agora", ativos.includes(d.ordem[i])));
+    if (s.treino && !livre && $("#mesa-question")) $("#mesa-question").hidden = true;
+    if (s.fase === "fechamento") {
+      const pronto = !!s.finaisProntos?.[id];
+      $("#fechamento-titulo").textContent = livre ? "Fechamento da demonstração" : "Um minuto para sustentar os campos abertos";
+      $("#fechamento-concluir").hidden = !livre;
+      $("#fechamento-concluir").disabled = ocupado || pronto || s.pausado;
+      if (livre && pronto) {
+        document.querySelectorAll("#fechamento-campos button").forEach(btn => { btn.disabled = true; });
+        $("#fechamento-status").textContent = "Respostas concluídas. Aguardando os outros jogadores.";
+      }
+    }
+    if (s.fase === "judge") {
+      $("#again").hidden = livre || S.online && !souMestre();
+      $("#voltar-demonstracao").hidden = !livre || !souMestre();
+      $("#voltar-demonstracao").textContent = local ? "Voltar ao início" : "Voltar à sala";
+      $("#placar-treino-espera").hidden = !livre || souMestre();
+    }
+    document.querySelectorAll("#ordem [data-jogador]").forEach(li => {
+      const naVez = ativos.includes(li.dataset.jogador);
+      li.classList.toggle("agora", naVez);
+      li.querySelector(".ordem-vez").hidden = !naVez;
+    });
     if ($("#telao-vez")) $("#telao-vez").textContent = textoVez;
   }
   function pintarSala() {
@@ -469,7 +519,7 @@
     if ($("#lobby-modalidade-texto")) $("#lobby-modalidade-texto").textContent = S.config.modalidade === "maratonar" ? "Dois jogadores ao mesmo tempo. Cada um por si." : "Um jogador por vez.";
     if ($("#btn-treino")) $("#btn-treino").hidden = !mestre;
     if ($("#btn-encerrar-sala")) $("#btn-encerrar-sala").closest("details").hidden = !mestre;
-    if ($("#again")) { $("#again").hidden = S.online && !mestre; if (S.online) $("#again").textContent = "Voltar à sala"; }
+    if ($("#again")) { $("#again").hidden = C.treinoLivre(E().state) || S.online && !mestre; if (S.online) $("#again").textContent = "Voltar à sala"; }
     if ($("#treino-voltar")) $("#treino-voltar").hidden = !souMestre();
     if ($("#treino-espera")) $("#treino-espera").hidden = souMestre();
     if ($("#btn-sala")) $("#btn-sala").hidden = !S.online;
@@ -544,7 +594,11 @@
   document.addEventListener("DOMContentLoaded", () => {
     window.MC_GAME.controleMestre = acao => E().controleMestre(acao);
     $("#btn-treino").onclick = iniciarTreino;
-    $("#treino-voltar").onclick = () => { if (local) { esquecer(); S.show("open"); } else controle("retornar"); };
+    const voltarDoTreino = () => { if (local) { esquecer(); S.show("open"); } else controle("retornar"); };
+    $("#treino-voltar").onclick = voltarDoTreino;
+    $("#voltar-demonstracao").onclick = voltarDoTreino;
+    $("#treino-passar").onclick = () => acao({ tipo: "passar" });
+    $("#fechamento-concluir").onclick = () => enviar(comando("final-pronto"));
     $("#risco-cancelar").onclick = () => { $("#risco-dialog").close(); risco = null; };
     $("#risco-confirmar").onclick = () => {
       const r = risco; $("#risco-dialog").close(); risco = null;

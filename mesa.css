@@ -81,3 +81,36 @@ dialog button { min-height: 44px; }
 @media(max-width:360px) {
   #deal .mark-name { display: none; }
 }
+
+/* Na mesa, o dourado identifica a mão e as ações do próprio jogador. */
+#deal .mesa-areas { display: grid; gap: 12px; min-width: 0; align-items: start; }
+#deal .mesa-areas > section { min-width: 0; }
+#deal .mesa-area-titulo { margin: 0 0 8px; color: #dbf3ff; font-size: .95rem; }
+#deal .mesa-area-publica { padding: 12px; background: #102833; border: 1px solid #45798c; border-radius: 16px; }
+#deal .mesa-area-publica .monte-box { margin-top: 8px; }
+#deal .mesa-area-pessoal { border: 1px solid #9e8054; border-radius: 16px; box-shadow: inset 0 1px 0 #f8e3b424; }
+#deal .mesa-area-pessoal .pistas-toggle small { color: #f7d999; }
+#deal .mesa-area-outros { padding: 0 10px; background: #1a2530; border: 1px solid #526277; border-radius: 16px; }
+#deal .mesa-area-outros .jogadores-bar { margin: 0; }
+#deal #ordem .ordem-vez { font-weight: 800; }
+#deal .mesa-areas #painel { margin: 10px 0 0; }
+#deal .mesa-area-pessoal #painel { padding-inline: 10px; }
+#deal .mesa-balaio { margin: 8px 0 0; color: #d3eaf3; font-size: .78rem; line-height: 1.45; overflow-wrap: anywhere; }
+#deal .mesa-areas h3 { margin: 10px 0 6px; font-size: .85rem; }
+#deal.vez-do-jogador .mesa-area-pessoal,
+#deal.vez-do-jogador .control-dock {
+  border-color: #ffe092;
+  box-shadow: inset 0 0 0 1px #ffe09268, 0 0 20px #eab55642;
+}
+#deal.vez-do-jogador #estado-acoes { color: #fff1c5; background: #65451e; border-radius: 8px; padding: 4px 8px; font-weight: 800; }
+#deal #verbos button.acao-guiada:not(:disabled) { outline: 2px solid #ffe092; outline-offset: 2px; }
+@media (min-width: 740px) {
+  #deal .mesa-areas { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
+  #deal .mesa-area-pessoal { grid-area: 1 / 1 / 3 / 2; }
+  #deal .mesa-area-publica { grid-area: 1 / 2 / 2 / 3; }
+  #deal .mesa-area-outros { grid-area: 2 / 2 / 3 / 3; }
+}
+
+#treino-passar { grid-column: 2; grid-row: 3; }
+#fechamento-concluir { margin-top: 8px; }
+#deal .jogada-bot { margin: 0 0 9px; color: #dde6f1; font-size: .8rem; }

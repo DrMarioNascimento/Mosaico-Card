@@ -19,23 +19,29 @@ for (const [edicao, arquivo, key, rules] of [
  }
  function cmd(d,id,tipo,extra={},now=2000) { return {c:{tipo,id:'cmd'+(++serial),partidaId:d.snap.partidaId,turnoId:d.snap.turnoId,...extra},ctx:{uid:id,aba:id,agora:now}}; }
  function apply(d,id,tipo,extra={},now=2000) { const {c,ctx}=cmd(d,id,tipo,extra,now); return C.executar(d,c,ctx,rules); }
- // 2–12 pessoas: exatamente duas rodadas, cada pessoa participa duas vezes, uma única especial, sem ranking.
- for (let n=2;n<=12;n++) for (const modalidade of ['classica','maratonar']) {
+ // Demonstração livre: duas rodadas, escolha de Arriscar na primeira vez e placar.
+ for (let n=1;n<=12;n++) for (const modalidade of ['classica','maratonar']) {
    let d=sala(n,modalidade,true), jogadas=0;
-   while (d.snap.fase==='deal' && jogadas<100) {
-     const grupo=C.grupo(d.snap,d.ordem);
-     for (const id of grupo) {
+   const primeira=d.snap.campos[0];
+   while (d.snap.fase==='deal' && jogadas<150) {
+     for (const id of C.grupo(d.snap,d.ordem).filter(id=>!d.snap.escolhas[id])) {
        if (id.startsWith('treino-bot')) d=apply(d,'p0','bot',{jogador:id});
+       else if (id==='p0' && d.snap.vez===0) d=apply(d,id,'arriscar',{campo:primeira.id,valor:primeira.resposta});
        else { const acao=C.acaoTreino(d.snap,d.ordem,id); d=apply(d,id,acao.tipo,acao); }
        jogadas++;
      }
    }
-   assert.equal(d.snap.fase,'treino-fim',`${n} ${modalidade}`);
-   assert.equal(jogadas,Math.max(4,n)*2);
-   assert.equal(Object.keys(d.snap.pagas).length,1);
-   assert.equal(d.snap.saldosPorJogador.p0,14);
-   assert.equal(d.snap.ranking.length,0);
-   assert.equal(d.snap.ledger.length,1);
+   assert.equal(d.snap.vez,Math.max(4,n)*2);
+   assert.equal(d.snap.fase,'fechamento',`${n} ${modalidade}`);
+   assert.equal(d.snap.fechamentoTerminaEm,27000);
+   assert.ok(d.snap.ledger.some(e=>e.jogadorId==='p0' && e.campoId===primeira.id));
+   const final=d.snap.campos.find(c=>!d.snap.resolvidosGlobais[c.id] && !d.snap.errosPorJogador.p0[c.id]);
+   d=apply(d,'p0','final',{respostas:{[final.id]:final.resposta}},3000);
+   if (n===1) d=apply(d,'p0','relogio',{},27000);
+   else for (const j of d.jogadores) d=apply(d,j.id,'final-pronto',{},4000);
+   assert.equal(d.snap.fase,'judge');
+   assert.equal(d.snap.ranking.length,Math.max(4,n));
+   assert.ok(d.snap.ledger.some(e=>e.jogadorId==='p0' && e.campoId===final.id));
  }
  // Maratonar: acertar simultaneamente não depende de quem enviou primeiro.
  let d=sala(), campo=d.snap.campos[0];

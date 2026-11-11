@@ -31,10 +31,11 @@ async function abrir(server,edicao,id,{storage={},sessao={},google=false}={}){
 }
 const click=(app,sel)=>{const b=app.w.document.querySelector(sel);assert.ok(b,'Botão ausente: '+sel);assert.equal(b.disabled,false,'Botão desabilitado: '+sel);b.click();};
 const fill=(app,sel,value)=>{app.w.document.querySelector(sel).value=value;};
-async function jogar(app){
- const w=app.w,s=w.MC_GAME_ENGINE.state,id=w.MC_SALA.playerId,cmd=w.MC_MESA_CORE.acaoTreino(s,w.MC_SALA.ultimoDoc.ordem,id);
+async function jogar(app, escolha){
+ const w=app.w,s=w.MC_GAME_ENGINE.state,id=w.MC_SALA.playerId,cmd=escolha || w.MC_MESA_CORE.acaoTreino(s,w.MC_SALA.ultimoDoc.ordem,id);
+ if(cmd.tipo==='passar'){click(app,'#treino-passar');await flush();return;}
  click(app,'[data-verbo="'+cmd.tipo+'"]');
- if(cmd.tipo==='comprar')click(app,'[data-monte-index="0"]');
+ if(cmd.tipo==='comprar')click(app,'[data-monte-index="'+s.monte.indexOf(cmd.carta)+'"]');
  if(cmd.tipo==='capturar')click(app,'[data-act="capturar-ok"][data-quem="'+cmd.alvo+'"][data-id="'+cmd.carta+'"]');
  if(cmd.tipo==='consignar')click(app,'[data-act="consignar-ok"][data-id="'+cmd.carta+'"]');
  if(cmd.tipo==='arriscar'){click(app,'[data-act="arriscar-ok"][data-campo="'+cmd.campo+'"][data-valor="'+cmd.valor+'"]');assert.equal(w.document.querySelector('#risco-dialog').open,true);click(app,'#risco-confirmar');}
