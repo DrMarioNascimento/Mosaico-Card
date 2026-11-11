@@ -19,7 +19,7 @@
   <link rel="stylesheet" href="cards.css?v=mesa3d3">
   <link rel="stylesheet" href="sala.css?v=ident1">
   <link rel="stylesheet" href="abertura.css?v=5">
-  <link rel="stylesheet" href="mesa.css?v=areas1">
+  <link rel="stylesheet" href="mesa.css?v=mesa-organizada1">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -247,29 +247,31 @@
           <div class="hand" id="hand"></div>
           <div class="painel" id="painel" hidden></div>
         </section>
-        <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
-          <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
-          <p class="mesa-question" id="mesa-question" hidden></p>
-          <section class="monte-box" id="monte-box">
-            <div class="leque-wrap">
-              <div class="area-heading"><strong id="monte-titulo">Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
-              <div class="leque" id="leque"></div>
-            </div>
+        <div class="mesa-areas-compartilhadas">
+          <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
+            <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
+            <p class="mesa-question" id="mesa-question" hidden></p>
+            <section class="monte-box" id="monte-box">
+              <div class="leque-wrap">
+                <div class="area-heading"><strong id="monte-titulo">Monte de compra</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
+                <div class="leque" id="leque"></div>
+              </div>
+            </section>
+            <p class="mesa-balaio" id="mesa-balaio">Balaio · nenhuma pista oferecida.</p>
           </section>
-          <p class="mesa-balaio" id="mesa-balaio">Balaio · nenhuma pista oferecida.</p>
-        </section>
-        <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
-          <details class="jogadores-bar" id="jogadores-bar">
-            <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
-            <ol class="ordem" id="ordem"></ol>
-          </details>
-          <p class="jogada-bot" id="jogada-bot" hidden></p>
-        </section>
+          <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
+            <details class="jogadores-bar" id="jogadores-bar">
+              <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
+              <ol class="ordem" id="ordem"></ol>
+            </details>
+            <p class="jogada-bot" id="jogada-bot" hidden></p>
+          </section>
+        </div>
       </div>
       <div class="control-dock" role="group" aria-label="Minhas ações">
         <div class="status-grid" id="status-grid">
           <div class="status-cell cell-saldo">
-            <div class="saldo-head"><small>Meu saldo</small><strong id="saldo-numero">12</strong></div>
+            <div class="saldo-head"><small>Meu saldo de denários</small><strong id="saldo-numero">12</strong></div>
             <div class="purse" id="purse"></div>
           </div>
           <div class="status-cell" id="cell-tempo">
@@ -451,9 +453,9 @@
   <script src="devocional-adaptar.js?v=1"></script>
   <script src="bank-runtime.js?v=modos-nt2"></script>
   <script src="game-core.js?v=mesa10"></script>
-  <script src="game.js?v=areas1"></script>
+  <script src="game.js?v=mesa-organizada1"></script>
   <script src="game-sala.js?v=mesa11"></script>
   <script src="mesa-core.js?v=areas1"></script>
-  <script src="mesa-runtime.js?v=areas1"></script>
+  <script src="mesa-runtime.js?v=mesa-organizada1"></script>
 </body>
 </html>

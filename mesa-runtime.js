@@ -424,7 +424,6 @@
     const nome = pid => pid === id ? "Você" : (jogadores.find(j => j.id === pid) || {}).nome || "Jogador";
     const textoVez = ativos.map(nome).join(" + ");
     if ($("#vez")) $("#vez").textContent = textoVez;
-    if ($("#jogador-da-vez")) $("#jogador-da-vez").textContent = "Vez: " + textoVez;
     if ($("#log")) $("#log").textContent = s.pausado ? s.log : s.resultados[id] || s.log;
     const vezLocal = suaVez();
     const livre = C.treinoLivre(s);

@@ -746,7 +746,6 @@
     document.body.dataset.assistencia = (window.MC_SALA && window.MC_SALA.assistencia) || "livre";
     paintTimer();
     if ($("#vez")) $("#vez").textContent = atual === jogador ? "Você" : (NOMES[atual] || "Jogador");
-    if ($("#jogador-da-vez")) $("#jogador-da-vez").textContent = "Vez: " + (atual === jogador ? "Você" : (NOMES[atual] || "Jogador"));
     if ($("#purse")) $("#purse").innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin on'></i></div></div>";
     if ($("#saldo-numero")) $("#saldo-numero").textContent = saldo(jogador);
     if ($("#ordem")) {
@@ -771,7 +770,7 @@
       cartaz.textContent = "Em cartaz · " + (ofertas.length ? ofertas.join(" · ") : "nenhuma pista oferecida.");
     }
     pintarLeque();
-    if ($("#monte-titulo")) $("#monte-titulo").textContent = "Monte · " + state.monte.length;
+    if ($("#monte-titulo")) $("#monte-titulo").textContent = "Monte de compra · " + state.monte.length;
     if ($("#monte-ajuda")) $("#monte-ajuda").textContent = !state.monte.length ? "Monte vazio" : (state.verbo === "comprar" && suaVez() ? "Toque em uma carta" : "Escolha Comprar para retirar uma carta");
     if ($("#monte-box")) $("#monte-box").classList.toggle("compra-ativa", suaVez() && state.verbo === "comprar");
     document.querySelectorAll("#verbos button").forEach(function (btn) {
