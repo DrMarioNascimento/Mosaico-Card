@@ -116,10 +116,15 @@
     return { saldosPorJogador, errosPorJogador, maosPorJogador, voltasFeitas };
   }
 
-  function distribuirPistas(ids, essenciais, jogadores, embaralhar) {
+  function distribuirPistas(ids, essenciais, jogadores, embaralhar, baralhoCompacto = false) {
     const ordem = Array.isArray(jogadores) ? jogadores.slice() : [];
     if (ordem.length < 2 || ordem.length > 12) throw new RangeError("A distribuição exige entre 2 e 12 jogadores.");
-    if (!Array.isArray(ids) || ids.length < ordem.length * 2 + 1) throw new RangeError("O baralho deve fornecer duas cartas por jogador e ao menos uma carta no poço.");
+    const quantidade = Array.isArray(ids) ? ids.length : 0;
+    const porJogador = baralhoCompacto && quantidade < ordem.length * 2 + 1 ? 1 : 2;
+    if (quantidade < ordem.length * porJogador + 1) {
+      const exigencia = porJogador === 1 ? "uma carta" : "duas cartas";
+      throw new RangeError("O baralho deve fornecer " + exigencia + " por jogador e ao menos uma carta no poço.");
+    }
     const shuffle = typeof embaralhar === "function" ? embaralhar : function (items) { return items.slice(); };
     const essenciaisSet = new Set(essenciais || []);
     const prioritarias = shuffle(ids.filter(function (id) { return essenciaisSet.has(id); }));
@@ -128,7 +133,7 @@
     let cursor = 0;
     while (prioritarias.length && cursor < ordem.length) maos[ordem[cursor++]].push(prioritarias.shift());
     const fila = prioritarias.concat(demais);
-    ordem.forEach(function (id) { while (maos[id].length < 2 && fila.length) maos[id].push(fila.shift()); });
+    ordem.forEach(function (id) { while (maos[id].length < porJogador && fila.length) maos[id].push(fila.shift()); });
     return { maosPorJogador: maos, monte: fila };
   }
 

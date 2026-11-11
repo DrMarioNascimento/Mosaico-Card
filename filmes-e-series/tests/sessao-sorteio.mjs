@@ -24,8 +24,8 @@ function montar(search) {
 
 const { ctx, bank, storage } = montar("");
 const S = ctx.MC_SESSAO;
-assert.equal(S.texto({ formatos: ["filme", "serie"], top50: false }), "Sessão: Filmes e Séries · Catálogo completo · a partir de 2001");
-assert.equal(S.texto({ formatos: ["serie"], top50: true }), "Sessão: Séries · Top 50 · a partir de 2001");
+assert.equal(S.texto({ formatos: ["filme", "serie"], top50: false }), "Sessão: Cinéfilo · Filmes e Séries · Catálogo completo · a partir de 2001");
+assert.equal(S.texto({ formatos: ["serie"], top50: true }), "Sessão: Cinéfilo · Séries · Top 50 · a partir de 2001");
 assert.equal(S.valida({ formatos: [], top50: true }), false, "nenhum formato marcado é inválido");
 
 const sintetico = id => id.startsWith("t-");

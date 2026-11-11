@@ -9,6 +9,17 @@
 .sessao-op b, .sessao-op small { display: block; }
 .sessao-op small { color: var(--muted); font-size: 11px; margin-top: 2px; }
 .sessao-op:has(input:checked) { border-color: #d7a24a; background: #1d2a26; }
+.sessao-op select {
+  min-block-size: 44px;
+  flex: 0 0 auto;
+  padding: 6px;
+  color: var(--text, #fff);
+  background: #132630;
+  border: 1px solid #d7a24a;
+  border-radius: 8px;
+  font: inherit;
+}
+.sessao-op select:focus-visible { outline: 2px solid #f7cd78; outline-offset: 2px; }
 .sessao-top { grid-column: 1 / -1; }
 .sessao-aviso { margin: 8px 0 0; color: #f2b8c6; font-size: 13px; font-weight: 700; }
 .sessao-linha { margin: 4px 0 0; color: var(--gold); font-size: 13px; font-weight: 700; letter-spacing: .02em; }
