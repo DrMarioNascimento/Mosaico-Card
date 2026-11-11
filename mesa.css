@@ -106,7 +106,9 @@ dialog button { min-height: 44px; }
 #deal #verbos button.acao-guiada:not(:disabled) { outline: 2px solid #ffe092; outline-offset: 2px; }
 @media (min-width: 740px) {
   #deal .mesa-areas { grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr); }
-  #deal .mesa-area-pessoal { grid-row: span 2; }
+  #deal .mesa-area-pessoal { grid-area: 1 / 1 / 3 / 2; }
+  #deal .mesa-area-publica { grid-area: 1 / 2 / 2 / 3; }
+  #deal .mesa-area-outros { grid-area: 2 / 2 / 3 / 3; }
 }
 
 #treino-passar { grid-column: 2; grid-row: 3; }
