@@ -18,7 +18,7 @@
   <link rel="stylesheet" href="sala.css?v=ident1">
   <link rel="stylesheet" href="abertura.css?v=5">
   <link rel="stylesheet" href="cinema.css?v=3">
-  <link rel="stylesheet" href="../mesa.css?v=mesa10">
+  <link rel="stylesheet" href="../mesa.css?v=areas1">
 </head>
 <body>
   <section class="scene active" id="welcome" aria-labelledby="welcome-title">
@@ -93,8 +93,8 @@
     <div class="wrap">
       <p class="kicker">Demonstração · 2 rodadas</p>
       <h2 id="demo-lobby-title">Tudo pronto para jogar.</h2>
-      <div class="how-end"><p><b id="demo-player-name">Você</b> · Pronto</p><p>Jogador da demonstração · Pronto</p></div>
-      <p class="lede">Numa sala real, o Mestre inicia a partida. Nesta demonstração, avance quando estiver pronto. Você experimenta os botões em duas rodadas, com uma única carta especial. As outras pessoas são exemplos automáticos.</p>
+      <div class="how-end"><p><b id="demo-player-name">Você</b> · Pronto</p><p>Bot 1, Bot 2 e Bot 3 · Prontos</p></div>
+      <p class="lede">Jogue duas rodadas contra três bots. Escolha suas jogadas e veja o placar ao final.</p>
       <button type="button" id="demo-ready">Começar demonstração</button>
     </div>
   </section>
@@ -204,11 +204,12 @@
         </div>
       </header>
       <p class="kicker">Último fechamento</p>
-      <h2>Um minuto para sustentar os campos abertos</h2>
+      <h2 id="fechamento-titulo">Um minuto para sustentar os campos abertos</h2>
       <p class="lede">Agora as respostas não custam ingressos. As escolhas são privadas e serão avaliadas juntas ao final do tempo.</p>
       <div class="fechamento-tempo"><small>Tempo restante</small><strong id="fechamento-tempo">1:00</strong></div>
       <div class="fechamento-campos" id="fechamento-campos"></div>
-      <p class="log" id="fechamento-status"></p>
+      <p class="log" id="fechamento-status" role="status"></p>
+      <button id="fechamento-concluir" type="button" hidden>Concluir respostas</button>
     </div>
   </section>
   <section class="scene" id="rule">
@@ -244,30 +245,40 @@
         <button type="button" id="btn-sala" class="sala-btn deal-sala" hidden>Sala</button>
       </header>
       <p class="sessao-linha mesa-sessao" id="mesa-sessao" hidden></p>
-      <p class="mesa-question" id="mesa-question" hidden></p>
-      <details class="jogadores-bar" id="jogadores-bar">
-        <summary><span>Jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
-        <ol class="ordem" id="ordem"></ol>
-      </details>
-      <aside id="treino-dica" class="treino-dica" hidden><b>Aprenda jogando · 2 rodadas</b><p id="treino-texto"></p><button type="button" id="treino-entendi">Entendi</button></aside>
+      <aside id="treino-dica" class="treino-dica" hidden><b>Aprenda jogando · 2 rodadas</b><p id="treino-texto"></p><button type="button" id="treino-entendi">Entendi</button><button type="button" class="ghost" id="treino-passar" hidden>Passar a vez</button></aside>
       <p class="log" id="log" role="status"></p>
-      <section class="monte-box" id="monte-box">
-        <div class="leque-wrap">
-          <div class="area-heading"><span>Coletivo</span><strong id="monte-titulo">Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
-          <div class="leque" id="leque"></div>
-        </div>
-      </section>
-      <section class="pistas-box" id="pistas-box">
-        <button type="button" class="pistas-toggle" id="pistas-toggle">
-          <span><small>Particular</small><b>Suas pistas</b></span>
-          <span class="chev" id="pistas-chev">FECHAR ▾</span>
-        </button>
-        <div class="hand" id="hand"></div>
-      </section>
-      <div class="control-dock">
+      <div class="mesa-areas">
+        <section class="pistas-box mesa-area-pessoal" id="pistas-box" aria-labelledby="minhas-pistas-label">
+          <button type="button" class="pistas-toggle" id="pistas-toggle" aria-controls="hand" aria-expanded="true">
+            <span><small>Minha área · privada</small><b id="minhas-pistas-label">Minhas pistas</b></span>
+            <span class="chev" id="pistas-chev">FECHAR ▾</span>
+          </button>
+          <div class="hand" id="hand"></div>
+          <div class="painel" id="painel" hidden></div>
+        </section>
+        <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
+          <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
+          <p class="mesa-question" id="mesa-question" hidden></p>
+          <section class="monte-box" id="monte-box">
+            <div class="leque-wrap">
+              <div class="area-heading"><strong id="monte-titulo">Monte</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
+              <div class="leque" id="leque"></div>
+            </div>
+          </section>
+          <p class="mesa-balaio" id="mesa-balaio">Em cartaz · nenhuma pista oferecida.</p>
+        </section>
+        <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
+          <details class="jogadores-bar" id="jogadores-bar">
+            <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
+            <ol class="ordem" id="ordem"></ol>
+          </details>
+          <p class="jogada-bot" id="jogada-bot" hidden></p>
+        </section>
+      </div>
+      <div class="control-dock" role="group" aria-label="Minhas ações">
         <div class="status-grid" id="status-grid">
           <div class="status-cell cell-saldo">
-            <div class="saldo-head"><small>Saldo</small><strong id="saldo-numero">12</strong></div>
+            <div class="saldo-head"><small>Meu saldo</small><strong id="saldo-numero">12</strong></div>
             <div class="purse" id="purse"></div>
           </div>
           <div class="status-cell" id="cell-tempo">
@@ -283,7 +294,6 @@
           <button type="button" data-verbo="consignar"><span>Em cartaz</span><small>Grátis · recebe 2 se levarem</small></button>
         </div>
       </div>
-      <div class="painel" id="painel" hidden></div>
     </div>
   </section>
   <section class="scene" id="treino-fim"><div class="wrap">
@@ -326,6 +336,8 @@
         <ol class="ranking-final" id="ranking-final"></ol>
       </section>
       <div class="actions" style="margin-top:22px">
+        <button class="ghost" id="voltar-demonstracao" type="button" hidden>Voltar da demonstração</button>
+        <p id="placar-treino-espera" hidden>Aguarde o mestre voltar à sala.</p>
         <button class="ghost" id="again" type="button">Jogar de novo</button>
       </div>
     </div>
@@ -451,9 +463,9 @@
   <script src="cases-cinema.js?v=cin2"></script>
   <script src="bank-runtime.js?v=cin2"></script>
   <script src="game-core.js?v=mesa10"></script>
-  <script src="game.js?v=mesa10"></script>
+  <script src="game.js?v=areas1"></script>
   <script src="game-sala.js?v=mesa11"></script>
-  <script src="../mesa-core.js?v=mesa10"></script>
-  <script src="../mesa-runtime.js?v=mesa11"></script>
+  <script src="../mesa-core.js?v=areas1"></script>
+  <script src="../mesa-runtime.js?v=areas1"></script>
 </body>
 </html>

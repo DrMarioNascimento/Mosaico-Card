@@ -706,10 +706,11 @@
         return mao(id).filter(function (pid) { return !eProtegida(pid); }).map(function (pid) {
           return "<button class='chip' type='button' data-act='capturar-ok' data-quem='" + esc(id) + "' data-id='" + esc(pid) + "'><small>" + esc(NOMES[id]) + " · 2</small>" + esc(peca(pid).marca) + "</button>";
         }).join("");
-      }).join("") + state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
+      }).join("");
+      const ofertas = state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
         return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>Em cartaz · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
       }).join("");
-      return chips ? "<p>Escolha uma pista capturável.</p>" + chips : "<p>Não há pista capturável.</p>";
+      return (chips ? "<p><b>Pistas dos jogadores</b></p>" + chips : "") + (ofertas ? "<p><b>Em cartaz na mesa pública</b></p>" + ofertas : "") || "<p>Não há pista capturável.</p>";
     }
     if (verbo === "consignar") {
       return "<p>Escolha a pista que vai entrar em cartaz. Quem levá-la paga 2 ingressos a você.</p>" + mao(jogador).map(function (id) {
@@ -749,12 +750,13 @@
     if ($("#purse")) $("#purse").innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin on'></i></div></div>";
     if ($("#saldo-numero")) $("#saldo-numero").textContent = saldo(jogador);
     if ($("#ordem")) {
-      $("#ordem").innerHTML = ORDEM.map(function (id) {
-        return "<li class='" + (id === atual ? "agora" : "") + "'><span>" + esc(id === jogador ? "Você" : (NOMES[id] || "Jogador")) + "</span><small>" + mao(id).length + " cartas" + (id === atual ? " · DA VEZ" : "") + "</small></li>";
-      }).join("");
+      $("#ordem").innerHTML = ORDEM.filter(id => id !== jogador).map(function (id) {
+        return "<li data-jogador='" + esc(id) + "' class='" + (id === atual ? "agora" : "") + "'><span>" + esc(NOMES[id] || "Jogador") + "</span><small>" + mao(id).length + " cartas<span class='ordem-vez'" + (id === atual ? "" : " hidden") + "> · DA VEZ</span></small></li>";
+      }).join("") || "<li>Nenhum outro jogador.</li>";
     }
     if ($("#log")) $("#log").textContent = state.log;
     if ($("#pistas-box")) $("#pistas-box").classList.toggle("fechado", !state.pistasAbertas);
+    $("#pistas-toggle")?.setAttribute("aria-expanded", String(state.pistasAbertas));
     if ($("#pistas-chev")) $("#pistas-chev").textContent = state.pistasAbertas ? "FECHAR ▾" : "ABRIR ▸";
     if ($("#hand")) {
       $("#hand").innerHTML = minhaMao.length ? minhaMao.map(function (id) {
@@ -762,6 +764,11 @@
         const art = item.figura && FIGURAS[item.figura] ? "<img class='tile-art' alt='' src='" + FIGURAS[item.figura] + "'>" : "";
         return "<div class='tile tipo-" + esc(item.tipo || "pista") + "'>" + art + "<small>" + esc(item.marca) + "</small><p>" + esc(item.texto) + "</p></div>";
       }).join("") : "<p class='log'>Nenhuma pista particular.</p>";
+    }
+    const cartaz = $("#mesa-balaio");
+    if (cartaz) {
+      const ofertas = state.balaio.map(b => peca(b.id).marca + " (" + (NOMES[b.dono] || "Jogador") + ")");
+      cartaz.textContent = "Em cartaz · " + (ofertas.length ? ofertas.join(" · ") : "nenhuma pista oferecida.");
     }
     pintarLeque();
     if ($("#monte-titulo")) $("#monte-titulo").textContent = "Monte · " + state.monte.length;

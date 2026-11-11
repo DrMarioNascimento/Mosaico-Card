@@ -7,6 +7,7 @@
   "use strict";
   const clone = value => JSON.parse(JSON.stringify(value));
   const GRACA = 30000;
+  const treinoLivre = s => s.treino && s.treinoRoteiro === 2;
   function exigir(ok, texto) { if (!ok) throw new Error(texto); }
   function grupo(s, ordem) {
     if (!ordem.length) return [];
@@ -54,7 +55,7 @@
   }
   function treino(modelo, jogadores, config, agora, partidaId) {
     const lista = clone(jogadores);
-    while (lista.length < 4) lista.push({ id: "treino-bot-" + lista.length, nome: "Exemplo " + (lista.length + 1), bot: true });
+    while (lista.length < 4) lista.push({ id: "treino-bot-" + lista.length, nome: "Bot " + (lista.filter(j => j.bot).length + 1), bot: true });
     const ordem = lista.map(j => j.id), catalogo = {}, maos = {}, saldos = {}, erros = {};
     const comuns = Object.values(modelo.pecas).filter(c => !c.recompensa && !c.protegida);
     ordem.forEach((id, i) => {
@@ -76,19 +77,22 @@
       saldosPorJogador: saldos, errosPorJogador: erros, resolvidosGlobais: {}, pagas: {}, vez: 0, turnoId: 1,
       turnoTerminaEm: null, partidaIniciaEm: agora, partidaTerminaEm: agora + 3600000, fechamentoTerminaEm: null,
       pausado: false, ledger: [], ranking: [], resolvidosFinais: {}, log: "Demonstração: duas rodadas. Aqui você pode experimentar.",
-      treino: true, treinoJogadores: lista, treinoBonus: false }, { pecas: catalogo, campos: modelo.campos, caso: modelo, ordem, partidaId }, agora);
+      treino: true, treinoRoteiro: 2, treinoJogadores: lista, treinoBonus: false }, { pecas: catalogo, campos: modelo.campos, caso: modelo, ordem, partidaId }, agora);
     return { snap: s, ordem };
   }
   function passoTreino(s, ordem, id) {
     const rodada = Math.floor(s.vez / ordem.length), i = ordem.indexOf(id);
-    let tipo = rodada === 0 ? ["comprar", "consignar", "capturar", "comprar"][i] || "comprar" : ["comprar", "arriscar", "arriscar", "capturar"][i] || "consignar";
+    const abertura = ["comprar", "consignar", "capturar", "comprar"];
+    const segunda = ["comprar", "arriscar", "arriscar", "capturar"];
+    const tipo = rodada === 0 ? abertura[i] || "comprar" : segunda[i] || "consignar";
     const c = s.campos[0];
     const valor = rodada === 1 && i === 1 ? c.opcoes.find(o => o.id !== c.resposta).id : c.resposta;
     return { tipo, campo: c.id, valor, especial: rodada === 1 && i === 0, cartaz: rodada === 0 && i === 2 };
   }
   function validar(s, ordem, id, cmd) {
     const saldo = s.saldosPorJogador[id] || 0, mao = s.maosPorJogador[id] || [];
-    if (s.treino) {
+    if (treinoLivre(s) && cmd.tipo === "passar") return;
+    if (s.treino && !treinoLivre(s)) {
       const esperado = passoTreino(s, ordem, id);
       exigir(cmd.tipo === esperado.tipo, "Nesta etapa, experimente " + esperado.tipo + ".");
       if (cmd.tipo === "arriscar") exigir(cmd.campo === esperado.campo && cmd.valor === esperado.valor, "Use a resposta indicada no cartão da demonstração.");
@@ -96,7 +100,7 @@
     }
     if (cmd.tipo === "comprar") {
       exigir(s.monte.includes(cmd.carta), "Essa carta já saiu do monte. Escolha outra.");
-      exigir(saldo >= 4 || (s.treino && passoTreino(s, ordem, id).especial), "Você precisa de 4 para comprar.");
+      exigir(saldo >= 4 || (s.treino && cmd.carta === "TBONUS"), "Você precisa de 4 para comprar.");
     } else if (cmd.tipo === "capturar") {
       exigir(saldo >= 2, "Você precisa de 2 para capturar.");
       const item = cmd.alvo === "balaio" ? s.balaio.find(b => b.id === cmd.carta) : null;
@@ -112,6 +116,14 @@
     } else throw new Error("Ação desconhecida.");
   }
   function apurar(s, ordem, regras, agora) {
+    if (treinoLivre(s)) {
+      s.treinoJogadores.filter(j => j.bot).forEach((j, i) => {
+        const campos = s.campos.filter(c => !s.resolvidosGlobais[c.id] && !s.errosPorJogador[j.id]?.[c.id]);
+        if (!campos.length) return;
+        const campo = campos[i % campos.length];
+        s.respostasFinais[j.id] = { [campo.id]: i % 2 ? campo.opcoes.find(o => o.id !== campo.resposta).id : campo.resposta };
+      });
+    }
     const apuracao = regras.apurarFaseFinal(s, ordem, s.campos, s.respostasFinais);
     Object.entries(apuracao.vencedoresPorCampo).forEach(([campoId, ids]) => ids.forEach(id => {
       s.ledger = regras.adicionarEventoPontuacao(s.ledger, regras.criarEventoPontuacao({ campoId, jogadorId: id,
@@ -124,12 +136,28 @@
     })));
     s.fase = "judge";
   }
+  function fecharTreino(s, ordem, regras, agora) {
+    s.turnoTerminaEm = null;
+    s.pausado = false;
+    if (s.campos.every(c => s.resolvidosGlobais[c.id])) {
+      apurar(s, ordem, regras, agora);
+      return;
+    }
+    s.fase = "fechamento";
+    s.fechamentoTerminaEm = agora + 25000;
+    s.finaisProntos = {};
+  }
+
   function avancar(s, ordem, regras, agora) {
     s.vez += grupo(s, ordem).length;
     s.turnoId++;
     s.escolhas = {};
     if (s.treino) {
-      if (s.vez >= ordem.length * 2) { s.fase = "treino-fim"; s.turnoTerminaEm = null; return; }
+      if (s.vez >= ordem.length * 2) {
+        if (treinoLivre(s)) fecharTreino(s, ordem, regras, agora);
+        else { s.fase = "treino-fim"; s.turnoTerminaEm = null; }
+        return;
+      }
       if (!s.treinoBonus && s.vez >= ordem.length) { s.monte.unshift("TBONUS"); s.treinoBonus = true; }
       s.turnoTerminaEm = null;
       return;
@@ -153,8 +181,13 @@
       const mao = s.maosPorJogador[id];
       let msg;
       if (cmd.tipo === "comprar") {
-        const especial = s.treino && passoTreino(s, ordem, id).especial;
+        const especial = s.treino && !treinoLivre(s) && passoTreino(s, ordem, id).especial;
         let pid = especial ? "TBONUS" : cmd.carta;
+        if (treinoLivre(s) && pid === "TBONUS" && !s.monte.includes(pid)) {
+          s.resultados[id] = "A outra escolha levou a carta especial. Você não pagou. Escolha outra ação.";
+          if (!expirar) tentarNovamente.push(id);
+          return;
+        }
         // Duas retiradas do mesmo verso retiram duas cartas; nenhuma pista é duplicada.
         if (!s.monte.includes(pid)) pid = s.monte[0];
         if (!pid) { msg = "Monte vazio. Nenhuma cobrança."; }
@@ -190,13 +223,16 @@
           evento.lote = s.partidaId + ":" + s.turnoId;
           s.ledger = regras.adicionarEventoPontuacao(s.ledger, evento);
           s.resolvidosGlobais[c.id] = { valor: cmd.valor, por: id, ok: true };
-          msg = "Acertou! Nenhum desconto. A questão fecha após as duas escolhas.";
+          msg = s.config.modalidade === "maratonar" ? "Acertou! Nenhum desconto. A questão fecha após as duas escolhas." : "Acertou! Nenhum desconto. A questão fechou para todos.";
         } else {
           s.errosPorJogador[id][c.id] = { valor: cmd.valor, ok: false }; s.saldosPorJogador[id] -= 3;
           msg = "Errou: −3. A questão fechou somente para você.";
         }
       }
       s.resultados[id] = msg;
+      if (treinoLivre(s) && s.treinoJogadores.some(j => j.id === id && j.bot) && !tentarNovamente.includes(id)) {
+        s.treinoUltimaJogada = { jogador: id, tipo: cmd.tipo };
+      }
     });
     if (tentarNovamente.length) {
       ids.forEach(id => { s.escolhas[id] = tentarNovamente.includes(id) ? null : { tipo: "resolvido" }; });
@@ -218,11 +254,16 @@
     if (s.recibos[comando.id]) return d;
     if (comando.tipo === "final") {
       exigir(s.fase === "fechamento" && !s.pausado && agora < s.fechamentoTerminaEm, "O fechamento já terminou ou está pausado.");
+      exigir(!s.finaisProntos?.[j.id], "Você já concluiu o fechamento.");
       Object.entries(comando.respostas).forEach(([campoId, valor]) => {
         const campo = s.campos.find(c => c.id === campoId);
         exigir(campo && campo.opcoes.some(o => o.id === valor), "Resposta inválida.");
       });
       s.respostasFinais[j.id] = clone(comando.respostas);
+    } else if (comando.tipo === "final-pronto") {
+      exigir(treinoLivre(s) && s.fase === "fechamento" && !s.pausado && agora < s.fechamentoTerminaEm, "O fechamento da demonstração não está disponível.");
+      s.finaisProntos[j.id] = true;
+      if (d.jogadores.every(p => s.finaisProntos[p.id] || s.suspensos[p.id])) apurar(s, d.ordem, regras, agora);
     } else if (["pausar", "tempo", "pular", "encerrar", "relogio", "suspender", "retornar", "bot"].includes(comando.tipo)) {
       exigir(mestre, "Somente o mestre administra a partida.");
       if (comando.tipo === "retornar") { d.fase = "lobby"; d.snap = null; d.pautaId = null; d.ordem = d.jogadores.map(j => j.id); return d; }
@@ -237,17 +278,18 @@
         exigir(d.jogadores.some(p => p.id === comando.jogador) && comando.jogador !== d.mestre, "Participante inválido.");
         s.suspensos[comando.jogador] = !s.suspensos[comando.jogador];
       } else if (comando.tipo === "bot") {
-        exigir(s.treino && !s.pausado, "Demonstração indisponível.");
+        exigir(s.treino && s.fase === "deal" && !s.pausado, "Demonstração indisponível.");
         const id = comando.jogador;
-        exigir(s.treinoJogadores.some(p => p.id === id && p.bot) && grupo(s, d.ordem).includes(id), "Exemplo fora da vez.");
+        exigir(!s.escolhas[id] && s.treinoJogadores.some(p => p.id === id && p.bot) && grupo(s, d.ordem).includes(id), "Exemplo fora da vez.");
         const acao = acaoTreino(s, d.ordem, id); validar(s, d.ordem, id, acao); s.escolhas[id] = acao;
       } else if (comando.tipo === "encerrar") {
-        if (s.treino) s.fase = "treino-fim";
+        if (treinoLivre(s) && s.fase === "deal") fecharTreino(s, d.ordem, regras, agora);
+        else if (s.treino && !treinoLivre(s)) s.fase = "treino-fim";
         else if (s.fase === "deal") { s.fase = "fechamento"; s.fechamentoTerminaEm = agora + 60000; s.pausado = false; }
         else if (s.fase === "fechamento") apurar(s, d.ordem, regras, agora);
       } else if (comando.tipo === "pular") { exigir(s.fase === "deal", "Não há vez para passar."); resolver(s, d.ordem, regras, agora, true); }
       else if (comando.tipo === "relogio") {
-        exigir(!s.pausado && !s.treino, "Relógio pausado.");
+        exigir(!s.pausado && (!s.treino || (treinoLivre(s) && s.fase === "fechamento")), "Relógio pausado.");
         if (s.fase === "deal" && agora >= s.turnoTerminaEm) resolver(s, d.ordem, regras, agora, true);
         else if (s.fase === "fechamento" && agora >= s.fechamentoTerminaEm) apurar(s, d.ordem, regras, agora);
         else return data;
@@ -269,7 +311,28 @@
     s.revisao++; d.fase = s.fase;
     return d;
   }
+  function acaoBot(s, ordem, id) {
+    const lugar = ordem.indexOf(id), segunda = s.vez >= ordem.length;
+    const saldo = s.saldosPorJogador[id], mao = s.maosPorJogador[id];
+    const escolhas = Object.values(s.escolhas).filter(Boolean);
+    const comprada = s.monte.find(pid => !escolhas.some(a => a.tipo === "comprar" && a.carta === pid));
+    if (comprada === "TBONUS") return { tipo: "comprar", carta: comprada };
+    const campos = s.campos.filter(c => !s.resolvidosGlobais[c.id]);
+    const campo = campos.find(c => !s.errosPorJogador[id]?.[c.id]);
+    if (segunda && lugar % 2 && saldo >= 3 && campos.length > 1 && campo) {
+      const valor = lugar % 3 ? campo.resposta : campo.opcoes.find(o => o.id !== campo.resposta).id;
+      return { tipo: "arriscar", campo: campo.id, valor };
+    }
+    const oferta = s.balaio.find(b => b.dono !== id && !escolhas.some(a => a.tipo === "capturar" && a.carta === b.id));
+    if (saldo >= 2 && oferta) return { tipo: "capturar", alvo: "balaio", carta: oferta.id };
+    if (lugar % 2 && mao.length > 1) return { tipo: "consignar", carta: mao[0] };
+    if (saldo >= 4 && comprada) return { tipo: "comprar", carta: comprada };
+    if (mao.length) return { tipo: "consignar", carta: mao[0] };
+    return { tipo: "passar" };
+  }
+
   function acaoTreino(s, ordem, id) {
+    if (treinoLivre(s)) return acaoBot(s, ordem, id);
     const p = passoTreino(s, ordem, id);
     const cmd = { tipo: p.tipo };
     if (p.tipo === "comprar") cmd.carta = p.especial ? "TBONUS" : s.monte.find(pid => pid !== "TBONUS");
@@ -282,5 +345,5 @@
     if (p.tipo === "arriscar") { cmd.campo = p.campo; cmd.valor = p.valor; }
     return cmd;
   }
-  return { clone, GRACA, grupo, dono, participante, presente, pausar, preparar, treino, passoTreino, acaoTreino, executar };
+  return { clone, GRACA, grupo, dono, participante, presente, pausar, preparar, treino, treinoLivre, passoTreino, acaoTreino, executar };
 });

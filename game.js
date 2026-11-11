@@ -693,7 +693,7 @@
       const ofertas = state.protocolo === 3 ? state.balaio.filter(function (b) { return b.dono !== jogador; }).map(function (b) {
         return "<button class='chip' type='button' data-act='capturar-ok' data-quem='balaio' data-id='" + esc(b.id) + "'><small>No balaio · 2 para " + esc(NOMES[b.dono] || "o dono") + "</small>" + esc(peca(b.id).marca) + "</button>";
       }).join("") : "";
-      return chips || ofertas ? "<p>Escolha uma pista capturável.</p>" + chips + ofertas : "<p>Não há pista capturável.</p>";
+      return chips || ofertas ? (chips ? "<h3>Cartas de outros jogadores</h3>" + chips : "") + (ofertas ? "<h3>No balaio · mesa pública</h3>" + ofertas : "") : "<p>Não há pista capturável.</p>";
     }
     if (verbo === "consignar") {
       return "<p>Escolha a pista que vai ao balaio.</p>" + mao(jogador).map(function (id) {
@@ -733,12 +733,13 @@
     if ($("#purse")) $("#purse").innerHTML = "<div class='stash'><div class='stash-art' aria-hidden='true'><i class='bag'></i><i class='coin on'></i></div></div>";
     if ($("#saldo-numero")) $("#saldo-numero").textContent = saldo(jogador);
     if ($("#ordem")) {
-      $("#ordem").innerHTML = ORDEM.map(function (id) {
-        return "<li class='" + (id === atual ? "agora" : "") + "'><span>" + esc(id === jogador ? "Você" : (NOMES[id] || "Jogador")) + "</span><small>" + mao(id).length + " cartas" + (id === atual ? " · DA VEZ" : "") + "</small></li>";
-      }).join("");
+      $("#ordem").innerHTML = ORDEM.filter(id => id !== jogador).map(function (id) {
+        return "<li data-jogador='" + esc(id) + "' class='" + (id === atual ? "agora" : "") + "'><span>" + esc(NOMES[id] || "Jogador") + "</span><small>" + mao(id).length + " cartas<span class='ordem-vez'" + (id === atual ? "" : " hidden") + "> · DA VEZ</span></small></li>";
+      }).join("") || "<li>Nenhum outro jogador.</li>";
     }
     if ($("#log")) $("#log").textContent = state.log;
     if ($("#pistas-box")) $("#pistas-box").classList.toggle("fechado", !state.pistasAbertas);
+    $("#pistas-toggle")?.setAttribute("aria-expanded", String(state.pistasAbertas));
     if ($("#pistas-chev")) $("#pistas-chev").textContent = state.pistasAbertas ? "FECHAR ▾" : "ABRIR ▸";
     if ($("#hand")) {
       $("#hand").innerHTML = minhaMao.length ? minhaMao.map(function (id) {
@@ -748,6 +749,11 @@
       }).join("") : "<p class='log'>Nenhuma pista particular.</p>";
     }
     pintarLeque();
+    const balaioPublico = $("#mesa-balaio");
+    if (balaioPublico) {
+      const ofertas = state.protocolo === 3 ? state.balaio.map(b => peca(b.id).marca) : [];
+      balaioPublico.textContent = "Balaio · " + (ofertas.length ? ofertas.join(" · ") : "nenhuma pista oferecida.");
+    }
     if ($("#monte-titulo")) $("#monte-titulo").textContent = "Monte · " + state.monte.length;
     if ($("#monte-ajuda")) $("#monte-ajuda").textContent = !state.monte.length ? "Monte vazio" : (state.verbo === "comprar" && suaVez() ? "Toque em uma carta" : "Escolha Comprar para retirar uma carta");
     if ($("#monte-box")) $("#monte-box").classList.toggle("compra-ativa", suaVez() && state.verbo === "comprar");

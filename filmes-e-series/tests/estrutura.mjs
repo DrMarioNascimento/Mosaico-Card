@@ -7,7 +7,7 @@ const css = readFileSync(new URL("../styles.css", import.meta.url), "utf8");
 
 assert.match(html, /class="control-dock"/);
 assert.match(html, /class="monte-box"/);
-assert.match(html, /class="pistas-box"/);
+assert.match(html, /class="pistas-box mesa-area-pessoal"/);
 assert.match(html, /<small>Tempo:<\/small><strong id="tempo">/);
 assert.match(html, /Vez: <b id="vez">/);
 assert.match(html, /<footer class="credit">M&amp;O<\/footer>/);
