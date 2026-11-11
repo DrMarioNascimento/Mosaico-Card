@@ -239,6 +239,26 @@
       <aside id="treino-dica" class="treino-dica" hidden><b>Aprenda jogando · 2 rodadas</b><p id="treino-texto"></p><button type="button" id="treino-entendi">Entendi</button><button type="button" class="ghost" id="treino-passar" hidden>Passar a vez</button></aside>
       <p class="log" id="log" role="status"></p>
       <div class="mesa-areas">
+        <div class="mesa-areas-compartilhadas">
+          <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
+            <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
+            <p class="mesa-question" id="mesa-question" hidden></p>
+            <section class="monte-box" id="monte-box">
+              <div class="leque-wrap">
+                <div class="area-heading"><strong id="monte-titulo">Monte de compra</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
+                <div class="leque" id="leque"></div>
+              </div>
+            </section>
+            <p class="mesa-balaio" id="mesa-balaio">Balaio · nenhuma pista oferecida.</p>
+          </section>
+          <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
+            <details class="jogadores-bar" id="jogadores-bar">
+              <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
+              <ol class="ordem" id="ordem"></ol>
+            </details>
+            <p class="jogada-bot" id="jogada-bot" hidden></p>
+          </section>
+        </div>
         <div class="mesa-areas-jogador">
           <section class="pistas-box mesa-area-pessoal" id="pistas-box" aria-labelledby="minhas-pistas-label">
             <button type="button" class="pistas-toggle" id="pistas-toggle" aria-controls="hand" aria-expanded="true">
@@ -268,26 +288,6 @@
               <button type="button" data-verbo="consignar"><span>Consignar</span><small>Grátis · recebe 2 se levarem</small></button>
             </div>
           </div>
-        </div>
-        <div class="mesa-areas-compartilhadas">
-          <section class="mesa-area-publica" id="mesa-publica" aria-labelledby="mesa-publica-label">
-            <h2 class="mesa-area-titulo" id="mesa-publica-label">Mesa pública</h2>
-            <p class="mesa-question" id="mesa-question" hidden></p>
-            <section class="monte-box" id="monte-box">
-              <div class="leque-wrap">
-                <div class="area-heading"><strong id="monte-titulo">Monte de compra</strong><small id="monte-ajuda">Escolha Comprar para retirar uma carta</small></div>
-                <div class="leque" id="leque"></div>
-              </div>
-            </section>
-            <p class="mesa-balaio" id="mesa-balaio">Balaio · nenhuma pista oferecida.</p>
-          </section>
-          <section class="mesa-area-outros" id="mesa-outros" aria-label="Outros jogadores">
-            <details class="jogadores-bar" id="jogadores-bar">
-              <summary><span>Outros jogadores</span><strong id="jogador-da-vez">Vez: —</strong></summary>
-              <ol class="ordem" id="ordem"></ol>
-            </details>
-            <p class="jogada-bot" id="jogada-bot" hidden></p>
-          </section>
         </div>
       </div>
     </div>
