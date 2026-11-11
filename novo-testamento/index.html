@@ -169,6 +169,7 @@
       </header>
       <p class="kicker" id="lobby-kicker">Sala</p>
       <h2 id="lobby-titulo">Sala aberta</h2>
+      <p class="lede" id="lobby-modo-nt"></p>
       <p class="codigo-grande" id="lobby-codigo">—</p>
       <div id="lobby-qr-wrap" class="sala-qr-wrap">
         <div class="sala-qr" id="lobby-qr"></div>
@@ -345,6 +346,10 @@
       <p class="kicker">Etapa 1 de 2 · configuração da sala</p>
       <h2 id="mestre-titulo" style="font-size:clamp(22px,6vw,30px);margin:0 0 14px">Como será esta partida?</h2>
       <p class="log">A sala será criada agora. Você define as regras e depois informa seu nome. Os jogadores apenas entram e aguardam.</p>
+      <fieldset class="config-grupo escolha-formato"><legend>Modo do Novo Testamento</legend>
+        <label><input type="radio" name="modo-nt" value="devocional" checked><span><b>Devocional</b><small>Pistas em linguagem do dia a dia.</small></span></label>
+        <label><input type="radio" name="modo-nt" value="pastor"><span><b>Pastor</b><small>Pistas e perguntas do banco original.</small></span></label>
+      </fieldset>
       <fieldset class="config-grupo escolha-formato"><legend>Como vamos jogar?</legend>
         <label><input type="radio" name="modalidade" value="classica" checked><span><b>Sessão Clássica</b><small>Um jogador por vez.</small></span></label>
         <label><input type="radio" name="modalidade" value="maratonar"><span><b>Maratonar</b><small>Dois jogadores ao mesmo tempo. Cada um por si.</small></span></label>
@@ -422,13 +427,17 @@
   <script src="https://www.gstatic.com/firebasejs/10.13.2/firebase-firestore-compat.js"></script>
   <script src="qr.js?v=casa"></script>
   <script src="firebase.js?v=mesa10"></script>
-  <script src="sala.js?v=mesa11"></script>
+  <script src="sala.js?v=modos-nt1"></script>
   <!-- 16/10/2026: abrir sala só com Google da lista de mestres; entrar por código continua livre. -->
   <script src="mestre-acesso.js?v=20261016"></script>
   <script src="abertura.js?v=mesa10"></script>
   <script src="case-ovelha.js?v=mesa10"></script>
   <script src="cases-nt.js?v=ntnaa107"></script>
-  <script src="bank-runtime.js?v=saco2"></script>
+  <script src="case-mt23.js?v=1"></script>
+  <script src="devocional.js?v=1"></script>
+  <script src="devocional-pistas.js?v=1"></script>
+  <script src="devocional-adaptar.js?v=1"></script>
+  <script src="bank-runtime.js?v=modos-nt2"></script>
   <script src="game-core.js?v=mesa10"></script>
   <script src="game.js?v=mesa10"></script>
   <script src="game-sala.js?v=mesa11"></script>
