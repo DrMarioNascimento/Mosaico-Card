@@ -4,10 +4,11 @@
   if (!bank) return;
 
   const devocionais = [];
-  for (const [id, pauta] of Object.entries(window.MC_NT_DEVOCIONAL || {})) {
+  for (const id of window.MC_NT_CRIAR_DEVOCIONAL ? bank.order : []) {
+    const pauta = window.MC_NT_DEVOCIONAL?.[id];
     const original = bank.byId[id];
     if (!original?.status?.playable) continue;
-    const caso = {
+    const caso = pauta ? {
       ...original,
       id: id + "-devocional",
       title: pauta.titulo,
@@ -32,7 +33,7 @@
             : { ...card, text: pista.emoji, texto: pista.emoji, marca: "Emojis" };
         })
       }
-    };
+    } : { ...window.MC_NT_CRIAR_DEVOCIONAL(original), id: id + "-devocional" };
     bank.byId[caso.id] = caso;
     devocionais.push(caso.id);
   }
@@ -93,7 +94,4 @@
   };
   bank.elegiveis = elegiveis;
 
-  var extra = document.createElement("script");
-  extra.src = "case-mt23.js?v=1";
-  document.head.appendChild(extra);
 })();

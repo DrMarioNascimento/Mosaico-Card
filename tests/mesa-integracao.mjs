@@ -12,16 +12,18 @@ class Servidor {
  gravar(path,data){this.docs.set(path,clone(data));for(const fn of this.listeners.get(path)||[])queueMicrotask(()=>fn(this.snap(path)));const col=path.slice(0,path.lastIndexOf('/'));for(const fn of this.collectionListeners.get(col)||[])queueMicrotask(()=>fn(this.query(col)));}
  db(){return {collection:n=>({doc:id=>this.ref(n+'/'+id)}),runTransaction:fn=>{const p=this.fila.then(async()=>{const writes=[];const out=await fn({get:async ref=>this.snap(ref.path),set:(ref,d)=>writes.push([ref.path,d]),update:(ref,d)=>writes.push([ref.path,{...this.docs.get(ref.path),...d}])});for(const [p,d]of writes)this.gravar(p,d);if(this.falharDepois){this.falharDepois=false;const e=new Error('Resposta de rede perdida');e.code='unavailable';throw e;}return out;});this.fila=p.catch(()=>{});return p;}};}
 }
-for(const edicao of ['cinema','nt']){
+for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor']]){
  const server=new Servidor();let master=await abrir(server,edicao,'mestre',{google:true}),player=await abrir(server,edicao,'pessoa');
  assert.equal(master.auth.anonimos,0,'Refresh não substitui a identidade Google');
  click(master,'#btn-abrir-mesa');await flush();assert.equal(master.w.document.querySelector('#modal-mestre').hidden,false);
  fill(master,'[name=modalidade][value=maratonar]','maratonar');master.w.document.querySelector('[name=modalidade][value=maratonar]').checked=true;
+ if(modo) click(master,'[name=modo-nt][value='+modo+']');
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
  const codigo=master.w.MC_SALA.codigo;assert.ok(codigo);assert.equal(master.w.MC_SALA.fase,'lobby');
  click(player,'#btn-ir-entrar');fill(player,'#nome','Pessoa de teste');fill(player,'#cod',codigo);click(player,'#btn-entrar-mesa');await flush();
  assert.equal(player.w.document.querySelector('.scene.active').id,'lobby');
  assert.equal(player.w.document.querySelector('#lobby-formato').hidden,true);
+ if(modo) assert.equal(player.w.MC_SALA.config.modoNT,modo);
  if(edicao==='cinema')assert.equal(player.w.document.querySelector('#lobby-sessao').hidden,true);
  assert.equal(player.w.document.querySelector('#assistencia'),null);
  click(master,'#btn-treino');await flush();
@@ -47,11 +49,17 @@ for(const edicao of ['cinema','nt']){
  click(master,'#btn-iniciar-partida');await flush();
  assert.equal(master.w.MC_GAME_ENGINE.state.protocolo,3);assert.equal(master.w.MC_GAME_ENGINE.state.treino,false);assert.equal(player.w.MC_GAME_ENGINE.state.treino,false);
  assert.equal(master.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,12);assert.equal(master.w.MC_SALA.ultimoDoc.ordem.length,2);
+ if(modo){
+   const id=master.w.MC_SALA.ultimoDoc.pautaId;
+   assert.equal(id.endsWith('-devocional'),modo==='devocional');
+   assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,id);
+ }
  // Resposta perdida após commit: o refresh reenvia a mesma operação sem duplicar o débito.
  click(master,'[data-verbo="comprar"]');click(master,'[data-monte-index="0"]');await flush();
  click(player,'[data-verbo="comprar"]');server.falharDepois=true;click(player,'[data-monte-index="0"]');await flush();
  const saldoDepois=master.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,antesRefresh=player.save();player.close();player=await abrir(server,edicao,'pessoa',antesRefresh);
  assert.equal(player.w.MC_GAME_ENGINE.state.saldosPorJogador.pessoa,saldoDepois);
+ if(modo) assert.equal(player.w.MC_GAME_ENGINE.dados().caso.id,master.w.MC_SALA.ultimoDoc.pautaId);
  assert.equal(player.w.sessionStorage.getItem('mc:sessao:v3:'+edicao+':pendente'),null);
  // Uma segunda aba não toma o lugar silenciosamente.
  let duplicada=await abrir(server,edicao,'pessoa',{storage:player.save().storage});
@@ -87,5 +95,5 @@ for(const edicao of ['cinema','nt']){
  assert.equal(master.w.MC_SALA.codigo,null);assert.equal(nova.w.MC_SALA.codigo,null);
  nova.close();intruso.close();
  assert.deepEqual(master.erros,[]);assert.deepEqual(player.erros,[]);
- master.close();player.close();console.log('ok integração DOM, sala, treino, refresh, duas abas e relógio — '+edicao);
+ master.close();player.close();console.log('ok integração DOM, sala, treino, refresh, duas abas e relógio — '+(modo||edicao));
 }
