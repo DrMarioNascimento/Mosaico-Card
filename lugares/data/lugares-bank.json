@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-5-2026-11-14",
+  "catalogVersion": "lote-6-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Vinte destinos jogáveis em grupos comparáveis com dois perfis",
-  "status": "Vinte destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Vinte e dois destinos jogáveis, em grupos comparáveis, com dois perfis",
+  "status": "Vinte e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -395,6 +395,34 @@
       "title": "Historic Centre of Rome",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/91/",
+      "checkedAt": "2026-11-14"
+    },
+    "MA1": {
+      "id": "MA1",
+      "title": "Manaus — Cidades-sede",
+      "publisher": "Governo Federal",
+      "url": "https://www.gov.br/g20/pt-br/sobre-o-g20/cidades-sede/manaus-am",
+      "checkedAt": "2026-11-14"
+    },
+    "MA2": {
+      "id": "MA2",
+      "title": "Manaus: centro histórico tombado",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-material/bens-tombados/conjuntos-urbanos-tombados-cidades-historicas/norte/manaus-am",
+      "checkedAt": "2026-11-14"
+    },
+    "MA3": {
+      "id": "MA3",
+      "title": "Os Teatros da Amazônia",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/teatros-da-amazonia/os-teatros",
+      "checkedAt": "2026-11-14"
+    },
+    "RJ1": {
+      "id": "RJ1",
+      "title": "Rio de Janeiro: Carioca Landscapes between the Mountain and the Sea",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1100/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -20430,6 +20458,2160 @@
       },
       "reveal": {
         "canonicalSummary": "O centro histórico de Roma, às margens do Tibre, reúne monumentos antigos como o Coliseu e edifícios de épocas posteriores.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-manaus",
+      "placeId": "manaus",
+      "title": "Manaus",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Manaus"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Porto Velho"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Branco"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Macapá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Palmas"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Santarém"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Boa Vista"
+            },
+            {
+              "id": "C1-O9",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Florianópolis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Manaus",
+          "sources": [
+            "MA1",
+            "MA2",
+            "MA3"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio da orla histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Negro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Tibre"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Sena"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Tâmisa"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Negro",
+          "sources": [
+            "MA1",
+            "MA2",
+            "MA3"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rios que se encontram nas proximidades",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Negro e Solimões"
+            },
+            {
+              "id": "C3-O2",
+              "text": "São Francisco e Parnaíba"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Amazonas e Nilo"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Tibre e Arno"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Negro e Solimões",
+          "sources": [
+            "MA1",
+            "MA2",
+            "MA3"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Teatro histórico",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Teatro Amazonas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Theatro da Paz"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Teatro Municipal de São Paulo"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Teatro Municipal do Rio de Janeiro"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Teatro Amazonas",
+          "sources": [
+            "MA1",
+            "MA2",
+            "MA3"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "manaus-viajante-P01",
+              "factKey": "manaus-F01",
+              "text": "A cidade é uma capital brasileira cercada por paisagens amazônicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P02",
+              "factKey": "manaus-F02",
+              "text": "O lugar é a capital do estado do Amazonas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P03",
+              "factKey": "manaus-F03",
+              "text": "Um rio de águas escuras acompanha a orla histórica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P04",
+              "factKey": "manaus-F04",
+              "text": "Esse rio é o Negro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P05",
+              "factKey": "manaus-F05",
+              "text": "Nas proximidades, dois rios de cores diferentes se encontram.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P06",
+              "factKey": "manaus-F06",
+              "text": "O encontro de águas envolve os rios Negro e Solimões.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P07",
+              "factKey": "manaus-F07",
+              "text": "A paisagem reúne cidade, floresta e rios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P08",
+              "factKey": "manaus-F08",
+              "text": "Há um teatro histórico de cúpula marcante.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P09",
+              "factKey": "manaus-F09",
+              "text": "O teatro foi inaugurado no século XIX.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P10",
+              "factKey": "manaus-F10",
+              "text": "A inauguração do teatro ocorreu em 1896.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P11",
+              "factKey": "manaus-F11",
+              "text": "O edifício é conhecido como Teatro Amazonas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P12",
+              "factKey": "manaus-F12",
+              "text": "Outro teatro amazônico importante fica em Belém.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P13",
+              "factKey": "manaus-F13",
+              "text": "A economia da borracha influenciou a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P14",
+              "factKey": "manaus-F14",
+              "text": "O centro conserva construções ligadas ao período da borracha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P15",
+              "factKey": "manaus-F15",
+              "text": "O centro histórico foi tombado pelo Iphan em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P16",
+              "factKey": "manaus-F16",
+              "text": "Prédios antigos e modernos convivem no centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P17",
+              "factKey": "manaus-F17",
+              "text": "O teatro é um espaço de cultura e espetáculos.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P18",
+              "factKey": "manaus-F18",
+              "text": "A história urbana inclui influências da Belle Époque amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P19",
+              "factKey": "manaus-F19",
+              "text": "A região possui rios, igarapés e comunidades ribeirinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P20",
+              "factKey": "manaus-F20",
+              "text": "A orla histórica se liga ao rio e ao centro antigo.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P21",
+              "factKey": "manaus-F21",
+              "text": "A economia do látex conectou a região ao mercado mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P22",
+              "factKey": "manaus-F22",
+              "text": "O teatro recebeu tombamento federal em 1966.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P23",
+              "factKey": "manaus-F23",
+              "text": "O estado pertence à região Norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P24",
+              "factKey": "manaus-F24",
+              "text": "A água e a cultura ajudam a contar a história do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-viajante-P25",
+              "factKey": "manaus-F25",
+              "text": "Para distinguir esta capital de outras, combine um teatro e dois rios.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "manaus-geografo-P01",
+              "factKey": "manaus-F01",
+              "text": "O núcleo urbano se localiza em uma região de floresta tropical amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P02",
+              "factKey": "manaus-F02",
+              "text": "A capitalidade estadual situa o destino no Amazonas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P03",
+              "factKey": "manaus-F03",
+              "text": "A frente fluvial histórica se associa ao curso de águas escuras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P04",
+              "factKey": "manaus-F04",
+              "text": "O rio Negro é referência para a localização do centro urbano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P05",
+              "factKey": "manaus-F05",
+              "text": "A confluência aproxima águas do Negro e do Solimões.",
+              "relatedFields": [
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P06",
+              "factKey": "manaus-F06",
+              "text": "A rede hidrográfica local inclui a confluência do Negro com o Solimões.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P07",
+              "factKey": "manaus-F07",
+              "text": "O espaço urbano se articula com sistemas fluviais e florestais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P08",
+              "factKey": "manaus-F08",
+              "text": "Um edifício cultural de cúpula integra o patrimônio arquitetônico local.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P09",
+              "factKey": "manaus-F09",
+              "text": "A inauguração do teatro ocorreu no contexto de modernização urbana oitocentista.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P10",
+              "factKey": "manaus-F10",
+              "text": "A data de abertura do equipamento cultural foi 1896.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P11",
+              "factKey": "manaus-F11",
+              "text": "O teatro histórico leva o nome do estado onde está situado.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P12",
+              "factKey": "manaus-F12",
+              "text": "O patrimônio teatral regional inclui um exemplar situado em outra capital amazônica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P13",
+              "factKey": "manaus-F13",
+              "text": "A exploração do látex impulsionou transformações econômicas e urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P14",
+              "factKey": "manaus-F14",
+              "text": "O conjunto urbano preserva testemunhos arquitetônicos do auge da economia do látex.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P15",
+              "factKey": "manaus-F15",
+              "text": "O reconhecimento federal do conjunto urbano ocorreu em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P16",
+              "factKey": "manaus-F16",
+              "text": "O tecido urbano combina construções históricas e edifícios posteriores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P17",
+              "factKey": "manaus-F17",
+              "text": "O patrimônio edificado também cumpre função cultural contemporânea.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P18",
+              "factKey": "manaus-F18",
+              "text": "A paisagem construída registra projetos de modernização do período da borracha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P19",
+              "factKey": "manaus-F19",
+              "text": "A rede de águas e as populações ribeirinhas compõem o contexto regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P20",
+              "factKey": "manaus-F20",
+              "text": "A área tombada compreende a frente do rio e o entorno do teatro.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P21",
+              "factKey": "manaus-F21",
+              "text": "A demanda internacional pelo produto influenciou a economia amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P22",
+              "factKey": "manaus-F22",
+              "text": "A proteção do edifício teatral pelo Iphan antecedeu a do conjunto urbano.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P23",
+              "factKey": "manaus-F23",
+              "text": "A localização administrativa integra a região Norte brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P24",
+              "factKey": "manaus-F24",
+              "text": "A identificação combina hidrografia, arquitetura e história econômica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "manaus-geografo-P25",
+              "factKey": "manaus-F25",
+              "text": "A diferenciação resulta da relação entre patrimônio teatral e confluência fluvial.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "MA1",
+                "MA2",
+                "MA3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Manaus é a capital do Amazonas, junto ao rio Negro; seu centro histórico reúne testemunhos do período da borracha e o Teatro Amazonas.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-rio-de-janeiro",
+      "placeId": "rio-de-janeiro",
+      "title": "Rio de Janeiro",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Natal"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O9",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O10",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Aracaju"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio de Janeiro",
+          "sources": [
+            "RJ1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Baía da paisagem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Baía de Guanabara"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Baía de Todos os Santos"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Baía de São Marcos"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Baía de Paranaguá"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Baía de Guanabara",
+          "sources": [
+            "RJ1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Monumento sobre o Corcovado",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Cristo Redentor"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Estátua da Liberdade"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Cristo Rei de Almada"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Cristo de la Concordia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Cristo Redentor",
+          "sources": [
+            "RJ1",
+            "B2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Parque florestal da paisagem",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Parque Nacional da Tijuca"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Parque Nacional de Itatiaia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Parque Nacional da Serra do Cipó"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Parque Nacional de Aparados da Serra"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Parque Nacional da Tijuca",
+          "sources": [
+            "RJ1",
+            "B2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-de-janeiro-viajante-P01",
+              "factKey": "rio-de-janeiro-F01",
+              "text": "O destino combina montanhas, floresta e mar na mesma paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P02",
+              "factKey": "rio-de-janeiro-F02",
+              "text": "A cidade fica no Sudeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P03",
+              "factKey": "rio-de-janeiro-F03",
+              "text": "Uma grande baía aparece entre os elementos da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P04",
+              "factKey": "rio-de-janeiro-F04",
+              "text": "Essa baía é a Guanabara.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P05",
+              "factKey": "rio-de-janeiro-F05",
+              "text": "Uma estátua conhecida fica sobre o Corcovado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P06",
+              "factKey": "rio-de-janeiro-F06",
+              "text": "A estátua é chamada Cristo Redentor.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P07",
+              "factKey": "rio-de-janeiro-F07",
+              "text": "O Parque Nacional da Tijuca protege áreas de montanha.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P08",
+              "factKey": "rio-de-janeiro-F08",
+              "text": "O parque tem áreas verdes e mirantes.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P09",
+              "factKey": "rio-de-janeiro-F09",
+              "text": "Há um jardim botânico histórico na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P10",
+              "factKey": "rio-de-janeiro-F10",
+              "text": "O jardim botânico foi criado em 1808.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P11",
+              "factKey": "rio-de-janeiro-F11",
+              "text": "A paisagem reconhecida vai das montanhas até o mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P12",
+              "factKey": "rio-de-janeiro-F12",
+              "text": "O conjunto reconhecido pela UNESCO inclui elementos naturais e projetados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P13",
+              "factKey": "rio-de-janeiro-F13",
+              "text": "A praia de Copacabana faz parte da paisagem reconhecida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P14",
+              "factKey": "rio-de-janeiro-F14",
+              "text": "Os desenhos da orla estão ligados ao paisagismo de Burle Marx.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P15",
+              "factKey": "rio-de-janeiro-F15",
+              "text": "O Parque do Flamengo integra a paisagem junto à baía.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P16",
+              "factKey": "rio-de-janeiro-F16",
+              "text": "Muitos pontos altos oferecem vista da cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P17",
+              "factKey": "rio-de-janeiro-F17",
+              "text": "Fortificações preservam parte da memória da ocupação histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P18",
+              "factKey": "rio-de-janeiro-F18",
+              "text": "A cidade foi capital do Brasil antes da transferência para o Planalto Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P19",
+              "factKey": "rio-de-janeiro-F19",
+              "text": "A cidade já foi capital entre o período de Salvador e o de Brasília.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P20",
+              "factKey": "rio-de-janeiro-F20",
+              "text": "O monumento do Corcovado e a floresta fazem parte do mesmo conjunto paisagístico.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P21",
+              "factKey": "rio-de-janeiro-F21",
+              "text": "A baía se abre para o Oceano Atlântico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P22",
+              "factKey": "rio-de-janeiro-F22",
+              "text": "O relevo inclui morros próximos à água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P23",
+              "factKey": "rio-de-janeiro-F23",
+              "text": "O parque florestado está inserido em uma grande cidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P24",
+              "factKey": "rio-de-janeiro-F24",
+              "text": "A paisagem inspirou artistas e planejadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-viajante-P25",
+              "factKey": "rio-de-janeiro-F25",
+              "text": "Para diferenciar esta cidade de outras praias, combine baía, floresta e monumento.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-de-janeiro-geografo-P01",
+              "factKey": "rio-de-janeiro-F01",
+              "text": "A paisagem urbana articula relevo, cobertura vegetal e litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P02",
+              "factKey": "rio-de-janeiro-F02",
+              "text": "O núcleo urbano integra a região Sudeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P03",
+              "factKey": "rio-de-janeiro-F03",
+              "text": "A baía e seus morros participam da configuração territorial urbana.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P04",
+              "factKey": "rio-de-janeiro-F04",
+              "text": "A Baía de Guanabara é uma referência geográfica do destino.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P05",
+              "factKey": "rio-de-janeiro-F05",
+              "text": "A relação entre monumento e relevo se expressa na estátua do Corcovado.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P06",
+              "factKey": "rio-de-janeiro-F06",
+              "text": "O monumento sobre o Corcovado representa o Cristo Redentor.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P07",
+              "factKey": "rio-de-janeiro-F07",
+              "text": "O parque conserva relevo florestado inserido na paisagem urbana.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P08",
+              "factKey": "rio-de-janeiro-F08",
+              "text": "Floresta e pontos elevados de observação integram o conjunto protegido.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P09",
+              "factKey": "rio-de-janeiro-F09",
+              "text": "O conjunto cultural inclui um jardim botânico urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P10",
+              "factKey": "rio-de-janeiro-F10",
+              "text": "A origem do jardim reconhecido remonta a 1808.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P11",
+              "factKey": "rio-de-janeiro-F11",
+              "text": "O patrimônio evidencia a continuidade espacial entre relevo e litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P12",
+              "factKey": "rio-de-janeiro-F12",
+              "text": "O bem cultural articula formações naturais e paisagismo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P13",
+              "factKey": "rio-de-janeiro-F13",
+              "text": "A orla de Copacabana integra o conjunto de paisagens culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P14",
+              "factKey": "rio-de-janeiro-F14",
+              "text": "A intervenção paisagística associa o litoral ao trabalho de Burle Marx.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P15",
+              "factKey": "rio-de-janeiro-F15",
+              "text": "O parque à beira da baía faz parte das áreas paisagísticas reconhecidas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P16",
+              "factKey": "rio-de-janeiro-F16",
+              "text": "A topografia cria mirantes que permitem observar as relações entre cidade e relevo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P17",
+              "factKey": "rio-de-janeiro-F17",
+              "text": "As estruturas defensivas testemunham períodos anteriores da ocupação costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P18",
+              "factKey": "rio-de-janeiro-F18",
+              "text": "Sua função político-administrativa antecedeu a inauguração da capital no interior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P19",
+              "factKey": "rio-de-janeiro-F19",
+              "text": "A sequência das capitais brasileiras inclui esta cidade entre a primeira e a atual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P20",
+              "factKey": "rio-de-janeiro-F20",
+              "text": "O reconhecimento articula patrimônio simbólico e elementos naturais.",
+              "relatedFields": [
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P21",
+              "factKey": "rio-de-janeiro-F21",
+              "text": "A posição costeira conecta o sistema da baía ao Atlântico.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P22",
+              "factKey": "rio-de-janeiro-F22",
+              "text": "A configuração costeira relaciona encostas, baía e áreas urbanizadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P23",
+              "factKey": "rio-de-janeiro-F23",
+              "text": "A conservação da cobertura vegetal ocorre em contexto metropolitano.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P24",
+              "factKey": "rio-de-janeiro-F24",
+              "text": "As relações entre natureza e cidade influenciaram expressões artísticas e projetos urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-de-janeiro-geografo-P25",
+              "factKey": "rio-de-janeiro-F25",
+              "text": "A identificação depende da combinação de baía, parque florestal e marco do Corcovado.",
+              "relatedFields": [
+                "C2",
+                "C3",
+                "C4"
+              ],
+              "sources": [
+                "RJ1",
+                "B2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Rio de Janeiro reúne elementos naturais e culturais como a Baía de Guanabara, o Corcovado e o Parque Nacional da Tijuca.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

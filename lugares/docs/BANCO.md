@@ -1185,3 +1185,138 @@ O centro histórico de Roma, às margens do Tibre, reúne monumentos antigos com
 - O anfiteatro integra os monumentos da Antiguidade presentes no centro.
 - A rede hidrográfica fornece um critério para distinguir cidades europeias.
 - A identificação relaciona hidrografia, monumentos e sucessão de funções políticas.
+
+
+## Ampliação das regiões Norte e Sudeste
+
+Os dois destinos têm fontes institucionais no banco; a calibração em partidas permanece pendente.
+
+### Manaus
+
+Manaus é a capital do Amazonas, junto ao rio Negro; seu centro histórico reúne testemunhos do período da borracha e o Teatro Amazonas.
+
+- **Cidade**: Manaus.
+- **Rio da orla histórica**: Negro.
+- **Rios que se encontram nas proximidades**: Negro e Solimões.
+- **Teatro histórico**: Teatro Amazonas.
+
+**Viajante**
+
+- A cidade é uma capital brasileira cercada por paisagens amazônicas.
+- O lugar é a capital do estado do Amazonas.
+- Um rio de águas escuras acompanha a orla histórica.
+- Esse rio é o Negro.
+- Nas proximidades, dois rios de cores diferentes se encontram.
+- O encontro de águas envolve os rios Negro e Solimões.
+- A paisagem reúne cidade, floresta e rios.
+- Há um teatro histórico de cúpula marcante.
+- O teatro foi inaugurado no século XIX.
+- A inauguração do teatro ocorreu em 1896.
+- O edifício é conhecido como Teatro Amazonas.
+- Outro teatro amazônico importante fica em Belém.
+- A economia da borracha influenciou a cidade.
+- O centro conserva construções ligadas ao período da borracha.
+- O centro histórico foi tombado pelo Iphan em 2012.
+- Prédios antigos e modernos convivem no centro.
+- O teatro é um espaço de cultura e espetáculos.
+- A história urbana inclui influências da Belle Époque amazônica.
+- A região possui rios, igarapés e comunidades ribeirinhas.
+- A orla histórica se liga ao rio e ao centro antigo.
+- A economia do látex conectou a região ao mercado mundial.
+- O teatro recebeu tombamento federal em 1966.
+- O estado pertence à região Norte do Brasil.
+- A água e a cultura ajudam a contar a história do lugar.
+- Para distinguir esta capital de outras, combine um teatro e dois rios.
+
+**Geógrafo**
+
+- O núcleo urbano se localiza em uma região de floresta tropical amazônica.
+- A capitalidade estadual situa o destino no Amazonas.
+- A frente fluvial histórica se associa ao curso de águas escuras.
+- O rio Negro é referência para a localização do centro urbano.
+- A confluência aproxima águas do Negro e do Solimões.
+- A rede hidrográfica local inclui a confluência do Negro com o Solimões.
+- O espaço urbano se articula com sistemas fluviais e florestais.
+- Um edifício cultural de cúpula integra o patrimônio arquitetônico local.
+- A inauguração do teatro ocorreu no contexto de modernização urbana oitocentista.
+- A data de abertura do equipamento cultural foi 1896.
+- O teatro histórico leva o nome do estado onde está situado.
+- O patrimônio teatral regional inclui um exemplar situado em outra capital amazônica.
+- A exploração do látex impulsionou transformações econômicas e urbanas.
+- O conjunto urbano preserva testemunhos arquitetônicos do auge da economia do látex.
+- O reconhecimento federal do conjunto urbano ocorreu em 2012.
+- O tecido urbano combina construções históricas e edifícios posteriores.
+- O patrimônio edificado também cumpre função cultural contemporânea.
+- A paisagem construída registra projetos de modernização do período da borracha.
+- A rede de águas e as populações ribeirinhas compõem o contexto regional.
+- A área tombada compreende a frente do rio e o entorno do teatro.
+- A demanda internacional pelo produto influenciou a economia amazônica.
+- A proteção do edifício teatral pelo Iphan antecedeu a do conjunto urbano.
+- A localização administrativa integra a região Norte brasileira.
+- A identificação combina hidrografia, arquitetura e história econômica.
+- A diferenciação resulta da relação entre patrimônio teatral e confluência fluvial.
+
+### Rio de Janeiro
+
+O Rio de Janeiro reúne elementos naturais e culturais como a Baía de Guanabara, o Corcovado e o Parque Nacional da Tijuca.
+
+- **Cidade**: Rio de Janeiro.
+- **Baía da paisagem**: Baía de Guanabara.
+- **Monumento sobre o Corcovado**: Cristo Redentor.
+- **Parque florestal da paisagem**: Parque Nacional da Tijuca.
+
+**Viajante**
+
+- O destino combina montanhas, floresta e mar na mesma paisagem.
+- A cidade fica no Sudeste brasileiro.
+- Uma grande baía aparece entre os elementos da paisagem.
+- Essa baía é a Guanabara.
+- Uma estátua conhecida fica sobre o Corcovado.
+- A estátua é chamada Cristo Redentor.
+- O Parque Nacional da Tijuca protege áreas de montanha.
+- O parque tem áreas verdes e mirantes.
+- Há um jardim botânico histórico na cidade.
+- O jardim botânico foi criado em 1808.
+- A paisagem reconhecida vai das montanhas até o mar.
+- O conjunto reconhecido pela UNESCO inclui elementos naturais e projetados.
+- A praia de Copacabana faz parte da paisagem reconhecida.
+- Os desenhos da orla estão ligados ao paisagismo de Burle Marx.
+- O Parque do Flamengo integra a paisagem junto à baía.
+- Muitos pontos altos oferecem vista da cidade.
+- Fortificações preservam parte da memória da ocupação histórica.
+- A cidade foi capital do Brasil antes da transferência para o Planalto Central.
+- A cidade já foi capital entre o período de Salvador e o de Brasília.
+- O monumento do Corcovado e a floresta fazem parte do mesmo conjunto paisagístico.
+- A baía se abre para o Oceano Atlântico.
+- O relevo inclui morros próximos à água.
+- O parque florestado está inserido em uma grande cidade.
+- A paisagem inspirou artistas e planejadores.
+- Para diferenciar esta cidade de outras praias, combine baía, floresta e monumento.
+
+**Geógrafo**
+
+- A paisagem urbana articula relevo, cobertura vegetal e litoral.
+- O núcleo urbano integra a região Sudeste do Brasil.
+- A baía e seus morros participam da configuração territorial urbana.
+- A Baía de Guanabara é uma referência geográfica do destino.
+- A relação entre monumento e relevo se expressa na estátua do Corcovado.
+- O monumento sobre o Corcovado representa o Cristo Redentor.
+- O parque conserva relevo florestado inserido na paisagem urbana.
+- Floresta e pontos elevados de observação integram o conjunto protegido.
+- O conjunto cultural inclui um jardim botânico urbano.
+- A origem do jardim reconhecido remonta a 1808.
+- O patrimônio evidencia a continuidade espacial entre relevo e litoral.
+- O bem cultural articula formações naturais e paisagismo urbano.
+- A orla de Copacabana integra o conjunto de paisagens culturais.
+- A intervenção paisagística associa o litoral ao trabalho de Burle Marx.
+- O parque à beira da baía faz parte das áreas paisagísticas reconhecidas.
+- A topografia cria mirantes que permitem observar as relações entre cidade e relevo.
+- As estruturas defensivas testemunham períodos anteriores da ocupação costeira.
+- Sua função político-administrativa antecedeu a inauguração da capital no interior.
+- A sequência das capitais brasileiras inclui esta cidade entre a primeira e a atual.
+- O reconhecimento articula patrimônio simbólico e elementos naturais.
+- A posição costeira conecta o sistema da baía ao Atlântico.
+- A configuração costeira relaciona encostas, baía e áreas urbanizadas.
+- A conservação da cobertura vegetal ocorre em contexto metropolitano.
+- As relações entre natureza e cidade influenciaram expressões artísticas e projetos urbanos.
+- A identificação depende da combinação de baía, parque florestal e marco do Corcovado.

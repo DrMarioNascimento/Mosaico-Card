@@ -1,5 +1,5 @@
 {
-  "status": "Seleção editorial proposta; correspondência entre candidatos e destinos jogáveis requer revisão quando há nomes alternativos.",
+  "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
   "targetPlaces": 125,
   "draftedPlaces": [
     "Florianópolis",
@@ -21,7 +21,9 @@
     "Ilhas Galápagos",
     "Petra",
     "Porto",
-    "Roma"
+    "Roma",
+    "Manaus",
+    "Rio de Janeiro"
   ],
   "groups": {
     "Brasil Norte": [
@@ -179,5 +181,22 @@
     "Mar Morto e outros lugares sensíveis exigem descrição territorial precisa e fontes atuais ao elaborar as pistas.",
     "País, cidade, monumento, rio, paisagem e parque são tipos diferentes e devem ser informados ao jogador.",
     "A pauta de um país e a de sua capital devem ter identidades diferentes; destinos relacionados podem compartilhar familyId para evitar repetição temática na mesma sessão."
-  ]
+  ],
+  "metasPorRecorte": {
+    "brasil": 30,
+    "america": 30,
+    "europa": 30,
+    "africa": 30,
+    "asia": 30,
+    "oceania": 30,
+    "antartida": 30
+  },
+  "minimoPorRegiaoBrasileira": {
+    "norte": 6,
+    "nordeste": 6,
+    "centro-oeste": 6,
+    "sudeste": 6,
+    "sul": 6
+  },
+  "regraContagem": "Um lugar conta uma vez em cada recorte ao qual pertence. Brasil integra América; recortes combinados no jogo formam uma união sem duplicatas. Os mínimos regionais integram a meta brasileira."
 }

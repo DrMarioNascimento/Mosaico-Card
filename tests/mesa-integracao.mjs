@@ -23,13 +23,13 @@ for(const [edicao, modo] of [['cinema'], ['nt', 'devocional'], ['nt', 'pastor'],
    const q=sel=>master.w.document.querySelector(sel);
    q('#sessao-lugares [data-territorio=todos]').click();
    assert.equal(q('#btn-abrir-com-mesa').disabled,true,'Sem seleção não cria sala');
-   assert.equal(q('#sessao-lugares [data-territorio=norte]').disabled,true,'Região sem banco informa em breve');
+   assert.equal(q('#sessao-lugares [data-territorio=norte]').disabled,false,'A região Norte possui destino jogável');
    q('#sessao-lugares [data-territorio=centro-oeste]').click();
    assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/1 lugar.*Pouca variedade/);
    q('#sessao-lugares [data-territorio=brasil]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/8 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/10 lugares/);
    q('#sessao-lugares [data-territorio=america]').click();
-   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/11 lugares/);
+   assert.match(q('#sessao-lugares .lugares-disponiveis').textContent,/13 lugares/);
    q('#sessao-lugares [data-territorio=todos]').click();
  }
  click(master,'#btn-abrir-com-mesa');await flush();fill(master,'#nome','Mestre de teste');click(master,'#btn-entrar-mesa');await flush();
