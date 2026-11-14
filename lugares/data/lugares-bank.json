@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-36-2026-11-14",
+  "catalogVersion": "lote-37-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Oitenta e cinco destinos jogáveis em dois perfis",
-  "status": "Oitenta e cinco destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Oitenta e sete destinos jogáveis em dois perfis",
+  "status": "Oitenta e sete destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1032,6 +1032,20 @@
       "title": "Historic Centre of the Town of Goiás",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/993/",
+      "checkedAt": "2026-11-14"
+    },
+    "CAPIVARA606": {
+      "id": "CAPIVARA606",
+      "title": "Parque Nacional da Serra da Capivara",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/606/",
+      "checkedAt": "2026-11-14"
+    },
+    "CRISTOVAO1272": {
+      "id": "CRISTOVAO1272",
+      "title": "Praça de São Francisco em São Cristóvão",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1272/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -89767,6 +89781,1989 @@
         "canonicalSummary": "Centro histórico de uma antiga cidade mineradora no interior de Goiás, às margens do Rio Vermelho.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-serra-capivara",
+      "placeId": "serra-capivara",
+      "title": "Parque Nacional da Serra da Capivara",
+      "aliases": [
+        "Serra da Capivara"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional da Serra das Confusões"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Sete Cidades"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional do Ubajara"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Jaú"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional das Emas"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional da Serra da Capivara",
+          "sources": [
+            "CAPIVARA606"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Patrimônio arqueológico",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Pinturas rupestres em abrigos rochosos"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ruínas de uma cidade romana"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Templos de pedra medievais"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Esculturas submersas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Pinturas rupestres em abrigos rochosos",
+          "sources": [
+            "CAPIVARA606"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambiente predominante",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Caatinga"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pampas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pantanal"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta de araucárias"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Caatinga",
+          "sources": [
+            "CAPIVARA606"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Ceará"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Pernambuco"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Piauí",
+          "sources": [
+            "CAPIVARA606"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "serra-capivara-viajante-P01",
+              "factKey": "serra-capivara-F01",
+              "text": "Este destino protege paisagens e vestígios de pessoas do passado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P02",
+              "factKey": "serra-capivara-F02",
+              "text": "Fica no interior do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P03",
+              "factKey": "serra-capivara-F03",
+              "text": "Abrigos em rochas fazem parte do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P04",
+              "factKey": "serra-capivara-F04",
+              "text": "Muitos desses abrigos guardam pinturas antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P05",
+              "factKey": "serra-capivara-F05",
+              "text": "O parque reúne diversos sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P06",
+              "factKey": "serra-capivara-F06",
+              "text": "A área fica no estado do Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P07",
+              "factKey": "serra-capivara-F07",
+              "text": "A vegetação pertence à Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P08",
+              "factKey": "serra-capivara-F08",
+              "text": "A paisagem convive com períodos secos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P09",
+              "factKey": "serra-capivara-F09",
+              "text": "Muitas plantas perdem folhas na estação seca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P10",
+              "factKey": "serra-capivara-F10",
+              "text": "Vales e serras fazem parte do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P11",
+              "factKey": "serra-capivara-F11",
+              "text": "O parque foi criado em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P12",
+              "factKey": "serra-capivara-F12",
+              "text": "A UNESCO reconheceu o lugar como Patrimônio Mundial em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P13",
+              "factKey": "serra-capivara-F13",
+              "text": "O patrimônio reconhecido está relacionado à história humana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P14",
+              "factKey": "serra-capivara-F14",
+              "text": "Pesquisadores estudam vestígios de antigas populações da América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P15",
+              "factKey": "serra-capivara-F15",
+              "text": "As imagens nas rochas são registros culturais de povos antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P16",
+              "factKey": "serra-capivara-F16",
+              "text": "A área inclui parte do município de São Raimundo Nonato.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P17",
+              "factKey": "serra-capivara-F17",
+              "text": "O município de Coronel José Dias também abrange parte do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P18",
+              "factKey": "serra-capivara-F18",
+              "text": "A preservação envolve tanto a natureza quanto o patrimônio cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P19",
+              "factKey": "serra-capivara-F19",
+              "text": "Os abrigos e pinturas precisam de cuidados de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P20",
+              "factKey": "serra-capivara-F20",
+              "text": "O turismo arqueológico é uma das atividades da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P21",
+              "factKey": "serra-capivara-F21",
+              "text": "O Museu do Homem Americano está associado à região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P22",
+              "factKey": "serra-capivara-F22",
+              "text": "O parque tem ligação com a Fundação Museu do Homem Americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P23",
+              "factKey": "serra-capivara-F23",
+              "text": "O Iphan participa do acompanhamento do patrimônio arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P24",
+              "factKey": "serra-capivara-F24",
+              "text": "A conservação do parque envolve o ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-viajante-P25",
+              "factKey": "serra-capivara-F25",
+              "text": "O relevo está próximo à bacia sedimentar Maranhão-Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "serra-capivara-geografo-P01",
+              "factKey": "serra-capivara-F01",
+              "text": "O sítio reúne atributos ambientais e registros arqueológicos no interior sul-americano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P02",
+              "factKey": "serra-capivara-F02",
+              "text": "Situa-se na região Nordeste do território brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P03",
+              "factKey": "serra-capivara-F03",
+              "text": "Seus sítios incluem abrigos formados em rocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P04",
+              "factKey": "serra-capivara-F04",
+              "text": "A arte rupestre constitui parte expressiva do patrimônio protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P05",
+              "factKey": "serra-capivara-F05",
+              "text": "Há uma rede de sítios arqueológicos no interior da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P06",
+              "factKey": "serra-capivara-F06",
+              "text": "O parque localiza-se no sudeste do Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P07",
+              "factKey": "serra-capivara-F07",
+              "text": "Está inserido na zona morfoclimática da Caatinga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P08",
+              "factKey": "serra-capivara-F08",
+              "text": "A vegetação apresenta adaptações a condições semiáridas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P09",
+              "factKey": "serra-capivara-F09",
+              "text": "A perda sazonal de folhas modifica o aspecto da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P10",
+              "factKey": "serra-capivara-F10",
+              "text": "O relevo combina serras, vales e planícies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P11",
+              "factKey": "serra-capivara-F11",
+              "text": "A unidade de conservação foi instituída em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P12",
+              "factKey": "serra-capivara-F12",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P13",
+              "factKey": "serra-capivara-F13",
+              "text": "A inscrição reconhece seu valor cultural e arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P14",
+              "factKey": "serra-capivara-F14",
+              "text": "Os vestígios contribuem para o debate sobre a presença humana antiga nas Américas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P15",
+              "factKey": "serra-capivara-F15",
+              "text": "As imagens rupestres registram expressões culturais de populações pré-coloniais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P16",
+              "factKey": "serra-capivara-F16",
+              "text": "Parte da área protegida encontra-se no município de São Raimundo Nonato.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P17",
+              "factKey": "serra-capivara-F17",
+              "text": "Coronel José Dias é um dos municípios parcialmente abrangidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P18",
+              "factKey": "serra-capivara-F18",
+              "text": "A gestão busca conciliar preservação arqueológica e componentes ecológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P19",
+              "factKey": "serra-capivara-F19",
+              "text": "O registro e o monitoramento das pinturas apoiam a conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P20",
+              "factKey": "serra-capivara-F20",
+              "text": "O turismo arqueológico relaciona patrimônio, visitação e economia regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P21",
+              "factKey": "serra-capivara-F21",
+              "text": "O Museu do Homem Americano integra a infraestrutura cultural da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P22",
+              "factKey": "serra-capivara-F22",
+              "text": "A Fundação Museu do Homem Americano participa da gestão do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P23",
+              "factKey": "serra-capivara-F23",
+              "text": "O Iphan contribui para acompanhar e conservar os sítios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P24",
+              "factKey": "serra-capivara-F24",
+              "text": "A gestão federal da unidade envolve o ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-capivara-geografo-P25",
+              "factKey": "serra-capivara-F25",
+              "text": "A área está no contato entre a bacia Maranhão-Piauí e a depressão periférica do São Francisco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CAPIVARA606"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque Nacional da Serra da Capivara é um bem cultural brasileiro reconhecido pela UNESCO.",
+        "editorialNotes": [
+          "Fonte institucional vinculada; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-praca-cristovao",
+      "placeId": "praca-cristovao",
+      "title": "Praça de São Francisco em São Cristóvão",
+      "aliases": [
+        "Praça de São Francisco",
+        "São Cristóvão"
+      ],
+      "answerType": "praça histórica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Praça histórica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Praça de São Francisco em São Cristóvão"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Praça Tiradentes em Ouro Preto"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Praça São Francisco em Salvador"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Praça da Sé em São Paulo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Praça XV no Rio de Janeiro"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Praça do Marco Zero no Recife"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Praça da Matriz em Pirenópolis"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Praça dos Três Poderes em Brasília"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Praça da Liberdade em Belo Horizonte"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Praça Castro Alves em Salvador"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Praça do Comércio em Lisboa"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Praça da República em Belém"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Praça de São Francisco em São Cristóvão",
+          "sources": [
+            "CRISTOVAO1272"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Conjunto religioso",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Igreja e convento franciscano"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Mosteiro beneditino"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Santuário budista"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Templo hindu"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Igreja e convento franciscano",
+          "sources": [
+            "CRISTOVAO1272"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Influências urbanísticas",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Modelos portugueses e espanhóis"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Modelos japoneses e chineses"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Modelos vikings e inuit"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Modelos astecas e maias"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Modelos portugueses e espanhóis",
+          "sources": [
+            "CRISTOVAO1272"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Sergipe"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Sergipe",
+          "sources": [
+            "CRISTOVAO1272"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "praca-cristovao-viajante-P01",
+              "factKey": "praca-cristovao-F01",
+              "text": "O destino é um espaço aberto cercado de construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P02",
+              "factKey": "praca-cristovao-F02",
+              "text": "Fica em uma cidade do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P03",
+              "factKey": "praca-cristovao-F03",
+              "text": "O conjunto fica no estado de Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P04",
+              "factKey": "praca-cristovao-F04",
+              "text": "A praça tem formato de quatro lados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P05",
+              "factKey": "praca-cristovao-F05",
+              "text": "Há uma igreja e um convento ao redor do espaço.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P06",
+              "factKey": "praca-cristovao-F06",
+              "text": "A ordem franciscana está ligada ao convento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P07",
+              "factKey": "praca-cristovao-F07",
+              "text": "Uma Santa Casa da Misericórdia integra o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P08",
+              "factKey": "praca-cristovao-F08",
+              "text": "Um antigo palácio provincial está entre os edifícios próximos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P09",
+              "factKey": "praca-cristovao-F09",
+              "text": "Casas de diferentes épocas cercam a praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P10",
+              "factKey": "praca-cristovao-F10",
+              "text": "Há construções dos séculos XVIII e XIX no entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P11",
+              "factKey": "praca-cristovao-F11",
+              "text": "A área reúne prédios religiosos e civis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P12",
+              "factKey": "praca-cristovao-F12",
+              "text": "A UNESCO reconheceu o conjunto como Patrimônio Mundial em 2010.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P13",
+              "factKey": "praca-cristovao-F13",
+              "text": "O local é palco de manifestações sociais e culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P14",
+              "factKey": "praca-cristovao-F14",
+              "text": "O conjunto está dentro de um centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P15",
+              "factKey": "praca-cristovao-F15",
+              "text": "Sua história remete ao período colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P16",
+              "factKey": "praca-cristovao-F16",
+              "text": "A praça combina ideias de urbanismo português e espanhol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P17",
+              "factKey": "praca-cristovao-F17",
+              "text": "Sua organização foi influenciada pela ideia hispânica de praça maior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P18",
+              "factKey": "praca-cristovao-F18",
+              "text": "O espaço pertence a uma cidade de origem colonial portuguesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P19",
+              "factKey": "praca-cristovao-F19",
+              "text": "A união das coroas de Portugal e Espanha faz parte do contexto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P20",
+              "factKey": "praca-cristovao-F20",
+              "text": "O conjunto foi protegido pelo estado em 1938.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P21",
+              "factKey": "praca-cristovao-F21",
+              "text": "A proteção federal do conjunto ocorreu em 1967.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P22",
+              "factKey": "praca-cristovao-F22",
+              "text": "O Iphan participa da conservação física do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P23",
+              "factKey": "praca-cristovao-F23",
+              "text": "A prefeitura cuida do uso do solo e das regras urbanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P24",
+              "factKey": "praca-cristovao-F24",
+              "text": "O plano urbano envolveu moradores e ordens religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-viajante-P25",
+              "factKey": "praca-cristovao-F25",
+              "text": "O conjunto histórico foi adaptado ao relevo local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "praca-cristovao-geografo-P01",
+              "factKey": "praca-cristovao-F01",
+              "text": "O objeto é uma praça histórica e seu conjunto arquitetônico envolvente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P02",
+              "factKey": "praca-cristovao-F02",
+              "text": "O sítio integra a rede urbana do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P03",
+              "factKey": "praca-cristovao-F03",
+              "text": "O conjunto situa-se no território de Sergipe.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P04",
+              "factKey": "praca-cristovao-F04",
+              "text": "A configuração do espaço aberto é quadrilátera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P05",
+              "factKey": "praca-cristovao-F05",
+              "text": "Instituições religiosas organizam parte do perímetro da praça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P06",
+              "factKey": "praca-cristovao-F06",
+              "text": "O complexo de igreja e convento pertence à tradição franciscana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P07",
+              "factKey": "praca-cristovao-F07",
+              "text": "O conjunto inclui igreja e Santa Casa da Misericórdia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P08",
+              "factKey": "praca-cristovao-F08",
+              "text": "Um palácio provincial representa a arquitetura civil do entorno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P09",
+              "factKey": "praca-cristovao-F09",
+              "text": "As edificações envolventes pertencem a diferentes períodos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P10",
+              "factKey": "praca-cristovao-F10",
+              "text": "Casas dos séculos XVIII e XIX complementam a paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P11",
+              "factKey": "praca-cristovao-F11",
+              "text": "Usos institucionais civis e religiosos convivem no mesmo conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P12",
+              "factKey": "praca-cristovao-F12",
+              "text": "A inscrição patrimonial pela UNESCO ocorreu em 2010.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P13",
+              "factKey": "praca-cristovao-F13",
+              "text": "A praça mantém funções sociais e culturais para a comunidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P14",
+              "factKey": "praca-cristovao-F14",
+              "text": "O centro histórico da cidade compõe a zona de amortecimento do bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P15",
+              "factKey": "praca-cristovao-F15",
+              "text": "O conjunto testemunha a organização urbana no período colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P16",
+              "factKey": "praca-cristovao-F16",
+              "text": "Sua morfologia articula modelos de ocupação portugueses e espanhóis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P17",
+              "factKey": "praca-cristovao-F17",
+              "text": "A concepção da praça remete ao modelo hispano-americano de Plaza Mayor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P18",
+              "factKey": "praca-cristovao-F18",
+              "text": "Esse modelo aparece inserido no traçado de uma cidade colonial portuguesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P19",
+              "factKey": "praca-cristovao-F19",
+              "text": "A união dinástica das coroas ibéricas fornece parte do contexto histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P20",
+              "factKey": "praca-cristovao-F20",
+              "text": "O conjunto foi reconhecido como monumento histórico estadual em 1938.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P21",
+              "factKey": "praca-cristovao-F21",
+              "text": "O tombamento federal do conjunto ocorreu em 1967.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P22",
+              "factKey": "praca-cristovao-F22",
+              "text": "O Iphan responde pela conservação física do bem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P23",
+              "factKey": "praca-cristovao-F23",
+              "text": "O poder municipal responde por regras urbanísticas e uso do solo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P24",
+              "factKey": "praca-cristovao-F24",
+              "text": "Um plano urbano contou com participação da população e de ordens religiosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "praca-cristovao-geografo-P25",
+              "factKey": "praca-cristovao-F25",
+              "text": "O planejamento do conjunto considera a topografia específica do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CRISTOVAO1272"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Praça de São Francisco em São Cristóvão é um bem cultural brasileiro reconhecido pela UNESCO.",
+        "editorialNotes": [
+          "Fonte institucional vinculada; calibrar dificuldade em partidas."
         ]
       },
       "review": {

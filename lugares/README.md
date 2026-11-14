@@ -95,8 +95,10 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Centro Histórico de Évora | Europa |
 | Parque Nacional das Montanhas Rwenzori | África |
 | Centro Histórico da Cidade de Goiás | Brasil / Centro-Oeste / América |
+| Parque Nacional da Serra da Capivara | Brasil / Nordeste / América |
+| Praça de São Francisco em São Cristóvão | Brasil / Nordeste / América |
 
-São 85 lugares, 170 conjuntos de pistas (dois por lugar), 4.250 pistas, 340 perguntas distintas e 2.640 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
+São 87 lugares, 174 conjuntos de pistas (dois por lugar), 4.350 pistas, 348 perguntas distintas e 2.688 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
 Para maior variedade, o teste pode preferir **Todos os lugares**. Os filtros exibem a quantidade disponível. Regiões ainda sem conteúdo aparecem como “Em breve”; seleção vazia não cria nem inicia uma partida. Seleções com menos de quatro lugares recebem um aviso de pouca variedade. As metas e contagens por recorte estão em [Metas de expansão](docs/METAS-POR-RECORTE.md); candidatos não são conteúdo jogável.
 
