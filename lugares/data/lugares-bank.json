@@ -25,12 +25,13 @@
   },
   "selectionRules": {
     "operatorWithinTerritories": "OR",
-    "brazilIncludedInAmerica": true,
+    "brazilIncludedInAmerica": false,
     "deduplicateBy": "placeId",
     "oneProfilePerRoom": true,
     "minimumCasesSuggested": 4,
     "minimumCasesIsEditorialProposal": true,
-    "preserveProfileOnReconnect": true
+    "preserveProfileOnReconnect": true,
+    "americaExcludesBrazil": true
   },
   "sources": {
     "F1": {

@@ -9,20 +9,20 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
 | Brasil | 34 | 30 | 0 |
-| América | 39 | 30 | 0 |
+| Américas (sem Brasil) | 5 | 30 | 25 |
 | Europa | 8 | 30 | 22 |
 | África | 11 | 30 | 19 |
 | Ásia | 10 | 30 | 20 |
 | Oceania | 9 | 30 | 21 |
 | Antártida | 11 | 30 | 19 |
 
-**Atenção:** as linhas se sobrepõem. Um lugar brasileiro conta em Brasil e em América, mas é uma única pauta de lugar. Rapa Nui conta em América pela administração chilena e em Oceania pela posição polinésia. A seleção combinada Brasil + América deve exibir a união, sem duplicação. Não somar a coluna de faltas para estimar quantos lugares inéditos precisam ser produzidos.
+**Atenção:** o filtro Américas reúne lugares do continente fora do Brasil. Brasil e suas regiões constituem filtros próprios; selecionar ambos combina os destinos sem duplicar. Rapa Nui conta em Américas pela administração chilena e em Oceania pela posição polinésia. Os recortes ainda podem se sobrepor.
 
-Dentro da América, preservar variedade além do Brasil: buscar pelo menos 15 lugares de outros países como submeta editorial, além dos 30 brasileiros. Esse é um critério de composição proposto, e não altera a meta mínima de 30 da seleção América. Lugares que cruzam fronteiras devem ter seu objeto explicitamente delimitado e só receber os territórios que realmente abrangem.
+O módulo Américas deve alcançar pelo menos 30 lugares de países fora do Brasil. Lugares que cruzam fronteiras devem ter seu objeto explicitamente delimitado e só receber os territórios que realmente abrangem.
 
 ## Distribuição brasileira
 
-A meta é de 30 lugares jogáveis em cada uma das cinco regiões brasileiras. Esses lugares também contam em Brasil e América, sem duplicação no catálogo ou na seleção combinada.
+A meta é de 30 lugares jogáveis em cada uma das cinco regiões brasileiras. Esses lugares também contam no filtro Brasil, sem duplicação no catálogo ou na seleção combinada.
 
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
@@ -46,4 +46,4 @@ Nenhuma das cinco regiões brasileiras atingiu a meta de 30. A diversidade e a d
 
 ## Próximos lotes
 
-Completar todas as cinco regiões brasileiras e os cinco continentes ainda abaixo de 30, mantendo variedade também na América fora do Brasil. O arquivo `data/plano-expansao.json` é uma lista de candidatos, não prova de cobertura nem de aprovação factual. Recalcular esta tabela após cada lote efetivamente integrado.
+Completar todas as cinco regiões brasileiras e os cinco continentes ainda abaixo de 30, e alcançar 30 lugares nas Américas fora do Brasil. O arquivo `data/plano-expansao.json` é uma lista de candidatos, não prova de cobertura nem de aprovação factual. Recalcular esta tabela após cada lote efetivamente integrado.

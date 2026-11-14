@@ -1,14 +1,14 @@
 /* Recortes geográficos e perfis da sala. A união elimina repetição por lugar. */
 (function (root) {
   'use strict';
-  const TERRITORIOS = Object.freeze({todos:'Todos os lugares',brasil:'Brasil',norte:'Norte',nordeste:'Nordeste','centro-oeste':'Centro-Oeste',sudeste:'Sudeste',sul:'Sul',america:'América',europa:'Europa',africa:'África',asia:'Ásia',oceania:'Oceania',antartida:'Antártida'});
+  const TERRITORIOS = Object.freeze({todos:'Todos os lugares',brasil:'Brasil',norte:'Norte',nordeste:'Nordeste','centro-oeste':'Centro-Oeste',sudeste:'Sudeste',sul:'Sul',america:'Américas (sem Brasil)',europa:'Europa',africa:'África',asia:'Ásia',oceania:'Oceania',antartida:'Antártida'});
   const PADRAO = Object.freeze({perfil:'viajante',territorios:Object.freeze(['todos'])});
   function normalizar(e) {
     e=e||{};
     const t=Array.isArray(e.territorios)?[...new Set(e.territorios.filter(k=>Object.hasOwn(TERRITORIOS,k)))].sort():['todos'];
     return {perfil:e.perfil==='geografo'?'geografo':'viajante',territorios:t.includes('todos')?['todos']:t};
   }
-  function inclui(geo,k) {return k==='todos'||k==='brasil'&&geo.countries.includes('BR')||geo.continents.includes(k)||geo.brazilRegions.includes(k);}
+  function inclui(geo,k) {return k==='todos'||k==='brasil'&&geo.countries.includes('BR')||k==='america'&&geo.continents.includes('america')&&!geo.countries.includes('BR')||k!=='america'&&geo.continents.includes(k)||geo.brazilRegions.includes(k);}
   function combina(c,s) {s=normalizar(s);return c.profile===s.perfil && s.territorios.some(k=>inclui(c.geography,k));}
   function valida(s) {return normalizar(s).territorios.length>0;}
   function texto(s) {s=normalizar(s);return (s.perfil==='geografo'?'Geógrafo':'Viajante')+' · '+(s.territorios.map(k=>TERRITORIOS[k]).join(' + ')||'Selecione um território');}

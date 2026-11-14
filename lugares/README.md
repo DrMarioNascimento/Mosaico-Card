@@ -2,7 +2,7 @@
 
 Banco ampliado em 14 de novembro de 2026. [Abrir Lugares](https://mosaico-card.dragongames.dev.br/lugares/).
 
-O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. Brasil também faz parte de América. A união de filtros não duplica lugares. Rapa Nui aparece em América pela administração chilena e em Oceania pela posição polinésia.
+O mestre escolhe **Viajante** ou **Geógrafo** para a sala e combina Brasil, suas cinco regiões e os seis continentes da convenção utilizada pelo IBGE. O filtro Américas reúne destinos fora do Brasil; o filtro Brasil e suas regiões agrupam os destinos brasileiros. A união de filtros não duplica lugares. Rapa Nui aparece em Américas pela administração chilena e em Oceania pela posição polinésia.
 
 Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagens conhecidos. Geógrafo explora relações espaciais, causas e processos. Ambos têm o mesmo catálogo e as mesmas quatro respostas por lugar. A profundidade do conteúdo permanece independente dos recursos pessoais de assistência disponíveis no motor.
 
@@ -10,40 +10,40 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 
 | Lugar | Recorte |
 |---|---|
-| Florianópolis | Brasil / Sul / América |
-| Parque Nacional dos Lençóis Maranhenses | Brasil / Nordeste / América |
+| Florianópolis | Brasil / Sul |
+| Parque Nacional dos Lençóis Maranhenses | Brasil / Nordeste |
 | Machu Picchu | América |
 | Paris | Europa |
 | Pirâmides de Gizé | África |
 | Monte Fuji | Ásia |
 | Grande Barreira de Corais | Oceania |
 | Polo Sul Geográfico | Antártida |
-| Brasília | Brasil / Centro-Oeste / América |
-| Parque Nacional do Iguaçu | Brasil / Sul / América |
-| Salvador | Brasil / Nordeste / América |
-| Olinda | Brasil / Nordeste / América |
-| Parque Nacional de Jericoacoara | Brasil / Nordeste / América |
+| Brasília | Brasil / Centro-Oeste |
+| Parque Nacional do Iguaçu | Brasil / Sul |
+| Salvador | Brasil / Nordeste |
+| Olinda | Brasil / Nordeste |
+| Parque Nacional de Jericoacoara | Brasil / Nordeste |
 | Cataratas Vitória | África |
-| São Luís | Brasil / Nordeste / América |
+| São Luís | Brasil / Nordeste |
 | Havana | América |
 | Ilhas Galápagos | América |
 | Petra | Ásia |
 | Porto | Europa |
 | Roma | Europa |
-| Manaus | Brasil / Norte / América |
-| Rio de Janeiro | Brasil / Sudeste / América |
-| Belém | Brasil / Norte / América |
+| Manaus | Brasil / Norte |
+| Rio de Janeiro | Brasil / Sudeste |
+| Belém | Brasil / Norte |
 | Ópera de Sydney | Oceania |
 | Parque Nacional Uluru-Kata Tjuta | Oceania |
 | Monte Kilimanjaro | África |
-| Área de Conservação do Pantanal | Brasil / Centro-Oeste / América |
+| Área de Conservação do Pantanal | Brasil / Centro-Oeste |
 | Monte Erebus | Antártida |
 | Angkor | Ásia |
 | Ilha Deception | Antártida |
 | Delta do Okavango | África |
 | Parque Nacional do Serengeti | África |
-| Parque Nacional da Chapada dos Veadeiros | Brasil / Centro-Oeste / América |
-| Ouro Preto | Brasil / Sudeste / América |
+| Parque Nacional da Chapada dos Veadeiros | Brasil / Centro-Oeste |
+| Ouro Preto | Brasil / Sudeste |
 | Parque Nacional Tongariro | Oceania |
 | Costa de Ningaloo | Oceania |
 | Plataforma de Gelo Ross | Antártida |
@@ -52,7 +52,7 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Taj Mahal | Ásia |
 | Grande Muralha da China | Ásia |
 | Parque Nacional Fiordland | Oceania |
-| Curitiba | Brasil / Sul / América |
+| Curitiba | Brasil / Sul |
 | Kyoto | Ásia |
 | Monte Vinson | Antártida |
 | Vales Secos de McMurdo | Antártida |
@@ -60,16 +60,16 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Acrópole de Atenas | Europa |
 | Medina de Marrakech | África |
 | Igrejas escavadas de Lalibela | África |
-| Jalapão | Brasil / Norte / América |
-| Parque Nacional da Chapada Diamantina | Brasil / Nordeste / América |
-| Parque Nacional das Emas | Brasil / Centro-Oeste / América |
-| Fernando de Noronha | Brasil / Nordeste / América |
+| Jalapão | Brasil / Norte |
+| Parque Nacional da Chapada Diamantina | Brasil / Nordeste |
+| Parque Nacional das Emas | Brasil / Centro-Oeste |
+| Fernando de Noronha | Brasil / Nordeste |
 | Parque Nacional Rapa Nui | América / Oceania |
 | Parque Nacional Yellowstone | América |
 | Mar de Ross | Antártida |
 | Ilha Paulet | Antártida |
-| Parque Nacional da Chapada dos Guimarães | Brasil · Centro-Oeste · América |
-| Conjunto Moderno da Pampulha | Brasil · Sudeste · América |
+| Parque Nacional da Chapada dos Guimarães | Brasil · Centro-Oeste |
+| Conjunto Moderno da Pampulha | Brasil · Sudeste |
 | Grande Zimbábue | África |
 | Timbuktu | África |
 | Stonehenge | Europa |
@@ -78,25 +78,25 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Bagan | Ásia |
 | K’gari | Oceania |
 | Parque Nacional Kakadu | Oceania |
-| Parque Nacional de Aparados da Serra | Brasil · Sul · América |
-| Paraty e Ilha Grande | Brasil · Sudeste · América |
-| Parque Nacional de Anavilhanas | Brasil · Norte · América |
-| Parque Nacional do Monte Roraima | Brasil · Norte · América |
-| Parque Nacional do Caparaó | Brasil · Sudeste · América |
-| Sítio de São Miguel Arcanjo | Brasil · Sul · América |
+| Parque Nacional de Aparados da Serra | Brasil · Sul |
+| Paraty e Ilha Grande | Brasil · Sudeste |
+| Parque Nacional de Anavilhanas | Brasil · Norte |
+| Parque Nacional do Monte Roraima | Brasil · Norte |
+| Parque Nacional do Caparaó | Brasil · Sudeste |
+| Sítio de São Miguel Arcanjo | Brasil · Sul |
 | Point Wild | Antártida |
 | Brown Bluff | Antártida |
-| Parque Nacional do Jaú | Brasil · Norte · América |
-| Parque Nacional da Serra da Bodoquena | Brasil · Centro-Oeste · América |
-| Parque Nacional do Itatiaia | Brasil · Sudeste · América |
-| Parque Estadual de Vila Velha | Brasil · Sul · América |
+| Parque Nacional do Jaú | Brasil · Norte |
+| Parque Nacional da Serra da Bodoquena | Brasil · Centro-Oeste |
+| Parque Nacional do Itatiaia | Brasil · Sudeste |
+| Parque Estadual de Vila Velha | Brasil · Sul |
 | Baía de Ha Long e Arquipélago de Cat Ba | Ásia |
 | Parque Nacional de Sagarmatha | Ásia |
 | Centro Histórico de Évora | Europa |
 | Parque Nacional das Montanhas Rwenzori | África |
-| Centro Histórico da Cidade de Goiás | Brasil / Centro-Oeste / América |
-| Parque Nacional da Serra da Capivara | Brasil / Nordeste / América |
-| Praça de São Francisco em São Cristóvão | Brasil / Nordeste / América |
+| Centro Histórico da Cidade de Goiás | Brasil / Centro-Oeste |
+| Parque Nacional da Serra da Capivara | Brasil / Nordeste |
+| Praça de São Francisco em São Cristóvão | Brasil / Nordeste |
 
 São 87 lugares, 174 conjuntos de pistas (dois por lugar), 4.350 pistas, 348 perguntas distintas e 2.688 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 

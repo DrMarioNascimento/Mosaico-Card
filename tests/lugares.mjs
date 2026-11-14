@@ -9,8 +9,8 @@ const plano=JSON.parse(readFileSync(new URL('../lugares/data/plano-expansao.json
 for(const grupo of ['brasil','america','europa','africa','asia','oceania','antartida'])assert.equal(plano.metasPorRecorte[grupo],30);
 for(const regiao of ['norte','nordeste','centro-oeste','sudeste','sul'])assert.equal(plano.minimoPorRegiaoBrasileira[regiao],30);
 const metasDoc=readFileSync(new URL('../lugares/docs/METAS-POR-RECORTE.md',import.meta.url),'utf8');
-for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['América','america',30],['Europa','europa',30],['África','africa',30],['Ásia','asia',30],['Oceania','oceania',30],['Antártida','antartida',30],['Norte','norte',30],['Nordeste','nordeste',30],['Centro-Oeste','centro-oeste',30],['Sudeste','sudeste',30],['Sul','sul',30]]) {
- const n=banco.cases.filter(c=>chave==='brasil'?c.geography.countries.includes('BR'):c.geography.continents.includes(chave)||c.geography.brazilRegions.includes(chave)).length;
+for(const [titulo,chave,alvo] of [['Brasil','brasil',30],['Américas (sem Brasil)','america',30],['Europa','europa',30],['África','africa',30],['Ásia','asia',30],['Oceania','oceania',30],['Antártida','antartida',30],['Norte','norte',30],['Nordeste','nordeste',30],['Centro-Oeste','centro-oeste',30],['Sudeste','sudeste',30],['Sul','sul',30]]) {
+ const n=banco.cases.filter(c=>chave==='brasil'?c.geography.countries.includes('BR'):chave==='america'?c.geography.continents.includes('america')&&!c.geography.countries.includes('BR'):c.geography.continents.includes(chave)||c.geography.brazilRegions.includes(chave)).length;
  assert.ok(metasDoc.includes(`| ${titulo} | ${n} | ${alvo} | ${Math.max(0,alvo-n)} |`),`Contagem desatualizada em ${titulo}`);
 }
 const ctx={localStorage:{getItem:()=>{throw Error('blocked');},setItem:()=>{throw Error('blocked');}}};
@@ -37,8 +37,8 @@ for(const c of banco.cases){
 }
 for(const perfil of ['viajante','geografo']){
  const select=t=>B.elegiveis(12,{perfil,territorios:t});
- assert.equal(select(['todos']).length,87);assert.equal(select(['brasil']).length,34);assert.equal(select(['america']).length,39);
- assert.deepEqual(select(['brasil','america']),select(['america']));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,42);
+ assert.equal(select(['todos']).length,87);assert.equal(select(['brasil']).length,34);assert.equal(select(['america']).length,5);
+ assert.equal(select(['brasil','america']).length,39);assert.ok(select(['america']).every(id=>!B.byId[id].geography.countries.includes('BR')));assert.ok(select(['brasil','america']).some(id=>B.byId[id].geography.countries.includes('BR')));assert.equal(new Set(select(['america','oceania'])).size,select(['america','oceania']).length);assert.equal(select(['brasil','europa']).length,42);
  assert.equal(select(['centro-oeste']).length,7);assert.equal(select(['norte']).length,6);assert.equal(select(['sudeste']).length,6);assert.equal(select(['asia']).length,10);assert.equal(select(['antartida']).length,11);assert.equal(select(['europa']).length,8);assert.equal(select(['africa']).length,11);assert.equal(select(['oceania']).length,9);assert.equal(select([]).length,0);assert.equal(select(['sul','nordeste']).length,15);
  const sequence=Array.from({length:87},()=>B.sortear(12,{perfil,territorios:['todos']}).caso.placeId);assert.equal(new Set(sequence).size,87,'Saco sem repetição, mesmo sem localStorage');
  assert.ok(B.sortear(12,{perfil,territorios:[]}).erro);assert.ok(B.sortear(13,{perfil,territorios:['todos']}).erro);

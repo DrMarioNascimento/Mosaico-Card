@@ -281,5 +281,5 @@
     "sudeste": 30,
     "sul": 30
   },
-  "regraContagem": "Um lugar conta uma vez em cada recorte ao qual pertence. Brasil integra América; recortes combinados no jogo formam uma união sem duplicatas. Os mínimos regionais integram a meta brasileira."
+  "regraContagem": "O filtro Américas reúne lugares do continente fora do Brasil; Brasil e regiões brasileiras são recortes separados. Recortes combinados formam uma união sem duplicatas."
 }
