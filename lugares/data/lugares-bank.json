@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-34-2026-11-14",
+  "catalogVersion": "lote-35-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Oitenta e dois destinos jogáveis em dois perfis",
-  "status": "Oitenta e dois destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Oitenta e quatro destinos jogáveis em dois perfis",
+  "status": "Oitenta e quatro destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1011,6 +1011,20 @@
       "title": "Sagarmatha National Park",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/120/",
+      "checkedAt": "2026-11-14"
+    },
+    "EVORA1": {
+      "id": "EVORA1",
+      "title": "Centro Histórico de Évora",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/361/",
+      "checkedAt": "2026-11-14"
+    },
+    "RWENZORI1": {
+      "id": "RWENZORI1",
+      "title": "Parque Nacional das Montanhas Rwenzori",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/684/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -86776,6 +86790,1984 @@
         "canonicalSummary": "Parque no Nepal com geleiras, vales e o Everest, associado às comunidades sherpas.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-evora",
+      "placeId": "evora",
+      "title": "Centro Histórico de Évora",
+      "aliases": [
+        "Évora"
+      ],
+      "answerType": "centro histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "PT"
+        ],
+        "continents": [
+          "europa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Centro histórico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Centro Histórico de Évora"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Guimarães"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico do Porto"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de Coimbra"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Angra do Heroísmo"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de São Luís"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Cidade Histórica de Goiás"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Paraty"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Medina de Fez"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Centro Histórico de Évora",
+          "sources": [
+            "EVORA1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Traço da paisagem urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Casas caiadas, azulejos e varandas de ferro"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Palafitas sobre canais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Torres de vidro e avenidas modernas"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Construções monumentais de gelo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Casas caiadas, azulejos e varandas de ferro",
+          "sources": [
+            "EVORA1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Período de destaque da corte",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Século XV"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Século X"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Século XIX"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Século XXI"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Século XV",
+          "sources": [
+            "EVORA1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Portugal"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Espanha"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Itália"
+            },
+            {
+              "id": "C4-O4",
+              "text": "França"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Portugal",
+          "sources": [
+            "EVORA1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "evora-viajante-P01",
+              "factKey": "evora-F01",
+              "text": "Este destino preserva uma área antiga de uma cidade europeia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P02",
+              "factKey": "evora-F02",
+              "text": "O lugar fica na região portuguesa do Alentejo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P03",
+              "factKey": "evora-F03",
+              "text": "Suas origens urbanas remontam ao período romano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P04",
+              "factKey": "evora-F04",
+              "text": "Entre as ruínas antigas há um templo romano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P05",
+              "factKey": "evora-F05",
+              "text": "Uma muralha romana foi reaproveitada em outras épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P06",
+              "factKey": "evora-F06",
+              "text": "O lugar também passou por domínio muçulmano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P07",
+              "factKey": "evora-F07",
+              "text": "A passagem pelo domínio muçulmano deixou vestígios defensivos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P08",
+              "factKey": "evora-F08",
+              "text": "A catedral medieval ficou pronta no século XIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P09",
+              "factKey": "evora-F09",
+              "text": "A cidade viveu um período de destaque no século XV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P10",
+              "factKey": "evora-F10",
+              "text": "Reis portugueses passaram temporadas na cidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P11",
+              "factKey": "evora-F11",
+              "text": "Conventos e palácios aparecem na história do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P12",
+              "factKey": "evora-F12",
+              "text": "A igreja e o convento de São Francisco fazem parte desse passado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P13",
+              "factKey": "evora-F13",
+              "text": "Há edifícios associados ao estilo manuelino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P14",
+              "factKey": "evora-F14",
+              "text": "Uma universidade ensinava no lugar no século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P15",
+              "factKey": "evora-F15",
+              "text": "Os jesuítas lecionavam nessa universidade a partir de 1553.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P16",
+              "factKey": "evora-F16",
+              "text": "Muitas casas tradicionais são baixas e brancas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P17",
+              "factKey": "evora-F17",
+              "text": "Azulejos decoram parte das construções.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P18",
+              "factKey": "evora-F18",
+              "text": "Algumas varandas antigas são feitas de ferro trabalhado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P19",
+              "factKey": "evora-F19",
+              "text": "Há ruas estreitas com traçado antigo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P20",
+              "factKey": "evora-F20",
+              "text": "Telhados de telha aparecem nas casas históricas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P21",
+              "factKey": "evora-F21",
+              "text": "O centro mantém marcas dos séculos XVI ao XVIII.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P22",
+              "factKey": "evora-F22",
+              "text": "Uma muralha do século XVII envolve a área histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P23",
+              "factKey": "evora-F23",
+              "text": "O grande terremoto de 1755 causou menos danos aqui que em Lisboa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P24",
+              "factKey": "evora-F24",
+              "text": "A arquitetura do lugar influenciou construções portuguesas no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-viajante-P25",
+              "factKey": "evora-F25",
+              "text": "A UNESCO reconheceu o centro histórico em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "evora-geografo-P01",
+              "factKey": "evora-F01",
+              "text": "O recorte é um centro urbano histórico europeu, e não uma unidade de conservação natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P02",
+              "factKey": "evora-F02",
+              "text": "Sua localização integra o Alentejo, no interior de Portugal.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P03",
+              "factKey": "evora-F03",
+              "text": "A ocupação romana deixou marcas materiais na estrutura histórica da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P04",
+              "factKey": "evora-F04",
+              "text": "Um templo romano remanescente evidencia a sobreposição de épocas no tecido urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P05",
+              "factKey": "evora-F05",
+              "text": "A estrutura defensiva romana recebeu intervenções posteriores, inclusive no período visigótico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P06",
+              "factKey": "evora-F06",
+              "text": "A ocupação islâmica integrou-se à sequência histórica que formou a cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P07",
+              "factKey": "evora-F07",
+              "text": "Uma porta fortificada e restos de uma alcáçova indicam transformações da defesa no período islâmico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P08",
+              "factKey": "evora-F08",
+              "text": "A catedral concluída no século XIII é um marco da ocupação medieval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P09",
+              "factKey": "evora-F09",
+              "text": "A presença mais frequente da corte portuguesa impulsionou seu auge no século XV.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P10",
+              "factKey": "evora-F10",
+              "text": "A função de residência régia ajudou a transformar a paisagem urbana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P11",
+              "factKey": "evora-F11",
+              "text": "Edifícios religiosos e palacianos testemunham a relação entre poder e organização urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P12",
+              "factKey": "evora-F12",
+              "text": "O conjunto de São Francisco exemplifica a expansão das instituições religiosas no período régio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P13",
+              "factKey": "evora-F13",
+              "text": "O estilo manuelino marca monumentos construídos ou reformulados durante o período de destaque régio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P14",
+              "factKey": "evora-F14",
+              "text": "A implantação de ensino universitário reforçou a importância intelectual da cidade no século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P15",
+              "factKey": "evora-F15",
+              "text": "A presença jesuítica a partir de 1553 integra a história educacional local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P16",
+              "factKey": "evora-F16",
+              "text": "A arquitetura cotidiana apresenta casas baixas caiadas, compondo uma paisagem urbana coerente.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P17",
+              "factKey": "evora-F17",
+              "text": "O uso de azulejos participa da linguagem decorativa da arquitetura residencial.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P18",
+              "factKey": "evora-F18",
+              "text": "Varandas em ferro forjado são um dos elementos construtivos destacados pela UNESCO.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P19",
+              "factKey": "evora-F19",
+              "text": "A configuração medieval das ruas estreitas permanece legível em partes do centro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P20",
+              "factKey": "evora-F20",
+              "text": "Telhados de telha e terraços participam da morfologia da arquitetura doméstica.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P21",
+              "factKey": "evora-F21",
+              "text": "A unidade da paisagem cotidiana resulta de construções realizadas entre os séculos XVI e XVIII.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P22",
+              "factKey": "evora-F22",
+              "text": "A fortificação seiscentista delimitou uma área urbana cujas características históricas persistem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P23",
+              "factKey": "evora-F23",
+              "text": "A preservação relativa no sismo de 1755 ajuda a explicar a permanência de monumentos antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P24",
+              "factKey": "evora-F24",
+              "text": "A UNESCO relaciona sua paisagem arquitetônica a influências observadas em cidades brasileiras, como Salvador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "evora-geografo-P25",
+              "factKey": "evora-F25",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1986 como bem cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "EVORA1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Centro histórico português do Alentejo, com marcas romanas, medievais e da corte portuguesa, reconhecido pela UNESCO.",
+        "editorialNotes": [
+          "Fonte institucional vinculada; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-rwenzori",
+      "placeId": "rwenzori",
+      "title": "Parque Nacional das Montanhas Rwenzori",
+      "aliases": [
+        "Rwenzori"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "UG"
+        ],
+        "continents": [
+          "africa"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional das Montanhas Rwenzori"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional de Virunga"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional do Monte Quênia"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional de Kilimanjaro"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Serengeti"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional dos Vulcões"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional de Bwindi"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional de Kahuzi-Biega"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional de Amboseli"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional de Simien"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional de Sagarmatha"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Huascarán"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional das Montanhas Rwenzori",
+          "sources": [
+            "RWENZORI1"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Paisagem de altitude",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Montanhas com geleiras, lagos e vegetação alpina"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dunas costeiras e lagoas sazonais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Planície de manguezais e marés"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Recifes em águas tropicais rasas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Montanhas com geleiras, lagos e vegetação alpina",
+          "sources": [
+            "RWENZORI1"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Pico de referência",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pico Margherita"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pico Uhuru"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Monte Quênia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Monte Toubkal"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pico Margherita",
+          "sources": [
+            "RWENZORI1"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País do parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Uganda"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Quênia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Tanzânia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Etiópia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Uganda",
+          "sources": [
+            "RWENZORI1"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rwenzori-viajante-P01",
+              "factKey": "rwenzori-F01",
+              "text": "É um parque nacional africano com montanhas muito altas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P02",
+              "factKey": "rwenzori-F02",
+              "text": "O parque fica no oeste de Uganda.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P03",
+              "factKey": "rwenzori-F03",
+              "text": "A área fica perto da linha do equador.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P04",
+              "factKey": "rwenzori-F04",
+              "text": "Apesar da posição tropical, há neve nas montanhas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P05",
+              "factKey": "rwenzori-F05",
+              "text": "A paisagem inclui geleiras.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P06",
+              "factKey": "rwenzori-F06",
+              "text": "Há rios de correnteza rápida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P07",
+              "factKey": "rwenzori-F07",
+              "text": "Cachoeiras fazem parte da paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P08",
+              "factKey": "rwenzori-F08",
+              "text": "O lugar também tem lagos de montanha.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P09",
+              "factKey": "rwenzori-F09",
+              "text": "A área protege boa parte de uma cadeia montanhosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P10",
+              "factKey": "rwenzori-F10",
+              "text": "Um pico chega a aproximadamente 5.109 metros.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P11",
+              "factKey": "rwenzori-F11",
+              "text": "Esse pico é conhecido como Margherita.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P12",
+              "factKey": "rwenzori-F12",
+              "text": "O cume é o terceiro mais alto da África.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P13",
+              "factKey": "rwenzori-F13",
+              "text": "O parque faz divisa com outra área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P14",
+              "factKey": "rwenzori-F14",
+              "text": "O parque vizinho chama-se Virunga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P15",
+              "factKey": "rwenzori-F15",
+              "text": "A área vizinha fica na República Democrática do Congo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P16",
+              "factKey": "rwenzori-F16",
+              "text": "As montanhas ajudam a alimentar a bacia do Nilo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P17",
+              "factKey": "rwenzori-F17",
+              "text": "A vegetação muda conforme a altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P18",
+              "factKey": "rwenzori-F18",
+              "text": "Há plantas gigantes em áreas altas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P19",
+              "factKey": "rwenzori-F19",
+              "text": "Lobélias gigantes fazem parte da flora.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P20",
+              "factKey": "rwenzori-F20",
+              "text": "O parque também tem urzes gigantes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P21",
+              "factKey": "rwenzori-F21",
+              "text": "Algumas espécies são encontradas apenas em uma região africana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P22",
+              "factKey": "rwenzori-F22",
+              "text": "Florestas de montanha abrigam animais ameaçados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P23",
+              "factKey": "rwenzori-F23",
+              "text": "Chimpanzés-orientais estão entre os animais citados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P24",
+              "factKey": "rwenzori-F24",
+              "text": "Elefantes-da-floresta também são citados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-viajante-P25",
+              "factKey": "rwenzori-F25",
+              "text": "O local é reconhecido como Patrimônio Mundial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rwenzori-geografo-P01",
+              "factKey": "rwenzori-F01",
+              "text": "A área protegida africana conserva um conjunto de ecossistemas de montanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P02",
+              "factKey": "rwenzori-F02",
+              "text": "O recorte protegido situa-se no oeste de Uganda.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P03",
+              "factKey": "rwenzori-F03",
+              "text": "A proximidade do equador contrasta com as baixas temperaturas dos setores de grande altitude.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P04",
+              "factKey": "rwenzori-F04",
+              "text": "A altitude permite a presença de neve em uma região situada em baixas latitudes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P05",
+              "factKey": "rwenzori-F05",
+              "text": "O gelo glacial integra os ambientes de alta montanha do parque.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P06",
+              "factKey": "rwenzori-F06",
+              "text": "A drenagem em relevo acidentado favorece cursos de água de fluxo rápido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P07",
+              "factKey": "rwenzori-F07",
+              "text": "Desníveis do relevo estão associados à presença de numerosas quedas d’água.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P08",
+              "factKey": "rwenzori-F08",
+              "text": "Lagos complementam o mosaico de ambientes de altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P09",
+              "factKey": "rwenzori-F09",
+              "text": "O parque ugandense abrange parte principal de um maciço transfronteiriço.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P10",
+              "factKey": "rwenzori-F10",
+              "text": "A altitude de referência do pico mais elevado é de cerca de 5.109 metros.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P11",
+              "factKey": "rwenzori-F11",
+              "text": "O pico Margherita é a referência altimétrica principal deste destino.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P12",
+              "factKey": "rwenzori-F12",
+              "text": "O pico Margherita sucede os pontos culminantes do Kilimanjaro e do Monte Quênia na altitude africana.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P13",
+              "factKey": "rwenzori-F13",
+              "text": "A continuidade com um parque vizinho favorece a conexão entre áreas de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P14",
+              "factKey": "rwenzori-F14",
+              "text": "O Parque Nacional de Virunga é contíguo ao destino desta carta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P15",
+              "factKey": "rwenzori-F15",
+              "text": "A fronteira internacional separa unidades protegidas de Uganda e da República Democrática do Congo.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P16",
+              "factKey": "rwenzori-F16",
+              "text": "Os cursos de água do maciço contribuem para a bacia hidrográfica do Nilo.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P17",
+              "factKey": "rwenzori-F17",
+              "text": "O gradiente altitudinal condiciona a distribuição das formações vegetais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P18",
+              "factKey": "rwenzori-F18",
+              "text": "Vegetação afro-alpina inclui formas gigantes adaptadas ao ambiente de altitude.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P19",
+              "factKey": "rwenzori-F19",
+              "text": "Lobélias gigantes são componentes característicos da vegetação de altitude citados pela UNESCO.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P20",
+              "factKey": "rwenzori-F20",
+              "text": "Urzes gigantes integram formações vegetais das zonas mais elevadas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P21",
+              "factKey": "rwenzori-F21",
+              "text": "Parte da flora de altitude é endêmica da região do Rift Albertino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P22",
+              "factKey": "rwenzori-F22",
+              "text": "As florestas montanas oferecem habitat a espécies ameaçadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P23",
+              "factKey": "rwenzori-F23",
+              "text": "O chimpanzé-oriental é uma das espécies associadas às florestas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P24",
+              "factKey": "rwenzori-F24",
+              "text": "O elefante-africano-da-floresta figura entre a fauna ameaçada mencionada pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rwenzori-geografo-P25",
+              "factKey": "rwenzori-F25",
+              "text": "O parque figura na Lista do Patrimônio Mundial da UNESCO como bem natural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "RWENZORI1"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque nacional do oeste de Uganda, em maciço próximo à linha do equador, com ambientes alpinos e o pico Margherita.",
+        "editorialNotes": [
+          "Fonte institucional vinculada; calibrar dificuldade em partidas."
         ]
       },
       "review": {
