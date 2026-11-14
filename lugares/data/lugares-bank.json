@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-35-2026-11-14",
+  "catalogVersion": "lote-36-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Oitenta e quatro destinos jogáveis em dois perfis",
-  "status": "Oitenta e quatro destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Oitenta e cinco destinos jogáveis em dois perfis",
+  "status": "Oitenta e cinco destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1025,6 +1025,13 @@
       "title": "Parque Nacional das Montanhas Rwenzori",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/684/",
+      "checkedAt": "2026-11-14"
+    },
+    "GOIAS993": {
+      "id": "GOIAS993",
+      "title": "Historic Centre of the Town of Goiás",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/993/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -88768,6 +88775,998 @@
         "canonicalSummary": "Parque nacional do oeste de Uganda, em maciço próximo à linha do equador, com ambientes alpinos e o pico Margherita.",
         "editorialNotes": [
           "Fonte institucional vinculada; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-cidade-goias",
+      "placeId": "cidade-goias",
+      "title": "Centro Histórico da Cidade de Goiás",
+      "aliases": [
+        "Cidade de Goiás",
+        "Goiás Velho"
+      ],
+      "answerType": "centro histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Centro histórico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Centro Histórico da Cidade de Goiás"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Ouro Preto"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de São Luís"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Paraty"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Évora"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Guimarães"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Angra do Heroísmo"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Penedo"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Pirenópolis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Centro Histórico da Cidade de Goiás",
+          "sources": [
+            "GOIAS993"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atividade associada à formação urbana",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Mineração"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Criação de gado"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Agricultura açucareira"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Extração da borracha"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Mineração",
+          "sources": [
+            "GOIAS993"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Rio que atravessa a cidade",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Rio Vermelho"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rio Tietê"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Rio Vermelho",
+          "sources": [
+            "GOIAS993"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Região brasileira",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Centro-Oeste"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Norte"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Nordeste"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Centro-Oeste",
+          "sources": [
+            "GOIAS993"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-goias-viajante-P01",
+              "factKey": "cidade-goias-F01",
+              "text": "Este destino preserva uma parte antiga de uma cidade brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P02",
+              "factKey": "cidade-goias-F02",
+              "text": "O conjunto fica no interior do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P03",
+              "factKey": "cidade-goias-F03",
+              "text": "A história do lugar está ligada à mineração.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P04",
+              "factKey": "cidade-goias-F04",
+              "text": "O núcleo urbano se desenvolveu às margens de um rio.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P05",
+              "factKey": "cidade-goias-F05",
+              "text": "Morros fazem parte da paisagem ao redor do centro antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P06",
+              "factKey": "cidade-goias-F06",
+              "text": "O traçado das ruas se adaptou ao terreno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P07",
+              "factKey": "cidade-goias-F07",
+              "text": "O conjunto reúne construções públicas e casas particulares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P08",
+              "factKey": "cidade-goias-F08",
+              "text": "Os edifícios tradicionais usaram materiais disponíveis na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P09",
+              "factKey": "cidade-goias-F09",
+              "text": "O destino fica na região Centro-Oeste do Brasil.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P10",
+              "factKey": "cidade-goias-F10",
+              "text": "O rio que atravessa a cidade se chama Vermelho.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P11",
+              "factKey": "cidade-goias-F11",
+              "text": "O local está associado à ocupação colonial do interior brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P12",
+              "factKey": "cidade-goias-F12",
+              "text": "Os séculos XVIII e XIX são importantes para sua história urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P13",
+              "factKey": "cidade-goias-F13",
+              "text": "Expedições saídas de São Paulo estão ligadas às origens da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P14",
+              "factKey": "cidade-goias-F14",
+              "text": "O centro histórico foi reconhecido como Patrimônio Mundial em 2001.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P15",
+              "factKey": "cidade-goias-F15",
+              "text": "Uma antiga Casa de Fundição integra os edifícios históricos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P16",
+              "factKey": "cidade-goias-F16",
+              "text": "O antigo Palácio do Governador faz parte do conjunto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P17",
+              "factKey": "cidade-goias-F17",
+              "text": "A Catedral de Santana aparece entre os edifícios do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P18",
+              "factKey": "cidade-goias-F18",
+              "text": "Uma igreja dedicada a Nossa Senhora do Rosário fica em uma das margens do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P19",
+              "factKey": "cidade-goias-F19",
+              "text": "A igreja do Rosário foi historicamente reservada a pessoas escravizadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P20",
+              "factKey": "cidade-goias-F20",
+              "text": "O centro histórico inclui uma praça chamada Chafariz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P21",
+              "factKey": "cidade-goias-F21",
+              "text": "A arquitetura preservada apresenta construções de proporções modestas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P22",
+              "factKey": "cidade-goias-F22",
+              "text": "A vida cultural local inclui música e poesia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P23",
+              "factKey": "cidade-goias-F23",
+              "text": "Gastronomia e festas populares fazem parte das tradições locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P24",
+              "factKey": "cidade-goias-F24",
+              "text": "O Iphan protege o centro histórico em nível federal desde 1978.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-viajante-P25",
+              "factKey": "cidade-goias-F25",
+              "text": "Uma enchente atingiu o centro pouco depois do reconhecimento pela UNESCO.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-goias-geografo-P01",
+              "factKey": "cidade-goias-F01",
+              "text": "O objeto desta carta é um conjunto urbano histórico no interior da América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P02",
+              "factKey": "cidade-goias-F02",
+              "text": "O sítio exemplifica a interiorização da colonização portuguesa no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P03",
+              "factKey": "cidade-goias-F03",
+              "text": "Seu desenvolvimento urbano esteve associado à atividade mineradora.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P04",
+              "factKey": "cidade-goias-F04",
+              "text": "A ocupação histórica se organizou nas duas margens de um curso de água.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P05",
+              "factKey": "cidade-goias-F05",
+              "text": "O vale é delimitado por conjuntos de colinas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P06",
+              "factKey": "cidade-goias-F06",
+              "text": "O traçado urbano acompanhou as condições topográficas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P07",
+              "factKey": "cidade-goias-F07",
+              "text": "A paisagem histórica combina arquitetura residencial e edifícios institucionais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P08",
+              "factKey": "cidade-goias-F08",
+              "text": "Materiais locais e técnicas construtivas tradicionais contribuíram para a unidade do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P09",
+              "factKey": "cidade-goias-F09",
+              "text": "O sítio pertence à região brasileira Centro-Oeste.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P10",
+              "factKey": "cidade-goias-F10",
+              "text": "O Rio Vermelho atravessa o tecido urbano histórico.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P11",
+              "factKey": "cidade-goias-F11",
+              "text": "O núcleo testemunha a colonização do Brasil central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P12",
+              "factKey": "cidade-goias-F12",
+              "text": "A configuração preservada remete principalmente aos séculos XVIII e XIX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P13",
+              "factKey": "cidade-goias-F13",
+              "text": "As bandeiras originadas em São Paulo integram a história de sua formação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P14",
+              "factKey": "cidade-goias-F14",
+              "text": "A UNESCO inscreveu o conjunto na Lista do Patrimônio Mundial em 2001.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P15",
+              "factKey": "cidade-goias-F15",
+              "text": "Uma casa de fundição integra a paisagem construída vinculada à mineração.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P16",
+              "factKey": "cidade-goias-F16",
+              "text": "O antigo Palácio do Governador integra o conjunto de edifícios representativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P17",
+              "factKey": "cidade-goias-F17",
+              "text": "A Catedral de Santana situa-se na margem esquerda do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P18",
+              "factKey": "cidade-goias-F18",
+              "text": "A Igreja do Rosário localiza-se na margem direita do curso de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P19",
+              "factKey": "cidade-goias-F19",
+              "text": "A destinação histórica da Igreja do Rosário a pessoas escravizadas expressa a desigualdade colonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P20",
+              "factKey": "cidade-goias-F20",
+              "text": "A Praça do Chafariz integra o setor de edifícios representativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P21",
+              "factKey": "cidade-goias-F21",
+              "text": "A unidade visual do conjunto relaciona-se às proporções e aos tipos das edificações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P22",
+              "factKey": "cidade-goias-F22",
+              "text": "Música e poesia integram o patrimônio cultural ligado à comunidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P23",
+              "factKey": "cidade-goias-F23",
+              "text": "Práticas gastronômicas e celebrações populares compõem a identidade cultural local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P24",
+              "factKey": "cidade-goias-F24",
+              "text": "O tombamento federal do centro histórico pelo Iphan ocorreu em 1978.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-goias-geografo-P25",
+              "factKey": "cidade-goias-F25",
+              "text": "Uma inundação posterior à inscrição exigiu ações de recuperação do patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GOIAS993"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Centro histórico de uma antiga cidade mineradora no interior de Goiás, às margens do Rio Vermelho.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]
       },
       "review": {
