@@ -108,7 +108,8 @@
     "Petrópolis",
     "Vila Velha",
     "Niterói",
-    "Belo Horizonte"
+    "Belo Horizonte",
+    "Parque Nacional Los Glaciares"
   ],
   "groups": {
     "Brasil Norte": [
@@ -194,7 +195,8 @@
       "Havana",
       "Ilhas Galápagos",
       "Parque Nacional Rapa Nui",
-      "Parque Nacional Yellowstone"
+      "Parque Nacional Yellowstone",
+      "Parque Nacional Los Glaciares"
     ],
     "Europa": [
       "Portugal",
