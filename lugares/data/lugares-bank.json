@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-14-2026-11-14",
+  "catalogVersion": "lote-15-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "Quarenta e quatro destinos jogáveis em dois perfis",
-  "status": "Quarenta e quatro destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "Quarenta e seis destinos jogáveis em dois perfis",
+  "status": "Quarenta e seis destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -640,6 +640,41 @@
       "title": "Historic Monuments of Ancient Kyoto",
       "publisher": "UNESCO World Heritage Centre",
       "url": "https://whc.unesco.org/en/list/688/",
+      "checkedAt": "2026-11-14"
+    },
+    "VI1": {
+      "id": "VI1",
+      "title": "Craddock Massif and Vinson Massif remeasured",
+      "publisher": "U.S. Geological Survey",
+      "url": "https://pubs.usgs.gov/of/2007/1047/srp/srp069/of2007-1047srp069.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "VI2": {
+      "id": "VI2",
+      "title": "Vinson Massif: Antarctica’s highest peak",
+      "publisher": "European Union Space Programme",
+      "url": "https://eu-space.europa.eu/components/earth-observation-copernicus/image-of-the-day/vinson-massif-antarcticas-highest-peak",
+      "checkedAt": "2026-11-14"
+    },
+    "DV1": {
+      "id": "DV1",
+      "title": "Weather anomaly experienced in the McMurdo Dry Valleys",
+      "publisher": "U.S. National Science Foundation",
+      "url": "https://www.nsf.gov/news/weather-anomaly-experienced-mcmurdo-dry-valleys",
+      "checkedAt": "2026-11-14"
+    },
+    "DV2": {
+      "id": "DV2",
+      "title": "Antarctic Lakes as Models for the Study of Microbial Biodiversity",
+      "publisher": "British Antarctic Survey",
+      "url": "https://www.bas.ac.uk/data/our-data/publication/antarctic-lakes-as-models-for-the-study-of-microbial-biodiversity-biogeography-and-evolution/",
+      "checkedAt": "2026-11-14"
+    },
+    "DV3": {
+      "id": "DV3",
+      "title": "Visitor Site Guidelines: Taylor Valley",
+      "publisher": "Antarctic Treaty Secretariat",
+      "url": "https://www.ats.aq/devAS/e/Ats/Guideline/d17178ba-8e2b-4fa5-9528-6b8807dc0eb4",
       "checkedAt": "2026-11-14"
     }
   },
@@ -45261,6 +45296,2166 @@
       },
       "reveal": {
         "canonicalSummary": "Kyoto foi capital imperial do Japão; o conjunto histórico reconhecido reúne arquitetura em madeira e jardins em 17 componentes.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-vinson",
+      "placeId": "vinson",
+      "title": "Monte Vinson",
+      "aliases": [
+        "Vinson"
+      ],
+      "answerType": "montanha",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Montanha",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Monte Vinson"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Monte Erebus"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Monte Terror"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Monte Tyree"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Monte Shinn"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Monte Craddock"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Monte Sidley"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Monte Melbourne"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Monte Kirkpatrick"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Monte Minto"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Monte Discovery"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Monte Kilimanjaro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Monte Vinson",
+          "sources": [
+            "VI1",
+            "VI2"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Conjunto de montanhas",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Montanhas Ellsworth"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Montanhas Rochosas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Alpes"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Andes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Montanhas Ellsworth",
+          "sources": [
+            "VI1",
+            "VI2"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Elemento visível na paisagem",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Geleiras e cristas nevadas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Apenas recifes de coral"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Somente dunas oceânicas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ausência total de rochas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Geleiras e cristas nevadas",
+          "sources": [
+            "VI1",
+            "VI2"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Continente",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Antártida"
+            },
+            {
+              "id": "C4-O2",
+              "text": "África"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Oceania"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Europa"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Antártida",
+          "sources": [
+            "VI1",
+            "VI2"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "vinson-viajante-P01",
+              "factKey": "vinson-F01",
+              "text": "O destino é uma montanha na Antártida.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P02",
+              "factKey": "vinson-F02",
+              "text": "A montanha fica no interior da Antártida Ocidental.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P03",
+              "factKey": "vinson-F03",
+              "text": "É o ponto mais alto do continente antártico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P04",
+              "factKey": "vinson-F04",
+              "text": "A altitude é de aproximadamente 4.892 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P05",
+              "factKey": "vinson-F05",
+              "text": "O maciço integra as Montanhas Ellsworth.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P06",
+              "factKey": "vinson-F06",
+              "text": "Dentro desse conjunto, fica na Cordilheira Sentinel.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P07",
+              "factKey": "vinson-F07",
+              "text": "A cordilheira Sentinel fica ao norte de outro setor montanhoso.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P08",
+              "factKey": "vinson-F08",
+              "text": "A Cordilheira Heritage é o outro grande setor.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P09",
+              "factKey": "vinson-F09",
+              "text": "Uma geleira chamada Minnesota separa esses setores.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P10",
+              "factKey": "vinson-F10",
+              "text": "O relevo apresenta picos rochosos e neve.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P11",
+              "factKey": "vinson-F11",
+              "text": "Geleiras se estendem pela região montanhosa.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P12",
+              "factKey": "vinson-F12",
+              "text": "Cristas cobertas de neve aparecem no relevo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P13",
+              "factKey": "vinson-F13",
+              "text": "Alguns picos rochosos emergem do gelo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P14",
+              "factKey": "vinson-F14",
+              "text": "Ventos fortes ajudam a caracterizar o ambiente.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P15",
+              "factKey": "vinson-F15",
+              "text": "A região foi estudada por medições e satélites.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P16",
+              "factKey": "vinson-F16",
+              "text": "Pesquisadores já mediram o cume com GPS.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P17",
+              "factKey": "vinson-F17",
+              "text": "Estimativas de altitude mudaram com novas medições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P18",
+              "factKey": "vinson-F18",
+              "text": "Uma medição publicada em 2007 informa 4.892 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P19",
+              "factKey": "vinson-F19",
+              "text": "Montanhistas alcançaram o cume pela primeira vez na década de 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P20",
+              "factKey": "vinson-F20",
+              "text": "A montanha pode ser comparada a outro pico antártico vulcânico.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P21",
+              "factKey": "vinson-F21",
+              "text": "Ser o mais alto não significa ser o Polo Sul Geográfico.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P22",
+              "factKey": "vinson-F22",
+              "text": "O continente é rodeado pelo Oceano Austral.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P23",
+              "factKey": "vinson-F23",
+              "text": "A área fica no Hemisfério Sul.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P24",
+              "factKey": "vinson-F24",
+              "text": "O conjunto é distante de grandes áreas urbanas.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-viajante-P25",
+              "factKey": "vinson-F25",
+              "text": "Para diferenciar, combine altitude, continente e cadeia de montanhas.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "vinson-geografo-P01",
+              "factKey": "vinson-F01",
+              "text": "O recorte é um maciço montanhoso antártico.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P02",
+              "factKey": "vinson-F02",
+              "text": "A localização se situa no interior do setor ocidental do continente.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P03",
+              "factKey": "vinson-F03",
+              "text": "O cume representa a maior altitude conhecida da Antártida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P04",
+              "factKey": "vinson-F04",
+              "text": "Medições geodésicas indicam cota próxima de 4.892 metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P05",
+              "factKey": "vinson-F05",
+              "text": "O sistema montanhoso ao qual pertence é denominado Ellsworth.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P06",
+              "factKey": "vinson-F06",
+              "text": "O recorte está associado ao setor chamado Sentinel.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P07",
+              "factKey": "vinson-F07",
+              "text": "As Montanhas Ellsworth compreendem a Sentinel ao norte e a Heritage ao sul.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P08",
+              "factKey": "vinson-F08",
+              "text": "O setor Heritage integra o conjunto de montanhas referido.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P09",
+              "factKey": "vinson-F09",
+              "text": "A divisão entre Sentinel e Heritage é associada à Geleira Minnesota.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P10",
+              "factKey": "vinson-F10",
+              "text": "A paisagem combina afloramentos de rocha e cobertura de neve.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P11",
+              "factKey": "vinson-F11",
+              "text": "A área contém geleiras que participam da paisagem de altitude.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P12",
+              "factKey": "vinson-F12",
+              "text": "A topografia inclui linhas de cumeada nevadas e encostas íngremes.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P13",
+              "factKey": "vinson-F13",
+              "text": "Afloramentos que ultrapassam o gelo são chamados nunataks.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P14",
+              "factKey": "vinson-F14",
+              "text": "O ambiente polar apresenta exposição a ventos e temperaturas negativas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P15",
+              "factKey": "vinson-F15",
+              "text": "Observações geodésicas e orbitais auxiliam o estudo do maciço.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P16",
+              "factKey": "vinson-F16",
+              "text": "A altitude foi investigada com técnicas de posicionamento por satélite.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P17",
+              "factKey": "vinson-F17",
+              "text": "O valor apresentado deve ser entendido como resultado de métodos e medições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P18",
+              "factKey": "vinson-F18",
+              "text": "Um trabalho do USGS descreve a altitude medida em 2004.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P19",
+              "factKey": "vinson-F19",
+              "text": "A primeira ascensão registrada ocorreu no verão austral de 1966–1967.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P20",
+              "factKey": "vinson-F20",
+              "text": "A comparação com o Monte Erebus distingue altitude máxima e atividade vulcânica.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P21",
+              "factKey": "vinson-F21",
+              "text": "A maior altitude continental não coincide necessariamente com o ponto definido pelo eixo terrestre.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P22",
+              "factKey": "vinson-F22",
+              "text": "O posicionamento regional se insere no continente cercado pelo Oceano Austral.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P23",
+              "factKey": "vinson-F23",
+              "text": "A localização antártica situa o destino no hemisfério meridional.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P24",
+              "factKey": "vinson-F24",
+              "text": "A posição interiorana contribui para o isolamento logístico do maciço.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "vinson-geografo-P25",
+              "factKey": "vinson-F25",
+              "text": "A identificação articula máxima altitude antártica e posição nas Montanhas Ellsworth.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "VI1",
+                "VI2"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Monte Vinson é o ponto mais alto da Antártida e integra a Cordilheira Sentinel, nas Montanhas Ellsworth.",
+        "editorialNotes": [
+          "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "reviewed-2026-11-14"
+      }
+    },
+    {
+      "id": "lug2-mcmurdo-vales-secos",
+      "placeId": "mcmurdo-vales-secos",
+      "title": "Vales Secos de McMurdo",
+      "aliases": [
+        "Vales Secos de McMurdo"
+      ],
+      "answerType": "vales",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [],
+        "continents": [
+          "antartida"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Região antártica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Vales Secos de McMurdo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Colinas Vestfold"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Colinas Bunger"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Colinas Larsemann"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Oásis Schirmacher"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Oásis Untersee"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Montanhas Ellsworth"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Monte Erebus"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Ilha Deception"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Plataforma de Gelo Ross"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Plataforma de Gelo Larsen C"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Polo Sul Geográfico"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Vales Secos de McMurdo",
+          "sources": [
+            "DV1",
+            "DV2",
+            "DV3"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Característica do terreno",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Áreas de solo exposto em ambiente frio e árido"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Recifes de coral em águas tropicais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Floresta tropical úmida contínua"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Campos de dunas costeiras quentes"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Áreas de solo exposto em ambiente frio e árido",
+          "sources": [
+            "DV1",
+            "DV2",
+            "DV3"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Ambientes aquáticos existentes",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Lagos de diferentes salinidades"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Somente água oceânica aberta"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Apenas rios tropicais permanentes"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Ausência absoluta de gelo e água"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Lagos de diferentes salinidades",
+          "sources": [
+            "DV1",
+            "DV2",
+            "DV3"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Localização",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Terra de Vitória, Antártida"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bacia Amazônica, Brasil"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Península Ibérica, Europa"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Interior do Saara, África"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Terra de Vitória, Antártida",
+          "sources": [
+            "DV1",
+            "DV2",
+            "DV3"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "mcmurdo-vales-secos-viajante-P01",
+              "factKey": "mcmurdo-vales-secos-F01",
+              "text": "O destino reúne vales em uma região polar.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P02",
+              "factKey": "mcmurdo-vales-secos-F02",
+              "text": "Boa parte do solo desses vales fica exposta.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P03",
+              "factKey": "mcmurdo-vales-secos-F03",
+              "text": "A paisagem exposta não significa clima quente.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P04",
+              "factKey": "mcmurdo-vales-secos-F04",
+              "text": "A região é conhecida como um deserto frio.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P05",
+              "factKey": "mcmurdo-vales-secos-F05",
+              "text": "Lagos fazem parte de alguns desses vales.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P06",
+              "factKey": "mcmurdo-vales-secos-F06",
+              "text": "Alguns lagos possuem uma cobertura espessa de gelo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P07",
+              "factKey": "mcmurdo-vales-secos-F07",
+              "text": "Os lagos variam em salinidade.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P08",
+              "factKey": "mcmurdo-vales-secos-F08",
+              "text": "Há trechos de geleiras nas proximidades.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P09",
+              "factKey": "mcmurdo-vales-secos-F09",
+              "text": "Um dos vales do conjunto é chamado Taylor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P10",
+              "factKey": "mcmurdo-vales-secos-F10",
+              "text": "Uma geleira chamada Canada alcança o Vale Taylor.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P11",
+              "factKey": "mcmurdo-vales-secos-F11",
+              "text": "Pequenas poças podem aparecer no verão.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P12",
+              "factKey": "mcmurdo-vales-secos-F12",
+              "text": "O local é importante para pesquisa científica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P13",
+              "factKey": "mcmurdo-vales-secos-F13",
+              "text": "Pesquisadores acompanham o clima local por longos períodos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P14",
+              "factKey": "mcmurdo-vales-secos-F14",
+              "text": "Fluxos de água e solos também são estudados.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P15",
+              "factKey": "mcmurdo-vales-secos-F15",
+              "text": "Organismos muito pequenos fazem parte do ecossistema.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P16",
+              "factKey": "mcmurdo-vales-secos-F16",
+              "text": "Há algas e cianobactérias em alguns locais.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P17",
+              "factKey": "mcmurdo-vales-secos-F17",
+              "text": "Musgos podem aparecer em manchas esparsas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P18",
+              "factKey": "mcmurdo-vales-secos-F18",
+              "text": "Invertebrados habitam comunidades de musgos e algas.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P19",
+              "factKey": "mcmurdo-vales-secos-F19",
+              "text": "Orientações para visitantes buscam proteger o ambiente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P20",
+              "factKey": "mcmurdo-vales-secos-F20",
+              "text": "O Vale Taylor pertence a uma área especialmente administrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P21",
+              "factKey": "mcmurdo-vales-secos-F21",
+              "text": "Alguns solos apresentam desenhos e padrões na superfície.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P22",
+              "factKey": "mcmurdo-vales-secos-F22",
+              "text": "Nem toda a Antártida está coberta por uma camada contínua de gelo.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P23",
+              "factKey": "mcmurdo-vales-secos-F23",
+              "text": "Esse destino não é uma plataforma flutuante.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P24",
+              "factKey": "mcmurdo-vales-secos-F24",
+              "text": "O conjunto fica na região da Terra de Vitória.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-viajante-P25",
+              "factKey": "mcmurdo-vales-secos-F25",
+              "text": "Para diferenciar, combine vales expostos, frio e lagos.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "mcmurdo-vales-secos-geografo-P01",
+              "factKey": "mcmurdo-vales-secos-F01",
+              "text": "O recorte é um conjunto de vales da Antártida.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P02",
+              "factKey": "mcmurdo-vales-secos-F02",
+              "text": "A área se destaca por setores relativamente livres de gelo e neve.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P03",
+              "factKey": "mcmurdo-vales-secos-F03",
+              "text": "A ausência relativa de gelo ocorre em um ambiente polar frio e seco.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P04",
+              "factKey": "mcmurdo-vales-secos-F04",
+              "text": "As condições áridas coexistem com temperaturas baixas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P05",
+              "factKey": "mcmurdo-vales-secos-F05",
+              "text": "O conjunto contém ecossistemas lacustres em regiões com pouco gelo superficial.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P06",
+              "factKey": "mcmurdo-vales-secos-F06",
+              "text": "A superfície congelada pode coexistir com água líquida abaixo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P07",
+              "factKey": "mcmurdo-vales-secos-F07",
+              "text": "Os ambientes lacustres podem variar de água doce a muito salina.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P08",
+              "factKey": "mcmurdo-vales-secos-F08",
+              "text": "A paisagem reúne vales expostos e áreas glaciais adjacentes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P09",
+              "factKey": "mcmurdo-vales-secos-F09",
+              "text": "Taylor é uma das unidades geográficas associadas aos vales secos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P10",
+              "factKey": "mcmurdo-vales-secos-F10",
+              "text": "O limite da Canada Glacier é um dos elementos de visitação do vale.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P11",
+              "factKey": "mcmurdo-vales-secos-F11",
+              "text": "O verão pode gerar solos úmidos e pequenas poças perto de geleiras.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P12",
+              "factKey": "mcmurdo-vales-secos-F12",
+              "text": "O sistema oferece oportunidades para estudar ambientes polares extremos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P13",
+              "factKey": "mcmurdo-vales-secos-F13",
+              "text": "Séries de observação meteorológica permitem estudar mudanças no ambiente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P14",
+              "factKey": "mcmurdo-vales-secos-F14",
+              "text": "Pesquisas reúnem dados hidrológicos e características do solo.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P15",
+              "factKey": "mcmurdo-vales-secos-F15",
+              "text": "Microrganismos integram comunidades biológicas adaptadas ao ambiente.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P16",
+              "factKey": "mcmurdo-vales-secos-F16",
+              "text": "Comunidades de água doce incluem algas e cianobactérias.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P17",
+              "factKey": "mcmurdo-vales-secos-F17",
+              "text": "A vegetação visível é limitada e inclui pequenos trechos de musgo.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P18",
+              "factKey": "mcmurdo-vales-secos-F18",
+              "text": "Micro-habitats sustentam organismos como tardígrados e rotíferos.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P19",
+              "factKey": "mcmurdo-vales-secos-F19",
+              "text": "Orientações específicas procuram reduzir impactos em áreas sensíveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P20",
+              "factKey": "mcmurdo-vales-secos-F20",
+              "text": "O recorte integra uma área antártica com regras específicas de gestão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P21",
+              "factKey": "mcmurdo-vales-secos-F21",
+              "text": "O relevo exposto inclui feições de solo padronizado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P22",
+              "factKey": "mcmurdo-vales-secos-F22",
+              "text": "Pequenas áreas do continente expõem rochas e solo apesar do gelo predominante.",
+              "relatedFields": [
+                "C2",
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P23",
+              "factKey": "mcmurdo-vales-secos-F23",
+              "text": "Vales com solo exposto diferem de extensões de gelo continental flutuante.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P24",
+              "factKey": "mcmurdo-vales-secos-F24",
+              "text": "A localização é associada ao setor da Terra de Vitória, na Antártida.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "mcmurdo-vales-secos-geografo-P25",
+              "factKey": "mcmurdo-vales-secos-F25",
+              "text": "A identificação articula aridez polar, terreno exposto e ecossistemas lacustres.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "DV1",
+                "DV2",
+                "DV3"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Os Vales Secos de McMurdo reúnem áreas de terreno exposto, geleiras próximas e lagos em um ambiente antártico frio e árido.",
         "editorialNotes": [
           "Fontes institucionais vinculadas; calibrar dificuldade em partidas."
         ]

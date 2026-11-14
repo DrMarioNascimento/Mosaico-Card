@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 135,
+  "targetPlaces": 137,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -45,7 +45,9 @@
     "Grande Muralha da China",
     "Parque Nacional Fiordland",
     "Curitiba",
-    "Kyoto"
+    "Kyoto",
+    "Monte Vinson",
+    "Vales Secos de McMurdo"
   ],
   "groups": {
     "Brasil Norte": [
@@ -203,7 +205,9 @@
       "Monte Erebus",
       "Ilha Deception",
       "Plataforma de Gelo Ross",
-      "Plataforma de Gelo Larsen C"
+      "Plataforma de Gelo Larsen C",
+      "Monte Vinson",
+      "Vales Secos de McMurdo"
     ]
   },
   "classificationNotes": [

@@ -2790,3 +2790,138 @@ Kyoto foi capital imperial do Japão; o conjunto histórico reconhecido reúne a
 - A inscrição compreende um conjunto de 17 partes.
 - O modelo das capitais chinesas influenciou o estabelecimento inicial.
 - A identificação articula capitalidade imperial, posição japonesa e paisagismo.
+
+
+## Ampliação da Antártida: montanhas e vales
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Monte Vinson
+
+O Monte Vinson é o ponto mais alto da Antártida e integra a Cordilheira Sentinel, nas Montanhas Ellsworth.
+
+- **Montanha**: Monte Vinson.
+- **Conjunto de montanhas**: Montanhas Ellsworth.
+- **Elemento visível na paisagem**: Geleiras e cristas nevadas.
+- **Continente**: Antártida.
+
+**Viajante**
+
+- O destino é uma montanha na Antártida.
+- A montanha fica no interior da Antártida Ocidental.
+- É o ponto mais alto do continente antártico.
+- A altitude é de aproximadamente 4.892 metros.
+- O maciço integra as Montanhas Ellsworth.
+- Dentro desse conjunto, fica na Cordilheira Sentinel.
+- A cordilheira Sentinel fica ao norte de outro setor montanhoso.
+- A Cordilheira Heritage é o outro grande setor.
+- Uma geleira chamada Minnesota separa esses setores.
+- O relevo apresenta picos rochosos e neve.
+- Geleiras se estendem pela região montanhosa.
+- Cristas cobertas de neve aparecem no relevo.
+- Alguns picos rochosos emergem do gelo.
+- Ventos fortes ajudam a caracterizar o ambiente.
+- A região foi estudada por medições e satélites.
+- Pesquisadores já mediram o cume com GPS.
+- Estimativas de altitude mudaram com novas medições.
+- Uma medição publicada em 2007 informa 4.892 metros.
+- Montanhistas alcançaram o cume pela primeira vez na década de 1960.
+- A montanha pode ser comparada a outro pico antártico vulcânico.
+- Ser o mais alto não significa ser o Polo Sul Geográfico.
+- O continente é rodeado pelo Oceano Austral.
+- A área fica no Hemisfério Sul.
+- O conjunto é distante de grandes áreas urbanas.
+- Para diferenciar, combine altitude, continente e cadeia de montanhas.
+
+**Geógrafo**
+
+- O recorte é um maciço montanhoso antártico.
+- A localização se situa no interior do setor ocidental do continente.
+- O cume representa a maior altitude conhecida da Antártida.
+- Medições geodésicas indicam cota próxima de 4.892 metros.
+- O sistema montanhoso ao qual pertence é denominado Ellsworth.
+- O recorte está associado ao setor chamado Sentinel.
+- As Montanhas Ellsworth compreendem a Sentinel ao norte e a Heritage ao sul.
+- O setor Heritage integra o conjunto de montanhas referido.
+- A divisão entre Sentinel e Heritage é associada à Geleira Minnesota.
+- A paisagem combina afloramentos de rocha e cobertura de neve.
+- A área contém geleiras que participam da paisagem de altitude.
+- A topografia inclui linhas de cumeada nevadas e encostas íngremes.
+- Afloramentos que ultrapassam o gelo são chamados nunataks.
+- O ambiente polar apresenta exposição a ventos e temperaturas negativas.
+- Observações geodésicas e orbitais auxiliam o estudo do maciço.
+- A altitude foi investigada com técnicas de posicionamento por satélite.
+- O valor apresentado deve ser entendido como resultado de métodos e medições.
+- Um trabalho do USGS descreve a altitude medida em 2004.
+- A primeira ascensão registrada ocorreu no verão austral de 1966–1967.
+- A comparação com o Monte Erebus distingue altitude máxima e atividade vulcânica.
+- A maior altitude continental não coincide necessariamente com o ponto definido pelo eixo terrestre.
+- O posicionamento regional se insere no continente cercado pelo Oceano Austral.
+- A localização antártica situa o destino no hemisfério meridional.
+- A posição interiorana contribui para o isolamento logístico do maciço.
+- A identificação articula máxima altitude antártica e posição nas Montanhas Ellsworth.
+
+### Vales Secos de McMurdo
+
+Os Vales Secos de McMurdo reúnem áreas de terreno exposto, geleiras próximas e lagos em um ambiente antártico frio e árido.
+
+- **Conjunto de vales**: Vales Secos de McMurdo.
+- **Característica do terreno**: Áreas de solo exposto em ambiente frio e árido.
+- **Ambientes aquáticos existentes**: Lagos de diferentes salinidades.
+- **Localização**: Terra de Vitória, Antártida.
+
+**Viajante**
+
+- O destino reúne vales em uma região polar.
+- Boa parte do solo desses vales fica exposta.
+- A paisagem exposta não significa clima quente.
+- A região é conhecida como um deserto frio.
+- Lagos fazem parte de alguns desses vales.
+- Alguns lagos possuem uma cobertura espessa de gelo.
+- Os lagos variam em salinidade.
+- Há trechos de geleiras nas proximidades.
+- Um dos vales do conjunto é chamado Taylor.
+- Uma geleira chamada Canada alcança o Vale Taylor.
+- Pequenas poças podem aparecer no verão.
+- O local é importante para pesquisa científica.
+- Pesquisadores acompanham o clima local por longos períodos.
+- Fluxos de água e solos também são estudados.
+- Organismos muito pequenos fazem parte do ecossistema.
+- Há algas e cianobactérias em alguns locais.
+- Musgos podem aparecer em manchas esparsas.
+- Invertebrados habitam comunidades de musgos e algas.
+- Orientações para visitantes buscam proteger o ambiente.
+- O Vale Taylor pertence a uma área especialmente administrada.
+- Alguns solos apresentam desenhos e padrões na superfície.
+- Nem toda a Antártida está coberta por uma camada contínua de gelo.
+- Esse destino não é uma plataforma flutuante.
+- O conjunto fica na região da Terra de Vitória.
+- Para diferenciar, combine vales expostos, frio e lagos.
+
+**Geógrafo**
+
+- O recorte é um conjunto de vales da Antártida.
+- A área se destaca por setores relativamente livres de gelo e neve.
+- A ausência relativa de gelo ocorre em um ambiente polar frio e seco.
+- As condições áridas coexistem com temperaturas baixas.
+- O conjunto contém ecossistemas lacustres em regiões com pouco gelo superficial.
+- A superfície congelada pode coexistir com água líquida abaixo.
+- Os ambientes lacustres podem variar de água doce a muito salina.
+- A paisagem reúne vales expostos e áreas glaciais adjacentes.
+- Taylor é uma das unidades geográficas associadas aos vales secos.
+- O limite da Canada Glacier é um dos elementos de visitação do vale.
+- O verão pode gerar solos úmidos e pequenas poças perto de geleiras.
+- O sistema oferece oportunidades para estudar ambientes polares extremos.
+- Séries de observação meteorológica permitem estudar mudanças no ambiente.
+- Pesquisas reúnem dados hidrológicos e características do solo.
+- Microrganismos integram comunidades biológicas adaptadas ao ambiente.
+- Comunidades de água doce incluem algas e cianobactérias.
+- A vegetação visível é limitada e inclui pequenos trechos de musgo.
+- Micro-habitats sustentam organismos como tardígrados e rotíferos.
+- Orientações específicas procuram reduzir impactos em áreas sensíveis.
+- O recorte integra uma área antártica com regras específicas de gestão.
+- O relevo exposto inclui feições de solo padronizado.
+- Pequenas áreas do continente expõem rochas e solo apesar do gelo predominante.
+- Vales com solo exposto diferem de extensões de gelo continental flutuante.
+- A localização é associada ao setor da Terra de Vitória, na Antártida.
+- A identificação articula aridez polar, terreno exposto e ecossistemas lacustres.
