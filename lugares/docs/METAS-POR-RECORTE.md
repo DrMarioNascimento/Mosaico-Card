@@ -8,7 +8,7 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 48 | 30 | 0 |
+| Brasil | 49 | 30 | 0 |
 | Américas (sem Brasil) | 8 | 30 | 22 |
 | Europa | 8 | 30 | 22 |
 | África | 11 | 30 | 19 |
@@ -29,7 +29,7 @@ A meta é de 30 lugares jogáveis em cada uma das cinco regiões brasileiras. Es
 | Norte | 10 | 30 | 20 |
 | Nordeste | 13 | 30 | 17 |
 | Centro-Oeste | 12 | 30 | 18 |
-| Sudeste | 7 | 30 | 23 |
+| Sudeste | 8 | 30 | 22 |
 | Sul | 6 | 30 | 24 |
 
 A tabela mostra as regiões que já atingiram ou ainda não atingiram a meta de 30. A diversidade e a dificuldade ainda precisam ser avaliadas em partidas.
