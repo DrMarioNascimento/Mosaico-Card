@@ -109,7 +109,9 @@
     "Vila Velha",
     "Niterói",
     "Belo Horizonte",
-    "Parque Nacional Los Glaciares"
+    "Parque Nacional Los Glaciares",
+    "Parque Nacional Yosemite",
+    "Parque Nacional Tikal"
   ],
   "groups": {
     "Brasil Norte": [
@@ -196,7 +198,9 @@
       "Ilhas Galápagos",
       "Parque Nacional Rapa Nui",
       "Parque Nacional Yellowstone",
-      "Parque Nacional Los Glaciares"
+      "Parque Nacional Los Glaciares",
+      "Parque Nacional Yosemite",
+      "Parque Nacional Tikal"
     ],
     "Europa": [
       "Portugal",

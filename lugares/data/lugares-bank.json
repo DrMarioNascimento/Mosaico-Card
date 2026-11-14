@@ -1,14 +1,14 @@
 {
   "schemaVersion": "0.1-editorial",
-  "catalogVersion": "lote-46-2026-11-14",
+  "catalogVersion": "lote-47-2026-11-14",
   "namespace": "mosaico-lugares",
   "title": "Mosaico Card Lugares",
   "authors": [
     "Mário César Nascimento",
     "Osana Melo Nascimento"
   ],
-  "scope": "108 destinos jogáveis em dois perfis",
-  "status": "108 destinos integrados; revisão comparativa e calibração em partidas pendentes",
+  "scope": "110 destinos jogáveis em dois perfis",
+  "status": "110 destinos integrados; revisão comparativa e calibração em partidas pendentes",
   "profiles": [
     "viajante",
     "geografo"
@@ -1551,6 +1551,48 @@
       "title": "Historia de Parques Nacionales",
       "publisher": "Administración de Parques Nacionales de Argentina",
       "url": "https://www.argentina.gob.ar/parquesnacionales/que-hacemos-en-parques-nacionales/historia",
+      "checkedAt": "2026-11-14"
+    },
+    "YOSEMITE308": {
+      "id": "YOSEMITE308",
+      "title": "Yosemite National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/308/",
+      "checkedAt": "2026-11-14"
+    },
+    "YOSEMITE_GEO": {
+      "id": "YOSEMITE_GEO",
+      "title": "Geology Hut Exhibits",
+      "publisher": "National Park Service",
+      "url": "https://www.nps.gov/yose/learn/nature/geology-exhibits.htm",
+      "checkedAt": "2026-11-14"
+    },
+    "YOSEMITE_SEQUOIA": {
+      "id": "YOSEMITE_SEQUOIA",
+      "title": "Giant Sequoias",
+      "publisher": "National Park Service",
+      "url": "https://www.nps.gov/yose/planyourvisit/sequoias.htm",
+      "checkedAt": "2026-11-14"
+    },
+    "YOSEMITE_POVOS": {
+      "id": "YOSEMITE_POVOS",
+      "title": "Surviving Communities",
+      "publisher": "National Park Service",
+      "url": "https://www.nps.gov/yose/learn/historyculture/surviving-communities.htm",
+      "checkedAt": "2026-11-14"
+    },
+    "TIKAL64": {
+      "id": "TIKAL64",
+      "title": "Tikal National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/64/",
+      "checkedAt": "2026-11-14"
+    },
+    "TIKAL_CONAP": {
+      "id": "TIKAL_CONAP",
+      "title": "Reserva de la Biosfera Maya, legado para la vida",
+      "publisher": "Consejo Nacional de Áreas Protegidas",
+      "url": "https://conap.gob.gt/reserva-de-la-biosfera-maya-legado-para-la-vida/",
       "checkedAt": "2026-11-14"
     }
   },
@@ -113800,6 +113842,1996 @@
         "editorialNotes": [
           "Revisar alternativas e calibrar em partidas.",
           "O decreto de 1937 reservou a área; o governo argentino informa que a categoria de parque nacional veio em 1945. C3 e C4 usam alternativas mais comparáveis."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão de fontes e alternativas; calibração em partidas pendente"
+      }
+    },
+    {
+      "id": "lug2-yosemite",
+      "placeId": "yosemite",
+      "title": "Parque Nacional Yosemite",
+      "aliases": [
+        "Yosemite"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "US"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Yosemite"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Yellowstone"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Grand Canyon"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Zion"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Sequoia"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Kings Canyon"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Glacier"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Rocky Mountain"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Olympic"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Mount Rainier"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Banff"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Jasper"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Yosemite",
+          "sources": [
+            "YOSEMITE308"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Califórnia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Oregon"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Washington"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Colorado"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Califórnia",
+          "sources": [
+            "YOSEMITE308"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Forma típica do perfil transversal do vale glacial principal",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Em U"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Em V"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Em L"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Em Y"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Em U",
+          "sources": [
+            "YOSEMITE_GEO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Árvore dos bosques Mariposa, Tuolumne e Merced",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Sequoia-gigante"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Sequoia-costeira"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pinheiro-bristlecone"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Sequóia-da-china"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Sequoia-gigante",
+          "sources": [
+            "YOSEMITE_SEQUOIA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "yosemite-viajante-P01",
+              "factKey": "yosemite-F01",
+              "text": "Este destino protege montanhas e vales.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P02",
+              "factKey": "yosemite-F02",
+              "text": "Fica na América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P03",
+              "factKey": "yosemite-F03",
+              "text": "O parque está nos Estados Unidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P04",
+              "factKey": "yosemite-F04",
+              "text": "Fica no estado da Califórnia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P05",
+              "factKey": "yosemite-F05",
+              "text": "A área faz parte da Sierra Nevada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P06",
+              "factKey": "yosemite-F06",
+              "text": "Grandes paredões de rocha marcam a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P07",
+              "factKey": "yosemite-F07",
+              "text": "O granito está entre as rochas do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P08",
+              "factKey": "yosemite-F08",
+              "text": "Antigas geleiras ajudaram a moldar seus vales.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P09",
+              "factKey": "yosemite-F09",
+              "text": "Há vales com formato parecido com a letra U.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "YOSEMITE_GEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P10",
+              "factKey": "yosemite-F10",
+              "text": "Cachoeiras altas podem ser vistas na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P11",
+              "factKey": "yosemite-F11",
+              "text": "Lagos ocupam partes do relevo montanhoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P12",
+              "factKey": "yosemite-F12",
+              "text": "Morainas guardam vestígios da ação de geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P13",
+              "factKey": "yosemite-F13",
+              "text": "Há cúpulas arredondadas de granito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P14",
+              "factKey": "yosemite-F14",
+              "text": "A formação chamada Half Dome integra a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P15",
+              "factKey": "yosemite-F15",
+              "text": "Um grande paredão é conhecido como El Capitan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P16",
+              "factKey": "yosemite-F16",
+              "text": "Sequoias-gigantes crescem em áreas protegidas do parque.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "YOSEMITE_SEQUOIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P17",
+              "factKey": "yosemite-F17",
+              "text": "Existem três bosques dessas árvores no conjunto.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "YOSEMITE_SEQUOIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P18",
+              "factKey": "yosemite-F18",
+              "text": "Prados de montanha fazem parte dos ambientes locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P19",
+              "factKey": "yosemite-F19",
+              "text": "A altitude varia bastante dentro do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P20",
+              "factKey": "yosemite-F20",
+              "text": "A área preservada ultrapassa trezentos mil hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P21",
+              "factKey": "yosemite-F21",
+              "text": "Florestas nacionais ficam ao redor do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P22",
+              "factKey": "yosemite-F22",
+              "text": "O território tem importância ancestral para povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE_POVOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P23",
+              "factKey": "yosemite-F23",
+              "text": "Práticas culturais indígenas continuam ligadas à paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE_POVOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P24",
+              "factKey": "yosemite-F24",
+              "text": "A UNESCO reconheceu o parque em 1984.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-viajante-P25",
+              "factKey": "yosemite-F25",
+              "text": "A proteção busca conservar paisagens e ecossistemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "yosemite-geografo-P01",
+              "factKey": "yosemite-F01",
+              "text": "A unidade integra uma paisagem montanhosa protegida da América do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P02",
+              "factKey": "yosemite-F02",
+              "text": "Localiza-se nos Estados Unidos da América.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P03",
+              "factKey": "yosemite-F03",
+              "text": "O território integra o estado norte-americano da Califórnia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P04",
+              "factKey": "yosemite-F04",
+              "text": "O parque compõe parte da cadeia Sierra Nevada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P05",
+              "factKey": "yosemite-F05",
+              "text": "A ação glacial modificou extensas superfícies graníticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P06",
+              "factKey": "yosemite-F06",
+              "text": "A rocha de base granítica aparece em paredes e domos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P07",
+              "factKey": "yosemite-F07",
+              "text": "Glaciações sucessivas escavaram vales profundos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P08",
+              "factKey": "yosemite-F08",
+              "text": "Vales em U registram a ação de geleiras.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "YOSEMITE_GEO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P09",
+              "factKey": "yosemite-F09",
+              "text": "Vales suspensos e quedas d’água compõem o relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P10",
+              "factKey": "yosemite-F10",
+              "text": "Lagos de circo glacial integram a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P11",
+              "factKey": "yosemite-F11",
+              "text": "Morainas registram deposição associada às geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P12",
+              "factKey": "yosemite-F12",
+              "text": "Cúpulas polidas mostram a interação entre rocha granítica e gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P13",
+              "factKey": "yosemite-F13",
+              "text": "O vale principal foi escavado por ação glacial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P14",
+              "factKey": "yosemite-F14",
+              "text": "Half Dome é um dos domos graníticos associados ao parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P15",
+              "factKey": "yosemite-F15",
+              "text": "El Capitan apresenta paredões verticais de granito.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P16",
+              "factKey": "yosemite-F16",
+              "text": "Bosques de sequoia-gigante compõem parte da diversidade vegetal.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "YOSEMITE_SEQUOIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P17",
+              "factKey": "yosemite-F17",
+              "text": "O bem inclui três bosques de sequoias-gigantes.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "YOSEMITE_SEQUOIA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P18",
+              "factKey": "yosemite-F18",
+              "text": "Prados alpinos integram os habitats de montanha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P19",
+              "factKey": "yosemite-F19",
+              "text": "Um grande gradiente de altitude sustenta diferentes comunidades ecológicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P20",
+              "factKey": "yosemite-F20",
+              "text": "A área protegida ultrapassa 300 mil hectares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P21",
+              "factKey": "yosemite-F21",
+              "text": "Florestas nacionais vizinhas favorecem conectividade na paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P22",
+              "factKey": "yosemite-F22",
+              "text": "A região integra territórios ancestrais de diversos povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE_POVOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P23",
+              "factKey": "yosemite-F23",
+              "text": "Práticas culturais e espirituais indígenas mantêm vínculos com a área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE_POVOS"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P24",
+              "factKey": "yosemite-F24",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1984.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "yosemite-geografo-P25",
+              "factKey": "yosemite-F25",
+              "text": "O monitoramento envolve comunidades vegetais, água e regimes de fogo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "YOSEMITE308"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque da Sierra Nevada californiana conhecido por vales glaciais, paredes de granito e bosques de sequoias.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas.",
+          "C3 explora forma do vale glacial; C4 usa árvores comparáveis e três bosques nomeados. Fontes do NPS registram práticas atuais dos povos indígenas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "source-reviewed",
+        "playtest": "pending",
+        "publication": "integrated",
+        "editorial": "revisão de fontes e alternativas; calibração em partidas pendente"
+      }
+    },
+    {
+      "id": "lug2-tikal",
+      "placeId": "tikal",
+      "title": "Parque Nacional Tikal",
+      "aliases": [
+        "Tikal"
+      ],
+      "answerType": "parque arqueológico e natural",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "GT"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Área protegida ou arqueológica",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Tikal"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Yaxhá-Nakum-Naranjo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Calakmul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Palenque"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Sítio Arqueológico de Copán"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Sítio Arqueológico de Caracol"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Cidade Pré-hispânica de Chichén Itzá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Cidade Pré-hispânica de Uxmal"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Arqueológico de Quiriguá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Serra do Divisor"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Darién"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Corcovado"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Tikal",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Guatemala"
+            },
+            {
+              "id": "C2-O2",
+              "text": "México"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Belize"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Honduras"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Guatemala",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Civilização ligada ao antigo centro urbano",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Maia"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Inca"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Asteca"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Moche"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Maia",
+          "sources": [
+            "TIKAL64"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Reserva da biosfera que inclui o parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Reserva da Biosfera Maia"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Reserva da Biosfera Sierra de las Minas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Reserva da Biosfera Trifinio Fraternidad"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Reserva da Biosfera La Amistad"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Reserva da Biosfera Maia",
+          "sources": [
+            "TIKAL_CONAP"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "tikal-viajante-P01",
+              "factKey": "tikal-F01",
+              "text": "Este destino protege ruínas antigas em meio à floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P02",
+              "factKey": "tikal-F02",
+              "text": "Fica na América Central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P03",
+              "factKey": "tikal-F03",
+              "text": "O parque está na Guatemala.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P04",
+              "factKey": "tikal-F04",
+              "text": "O local foi um importante centro da civilização maia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P05",
+              "factKey": "tikal-F05",
+              "text": "Há templos e palácios no sítio arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P06",
+              "factKey": "tikal-F06",
+              "text": "Praças públicas integram o antigo centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P07",
+              "factKey": "tikal-F07",
+              "text": "Restos de moradias aparecem nas áreas ao redor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P08",
+              "factKey": "tikal-F08",
+              "text": "Pirâmides fazem parte das construções antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P09",
+              "factKey": "tikal-F09",
+              "text": "Inscrições em monumentos contam aspectos da história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P10",
+              "factKey": "tikal-F10",
+              "text": "O parque conserva florestas tropicais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P11",
+              "factKey": "tikal-F11",
+              "text": "Também protege áreas úmidas e savanas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P12",
+              "factKey": "tikal-F12",
+              "text": "A onça-pintada vive entre os animais da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P13",
+              "factKey": "tikal-F13",
+              "text": "O puma é outro felino registrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P14",
+              "factKey": "tikal-F14",
+              "text": "Macacos fazem parte da fauna local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P15",
+              "factKey": "tikal-F15",
+              "text": "Muitas espécies de aves vivem nos diversos ambientes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P16",
+              "factKey": "tikal-F16",
+              "text": "O parque faz parte de uma reserva da biosfera criada em 1990.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "TIKAL_CONAP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P17",
+              "factKey": "tikal-F17",
+              "text": "Essa floresta se estende além das fronteiras do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P18",
+              "factKey": "tikal-F18",
+              "text": "A antiga cidade tinha áreas cerimoniais e residenciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P19",
+              "factKey": "tikal-F19",
+              "text": "Quadras de jogo de bola integram o patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P20",
+              "factKey": "tikal-F20",
+              "text": "Reservatórios antigos guardavam água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P21",
+              "factKey": "tikal-F21",
+              "text": "A região também era usada para agricultura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P22",
+              "factKey": "tikal-F22",
+              "text": "A área foi declarada parque nacional em 1955.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P23",
+              "factKey": "tikal-F23",
+              "text": "A UNESCO reconheceu o parque em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P24",
+              "factKey": "tikal-F24",
+              "text": "A preservação envolve natureza e patrimônio cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-viajante-P25",
+              "factKey": "tikal-F25",
+              "text": "O saque de peças arqueológicas é um desafio à proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "tikal-geografo-P01",
+              "factKey": "tikal-F01",
+              "text": "A unidade integra patrimônio arqueológico e biodiversidade tropical.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P02",
+              "factKey": "tikal-F02",
+              "text": "Localiza-se na região centro-americana de Petén.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P03",
+              "factKey": "tikal-F03",
+              "text": "O sítio fica no norte da Guatemala.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P04",
+              "factKey": "tikal-F04",
+              "text": "Foi um importante centro político, econômico e militar maia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P05",
+              "factKey": "tikal-F05",
+              "text": "Templos, palácios e plataformas refletem funções cerimoniais e administrativas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P06",
+              "factKey": "tikal-F06",
+              "text": "Praças e rampas organizavam espaços públicos do centro monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P07",
+              "factKey": "tikal-F07",
+              "text": "Áreas residenciais se estendiam além do núcleo cerimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P08",
+              "factKey": "tikal-F08",
+              "text": "Conjuntos piramidais integram a arquitetura monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P09",
+              "factKey": "tikal-F09",
+              "text": "Inscrições hieroglíficas registram a história dinástica e relações com outras cidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P10",
+              "factKey": "tikal-F10",
+              "text": "A unidade inclui formações florestais de folhas largas e palmeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P11",
+              "factKey": "tikal-F11",
+              "text": "O mosaico ambiental inclui savanas, áreas úmidas e água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P12",
+              "factKey": "tikal-F12",
+              "text": "A onça-pintada é um dos felinos registrados na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P13",
+              "factKey": "tikal-F13",
+              "text": "O puma também integra a fauna de mamíferos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P14",
+              "factKey": "tikal-F14",
+              "text": "Macacos e tamanduás figuram entre os habitantes da floresta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P15",
+              "factKey": "tikal-F15",
+              "text": "A diversidade de habitats sustenta centenas de espécies de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P16",
+              "factKey": "tikal-F16",
+              "text": "O parque integra a Floresta Maia e a Reserva da Biosfera Maia.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "TIKAL_CONAP"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P17",
+              "factKey": "tikal-F17",
+              "text": "A continuidade florestal alcança territórios vizinhos do México e de Belize.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P18",
+              "factKey": "tikal-F18",
+              "text": "O traçado urbano reflete funções cerimoniais, administrativas e residenciais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P19",
+              "factKey": "tikal-F19",
+              "text": "Quadras para jogo de bola compõem o patrimônio monumental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P20",
+              "factKey": "tikal-F20",
+              "text": "Reservatórios conhecidos como aguadas fazem parte do sistema histórico de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P21",
+              "factKey": "tikal-F21",
+              "text": "A periferia contribuiu para a produção agrícola do centro urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P22",
+              "factKey": "tikal-F22",
+              "text": "A área foi instituída como parque nacional em 1955.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P23",
+              "factKey": "tikal-F23",
+              "text": "A inscrição na Lista do Patrimônio Mundial ocorreu em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P24",
+              "factKey": "tikal-F24",
+              "text": "O reconhecimento inclui critérios naturais e culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "tikal-geografo-P25",
+              "factKey": "tikal-F25",
+              "text": "Saque e intemperismo ameaçam a integridade dos vestígios arqueológicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "TIKAL64"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque da Guatemala que protege uma antiga cidade maia e ecossistemas da Floresta Maia.",
+        "editorialNotes": [
+          "Revisar nome e comparabilidade das alternativas; calibrar em partidas.",
+          "C3 compara civilizações americanas e C4 compara reservas reais. Confirmar a redação de todas as pistas e testar em partida."
         ]
       },
       "review": {
