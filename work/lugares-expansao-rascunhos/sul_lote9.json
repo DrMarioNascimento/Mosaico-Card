@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "SULLAPASETOR": {
+      "id": "SULLAPASETOR",
+      "title": "Setor Histórico da Lapa",
+      "publisher": "Coordenação do Patrimônio Cultural do Paraná",
+      "url": "https://www.patrimoniocultural.pr.gov.br/Bem-Tombado/Setor-Historico-da-Lapa",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLAPATEATRO": {
+      "id": "SULLAPATEATRO",
+      "title": "Teatro São João",
+      "publisher": "Coordenação do Patrimônio Cultural do Paraná",
+      "url": "https://www.patrimoniocultural.pr.gov.br/Bem-Tombado/Teatro-Sao-Joao-Lapa",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLAPACASA": {
+      "id": "SULLAPACASA",
+      "title": "Museu Casa Coronel Joaquim Lacerda",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/parana/museu-casa-coronel-joaquim-lacerda",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLAPAIBGE": {
+      "id": "SULLAPAIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pr/lapa.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-lapa",
+      "placeId": "lapa-pr",
+      "title": "Lapa",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Lapa"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Castro"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Ponta Grossa"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Campo Largo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Paranaguá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Morretes"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Curitiba"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Antonina"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Piratini"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Tijucas do Sul"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "União da Vitória"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Lapa",
+          "sources": [
+            "SULLAPAIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atividade ligada à origem",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Tropeirismo"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ciclo da borracha"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Mineração de ouro"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Pesca oceânica"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Tropeirismo",
+          "sources": [
+            "SULLAPASETOR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Teatro histórico",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Teatro São João"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Teatro Amazonas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Teatro da Paz"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Teatro José de Alencar"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Teatro São João",
+          "sources": [
+            "SULLAPATEATRO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Paraná",
+          "sources": [
+            "SULLAPAIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "lapa-pr-viajante-P01",
+              "factKey": "lapa-pr-viajante-F01",
+              "text": "O destino é uma cidade do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P02",
+              "factKey": "lapa-pr-viajante-F02",
+              "text": "O município fica no Paraná.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P03",
+              "factKey": "lapa-pr-viajante-F03",
+              "text": "Um caminho de tropas passou pela região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P04",
+              "factKey": "lapa-pr-viajante-F04",
+              "text": "Tropeiros paravam no local durante suas viagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P05",
+              "factKey": "lapa-pr-viajante-F05",
+              "text": "A cidade tem um centro histórico preservado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P06",
+              "factKey": "lapa-pr-viajante-F06",
+              "text": "Casas, igrejas e ruas integram esse conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P07",
+              "factKey": "lapa-pr-viajante-F07",
+              "text": "O município viveu um cerco durante a Revolução Federalista.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P08",
+              "factKey": "lapa-pr-viajante-F08",
+              "text": "O conflito ocorreu em 1894.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P09",
+              "factKey": "lapa-pr-viajante-F09",
+              "text": "A resistência durante o cerco durou 26 dias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P10",
+              "factKey": "lapa-pr-viajante-F10",
+              "text": "O Teatro São João é um prédio histórico da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P11",
+              "factKey": "lapa-pr-viajante-F11",
+              "text": "Esse teatro foi inaugurado em 1887.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P12",
+              "factKey": "lapa-pr-viajante-F12",
+              "text": "A estrutura interna do teatro é de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P13",
+              "factKey": "lapa-pr-viajante-F13",
+              "text": "A Igreja Matriz é dedicada a Santo Antônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P14",
+              "factKey": "lapa-pr-viajante-F14",
+              "text": "Uma antiga casa de Câmara e Cadeia integra o patrimônio urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P15",
+              "factKey": "lapa-pr-viajante-F15",
+              "text": "A Casa Lacerda hoje abriga um museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P16",
+              "factKey": "lapa-pr-viajante-F16",
+              "text": "Durante o cerco, a casa serviu como quartel de tropas legalistas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P17",
+              "factKey": "lapa-pr-viajante-F17",
+              "text": "Uma carta de capitulação foi assinada nessa casa em 1894.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P18",
+              "factKey": "lapa-pr-viajante-F18",
+              "text": "Móveis e objetos antigos fazem parte do acervo do museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P19",
+              "factKey": "lapa-pr-viajante-F19",
+              "text": "Povos Kaingang e Guarani habitaram a região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P20",
+              "factKey": "lapa-pr-viajante-F20",
+              "text": "O local já foi conhecido como Santo Antônio do Registro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P21",
+              "factKey": "lapa-pr-viajante-F21",
+              "text": "A localidade recebeu a categoria de vila em 1806.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P22",
+              "factKey": "lapa-pr-viajante-F22",
+              "text": "Em 1872 foi elevada à condição de cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P23",
+              "factKey": "lapa-pr-viajante-F23",
+              "text": "A Casa Vermelha está entre as edificações históricas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P24",
+              "factKey": "lapa-pr-viajante-F24",
+              "text": "O Panteão dos Heróis lembra pessoas ligadas ao conflito histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-viajante-P25",
+              "factKey": "lapa-pr-viajante-F25",
+              "text": "A cidade integra a história de ocupação dos Campos Gerais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "lapa-pr-geografo-P01",
+              "factKey": "lapa-pr-geografo-F01",
+              "text": "A formação do núcleo está ligada ao antigo Caminho de Viamão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P02",
+              "factKey": "lapa-pr-geografo-F02",
+              "text": "A rota articulava o deslocamento de tropas entre áreas do Sul e do Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P03",
+              "factKey": "lapa-pr-geografo-F03",
+              "text": "O pouso para viajantes ajudou a estabelecer um núcleo de povoamento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P04",
+              "factKey": "lapa-pr-geografo-F04",
+              "text": "A ocupação europeia documentada não elimina a presença anterior de Kaingang e Guarani.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P05",
+              "factKey": "lapa-pr-geografo-F05",
+              "text": "A localidade integra o processo de ocupação do segundo planalto paranaense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P06",
+              "factKey": "lapa-pr-geografo-F06",
+              "text": "A abertura de um caminho estava associada ao trânsito comercial de gado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P07",
+              "factKey": "lapa-pr-geografo-F07",
+              "text": "O antigo núcleo era conhecido como Santo Antônio do Registro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P08",
+              "factKey": "lapa-pr-geografo-F08",
+              "text": "A localidade foi elevada a vila em 1806 com outro nome.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P09",
+              "factKey": "lapa-pr-geografo-F09",
+              "text": "A antiga Vila Nova do Príncipe passou a integrar a província paranaense em 1853.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P10",
+              "factKey": "lapa-pr-geografo-F10",
+              "text": "A elevação à categoria de cidade ocorreu em 1872.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P11",
+              "factKey": "lapa-pr-geografo-F11",
+              "text": "A Revolução Federalista atingiu a cidade com um cerco em 1894.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P12",
+              "factKey": "lapa-pr-geografo-F12",
+              "text": "Forças federalistas e defensoras do governo republicano enfrentaram-se durante o episódio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P13",
+              "factKey": "lapa-pr-geografo-F13",
+              "text": "A resistência documentada durou 26 dias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P14",
+              "factKey": "lapa-pr-geografo-F14",
+              "text": "Uma casa histórica funcionou como quartel das tropas legalistas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P15",
+              "factKey": "lapa-pr-geografo-F15",
+              "text": "A capitulação foi assinada na residência de Joaquim Lacerda em fevereiro de 1894.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P16",
+              "factKey": "lapa-pr-geografo-F16",
+              "text": "O museu-casa preserva móveis e objetos associados ao cotidiano de várias gerações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPACASA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P17",
+              "factKey": "lapa-pr-geografo-F17",
+              "text": "O traçado histórico reflete uma cidade desenvolvida ao longo de uma rota de tropas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P18",
+              "factKey": "lapa-pr-geografo-F18",
+              "text": "O conjunto preservado inclui ruas, igrejas, praças, casas e edifícios públicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P19",
+              "factKey": "lapa-pr-geografo-F19",
+              "text": "Uma igreja matriz dedicada a Santo Antônio integra a paisagem histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P20",
+              "factKey": "lapa-pr-geografo-F20",
+              "text": "O teatro local inaugurado em 1887 apresenta estrutura interna de madeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P21",
+              "factKey": "lapa-pr-geografo-F21",
+              "text": "O espaço cênico desse teatro organiza-se internamente em forma de ferradura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P22",
+              "factKey": "lapa-pr-geografo-F22",
+              "text": "O tombamento estadual do teatro ocorreu em 1969.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPATEATRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P23",
+              "factKey": "lapa-pr-geografo-F23",
+              "text": "O setor histórico recebeu normas estaduais de uso e ocupação em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P24",
+              "factKey": "lapa-pr-geografo-F24",
+              "text": "O Censo do IBGE de 2022 registrou aproximadamente 45 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPAIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "lapa-pr-geografo-P25",
+              "factKey": "lapa-pr-geografo-F25",
+              "text": "A preservação do conjunto urbano envolve a relação entre moradia, comércio e patrimônio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLAPASETOR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade paranaense ligada ao Caminho das Tropas e à Revolução Federalista, com centro histórico protegido.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

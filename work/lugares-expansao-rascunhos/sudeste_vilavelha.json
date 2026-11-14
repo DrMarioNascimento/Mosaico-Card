@@ -1,0 +1,1019 @@
+{
+  "sources": {
+    "SE_VV_IBGE": {
+      "id": "SE_VV_IBGE",
+      "title": "Vila Velha (ES): Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/es/vila-velha.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VV_TUR": {
+      "id": "SE_VV_TUR",
+      "title": "História e turismo de Vila Velha",
+      "publisher": "Secretaria de Turismo do Espírito Santo",
+      "url": "https://descubraoespiritosanto.es.gov.br/cidades/vila-velha",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VV_IPHAN": {
+      "id": "SE_VV_IPHAN",
+      "title": "Conjunto da Igreja de Nossa Senhora da Penha",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-atualiza-portaria-de-preservacao-do-conjunto-da-igreja-de-nossa-senhora-da-penha-em-vila-velha-es",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-vila-velha",
+      "placeId": "cidade-vila-velha",
+      "title": "Vila Velha",
+      "aliases": [
+        "Cidade de Vila Velha"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Vila Velha"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Serra"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Cariacica"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Niterói"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Santos"
+            },
+            {
+              "id": "C1-O7",
+              "text": "São Vicente"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Guarujá"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Olinda"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Florianópolis"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Vila Velha",
+          "sources": [
+            "SE_VV_TUR"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Ano associado à ocupação portuguesa inicial",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "1535"
+            },
+            {
+              "id": "C2-O2",
+              "text": "1551"
+            },
+            {
+              "id": "C2-O3",
+              "text": "1546"
+            },
+            {
+              "id": "C2-O4",
+              "text": "1565"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "1535",
+          "sources": [
+            "SE_VV_TUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Conjunto religioso no outeiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Convento da Penha"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Santuário do Bom Jesus de Matosinhos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Convento de São Francisco de Salvador"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Santuário de Nossa Senhora da Piedade"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Convento da Penha",
+          "sources": [
+            "SE_VV_IPHAN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Morro com trilhas e vista metropolitana",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Morro do Moreno"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Morro da Urca"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Morro do Corcovado"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Morro do Pai Inácio"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Morro do Moreno",
+          "sources": [
+            "SE_VV_TUR"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-vila-velha-viajante-P01",
+              "factKey": "cidade-vila-velha-F01",
+              "text": "É uma cidade brasileira próxima ao mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P02",
+              "factKey": "cidade-vila-velha-F02",
+              "text": "O destino fica na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P03",
+              "factKey": "cidade-vila-velha-F03",
+              "text": "Sua paisagem inclui praias e morros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P04",
+              "factKey": "cidade-vila-velha-F04",
+              "text": "A cidade fica no estado do Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P05",
+              "factKey": "cidade-vila-velha-F05",
+              "text": "Faz parte da região metropolitana da capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P06",
+              "factKey": "cidade-vila-velha-F06",
+              "text": "Uma ponte conhecida como Terceira Ponte a liga à capital vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P07",
+              "factKey": "cidade-vila-velha-F07",
+              "text": "Um dos pontos históricos é um convento em um morro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P08",
+              "factKey": "cidade-vila-velha-F08",
+              "text": "O convento é dedicado a Nossa Senhora da Penha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P09",
+              "factKey": "cidade-vila-velha-F09",
+              "text": "O alto do convento permite observar a baía e a cidade vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P10",
+              "factKey": "cidade-vila-velha-F10",
+              "text": "O frei Pedro Palácios está ligado à história do santuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P11",
+              "factKey": "cidade-vila-velha-F11",
+              "text": "Uma festa religiosa da região homenageia Nossa Senhora da Penha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P12",
+              "factKey": "cidade-vila-velha-F12",
+              "text": "A Igreja do Rosário é outra construção histórica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P13",
+              "factKey": "cidade-vila-velha-F13",
+              "text": "O antigo núcleo português se formou na região da Prainha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P14",
+              "factKey": "cidade-vila-velha-F14",
+              "text": "Os colonizadores chegaram ao local em 1535.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P15",
+              "factKey": "cidade-vila-velha-F15",
+              "text": "Povos indígenas já viviam na região antes da colonização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P16",
+              "factKey": "cidade-vila-velha-F16",
+              "text": "O donatário Vasco Fernandes Coutinho está ligado à ocupação portuguesa inicial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P17",
+              "factKey": "cidade-vila-velha-F17",
+              "text": "A sede da capitania foi depois transferida para a ilha vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P18",
+              "factKey": "cidade-vila-velha-F18",
+              "text": "A Praia da Costa é uma das praias locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P19",
+              "factKey": "cidade-vila-velha-F19",
+              "text": "Itapoã e Itaparica são outras praias do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P20",
+              "factKey": "cidade-vila-velha-F20",
+              "text": "O Morro do Moreno é uma área procurada por quem faz trilhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P21",
+              "factKey": "cidade-vila-velha-F21",
+              "text": "Desse morro é possível observar a paisagem da capital vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P22",
+              "factKey": "cidade-vila-velha-F22",
+              "text": "O conjunto do convento foi tombado pelo Iphan em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P23",
+              "factKey": "cidade-vila-velha-F23",
+              "text": "Há uma Casa da Memória entre os espaços culturais da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P24",
+              "factKey": "cidade-vila-velha-F24",
+              "text": "O Farol de Santa Luzia é citado entre as atrações locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-viajante-P25",
+              "factKey": "cidade-vila-velha-F25",
+              "text": "O município tinha 467.722 habitantes no Censo 2022 do IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-vila-velha-geografo-P01",
+              "factKey": "cidade-vila-velha-F01",
+              "text": "O destino é um município costeiro da região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P02",
+              "factKey": "cidade-vila-velha-F02",
+              "text": "Ele integra uma região metropolitana brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P03",
+              "factKey": "cidade-vila-velha-F03",
+              "text": "A paisagem local combina praias, morros e área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P04",
+              "factKey": "cidade-vila-velha-F04",
+              "text": "O município pertence ao estado do Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P05",
+              "factKey": "cidade-vila-velha-F05",
+              "text": "Sua malha urbana se articula à da capital metropolitana vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P06",
+              "factKey": "cidade-vila-velha-F06",
+              "text": "A Terceira Ponte é uma ligação rodoviária com essa capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P07",
+              "factKey": "cidade-vila-velha-F07",
+              "text": "Um conjunto religioso ocupa um outeiro em posição elevada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P08",
+              "factKey": "cidade-vila-velha-F08",
+              "text": "A igreja e o convento são dedicados a Nossa Senhora da Penha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P09",
+              "factKey": "cidade-vila-velha-F09",
+              "text": "A altitude do conjunto permite observar a baía e cidades próximas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P10",
+              "factKey": "cidade-vila-velha-F10",
+              "text": "A trajetória do sítio religioso está ligada ao frei Pedro Palácios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P11",
+              "factKey": "cidade-vila-velha-F11",
+              "text": "A Festa da Penha articula devoção, patrimônio e mobilidade de visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P12",
+              "factKey": "cidade-vila-velha-F12",
+              "text": "A Igreja do Rosário integra o patrimônio religioso do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P13",
+              "factKey": "cidade-vila-velha-F13",
+              "text": "A Prainha concentra referências do núcleo inicial da colonização portuguesa local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P14",
+              "factKey": "cidade-vila-velha-F14",
+              "text": "O estabelecimento português na região é associado ao ano de 1535.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P15",
+              "factKey": "cidade-vila-velha-F15",
+              "text": "A colonização ocorreu em território já ocupado por diferentes povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P16",
+              "factKey": "cidade-vila-velha-F16",
+              "text": "O donatário Vasco Fernandes Coutinho participou da implantação da capitania.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P17",
+              "factKey": "cidade-vila-velha-F17",
+              "text": "A sede administrativa da capitania foi depois instalada em uma ilha vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P18",
+              "factKey": "cidade-vila-velha-F18",
+              "text": "A Praia da Costa integra a orla urbana do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P19",
+              "factKey": "cidade-vila-velha-F19",
+              "text": "As praias de Itapoã e Itaparica são outros segmentos do litoral local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P20",
+              "factKey": "cidade-vila-velha-F20",
+              "text": "O Morro do Moreno oferece trilhas e mirantes sobre a região metropolitana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P21",
+              "factKey": "cidade-vila-velha-F21",
+              "text": "A posição do morro permite relacionar o litoral à ocupação urbana vizinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P22",
+              "factKey": "cidade-vila-velha-F22",
+              "text": "O Iphan tombou o conjunto do convento em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P23",
+              "factKey": "cidade-vila-velha-F23",
+              "text": "A Casa da Memória integra os equipamentos culturais citados pelo turismo estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P24",
+              "factKey": "cidade-vila-velha-F24",
+              "text": "O Farol de Santa Luzia é uma referência histórica do litoral municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vila-velha-geografo-P25",
+              "factKey": "cidade-vila-velha-F25",
+              "text": "O município registrou 467.722 habitantes no Censo Demográfico 2022 do IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VV_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Município litorâneo da Grande Vitória, com patrimônio colonial e o Convento da Penha.",
+        "editorialNotes": [
+          "Capital vizinha e município da carta são pautas diferentes, com relação temática.",
+          "Fonte institucional consultada; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

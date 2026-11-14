@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "CENTRO_RTO_ANA": {
+      "id": "CENTRO_RTO_ANA",
+      "title": "Informações hidrológicas sobre o rio",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/sala-de-situacao/tocantins/saiba-mais-tocantins",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_RTO_ANA_REG": {
+      "id": "CENTRO_RTO_ANA_REG",
+      "title": "Região hidrográfica e gestão das águas",
+      "publisher": "Agência Nacional de Águas e Saneamento Básico",
+      "url": "https://www.gov.br/ana/pt-br/assuntos/gestao-das-aguas/panorama-das-aguas/regioes-hidrograficas/regiao-hidrografica-tocantins-araguaia",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_RTO_DNIT": {
+      "id": "CENTRO_RTO_DNIT",
+      "title": "Hidrovia e características do curso",
+      "publisher": "DNIT",
+      "url": "https://www.gov.br/dnit/pt-br/assuntos/aquaviario/intervencao-em-hidrovias/hidrovias-1/hidrovia-do-tocantins-araguaia",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-rio-tocantins",
+      "placeId": "rio-tocantins",
+      "title": "Rio Tocantins",
+      "aliases": [
+        "Tocantins"
+      ],
+      "answerType": "rio brasileiro",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte",
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Rio brasileiro",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Rio Tocantins"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Paraguai"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Rio Paraná"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Rio Xingu"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio Tapajós"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Rio Madeira"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Rio Tietê"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Rio Negro"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Rio Juruena"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Rio Tocantins",
+          "sources": [
+            "CENTRO_RTO_ANA",
+            "CENTRO_RTO_ANA_REG",
+            "CENTRO_RTO_DNIT"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio que recebe como grande afluente",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Araguaia"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Parnaíba"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Juruá"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Araguaia",
+          "sources": [
+            "CENTRO_RTO_ANA",
+            "CENTRO_RTO_ANA_REG",
+            "CENTRO_RTO_DNIT"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Usina hidrelétrica em seu curso",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tucuruí"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Itaipu"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Sobradinho"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Furnas"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tucuruí",
+          "sources": [
+            "CENTRO_RTO_ANA",
+            "CENTRO_RTO_ANA_REG",
+            "CENTRO_RTO_DNIT"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado próximo à sua foz",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Pará"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Minas Gerais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Pará",
+          "sources": [
+            "CENTRO_RTO_ANA",
+            "CENTRO_RTO_ANA_REG",
+            "CENTRO_RTO_DNIT"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "rio-tocantins-viajante-P01",
+              "factKey": "rio-tocantins-F01",
+              "text": "Este destino é um rio brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P02",
+              "factKey": "rio-tocantins-F02",
+              "text": "Sua nascente fica em Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P03",
+              "factKey": "rio-tocantins-F03",
+              "text": "O curso segue em direção ao norte do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P04",
+              "factKey": "rio-tocantins-F04",
+              "text": "Seu percurso é totalmente brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P05",
+              "factKey": "rio-tocantins-F05",
+              "text": "Deságua no Pará, próximo da capital estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P06",
+              "factKey": "rio-tocantins-F06",
+              "text": "Recebe as águas de um grande rio chamado Araguaia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P07",
+              "factKey": "rio-tocantins-F07",
+              "text": "Os dois rios dão nome a uma região hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P08",
+              "factKey": "rio-tocantins-F08",
+              "text": "Há grandes usinas hidrelétricas ao longo de seu curso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P09",
+              "factKey": "rio-tocantins-F09",
+              "text": "Uma dessas usinas é Tucuruí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P10",
+              "factKey": "rio-tocantins-F10",
+              "text": "Outra é chamada Serra da Mesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P11",
+              "factKey": "rio-tocantins-F11",
+              "text": "A usina de Lajeado também está em seu curso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P12",
+              "factKey": "rio-tocantins-F12",
+              "text": "A usina de Estreito aproveita suas águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P13",
+              "factKey": "rio-tocantins-F13",
+              "text": "Peixe Angical é outra usina associada ao rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P14",
+              "factKey": "rio-tocantins-F14",
+              "text": "Há trechos usados para navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P15",
+              "factKey": "rio-tocantins-F15",
+              "text": "Uma eclusa auxilia embarcações a transpor uma barragem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P16",
+              "factKey": "rio-tocantins-F16",
+              "text": "No período seco, certas passagens fluviais ficam mais difíceis para embarcações grandes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P17",
+              "factKey": "rio-tocantins-F17",
+              "text": "A bacia inclui áreas de Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P18",
+              "factKey": "rio-tocantins-F18",
+              "text": "A região hidrográfica também abrange áreas amazônicas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P19",
+              "factKey": "rio-tocantins-F19",
+              "text": "A irrigação é um dos usos da água na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P20",
+              "factKey": "rio-tocantins-F20",
+              "text": "O saneamento é uma das questões de gestão da bacia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P21",
+              "factKey": "rio-tocantins-F21",
+              "text": "A navegação é outro tema de gestão das águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P22",
+              "factKey": "rio-tocantins-F22",
+              "text": "Há praias fluviais frequentadas para turismo na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P23",
+              "factKey": "rio-tocantins-F23",
+              "text": "Os níveis do rio variam ao longo do ano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P24",
+              "factKey": "rio-tocantins-F24",
+              "text": "Seu curso é acompanhado por órgãos de gestão de recursos hídricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-viajante-P25",
+              "factKey": "rio-tocantins-F25",
+              "text": "É um rio compartilhado entre diferentes estados brasileiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "rio-tocantins-geografo-P01",
+              "factKey": "rio-tocantins-F01",
+              "text": "O objeto desta carta é um curso de água inteiramente brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P02",
+              "factKey": "rio-tocantins-F02",
+              "text": "Suas cabeceiras ficam no Planalto de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P03",
+              "factKey": "rio-tocantins-F03",
+              "text": "O escoamento principal segue predominantemente para o norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P04",
+              "factKey": "rio-tocantins-F04",
+              "text": "Seu percurso integra o Centro-Oeste e o Norte brasileiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P05",
+              "factKey": "rio-tocantins-F05",
+              "text": "A foz situa-se no Pará, nas proximidades de Belém.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P06",
+              "factKey": "rio-tocantins-F06",
+              "text": "O Rio Araguaia é seu principal tributário em extensão e volume.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P07",
+              "factKey": "rio-tocantins-F07",
+              "text": "Os dois cursos dão nome a uma região hidrográfica nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P08",
+              "factKey": "rio-tocantins-F08",
+              "text": "O desnível e a vazão favorecem usos hidrelétricos em seu curso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P09",
+              "factKey": "rio-tocantins-F09",
+              "text": "A barragem de Tucuruí é uma das estruturas hidrelétricas instaladas no rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P10",
+              "factKey": "rio-tocantins-F10",
+              "text": "O reservatório de Serra da Mesa permite regularização de vazões.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P11",
+              "factKey": "rio-tocantins-F11",
+              "text": "Lajeado é outra usina localizada no curso principal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P12",
+              "factKey": "rio-tocantins-F12",
+              "text": "A usina de Estreito também aproveita a energia de suas águas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P13",
+              "factKey": "rio-tocantins-F13",
+              "text": "Peixe Angical integra a sequência de usinas mencionada pela ANA.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P14",
+              "factKey": "rio-tocantins-F14",
+              "text": "A via fluvial permite navegação comercial em trechos determinados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P15",
+              "factKey": "rio-tocantins-F15",
+              "text": "Uma eclusa permite transpor o desnível junto à barragem de Tucuruí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P16",
+              "factKey": "rio-tocantins-F16",
+              "text": "Na estação seca, afloramentos rochosos limitam a passagem de embarcações de grande porte em determinados trechos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P17",
+              "factKey": "rio-tocantins-F17",
+              "text": "O Cerrado compõe parte significativa da região hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P18",
+              "factKey": "rio-tocantins-F18",
+              "text": "Há também áreas de floresta amazônica na porção norte e noroeste regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P19",
+              "factKey": "rio-tocantins-F19",
+              "text": "A irrigação é um dos usos que exigem planejamento da água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P20",
+              "factKey": "rio-tocantins-F20",
+              "text": "O saneamento figura entre os temas de gestão da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P21",
+              "factKey": "rio-tocantins-F21",
+              "text": "A navegação é outro uso que precisa ser articulado com os demais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P22",
+              "factKey": "rio-tocantins-F22",
+              "text": "Praias fluviais contribuem para o turismo na região hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P23",
+              "factKey": "rio-tocantins-F23",
+              "text": "A sazonalidade das chuvas modifica os níveis e condições de navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P24",
+              "factKey": "rio-tocantins-F24",
+              "text": "Por atravessar divisas, a gestão de suas águas envolve a agência federal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "rio-tocantins-geografo-P25",
+              "factKey": "rio-tocantins-F25",
+              "text": "A bacia reúne territórios de mais de uma unidade da federação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_RTO_ANA",
+                "CENTRO_RTO_ANA_REG",
+                "CENTRO_RTO_DNIT"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Rio Tocantins nasce em Goiás, recebe o Araguaia e segue até sua foz no Pará.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

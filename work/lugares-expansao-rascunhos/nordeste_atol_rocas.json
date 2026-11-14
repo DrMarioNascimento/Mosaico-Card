@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "ROCAS_ICM": {
+      "id": "ROCAS_ICM",
+      "title": "Reserva Biológica do Atol das Rocas",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/rebio-atol-das-rocas/rebio-atol-das-rocas",
+      "checkedAt": "2026-11-14"
+    },
+    "ROCAS_PM": {
+      "id": "ROCAS_PM",
+      "title": "Plano de Manejo da Reserva Biológica do Atol das Rocas",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/assuntos/biodiversidade/unidade-de-conservacao/unidades-de-biomas/marinho/lista-de-ucs/rebio-atol-das-rocas/arquivos/rebio_atol-das-rocas.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "ROCAS_UNESCO": {
+      "id": "ROCAS_UNESCO",
+      "title": "Brazilian Atlantic Islands: Fernando de Noronha and Atol das Rocas Reserves",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/1000",
+      "checkedAt": "2026-11-14"
+    },
+    "ROCAS_JBRJ": {
+      "id": "ROCAS_JBRJ",
+      "title": "Reserva Biológica do Atol das Rocas",
+      "publisher": "Instituto de Pesquisas Jardim Botânico do Rio de Janeiro",
+      "url": "https://catalogo-ucs-brasil.jbrj.gov.br/areas/AtoldasRocas",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-atol-rocas",
+      "placeId": "atol-rocas",
+      "title": "Reserva Biológica do Atol das Rocas",
+      "aliases": [
+        "Atol das Rocas"
+      ],
+      "answerType": "atol e reserva biológica",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Atol ou área insular protegida",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Reserva Biológica do Atol das Rocas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Marinho de Fernando de Noronha"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Reserva Biológica Marinha do Arvoredo"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Marinho dos Abrolhos"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Refúgio de Vida Silvestre de Alcatrazes"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Atol de Aldabra"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Atol de Bikini"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Atol de Rangiroa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Atol de Palmyra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Atol de Tubbataha"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Atol de Midway"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Atol de Aitutaki"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Reserva Biológica do Atol das Rocas",
+          "sources": [
+            "ROCAS_ICM",
+            "ROCAS_PM",
+            "ROCAS_UNESCO",
+            "ROCAS_JBRJ"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Posição no oceano",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Atlântico Sul"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Pacífico Norte"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Índico Norte"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Mar Mediterrâneo"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Atlântico Sul",
+          "sources": [
+            "ROCAS_ICM",
+            "ROCAS_PM",
+            "ROCAS_UNESCO",
+            "ROCAS_JBRJ"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Processo de formação predominante do recife",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Crescimento de algas calcárias"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Solidificação recente de lava"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Acúmulo de gelo glacial"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Erosão de falésias continentais"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Crescimento de algas calcárias",
+          "sources": [
+            "ROCAS_ICM",
+            "ROCAS_PM",
+            "ROCAS_UNESCO",
+            "ROCAS_JBRJ"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Área reconhecida em conjunto pela UNESCO",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Fernando de Noronha"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Galápagos"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Abrolhos"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Aldabra"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Fernando de Noronha",
+          "sources": [
+            "ROCAS_ICM",
+            "ROCAS_PM",
+            "ROCAS_UNESCO",
+            "ROCAS_JBRJ"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "atol-rocas-viajante-P01",
+              "factKey": "atol-rocas-F01",
+              "text": "O destino é uma área protegida no oceano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P02",
+              "factKey": "atol-rocas-F02",
+              "text": "A área fica no Atlântico Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P03",
+              "factKey": "atol-rocas-F03",
+              "text": "Fica afastada da costa brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P04",
+              "factKey": "atol-rocas-F04",
+              "text": "A área é uma reserva biológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P05",
+              "factKey": "atol-rocas-F05",
+              "text": "A reserva foi criada em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P06",
+              "factKey": "atol-rocas-F06",
+              "text": "O local é um atol.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P07",
+              "factKey": "atol-rocas-F07",
+              "text": "O recife tem formato aproximadamente oval.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P08",
+              "factKey": "atol-rocas-F08",
+              "text": "Duas pequenas ilhas integram o conjunto protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P09",
+              "factKey": "atol-rocas-F09",
+              "text": "A reserva fica a oeste de Fernando de Noronha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P10",
+              "factKey": "atol-rocas-F10",
+              "text": "A área fica a mais de 250 quilômetros da costa do Rio Grande do Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P11",
+              "factKey": "atol-rocas-F11",
+              "text": "Algas calcárias tiveram papel importante na formação do recife.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P12",
+              "factKey": "atol-rocas-F12",
+              "text": "O ambiente forma piscinas naturais durante a maré baixa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P13",
+              "factKey": "atol-rocas-F13",
+              "text": "As piscinas abrigam peixes e outros animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P14",
+              "factKey": "atol-rocas-F14",
+              "text": "Moluscos estão entre os animais do local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P15",
+              "factKey": "atol-rocas-F15",
+              "text": "Esponjas também vivem nas águas da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P16",
+              "factKey": "atol-rocas-F16",
+              "text": "O local é importante para tartarugas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P17",
+              "factKey": "atol-rocas-F17",
+              "text": "A tartaruga-verde é uma das espécies protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P18",
+              "factKey": "atol-rocas-F18",
+              "text": "A tartaruga-de-pente também é citada pelo ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P19",
+              "factKey": "atol-rocas-F19",
+              "text": "O lugar também abriga aves marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P20",
+              "factKey": "atol-rocas-F20",
+              "text": "O tubarão-limão está na lista de espécies protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P21",
+              "factKey": "atol-rocas-F21",
+              "text": "O órgão gestor é o ICMBio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P22",
+              "factKey": "atol-rocas-F22",
+              "text": "A visitação pública não é permitida na reserva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P23",
+              "factKey": "atol-rocas-F23",
+              "text": "A pesquisa científica integra a finalidade da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P24",
+              "factKey": "atol-rocas-F24",
+              "text": "A área integra um bem reconhecido pela UNESCO em 2001.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-viajante-P25",
+              "factKey": "atol-rocas-F25",
+              "text": "A reserva integra um bem com outra área insular brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "atol-rocas-geografo-P01",
+              "factKey": "atol-rocas-F01",
+              "text": "A carta representa uma unidade federal de proteção em ambiente oceânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P02",
+              "factKey": "atol-rocas-F02",
+              "text": "A unidade está situada no setor sul do oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P03",
+              "factKey": "atol-rocas-F03",
+              "text": "A posição oceânica da unidade a distancia da faixa costeira continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P04",
+              "factKey": "atol-rocas-F04",
+              "text": "Sua categoria no sistema brasileiro de unidades de conservação é reserva biológica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P05",
+              "factKey": "atol-rocas-F05",
+              "text": "A criação da unidade federal de proteção integral ocorreu em 1979.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P06",
+              "factKey": "atol-rocas-F06",
+              "text": "A forma do conjunto recifal corresponde a um atol oceânico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P07",
+              "factKey": "atol-rocas-F07",
+              "text": "A formação recifal apresenta contorno aproximadamente elíptico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P08",
+              "factKey": "atol-rocas-F08",
+              "text": "O recife elíptico inclui duas pequenas ilhas dentro da área marinha protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P09",
+              "factKey": "atol-rocas-F09",
+              "text": "A unidade situa-se a aproximadamente 150 quilômetros a oeste de Fernando de Noronha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P10",
+              "factKey": "atol-rocas-F10",
+              "text": "O plano de manejo situa a unidade a cerca de 267 quilômetros da costa potiguar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P11",
+              "factKey": "atol-rocas-F11",
+              "text": "A formação é descrita como de origem predominantemente associada a algas calcárias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P12",
+              "factKey": "atol-rocas-F12",
+              "text": "A baixa-mar expõe lagunas e piscinas de maré no interior do recife.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P13",
+              "factKey": "atol-rocas-F13",
+              "text": "Peixes e invertebrados ocupam piscinas de maré no conjunto recifal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P14",
+              "factKey": "atol-rocas-F14",
+              "text": "Moluscos compõem a diversidade de invertebrados do ambiente recifal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P15",
+              "factKey": "atol-rocas-F15",
+              "text": "Esponjas são parte da comunidade marinha associada aos recifes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P16",
+              "factKey": "atol-rocas-F16",
+              "text": "A área protegida funciona como habitat e local de reprodução de tartarugas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P17",
+              "factKey": "atol-rocas-F17",
+              "text": "Chelonia mydas, a tartaruga-verde, é uma espécie protegida pela unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P18",
+              "factKey": "atol-rocas-F18",
+              "text": "Eretmochelys imbricata integra a lista de espécies protegidas na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P19",
+              "factKey": "atol-rocas-F19",
+              "text": "Aves oceânicas utilizam a formação insular para abrigo e reprodução.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P20",
+              "factKey": "atol-rocas-F20",
+              "text": "Negaprion brevirostris, o tubarão-limão, é mencionado na lista do órgão gestor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P21",
+              "factKey": "atol-rocas-F21",
+              "text": "A gestão da reserva biológica cabe ao Instituto Chico Mendes de Conservação da Biodiversidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P22",
+              "factKey": "atol-rocas-F22",
+              "text": "A categoria e o manejo priorizam proteção e pesquisa autorizada, sem visitação turística pública.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P23",
+              "factKey": "atol-rocas-F23",
+              "text": "A proteção integral permite a realização de pesquisas conforme as regras da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P24",
+              "factKey": "atol-rocas-F24",
+              "text": "A UNESCO inscreveu a reserva em conjunto com áreas de Fernando de Noronha em 2001.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "atol-rocas-geografo-P25",
+              "factKey": "atol-rocas-F25",
+              "text": "O reconhecimento patrimonial é seriado e envolve duas áreas protegidas oceânicas distintas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "ROCAS_ICM",
+                "ROCAS_PM",
+                "ROCAS_UNESCO",
+                "ROCAS_JBRJ"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Reserva biológica oceânica no Atlântico Sul, a oeste de Fernando de Noronha, com recifes, ilhas e áreas de reprodução de tartarugas.",
+        "editorialNotes": [
+          "O conjunto é distinto de Fernando de Noronha, apesar do reconhecimento conjunto pela UNESCO. Visitação pública não é permitida.",
+          "Fonte institucional vinculada; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

@@ -41,6 +41,13 @@
       "publisher": "Prefeitura de Cuiabá",
       "url": "https://www.cuiaba.mt.gov.br/noticias/prefeitura-de-cuiaba-reforca-apoio-institucional-a-festa-de-sao-benedito",
       "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CUI_CORREGOS": {
+      "id": "CENTRO_CUI_CORREGOS",
+      "title": "Perfil socioeconômico de Cuiabá: cursos de água",
+      "publisher": "Prefeitura Municipal de Cuiabá",
+      "url": "https://www.cuiaba.mt.gov.br/upload/arquivo/perfil_socioeconomico_de_cuiaba_Vol_III.pdf",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -167,15 +174,15 @@
             },
             {
               "id": "C3-O2",
-              "text": "Rio Ipiranga"
+              "text": "Córrego do Barbado"
             },
             {
               "id": "C3-O3",
-              "text": "Rio das Almas"
+              "text": "Córrego do Moinho"
             },
             {
               "id": "C3-O4",
-              "text": "Rio Vermelho"
+              "text": "Córrego Mané Pinto"
             }
           ],
           "answerId": "C3-O1",
@@ -184,7 +191,8 @@
             "CENTRO_CUI_IPHAN",
             "CENTRO_CUI_CULTURA",
             "CENTRO_CUI_MUN",
-            "CENTRO_CUI_MUSEU"
+            "CENTRO_CUI_MUSEU",
+            "CENTRO_CUI_CORREGOS"
           ]
         },
         {
@@ -274,9 +282,9 @@
                 "CENTRO_CUI_MUSEU"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -757,9 +765,9 @@
                 "CENTRO_CUI_MUSEU"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {

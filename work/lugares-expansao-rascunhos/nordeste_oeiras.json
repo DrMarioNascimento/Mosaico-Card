@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "OEIRAS_IPHAN": {
+      "id": "OEIRAS_IPHAN",
+      "title": "Patrimônio Material — Piauí",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/piaui/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "OEIRAS_IBGE": {
+      "id": "OEIRAS_IBGE",
+      "title": "Cidades e Estados — Oeiras",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/pi/oeiras.html",
+      "checkedAt": "2026-11-14"
+    },
+    "OEIRAS_PREF": {
+      "id": "OEIRAS_PREF",
+      "title": "História do município",
+      "publisher": "Prefeitura Municipal de Oeiras",
+      "url": "https://oeiras.pi.gov.br/oeiras/informacoesgerais/municipio?tipo=historia",
+      "checkedAt": "2026-11-14"
+    },
+    "OEIRAS_TUR": {
+      "id": "OEIRAS_TUR",
+      "title": "Turismo e centro histórico",
+      "publisher": "Prefeitura Municipal de Oeiras",
+      "url": "https://www.oeiras.pi.gov.br/oeiras/informacoesgerais/municipio/?tipo=turismo",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-centro-oeiras",
+      "placeId": "centro-oeiras",
+      "title": "Centro Histórico de Oeiras",
+      "aliases": [
+        "Oeiras"
+      ],
+      "answerType": "centro histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto histórico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Centro Histórico de Oeiras"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Penedo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de São Luís"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Piranhas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Marechal Deodoro"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Ouro Preto"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Paraty"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Goiás"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Évora"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Centro Histórico de Oeiras",
+          "sources": [
+            "OEIRAS_IPHAN",
+            "OEIRAS_IBGE",
+            "OEIRAS_PREF",
+            "OEIRAS_TUR"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Antiga função administrativa",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Primeira capital do Piauí"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Primeira capital de Alagoas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Capital do Grão-Pará"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Primeira capital federal do Brasil"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Primeira capital do Piauí",
+          "sources": [
+            "OEIRAS_IPHAN",
+            "OEIRAS_IBGE",
+            "OEIRAS_PREF",
+            "OEIRAS_TUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Curso de água ligado à origem urbana",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Riacho Mocha"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Rio Capibaribe"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rio São Francisco"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rio Paraíba do Sul"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Riacho Mocha",
+          "sources": [
+            "OEIRAS_IPHAN",
+            "OEIRAS_IBGE",
+            "OEIRAS_PREF",
+            "OEIRAS_TUR"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Piauí",
+          "sources": [
+            "OEIRAS_IPHAN",
+            "OEIRAS_IBGE",
+            "OEIRAS_PREF",
+            "OEIRAS_TUR"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "centro-oeiras-viajante-P01",
+              "factKey": "centro-oeiras-F01",
+              "text": "O destino é um centro histórico do Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P02",
+              "factKey": "centro-oeiras-F02",
+              "text": "Fica no estado do Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P03",
+              "factKey": "centro-oeiras-F03",
+              "text": "A cidade foi a primeira capital do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P04",
+              "factKey": "centro-oeiras-F04",
+              "text": "Em 1852 a capital foi transferida para outra cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P05",
+              "factKey": "centro-oeiras-F05",
+              "text": "O município tinha 38.161 habitantes no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P06",
+              "factKey": "centro-oeiras-F06",
+              "text": "O centro histórico foi tombado pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P07",
+              "factKey": "centro-oeiras-F07",
+              "text": "O tombamento do centro histórico ocorreu em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P08",
+              "factKey": "centro-oeiras-F08",
+              "text": "O núcleo urbano cresceu perto do riacho Mocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P09",
+              "factKey": "centro-oeiras-F09",
+              "text": "O antigo povoado também foi conhecido como Vila da Mocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P10",
+              "factKey": "centro-oeiras-F10",
+              "text": "O povoado tornou-se vila em 1712.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P11",
+              "factKey": "centro-oeiras-F11",
+              "text": "A vila tornou-se cidade em 1761.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P12",
+              "factKey": "centro-oeiras-F12",
+              "text": "A antiga matriz é dedicada a Nossa Senhora da Vitória.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P13",
+              "factKey": "centro-oeiras-F13",
+              "text": "O Iphan registra a construção da matriz em 1733.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P14",
+              "factKey": "centro-oeiras-F14",
+              "text": "Uma ponte histórica é chamada Ponte Grande.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P15",
+              "factKey": "centro-oeiras-F15",
+              "text": "A Ponte Grande foi construída sobre o riacho Mocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P16",
+              "factKey": "centro-oeiras-F16",
+              "text": "O Iphan data a ponte de 1846.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P17",
+              "factKey": "centro-oeiras-F17",
+              "text": "O Sobrado Nepomuceno integra o patrimônio local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P18",
+              "factKey": "centro-oeiras-F18",
+              "text": "O sobrado abrigou diferentes instituições ao longo do tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P19",
+              "factKey": "centro-oeiras-F19",
+              "text": "O Sobrado Nepomuceno também abrigou um museu de arte sacra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P20",
+              "factKey": "centro-oeiras-F20",
+              "text": "Casarões, igrejas e praças formam parte da paisagem antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P21",
+              "factKey": "centro-oeiras-F21",
+              "text": "A Semana Santa reúne celebrações tradicionais na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P22",
+              "factKey": "centro-oeiras-F22",
+              "text": "A Procissão do Fogaréu é uma dessas tradições.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P23",
+              "factKey": "centro-oeiras-F23",
+              "text": "Há grupos culturais de Congos e Reisado na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P24",
+              "factKey": "centro-oeiras-F24",
+              "text": "O Cine Teatro é um dos espaços culturais históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-viajante-P25",
+              "factKey": "centro-oeiras-F25",
+              "text": "O município foi reconhecido como Monumento Nacional em 1989.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "centro-oeiras-geografo-P01",
+              "factKey": "centro-oeiras-F01",
+              "text": "A carta representa um conjunto urbano histórico do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P02",
+              "factKey": "centro-oeiras-F02",
+              "text": "O bem patrimonial está situado no território piauiense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P03",
+              "factKey": "centro-oeiras-F03",
+              "text": "O núcleo urbano desempenhou historicamente a função de primeira capital do Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P04",
+              "factKey": "centro-oeiras-F04",
+              "text": "A transferência da capital para Teresina em 1852 alterou a função administrativa do antigo núcleo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P05",
+              "factKey": "centro-oeiras-F05",
+              "text": "O IBGE registrou 38.161 residentes no município em 2022, não apenas no centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P06",
+              "factKey": "centro-oeiras-F06",
+              "text": "O conjunto urbano recebeu proteção federal por seu valor histórico e arquitetônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P07",
+              "factKey": "centro-oeiras-F07",
+              "text": "A proteção federal do conjunto urbano foi registrada em 2012.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P08",
+              "factKey": "centro-oeiras-F08",
+              "text": "A implantação do antigo núcleo relaciona-se às margens do riacho Mocha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P09",
+              "factKey": "centro-oeiras-F09",
+              "text": "A antiga designação urbana remetia ao curso de água junto ao qual o núcleo se desenvolveu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P10",
+              "factKey": "centro-oeiras-F10",
+              "text": "A elevação do povoado à condição de vila ocorreu em 1712.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P11",
+              "factKey": "centro-oeiras-F11",
+              "text": "A elevação à categoria de cidade ocorreu em 1761.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P12",
+              "factKey": "centro-oeiras-F12",
+              "text": "A Matriz de Nossa Senhora da Vitória integra a formação do conjunto religioso e urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P13",
+              "factKey": "centro-oeiras-F13",
+              "text": "A construção da antiga matriz data de 1733 segundo o Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P14",
+              "factKey": "centro-oeiras-F14",
+              "text": "A Ponte Grande compõe o patrimônio edificado ligado à travessia do riacho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P15",
+              "factKey": "centro-oeiras-F15",
+              "text": "A localização da ponte evidencia a relação entre a malha urbana e o riacho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P16",
+              "factKey": "centro-oeiras-F16",
+              "text": "A construção da Ponte Grande é situada pelo Iphan em 1846.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P17",
+              "factKey": "centro-oeiras-F17",
+              "text": "O Sobrado Nepomuceno é um exemplar de arquitetura civil protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P18",
+              "factKey": "centro-oeiras-F18",
+              "text": "Os usos sucessivos do sobrado incluíram Câmara, Tribunal do Júri, escola e sede do bispado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P19",
+              "factKey": "centro-oeiras-F19",
+              "text": "O uso museológico do sobrado está ligado à preservação de acervo religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P20",
+              "factKey": "centro-oeiras-F20",
+              "text": "A paisagem histórica combina arquitetura civil, edifícios religiosos e espaços públicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P21",
+              "factKey": "centro-oeiras-F21",
+              "text": "Celebrações da Semana Santa mantêm usos culturais no espaço urbano histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P22",
+              "factKey": "centro-oeiras-F22",
+              "text": "A Procissão do Fogaréu é uma manifestação cultural vinculada ao calendário religioso local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P23",
+              "factKey": "centro-oeiras-F23",
+              "text": "Os Congos e o Reisado integram a diversidade de práticas culturais locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P24",
+              "factKey": "centro-oeiras-F24",
+              "text": "O Cine Teatro integra o conjunto de equipamentos culturais urbanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-oeiras-geografo-P25",
+              "factKey": "centro-oeiras-F25",
+              "text": "O reconhecimento como Monumento Nacional em 1989 destaca seu valor histórico e cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "OEIRAS_IPHAN",
+                "OEIRAS_IBGE",
+                "OEIRAS_PREF",
+                "OEIRAS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Centro histórico da primeira capital do Piauí, desenvolvido próximo ao riacho Mocha.",
+        "editorialNotes": [
+          "A população é municipal, do Censo 2022 do IBGE; outra página consultada apresenta número divergente e não é usada para o dado.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

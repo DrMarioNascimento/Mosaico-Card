@@ -1,0 +1,1030 @@
+{
+  "sources": {
+    "BALNEARIOHIST": {
+      "id": "BALNEARIOHIST",
+      "title": "Diagnóstico histórico e urbanização municipal",
+      "publisher": "Prefeitura de Balneário Camboriú",
+      "url": "https://www.bc.sc.gov.br/arquivos/conteudo_downloads/HX8HT2CA.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "BALNEARIOTUR": {
+      "id": "BALNEARIOTUR",
+      "title": "Caracterização do município e pontos turísticos",
+      "publisher": "Prefeitura de Balneário Camboriú",
+      "url": "https://www.bc.sc.gov.br/arquivos/licitacao/BH4AH8VE.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "BALNEARIOPLANO": {
+      "id": "BALNEARIOPLANO",
+      "title": "Plano Municipal de Turismo",
+      "publisher": "Prefeitura de Balneário Camboriú",
+      "url": "https://www.bc.sc.gov.br/arquivos/conteudo_downloads/RY8PG8NB.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "BALNEARIODEMOG": {
+      "id": "BALNEARIODEMOG",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sc/balneario-camboriu.html",
+      "checkedAt": "2026-11-14"
+    },
+    "BALNEARIOQUILOMBO": {
+      "id": "BALNEARIOQUILOMBO",
+      "title": "Exposição A Rua dos Pretos",
+      "publisher": "Prefeitura de Balneário Camboriú",
+      "url": "https://www.bc.sc.gov.br/noticia/44734",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-balneario-camboriu",
+      "placeId": "balneario-camboriu",
+      "title": "Balneário Camboriú",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Balneário Camboriú"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Itajaí"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Balneário Piçarras"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Porto Belo"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Itapema"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Bombinhas"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Navegantes"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Penha"
+            },
+            {
+              "id": "C1-O10",
+              "text": "São Francisco do Sul"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Guaratuba"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Matinhos"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Balneário Camboriú",
+          "sources": [
+            "BALNEARIODEMOG"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio que deságua na Barra Sul",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rio Camboriú"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Rio Itajaí-Açu"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Rio Tubarão"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Rio Cubatão"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rio Camboriú",
+          "sources": [
+            "BALNEARIOPLANO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Transporte turístico do parque local",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Bondinhos aéreos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Bonde histórico sobre trilhos"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Barcos do porto fluvial"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Trens subterrâneos"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Bondinhos aéreos",
+          "sources": [
+            "BALNEARIOPLANO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "BALNEARIODEMOG"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "balneario-camboriu-viajante-P01",
+              "factKey": "balneario-camboriu-viajante-F01",
+              "text": "O destino é uma cidade costeira do Sul brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P02",
+              "factKey": "balneario-camboriu-viajante-F02",
+              "text": "Fica no estado de Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIODEMOG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P03",
+              "factKey": "balneario-camboriu-viajante-F03",
+              "text": "A cidade tem praias voltadas para o Oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P04",
+              "factKey": "balneario-camboriu-viajante-F04",
+              "text": "Sua Praia Central é um espaço de lazer urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P05",
+              "factKey": "balneario-camboriu-viajante-F05",
+              "text": "O Rio Camboriú deságua junto à Barra Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P06",
+              "factKey": "balneario-camboriu-viajante-F06",
+              "text": "Uma passarela liga regiões próximas à foz do rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P07",
+              "factKey": "balneario-camboriu-viajante-F07",
+              "text": "O Parque Unipraias tem bondinhos aéreos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P08",
+              "factKey": "balneario-camboriu-viajante-F08",
+              "text": "O passeio do bondinho passa por uma estação em um morro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P09",
+              "factKey": "balneario-camboriu-viajante-F09",
+              "text": "A Praia de Laranjeiras está entre os destinos turísticos locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P10",
+              "factKey": "balneario-camboriu-viajante-F10",
+              "text": "A Praia do Estaleiro também está no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P11",
+              "factKey": "balneario-camboriu-viajante-F11",
+              "text": "Estaleirinho é outra praia mencionada pela prefeitura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P12",
+              "factKey": "balneario-camboriu-viajante-F12",
+              "text": "O município tem uma praia chamada Taquaras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P13",
+              "factKey": "balneario-camboriu-viajante-F13",
+              "text": "Taquarinhas é outra faixa de praia da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P14",
+              "factKey": "balneario-camboriu-viajante-F14",
+              "text": "O Morro do Careca é um dos pontos turísticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P15",
+              "factKey": "balneario-camboriu-viajante-F15",
+              "text": "O complexo Cristo Luz é uma atração citada pela prefeitura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P16",
+              "factKey": "balneario-camboriu-viajante-F16",
+              "text": "A cidade possui uma roda-gigante entre seus atrativos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P17",
+              "factKey": "balneario-camboriu-viajante-F17",
+              "text": "O bairro da Barra tem importância para a história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P18",
+              "factKey": "balneario-camboriu-viajante-F18",
+              "text": "Famílias de agricultores e pescadores viveram nessa região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P19",
+              "factKey": "balneario-camboriu-viajante-F19",
+              "text": "A localidade foi distrito de um município vizinho antes da emancipação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P20",
+              "factKey": "balneario-camboriu-viajante-F20",
+              "text": "O município foi criado em 1964.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P21",
+              "factKey": "balneario-camboriu-viajante-F21",
+              "text": "Casas de veraneio foram construídas por moradores de Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P22",
+              "factKey": "balneario-camboriu-viajante-F22",
+              "text": "A pesca artesanal faz parte da história da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P23",
+              "factKey": "balneario-camboriu-viajante-F23",
+              "text": "Há uma comunidade quilombola no Morro do Boi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOQUILOMBO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P24",
+              "factKey": "balneario-camboriu-viajante-F24",
+              "text": "A Capela de Santo Amaro é citada entre os pontos de interesse.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-viajante-P25",
+              "factKey": "balneario-camboriu-viajante-F25",
+              "text": "A orla da cidade recebe visitantes no verão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "balneario-camboriu-geografo-P01",
+              "factKey": "balneario-camboriu-geografo-F01",
+              "text": "O município costeiro integra a faixa litorânea de Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIODEMOG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P02",
+              "factKey": "balneario-camboriu-geografo-F02",
+              "text": "Seu desenvolvimento turístico se relaciona à ocupação da orla marítima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P03",
+              "factKey": "balneario-camboriu-geografo-F03",
+              "text": "A Praia Central atraía veranistas de cidades do interior catarinense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P04",
+              "factKey": "balneario-camboriu-geografo-F04",
+              "text": "Parte dos primeiros proprietários de casas de veraneio vinha de Blumenau.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P05",
+              "factKey": "balneario-camboriu-geografo-F05",
+              "text": "Antes da emancipação, a localidade era distrito do município vizinho de Camboriú.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P06",
+              "factKey": "balneario-camboriu-geografo-F06",
+              "text": "O atual bairro da Barra se desenvolveu a partir de um núcleo de agricultores e pescadores.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P07",
+              "factKey": "balneario-camboriu-geografo-F07",
+              "text": "A criação do município autônomo ocorreu em 1964.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P08",
+              "factKey": "balneario-camboriu-geografo-F08",
+              "text": "O molhe da Barra Sul se localiza junto à foz do Rio Camboriú.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P09",
+              "factKey": "balneario-camboriu-geografo-F09",
+              "text": "Essa estrutura auxilia a navegação de embarcações e a pesca artesanal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P10",
+              "factKey": "balneario-camboriu-geografo-F10",
+              "text": "A costa municipal reúne praias urbanizadas e outras em setores mais afastados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P11",
+              "factKey": "balneario-camboriu-geografo-F11",
+              "text": "O parque de bondinhos liga praias e passa por uma estação no Morro da Aguada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P12",
+              "factKey": "balneario-camboriu-geografo-F12",
+              "text": "Laranjeiras é uma das praias que integram os roteiros turísticos locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P13",
+              "factKey": "balneario-camboriu-geografo-F13",
+              "text": "Estaleiro e Estaleirinho estão entre as praias mencionadas no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P14",
+              "factKey": "balneario-camboriu-geografo-F14",
+              "text": "O Morro do Careca é usado como referência da paisagem turística.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P15",
+              "factKey": "balneario-camboriu-geografo-F15",
+              "text": "A área urbana recebe fluxos sazonais de visitantes no verão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOHIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P16",
+              "factKey": "balneario-camboriu-geografo-F16",
+              "text": "A atividade turística passou a ser impulsionada a partir da década de 1960.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P17",
+              "factKey": "balneario-camboriu-geografo-F17",
+              "text": "A orla concentra instalações e serviços voltados à visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P18",
+              "factKey": "balneario-camboriu-geografo-F18",
+              "text": "No Censo de 2022, o IBGE registrou cerca de 139 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIODEMOG"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P19",
+              "factKey": "balneario-camboriu-geografo-F19",
+              "text": "A presença de uma comunidade quilombola no Morro do Boi integra a formação histórica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOQUILOMBO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P20",
+              "factKey": "balneario-camboriu-geografo-F20",
+              "text": "O acervo cultural local inclui referências à Capela de Santo Amaro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P21",
+              "factKey": "balneario-camboriu-geografo-F21",
+              "text": "Taquaras e Taquarinhas são praias distintas no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P22",
+              "factKey": "balneario-camboriu-geografo-F22",
+              "text": "A visitação pode articular praias, mirantes e transporte por bondinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P23",
+              "factKey": "balneario-camboriu-geografo-F23",
+              "text": "A Barra Sul e o Pontal Norte são setores de uma paisagem costeira urbanizada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P24",
+              "factKey": "balneario-camboriu-geografo-F24",
+              "text": "A atividade pesqueira permanece uma referência cultural da área da foz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "balneario-camboriu-geografo-P25",
+              "factKey": "balneario-camboriu-geografo-F25",
+              "text": "Os cursos fluviais e a baía integram a organização territorial da cidade litorânea.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BALNEARIOPLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade do litoral catarinense com praia urbana, foz do Rio Camboriú e atividades turísticas.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

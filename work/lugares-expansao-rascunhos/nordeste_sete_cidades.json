@@ -1,0 +1,1066 @@
+{
+  "sources": {
+    "SETECIDADES_ICM": {
+      "id": "SETECIDADES_ICM",
+      "title": "Caracterização do Parque Nacional de Sete Cidades e visitação",
+      "publisher": "ICMBio",
+      "url": "https://www.gov.br/icmbio/pt-br/centrais-de-conteudo/publicacoes/editais-diversos/editais-diversos-2024-1/MinutaAnexoFCARACTERIZAODAREAEINFRAESTRUTURAASSOCIADASAOSSERVIOS.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SETECIDADES_IPHAN": {
+      "id": "SETECIDADES_IPHAN",
+      "title": "Patrimônio Material — Piauí",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/piaui/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-sete-cidades",
+      "placeId": "parque-sete-cidades",
+      "title": "Parque Nacional de Sete Cidades",
+      "aliases": [
+        "Sete Cidades"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional de Sete Cidades"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional do Catimbau"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra das Confusões"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional do Ubajara"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional da Serra de Itabaiana"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Itatiaia"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional do Boqueirão da Onça"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional de Jericoacoara"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional de Sete Cidades",
+          "sources": [
+            "SETECIDADES_ICM",
+            "SETECIDADES_IPHAN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Patrimônio cultural destacado pelo ICMBio",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Sítios com pinturas rupestres"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Ruínas de engenhos coloniais"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Aldeamentos missioneiros em pedra"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Sambaquis de conchas litorâneos"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Sítios com pinturas rupestres",
+          "sources": [
+            "SETECIDADES_ICM",
+            "SETECIDADES_IPHAN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Forças associadas à formação do relevo",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Água e vento"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Geleiras e avalanches"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Correntes e marés"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Lava e atividade vulcânica"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Água e vento",
+          "sources": [
+            "SETECIDADES_ICM",
+            "SETECIDADES_IPHAN"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Piauí"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Sergipe"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Ceará"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Piauí",
+          "sources": [
+            "SETECIDADES_ICM",
+            "SETECIDADES_IPHAN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-sete-cidades-viajante-P01",
+              "factKey": "parque-sete-cidades-F01",
+              "text": "O destino é uma unidade de proteção no Nordeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P02",
+              "factKey": "parque-sete-cidades-F02",
+              "text": "É um parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P03",
+              "factKey": "parque-sete-cidades-F03",
+              "text": "Fica no Piauí.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P04",
+              "factKey": "parque-sete-cidades-F04",
+              "text": "O parque foi criado em 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P05",
+              "factKey": "parque-sete-cidades-F05",
+              "text": "A paisagem é marcada por formações rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P06",
+              "factKey": "parque-sete-cidades-F06",
+              "text": "A água ajudou a esculpir as rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P07",
+              "factKey": "parque-sete-cidades-F07",
+              "text": "O vento também participou da formação das paisagens.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P08",
+              "factKey": "parque-sete-cidades-F08",
+              "text": "Algumas rochas lembram figuras e animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P09",
+              "factKey": "parque-sete-cidades-F09",
+              "text": "Uma formação é conhecida como Pedra da Tartaruga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P10",
+              "factKey": "parque-sete-cidades-F10",
+              "text": "Existem vestígios de pessoas que viveram há muito tempo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P11",
+              "factKey": "parque-sete-cidades-F11",
+              "text": "Algumas paredes têm pinturas rupestres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P12",
+              "factKey": "parque-sete-cidades-F12",
+              "text": "O Iphan menciona inscrições no chamado Salão do Pajé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P13",
+              "factKey": "parque-sete-cidades-F13",
+              "text": "Há uma piscina natural conhecida como Piscina dos Milagres.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P14",
+              "factKey": "parque-sete-cidades-F14",
+              "text": "Há nascentes de água na área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P15",
+              "factKey": "parque-sete-cidades-F15",
+              "text": "Existe uma cachoeira chamada Riachão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P16",
+              "factKey": "parque-sete-cidades-F16",
+              "text": "O parque também abriga aves como seriema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P17",
+              "factKey": "parque-sete-cidades-F17",
+              "text": "Papagaios estão entre as aves mencionadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P18",
+              "factKey": "parque-sete-cidades-F18",
+              "text": "A fauna inclui o tatu-peba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P19",
+              "factKey": "parque-sete-cidades-F19",
+              "text": "O mocó também é citado entre os animais do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P20",
+              "factKey": "parque-sete-cidades-F20",
+              "text": "A jaguatirica é um dos animais mencionados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P21",
+              "factKey": "parque-sete-cidades-F21",
+              "text": "Parte do parque fica no município de Piracuruca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P22",
+              "factKey": "parque-sete-cidades-F22",
+              "text": "O município de Brasileira também abriga parte da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P23",
+              "factKey": "parque-sete-cidades-F23",
+              "text": "Há duas entradas chamadas portarias Norte e Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P24",
+              "factKey": "parque-sete-cidades-F24",
+              "text": "Uma trilha conecta a região a outro parque da Serra da Ibiapaba.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-viajante-P25",
+              "factKey": "parque-sete-cidades-F25",
+              "text": "Sítios arqueológicos e formações naturais podem ser conhecidos em circuitos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-sete-cidades-geografo-P01",
+              "factKey": "parque-sete-cidades-F01",
+              "text": "O sítio é uma unidade federal de conservação localizada no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P02",
+              "factKey": "parque-sete-cidades-F02",
+              "text": "Sua categoria de unidade de conservação é parque nacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P03",
+              "factKey": "parque-sete-cidades-F03",
+              "text": "A unidade situa-se no território piauiense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P04",
+              "factKey": "parque-sete-cidades-F04",
+              "text": "O decreto federal que instituiu a unidade data de 1961.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P05",
+              "factKey": "parque-sete-cidades-F05",
+              "text": "Conjuntos rochosos constituem um dos principais valores geomorfológicos da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P06",
+              "factKey": "parque-sete-cidades-F06",
+              "text": "A ação da água está entre os processos de modelagem das formas rochosas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P07",
+              "factKey": "parque-sete-cidades-F07",
+              "text": "A erosão eólica também contribuiu para o modelado das rochas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P08",
+              "factKey": "parque-sete-cidades-F08",
+              "text": "Formas esculpidas pela erosão são interpretadas pelos visitantes como figuras e animais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P09",
+              "factKey": "parque-sete-cidades-F09",
+              "text": "A Pedra da Tartaruga é uma feição rochosa destacada em circuitos de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P10",
+              "factKey": "parque-sete-cidades-F10",
+              "text": "Os sítios arqueológicos registram presença humana anterior à colonização.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P11",
+              "factKey": "parque-sete-cidades-F11",
+              "text": "Pinturas rupestres conservadas em rochas integram o patrimônio arqueológico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P12",
+              "factKey": "parque-sete-cidades-F12",
+              "text": "O Salão do Pajé é um sítio com inscrições rupestres mencionado pelo Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P13",
+              "factKey": "parque-sete-cidades-F13",
+              "text": "A Piscina dos Milagres relaciona-se a uma das nascentes identificadas na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P14",
+              "factKey": "parque-sete-cidades-F14",
+              "text": "As nascentes contribuem para a presença de ambientes aquáticos no parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P15",
+              "factKey": "parque-sete-cidades-F15",
+              "text": "A Cachoeira do Riachão é uma feição associada à rede de drenagem local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P16",
+              "factKey": "parque-sete-cidades-F16",
+              "text": "A avifauna citada pelo órgão gestor inclui a seriema.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P17",
+              "factKey": "parque-sete-cidades-F17",
+              "text": "Papagaios aparecem entre as aves listadas para a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P18",
+              "factKey": "parque-sete-cidades-F18",
+              "text": "O tatu-peba é citado entre os mamíferos presentes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P19",
+              "factKey": "parque-sete-cidades-F19",
+              "text": "A fauna inclui o mocó, mamífero associado a ambientes rochosos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P20",
+              "factKey": "parque-sete-cidades-F20",
+              "text": "A jaguatirica consta da fauna apresentada pelo órgão gestor.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P21",
+              "factKey": "parque-sete-cidades-F21",
+              "text": "A distribuição territorial da unidade alcança o município de Piracuruca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P22",
+              "factKey": "parque-sete-cidades-F22",
+              "text": "A unidade se estende também ao município de Brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P23",
+              "factKey": "parque-sete-cidades-F23",
+              "text": "As portarias Norte e Sul organizam acessos à unidade por municípios distintos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P24",
+              "factKey": "parque-sete-cidades-F24",
+              "text": "A Trilha Caminhos da Ibiapaba conecta essa unidade ao Parque Nacional de Ubajara.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-sete-cidades-geografo-P25",
+              "factKey": "parque-sete-cidades-F25",
+              "text": "Circuitos de visitação articulam patrimônio geomorfológico, arqueologia e educação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SETECIDADES_ICM",
+                "SETECIDADES_IPHAN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque nacional no Piauí com conjuntos de formações rochosas e sítios com arte rupestre.",
+        "editorialNotes": [
+          "O nome da unidade refere-se a conjuntos de formações rochosas; não a sete cidades habitadas.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

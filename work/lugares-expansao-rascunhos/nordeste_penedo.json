@@ -1,0 +1,1127 @@
+{
+  "sources": {
+    "PENEDO_IPHAN": {
+      "id": "PENEDO_IPHAN",
+      "title": "Penedo (AL) — conjunto urbano tombado",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-material/bens-tombados/conjuntos-urbanos-tombados-cidades-historicas/nordeste/penedo-al",
+      "checkedAt": "2026-11-14"
+    },
+    "PENEDO_IBGE": {
+      "id": "PENEDO_IBGE",
+      "title": "Cidades e Estados — Penedo",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/al/penedo.html",
+      "checkedAt": "2026-11-14"
+    },
+    "PENEDO_NORDESTE": {
+      "id": "PENEDO_NORDESTE",
+      "title": "Cidades históricas do Nordeste",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/patrimonio-cultural/patrimonio-material/bens-tombados/conjuntos-urbanos-tombados-cidades-historicas/nordeste",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-centro-penedo",
+      "placeId": "centro-penedo",
+      "title": "Centro Histórico de Penedo",
+      "aliases": [
+        "Penedo"
+      ],
+      "answerType": "centro histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Conjunto histórico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Centro Histórico de Penedo"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Centro Histórico de São Luís"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Centro Histórico de Oeiras"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Centro Histórico de Piranhas"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Centro Histórico de Marechal Deodoro"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Centro Histórico de Salvador"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Ouro Preto"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Centro Histórico de Paraty"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Centro Histórico de Diamantina"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Centro Histórico de Goiás"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Centro Histórico de Évora"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Centro Histórico de Penedo",
+          "sources": [
+            "PENEDO_IPHAN",
+            "PENEDO_IBGE",
+            "PENEDO_NORDESTE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Rio junto ao conjunto",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "São Francisco"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Parnaíba"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Capibaribe"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Paraíba do Sul"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "São Francisco",
+          "sources": [
+            "PENEDO_IPHAN",
+            "PENEDO_IBGE",
+            "PENEDO_NORDESTE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Igreja do conjunto",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Nossa Senhora da Corrente"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Nossa Senhora da Vitória"
+            },
+            {
+              "id": "C3-O3",
+              "text": "São Francisco de Assis da Penitência"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Nossa Senhora do Carmo de Piracuruca"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Nossa Senhora da Corrente",
+          "sources": [
+            "PENEDO_IPHAN",
+            "PENEDO_IBGE",
+            "PENEDO_NORDESTE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Sergipe"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Bahia"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Alagoas",
+          "sources": [
+            "PENEDO_IPHAN",
+            "PENEDO_IBGE",
+            "PENEDO_NORDESTE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "centro-penedo-viajante-P01",
+              "factKey": "centro-penedo-F01",
+              "text": "O destino é um conjunto histórico no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P02",
+              "factKey": "centro-penedo-F02",
+              "text": "Fica no estado de Alagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P03",
+              "factKey": "centro-penedo-F03",
+              "text": "O núcleo antigo está junto a um rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P04",
+              "factKey": "centro-penedo-F04",
+              "text": "O rio que acompanha a cidade é o São Francisco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P05",
+              "factKey": "centro-penedo-F05",
+              "text": "Parte da cidade foi construída sobre um rochedo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P06",
+              "factKey": "centro-penedo-F06",
+              "text": "O município tinha 58.650 habitantes no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P07",
+              "factKey": "centro-penedo-F07",
+              "text": "O Iphan tombou o conjunto histórico e paisagístico em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P08",
+              "factKey": "centro-penedo-F08",
+              "text": "A área protegida reúne ruas, praças e edifícios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P09",
+              "factKey": "centro-penedo-F09",
+              "text": "O conjunto inclui igrejas e um convento.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P10",
+              "factKey": "centro-penedo-F10",
+              "text": "Um dos edifícios é a Igreja de Nossa Senhora da Corrente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P11",
+              "factKey": "centro-penedo-F11",
+              "text": "Essa igreja tem painéis de azulejos de fabricação lisboeta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P12",
+              "factKey": "centro-penedo-F12",
+              "text": "A decoração da Igreja da Corrente inclui retábulos neoclássicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P13",
+              "factKey": "centro-penedo-F13",
+              "text": "Outra igreja é dedicada a São Gonçalo Garcia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P14",
+              "factKey": "centro-penedo-F14",
+              "text": "A igreja de São Gonçalo Garcia possui detalhes em pedra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P15",
+              "factKey": "centro-penedo-F15",
+              "text": "Um convento da cidade foi fundado por franciscanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P16",
+              "factKey": "centro-penedo-F16",
+              "text": "O primeiro convento foi fundado em 1661.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P17",
+              "factKey": "centro-penedo-F17",
+              "text": "As obras do novo convento começaram em 1682.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P18",
+              "factKey": "centro-penedo-F18",
+              "text": "As obras do convento continuaram até 1694.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P19",
+              "factKey": "centro-penedo-F19",
+              "text": "Há exemplos de arquitetura barroca no conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P20",
+              "factKey": "centro-penedo-F20",
+              "text": "O interior do convento tem trabalhos de talha do século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P21",
+              "factKey": "centro-penedo-F21",
+              "text": "Há também construções neoclássicas na cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P22",
+              "factKey": "centro-penedo-F22",
+              "text": "Um antigo hotel dos anos 1960 é exemplo de arquitetura moderna.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P23",
+              "factKey": "centro-penedo-F23",
+              "text": "A navegação pelo rio ajudou a integrar a cidade à região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P24",
+              "factKey": "centro-penedo-F24",
+              "text": "O povoado foi elevado à condição de vila em 1636.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-viajante-P25",
+              "factKey": "centro-penedo-F25",
+              "text": "A localidade tornou-se cidade em 1842.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "centro-penedo-geografo-P01",
+              "factKey": "centro-penedo-F01",
+              "text": "A carta representa um conjunto histórico e paisagístico no Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P02",
+              "factKey": "centro-penedo-F02",
+              "text": "O bem protegido situa-se no território alagoano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P03",
+              "factKey": "centro-penedo-F03",
+              "text": "A implantação urbana histórica relaciona-se à margem de um grande rio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P04",
+              "factKey": "centro-penedo-F04",
+              "text": "O conjunto protegido ocupa área junto à margem esquerda do São Francisco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P05",
+              "factKey": "centro-penedo-F05",
+              "text": "O sítio urbano se ergue sobre um rochedo ao lado do curso fluvial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P06",
+              "factKey": "centro-penedo-F06",
+              "text": "Segundo o IBGE, a população do município era de 58.650 habitantes no Censo 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P07",
+              "factKey": "centro-penedo-F07",
+              "text": "O reconhecimento federal do conjunto histórico e paisagístico ocorreu em 1996.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P08",
+              "factKey": "centro-penedo-F08",
+              "text": "A proteção patrimonial abrange logradouros públicos e edificações de diferentes épocas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P09",
+              "factKey": "centro-penedo-F09",
+              "text": "A arquitetura religiosa integra o patrimônio construído do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P10",
+              "factKey": "centro-penedo-F10",
+              "text": "A Igreja de Nossa Senhora da Corrente compõe a paisagem patrimonial do conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P11",
+              "factKey": "centro-penedo-F11",
+              "text": "A azulejaria da Igreja da Corrente apresenta painéis produzidos em Lisboa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P12",
+              "factKey": "centro-penedo-F12",
+              "text": "A presença de retábulos neoclássicos demonstra diversidade estilística no patrimônio religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P13",
+              "factKey": "centro-penedo-F13",
+              "text": "A Igreja de São Gonçalo Garcia integra a arquitetura religiosa protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P14",
+              "factKey": "centro-penedo-F14",
+              "text": "A fachada e o interior da igreja apresentam trabalho de cantaria.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P15",
+              "factKey": "centro-penedo-F15",
+              "text": "O convento de Santa Maria dos Anjos está associado à presença franciscana no território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P16",
+              "factKey": "centro-penedo-F16",
+              "text": "A fundação do primeiro convento franciscano remonta a 1661.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P17",
+              "factKey": "centro-penedo-F17",
+              "text": "A construção do novo edifício conventual começou em 1682.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P18",
+              "factKey": "centro-penedo-F18",
+              "text": "O período de obras do novo convento estendeu-se até 1694.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P19",
+              "factKey": "centro-penedo-F19",
+              "text": "A arquitetura religiosa conserva elementos associados ao barroco.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P20",
+              "factKey": "centro-penedo-F20",
+              "text": "A talha interna do convento inclui elementos rococós do século XVIII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P21",
+              "factKey": "centro-penedo-F21",
+              "text": "O conjunto urbano apresenta exemplares de arquitetura neoclássica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P22",
+              "factKey": "centro-penedo-F22",
+              "text": "A presença de um hotel da década de 1960 demonstra a diversidade temporal do conjunto urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P23",
+              "factKey": "centro-penedo-F23",
+              "text": "O transporte fluvial contribuiu para as relações econômicas e territoriais ao longo do vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P24",
+              "factKey": "centro-penedo-F24",
+              "text": "O núcleo colonial recebeu a categoria de vila em 1636.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "centro-penedo-geografo-P25",
+              "factKey": "centro-penedo-F25",
+              "text": "A elevação à categoria de cidade ocorreu em 1842.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "PENEDO_IPHAN",
+                "PENEDO_IBGE",
+                "PENEDO_NORDESTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Conjunto histórico protegido às margens do Rio São Francisco, no município alagoano de Penedo.",
+        "editorialNotes": [
+          "A população informada é a do município no Censo 2022, e não a do centro histórico. As fontes apresentam versões distintas para a fundação do povoado.",
+          "Fontes institucionais vinculadas; revisão de dificuldade e partidas pendentes."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

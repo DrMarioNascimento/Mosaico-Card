@@ -1,0 +1,1014 @@
+{
+  "sources": {
+    "SE_ITAUNAS_IEMA": {
+      "id": "SE_ITAUNAS_IEMA",
+      "title": "Parque Estadual de Itaúnas",
+      "publisher": "Instituto Estadual de Meio Ambiente do Espírito Santo",
+      "url": "https://iema.es.gov.br/pei",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_ITAUNAS_PLANO": {
+      "id": "SE_ITAUNAS_PLANO",
+      "title": "Plano de Manejo do Parque Estadual de Itaúnas",
+      "publisher": "IEMA",
+      "url": "https://iema.es.gov.br/Media/iema/Unidades%20de%20Conserva%C3%A7%C3%A3o/Plano%20de%20Manejo_PEI_2025-1.pdf",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-itaunas",
+      "placeId": "parque-itaunas",
+      "title": "Parque Estadual de Itaúnas",
+      "aliases": [
+        "Parque de Itaúnas",
+        "Itaúnas"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque estadual",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual de Itaúnas"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual Paulo César Vinha"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual da Pedra Azul"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual de Forno Grande"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual da Serra do Mar"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual da Ilha do Cardoso"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Estadual do Guartelá"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual do Desengano"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual do Rio Doce"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual de Itaúnas",
+          "sources": [
+            "SE_ITAUNAS_IEMA"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Município que abriga o parque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Conceição da Barra"
+            },
+            {
+              "id": "C2-O2",
+              "text": "São Mateus"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Linhares"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Anchieta"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Conceição da Barra",
+          "sources": [
+            "SE_ITAUNAS_IEMA"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Fenômeno ligado à antiga vila da região",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Soterramento pelo avanço das dunas"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Deslizamentos em encostas íngremes"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Submersão por construção de reservatório"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Erosão costeira e recuo da linha de praia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Soterramento pelo avanço das dunas",
+          "sources": [
+            "SE_ITAUNAS_IEMA"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano de criação como parque estadual",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1991"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1986"
+            },
+            {
+              "id": "C4-O3",
+              "text": "2002"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1974"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1991",
+          "sources": [
+            "SE_ITAUNAS_IEMA"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-itaunas-viajante-P01",
+              "factKey": "parque-itaunas-F01",
+              "text": "É uma área protegida no litoral brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P02",
+              "factKey": "parque-itaunas-F02",
+              "text": "A paisagem reúne faixas de areia e vegetação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P03",
+              "factKey": "parque-itaunas-F03",
+              "text": "Um rio atravessa a região protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P04",
+              "factKey": "parque-itaunas-F04",
+              "text": "Há dunas e praias nesse parque estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P05",
+              "factKey": "parque-itaunas-F05",
+              "text": "Florestas de restinga também fazem parte do destino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P06",
+              "factKey": "parque-itaunas-F06",
+              "text": "Manguezais crescem em ambientes influenciados pelas águas costeiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P07",
+              "factKey": "parque-itaunas-F07",
+              "text": "O parque fica no Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P08",
+              "factKey": "parque-itaunas-F08",
+              "text": "A unidade está no município de Conceição da Barra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P09",
+              "factKey": "parque-itaunas-F09",
+              "text": "Um riacho marca a proximidade da divisa com a Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P10",
+              "factKey": "parque-itaunas-F10",
+              "text": "A vegetação inclui floresta de tabuleiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P11",
+              "factKey": "parque-itaunas-F11",
+              "text": "A área protege também terrenos alagados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P12",
+              "factKey": "parque-itaunas-F12",
+              "text": "Uma antiga vila da região foi coberta pelo avanço das dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P13",
+              "factKey": "parque-itaunas-F13",
+              "text": "O deslocamento das areias modificou a vida dos moradores da vila antiga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P14",
+              "factKey": "parque-itaunas-F14",
+              "text": "A vegetação de restinga ajuda a reter areia em trechos costeiros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P15",
+              "factKey": "parque-itaunas-F15",
+              "text": "As dunas da região receberam proteção estadual em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P16",
+              "factKey": "parque-itaunas-F16",
+              "text": "O parque estadual foi criado em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P17",
+              "factKey": "parque-itaunas-F17",
+              "text": "Um naturalista propôs proteger a região ainda na década de 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P18",
+              "factKey": "parque-itaunas-F18",
+              "text": "Essa proposta inicial de proteção não chegou a ser consolidada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P19",
+              "factKey": "parque-itaunas-F19",
+              "text": "A região abriga sítios de reprodução de tartarugas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P20",
+              "factKey": "parque-itaunas-F20",
+              "text": "A planície do rio contém áreas que podem ficar inundadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P21",
+              "factKey": "parque-itaunas-F21",
+              "text": "Sítios arqueológicos são citados entre as riquezas locais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P22",
+              "factKey": "parque-itaunas-F22",
+              "text": "Trilhas permitem conhecer ambientes naturais e aspectos da história regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P23",
+              "factKey": "parque-itaunas-F23",
+              "text": "Há uma trilha chamada Tamandaré.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P24",
+              "factKey": "parque-itaunas-F24",
+              "text": "O Jongo e o Ticumbi integram manifestações culturais da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-viajante-P25",
+              "factKey": "parque-itaunas-F25",
+              "text": "Um festival de forró integra a vida cultural da vila próxima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-itaunas-geografo-P01",
+              "factKey": "parque-itaunas-F01",
+              "text": "O destino é uma unidade de conservação estadual situada em ambiente costeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P02",
+              "factKey": "parque-itaunas-F02",
+              "text": "A área reúne depósitos arenosos, praias e cobertura vegetal associada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P03",
+              "factKey": "parque-itaunas-F03",
+              "text": "O conjunto territorial incorpora o trecho final de um rio litorâneo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P04",
+              "factKey": "parque-itaunas-F04",
+              "text": "O parque protege um sistema de dunas junto ao oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P05",
+              "factKey": "parque-itaunas-F05",
+              "text": "A vegetação de restinga integra o mosaico protegido.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P06",
+              "factKey": "parque-itaunas-F06",
+              "text": "Os manguezais associam-se à interação entre águas continentais e marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P07",
+              "factKey": "parque-itaunas-F07",
+              "text": "A unidade está no litoral norte do Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P08",
+              "factKey": "parque-itaunas-F08",
+              "text": "Conceição da Barra é o município que abriga o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P09",
+              "factKey": "parque-itaunas-F09",
+              "text": "O limite norte alcança a foz de um riacho próximo à fronteira estadual com a Bahia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_PLANO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P10",
+              "factKey": "parque-itaunas-F10",
+              "text": "A floresta de tabuleiro integra as formações vegetais da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P11",
+              "factKey": "parque-itaunas-F11",
+              "text": "O mosaico ecológico inclui ambientes inundáveis além das dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P12",
+              "factKey": "parque-itaunas-F12",
+              "text": "O avanço das areias soterrou uma antiga vila existente na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P13",
+              "factKey": "parque-itaunas-F13",
+              "text": "A movimentação das dunas provocou o deslocamento de moradores para outra área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P14",
+              "factKey": "parque-itaunas-F14",
+              "text": "A vegetação costeira contribui para a estabilização de trechos arenosos; sua retirada pode favorecer o movimento das dunas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P15",
+              "factKey": "parque-itaunas-F15",
+              "text": "O Conselho Estadual de Cultura tombou as dunas como monumento natural em 1986.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P16",
+              "factKey": "parque-itaunas-F16",
+              "text": "O decreto estadual de criação da unidade foi publicado em 1991.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P17",
+              "factKey": "parque-itaunas-F17",
+              "text": "Uma proposta de proteção do naturalista Augusto Ruschi data da década de 1940.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P18",
+              "factKey": "parque-itaunas-F18",
+              "text": "A proposta inicial de reserva não foi implantada na época.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P19",
+              "factKey": "parque-itaunas-F19",
+              "text": "A área inclui locais importantes para reprodução de tartarugas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P20",
+              "factKey": "parque-itaunas-F20",
+              "text": "A planície de inundação fluvial sustenta áreas alagáveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P21",
+              "factKey": "parque-itaunas-F21",
+              "text": "A presença de sítios arqueológicos relaciona conservação ambiental e patrimônio cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P22",
+              "factKey": "parque-itaunas-F22",
+              "text": "Os roteiros interpretativos combinam observação ambiental e memória territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P23",
+              "factKey": "parque-itaunas-F23",
+              "text": "A Trilha do Tamandaré integra os percursos interpretativos da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P24",
+              "factKey": "parque-itaunas-F24",
+              "text": "Jongo e Ticumbi exemplificam manifestações culturais realizadas na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itaunas-geografo-P25",
+              "factKey": "parque-itaunas-F25",
+              "text": "O festival de forró da vila próxima associa lazer e dinâmica cultural regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_ITAUNAS_IEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque estadual do norte do Espírito Santo que protege dunas, restinga e outros ambientes costeiros.",
+        "editorialNotes": [
+          "O parque, a vila e o município são recortes diferentes; a antiga vila foi soterrada.",
+          "O texto evita confundir reserva da biosfera com Patrimônio Mundial.",
+          "Fontes institucionais consultadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

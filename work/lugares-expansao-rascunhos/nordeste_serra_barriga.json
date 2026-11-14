@@ -1,0 +1,1188 @@
+{
+  "sources": {
+    "BARRIGA_PALMARES": {
+      "id": "BARRIGA_PALMARES",
+      "title": "Parque Memorial Quilombo dos Palmares",
+      "publisher": "Fundação Cultural Palmares",
+      "url": "https://www.gov.br/palmares/pt-br/departamentos/protecao-preservacao-e-articulacao/serra-da-barriga-1/parque-memorial-quilombo-dos-palmares",
+      "checkedAt": "2026-11-14"
+    },
+    "BARRIGA_MDH": {
+      "id": "BARRIGA_MDH",
+      "title": "Quilombo dos Palmares — lugares de memória",
+      "publisher": "Ministério dos Direitos Humanos e da Cidadania",
+      "url": "https://www.gov.br/mdh/pt-br/navegue-por-temas/memoria-e-verdade-da-escravidao/acao/lugares-de-memoria/quilombo-dos-palmares",
+      "checkedAt": "2026-11-14"
+    },
+    "BARRIGA_MINC": {
+      "id": "BARRIGA_MINC",
+      "title": "Locais de memória da escravidão e da resistência negra",
+      "publisher": "Ministério da Cultura",
+      "url": "https://www.gov.br/cultura/pt-br/assuntos/noticias/unesco-reconhece-tres-locais-de-memoria-da-escravidao-e-da-resistencia-negra-no-brasil/",
+      "checkedAt": "2026-11-14"
+    },
+    "BARRIGA_IBGE": {
+      "id": "BARRIGA_IBGE",
+      "title": "Cidades e Estados — União dos Palmares",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/al/uniao-dos-palmares.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-serra-barriga",
+      "placeId": "serra-barriga",
+      "title": "Serra da Barriga",
+      "aliases": [
+        "Serra da Barriga"
+      ],
+      "answerType": "sítio histórico",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "nordeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Lugar histórico",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Serra da Barriga"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Cais do Valongo"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Sítio Histórico dos Pretos Novos"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional da Serra da Capivara"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Pedra do Ingá"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Sítio de São Miguel Arcanjo"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Sítio Roberto Burle Marx"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Centro Histórico de Olinda"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Cavernas do Peruaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Casa da Torre de Garcia d’Ávila"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Sítio Arqueológico do Morro da Queimada"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Serra do Roncador"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Serra da Barriga",
+          "sources": [
+            "BARRIGA_PALMARES",
+            "BARRIGA_MDH",
+            "BARRIGA_MINC",
+            "BARRIGA_IBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Experiência de resistência ligada ao lugar",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Quilombo dos Palmares"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Quilombo do Ambrósio"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Quilombo do Piolho"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Quilombo do Jabaquara"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Quilombo dos Palmares",
+          "sources": [
+            "BARRIGA_PALMARES",
+            "BARRIGA_MDH",
+            "BARRIGA_MINC",
+            "BARRIGA_IBGE"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Liderança cuja morte é lembrada em 20 de novembro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Zumbi"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Ganga-Zumba"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Dandara dos Palmares"
+            },
+            {
+              "id": "C3-O4",
+              "text": "João Cândido"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Zumbi",
+          "sources": [
+            "BARRIGA_PALMARES",
+            "BARRIGA_MDH",
+            "BARRIGA_MINC",
+            "BARRIGA_IBGE"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Alagoas"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Pernambuco"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Bahia"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Sergipe"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Alagoas",
+          "sources": [
+            "BARRIGA_PALMARES",
+            "BARRIGA_MDH",
+            "BARRIGA_MINC",
+            "BARRIGA_IBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "serra-barriga-viajante-P01",
+              "factKey": "serra-barriga-F01",
+              "text": "O destino é um lugar histórico do Nordeste brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P02",
+              "factKey": "serra-barriga-F02",
+              "text": "Fica no estado de Alagoas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P03",
+              "factKey": "serra-barriga-F03",
+              "text": "O município onde fica tinha 59.280 habitantes no Censo de 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P04",
+              "factKey": "serra-barriga-F04",
+              "text": "O lugar guarda a memória da resistência à escravidão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P05",
+              "factKey": "serra-barriga-F05",
+              "text": "Uma experiência quilombola histórica está ligada a essa serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P06",
+              "factKey": "serra-barriga-F06",
+              "text": "As primeiras referências aos mocambos são do início do século XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P07",
+              "factKey": "serra-barriga-F07",
+              "text": "A história local é associada ao Quilombo dos Palmares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P08",
+              "factKey": "serra-barriga-F08",
+              "text": "Zumbi é uma das lideranças ligadas à história do lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P09",
+              "factKey": "serra-barriga-F09",
+              "text": "Dandara também é lembrada como liderança ligada ao lugar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P10",
+              "factKey": "serra-barriga-F10",
+              "text": "Ganga-Zumba foi outra liderança mencionada nas fontes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P11",
+              "factKey": "serra-barriga-F11",
+              "text": "O 20 de novembro está associado à memória de Zumbi.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P12",
+              "factKey": "serra-barriga-F12",
+              "text": "O local tem um parque memorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P13",
+              "factKey": "serra-barriga-F13",
+              "text": "O parque foi implantado em 2007.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P14",
+              "factKey": "serra-barriga-F14",
+              "text": "O parque fica numa área plana no alto da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P15",
+              "factKey": "serra-barriga-F15",
+              "text": "Algumas construções do parque reconstituem modos de vida históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P16",
+              "factKey": "serra-barriga-F16",
+              "text": "Uma das construções é uma casa de farinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P17",
+              "factKey": "serra-barriga-F17",
+              "text": "O parque tem um espaço dedicado às ervas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P18",
+              "factKey": "serra-barriga-F18",
+              "text": "Há espaços que fazem referência aos povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P19",
+              "factKey": "serra-barriga-F19",
+              "text": "O parque tem pontos de áudio para os visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P20",
+              "factKey": "serra-barriga-F20",
+              "text": "Os áudios têm versões em diferentes idiomas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P21",
+              "factKey": "serra-barriga-F21",
+              "text": "Mirantes permitem observar a paisagem da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P22",
+              "factKey": "serra-barriga-F22",
+              "text": "O local tem proteção do Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P23",
+              "factKey": "serra-barriga-F23",
+              "text": "A Fundação Cultural Palmares atua na gestão do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P24",
+              "factKey": "serra-barriga-F24",
+              "text": "O parque inclui espaço para apresentações culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-viajante-P25",
+              "factKey": "serra-barriga-F25",
+              "text": "O lugar foi incluído em uma rede de memória ligada à UNESCO em 2026.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "serra-barriga-geografo-P01",
+              "factKey": "serra-barriga-F01",
+              "text": "A carta representa um território histórico e arqueológico no Nordeste do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P02",
+              "factKey": "serra-barriga-F02",
+              "text": "O sítio de memória encontra-se no território alagoano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P03",
+              "factKey": "serra-barriga-F03",
+              "text": "O IBGE registrou 59.280 habitantes no município em que o sítio se localiza no Censo 2022.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P04",
+              "factKey": "serra-barriga-F04",
+              "text": "O território foi reconhecido por sua relação com a história da resistência negra à escravidão.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P05",
+              "factKey": "serra-barriga-F05",
+              "text": "O sítio arqueológico relaciona-se a um conjunto histórico de mocambos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P06",
+              "factKey": "serra-barriga-F06",
+              "text": "Os registros históricos dos mocambos remontam ao começo do século XVII.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P07",
+              "factKey": "serra-barriga-F07",
+              "text": "A experiência quilombola ligada ao sítio foi o Quilombo dos Palmares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P08",
+              "factKey": "serra-barriga-F08",
+              "text": "Zumbi é uma das lideranças de resistência associadas ao território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P09",
+              "factKey": "serra-barriga-F09",
+              "text": "O Ministério da Cultura associa o sítio à trajetória de Dandara dos Palmares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P10",
+              "factKey": "serra-barriga-F10",
+              "text": "Ganga-Zumba participou de negociações de paz em 1678.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P11",
+              "factKey": "serra-barriga-F11",
+              "text": "A data de 20 de novembro, ligada à morte de Zumbi, tornou-se referência da Consciência Negra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P12",
+              "factKey": "serra-barriga-F12",
+              "text": "Uma área de memória foi organizada como parque memorial no território histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P13",
+              "factKey": "serra-barriga-F13",
+              "text": "A implantação do parque memorial ocorreu em 2007.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P14",
+              "factKey": "serra-barriga-F14",
+              "text": "O memorial está instalado em um platô no alto do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P15",
+              "factKey": "serra-barriga-F15",
+              "text": "Edificações cenográficas apresentam referências a modos de vida da comunidade histórica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P16",
+              "factKey": "serra-barriga-F16",
+              "text": "O memorial inclui uma representação de casa de farinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P17",
+              "factKey": "serra-barriga-F17",
+              "text": "Um terreiro das ervas integra as construções de referência cultural do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P18",
+              "factKey": "serra-barriga-F18",
+              "text": "A interpretação do sítio inclui referências à presença e à cultura de povos indígenas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P19",
+              "factKey": "serra-barriga-F19",
+              "text": "Recursos sonoros integram a mediação educativa da visita.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P20",
+              "factKey": "serra-barriga-F20",
+              "text": "A mediação sonora foi apresentada em português, inglês, espanhol e italiano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P21",
+              "factKey": "serra-barriga-F21",
+              "text": "Os pontos de observação relacionam a visita à paisagem e à posição elevada do sítio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P22",
+              "factKey": "serra-barriga-F22",
+              "text": "O sítio foi reconhecido como patrimônio cultural e recebeu proteção federal do Iphan.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P23",
+              "factKey": "serra-barriga-F23",
+              "text": "A gestão do parque memorial envolve a Fundação Cultural Palmares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P24",
+              "factKey": "serra-barriga-F24",
+              "text": "O memorial reserva espaço para manifestações artístico-culturais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "serra-barriga-geografo-P25",
+              "factKey": "serra-barriga-F25",
+              "text": "A inclusão na rede da UNESCO em 2026 relaciona o sítio à memória da escravidão e da resistência.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "BARRIGA_PALMARES",
+                "BARRIGA_MDH",
+                "BARRIGA_MINC",
+                "BARRIGA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Sítio histórico em União dos Palmares, Alagoas, relacionado ao Quilombo dos Palmares e à resistência negra à escravidão.",
+        "editorialNotes": [
+          "As construções do parque memorial são reconstituições e referências culturais, não edificações originais. O reconhecimento em rede da UNESCO não equivale a inscrição na Lista do Patrimônio Mundial.",
+          "A população citada refere-se ao município no Censo 2022. Fontes registram datas divergentes para o tombamento; não se usa o ano como pista."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

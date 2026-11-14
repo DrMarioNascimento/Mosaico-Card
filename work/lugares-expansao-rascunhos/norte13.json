@@ -1,0 +1,1062 @@
+{
+  "sources": {
+    "CANTAO_TO": {
+      "id": "CANTAO_TO",
+      "title": "Plano de Uso Público do Parque Estadual do Cantão",
+      "publisher": "Governo do Estado do Tocantins",
+      "url": "https://gesto.to.gov.br/site_media/upload/plano_uso/Plano_de_uso_publico_do_Parque_Estadual_do_Cantao.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CANTAO_MTUR": {
+      "id": "CANTAO_MTUR",
+      "title": "Nove estados, um bioma: descubra a diversidade do turismo de natureza na Amazônia brasileira",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/noticias/destinos-revelam-a-diversidade-do-turismo-de-natureza-na-amazonia-brasileira",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-parque-cantao",
+      "placeId": "norte-parque-cantao",
+      "title": "Parque Estadual do Cantão",
+      "aliases": [
+        "Parque do Cantão"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque estadual",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual do Cantão"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual Monte Alegre"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual do Chandless"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual do Utinga"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Estadual da Serra do Mar"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Estadual da Serra do Tabuleiro"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Estadual do Guartelá"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual do Mirador"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual da Serra Dourada"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual do Cantão",
+          "sources": [
+            "CANTAO_TO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Paisagem predominante",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Planície fluvial com lagos e florestas alagáveis"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Dunas costeiras e lagoas salgadas"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Cânions basálticos e campos frios"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Recifes oceânicos e ilhas vulcânicas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Planície fluvial com lagos e florestas alagáveis",
+          "sources": [
+            "CANTAO_TO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Tocantins"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pará"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Rondônia"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Tocantins",
+          "sources": [
+            "CANTAO_TO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Rios associados ao parque",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Araguaia, Javaés e do Coco"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Negro, Branco e Solimões"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Parnaíba, Poti e Uruçuí"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Tietê, Paraná e Paranapanema"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Araguaia, Javaés e do Coco",
+          "sources": [
+            "CANTAO_TO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-parque-cantao-viajante-P01",
+              "factKey": "norte-parque-cantao-F01",
+              "text": "Este lugar é uma unidade de conservação estadual no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P02",
+              "factKey": "norte-parque-cantao-F02",
+              "text": "Ele fica na região Norte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P03",
+              "factKey": "norte-parque-cantao-F03",
+              "text": "O parque está no extremo oeste do Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P04",
+              "factKey": "norte-parque-cantao-F04",
+              "text": "Foi criado no fim da década de 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P05",
+              "factKey": "norte-parque-cantao-F05",
+              "text": "Sua criação ocorreu em 1998.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P06",
+              "factKey": "norte-parque-cantao-F06",
+              "text": "Os limites da unidade foram alterados em 2002.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P07",
+              "factKey": "norte-parque-cantao-F07",
+              "text": "A água aparece em rios, lagos e canais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P08",
+              "factKey": "norte-parque-cantao-F08",
+              "text": "A paisagem muda entre cheias e secas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P09",
+              "factKey": "norte-parque-cantao-F09",
+              "text": "Florestas podem ficar alagadas durante parte do ano.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P10",
+              "factKey": "norte-parque-cantao-F10",
+              "text": "O lugar tem centenas de lagos.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P11",
+              "factKey": "norte-parque-cantao-F11",
+              "text": "O rio Araguaia está associado à área.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P12",
+              "factKey": "norte-parque-cantao-F12",
+              "text": "O rio Javaés também participa da rede de águas local.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P13",
+              "factKey": "norte-parque-cantao-F13",
+              "text": "O rio do Coco é outra referência na região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P14",
+              "factKey": "norte-parque-cantao-F14",
+              "text": "A unidade fica próxima ao Parque Nacional do Araguaia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P15",
+              "factKey": "norte-parque-cantao-F15",
+              "text": "A Ilha do Bananal está ao sul da região do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P16",
+              "factKey": "norte-parque-cantao-F16",
+              "text": "O parque reúne características de Cerrado e Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P17",
+              "factKey": "norte-parque-cantao-F17",
+              "text": "Ambientes de planície inundável também fazem parte desse encontro.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P18",
+              "factKey": "norte-parque-cantao-F18",
+              "text": "As enchentes ajudam a manter ambientes usados por peixes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P19",
+              "factKey": "norte-parque-cantao-F19",
+              "text": "Aves aquáticas podem ser observadas na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P20",
+              "factKey": "norte-parque-cantao-F20",
+              "text": "Jacarés estão entre os animais observados no local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P21",
+              "factKey": "norte-parque-cantao-F21",
+              "text": "Tartarugas-da-Amazônia também vivem na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P22",
+              "factKey": "norte-parque-cantao-F22",
+              "text": "Pesquisas sobre fauna ajudam a orientar a proteção da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P23",
+              "factKey": "norte-parque-cantao-F23",
+              "text": "Caseara é uma cidade usada como referência de entrada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P24",
+              "factKey": "norte-parque-cantao-F24",
+              "text": "O rio Araguaia separa estados em parte dessa região.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-viajante-P25",
+              "factKey": "norte-parque-cantao-F25",
+              "text": "Proteger a região exige atenção à pesca predatória e às queimadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-parque-cantao-geografo-P01",
+              "factKey": "norte-parque-cantao-F01",
+              "text": "O destino é uma unidade estadual de proteção integral brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P02",
+              "factKey": "norte-parque-cantao-F02",
+              "text": "A unidade integra o território da região Norte do país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P03",
+              "factKey": "norte-parque-cantao-F03",
+              "text": "A posição da unidade fica no setor ocidental do estado do Tocantins.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P04",
+              "factKey": "norte-parque-cantao-F04",
+              "text": "O marco legal de criação da unidade data do final da década de 1990.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P05",
+              "factKey": "norte-parque-cantao-F05",
+              "text": "A Lei estadual nº 996 de 1998 instituiu o parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P06",
+              "factKey": "norte-parque-cantao-F06",
+              "text": "Uma lei estadual de 2002 ajustou os limites originalmente estabelecidos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P07",
+              "factKey": "norte-parque-cantao-F07",
+              "text": "O mosaico aquático combina rios, lagos e canais em uma planície.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P08",
+              "factKey": "norte-parque-cantao-F08",
+              "text": "O pulso anual de inundação modifica a conectividade dos ambientes.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P09",
+              "factKey": "norte-parque-cantao-F09",
+              "text": "Florestas sazonalmente inundáveis integram a paisagem protegida.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P10",
+              "factKey": "norte-parque-cantao-F10",
+              "text": "O sistema de lagos e canais constitui importante elemento da planície.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P11",
+              "factKey": "norte-parque-cantao-F11",
+              "text": "O rio Araguaia acompanha a porção ocidental da unidade.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P12",
+              "factKey": "norte-parque-cantao-F12",
+              "text": "O Javaés forma um dos limites e se conecta ao braço maior do Araguaia.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P13",
+              "factKey": "norte-parque-cantao-F13",
+              "text": "A confluência entre o rio do Coco e o Araguaia marca parte do limite norte.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P14",
+              "factKey": "norte-parque-cantao-F14",
+              "text": "A proximidade com outra unidade cria um conjunto regional de áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P15",
+              "factKey": "norte-parque-cantao-F15",
+              "text": "A planície da Ilha do Bananal situa-se ao sul e se relaciona ao sistema fluvial regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P16",
+              "factKey": "norte-parque-cantao-F16",
+              "text": "A área é um ecótono que combina elementos de Cerrado e floresta amazônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P17",
+              "factKey": "norte-parque-cantao-F17",
+              "text": "O mosaico inclui características de ambientes pantaneiros em áreas inundáveis.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P18",
+              "factKey": "norte-parque-cantao-F18",
+              "text": "As enchentes anuais contribuem para alimentação e reprodução de peixes do médio Araguaia.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P19",
+              "factKey": "norte-parque-cantao-F19",
+              "text": "A diversidade de lagos e áreas alagadas oferece habitats para aves aquáticas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P20",
+              "factKey": "norte-parque-cantao-F20",
+              "text": "Os ambientes aquáticos abrigam répteis como jacarés.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P21",
+              "factKey": "norte-parque-cantao-F21",
+              "text": "Quelônios como a tartaruga-da-Amazônia fazem parte da fauna regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P22",
+              "factKey": "norte-parque-cantao-F22",
+              "text": "Estudos de peixes, quelônios e mamíferos apoiam a gestão ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P23",
+              "factKey": "norte-parque-cantao-F23",
+              "text": "Caseara funciona como referência de acesso terrestre e fluvial à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P24",
+              "factKey": "norte-parque-cantao-F24",
+              "text": "A fronteira entre Tocantins e Pará acompanha trechos do Araguaia próximos ao parque.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-cantao-geografo-P25",
+              "factKey": "norte-parque-cantao-F25",
+              "text": "A gestão reconhece pressões como pesca predatória, fogo e alterações do uso da terra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CANTAO_TO",
+                "CANTAO_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque estadual no oeste do Tocantins, com rios, lagos e florestas alagáveis em zona de transição entre Cerrado e Amazônia.",
+        "editorialNotes": [
+          "Unidade distinta do Parque Nacional do Araguaia, embora em paisagem regional relacionada.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

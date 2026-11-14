@@ -55,6 +55,27 @@
       "publisher": "Prefeitura de Campo Grande",
       "url": "https://cdn.campogrande.ms.gov.br/portal/prod/uploads/sites/18/2016/12/Lei-n.5.135.pdf",
       "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_PLANO_URB": {
+      "id": "CENTRO_CG_PLANO_URB",
+      "title": "Plano de preservação e referências culturais urbanas",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://cdn.campogrande.ms.gov.br/portal/prod/uploads/2022/11/propostafinaleaudinciapblica-prefcg-1669147039.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_CG_TUR": {
+      "id": "CENTRO_CG_TUR",
+      "title": "Roteiro histórico da cidade",
+      "publisher": "Prefeitura de Campo Grande",
+      "url": "https://www.campogrande.ms.gov.br/cgnoticias/noticia/conheca-campo-grande-em-um-dia/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_COR_IBGE": {
+      "id": "CENTRO_COR_IBGE",
+      "title": "Corumbá (MS): população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ms/corumba.html",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -524,14 +545,11 @@
             {
               "id": "corumba-ms-viajante-P16",
               "factKey": "corumba-ms-F16",
-              "text": "O Cristo Rei fica na parte alta da cidade.",
+              "text": "O Museu de História do Pantanal ocupa uma construção ligada ao antigo comércio fluvial.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_COR_MUN",
-                "CENTRO_COR_IPHAN",
-                "CENTRO_COR_FESTA",
                 "CENTRO_COR_FUND"
               ],
               "clueType": "territorio",
@@ -600,15 +618,12 @@
             {
               "id": "corumba-ms-viajante-P20",
               "factKey": "corumba-ms-F20",
-              "text": "O forte foi construído junto ao rio Paraguai.",
+              "text": "O forte fazia parte de uma rede de defesa e demarcação de fronteiras.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_COR_MUN",
-                "CENTRO_COR_IPHAN",
-                "CENTRO_COR_FESTA",
-                "CENTRO_COR_FUND"
+                "CENTRO_COR_IPHAN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1004,20 +1019,17 @@
             {
               "id": "corumba-ms-geografo-P16",
               "factKey": "corumba-ms-F16",
-              "text": "O monumento Cristo Rei localiza-se na parte alta do núcleo urbano.",
+              "text": "O Censo 2022 registrou 96.268 habitantes no município, segundo o IBGE.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_COR_MUN",
-                "CENTRO_COR_IPHAN",
-                "CENTRO_COR_FESTA",
-                "CENTRO_COR_FUND"
+                "CENTRO_COR_IBGE"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -1080,15 +1092,12 @@
             {
               "id": "corumba-ms-geografo-P20",
               "factKey": "corumba-ms-F20",
-              "text": "A fortificação foi implantada na margem do Rio Paraguai.",
+              "text": "A fortificação colonial integrava uma rede de defesa e demarcação territorial.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_COR_MUN",
-                "CENTRO_COR_IPHAN",
-                "CENTRO_COR_FESTA",
-                "CENTRO_COR_FUND"
+                "CENTRO_COR_IPHAN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1322,7 +1331,7 @@
         },
         {
           "id": "C3",
-          "label": "Edifício histórico",
+          "label": "Que casarão foi residência da família Baís e depois Pensão Pimentel?",
           "options": [
             {
               "id": "C3-O1",
@@ -1330,52 +1339,49 @@
             },
             {
               "id": "C3-O2",
-              "text": "Casa de Cora Coralina"
+              "text": "Casa do Artesão"
             },
             {
               "id": "C3-O3",
-              "text": "Casa de Rui Barbosa"
+              "text": "Mercado Municipal Antônio Valente"
             },
             {
               "id": "C3-O4",
-              "text": "Casa de Jorge Amado"
+              "text": "Casa da Memória Arnaldo Estevão de Figueiredo"
             }
           ],
           "answerId": "C3-O1",
           "answerText": "Morada dos Baís",
           "sources": [
             "CENTRO_CG_MUN",
-            "CENTRO_CG_IPHAN",
-            "CENTRO_CG_TREM"
+            "CENTRO_CG_PLANO_URB"
           ]
         },
         {
           "id": "C4",
-          "label": "Estado brasileiro",
+          "label": "Quais córregos se encontram no marco inicial da cidade?",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Mato Grosso do Sul"
+              "text": "Prosa e Segredo"
             },
             {
               "id": "C4-O2",
-              "text": "Mato Grosso"
+              "text": "Anhanduí e Guariroba"
             },
             {
               "id": "C4-O3",
-              "text": "Goiás"
+              "text": "Imbirussu e Bandeira"
             },
             {
               "id": "C4-O4",
-              "text": "Tocantins"
+              "text": "Lageado e Ceroula"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Mato Grosso do Sul",
+          "answerText": "Prosa e Segredo",
           "sources": [
-            "CENTRO_CG_MUN",
-            "CENTRO_CG_IPHAN",
-            "CENTRO_CG_TREM"
+            "CENTRO_CG_PLANO_URB"
           ]
         }
       ],
@@ -1432,9 +1438,9 @@
                 "CENTRO_CG_TREM"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -1746,14 +1752,12 @@
             {
               "id": "campo-grande-ms-viajante-P21",
               "factKey": "campo-grande-ms-F21",
-              "text": "O edifício também já funcionou como hotel.",
+              "text": "O imóvel foi reconhecido como patrimônio histórico municipal em 1986.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_TUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1764,14 +1768,12 @@
             {
               "id": "campo-grande-ms-viajante-P22",
               "factKey": "campo-grande-ms-F22",
-              "text": "Atualmente o imóvel é usado para atividades culturais.",
+              "text": "O prédio passou por intervenções de preservação e recuperação cultural.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1887,9 +1889,9 @@
                 "CENTRO_CG_TREM"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -2116,14 +2118,12 @@
             {
               "id": "campo-grande-ms-geografo-P16",
               "factKey": "campo-grande-ms-F16",
-              "text": "A Morada dos Baís é uma referência do patrimônio urbano local.",
+              "text": "A memória urbana da capital inclui edificações ferroviárias e residências preservadas.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2134,14 +2134,12 @@
             {
               "id": "campo-grande-ms-geografo-P17",
               "factKey": "campo-grande-ms-F17",
-              "text": "O casarão foi originalmente residência da família Baís.",
+              "text": "A Morada dos Baís é um sobrado associado a uma família da cidade.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2152,15 +2150,12 @@
             {
               "id": "campo-grande-ms-geografo-P18",
               "factKey": "campo-grande-ms-F18",
-              "text": "O casarão da família foi adaptado a usos diversos ao longo de sua trajetória.",
+              "text": "O casarão teve uso residencial antes de receber uma pensão.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM",
-                "CENTRO_CG_PLANO"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2171,14 +2166,12 @@
             {
               "id": "campo-grande-ms-geografo-P19",
               "factKey": "campo-grande-ms-F19",
-              "text": "O imóvel passou por uso como pensão.",
+              "text": "A Pensão Pimentel funcionou no imóvel durante parte do século XX.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2189,14 +2182,12 @@
             {
               "id": "campo-grande-ms-geografo-P20",
               "factKey": "campo-grande-ms-F20",
-              "text": "Pensão Pimentel foi um dos nomes associados à ocupação do casarão.",
+              "text": "Painéis de Lídia Baís integram a história artística do sobrado.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_TUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2207,14 +2198,12 @@
             {
               "id": "campo-grande-ms-geografo-P21",
               "factKey": "campo-grande-ms-F21",
-              "text": "O prédio também teve uso hoteleiro.",
+              "text": "O imóvel foi reconhecido como patrimônio histórico municipal em 1986.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_TUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2225,15 +2214,12 @@
             {
               "id": "campo-grande-ms-geografo-P22",
               "factKey": "campo-grande-ms-F22",
-              "text": "A recuperação do casarão como espaço cultural conecta memória urbana e novos usos.",
+              "text": "O prédio passou por intervenções de preservação e recuperação cultural.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM",
-                "CENTRO_CG_PLANO"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2244,14 +2230,12 @@
             {
               "id": "campo-grande-ms-geografo-P23",
               "factKey": "campo-grande-ms-F23",
-              "text": "Obras e murais de Lídia Baís integram a história do imóvel.",
+              "text": "O acervo cultural conecta objetos da família à memória da cidade.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_MUN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2262,14 +2246,12 @@
             {
               "id": "campo-grande-ms-geografo-P24",
               "factKey": "campo-grande-ms-F24",
-              "text": "A prefeitura conserva um acervo associado ao casarão e à família.",
+              "text": "A preservação municipal do edifício foi instituída em 1986.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_CG_MUN",
-                "CENTRO_CG_IPHAN",
-                "CENTRO_CG_TREM"
+                "CENTRO_CG_TUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",

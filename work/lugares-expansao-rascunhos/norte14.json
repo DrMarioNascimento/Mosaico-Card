@@ -1,0 +1,1019 @@
+{
+  "sources": {
+    "CHANDLESS_PPBIO": {
+      "id": "CHANDLESS_PPBIO",
+      "title": "Parque Estadual Chandless",
+      "publisher": "Programa de Pesquisa em Biodiversidade / INPA",
+      "url": "https://ppbio.inpa.gov.br/sitios/chandless",
+      "checkedAt": "2026-11-14"
+    },
+    "CHANDLESS_TUR": {
+      "id": "CHANDLESS_TUR",
+      "title": "Dois parques do Acre indicados para turismo de observação de aves",
+      "publisher": "Secretaria de Turismo do Acre",
+      "url": "https://sete.ac.gov.br/dois-parques-do-acre-sao-indicados-para-turismo-de-observacao-de-aves-em-catalogo-de-experiencias-de-birdwatching-no-brasil/",
+      "checkedAt": "2026-11-14"
+    },
+    "CHANDLESS_SEMA": {
+      "id": "CHANDLESS_SEMA",
+      "title": "Governo do Acre leva saúde e cidadania aos moradores no Parque Estadual Chandless",
+      "publisher": "Secretaria do Meio Ambiente do Acre",
+      "url": "https://sema.ac.gov.br/governo-do-acre-leva-saude-e-cidadania-aos-moradores-no-parque-estadual-chandless/",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-norte-parque-chandless",
+      "placeId": "norte-parque-chandless",
+      "title": "Parque Estadual Chandless",
+      "aliases": [
+        "Chandless"
+      ],
+      "answerType": "parque estadual",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "norte"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque estadual",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Estadual Chandless"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual do Cantão"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual Monte Alegre"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Estadual do Utinga"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Estadual da Serra do Mar"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Estadual do Mirador"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Estadual da Serra Dourada"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual do Guartelá"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Estadual da Serra do Tabuleiro"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Estadual Chandless",
+          "sources": [
+            "CHANDLESS_PPBIO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Formação vegetal em destaque",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Floresta aberta com bambus e palmeiras"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Manguezais de influência marítima"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Campos de altitude e araucárias"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Restingas costeiras e dunas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Floresta aberta com bambus e palmeiras",
+          "sources": [
+            "CHANDLESS_PPBIO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Acre"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Amazonas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Rondônia"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Roraima"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Acre",
+          "sources": [
+            "CHANDLESS_PPBIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "País vizinho",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Peru"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Bolívia"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Venezuela"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Suriname"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Peru",
+          "sources": [
+            "CHANDLESS_PPBIO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "norte-parque-chandless-viajante-P01",
+              "factKey": "norte-parque-chandless-F01",
+              "text": "Este parque estadual protege parte da Amazônia.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P02",
+              "factKey": "norte-parque-chandless-F02",
+              "text": "A área está no estado do Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P03",
+              "factKey": "norte-parque-chandless-F03",
+              "text": "Foi criado em 2004.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P04",
+              "factKey": "norte-parque-chandless-F04",
+              "text": "Um dos limites fica próximo de outro país.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P05",
+              "factKey": "norte-parque-chandless-F05",
+              "text": "O país vizinho é o Peru.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P06",
+              "factKey": "norte-parque-chandless-F06",
+              "text": "O parque alcança parte de Santa Rosa do Purus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P07",
+              "factKey": "norte-parque-chandless-F07",
+              "text": "Manoel Urbano também abriga parte da área.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P08",
+              "factKey": "norte-parque-chandless-F08",
+              "text": "Parte do parque está em Sena Madureira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P09",
+              "factKey": "norte-parque-chandless-F09",
+              "text": "A região pertence à bacia do rio Purus.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P10",
+              "factKey": "norte-parque-chandless-F10",
+              "text": "Os rios têm cheias e vazantes marcadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P11",
+              "factKey": "norte-parque-chandless-F11",
+              "text": "O relevo inclui trechos suavemente ondulados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P12",
+              "factKey": "norte-parque-chandless-F12",
+              "text": "Bambus aparecem com frequência na floresta.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P13",
+              "factKey": "norte-parque-chandless-F13",
+              "text": "As áreas dominadas por bambus são chamadas de tabocais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P14",
+              "factKey": "norte-parque-chandless-F14",
+              "text": "Alguns desses bambus pertencem ao gênero Guadua.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P15",
+              "factKey": "norte-parque-chandless-F15",
+              "text": "Florestas abertas com palmeiras também são encontradas.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P16",
+              "factKey": "norte-parque-chandless-F16",
+              "text": "Pesquisadores estudam aves, mamíferos e plantas na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P17",
+              "factKey": "norte-parque-chandless-F17",
+              "text": "Um levantamento usado no plano de manejo registrou mais de mil espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P18",
+              "factKey": "norte-parque-chandless-F18",
+              "text": "Nesse levantamento foram registradas mais de 400 espécies de aves.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P19",
+              "factKey": "norte-parque-chandless-F19",
+              "text": "Algumas aves registradas estão associadas aos tabocais.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P20",
+              "factKey": "norte-parque-chandless-F20",
+              "text": "Também foram observadas espécies de peixes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P21",
+              "factKey": "norte-parque-chandless-F21",
+              "text": "A área se conecta a outras áreas protegidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P22",
+              "factKey": "norte-parque-chandless-F22",
+              "text": "Há terras indígenas próximas à unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P23",
+              "factKey": "norte-parque-chandless-F23",
+              "text": "Existem comunidades e famílias vivendo na região do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_SEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P24",
+              "factKey": "norte-parque-chandless-F24",
+              "text": "A observação de aves é uma atividade associada ao local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-viajante-P25",
+              "factKey": "norte-parque-chandless-F25",
+              "text": "Um registro fotográfico de uma ave rara foi feito no parque em 2025.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "norte-parque-chandless-geografo-P01",
+              "factKey": "norte-parque-chandless-F01",
+              "text": "A unidade estadual de proteção integral situa-se no sudoeste amazônico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P02",
+              "factKey": "norte-parque-chandless-F02",
+              "text": "O parque ocupa parte do território do Acre.",
+              "relatedFields": [
+                "C3"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P03",
+              "factKey": "norte-parque-chandless-F03",
+              "text": "A unidade foi instituída pelo decreto estadual nº 10.670 em 2004.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P04",
+              "factKey": "norte-parque-chandless-F04",
+              "text": "A área protegida integra um contexto de fronteira internacional amazônica.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P05",
+              "factKey": "norte-parque-chandless-F05",
+              "text": "No limite oeste, a unidade faz fronteira com o Peru.",
+              "relatedFields": [
+                "C4"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P06",
+              "factKey": "norte-parque-chandless-F06",
+              "text": "Santa Rosa do Purus é um dos municípios que compõem a unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P07",
+              "factKey": "norte-parque-chandless-F07",
+              "text": "O território protegido se estende por parte de Manoel Urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P08",
+              "factKey": "norte-parque-chandless-F08",
+              "text": "O município de Sena Madureira participa da abrangência territorial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P09",
+              "factKey": "norte-parque-chandless-F09",
+              "text": "A unidade localiza-se na região do Alto Purus e integra sua rede hidrográfica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P10",
+              "factKey": "norte-parque-chandless-F10",
+              "text": "O regime sazonal de cheias e vazantes influencia os rios da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P11",
+              "factKey": "norte-parque-chandless-F11",
+              "text": "A área apresenta relevo ondulado e suave ondulado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P12",
+              "factKey": "norte-parque-chandless-F12",
+              "text": "Florestas abertas com bambus formam parte relevante da cobertura vegetal.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P13",
+              "factKey": "norte-parque-chandless-F13",
+              "text": "Os tabocais se relacionam à ocorrência de bambus arborescentes na paisagem.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P14",
+              "factKey": "norte-parque-chandless-F14",
+              "text": "O gênero Guadua é citado nas formações de bambus da região.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P15",
+              "factKey": "norte-parque-chandless-F15",
+              "text": "A presença de palmeiras diferencia outra formação de floresta aberta.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P16",
+              "factKey": "norte-parque-chandless-F16",
+              "text": "Levantamentos de flora e fauna ampliam o conhecimento da biodiversidade regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P17",
+              "factKey": "norte-parque-chandless-F17",
+              "text": "A avaliação ecológica rápida do plano reuniu registros de mais de mil espécies.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P18",
+              "factKey": "norte-parque-chandless-F18",
+              "text": "A avaliação citada contabilizou 407 espécies de aves na área estudada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P19",
+              "factKey": "norte-parque-chandless-F19",
+              "text": "A avaliação registrou aves exclusivas de formações de taboca dentro do levantamento citado.",
+              "relatedFields": [
+                "C2"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P20",
+              "factKey": "norte-parque-chandless-F20",
+              "text": "Os levantamentos incluíram a fauna de peixes dos sistemas aquáticos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P21",
+              "factKey": "norte-parque-chandless-F21",
+              "text": "A posição da unidade favorece conectividade entre terras indígenas e áreas protegidas vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P22",
+              "factKey": "norte-parque-chandless-F22",
+              "text": "A relação espacial com terras indígenas vizinhas integra o contexto territorial de conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_PPBIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P23",
+              "factKey": "norte-parque-chandless-F23",
+              "text": "A gestão territorial deve considerar famílias residentes e necessidades de serviços públicos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_SEMA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P24",
+              "factKey": "norte-parque-chandless-F24",
+              "text": "A biodiversidade de aves fundamenta atividades de observação na unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "norte-parque-chandless-geografo-P25",
+              "factKey": "norte-parque-chandless-F25",
+              "text": "O registro fotográfico do tovacuçu-xodó em 2025 ilustra a relevância da pesquisa ornitológica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CHANDLESS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Parque estadual no Acre, na bacia do Alto Purus e próximo ao Peru, com florestas abertas, palmeiras e tabocais.",
+        "editorialNotes": [
+          "Números de espécies são atribuídos ao levantamento citado, não a um total definitivo.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisar antes de integrar"
+      }
+    }
+  ]
+}

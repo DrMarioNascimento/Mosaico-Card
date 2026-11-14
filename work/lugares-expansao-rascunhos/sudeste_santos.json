@@ -1,0 +1,1030 @@
+{
+  "sources": {
+    "SE_SANTOS_IBGE": {
+      "id": "SE_SANTOS_IBGE",
+      "title": "Santos (SP): Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sp/santos.html",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_SANTOS_HIST": {
+      "id": "SE_SANTOS_HIST",
+      "title": "História de Santos",
+      "publisher": "Prefeitura de Santos",
+      "url": "https://www.santos.sp.gov.br/?q=node%2F168825",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_SANTOS_CENTRO": {
+      "id": "SE_SANTOS_CENTRO",
+      "title": "O centro das atrações",
+      "publisher": "Prefeitura de Santos",
+      "url": "https://www.santos.sp.gov.br/?q=node%2F73899",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_SANTOS_TUR": {
+      "id": "SE_SANTOS_TUR",
+      "title": "Conheça Santos",
+      "publisher": "Prefeitura de Santos",
+      "url": "https://www.santos.sp.gov.br/?q=node%2F283",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-santos",
+      "placeId": "cidade-santos",
+      "title": "Santos",
+      "aliases": [
+        "Cidade de Santos"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade portuária",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Santos"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Paranaguá"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Itajaí"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O5",
+              "text": "São Francisco do Sul"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O11",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Belém"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Santos",
+          "sources": [
+            "SE_SANTOS_HIST",
+            "SE_SANTOS_CENTRO"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Produto associado à bolsa histórica",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Café"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Açúcar"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Borracha"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Cacau"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Café",
+          "sources": [
+            "SE_SANTOS_HIST",
+            "SE_SANTOS_CENTRO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Meio de transporte histórico usado na linha turística do centro",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Bonde"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Teleférico"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Metrô"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Barca"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Bonde",
+          "sources": [
+            "SE_SANTOS_HIST",
+            "SE_SANTOS_CENTRO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano da implantação da linha turística no centro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "2000"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1984"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1909"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1971"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "2000",
+          "sources": [
+            "SE_SANTOS_HIST",
+            "SE_SANTOS_CENTRO"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-santos-viajante-P01",
+              "factKey": "cidade-santos-F01",
+              "text": "É uma cidade brasileira do litoral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P02",
+              "factKey": "cidade-santos-F02",
+              "text": "Fica na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P03",
+              "factKey": "cidade-santos-F03",
+              "text": "Seu desenvolvimento tem relação com um porto marítimo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P04",
+              "factKey": "cidade-santos-F04",
+              "text": "Uma área de praias é acompanhada por jardins à beira-mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P05",
+              "factKey": "cidade-santos-F05",
+              "text": "A cidade tem um centro com prédios antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P06",
+              "factKey": "cidade-santos-F06",
+              "text": "Um bonde turístico circula pelo centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P07",
+              "factKey": "cidade-santos-F07",
+              "text": "O passeio de bonde passa por edifícios ligados à história do comércio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P08",
+              "factKey": "cidade-santos-F08",
+              "text": "Uma antiga bolsa de café hoje abriga um museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P09",
+              "factKey": "cidade-santos-F09",
+              "text": "O café marcou uma fase importante da história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P10",
+              "factKey": "cidade-santos-F10",
+              "text": "Há uma antiga estação ferroviária chamada Valongo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P11",
+              "factKey": "cidade-santos-F11",
+              "text": "O Outeiro de Santa Catarina é ligado ao início da povoação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P12",
+              "factKey": "cidade-santos-F12",
+              "text": "Uma igreja no Monte Serrat é ligada à padroeira da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P13",
+              "factKey": "cidade-santos-F13",
+              "text": "Do alto desse monte é possível observar a baía e a área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P14",
+              "factKey": "cidade-santos-F14",
+              "text": "Um edifício chamado Palácio José Bonifácio abriga a prefeitura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P15",
+              "factKey": "cidade-santos-F15",
+              "text": "A cidade abriga um museu dedicado ao jogador Pelé.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P16",
+              "factKey": "cidade-santos-F16",
+              "text": "A Via Anchieta liga a região a outras áreas do estado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P17",
+              "factKey": "cidade-santos-F17",
+              "text": "A Serra do Mar aparece na paisagem regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P18",
+              "factKey": "cidade-santos-F18",
+              "text": "A vila foi fundada no século XVI.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P19",
+              "factKey": "cidade-santos-F19",
+              "text": "Sua formação colonial está ligada a Brás Cubas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P20",
+              "factKey": "cidade-santos-F20",
+              "text": "Uma instituição de assistência chamada Santa Casa teve papel na história local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P21",
+              "factKey": "cidade-santos-F21",
+              "text": "A cidade possui cerca de sete quilômetros de praias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P22",
+              "factKey": "cidade-santos-F22",
+              "text": "Seu município fica no estado de São Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P23",
+              "factKey": "cidade-santos-F23",
+              "text": "O município é vizinho de São Vicente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P24",
+              "factKey": "cidade-santos-F24",
+              "text": "A linha turística do centro foi implantada em 2000.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-viajante-P25",
+              "factKey": "cidade-santos-F25",
+              "text": "No Censo 2022 do IBGE, o município tinha mais de 400 mil habitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-santos-geografo-P01",
+              "factKey": "cidade-santos-F01",
+              "text": "O destino é um município litorâneo da região Sudeste brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P02",
+              "factKey": "cidade-santos-F02",
+              "text": "Sua posição costeira se relaciona à rede urbana do estado de São Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P03",
+              "factKey": "cidade-santos-F03",
+              "text": "As atividades portuárias conectam a cidade aos fluxos nacionais e internacionais de mercadorias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P04",
+              "factKey": "cidade-santos-F04",
+              "text": "A orla urbana combina praias e jardins públicos lineares.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P05",
+              "factKey": "cidade-santos-F05",
+              "text": "O núcleo histórico concentra edificações associadas a etapas diferentes da expansão comercial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P06",
+              "factKey": "cidade-santos-F06",
+              "text": "Uma linha turística sobre trilhos percorre o centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P07",
+              "factKey": "cidade-santos-F07",
+              "text": "A reintrodução de bondes no centro em 2000 se relaciona a iniciativas de revitalização patrimonial.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P08",
+              "factKey": "cidade-santos-F08",
+              "text": "A Bolsa Oficial do Café foi adaptada para abrigar um museu.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P09",
+              "factKey": "cidade-santos-F09",
+              "text": "O patrimônio arquitetônico preserva memória da comercialização do café.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P10",
+              "factKey": "cidade-santos-F10",
+              "text": "A Estação do Valongo testemunha a relação histórica entre ferrovia e porto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P11",
+              "factKey": "cidade-santos-F11",
+              "text": "O Outeiro de Santa Catarina é apontado como marco da ocupação colonial local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P12",
+              "factKey": "cidade-santos-F12",
+              "text": "O santuário no Monte Serrat é associado à padroeira da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P13",
+              "factKey": "cidade-santos-F13",
+              "text": "O relevo do Monte Serrat permite visualizar porto, baía e ocupação urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P14",
+              "factKey": "cidade-santos-F14",
+              "text": "O Palácio José Bonifácio sedia a administração municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P15",
+              "factKey": "cidade-santos-F15",
+              "text": "Um museu dedicado ao futebolista Pelé integra o circuito cultural do centro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_CENTRO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P16",
+              "factKey": "cidade-santos-F16",
+              "text": "A Via Anchieta ampliou a conexão rodoviária entre o litoral e o planalto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P17",
+              "factKey": "cidade-santos-F17",
+              "text": "A escarpa da Serra do Mar constitui uma referência física da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P18",
+              "factKey": "cidade-santos-F18",
+              "text": "A vila colonial foi fundada em 1546.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P19",
+              "factKey": "cidade-santos-F19",
+              "text": "Brás Cubas está associado à formação colonial do núcleo urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P20",
+              "factKey": "cidade-santos-F20",
+              "text": "A Santa Casa fundada na primeira metade do século XVI integra a memória local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P21",
+              "factKey": "cidade-santos-F21",
+              "text": "A administração municipal informa cerca de sete quilômetros de praias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P22",
+              "factKey": "cidade-santos-F22",
+              "text": "O município pertence ao estado de São Paulo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P23",
+              "factKey": "cidade-santos-F23",
+              "text": "Sua área urbana integra uma região litorânea que inclui a vizinha São Vicente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_TUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P24",
+              "factKey": "cidade-santos-F24",
+              "text": "A implantação da linha turística no centro ocorreu em 2000.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-santos-geografo-P25",
+              "factKey": "cidade-santos-F25",
+              "text": "O Censo 2022 do IBGE registrou 418.608 habitantes no município, sem somar os municípios vizinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_SANTOS_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade portuária do litoral paulista, com patrimônio histórico ligado à ferrovia, ao café e ao comércio marítimo.",
+        "editorialNotes": [
+          "População refere-se ao município no Censo 2022.",
+          "Fontes oficiais consultadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

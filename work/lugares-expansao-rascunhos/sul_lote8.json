@@ -1,0 +1,1023 @@
+{
+  "sources": {
+    "SULSFSPATRIMONIO": {
+      "id": "SULSFSPATRIMONIO",
+      "title": "Patrimônio material em Santa Catarina",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/superintendencias/santa-catarina/patrimonio-material",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSFSPORTO": {
+      "id": "SULSFSPORTO",
+      "title": "Plano mestre do complexo portuário",
+      "publisher": "Ministério de Portos e Aeroportos",
+      "url": "https://www.gov.br/portos-e-aeroportos/pt-br/assuntos/transporte-aquaviario/planejamento-portuario/plano-de-desenvolvimento-e-zoneamento-pdz/arquivos-pdz/Plano_Mestre_do_Complexo_Portuario_de_Sao_Francisco_do_Sul___versao_final___pos_SNP_compressed.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSFSMUSEU": {
+      "id": "SULSFSMUSEU",
+      "title": "Museu Nacional do Mar",
+      "publisher": "Iphan",
+      "url": "https://www.gov.br/iphan/pt-br/assuntos/noticias/iphan-realiza-vistoria-tecnica-conjunta-em-obras-de-restauracao-do-museu-nacional-do-mar-sc/",
+      "checkedAt": "2026-11-14"
+    },
+    "SULSFSIBGE": {
+      "id": "SULSFSIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/sc/sao-francisco-do-sul.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-sao-francisco-sul",
+      "placeId": "sao-francisco-sul",
+      "title": "São Francisco do Sul",
+      "aliases": [],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "São Francisco do Sul"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Laguna"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Paranaguá"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Antonina"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Porto Belo"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Itajaí"
+            },
+            {
+              "id": "C1-O7",
+              "text": "São Sebastião"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Santos"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Rio Grande"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Itapoá"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Joinville"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "São Francisco do Sul",
+          "sources": [
+            "SULSFSIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Baía da cidade",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Baía da Babitonga"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Baía de Paranaguá"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Baía de Guanabara"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Baía da Ilha Grande"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Baía da Babitonga",
+          "sources": [
+            "SULSFSPORTO"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Instituição cultural ligada à navegação",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Museu Nacional do Mar"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Museu do Ipiranga"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Museu do Amanhã"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Museu Imperial"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Museu Nacional do Mar",
+          "sources": [
+            "SULSFSMUSEU"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "São Paulo"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Santa Catarina",
+          "sources": [
+            "SULSFSIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "sao-francisco-sul-viajante-P01",
+              "factKey": "sao-francisco-sul-viajante-F01",
+              "text": "O destino é uma cidade no litoral do Sul do Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P02",
+              "factKey": "sao-francisco-sul-viajante-F02",
+              "text": "Ela fica no estado de Santa Catarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P03",
+              "factKey": "sao-francisco-sul-viajante-F03",
+              "text": "Uma baía está presente na paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P04",
+              "factKey": "sao-francisco-sul-viajante-F04",
+              "text": "A baía local é chamada Babitonga.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P05",
+              "factKey": "sao-francisco-sul-viajante-F05",
+              "text": "Um porto integra a história e a economia do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P06",
+              "factKey": "sao-francisco-sul-viajante-F06",
+              "text": "A área do porto fica próxima ao centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P07",
+              "factKey": "sao-francisco-sul-viajante-F07",
+              "text": "O centro histórico apresenta casarões antigos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P08",
+              "factKey": "sao-francisco-sul-viajante-F08",
+              "text": "O conjunto urbano foi tombado pelo Iphan em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P09",
+              "factKey": "sao-francisco-sul-viajante-F09",
+              "text": "O núcleo original protegido abrange cerca de 400 imóveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P10",
+              "factKey": "sao-francisco-sul-viajante-F10",
+              "text": "Sambaquis estão entre os vestígios citados no patrimônio da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P11",
+              "factKey": "sao-francisco-sul-viajante-F11",
+              "text": "Antigas igrejas também integram o conjunto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P12",
+              "factKey": "sao-francisco-sul-viajante-F12",
+              "text": "A Igreja Matriz é dedicada a Nossa Senhora da Graça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P13",
+              "factKey": "sao-francisco-sul-viajante-F13",
+              "text": "O Mercado Municipal faz parte do centro histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P14",
+              "factKey": "sao-francisco-sul-viajante-F14",
+              "text": "A cidade tem um Museu Nacional do Mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P15",
+              "factKey": "sao-francisco-sul-viajante-F15",
+              "text": "O museu ocupa antigos galpões de uma companhia de navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P16",
+              "factKey": "sao-francisco-sul-viajante-F16",
+              "text": "Os galpões do museu ficam à beira da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P17",
+              "factKey": "sao-francisco-sul-viajante-F17",
+              "text": "O centro histórico conta com um trapiche.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P18",
+              "factKey": "sao-francisco-sul-viajante-F18",
+              "text": "Há morros próximos ao núcleo histórico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P19",
+              "factKey": "sao-francisco-sul-viajante-F19",
+              "text": "Um desses relevos é o Morro do Hospício.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P20",
+              "factKey": "sao-francisco-sul-viajante-F20",
+              "text": "O Cineteatro 10 de Novembro integra o patrimônio edificado local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P21",
+              "factKey": "sao-francisco-sul-viajante-F21",
+              "text": "A baía reúne áreas de manguezal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P22",
+              "factKey": "sao-francisco-sul-viajante-F22",
+              "text": "Pesca artesanal é praticada em municípios da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P23",
+              "factKey": "sao-francisco-sul-viajante-F23",
+              "text": "A área costeira inclui praias procuradas por visitantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P24",
+              "factKey": "sao-francisco-sul-viajante-F24",
+              "text": "Enseada e Prainha são balneários citados na área da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-viajante-P25",
+              "factKey": "sao-francisco-sul-viajante-F25",
+              "text": "O município abriga parte de um complexo estuarino.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "sao-francisco-sul-geografo-P01",
+              "factKey": "sao-francisco-sul-geografo-F01",
+              "text": "O núcleo histórico se desenvolveu junto a uma baía estuarina catarinense.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P02",
+              "factKey": "sao-francisco-sul-geografo-F02",
+              "text": "A baía conecta um canal principal ao Oceano Atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P03",
+              "factKey": "sao-francisco-sul-geografo-F03",
+              "text": "O complexo estuarino possui também canais associados ao Palmital e ao Linguado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P04",
+              "factKey": "sao-francisco-sul-geografo-F04",
+              "text": "Na década de 1930, um aterro fechou o canal do Linguado para infraestrutura de transporte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P05",
+              "factKey": "sao-francisco-sul-geografo-F05",
+              "text": "Esse fechamento modificou a dinâmica das águas no interior da baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P06",
+              "factKey": "sao-francisco-sul-geografo-F06",
+              "text": "Manguezais e florestas de planície compõem a paisagem do estuário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P07",
+              "factKey": "sao-francisco-sul-geografo-F07",
+              "text": "Os manguezais participam da manutenção de espécies usadas pela pesca marinha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P08",
+              "factKey": "sao-francisco-sul-geografo-F08",
+              "text": "Pesca artesanal, maricultura, porto e turismo dividem usos da região estuarina.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P09",
+              "factKey": "sao-francisco-sul-geografo-F09",
+              "text": "O porto organizado se localiza junto ao centro histórico da cidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P10",
+              "factKey": "sao-francisco-sul-geografo-F10",
+              "text": "A circulação ferroviária junto ao porto interfere na mobilidade de uma via próxima.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P11",
+              "factKey": "sao-francisco-sul-geografo-F11",
+              "text": "O núcleo tombado reúne a orla da baía e os morros que circundam o centro original.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P12",
+              "factKey": "sao-francisco-sul-geografo-F12",
+              "text": "O tombamento federal do centro histórico ocorreu em 1987.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P13",
+              "factKey": "sao-francisco-sul-geografo-F13",
+              "text": "Até os anos 1950 a ocupação urbana se concentrava entre três morros junto à baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P14",
+              "factKey": "sao-francisco-sul-geografo-F14",
+              "text": "A expansão urbana posterior ultrapassou as elevações que delimitavam o núcleo antigo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P15",
+              "factKey": "sao-francisco-sul-geografo-F15",
+              "text": "O conjunto protegido reúne cerca de 400 imóveis do núcleo original.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P16",
+              "factKey": "sao-francisco-sul-geografo-F16",
+              "text": "As construções do centro incluem casas, igrejas e edifícios de serviços.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P17",
+              "factKey": "sao-francisco-sul-geografo-F17",
+              "text": "Os galpões de uma antiga companhia de navegação passaram a sediar um museu marítimo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P18",
+              "factKey": "sao-francisco-sul-geografo-F18",
+              "text": "O museu associa patrimônio edificado à memória da navegação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSMUSEU"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P19",
+              "factKey": "sao-francisco-sul-geografo-F19",
+              "text": "O conjunto patrimonial inclui vestígios arqueológicos como sambaquis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P20",
+              "factKey": "sao-francisco-sul-geografo-F20",
+              "text": "O centro histórico apresenta comércio e serviços em torno do núcleo cívico e religioso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPATRIMONIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P21",
+              "factKey": "sao-francisco-sul-geografo-F21",
+              "text": "No Censo 2022, o IBGE registrou cerca de 53 mil habitantes no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P22",
+              "factKey": "sao-francisco-sul-geografo-F22",
+              "text": "A região sofreu influência da expansão industrial da vizinha área metropolitana de Joinville.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P23",
+              "factKey": "sao-francisco-sul-geografo-F23",
+              "text": "O turismo em balneários da ilha ganhou destaque a partir do final do século XX.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P24",
+              "factKey": "sao-francisco-sul-geografo-F24",
+              "text": "O Plano Mestre do porto considera patrimônio, transporte e zonas de proteção ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "sao-francisco-sul-geografo-P25",
+              "factKey": "sao-francisco-sul-geografo-F25",
+              "text": "A paisagem de manguezais pertence ao bioma Mata Atlântica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULSFSPORTO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade portuária de Santa Catarina, com centro histórico junto à Baía da Babitonga.",
+        "editorialNotes": [
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

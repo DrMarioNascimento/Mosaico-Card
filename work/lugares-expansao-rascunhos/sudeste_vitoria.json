@@ -1,0 +1,1041 @@
+{
+  "sources": {
+    "SE_VITORIA_IBGE": {
+      "id": "SE_VITORIA_IBGE",
+      "title": "Vitória (ES): Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/es/vitoria",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VITORIA_MUN": {
+      "id": "SE_VITORIA_MUN",
+      "title": "Saiba mais sobre Vitória",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/turista/saiba-mais-sobre-vitoria",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VITORIA_URB": {
+      "id": "SE_VITORIA_URB",
+      "title": "Evolução urbana",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://m.vitoria.es.gov.br/sedec/evolucao-urbana",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VITORIA_PONTE": {
+      "id": "SE_VITORIA_PONTE",
+      "title": "Monumentos culturais: Ponte da Passagem",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/turista/monumentos-culturais",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VITORIA_PALACIO": {
+      "id": "SE_VITORIA_PALACIO",
+      "title": "Palácio Anchieta",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/semc/palacio-anchieta",
+      "checkedAt": "2026-11-14"
+    },
+    "SE_VITORIA_3P": {
+      "id": "SE_VITORIA_3P",
+      "title": "Terceira Ponte liga Vitória e Vila Velha",
+      "publisher": "Prefeitura de Vitória",
+      "url": "https://www.vitoria.es.gov.br/download.php?id=4172&tipo=1",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-cidade-vitoria",
+      "placeId": "cidade-vitoria",
+      "title": "Vitória",
+      "aliases": [
+        "Cidade de Vitória"
+      ],
+      "answerType": "capital",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sudeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Capital brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Vitória"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Florianópolis"
+            },
+            {
+              "id": "C1-O3",
+              "text": "São Luís"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Belém"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Recife"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Salvador"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Rio de Janeiro"
+            },
+            {
+              "id": "C1-O8",
+              "text": "João Pessoa"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Maceió"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Aracaju"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Fortaleza"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Natal"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Vitória",
+          "sources": [
+            "SE_VITORIA_MUN"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Município vizinho ao norte",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Serra"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Olinda"
+            },
+            {
+              "id": "C2-O3",
+              "text": "São José"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Lauro de Freitas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Serra",
+          "sources": [
+            "SE_VITORIA_MUN"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Sede histórica do governo estadual",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Palácio Anchieta"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Palácio das Esmeraldas"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Palácio da Liberdade"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Palácio Rio Branco"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Palácio Anchieta",
+          "sources": [
+            "SE_VITORIA_PALACIO"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Ano de fundação oficialmente comemorado",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "1551"
+            },
+            {
+              "id": "C4-O2",
+              "text": "1554"
+            },
+            {
+              "id": "C4-O3",
+              "text": "1565"
+            },
+            {
+              "id": "C4-O4",
+              "text": "1637"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "1551",
+          "sources": [
+            "SE_VITORIA_MUN"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "cidade-vitoria-viajante-P01",
+              "factKey": "cidade-vitoria-F01",
+              "text": "É uma capital estadual brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P02",
+              "factKey": "cidade-vitoria-F02",
+              "text": "A cidade fica na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P03",
+              "factKey": "cidade-vitoria-F03",
+              "text": "O mar está presente em sua paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P04",
+              "factKey": "cidade-vitoria-F04",
+              "text": "O município inclui ilhas e uma parte continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P05",
+              "factKey": "cidade-vitoria-F05",
+              "text": "Uma baía faz parte da paisagem urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P06",
+              "factKey": "cidade-vitoria-F06",
+              "text": "Manguezais e praias também integram o cenário local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P07",
+              "factKey": "cidade-vitoria-F07",
+              "text": "Um estuário recebe águas de rios e do mar.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P08",
+              "factKey": "cidade-vitoria-F08",
+              "text": "O estado do qual é capital fica entre a Bahia e o Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P09",
+              "factKey": "cidade-vitoria-F09",
+              "text": "A cidade é capital do Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P10",
+              "factKey": "cidade-vitoria-F10",
+              "text": "Ao norte, seu território encontra o município da Serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P11",
+              "factKey": "cidade-vitoria-F11",
+              "text": "Ao sul, faz divisa com Vila Velha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P12",
+              "factKey": "cidade-vitoria-F12",
+              "text": "Cariacica é município vizinho a oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P13",
+              "factKey": "cidade-vitoria-F13",
+              "text": "A fundação oficial da cidade é datada de 1551.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P14",
+              "factKey": "cidade-vitoria-F14",
+              "text": "O sítio foi ocupado por povos indígenas antes da colonização portuguesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P15",
+              "factKey": "cidade-vitoria-F15",
+              "text": "Seu antigo núcleo colonial cresceu em uma ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P16",
+              "factKey": "cidade-vitoria-F16",
+              "text": "A ocupação urbana chegou também à área continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P17",
+              "factKey": "cidade-vitoria-F17",
+              "text": "Nas áreas centrais existem igrejas, praças e escadarias antigas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P18",
+              "factKey": "cidade-vitoria-F18",
+              "text": "O centro histórico passou por aterros e abertura de vias.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P19",
+              "factKey": "cidade-vitoria-F19",
+              "text": "Um edifício histórico chamado Palácio Anchieta abriga a sede do governo estadual.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PALACIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P20",
+              "factKey": "cidade-vitoria-F20",
+              "text": "A Ponte da Passagem conecta a ilha à parte continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P21",
+              "factKey": "cidade-vitoria-F21",
+              "text": "A ponte atual foi inaugurada em 2009.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P22",
+              "factKey": "cidade-vitoria-F22",
+              "text": "Uma passarela para pedestres e ciclistas acompanha essa ponte.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P23",
+              "factKey": "cidade-vitoria-F23",
+              "text": "A Terceira Ponte conecta a capital à cidade de Vila Velha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_3P"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P24",
+              "factKey": "cidade-vitoria-F24",
+              "text": "O município tinha mais de 300 mil habitantes no Censo 2022 do IBGE.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-viajante-P25",
+              "factKey": "cidade-vitoria-F25",
+              "text": "Por causa das luzes dos morros refletidas na baía, a cidade recebeu o apelido de Cidade Presépio.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "cidade-vitoria-geografo-P01",
+              "factKey": "cidade-vitoria-F01",
+              "text": "O objeto desta carta é uma capital estadual da rede urbana brasileira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P02",
+              "factKey": "cidade-vitoria-F02",
+              "text": "O município situa-se na região Sudeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P03",
+              "factKey": "cidade-vitoria-F03",
+              "text": "Sua frente oriental está associada ao litoral atlântico.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P04",
+              "factKey": "cidade-vitoria-F04",
+              "text": "Seu território integra uma porção continental e ilhas, não apenas uma ilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P05",
+              "factKey": "cidade-vitoria-F05",
+              "text": "A baía constitui elemento de articulação do sítio urbano costeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P06",
+              "factKey": "cidade-vitoria-F06",
+              "text": "Manguezais, praias e encostas compõem o mosaico ambiental municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P07",
+              "factKey": "cidade-vitoria-F07",
+              "text": "O sistema estuarino relaciona a drenagem fluvial às águas marinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P08",
+              "factKey": "cidade-vitoria-F08",
+              "text": "O estado no qual fica limita-se ao norte com a Bahia e ao sul com o Rio de Janeiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P09",
+              "factKey": "cidade-vitoria-F09",
+              "text": "A cidade sedia o governo do Espírito Santo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P10",
+              "factKey": "cidade-vitoria-F10",
+              "text": "O município da Serra situa-se ao norte da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P11",
+              "factKey": "cidade-vitoria-F11",
+              "text": "A sul, o território se relaciona com o município de Vila Velha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P12",
+              "factKey": "cidade-vitoria-F12",
+              "text": "O município de Cariacica é vizinho a oeste.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P13",
+              "factKey": "cidade-vitoria-F13",
+              "text": "A fundação oficialmente comemorada é datada de 1551.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P14",
+              "factKey": "cidade-vitoria-F14",
+              "text": "Populações indígenas viviam na região antes da expansão colonial portuguesa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P15",
+              "factKey": "cidade-vitoria-F15",
+              "text": "O núcleo colonial se desenvolveu inicialmente em uma ilha costeira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P16",
+              "factKey": "cidade-vitoria-F16",
+              "text": "A partir de meados do século XX, a urbanização avançou para a porção continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P17",
+              "factKey": "cidade-vitoria-F17",
+              "text": "Igrejas e construções históricas integram o patrimônio cultural da área central.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P18",
+              "factKey": "cidade-vitoria-F18",
+              "text": "Os aterros e as obras viárias modificaram a relação física do centro com a baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_URB"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P19",
+              "factKey": "cidade-vitoria-F19",
+              "text": "O Palácio Anchieta representa a função político-administrativa da capital.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PALACIO"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P20",
+              "factKey": "cidade-vitoria-F20",
+              "text": "A Ponte da Passagem conecta a área insular à porção continental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P21",
+              "factKey": "cidade-vitoria-F21",
+              "text": "A versão atual da ponte foi inaugurada em 2009.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P22",
+              "factKey": "cidade-vitoria-F22",
+              "text": "A passarela adjacente acrescenta uma travessia de pedestres e ciclistas ao canal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_PONTE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P23",
+              "factKey": "cidade-vitoria-F23",
+              "text": "A Terceira Ponte relaciona a capital ao município vizinho de Vila Velha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_3P"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P24",
+              "factKey": "cidade-vitoria-F24",
+              "text": "O município registrou 322.869 habitantes no Censo 2022 do IBGE, sem incluir municípios vizinhos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_IBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "cidade-vitoria-geografo-P25",
+              "factKey": "cidade-vitoria-F25",
+              "text": "O apelido Cidade Presépio associa a ocupação dos morros ao reflexo das luzes na baía.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SE_VITORIA_MUN"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Capital do Espírito Santo, com paisagem urbana insular, continental e estuarina.",
+        "editorialNotes": [
+          "Dados demográficos indicam município e Censo 2022.",
+          "A ligação com Vila Velha pela Terceira Ponte exige fonte própria ao integrar.",
+          "Calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}

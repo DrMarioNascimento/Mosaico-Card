@@ -136,27 +136,27 @@
         },
         {
           "id": "C3",
-          "label": "Monumento histórico",
+          "label": "Contexto histórico do marco na praça",
           "options": [
             {
               "id": "C3-O1",
-              "text": "Marco do Jauru"
+              "text": "Demarcação colonial de fronteiras"
             },
             {
               "id": "C3-O2",
-              "text": "Marco Zero do Equador"
+              "text": "Construção de uma estrada de ferro"
             },
             {
               "id": "C3-O3",
-              "text": "Marco das Três Fronteiras"
+              "text": "Fundação de uma usina hidrelétrica"
             },
             {
               "id": "C3-O4",
-              "text": "Marco da Independência"
+              "text": "Criação de uma rota aérea estadual"
             }
           ],
           "answerId": "C3-O1",
-          "answerText": "Marco do Jauru",
+          "answerText": "Demarcação colonial de fronteiras",
           "sources": [
             "CENTRO_CAC_IPHAN",
             "CENTRO_CAC_SUDECO",

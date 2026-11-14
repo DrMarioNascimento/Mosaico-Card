@@ -1,0 +1,1187 @@
+{
+  "sources": {
+    "CENTRO_ITI_MUN": {
+      "id": "CENTRO_ITI_MUN",
+      "title": "Parque municipal e acessos ao salto",
+      "publisher": "Prefeitura Municipal de Formosa",
+      "url": "https://formosa.go.gov.br/turismo/parque-municipal-do-itiquira-2/",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_ITI_LEI": {
+      "id": "CENTRO_ITI_LEI",
+      "title": "Normas municipais da unidade de conservação",
+      "publisher": "Câmara Municipal de Formosa",
+      "url": "https://sapl.formosa.go.leg.br/ta/161/text",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_ITI_GO": {
+      "id": "CENTRO_ITI_GO",
+      "title": "Ecoturismo em Goiás",
+      "publisher": "Goiás Turismo",
+      "url": "https://www.goiasturismo.go.gov.br/ebooks/material-promocional/ebooks/ecoturismo.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_ITI_MTUR": {
+      "id": "CENTRO_ITI_MTUR",
+      "title": "Formosa e os atrativos naturais",
+      "publisher": "Ministério do Turismo",
+      "url": "https://www.gov.br/turismo/pt-br/assuntos/ultimas-noticia/formosa-berco-das-aguas-e-ecoturismo-no-entorno-de-brasilia",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-parque-itiquira-go",
+      "placeId": "parque-itiquira-go",
+      "title": "Parque Municipal do Itiquira",
+      "aliases": [
+        "Itiquira"
+      ],
+      "answerType": "parque municipal",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "centro-oeste"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Unidade de conservação",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Municipal do Itiquira"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Estadual de Terra Ronca"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Estadual dos Pireneus"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Estadual de Vila Velha"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional da Chapada dos Veadeiros"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional da Serra da Canastra"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional do Iguaçu"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional do Caparaó"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional da Chapada Diamantina"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Estadual do Jalapão"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Estadual do Ibitipoca"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional da Serra da Bodoquena"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Municipal do Itiquira",
+          "sources": [
+            "CENTRO_ITI_MUN",
+            "CENTRO_ITI_LEI",
+            "CENTRO_ITI_GO",
+            "CENTRO_ITI_MTUR"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Atrativo associado",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Queda livre de cerca de 168 metros"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Cânions com florestas de araucária"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Dunas e lagoas de formação sazonal"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Gruta com lago subterrâneo cristalino"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Queda livre de cerca de 168 metros",
+          "sources": [
+            "CENTRO_ITI_MUN",
+            "CENTRO_ITI_LEI",
+            "CENTRO_ITI_GO",
+            "CENTRO_ITI_MTUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Município do parque",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Formosa"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Cavalcante"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Bonito"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Guarani de Goiás"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Formosa",
+          "sources": [
+            "CENTRO_ITI_MUN",
+            "CENTRO_ITI_LEI",
+            "CENTRO_ITI_GO",
+            "CENTRO_ITI_MTUR"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Goiás"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Mato Grosso"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Mato Grosso do Sul"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Minas Gerais"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Goiás",
+          "sources": [
+            "CENTRO_ITI_MUN",
+            "CENTRO_ITI_LEI",
+            "CENTRO_ITI_GO",
+            "CENTRO_ITI_MTUR"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "parque-itiquira-go-viajante-P01",
+              "factKey": "parque-itiquira-go-F01",
+              "text": "É uma unidade de conservação municipal no Brasil.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P02",
+              "factKey": "parque-itiquira-go-F02",
+              "text": "Fica em Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P03",
+              "factKey": "parque-itiquira-go-F03",
+              "text": "A unidade protege uma paisagem do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P04",
+              "factKey": "parque-itiquira-go-F04",
+              "text": "Localiza-se no município de Formosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P05",
+              "factKey": "parque-itiquira-go-F05",
+              "text": "Seu principal atrativo é uma grande queda de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P06",
+              "factKey": "parque-itiquira-go-F06",
+              "text": "O salto tem cerca de 168 metros de altura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P07",
+              "factKey": "parque-itiquira-go-F07",
+              "text": "Existe um caminho calçado até a parte baixa da queda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P08",
+              "factKey": "parque-itiquira-go-F08",
+              "text": "Outra trilha leva à parte alta.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P09",
+              "factKey": "parque-itiquira-go-F09",
+              "text": "No trajeto superior há mirantes.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P10",
+              "factKey": "parque-itiquira-go-F10",
+              "text": "Um deles é chamado Mirante da Serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P11",
+              "factKey": "parque-itiquira-go-F11",
+              "text": "Outro é chamado Mirante do Salto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P12",
+              "factKey": "parque-itiquira-go-F12",
+              "text": "Na parte alta há poços de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P13",
+              "factKey": "parque-itiquira-go-F13",
+              "text": "O acesso pela parte baixa permite observar o grande véu de água.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P14",
+              "factKey": "parque-itiquira-go-F14",
+              "text": "A paisagem pode apresentar arco-íris junto à queda.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P15",
+              "factKey": "parque-itiquira-go-F15",
+              "text": "Andorinhões voam na região do salto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P16",
+              "factKey": "parque-itiquira-go-F16",
+              "text": "A unidade recebe visitantes interessados em caminhadas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P17",
+              "factKey": "parque-itiquira-go-F17",
+              "text": "A área natural tem cursos de água e pequenas quedas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P18",
+              "factKey": "parque-itiquira-go-F18",
+              "text": "Há poços na região destinados à visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P19",
+              "factKey": "parque-itiquira-go-F19",
+              "text": "O parque tem objetivo de educação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P20",
+              "factKey": "parque-itiquira-go-F20",
+              "text": "Pesquisas científicas são previstas nas normas da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P21",
+              "factKey": "parque-itiquira-go-F21",
+              "text": "A proteção é de responsabilidade municipal.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P22",
+              "factKey": "parque-itiquira-go-F22",
+              "text": "O caminho para a parte alta possui desníveis.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P23",
+              "factKey": "parque-itiquira-go-F23",
+              "text": "As condições climáticas podem alterar o acesso à trilha.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P24",
+              "factKey": "parque-itiquira-go-F24",
+              "text": "O local recebe visitantes em uma região de relevo de serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-viajante-P25",
+              "factKey": "parque-itiquira-go-F25",
+              "text": "A água da queda encontra uma parte baixa de vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "parque-itiquira-go-geografo-P01",
+              "factKey": "parque-itiquira-go-F01",
+              "text": "A unidade municipal integra a categoria de proteção integral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P02",
+              "factKey": "parque-itiquira-go-F02",
+              "text": "Seu território situa-se no estado de Goiás.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P03",
+              "factKey": "parque-itiquira-go-F03",
+              "text": "O ambiente protegido pertence ao domínio do Cerrado.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P04",
+              "factKey": "parque-itiquira-go-F04",
+              "text": "O município responsável pela área é Formosa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P05",
+              "factKey": "parque-itiquira-go-F05",
+              "text": "Uma queda expressiva estrutura a paisagem de visitação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P06",
+              "factKey": "parque-itiquira-go-F06",
+              "text": "A queda principal possui aproximadamente 168 metros de altura.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P07",
+              "factKey": "parque-itiquira-go-F07",
+              "text": "O caminho calçado na parte baixa foi concebido para facilitar o acesso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P08",
+              "factKey": "parque-itiquira-go-F08",
+              "text": "Uma trilha distinta conecta o visitante à parte superior do relevo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P09",
+              "factKey": "parque-itiquira-go-F09",
+              "text": "Mirantes ao longo do percurso permitem observar a paisagem da serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P10",
+              "factKey": "parque-itiquira-go-F10",
+              "text": "Um ponto de observação é conhecido como Mirante da Serra.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P11",
+              "factKey": "parque-itiquira-go-F11",
+              "text": "Outro ponto de observação é chamado Mirante do Salto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P12",
+              "factKey": "parque-itiquira-go-F12",
+              "text": "Os poços situados a montante são conhecidos como a garganta do salto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P13",
+              "factKey": "parque-itiquira-go-F13",
+              "text": "Na parte baixa, o observador vê a queda projetar-se sobre o vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P14",
+              "factKey": "parque-itiquira-go-F14",
+              "text": "A água dispersa junto à queda pode proporcionar a observação de arco-íris.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P15",
+              "factKey": "parque-itiquira-go-F15",
+              "text": "A presença de andorinhões integra a observação da fauna local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P16",
+              "factKey": "parque-itiquira-go-F16",
+              "text": "O uso público inclui caminhadas e contemplação da natureza.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P17",
+              "factKey": "parque-itiquira-go-F17",
+              "text": "A drenagem regional combina corredeiras, poços e quedas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P18",
+              "factKey": "parque-itiquira-go-F18",
+              "text": "Os poços integram o conjunto de ambientes aquáticos associados.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P19",
+              "factKey": "parque-itiquira-go-F19",
+              "text": "A unidade oferece oportunidades de educação e interpretação ambiental.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P20",
+              "factKey": "parque-itiquira-go-F20",
+              "text": "As normas também admitem pesquisa científica compatível com a proteção.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P21",
+              "factKey": "parque-itiquira-go-F21",
+              "text": "O município responde pela administração da unidade.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P22",
+              "factKey": "parque-itiquira-go-F22",
+              "text": "O desnível e a natureza do terreno diferenciam os percursos superior e inferior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P23",
+              "factKey": "parque-itiquira-go-F23",
+              "text": "Chuva, descargas elétricas e terreno escorregadio afetam a segurança do percurso superior.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P24",
+              "factKey": "parque-itiquira-go-F24",
+              "text": "A paisagem da unidade integra uma região de relevo serrano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "parque-itiquira-go-geografo-P25",
+              "factKey": "parque-itiquira-go-F25",
+              "text": "A conservação articula visitação e proteção do ambiente de vale.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "CENTRO_ITI_MUN",
+                "CENTRO_ITI_LEI",
+                "CENTRO_ITI_GO",
+                "CENTRO_ITI_MTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "O Parque Municipal do Itiquira, em Formosa (GO), protege um salto de aproximadamente 168 metros e ambientes do Cerrado.",
+        "editorialNotes": [
+          "Fontes públicas vinculadas; calibrar dificuldade em partidas."
+        ]
+      },
+      "review": {
+        "structural": "passed",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "initial-2026-11-14"
+      }
+    }
+  ]
+}

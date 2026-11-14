@@ -55,6 +55,20 @@
       "publisher": "Secretaria Municipal de Turismo de Bonito",
       "url": "https://www.turismo.bonito.ms.gov.br/noticias/bonito-quando-ir-o-que-fazer-dez-coisas-essenciais-para-planejar-sua-visita",
       "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_IBGE": {
+      "id": "CENTRO_BTO_IBGE",
+      "title": "Bonito (MS): população no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/ms/bonito.html",
+      "checkedAt": "2026-11-14"
+    },
+    "CENTRO_BTO_SNORKEL": {
+      "id": "CENTRO_BTO_SNORKEL",
+      "title": "Aquário Natural: flutuação",
+      "publisher": "Secretaria de Turismo de Bonito",
+      "url": "https://www.turismo.bonito.ms.gov.br/aquario-natural-em-bonito-ms",
+      "checkedAt": "2026-11-14"
     }
   },
   "cases": [
@@ -142,7 +156,7 @@
         },
         {
           "id": "C2",
-          "label": "Antigo nome",
+          "label": "Nome histórico de cidade brasileira",
           "options": [
             {
               "id": "C2-O1",
@@ -158,7 +172,7 @@
             },
             {
               "id": "C2-O4",
-              "text": "São João del-Rei"
+              "text": "Vila do Carmo"
             }
           ],
           "answerId": "C2-O1",
@@ -613,13 +627,11 @@
             {
               "id": "pirenopolis-go-viajante-P22",
               "factKey": "pirenopolis-go-F22",
-              "text": "Cavaleiros encenam batalhas durante as Cavalhadas.",
+              "text": "A Festa do Divino também inclui procissões e folias.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_PIRI_IBGE",
-                "CENTRO_PIRI_IPHAN",
                 "CENTRO_PIRI_FESTA"
               ],
               "clueType": "territorio",
@@ -924,14 +936,12 @@
             {
               "id": "pirenopolis-go-geografo-P14",
               "factKey": "pirenopolis-go-F14",
-              "text": "A construção do teatro com estrutura de madeira exige intervenções de conservação específicas.",
+              "text": "O núcleo minerador reunia vias, igrejas e casas de arquitetura simples.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_PIRI_IBGE",
-                "CENTRO_PIRI_IPHAN",
-                "CENTRO_PIRI_FESTA"
+                "CENTRO_PIRI_IPHAN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1068,13 +1078,11 @@
             {
               "id": "pirenopolis-go-geografo-P22",
               "factKey": "pirenopolis-go-F22",
-              "text": "As Cavalhadas encenam um conflito histórico como parte de uma celebração comunitária.",
+              "text": "Folias, procissões e música articulam religião e participação comunitária.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_PIRI_IBGE",
-                "CENTRO_PIRI_IPHAN",
                 "CENTRO_PIRI_FESTA"
               ],
               "clueType": "territorio",
@@ -1239,7 +1247,7 @@
         },
         {
           "id": "C2",
-          "label": "Estilo dos edifícios históricos",
+          "label": "Estilo associado ao acervo urbano tombado pelo Iphan",
           "options": [
             {
               "id": "C2-O1",
@@ -1247,15 +1255,15 @@
             },
             {
               "id": "C2-O2",
-              "text": "Barroco colonial"
+              "text": "Neocolonial"
             },
             {
               "id": "C2-O3",
-              "text": "Gótico medieval"
+              "text": "Neoclássico"
             },
             {
               "id": "C2-O4",
-              "text": "Neoclássico greco-romano"
+              "text": "Modernismo brutalista"
             }
           ],
           "answerId": "C2-O1",
@@ -1297,31 +1305,29 @@
         },
         {
           "id": "C4",
-          "label": "Estado do qual é capital",
+          "label": "Como se organiza o núcleo central planejado?",
           "options": [
             {
               "id": "C4-O1",
-              "text": "Goiás"
+              "text": "Vias radiais convergentes"
             },
             {
               "id": "C4-O2",
-              "text": "Mato Grosso"
+              "text": "Malha regular quadriculada"
             },
             {
               "id": "C4-O3",
-              "text": "Mato Grosso do Sul"
+              "text": "Anéis concêntricos sem eixos radiais"
             },
             {
               "id": "C4-O4",
-              "text": "Tocantins"
+              "text": "Eixos lineares paralelos"
             }
           ],
           "answerId": "C4-O1",
-          "answerText": "Goiás",
+          "answerText": "Vias radiais convergentes",
           "sources": [
-            "CENTRO_GYN_IPHAN",
-            "CENTRO_GYN_MUN",
-            "CENTRO_GYN_ESC"
+            "CENTRO_GYN_MUN"
           ]
         }
       ],
@@ -1396,9 +1402,9 @@
                 "CENTRO_GYN_ESC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -1728,14 +1734,12 @@
             {
               "id": "goiania-go-viajante-P23",
               "factKey": "goiania-go-F23",
-              "text": "O Iphan tombou o conjunto urbano em 2003.",
+              "text": "O tombamento federal do conjunto urbano foi homologado em 2003.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_GYN_IPHAN",
-                "CENTRO_GYN_MUN",
-                "CENTRO_GYN_ESC"
+                "CENTRO_GYN_IPHAN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -1851,9 +1855,9 @@
                 "CENTRO_GYN_ESC"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -2183,14 +2187,12 @@
             {
               "id": "goiania-go-geografo-P23",
               "factKey": "goiania-go-F23",
-              "text": "O tombamento federal ocorreu em 2003.",
+              "text": "O tombamento federal do conjunto urbano foi homologado em 2003.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_GYN_IPHAN",
-                "CENTRO_GYN_MUN",
-                "CENTRO_GYN_ESC"
+                "CENTRO_GYN_IPHAN"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2315,7 +2317,7 @@
             },
             {
               "id": "C1-O10",
-              "text": "Itaúnas"
+              "text": "Conceição da Barra"
             },
             {
               "id": "C1-O11",
@@ -2335,27 +2337,27 @@
         },
         {
           "id": "C2",
-          "label": "Organização das visitas aos atrativos",
+          "label": "Como o sistema municipal organiza as reservas?",
           "options": [
             {
               "id": "C2-O1",
-              "text": "Voucher único com controle de vagas"
+              "text": "Voucher único com controle de vagas por atrativo"
             },
             {
               "id": "C2-O2",
-              "text": "Ingressos livres sem reserva"
+              "text": "Passaporte anual sem reserva por data"
             },
             {
               "id": "C2-O3",
-              "text": "Cadastro anual por sorteio"
+              "text": "Ingresso único com acesso ilimitado aos atrativos"
             },
             {
               "id": "C2-O4",
-              "text": "Passe livre único para parques nacionais"
+              "text": "Inscrição mensal por sorteio de visitantes"
             }
           ],
           "answerId": "C2-O1",
-          "answerText": "Voucher único com controle de vagas",
+          "answerText": "Voucher único com controle de vagas por atrativo",
           "sources": [
             "CENTRO_BTO_SECTUR",
             "CENTRO_BTO_VISITA"
@@ -2363,30 +2365,29 @@
         },
         {
           "id": "C3",
-          "label": "Atividade aquática que se destaca",
+          "label": "Que atividade permite observar peixes na superfície com máscara e snorkel?",
           "options": [
             {
               "id": "C3-O1",
-              "text": "Flutuação para observar a vida aquática"
+              "text": "Flutuação"
             },
             {
               "id": "C3-O2",
-              "text": "Rafting em rios de corredeiras"
+              "text": "Mergulho autônomo com cilindro"
             },
             {
               "id": "C3-O3",
-              "text": "Banho em fontes termais"
+              "text": "Passeio em bote inflável"
             },
             {
               "id": "C3-O4",
-              "text": "Passeio por lagoas salgadas"
+              "text": "Rapel em paredão"
             }
           ],
           "answerId": "C3-O1",
-          "answerText": "Flutuação para observar a vida aquática",
+          "answerText": "Flutuação",
           "sources": [
-            "CENTRO_BTO_SECTUR",
-            "CENTRO_BTO_VISITA"
+            "CENTRO_BTO_SNORKEL"
           ]
         },
         {
@@ -2957,13 +2958,12 @@
             {
               "id": "bonito-ms-geografo-P07",
               "factKey": "bonito-ms-F07",
-              "text": "Cursos de água com elevada transparência são usados na visitação.",
+              "text": "Os rios transparentes são um dos recursos que estruturam o turismo de natureza regional.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -2974,18 +2974,17 @@
             {
               "id": "bonito-ms-geografo-P08",
               "factKey": "bonito-ms-F08",
-              "text": "Passeios permitem observar fauna aquática de água doce.",
+              "text": "O município registrou 23.659 habitantes no Censo 2022, segundo o IBGE.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_IBGE"
               ],
               "clueType": "territorio",
-              "signalStrength": "conexao",
-              "recommendedMoment": "middle",
-              "importance": "relevant",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "critical",
               "twoPlayerSuitable": true
             },
             {
@@ -3025,13 +3024,12 @@
             {
               "id": "bonito-ms-geografo-P11",
               "factKey": "bonito-ms-F11",
-              "text": "Trilhas permitem contato com ambientes terrestres.",
+              "text": "O polo turístico envolve localidades situadas em diferentes municípios da região.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -3042,12 +3040,11 @@
             {
               "id": "bonito-ms-geografo-P12",
               "factKey": "bonito-ms-F12",
-              "text": "Quedas de água também integram a oferta turística.",
+              "text": "Parte dos atrativos anunciados para a região está nos municípios vizinhos de Jardim e Bodoquena.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
                 "CENTRO_BTO_VISITA"
               ],
               "clueType": "territorio",
@@ -3059,13 +3056,12 @@
             {
               "id": "bonito-ms-geografo-P13",
               "factKey": "bonito-ms-F13",
-              "text": "A navegação em botes é uma das atividades divulgadas.",
+              "text": "Limitar vagas diárias permite organizar a pressão de visitantes sobre os atrativos.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -3076,13 +3072,12 @@
             {
               "id": "bonito-ms-geografo-P14",
               "factKey": "bonito-ms-F14",
-              "text": "O mergulho com cilindro integra a oferta de aventura.",
+              "text": "A reserva antecipada articula turistas, agências e operadores locais.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -3093,13 +3088,12 @@
             {
               "id": "bonito-ms-geografo-P15",
               "factKey": "bonito-ms-F15",
-              "text": "O arvorismo compõe as atividades terrestres disponíveis.",
+              "text": "A Praça da Liberdade concentra comércio e serviços para moradores e visitantes.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -3110,13 +3104,12 @@
             {
               "id": "bonito-ms-geografo-P16",
               "factKey": "bonito-ms-F16",
-              "text": "O rapel aparece entre as modalidades de aventura.",
+              "text": "O transporte rodoviário conecta os atrativos à rede urbana do polo regional.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",
@@ -3246,13 +3239,12 @@
             {
               "id": "bonito-ms-geografo-P24",
               "factKey": "bonito-ms-F24",
-              "text": "As rodovias MS-178 e MS-382 compõem a rede de acesso.",
+              "text": "As rodovias estaduais MS-178 e MS-382 integram o acesso à cidade.",
               "relatedFields": [
                 "C1"
               ],
               "sources": [
-                "CENTRO_BTO_SECTUR",
-                "CENTRO_BTO_VISITA"
+                "CENTRO_BTO_SECTUR"
               ],
               "clueType": "territorio",
               "signalStrength": "conexao",

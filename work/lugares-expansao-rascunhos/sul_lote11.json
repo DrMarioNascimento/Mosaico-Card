@@ -1,0 +1,1033 @@
+{
+  "sources": {
+    "SULLIVRTUR": {
+      "id": "SULLIVRTUR",
+      "title": "Apresentação do município",
+      "publisher": "Secretaria de Turismo do Rio Grande do Sul",
+      "url": "https://www.turismo.rs.gov.br/turismo/municipio/visualizar/334",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLIVRPARQUE": {
+      "id": "SULLIVRPARQUE",
+      "title": "Parque Internacional",
+      "publisher": "Prefeitura de Sant’Ana do Livramento",
+      "url": "https://www.santanadolivramento.rs.gov.br/noticia/view/8729/documento?DocumentoSearch%5Bid_documento_categoria%5D=&DocumentoSearch%5Bid_secretaria%5D=12",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLIVRANVISA": {
+      "id": "SULLIVRANVISA",
+      "title": "Fronteiras Saudáveis e Seguras no Mercosul: termo de referência",
+      "publisher": "Anvisa",
+      "url": "https://www.gov.br/anvisa/pt-br/assuntos/noticias-anvisa/2025/anvisa-promove-duplo-simulado-de-campo-na-fronteira-da-paz-entre-brasil-e-uruguai/TR_Oficina_e_Simpsio_Rivera_SantanadoLivramento.pdf",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLIVRMIDR": {
+      "id": "SULLIVRMIDR",
+      "title": "Oficina para parque tecnológico binacional",
+      "publisher": "Ministério da Integração e do Desenvolvimento Regional",
+      "url": "https://www.gov.br/mdr/pt-br/noticias/oficina-impulsiona-criacao-de-parque-tecnologico-binacional-entre-brasil-e-uruguai",
+      "checkedAt": "2026-11-14"
+    },
+    "SULLIVRIBGE": {
+      "id": "SULLIVRIBGE",
+      "title": "População no Censo 2022",
+      "publisher": "IBGE",
+      "url": "https://www.ibge.gov.br/cidades-e-estados/rs/santana-do-livramento.html",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-santana-livramento",
+      "placeId": "santana-livramento",
+      "title": "Sant’Ana do Livramento",
+      "aliases": [
+        "Santana do Livramento"
+      ],
+      "answerType": "cidade",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "BR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": [
+          "sul"
+        ]
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Cidade brasileira",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Sant’Ana do Livramento"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Chuí"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Jaguarão"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Quaraí"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Uruguaiana"
+            },
+            {
+              "id": "C1-O6",
+              "text": "São Borja"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Aceguá"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Barra do Quaraí"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Foz do Iguaçu"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Ponta Porã"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Corumbá"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Dionísio Cerqueira"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Sant’Ana do Livramento",
+          "sources": [
+            "SULLIVRIBGE"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "Cidade vizinha no país limítrofe",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Rivera"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Chuy"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Río Branco"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Artigas"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Rivera",
+          "sources": [
+            "SULLIVRTUR"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Paisagem e atividade regional",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Pampa e vinhedos"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Pantanal e pesca fluvial"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Caatinga e artesanato de couro"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Floresta amazônica e castanha"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Pampa e vinhedos",
+          "sources": [
+            "SULLIVRTUR"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Estado brasileiro",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Rio Grande do Sul"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Santa Catarina"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Paraná"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Mato Grosso do Sul"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Rio Grande do Sul",
+          "sources": [
+            "SULLIVRIBGE"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "santana-livramento-viajante-P01",
+              "factKey": "santana-livramento-viajante-F01",
+              "text": "O destino é uma cidade brasileira próxima de outro país.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P02",
+              "factKey": "santana-livramento-viajante-F02",
+              "text": "Fica no Rio Grande do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P03",
+              "factKey": "santana-livramento-viajante-F03",
+              "text": "O município faz fronteira com o Uruguai.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P04",
+              "factKey": "santana-livramento-viajante-F04",
+              "text": "Do outro lado da divisa está a cidade de Rivera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P05",
+              "factKey": "santana-livramento-viajante-F05",
+              "text": "A divisa urbana é uma fronteira seca.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P06",
+              "factKey": "santana-livramento-viajante-F06",
+              "text": "As cidades vizinhas são chamadas cidades gêmeas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P07",
+              "factKey": "santana-livramento-viajante-F07",
+              "text": "Um parque internacional fica na área central da fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P08",
+              "factKey": "santana-livramento-viajante-F08",
+              "text": "O parque celebra a ligação entre moradores de dois países.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P09",
+              "factKey": "santana-livramento-viajante-F09",
+              "text": "O parque foi inaugurado em 1943.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P10",
+              "factKey": "santana-livramento-viajante-F10",
+              "text": "A região é conhecida como Fronteira da Paz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P11",
+              "factKey": "santana-livramento-viajante-F11",
+              "text": "A paisagem regional inclui campos do Pampa.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P12",
+              "factKey": "santana-livramento-viajante-F12",
+              "text": "Há vinhedos e vinícolas no município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P13",
+              "factKey": "santana-livramento-viajante-F13",
+              "text": "Um roteiro local é chamado Ferradura dos Vinhedos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P14",
+              "factKey": "santana-livramento-viajante-F14",
+              "text": "A criação de ovinos é destaque entre as atividades produtivas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRMIDR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P15",
+              "factKey": "santana-livramento-viajante-F15",
+              "text": "A produção de mel também é importante na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRMIDR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P16",
+              "factKey": "santana-livramento-viajante-F16",
+              "text": "A pecuária aparece na economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P17",
+              "factKey": "santana-livramento-viajante-F17",
+              "text": "A região também produz arroz e soja.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P18",
+              "factKey": "santana-livramento-viajante-F18",
+              "text": "O Cerro de Palomas é uma referência da paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P19",
+              "factKey": "santana-livramento-viajante-F19",
+              "text": "Há um parque municipal junto ao Lago do Batuva.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P20",
+              "factKey": "santana-livramento-viajante-F20",
+              "text": "O lago desse parque foi construído artificialmente.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P21",
+              "factKey": "santana-livramento-viajante-F21",
+              "text": "Uma estação ferroviária antiga integra os atrativos históricos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P22",
+              "factKey": "santana-livramento-viajante-F22",
+              "text": "Há passeios de turismo rural em propriedades da região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P23",
+              "factKey": "santana-livramento-viajante-F23",
+              "text": "O comércio das duas cidades tem ligações cotidianas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P24",
+              "factKey": "santana-livramento-viajante-F24",
+              "text": "Minuano e Charrua são povos ligados à história regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-viajante-P25",
+              "factKey": "santana-livramento-viajante-F25",
+              "text": "O município é lembrado por sua relação com o Pampa gaúcho.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "santana-livramento-geografo-P01",
+              "factKey": "santana-livramento-geografo-F01",
+              "text": "O município integra a faixa de fronteira oeste do Rio Grande do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P02",
+              "factKey": "santana-livramento-geografo-F02",
+              "text": "A fronteira internacional é seca e atravessa o espaço urbano.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P03",
+              "factKey": "santana-livramento-geografo-F03",
+              "text": "A cidade brasileira é contígua à uruguaia Rivera.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P04",
+              "factKey": "santana-livramento-geografo-F04",
+              "text": "A continuidade física da malha das duas cidades caracteriza uma conurbação internacional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P05",
+              "factKey": "santana-livramento-geografo-F05",
+              "text": "O reconhecimento como cidades gêmeas expressa a integração econômica e cultural.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "abertura",
+              "recommendedMoment": "early",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P06",
+              "factKey": "santana-livramento-geografo-F06",
+              "text": "A linha política separa territórios nacionais apesar da continuidade da ocupação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P07",
+              "factKey": "santana-livramento-geografo-F07",
+              "text": "Um parque público inaugurado em 1943 simboliza a integração na fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "decisiva",
+              "recommendedMoment": "late",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P08",
+              "factKey": "santana-livramento-geografo-F08",
+              "text": "O parque é compartilhado por moradores brasileiros e uruguaios.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRPARQUE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P09",
+              "factKey": "santana-livramento-geografo-F09",
+              "text": "O comércio das duas cidades inclui ofertas complementares em cada lado da fronteira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P10",
+              "factKey": "santana-livramento-geografo-F10",
+              "text": "Fluxos de moradores e visitantes articulam as economias das duas localidades.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P11",
+              "factKey": "santana-livramento-geografo-F11",
+              "text": "A região fronteiriça demanda cooperação entre os sistemas de saúde dos dois países.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P12",
+              "factKey": "santana-livramento-geografo-F12",
+              "text": "Um estudo de 2025 registra esforços para resposta sanitária bilateral.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P13",
+              "factKey": "santana-livramento-geografo-F13",
+              "text": "O documento de 2025 descreve projetos de cooperação ligados a hospital e aeroporto.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRANVISA"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P14",
+              "factKey": "santana-livramento-geografo-F14",
+              "text": "A produção de ovinos e de mel é destacada na economia local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRMIDR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P15",
+              "factKey": "santana-livramento-geografo-F15",
+              "text": "O turismo rural integra vinícolas e produtores em uma rota temática.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P16",
+              "factKey": "santana-livramento-geografo-F16",
+              "text": "O roteiro da Ferradura dos Vinhedos se relaciona à vitivinicultura regional.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P17",
+              "factKey": "santana-livramento-geografo-F17",
+              "text": "Pecuária e lavouras de arroz e soja compõem atividades do território.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P18",
+              "factKey": "santana-livramento-geografo-F18",
+              "text": "As paisagens campestres do Pampa envolvem as áreas rurais do município.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P19",
+              "factKey": "santana-livramento-geografo-F19",
+              "text": "O Cerro de Palomas se destaca como elemento do relevo na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P20",
+              "factKey": "santana-livramento-geografo-F20",
+              "text": "Um lago artificial integra parque público na entrada da área urbana.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P21",
+              "factKey": "santana-livramento-geografo-F21",
+              "text": "Uma antiga estação ferroviária é reconhecida como referência histórica local.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P22",
+              "factKey": "santana-livramento-geografo-F22",
+              "text": "A memória regional inclui os povos indígenas Minuano e Charrua.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P23",
+              "factKey": "santana-livramento-geografo-F23",
+              "text": "O município passou à categoria de vila e se desmembrou de Alegrete em 1857.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRTUR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P24",
+              "factKey": "santana-livramento-geografo-F24",
+              "text": "O Censo do IBGE de 2022 registrou cerca de 84 mil habitantes no município brasileiro.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRIBGE"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "santana-livramento-geografo-P25",
+              "factKey": "santana-livramento-geografo-F25",
+              "text": "Um projeto de parque tecnológico propõe cooperação entre instituições dos dois países.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "SULLIVRMIDR"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Cidade brasileira na fronteira seca com Rivera, no Uruguai, com área urbana contígua e parque binacional.",
+        "editorialNotes": [
+          "O recorte é o município brasileiro; Rivera integra as relações territoriais, mas não o gabarito focal.",
+          "Fontes institucionais consultadas; faltam revisão comparativa e calibração em partidas."
+        ]
+      },
+      "review": {
+        "structural": "pending-integration-validation",
+        "sourceLinked": true,
+        "factual": "initial-editorial-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "reviewed-2026-11-14"
+      }
+    }
+  ]
+}
