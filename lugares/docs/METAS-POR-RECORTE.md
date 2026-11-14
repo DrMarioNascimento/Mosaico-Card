@@ -8,10 +8,10 @@ Um lugar só conta como jogável após ter os dois perfis completos, quatro camp
 
 | Recorte | Jogáveis | Meta | Faltam |
 |---|---:|---:|---:|
-| Brasil | 15 | 30 | 15 |
-| América | 18 | 30 | 12 |
-| Europa | 3 | 30 | 27 |
-| África | 6 | 30 | 24 |
+| Brasil | 17 | 30 | 13 |
+| América | 20 | 30 | 10 |
+| Europa | 5 | 30 | 25 |
+| África | 8 | 30 | 22 |
 | Ásia | 6 | 30 | 24 |
 | Oceania | 6 | 30 | 24 |
 | Antártida | 7 | 30 | 23 |
@@ -26,13 +26,13 @@ Para evitar que a meta de 30 se concentre em uma região, o planejamento parte d
 
 | Região | Jogáveis | Mínimo inicial | Faltam |
 |---|---:|---:|---:|
-| Norte | 2 | 6 | 4 |
-| Nordeste | 5 | 6 | 1 |
+| Norte | 3 | 6 | 3 |
+| Nordeste | 6 | 6 | 0 |
 | Centro-Oeste | 3 | 6 | 3 |
 | Sudeste | 2 | 6 | 4 |
 | Sul | 3 | 6 | 3 |
 
-Os filtros Norte e Sudeste agora têm dois lugares cada, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
+Os filtros Norte e Sudeste agora têm, respectivamente, três e dois lugares, mas continuam com pouca variedade. É preciso aumentar cada grupo antes de considerá-lo adequado a várias rodadas.
 
 ## Critérios de autoria e revisão
 

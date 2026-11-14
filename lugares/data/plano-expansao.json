@@ -1,6 +1,6 @@
 {
   "status": "Plano editorial: metas por recorte; candidatos não são lugares jogáveis.",
-  "targetPlaces": 137,
+  "targetPlaces": 139,
   "draftedPlaces": [
     "Florianópolis",
     "Parque Nacional dos Lençóis Maranhenses",
@@ -47,7 +47,13 @@
     "Curitiba",
     "Kyoto",
     "Monte Vinson",
-    "Vales Secos de McMurdo"
+    "Vales Secos de McMurdo",
+    "Veneza",
+    "Acrópole de Atenas",
+    "Medina de Marrakech",
+    "Igrejas escavadas de Lalibela",
+    "Jalapão",
+    "Parque Nacional da Chapada Diamantina"
   ],
   "groups": {
     "Brasil Norte": [
@@ -145,7 +151,8 @@
       "Alpes",
       "Rio Danúbio",
       "Veneza",
-      "Porto"
+      "Porto",
+      "Acrópole de Atenas"
     ],
     "África": [
       "Egito",
@@ -163,7 +170,8 @@
       "Cataratas Vitória",
       "Serengeti",
       "Delta do Okavango",
-      "Monte Quênia"
+      "Monte Quênia",
+      "Igrejas escavadas de Lalibela"
     ],
     "Ásia": [
       "Japão",

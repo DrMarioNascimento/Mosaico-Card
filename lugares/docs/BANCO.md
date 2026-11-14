@@ -2925,3 +2925,408 @@ Os Vales Secos de McMurdo reúnem áreas de terreno exposto, geleiras próximas 
 - Vales com solo exposto diferem de extensões de gelo continental flutuante.
 - A localização é associada ao setor da Terra de Vitória, na Antártida.
 - A identificação articula aridez polar, terreno exposto e ecossistemas lacustres.
+
+
+## Ampliação da Europa: cidade lagunar e sítio arqueológico
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Veneza
+
+Veneza é uma cidade histórica da Itália organizada em ilhas e canais, integrada à paisagem de sua lagoa.
+
+- **Cidade**: Veneza.
+- **Ambiente urbano**: Ilhas e canais em uma lagoa.
+- **Praça histórica**: Praça de São Marcos.
+- **País**: Itália.
+
+**Viajante**
+
+- O destino é uma cidade europeia ligada à água.
+- A cidade está no nordeste da Itália.
+- Várias ilhas pequenas compõem o núcleo urbano.
+- A UNESCO descreve 118 pequenas ilhas.
+- Canais separam e conectam partes da cidade.
+- Alguns trajetos podem ser feitos por embarcações.
+- O Grande Canal é um dos canais conhecidos.
+- Há também um canal associado a Giudecca.
+- A lagoa e a cidade formam um conjunto reconhecido.
+- O desenvolvimento da cidade foi ligado ao comércio marítimo.
+- A posição na lagoa ajudou a orientar sua história.
+- O núcleo tornou-se uma potência marítima na Idade Média.
+- Um importante espaço público é a Praça de São Marcos.
+- Junto à praça há uma basílica.
+- Um palácio ligado ao governo histórico fica nessa área.
+- A lagoa possui outros núcleos além da cidade principal.
+- Murano é uma das ilhas associadas à lagoa.
+- Torcello também integra a área lagunar.
+- A região tem história ligada à navegação.
+- As ilhas e os canais fazem parte do desenho urbano.
+- O patrimônio inclui casas, praças e igrejas.
+- A água alta pode ameaçar construções.
+- A UNESCO reconhece a cidade e a lagoa.
+- O lugar pode ser comparado a outras cidades próximas de rios e mar.
+- Para identificar, combine região italiana, canais e praça histórica.
+
+**Geógrafo**
+
+- O núcleo urbano se desenvolveu em um ambiente lagunar.
+- A localização política situa o destino na região italiana de Vêneto.
+- A ocupação histórica se distribui por um arquipélago de pequenas ilhas.
+- A implantação insular é apresentada como um conjunto de 118 ilhas.
+- A rede de canais organiza a mobilidade entre setores insulares.
+- O transporte aquático responde à configuração lagunar da cidade.
+- A rede hidrográfica urbana inclui o Grande Canal.
+- O sistema de circulação inclui o Canal da Giudecca.
+- O patrimônio inscrito compreende a cidade e o ambiente lagunar.
+- A trajetória urbana incluiu a formação de uma potência comercial marítima.
+- A relação com o ambiente aquático influenciou a organização urbana.
+- Sua projeção comercial marítima ampliou-se a partir do século X.
+- A Piazza San Marco integra o conjunto monumental.
+- A arquitetura religiosa participa do conjunto da Praça de São Marcos.
+- O Palazzo Ducale integra a composição monumental da praça.
+- A área inscrita inclui assentamentos e ilhas em toda a lagoa.
+- O conjunto lagunar inclui a ilha de Murano.
+- A ocupação histórica da lagoa inclui a ilha de Torcello.
+- A posição no Adriático favoreceu redes marítimas e comerciais.
+- A morfologia da cidade relaciona assentamentos e circulação aquática.
+- O valor arquitetônico abrange monumentos e residências históricas.
+- Marés elevadas e ondas contribuem para riscos ao patrimônio lagunar.
+- O conjunto urbano e ambiental possui inscrição internacional.
+- A distinção exige combinar lagoa, ilhas e canais, não somente presença de água.
+- A identificação articula posição em Vêneto, rede lagunar e Praça de São Marcos.
+
+### Acrópole de Atenas
+
+A Acrópole de Atenas reúne monumentos da Grécia antiga, incluindo o Partenon, em uma colina associada ao culto de Atena.
+
+- **Sítio**: Acrópole de Atenas.
+- **Templo do conjunto**: Partenon.
+- **Divindade protetora**: Atena.
+- **Cidade**: Atenas.
+
+**Viajante**
+
+- O destino é um conjunto monumental sobre uma colina.
+- A colina fica em uma cidade da Grécia.
+- Um templo conhecido faz parte do conjunto.
+- O templo se relaciona a uma deusa protetora da cidade.
+- O nome da deusa é Atena.
+- A colina tem outros edifícios além do templo principal.
+- Os Propileus formam uma entrada monumental.
+- O Erecteion é outro dos edifícios históricos.
+- Há também um templo de Atena Nice.
+- Muitas obras foram construídas no século V antes da era comum.
+- O governante Péricles se associou ao programa de obras.
+- Arquitetos e escultores participaram do projeto.
+- Fídias é um dos escultores associados ao empreendimento.
+- A colina tem lados íngremes.
+- O topo é relativamente plano.
+- Muros de fortificação cercaram a parte alta.
+- A colina teve usos anteriores ao período clássico.
+- Na fase micênica havia uma residência de governante.
+- A função religiosa ganhou importância ao longo do tempo.
+- As construções sofreram danos em diferentes períodos.
+- O conjunto é patrimônio reconhecido pela UNESCO.
+- O lugar se relaciona à história da Grécia antiga.
+- Um dos monumentos é o Partenon.
+- A colina e seus monumentos fazem parte de uma cidade ainda habitada.
+- Para identificar, combine colina, Partenon e divindade protetora.
+
+**Geógrafo**
+
+- O sítio arqueológico ocupa uma elevação rochosa.
+- A localização do complexo está na cidade grega de Atenas.
+- O Partenon é um dos monumentos da colina.
+- Atena era venerada como divindade associada à cidade.
+- A divindade protetora cultuada no sítio era Atena.
+- O complexo reúne templos e estruturas monumentais distintas.
+- A estrutura de acesso é conhecida como Propileus.
+- O Erecteion integra o conjunto construído na colina.
+- O templo de Atena Nice compõe o patrimônio do sítio.
+- O principal programa monumental pertence ao século V a.C.
+- A liderança política de Péricles é ligada à construção clássica.
+- O conjunto resultou da atuação de diferentes arquitetos e artistas.
+- A equipe artística incluiu o escultor Fídias.
+- A topografia rochosa condicionou a posição e o acesso aos monumentos.
+- O cume oferece uma superfície aproximadamente plana sobre a elevação.
+- A ocupação histórica incluiu estruturas defensivas na colina.
+- A história do local inclui uma fase micênica anterior aos monumentos clássicos.
+- A ocupação anterior incluía residência protegida por fortificações.
+- A transformação do sítio incluiu a consolidação de cultos religiosos.
+- A conservação precisa lidar com danos acumulados ao longo de séculos.
+- O sítio possui inscrição internacional por valores culturais.
+- O conjunto testemunha arquitetura e práticas religiosas gregas antigas.
+- O templo conhecido como Partenon integra a paisagem monumental.
+- O sítio arqueológico se insere no tecido urbano de uma capital contemporânea.
+- A identificação articula topografia, arquitetura clássica e culto de Atena.
+
+
+## Ampliação África: centros históricos e patrimônio religioso
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Medina de Marrakech
+
+A Medina de Marrakech, no Marrocos, preserva um centro histórico fundado pelos almorávidas com muralhas, mercados e monumentos.
+
+- **Centro histórico**: Medina de Marrakech.
+- **Dinastia fundadora**: Almorávidas.
+- **Mesquita destacada**: Mesquita Koutoubia.
+- **País**: Marrocos.
+
+**Viajante**
+
+- O destino é um centro histórico no norte da África.
+- A cidade fica no Marrocos.
+- O centro histórico é chamado medina.
+- A fundação da cidade é situada entre 1070 e 1072.
+- Os almorávidas estão ligados à fundação.
+- Mais tarde, a cidade teve importância sob os almóadas.
+- O local foi centro político e econômico.
+- Sua influência alcançou o norte da África e a Andaluzia.
+- Muralhas cercam a medina.
+- Portões monumentais integram essas estruturas.
+- Uma mesquita conhecida tem um minarete elevado.
+- A mesquita é conhecida como Koutoubia.
+- Seu minarete tem cerca de 77 metros.
+- A área histórica inclui uma kasbah.
+- Jardins também fazem parte do patrimônio.
+- A Praça Jamaâ El Fna é um espaço cultural conhecido.
+- As ruas da medina formam uma trama densa.
+- Mercados e oficinas fazem parte da vida local.
+- As atividades tradicionais convivem com a vida contemporânea.
+- O Palácio Bahia está entre os edifícios históricos.
+- Também existem túmulos associados à dinastia saadiana.
+- O Palácio Badiâ é outro elemento histórico.
+- A conservação precisa considerar a pressão urbana.
+- A UNESCO reconhece a medina como patrimônio mundial.
+- Para identificar, combine país, medina, mesquita e praça.
+
+**Geógrafo**
+
+- O recorte integra uma cidade histórica norte-africana.
+- A localização administrativa é o Marrocos.
+- A unidade patrimonial corresponde a uma medina urbana.
+- A origem urbana reconhecida remonta ao século XI.
+- A dinastia almorávida fundou o núcleo histórico.
+- A trajetória política inclui o período da dinastia almóada.
+- A cidade exerceu funções políticas, culturais e comerciais.
+- A relevância histórica ultrapassou o território marroquino.
+- O perímetro histórico é marcado por estruturas defensivas.
+- A arquitetura defensiva inclui acessos monumentais.
+- Um marco religioso do conjunto apresenta um minarete de grande altura.
+- A mesquita Koutoubia é um elemento destacado da paisagem histórica.
+- A torre da mesquita atinge aproximadamente 77 metros.
+- O conjunto patrimonial inclui o setor conhecido como kasbah.
+- A paisagem reconhecida inclui áreas de jardim associadas à cidade.
+- A praça integra práticas culturais e a dinâmica urbana da medina.
+- O tecido histórico inclui uma rede de passagens e ruas estreitas.
+- O ambiente urbano reúne comércio e atividades artesanais.
+- O patrimônio constitui um centro histórico vivo, não apenas ruínas.
+- O conjunto urbano inclui o Palácio Bahia.
+- O patrimônio inclui os Túmulos Saadianos.
+- As ruínas do Palácio Badiâ integram os exemplos arquitetônicos.
+- Alterações urbanas podem afetar a integridade do patrimônio.
+- O centro histórico possui reconhecimento internacional de valor cultural.
+- A identificação articula localização marroquina e monumentos da medina.
+
+### Igrejas escavadas de Lalibela
+
+As igrejas medievais de Lalibela, na Etiópia, foram talhadas na rocha e permanecem associadas à peregrinação cristã.
+
+- **Conjunto**: Igrejas escavadas de Lalibela.
+- **Técnica das construções**: Escavação de blocos na rocha.
+- **Igreja de planta em cruz**: Biete Ghiorgis.
+- **País**: Etiópia.
+
+**Viajante**
+
+- O destino reúne igrejas em uma região montanhosa.
+- O conjunto fica na Etiópia.
+- As igrejas foram escavadas na própria rocha.
+- Não são igrejas montadas com blocos transportados da mesma forma que uma alvenaria comum.
+- O conjunto reúne onze igrejas.
+- A construção está associada ao rei que deu nome ao local.
+- A proposta é relacionada a uma nova Jerusalém.
+- As igrejas são lugar de peregrinação.
+- A tradição religiosa local está ligada ao cristianismo etíope.
+- O conjunto apresenta grupos de igrejas em lados diferentes de um curso d’água.
+- O curso d’água é conhecido como rio Jordão.
+- Uma das igrejas fica isolada das outras.
+- Essa igreja isolada é conhecida como Biete Ghiorgis.
+- Sua planta é em forma de cruz.
+- Passagens escavadas conectam setores.
+- As escavações também incluem canais de drenagem.
+- Portas e janelas foram talhadas nos blocos rochosos.
+- Algumas igrejas apresentam pinturas murais.
+- A tradição relaciona o projeto ao período medieval.
+- As igrejas preservam funções religiosas no presente.
+- Perto do conjunto há construções residenciais tradicionais.
+- Essas casas usam pedra local.
+- O patrimônio pode ser comparado a outras obras talhadas na rocha.
+- A UNESCO reconhece o conjunto como patrimônio.
+- Para identificar, combine país, igrejas monolíticas e peregrinação.
+
+**Geógrafo**
+
+- O recorte patrimonial compreende igrejas medievais em relevo montanhoso.
+- A localização política situa o patrimônio na Etiópia.
+- A técnica principal consiste em talhar estruturas monolíticas na rocha.
+- Os edifícios foram esculpidos a partir da rocha existente.
+- A inscrição patrimonial abrange onze igrejas medievais.
+- A tradição atribui o projeto a um rei homônimo do destino.
+- O projeto histórico é descrito como a criação de uma nova Jerusalém.
+- O conjunto mantém importância como destino de devoção religiosa.
+- O patrimônio conserva significado para o cristianismo da Etiópia.
+- A organização espacial inclui grupos ao norte e ao sul de um rio.
+- A divisão do conjunto é relacionada a um rio denominado Jordão.
+- O edifício de São Jorge ocupa posição separada dos dois grupos principais.
+- A denominação Biete Ghiorgis corresponde à igreja de São Jorge.
+- A configuração em cruz distingue a igreja de São Jorge.
+- O conjunto dispõe de caminhos e trincheiras talhados na rocha.
+- A engenharia do sítio utiliza valas para condução de água.
+- A escavação modelou aberturas e elementos arquitetônicos.
+- A decoração interna de parte do conjunto inclui pinturas.
+- A construção é associada ao período medieval etíope.
+- A continuidade do uso devocional integra o valor cultural.
+- A paisagem cultural inclui casas circulares tradicionais próximas às igrejas.
+- A arquitetura vernacular descrita utiliza pedra da região.
+- A técnica de escavação permite comparação com outros sítios rupestres.
+- As onze igrejas possuem reconhecimento internacional.
+- A identificação articula localização etíope, técnica rupestre e uso religioso.
+
+
+## Ampliação do Norte e Nordeste brasileiros
+
+As fontes institucionais constam do banco; a calibração das pistas em partidas permanece pendente.
+
+### Jalapão
+
+O Jalapão é uma região do Tocantins com dunas, serras, águas e fervedouros; o recorte regional não se limita ao parque estadual.
+
+- **Região**: Jalapão.
+- **Elemento arenoso marcante**: Dunas alaranjadas.
+- **Nome das surgências de água**: Fervedouros.
+- **Estado**: Tocantins.
+
+**Viajante**
+
+- O destino é uma região do estado do Tocantins.
+- A paisagem reúne dunas e águas abundantes.
+- As dunas apresentam areia alaranjada.
+- A região também tem rios e cachoeiras.
+- Há nascentes conhecidas como fervedouros.
+- Nos fervedouros, a areia se movimenta com a água que brota.
+- Alguns visitantes relatam flutuar nesses locais.
+- A região inclui áreas de Cerrado.
+- Há serras e formações rochosas.
+- A Serra do Espírito Santo está entre as referências da região.
+- A Cachoeira da Velha é um dos atrativos.
+- A Cachoeira do Formiga também aparece entre os atrativos.
+- Dunas e água não existem apenas nos Lençóis Maranhenses.
+- O recorte tem um parque de categoria estadual.
+- Nem todos os atrativos regionais devem ser presumidos dentro do parque.
+- Há comunidades tradicionais na região.
+- Mumbuca é uma comunidade quilombola de Mateiros.
+- O artesanato local usa capim-dourado.
+- As peças podem ter cor que lembra ouro.
+- A atividade artesanal envolve trabalho de comunidades locais.
+- Há trilhas e atividades de turismo de natureza.
+- Rios de água clara aparecem em várias paisagens.
+- O estado pertence à região Norte do Brasil.
+- O local pode ser comparado a parques com dunas do Nordeste.
+- Para identificar, combine Tocantins, dunas e fervedouros.
+
+**Geógrafo**
+
+- O recorte regional está situado no Tocantins, no Norte brasileiro.
+- O conjunto territorial combina feições arenosas e uma rede de águas superficiais.
+- A coloração das dunas é um dos elementos visuais da região.
+- A paisagem inclui cursos fluviais e quedas d’água.
+- Os fervedouros são ambientes de surgência de água na região.
+- A saída ascendente de água movimenta o material arenoso.
+- O movimento da água e da areia influencia a experiência de flutuação.
+- O recorte se insere em paisagens do bioma Cerrado.
+- O relevo regional reúne elevações e afloramentos rochosos.
+- A Serra do Espírito Santo compõe o conjunto paisagístico regional.
+- O recorte regional inclui uma queda conhecida como Cachoeira da Velha.
+- A região reúne diferentes quedas d’água, incluindo a do Formiga.
+- A associação entre areia e água ocorre em diferentes ambientes brasileiros.
+- Uma das unidades protegidas da região é um parque estadual.
+- O recorte regional é mais amplo que o limite da unidade de conservação.
+- A paisagem regional envolve também comunidades e práticas culturais.
+- A Vila Mumbuca está associada à comunidade quilombola no município de Mateiros.
+- A produção artesanal utiliza a haste de uma planta conhecida como capim-dourado.
+- A aparência dourada do material é um atributo do artesanato regional.
+- O conhecimento e a produção artesanal estão associados a comunidades da região.
+- O uso público inclui deslocamentos e experiências em ambientes naturais.
+- A rede hidrográfica contribui para a diversidade cênica regional.
+- O enquadramento territorial é Tocantins, na região Norte.
+- A posição interiorana e o estado ajudam a distingui-lo de áreas costeiras com dunas.
+- A identificação articula posição estadual, relevo arenoso e surgências.
+
+### Parque Nacional da Chapada Diamantina
+
+O Parque Nacional da Chapada Diamantina, na Bahia, protege parte da Serra do Sincorá e reúne diferentes ambientes e cachoeiras.
+
+- **Parque**: Parque Nacional da Chapada Diamantina.
+- **Serra protegida em parte**: Serra do Sincorá.
+- **Cachoeira conhecida**: Cachoeira da Fumaça.
+- **Estado**: Bahia.
+
+**Viajante**
+
+- O destino é um parque nacional brasileiro.
+- Ele fica no estado da Bahia.
+- O parque protege parte da Serra do Sincorá.
+- Essa serra faz parte da Serra do Espinhaço.
+- O Espinhaço se estende por Minas Gerais e Bahia.
+- O ambiente inclui áreas de Caatinga.
+- Há também áreas de Cerrado e Mata Atlântica.
+- Campos rupestres aparecem em trilhas do parque.
+- A área tem caminhos para caminhadas de vários dias.
+- O Vale do Pati é uma referência de travessia.
+- No vale há possibilidade de hospedagem em casas de moradores.
+- A Cachoeira da Fumaça é uma queda conhecida.
+- A trilha para ver essa cachoeira pode sair do Vale do Capão.
+- A vista da cachoeira pode ser feita a partir da parte alta.
+- O lugar também inclui ambientes alagados.
+- Marimbus é uma área alagada da região.
+- Cavernas aparecem entre os ambientes do parque.
+- O parque abrange diferentes municípios baianos.
+- Palmeiras abriga a sede administrativa.
+- Lençóis é um dos municípios de acesso.
+- Andaraí também aparece entre os municípios de acesso.
+- A proteção combina montanhas, rios e diversidade ecológica.
+- O parque não é o mesmo que o dos Lençóis Maranhenses.
+- A gestão federal é feita por um órgão de conservação.
+- Para identificar, combine Bahia, Serra do Sincorá e Cachoeira da Fumaça.
+
+**Geógrafo**
+
+- A unidade de conservação selecionada é um parque nacional.
+- A localização administrativa é a Bahia.
+- A unidade inclui setores da Serra do Sincorá.
+- A Serra do Sincorá corresponde a uma porção da cadeia do Espinhaço.
+- A cadeia montanhosa mencionada atravessa dois estados brasileiros.
+- O recorte protegido abrange ambientes associados à Caatinga.
+- A unidade reúne ambientes de três biomas brasileiros.
+- O mosaico de vegetação inclui campos rupestres.
+- O uso público inclui travessias em rede de trilhas.
+- O Vale do Pati integra os roteiros de caminhada da região protegida.
+- A ocupação humana local participa de opções de acolhimento na travessia.
+- O parque inclui a cachoeira conhecida como Fumaça.
+- Um acesso à observação da queda parte da região do Capão, em Palmeiras.
+- A modalidade citada pelo ICMBio permite observar a queda por cima.
+- A diversidade do parque compreende uma área conhecida como Marimbus.
+- O recorte inclui a área úmida denominada Marimbus.
+- A diversidade paisagística inclui cavidades naturais.
+- Os acessos e limites envolvem vários municípios da Bahia.
+- A administração da unidade está sediada no município de Palmeiras.
+- O município de Lençóis integra a lista de acessos ao parque.
+- A relação territorial inclui o município de Andaraí.
+- A conservação integra relevo, hidrografia e diferentes ambientes vegetais.
+- A palavra Lençóis em um município baiano não identifica o parque maranhense.
+- A unidade federal está vinculada ao ICMBio.
+- A identificação articula estado, cadeia de relevo e queda d’água.
