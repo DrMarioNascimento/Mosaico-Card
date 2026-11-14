@@ -1320,3 +1320,403 @@ O Rio de Janeiro reúne elementos naturais e culturais como a Baía de Guanabara
 - A conservação da cobertura vegetal ocorre em contexto metropolitano.
 - As relações entre natureza e cidade influenciaram expressões artísticas e projetos urbanos.
 - A identificação depende da combinação de baía, parque florestal e marco do Corcovado.
+
+
+## Ampliação por recorte: Belém, Ópera de Sydney, Uluru-Kata Tjuta e Kilimanjaro
+
+As fontes institucionais constam do banco; as pautas exigem calibração em partidas.
+
+### Belém
+
+Belém, capital do Pará, tem um núcleo histórico ligado ao Forte do Presépio e ao Theatro da Paz, em uma trajetória influenciada pelo comércio da borracha.
+
+- **Cidade**: Belém.
+- **Forte associado ao núcleo inicial**: Forte do Presépio.
+- **Teatro histórico**: Theatro da Paz.
+- **Estado brasileiro**: Pará.
+
+**Viajante**
+
+- Esta é uma cidade brasileira na região amazônica.
+- O lugar é capital de um estado da região Norte.
+- Seu estado é o Pará.
+- Uma construção histórica foi fundada em 1616.
+- O forte que deu início ao núcleo é chamado Forte do Presépio.
+- A ocupação histórica relacionou-se à foz do rio Pará.
+- A história da cidade inclui o comércio da borracha.
+- O apogeu econômico mencionado pelo Iphan se estende de 1890 a 1920.
+- Casas antigas têm fachadas revestidas de azulejos.
+- Os azulejos ajudaram a adaptar construções ao clima úmido.
+- O lugar possui um teatro histórico de ópera.
+- O teatro é conhecido como Theatro da Paz.
+- Esse teatro foi inaugurado em 1878.
+- Um teatro de outra capital amazônica foi inaugurado em 1896.
+- O teatro local foi tombado pelo Iphan em 1963.
+- A arquitetura do teatro passou por reformas.
+- Uma reforma em 1904 alterou o pórtico.
+- A reforma reduziu o número de colunas da fachada de sete para seis.
+- O teto de uma sala tem decoração de motivos regionais.
+- A cidade tem um centro histórico protegido.
+- A formação inicial esteve ligada à expansão colonial portuguesa.
+- Um teatro histórico era chamado Nossa Senhora da Paz.
+- A cidade desenvolveu relações comerciais e culturais por rios.
+- A trajetória do lugar cruza patrimônio, borracha e rios.
+- Para diferenciá-la de Manaus, compare os nomes e datas dos teatros.
+
+**Geógrafo**
+
+- A localização urbana integra o espaço amazônico brasileiro.
+- O destino desempenha função de capital estadual na região Norte.
+- A localização político-administrativa corresponde ao Pará.
+- O núcleo colonial se associou à construção de um forte em 1616.
+- A implantação colonial inicial relaciona-se ao Forte do Presépio.
+- O sítio foi implantado em área ligada à foz do rio Pará.
+- O comércio do látex contribuiu para a expansão econômica urbana.
+- O crescimento da Belle Époque local foi associado ao comércio da borracha.
+- A arquitetura civil histórica emprega revestimento cerâmico nas fachadas.
+- O revestimento é relacionado às condições de umidade do ambiente tropical.
+- A estrutura cultural monumental integra a história da modernização urbana.
+- O edifício cultural chama-se Theatro da Paz.
+- A inauguração da casa cultural ocorreu em 1878.
+- O Teatro Amazonas, de outra cidade, foi inaugurado posteriormente ao teatro local.
+- A proteção federal do edifício cultural remonta a 1963.
+- Intervenções posteriores alteraram elementos do projeto original.
+- A intervenção do começo do século XX modificou a composição do pórtico.
+- A alteração arquitetônica incluiu a redução de colunas do pórtico.
+- A ornamentação interna incorpora referências regionais amazônicas.
+- O patrimônio urbano preserva vestígios de diferentes fases de ocupação.
+- O forte participou de uma estratégia de ocupação ibérica na região amazônica.
+- O edifício cultural preserva registros de denominações históricas.
+- A rede hidrográfica contribuiu para a inserção regional em fluxos comerciais.
+- A identificação combina arquitetura, economia do látex e localização fluvial.
+- A diferenciação entre capitais amazônicas pode usar nome e data de inauguração do teatro.
+
+### Ópera de Sydney
+
+A Ópera de Sydney é um centro de artes cênicas projetado por Jørn Utzon, com coberturas em forma de conchas e implantação junto à baía.
+
+- **Edifício cultural**: Ópera de Sydney.
+- **Forma das coberturas**: Grupos de abóbadas semelhantes a conchas.
+- **Arquiteto do projeto premiado**: Jørn Utzon.
+- **Cidade**: Sydney.
+
+**Viajante**
+
+- O destino é um edifício cultural perto da água.
+- Sua cobertura tem formas que lembram conchas.
+- O conjunto tem três grupos dessas estruturas.
+- As conchas cobrem salas de espetáculos e um restaurante.
+- O prédio fica em uma península.
+- A água ao redor faz parte da experiência de ver o edifício.
+- O projeto foi escolhido por concurso internacional.
+- O autor escolhido era um arquiteto dinamarquês.
+- O arquiteto chamava-se Jørn Utzon.
+- O engenheiro Ove Arup contribuiu para a realização do projeto.
+- A construção foi inaugurada em 1973.
+- Ele fica na Austrália.
+- A cidade é a maior do estado de Nova Gales do Sul.
+- O prédio funciona como centro de artes cênicas.
+- Uma plataforma sustenta as coberturas.
+- Terraços ao redor permitem a circulação de pedestres.
+- O projeto envolveu arquitetos, engenheiros e construtores.
+- Sua silhueta é uma referência da arquitetura do século XX.
+- A UNESCO reconheceu o edifício como patrimônio.
+- O reconhecimento inclui o local na paisagem da baía.
+- A cobertura não é uma única casca contínua.
+- O projeto original antecedeu a inauguração em vários anos.
+- O local combina patrimônio e uso cultural atual.
+- A cidade pertence ao estado australiano de Nova Gales do Sul.
+- Para reconhecer o lugar, combine cobertura, uso cultural e baía.
+
+**Geógrafo**
+
+- O equipamento cultural ocupa uma posição de destaque em uma paisagem aquática.
+- A composição de coberturas abobadadas é organizada em formas semelhantes a conchas.
+- A cobertura é composta por três grupos de estruturas abobadadas.
+- As estruturas cobrem dois auditórios principais e uma área de restaurante.
+- A implantação ocorre na ponta de uma península que avança sobre a baía.
+- O projeto considera a relação visual entre arquitetura e paisagem aquática.
+- Um júri internacional premiou a proposta em 1957.
+- A autoria do projeto premiado é de um profissional da Dinamarca.
+- O projeto de 1957 foi atribuído a Jørn Utzon.
+- A engenharia de Ove Arup participou da viabilização estrutural da obra.
+- O edifício cultural abriu em 1973.
+- A obra está localizada no território australiano.
+- A implantação localiza-se na maior cidade de Nova Gales do Sul.
+- O uso cultural do conjunto inclui apresentações artísticas.
+- As formas abobadadas apoiam-se em um grande pódio estrutural.
+- O projeto articula a plataforma e espaços externos acessíveis a pedestres.
+- A obra resulta da colaboração entre concepção arquitetônica e engenharia.
+- A solução formal integra a arquitetura moderna do século XX.
+- O bem é reconhecido por valores arquitetônicos e técnicos.
+- O valor patrimonial envolve a posição e a relação com o entorno aquático.
+- O conjunto é formado por grupos de elementos abobadados interligados.
+- O concurso de 1957 e a inauguração de 1973 marcam momentos distintos da obra.
+- A conservação precisa considerar tanto a autenticidade quanto o funcionamento do centro cultural.
+- A posição administrativa está em New South Wales.
+- A identificação combina forma estrutural, função artística e implantação costeira.
+
+### Parque Nacional Uluru-Kata Tjuta
+
+O parque australiano reúne o maciço de arenito de Uluru e os domos de Kata Tjuta, em uma paisagem cultural viva dos povos Anangu.
+
+- **Área protegida**: Parque Nacional Uluru-Kata Tjuta.
+- **Composição do conjunto rochoso**: Arenito e domos de conglomerado.
+- **Povos tradicionais associados**: Anangu.
+- **País**: Austrália.
+
+**Viajante**
+
+- O destino fica em uma área de areia avermelhada.
+- Uma grande formação rochosa se eleva acima da planície.
+- O parque fica no interior da Austrália.
+- O conjunto reúne uma grande rocha e cúpulas rochosas.
+- A rocha maior é formada principalmente por arenito.
+- O outro conjunto apresenta várias cúpulas de rocha.
+- As cúpulas são conhecidas como Kata Tjuta.
+- As cúpulas ficam a oeste da grande formação.
+- A cor aparente das rochas muda com a luz.
+- Tons avermelhados, alaranjados e violetas aparecem na paisagem.
+- O lugar tem importância cultural para povos originários.
+- Os proprietários tradicionais são os Anangu.
+- A tradição conhecida como Tjukurpa se relaciona à paisagem.
+- A cultura local continua viva no presente.
+- Algumas histórias são transmitidas entre gerações.
+- O parque protege natureza e cultura.
+- A chuva pode formar quedas temporárias nas encostas.
+- Há cavidades na base de algumas áreas rochosas.
+- A paisagem se formou ao longo de processos geológicos muito longos.
+- É um lugar distante das principais cidades costeiras.
+- O ambiente ao redor é desértico.
+- A gestão inclui conhecimentos de povos tradicionais.
+- Queimadas conduzidas com orientação tradicional ajudam no manejo.
+- A UNESCO reconhece o parque como patrimônio.
+- Para diferenciar de outras formações, combine rocha, domos e cultura viva.
+
+**Geógrafo**
+
+- A paisagem inclui planícies arenosas do interior australiano.
+- Um relevo isolado contrasta com a superfície relativamente plana ao redor.
+- A unidade protegida está no centro do continente australiano.
+- A paisagem protegida articula dois conjuntos de relevos rochosos distintos.
+- A formação principal é um grande maciço de arenito.
+- O relevo vizinho é constituído por domos de conglomerado.
+- O conjunto de domos a oeste recebe o nome de Kata Tjuta.
+- Os dois conjuntos têm posições distintas no espaço protegido.
+- A incidência solar, as sombras e a chuva alteram a percepção das cores.
+- A variação cromática decorre de condições de iluminação e ambiente.
+- A paisagem é uma expressão viva da cultura indígena local.
+- A relação cultural e territorial envolve os povos Anangu.
+- A lei e a espiritualidade Anangu conectam narrativas, pessoas e território.
+- Práticas e conhecimentos Anangu permanecem ativos na gestão da paisagem.
+- A transmissão intergeracional sustenta conhecimentos e responsabilidades.
+- A inscrição patrimonial reúne valores naturais e culturais.
+- O escoamento em fissuras produz cascatas temporárias durante a chuva.
+- O intemperismo granular contribui para cavidades em ambiente árido.
+- A evolução do relevo envolve processos tectônicos e geomorfológicos.
+- A posição interiorana contrasta com a localização de grandes centros litorâneos.
+- O clima e a vegetação refletem um contexto árido interiorano.
+- Práticas de manejo Anangu integram a conservação do território.
+- O uso orientado do fogo pode reduzir riscos de incêndios extensos.
+- O bem possui reconhecimento internacional por critérios naturais e culturais.
+- A identificação articula geologia, posição e relações territoriais Anangu.
+
+### Monte Kilimanjaro
+
+O Kilimanjaro, na Tanzânia, é um grande maciço vulcânico com os picos Kibo, Mawenzi e Shira, onde fica o ponto mais alto da África.
+
+- **Montanha**: Monte Kilimanjaro.
+- **Picos principais**: Kibo, Mawenzi e Shira.
+- **Origem do relevo**: Vulcânica.
+- **País**: Tanzânia.
+
+**Viajante**
+
+- Uma montanha se destaca acima de grandes planícies.
+- O destino é protegido como parque nacional.
+- A montanha fica no continente africano.
+- O país onde fica o parque é a Tanzânia.
+- A montanha é a mais alta do continente africano.
+- O cume chega a aproximadamente 5.895 metros.
+- A montanha tem origem vulcânica.
+- O conjunto apresenta três picos vulcânicos principais.
+- Um dos picos se chama Kibo.
+- Outro pico se chama Mawenzi.
+- O terceiro pico principal é Shira.
+- A montanha se eleva sobre planícies circundantes.
+- A altitude influencia o ambiente encontrado nas encostas.
+- As partes mais altas têm condições muito diferentes das baixas.
+- Há áreas com neve e gelo nas grandes altitudes.
+- O cume e as encostas fazem parte da paisagem protegida.
+- A montanha pode ser comparada a outros picos vulcânicos.
+- O país não é o Japão.
+- A montanha é alta mesmo para os padrões do continente.
+- A UNESCO reconhece o parque como patrimônio natural.
+- A forma elevada pode ser vista em contraste com áreas baixas.
+- Os três nomes dos picos ajudam a diferenciá-la de outras montanhas.
+- O parque não é uma ilha oceânica.
+- Altitude e origem são informações diferentes sobre a montanha.
+- Para diferenciá-la de outros vulcões, combine país, altitude e picos.
+
+**Geógrafo**
+
+- O maciço montanhoso eleva-se isolado em relação às planícies próximas.
+- A unidade de conservação protege um grande maciço vulcânico.
+- O sítio situa-se na África oriental.
+- A localização político-administrativa é a Tanzânia.
+- O maciço possui o ponto culminante da África.
+- A altitude máxima indicada para o maciço é de cerca de 5.895 metros.
+- O relevo constitui um grande maciço de origem vulcânica.
+- A estrutura inclui três grandes centros vulcânicos.
+- Kibo integra os picos principais do maciço.
+- Mawenzi faz parte do conjunto vulcânico protegido.
+- Shira completa o trio de picos principais do maciço.
+- O contraste altimétrico entre cume e planície caracteriza o relevo.
+- Mudanças de altitude se relacionam a diferentes condições ambientais.
+- O gradiente altitudinal modifica as condições físicas ao longo do relevo.
+- A paisagem de altitude inclui remanescentes de neve e gelo.
+- A conservação compreende o relevo de alta montanha e seu entorno.
+- A origem vulcânica fornece um critério comum para comparar montanhas.
+- A localização africana distingue este destino de picos vulcânicos japoneses.
+- Sua posição altimétrica é máxima no continente onde se encontra.
+- O maciço protegido possui reconhecimento internacional de patrimônio natural.
+- O desnível em relação às planícies reforça a expressão visual do maciço.
+- A combinação de Kibo, Mawenzi e Shira identifica a estrutura do maciço.
+- A unidade está em território continental africano.
+- Reconhecer o maciço exige distinguir sua posição altimétrica de sua origem vulcânica.
+- A identificação articula localização, altitude e nomes de estruturas vulcânicas.
+
+
+## Ampliação do Centro-Oeste e da Antártida
+
+As fontes institucionais constam do banco; as pautas exigem calibração em partidas.
+
+### Área de Conservação do Pantanal
+
+A Área de Conservação do Pantanal reúne unidades brasileiras de proteção, com planícies sazonalmente inundáveis e relação com as bacias do Cuiabá e do Paraguai.
+
+- **Área protegida**: Área de Conservação do Pantanal.
+- **Dinâmica ambiental predominante**: Inundação sazonal de áreas baixas.
+- **Bacias associadas ao recorte**: Cuiabá e Paraguai.
+- **Animal associado à área**: Arara-azul.
+
+**Viajante**
+
+- O destino protege uma extensa paisagem de áreas úmidas.
+- Em parte do ano, a água ocupa áreas que antes estavam secas.
+- Quando as águas baixam, lagoas temporárias podem permanecer.
+- O pulso de cheia influencia a fauna da região.
+- Peixes usam ambientes conectados aos rios.
+- A água distribui nutrientes pela planície.
+- O rio Paraguai é uma referência hidrográfica do conjunto.
+- O rio Cuiabá também se relaciona à área reconhecida.
+- A área escolhida é um conjunto brasileiro de unidades protegidas.
+- O parque nacional é uma das áreas do conjunto protegido.
+- Outras áreas protegidas completam o conjunto reconhecido.
+- As reservas incluem Acurizal, Penha e Dorochê.
+- A Serra do Amolar aparece junto à planície.
+- Montanhas e terras alagáveis ficam próximas na paisagem.
+- A arara-azul é uma das espécies associadas à área.
+- Onças-pintadas também ocorrem no conjunto.
+- A região abriga ariranhas.
+- Um cervo adaptado a áreas alagáveis vive na região.
+- Há plantas aquáticas na paisagem.
+- Durante cheias, alguns animais podem buscar áreas mais altas.
+- Durante períodos secos, a umidade restante pode servir de refúgio.
+- A região faz parte do Centro-Oeste do Brasil.
+- O conjunto reconhecido representa apenas parte da grande região natural.
+- A conservação depende da dinâmica natural da água.
+- Para reconhecer o recorte, combine cheias, rios e Serra do Amolar.
+
+**Geógrafo**
+
+- O complexo protegido representa ambientes de planície inundável.
+- A inundação sazonal altera a conexão entre rios e áreas baixas.
+- A retração das cheias deixa corpos d’água em setores da planície.
+- As variações hidrológicas modificam a disponibilidade de habitats.
+- A rede hidrográfica permite deslocamento e crescimento de peixes.
+- O transbordamento contribui para dispersar nutrientes na bacia.
+- A área protegida tem relação com a bacia do rio Paraguai.
+- O complexo se localiza entre sistemas associados aos rios Cuiabá e Paraguai.
+- O recorte corresponde ao bem reconhecido pela UNESCO no Brasil.
+- A unidade federal integra um conjunto mais amplo de áreas protegidas.
+- O bem reúne um parque nacional e reservas contíguas.
+- As três reservas integram o complexo de conservação reconhecido.
+- O gradiente ecológico relaciona a Serra do Amolar às terras inundáveis.
+- A transição entre relevo elevado e planície alagada é marcante no recorte.
+- O conjunto conserva habitats da arara-azul entre outras espécies.
+- A fauna protegida inclui a onça-pintada.
+- A ariranha é um dos mamíferos associados aos ambientes aquáticos locais.
+- Entre as espécies protegidas há um cervídeo associado a áreas inundáveis.
+- A diversidade biológica inclui vegetação adaptada a ambientes aquáticos.
+- A variação do nível da água altera o uso espacial da planície pela fauna.
+- A manutenção de áreas úmidas contribui para a persistência da fauna na seca.
+- O recorte selecionado integra a região Centro-Oeste brasileira.
+- O bem protegido não corresponde à totalidade da extensa planície inundável.
+- Alterações no regime hidrológico podem afetar processos ecológicos.
+- A identificação articula regime de inundação, bacias e relevo adjacente.
+
+### Monte Erebus
+
+O Monte Erebus é um vulcão ativo na Ilha Ross, na Antártida; pesquisas descrevem um lago de lava persistente e a estação McMurdo fica na mesma ilha.
+
+- **Montanha**: Monte Erebus.
+- **Tipo de atividade**: Vulcânica, com lago de lava.
+- **Ilha onde se localiza**: Ilha Ross.
+- **Estação científica na mesma ilha**: McMurdo.
+
+**Viajante**
+
+- A montanha fica em uma região polar.
+- Trata-se de um vulcão ativo em ambiente muito frio.
+- O lugar é uma montanha de origem vulcânica.
+- Ele fica em uma ilha antártica.
+- A ilha é chamada Ross.
+- O cume fica a cerca de 3.794 metros de altitude.
+- Um lago de lava duradouro foi observado em sua região de cume.
+- A lava está em um ambiente cercado por neve e gelo.
+- Pesquisadores estudam seu sistema de alimentação magmática.
+- Um estudo identificou uma rota profunda de material fundido.
+- O lago tem composição de lava descrita como fonolítica.
+- Gases fazem parte da atividade do vulcão.
+- O dióxido de carbono é destacado em pesquisas sobre o sistema.
+- O lugar pode ser comparado a outros vulcões ativos.
+- A Ilha Ross tem outras montanhas além desse vulcão.
+- Uma montanha da ilha recebe o nome de Terror.
+- Outra montanha insular recebe o nome de Terra Nova.
+- Uma estação de pesquisa está situada na mesma ilha.
+- Essa estação é chamada McMurdo.
+- A estação neozelandesa Scott Base fica perto de McMurdo.
+- A estação fica perto da Península Hut Point.
+- A região polar tem outros vulcões ativos.
+- O sítio está no Hemisfério Sul.
+- A montanha não é o Polo Sul Geográfico.
+- Para diferenciar este vulcão de outros, combine continente, ilha e lago de lava.
+
+**Geógrafo**
+
+- O destino situa-se na Antártida.
+- A atividade magmática ocorre em uma região recoberta por gelo.
+- O relevo resulta de atividade vulcânica.
+- O maciço está situado em uma ilha da região antártica.
+- A localização insular corresponde à Ilha Ross.
+- A altitude aproximada do cume é de 3.794 metros.
+- O sistema vulcânico abriga um lago de lava persistente.
+- A paisagem associa atividade magmática e condições glaciais.
+- Dados geofísicos são usados para investigar o transporte de magma em profundidade.
+- O sistema apresenta um conduto relacionado a material fundido em profundidade.
+- Estudos classificam a lava persistente como fonolítica.
+- O sistema magmático transporta gases além do material fundido.
+- O sistema foi descrito como rico em CO₂.
+- A origem vulcânica oferece um critério de comparação com outros maciços.
+- O relevo insular inclui outros maciços além do vulcão ativo.
+- O Monte Terror é outro relevo da Ilha Ross.
+- O Monte Terra Nova integra o relevo da ilha.
+- A Ilha Ross abriga a estação de pesquisa McMurdo.
+- A infraestrutura científica insular inclui a estação McMurdo.
+- As instalações científicas incluem a Scott Base próxima de McMurdo.
+- A posição da estação se relaciona à Península Hut Point, na ilha.
+- O vulcanismo antártico inclui exemplos ativos além desse destino.
+- A localização antártica situa o vulcão no Hemisfério Sul.
+- O destino é um relevo vulcânico, não o ponto definido pelo eixo de rotação terrestre.
+- A identificação articula posição polar, Ilha Ross e sistema magmático persistente.
