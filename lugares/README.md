@@ -98,16 +98,16 @@ Viajante usa linguagem familiar e inclui rios, clima, relevo, cultura e paisagen
 | Parque Nacional da Serra da Capivara | Brasil / Nordeste |
 | Praça de São Francisco em São Cristóvão | Brasil / Nordeste |
 
-| Parque Nacional do Catimbau | Brasil / nordeste / america |
-| Parque Nacional de Ubajara | Brasil / nordeste / america |
-| Área de Proteção Ambiental Delta do Parnaíba | Brasil / nordeste / america |
-| Parque Nacional Marinho dos Abrolhos | Brasil / nordeste / america |
+| Parque Nacional do Catimbau | Brasil / Nordeste |
+| Parque Nacional de Ubajara | Brasil / Nordeste |
+| Área de Proteção Ambiental Delta do Parnaíba | Brasil / Nordeste |
+| Parque Nacional Marinho dos Abrolhos | Brasil / Nordeste |
 
-| Pirenópolis | Brasil / centro-oeste / america |
-| Goiânia | Brasil / centro-oeste / america |
-| Bonito | Brasil / centro-oeste / america |
-| Corumbá | Brasil / centro-oeste / america |
-| Campo Grande | Brasil / centro-oeste / america |
+| Pirenópolis | Brasil / Centro-Oeste |
+| Goiânia | Brasil / Centro-Oeste |
+| Bonito | Brasil / Centro-Oeste |
+| Corumbá | Brasil / Centro-Oeste |
+| Campo Grande | Brasil / Centro-Oeste |
 
 São 96 lugares, 192 conjuntos de pistas (dois por lugar), 4.800 pistas, 384 perguntas distintas e 2.904 alternativas: de 8 a 24 para identificar cada lugar e quatro nos demais campos; 51 lugares têm listas principais ampliadas. Cada conjunto oferece 25 pistas comuns, comportando duas cartas iniciais por jogador para mesas de 2 a 12 participantes. As cartas especiais são acrescentadas pelo motor conforme a duração.
 
