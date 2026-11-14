@@ -1,0 +1,1027 @@
+{
+  "sources": {
+    "GLACIARES145": {
+      "id": "GLACIARES145",
+      "title": "Los Glaciares National Park",
+      "publisher": "UNESCO World Heritage Centre",
+      "url": "https://whc.unesco.org/en/list/145/",
+      "checkedAt": "2026-11-14"
+    },
+    "GLACIARES_ANP": {
+      "id": "GLACIARES_ANP",
+      "title": "Ficha del área protegida, Parque Nacional Los Glaciares",
+      "publisher": "Administración de Parques Nacionales de Argentina",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/patagonia-austral/parque-nacional-los-glaciares/ficha-del-area-protegida",
+      "checkedAt": "2026-11-14"
+    },
+    "GLACIARES_HIST": {
+      "id": "GLACIARES_HIST",
+      "title": "Historia de Parques Nacionales",
+      "publisher": "Administración de Parques Nacionales de Argentina",
+      "url": "https://www.argentina.gob.ar/parquesnacionales/que-hacemos-en-parques-nacionales/historia",
+      "checkedAt": "2026-11-14"
+    }
+  },
+  "cases": [
+    {
+      "id": "lug2-los-glaciares",
+      "placeId": "los-glaciares",
+      "title": "Parque Nacional Los Glaciares",
+      "aliases": [
+        "Los Glaciares"
+      ],
+      "answerType": "parque nacional",
+      "sessionTitle": "Destino em descoberta",
+      "geography": {
+        "countries": [
+          "AR"
+        ],
+        "continents": [
+          "america"
+        ],
+        "brazilRegions": []
+      },
+      "question": "Que lugar é este e quais características completam seu mosaico?",
+      "focalFieldId": "C1",
+      "fields": [
+        {
+          "id": "C1",
+          "label": "Parque nacional",
+          "options": [
+            {
+              "id": "C1-O1",
+              "text": "Parque Nacional Los Glaciares"
+            },
+            {
+              "id": "C1-O2",
+              "text": "Parque Nacional Torres del Paine"
+            },
+            {
+              "id": "C1-O3",
+              "text": "Parque Nacional Bernardo O’Higgins"
+            },
+            {
+              "id": "C1-O4",
+              "text": "Parque Nacional Perito Moreno"
+            },
+            {
+              "id": "C1-O5",
+              "text": "Parque Nacional Nahuel Huapi"
+            },
+            {
+              "id": "C1-O6",
+              "text": "Parque Nacional Laguna San Rafael"
+            },
+            {
+              "id": "C1-O7",
+              "text": "Parque Nacional Los Alerces"
+            },
+            {
+              "id": "C1-O8",
+              "text": "Parque Nacional Tierra del Fuego"
+            },
+            {
+              "id": "C1-O9",
+              "text": "Parque Nacional Huascarán"
+            },
+            {
+              "id": "C1-O10",
+              "text": "Parque Nacional Cotopaxi"
+            },
+            {
+              "id": "C1-O11",
+              "text": "Parque Nacional Sajama"
+            },
+            {
+              "id": "C1-O12",
+              "text": "Parque Nacional Lauca"
+            }
+          ],
+          "answerId": "C1-O1",
+          "answerText": "Parque Nacional Los Glaciares",
+          "sources": [
+            "GLACIARES145"
+          ]
+        },
+        {
+          "id": "C2",
+          "label": "País",
+          "options": [
+            {
+              "id": "C2-O1",
+              "text": "Argentina"
+            },
+            {
+              "id": "C2-O2",
+              "text": "Chile"
+            },
+            {
+              "id": "C2-O3",
+              "text": "Peru"
+            },
+            {
+              "id": "C2-O4",
+              "text": "Bolívia"
+            }
+          ],
+          "answerId": "C2-O1",
+          "answerText": "Argentina",
+          "sources": [
+            "GLACIARES145"
+          ]
+        },
+        {
+          "id": "C3",
+          "label": "Região natural",
+          "options": [
+            {
+              "id": "C3-O1",
+              "text": "Patagônia andina"
+            },
+            {
+              "id": "C3-O2",
+              "text": "Puna andina"
+            },
+            {
+              "id": "C3-O3",
+              "text": "Pampas"
+            },
+            {
+              "id": "C3-O4",
+              "text": "Gran Chaco"
+            }
+          ],
+          "answerId": "C3-O1",
+          "answerText": "Patagônia andina",
+          "sources": [
+            "GLACIARES145"
+          ]
+        },
+        {
+          "id": "C4",
+          "label": "Lago que recebe gelo da geleira Perito Moreno",
+          "options": [
+            {
+              "id": "C4-O1",
+              "text": "Lago Argentino"
+            },
+            {
+              "id": "C4-O2",
+              "text": "Lago Viedma"
+            },
+            {
+              "id": "C4-O3",
+              "text": "Lago Nahuel Huapi"
+            },
+            {
+              "id": "C4-O4",
+              "text": "Lago Buenos Aires"
+            }
+          ],
+          "answerId": "C4-O1",
+          "answerText": "Lago Argentino",
+          "sources": [
+            "GLACIARES_ANP"
+          ]
+        }
+      ],
+      "profiles": {
+        "viajante": {
+          "label": "Viajante",
+          "cards": [
+            {
+              "id": "los-glaciares-viajante-P01",
+              "factKey": "los-glaciares-F01",
+              "text": "Este destino reúne montanhas, lagos e gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P02",
+              "factKey": "los-glaciares-F02",
+              "text": "Fica na América do Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P03",
+              "factKey": "los-glaciares-F03",
+              "text": "A área protegida fica na Argentina.",
+              "relatedFields": [
+                "C1",
+                "C2"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P04",
+              "factKey": "los-glaciares-F04",
+              "text": "O parque está na Patagônia.",
+              "relatedFields": [
+                "C1",
+                "C3"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P05",
+              "factKey": "los-glaciares-F05",
+              "text": "A cordilheira dos Andes integra a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P06",
+              "factKey": "los-glaciares-F06",
+              "text": "Muitas geleiras cobrem parte do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P07",
+              "factKey": "los-glaciares-F07",
+              "text": "A área protege uma grande reserva de água doce congelada.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P08",
+              "factKey": "los-glaciares-F08",
+              "text": "Algumas geleiras deságuam em lagos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P09",
+              "factKey": "los-glaciares-F09",
+              "text": "O Lago Argentino está parcialmente na área protegida.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P10",
+              "factKey": "los-glaciares-F10",
+              "text": "O Lago Viedma também recebe águas de geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P11",
+              "factKey": "los-glaciares-F11",
+              "text": "A geleira Perito Moreno é uma das atrações locais.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P12",
+              "factKey": "los-glaciares-F12",
+              "text": "Blocos de gelo podem se desprender da frente dessa geleira.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P13",
+              "factKey": "los-glaciares-F13",
+              "text": "Parte do gelo da região vem de um grande campo de gelo.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P14",
+              "factKey": "los-glaciares-F14",
+              "text": "Esse campo de gelo fica na Patagônia Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P15",
+              "factKey": "los-glaciares-F15",
+              "text": "Há picos de granito acima de três mil metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P16",
+              "factKey": "los-glaciares-F16",
+              "text": "O Monte Fitz Roy integra a paisagem de montanhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P17",
+              "factKey": "los-glaciares-F17",
+              "text": "O huemul é um cervo nativo encontrado na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P18",
+              "factKey": "los-glaciares-F18",
+              "text": "O condor-andino está entre as aves do parque.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P19",
+              "factKey": "los-glaciares-F19",
+              "text": "Florestas frias crescem em parte da área protegida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P20",
+              "factKey": "los-glaciares-F20",
+              "text": "A leste, a paisagem passa para a estepe patagônica.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P21",
+              "factKey": "los-glaciares-F21",
+              "text": "O parque tem áreas vizinhas protegidas no Chile.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P22",
+              "factKey": "los-glaciares-F22",
+              "text": "Torres del Paine é uma dessas áreas vizinhas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P23",
+              "factKey": "los-glaciares-F23",
+              "text": "A área foi reservada para conservação em 1937.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P24",
+              "factKey": "los-glaciares-F24",
+              "text": "A área enfrenta ameaças como incêndios e espécies introduzidas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-viajante-P25",
+              "factKey": "los-glaciares-F25",
+              "text": "O turismo exige planejamento para proteger a paisagem.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        },
+        "geografo": {
+          "label": "Geógrafo",
+          "cards": [
+            {
+              "id": "los-glaciares-geografo-P01",
+              "factKey": "los-glaciares-F01",
+              "text": "O sítio reúne feições glaciais, lagos e relevo montanhoso.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P02",
+              "factKey": "los-glaciares-F02",
+              "text": "Localiza-se no setor meridional dos Andes sul-americanos.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P03",
+              "factKey": "los-glaciares-F03",
+              "text": "A unidade situa-se na Patagônia argentina.",
+              "relatedFields": [
+                "C1",
+                "C2",
+                "C3"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P04",
+              "factKey": "los-glaciares-F04",
+              "text": "Sua área está na província argentina de Santa Cruz.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P05",
+              "factKey": "los-glaciares-F05",
+              "text": "A cordilheira patagônica é compartilhada pela Argentina e pelo Chile.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P06",
+              "factKey": "los-glaciares-F06",
+              "text": "Aproximadamente metade do bem é coberta por geleiras.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P07",
+              "factKey": "los-glaciares-F07",
+              "text": "O gelo acumulado constitui um grande reservatório de água doce.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P08",
+              "factKey": "los-glaciares-F08",
+              "text": "Muitas geleiras são alimentadas pelo Campo de Gelo Patagônico Sul.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P09",
+              "factKey": "los-glaciares-F09",
+              "text": "As geleiras Upsala, Onelli e Perito Moreno lançam gelo no Lago Argentino.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P10",
+              "factKey": "los-glaciares-F10",
+              "text": "As massas de gelo alimentam os lagos Viedma e Argentino.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P11",
+              "factKey": "los-glaciares-F11",
+              "text": "O avanço e a ruptura de gelo contribuem para a dinâmica observada no Lago Argentino.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P12",
+              "factKey": "los-glaciares-F12",
+              "text": "A frente da geleira Perito Moreno libera blocos de gelo no lago.",
+              "relatedFields": [
+                "C1",
+                "C4"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P13",
+              "factKey": "los-glaciares-F13",
+              "text": "Bacias lacustres e morainas registram a ação de glaciações.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P14",
+              "factKey": "los-glaciares-F14",
+              "text": "As formas do relevo refletem processos glaciais ao longo do Quaternário.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P15",
+              "factKey": "los-glaciares-F15",
+              "text": "O gradiente altitudinal ultrapassa três mil metros.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P16",
+              "factKey": "los-glaciares-F16",
+              "text": "O Monte Fitz Roy também é conhecido pelo nome Chaltén.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P17",
+              "factKey": "los-glaciares-F17",
+              "text": "O huemul integra a fauna nativa dos Andes austrais.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P18",
+              "factKey": "los-glaciares-F18",
+              "text": "O condor-andino figura entre as aves que se reproduzem na região.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P19",
+              "factKey": "los-glaciares-F19",
+              "text": "Florestas andino-patagônicas compõem parte dos ecossistemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P20",
+              "factKey": "los-glaciares-F20",
+              "text": "Em altitudes menores a leste ocorre transição para a estepe semiárida.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P21",
+              "factKey": "los-glaciares-F21",
+              "text": "Unidades protegidas contíguas do Chile favorecem uma rede de conservação transfronteiriça.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P22",
+              "factKey": "los-glaciares-F22",
+              "text": "O Parque Nacional Torres del Paine é uma unidade vizinha no lado chileno.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P23",
+              "factKey": "los-glaciares-F23",
+              "text": "A área foi reservada em 1937 e recebeu a categoria de parque nacional em 1945.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES_HIST"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P24",
+              "factKey": "los-glaciares-F24",
+              "text": "Incêndios, espécies invasoras e animais domésticos impactam os ecossistemas.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            },
+            {
+              "id": "los-glaciares-geografo-P25",
+              "factKey": "los-glaciares-F25",
+              "text": "O manejo da visitação busca conciliar turismo e conservação.",
+              "relatedFields": [
+                "C1"
+              ],
+              "sources": [
+                "GLACIARES145"
+              ],
+              "clueType": "territorio",
+              "signalStrength": "conexao",
+              "recommendedMoment": "middle",
+              "importance": "relevant",
+              "twoPlayerSuitable": true
+            }
+          ]
+        }
+      },
+      "reveal": {
+        "canonicalSummary": "Unidade de conservação da Patagônia argentina com geleiras andinas e lagos de origem glacial.",
+        "editorialNotes": [
+          "Revisar alternativas e calibrar em partidas.",
+          "O decreto de 1937 reservou a área; o governo argentino informa que a categoria de parque nacional veio em 1945. C3 e C4 usam alternativas mais comparáveis."
+        ]
+      },
+      "review": {
+        "structural": "pending",
+        "sourceLinked": true,
+        "factual": "pending-final-review",
+        "playtest": "pending",
+        "publication": "draft",
+        "editorial": "revisão de opções e cronologia em andamento"
+      }
+    }
+  ]
+}
